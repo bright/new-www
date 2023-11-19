@@ -17,7 +17,7 @@ language: en
 ---
 React Native is an abstraction over the native code, which allows us to have one code base for multiple platforms. Sounds great, right? Not everybody though is so enthusiastic about this approach. One of the reasons might be troublesome running and debugging the JavaScript code. In this blog post you may find a short tutorial on how to debug your app on Android and iOS, on a physical device or a simulator/emulator, the JavaScript code and the native one.
 
-![React Native](/images/n-ways-to-debug-rn/image1.jpeg)
+![React Native](../../static/images/n-ways-to-debug-rn/image1.jpeg "")
 
 ## **Run the iOS app**
 
@@ -25,13 +25,13 @@ It is quite convenient to create build configurations in your IDE. I personally 
 
 Go to `Add Configuration` (or `Edit configuration`, if you happen to have any configuration created already).
 
-![React Native](/images/n-ways-to-debug-rn/1-add-config.png)
+![React Native](../../static/images/n-ways-to-debug-rn/1-add-config.png "")
 
-![React Native](/images/n-ways-to-debug-rn/2-edit-config.png)
+![React Native](../../static/images/n-ways-to-debug-rn/2-edit-config.png "")
 
 Add a new `React Native` configuration. 
 
-![React Native](/images/n-ways-to-debug-rn/3-config-rn.png)
+![React Native](../../static/images/n-ways-to-debug-rn/3-config-rn.png "")
 
 Call it `Run iOS` or whatever is meaningful to you. As a `Target Platform` choose `iOS`. We can use either a physical device or a simulator to run the app on. 
 
@@ -41,19 +41,19 @@ Call it `Run iOS` or whatever is meaningful to you. As a `Target Platform` choos
 
 You can also include your `.env` file in the `Environment` property as follows: `ENVFILE=.env.staging`.
 
-![React Native](/images/n-ways-to-debug-rn/4-ios-config.png)
+![React Native](../../static/images/n-ways-to-debug-rn/4-ios-config.png "")
 
 ## **Run the Android app**
 
 Creating the run configuration for Android is pretty similar. Add another `React Native` configuration, give it a name and choose `Android` as a `Target Platform`. To run the app on a device or a simulator, you need to have `adb` installed. It is shipped with Android Studio, which is convenient to have installed anyway. To view and manage Android emulated devices, you may use Android Studio. From menu select `Tools -> AVD Manager`. You can also use the command line for this, check the details [here](https://developer.android.com/studio/run/emulator-commandline). To run the app on a physical device, you need to enable the developer mode on it. Once you run the app, it will be installed on all devices connected (to view the devices list, you can run `adb devices`).
 
-![React Native](/images/n-ways-to-debug-rn/5-android-config.png)
+![React Native](../../static/images/n-ways-to-debug-rn/5-android-config.png "")
 
 ## **Hot Reloading**
 
 Now that we can run the React Native app, there is a handy option, you may want to enable: `Hot Reloading`. To enable it, open the in-app developer menu with `CMD + D` (iPhone simulator), or `CMD + M` (Android emulator), or shake gesture (physical device). 
 
-![React Native](/images/n-ways-to-debug-rn/6-in-app.png)
+![React Native](../../static/images/n-ways-to-debug-rn/6-in-app.png "")
 
 Hot reloading will reflect any changes you make in the JavaScript code right away in the running app. This means you won’t need to reload your app. There is also another option available: `Live reload`. It will reload your app anytime you change the code, which means you will lose the current app state.
 
@@ -73,10 +73,10 @@ While developing a React Native app, most often you are focused on the JavaScrip
 2. Open the native subproject of your React Native app (probably placed in `android` or `ios` directory) in Android Studio or Xcode.
 3. Attach to the process:
         *In Android Studio open `Attach debugger to Android process`, check `Show all processes` and choose the device that your app is running on.
-   ![](/images/n-ways-to-debug-rn/7-attatch-android-1.png)
-   ![](/images/n-ways-to-debug-rn/8-attatch-android-2.png)*
+   ![](../../static/images/n-ways-to-debug-rn/7-attatch-android-1.png "")
+   ![](../../static/images/n-ways-to-debug-rn/8-attatch-android-2.png "")*
         In Xcode open `Debug` -> `Attach to Process` and choose your app process (it will likely be named as your app).
-   ![](/images/n-ways-to-debug-rn/9-attatch-ios.png)
+   ![](../../static/images/n-ways-to-debug-rn/9-attatch-ios.png "")
 4. Now you can debug the native code - the app code itself (which is probably not that necessary) as well as included libraries. The latter is extremely useful when you need to develop your own react-native-to-native bridge library.
 
 ## **Tips and tricks**
@@ -96,4 +96,4 @@ You can resolve most of these problems by taking one or more of the following st
 
 To sum up, the JavaScript debugging process is not as seamless and stable as you may be used to if you come from native technologies, but you still can and should benefit from the mentioned possibilities and techniques.
 
-<div class='block-button'><h2>We are looking for Mobile Developers</h2><div>Build with us Android or iOS applications! work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications.</div><a href="/career"><button>Check our career opportunities</button></a></div>
+<div className="block-button"><h2>We are looking for Mobile Developers</h2><div>Build with us Android or iOS applications! work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications.</div><a href="/career"><button>Check our career opportunities</button></a></div>

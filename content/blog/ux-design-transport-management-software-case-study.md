@@ -17,7 +17,7 @@ language: en
 ---
 **How to design transportation management software? What are the challenges and best practices to follow? Let us answer all the questions with a case study!**
 
-<div class="image">![UX Transport Management System](../../static/images/tms_ux_cover.png "UX Transport Management System")</div>
+<div className="image">![UX Transport Management System](../../static/images/tms_ux_cover.png "UX Transport Management System")</div>
 
 The client has reached out to us to build [customized software for freight forwarders](https://brightinventions.pl/projects/transportation-management-system/) to speed up and eventually automate the process of finding suitable transport orders and matching them with the right drivers.
 
@@ -27,7 +27,7 @@ However, **that’s just the one challenge of that job. Another was a product de
 
 Drawing from our experience in product design for this project, we want to share our insights on creating products tailored to the shipping industry.
 
-<div class="image">![Transport Management System](../../static/images/tms_social_preview.png "Transport Management System")</div>
+<div className="image">![Transport Management System](../../static/images/tms_social_preview.png "Transport Management System")</div>
 
 ## Challenges for transportation management system design
 
@@ -45,7 +45,7 @@ Drawing from our experience in product design for this project, we want to share
 
 In this case, **end users are freight forwarders who expect fast, precise and simple solutions that will speed up their work**. They don’t want beautiful design, images, and animations which might result in slowing the app’s performance. They can’t deal with any distractions as well. They expect the tools that will assist them in matching transport jobs with the right cars and couriers.
 
-<div class="image">![UX persona transport system management](../../static/images/tms_persona.png "UX persona transport system management")</div>
+<div className="image">![UX persona transport system management](../../static/images/tms_persona.png "UX persona transport system management")</div>
 
 **What he says**
 
@@ -100,7 +100,7 @@ Our team conducted many interviews during the MVP development process. However, 
 
 Creating a visual representation of this app required **a data-heavy design approach**. It is the process of creating interfaces or systems that effectively handle and display large amounts of complex data. It involves organizing, visualizing, and optimizing the interaction with data to facilitate understanding and decision-making.
 
-<div class="image">![UX design practices for transport management system](../../static/images/ux_practices_cover_tms.png "UX design practices for transport management system")</div>
+<div className="image">![UX design practices for transport management system](../../static/images/ux_practices_cover_tms.png "UX design practices for transport management system")</div>
 
 **Check out the data-heavy design practices we implemented for our client:**
 
@@ -112,13 +112,13 @@ So end users' requirement was to show listing next to matching cars – as many 
 
 You **can see that transport orders are displayed on the left and vehicles on the right. Although there are many of them on screen, they stand out thanks to the white background.**
 
-<div class="image">![Clear information architecture](../../static/images/tms_information_architecture.png "Clear information architecture")</div>
+<div className="image">![Clear information architecture](../../static/images/tms_information_architecture.png "Clear information architecture")</div>
 
 ### Designing cluster information
 
 Another product design challenge was to design clustered information. For example, one transport order could be associated with 10 vehicles which have to be accessible all in one place. **Our solution was to create scrolling bubbles**. Obviously, every scrolling has to have an indicator that shows that data should be scrolled. It might seem obvious, but these are the small details that might be sometimes missed while developing advanced systems.
 
-<div class="image">![Designing cluster information](../../static/images/tms_ux_scrolling.png "Designing cluster information")</div>
+<div className="image">![Designing cluster information](../../static/images/tms_ux_scrolling.png "Designing cluster information")</div>
 
 ### Taking into account users' mental model
 
@@ -126,7 +126,7 @@ Another product design challenge was to design clustered information. For exampl
 
 Our team incorporated users' mental model into this design:
 
-<div class="image">![User' mental model](../../static/images/tms_ux_mental_model.png "User' mental model")</div>
+<div className="image">![User' mental model](../../static/images/tms_ux_mental_model.png "User' mental model")</div>
 
 This is the routing design. The green square means loading and the orange circle means unloading which is based on the users' mental model. However these color associations and shapes don’t have to be universal to anyone, this is a specific mental model of users representing the shipping industry.
 
@@ -138,11 +138,11 @@ The app’s navigation should be accessible and similar to other well-known tool
 
 **The right UX shows you exactly what action is expected from you with one simple look**. Although this screen shows lots of data the buttons are standing out thanks to the dedicated color and the right size. Also, the Call to Action (CTA) is short but clear and informative – users know what to expect when they click the button.
 
-<div class="image">![UX buttons](../../static/images/tms_ux_buttons.png "UX buttons")</div>
+<div className="image">![UX buttons](../../static/images/tms_ux_buttons.png "UX buttons")</div>
 
 The button’s design should emphasize the hierarchy of the actions users should take. **Product designers should help users and point them in the right direction**. Yet still giving them an alternative option (secondary button). Below you’ll find an example of the button hierarchy:
 
-<div class="image">![UX button hierarchy](../../static/images/tms_ux_buttons_hierarchy.png "UX button hierarchy")</div>
+<div className="image">![UX button hierarchy](../../static/images/tms_ux_buttons_hierarchy.png "UX button hierarchy")</div>
 
 ### Flags UX
 
@@ -150,7 +150,7 @@ Our client operates in over 40 countries, so most of their routes are internatio
 
 Also, postal codes are important information for the end users, so they are easily accessible next to the flags. Flags are also a useful way to design language setting dropdowns.
 
-<div class="image">![UX Flags](../../static/images/tms_ux_flags.png "UX Flags")</div>
+<div className="image">![UX Flags](../../static/images/tms_ux_flags.png "UX Flags")</div>
 
 ### Color coding
 
@@ -158,11 +158,11 @@ The mockup below shows **the universal power of colors**. In this case, colors a
 
 These aren’t the actual statutes used in the app but we just show you the examples of associations that we quickly have while looking at these colors. 🙂
 
-<div class="image">![Color coding](../../static/images/tms_color_coding.png "Color coding")</div>
+<div className="image">![Color coding](../../static/images/tms_color_coding.png "Color coding")</div>
 
 You may also notice, that a vehicle in a blue color has a different shape. This icon means that the car is on the go.
 
-<div class="image">![Vehicle icons](../../static/images/tms_vehicle_icons.png "Vehicle icons")</div>
+<div className="image">![Vehicle icons](../../static/images/tms_vehicle_icons.png "Vehicle icons")</div>
 
 ### Iconography
 
@@ -170,7 +170,7 @@ Every product design requires iconography. **Although icons have to be unique, t
 
 Here are examples of icons showing users’ actions available on the app:
 
-<div class="image">![Icons](../../static/images/tms_ux_icons.png "Icons")</div>
+<div className="image">![Icons](../../static/images/tms_ux_icons.png "Icons")</div>
 
 Icons are recognizable. By looking at them it’s easy to guess their meaning. Naturally, icons should also be explained in the app because product designers shouldn’t assume that users understand all their intentions. Nevertheless, these icons are approachable, easy to comprehend and remember what they mean. That’s the goal. 🙂
 
@@ -178,7 +178,7 @@ Icons are recognizable. By looking at them it’s easy to guess their meaning. N
 
 Bolding is a simple but powerful way to prioritize information. As an example take a look at the popup below. 
 
-<div class="image">![Popup](../../static/images/case_study_picture_tms_screen.png "Popup")</div>
+<div className="image">![Popup](../../static/images/case_study_picture_tms_screen.png "Popup")</div>
 
 **Bolding emphasizes the crucial information in the copy, helping to scan the text**. According to [Nielsen Norman Group research](https://www.nngroup.com/articles/how-users-read-on-the-web/) conducted in 1997! 79% od people only scann information on the website, 16% read word-by-word. It is probable that the data today shows an even greater preference for scanning.
 
@@ -192,7 +192,7 @@ Map design can be challenging because maps typically come with predetermined col
 
 Last but not least, **color contrast has to align with Web Content Accessibility Guidelines** ([WCAG](https://wcag.com/)) guidelines for accessibility.
 
-<div class="image">![Map](../../static/images/tms_case_study_screen_map.png "Map")</div>
+<div className="image">![Map](../../static/images/tms_case_study_screen_map.png "Map")</div>
 
 ## Are you planning to design and develop your solution for the logistics industry?
 

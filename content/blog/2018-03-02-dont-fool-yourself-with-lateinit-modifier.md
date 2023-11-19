@@ -138,7 +138,7 @@ It's quite easy to spot a risky assignment in `onCreate` as retrieving `mediaUri
 
 On the other hand, the code is clear and simple and it's not too hard to test it. But if you feel your specific case needs a bit of explanation then I encourage you to document such design decision.
 
-![Risk inside](/images/dont-fool-yourself-with-lateinit-modifier/risk_inside.jpg)
+![Risk inside](../../static/images/dont-fool-yourself-with-lateinit-modifier/risk_inside.jpg "")
 
 ### Nullable #1: crash-free approach
 

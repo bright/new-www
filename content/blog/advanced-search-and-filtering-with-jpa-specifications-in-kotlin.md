@@ -183,4 +183,4 @@ private fun getCustomers(queryObject: CustomerQuery, pageable: Pageable): Page<C
 
 And this is it! We can now combine each of the granular specifications in whatever combination we want without the need of adding a new method for every use case like we would do with the standard JPA Repository approach.
 
-<div class='block-button'><h2>Come to the Bright Side</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>check our career opportunities</button></a></div>
+<div className="block-button"><h2>Come to the Bright Side</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>check our career opportunities</button></a></div>

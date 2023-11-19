@@ -17,7 +17,7 @@ language: en
 ---
 **Substrate is an SDK that enables you to build your blockchain from previously built components. Do you want to be a blockchain developer? Thanks to Substrate, joining the blockchain development community has never been easier. Find out why!**
 
-![benefits of substrate blockchain](/images/blog_substrate_blockchain.png)
+![benefits of substrate blockchain](../../static/images/blog_substrate_blockchain.png "")
 
 ## Substrate is the fastest way to build blockchain
 
@@ -47,4 +47,4 @@ Do you want to know more about developing blockchain? Check out our tutorial abo
 
 Or maybe you want to build your own [Substrate blockchain solution?](/our-areas/blockchain)
 
-<div class='block-button'><h2>Are you looking for Substrate experts?</h2><div>We specialize in integrating web and mobile apps with blockchain solutions. Our team works closely with Polkadot and Kusama nets. Contact us to estimate your Substrate Blockchain solution.</div><a href="/start-project"><button>Let's talk about your product</button></a></div>
+<div className="block-button"><h2>Are you looking for Substrate experts?</h2><div>We specialize in integrating web and mobile apps with blockchain solutions. Our team works closely with Polkadot and Kusama nets. Contact us to estimate your Substrate Blockchain solution.</div><a href="/start-project"><button>Let's talk about your product</button></a></div>

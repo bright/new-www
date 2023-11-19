@@ -17,7 +17,7 @@ language: en
 ---
 **10 years, 53 projects and 70 people on board… Let’s talk to Ula who has been shaping our bright team for over five years. Find out what team we have tried to build and what values have been driving us for the last decade.**
 
-![Ula Stankiewicz Bright Inventions](/images/ula_blogpost_brightbirthday.png)
+![Ula Stankiewicz Bright Inventions](../../static/images/ula_blogpost_brightbirthday.png "")
 
 ## You came to Bright Inventions 5 years ago when the team consisted of 8 people. Now we have over 70 team members. How did you increase these numbers with pretty small resources?
 
@@ -35,7 +35,7 @@ This process has been modified and optimized over the years. In the beginning, w
 
 Recently we have been working hard to involve more team members in the recruitment process so our experienced devs are a part of the team that conducts technical talks. And it is crucial that everyone follows the same rating rules, scales and search for the same values. The process has become a bit more structured. 
 
-![Recruiting process at Bright Inventions](/images/bright_inventions_recruiting_process_tech.png)
+![Recruiting process at Bright Inventions](../../static/images/bright_inventions_recruiting_process_tech.png "")
 
 How does it look? To cut the long story short, every candidate after the screening session has an initial call with one of our recruiters. **We want to find out if we can really bring value to someone’s development**. I believe it should work like that. **It is just like in a relationship**. Based on resumes we can see more or less what candidates have to offer. The point is that they should also know what they may expect after joining our team and how we can help them in their further career. Feedback starts here. 
 
@@ -57,7 +57,7 @@ It is an easy question, at least I suppose it is. **We are looking for people wh
 
 We have five core values and we use these values in each possible situation. Starting from recruitment, marketing and communication strategies and ending in our daily work in projects.  
 
-![Bright Inventions 10th birthday](/images/10_years_bright_team.png)
+![Bright Inventions 10th birthday](../../static/images/10_years_bright_team.png "")
 
 We also use so-called value based recruitment, the approach that lets you check if your potential employee’s values match with your organization's values and mindset. In fact, the success itself is often sustained by values we are committed to. 
 
@@ -65,7 +65,7 @@ But coming back to the point. As I have said we have [five company values](/abou
 
 ## How do you take care of team building in times of hybrid and remote work?
 
-![hybrid working model at Bright Inventions](/images/christmas_meeting.png)
+![hybrid working model at Bright Inventions](../../static/images/christmas_meeting.png "")
 
 When the pandemic started, we rather quickly came from offline to online. Actually, the easiest part was to move recruitment processes online. Maintaining team spirit has been more challenging. People suddenly couldn’t meet face to face. **The crucial part was to maintain the human factor**. Despite online work, we have been organizing lots of opportunities to stay in touch with each other.  Firstly, we started with a morning call to start the day together. The call was at 7.45 AM so obviously not everyone wanted or was able to participate. 😉 Then we started to use the **[Donut](https://www.donut.com) app** that enabled us to have short lunch breaks and calls with people from our team. 
 
@@ -79,7 +79,7 @@ In practice it means a lot of conversations, compassion and problem solving. But
 
 **I can see that people generally in life struggle to give useful feedback or to give any feedback at all**. I am happy that I work with these who are open and at Bright feedback culture works pretty well. But the common problem is that very often we have been not taught how to give and get feedback, especially regarding negative one, which is the best thing we can experience (if it is communicated properly, of course). People are frequently afraid of showing their true feelings and opinions. They are afraid of the reaction that may follow. To stay friends they can keep tough feedback to themselves and in consequence valuable insights are never given. It happens. Maybe not here, but still it does. 
 
-![feedback](/images/feedback_culture.jpeg)
+![feedback](../../static/images/feedback_culture.jpeg "")
 
 **Introducing continuous feedback culture is showing your team that they will not be punished for sharing their views when you disagree with them**. You have to create space for open discussions. At the same time it is **educating people that we should not feel hurt or offended when someone asks us to change our behaviour**. Natural reaction is defense and protecting our ego while hearing criticism, but feedback is not about criticizing, it is about continuous improvement and taking care of each other. 
 

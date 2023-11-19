@@ -16,7 +16,7 @@ language: en
 ---
 **Undertaking a brand new idea and turning it into a successful product is always thrilling but also risky. In order to create a successful and meaningful project it is essential first to build [Minimum Viable Product (MVP)](/our-areas/mvp-development) to see if we are on the right track and if our strategy is going in the right direction. That is why, building MVP gives us an advantage, as it helps define all possible pitfalls, eliminates gaps in a wholesome product in future, or even helps to understand if our approach should be changed completely already on the early stage of the project.** 
 
-![](/images/alisa_desdevcollaboration-copy.png)
+![](../../static/images/alisa_desdevcollaboration-copy.png "")
 
 Hence, the work environment of MVP should be highly lean and flexible, the collaboration of the team inside such environment should also resemble all traits of resilience, an ability to adapt to a constant change at a rapid pace. Thus, a favourable outcome of MVP largely depends on the team, the way they communicate, adapt and collaborate with each other. Especially, when it comes to designer-developer joining forces, it is essential that they create **a work tandem** and do their best to achieve top results. How do we make sure that the designer-developer team work is lucrative? 
 
@@ -68,4 +68,4 @@ And particularly, do not get attached to already created solutions, be prepared 
 
 Contact us if you are looking for [MVP development agency](/our-areas/mvp-development). [](/our-areas/mvp-development)We are ready to help!
 
-<div class='block-button'><h2>Are you looking for MVP partner?</h2><div>Since 2012 we have built MVPs for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let’s talk abut your MVP</button></a></div>
+<div className="block-button"><h2>Are you looking for MVP partner?</h2><div>Since 2012 we have built MVPs for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let’s talk abut your MVP</button></a></div>

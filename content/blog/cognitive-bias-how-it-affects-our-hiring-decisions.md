@@ -50,7 +50,7 @@ An inclination to rely too heavily on the first piece of information we are give
 
 As human being we gravitate toward people like us — toward people who have something in common with us, who share the same worldview and can empathise with our experience. This tendency is known as an affinity bias. **It is our propensity to connect with people who share similar interests, backgrounds or beliefs.** If you meet someone in real life and this person likes mountain hiking as much as you do, it is likely you have a positive feeling about him/her. Nevertheless, the affinity bias is against difference and in consequence it may really narrow our possibilities and options. **In the hiring process it may manifest itself by treating particular candidates more favourably because they are like us or we just see the part of us in them.** 
 
-<div class="image">![affinity bias](../../static/images/affinity-bias.png "undefined")</div>
+<div className="image">![affinity bias](../../static/images/affinity-bias.png "undefined")</div>
 
 ## 7. **Perception bias**
 
@@ -66,7 +66,7 @@ An inclination to make a decision based on stereotypes and assumptions about a c
 
 A tendency to ignore dangerous, negative or potentially unpleasant information i.e. burying one’s head in the sand. **The ostrich effect may takes form of purposeful interpreting information in a negative way, inattention, forgetting or physical avoidance of something that may include unpleasant news.** It happens not only before making up one’s mind but also after making a decision. It is a possible indication that we only want to consider the positive aspects of something or someone. Ostrich bias is visible in many behaviours. Probably the most common one is connected with health conditions when a person in fear for receiving some bad information considering their health avoids visiting a doctor or doing regular check-ups.    
 
-<div class="image">![ostrich effect](../../static/images/ostrich-effect.png "undefined")</div>
+<div className="image">![ostrich effect](../../static/images/ostrich-effect.png "undefined")</div>
 
 Very often the ostrich effect bias occurs also in a conflict situations in the team when people are afraid of facing the conversations. **One of examples in a recruitment area is when recruiters know about some social problems of a candidate in a previous workplace but ignore them because of his/her perfect skillset.**
 
@@ -78,7 +78,7 @@ The majority of [people assume that they are better than average drivers](https:
 
 In psychology contras bias is described as **an intensified difference between two stimuli when they are brought together or follows each other.** As a result of contrast bias our judgments may differ significantly depending on the comparison standard. In a job interview the contrast bias takes places when recruiters are [evaluating the candidates in comparison to one another](https://vervoe.com/contrast-effect-in-hiring/). In this way the candidate is not individually assessed based on their qualifications but rather based on the prior candidates. 
 
-<div class="image">![contrast effect hiring ](../../static/images/contrast-effect-hiring.png "undefined")</div>
+<div className="image">![contrast effect hiring ](../../static/images/contrast-effect-hiring.png "undefined")</div>
 
 ## 12. **Framing bias**
 

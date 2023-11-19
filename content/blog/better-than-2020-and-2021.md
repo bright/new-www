@@ -36,7 +36,7 @@ As we mentioned before, Bright has been really blessed with not experiencing any
 
 Before the pandemic breakout in the early 2020 there were about 30 bright people in our team, now we are almost 70 and we are still growing. Despite the challenges and some uncertainties we have made our way in the "new" Covid-19 world while focusing on building and developing strong team culture. 
 
-![](/images/number_of_bright_employees.png)
+![](../../static/images/number_of_bright_employees.png "")
 
 There are team members who come to the office every day. There are some who drop by twice a week or just come over from time to time to meet in person and spend some time together with their project mates. As long as the high quality of communication and work-life balance are sustained we are ok with that. What we approve of at Bright is individualisation and keeping personal approach to each and every member of the team. Of course, the rules and opportunities to take are the same for all, but everyone can choose how they work. 
 
@@ -46,7 +46,7 @@ We believe that to achieve real success you have to develop your skills and adju
 
 One of the things that helped us personally stay in mental fitness during the last months was working out. It turned out that many people in our Bright Team enjoy sport and we started to do it together. Out of this an idea was born - sport is an excellent way to balance the stress of handling work, kids and life in general during pandemic times and a good way to socialize. It led to introducing regular sport classes for our team members. 
 
-![](/images/bright-sport.jpg)
+![](../../static/images/bright-sport.jpg "")
 
 We organise weekly running, biking and swimming classes as well as Friday in-house yoga time. Our coach, Bartosz Banach, is a pro-triathlete so we can not only have fun together but also improve our technique and beat individual records. With his support everything becomes possible. 
 

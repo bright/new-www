@@ -14,7 +14,7 @@ language: en
 
 Last week I attended a climbing competition dedicated for girls only to celebrate the international women’s day. It was held quite far away from my home town and on my way back I was wondering why I was so excited to attend a climbing competition for women and at the very same time I am so sceptical about any girls-only programming events.
 
-![publish](/images/girls-who-code/image1.jpg)
+![publish](../../static/images/girls-who-code/image1.jpg "")
 
 **Anyone will agree that men and women are built differently when it comes to both physique and physiology**. In general, climbing men benefit from being stronger, taller and more dynamic while climbing women are more flexible, have smaller fingers and weight less. In non-official climbing competitions, especially in qualifiers, it is common to have the same routes both for men and women. This is why I really wanted to take part in the girls-only comp: no too long moves, no too physical moves, in general no too men-style routes. No excuses! :)
 

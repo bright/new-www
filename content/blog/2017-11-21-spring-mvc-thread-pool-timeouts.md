@@ -26,7 +26,7 @@ A typical servlet container will use one or more thread pools to handle a reques
 * Undertow: `server.undertow.worker-threads` controlling [`WORKER_TASK_CORE_THREADS`](http://undertow.io/undertow-docs/undertow-docs-1.2.0/listeners.html) with a default of [`availableProcessors() * 8`](https://github.com/undertow-io/undertow/blob/b6a87a4b4a467b297363c46747c344faaee15ded/core/src/main/java/io/undertow/Undertow.java#L419)
 * Jetty: There is no Spring configuration property available currently. One can customize the Jetty Thread Pool through code and jetty specific configuration though. The default maximum number of worker threads is 200.
 
-![Thread pool](/images/thread-pool-timeouts/thread-pool.jpg)
+![Thread pool](../../static/images/thread-pool-timeouts/thread-pool.jpg "")
 
 ## What happens when the request processing thread pool is empty?
 
@@ -84,4 +84,4 @@ One of the ways to mitigate the issue and speed up system recovery is **to apply
 
 There are only couple of options available to set encompass request handling with a timeout. This is partially due to historical reasons. The servlet container specification did not consider timeouts until Async Servlet was defined. Another reason is that the there is no way [to safely *stop* a thread](https://docs.oracle.com/javase/1.5.0/docs/guide/misc/threadPrimitiveDeprecation.html) that a framework could use. The application code needs to cooperate to safely terminate the request handling execution. In the next post we will show how to add a request timeout to a Spring MVC application.
 
-<div class='block-button'><h2>Let's create software that matters!</h2><div>Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
+<div className="block-button"><h2>Let's create software that matters!</h2><div>Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>

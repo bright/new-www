@@ -69,7 +69,7 @@ Before reaching out to us, our clients had already designed a high-fidelity wire
 
 And so, Bright Inventions was entrusted with the implementation of the entire system – the development of two apps (iOS and Android), as well as the entire backend.
 
-![App for Parkinson's Patients](/images/app_for_parkinson_patients3.png)
+![App for Parkinson's Patients](../../static/images/app_for_parkinson_patients3.png "")
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
@@ -77,7 +77,7 @@ And so, Bright Inventions was entrusted with the implementation of the entire sy
 
 There were several challenges that we needed to address. Firstly, the app had to be inclusive of patients suffering from tremors or other movement disorders. Also, as the elderly constitute the majority of patients suffering from Parkinson’s, the interface needed to be legible, highly-intuitive, and minimize the chances of mistakes. If an accidental input were to take place, though, the interface also needed to allow the option to undo the action.
 
-![App for Parkinson's Patients](/images/app_for_parkinson_patients1.png)
+![App for Parkinson's Patients](../../static/images/app_for_parkinson_patients1.png "")
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
@@ -89,7 +89,7 @@ For this reason, Bright Inventions decided to break down the database into two �
 
 The first database stored basic user data, such as name or email address. The second database kept sensitive information, including medication intake or physical symptoms and sensations. Through this decision, we made sure that – in case of a data breach – the attacking party wouldn’t be able to access all the information. This way, there were virtually zero chances of matching symptoms or medication intake to specific patients’ names.
 
-![App for Parkinson's Patients](/images/app_for_parkinson_patients2.png)
+![App for Parkinson's Patients](../../static/images/app_for_parkinson_patients2.png "")
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
@@ -99,6 +99,6 @@ Altogether, our on the project work lasted for 5 months and was divided into two
 
 Upon the decision of the party that owned the app (so, our client’s client), the project was put on hold. At the moment, the next steps aren’t known, and the app isn’t available for download publicly.
 
-![App for Parkinson's Patients](/images/app_for_parkinson_patients4.png)
+![App for Parkinson's Patients](../../static/images/app_for_parkinson_patients4.png "")
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>

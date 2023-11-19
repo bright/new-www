@@ -15,7 +15,7 @@ language: en
 ---
 **In this little tutorial, I am going to show you how to turn Drools rule engine into a practical form of a deployable expert system. I will show you how to make your very own scoring service – like in the banks... well, almost. 😉 Of course, it will not be ready for production but it should give you enough fuel for your imagination to let you sketch your own solution.**
 
-<div class="image">![Drools Engine](../../static/images/blogpost_drools.png "Drools Engine")</div>
+<div className="image">![Drools Engine](../../static/images/blogpost_drools.png "Drools Engine")</div>
 
 Expert systems have been around for decades. Probably already in the times when 50MB hard drivers were of the size of washing machines. The best way of debugging was by using punch cards while smoking tons of cigarettes, of course in the office where it was possible and still cool. Perhaps. **😉**
 

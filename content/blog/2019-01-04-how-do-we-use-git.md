@@ -101,7 +101,7 @@ Now it's officially the lunch time 😉.
 
 Rebase is controversial mostly because it rewrites the history and makes our change appear with the different chronology then when it actually happened for the developer. This is a fact we're going to accept, mostly because we find it not that important to reason about the state of the codebase in the moment the change was introduced by the developer on their local machine. What is important, though, is when it was introduced into the mainline (`master` in our case) and deployed. And it's much easier to reason about this when our history tends to be linear instead of going through the number of interleaving commit lines with "merge of merge" commits that tend to happen in the repositories where merge is the preferred behavior.
 
-![Merges gone wild...](/images/git/wild-merges.png)￼￼￼
+![Merges gone wild...](../../static/images/git/wild-merges.png "")￼￼￼
 
 In our scenarios, the change isn't actually introduced to the codebase until it lands on `master`. And this is the moment we mostly care about. Rebase is equally precise about it as merge is, so let's keep things simple.
 

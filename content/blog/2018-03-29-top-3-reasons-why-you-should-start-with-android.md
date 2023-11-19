@@ -14,7 +14,7 @@ language: en
 ---
 People who start their professional coding adventure, whether they are still studying, just graduated or changing profession, may often hesitate what programming platform they should start with. So let me mention a few reasons why I think it's a great idea to start with Android.
 
-![Decision](/images/top-3-reasons-why-you-should-start-with-android/doors-1767563_1920_80.jpg)
+![Decision](../../static/images/top-3-reasons-why-you-should-start-with-android/doors-1767563_1920_80.jpg "")
 
 ## Platform availability
 

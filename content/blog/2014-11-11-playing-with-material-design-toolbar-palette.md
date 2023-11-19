@@ -28,19 +28,19 @@ It's looks like this:<br /><br />
 
 first screenshot
 
-![screenshot](/images/palette-example1.png)
+![screenshot](../../static/images/palette-example1.png "")
 
 second screenshot
 
-![screenshot](/images/palette-example2.png)
+![screenshot](../../static/images/palette-example2.png "")
 
 third screenshot
 
-![screenshot](/images/palette-example3.png)
+![screenshot](../../static/images/palette-example3.png "")
 
 fourth screenshot
 
-![screenshot](/images/palette-example4.png)
+![screenshot](../../static/images/palette-example4.png "")
 
 Let's code.<br />
 All dependencies we need:

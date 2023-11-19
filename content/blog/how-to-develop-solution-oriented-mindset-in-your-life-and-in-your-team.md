@@ -21,7 +21,7 @@ Throughout human history, survival was the primary concern, and addressing probl
 
 Our cognitive biases, such as [the negativity bias, make us more attentive to negative information](https://www.verywellmind.com/negative-bias-4589618). **We tend to remember and emphasise negative experiences over positive ones, reinforcing the idea that problems are more prevalent.** Even though we may no longer need to be on constant alert as our ancestors had to be in order to survive, the negativity bias still has a main role in our brain operations. It has a huge effect on how we think, feel and act. 
 
-<div class="image">![negativity bias](../../static/images/negativity-bias.jpeg "undefined")</div>
+<div className="image">![negativity bias](../../static/images/negativity-bias.jpeg "undefined")</div>
 
 Understanding the negativity bias can help you be more aware of your thought patterns and emotional responses. While it may be challenging to completely eliminate this bias, you may use some strategies to minimalise it. **Among the techniques you can find some simples ones such as practising gratitude, limiting expose to negative news (and negative people 😉), evaluating the validity of native thoughts or expressing appreciation.** 
 
@@ -63,7 +63,7 @@ The focus on solutions can empower any organisation and make better use of our t
 
 There is one special [solution-oriented therapy](https://solutionfocused.net/what-is-solution-focused-therapy/) that is worth mentioning here. [Steve de Shazer](https://www.goodtherapy.org/famous-psychologists/steve-de-shazer.html) together with [Insoo Kim Ber](https://www.goodtherapy.org/famous-psychologists/insoo-kim-berg.html), two developed a type of brief therapeutic approach that focuses on identifying and building solutions to a person’s problems rather than dwelling on the problems themselves. It is based on the belief that people have the resources and strengths to overcome challenges, and the therapist's role is to help them tap into those resources and find effective solutions.
 
-<div class="image">![solution focused communication](../../static/images/solution-oriented-language-.png "undefined")</div>
+<div className="image">![solution focused communication](../../static/images/solution-oriented-language-.png "undefined")</div>
 
 The same we can do with our everyday communication. **We can put a strong emphasis on identifying and amplifying solutions rather than analyzing problems in depth. To do that we can talk with the details about a preferred future where our problems have been resolved.** 
 
@@ -77,6 +77,6 @@ While describing SFT I did not mention one important question that is used in th
 
 By highlighting strengths, exceptions, and potential solutions we can be empowered to make positive changes and achieve desired outcomes. **Henry Ford said that “most people spend more time and energy going around problems than in trying to solve them” - I believe the emphasis should be always placed on identifying and building solutions to problems, rather than getting stuck in a cycle of dwelling on the problems themselves.** There are three guiding principles you can use every time you start creating problems:
 
-<div class="image">![guiding principles in solution oriented approach ](../../static/images/pinciples-solution-oriented-.png "undefined")</div>
+<div className="image">![guiding principles in solution oriented approach ](../../static/images/pinciples-solution-oriented-.png "undefined")</div>
 
 ###### Source: [https://slideplayer.com/slide/14741507](https://slideplayer.com/slide/14741507/)

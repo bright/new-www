@@ -35,7 +35,7 @@ Spike testing is a subtype of stress testing that **focuses on the performance o
 
 All types of testing help in defining problems and effectively, improving the quality of the end product. The essential task is to adjust the type of testing used to the questions we want to answer.
 
- ![testing models](/images/testingModelsPostman.png)
+ ![testing models](../../static/images/testingModelsPostman.png "")
 
 ## Constant rush
 
@@ -45,7 +45,7 @@ In all the projects I’ve been and am involved in, more often than not, time is
 
 Create a collection and add the API calls you want to test. We’ll use Bright Invention’s main page in our simple example. Set the HTTP method to GET, type in the URL, click ‘Send’ and voilà la! The response shows the HTML structure of the tested page and Postman allows to visualise it.
 
-![postman setup](/images/postman1.png)
+![postman setup](../../static/images/postman1.png "")
 
 ### 2. Randomness
 
@@ -58,7 +58,7 @@ To actually test, create an assertion that checks the response after every call.
 response time being under 400 ms,
 the response containing a certain string.
 
-![postman tests](/images/postman2.png)
+![postman tests](../../static/images/postman2.png "")
 
 In the first test, the status code should always be equal to 200 as our page should (obviously) be available at any given time. The second test checks if the response is received in under 400 ms (which is strict, I admit) and the third one checks if the HTML received in the response contains "Software Development Company | Bright Inventions" text.
 After sending the request, apart from the response, we can also check the test results. In my example, the first and third tests passed with flying colours but the second one failed due to the time exceeding the predefined threshold.
@@ -67,21 +67,21 @@ After sending the request, apart from the response, we can also check the test r
 
 How to turn the basic checkup of one response into a performance test? Simply pick the “Run collection” option. You can choose the number of iterations, delay between the iterations and also import the data file if needed. Postman allows picking only the requests that have to be run while omitting the rest.
 
-![postman test runner](/images/postman3.png)
+![postman test runner](../../static/images/postman3.png "")
 
 ### 5. Run, Forrest!
 
 And now - we wait…
 The iterations count was set to 100 so it shouldn’t take long. After under a minute we have our results:
 
-![postman test results](/images/postman4.png)
+![postman test results](../../static/images/postman4.png "")
 
 ### 6. Analyzing results
 
 We can see that out of 300 tests, some failed. All of the failed ones were the response time tests and we can see how the response took longer and longer to be received over time - and it only took us 100 iterations!
 The graph created based on the exported result shows that over time, exceeding the limit of 400 ms happens more often and that there are occasional spikes when the response is received after 500-600 ms.
 
-![response times](/images/responseTimePostman.png)
+![response times](../../static/images/responseTimePostman.png "")
 
 ## What’s next?
 

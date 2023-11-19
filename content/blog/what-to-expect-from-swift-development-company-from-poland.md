@@ -14,7 +14,7 @@ language: en
 ---
 **Everything you should know about working with Swift development agency from Poland.**
 
-![iOS development Poland](/images/ios_development.png)
+![iOS development Poland](../../static/images/ios_development.png "")
 
 ## What does the Swift development company do?
 
@@ -49,7 +49,7 @@ It has been a well-known fact for years. In 2016 [](https://blog.hackerrank.com/
 
 <center>
 
-![HackerRank Polish iOS developers](/images/hackerrank_polish_developers.png)
+![HackerRank Polish iOS developers](../../static/images/hackerrank_polish_developers.png "")
 
 </center>
 
@@ -63,7 +63,7 @@ Poland has challenged gender inequalities in software development. [HackerRank](
 
 <center>
 
-![female software developers Poland](/images/female_developers_hackerrank.png)
+![female software developers Poland](../../static/images/female_developers_hackerrank.png "")
 
 </center>
 
@@ -83,4 +83,4 @@ Examples of time differences:
 
 🇵🇱 Poland – 🇺🇸 New York: 6-hours time difference
 
-<div class='block-button'><h2>Looking for an iOS development company from Poland? </h2><div>You came to the right place. We build apps since 2012. Our experienced iOS team is ready to help you. Contact us to estimate your project.</div><a href="/start-project"><button>Let’s talk about your iOS solution</button></a></div>
+<div className="block-button"><h2>Looking for an iOS development company from Poland? </h2><div>You came to the right place. We build apps since 2012. Our experienced iOS team is ready to help you. Contact us to estimate your project.</div><a href="/start-project"><button>Let’s talk about your iOS solution</button></a></div>

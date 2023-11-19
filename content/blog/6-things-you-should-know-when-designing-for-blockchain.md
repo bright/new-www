@@ -20,7 +20,7 @@ Here are 6 things you should know before designing for Blockchain:
 
 <center>
 
-![what is blockchain giphy](/images/what_is_blockchain.gif)
+![what is blockchain giphy](../../static/images/what_is_blockchain.gif "")
 
 <sub>Source: [](https://treasury.bright.dev)[giphy.com](https://media.giphy.com/media/8LCJTIatQun21WXGFZ/giphy.gif)</sub>
 
@@ -44,7 +44,7 @@ Nevertheless, there are a few aspects you should put extra attention to:
 
 The user journey should be super clear. Transparency plays a key role, each step must be explicit and coherent. What does it mean? It means that as a designer you should add loaders showing progress, breadcrumbs, step navigations, etc. Make sure your user knows what is going on, especially when the transaction is going through, or if any status change occurs. Below you can find the example taken from our [BrightTreasury app](/projects/bright-treasury/). 
 
-![BrightTreasury app](/images/bright_treasury_app_mockup3.png)
+![BrightTreasury app](../../static/images/bright_treasury_app_mockup3.png "")
 
 <center> <sub>Source: BrightTreasury application</sub> </center>
 
@@ -52,7 +52,7 @@ The user journey should be super clear. Transparency plays a key role, each step
 
 Introduce the onboarding to your product, however, make sure it is relevant to the main features, omit secondary elements, show the uniqueness of the features, so the user does not get overwhelmed with many details. Remember, do not put more than 5 onboarding screens at once.
 
-![BrightTreasury app](/images/bright_treasury_app_mockup1.png)
+![BrightTreasury app](../../static/images/bright_treasury_app_mockup1.png "")
 
 <center> <sub>Source: BrightTreasury application designs</sub> </center>
 
@@ -60,7 +60,7 @@ Introduce the onboarding to your product, however, make sure it is relevant to t
 
 Provide precise information and eliminate all unnecessary actions. Clear communication is substantial. Give apparent explanations like hints and tooltips when necessary. Make sure your product is very simple to use, thus this simplicity is not a thief of the important elements, solidness, and credibility. 
 
-![BrightTreasury app](/images/bright_treasury_app_mockup2.png)
+![BrightTreasury app](../../static/images/bright_treasury_app_mockup2.png "")
 
 <center> <sub>Source: BrightTreasury application</sub> </center>
 
@@ -77,7 +77,7 @@ A developer who can explain the most bizarre peculiarities of the project - is a
 * The default personas in blockchain are Alice and Bob, there are more of them for the next letters in alphabetical order - Charlie, Dave, Eve, and Freddie. Maybe this is the least important fact, but I think it is a great one to know even in the design process. 
 * Blockchain avatars are a mixture of colorful dots. These dots on the avatar are unique dots that represent the account address. It is a popular concept in all blockchain networks. The dotted avatars are generated based on the blockchain address (a long series of characters).
 
-  ![polkadot dot icon avatar](/images/polkadot_avatar.png)
+  ![polkadot dot icon avatar](../../static/images/polkadot_avatar.png "")
 * Time in Blockchain is counted in blocks, not seconds… that is why when you see a weird number or a number starting with #, you can assume that this is an indicator of the time period. So, if it is # in the beginning, this is the block’s number in which something will happen, that is, a point in time. Plus, you can also come across a situation where the number of blocks is given as a period of time. For example: "the billing period will end in 123 blocks" or "the billing period will end in block # 123". As for the conversion, the block lasts 6s in the Polkadot network. So for 123 blocks, it is for 123 * 6s or 12 minutes and 18 seconds  (I had to ask our blockchain expert [Agnieszka](/about-us/agnieszka/) to help me with this one 😉). 
 
   Fun, right? Yep, but don’t forget to translate it to universally used time for those outside the blockchain community.

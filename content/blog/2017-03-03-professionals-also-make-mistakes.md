@@ -15,7 +15,7 @@ language: en
 
 We have nowadays many IT professionals, but let us think for a second what being an IT professional actually means. Is it only about being very good at programming? Is it about taking care of your code every night and day? Or maybe it is about wearing a suit and taking part in all possible IT events? In fact, being very good at programming is not enough to call yourself a professional developer. Professionalism needs something more than that. It is not only about being very good. Being a professional involves having great skills, but I dare to sat that not only skills are important here. 
 
-![image1](/images/professionals-also-make-mistakes/image1.jpg)
+![image1](../../static/images/professionals-also-make-mistakes/image1.jpg "")
 
 **Professionalism is in fact always your choice.** Sometimes it is even better, or perhaps easier, to be a non-professional - work may not be so demanding and still you will earn good money. The life of professionals is not a bed of roses and you should know that from the beginning. Professionals take responsibility for their work. They do not blame others for their own mistakes. When they create a bug, they  do not let everyone around pay for their mistakes. Being a professional developer is about facing consequences when you do something wrong. It is not only about doing your job well, not about your position or having ten, twenty or thirty years of experience. It is about learning from mistakes and not making the same errors over and over again. So, if you want to be a real professional, think about it twice because, believe me, it is not an easy thing to do.
 
@@ -23,7 +23,7 @@ We have nowadays many IT professionals, but let us think for a second what being
 
 **Being a professional developer is not, however, only about improving your code. It is about improving yourself.** Professionals develop continuously, learn new things systematically, practice to keep up with the current trends. It is extremely significant not to lag behind in this domain. And they do it because they want, not because an employer tells them so. A professional is the only person who is responsible for their career, not their boss, colleague, friend or wife. **Still wish to be a professional developer?** Read books, go to conferences, teach others, collaborate. Do everything that may help you be better and better. Can you describe 24 patterns in the GOF book? Do you know SOLID principles? Do you understand how Scrum, Kanban or Structure Analysis work? Do you practice Pair Programming, Continuous Integration or TDD? If the answer is NO, start because professionals do know all this stuff. They do not let the industry pass them by. 
 
-![image2](/images/professionals-also-make-mistakes/image2.jpg)
+![image2](../../static/images/professionals-also-make-mistakes/image2.jpg "")
 
 **Leave your comfort zone.** If you write software for the banking company, you should understand the field you work in. No one demands from you to be an expert, but you ought to know some basics. In other case you will not be able to recognise what you are doing wrong. Identify with your customers and employers to comprehend their needs better. Professionals ask questions. They are not afraid of learning new things. They are not afraid of asking questions. 
 

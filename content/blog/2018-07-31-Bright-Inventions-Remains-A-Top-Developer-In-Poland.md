@@ -19,11 +19,11 @@ As a digital business development agency, Bright Inventions specializes in the d
 It is by virtue of our diligent work ethic that we were featured on Clutch’s recent press release for the [Top Polish App Developers](https://clutch.co/app-developers/poland)! Clutch’s coverage of app developers in Poland includes over 200 firms, so we are proud to be highlighted as one of the best.
 
  
-![](/images/Clutch_3.png)
+![](../../static/images/Clutch_3.png "")
 
 Because of our impressive work and success, we have also been recognized as top [app developers](https://themanifest.com/pl/app-development/companies#brightinventions) and [web developers](https://themanifest.com/pl/web-development/companies#brightinventions) in Poland by Clutch’s sister website, The Manifest - a research platform meant to aid buyers in the awareness, discovery, and decision-making process of selecting an agency to hire for a project. Our profile on The Manifest gives a brief description of our services as well as our notable projects and clients.
 
-![](/images/Developers_Poland_2018.png)
+![](../../static/images/Developers_Poland_2018.png "")
 
 Clutch is a ratings and reviews company based in Washington, DC that covers technology development, marketing, design and related digital services so that users or business buyers can find the most suitable partners to assist on their projects.
 

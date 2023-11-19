@@ -19,7 +19,7 @@ language: en
 
 Recently we've checked [what benefits TypeScript adds in our React project](/blog/5-ways-to-benefit-from-typescript-in-react/). Let's now follow the typical path the front-end project takes nowadays and add [Redux](/blog/from-react-to-react-redux-in-a-few-steps/) into the mix. Unfortunately, by default Redux is not really type safe as it is in most cases presented as [switches over actions with arbitrary payloads](https://redux.js.org/introduction/core-concepts). But TypeScript is a powerful beast and with a bit of care we can make our Redux code not only type safe, but also much cleaner and more readable.
 
-![Redux + TypeScript](/images/react-ts/redux-ts.png)
+![Redux + TypeScript](../../static/images/react-ts/redux-ts.png "")
 
 ## Basic typing
 
@@ -234,7 +234,7 @@ function todoApp(state: AppState = {}, action: TodoAppAction): AppState {
 
 If you use a TypeScript-aware IDE (like [WebStorm](https://www.jetbrains.com/webstorm/), for example), you might notice that the action properties are now properly colored and the code completion works exactly as we might have dreamt. Let's now try our typo example again:
 
-![TypeScript properly checks Action payload types](/images/react-ts/reducer-typo.png)
+![TypeScript properly checks Action payload types](../../static/images/react-ts/reducer-typo.png "")
 
 A victory for humanity, isn't it?
 
@@ -298,7 +298,7 @@ const Link: React.StatelessComponent<LinkProps> = props => {
 
 This works fine, but this way we can't go further into `mapStateToProps` or `mapDispatchToProps` as these methods compose our final props object from independent parts and we either leave it untyped or describe it with some kind of workarounds like `Partial<LinkProps>` to at least give us the basic checks:
 
-![Workaround on mapStateToProps might help a bit](/images/react-ts/mapprops-partial-typo.png)
+![Workaround on mapStateToProps might help a bit](../../static/images/react-ts/mapprops-partial-typo.png "")
 
 Note we don't have a proper type for `ownProps` here, too, and "for convenience" we used `any`. Also, this approach let us return `onClick` property here which we clearly expect to be returned only from `mapDispatchToProps` in this case. Let's be explicit about it and split our props into three separate types: one for own props (passed from the parent component), one for state-based props and one for dispatch-based props:
 

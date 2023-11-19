@@ -19,7 +19,7 @@ comments: true
 published: true
 language: en
 ---
-![image](/images/human_side2.png)
+![image](../../static/images/human_side2.png "")
 
 Getting into the world of software development can be a really demanding task. Introducing clean code, providing tests to your solution, using the right tool for the job, keeping up with latest trends... these are all things that you were most probably told about at the time that you barely knew what programming was.\
 It seems that many people tend to neglect the side of development that hasn't got too much to do with machines, however in the long run should be at least as important for you as all technical skills.
@@ -42,7 +42,7 @@ If someone claims that working under stress is fine, then let me ask you a quest
 
 ## Work-Life balance
 
-![image](/images/human-side-of-software-development/balance.jpeg)
+![image](../../static/images/human-side-of-software-development/balance.jpeg "")
 
 When I was starting my career as a software developer I was really surprised when I saw people walking out of office at 3 o'clock and being unavailable until the next day. How could they possibly ignore and not respond to all these important emails that arrived while they were out? What if there was an expectation of a task being finished by yesterday? Shouldn't they sacrifice part of their free time to close the task ASAP?\
 Well... Being always available is not a reason to be proud of. Doing over hours is also not a heroic act. Take a moment and think - how often have you had a situation in which after coming back to an issue in the morning, you instantly solved the problem that you were struggling with the day before? This clearly shows us the importance of having a fresh mind, being well rested and feeling good in general. The fact that you cannot directly measure how much these things improve the quality of your work doesn't mean that you should ignore it.\

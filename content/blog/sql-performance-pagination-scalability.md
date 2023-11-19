@@ -23,7 +23,7 @@ The more you browse back in history (increase `LIMIT` and `OFFSET`) the more **r
 
 An answer for that would be to include a `WHERE` statement in a query with `FETCH FIRST X ROWS ONLY`, which does not select previous results. Each "page" is limited with a different `WHERE` statement.  It also has its own limitations (harder to implement pagination, harder to browser backward, fetch arbitrary pages) but at a cost of simplicity, you get a performance increase. 
 
-![Markus Winand SQL Performance Explained pagination scalability](/images/screenshot-2021-08-26-at-10.04.46.png "Pagination Scalability from SQL Performance Explained by Markus Winand")
+![Markus Winand SQL Performance Explained pagination scalability](../../static/images/screenshot-2021-08-26-at-10.04.46.png "Pagination Scalability from SQL Performance Explained by Markus Winand")
 
 Which option we should choose? As always in computer science - it depends :)
 

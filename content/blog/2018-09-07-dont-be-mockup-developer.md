@@ -15,7 +15,7 @@ language: en
 
 Many times as a mobile developer I have to work on apps without the API ready that was crucial for the feature I was implementing. Either the backend was developed by another team that was not entirely in sync with us or our backend team had no chance to implement those endpoints earlier. For this reason, I was not able to satisfy the [Definition of Done](/blog/definition-of-done) but it does not mean that I have implemented the UI only.
 
-![Workspace image](/images/dont-be-mockup-developer/workspace.jpg)
+![Workspace image](../../static/images/dont-be-mockup-developer/workspace.jpg "")
 
 ## Ninety-ninety rule
 
@@ -51,7 +51,7 @@ The more you think about the feature, the more ideas will come to your mind.
 
 The work we can do does not have to be limited to the code only. Since we know what we expect to get from the endpoint, and what data we have to provide, we can prepare an example request and response structures on our own. We can also prepare a list of suggested error codes that we can already handle in the app. Prototyping the API will help us understand the problem better and the backend developer for sure will appreciate our effort.
 
-![Shaking hands image](/images/dont-be-mockup-developer/support.jpg)
+![Shaking hands image](../../static/images/dont-be-mockup-developer/support.jpg "")
 
 ## Do your best
 

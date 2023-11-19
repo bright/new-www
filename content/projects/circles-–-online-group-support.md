@@ -76,7 +76,7 @@ Circles users attend live video and audio meetings. They also have the ability t
 
 Circles is a product developed by a startup in Israel. The client came to us thanks to a referral from our long-term client. We started our collaboration in June 2021. The product was already launched. Our team of experienced bright Fullstack Developers joined to support product development. **We are responsible for the web and mobile versions of the app by delivering full-stack and cloud computing solutions**.
 
-<div class="image">![Client's review](../../static/images/case_study_circles_client_quote.png "undefined")</div>
+<div className="image">![Client's review](../../static/images/case_study_circles_client_quote.png "undefined")</div>
 
 ### Agile approach
 
@@ -88,7 +88,7 @@ Bright Inventions works closely with the client, joining daily and weekly meetin
 
 Since we came on board, we helped to develop a group chat adding new features such as user engagement via chat and other tools. What is more, we implemented a user-friendly Circles group discovery section which was a part of the web onboarding process. It helped users to find the right support group to join. Naturally, we are also responsible for app maintenance.
 
-<div class="image">![onboarding mockup web](../../static/images/circles_mockup.png "It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team.")</div>
+<div className="image">![onboarding mockup web](../../static/images/circles_mockup.png "It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team.")</div>
 
 <sub> *It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team*. </sub>
 

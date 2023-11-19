@@ -54,7 +54,7 @@ language: en
 
 Contracts between FMCG brands and chain stores often specify strict product presentation guidelines. For instance, they might indicate that the product needs to be placed in a specific aisle or next to a competing brand. It’s up to retail store owners to ensure that this requirement is filled at all times, and that the products are restocked in a timely manner. 
 
-![app for FMCG](/images/pos_2_mockup.png)
+![app for FMCG](../../static/images/pos_2_mockup.png "")
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 

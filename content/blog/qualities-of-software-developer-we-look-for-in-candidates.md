@@ -17,7 +17,7 @@ One of my first tasks at the beginning of onboarding process at Bright Invention
 
 This book is written by Robert C. Martin called Uncle Bob, who is quite a popular developer and author for at least a few books for developers. Ula, my manager, believes that we can find in the book some reflections of a developer's mindset that we are looking for in Bright Inventions. As in every book there are some extremes, but the image of presented professional might be a guidance to understand what kind of behaviours and actions we want or don't want to have in our team. And is there a better way to get to know the “persona” of a software developer than reading a book about the professional developer you are looking for?
 
-<div class="image">![Sara - a recruiter at Bright Inventions](../../static/images/blog_candidate_qualities.png "Sara - a recruiter at Bright Inventions")</div>
+<div className="image">![Sara - a recruiter at Bright Inventions](../../static/images/blog_candidate_qualities.png "Sara - a recruiter at Bright Inventions")</div>
 
 My first reflection after reading "The Clean Coder" is that the author describes not only software developers, but people who are able to live in society and work effectively with other people. So I almost fully agree (well maybe with a small exception) with Uncle Bob and I believe that **everyone who wants to be a good employee and teammate should adapt to some rules, which can make us better in cooperation and effectiveness**. 
 

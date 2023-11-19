@@ -27,7 +27,7 @@ Today we would like to present to you our bright recruiters - [Agata](/about-us/
 
 **Ula:** It was very smooth, concise and positive. I had an interview with Michał and Daniel, the founders of Bright Inventions. I think we got on well from a few first minutes. They were super friendly, engaged and enthusiastic. I had done some research of the brand before we met, so I had a list of things I would like to implement if I would be hired. 
 
-![](/images/brightdev.png)
+![](../../static/images/brightdev.png "")
 
 ## Why did you decide to join Bright Team?
 
@@ -37,7 +37,7 @@ Today we would like to present to you our bright recruiters - [Agata](/about-us/
 
 **Ula:** The brand was not recognisable that time. I needed space where I could use my skills and people who would trust my intuition. I had a lot of ideas, I met interesting people during the interview and realised I had a chance to create something valuable almost from scratch. I am always saying that Bright Inventions was almost like a blank page and I really wanted to colour that page.
 
-![Agata Recruiting Specialist](/images/agata_rekru_team.jpg)
+![Agata Recruiting Specialist](../../static/images/agata_rekru_team.jpg "")
 
 ## Why did you choose a recruiter's path career?
 
@@ -47,7 +47,7 @@ Today we would like to present to you our bright recruiters - [Agata](/about-us/
 
 **Ula:** I think this role somehow chose me. I was perusing the career of marketing specialist, translator and tutor when after a few years recruitment appeared in my life. After entering this field I realised I had some skills that I hadn't perceived as anything unique before. At first I decided to focus on employer branding and recruitment marketing and then discovered my real interest into recruitment area. Now I am 3 in 1 . :)  
 
-![Paulina Recruiting Team ](/images/paulina_rekru_team.jpg)
+![Paulina Recruiting Team ](../../static/images/paulina_rekru_team.jpg "")
 
 ## What do you like most about your job?
 
@@ -57,7 +57,7 @@ Today we would like to present to you our bright recruiters - [Agata](/about-us/
 
 **Ula:** The fact that I can meet dozens of interesting people and help them find a good place for their development. And the fact that I am learning all the time. Every person is a new experience. The structure of the recruitment process is well-defined, but people are not defined at all. You can ask the same questions, but every time you get different answers. Every person that I meet teaches me something new. 
 
-![Ula Recruiting Team ](/images/ula_rekru_team-1-.jpg)
+![Ula Recruiting Team ](../../static/images/ula_rekru_team-1-.jpg "")
 
 ## Is there any (memorable, non-standard) recruitment experience you remember till today?
 
@@ -67,7 +67,7 @@ Today we would like to present to you our bright recruiters - [Agata](/about-us/
 
 **Ula:** A lot of them. I usually remember quite well all the processes I have run. For sure there have been things that surprised me such as candidates disappearing suddenly during an online meeting. :D But I think the most memorable for me are situations when people share their feelings with me and I can get to know them as real human beings not only as professionals. 
 
-![inspiration recruitment quote ](/images/agata_rekru_team_quote.png)
+![inspiration recruitment quote ](../../static/images/agata_rekru_team_quote.png "")
 
 ## What is your advice for potential applicants?
 
@@ -79,7 +79,7 @@ Today we would like to present to you our bright recruiters - [Agata](/about-us/
 \
 Choose wisely and be honest with us and with yourself. 
 
-![inspiration recruitment quote ](/images/paulina_rekru_team_quote.png)
+![inspiration recruitment quote ](../../static/images/paulina_rekru_team_quote.png "")
 
 ## How do you learn? How do you stay up-to-date with IT industry?
 
@@ -89,7 +89,7 @@ Choose wisely and be honest with us and with yourself.
 \
 **Ula:** By reading business and psychological books, listening to HR podcasts and talking with people. :) If it comes to functional programming knowledge I have a great team here who is always supportive and able to explain even the most complex programming issues. It is enough to ask and you are provided with all the information you need. 
 
-![](/images/ula-_rekru_team_quote.png)
+![](../../static/images/ula-_rekru_team_quote.png "")
 
 ## Do you have any motto that you really like?
 
@@ -104,4 +104,4 @@ That is the end for today. Stay tuned!
 
 If you would like to ask Agata, Paulina or Ula any questions, leave a comment below. 
 
-<div class='block-button'><h2>Join Bright people</h2><div>Apply and talk with our Bright recruiters. Find out what we've got to offer.</div><a href="/career"><button>Check our current job offers</button></a></div>
+<div className="block-button"><h2>Join Bright people</h2><div>Apply and talk with our Bright recruiters. Find out what we've got to offer.</div><a href="/career"><button>Check our current job offers</button></a></div>

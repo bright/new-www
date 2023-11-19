@@ -375,4 +375,4 @@ You can find the complete code [over GitHub.](https://github.com/bright/kotlin-e
 
 Read the next part of the series: [Exposed in Your Project - Part 2 - DAO](/blog/exposed-in-your-project-part-2-dao).
 
-<div class='block-button'><h2>Work with us</h2><div>Join our bright team! Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>check our career opportunities</button></a></div>
+<div className="block-button"><h2>Work with us</h2><div>Join our bright team! Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>check our career opportunities</button></a></div>

@@ -39,7 +39,7 @@ show on homepage: false
 published: false
 language: de
 ---
-![App for Parkinson's Patients](/images/app_for_parkinson_patients2.png)
+![App for Parkinson's Patients](../../static/images/app_for_parkinson_patients2.png "")
 
 *Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*
 
@@ -73,7 +73,7 @@ Bevor sie sich an uns wandten, hatten unsere Kunden bereits ein High-Fidelity-Wi
 
 Und so wurde Bright Inventions mit der Umsetzung des gesamten Systems betraut – der Entwicklung zweier Apps (iOS und Android) sowie des gesamten Backends.
 
-![App for Parkinson's Patients](/images/app_for_parkinson_patients3.png)
+![App for Parkinson's Patients](../../static/images/app_for_parkinson_patients3.png "")
 
 *Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*
 
@@ -81,7 +81,7 @@ Und so wurde Bright Inventions mit der Umsetzung des gesamten Systems betraut �
 
 Es gab mehrere Herausforderungen, die wir angehen mussten. Erstens musste die App für Patienten mit Tremor oder anderen Bewegungsstörungen geeignet sein. Da ältere Menschen die Mehrheit der an Parkinson erkrankten Patienten ausmachen, musste die Benutzeroberfläche gut lesbar und äußerst intuitiv sein um die Wahrscheinlichkeit von Fehlern zu minimieren. Sollte es jedoch zu einer versehentlichen Eingabe kommen, muss die Schnittstelle auch die Möglichkeit bieten, die Aktion rückgängig zu machen.
 
-![App for Parkinson's Patients](/images/app_for_parkinson_patients1.png)
+![App for Parkinson's Patients](../../static/images/app_for_parkinson_patients1.png "")
 
 *Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*
 
@@ -99,6 +99,6 @@ Insgesamt hat unsere Projektarbeit 5 Monate gedauert und bestand aus zwei Etappe
 
 Nach der Entscheidung der Partei, der die App gehörte (also des Kunden unseres Kunden), wurde das Projekt auf Eis gelegt. Im Moment sind die nächsten Schritte nicht bekannt und die App steht nicht öffentlich zum Download bereit.
 
-![App for Parkinson's Patients](/images/app_for_parkinson_patients4.png)
+![App for Parkinson's Patients](../../static/images/app_for_parkinson_patients4.png "")
 
 *Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*

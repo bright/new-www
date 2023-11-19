@@ -158,7 +158,7 @@ Traces logged in the console are not really readable. Let’s send our telemetry
 
 I will use Grafana Cloud. We need to start with creating a free Grafana Cloud account: https://grafana.com/. After your account is created, on the left sidebar select Connections and Hosted Logs:
 
-<div class="image">![Hosted Logs](../../static/images/hosted_logs.png "Hosted Logs")</div>
+<div className="image">![Hosted Logs](../../static/images/hosted_logs.png "Hosted Logs")</div>
 
 Go to the Configuration Details tab, provide Choose your use case to be “Send logs from a standalone host”, provide “API Key name” and select “Create API Key''.
 
@@ -266,7 +266,7 @@ import 'dotenv/config'
 
 Now, when we restart our app, logs should be transported to `grafana-agent`(which we run locally) and sent to the Grafana Cloud instance. Let's see them:
 
-<div class="image">![Grafana Cloud instance](../../static/images/grafana_cloud.png "Grafana Cloud instance")</div>
+<div className="image">![Grafana Cloud instance](../../static/images/grafana_cloud.png "Grafana Cloud instance")</div>
 
 Looks great!
 
@@ -329,7 +329,7 @@ ports:
 
 Now when we restart grafana-agent and example application, our application started to send traces: 
 
-<div class="image">![Grafana-Agent](../../static/images/grafana_traces.png "Grafana-Agent")</div>
+<div className="image">![Grafana-Agent](../../static/images/grafana_traces.png "Grafana-Agent")</div>
 
 ## Summary
 
@@ -339,4 +339,4 @@ You can find all steps in [example repository](https://gitlab.com/maciej.nawrock
 
 Good luck!
 
-<div class='block-button'><h2>Passionate senior backend developers needed. Apply today!</h2><div>We are looking for an experienced backend developer who understands Java/Kotlin & Spring really well and who would like to work with AWS on daily basis.</div><a href="/jobs/senior-backend-developer/"><button>join our team</button></a></div>
+<div className="block-button"><h2>Passionate senior backend developers needed. Apply today!</h2><div>We are looking for an experienced backend developer who understands Java/Kotlin & Spring really well and who would like to work with AWS on daily basis.</div><a href="/jobs/senior-backend-developer/"><button>join our team</button></a></div>

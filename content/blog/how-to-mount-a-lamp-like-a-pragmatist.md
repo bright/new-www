@@ -13,7 +13,7 @@ comments: true
 published: true
 language: en
 ---
-![mounting lamp](/images/blog_post_lamp_development.png)
+![mounting lamp](../../static/images/blog_post_lamp_development.png "")
 
 ## The Bad Example
 

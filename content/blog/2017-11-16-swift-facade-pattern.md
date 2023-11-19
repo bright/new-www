@@ -19,14 +19,14 @@ published: true
 language: en
 ---
 
-![facade image](/images/swift-facade-pattern/facade.jpg)
+![facade image](../../static/images/swift-facade-pattern/facade.jpg "")
 
 ## About the pattern
 
 Facade pattern is one of the Structural Patterns. The main aim of it is to hide the complexity of a system, class or logic and provide all functionalities behind a simple interface.
 Commonly, Facade is implemented in a way that one class is related to other classes which represents a system logic. Please take a look at the diagram:
 
-![diagram](/images/swift-facade-pattern/diagram.png)
+![diagram](../../static/images/swift-facade-pattern/diagram.png "")
 
 As you can see, there is one class called `Facade` which separates the logic from `LogicA`, `LogicB`, `LogicC` classes. As a result our client only call the `Facade` class in order to execute some methods that are implemented in other classes.
 
@@ -93,7 +93,7 @@ class PathProvider {
 
 Ok, so at the moment we have two classes with some logic inside. Now it's time to create a facade for it!
 
-![let's do this](/images/swift-facade-pattern/do_this.gif)
+![let's do this](../../static/images/swift-facade-pattern/do_this.gif "")
 
 Create a class called `ImageSaverFacade` :
 

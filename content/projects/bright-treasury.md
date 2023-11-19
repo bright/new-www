@@ -46,7 +46,7 @@ show on homepage: true
 published: true
 language: en
 ---
-![Bright Treasury](/images/treasuryappwww.png)
+![Bright Treasury](../../static/images/treasuryappwww.png "")
 
 <TitleWithIcon sectionTitle='main features of BrightTreasury:' titleIcon='/images/main_features_icon.png' titleIconAlt='Main features of BrightTreasury:' />
 
@@ -74,7 +74,7 @@ The [Treasury](https://wiki.polkadot.network/docs/learn-treasury) is a cryptocur
 
 Our focus is to attract more professionals who could contribute to the community with their ideas and skills but at the same time may not be as fluent in blockchain customs and terminology. [BrightTreasury](https://treasury.bright.dev?utm_source=referral&utm_medium=bright_website&utm_campaign=case_study_bright) application help them apply their proposals even if they aren’t blockchain experts. The funds are available for software agencies as well as companies that want to share knowledge about Substrate such as marketing agencies or video production studios. We believe that BrightTreasury app offers a chance to increase the number of fund proposals. Eventually, it will make the Substrate Blockchain a more accessible technology.
 
-![Bright Treasury Substrate](/images/treasuryapp_www.png)
+![Bright Treasury Substrate](../../static/images/treasuryapp_www.png "")
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
@@ -91,7 +91,7 @@ Following these needs, we have proposed a solution that will benefit the Substra
 
 The [custom software development](/our-areas/custom-software-development) process was broken into three milestones. The first two were completed in July 2021. The third one was completed in 2022. 
 
-![Bright Treasury blockchain](/images/treasury_www_3.png)
+![Bright Treasury blockchain](../../static/images/treasury_www_3.png "")
 
 ### Milestone 1 — Idea creating & Proposal submission & in-app logins
 

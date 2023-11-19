@@ -30,7 +30,7 @@ I cannot stress enough the importance of that rule in the [offline-first apps](/
 This is a screenshot where you can see a part of the tags list from the
 9GAG Android app.
 
-![9GAG post tags list](/images/forward-compatible-enums-in-kotlin/9gag-categories.jpg)
+![9GAG post tags list](../../static/images/forward-compatible-enums-in-kotlin/9gag-categories.jpg "")
 
 At least some of these tags look like they could have the appropriate
 translations, e.g. the "Music" tag. I'm not saying 9GAG actually

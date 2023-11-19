@@ -26,7 +26,7 @@ Feedback can become your team’s reality if you just implement a few simple ste
 
 **You can also use a simple method *[START, STOP, CONTINUE](https://www.superbeings.ai/blog/how-to-use-start-stop-continue-feedback).*** In the end each team member is reading aloud the answers they got.
 
-<div class="image">![undefined](../../static/images/start-stop-continue.png "undefined")</div>
+<div className="image">![undefined](../../static/images/start-stop-continue.png "undefined")</div>
 
 
 
@@ -105,7 +105,7 @@ The first element should be an example of positive behaviour or work content bas
 
 ![:pushpin:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f4cc@2x.png)**What to remember?** Green feedback is a great model to show what you love about someone’s performance or behaviours (even if it is a small part of their work) and at the same time it gives space to say why the behaviour pattern should be kept and how to expand it in the future. 
 
-<div class="image">![feedback bitter or better ](../../static/images/bitter-better-feedback.jpeg "undefined")</div>
+<div className="image">![feedback bitter or better ](../../static/images/bitter-better-feedback.jpeg "undefined")</div>
 
 ## **Five models but one goal** 
 

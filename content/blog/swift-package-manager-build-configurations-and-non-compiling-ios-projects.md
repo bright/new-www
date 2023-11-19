@@ -19,13 +19,13 @@ Swift Package Manager in Xcode is the newest way of managing third party depende
 
 In this article I am going through struggle of adding SPM to legacy project containing frameworks not compatible with Apple Silicon iOS simulators (arm64). If you are in rush for a solution head straight to [**SPM build configurations** paragraph](/blog/swift-package-manager-build-configurations-and-non-compiling-ios-projects/#spm-build-configurations).
 
-![Adding SPM to Legact Project](/images/blogpost_spm_tomasz.png)
+![Adding SPM to Legact Project](../../static/images/blogpost_spm_tomasz.png "")
 
 When working on greenfield projects SPM in most cases is really a breeze to use. In reality however quite frequently we find ourselves working on some kind of legacy projects with all of their quirks.
 
 **\[Disclaimer]:** Described problems and their solutions were tested on Xcode 13.2.1 and 13.4.1. Behavior may change in future Xcode releases. [Here](https://github.com/TLizer/SPM-build-configurations) you can find a repository with an example project.
 
-<div class='block-button'><h2>We are looking for iOS Developers</h2><div>Build with us the iOS application that will impact how Just Eat shapes the retail world. Or work for our other clients representing industries such as FinTech, Blockchain, HealthTech, and Logistics.</div><a href="/jobs/senior-ios-developer"><button>Apply and join our team</button></a></div>
+<div className="block-button"><h2>We are looking for iOS Developers</h2><div>Build with us the iOS application that will impact how Just Eat shapes the retail world. Or work for our other clients representing industries such as FinTech, Blockchain, HealthTech, and Logistics.</div><a href="/jobs/senior-ios-developer"><button>Apply and join our team</button></a></div>
 
 ## The problem
 
@@ -38,7 +38,7 @@ Could not find module <package name> for target 'x86_64-apple-ios-simulator';
 found: arm64, arm64-apple-ios-simulator
 ```
 
-![Could not find module \<package name> for target 'x86_64-apple-ios-simulator'; found: arm64, arm64-apple-ios-simulator](/images/could-not-find-module-for-target-error.png "Could not find module for target error")
+![Could not find module \<package name> for target 'x86_64-apple-ios-simulator'; found: arm64, arm64-apple-ios-simulator](../../static/images/could-not-find-module-for-target-error.png "Could not find module for target error")
 
 Whatever library I wanted to add to the project it always ended in the same way: error telling you that module for current architecture is lacking. At that point I left behind the idea of slow migration to SPM. When I stumbled on this issue once again I finally thought that something needs to be done about that.
 
@@ -50,7 +50,7 @@ Issue itself originates not from other dependency managers, but rather build set
 
 There are two main options to deal with that:
 
-![Drake xcode meme](/images/drake-xcode-meme.jpg "Drake xcode meme")
+![Drake xcode meme](../../static/images/drake-xcode-meme.jpg "Drake xcode meme")
 
 * Run Xcode using Rosetta - seems like a good idea and actually works, but it comes with a price. Time of clean build for our project increased from 112 to 165 seconds. That is almost 50% longer and I would suspect other performance penalties during day to day work.
 * Exclude arm64 architecture for iOS simulator sdk for your development build configuration. This is quite a straightforward and clever solution to the problem. Excluding arm64 architecture for the simulator forces xcode to build our app for x86_64 architecture on an iOS simulator that is compatible with our legacy framework ([stackoverflow post](https://stackoverflow.com/a/63955114)).
@@ -78,7 +78,7 @@ We just arrived at the conclusion that we need release configuration of SPM depe
 Module <package name> was not compiled for testing
 ```
 
-![Module \<package name> was not compiled for testing](/images/module-was-not-compiled-for-testing-error.png "Module not compiled for testing error")
+![Module \<package name> was not compiled for testing](../../static/images/module-was-not-compiled-for-testing-error.png "Module not compiled for testing error")
 
 As you may already suspect the solution here is totally opposite to what we just did before. In order to make such error go away we must compile our **Swift Package** with **debug configuration** and that means we need to add “debug” to our development configuration name. If at the same time you are dealing with a previous issue then this is not possible. We solved it by creating a separate scheme just for running unit tests of local packages.
 
@@ -86,4 +86,4 @@ As you may already suspect the solution here is totally opposite to what we just
 
 Swift Package Manager is a great way of managing third party dependencies in iOS projects. With new releases of Xcode it is getting more useful and powerful. Unfortunately SPM is still a young addition to Xcode and lacks some functionalities. Also its ephemeral way of implementation brings issues like those I have faced. In this particular case we could benefit from explicit documentation telling about **build configuration name parsing logic** applied to our **Swift Packages**. If you ever find yourself in a similar situation I hope this article will help you in sorting it out :)
 
-<div class='block-button'><h2>We are looking for iOS Developers</h2><div>Build with us the iOS application that will impact how Just Eat shapes the retail world. Or work for our other clients representing industries such as FinTech, Blockchain, HealthTech, and Logistics.</div><a href="/jobs/senior-ios-developer"><button>Apply and join our team</button></a></div>
+<div className="block-button"><h2>We are looking for iOS Developers</h2><div>Build with us the iOS application that will impact how Just Eat shapes the retail world. Or work for our other clients representing industries such as FinTech, Blockchain, HealthTech, and Logistics.</div><a href="/jobs/senior-ios-developer"><button>Apply and join our team</button></a></div>

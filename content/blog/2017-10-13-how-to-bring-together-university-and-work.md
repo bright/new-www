@@ -18,7 +18,7 @@ language: en
 I’ve started my adventure at Bright Inventions from a three month summer Internship, but now it’s time to go back to the university. It has got a little bit complicated when it turned out that I have to be in two places at the same time - I have tried bilocation, but unfortunately failed… And sometimes I need to sleep, so even trilocation is wanted.
 
 
-![wantedImage](/images/how-to-bring-together-university-and-work/wanted.jpg)
+![wantedImage](../../static/images/how-to-bring-together-university-and-work/wanted.jpg "")
 
 ## Typical day
 
@@ -26,7 +26,7 @@ Staying focused during lectures or laboratories requires a huge amount of energy
 
 One thing is needed to bring these things together - a positive attitude. Tell your brain that your work/study time is, in fact,  your spare time - you do what you like, so it’s not going to make you tired. That’s not all - your free time is also between the lectures and the time when you go from the university to work etc. You can dedicate this time to reading books or whatever you like. It should be just something that relaxes you. 
 
-![relaxImage](/images/how-to-bring-together-university-and-work/relax.jpg)
+![relaxImage](../../static/images/how-to-bring-together-university-and-work/relax.jpg "")
 
 ## To sleep, or not to sleep?
 
@@ -39,7 +39,7 @@ And here comes the most important moment - you are coming back home. And what no
 
 Ups, you did half of the planned things and look at the clock and it’s midnight and... your first lecture starts at 8 a.m.. In theory people need 8 hours of sleep every day to stay healthy, but students know that it’s a lie. :)  When you get 5 hours of sleep a day, you get an incredible ability to fall asleep under any circumstances, at any time, and in any position. So, five hours is really a lot. 
 
-![sleepImage](/images/how-to-bring-together-university-and-work/sleep.jpg)
+![sleepImage](../../static/images/how-to-bring-together-university-and-work/sleep.jpg "")
 
 ## Last, but not least...
 
@@ -47,7 +47,7 @@ To stay healthy in mind you shouldn’t forget about your family and friends (if
 And my last question is - how good are you at maths? Because I think all this leads us to an interesting mathematical paradox - day consists of 24 hours, but sometimes it’s possible to count them up to 30.
 
 
-![timeImage](/images/how-to-bring-together-university-and-work/time.jpg)
+![timeImage](../../static/images/how-to-bring-together-university-and-work/time.jpg "")
 
 
 I encourage everyone to be a student in some way - stay focused, be proud of what you do and use well all 48 hours of your each day. 

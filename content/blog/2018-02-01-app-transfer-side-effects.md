@@ -24,7 +24,7 @@ Once the application is moved to a new account **it is no longer available** on 
 
 ## Prepare yourself
 
-![image](/images/app-transfer-side-effects/breakdance.jpg)
+![image](../../static/images/app-transfer-side-effects/breakdance.jpg "")
 
 If your application uses any of these features, you need to take some additional actions:
 
@@ -40,7 +40,7 @@ Additionally, if an app is a part of a cross-app **Multiplayer Compatibility Mat
 
 ## It takes time
 
-![image](/images/app-transfer-side-effects/hairy-hand.jpg)
+![image](../../static/images/app-transfer-side-effects/hairy-hand.jpg "")
 
 Processing the app transfer can take up to two business days. During this time you will not be able to edit the app metadata, rights, pricing, and in-app purchases, so you should make sure you will not need any urgent changes during this time.
 

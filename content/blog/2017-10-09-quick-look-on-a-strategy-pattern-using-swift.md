@@ -16,7 +16,7 @@ comments: true
 published: true
 language: en
 ---
-![design patterns](/images/quick-look-on-a-strategy-pattern-using-swift/strategy.jpg)
+![design patterns](../../static/images/quick-look-on-a-strategy-pattern-using-swift/strategy.jpg "")
 
 Let's take a quick look at one of the design patterns that should help us to write a good Object-Oriented code.
 The basic assumption of Strategy Pattern is that you can define many implementations that will conform to the protocol.

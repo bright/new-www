@@ -73,7 +73,7 @@ Here are actions you can take with child bounties:
 
 ## Child Bounty life cycle stages
 
-![Polkadot & Kusama child bounty life cycle](/images/blog_post_childbounties_life_cycle.png)
+![Polkadot & Kusama child bounty life cycle](../../static/images/blog_post_childbounties_life_cycle.png "")
 
 Let’s dive into all child bounty life cycle stages:
 

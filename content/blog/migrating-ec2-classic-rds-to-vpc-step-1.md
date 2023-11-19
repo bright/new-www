@@ -22,7 +22,7 @@ are great blog posts with an in-depth
 explanation [of the SQL and PostgreSQL related aspects](https://www.percona.com/blog/postgresql-logical-replication-using-an-rds-snapshot/)
 . We are going to focus on the automation of the replication setup using AWS-CDK.
 
-![replicated lollipops](/images/replica.jpeg)
+![replicated lollipops](../../static/images/replica.jpeg "")
 
 ## The source EC2-Classic RDS database parameters
 

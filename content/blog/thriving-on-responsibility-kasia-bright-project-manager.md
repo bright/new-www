@@ -17,7 +17,7 @@ language: en
 ---
 **Just days before the important MVP launch Kasia found some time to share her thoughts on her professional role and challenges. Check out how strongly Kasia goes by Scrum. Also, read her recipe for successful communication with developers and clients. Here comes the story of Kasia, the Project Manager at Bright Inventions.**
 
-<div class="image">![Kasia - a project manager at Bright Inventions](../../static/images/brightstorykasia_collage.png "undefined")</div>
+<div className="image">![Kasia - a project manager at Bright Inventions](../../static/images/brightstorykasia_collage.png "undefined")</div>
 
 ## Like many developers, you studied Computer Science. What made you go on a project management path?
 
@@ -29,7 +29,7 @@ Also, I’ve always liked to manage. I wouldn’t call myself a natural leader, 
 
 I have been thinking about that from time to time. I still think about switching sides.
 
-<div class='block-button'><h2>Do you want to join Kasia?</h2><div>Join Kasia and build web and mobile solutions. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
+<div className="block-button"><h2>Do you want to join Kasia?</h2><div>Join Kasia and build web and mobile solutions. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
 
 ## You started your IT career here at Bright Inventions. How did that happen?
 
@@ -45,7 +45,7 @@ Yet later **when I started managing the project on my own I felt that I also got
 
 The Project Manager at Bright Inventions doesn’t play a typical scrum master role. I don’t only observe the process and offer suggestions. I definitely **work closely with product owners and take part in requirement specifications**. It takes a huge part of my day – to discuss what we and our client want to achieve.
 
-<div class="image">![skiing](../../static/images/brightteam_skiing.png "undefined")</div>
+<div className="image">![skiing](../../static/images/brightteam_skiing.png "undefined")</div>
 
 As a PM your job is to **make the project move on**. You have to ensure that the client is content and that the development team is happy and feels that what they do matters. Obviously, I've never worked anywhere else, so it’s hard to compare that to other workplaces. Yet I like the fact that **I am truly responsible for the project** and no one higher up the ladder interferes in my work. 
 
@@ -55,7 +55,7 @@ One of the projects is the **payment instruments distribution system** developed
 
 Our client’s efforts not only result in helping people in crises but also in supporting the growth of local economies. The cards give beneficiaries the freedom to choose what help they actually need.
 
-<div class="image">![quote on tech for humanitarian purposes](../../static/images/kasia_quote_humanitarian.png "undefined")</div>
+<div className="image">![quote on tech for humanitarian purposes](../../static/images/kasia_quote_humanitarian.png "undefined")</div>
 
 The solution is used in a couple of Asian and African countries. The team I work on for that project contains 4 fullstack developers, 2 mobile devs, and 3 software testers. Working on this project is definitely rewarding. **Not every day you get a chance to build tech for humanitarian purposes**. The aspects of helping people and social justice are significant to me. I really feel that we work on something that has greater meaning.
 
@@ -79,7 +79,7 @@ Having that in mind – yes, I have managed projects in which we used almost ide
 
 When it comes to **client-software agency collaboration** the grand rule should be a **helping attitude and a proactive approach**. The client who comes to us usually has great knowledge about the business processes but may have limited knowledge about the technology. **Our job is to understand what is their business goal, propose potential solutions and help pick the one which is the best for them**. We shouldn’t expect from the client to give us all the answers, we should seek those answers together.
 
-<div class="image">![quote on communication with clients](../../static/images/kasia_quote_client.png "undefined")</div>
+<div className="image">![quote on communication with clients](../../static/images/kasia_quote_client.png "undefined")</div>
 
 Another very important factor is **open and clear communication**. Especially, when it comes to communicating any mistakes made along the way. Whenever they happen, we should analyze them, explain them to the business and decide what actions may be taken to omit them in the future. This way **we show that we care about the project as much as our client does** and we gain trust which is the key to a successful collaboration.
 
@@ -89,7 +89,7 @@ I feel that **the key is being part of the team** and not the one who is above e
 
 To make that happen we need to truly trust each other. **As a project manager, I trust devs that they will bring their best ideas to the table**. Also, they trust me that I will do my best to support them in managing our daily work. Definitely what helps us build that trust is the **continuous and mutual feedback** between PM and devs.
 
-<div class="image">![Bright Inventions' team retreat](../../static/images/brightteam_girls.png "undefined")</div>
+<div className="image">![Bright Inventions' team retreat](../../static/images/brightteam_girls.png "undefined")</div>
 
 ## Could you answer a very popular question seen on social media? What does a project manager do all day? 😀
 
@@ -101,4 +101,4 @@ Obviously, a project manager’s role might depend on the project. If the proces
 
 Recently I started to sew. I love dancing, I used to dance a bit of boogie woogi. Now I go to the lyrical jazz classes. I guess my biggest passion is skiing. Unfortunately, it’s not something I can do regularly while living in Gdańsk. 😉
 
-<div class='block-button'><h2>Join Kasia!</h2><div>Build web and mobile solutions for international clients. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
+<div className="block-button"><h2>Join Kasia!</h2><div>Build web and mobile solutions for international clients. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>

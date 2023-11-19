@@ -23,7 +23,7 @@ Microbenchmarking is just micro-scale benchmarking :-) It's about measuring the 
 
 I really recommend to read [this wiki page on GitHub](https://github.com/google/caliper/wiki/JavaMicrobenchmarks) as it summarizes a few very important aspects of microbenchmarking, including its fallibility and some possible reasons why you could ever consider doing it. It also explains why you should actually avoid writing microbenchmarks as there are only a few reasonable excuses for doing it (mostly when you develop a performance-critical library or framework).
 
-![Hourglass](/images/microbenchmarking-on-android/hourglass-2910948_1280.jpg)
+![Hourglass](../../static/images/microbenchmarking-on-android/hourglass-2910948_1280.jpg "")
 
 ## How do I start?
 
@@ -101,7 +101,7 @@ As you can see, the framework gives us the required repetitions count as a param
 
 Spanner can also upload your benchmark results to [https://microbenchmarks.appspot.com](https://microbenchmarks.appspot.com) either anonymously or with a given API key.
 
-![Spanner results](/images/microbenchmarking-on-android/spanner-result.png)
+![Spanner results](../../static/images/microbenchmarking-on-android/spanner-result.png "")
 
 ## What could possibly go wrong?
 

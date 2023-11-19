@@ -16,7 +16,7 @@ language: en
 ---
 **There are many misunderstandings between testers and developers in their daily work. We’ve gathered our experiences to show you some common triggering situations that can be easily solved. It takes a bit of work from both sides but the friendly atmosphere at work is worth it.**
 
-<div class="image">![Developer Tester Communication](../../static/images/blog_post_cover_dev_tester.png "undefined")</div>
+<div className="image">![Developer Tester Communication](../../static/images/blog_post_cover_dev_tester.png "undefined")</div>
 
 ## How to report a bug?
 
@@ -72,4 +72,4 @@ It’s crucial to know what and why you are doing it. **A common misconception a
 
 It’s not a piece of cake to build a strong relationship between developers and testers, but with a little bit of flexibility from both sides, it is possible to achieve something really well-working.
 
-<div class='block-button'><h2>Join our team</h2><div>Let’s create software that matters! Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
+<div className="block-button"><h2>Join our team</h2><div>Let’s create software that matters! Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>

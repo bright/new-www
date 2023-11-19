@@ -19,7 +19,7 @@ language: en
 ---
 **Agnieszka needs to build products that really make a difference. She is not afraid to work closely with end-users. She loves to see how the product she builds influences somebody's life. She has been a part of Bright Inventions’ team since 2015 working on mobile apps, integrations with Substrate blockchain, and more. Check out Agnieszka’s story.**
 
-<div class="image">![Agnieszka'a bright story](../../static/images/brightstoryagnieszkacollage.png "undefined")</div>
+<div className="image">![Agnieszka'a bright story](../../static/images/brightstoryagnieszkacollage.png "undefined")</div>
 
 ## You are a fullstack developer. What is closer to you: frontend or backend?
 
@@ -27,7 +27,7 @@ I used to differentiate that but I don’t do that anymore. Now **I look at a sy
 
 **If you are a good developer, it doesn’t matter what language or technology you use**. If you learned well one language, you will incorporate that knowledge into another language. The idea behind coding is the key. Also, the goal you must achieve. And the language you will use to code the solution is a minor thing compared to those.
 
-<div class="image">![Agnieszka's quote on solving problems](../../static/images/agnieszka_quote_solving.png "undefined")</div>
+<div className="image">![Agnieszka's quote on solving problems](../../static/images/agnieszka_quote_solving.png "undefined")</div>
 
 ## What have been your favorite projects so far?
 
@@ -43,7 +43,7 @@ In the meantime, Michał and Daniel started their company so I was thinking to j
 
 I knew their approach from our college times. **We shared the same values and strongly believed that good programmers are the ones who write good code and solve problems with it, no matter which technology they use**. So I knew that Daniel and Michał wouldn’t have problems with me taking the time to learn mobile from the scratch. 
 
-<div class='block-button'><h2>Do you want to join Agnieszka?</h2><div>Work with our fullstack team. Work on existing web therapy application where people join groups of support led by professional therapists.</div><a href="/jobs/fullstack-developer-nodejs-react"><button>Apply and join our team</button></a></div>
+<div className="block-button"><h2>Do you want to join Agnieszka?</h2><div>Work with our fullstack team. Work on existing web therapy application where people join groups of support led by professional therapists.</div><a href="/jobs/fullstack-developer-nodejs-react"><button>Apply and join our team</button></a></div>
 
 I had a chance to learn a lot of new technologies here and I am grateful that Michał and Daniel always trusted me with new projects. Even if I had to learn some new stack for a new project they just let me do my thing. I guess I never let them down because I still work here. 😀
 
@@ -53,7 +53,7 @@ When I joined Bright Inventions in 2015 only 8 people worked here. Now we have o
 
 During that time I had two maternity leaves. When I left for the first time there were 8 people and only a couple more when I came back. But when I left to have my second baby the team was doubled, from 20 to 40 people. Obviously, in terms of organization, some things changed for good, especially after [Ula](/about-us/ula/) joined the company. However, **the essential things became the same. The things that really matter**.
 
-<div class="image">![Bright Inventions Team Retreat](../../static/images/brightteamretreat.png "undefined")</div>
+<div className="image">![Bright Inventions Team Retreat](../../static/images/brightteamretreat.png "undefined")</div>
 
 **People still treat each other with respect and you can feel that they do work that really gives them satisfaction**. Also, if I struggle with some technical or communication challenge, **I always have somebody I can talk to** about it and I know we will solve it. **The company has to grow, but the fundaments remain the same**.
 
@@ -61,7 +61,7 @@ During that time I had two maternity leaves. When I left for the first time ther
 
 Yes, I tend to become close to my workplace. I need to work at a place where I can really stick around. **I need to feel that the work I do matters. Then I stay motivated**. In order to feel that you also need to have a connection with your employer. When I have that bond I don’t want to move to another work and start that all over again.
 
-<div class="image">![Agnieszka's quote on being motivated](../../static/images/agnieszka_quote_motivation.png "undefined")</div>
+<div className="image">![Agnieszka's quote on being motivated](../../static/images/agnieszka_quote_motivation.png "undefined")</div>
 
 ## Was it challenging to come back after maternity leaves?
 
@@ -77,7 +77,7 @@ I must say that coming back to my other passion (bouldering) was much more chall
 
 [Substrate](/blog/5-benefits-of-substrate-blockchain/) is quite exciting because it has the potential to make [blockchain](/our-areas/blockchain) more accessible. However in general I have mixed feelings about blockchain. It’s a young tech that gives many possibilities but unfortunately is often trivialized by identifying it with cryptocurrencies. 
 
-<div class="image">![Agnieszka's quote on blockchain](../../static/images/agnieszka_quote_crypto.png "undefined")</div>
+<div className="image">![Agnieszka's quote on blockchain](../../static/images/agnieszka_quote_crypto.png "undefined")</div>
 
 For example, Web3 ideas are worth spreading. Yet in order to make them a reality, Web3 needs to become global. And it is really difficult when the public eye focuses on a completely different side of blockchain. **It’s just a shame that crypto is this global implementation of blockchain. Blockchain can do much more than crypto**.
 
@@ -91,8 +91,8 @@ We talked with the Substrate community, represented by [Parity](https://www.pari
 
 ## You already gave us a sneak peek that bouldering is your passion, isn’t it? 😉
 
-<div class="image">![Agnieszka's passions](../../static/images/bouldering_passion.png "undefined")</div>
+<div className="image">![Agnieszka's passions](../../static/images/bouldering_passion.png "undefined")</div>
 
 Yes, **I actually have been climbing longer than working as a programmer**. That has been a passion of mine and my husband, [Paweł](/about-us/pawel-o/). I work out 3 times a week. Every family vacation includes bouldering. Our older daughter (age 6) has just started her first climbing. 🙂 My dream is to try Deep Water Solo in Majorca and experience climbing in the USA.
 
-<div class='block-button'><h2>Join Agnieszka</h2><div>We are looking for a Fullstack Developer who has already had experience with TypeScript and Node.js. Apply and work with one of our clients from Israel, Germany, or the UK.</div><a href="/jobs/fullstack-developer-nodejs-react"><button>Apply and join our team</button></a></div>
+<div className="block-button"><h2>Join Agnieszka</h2><div>We are looking for a Fullstack Developer who has already had experience with TypeScript and Node.js. Apply and work with one of our clients from Israel, Germany, or the UK.</div><a href="/jobs/fullstack-developer-nodejs-react"><button>Apply and join our team</button></a></div>

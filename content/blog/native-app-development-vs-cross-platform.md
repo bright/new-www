@@ -14,7 +14,7 @@ language: en
 ---
 **What is the difference between a hybrid app and native one? Is native app development dying? Ultimately, which mobile approach is better? Let’s look closely at the mobile battle between native and hybrid apps. And find out on which corner we are.** 😎
 
-![native vs hybrid app](/images/native_hybrid_apps.png)
+![native vs hybrid app](../../static/images/native_hybrid_apps.png "")
 
 ## What is the difference between hybrid and native app development?
 

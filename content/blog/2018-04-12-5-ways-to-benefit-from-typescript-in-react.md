@@ -43,17 +43,17 @@ class HelloWorldComponent extends React.Component<HelloProps, HelloState> {}
 
 By adding these two definitions we’re not only adding a code completion capability to our component. Here I denoted I expect a `greeting` property and marked it as non-optional (no `?` sign before a colon and no union type that allows `undefined` to sneak through). The compiler now successfully prevents us from using this component without the proper `greeting` property passed in.
 
-![Props completeness is enforced](/images/react-ts/props-undefined.png)
+![Props completeness is enforced](../../static/images/react-ts/props-undefined.png "")
 
 ### Props & state (im)mutability
 
 But there’s more. In React, both props and state are intended to be immutable. Props are for getting the data into the component only and state is to be modified via the specialized `setState` method. Thanks to both props and state defined as being of type `Readonly<>`, we are protected from accidentally mutating it:
 
-![Props immutability is enforced](/images/react-ts/props-immutable.png)￼
+![Props immutability is enforced](../../static/images/react-ts/props-immutable.png "")￼
 
 As well as we’re not allowed to monkey-patch it, that is to add new properties there:
 
-![Props are frozen](/images/react-ts/props-frozen.png)￼
+![Props are frozen](../../static/images/react-ts/props-frozen.png "")￼
 
 Having said that, we must be aware that `Readonly<>` is not deep (recursive) – it only protects us from mutating the root level of the object, nothing protects its children objects:
 
@@ -87,7 +87,7 @@ state: ((prevState: Readonly<S>, props: P) => (Pick<S, K> | S | null)) | (Pick<S
 
 But when reading piece by piece it tells us we either need to pass a function that returns `Pick<S, K> | S | null` or return it directly. And that `Pick<S, K> | S | null` thing is – reading backwards – either `null`, full state object itself (`S`) or an object with a subset of the state’s keys ([`Pick<S, K>`](https://www.typescriptlang.org/docs/handbook/advanced-types.html#mapped-types)). To cut the long story short, we are unable to pass the new state value object that doesn’t match our state definition. Here is the error that the TypeScript compiler gives us instead:
 
-![State correctness is enforced](/images/react-ts/state-correctness.png)￼￼
+![State correctness is enforced](../../static/images/react-ts/state-correctness.png "")￼￼
 
 ## Stateless components
 
@@ -106,7 +106,7 @@ function Input(props: InputProps) {
 
 We can have a problem here, though, if we want to specify `propTypes` or `defaultProps` for our stateless component. TypeScript will complain as plain functions do not have that kind of properties defined:
 
-![PropTypes cannot be added to plain function](/images/react-ts/propTypes.png)￼￼
+![PropTypes cannot be added to plain function](../../static/images/react-ts/propTypes.png "")￼￼
 
 We can solve it by declaring our component in a slightly different manner:
 
@@ -145,7 +145,7 @@ onChanged: (event: Event) => void
 
 Unfortunately, this seems to be not the event we should care about:
 
-![React does not use native HTML events](/images/react-ts/event-native.png)￼￼
+![React does not use native HTML events](../../static/images/react-ts/event-native.png "")￼￼
 ￼
 This rather verbose error gives us the expected type of an event, above anything else – see its last line. The event object passed by React is actually typed as `ChangeEvent<HTMLInputElement>` and this type seems not to extend the HTML built-in `Event` type. This is intentional because React doesn’t use the HTML events directly – it uses [Synthetic Events](https://reactjs.org/docs/events.html) wrappers instead.
 
@@ -157,7 +157,7 @@ onChanged: (event: React.ChangeEvent<HTMLInputElement>) => void
 
 This gives us the best possible confidence level for what we can expect to get as an argument. It horribly reduces the flexibility, though. We can no longer have the same change handler for events fired on multiple types of HTML Elements (for example, `<input>` and `<select>`:
 
-![Events on different HTML elements are not compatible](/images/react-ts/event-incompatible.png)￼￼￼
+![Events on different HTML elements are not compatible](../../static/images/react-ts/event-incompatible.png "")￼￼￼
 
 We got an error indicating near the end that `HTMLSelectElement` is not assignable to `HTMLInputElement`. Well, it is not, indeed, and our handler was defined to accept the former only and we’re unable to reuse that handler directly. A similar problem occurs if we want to attach the same handler to the events of multiple types (i.e. change, click, mouse interaction etc.) – `ChangeEvent<T>` and `MouseEvent<T>` are not compatible.
 
@@ -193,7 +193,7 @@ We might try to keep it generic by eliminating the duplication of the input’s 
 
 As we have previously seen, TypeScript ensures the keys of the object we pass to `setState` match the actual properties of our component’s state. But here, TypeScript compiler (as of 2.6.1 at least) is not that smart to figure out what the actual value of event’s target `name` attribute would be, even though it can only be equal to `firstName` in this case. For TypeScript it is a general string and this is too wide to be considered valid for our `setState` call, unfortunately:
 
-![TypeScript is unable to specify down setState parameter types](/images/react-ts/event-generic.png)￼￼￼
+![TypeScript is unable to specify down setState parameter types](../../static/images/react-ts/event-generic.png "")￼￼￼
 
 We may work around it with type cast to inform TypeScript compiler what is the range of values we might potentially expect from `event.currentTarget.name` (assuming `State` describes the state of our component). The `keyof State` construct informs the compiler that the strings there may only be those that are defined by `State` interface structure:
 
@@ -215,7 +215,7 @@ Note I’m using not-yet-standard [object spread operator](https://github.com/tc
 
 As you might have already noticed, all the HTML elements have its attributes mapped into `HTML*Element` types we can benefit from whenever we’re operating on the elements. Similarly, a good subset of the CSS properties are mapped into the `CSSProperties` interface that defines all the predefined values the particular CSS property might use. This might be useful to use if we use any form of the [inline styles](https://reactjs.org/docs/dom-elements.html#style) in our components. It would provide a proper code completion and in some cases ensure the validation of our CSS definitions:
 ￼
-![TypeScript helps with CSS validity](/images/react-ts/css-properties.png)￼￼￼
+![TypeScript helps with CSS validity](../../static/images/react-ts/css-properties.png "")￼￼￼
 
 I hope you already feel that TypeScript can offer a lot of benefits to your React codebase, even though we’ve just touched the iceberg tip. In the [next post](/blog/using-typescript-with-redux/) we'll add Redux into the mix and see how TypeScript can help us there, too.
 

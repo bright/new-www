@@ -21,7 +21,7 @@ There are plenty of ways to become a programmer. But when you study Computer Sci
 
 What differs these two?
 
-![Difference](/images/internship-vs-internship/difference.jpg)
+![Difference](../../static/images/internship-vs-internship/difference.jpg "")
 
 Everything.
 
@@ -55,6 +55,6 @@ language: en
 ---
 I’ve just finished my internship at Bright Inventions. Comparing it with the previous one opened my eyes how working environment influences your attitude to work and your motivation. You can start a new job, motivated to work, with batteries fully charged, but what happens next...
 
-![Adventure](/images/internship-vs-internship/adventure.jpg)
+![Adventure](../../static/images/internship-vs-internship/adventure.jpg "")
 
 ...depends not only on you.

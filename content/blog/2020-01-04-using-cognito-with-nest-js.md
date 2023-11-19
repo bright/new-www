@@ -27,13 +27,13 @@ To get started with AWS Cognito we need to create a user pool. The user pool is 
 \
  In my case I don’t have any user pools, so I’m going to create one.
 
-<div class="image">![create a user pool](../../static/images/image1.png "undefined")</div>
+<div className="image">![create a user pool](../../static/images/image1.png "undefined")</div>
 
 Here you are given two options to select from, let's select *Review defaults*. Make sure to provide a pool name as well.
 
 Next, we need to create an app client. The app client is the client that our NestJS server will be communicating with. Make sure to tick Enable sign-in API for server-based authentication for our NodeJS server access Cognito user pool for authentication. App clients can be created after the generation of user pools as well. So, if you forget to add an app client when the creation of the user pool - do not worry, you can create a new one again.
 
-<div class="image">![AWS](../../static/images/image3.png "undefined")</div>
+<div className="image">![AWS](../../static/images/image3.png "undefined")</div>
 
 We leave  `Generate client secret` unchecked as it is required for library we will use. Per `amazon-cognito-identity-js` documentation:
 
@@ -41,11 +41,11 @@ We leave  `Generate client secret` unchecked as it is required for library we wi
 
 After successfully creating Pool and Client, copy `Pool Id` and `App Client Id` as we will need it for configuration.
 
-<div class="image">![AWS](../../static/images/image2.png "undefined")</div>
+<div className="image">![AWS](../../static/images/image2.png "undefined")</div>
 
 *Pool Id*
 
-<div class="image">![undefined](../../static/images/image4.png "undefined")</div>
+<div className="image">![undefined](../../static/images/image4.png "undefined")</div>
 
 *App Client Id*
 
@@ -313,17 +313,17 @@ The above code is a minimalistic version for NestJS authentication using Cognito
 
 I used *Postman* to send the request. In *@Body* I included email, password, name. A created successful response will contain:
 
-![AWS](/images/using-cognito-with-nest-js/register.png)
+![AWS](../../static/images/using-cognito-with-nest-js/register.png "")
 
 Then we can check also in our app in Cognito that the User has been created:
 
-![AWS](/images/using-cognito-with-nest-js/registered_cognito.png)
+![AWS](../../static/images/using-cognito-with-nest-js/registered_cognito.png "")
 
 ### 2. Authenticate
 
 Again, in @Body I sent the required password and the user field. If I prepare the correct data, I will receive the user payload:
 
-![AWS](/images/using-cognito-with-nest-js/login.png)
+![AWS](../../static/images/using-cognito-with-nest-js/login.png "")
 
 ### 3. Validation
 

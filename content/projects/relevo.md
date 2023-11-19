@@ -51,7 +51,7 @@ language: en
 Relevo is free, eco-friendly, and smart. We all see how plastic tableware took over our lives, especially during the pandemic. Now it might be more possible than ever to change that. We are proud to be a part of this change!
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-![relevo app development](/images/ecofriendly_app_main3.png)
+![relevo app development](../../static/images/ecofriendly_app_main3.png "")
 <AppStore googleApp='https://play.google.com/store/apps/details?id=com.relevoapp' srcGoogle='/images/google_play.png' altGoogleImage='google play' appStore='https://apps.apple.com/us/app/relevo/id1501683637' srcAppStore='/images/app_store.png' altAppStoreImage='app store'/>
 
 <TitleWithIcon sectionTitle='goal' titleIcon='/images/icon_title_goal.svg' titleIconAlt='goal' />

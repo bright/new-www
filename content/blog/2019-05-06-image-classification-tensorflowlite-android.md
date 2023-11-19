@@ -16,7 +16,7 @@ language: en
 ---
 As I've already listed in my recent [blog post](/blog/are-we-ready-for-deep-learning-on-mobile-devices/) there are lots of advantages of making inference directly on a mobile device instead of using cloud solutions. Because of mobile devices' computation limitations, we can't migrate all of the available models to work on mobile. Unfortunately, plenty of them won't work on mobile devices but that's fine because we often don't need these heavy models on mobile devices. In this blog post, we will create a simple Android application that will take advantage of [MobileNetV2](https://arxiv.org/abs/1801.04381) that was pre-trained on ImageNet.
 
-![surfing](/images/image-classification-tensorflowlite-android/surf1.jpg)
+![surfing](../../static/images/image-classification-tensorflowlite-android/surf1.jpg "")
 
 ## Let's make our hands dirty...
 
@@ -37,7 +37,7 @@ aaptOptions {
 
 The next step is to get a model for the image classification problem. One way is to create your own or take pre-trained one from [here](https://www.tensorflow.org/lite/guide/hosted_models) and put it to the `assets` folder. We will be using customized pre-trained MobileNetV2 that I've created for the sake of this demo. Our model will be able to or at least it should distinguish 🌊 *kitesurfing, windsurfing*, and *surfing* 🏄‍♂️.  You can download this model as well as labels from my [git repository](https://github.com/ares97/tflitedemo-mobilenetv2-imagenet-classification/tree/master/app/src/main/assets).
 
-![surfing](/images/image-classification-tensorflowlite-android/kite.jpg)
+![surfing](../../static/images/image-classification-tensorflowlite-android/kite.jpg "")
 
 ### Dive into the code
 
@@ -168,4 +168,4 @@ data class Recognition(
 The above code is a minimalistic version for getting TFLite solving for us *image classification* problem. With the provided model you can successfully classify all photos that are in this blog post. 📸 
 You can find the demo [here](https://github.com/ares97/tflitedemo-mobilenetv2-imagenet-classification).
 
-![surfing](/images/image-classification-tensorflowlite-android/windsurf.jpg)
+![surfing](../../static/images/image-classification-tensorflowlite-android/windsurf.jpg "")

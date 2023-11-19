@@ -15,7 +15,7 @@ language: en
 ---
 If you have ever needed to add a chart to your Android app, you certainly have heard about [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) by [PhilJay](https://github.com/PhilJay). If not, consider using this powerful library. Let me show you how easy it is to start!
 
-![header img](/images/radek/chart_mobile.jpg)
+![header img](../../static/images/radek/chart_mobile.jpg "")
 
 ## Goal
 
@@ -169,7 +169,7 @@ lineChart.data = LineData(
 ```
 
 That's it, the chart is set up with data!
-![chart one](/images/radek/chart_ugly.png)
+![chart one](../../static/images/radek/chart_ugly.png "")
 
 ## Make me beautiful - LineChart properties
 
@@ -246,7 +246,7 @@ lineChart.axisRight.isEnabled = false
 ```
 
  Boom! That's it! Looks nice and presents the data clearly. Pinch to zoom, swipe right and left to get through all these years and finally check when a frozen yogurt beats a banana bread in Google searches!\
-![chart two](/images/radek/chart_bjutiful.png)\
+![chart two](../../static/images/radek/chart_bjutiful.png "")\
 Oh, it looks like every year around summer! Who would know.
 
 ### Refs:

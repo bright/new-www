@@ -24,7 +24,7 @@ The simplest association one may have with Code Review is that it is all about t
 
 There are obviously cases that automated tools are unable to identify so we should look for these within Code Reviews, but having a unified and consistent code style is definitely not the only way we can benefit from doing Code Reviews. We should definitely look deeper.
 
-![What are Code Reviews for?](/images/people-office-group-team.jpg)
+![What are Code Reviews for?](../../static/images/people-office-group-team.jpg "")
 
 Code Review is an ideal chance to:
 

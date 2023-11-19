@@ -17,7 +17,7 @@ language: en
 ---
 **BrightTreasury app helps you get cryptocurrency to develop your ideas and contribute to communities built around Web3 ideas. To receive the funds you don’t have to be a blockchain expert. Yet, at some point in this journey, you should set up your Web3 identity. Find out more about a Web3 account.**
 
-![Polkadot BrightTreasury](/images/blog_web3_account.png)
+![Polkadot BrightTreasury](../../static/images/blog_web3_account.png "")
 
 ## What is the BrighTreasury application?
 
@@ -27,7 +27,7 @@ language: en
 
 The basic flow to get funds via BrightTreasury consists of these steps:
 
-![BrightTreasury's flow](/images/bright_treasury_idea_flow.png)
+![BrightTreasury's flow](../../static/images/bright_treasury_idea_flow.png "")
 
 **Submit an Idea**
 
@@ -53,11 +53,11 @@ While developing the app we had to have in mind that it is not only for [substra
 
 1. Traditional sign-up and log in by entering a username, email address, and password – a friendly option for non-blockchain experts.
 
-![Login option BrightTreasury](/images/sign-up_email.png)
+![Login option BrightTreasury](../../static/images/sign-up_email.png "")
 
 2. Sign-up and log in through your Web3 address – an option well known by every Web3 enthusiast.
 
-![Web3 sign up BrightTreasury](/images/sign-up_web3.png)
+![Web3 sign up BrightTreasury](../../static/images/sign-up_web3.png "")
 
 As the first option is quite obvious, let's dive into the latter.
 
@@ -85,7 +85,7 @@ So if you want to submit an idea at BrightTreasury, you can set up a traditional
 
 At this point, you need to have a Web3 account because it enables you to store crypto. While submitting a proposal you have to put a crypto deposit which will be restored if the proposal will be approved.
 
-![BrightTreasury Web3 Account](/images/bright_treasury_idea_flow_web3account.png)
+![BrightTreasury Web3 Account](../../static/images/bright_treasury_idea_flow_web3account.png "")
 
 ## How to Set up a Web3 Account
 
@@ -98,7 +98,7 @@ In order to get funds via [BrightTreasury](https://treasury.bright.dev?utm_sourc
 
 <center>
 
-![polkadot.js extension](/images/web3add_account.png)
+![polkadot.js extension](../../static/images/web3add_account.png "")
 
 </center>
 
@@ -106,7 +106,7 @@ In order to get funds via [BrightTreasury](https://treasury.bright.dev?utm_sourc
 
 <center>
 
-![Web3 account setup](/images/web3account.png "The account details have been displayed only for educational purposes. This account is not used to store cryptocurrency.")
+![Web3 account setup](../../static/images/web3account.png "The account details have been displayed only for educational purposes. This account is not used to store cryptocurrency.")
 
 <sub> *The account details have been displayed only for educational purposes. This account is not used to store cryptocurrency.* </sub>
 
@@ -117,7 +117,7 @@ In order to get funds via [BrightTreasury](https://treasury.bright.dev?utm_sourc
 
 <center>
 
-![Web3 account setup](/images/web3account_create.png "The account details have been displayed only for educational purposes. This account is not used to store cryptocurrency.")
+![Web3 account setup](../../static/images/web3account_create.png "The account details have been displayed only for educational purposes. This account is not used to store cryptocurrency.")
 
 </center>
 
@@ -125,7 +125,7 @@ In order to get funds via [BrightTreasury](https://treasury.bright.dev?utm_sourc
 
 <center>
 
-![blockchain networks](/images/blockchain_networks.png)
+![blockchain networks](../../static/images/blockchain_networks.png "")
 
 </center>
 
@@ -138,10 +138,10 @@ Whether you choose to sign up with a Web3 account or in the traditional way, you
 
 Let's assume that you first log in with a Web3 account. In that case, you just need to add your email credentials which basically means entering your username, login, and password. As a result, you will have two options to log in: with a Web3 account or with email.
 
-![BrightTreasury account credentials](/images/account_credentials.png)
+![BrightTreasury account credentials](../../static/images/account_credentials.png "")
 
 This is an example of the account provided with the Web3 account info as well as email details.
 
-![Account Details on BrightTreasury](/images/account_info2.png)
+![Account Details on BrightTreasury](../../static/images/account_info2.png "")
 
 I hope you are ready to visit the Web3 world. Let your first step be our [BrightTreasury app](https://treasury.bright.dev?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=web3account&utm_id=content_marketing). 🙂

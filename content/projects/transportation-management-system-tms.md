@@ -97,13 +97,13 @@ Our team designed an **algorithm that would automatically filter out transport l
 
 In terms of product design, the right **architectural information** is the key. **Forwarders work at a high pace and they expect any work tool to make their job even faster**. The client required us to include as much information as possible on one screen, so they could scan all the information fast.
 
-<div class="image">![transport management system UI case study](../../static/images/tms_market_ui.png "undefined")</div>
+<div className="image">![transport management system UI case study](../../static/images/tms_market_ui.png "undefined")</div>
 
 <TitleWithIcon sectionTitle="TMS development process" titleIcon="/images/gearwheel.svg" titleIconAlt="bright" />
 
 **At Bright Inventions, we took charge of every stage in creating the MVP** – from defining requirements and product design, through web development, rigorous quality testing, and efficient cloud management, to a successful launch. Naturally, our work didn't stop there. We are here for ongoing maintenance, too. The MVP took off in October 2022, and the client's team loved what they saw.
 
-<div class="image">![Testimonial](../../static/images/case_study_tms_client_quote_update.png "Testimonial")</div>
+<div className="image">![Testimonial](../../static/images/case_study_tms_client_quote_update.png "Testimonial")</div>
 
 ### Web development based on the latest technologies
 
@@ -113,7 +113,7 @@ While we were venturing into the realm of MVP implementation, our commitment to 
 
 Our objective extended beyond ensuring a frictionless user experience. We also aimed to streamline the software development process, optimizing time and effort allocation for our team in the foreseeable future. To make it possible **we implemented the best solutions JavaScript and AWS have to offer with Lambda and SNS on top of them**.
 
-<div class="image">![transport management app case study UI UX](../../static/images/tms_case_study_screen_map.png "undefined")</div>
+<div className="image">![transport management app case study UI UX](../../static/images/tms_case_study_screen_map.png "undefined")</div>
 
 ### Product design: the key success factor to a smooth digital transformation
 
@@ -121,7 +121,7 @@ Before our team presented the MVP mockups we took the necessary steps that helpe
 
 The challenge confronting the product design team was the **development of a user-friendly, yet data-intensive system. Our primary objective was to ensure a seamless transition for users who have long relied on existing tools**. Users had to swiftly recognize the advantages offered by the new solution. 
 
-<div class="image">![shipping mobile app mockups](../../static/images/in_text_tms_mobile_mockups.png "shipping mobile app mockups")</div>
+<div className="image">![shipping mobile app mockups](../../static/images/in_text_tms_mobile_mockups.png "shipping mobile app mockups")</div>
 
 We addressed this challenge by implementing best UX practices such as: **representing a mental model** of end users, designing a **navigation flow based on familiar user patterns**, and incorporating an **information hierarchy** to include as much data as possible on a screen without overwhelming users.
 
@@ -133,7 +133,7 @@ Read our blog post to find more recommendations for [UX design for the transport
 
 **The mobile app supports communication between forwarders and drivers**. For example, it allows sharing of carriers' localization with the forwarders and sending scans of documents. After the MVP launch, the app is now being tested by the first users.
 
-<div class="image">![Mobile app for drivers](../../static/images/driver_app.png "Mobile app for drivers")</div>
+<div className="image">![Mobile app for drivers](../../static/images/driver_app.png "Mobile app for drivers")</div>
 
 It is essential to highlight the significance of product design in the context of a mobile application. **The mobile application is specifically designed for haulers, where the display of only essential information, such as loading specifics and route details, is paramount**. Distractions with extraneous information are minimized. The user interface prioritizes simplicity, enabling couriers to promptly update loading statuses, such as “delivered” or “delayed”. 
 

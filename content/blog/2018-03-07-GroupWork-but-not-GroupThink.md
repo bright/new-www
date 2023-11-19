@@ -30,6 +30,6 @@ Groupthink is a huge risk for the success of every company. It might not only le
 
 4\. Have you heard about a devil’s advocate? To avoid groupthink perils we should have at least one devil’s advocate in a meeting. **It is not about questioning everyone and everything, but rather about a critical evaluation and challenging the view’s of members by asking appropriate questions.** What is the role of a leader then? Leaders should listen. They should not state preferences or expectations in the beginning. They should make sure that there is enough time for analysing and discussing alternative scenarios.
 
-![Group think](/images/group_thinking.jpeg)
+![Group think](../../static/images/group_thinking.jpeg "")
 
 **A diversity of opinions, much more than of cultures, is something we need and something we should be proud of in our organisation.** Having people who have always the same perspective and who are agreeing constantly might be an alarming signal that there is wrong. Creating a company structure in which we have some space for feedback and expressing personal opinions is for me a must-have to create a successful workplace. We should never discourage debates and innovative thinking among the team. We should moderate them, but never shut them down. When there is a consensus, it does not mean there is also a success. 

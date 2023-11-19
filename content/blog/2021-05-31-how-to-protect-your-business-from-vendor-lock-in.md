@@ -16,7 +16,7 @@ language: en
 ---
 **Have you ever felt trapped in a “relationship” with the original vendor? Let’s talk about vendor lock-in in the software development community and the ways to avoid it.**
 
-![vendor lock-in software developement](/images/cyber-security-3400657_1920.jpg)
+![vendor lock-in software developement](../../static/images/cyber-security-3400657_1920.jpg "")
 
 ## How to define vendor lock-in?
 

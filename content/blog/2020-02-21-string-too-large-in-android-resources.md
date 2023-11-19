@@ -38,7 +38,7 @@ First and foremost, you may see a crash with a stacktrace looking more or less l
 
 A little less noticable issue is when you try to display a text in the UI and the result of doing so looks like this:
 
-![String too large in TextView](/images/string-too-large/string_too_large_text.png)
+![String too large in TextView](../../static/images/string-too-large/string_too_large_text.png "")
 
 As you can see, in both cases there is that strange `STRING_TOO_LARGE` either displayed directly in the UI or mentioned in the stacktrace.
 
@@ -60,11 +60,11 @@ The issue is caused by the AAPT/AAPT2 (Android Asset Packaging Tool) which proce
 
 If you take a look into the APK file affected by this issue, you will find something like this:
 
-![Changed string resource](/images/string-too-large/string_res.png)
+![Changed string resource](../../static/images/string-too-large/string_res.png "")
 
 Or, in case of the vector drawable, something like this:
 
-![Changed drawable resource](/images/string-too-large/drawable_res.png)
+![Changed drawable resource](../../static/images/string-too-large/drawable_res.png "")
 
 which is not a valid vector path, obviously :-D
 
@@ -82,4 +82,4 @@ Surprisingly, the build process does not fail when it happens.
 
 If you use a build system like Jenkins, TeamCity or QuickBuild, you should be able to configure the build to fail when such a log message is detected. In case of TeamCity, it's about adding a failure condition like below.
 
-![Failure condition](/images/string-too-large/failure_condition.png)
+![Failure condition](../../static/images/string-too-large/failure_condition.png "")

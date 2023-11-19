@@ -24,7 +24,7 @@ comments: true
 published: true
 language: en
 ---
-![Image with puzzle](/images/slack-fastlane/puzzle.jpg)
+![Image with puzzle](../../static/images/slack-fastlane/puzzle.jpg "")
 
 Professional development process consists of many puzzles. Some of these puzzles can be: unit testing, choosing good architecture, clean code, continuous integration and many  more.
 In this post I will focus on one of these puzzles - Continuous Integration(CI). An integral part of CI in [iOS Development](/our-areas/mobile-app-development) process is a great tool called [Fastlane](https://fastlane.tools/).
@@ -36,17 +36,17 @@ At Bright Inventions, I'm working on a several projects. Every project that we s
 
 But what if something went wrong...
 
-![Error image](/images/slack-fastlane/error.jpg)
+![Error image](../../static/images/slack-fastlane/error.jpg "")
 
 Let's say that we were doing some code refactoring, we committed the changes and pushed into our repository. Next, our build system discovered that there were  available new commits - so it started to fetch and built them and ran unit tests. And here some tests failed.
 
-![TeamCity tests failed](/images/slack-fastlane/test-failed.png)
+![TeamCity tests failed](../../static/images/slack-fastlane/test-failed.png "")
 
 Of course, I don't have constantly an opened browser to check on the Teamcity site if everything goes  well when I push something to the repository. I want to be informed if something goes wrong like - if  unit tests fails or timeout appears or compilation error happens. And here is the key word - INFORMED. How our build agent can inform us about an occurred error?
 
 ### Emails
 
-![Image with computer and email](/images/slack-fastlane/email.jpeg)
+![Image with computer and email](../../static/images/slack-fastlane/email.jpeg "")
 
 We use email service which is built-in into TeamCity. Every built lane has a rule which says 'send email to all developers when something goes wrong and build fails'. This solution works fine and it's commonly used in many projects and companies. But personally, I'm not 100% satisfied with it. If you work in several projects, you get more and more emails from clients, Jira, team etc. And let's add to that getting new emails from our TeamCity service. Of course, I can create filters and group all the  stuff(which I do), but even then it's too much for me. Besides, there is a new thing - if some builds fail - in most cases, it is important to **fix it quick**. So I prefer another - quicker in my opinion - way to be notified if something bad happens.
 
@@ -121,14 +121,14 @@ As you probably have noticed `slack` method takes a `slack_url` parameter. But h
 
 Go to [slack incoming weebhook webiste](https://my.slack.com/services/new/incoming-webhook/), log in, and after that you will be able too see screen like this:
 
-![Slack website - choose chanel for webhook](/images/slack-fastlane/webhook-slack-url.png)
+![Slack website - choose chanel for webhook](../../static/images/slack-fastlane/webhook-slack-url.png "")
 
 Choose your channel (for test purposes, I recommend choosing a direct message to yourself). Click `Add incoming WebHooks integration`.
 Next step is to copy the Webhook URL and use it as `slack_url`.
 
 Of course, after you learn how it works, you can generate a URL for specially created Channel in your slack team.
 
-![Slack website - webhook URL image](/images/slack-fastlane/webhook-slack-url2.png)
+![Slack website - webhook URL image](../../static/images/slack-fastlane/webhook-slack-url2.png "")
 
 ## 3. Build Slack message in Fastfile
 
@@ -158,7 +158,7 @@ end
 
 This is how our message looks like:
 
-![Slack basic message from Fastlane](/images/slack-fastlane/basic-message.png)
+![Slack basic message from Fastlane](../../static/images/slack-fastlane/basic-message.png "")
 
 As you can see by default you get some information about `Git Commit`, `Git Commit Hash`, `Lane`, `Result`, `Git Author`.
 
@@ -231,7 +231,7 @@ Let's try it by...
 
 wait some time.... and...🔔 🔔
 
-![Slack message with error in message](/images/slack-fastlane/exception.png)
+![Slack message with error in message](../../static/images/slack-fastlane/exception.png "")
 
 Now our message is meaningful and we know that our `Podfile` has some errors.
 
@@ -254,7 +254,7 @@ slack(
 
 Here is how a message with customized `default_payloads` looks like:
 
-![Slack message with default payload](/images/slack-fastlane/default-payload-message.png)
+![Slack message with default payload](../../static/images/slack-fastlane/default-payload-message.png "")
 
 #### 👉  `success`
 
@@ -262,7 +262,7 @@ You can also define if that message will be successful or not. Among other cases
 
 Second option is to set `success` to `false`, and then a message will look a bit different:
 
-![Slack message with success flag set to false](/images/slack-fastlane/message-fail.png)
+![Slack message with success flag set to false](../../static/images/slack-fastlane/message-fail.png "")
 
 The red color suggests that something went wrong and you have to fix it, which is a great way to notify you about it.
 
@@ -291,7 +291,7 @@ slack(
 )
 ```
 
-![Slack message with custom fields](/images/slack-fastlane/message-with-custom-fields.png)
+![Slack message with custom fields](../../static/images/slack-fastlane/message-with-custom-fields.png "")
 
 Another example... let's modify our `on_error(exception)` method.
 
@@ -315,7 +315,7 @@ end
 
 and here we've got a message 🔔🔔
 
-![Slack message with error in custom field](/images/slack-fastlane/exception2.png)
+![Slack message with error in custom field](../../static/images/slack-fastlane/exception2.png "")
 
 As you can see, now the error message is custom field.
 

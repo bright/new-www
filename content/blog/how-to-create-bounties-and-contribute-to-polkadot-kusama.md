@@ -40,7 +40,7 @@ On BrightTreasury you will find everything related to all Kusama and Polkadot bo
 
 BrightTreasury gives you an option to include descriptive info about your bounty proposal to show the council how it will contribute to the community. And you won’t pay for any of that! BrightTeasury provides you with an extra place to describe your idea with zero costs involved. Normally you would pay for every sign stored in the chain so in practice, the bounties tend to be very concise. 😉 On BrightTreasury, you are free to explain your bounty.
 
-![Creating a bounty on BrightTreasury](/images/create_bounty_brighttreasury.png)
+![Creating a bounty on BrightTreasury](../../static/images/create_bounty_brighttreasury.png "")
 
 Thanks to the integration with Polkassembly your bounty will be shared with the whole community. So all you need to do is to add it on BrightTreasury and our bot will share it with the council and the community.
 
@@ -52,14 +52,14 @@ Thanks to the integration with Polkassembly your bounty will be shared with the 
 
 <center>
 
-![BrightTreasury sign up](/images/brighttreasury_signup2.png)
+![BrightTreasury sign up](../../static/images/brighttreasury_signup2.png "")
 
 </center>
 
 * Select bounties on the menu and click “Create bounty”.
 * Fill in all important information about the bounty. You can follow Bounty Proposal Template.
 
-![Create bounty on BrightTreasury](/images/create_bounty.png)
+![Create bounty on BrightTreasury](../../static/images/create_bounty.png "")
 
 Let’s focus on one field that might be unknown to you – Value. It is a budget that should be spent with Treasury on the bounty. You can establish the amount in dollars and then convert it to DOT or KSM with these useful converters: [Kusama convertor](https://kusama.subscan.io/tools/price_converter) and [Polkadot convertor](https://polkadot.subscan.io/tools/price_converter).
 
@@ -69,7 +69,7 @@ Then you will see very important info. As a bounty creator, you have to put in a
 
 <center>
 
-![treasury deposit info](/images/treasury_deposit.png)
+![treasury deposit info](../../static/images/treasury_deposit.png "")
 
 </center>
 
@@ -79,13 +79,13 @@ You have to confirm your account. Obviously, your account has to have some funds
 
 After you approve the transaction, you will see step by step how your transaction is being processed. 
 
-![submitting transaction bounty](/images/submitting_transaction.png)
+![submitting transaction bounty](../../static/images/submitting_transaction.png "")
 
 * When the deposit is secured, it is done. Great job! Now you can find your bounty on the BrightTreasury dashboard and comment on it in the discuss section. You can add a suggestion on who could be a curator or add any additional info that could convince the council about your proposal. Also, you can edit some information about the bounty e.g. title or description. However, you cannot edit the deposit.
 
 You don’t have to log in to see ongoing bounties so everyone has easy access to it. On BrightTreasury, you will find all the bounties created by Kusama or Polkadot community, no matter if they were created on the app or in other possible ways. As you can see all bounties are categorized based on their actual status:
 
-![bounties on BrightTreasury](/images/all_bounties_blog.png)
+![bounties on BrightTreasury](../../static/images/all_bounties_blog.png "")
 
 Now you know how to create your bounty. All you need is an idea for a job that will be of value to the community and a willingness to put in some deposit. BrightTreasury will take care of the rest.
 

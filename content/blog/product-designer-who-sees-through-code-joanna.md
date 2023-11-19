@@ -17,7 +17,7 @@ language: en
 ---
 **Joanna successfully redesigned her career from IT Administrator to Junior Product Designer. After landing her dream job, she has been determined to create software products that combine clients’ expectations and high-quality design standards. Check out Joanna’s inspirations, sources of knowledge, and ways to cooperate with software developers.**
 
-<div class="image">![Joanna's product design career story](../../static/images/brightstoryjoannacollage.png "Joanna's product design career story")</div>
+<div className="image">![Joanna's product design career story](../../static/images/brightstoryjoannacollage.png "Joanna's product design career story")</div>
 
 ## You started your career in IT & Security Administration. What made you go into Product Design?
 
@@ -35,7 +35,7 @@ Great! Although I was shocked, when I was informed, before the interview, that i
 
 Don't give up. **You will probably receive lots of rejections**. It will be frustrating, but you have to get through that phase. **You have to keep pushing, keep developing your portfolio, and redesign the apps you think could work better**. Naturally, you have to stay updated with trends by attending design conferences, workshops, webinars, and so on.
 
-<div class="image">![Advice for aspiring junior developers](../../static/images/joanna_quote_juniors.png "Advice for aspiring junior developers")</div>
+<div className="image">![Advice for aspiring junior developers](../../static/images/joanna_quote_juniors.png "Advice for aspiring junior developers")</div>
 
 ## So what are your sources of product design knowledge?
 
@@ -80,7 +80,7 @@ Everything starts with research. This includes **user research, business domain 
 
 After the research, I do **sketches**. Based on them I create [low-fidelity or high-fidelity wireframes](/blog/what-are-the-stages-of-app-development/#app-prototyping--product-design), depending on the time constraints we have. Let's face it, working at a software development agency means time is often working against us. 🙂 Finally, **mockups originate from wireframes**.
 
-<div class="image">![Quote on mockups](../../static/images/joanna_quote_mockups.png "Quote on mockups")</div>
+<div className="image">![Quote on mockups](../../static/images/joanna_quote_mockups.png "Quote on mockups")</div>
 
 **The moment when I have the mockups ready is pivotal in designer-client communication**. Before this, we might have thought that we were on the same page through discussions, but the mockups finally reveal my intentions as a designer and whether they match the client's expectations. 
 
@@ -92,7 +92,7 @@ Before starting the job, I had the impression that I would create the design, an
 
 This presents another challenge because in order to achieve a successful implementation I have to communicate effectively with developers. There is no time for misunderstandings.
 
-<div class="image">![Joanna during a team retreat in Stockholm.](../../static/images/joanna_bright_team.png "Joanna during a team retreat in Stockholm.")</div>
+<div className="image">![Joanna during a team retreat in Stockholm.](../../static/images/joanna_bright_team.png "Joanna during a team retreat in Stockholm.")</div>
 
 <center>Joanna during a team retreat in Stockholm.</center>
 
@@ -116,7 +116,7 @@ Another crucial factor in communication is [empathy](/blog/three-dimensions-of-e
 
 They showed me that the **key is to look at the design through the lens of the system we want to build**. As a designer, I may start with an artistic and chaotic sketch. Yet thanks to developers and PMs I understand that it needs to pivot quickly into something organized. 
 
-<div class="image">![Quote on look at the design through the lens of the system](../../static/images/joanna_quote_design_system.png "Quote on look at the design through the lens of the system")</div>
+<div className="image">![Quote on look at the design through the lens of the system](../../static/images/joanna_quote_design_system.png "Quote on look at the design through the lens of the system")</div>
 
 Nowadays, **the gap between code and design is getting smaller, but it is still there**. As a product designer, I create a design that needs to be well-interpreted by developers, so order is crucial.
 
@@ -134,7 +134,7 @@ In terms of industries, I would love to design something related to fashion. I d
 
 **I’ve just finished a couple of product design courses and now I need to relax for some time**. I do yoga, stretching, and travel a lot. Recently **I visited Barcelona and New York**. I like to create graphic designs. A graphics tablet helps me with digital illustrations. 
 
-<div class="image">![Joanna in New York](../../static/images/joanna_ny.png "Joanna in New York")</div>
+<div className="image">![Joanna in New York](../../static/images/joanna_ny.png "Joanna in New York")</div>
 
 <center>Joanna in New York.</center>
 

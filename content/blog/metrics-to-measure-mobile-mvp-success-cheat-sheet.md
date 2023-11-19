@@ -16,7 +16,7 @@ language: en
 ---
 **You have an idea, design, and maybe even a software development team to build your mobile application. Still haven't you forgotten about something? What about establishing key targets that you want to achieve? Only then can you verify if your product is successful. Check out how to do that!**
 
-<div class="image">![MVP success metrics](../../static/images/blogpost_mvp_success.png "MVP success metrics")</div>
+<div className="image">![MVP success metrics](../../static/images/blogpost_mvp_success.png "MVP success metrics")</div>
 
 - - -
 
@@ -156,7 +156,7 @@ Tools like **HubSpot, Salesforce, or Kissmetrics** can help you track and analyz
 
 Here’s the summary of all mentioned metrics with short definitions. Enjoy!
 
-<div class="image">![MVP success metrics cheat sheet](../../static/images/mvp_success_metrics-cheat_sheet.png "MVP success metrics cheat sheet")</div>
+<div className="image">![MVP success metrics cheat sheet](../../static/images/mvp_success_metrics-cheat_sheet.png "MVP success metrics cheat sheet")</div>
 
 ## Choose the right metrics and analytics tools for your MVP
 

@@ -16,7 +16,7 @@ language: en
 ---
 **How to get a software tester job with no experience? What qualifications do you need to be a Software Tester? Here is my story of becoming a QA Specialist in a year. Step by step.**
 
-![how to become a software tester](/images/how_to_become_qa_martas_story2.png)
+![how to become a software tester](../../static/images/how_to_become_qa_martas_story2.png "")
 
 ## My road to software tester job in numbers:
 
@@ -43,7 +43,7 @@ That was summer 2019. At some point, the company I worked in wanted to improve t
 
 ## Steps I have taken to become a Software Tester / QA Specialist
 
-![steps to become a software tester](/images/steps_to_become_software_tester.png)
+![steps to become a software tester](../../static/images/steps_to_become_software_tester.png "")
 
 ### 1. Starting from Python course
 

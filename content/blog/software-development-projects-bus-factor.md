@@ -16,7 +16,7 @@ published: true
 ---
 **Do you know what a bus factor is? Should it be a nightmare for startups that build in-house teams or hire a software development agency? Check out the best practices to protect the development projects from the bus factor risk.**
 
-![bus factor](/images/blogpost_izabela_bus_in_post-01.png)
+![bus factor](../../static/images/blogpost_izabela_bus_in_post-01.png "")
 
 ## What is a bus factor?
 
@@ -66,4 +66,4 @@ If you decide to hire a [software development agency](/), then **you should get 
 
 When you hire a software team you have to always have in mind the bus factor issue. Fortunately, when your team knows how to share knowledge and communicate effectively, the bus factor shouldn’t be so much of a concern. Just stay calm and… follow the practices that we’ve presented. 😉
 
-<div class='block-button'><h2>Ready to take your tech solution to the next level?</h2><div>We have been developing mobile and web apps since 2012 for clients from the UK, Germany, Norway, Israel and more. Let's talk!</div><a href="/start-project"><button>book a free consultation</button></a></div>
+<div className="block-button"><h2>Ready to take your tech solution to the next level?</h2><div>We have been developing mobile and web apps since 2012 for clients from the UK, Germany, Norway, Israel and more. Let's talk!</div><a href="/start-project"><button>book a free consultation</button></a></div>

@@ -31,11 +31,11 @@ cargo build --release
 
 We will be using the smart contract from the previous part. You will probably need to *forget* the old smart contract instance and the wasm file in the Polkadot JS Apps (it is no longer available on-chain thus still visible in the UI). Go to *Developer* -> *Contracts* page. In the *Contracts* tab use the bin button next to the contract instance to forget the contract.
 
-![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image8.png)
+![cryptocurrency in substrate](../../static/images/cryptocurrency-with-substrate-2-image8.png "")
 
 In the *Code* tab use the bin button next to the code hash to forget the code.
 
-![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image9.png)
+![cryptocurrency in substrate](../../static/images/cryptocurrency-with-substrate-2-image9.png "")
 
 Now you can upload the code again and deploy the smart contract. Don't forget to update the smart contract address in the NestJS app if needed.
 
@@ -71,7 +71,7 @@ With the declared storage items we will be able to query the module for the tota
 
 You can already play with your pallet with [Polkadot JS Apps](https://polkadot.js.org/apps). Go to the *Developer* -> *Chain State* page, *Storage* tab. Select `erc20` pallet in the left dropdown. In the right dropdown, you can now see the getter functions. As we have not initialized the token yet, you will get `false` as a result of `init()` and zeros for the other functions.
 
-![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image7.png)
+![cryptocurrency in substrate](../../static/images/cryptocurrency-with-substrate-2-image7.png "")
 
 ### Functions
 
@@ -154,27 +154,27 @@ In the very last line of the `init` function, we emit an `Initialized` event wit
 
 Let's now initialize our token. We will use [Polkadot JS Apps](https://polkadot.js.org/apps) to call the function. Go to *Developer* -> *Extrinsics* page. Choose an account to create a token with. Choose the `erc20` and `init(tital_supply)` extrinsic to submit. Fill in the `total_supply` value.
 
-![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image1.png)
+![cryptocurrency in substrate](../../static/images/cryptocurrency-with-substrate-2-image1.png "")
 
 Sign and submit the transaction. You can see some events showing up in the upper right corner. One of them is the `Initialized` event.
 
-![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image2.png)
+![cryptocurrency in substrate](../../static/images/cryptocurrency-with-substrate-2-image2.png "")
 
 We can also view the details of the event in the *Network* -> *Explorer* page.
 
-![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image3.png)
+![cryptocurrency in substrate](../../static/images/cryptocurrency-with-substrate-2-image3.png "")
 
 In the *recent events* block you can see the `erc20.Initialized` event. Just below the name, you can see the description from the comments. When you expand it, you can see the sender account. On the right side of the event, you can see the block number and the extrinsic number, here it is `4-1`. You can click on it and explore the block.
 
-![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image4.png)
+![cryptocurrency in substrate](../../static/images/cryptocurrency-with-substrate-2-image4.png "")
 
 We can now try to initialize the token once again. As we were expecting, an `AlreadyInitialized` error showed up.
 
-![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image5.png)
+![cryptocurrency in substrate](../../static/images/cryptocurrency-with-substrate-2-image5.png "")
 
 We can also view the details of the error in the *Network* -> *Explorer* page. It will not however show up in the recent events table, so you need to check the last few blocks manually to find the one with the error.
 
-![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image6.png)
+![cryptocurrency in substrate](../../static/images/cryptocurrency-with-substrate-2-image6.png "")
 
 You can again see the `type` of the error as the `AlreadyInitialized` we have declared in the code. The `details` field is a description from the comment.
 
@@ -421,7 +421,7 @@ async transfer(sender: string, to: string, value: number) {
 
 Let's send a PUT request at `http://localhost:3000/runtime/balances` to transfer some tokens from Alice to Bob and review the logs. 
 
-![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image10.png)
+![cryptocurrency in substrate](../../static/images/cryptocurrency-with-substrate-2-image10.png "")
 
 We will see three results: an empty one upon transaction creation, one with `InBlock` status when the transaction was included in a block, and one with `Finalized` status when the transaction was finalized and cannot be forked off the chain. The transaction gets finalized even if business logic fails (i.e. you try to transfer more funds than you poses). When you look at the second logged message, you can find an `event` object which includes events and errors emitted by the runtime functions.
 
@@ -562,11 +562,11 @@ export class AllowancesController {
 
 We can now let Alice approve Charlie to make some transfers on behalf of her.
 
-![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image11.png)
+![cryptocurrency in substrate](../../static/images/cryptocurrency-with-substrate-2-image11.png "")
 
 If everything goes as it should, Charlie can now send some tokens from Alice to Bob.
 
-![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image12.png)
+![cryptocurrency in substrate](../../static/images/cryptocurrency-with-substrate-2-image12.png "")
 
 Unfortunately, such a transfer produces `Internal server error`. It should say something like `1010: Invalid Transaction: Inability to pay some fees (e.g. account balance too low)`. It could look like we have some bug and try to transfer tokens from Charlie's account, which is empty for now. However, the reason is a little different. By default, for transaction fees Substrate uses the token from `Balances` pallet. In Polkadot JS Apps you *Accounts* -> *Accounts* page you can see each account's balance represented in the `Balances` pallet's tokens. When you start a pure chain in development mode Alice and Bob are the only accounts minted with some tokens.
 
@@ -594,11 +594,11 @@ First of all, we need to fix our code to respond gently when an error occurs. Th
 
 Let's try to send the request again and confirm that we get the `400` response instead of `500`.
 
-![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image13.png)
+![cryptocurrency in substrate](../../static/images/cryptocurrency-with-substrate-2-image13.png "")
 
 Now we can transfer some basic Substrate tokens from Alice do Charlie, to let him pay a transaction fee. Go to Polkadot JS Apps and choose *Accounts* -> *Accounts* page. Click `send` button in Alice's row and transfer 10 units from Alice do Charlie.
 
-![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image14.png)
+![cryptocurrency in substrate](../../static/images/cryptocurrency-with-substrate-2-image14.png "")
 
 Charlie can finally send 100 tokens from Alice to Bob. We can check that the approval was reduced by 100 and now it is 100. Charlie can try to transfer another 150 tokens from Alice to Bob. We should receive an event with the `InsufficientApprovedFunds` error.
 
@@ -606,4 +606,4 @@ Charlie can finally send 100 tokens from Alice to Bob. We can check that the app
 
 In this blog post, we have looked through the implementation of the ERC20 token in a Substrate Runtime module. We have also created a NestJS app that reads data exposed by the module, calls the dispatchable functions and shows the emitted events and errors.
 
-<div class='block-button'><h2>We are looking for Rust Developers</h2><div>We are looking for an experienced senior developer who is excited about Rust or C++. You will be responsible for developing the infrastructure that will connect different blockchains to the Substrate and Polkadot ecosystems.</div><a href="/jobs/rust-developer"><button>Apply and join our team</button></a></div>
+<div className="block-button"><h2>We are looking for Rust Developers</h2><div>We are looking for an experienced senior developer who is excited about Rust or C++. You will be responsible for developing the infrastructure that will connect different blockchains to the Substrate and Polkadot ecosystems.</div><a href="/jobs/rust-developer"><button>Apply and join our team</button></a></div>

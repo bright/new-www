@@ -17,7 +17,7 @@ Using custom native components in React Native is a common thing, so sooner or l
 
 <center>
 
-![toy model](/images/putting-native-in-rn/toymodel.JPG)
+![toy model](../../static/images/putting-native-in-rn/toymodel.JPG "")
 
 </center>
 
@@ -81,7 +81,7 @@ protected void onDestroy() {
 
 That's it, that is what we're going to work on. The app shows a simple message while plugging the headset in:
 
-![native app](/images/putting-native-in-rn/screenshot1.png)
+![native app](../../static/images/putting-native-in-rn/screenshot1.png "")
 
 Let's use it in our RN project!
 

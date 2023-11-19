@@ -18,7 +18,7 @@ language: en
 
 Health apps are a part of digital healthcare transformation that affects the future of global healthcare. **Health apps support patients and medical staff in managing their daily duties and tasks.** They often help patients manage their chronic disease and support nurses and doctors in their daily work. They are important tools which can really facilitate people’s life and health habits, but we have to keep in mind that compared to medical apps they don’t **have an ability to directly influence the patient’s medical state**.
 
-![healthcare app](/images/healthcare_in_post5.png)
+![healthcare app](../../static/images/healthcare_in_post5.png "")
 
 ## Healthcare and medical apps – understanding the difference
 
@@ -54,4 +54,4 @@ Health apps should be simple for users. Although simplicity is definitely a tren
 
 **Read our another blog post if want to explore the topic of [UX design for healthcare and medical apps](/blog/ux-design-healthcare-medical-apps-case-study/).**
 
-<div class='block-button'><h2>Looking for a healthcare app development company?</h2><div>Since 2012 we have developed eHealth products for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
+<div className="block-button"><h2>Looking for a healthcare app development company?</h2><div>Since 2012 we have developed eHealth products for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>

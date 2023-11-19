@@ -17,7 +17,7 @@ language: en
 There is always a room for improvement regarding the service that we deliver to our clients.
 In this post I describe 3 habits that I consider really helpful in order to work effectively with clients.  
 
-![clients](/images/3-habits-to-improve-cooperation-wth-clients/clients.jpeg)
+![clients](../../static/images/3-habits-to-improve-cooperation-wth-clients/clients.jpeg "")
 
 ## 1. Estimating
 
@@ -33,7 +33,7 @@ Breaking tasks into smaller assignments will not only make it easier to estimate
 
 ### Update your estimates
 
-![correct](/images/3-habits-to-improve-cooperation-wth-clients/correct.jpg)
+![correct](../../static/images/3-habits-to-improve-cooperation-wth-clients/correct.jpg "")
 
 We <b>must</b> be prepared that the reality will diverge from our original estimates - in the end, this is why they are called <b>estimates</b>, not commitments.
 With this approach it will be much more natural to inform your clients about possible delays. Keep in mind that if you have an estimate for 2 weeks of work and after 5 days you notice that you will not make it - do not wait until the last moment to inform about that. The time that you notice the issue should be the time that you update your clients so that they can adjust their plans accordingly. You should not treat the act of updating estimations as a sign of failure - in the end these are... well... estimations!
@@ -56,7 +56,7 @@ Investing more work into a feature `A` means that you will not be able to invest
 
 ## 3. Frequent synchronization
 
-![synchronization](/images/3-habits-to-improve-cooperation-wth-clients/synchronization.jpeg)
+![synchronization](../../static/images/3-habits-to-improve-cooperation-wth-clients/synchronization.jpeg "")
 
 If you work with clients (especially remotely), it is really important to make them aware of what happens with the time that goes into the development of their product. That's why a frequent synchronization is a key to good cooperation with your clients. If you have a CI system, make your test builds available so that your client always knows about latest changes. You don't have one? Make builds yourself, but please remember to keep your clients up to date with the progress.
 You can also schedule a quick meeting with your clients and update them about your progress. As a result your clients may find out that they would like to update the initial requirements. Keep in mind that it's usually much better to do it before all work is finished - all in all it's our role to provide our clients with the software that fits their needs.

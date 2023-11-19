@@ -281,4 +281,4 @@ touch!**
 
 You can find the complete code [over GitHub.](https://github.com/bright/kotlin-exposed-json-example)
 
-<div class='block-button'><h2>Are you backend dev? Join us!</h2><div>We are looking for an experienced Backend Developer who understands Java/Kotlin & Spring really well and who would like to work with AWS on a daily basis.</div><a href="/jobs/senior-backend-developer/"><button>apply now</button></a></div>
+<div className="block-button"><h2>Are you backend dev? Join us!</h2><div>We are looking for an experienced Backend Developer who understands Java/Kotlin & Spring really well and who would like to work with AWS on a daily basis.</div><a href="/jobs/senior-backend-developer/"><button>apply now</button></a></div>

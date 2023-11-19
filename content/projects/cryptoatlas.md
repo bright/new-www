@@ -72,7 +72,7 @@ Since the very beginning the target group was known, deeply scrutinized and unde
 
 The platform was launched in August 2020. It attracts top crypto influencers that now build their communities on CryptoAtlas.
 
-![cryptocurrency social platform](/images/cryptocurrency_platform.png)
+![cryptocurrency social platform](../../static/images/cryptocurrency_platform.png "")
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 

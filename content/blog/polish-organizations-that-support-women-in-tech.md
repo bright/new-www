@@ -16,7 +16,7 @@ language: en
 ---
 **Everything you should know about Polish initiatives for women in tech. Check out available mentoring programs, courses, communities, and join the movement!**
 
-![Intitiatives for Polish female software developers](/images/blog_post_polish_tech_initiatives_women.png)
+![Intitiatives for Polish female software developers](../../static/images/blog_post_polish_tech_initiatives_women.png "")
 
 ## Statistics about females programmers in software development in Poland
 
@@ -24,7 +24,7 @@ Various data put Poland in a very good light. Poland was ranked by HackerRank on
 
 <center>
 
-![Polish female developers](/images/female_developers_hackerrank.png)
+![Polish female developers](../../static/images/female_developers_hackerrank.png "")
 
 </center>
 
@@ -34,7 +34,7 @@ With the higher number of Polish female developers comes high quality. HackerRan
 
 <center>
 
-![HackerRank best female developers](/images/hackerrank_best_female_developers.png)
+![HackerRank best female developers](../../static/images/hackerrank_best_female_developers.png "")
 
 </center>
 
@@ -42,7 +42,7 @@ Source: [Medium.com](https://medium.com/code-like-a-girl/which-countries-have-th
 
 ## Still, there is so much to be done for women in tech
 
-![Kasia - Senior Project Manager at Bright Inventions](/images/kasia_quote_women.png)
+![Kasia - Senior Project Manager at Bright Inventions](../../static/images/kasia_quote_women.png "")
 
 We discussed the situation of women in tech in [an interview with our bright Senior Project Manager Kasia](/blog/meet-kasia-a-project-manager-and-an-academic-teacher) who is an academic teacher at the Department of Software Engineering at the Gdańsk University of Technology. Check out [Kasia’s thoughts on the situation of Polish female STEM students](https://brightinventions.pl/blog/meet-kasia-a-project-manager-and-an-academic-teacher/#what-does-the-female-students-situation-at-it-look-like-can-you-see-that-there-are-more-women-studying-than-there-used-to-be). 
 
@@ -56,7 +56,7 @@ We gathered some of the Polish initiatives for women in tech and female programm
 
 ### Mentoring options for female software developers
 
-![Mentoring for female software developers Poland](/images/blog_mentoring_women_tech.png)
+![Mentoring for female software developers Poland](../../static/images/blog_mentoring_women_tech.png "")
 
 [Dare IT](https://www.dareit.io)
 
@@ -72,7 +72,7 @@ It is a 4-month, free mentoring program for women whose desire is to pursue a ca
 
 ### IT educational program for women
 
-![IT educational programs for women](/images/blog_education_women_tech.png)
+![IT educational programs for women](../../static/images/blog_education_women_tech.png "")
 
 [iTech Woman!](https://itechwoman.pl)
 
@@ -80,7 +80,7 @@ Another free program that offers over 140 hours of workshops and courses regardi
 
 ## Women Tech Communities
 
-![Women Tech Communities](/images/blog_tech_communities_women_blog.png)
+![Women Tech Communities](../../static/images/blog_tech_communities_women_blog.png "")
 
 [Cyber Women Community](https://cyberwomen.eu)
 
@@ -96,7 +96,7 @@ Global female tech community that came to life in Poland over 10 years ago. Sinc
 
 ### Initiatives for teenagers and girls
 
-![Tech initiative for teenagers and girls](/images/blog_teenagers_girls_tech_blog.png)
+![Tech initiative for teenagers and girls](../../static/images/blog_teenagers_girls_tech_blog.png "")
 
 [Girls as Engineers! Campaign](http://www.dziewczynynapolitechniki.pl/english)
 
@@ -118,7 +118,7 @@ We all are aware that presenting tech opportunities to girls when they are alrea
 
 <center>
 
-![Kosmos dla dziewczynek Polish magazine](/images/no.28–okladka-komiks-650x659.jpg.webp)
+![Kosmos dla dziewczynek Polish magazine](../../static/images/no.28–okladka-komiks-650x659.jpg.webp "")
 
 </center>
 

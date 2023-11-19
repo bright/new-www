@@ -15,7 +15,7 @@ comments: true
 published: true
 language: en
 ---
-<div class="image"><img src="/images/role-of-transpilers.jpeg" alt="A laptop computer sitting on top of a desk with a code editor opened."  /></div>
+<div className="image"><img src="/images/role-of-transpilers.jpeg" alt="A laptop computer sitting on top of a desk with a code editor opened."  /></div>
 <br />
 
 In the old days, there were many more web browsers competing in the market and each was supporting a different subset of JavaScript features. What's even worse, some of them weren't really focused on implementing the missing ones, therefore we were greatly limited by them. Internet Explorer is an inglorious example coming from this group. It was obsolete but really popular at the same time. The worst nightmare of a web developer wanting to use modern JavaScript.
@@ -221,7 +221,7 @@ This time there are two visitors defined. The UpdateParamNameVisitor is used by 
 
 The so-called 'next generation compilers' have been gaining more and more momentum recently. The revolution started with the Go language powering [ESBuild](https://esbuild.github.io/) and now it's mainly focused on Rust and tools like [SWC](https://swc.rs/). What's the point?  - one may ask. Well, back in the past, JavaScript was used to build small or medium-sized web pages. However, this changed years ago and **there are huge applications composed of hundreds of views and thousands of files** available on the market.
 
-<div class="image">![A chart showing a major improvement in compilation time thanks to ESBuild and SWC when compared to TypeScript and Babel.](../../static/images/role-of-transpilers-benchmark.png "undefined")</div>
+<div className="image">![A chart showing a major improvement in compilation time thanks to ESBuild and SWC when compared to TypeScript and Babel.](../../static/images/role-of-transpilers-benchmark.png "undefined")</div>
 
 Source: [DataStation - Benchmarking esbuild, swc, tsc, and babel for React/JSX projects](https://datastation.multiprocess.io/blog/2021-11-13-benchmarking-esbuild-swc-typescript-babel.html)
 
@@ -231,4 +231,4 @@ On such a scale, developer experience provided by JavaScript-based tooling start
 
 That's it. You know now why transpilers like Babel are needed and what exactly are they responsible for. Hopefully, this knowledge will help you debug issues related to code transformation, which usually are the worst nightmare. See you next time!
 
-<div class='block-button'><h2>Let's create software that matters</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>
+<div className="block-button"><h2>Let's create software that matters</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>

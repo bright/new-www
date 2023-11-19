@@ -40,6 +40,6 @@ Do you have an idea for an app but you don’t know what to do next? You are not
 
 ## Authors
 
-<div class="image">![ebook MVP authors](../../static/images/ebook_mvp_authors_blog.png "ebook MVP authors")</div>
+<div className="image">![ebook MVP authors](../../static/images/ebook_mvp_authors_blog.png "ebook MVP authors")</div>
 
 At Bright Inventions **we have been developing MVPs for over a decade**. This ebook is based on our team's experience in launching MVPs for startups based in Israel, Norway, Germany, the USA, and more. Feel free to get your copy!

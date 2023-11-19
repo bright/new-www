@@ -22,13 +22,13 @@ It is an honour to receive this award because we were selected largely based on 
 
 We’re thankful for our clients who have supplied valuable information for our Clutch profile. We’ve enjoyed working closely with our partners and look forward to continuing our business relationships. We try to work on-site as much as possible and are dedicated to transparency in order to grow our partnerships and strengthen our collaborations. More than anything, we love helping our customers and seeing our projects grow into big, successful ventures. 
 
-![Top Development Company in Poland](/images/health_app_clutch-review.png)
+![Top Development Company in Poland](../../static/images/health_app_clutch-review.png "")
 
 Over the years, our customer-first policy has worked. With an average rating of 4.9 stars out of 5 on Clutch, we’ve proven that we’re a reliable and trustworthy partner. 
 
 To see how we’ve become one of the best in the business, you just need to check out our portfolio on [Visual Objects](https://visualobjects.com/pl/app-development/top-mobile-app-development-companies). A company directory resource, users are able to view examples of our work while comparing the quality of the results to other leaders in the field. By reviewing the top mobile app developers on Visual Objects , you can be confident that by choosing us, you’re choosing the best. 
 
-![Top Development Company in Poland](/images/bright_inventions_shirt_intro_clutch.png)
+![Top Development Company in Poland](../../static/images/bright_inventions_shirt_intro_clutch.png "")
 
 Due to the quality of work we deliver, we’ve also been included on Clutch’s sister site, [The Manifest](https://themanifest.com/pl/web-development/companies#brightinventions). A catalog of business news and how-to articles, we were featured on the Eastern Europe company blog resource page for our development of a native mobile app. 
 

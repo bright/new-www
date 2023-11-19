@@ -37,7 +37,7 @@ show on homepage: false
 published: true
 language: en
 ---
-<div class="image">![pregnancy health tech app](../../static/images/brightstory_pregnancy_app.png "Pregnancy app")</div>
+<div className="image">![pregnancy health tech app](../../static/images/brightstory_pregnancy_app.png "Pregnancy app")</div>
 
 ## Main tech elements
 
@@ -65,7 +65,7 @@ A large part of the work was around building a solution that adapts the content 
 
 Technical challenges lied primarily in ensuring the parity of features across platforms and deep integration with the system calendar. Events had to be automatically added to the calendar, synchronised across user devices and scheduled push notification had to be triggered at the appropriate times.
 
-![Pregnancy App](/images/pregnancy_app1.png)
+![Pregnancy App](../../static/images/pregnancy_app1.png "")
 
 ## Launch
 

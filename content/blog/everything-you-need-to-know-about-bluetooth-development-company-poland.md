@@ -16,7 +16,7 @@ language: en
 ---
 **What can you expect from Polish Bluetooth developers? Why should you consider hiring a Bluetooth Development Company from Poland? Get all the answers.**
 
-![bluetooth development Poland](/images/bluetooth_development_poland_blog.png)
+![bluetooth development Poland](../../static/images/bluetooth_development_poland_blog.png "")
 
 ## Polish programmers are top of the top
 
@@ -24,7 +24,7 @@ It is a fact that Polish devs have proficient programming skills. HackerRank pro
 
 <center>
 
-![polish bluetooth developers](/images/Best_developers_HackerRank.png)
+![polish bluetooth developers](../../static/images/Best_developers_HackerRank.png "")
 
 </center>
 
@@ -57,7 +57,7 @@ Polish Bluetooth developers build mobile applications using top technologies. Ch
 
 ## Developers from Poland specialize in building applications for Bluetooth devices
 
-![bluetooth development company Poland](/images/blogpost_www_healthcare2.5.png)
+![bluetooth development company Poland](../../static/images/blogpost_www_healthcare2.5.png "")
 
 [Bluetooth development](/our-areas/bluetooth-development) is often used to build solutions for industries such as fitness, healthcare, retail, or fintech. 
 
@@ -79,4 +79,4 @@ If you want to know more, read another blog post on [Bluetooth devices for healt
 * Electronic scale,
 * Barcode scanner.
 
-<div class='block-button'><h2>Time for your Bluetooth solution!</h2><div>Are you looking for a Bluetooth development company based in Poland?</div><a href="/start-project"><button>Contact us to estimate your Bluetooth solution</button></a></div>
+<div className="block-button"><h2>Time for your Bluetooth solution!</h2><div>Are you looking for a Bluetooth development company based in Poland?</div><a href="/start-project"><button>Contact us to estimate your Bluetooth solution</button></a></div>

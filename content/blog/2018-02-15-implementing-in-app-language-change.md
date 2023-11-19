@@ -18,7 +18,7 @@ language: en
 ---
 Android resolves language- and culture-specific resources based on the system locale setting. This is a desired behavior that makes perfect sense. Despite it's officially not encouraged you may still need to write an app that allows the user to change its language without leaving it. In this article I will show you one of the possible ways to implement such feature.
 
-![Communication](/images/implementing-in-app-language-change/communication.jpg)
+![Communication](../../static/images/implementing-in-app-language-change/communication.jpg "")
 
 ## The big picture
 
@@ -28,7 +28,7 @@ I'm going to translate all the strings visible on the current application screen
 
 The following diagram illustrates the flow of getting a localized string by Activity:
 
-![Getting a string](/images/implementing-in-app-language-change/localization.png)
+![Getting a string](../../static/images/implementing-in-app-language-change/localization.png "")
 
 The flow involves `StringLocalization` object which has a map containing all the available `Resources` and that uses `AppSettings` to get current language that was set by the user.
 

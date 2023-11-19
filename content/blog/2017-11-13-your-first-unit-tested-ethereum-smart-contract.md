@@ -64,13 +64,13 @@ parity --chain=dev --jsonrpc-apis web3,rpc,personal,parity_accounts,eth,net,pari
 ```
 
 Now we do need an account with some ether amount to be able to perform transactions. Parity development chain allows you to create an account with almost unlimited ether amount but only on a development chain. You will not find creating such an account as an regular UI option, it's available as a hack. Please first open a link to parity UI (`http://0.0.0.0:8180/`) and open ACCOUNTS and then RESTORE,you should see: 
-![Restore super account 1](/images/smart-contract-create-test-and-deploy/parity-restore-super-account-1.jpg)
+![Restore super account 1](../../static/images/smart-contract-create-test-and-deploy/parity-restore-super-account-1.jpg "")
 
 The trick is to restore an account with an empty recovery phrase. Please fill in the account name, password hint, passwords and click IMPORT on the right bottom corner:
-![Restore super account 2](/images/smart-contract-create-test-and-deploy/parity-restore-super-account-2.jpg)
+![Restore super account 2](../../static/images/smart-contract-create-test-and-deploy/parity-restore-super-account-2.jpg "")
 
 Once the account is created, you should see:
-![Restore super account 3](/images/smart-contract-create-test-and-deploy/parity-restore-super-account-3.jpg)
+![Restore super account 3](../../static/images/smart-contract-create-test-and-deploy/parity-restore-super-account-3.jpg "")
 
  Next step is to run parity node with unlocked account on which we will execute all test transactions, so you will not need to sign every test transaction via Signer available via parity UI. To do that please first kill already started parity process and run that process with two additional parameters:    
 
@@ -82,7 +82,7 @@ parity --chain=dev --jsonrpc-apis web3,rpc,personal,parity_accounts,eth,net,pari
 ```
 
 Which should result in something like this: 
-![Parity in terminal](/images/smart-contract-create-test-and-deploy/running-parity.jpg)
+![Parity in terminal](../../static/images/smart-contract-create-test-and-deploy/running-parity.jpg "")
 
 Parity node is ready! :) 
 

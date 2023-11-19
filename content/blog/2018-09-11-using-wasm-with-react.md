@@ -92,7 +92,7 @@ module.hot.accept();
 
 Now you can go to a browser and check if you can see a _black rectangle_:
 
-![Black rectangle on canvas](/images/use-wasm-with-reactjs/wasm.png)
+![Black rectangle on canvas](../../static/images/use-wasm-with-reactjs/wasm.png "")
 
 ## Drawing fractals
 
@@ -152,7 +152,7 @@ componentDidMount() {
 
 After this change you can see the Mandelbrot set on the page:
 
-![Mandelbrot set fractal draws on the canvas](/images/use-wasm-with-reactjs/wasm2.png)
+![Mandelbrot set fractal draws on the canvas](../../static/images/use-wasm-with-reactjs/wasm2.png "")
 
 It looks great, doesn't it?
 
@@ -185,7 +185,7 @@ float mandelIter(float x, float y, int maxIter) {
 
 Our function after the compilation has some strange name: `_Z10mandelIterffi`. We will use this name in our JavaScript code.
 
-![WebAssembly Explorer in browser](/images/use-wasm-with-reactjs/wasm3.png)
+![WebAssembly Explorer in browser](../../static/images/use-wasm-with-reactjs/wasm3.png "")
 
 After compiling, we can download and put the file in `src` folder. I have named it `fractal.wasm`.
 

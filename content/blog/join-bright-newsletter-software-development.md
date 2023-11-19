@@ -16,7 +16,7 @@ language: en
 ---
 Oh yes! It is high time to start a bright newsletter. Once a month we will share our blog posts and info about our free workshops and webinars.
 
-<div class='block-button'><h2>Sign up for the Bright Inventions Newsletter</h2><div>Join our newsletter to receive emails. Simple as that!</div><a href="https://bright-dev-newsletter.getresponsepages.com/"><button>I wanna sign up</button></a></div>
+<div className="block-button"><h2>Sign up for the Bright Inventions Newsletter</h2><div>Join our newsletter to receive emails. Simple as that!</div><a href="https://bright-dev-newsletter.getresponsepages.com/"><button>I wanna sign up</button></a></div>
 
 No worries. SPAM shall not pass. 
 

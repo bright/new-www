@@ -16,7 +16,7 @@ language: en
 ---
 **Ula is the first non-developer who joined the Bright team over 5 years ago. Now, she is more than a crucial employee. She is our Bright mom (seriously). 😉 She takes care of the recruitment area, employees' well-being and our brand development. No matter what, you can always talk to Ula. And she will find time for you, despite the fact that she is one of the busiest people in the company. 😉 Meet Ula – HR and Marketing Manager at Bright Inventions.**
 
-![Ula – HR and Marketing Manager at Bright Inventions](/images/brightstoryula.png)
+![Ula – HR and Marketing Manager at Bright Inventions](../../static/images/brightstoryula.png "")
 
 ## You studied English Philology to eventually got into Marketing and HR. What did this journey look like?
 
@@ -26,7 +26,7 @@ Anyway, during studies and after them I was translating texts from many differen
 
 After my first MA I started an internship at a PR agency and at the same time I also decided to begin my second MA studies – marketing ones. I really like the feeling that I know the ins and outs of the field I work in. I remember I did many great practical projects during my studies. There were interesting subjects like creating brand strategies, company’s missions, preparing business plans, merchandising models etc. Dozens of creative things. I just love the process of creation. After I graduated I started my job at Twitter. At that time I also discovered that what I really needed was one brand and people around it.
 
-<div class='block-button'><h2>Do you want to join Ula?</h2><div>We like people with bright minds! Check out our career opportunities.</div><a href="/career"><button>Apply and join Ula</button></a></div>
+<div className="block-button"><h2>Do you want to join Ula?</h2><div>We like people with bright minds! Check out our career opportunities.</div><a href="/career"><button>Apply and join Ula</button></a></div>
 
 ## How do you recall working closely with such a big organization as Twitter?
 
@@ -34,7 +34,7 @@ I recall that as a great experience and a good lesson. I think it was a very imp
 
 **I was working with dozens of brands from different industries** like Wirtualna Polska, Wedel, ING, Lays, **but also companies like DocPlanner or Booksy which were small startups back then**.  It was a great experience to discover different marketing strategies and work with different business needs. **And for sure the adventure was also visiting California and meeting the team working there including Adam Bein or Jack Dorsey**.
 
-![USA trip](/images/brightstoryula_usa_collage.png)
+![USA trip](../../static/images/brightstoryula_usa_collage.png "")
 
 And disadvantages? I think that the feeling that you sometimes may put your whole heart into work, but you do not have an influence on the final decision of your clients or the organisation itself. 
 
@@ -42,7 +42,7 @@ And disadvantages? I think that the feeling that you sometimes may put your whol
 
 Yes, I started my employer branding and recruitment adventure at Bright Inventions in 2016 (Read this [blog post to know more about Ula’s beginnings at Bright](/blog/bright-inventions-turns-10-in-march-what-do-we-value/)). The surprising fact may be that **employer branding was not so easily recognisable at that time**. But I knew that for me it was a great opportunity to connect my love for people, psychology and marketing. 
 
-![Ula's quote on employer branding](/images/ula_quote1.png)
+![Ula's quote on employer branding](../../static/images/ula_quote1.png "")
 
 Bright Inventions was a beautiful blank page where I could put my all ideas into actions and use my creativity.There was almost nothing considering HR and marketing procedures when I joined. But there were great people. When I joined there **were eight people on board. And I really appreciate the trust and independence I was given**.
 
@@ -50,7 +50,7 @@ What gives me satisfaction is the feeling that I create something of great value
 
 And I really enjoy the recruitment area. I feel that thanks to my support new people can develop in the organisation or just can find the organisation they have been looking for. **I have a chance to build something more than a workplace, for me it is a community in which you can see the growth of people, their experience and expertise. I love my team here at Bright Inventions. I feel responsible for them**. 
 
-![Ula's quote on Bright Inventions](/images/ula_quote2.png)
+![Ula's quote on Bright Inventions](../../static/images/ula_quote2.png "")
 
 ## And how do you adjust to these ongoing changes in the market?
 
@@ -62,7 +62,7 @@ I get inspiration from experts who have built really great companies, really gre
 
 Finding a good cultural fit. I think that is the real challenge. There are a lot of talented software developers in the market, but **technical skills are not everything**. To make the relationship work for both sides, **we have to have a similar mindset and see a common goal**. Then both the new hire and the current team are happy. 
 
-![Team Retreats](/images/brightstory_team.png)
+![Team Retreats](../../static/images/brightstory_team.png "")
 
 Of course, functional programming knowledge, commercial experience and someone’s expertise are must-haves in particular roles, but at the same time we pay a huge attention to core values and non-technical skills each candidate posseses. We sometimes must reject applicants who have strong technical skills, but there is no cultural fit. We are pretty sure that these people would not cooperate well in our community and they would just not be happy. And **the point should always be to create a long lasting satisfactory relationship for both parties engaged in the process, the employer and the employee**. 
 
@@ -76,7 +76,7 @@ Read more about [Bright Inventions’s onboarding](/blog/how-to-make-your-onboar
 
 I have nothing against the word “non-technical”. What I don’t like are stereotypes. **The fact that I am not a developer does not mean that I am not interested in [software development](/our-areas/custom-software-development) topics**. And it does not mean that I don’t understand them. 
 
-![Ula – HR and Marketing Manager at Bright Inventions](/images/brightstoryula2.png)
+![Ula – HR and Marketing Manager at Bright Inventions](../../static/images/brightstoryula2.png "")
 
 It all comes to HR stereotypes obviously. I constantly see they still exist. Sometimes during interviews candidates are a bit stunned that I follow the technical part or I ask some technical questions myself. I think it should be no surprise to anyone. I am not a developer, I am saying that openly, **but could I be a good IT recruiter if I didn’t know the aspects of technologies used by developers or I didn’t understand how the whole software development process looked like**? I don’t want to be judgemental, but **I think you just should not recruit specialists from IT if you don’t know their sector and mindset well**. And it is the same about any field you are recruiting in. 
 
@@ -98,7 +98,7 @@ Satisfaction. It gives me satisfaction that I can share my knowledge with other 
 
 And I love the feeling after the ride. For me it is my healthy routine. It is good for my mood and my body. 
 
-![Ula's cycling passion](/images/ula_cycling_bigger.png)
+![Ula's cycling passion](../../static/images/ula_cycling_bigger.png "")
 
 ## And apart from biking. How do you spend the rest of your spare time?
 
@@ -106,4 +106,4 @@ One may think it would sound sad, even really sad, but I like my job and it happ
 
 I have also started learning Spanish recently just for myself as I needed something fresh and new. And there are also English classes that I run, so I think I have quite many things to focus on when I am not at Bright. 🙂
 
-<div class='block-button'><h2>Do you want to join Ula?</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>
+<div className="block-button"><h2>Do you want to join Ula?</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>

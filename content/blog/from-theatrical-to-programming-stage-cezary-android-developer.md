@@ -18,7 +18,7 @@ language: en
 ---
 **For most of his life, Cezary was passionate about gymnastics. He even became an acrobatic instructor for kids. Then he got a professional acrobatic role in a musical play! Eventually, he decided to self-learn programming and said goodbye to the gymnastics world. Why? Check out the amazing story of Cezary. Also, meet his lovely dog Tola.**
 
-<div class="image">![Android Developer](../../static/images/brightstorycezarycollage.png "undefined")</div>
+<div className="image">![Android Developer](../../static/images/brightstorycezarycollage.png "undefined")</div>
 
 ## Is it true that you had been an acrobatic instructor before you became a programmer?
 
@@ -28,7 +28,7 @@ After graduating from high school I went to Civil Engineering studies but I didn
 
 Eventually, **I became an acrobatic instructor for kids**. I also auditioned for the acrobatic dancer role at the Music Theater in Gdynia. I got a role with some of my friends. So **I was an acrobatic dancer in the Notre Dame De Paris show**. That was pretty cool.
 
-<div class="image">![Notre Dame de Paris](../../static/images/photo_theatre.png "Photo by Piotr Manasterski")</div>
+<div className="image">![Notre Dame de Paris](../../static/images/photo_theatre.png "Photo by Piotr Manasterski")</div>
 
 *Photo by Piotr Manasterski. Source: [Facebook](https://www.facebook.com/Piotr.Manasterski.fotograf/photos/a.376316558378/10153908473538379/?type=3)*
 
@@ -40,7 +40,7 @@ I came up with the idea to learn software development after I graduated from col
 
 When I decided to learn programming, my girlfriend was the only person who knew about it. I was learning from morning hours to afternoon and then I was going to the theatrical rehearsals.
 
-<div class="image">![Learning how to code](../../static/images/notes_programming.png "undefined")</div>
+<div className="image">![Learning how to code](../../static/images/notes_programming.png "undefined")</div>
 
 <center>Some notes made by Cezary while learning.</center>
 
@@ -48,7 +48,7 @@ I started my learning process by doing **a free CS50 course made by Harvard**. I
 
 Eventually, a couple of years ago I decided to study Computer Science at the Polish-Japanese Academy of Information Technology in Gdańsk. So I guess I will get the proper education after all. 😉 Although, I believe that if you are passionate about the IT world, you have all the possibilities to learn it on your own.
 
-<div class="image">![Learning to be a programmer](../../static/images/cezary_quote_learning.png "undefined")</div>
+<div className="image">![Learning to be a programmer](../../static/images/cezary_quote_learning.png "undefined")</div>
 
 ## How do you recall joining Bright Inventions?
 
@@ -58,7 +58,7 @@ A few years after being in the industry I was looking for a new place of work. *
 
 Bright Inventions has been cooperating with this client for over 3 years. **A client is a group of tech-savvy experienced startup founders**. We have an opportunity to support them in **developing the IoT system for tracking and management of Bluetooth trackers**.
 
-<div class='block-button'><h2>Join Cezary!</h2><div>Build Android SDK with Cezary and cooperate on daily basis with a client from the USA.</div><a href="/jobs/senior-android-developer/"><button>Apply and join Cezary</button></a></div>
+<div className="block-button"><h2>Join Cezary!</h2><div>Build Android SDK with Cezary and cooperate on daily basis with a client from the USA.</div><a href="/jobs/senior-android-developer/"><button>Apply and join Cezary</button></a></div>
 
 We are responsible mostly for iOS and Android development. However, apps are just the use cases of the solution we work on. The whole solution behind our apps is the crucial exciting part of our daily work.
 
@@ -84,7 +84,7 @@ A clone of mine would be fine. 😉
 
 On a serious note, this project is a perfect fit for **someone who is not satisfied with simple solutions and loves to find their own ways**. There is a lot of conceptual work. If you want to look for solutions rather than have them handed on a silver platter, then you will find our project exciting.
 
-<div class="image">![Quote on Android project](../../static/images/cezary_quote_project_client.png "undefined")</div>
+<div className="image">![Quote on Android project](../../static/images/cezary_quote_project_client.png "undefined")</div>
 
 We have 7 experienced developers and a Quality Assurance specialist on our team. We would love to welcome another positive and engaged team member. 
 
@@ -104,10 +104,10 @@ As an example let me show you and play a musical instrument I have built. This i
 
 I guess you mean my dog Tola. 🙂 She’s a rescue. My fiancée and I adopted her from Aurea Foundation whose mission is to help Golden Retrievers. Actually, I’ve always wanted to have a German Shepard and my fiancée had a desire for a Golden Retriever. So we reached a compromise and went for a Golden Retriever. 😉
 
-<div class="image">![The office dog](../../static/images/tola_dog.png "Tola at the Bright Inventions’ office in Gdańsk")</div>
+<div className="image">![The office dog](../../static/images/tola_dog.png "Tola at the Bright Inventions’ office in Gdańsk")</div>
 
 <center>Tola at the Bright Inventions’ office in Gdańsk</center>
 
 Tola had a hernia and needed surgery and probably that is why someone abandoned her. Fortunately, Tola is healthy now. She joins me when I come to the office to attend our yoga classes every Friday. She makes quite an entrance. 🙂
 
-<div class='block-button'><h2>Do you want to join Cezary?</h2><div>Join our Bright experienced Android Developers and work on data encryption.</div><a href="/jobs/senior-android-developer/"><button>Join our team</button></a></div>
+<div className="block-button"><h2>Do you want to join Cezary?</h2><div>Join our Bright experienced Android Developers and work on data encryption.</div><a href="/jobs/senior-android-developer/"><button>Join our team</button></a></div>

@@ -17,7 +17,7 @@ language: en
 
 Recently, when I was waiting for my nephew at school, I was looking at the advertisements around not to get too bored. To my surprise there were as many advertisements about lessons of programming as about some sport classes. They all aimed at the youngest children - the first grades of primary school. I was sitting there and wondering **how it is possible to teach children how to write a code in any programming language when they cannot write in Polish yet**. Hey, they can barely read! 
 
-![Image](/images/children-and-programming/children.jpg)
+![Image](../../static/images/children-and-programming/children.jpg "")
 
 When I read the notice more carefully, it turned out that <cite>programming</cite> for the youngest children is mostly about logical thinking, cause-effect concepts and problems solving. These might be reckoned as the basics of programming as well as the basics of mathematics actually. And it was the moment when I realized that I had also started learning <cite>programming</cite> early in the primary school!
 

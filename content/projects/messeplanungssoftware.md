@@ -39,7 +39,7 @@ show on homepage: false
 published: false
 language: de
 ---
-![A trade fair planning software](/images/xpomaker_dashboard2.png)
+![A trade fair planning software](../../static/images/xpomaker_dashboard2.png "")
 
 <TitleWithIcon sectionTitle='haupteigenschaften' titleIcon='/images/main_features_icon.png' titleIconAlt='haupteigenschaften' />
 
@@ -65,7 +65,7 @@ Für viele Branchen ist die Teilnahme an Messen das Herzstück des Geschäfts un
 
 Wie behält man also den Überblick, ohne sich Gedanken über organisatorisches Chaos und Fristen machen zu müssen? Hier kommt xpomaker ins Spiel.
 
-![A trade fair planning software](/images/xpomaker_dashboard.png)
+![A trade fair planning software](../../static/images/xpomaker_dashboard.png "")
 
 <TitleWithIcon sectionTitle='ziel' titleIcon='/images/goal_title_section.png' titleIconAlt='ziel' />
 

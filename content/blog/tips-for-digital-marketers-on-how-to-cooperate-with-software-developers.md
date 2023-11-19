@@ -15,7 +15,7 @@ language: en
 ---
 **Marketers have ideas, targets, analytics tools, and a hunger for leads. Yet, we sometimes need developers to help us achieve our goals. The most common cooperation between a developer and a marketer happens while building a brand website and landing pages. Based on my daily professional relations with developers I listed tips for effective collaboration between marketing specialists and software engineers.**
 
-<div class="image">![marketing specialist vs software developer](../../static/images/in_post_marketing_vs_developer.png "undefined")</div>
+<div className="image">![marketing specialist vs software developer](../../static/images/in_post_marketing_vs_developer.png "undefined")</div>
 
 ## Start by choosing the right tool for daily communication
 
@@ -63,7 +63,7 @@ What's more, **you can use session recording tools like Hotjar or Mouseflow to e
 
 Not only can you send a Hotjar recording, showing the issue, to your development team, but also **Hotjar will provide them with all info** mentioned earlier. Such as **screen resolution, device, or operating system**. Therefore you’ve got all of it covered by sharing one link with the recording. Using Hotjar as a reporting bug tool might be really helpful. 😉
 
-<div class="image">![Hotjar](../../static/images/hotjar_screen.png "undefined")</div>
+<div className="image">![Hotjar](../../static/images/hotjar_screen.png "undefined")</div>
 
 *Example of Hotjar Session Info included with every recording*
 

@@ -18,7 +18,7 @@ language: en
 ---
 **His smile is one of the biggest in the office. As well as his mobile development experience. Meet Filip – a Senior iOS Developer whose career started from a painful fail which made him a better programmer. Check out his story.**
 
-![Filip – Senior iOS Developer at Bright Inventions](/images/brightstoryfilip2.png)
+![Filip – Senior iOS Developer at Bright Inventions](../../static/images/brightstoryfilip2.png "")
 
 ## When did you realise that you wanted to be a developer?
 
@@ -30,7 +30,7 @@ Since I wasn’t interested in a teaching career there were absolutely no opport
 
 Yes. From the start, I wanted to be an iOS developer. And I didn’t even own any Apple devices then. Keep in mind that I was a poor student. 😉  It was a result of my little job market analysis. After searching tons of offers I realised that iOS developers are in huge demand, the salary range for iOS jobs was pretty impressive too, and the companies around me were really developing interesting apps. So that made me decide to go for [iOS development](/our-areas/mobile-app-development).
 
-![Filip – iOS Developer at Bright Inventions](/images/brightstoryfilip.png)
+![Filip – iOS Developer at Bright Inventions](../../static/images/brightstoryfilip.png "")
 
 ## What was your first software development job?
 
@@ -45,7 +45,7 @@ So I lost that job and then finally started to study hard. The problem was that,
 
 Obviously, I have learnt a lot of technical stuff here at Bright Inventions. But I do not think that is the key. I much appreciate the whole soft skills side of the development process that I have uncovered here. I much improved in terms of time management, communication, problem-solving, and more. I did not think I would learn all of that in a software development agency. You learn some technical stuff almost everywhere but soft skills are really unique knowledge to possess. **It turns out that having only tech skills does not define you as a good programmer.** And I know that it can be a controversial statement for some developers. 
 
-![Filip – iOS Developer at Bright Inventions](/images/brightstory3.png)
+![Filip – iOS Developer at Bright Inventions](../../static/images/brightstory3.png "")
 
 ## What do you like the most about the project you are involved in?
 
@@ -53,7 +53,7 @@ I work in a team that develops ePOS solutions for an international company from 
 
 As many developers would probably agree – you often work on software that you are not even sure if it is used and if it really offers something meaningful to users. You just deliver some code and are far away from the business side of it. Maybe sometimes while working on milestone number 3 you will finally get some feedback about the first milestone which will change absolutely nothing about your work. That is the case for many software development companies and I am glad that at Bright we do not work like that. **We are partners to our clients and bring something more to the table than lines of code.** We get to work on the solution, business expectations and we can choose technologies and frameworks. Here you really influence your project.
 
-<div class='block-button'><h2>Do you want to join Filip?</h2><div>We are looking for iOS developers. Work with Filip and develop iOS applications for our clients from Germany, Norway, Israel, USA and more.</div><a href="/jobs/senior-ios-developer"><button>Apply and join Filip</button></a></div>
+<div className="block-button"><h2>Do you want to join Filip?</h2><div>We are looking for iOS developers. Work with Filip and develop iOS applications for our clients from Germany, Norway, Israel, USA and more.</div><a href="/jobs/senior-ios-developer"><button>Apply and join Filip</button></a></div>
 
 ## At Bright Inventions we develop native mobile apps, but you worked closely with React Native before. What is your opinion about native vs hybrid apps development?
 
@@ -65,7 +65,7 @@ However, there are situations when it might be right to choose a hybrid model. F
 
 In general, we all see that VR and AR have started to be treated more seriously. Google or Facebook want to move us to the virtual world. Who knows, maybe a fake world will be more exciting to us? A couple of years ago AR or VR was treated as some geek curiosity and now it is entering the mainstream. And I am not only about the already famous Facebook Metaverse. Check out how many new VR games have been released recently. The gaming industry is actually the first that really made VR/AR more approachable.
 
-![2022 trends for iOS development](/images/brightstory4.png)
+![2022 trends for iOS development](../../static/images/brightstory4.png "")
 
 When it comes to iOS, I think **2022 will be the year when we finally see what Apple has been working on in terms of cloud computing solutions**. And we all know that they are far behind competitors like AWS, Azure or Google Cloud. So I am excited to learn what they will offer us. **Cannot wait to have a glance at their new Xcode cloud product that will be released in 2022.** We will find out if it brings something new to the table that AWS or Azure do not offer. Unless Apple presents some x-factor to cloud computing, it will be difficult to chase the competition.
 
@@ -73,7 +73,7 @@ When it comes to iOS, I think **2022 will be the year when we finally see what A
 
 I will conduct workshops about new iOS feature - Live Activity. The workshops are designed for experienced juniors and fresh regulars. They will be held in Polish. Feel free to join. 
 
-<div class='block-button'><h2>Join FIlip's workshops about Live Activity</h2><div>Live Activity is available in iOS 16. Do you want to learn more about it? Join our free online workshops for iOS developers (juniors and mid). **When: April 19, 2023 at 1 PM.** </div><a href="https://live-activity-ios-darmowe-warsztaty.getresponsepages.com/"><button>book your spot</button></a></div>
+<div className="block-button"><h2>Join FIlip's workshops about Live Activity</h2><div>Live Activity is available in iOS 16. Do you want to learn more about it? Join our free online workshops for iOS developers (juniors and mid). **When: April 19, 2023 at 1 PM.** </div><a href="https://live-activity-ios-darmowe-warsztaty.getresponsepages.com/"><button>book your spot</button></a></div>
 
 ## Finally, what do you do after hours? 😎
 

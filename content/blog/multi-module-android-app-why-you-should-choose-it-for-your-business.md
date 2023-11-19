@@ -16,7 +16,7 @@ language: en
 ---
 **Multi-module app architecture is not something that your users will see. However, app owners will quickly discover the benefits. If you are about to decide on the architecture of your Android solution, consider choosing a multi-module. Here are the top business advantages of multi-module Android apps.**
 
-<div class="image">![Multi-Module Android Application](../../static/images/multi_module_blog.png "Multi-Module Android Application")</div>
+<div className="image">![Multi-Module Android Application](../../static/images/multi_module_blog.png "Multi-Module Android Application")</div>
 
 ## Multi-module vs. single-module applications
 
@@ -57,4 +57,4 @@ Choosing multi-modules isn’t a perfect solution for everyone. All comes down t
 
 Check out the actual case study – a [multi-module application for retail](/projects/system-for-restaurants-mobile) that we developed for Just Eat.
 
-<div class="image">![Multi-module app for retail](../../static/images/restaurant_apps_mobile_preview.png "Multi-module app for retail")</div>
+<div className="image">![Multi-module app for retail](../../static/images/restaurant_apps_mobile_preview.png "Multi-module app for retail")</div>

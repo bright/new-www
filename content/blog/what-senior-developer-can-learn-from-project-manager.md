@@ -15,7 +15,7 @@ language: en
 ---
 
 
-![Agnieszka – Senior Fullstack Developer](/images/blog_agnieszka.png)
+![Agnieszka – Senior Fullstack Developer](../../static/images/blog_agnieszka.png "")
 
 ## Code is just a means to an end
 
@@ -27,7 +27,7 @@ Code is just a part of it. Obviously, it has to work for clients and users. But 
 
 ## You are not born with soft skills, you learn how to use them
 
-![learning soft skills](/images/people-learn.jpg)
+![learning soft skills](../../static/images/people-learn.jpg "")
 
 I consider myself an introvert. Expressing myself is a challenge for me. I used to think that it was the way it was and there was not so much I could do about that. And then we had a communication workshop with our senior project manager – [Kasia](/about-us/kasia/). This workshop was a game-changer. 
 
@@ -37,7 +37,7 @@ I never was a fan of networking or small talk but I just learnt how to do it, ho
 
 ## A project manager is not here to tell you what to do
 
-![team meeting](/images/people-talk.jpg)
+![team meeting](../../static/images/people-talk.jpg "")
 
 Before I started to work on my first project with PM, I thought that this person would only take care of my tasks. She would write and manage tasks in Jira and I wouldn’t have to do it. So I was glad to have that person on board. 
 

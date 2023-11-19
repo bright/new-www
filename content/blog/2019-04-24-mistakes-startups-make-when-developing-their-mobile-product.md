@@ -23,7 +23,7 @@ language: en
 ---
 **If you’ve ever worked at an early-stage startup, then I’m sure you know the feeling. Your mobile app, a concept you’ve been working intensely on for many months, is finally entering the development phase. Things are starting to feel very real business-wise, aren’t they?**
 
-<div class="image">![mobile development mistakes](../../static/images/mistakes_startups_make_when_developing_their_mobile_product_small.jpg "mobile development mistakes")</div>
+<div className="image">![mobile development mistakes](../../static/images/mistakes_startups_make_when_developing_their_mobile_product_small.jpg "mobile development mistakes")</div>
 
 On the one hand, you’re pumped from all the excitement. On the other, you might also be feeling intimidated by the extent of the project. Especially, if you’re new to the mobile app development game.
 
@@ -59,4 +59,4 @@ Once the app goes live, a lot of early-stage startups make the mistake of focusi
 
 To summarize, learn from the experiences of others. With the above startup mistakes in mind, you’ll avoid many time-consuming obstacles. This, in turn, will let you focus all your efforts on working towards a successful app store launch. Good luck!
 
-<div class='block-button'><h2>Looking for experienced software development agency?</h2><div>Over 60 products built for clients from Germany, Norway, Israel, UK and more. We help to scale businesses from startups to global solutions. Contact us to book a free consultation.</div><a href="/start-project"><button>let's talk about your product</button></a></div>
+<div className="block-button"><h2>Looking for experienced software development agency?</h2><div>Over 60 products built for clients from Germany, Norway, Israel, UK and more. We help to scale businesses from startups to global solutions. Contact us to book a free consultation.</div><a href="/start-project"><button>let's talk about your product</button></a></div>

@@ -18,11 +18,11 @@ Default iOS build configurations, **Debug** and **Release**, might be enough for
 
 To manage build configuration go to Xcode the project settings (\[PROJECT]→Info):
 
-![image](/images/react-native-custom-ios-build-configurations/project-target.png)
+![image](../../static/images/react-native-custom-ios-build-configurations/project-target.png "")
 
 You can easily add a new build configuration by **duplicating an existing one**. Duplicate Debug configuration for development and Release configuration for Test Flight and App Store build. You can also rename any configuration by double-clicking on it quickly.
 
-![image](/images/react-native-custom-ios-build-configurations/build-configurations.png)
+![image](../../static/images/react-native-custom-ios-build-configurations/build-configurations.png "")
 
 ### Debug vs Release
 
@@ -32,7 +32,7 @@ Debug configuration builds the complete symbolic debug information without any c
 
 The steps presented above steps are enough to set up new build configurations in a native development. To run the app in build configuration open **scheme** and change Run build configuration:
 
-![image](/images/react-native-custom-ios-build-configurations/select-build-configuration.png)
+![image](../../static/images/react-native-custom-ios-build-configurations/select-build-configuration.png "")
 
 ## Problems in React Native
 
@@ -46,19 +46,19 @@ Unfortunately, this will fail for any Release-based configuration with an error 
 
 We need to add missing **Header Search Paths** and **Library Search Paths** in the target build settings (\[TARGET]→Build Settings) for new Release build configurations.
 
-![image](/images/react-native-custom-ios-build-configurations/build-settings-search-paths.png)
+![image](../../static/images/react-native-custom-ios-build-configurations/build-settings-search-paths.png "")
 
 Add an entry to **Headers Search Paths** for each new Release build configuration:
 
 `$(BUILD_DIR)/Release-$(PLATFORM_NAME)/include`
 
-![image](/images/react-native-custom-ios-build-configurations/header-search-paths.png)
+![image](../../static/images/react-native-custom-ios-build-configurations/header-search-paths.png "")
 
 Add an entry to **Library Search Paths** for each new Release build configuration:
 
 `$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)`
 
-![image](/images/react-native-custom-ios-build-configurations/library-search-paths.png)
+![image](../../static/images/react-native-custom-ios-build-configurations/library-search-paths.png "")
 
 **Next, do the same for all Test targets**, otherwise the command will still fail.
 

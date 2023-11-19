@@ -46,7 +46,7 @@ Each Wednesday we get one question to uncover how the team feels about the work 
 
 On Fridays we have social non-work-related questions such as “what is your favourite ice-cream flavour" or “what is your best childhood memory” or just how happy your are at the moment. Having a strong relationships at work drives employee engagement, but it does not happen automatically. Building strong coworker relationships takes time and effort. It is not only about work itself. Real team is not only a bunch of individuals working together, it is a group of people who like each other, have similar values and feel that they are an integral part of your organisation. 
 
-![KnowYourTeam_Questions](/images/QA.png)
+![KnowYourTeam_Questions](../../static/images/QA.png "")
 
 Answering KYT questions is not only a regular and ongoing review of how team members are performing to their objectives, but also how they feel about everyday issues inside and outside work.  Using the software is entirely uncomplicated as you get questions via email and then you are  redirected to the KYT board. It is just a matter of few seconds.
 

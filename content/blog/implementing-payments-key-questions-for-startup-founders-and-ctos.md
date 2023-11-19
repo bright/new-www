@@ -15,7 +15,7 @@ language: en
 ---
 **Payment is one of the most important features of digital products. In case any problems arise, both you and your users could potentially experience financial losses. So based on our over 10 years of experience in building digital products, we gathered some recommendations for payment implementation for startup founders, CTOs, and tech leaders.**
 
-<div class="image">![Payments](../../static/images/payments.png "Payments")</div>
+<div className="image">![Payments](../../static/images/payments.png "Payments")</div>
 
 Payment can enable you to monetize your solution. Or it can be an important feature for your users. For example, if you offer a retail POS solution, payment is the heart of it. If there are any issues with it, your clients will lose money. **The success of payments doesn't solely depend on your development team's code but rather on the business decisions you make** before any programming lines are written.
 
@@ -55,7 +55,7 @@ There is no ideal option for everyone, so you need to analyze the pros and cons 
 
 You need to determine who will be responsible for any payment malfunctions – you or your payment provider. For example, if you offer a mentioned POS system, your client will contact you about unavailable payment features even if you aren't directly responsible for them. You need to ensure that your payment provider will take responsibility for issues with payments.
 
-<div class="image">![Card payment](../../static/images/card_reader_case_study_app.png "Card payment")</div>
+<div className="image">![Card payment](../../static/images/card_reader_case_study_app.png "Card payment")</div>
 
 ## 4. Will your provider offer you an account manager?
 
@@ -71,4 +71,4 @@ Choosing the payment method is a decision that should depend on your users' habi
 
 In some cases, users are extremely protective of their anonymity. For example, if you build a web therapy platform, your users may not be willing to share the information that they struggle with some mental issues. So they don't want the payment to visibly state that they use a web therapy platform. Especially when another family member has access to, for example, the credit card statement. That's why you need to decide what's the proper name for the payment statement for your solution.
 
-<div class='block-button'><h2>Book a free consultation in 48 hours</h2><div>Do you struggle with payment implementation? Contact us and book a free consultation with our software development team.</div><a href="/start-project/"><button>let's talk about your solution</button></a></div>
+<div className="block-button"><h2>Book a free consultation in 48 hours</h2><div>Do you struggle with payment implementation? Contact us and book a free consultation with our software development team.</div><a href="/start-project/"><button>let's talk about your solution</button></a></div>

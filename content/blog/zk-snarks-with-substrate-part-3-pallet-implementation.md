@@ -247,19 +247,19 @@ This app will allow us to interact with our zk-SNARK pallet, but first you will 
 \\
 In the field \`submit the following extrinsic\\`, please select \`zkSnarks\\`. This is the pallet, that we created during this tutorial. Now you should be able to see our two extrinsic. We are going to select \`setupVerification(pubInput, vecVk)\\` and upload public inputs and the verification key. Normally this would be done by Bob, so we will switch to the his account. We are going to upload a file, so we need to select \`file upload\\` for \`pubInput\\` and \`vecVk\\` as on. Now you can upload them appropriately. For \`pubInput\\` select a file \`input.json\\` and for the \`vecVk\\` chose \`verification_key.json\\`.
 
-<div class="image">![Verification](../../static/images/vk.png "Verification")</div>
+<div className="image">![Verification](../../static/images/vk.png "Verification")</div>
 
 To upload them on the blockchain, by clicking on the `Submit Transaction` button. We are finally able to help Alice with the proof verification. In the same panel, we need to choose our second extrinsic, which is `verify`. We will have to do the same, as we did with the previous files, but this time we will upload proof. Please remember to switch to the Alice account.
 
-<div class="image">![Proof](../../static/images/proof.png "Proof")</div>
+<div className="image">![Proof](../../static/images/proof.png "Proof")</div>
 
 When we press on `Submit Transaction`, our proof is going to be uploaded and the verification procedure will be run.
 
-<div class="image">![Verification Success](../../static/images/verification_success.png "Verification Success")</div>
+<div className="image">![Verification Success](../../static/images/verification_success.png "Verification Success")</div>
 
 Now we can verify if we received a `VerificationSuccess` event. To do it, we need to switch to the `Explorer` panel.
 
-<div class="image">![Explorer panel](../../static/images/event.png "Explorer panel")</div>
+<div className="image">![Explorer panel](../../static/images/event.png "Explorer panel")</div>
 
 As you see, verification succeed, and the event was emitted from the Alice account.
 

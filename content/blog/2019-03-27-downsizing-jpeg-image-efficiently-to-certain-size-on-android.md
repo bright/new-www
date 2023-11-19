@@ -21,7 +21,7 @@ language: en
 
 Downsizing an image is a common task and it seems to be quite simple: you have an image and you want it to take up less storage space, preferably `n` KB (either _exactly_ `n` or _at most_ `n`). A lot of developers have to do something like this for various reasons, either to limit the network payload or just to save the disk space so that the app's data doesn't consume it too much.
 
-![Compression](/images/downsizing-jpeg-image-efficiently-to-certain-size-on-android/stress.jpg)
+![Compression](../../static/images/downsizing-jpeg-image-efficiently-to-certain-size-on-android/stress.jpg "")
 
 A very simple solution to that problem, especially if we are in a hurry, is using an arbitrary image size in pixels that we _think_ should be small enough to meet our disk size criteria. But in the case of a JPEG format the compressed size of an image just cannot be guessed that easily unless we make some assumptions regarding the compression efficiency. For example, a very easy yet ineffective file size estimation might look like this:
 

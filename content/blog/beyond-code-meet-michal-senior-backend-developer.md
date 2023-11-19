@@ -16,7 +16,7 @@ language: en
 ---
 **Michał wanted to be a soldier but became a programmer. He regrets nothing. As senior backend developer and tech lead at Bright Inventions, he focuses on solving clients’ problems. Scala, Java, or Kotlin… He has worked with all of them and is open to learning almost any other language. Code is just a tool helping him to solve challenges. Read Michał's story.**
 
-<div class="image">![Michał's story collage](../../static/images/brightstorymichalcollage-7-.png "undefined")</div>
+<div className="image">![Michał's story collage](../../static/images/brightstorymichalcollage-7-.png "undefined")</div>
 
 ## Have you always planned to be a software developer?
 
@@ -44,7 +44,7 @@ No matter the company you are part of, I believe **it is important for backend d
 
 ## What will backend development look like in the next 5-10 years? What are your predictions?
 
-<div class="image">![Michał's quote on clients](../../static/images/michal_quote_client.png "undefined")</div>
+<div className="image">![Michał's quote on clients](../../static/images/michal_quote_client.png "undefined")</div>
 
 For sure, tools will be still evolving. Therefore **there will be less technical work to do and more time to actually solve our client’s problems**. And I think that’s great. When you work at a software agency client expects you to solve problems, not to play with tech.
 
@@ -54,13 +54,13 @@ I don’t remember how I came across Bright for the first time. Probably I start
 
 **So finally I applied for a job. Actually, I wasn’t hired then.** 😉 Nevertheless, I got very positive feedback from [Ula](/about-us/ula/). Kudos to her. **Despite the fact that Bright didn’t choose me they provided me with such great feedback that I was even more eager to join there**. Ula told me they chose someone else but they were impressed with me so she promised to contact me when another suitable vacancy would be open. She did as she said. Soon after that, she contacted me. **Eventually, I joined Bright Inventions**.
 
-<div class="image">![Bright Inventions team](../../static/images/brightteam.png "undefined")</div>
+<div className="image">![Bright Inventions team](../../static/images/brightteam.png "undefined")</div>
 
 ## At Bright, you had a chance to be a tech lead of the team working for the international JET POS brand. What did you learn as a tech lead?
 
 Although my position was called by a client a tech lead, **I think that my responsibilities actually matched a team leader role**. Leaving aside the naming, this role gave me a new perspective on the software development process.
 
-<div class="image">![Michał's quote on being a tech lead](../../static/images/michal_quote_lead.png "undefined")</div>
+<div className="image">![Michał's quote on being a tech lead](../../static/images/michal_quote_lead.png "undefined")</div>
 
 **Holding a tech lead role taught me that technology isn’t the most important part of software development**. Obviously, it’s essential to solve problems. However, **more important are human relations** both within the team and between the team and the client. As a tech lead you are obliged to represent both sides – your team and the client. Thus you have to be able to understand and present their sometimes opposite perspectives.
 
@@ -70,7 +70,7 @@ Although my position was called by a client a tech lead, **I think that my respo
 
 When I came to Bright Inventions I worked on a project which was written in Kotlin. So I learned Kotlin here. I enjoy using it but I am not a Kotlin-freak. I have no problems with switching to different languages. **Programming language is just a tool used to solve clients’ problems**.
 
-<div class="image">![Michał's quote on learning languages](../../static/images/brightstoryquote_tool.png "undefined")</div>
+<div className="image">![Michał's quote on learning languages](../../static/images/brightstoryquote_tool.png "undefined")</div>
 
 ## In September you will be a speaker at the Tricity Kotlin User Group. What will you talk about?
 
@@ -78,7 +78,7 @@ I will show **how to use Kotlin to write more business-oriented code based on do
 
 [Join the hybrid event to listen to Michał’s talk.](https://www.meetup.com/pl-PL/tricity-kotlin-user-group/events/288047717/)
 
-<div class="image">![Tricity Kotlin User Group](../../static/images/michal_kotlin_talk2.png "undefined")</div>
+<div className="image">![Tricity Kotlin User Group](../../static/images/michal_kotlin_talk2.png "undefined")</div>
 
 ## I remember you once said at the office that the developers’ job comes down to writing the simplest possible code. What do you mean by that?
 
@@ -94,7 +94,7 @@ Recently we started a new cooperation with a client from Israel working on a sec
 
 When it comes to mid and senior positions **we seek programmers who look at their job from a broader perspective**. Tech skills are one thing, **looking beyond your code is what should be the key** for more experienced developers.
 
-<div class="image">![Michał's quote on recruiting programmers](../../static/images/michal_quote_tech_skills.png "undefined")</div>
+<div className="image">![Michał's quote on recruiting programmers](../../static/images/michal_quote_tech_skills.png "undefined")</div>
 
 Here at Bright, we are partners to the clients. We don’t only focus to do tasks they require. When it’s necessary we offer more effective solutions to solve their problems. So **we always look for proactive people who first want to solve the problems and then write code**.
 
@@ -102,6 +102,6 @@ I really like the interview flow we have at Bright. We just talk with the candid
 
 ## What does give you joy after work?
 
-<div class="image">![Michał's passions](../../static/images/brightpassion_michal.png "undefined")</div>
+<div className="image">![Michał's passions](../../static/images/brightpassion_michal.png "undefined")</div>
 
 I mostly spend time with my family. I am passionate about CrossFit as well. I had a break from that but have plans to go back to CrossFit with my wife soon. I love to travel. But I also love to plan my voyages. It gives me pleasure to organize the whole trip for my family. I often travel with friends too and they like me to take care of the whole trip as well. It’s a win-win for everyone. 🙂

@@ -15,7 +15,7 @@ language: en
 ---
 **We are delighted to announce that Bright Inventions has been ranked as one of the Top 40 <a target="_blank" href="https://www.designrush.com/agency/blockchain-development-companies">Blockchain Development Companies</a> by DesignRush.**
 
-![top blockchain companies](/images/blogpost_bestblockchaincompanies.png)
+![top blockchain companies](../../static/images/blogpost_bestblockchaincompanies.png "")
 
 DesignRush is a marketplace that connects clients with professional agencies specialising in software development, marketing and design. Design Rush regularly publishes rankings presenting top global service providers.
 

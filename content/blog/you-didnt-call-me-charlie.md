@@ -16,7 +16,7 @@ language: en
 ---
 All of us have something that makes us feel “safe”. I’m not talking about important stuff such as a home, family, good health, and wealth. I’m talking about something that creates your comfort zone. For me — these are TV shows. I love watching them, I hate getting to know new ones. I have a few favorite ones, which I can watch again and again, and again.
 
-![Two and a Half Men](/images/charlie-harper-czyli-charlie-sheen.jpeg "Charlie from \"Two and a Half Men\"")
+![Two and a Half Men](../../static/images/charlie-harper-czyli-charlie-sheen.jpeg "Charlie from \"Two and a Half Men\"")
 
 One of them is “Two and a Half Men” — did you watch it?
 
@@ -40,7 +40,7 @@ Anyway, do you remember the episode when Sheldon was trying to create an algorit
 
 <center>
 
-![Sheldon isolated the algorithm for making friends](/images/c7ecddcd-e526-4d45-ad3d-bbc8d8ee7061_text.gif "Sheldon isolated the algorithm for making friends / Big Bang Theory")
+![Sheldon isolated the algorithm for making friends](../../static/images/c7ecddcd-e526-4d45-ad3d-bbc8d8ee7061_text.gif "Sheldon isolated the algorithm for making friends / Big Bang Theory")
 
 </center>
 
@@ -73,7 +73,7 @@ Do you know what’s wrong with the calls? They are unexpected. 
 
 <center>
 
-![Walter white phonecall](/images/walter-white.gif "Walter white phonecall / Breaking Bad")
+![Walter white phonecall](../../static/images/walter-white.gif "Walter white phonecall / Breaking Bad")
 
 </center>
 
@@ -87,7 +87,7 @@ I will answer this one with a meme:
 
 <center>
 
-![How do you do, fellow kids?](/images/how-do-you-do-fellow-kids-steve-buscemi.gif "How do you do, fellow kids? / 30 rock")
+![How do you do, fellow kids?](../../static/images/how-do-you-do-fellow-kids-steve-buscemi.gif "How do you do, fellow kids? / 30 rock")
 
 </center>
 

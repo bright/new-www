@@ -28,7 +28,7 @@ Most of our projects are based either on Scrum or Kanban approach, depending on 
 
 A workflow is where you define the statuses that different types of issues can be in as well as the transitions between them. While Jira is equipped with multiple ready to use workflow schemes, for different project development approaches, the experience we gained along the way, helped us to build a few of our own schemes. Each project board can have one workflow assigned to it. These are the dance steps for your issues to perform on the dance-Board.  The first thing to consider are the states a particular issue can be in during the project. The basic workflow for our project Boards includes the following set of states :
 
-![Jira boards](/images/jira_boards_1.png)
+![Jira boards](../../static/images/jira_boards_1.png "")
 
 * To Do (or Selected for Development in Kanban projects). -> an issue should be handled in the nearest future, be it a Sprint or just a priority-based schedule. Issues do not have to be assigned to anyone specific at this stage. In Progress -> a developer has started to work on the issue
 * On Hold -> for an external reason, the work on a specific issue had to be put on hold. It can be because of a lacking API or a need to wait for some information from the Client. 
@@ -47,7 +47,7 @@ To organise the project’s features we usually use the standard Epics > User St
 
 Each issue type has a slightly different layout. And yes, as you might expect, this is also configurable. The kind of information you’d need for a user story might be different to the one you’d add to a task. From a project manager’s perspective (mine, that is) user stories are a bit more interesting, so I’ll use them as an example. We aim to keep as much relevant, organised info on each feature in Jira as possible. A Jira user story is not just “As a user I want to reset my password”. It’s also a place to add design links, acceptance criteria, estimation ([story points](https://www.mountaingoatsoftware.com/blog/what-are-story-points) work well at this level of abstraction).  We always try to divide each bigger feature (Epic) into as atomic user stories as possible. This way you’ll be able to analyse the expected behaviour in more detail. And if your acceptance criteria looks more like a novel than a short story, it can mean that you’ll need to separate a user story into smaller ones. Think of it as an anecdote you tell at a party. If it has so many twists of plot that your audience would lose its interest and go look for more drinks, you might want to consider simplifying it. And leave the rest for another story.  
 
-![Jira](/images/jira_boards_2.png)
+![Jira](../../static/images/jira_boards_2.png "")
 
 We also like to use labels for filtering and grouping our issues. In mobile apps it’s usually platform based - Android/iOS, in web apps it can be backend / frontend kind of setting.  Another Jira feature that we like to use, especially for our Kanban projects, is versioning. By defining Releases and then assigning issues to them it’s clear which feature will be included in which delivery.
 

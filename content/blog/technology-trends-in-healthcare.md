@@ -19,7 +19,7 @@ language: en
 
 We’ve asked software developers from Bright Inventions about **2022 trends in the healthcare industry**. Check out what to expect not only in 2022 but also in upcoming years.
 
-![healthcare trends 2022](/images/healthcare_trends_2022_2.png)
+![healthcare trends 2022](../../static/images/healthcare_trends_2022_2.png "")
 
 ## Artificial Intelligence will cover diagnostics
 
@@ -41,7 +41,7 @@ Let’s make it clear. AI might sound scary but it is nothing new. AI is well ut
 
 Right now we have many [wearable healthcare devices](/blog/bluetooth-devices-that-change-healthcare/) e.g. watches or continuous monitoring devices that monitor our vital signs. I do not say that all of them work perfectly but there are brands that definitely lead the way here.
 
-![healthcare smartwatch](/images/healthcare_wearable_devices.png)
+![healthcare smartwatch](../../static/images/healthcare_wearable_devices.png "")
 
 **So we have healthcare devices. And we have software.** Now, these systems will have to be certified. **The ball is in the government’s court** which has to approve new systems and educate doctors, who can still be afraid of this healthcare digital transformation. They need to prepare the standards to be followed by producers in the country or maybe for the whole political region like the European Union. We all know that prevention is better and cheaper than cure so public healthcare systems should include more and more IT systems for diagnostics. 
 

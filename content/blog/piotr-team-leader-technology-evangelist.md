@@ -19,7 +19,7 @@ language: en
 ---
 **Piotr is a bright team leader. Some would say that he is our tech dad, always ready to assist you. He asks and asks questions to test your approach and as a result brings the best possible solution out of you! The clients' dream is to clone him but probably he is the only one who could figure that out. Meet Piotr, a programmer with over 12 years of experience who always remembers that behind every line of code there's a human.**
 
-![Piotr Mionskowski – Team Leader at Bright Inventions](/images/blogpost_brightstory_piotr_b3.png)
+![Piotr Mionskowski – Team Leader at Bright Inventions](../../static/images/blogpost_brightstory_piotr_b3.png "")
 
 ## From a junior to tech evangelist. How did it all begin?
 
@@ -41,7 +41,7 @@ When I was starting not many people heard about test-driven development. Now it 
 
 fter a few years I felt that I needed a change. It was hard to have influence on things working in a corporation. And I could see how much can be achieved in small teams so I wanted to join a smaller company. And that is how I came to [Bright Inventions](/).
 
-![Piotr Mionskowski – Technology Evangelist at Bright Inventions](/images/blogpost_www_brightstory_piotr_b2.png)
+![Piotr Mionskowski – Technology Evangelist at Bright Inventions](../../static/images/blogpost_www_brightstory_piotr_b2.png "")
 
 ## You have around 35k total reputation on Stackoverflow. Only about 7k users are on your level. How did that happen?
 
@@ -51,7 +51,7 @@ Now this gap between both languages has been minimised. But then I thought that 
 
 I think when it comes to [Stackoverflow](https://stackoverflow.com/users/155213/miensol) reputation you cannot cheat the system. You have to be systematic about it. Answer every possible question you know the answer to. And be patient enough to wait for your reputation to grow. 
 
-<div class='block-button'><h2>Do you want to join Piotr?</h2><div>We like people with bright minds! Check our career opportunities.</div><a href="/career"><button>Apply and join Piotr</button></a></div>
+<div className="block-button"><h2>Do you want to join Piotr?</h2><div>We like people with bright minds! Check our career opportunities.</div><a href="/career"><button>Apply and join Piotr</button></a></div>
 
 ## What are your predictions on trends for software development for 2022?
 
@@ -71,7 +71,7 @@ It is definitely something very difficult for developers. **It often might be ha
 
 So, we often do not think if we could write it differently so our code would be better understood by humans. Thus if the next person comes and reads our code, they will understand what we wanted to do. Often we do not have time for that because the program works the way we wanted it to work so why should we bother? But in a longer perspective – we should care! You can see a value years from now. When someone new has to take a look at it after years to understand the reasons why this code was made, then we have an issue. Especially when we plan to develop our solution for years, then we have to write code for future readers.
 
-![Piotr Mionskowski – Technology Evangelist at Bright Inventions](/images/blogpost_www_brightstory_piotr_q2.png)
+![Piotr Mionskowski – Technology Evangelist at Bright Inventions](../../static/images/blogpost_www_brightstory_piotr_q2.png "")
 
 ## Can everybody be a software developer?
 
@@ -83,7 +83,7 @@ Of course, you have to dedicate lots of your time to achieve your goals but I gu
 
 **I always enjoyed projects that I truly believed in and felt that they solve real problems.** For example, when we were developing at Bright Inventions an app supporting taking medicine it was really interesting to understand older people's interaction with the phone. It gave me a unique perspective on our app users.
 
-![Piotr Mionskowski – Team Leader at Bright Inventions](/images/blogpost_www_brightstory_piotr_q1.png)
+![Piotr Mionskowski – Team Leader at Bright Inventions](../../static/images/blogpost_www_brightstory_piotr_q1.png "")
 
 When we were working on a system gathering data about discounts at stores we could also learn more about human shopping behavior. That was also very interesting. 
 
@@ -95,4 +95,4 @@ Also, we cannot do changes in the interface just like that. As I mentioned, our 
 
 Recently I got into joinery. I took my first steps by building woodshed but I plan to build more. Like many people at Bright Inventions I love jogging. After work I also learn to stay up to date. I like to watch good movies as well. One that I recently enjoyed was “Fury” with Brad Pitt. It was not another movie about WW2. It brought a new perspective to the table.
 
-<div class='block-button'><h2>Join Piotr!</h2><div>We like people with bright minds! Check our career opportunities.</div><a href="/career"><button>Apply and join Piotr</button></a></div>
+<div className="block-button"><h2>Join Piotr!</h2><div>We like people with bright minds! Check our career opportunities.</div><a href="/career"><button>Apply and join Piotr</button></a></div>

@@ -17,7 +17,7 @@ language: en
 ---
 **Let’s explore the benefits of serverless computing and why it may be the best option for your business. Whether you represent a startup or a larger company, you’ll find benefits from serverless computing. Let’s dive in!**
 
-<div class="image">![Serverless - business perspective](../../static/images/serverless_blog.png "undefined")</div>
+<div className="image">![Serverless - business perspective](../../static/images/serverless_blog.png "undefined")</div>
 
 ## What is serverless computing?
 
@@ -25,7 +25,7 @@ Serverless computing is a cloud-based computing model that eliminates the need t
 
 We listed the benefits of serverless separately for startups and larger companies. Some advantages apply to all-size businesses. However, we still should have in mind different perspectives of startups and corporations.
 
-<div class='block-button'><h2>Planning to go serverless with your app? </h2><div>As cloud computing experts we can help you go smoothly and efficiently through that process. Check our experience and contact us to establish the details.</div><a href="/our-areas/cloud-services"><button>estimate your serverless app</button></a></div>
+<div className="block-button"><h2>Planning to go serverless with your app? </h2><div>As cloud computing experts we can help you go smoothly and efficiently through that process. Check our experience and contact us to establish the details.</div><a href="/our-areas/cloud-services"><button>estimate your serverless app</button></a></div>
 
 ## Benefits of serverless computing for startups
 
@@ -67,7 +67,7 @@ Serverless computing allows startups to quickly **experiment with new ideas and 
 
 Serverless computing offers several benefits for larger companies. Let’s go through them.
 
-<div class="image">![benefits of serverless computing](../../static/images/cloud-remote-devops.png "benefits of serverless computing")</div>
+<div className="image">![benefits of serverless computing](../../static/images/cloud-remote-devops.png "benefits of serverless computing")</div>
 
 ### Reduced infrastructure costs
 
@@ -93,4 +93,4 @@ Serverless computing providers typically offer high availability and fault toler
 
 Many serverless computing providers offer integrations with other cloud services, such as databases, storage, and messaging. This can make it easier for businesses to **build and deploy complex, multi-tier applications**.
 
-<div class='block-button'><h2>Is it time to go serverless? </h2><div>As cloud computing company we can help you go smoothly and efficiently through that process. Check our experience and contact us to establish the details.</div><a href="/our-areas/cloud-services"><button>estimate your serverless app</button></a></div>
+<div className="block-button"><h2>Is it time to go serverless? </h2><div>As cloud computing company we can help you go smoothly and efficiently through that process. Check our experience and contact us to establish the details.</div><a href="/our-areas/cloud-services"><button>estimate your serverless app</button></a></div>

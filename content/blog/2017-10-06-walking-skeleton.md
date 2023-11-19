@@ -31,7 +31,7 @@ Instead of starting a project with a Sprint 0 when you set up everything, config
 
 This technique is called a **walking skeleton**. It was first referred by Vic Basili in his paper [“Iterative Enhancement: A Practical Technique for Software Development“](http://www.cs.umd.edu/~basili/publications/journals/J04.pdf) from 1975. Walking skeleton won’t use the final architecture, but it should link together the main architectural components.
 
-![walking skeleton](/images/walking-skeleton/skeleton.jpg)
+![walking skeleton](../../static/images/walking-skeleton/skeleton.jpg "")
 
 The walking skeleton is not complete, it doesn’t have any “flesh”. It’s missing functionality, which is built along with the infrastructure incrementally, over time. You can consider it as an outline of your concept that is executable and shippable.
 

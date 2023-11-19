@@ -37,7 +37,7 @@ If it comes about backend, we usually prefer **TypeScript with Node.js and NestJ
 \
 We also work with **Ethereum and Hyperledger as a Blockchain-based** app platform. And which IDE do we use? The one we feel is the best for us. Most of us choose IDE by JetBrains, but we have also experience with AppCode or Xcode if it comes about iOS development, or VS Code while programming in JavaScript/TypeScript. 
 
-<div class='block-button'><h2>Blockchain development</h2><div>We also work with Ethereum and Hyperledger as a Blockchain-based app platform. One of our solutions is a web app supporting Substrate Blockchain networks: Polkadot and Kusama in uploading proposals for Treasury grants.</div><a href="/projects/bright-treasury"><button>Find more about BrightTreasury</button></a></div>
+<div className="block-button"><h2>Blockchain development</h2><div>We also work with Ethereum and Hyperledger as a Blockchain-based app platform. One of our solutions is a web app supporting Substrate Blockchain networks: Polkadot and Kusama in uploading proposals for Treasury grants.</div><a href="/projects/bright-treasury"><button>Find more about BrightTreasury</button></a></div>
 
 ### 2. Because of the atmosphere
 
@@ -91,4 +91,4 @@ If you would like to give us a try, or just in case you have more questions or s
 
 Hope to see you soon on our Bright Board! 
 
-![Bright Inventions](/images/join_bright_team.png)
+![Bright Inventions](../../static/images/join_bright_team.png "")

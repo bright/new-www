@@ -16,7 +16,7 @@ language: en
 ---
 **Performance is a vital component of a good user experience, and we have learned it affects business metrics. In other words, an application that doesn't perform well will cost you greatly. How can one ensure that performance will remain at acceptable levels? To achieve a goal, you must first define it. That's when performance budgets come into play.**
 
-<div class="image">![Performance budget](../../static/images/blog_performance_budget.png "Performance budget")</div>
+<div className="image">![Performance budget](../../static/images/blog_performance_budget.png "Performance budget")</div>
 
 ## Budgets to rescue
 
@@ -71,7 +71,7 @@ It's a fact that there is a constant struggle going on between stakeholders and 
 
 With budgets in place, you can say that bringing this additional carousel of images will make us miss the 5-second deadline for page load. That's something easily understandable for everyone. Moreover, having those limits in place allows you to move the discussion back in time to the design stage. This will save you a lot of time, which you will be able to spend on something else.
 
-<div class="image">![Discussion](../../static/images/discussion_photo_blog.png "Discussion")</div>
+<div className="image">![Discussion](../../static/images/discussion_photo_blog.png "Discussion")</div>
 
 ## We have to go over the budget!
 

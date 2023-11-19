@@ -22,7 +22,7 @@ Everybody seems to be doing Agile these days. Start-ups do it, big organisations
 	
 Don’t get me wrong. I love Agile. And that’s exactly why I hope it will never turn into Coldplay of software development. Sometimes it seems that Agile is becoming this crowd-pleasing, catchy thing, that slowly loses its meaning. What does it mean to be agile these days?
 
-![Team](/images/a-sky-full-of-agile/agile_team.jpeg)
+![Team](../../static/images/a-sky-full-of-agile/agile_team.jpeg "")
 
 I am not [Kent Beck](https://www.kentbeck.com/) to be a judge on this one, but I guess it’s safe to say that you do not become agile just by doing the Stand-ups or talking about [velocity](https://www.agilealliance.org/glossary/velocity/) and story points. You do not become an agile company by making everyone do their Scrum certificates or changing their positions’ names from Project Manager to Scrum Master etc. I hear ‘A Sky Full of Stars’ in my head when I write this.
 

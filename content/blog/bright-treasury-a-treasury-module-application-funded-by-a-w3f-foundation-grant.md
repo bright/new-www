@@ -25,7 +25,7 @@ Please welcome **Bright Treasury** - a standalone web application (along with a 
 
 At Bright Inventions, we’ve been following blockchain development since its early days. The last few years brought us opportunities to work successfully on projects with blockchain solutions, and Substrate with its community got us especially excited. At the same time, we know how intimidating the whole “blockchain thing” can be if you are a novice in the domain. We wanted to attract more professionals who could contribute to the community with their ideas and skills but at the same time may not be as fluent in blockchain customs and terminology. Based on the discussions with the communities around Substrate, Polkadot and Kusama, council members as well as the analysis of the comments under Polkadot and Kusama proposal submissions, we identified areas of the Treasury funding process that we wanted to address – from the user’s perspective.
 
-![BrightTreasury](/images/artboard-–-5.png)
+![BrightTreasury](../../static/images/artboard-–-5.png "")
 
 The W3F grants program seemed like the perfect opportunity to bring together our passion for getting to know blockchain better and delivering something of value to the community at the same time. Web3 Foundation funds research and development teams building the technology stack of the decentralized web. It was established in Zug, Switzerland by Ethereum co-founder and former CTO Gavin Wood. Polkadot is the Foundation's flagship project.
 
@@ -40,7 +40,7 @@ The main goals that we wanted to achieve with this project are:
 
 The main goal of our first milestone was to implement the core flow of the app, starting with the Proposal lifecycle for the Polkadot mainnet. As a result the user should be able to create an Idea, add all the necessary details, create Milestones for the Idea, make it public and decide to submit the Idea to the blockchain, turning it into a formal Proposal. The status of the Proposal is then updated based on the data returned from the API. To perform these actions a user will need to be logged in (with an app account or the Web3 account with a use of a browser extension), however browsing through Ideas and Proposals will be available to everyone.
 
-![BrightTreasury](/images/screenshot-2021-05-24-at-10.21.30.png)
+![BrightTreasury](../../static/images/screenshot-2021-05-24-at-10.21.30.png "")
 
 Although our main fields are web and mobile solutions, we are keen on blockchain technologies. As a natural consequence we specialize in integrating web and mobile apps with blockchain solutions. As we believe in the Polkadot goals we decided to contribute to the ecosystem. A project focusing on making blockchain accessible to more users felt like it was designed for us. We value the ease of development provided by the Polkadot JS API – constantly evolving and providing a useful bridge between blockchain and JS. We are also excited by the idea of personally owned identity, so we support Web3 login using the browser extension. At the same time we believe in evolution – not revolution, so the users can still use the in-app login.
 

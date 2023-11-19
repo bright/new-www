@@ -14,7 +14,7 @@ language: en
 ---
 **Since the beginning of the pandemic we have established a unique hybrid work model at Bright Inventions. What does it mean? Basically, we are free to choose if we work from home, from the office or combine both. After over a year of hybrid work we want to share with you some tips on how to make it work and maintain consistency in delivering valuable software solutions to our clients.**
 
-![hybrid work model](/images/hybrid_work_model.png)
+![hybrid work model](../../static/images/hybrid_work_model.png "")
 
 ## Hot desks are always ready
 
@@ -26,7 +26,7 @@ Our hot desks are organised in a way that you are able to quickly sit down, turn
 
 Calls, whether we like them or not – are a part of our work life. That is why, we have a few rooms dedicated to online and offline meetings. We can easily book a room with Google calendar. The meeting space is equipped with Jabra speakerphones, laptop chargers and in some cases – a TV screen for presentations.
 
-![online meeting](/images/internal_workshops.jpeg)
+![online meeting](../../static/images/internal_workshops.jpeg "")
 
 ## Let’s dine together
 

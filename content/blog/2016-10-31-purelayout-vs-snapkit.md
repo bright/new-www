@@ -15,7 +15,7 @@ At first, let me clear something out. I'm heavy PureLayout user. I've been creat
 Simple positioning
 ---
 
-![Simple positioning](/images/simple-positioning.png)
+![Simple positioning](../../static/images/simple-positioning.png "")
 
 ```swift
 
@@ -59,7 +59,7 @@ func snapKit() {
 Inside UIScrollView
 ---
 
-![ScrollView positioning](/images/Scroll.gif)
+![ScrollView positioning](../../static/images/Scroll.gif "")
 
 ```swift
 
@@ -112,7 +112,7 @@ func snapKit() {
 UIScrollView with a surprise
 ---
 
-![ScrollView positioning](/images/ScrollViewSurprise.gif)
+![ScrollView positioning](../../static/images/ScrollViewSurprise.gif "")
 
 ```swift
 
@@ -166,7 +166,7 @@ func snapKit() {
 Updating constraint's constant
 ---
 
-![ScrollView positioning](/images/move.gif)
+![ScrollView positioning](../../static/images/move.gif "")
 
 ```swift
 

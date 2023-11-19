@@ -38,7 +38,7 @@ show on homepage: false
 published: false
 language: de
 ---
-![Healthcare app development](/images/therapy_app_mockup.png)
+![Healthcare app development](../../static/images/therapy_app_mockup.png "")
 
 *Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*
 
@@ -68,7 +68,7 @@ Irgendwann in unserem Leben benötigen entweder wir selbst oder unsere Lieben ei
 
 Vor diesem Hintergrund hat unser Kunde eine App entwickelt, die Therapeuten und Patienten auf dem Weg zu einer schnellen (und nachhaltigen!) Genesung unterstützt.
 
-![Mobile Therapy App](/images/mobile_therapy_app2.jpg)
+![Mobile Therapy App](../../static/images/mobile_therapy_app2.jpg "")
 
 *Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde*
 
@@ -90,7 +90,7 @@ Unser Kunde hatte auch ein High-Fidelity-Wireframe der App und beauftragte uns m
 * Content Management System (verwendet zum Beispiel zum Speichern von Schritt-für-Schritt-Video-Tutorials für Patienten),
 * Ein Admin-Panel für Therapeuten.
 
-![Mobile Therapy App](/images/mobile_therapy_app3.jpg)
+![Mobile Therapy App](../../static/images/mobile_therapy_app3.jpg "")
 
 *Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*
 

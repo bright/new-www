@@ -112,7 +112,7 @@ iota.api.sendTransfer(seed, Depth, MinWeightMagnitude, transfers, options, (erro
 
 We need to specify where we send our tokens with message to and which of (our) wallets the tokens come from (if we're sending non-zero value). In the response, we get a `transaction` object for each `transfer` object we've submitted. 
 
-![Attaching to the IOTA's Tangle](/images/iota/attach-tangle.jpg)
+![Attaching to the IOTA's Tangle](../../static/images/iota/attach-tangle.jpg "")
 
 If we're lucky, we should be able to get the transaction's `hash` property, paste it at one of [the online Tangle viewers](https://thetangle.org) and see the details of our transaction. It will be most probably in the "Pending" state. This means the transaction was properly attached to the Tangle, although it wasn't yet validated by other transactions in the Tangle tree and we need to wait a bit. Normally it gets into "Confirmed" state within a few minutes and we can call it a day.
 

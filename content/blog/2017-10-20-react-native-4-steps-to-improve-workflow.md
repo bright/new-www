@@ -19,7 +19,7 @@ published: true
 language: en
 ---
 
-![Header](/images/react-native-a-better-workflow/happy.jpeg)
+![Header](../../static/images/react-native-a-better-workflow/happy.jpeg "")
 
 "A developer needs tools that support her/his workflow to be fully productive". Well, I guess that this statement fits to any profession that you can think of. It is really important for me to feel that the environment that I'm working in really supports my flow and works well with my approach to software development. That's why, today I'd like to share a number of things that boost my productivity while creating mobile app in React Native.
 
@@ -34,19 +34,19 @@ I cannot emphasize strongly enough how much I love storybooks. This single tool 
 
 This is a tiny example of a single story, however if you develop a normal app, you will surely have much more of them which may cover all of possible UI states for your components.
 
-![](/images/react-native-a-better-workflow/story.gif)
+![](../../static/images/react-native-a-better-workflow/story.gif "")
 
 ## 3. Quick tests
 
 If you were previously doing native mobile development, then you are probably used to switching your targets in order to run tests and you will surely know that they do not work as fast as you would probably want them to. This can be changed while you switch to development in JavaScript or TypeScript. If your app grows, it's easy to guess that tests will not run in a matter of milliseconds, but it's still normal to have a result of them within 1-3 seconds from the time that you saved your file. This allows you keep your tests running while you develop your app and catch any issue at the time that you change the code that was responsible for it. It also encourages you to write more tests because you know, that test runner does it's best to help you with this.
 
-![Tests](/images/react-native-a-better-workflow/tests.gif)
+![Tests](../../static/images/react-native-a-better-workflow/tests.gif "")
 
 ## 4. Work division
 
 Having an ability to easily work with an isolated UI in the application and work on your logic code with tests as a first client can greatly improve your productivity. You will end up with much faster feedback loop and components created in isolation, which will make it easier to share them later. At the time that you have your UI components prepared and logic ready to be used, then the only thing left is to finally integrate them in the main application. This task will be also simplified due to the fact that you can utilize a hot reloading feature and benefit from the fact that you don't have to wait for your app to recompile in order to check the results of your work. What's even better - you can easily check this on both Android and iOS devices in a quick way.
 
-![Tests](/images/react-native-a-better-workflow/hotreload.gif)
+![Tests](../../static/images/react-native-a-better-workflow/hotreload.gif "")
 
 What are the things that improve your workflow? I'd be glad to hear about them!
 

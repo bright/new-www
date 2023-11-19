@@ -63,7 +63,7 @@ The first one - named cryptically `PORT` - is used to expose our node's HTTP API
 
 We now have a stranded process running in the void. It's time to find other nodes we can connect to and sync the state of the Tangle with it. These other nodes are called "neighbors" and we need to maintain a two-way channel between us and our neighbors. As of today, the only way to get some neighbors is to ask the friendly people on **#nodesharing** [IOTA's Slack channel](https://slack.iota.org/) for a way in. When asked during the European's daytime, I got some responses in less than an hour.
 
-![IOTA neighborhood](/images/iota/neighborhood.jpg)
+![IOTA neighborhood](../../static/images/iota/neighborhood.jpg "")
 
 When you're already befriended with other nodes owners, you need to give them the publicly available address of your host - most probably looking like `udp://12.23.34.45:14777`. Note we're specifying the UDP protocol here and using a corresponding receiver port from our INI file. Our neighbors should give us their addresses, also for UDP protocol (if we decide to use UDP, that is - for TCP, both sides should use TCP protocol and ports, obviously).
 

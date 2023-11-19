@@ -15,7 +15,7 @@ language: en
 ---
 **Are you planning to release an app that has to work without an internet connection? You’ve come to the right place. Read about offline-first applications. Go through business advantages, different industries' perspectives, and design best practices. Also, look into the actual case studies!**
 
-<div class="image">![Offline-first application – business perspective](../../static/images/offline-mode-app-cover-blog.png "Offline-first application – business perspective")</div>
+<div className="image">![Offline-first application – business perspective](../../static/images/offline-mode-app-cover-blog.png "Offline-first application – business perspective")</div>
 
 ## What is the offline-first application?
 
@@ -39,7 +39,7 @@ Data provided offline will be stored on the device and then synchronized when th
 
 While building a mobile solution for industries like **medical care, retail and transportation you have to offer an offline mode** in order to distinguish your product. 
 
-<div class='block-button'><h2>Looking for offline mode experts?</h2><div>Contact us to discuss and estimate your solution. We’ll be happy to share our experience.</div><a href="/start-project"><button>let's talk</button></a></div>
+<div className="block-button"><h2>Looking for offline mode experts?</h2><div>Contact us to discuss and estimate your solution. We’ll be happy to share our experience.</div><a href="/start-project"><button>let's talk</button></a></div>
 
 ## Offline-first examples for various industries
 
@@ -53,7 +53,7 @@ Let’s imagine an app for hospital staff that enables them to submit informatio
 
 **Check out the actual case study of [vCare](/projects/vCare) healthcare app with an offline mode that we helped to build**.
 
-<div class="image">![vCare app with offline mode](../../static/images/vcare_fb_preview.png "vCare app with offline mode")</div>
+<div className="image">![vCare app with offline mode](../../static/images/vcare_fb_preview.png "vCare app with offline mode")</div>
 
 ### Offline-first app for retail and restaurants
 
@@ -61,7 +61,7 @@ Retail apps with payment features definitely should have an offline mode. **The 
 
 **Check out actual case studies of retail apps with an offline mode that we built and scaled – [Just Eat POS](/projects/system-for-restaurants) and [Just Eat POS Mobile App](/projects/system-for-restaurants-mobile).**
 
-<div class="image">![Retail apps with an offline mode](../../static/images/restaurant_apps_mobile_preview.png "Retail apps with an offline mode")</div>
+<div className="image">![Retail apps with an offline mode](../../static/images/restaurant_apps_mobile_preview.png "Retail apps with an offline mode")</div>
 
 ### Offline-first app for digitalized workflow
 
@@ -69,7 +69,7 @@ Imagine an app that enables you to fill out forms or questionnaires wherever you
 
 **Check out actual case studies of a [digitalized workflow app](/projects/app-digitized-surveys) with an offline mode that we built.**
 
-<div class="image">![Digitalized workflow app](../../static/images/questionnaire_fb_preview.png "Digitalized workflow app")</div>
+<div className="image">![Digitalized workflow app](../../static/images/questionnaire_fb_preview.png "Digitalized workflow app")</div>
 
 ### Offline-first app for construction
 
@@ -79,7 +79,7 @@ As an example let’s think of an app that enables storing pictures from the con
 
 **Check out an actual case study – an offline-first [application for construction company](/projects/document-management-apps-construction/) that we build for our client from Germany.**
 
-<div class="image">![app for construction company](../../static/images/fb_preview-case-study.png "app for construction company")</div>
+<div className="image">![app for construction company](../../static/images/fb_preview-case-study.png "app for construction company")</div>
 
 ### Offline-first app for road transportation
 
@@ -87,7 +87,7 @@ Applications enabling communication between forwarders and drivers should give a
 
 **Check out an actual case study – the [Transport Management System](projects/transportation-management-system) with an offline-first application that we are building for a freight company.**
 
-<div class="image">![Transport Management System with offline mode](../../static/images/tms_social_preview.png "Transport Management System")</div>
+<div className="image">![Transport Management System with offline mode](../../static/images/tms_social_preview.png "Transport Management System")</div>
 
 ## Design best practices for offline-first apps
 
@@ -95,10 +95,10 @@ While building offline-first apps your **design has to be well-informative so th
 
 This is an example of the mockup of the app in offline mode:
 
-<div class="image">![Offline mode design](../../static/images/offline_mode_design.png "Offline mode design")</div>
+<div className="image">![Offline mode design](../../static/images/offline_mode_design.png "Offline mode design")</div>
 
 We’ve explained [offline UX design](/blog/ux-design-healthcare-medical-apps-case-study#ux-design-for-offline-mode) in our other blog post. Feel free to check it out.
 
 The offline mode might be a challenge, but this feature is crucial for many industries.
 
-<div class='block-button'><h2>Planning to build offline-first app?</h2><div>Contact us to discuss and estimate your solution. We’ll be happy to share our experience.</div><a href="/start-project"><button>let's talk</button></a></div>
+<div className="block-button"><h2>Planning to build offline-first app?</h2><div>Contact us to discuss and estimate your solution. We’ll be happy to share our experience.</div><a href="/start-project"><button>let's talk</button></a></div>

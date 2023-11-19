@@ -16,7 +16,7 @@ language: en
 ---
 Recently, in our project, we decided to update the AWS Java SDK from [1.x](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/welcome.html) to [2.x](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/home.html), so we are able to use [client-side metrics](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/metrics.html), available only in the newer version of the SDK.
 
-<div class="image">![AWS SDK Java](../../static/images/aws-sdk-java.png "undefined")</div>
+<div className="image">![AWS SDK Java](../../static/images/aws-sdk-java.png "undefined")</div>
 
 Our whole system is AWS based, so we didn’t want to perform this update at once. We decided to do it granularly instead.
 
@@ -62,4 +62,4 @@ Everything went well, so we could remove temporary annotations, 1.x implementati
 
 Although we took a couple of extra steps, we were able to introduce an advanced update to our production-ready application without downtime or risk of introducing breaking changes. This way is much safer and allows us to avoid making mistakes that can affect our customers.
 
-<div class='block-button'><h2>We are looking for backend developers (TS, Node.js)</h2><div>Work on projects such as the blockchain platform for a top global humanitarian agency, accounting software, or web therapy application.</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>
+<div className="block-button"><h2>We are looking for backend developers (TS, Node.js)</h2><div>Work on projects such as the blockchain platform for a top global humanitarian agency, accounting software, or web therapy application.</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>

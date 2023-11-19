@@ -16,7 +16,7 @@ language: en
 ---
 **2 years ago I was an IT administrator. That is when I decided to work on my career change. Eventually, I became a product designer. Here is my guide on how to become a product designer and get the first job with no experience. What is a product designer roadmap? How to work on your first design portfolio? Let me answer all these questions and dispel common doubts.**
 
-<div class="image">![Product Designer Roadmap](../../static/images/blogpost_product_design.png "undefined")</div>
+<div className="image">![Product Designer Roadmap](../../static/images/blogpost_product_design.png "undefined")</div>
 
 ## **My road to a Product Designer in numbers** 
 
@@ -45,7 +45,7 @@ Ah yes, the plethora of titles: UI Designer, UI/UX Designer, Product Designer, U
 
 First of all, start by reading about this. Get to know the subject. **Learn about the basics - such as Nielsen’s 10 heuristics, UX Laws, learn users’ behaviour** (how people perceive things, how they read online - or rather how they don’t actually do that). **Get to know the tool**s. **Learn about the UXD** methods and processes. A book written by Steve Krug “Don’t make me think” is a great starter (some insights from this book you may find in another blog post written by Iza).
 
-<div class='block-button'><h2>Don’t make me think</h2><div>Read 5 Timeless Web Development Rules from “Don’t Make Me Think” Book.</div><a href="https://brightinventions.pl/blog/5-web-development-rules-from-dont-make-me-think-book"><button>read a blog post by Iza</button></a></div>
+<div className="block-button"><h2>Don’t make me think</h2><div>Read 5 Timeless Web Development Rules from “Don’t Make Me Think” Book.</div><a href="https://brightinventions.pl/blog/5-web-development-rules-from-dont-make-me-think-book"><button>read a blog post by Iza</button></a></div>
 
 Along with this book, you’ll find recommendations of **Don Norman’s “The Design of Everyday Things”. One of my favourite books ever**. While the first one is more about the users as we know them - web users, the second one is about user experience in general. I remember when I first came across the term “Norman’s door” and was absolutely fascinated by the whole concept and how user experience can be applied to everyday situations. 
 
@@ -53,7 +53,7 @@ Along with this book, you’ll find recommendations of **Don Norman’s “The D
 
 By now, you should have a good idea of what User Experience Design is all about, but you might find yourself overwhelmed by the amount of the information. It’s a good idea to **have it structured by a credible course**. There are many of them on the market, but you should look for the one that has a project based structure. **Something that will enrich your portfolio** and give you some experience you don’t currently have. Take it from me. 
 
-<div class="image">![workflow](../../static/images/workflow_study.png "undefined")</div>
+<div className="image">![workflow](../../static/images/workflow_study.png "undefined")</div>
 
 *One of the workflows I designed while learning.*
 

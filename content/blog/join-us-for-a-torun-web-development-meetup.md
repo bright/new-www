@@ -14,9 +14,9 @@ language: en
 ---
 **We are calling web developers from Toruń and nearby! Whether you're a seasoned web developer or just starting your journey, let’s meet at Toruń Technological Incubator. We have an event coming on October 18! Toruń, here we come!**
 
-<div class="image">![Torun Web Development Meetup](../../static/images/blog_torun_meetup.png "Torun Web Development Meetup")</div>
+<div className="image">![Torun Web Development Meetup](../../static/images/blog_torun_meetup.png "Torun Web Development Meetup")</div>
 
-<div class='block-button'><h2>Join our Meetup Group and claim your spot now!</h2><div>Won't miss the first meeting.</div><a href="https://www.meetup.com/toru%C5%84-web-development/events/295971160/"><button>Claim your spot</button></a></div>
+<div className="block-button"><h2>Join our Meetup Group and claim your spot now!</h2><div>Won't miss the first meeting.</div><a href="https://www.meetup.com/toru%C5%84-web-development/events/295971160/"><button>Claim your spot</button></a></div>
 
 ## What to Expect at Torun Web Development Meetup #1 \[Agenda]
 
@@ -48,13 +48,13 @@ Following the official part of the meeting, we invite you for snacks and further
 
 ## Meet our speakers
 
-<div class="image">![Wojciech Trawiński](../../static/images/torun_speaker_wojciech.png "Wojciech Trawiński")</div>
+<div className="image">![Wojciech Trawiński](../../static/images/torun_speaker_wojciech.png "Wojciech Trawiński")</div>
 
 **[Wojciech Trawiński](http://www.linkedin.com/in/wojciech-trawi%C5%84ski)**
 
 A Senior Software Engineer who specializes in creating web applications. He is an enthusiast of the Angular framework and reactive programming, always seeking challenges both in and outside of work. He is also the author of the blog "[JavaScript Everyday](https://medium.com/javascript-everyday)". In his free time, he enjoys watching Formula 1 and... building Lego. He is addicted to coffee, chocolate, and cycling.
 
-<div class="image">![Olaf Sulich](../../static/images/torun_speaker_olaf.png "Olaf Sulich")</div>
+<div className="image">![Olaf Sulich](../../static/images/torun_speaker_olaf.png "Olaf Sulich")</div>
 
 **[Olaf Sulich](https://www.linkedin.com/in/olaf-sulich/)**
 

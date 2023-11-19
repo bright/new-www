@@ -21,7 +21,7 @@ language: en
 
 Meet Paweł, Jędrzej and Łukasz – Junior Fullstack Developers from Bright Inventions. They develop their tech skills using TypeScript, React and Node.js.
 
-![junior software developers](/images/bright_inventions_junior_developers.png)
+![junior software developers](../../static/images/bright_inventions_junior_developers.png "")
 
 ## Let’s now answer some popular questions about junior software development career
 
@@ -41,7 +41,7 @@ Paweł:
 
 > I studied Computer Science like Jędrzej. It wasn’t easy because due to the pandemic  I had to finish my studies online. Despite that my studies became a great motivation for me to learn and develop my projects. I think that is the key. You will not benefit from every class in the future, but your college time should be used to build your own software development portfolio.
 
-![how to become junior developer](/images/junior_software_developers.png)
+![how to become junior developer](../../static/images/junior_software_developers.png "")
 
 ## What junior developers should know?
 

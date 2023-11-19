@@ -13,7 +13,7 @@ date: '2017-10-16T22:00:00.000Z'
 published: true
 language: en
 ---
-![Image Title](/images/before-you-start/ux.jpg)
+![Image Title](../../static/images/before-you-start/ux.jpg "")
 ## This one is going to be short. And basic.
 
 So let's say you have this great idea for a new app. That, of course, is going to be a real game changer! But before you start your journey to becoming an app proud owner and conquer the world (maybe?), please there are a few things (IMHO) worth taking into account.
@@ -23,7 +23,7 @@ So let's say you have this great idea for a new app. That, of course, is going t
 
 As for today, there are 3.3M apps in Google Play Store and 2.3M apps in App Store. American scientists (sic!) have proven that most of them are inferior,  but there are a few very good apps in the stores, too. My advice is to check how the creator has resolved the problems with UX and UI, and what makes these apps different from the rest.
 
-![Image Title](/images/before-you-start/man.jpg)
+![Image Title](../../static/images/before-you-start/man.jpg "")
 ## We are different
 <cite>thank God for many options to feel unique</cite>
 

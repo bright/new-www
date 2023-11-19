@@ -34,7 +34,7 @@ You run a startup and therefore things change rapidly. Each day brings new ideas
 
 You should be able to work with them as if they were part of your team. Effectively they should feel that they are a part of your team. There's a catch: you also need to treat them as a part of your team.
 
-<div class="image">![Bright Inventions team](../../static/images/bright_team.JPG "undefined")</div>
+<div className="image">![Bright Inventions team](../../static/images/bright_team.JPG "undefined")</div>
 
 ## 4. Work out a good payment model
 
@@ -68,4 +68,4 @@ You need to be able to track progress easily and on a regular basis. It starts w
 
 Choosing the right [MVP development agency ](/our-areas/mvp-development)is a leap of faith. You need to feel good about your decision and have full trust in them. **It might be hard to find a partner that meets all the criteria listed in this note but at least make sure that they won't have problems challenging you if they disagree**. They might be right.
 
-<div class='block-button'><h2>Looking for MVP partner?</h2><div>Since 2012 we have built MVPs for clients from Germany, Norway, Israel, UK and more. Contact us to book a free consultation.</div><a href="/our-areas/mvp-development/"><button>let's talk about your MVP</button></a></div>
+<div className="block-button"><h2>Looking for MVP partner?</h2><div>Since 2012 we have built MVPs for clients from Germany, Norway, Israel, UK and more. Contact us to book a free consultation.</div><a href="/our-areas/mvp-development/"><button>let's talk about your MVP</button></a></div>

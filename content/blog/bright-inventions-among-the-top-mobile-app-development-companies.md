@@ -15,7 +15,7 @@ language: en
 ---
 **We are thrilled to announce that Bright Inventions has been ranked as one of the [Top Mobile App Development Companies](https://www.topdevelopers.co/directory/mobile-app-development-companies) by TopDevelopers.**
 
-![Top Mobile App Development Companies](/images/blogpost_topdevs_1.png)
+![Top Mobile App Development Companies](../../static/images/blogpost_topdevs_1.png "")
 
 TopDevelopers is a dedicated directory of IT service providers. It connects clients with top software development companies specialising in mobile app development, web development, blockchain or UI/UX design.
 

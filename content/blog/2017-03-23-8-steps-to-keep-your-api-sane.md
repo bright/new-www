@@ -22,7 +22,7 @@ It is pretty well known what a **[backward compatibility](https://www.garfieldte
 
 It's far less obvious what a **forward compatibility** is, even though it is equally important for our APIs longevity and maintainability. How can we possibly be compatible with something we'll have in the future, when we don't know that future yet? Well, we can't, but there is a set of rules and practices that we should follow to reduce the risks of inadvertently introducing breaking changes or getting to the point where it's not possible to introduce new features in a sane way without breaking the old ones. 
 
-![photo](/images/woman-hand-smartphone-desk.jpg)
+![photo](../../static/images/woman-hand-smartphone-desk.jpg "")
 
 ## 1. Version the API and identify clients from day 1
 

@@ -17,7 +17,7 @@ language: en
 ---
 CI/CD process is the backbone of every good performing team. It facilitates the development, testing, and deploying of an app.
 
-<div class="image">![pipeline](../../static/images/mario_blog.png "undefined")</div>
+<div className="image">![pipeline](../../static/images/mario_blog.png "undefined")</div>
 
 Let’s define behaviour of our CI/CD pipeline:
 
@@ -413,4 +413,4 @@ All of the code is available here: [https://gitlab.com/adam.waniak11/ci-cd-demo-
 
 Looking for more? Check another tutorial on [how to add RDS Database using AWS CDK](/blog/add-the-rds-database-to-a-spring-boot-app-with-aws-cdk).
 
-<div class='block-button'><h2>Are you a senior backend developer?</h2><div>You might be a great match, if you like programming in TypeScript and Node.js and have the ability to look at the project from a business perspective. Check out our job offer!</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>
+<div className="block-button"><h2>Are you a senior backend developer?</h2><div>You might be a great match, if you like programming in TypeScript and Node.js and have the ability to look at the project from a business perspective. Check out our job offer!</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>

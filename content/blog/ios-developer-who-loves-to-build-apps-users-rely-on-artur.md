@@ -17,7 +17,7 @@ language: en
 ---
 **He became an iOS developer by chance, but couldn’t love it more. Find out how Artur’s career has evolved over 5 years from a junior to a senior iOS developer. Check out the apps he has worked on. Discover his favorite travel destinations too. Let’s dive in!**
 
-<div class="image">![iOS developer career story](../../static/images/brightstoryarturphotos.png "iOS developer career story")</div>
+<div className="image">![iOS developer career story](../../static/images/brightstoryarturphotos.png "iOS developer career story")</div>
 
 ## You joined Bright Inventions 5 years ago while you were still at college. How did you start your job here?
 
@@ -33,7 +33,7 @@ Now, I work in a bigger team, and the daily challenges are different. Currently,
 
 So, my first challenge was to effectively manage work on my own. Nowadays, it is all about working effectively as a team.
 
-<div class='block-button'><h2>Join Artur's team</h2><div>We are looking for an experienced iOS Developer whose main goal will be supporting us in building the powerful high profile iOS application that will impact how Just Eat shapes the retail world.</div><a href="/jobs/senior-ios-developer/"><button>apply now</button></a></div>
+<div className="block-button"><h2>Join Artur's team</h2><div>We are looking for an experienced iOS Developer whose main goal will be supporting us in building the powerful high profile iOS application that will impact how Just Eat shapes the retail world.</div><a href="/jobs/senior-ios-developer/"><button>apply now</button></a></div>
 
 ## And how do you enjoy working with your current team?
 
@@ -41,7 +41,7 @@ I am a part of an experienced and very competent team. It consists of only senio
 
 Our team also includes skilled software testers. Although we, as developers, do some tests on our own during the code review, it’s great to share the responsibility. I still feel responsible for my code, but it’s great to feel the reassurance that there are people who will test it as well.
 
-<div class="image">![Artur during a team retreat.](../../static/images/brightstory_team_szymek.png "Artur during a team retreat.")</div>
+<div className="image">![Artur during a team retreat.](../../static/images/brightstory_team_szymek.png "Artur during a team retreat.")</div>
 
 <center>Artur during a team retreat.</center>
 
@@ -51,13 +51,13 @@ Our team also includes skilled software testers. Although we, as developers, do 
 
 [Just Eat POS](/projects/system-for-restaurants-mobile/) (prev. Practi) was one of the projects close to my heart as well. It was **a retail platform, very popular, especially in the Israeli market**. We delivered solutions for restaurant owners and their employees. Our users and their businesses relied on our work daily. So, it was a huge responsibility. Yet, it's an advantage of building real solutions, rather than creating applications that will never see the light of day.
 
-<div class="image">![Artur's quote on projects](../../static/images/artur_quote_real_products.png "Artur's quote on projects")</div>
+<div className="image">![Artur's quote on projects](../../static/images/artur_quote_real_products.png "Artur's quote on projects")</div>
 
 ## What’s your recipe for spending over 5 years at one company? It’s rather unique nowadays. 😀
 
 The key ingredient is changing the projects you work on. I've worked for various clients, with different people. Sometimes it almost felt like changing a company. **It’s great to change teams to share knowledge with others. There was never a case when I would land on a team without somebody I could learn something from**. 
 
-<div class="image">![Artur's quote on learning](../../static/images/artur_quote_learning.png "Artur's quote on learning")</div>
+<div className="image">![Artur's quote on learning](../../static/images/artur_quote_learning.png "Artur's quote on learning")</div>
 
 Although **I have been in one company for over 5 years, Bright Inventions gave me an opportunity to work on many different solutions and touch on various technologies**. What's also important **I have built products that are really used and appreciated by users**.
 
@@ -73,7 +73,7 @@ Thanks to the fact that our client lets us choose the tech stack we work on, we 
 
 I visit these places regularly to hike in nature. I had a chance to experience polar day and to see the Northern lights too. I don’t know which one is better. I recommend everyone to see both.
 
-<div class="image">![Hiking in Northern Norway (nearby Tromso).](../../static/images/artur_passion_travel.png "Hiking in Northern Norway (nearby Tromso).")</div>
+<div className="image">![Hiking in Northern Norway (nearby Tromso).](../../static/images/artur_passion_travel.png "Hiking in Northern Norway (nearby Tromso).")</div>
 
 <center>Hiking in Northern Norway (nearby Tromso).</center>
 
@@ -85,6 +85,6 @@ It’s not that easy to experience the northern lights, though. You have to be l
 
 I’d say it is going to be 3-1 for Manchester United. At least I hope so. 😀 We’re about to find out. 😉
 
-<div class="image">![Artur during Manchester United stadium tour](../../static/images/artur_football.png "Artur during Manchester United stadium tour")</div>
+<div className="image">![Artur during Manchester United stadium tour](../../static/images/artur_football.png "Artur during Manchester United stadium tour")</div>
 
 <center>Artur during Manchester United stadium tour.</center>

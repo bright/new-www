@@ -16,7 +16,7 @@ language: en
 ---
 **You have an idea for an app and are determined to develop it? Congratulations! But what if your idea had to be modified and your solution would need to pivot? Check out why many popular apps and web solutions had to change to make a success.** <br/>
 
-<div class="image">![App pivot MVP](../../static/images/mvp_pivot_blog.png "MVP pivot")</div>
+<div className="image">![App pivot MVP](../../static/images/mvp_pivot_blog.png "MVP pivot")</div>
 
 When you take first steps on the road of app development, you have to make a very important choice. You can develop every feature that you have imagined for your web or mobile app or you can just develop the necessary features to know the user's feedback and decide what’s next. 
 
@@ -54,4 +54,4 @@ Idea for a software solution is only the beginning. It needs to be verified and 
 
 Contact the experienced [MVP development agency](/our-areas/mvp-development) to discuss your solution.
 
-<div class='block-button'><h2>Do you want to build a MVP?</h2><div>Since 2012 we have built MVPs for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk about your MVP</button></a></div>
+<div className="block-button"><h2>Do you want to build a MVP?</h2><div>Since 2012 we have built MVPs for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk about your MVP</button></a></div>

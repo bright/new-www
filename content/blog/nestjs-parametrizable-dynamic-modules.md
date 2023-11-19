@@ -15,7 +15,7 @@ language: en
 ---
 NestJS allows to easily encapsulate code not only with Static modules, but also Dynamic Modules. Dynamic modules allow us to modify the module's configuration, dependencies or behaviour at bootstrap time. This gives a massive advantage in terms of code deduplication and reusability. Let's give it a go and implement Notifications by means of Dynamic Modules
 
-<div class="image">![Modularization](../../static/images/blog_modularization.png "Modularization")</div>
+<div className="image">![Modularization](../../static/images/blog_modularization.png "Modularization")</div>
 
 ## Objective
 

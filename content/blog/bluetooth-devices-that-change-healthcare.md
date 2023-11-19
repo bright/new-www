@@ -14,7 +14,7 @@ language: en
 ---
 **Technology is essential to support patients and medical staff in managing chronic diseases. Learn more about healthcare diagnostics devices that shape the future of telehealth.**
 
-![healthcare diagnostics devices](/images/blogpost_www_healthcare2.5.png)
+![healthcare diagnostics devices](../../static/images/blogpost_www_healthcare2.5.png "")
 
 ## What is the role of mobile devices in healthcare? 
 
@@ -28,7 +28,7 @@ Check out devices that are part of the digital transformation in healthcare.
 
 ### Pulse oximeter
 
-![Pulse oximeter](/images/blogpost_www_pulse_oximeter.png)
+![Pulse oximeter](../../static/images/blogpost_www_pulse_oximeter.png "")
 
 * It monitors the oxygen saturation of the patient’s blood.
 * It displays the percentage of blood loaded with oxygen.
@@ -37,7 +37,7 @@ Check out devices that are part of the digital transformation in healthcare.
 
 ### Bluetooth Thermometer
 
-![Bluetooth Thermometer](/images/blogpost_www_thermometer.png)
+![Bluetooth Thermometer](../../static/images/blogpost_www_thermometer.png "")
 
 * Another healthcare device that has become crucial during the pandemic.
 * Modern thermometer devices not only read a patient's temperature remotely but also send the data to the app that evaluates them.
@@ -45,14 +45,14 @@ Check out devices that are part of the digital transformation in healthcare.
 
 ### Sphygmomanometer
 
-![Sphygmomanometer](/images/blogpost_www_sphygmomanometer.png)
+![Sphygmomanometer](../../static/images/blogpost_www_sphygmomanometer.png "")
 
 * It is a well-known blood pressure monitor.
 * Modern versions of these devices can connect to the app which enables sending the data about blood pressure to the medical staff.
 
 ### Spirometer
 
-![Spirometer](/images/blogpost_www_spirometer.png)
+![Spirometer](../../static/images/blogpost_www_spirometer.png "")
 
 * It measures the volume of air inhaled and exhaled by human’s lungs.
 * It’s another device that helps to diagnose COVID-19 infection. 
@@ -62,7 +62,7 @@ Check out devices that are part of the digital transformation in healthcare.
 
 ### Stethoscope
 
-![Stethoscope](/images/blogpost_www_stethoscope.png)
+![Stethoscope](../../static/images/blogpost_www_stethoscope.png "")
 
 * Known as the number one of doctor’s gadgets, it can now be used remotely by other caregivers at care homes and nursing homes. 
 * It enables real-time and remote medical examinations that don’t have to be conducted by doctors. Caregivers not only can record a patient’s beating heart but even “broadcast” it live to the doctor.
@@ -70,7 +70,7 @@ Check out devices that are part of the digital transformation in healthcare.
 
 ### Wearable continuous monitoring devices
 
-![Wearable continuous monitoring device](/images/blogpost_www_continuous_monitoring_device.png)
+![Wearable continuous monitoring device](../../static/images/blogpost_www_continuous_monitoring_device.png "")
 
 * That’s the future of remote patient monitoring. 
 * Patients wear a device for example on their arm and doctors as well as caregivers can monitor the vital signs in real-time, 24 hours a day.
@@ -83,4 +83,4 @@ Gathering data from these devices isn’t really a challenge. The challenge is t
 
 If you are looking for a **[healthcare software development company](/)**, make sure that the software team that you are about to hire have **deep knowledge about software development as well as experience in hardware**. These two elements are crucial in terms of developing solutions for telehealth.
 
-<div class='block-button'><h2>Looking for a software company?</h2><div>We have built healthcare apps for clients from the UK, Germany, Israel, Norway and more. Estimate your project!</div><a href="/start-project"><button>Let's talk about your healthcare app</button></a></div>
+<div className="block-button"><h2>Looking for a software company?</h2><div>We have built healthcare apps for clients from the UK, Germany, Israel, Norway and more. Estimate your project!</div><a href="/start-project"><button>Let's talk about your healthcare app</button></a></div>

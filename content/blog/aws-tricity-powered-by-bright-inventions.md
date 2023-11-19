@@ -17,7 +17,7 @@ language: en
 ---
 **Smart migration to AWS, introduction to Serverless Framework, Disaster recovery & OpenTelemetry. These are the topic of the AWS Tricity meetup which will take place onsite in Gdańsk Entrepreneurship Incubator STARTER on April 13 at 5 PM. The event is free. Sign up and join!**
 
-<div class='block-button'><h2>Register to AWS Tricity Meetup</h2><div>We've got a limited number of free tickets. Register for free now!</div><a href="https://www.meetup.com/aws-tricity/events/292549246/"><button>sign up for AWS Tricity</button></a></div>
+<div className="block-button"><h2>Register to AWS Tricity Meetup</h2><div>We've got a limited number of free tickets. Register for free now!</div><a href="https://www.meetup.com/aws-tricity/events/292549246/"><button>sign up for AWS Tricity</button></a></div>
 
 ## AWS Tricity agenda:
 
@@ -47,7 +47,7 @@ April 13, 2023, Gdańsk Entrepreneurship Incubator STARTER
 
 ### [Piotr Mionskowski](https://www.linkedin.com/in/piotr-mionskowski-b2858516/), Partner and Team Leader @ Bright Inventions
 
-<div class="image">![Piotr Mionskowski AWS Tricity](../../static/images/aws_tricity_speaker_piotr.png "Piotr Mionskowski AWS Tricity")</div>
+<div className="image">![Piotr Mionskowski AWS Tricity](../../static/images/aws_tricity_speaker_piotr.png "Piotr Mionskowski AWS Tricity")</div>
 
 Piotr is a senior fullstack developer and tech lead with over 12 years of professional experience in backend APIs, distributed systems, backend frameworks, and databases. He possesses an exceptional ability to learn almost every new technology that appears. Always up-to-date. Always focused.
 
@@ -61,7 +61,7 @@ OpenTelemetry enables new opportunities for monitoring production systems. With 
 
 ### [Paweł Piwosz](https://www.linkedin.com/in/pawelpiwosz), DevOps Institute Ambassador, AWS Community Builder & CD.Foundation Ambassador
 
-<div class="image">![Paweł Piwosz AWS Tricity](../../static/images/aws_tricity_speaker_pawel.png "Paweł Piwosz AWS Tricity")</div>
+<div className="image">![Paweł Piwosz AWS Tricity](../../static/images/aws_tricity_speaker_pawel.png "Paweł Piwosz AWS Tricity")</div>
 
 DevOps, leader, mentor, trainer. His main focus in DevOps is CALMS as a framework. He tries to build a better understanding of DevOps as a company’s “driving force”.
 
@@ -73,7 +73,7 @@ The story is about whether migration to AWS (or any cloud in general) is a solut
 
 ### [Somanath Dange](https://www.linkedin.com/in/somanath-dange/), DevOps Consultant @ Amazon Web Services
 
-<div class="image">![Somanath Dange AWS Tricity](../../static/images/aws_tricity_speaker_somanath.png "Somanath Dange AWS Tricity")</div>
+<div className="image">![Somanath Dange AWS Tricity](../../static/images/aws_tricity_speaker_somanath.png "Somanath Dange AWS Tricity")</div>
 
 He has a total of 11.5 years of experience working in the IT industry as a DevOps Engineer. He has good experience working with AWS Cloud, solving complex problems. He has worked on many DevOps tools like terraform, GitLab, GitHub, Docker, Jenkins. His interest is in Cloud and he loves working on Cloud.
 
@@ -89,7 +89,7 @@ More on his presentation:
 
 ### [Maciej Makarewicz](https://www.linkedin.com/in/maciej-makarewicz-5889abb5/), DevOps Engineer @ LCloud, owner @ Makaron-IT
 
-<div class="image">![Maciej Makarewicz AWS Tricity](../../static/images/aws_tricity_speaker_maciej.png "Maciej Makarewicz AWS Tricity")</div>
+<div className="image">![Maciej Makarewicz AWS Tricity](../../static/images/aws_tricity_speaker_maciej.png "Maciej Makarewicz AWS Tricity")</div>
 
 Maciej provides computer service and consulting in cloud services and DevOps methodologies. In the IT industry for more than 10 years, a natural ability to expand his knowledge of computer science and electronics led him to complete an engineering degree in Bydgoszcz in Electronics and Telecommunications, followed by a master's degree in Computer Science at Gdansk University of Technology. 
 
@@ -112,4 +112,4 @@ If you are from Tricity (Poland), join or [AWS Tricity Facebook group](https://w
 
 AWS meetup is powered by Bright Inventions, a software development agency based in Gdańsk. Bright Inventions gathers DevOps enthusiasts to share knowledge about AWS. The company is on its way to becoming AWS Partner (fingers crossed). 🙂
 
-<div class='block-button'><h2>Register to AWS Tricity Meetup</h2><div>We've got a limited number of free tickets. Register for free now!</div><a href="https://www.meetup.com/aws-tricity/events/292549246/"><button>sign up for AWS Tricity</button></a></div>
+<div className="block-button"><h2>Register to AWS Tricity Meetup</h2><div>We've got a limited number of free tickets. Register for free now!</div><a href="https://www.meetup.com/aws-tricity/events/292549246/"><button>sign up for AWS Tricity</button></a></div>

@@ -33,7 +33,7 @@ npm start
 
 This is all we need to get started and see the "Hello World" page served from the local development server, auto-refreshing whenever a source code change happens.
 
-![Hello World from create-react-app](/images/react-ts/cra.png)
+![Hello World from create-react-app](../../static/images/react-ts/cra.png "")
 
 This is cool and already saved us a week of headaches. But there is no TypeScript support available by default in create-react-app. TypeScript is really great and after working together for some time now I feel that JavaScript without TypeScript is like a cake without chocolate - you might eat it, but where's that pleasure?
 
@@ -49,7 +49,7 @@ Note something important – we are not invoking `create-react-app-typescript` f
 
 And here is what we get – almost the same thing as before, but with TSX (TypeScript-flavoured JSX) instead! 
 
-![Hello World from create-react-app-typescript](/images/react-ts/cra-ts.png)
+![Hello World from create-react-app-typescript](../../static/images/react-ts/cra-ts.png "")
 
 But what if we outgrow the offerings of `create-react-app` and we need to dig down into the webpack bundler or jest test runner's shenanigans? It is possible, but unfortunately, in this case we need to say goodbye to the nice and clean abstraction that shielded us from dealing with ~30 direct dependencies and ~12 configuration files. When we run `npm run eject` command, our project gets rewritten to include all of this directly and we can no longer `npm update` our development environment as a single dependency. We should definitely know what we are doing before we decide to do so. And in most cases, until we start having non-standard requirements for the build process, we should not need to do it.
 

@@ -47,4 +47,4 @@ Discover the table of contents:
 
 Piotr Mionskowski is a Head of Technology and Partner at Bright Inventions with over 12 years of professional experience in software development. He is an expert in backend APIs, distributed systems, backend frameworks, and databases. He possesses an exceptional ability to learn almost every new technology that appears.
 
-<div class="image">![Piotr Mionskowski](../../static/images/piotr_ebook_author.png "Piotr Mionskowski")</div>
+<div className="image">![Piotr Mionskowski](../../static/images/piotr_ebook_author.png "Piotr Mionskowski")</div>

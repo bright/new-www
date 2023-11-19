@@ -17,7 +17,7 @@ language: en
 ---
 **In this article I would like to introduce you to the zk-SNARKs (zero-knowledge succinct non-interactive argument of knowledge) concept. First we are going to briefly describe what are the zero-knowledge proofs, what are the stages of creating them, which tools can be useful for generating the zk-SNARKs. Also, we will touch a little math behind them. I encourage you to visit our GitHub, where you can find a [repository](https://github.com/bright/zk-snarks-with-substrate) for this article. Let’s start with the definition of the zero-knowledge proof and then we will move to the zk-SNARKs.**
 
-<div class="image">![Zk-SNARKs in Substrate (Part 1)](../../static/images/zk-snarks_tutorial_part1.png "Zk-SNARKs in Substrate (Part 1)")</div>
+<div className="image">![Zk-SNARKs in Substrate (Part 1)](../../static/images/zk-snarks_tutorial_part1.png "Zk-SNARKs in Substrate (Part 1)")</div>
 
 Zero-knowledge proof is a method where one party (the prover) tries to “*convince*” the other party (the verifier) that a given statement is true, without revealing the solution [^6](https://fisher.wharton.upenn.edu/wp-content/uploads/2020/09/Thesis_Terrence-Jo.pdf). There are two types of proving systems[^2](https://blog.decentriq.com/zk-snarks-primer-part-one/):
 
@@ -36,7 +36,7 @@ From the high-level point of view, the concept defines:
 * **Prover** - he knows the solution for the problem (private inputs), based on that he can create a proof.
 * **Verifier** - he can accept a proof and verify it.
 
-<div class="image">![zk-snark concept!](../../static/images/zk-snark_concept.png "zk-snark concept!")</div>
+<div className="image">![zk-snark concept!](../../static/images/zk-snark_concept.png "zk-snark concept!")</div>
 
 As shown on the image, the prover will create a proof, based on the public and private inputs. Verifier will receive it and run the verification knowing only the public inputs. Based on that we can conclude that proof will need somehow to wrap our problem and the private inputs. Then it will need to transform them to the other form which could be verified only with the public inputs. Now when we know the concept, we can dive deeper and look at this process in detail.
 

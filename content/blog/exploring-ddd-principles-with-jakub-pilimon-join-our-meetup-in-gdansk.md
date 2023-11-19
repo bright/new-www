@@ -14,7 +14,7 @@ language: en
 ---
 **Mark your calendars for a Domain-Driven Design session with Jakub Pilimon. We hope to see you in Gdańsk on June 15 at 6 PM.**
 
-<div class='block-button'><h2>No spots left but there is still a chance to join...</h2><div>The tickets have been claimed at a remarkable pace, but you can join waitlist!</div><a href="https://www.meetup.com/ddd-gda/events/294013722/"><button>join waitlist</button></a></div>
+<div className="block-button"><h2>No spots left but there is still a chance to join...</h2><div>The tickets have been claimed at a remarkable pace, but you can join waitlist!</div><a href="https://www.meetup.com/ddd-gda/events/294013722/"><button>join waitlist</button></a></div>
 
 ## Join the DDD-GDA meet-up and dive into the DDD world
 
@@ -24,7 +24,7 @@ During the meeting, we will dive into the world of [Domain-Driven Design (DDD)](
 
 [Jakub Pilimon](https://www.linkedin.com/in/jakub-pilimon-449b7984/) is an experienced programmer, architect, and trainer. Currently serving as the Principal Technologist at VMware, he also works as a trainer and consultant at Bottega IT Minds. With a focus on engineering, Jakub is a passionate advocate of Domain-Driven Design and an evolutionary approach to software architecture. Outside of work, he enjoys reading popular science literature, engaging in kitesurfing, and going on motorcycle rides.
 
-<div class="image">![Domain-Driven Design meetup Jakub Pilimon](../../static/images/ddd_blog_post.png "Domain-Driven Design meetup Jakub Pilimon")</div>
+<div className="image">![Domain-Driven Design meetup Jakub Pilimon](../../static/images/ddd_blog_post.png "Domain-Driven Design meetup Jakub Pilimon")</div>
 
 ## See you at the DDD meetup!
 

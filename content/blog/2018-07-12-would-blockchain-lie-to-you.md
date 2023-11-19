@@ -31,4 +31,4 @@ Later on we focused on some coding hands-on experience - working with Node.js in
 
 We are glad that we could inspire others and at the same point got inspired by them in turn. It’s an essential part of our company culture.
 
-![blockchain](/images/Blockchain_workshops.jpg)
+![blockchain](../../static/images/Blockchain_workshops.jpg "")

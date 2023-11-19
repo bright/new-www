@@ -17,7 +17,7 @@ language: en
 ---
 **Do you plan to enter the smart packaging industry with your solution? With such a fast-developing industry time-to-market is the key. The best way is to build and launch MVP (Minimum Viable Product) and start gathering first users' feedback. What problems could smart packaging solve? What are MVP development stages? What tech should you implement in your MVP? Dive in!**
 
-<div class="image">![smart packaging MVP](../../static/images/smart_packaging_blog_cover.png "undefined")</div>
+<div className="image">![smart packaging MVP](../../static/images/smart_packaging_blog_cover.png "undefined")</div>
 
 - - -
 
@@ -47,7 +47,7 @@ language: en
 
 According to [Acumen Research and Consulting](https://www.globenewswire.com/en/news-release/2023/02/22/2612787/0/en/Active-Smart-and-Intelligent-Packaging-Market-Size-Growing-at-8-3-CAGR-Set-to-Reach-USD-29-4-Billion-By-2032.html#:~:text=The%20Global%20Active%2C%20Smart%20And%20Intelligent%20Packaging%20Market%20Size%20in,at%20a%20CAGR%20of%208.3%25), **The Global Smart Packaging Market Size in 2022 stood at USD 12.2 Billion and is set to reach USD 29.4 Billion by 2032**.
 
-<div class="image">![The Global Smart Packaging Market Size](../../static/images/globe-image-global-active-smart-and-intelligent-packaging-ma.png "The Global Smart Packaging Market Size")</div>
+<div className="image">![The Global Smart Packaging Market Size](../../static/images/globe-image-global-active-smart-and-intelligent-packaging-ma.png "The Global Smart Packaging Market Size")</div>
 
 **To provide a comparison, one market that has a similar size to the projected smart packaging market size is the global digital signage market**. According to a report by MarketsandMarkets, the global digital signage market size was estimated at USD 16.3 billion in 2021 and is projected to reach USD 27.8 billion by 2026, growing at a CAGR of 11.2% during the forecast period.
 
@@ -91,7 +91,7 @@ Smart packaging has the potential to **revolutionize the supply chain by providi
 
 Smart packaging can help **reduce waste by extending the shelf life of perishable goods and preventing product spoilage**. It also **helps to reduce plastic waste**. Single-use plastic containers, wrappings, etc. create unimaginable waste. By building an MVP, you can demonstrate the impact of your product on waste reduction, helping to position your startup as a leader in sustainability.
 
-<div class="image">![Food and packaging waste](../../static/images/waste.png "Food and packaging waste")</div>
+<div className="image">![Food and packaging waste](../../static/images/waste.png "Food and packaging waste")</div>
 
 ### Lack of traceability and security
 
@@ -129,13 +129,13 @@ The idea doesn’t guarantee success. It’s only the first step. ;) It’s esse
 
 During this stage, you can try to consult your idea with a suitable MVP development company. Finally, it’s time to decide if you plan to get your own team to build the MVP or hire an MVP agency to take care of that.
 
-<div class="image">![Idea for MVP](../../static/images/1_idea.png "Idea for MVP")</div>
+<div className="image">![Idea for MVP](../../static/images/1_idea.png "Idea for MVP")</div>
 
 ### MVP Prototyping (1-4 weeks)
 
 Validating the ideas' potential is followed by prototyping. The prototyping phase is when a product designer creates the first visual representation of the idea. The effect of close cooperation with a [product design team](/our-areas/product-design/) is prototypes. They are basic clickable mockups or wireframes without any backend. This stage helps to eliminate first mistakes and understand how the solution might work.
 
-<div class="image">![MVP Prototyping](../../static/images/2_app_prototyping.png "MVP Prototyping")</div>
+<div className="image">![MVP Prototyping](../../static/images/2_app_prototyping.png "MVP Prototyping")</div>
 
 ### Building and launching the MVP (Minimum Viable Product) **(4-20 weeks)**
 
@@ -145,7 +145,7 @@ As you can see, you can launch an MVP in weeks and with marketing experts quickl
 
 MVP is a cornerstone of your product. Based on it you keep developing it according to your users' feedback. 
 
-<div class="image">![Building and launching the MVP](../../static/images/3_mvp.png "Building and launching the MVP")</div>
+<div className="image">![Building and launching the MVP](../../static/images/3_mvp.png "Building and launching the MVP")</div>
 
 ### Product Development & Maintenance based on MVP (Infinity – hopefully)
 
@@ -153,7 +153,7 @@ The final stage is app development and maintenance. At this stage, a software de
 
 The crucial part of development, yet often neglected is analytics. You should monitor app performance, user behavior, and install and retention rates in the post-MVP phase to get to know your users as much it is possible.
 
-<div class="image">![App development and maintenance](../../static/images/4_app_development_maintenance.png "App development and maintenance")</div>
+<div className="image">![App development and maintenance](../../static/images/4_app_development_maintenance.png "App development and maintenance")</div>
 
 ## Examples of technologies to implement in a smart packaging product
 
@@ -214,4 +214,4 @@ Whether you decide to build native or hybrid applications (one app for both Goog
 
 **Product design**: Figma, Adobe, Miro
 
-<div class='block-button'><h2>Ready to take your solution to the next level?</h2><div>Schedule a free consultation with our team. We'll provide expert insights within 48 hours.</div><a href="https://brightinventions.pl/start-project/"><button>let's talk about your product</button></a></div>
+<div className="block-button"><h2>Ready to take your solution to the next level?</h2><div>Schedule a free consultation with our team. We'll provide expert insights within 48 hours.</div><a href="https://brightinventions.pl/start-project/"><button>let's talk about your product</button></a></div>

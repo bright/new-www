@@ -26,10 +26,10 @@ Let's take a look at our `performHeartBeat:` method. In order to perform our hea
 
 Here is how our button should look before tapping:
 
-![Inactive button](/images/heartbeat-inactive.png)
+![Inactive button](../../static/images/heartbeat-inactive.png "")
 
 After multiple taps:
 
-![Active button](/images/heartbeat-active.png)
+![Active button](../../static/images/heartbeat-active.png "")
 
 *This article is cross-posted with my [my personal blog](http://eluss.github.io/).*

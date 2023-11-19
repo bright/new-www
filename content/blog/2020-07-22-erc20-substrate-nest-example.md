@@ -46,11 +46,11 @@ Purge the chain and run it in development mode with the following commands:
 
 To make sure your chain is up and running you can use the [Polkadot JS Apps](https://polkadot.js.org/apps). To run the app you need a Chromium based browser (other browsers will not allow you to connect to the local node). You can expand the list of available chains by clicking on the Substrate logo in the upper left corner. Expand *DEVELOPMENT* list and choose the *Local Node*.
 
-![cryptocurrency in substrate](/images/screenshot-2020-09-01-at-20.29.16.png)
+![cryptocurrency in substrate](../../static/images/screenshot-2020-09-01-at-20.29.16.png "")
 
 To see if the Contracts Pallet was successfully added, check that you have the *Contracts -> Developer* page available.
 
-![cryptocurrency in substrate](/images/screenshot-2020-09-01-at-20.32.02.png)
+![cryptocurrency in substrate](../../static/images/screenshot-2020-09-01-at-20.32.02.png "")
 
 ## ERC20 token Smart Contract
 
@@ -177,7 +177,7 @@ this.api = await ApiPromise.create({
 
 We will now create a `PromiseContract` object from the `api-contract` library. This object is tightly connected with the contract we have created so we need some more information about it. We need the contract address. To get it, visit [Polkadot JS Apps](https://polkadot.js.org/apps). Select *Developer -> Contracts* from the main menu, then select the *Contracts* tab. Clicking on the image next to the contract name (here it is ERC20.WASM (INSTANCE)) will copy the contract’s address to clipboard.
 
-![cryptocurrency in substrate](/images/screenshot-2020-09-01-at-20.35.53.png)
+![cryptocurrency in substrate](../../static/images/screenshot-2020-09-01-at-20.35.53.png "")
 
 We can put it in a constant:
 
@@ -338,7 +338,7 @@ export class AppModule {}
 
 You can now check the result in a browser.
 
-![cryptocurrency in substrate](/images/erc20-substrate-nest-example/image4.png)
+![cryptocurrency in substrate](../../static/images/erc20-substrate-nest-example/image4.png "")
 
 When I have deployed my smart contract through the Polkadot JS Apps, I set the init supply to 1 000 000. Each currency value is a decimal stored as an integer with a fixed and known number of decimal places (in Substrate Node Template it is 15 by default). Polkadot JS Apps wraps that for you in the input field, so that I have indeed initialized the contract with one million units. However, when querying the smart contract through the Polkadot JS Apps or using the api we always get the additional 15 decimal zeros.
 
@@ -424,15 +424,15 @@ We submit to the result and log it. We will see three events logged:
 
 A finalized transaction does not mean a successful transaction. It only means that the processing of a transaction has finished. We can check in [Polkadot JS Apps](https://polkadot.js.org/apps) if the transaction is successful. Go to *Network* -> *Explorer* page and paste the transaction hash in the upper left corner input `block hash or number to query`.
 
-![cryptocurrency in substrate](/images/screenshot-2020-09-01-at-20.56.18.png)
+![cryptocurrency in substrate](../../static/images/screenshot-2020-09-01-at-20.56.18.png "")
 
 You can explore the block details.
 
-![cryptocurrency in substrate](/images/screenshot-2020-09-01-at-20.57.29.png)
+![cryptocurrency in substrate](../../static/images/screenshot-2020-09-01-at-20.57.29.png "")
 
 On the right side, you can see the events emitted by the smart contract. The last one says `ExtrinsicSuccess`, so we know the transaction was successful. You can try to submit a transaction with `gasLimit = 0`. Once the transaction is finalized, view its details. You can see the `ExtrinsicFailed` event.
 
-![cryptocurrency in substrate](/images/screenshot-2020-09-01-at-20.58.38.png)
+![cryptocurrency in substrate](../../static/images/screenshot-2020-09-01-at-20.58.38.png "")
 
 The `contract.service.ts` file should look like this now:
 
@@ -567,7 +567,7 @@ Let's now do some transfers. We can use [Postman](https://www.postman.com/) for 
 
 We will transfer some units to Bob. As we sign all transactions as Alice, she will be the sender. We need to create a `PUT` request at `http://localhost:3000/balances` url and pass two body parameters: `to: BOB` and `value: 1000000000000000000` (again, we have the 15 decimal zeros here, so we actually transfer 1 000 units).
 
-![cryptocurrency in substrate](/images/erc20-substrate-nest-example/image8.png)
+![cryptocurrency in substrate](../../static/images/erc20-substrate-nest-example/image8.png "")
 
 Now let's check again the balances (I omit the decimal zeros here so that the numbers are more readable):
 
@@ -662,13 +662,13 @@ interface TransferDto {
 
 We would like to allow Alice to send 200 units on behalf of Bob. Such a transaction should be signed by Bob, but our app does not enable choosing a signer. Let's then switch to [Polkadot JS Apps](https://polkadot.js.org/apps). Go to *Developer* -> *Contracts* page, choose *Contracts* tab and click the *execute* button on the contract. Change the account, so that we will call the contract functions from Bob's account. Choose `approve` as a message to send. Choose Alice as a spender and set the value to 200 (no decimal zeros here!). Click the *Call* button, sign and submit the transaction (make sure that Bob is the signer).
 
-![cryptocurrency in substrate](/images/erc20-substrate-nest-example/image10.png)
+![cryptocurrency in substrate](../../static/images/erc20-substrate-nest-example/image10.png "")
 
 We can check the allowance in the browser [http://localhost:3000/allowances?owner=BOB&spender=ALICE](http://localhost:3000/allowances?owner=BOB&spender=ALICE) to be 200.
 
 Now let's go back to Postman and let Alice make a transfer from Bob's to Charlie's wallet. Remember to add the decimal zeros and to transfer less than the approved value. I decided to transfer 110.
 
-![cryptocurrency in substrate](/images/erc20-substrate-nest-example/image9.png)
+![cryptocurrency in substrate](../../static/images/erc20-substrate-nest-example/image9.png "")
 
 We can now confirm that:
 
@@ -679,13 +679,13 @@ We can now confirm that:
 
 We can also use our api to allow Bob to transfer 100 units on behalf of Alice. We can create a POST request in Postman at `http://localhost:3000/allowances` url and pass two body parameters: `sender: BOB` and `value: 100000000000000000` (again, we have the 15 decimal zeros).
 
-![cryptocurrency in substrate](/images/erc20-substrate-nest-example/image11.png)
+![cryptocurrency in substrate](../../static/images/erc20-substrate-nest-example/image11.png "")
 
 We can check the allowance in the browser [http://localhost:3000/allowances?owner=ALICE&spender=BOB](http://localhost:3000/allowances?owner=ALICE&spender=BOB) to be 100. 
 
 We can now let Bob make a transfer of 30 units from Alice's to Dave's wallet using the Polkadot JS Apps:
 
-![cryptocurrency in substrate](/images/erc20-substrate-nest-example/image12.png)
+![cryptocurrency in substrate](../../static/images/erc20-substrate-nest-example/image12.png "")
 
 We can now confirm that:
 
@@ -704,4 +704,4 @@ In the next part of this tutorial we will:
 
 * [look through an ERC20 token implementation in Substrate Runtime and interact with it from NestJS.](/blog/develop-your-own-cryptocurrency-with-substrate-2/)
 
-<div class='block-button'><h2>We are looking for Rust Developers</h2><div>We are looking for an experienced senior developer who is excited about Rust or C++. You will be responsible for developing the infrastructure that will connect different blockchains to the Substrate and Polkadot ecosystems.</div><a href="/jobs/rust-developer"><button>Apply and join our team</button></a></div>
+<div className="block-button"><h2>We are looking for Rust Developers</h2><div>We are looking for an experienced senior developer who is excited about Rust or C++. You will be responsible for developing the infrastructure that will connect different blockchains to the Substrate and Polkadot ecosystems.</div><a href="/jobs/rust-developer"><button>Apply and join our team</button></a></div>

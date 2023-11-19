@@ -15,7 +15,7 @@ comments: true
 published: true
 language: en
 ---
-![teambuilding](/images/can-disfunctions-be-bright/team.png)
+![teambuilding](../../static/images/can-disfunctions-be-bright/team.png "")
 
 So your leader comes up with an idea, which you don’t quite agree with -do you speak up or remain silent? Maybe you’re a leader and wonder whether the silence of your team mates is golden.
 

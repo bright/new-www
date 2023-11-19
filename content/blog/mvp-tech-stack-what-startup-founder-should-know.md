@@ -62,7 +62,7 @@ So remember to adjust trendy tools to your product and target group.
 
 ## Hybrid or native mobile app? That is the question…
 
-<div class="image">![Mockups](../../static/images/food_tech_case_study_app.png "Mockups")</div>
+<div className="image">![Mockups](../../static/images/food_tech_case_study_app.png "Mockups")</div>
 
 In terms of mobile development, you must first decide whether to **build two separate native apps for iOS and Android or go for a cross-platform product**. The latter means one mobile app dedicated to both app stores. 
 
@@ -84,7 +84,7 @@ Although **some features will be limited compared to mobile apps** (e.g. Bluetoo
 
 We took into account many factors influencing decision-making. Now it’s time to list the most typical MVP stack in 2023.
 
-<div class="image">![MVP tech stack in 2023](../../static/images/blog_post_tech_stack_mvp.png "MVP tech stack in 2023")</div>
+<div className="image">![MVP tech stack in 2023](../../static/images/blog_post_tech_stack_mvp.png "MVP tech stack in 2023")</div>
 
 ### Web Development Stack for your MVP
 

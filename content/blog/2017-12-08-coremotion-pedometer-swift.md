@@ -19,7 +19,7 @@ comments: true
 published: true
 language: en
 ---
-![footsteps image](/images/coremotion-pedometer-swift/footsteps.jpg)
+![footsteps image](../../static/images/coremotion-pedometer-swift/footsteps.jpg "")
 
 Ok... but what the pedometer is? Here you have a wikipedia definition:
 
@@ -87,7 +87,7 @@ So add to your `info.plist` `NSMotionUsageDescription` key modifying plain file:
 
 or adding new key via Xcode
 
-![info plist motion usage description](/images/coremotion-pedometer-swift/info-plist-motion-usage.png)
+![info plist motion usage description](../../static/images/coremotion-pedometer-swift/info-plist-motion-usage.png "")
 
 ### 2. Create an `CMMotionActivityManager` and `CMPedometer` instances
 
@@ -150,7 +150,7 @@ private func startUpdating() {
 
 <center>
 
-![usage demo](/images/coremotion-pedometer-swift/steps-demo.gif)
+![usage demo](../../static/images/coremotion-pedometer-swift/steps-demo.gif "")
 
 </center>
 
@@ -161,4 +161,4 @@ You can find an example project at [Github repository](https://github.com/bright
 
 Hope you like the post, feel free to share and comment.
 
-<div class='block-button'><h2>We are looking for iOS developers</h2><div>Build with us the iOS application that will impact how Just Eat shapes the retail world. Or work for our other clients representing industries such as FinTech, Blockchain, HealthTech, and Logistics.</div><a href="/jobs/senior-ios-developer"><button>Apply and join our team</button></a></div>
+<div className="block-button"><h2>We are looking for iOS developers</h2><div>Build with us the iOS application that will impact how Just Eat shapes the retail world. Or work for our other clients representing industries such as FinTech, Blockchain, HealthTech, and Logistics.</div><a href="/jobs/senior-ios-developer"><button>Apply and join our team</button></a></div>

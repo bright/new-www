@@ -15,7 +15,7 @@ language: en
 ---
 What does accessibility mean in 2023? Is accessibility just another trend? Is a11y just another buzzword? A11y stands for accessibility (there are 11 letters between the first one and the last one, hence a11y). It is essential for developers and designers, who want to create high quality digital products. This means providing an equal chance of getting the same user experience, no matter who the user is and what their capabilities are. How to achieve this? Let me share with you some do’s and don’ts.
 
-<div class="image">![accessibility product design](../../static/images/blogpost-cover-a11y_accessibility.png "undefined")</div>
+<div className="image">![accessibility product design](../../static/images/blogpost-cover-a11y_accessibility.png "undefined")</div>
 
 ## Why even bother?
 
@@ -27,7 +27,7 @@ First and foremost, people with disabilities are a part of our society and every
 
 We are not only designing for people with disabilities, but also for our future us. How come? You never know where life takes you. And I’m not saying you’ll get in an accident and end up with some sort of disability (but hey, it might happen). But you need to keep in mind **that there are scenarios in which we are temporarily, or even situationally, impaired**. Take a look below:
 
-<div class="image">![the persona spectrum by microsoft](../../static/images/blog_a11y.png "Toolkit Inclusive 101")</div>
+<div className="image">![the persona spectrum by microsoft](../../static/images/blog_a11y.png "Toolkit Inclusive 101")</div>
 
 Source: [Toolkit Inclusive 101](https://www.microsoft.com/design/inclusive/)
 
@@ -41,7 +41,7 @@ There is also a business value to it and don’t get me wrong, I’m not trying 
 
 And if that does not convince anyone, there is also a legal aspect of it. You see, in the past few years **accessibility changed from a requirement to an obligation**. Almost all over the world. USA has [The Americans with Disabilities Act (ADA)](https://adata.org/learn-about-ada), Canada - [ACA](https://www.canada.ca/en/employment-social-development/programs/accessible-canada.html), Australia - [DDA](https://humanrights.gov.au/our-work/employers/disability-discrimination), Europe - directive on [the accessibility of the websites and mobile applications of public sector bodies](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX%3A32016L2102) and there are more to come. But it all can be summed up by saying that everyone deserves an equal chance getting information and actively **blocking someone’s access to civil rights is unethical**.
 
-<div class='block-button'><h2>Looking for a product design agency?</h2><div>Since 2012 we have built and designed software solutions for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/our-areas/product-design"><button>Let's talk about design</button></a></div>
+<div className="block-button"><h2>Looking for a product design agency?</h2><div>Since 2012 we have built and designed software solutions for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/our-areas/product-design"><button>Let's talk about design</button></a></div>
 
 ## What can I do?
 
@@ -80,4 +80,4 @@ Remember, **you’re not the user**. It’s best to test your solutions with act
 * https://www.accessibility.uxdesign.cc/ - a very down to earth ebook on accessibility, which you can download for free
 * https://ukhomeoffice.github.io/accessibility-posters/ **\- Make sure to check out lovely posters with do’s and don’t in regards to ux/ui design, which inspired me to write this blog post. I mentioned some of them here, but they point out many more aspects!**
 
-<div class='block-button'><h2>Looking for a product design agency?</h2><div>Since 2012 we have built and designed software solutions for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/our-areas/product-design"><button>Let's talk about design</button></a></div>
+<div className="block-button"><h2>Looking for a product design agency?</h2><div>Since 2012 we have built and designed software solutions for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/our-areas/product-design"><button>Let's talk about design</button></a></div>

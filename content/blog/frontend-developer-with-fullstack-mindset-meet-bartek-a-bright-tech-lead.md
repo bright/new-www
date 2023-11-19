@@ -16,7 +16,7 @@ language: en
 ---
 **Java, SQL, TypeScript, server administration – he has done it all. This is the story of Bartek, a Tech Lead of the frontend team at Bright Inventions. What does it mean to be a tech leader? What are his daily challenges? What did he discover trekking in the Himalayas? Let’s talk to Bartek.**
 
-![Bartek - a Senior Frontend Developr at Bright Inventions](/images/brightstorybartek.png)
+![Bartek - a Senior Frontend Developr at Bright Inventions](../../static/images/brightstorybartek.png "")
 
 ## What were your software development beginnings?
 
@@ -28,7 +28,7 @@ After that, I got my first internship at a software development company. **I was
 
 Then, I joined the Gdańsk University of Technology as a regular employee. **I worked on a platform that was a virtual dean's office**. Thanks to this system students could for example apply for scholarships online. Everything I did there was built in Java. 
 
-![Bartek bright story](/images/senior_frontend_developer_story.png)
+![Bartek bright story](../../static/images/senior_frontend_developer_story.png "")
 
 ## Network administration, SQL, and Java… One could be surprised that you are a Senior Frontend Developer at Bright.
 
@@ -40,7 +40,7 @@ Then, I worked on frontend for another client representing the maritime transpor
 
 Then I left my job to travel for a couple of months and when I got back I knew **I wanted to specialize only in one side of software development**. Bright Inventions was seeking a frontend developer so I applied. **My girlfriend used to work at Bright and recommended this place to me**. Thanks to her I knew that the atmosphere within the team was more than positive. Another crucial factor for me was that this is a small company. I didn’t want to work in a large organization. And that is why I became a frontend developer at Bright Inventions.
 
-![Sport team at Bright Inventions](/images/bright_inventions_sport.png)
+![Sport team at Bright Inventions](../../static/images/bright_inventions_sport.png "")
 
 ## And now you are a Tech Lead at Bright. How did that happen?
 
@@ -48,7 +48,7 @@ What can I say? I submitted my application and it was reviewed positively. 😉 
 
 It is funny because when I came to Bright there was only one frontend team which included me and another programmer that worked on this solution. Right now the client has 3 separate frontend teams. So my knowledge about the project and its processes was essential.
 
-<div class='block-button'><h2>Join Bartek!</h2><div>Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
+<div className="block-button"><h2>Join Bartek!</h2><div>Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
 
 ## What does your work as a Tech Lead look like?
 
@@ -66,7 +66,7 @@ There are two main challenges I experience on a daily basis.
 
 First of all, it is **time management**. You have to work hard on organizing your time so you have it for your team. When you are a tech lead, it is not about you anymore. You work closely with your team, a product manager, and other client representatives who expect you to contribute. So I need to manage my time in a way that I can offer my support whenever it is needed. Apart from that, I still need to find time to work on the technical aspects and write some code. 😉  It is not easy to manage it all.
 
-![Bartek's quote on being a Tech Lead](/images/bartek_quote1.png)
+![Bartek's quote on being a Tech Lead](../../static/images/bartek_quote1.png "")
 
 Another challenge is **setting priorities**. Number one is my team. I have to make sure that the team knows their tasks and their priorities. Only then I can move to my other tasks. 
 
@@ -82,7 +82,7 @@ Moreover, the end-users don’t have to be well versed in technology and compute
 
 Just Eat POS is a big retail system with a couple of different teams working on it. That influences our job as well. When we as a frontend team want to, for example, change a single button, it is not as easy as you might think. This change could have an influence on 3 other teams. You have to be deep into this project to be aware of that. We need to sync with every involved team to ensure that everyone is on the same page when it comes to a change of – some would say – a minor button. 
 
-![Bartek's quote on working on retail system](/images/bartek_quote2.png)
+![Bartek's quote on working on retail system](../../static/images/bartek_quote2.png "")
 
 **Just Eat POS is a product on which our end-users rely daily**. They use it for hours at work. That is a great responsibility for us. Every little change will affect someone's daily work. **It is amazing to work on a project that truly influences somebody’s life and helps them do their job better and faster**.
 
@@ -94,7 +94,7 @@ First of all, **you cannot implement any changes for all users at once**. Natura
 
 The fundamental part of any crucial frontend change is **communication with end-users**. They need to be aware of upcoming changes. They shouldn’t be surprised or confused that their daily used app is now completely different. So **the frontend development team needs to work closely with the support department**.
 
-![Bartek's quote on implementing frontend changes](/images/bartek_quote3.png)
+![Bartek's quote on implementing frontend changes](../../static/images/bartek_quote3.png "")
 
 The bottom line is to **make changes intuitively so they won’t be a problem for your users**. You succeed when your users don't give it too much thought. So make changes that will make their life easier. 🙂
 
@@ -112,7 +112,7 @@ Last but not least, never lie. If you have never used some library or don't know
 
 ## You are a travel enthusiast. You even spent a couple of weeks in Nepal, hiking to the famous 5k Everest base. How do you recall that travel?
 
-![Hiking to the 5k Everest camp](/images/hiking_everest.png)
+![Hiking to the 5k Everest camp](../../static/images/hiking_everest.png "")
 
 It all started with an idea to buy a one-way ticket somewhere far with no return date in mind. That was the dream of my girlfriend and mine. We decided to travel to Asia. Since we love hiking, **we traveled to Nepal**. We wanted to experience how altitude sickness affects our bodies and **see the beauty and harshness of the highest mountain in the world**. 
 
@@ -120,7 +120,7 @@ What was also **incredible and unexpected about that trip, was the isolation we 
 
 Eventually, **we got to the famous Everest Base Camp** at an elevation of over 5k meters. We had a great view of Everest. We were there during late fall. Obviously, weather conditions weren’t easy. However, being in the Himalayas during fall guarantees you a cloudless sky so you can see Everest. It was worth it. Even though during our adventure we had to sleep at various camp bases with no heating, whilst there was minus 20 Celsius degrees temperature outside. Still worth it. 😉
 
-![Everest base camp](/images/hiking_everest2.png)
+![Everest base camp](../../static/images/hiking_everest2.png "")
 
 After trekking in the Himalayas, we traveled to **Thailand, Cambodia, Vietnam, and then went back to Thailand**. We just wanted to experience daily life in different cultures. We came back home, to Poland, after 3 months at the beginning of February 2020. I guess that was perfect timing, just before COVID-19 changed all of our lives.
 
@@ -128,4 +128,4 @@ After trekking in the Himalayas, we traveled to **Thailand, Cambodia, Vietnam, a
 
 I love various sports activities, especially running, biking, hiking, and sailing. I used to sail a lot over the Baltic sea. I hope to be back on board soon. ⛵️
 
-<div class='block-button'><h2>Do you want to join Bartek?</h2><div>Join Bartek and other bright developers. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
+<div className="block-button"><h2>Do you want to join Bartek?</h2><div>Join Bartek and other bright developers. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>

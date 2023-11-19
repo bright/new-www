@@ -57,6 +57,6 @@ To track the time and current workflow we use Mite. It is important for us to kn
 Fluent and transparent communication is something that we value and take care of in every phase of a project. It is extremely important that our clients know how the development process is evolving. To successfully manage the workflow and keep our clients informed we send them daily or weekly updates to let them know what we accomplish each iteration and what is planned to do next.
 A long-distance between us and our clients is not a problem. We communicate via phone, Slack, Skype or email and it is a standard part of our job. We also have dedicated Slack channels integrated with Jira, Trello, Github, Hangouts or others.
 
-![software development](/images/bright_rules.jpg)
+![software development](../../static/images/bright_rules.jpg "")
 
 Creating a set of rules that everybody in our team is following has a great impact on our daily workflow, but first of all it significantly improves our development process. Applying each and every rule we are able to avoid many errors and misunderstandings. We spend our time effectively and make the most of it. **At Bright Inventions we believe that it is worth taking the time to write quality code and build the things right. And that is the kind of service we always want to provide to our clients.**

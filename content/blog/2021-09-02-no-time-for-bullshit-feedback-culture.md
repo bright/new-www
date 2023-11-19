@@ -34,7 +34,7 @@ At the end of the day there will be always things that need some improvement. Bu
 
 It is a continuous process. We do not want to wait till the end of the year to talk about how we are doing, what we are feeling and what our plans are. We do that on daily basis and I believe that is the way to bond the team itself since we we can express ourselves anytime we need. Every moment is good to voice an opinion, share what causes your frustration or just praise someone for what they did.  
 
-![](/images/communicate_positive_and_negative.jpg)
+![](../../static/images/communicate_positive_and_negative.jpg "")
 
 ## Acts Speak Louder Than Words 
 
@@ -52,7 +52,7 @@ Feedback is a way to strengthen the ideas, it is **a sign that we take care of e
 
 When I can see that someone is making mistakes I am telling this person about that - it only means that I am caring about them, about the team and about the company. It means that I feel responsible not only for myself but also for people I work with and the job we do together. I know that it might be scary at first, especially if you have to share some negative feedback. But in order to foster our own team, we have to share feedback honestly, openly and regularly. If we are missing a deadline, it needs to be discussed immediately. If someone in our team messed up, we have to talk, analyse what went wrong and put it right. If someone did a great job, let us show our appreciation and gratitude immediately. **Don’t wait for any special occasion. Giving feedback is a process, not an unusual event.**  
 
-![](/images/caring.jpg)
+![](../../static/images/caring.jpg "")
 
 ## It is not about you or me
 

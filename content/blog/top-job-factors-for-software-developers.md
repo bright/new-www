@@ -17,13 +17,13 @@ language: en
 ---
 **Are you a programmer? What has attracted you to join the particular place of work? Read some insights from software developers on their decision-making process whilst looking for a new job.**
 
-![Top Job Factors Software Developer](/images/job_factors.png)
+![Top Job Factors Software Developer](../../static/images/job_factors.png "")
 
 There is a tone of the research on what crucial requirements for IT candidates are when they are looking for a job. Here are some insights from the [Stack Overflow Survey](https://insights.stackoverflow.com/survey/2020#job-priorities). Yet numbers aren’t everything. Let’s talk with people behind these statistics. Meet unique perspectives of three Polish software developers from Bright Inventions.
 
 ## Self-development, challenges and freedom
 
-![Job Factors Fullstack Developer](/images/wojciech_job_factors.png)
+![Job Factors Fullstack Developer](../../static/images/wojciech_job_factors.png "")
 
 [Wojciech – Fullstack Developer](/about-us/wojciech/)
 
@@ -36,7 +36,7 @@ When I was looking for a job I was always mostly focused on finding a place wher
 
 ## Looking for passionate people
 
-![Job Factors Frontend Developer](/images/paulina_job_factors.png)
+![Job Factors Frontend Developer](../../static/images/paulina_job_factors.png "")
 
 [Paulina – Frontend Developer](/about-us/paulina/)
 
@@ -46,7 +46,7 @@ I think that when it came to choosing Bright Inventions the breakthrough was not
 
 ## The opportunity to learn
 
-![Job Factors Web Developer](/images/krzysiek_job_factors.png)
+![Job Factors Web Developer](../../static/images/krzysiek_job_factors.png "")
 
 [Krzysiek – Web Developer](/about-us/krzysiek-h/)
 

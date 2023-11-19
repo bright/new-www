@@ -17,7 +17,7 @@ language: en
 technology provides us with various possibilities. Check out 5 apps that in different ways can help to make eco-friendly
 decisions.**
 
-![eco-friendly apps](/images/blogpost_eko_apps.png)
+![eco-friendly apps](../../static/images/blogpost_eko_apps.png "")
 
 ## 1. Too Good To Go
 

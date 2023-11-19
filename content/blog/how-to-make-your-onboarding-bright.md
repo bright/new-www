@@ -18,7 +18,7 @@ There are many onboarding strategies. **Ours is transparency, [regular feedback]
 
 First days at new work are hard, even if the new hire is competent, friendly and super positive, these are still the first days. To me, we are all a bit nervous and fumble each time we start a new chapter of our professional career. But effective onboarding can make many things much easier and it might be the cornerstone of a new employee’s experience. 
 
-![](/images/effective_onboarding.png)
+![](../../static/images/effective_onboarding.png "")
 
 ###### Source: https://www.bamboohr.com/blog/effective-onboarding-infographic
 
@@ -52,7 +52,7 @@ If the first day is in person, you may take your new colleagues on a short offic
 
 ✔️ Establish lines of open communication. **Encourage new-comers to ask questions and make them involved.** I believe we should foster engagement from the moment new employees walk in our office door for the first time. 
 
-![](/images/onboarding_tips.png)
+![](../../static/images/onboarding_tips.png "")
 
 ###### Source: https://hrdailyadvisor.blr.com/infographic/infographic-tips-ending-burden-onboarding
 
@@ -64,7 +64,7 @@ The first week on a new job is a bit like orientation on a school campus. It is 
 
 Make also some time for feedback. As you probably already know at Bright Inventions we value and practise transparent feedback culture. **If you are a manager, make sure to get updates from those who work closely with the new-hires and make an effort to point your new-comers in the right direction if they seem to be faltering or struggling with certain tasks.** Also do ask for feedback as they should be able to express freely their feelings and impressions since day one.
 
-![](/images/feedback_future.png)
+![](../../static/images/feedback_future.png "")
 
 **Next weeks and next months is also a perfect time for reviewing.** Do not leave it for the end of a trial period or a performance test. Review past assignments and check if the new hire is on schedule with the tasks. It can be quite informal, but still it is the best time to evaluate their strengths and weaknesses. Review past and future assignments. After 90 days, the new hire should be at a healthy proficiency in their role. 
 

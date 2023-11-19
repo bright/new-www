@@ -36,7 +36,7 @@ app.use(logRequestStart)
 
 It's definitely missing a lot of general identification stuff to be useful, but it's a start. We're logging request's method (GET, POST etc.) and its [original URL](http://expressjs.com/en/api.html#req.originalUrl) - note that `req.url` might not necessarily keep the same value as it might be manipulated by our Express-based router.
 
-![Node.JS logging](/images/node-logging.jpeg)
+![Node.JS logging](../../static/images/node-logging.jpeg "")
 
 How about logging the other end of the processing pipeline? We have no generic way to attach a middleware to the end of processing and appending the `logRequestEnd` middleware manually at the end of each route definition would be very repetitive and cumbersome. But fortunately, `ServerResponse` is an [`EventEmitter`](https://nodejs.org/api/events.html#events_class_eventemitter) - it emits the events when it's finished and we can subscribe with our code there. Here is our updated code (TypeScript again):
 
@@ -250,4 +250,4 @@ Now, instead of using Console API directly, we instantiate a `Logger` instance, 
 
 Good enough!
 
-<div class='block-button'><h2>We are looking for backend developers (TS, Node.js)</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>
+<div className="block-button"><h2>We are looking for backend developers (TS, Node.js)</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>

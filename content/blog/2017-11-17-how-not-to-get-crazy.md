@@ -41,4 +41,4 @@ Nowadays we want things that are multifunctional. Why should I carry a paper boo
 
 It’s easy to talk about a  problem, but the most difficult thing is to find a solution. I try to use conventional stuff and meet people as often as I can. Virtual entertainment can be replaced by real one - like card and board games, music instruments and sport. Think about this - how technology has affected your life - , but don’t share your solutions below, talk about them to people around you ;).
 
-![How](/images/how-not-to-get-crazy/how.png)
+![How](../../static/images/how-not-to-get-crazy/how.png "")

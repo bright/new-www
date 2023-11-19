@@ -65,7 +65,7 @@ Mobile applications have been developed for clients’ employees who work on con
 
 The ultimate goal of the solution is to **manage the whole construction documentation via smartphone or tablet and eliminate paper documentation**.
 
-<div class="image">![Document Management Apps for Construction](../../static/images/app_mockups_dodocumenttion_management_apps.png "Mockup examples designed by Heinrich Schmid's Product Design Team.")</div>
+<div className="image">![Document Management Apps for Construction](../../static/images/app_mockups_dodocumenttion_management_apps.png "Mockup examples designed by Heinrich Schmid's Product Design Team.")</div>
 
 <center>Mockup examples designed by Heinrich Schmid's Product Design Team.</center>
 
@@ -75,7 +75,7 @@ Construction sites are places where **the internet connection is weak or simply 
 
 Developing **offline mode** is always an interesting technological challenge. However, this is a feature that we successfully delivered for our other clients (check [vCare](/projects/vCare) case study). Thanks to an offline mode users can create any document without an internet connection and the app will store the data on the user’s device. All files will be synchronized when the internet connection is back.
 
-<div class="image">![App for construction company mockup](../../static/images/hs_baumappe_case_study_mockup.png "Mockup examples designed by Heinrich Schmid's Product Design Team.")</div>
+<div className="image">![App for construction company mockup](../../static/images/hs_baumappe_case_study_mockup.png "Mockup examples designed by Heinrich Schmid's Product Design Team.")</div>
 
 <center>Mockup example designed by Heinrich Schmid's Product Design Team.</center>
 
@@ -89,7 +89,7 @@ The first step was to **release the MVP** and present it to the client’s emplo
 
 The client trusted us to choose the best solutions for native application development. Therefore we use top tools such as **SwiftUI** or **Jetpack Compose**. It’s worth mentioning that the Android application’s UI is built from the scratch with Jetpack Compose and Jetpack Compose Navigation.
 
-<div class="image">![app baumappe mockup](../../static/images/app_baumappe_mockups.png "Mockup example designed by Heinrich Schmid's Product Design Team.")</div>
+<div className="image">![app baumappe mockup](../../static/images/app_baumappe_mockups.png "Mockup example designed by Heinrich Schmid's Product Design Team.")</div>
 
 <center>Mockup example designed by Heinrich Schmid's Product Design Team.</center>
 
@@ -105,7 +105,7 @@ Bright Inventions’ team takes care **exclusively of mobile development**. The 
 
 *After months of smooth development and satisfying output, we were challenged with some very critical technical barriers, which collided with our business vision of the app. Due to great proactive efforts on Bright Inventions side, the Heinrich Schmid IT team, and the good communication towards our third-party backend developer team, we overcame this hurdle and managed to get the app behavior as envisioned and desired.* 
 
-<div class="image">![A quote from the client](../../static/images/case_study_client_quote.png "Client's perspective")</div>
+<div className="image">![A quote from the client](../../static/images/case_study_client_quote.png "Client's perspective")</div>
 
 *With the currently ongoing MVP release, the only point of criticism our users raised is the following: “We want more features!”. Therefore, the **MVP release is a great success** so far and we envision a lot more features to come in the app, together with our partner Bright Inventions.*
 

@@ -15,7 +15,7 @@ language: en
 ---
 **I am not a developer. However, it’s not like I came to a software development company from a completely different world. Before joining Bright Inventions I was working at an online marketplace company that had an in-house web and mobile development team. The IT world wasn't such a new thing to me. So I thought… Find out 4 things that surprised me about working at a software development agency.**
 
-![working at software consulting studio ](/images/izabela_4thingsthatsurprisedme.png)
+![working at software consulting studio ](../../static/images/izabela_4thingsthatsurprisedme.png "")
 
 ## 1. Slack is the new email
 

@@ -14,7 +14,7 @@ language: en
 ---
 **Are you excited about the Web3 idea? Check out how you can be a part of it. Contribute to Kusama and Polkadot networks to build the internet of the future. You don’t have to be a blockchain developer. Here are the alternative ways to be a part of Web3.**
 
-![How to be a part of Web3](/images/contribute_to_web3.png)
+![How to be a part of Web3](../../static/images/contribute_to_web3.png "")
 
 ## Organize an event about Substrate blockchain
 
@@ -66,7 +66,7 @@ For example, you can create a bounty to build a plugin for some application that
 
 Are you a writer? Write and publish articles, blog posts – whatever you can to share Web3 ideas. Undoubtedly these are hot topics and are expected by readers. Simply take a look at the Google Trends chart to see the rise of google searches regarding Web3 in the last 12 months: 
 
-![Google Trends Web3](/images/google_trends.png)
+![Google Trends Web3](../../static/images/google_trends.png "")
 
 If you don’t own your blog, you can publish articles on various online publishing platforms such as Medium.com, Hackernoon, and ThinkMobiles. Don’t forget that you can post your piece of content simply on Linkedin, Twitter, or Reddit. 
 

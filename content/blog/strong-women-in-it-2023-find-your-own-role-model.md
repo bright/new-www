@@ -17,7 +17,7 @@ Gender diversity in each industry (not only tech) is important for several compe
 
 Still while looking at IT industry we can see many women facing barriers to entry and advance in tech careers due to biases, stereotypes, and lack of access to mentorship opportunities. It is also commonly known that they have been underrepresented in senior IT management roles including positions like CTOs, CIOs, and CEOs of tech companies **[despite some visible rise of female leadership in recent years](https://oatuu.org/the-rising-trend-of-women-ctos-shaking-up-the-industry/).** According to a recent study, women hold just 10% of CTO positions at Fortune 500 companies and according to a report by The World Bank, **[women make up less than a third of the world’s workforce in technology-related fields.](https://www.womentech.net/women-technology-statistics)**
 
-<div class="image">![women in tech ](../../static/images/women-in-tech-force-.png "undefined")</div>
+<div className="image">![women in tech ](../../static/images/women-in-tech-force-.png "undefined")</div>
 
 Source: https://financesonline.com/women-in-technology-statistics
 
@@ -41,7 +41,7 @@ Despite the aforementioned challenges, there is a growing number of female found
 
 While there has been progress in recent years, there is still work to be done to achieve greater gender diversity in the Polish tech sector. The current state of women in tech in Poland reflects a broader global trend of underrepresentation and unique challenges faced by women in the tech industry. 
 
-<div class="image">![women in IT Poland ](../../static/images/women-tech-poland.png "undefined")</div>
+<div className="image">![women in IT Poland ](../../static/images/women-tech-poland.png "undefined")</div>
 
 Source: [https://nofluffjobs.com/insights/raport-kobiety-w-it-2023](https://nofluffjobs.com/insights/raport-kobiety-w-it-2023/)
 
@@ -57,13 +57,13 @@ There are also special educational institutions and organizations that offer pro
 
 **One standout discovery is that over 50% of SWIT finalists now prefer mentoring as their learning method of choice.** This shift underscores the collective desire to support fellow women, build communities, and share experiences for growth.
 
-<div class="image">![gaining knowledge - Strong Women in IT Report 2023](../../static/images/gaining-tech-knowledge-.png "undefined")</div>
+<div className="image">![gaining knowledge - Strong Women in IT Report 2023](../../static/images/gaining-tech-knowledge-.png "undefined")</div>
 
 In these turbulent times, SWIT finalists openly discuss their fears and the daily uncertainties they face. Yet, they remain resilient and inspired by new technologies. A notable change is in how we work: only 3% prefer the traditional office model. The majority see the future of work as a blend of full remote or hybrid arrangements. 
 
 **If you want to see more detailed statistics and insights, you can download the full report [HERE](https://strongwomeninit.com/en/download/).  There are dozens of stories of influential women in the global tech industry. Among them is also mine - in which I am telling a bit about my story and road to IT industry.** 
 
-<div class="image">![Ula Strong Women Quote](../../static/images/ula-strong-women.png "undefined")</div>
+<div className="image">![Ula Strong Women Quote](../../static/images/ula-strong-women.png "undefined")</div>
 
 ## **find your role model** 
 

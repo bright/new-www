@@ -26,7 +26,7 @@ You have access to Postgres console. You have to read the flag.
 
 Upon accessing the console  with nc command view was as follows, disappearing within a few seconds:
 
-<div class="image"><img src="/images/screenshot-2022-10-17-at-17.03.52.png" alt="Postgres console" title="Postgres console"/> </div>
+<div className="image"><img src="/images/screenshot-2022-10-17-at-17.03.52.png" alt="Postgres console" title="Postgres console"/> </div>
 
 Due to disappearing I decided to use script interaction with a server which will allow for entering more commands:
 
@@ -38,7 +38,7 @@ p.stdin.end()
 
 So upon being able to execute the comments, I simply did `Select * from flag` but of course, it did not work.
 
-<div class="image">![Postgres console 3](../../static/images/screenshot-2022-10-17-at-17.06.04.png "Postgres console 3")</div>
+<div className="image">![Postgres console 3](../../static/images/screenshot-2022-10-17-at-17.06.04.png "Postgres console 3")</div>
 
 So decided that the flag must be somewhere near the metadata of the table. Tried the DB version, current database and current user... Nothing interesting there... Also as a user `ctf`, I was not able to get info about `information_schema` which would contain more info. Suspected that...
 
@@ -52,11 +52,11 @@ p.stdin.end()
 
 Response:
 
-<div class="image">![Console 6](../../static/images/screenshot-2022-10-17-at-17.11.44.png "Console 6")</div>
+<div className="image">![Console 6](../../static/images/screenshot-2022-10-17-at-17.11.44.png "Console 6")</div>
 
 Getting closer. Got the column name. Selecting it allows selecting a value from the flag table which was `Close`. 
 
-<div class="image">![Console 7](../../static/images/screenshot-2022-10-17-at-17.11.59.png "Console 7")</div>
+<div className="image">![Console 7](../../static/images/screenshot-2022-10-17-at-17.11.59.png "Console 7")</div>
 
 You might remember that the second value was `but not there yet` but it is not shown in the schema above. Tried several more approaches and here I have stopped.
 
@@ -70,7 +70,7 @@ p.stdin.end()
 
 Which gave back the CTF flag: 
 
-<div class="image">![Console 9](../../static/images/screenshot-2022-10-17-at-17.13.48.png "Console 9")</div>
+<div className="image">![Console 9](../../static/images/screenshot-2022-10-17-at-17.13.48.png "Console 9")</div>
 
 So close 😭
 
@@ -93,9 +93,9 @@ Tried to change the encoding to binary representation, hex one etc... Tried to c
 
 Turns out that one had to convert to UTF-16 and observe that all chars are moved by 8 bits. After changing 8 char at the start to 0 char in each nibble, message with CTF flag started to emerge.
 
-<div class="image">![After1](../../static/images/screenshot-2022-12-05-at-15.32.12.png "After1")</div>
+<div className="image">![After1](../../static/images/screenshot-2022-12-05-at-15.32.12.png "After1")</div>
 
-<div class="image">![After 2](../../static/images/screenshot-2022-12-05-at-15.32.17.png "After 2")</div>
+<div className="image">![After 2](../../static/images/screenshot-2022-12-05-at-15.32.17.png "After 2")</div>
 
 Which in English means "This message is example of an easy substitution cipher. You can say it is something like ROT13".  Flag is inside.
 

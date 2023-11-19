@@ -24,7 +24,7 @@ However, while looking
 at some industries including IT I still can see that interpersonal skills are often undermined and presented as less
 important than technical knowledge. I am on the other side of this and believe that software development teams really
 need interpersonal skills in many workalike situations and they sometimes need them even more than pure technical
-knowledge.<div class="image">![adam grant interpersonal skills ](../../static/images/adam-grant-soft-skills.png "undefined")</div>
+knowledge.<div className="image">![adam grant interpersonal skills ](../../static/images/adam-grant-soft-skills.png "undefined")</div>
 
 ## **1. Communication is the key**
 
@@ -32,7 +32,7 @@ Strong interpersonal skills enable individuals to communicate clearly and effici
 well-developed interpersonal skills can convey their thoughts, ideas, and emotions effectively, leading to better
 understanding and reducing the chances of misunderstandings with other team members or clients.
 
-<div class="image">![miscommunication](../../static/images/miscommunication-cost.png "undefined")</div>
+<div className="image">![miscommunication](../../static/images/miscommunication-cost.png "undefined")</div>
 
 **The report [State of Business Communication: The Backbone of Business Is
 Broken ](https://www.agilitypr.com/pr-news/public-relations/bad-connection-study-finds-poor-communication-costs-businesses-1-2-trillion-annually)shows that up to a $1.2 trillion annual loss among businesses is due to ineffective communication.** 
@@ -49,7 +49,7 @@ finding solutions that satisfy all parties involved. Some disagreements can as w
 process. Conflict resolution is an integral part of the [software development process](/blog/what-are-the-stages-of-app-development/), primarily because software
 development projects often involve teams with diverse perspectives, backgrounds, and roles. Conflicts can arise due to
 differences in opinions, goals, priorities, and approaches to
-problem-solving.<div class="image">![conflict resolution](../../static/images/healthyconflict.png "undefined")</div>
+problem-solving.<div className="image">![conflict resolution](../../static/images/healthyconflict.png "undefined")</div>
 
 Source: https://www.fosslien.com/images
 
@@ -72,7 +72,7 @@ empathize with the clients are more likely to meet business requirements and enh
 understand when you and the specific task fit in in the client’s organization and how it contributes to the client’s
 vision. High emotional intelligence contributes to better decision-making and better awareness of what our clients need
 and why they need it.** As a software developer you solve real problems and you work with real people - don’t forget
-about that.<div class="image">![empathy](../../static/images/empathy-it-vs-healthcare.png "undefined")</div>
+about that.<div className="image">![empathy](../../static/images/empathy-it-vs-healthcare.png "undefined")</div>
 
 Source: https://info.businessolver.com/empathy-industry-spectrum
 
@@ -96,7 +96,7 @@ requirements. They use the feedback to implement changes in their work and motiv
 When delivered constructively and thoughtfully, feedback has the potential to drive high performance and enhance the
 overall success of the team.
 
-<div class="image">![benefits feedback](../../static/images/benefits-of-employee-feedback.jpeg "undefined")</div>
+<div className="image">![benefits feedback](../../static/images/benefits-of-employee-feedback.jpeg "undefined")</div>
 
 Source: https://www.zippia.com/advice/employee-feedback-statistics
 

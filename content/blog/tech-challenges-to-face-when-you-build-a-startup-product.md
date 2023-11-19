@@ -19,7 +19,7 @@ language: en
 
 *[Dawid](/about-us/dawid-cz/), [Dominik](/about-us/dominik-d/), and [Sławek](/about-us/slawek/) are software developers working on startup projects. They decided to share challenges they have faced while working for startup clients at Bright Inventions.*
 
-![Startup development team](/images/startup_developers.png)
+![Startup development team](../../static/images/startup_developers.png "")
 
 ## Changes, changes, and changes
 
@@ -35,7 +35,7 @@ While working on a startup project **you have to blaze a trail**. There are no g
 
 While building a startup product you cannot hide behind your code. You are a part of the equation which determines the project’s success. **As a developer, you have to be proactive**. Proactivity in software development is based on analytical thinking and assertiveness. Why these two exactly? Analytical thinking helps you predict problems and look for better solutions. And sometimes they are opposite to what business wants. Here comes assertiveness. 
 
-![Sławek's quote](/images/slawek_quote.png)
+![Sławek's quote](../../static/images/slawek_quote.png "")
 
 You are not supposed to do only what the business expects. You should offer your insight and **show them solutions that might be more beneficial for the business**. You need to know how to communicate your proposal to show its value. **Saying “no” is easy, explaining “why not” is the real challenge**. If you are proactive like that, then the startup work will suit you.
 
@@ -50,7 +50,7 @@ Working on new features at a startup often means two things:
 
 That’s the risk of doing new, innovative things. As a developer, **you have to find a balance between trying to write the best quality code you can and delivering the feature on time**. If the code quality is poor and the feature “stays on” - then you either have to refactor everything or, even worse, build new stuff on top of it. On the other hand, **you don’t want to overthink and overdo tasks that have a high probability of being removed from an app after a month or so**.
 
-![Dominik's quote](/images/dominik_quote.png)
+![Dominik's quote](../../static/images/dominik_quote.png "")
 
 When working for a startup there’s always pressure from product owners to do things quickly - “We will fix it to be done the right way next sprint”, they will say. **It’s the developer's job to decide when it’s ok to let go and when to insist on quality over meeting deadlines**.
 
@@ -70,7 +70,7 @@ On the other hand, it gives developers the opportunity to learn and discover new
 
 Gaining and maintaining users' trust… This one isn't really a piece of cake. As we all know, trust is one of the most valuable assets we can gain from another human being. That's why we have to make sure that everything is top-notch. There is barely room for mistakes here.
 
-![Dawid's quote](/images/dawid_quote.png)
+![Dawid's quote](../../static/images/dawid_quote.png "")
 
 **Constantly improving, acting on feedback, learning from mistakes** (let's be real here, everyone commits some), adjusting to the evolving market, and user's needs… These are just a few of the many major tasks that we have to deal with on a daily basis. Yet how can we actually gain that user’s trust?
 
@@ -80,4 +80,4 @@ Taking care of creating bonds with the users, and making them feel safe, and sec
 
 Here are some of the major tech challenges we have faced while working on startup products. 
 
-<div class='block-button'><h2>Looking for software development agency?</h2><div>Hire an experienced team to work on your MVP or other solutions. We are in this business since 2012 working with over 40 clients around the world. </div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
+<div className="block-button"><h2>Looking for software development agency?</h2><div>Hire an experienced team to work on your MVP or other solutions. We are in this business since 2012 working with over 40 clients around the world. </div><a href="/start-project"><button>Let's talk about your solution</button></a></div>

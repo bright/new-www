@@ -10,7 +10,7 @@ image: /images/love_react_native.png
 published: true
 ---
 
-![Header](/images/3-reasons-for-my-affair-with-react-native/love_hands.jpg)
+![Header](../../static/images/3-reasons-for-my-affair-with-react-native/love_hands.jpg "")
 I’ve been an iOS developer for some time now and most of my previous posts were touching the aspects of iOS platform. However, I have to admit something… I’ve been having an affair with React-Native and what is even “worse” — I feel really good about it.
 
 
@@ -24,7 +24,7 @@ Let me tell you about three reasons for my affair with React-Native.
 
 Ecosystem
 ---
-![Eco](/images/3-reasons-for-my-affair-with-react-native/ecosystem.jpeg)
+![Eco](../../static/images/3-reasons-for-my-affair-with-react-native/ecosystem.jpeg "")
 
 I was first introduced to React when I had a chance to develop a web panel for a project. It was really fun to see how things work on the web and learn more about architectures like Redux. I was really happy when I found out, that the knowledge of React + Redux was easily transferable to mobile development with React-Native. This allows you to apply your skills to various parts of the project you are working on if situation requires it. I’m not saying that you will be as effective as a person who is an “expert” on a specific platform, but you can surely help you teammates and add value to a project.
 
@@ -39,7 +39,7 @@ Coming from iOS project that was not that small, I was used to long build times 
 Summary
 language: en
 ---
-![Summary](/images/3-reasons-for-my-affair-with-react-native/tools.jpg)
+![Summary](../../static/images/3-reasons-for-my-affair-with-react-native/tools.jpg "")
 I really like the way that React/React-Native fit my work style. These are great tools that will surely help you get things done. I must say that I’m not that much hyped about the fact that RN allows you to reuse a big portion of the code between the platforms. This is a great thing of course and I would surely not give up on this, but the thing that I really like about RN is the pleasure that I get from building things with it and the way that tools that come with RN are created with developers in mind.
 
 

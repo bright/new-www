@@ -31,7 +31,7 @@ Bearing this in mind, you should always protect the service account from abuse. 
 
 > We recommend not giving third parties access to any service accounts you may create. We especially recommend not giving access to any private keys for your service account. Doing so provides anonymous access to your account that can be shared with anyone.
 
-![Padlock](/images/securing-your-google-service-account-key-in-builds/padlock-597495_1920.jpg)
+![Padlock](../../static/images/securing-your-google-service-account-key-in-builds/padlock-597495_1920.jpg "")
 
 ## Automatic build deployment
 
@@ -53,7 +53,7 @@ Most of the automation servers like Jenkins or TeamCity have the ability to stor
 
 In this example, the secret value is stored on a TeamCity server and it will be available to the build in an environment variable.
 
-![TeamCity secret value](/images/securing-your-google-service-account-key-in-builds/tc_secret_value.png)
+![TeamCity secret value](../../static/images/securing-your-google-service-account-key-in-builds/tc_secret_value.png "")
 
 ### Reading the key in a build
 

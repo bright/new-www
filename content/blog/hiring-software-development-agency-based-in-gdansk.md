@@ -15,7 +15,7 @@ language: en
 ---
 **Looking for a software development agency based in Poland? Consider choosing a software company from Gdansk. Why? Unlock Gdansk's tech potential and find out why it might be a perfect place for you to create digital solutions.**
 
-<div class="image">![Bright Inventions team in Gdansk](../../static/images/blog_gdansk.png "Bright Inventions team in Gdansk")</div>
+<div className="image">![Bright Inventions team in Gdansk](../../static/images/blog_gdansk.png "Bright Inventions team in Gdansk")</div>
 
 ## Great geo-localization and flight connections
 
@@ -25,7 +25,7 @@ What’s more Gdansk Airport has [the most direct flights to Scandinavia](https:
 
 The Gdansk Airport is located about 20 minutes from the center of the city by car (getting to the Bright Inventions office from the airport is even quicker). 
 
-<div class="image">![Gdansk airport flight connections](../../static/images/blog_post_airport_gdansk.png "Gdansk airport flight connections")</div>
+<div className="image">![Gdansk airport flight connections](../../static/images/blog_post_airport_gdansk.png "Gdansk airport flight connections")</div>
 
 <center>Source: [Gdansk Airport website](https://www.airport.gdansk.pl/flight-information/where-we-fly-p3.html) </center>
 
@@ -53,7 +53,7 @@ Based on the 2023 Perspektywy Report *[Universities of Technology 2023](https://
 
 Lots of Bright Inventions team members graduated from Gdansk University of Technology including our co-founders [Daniel Makurat](/about-us/daniel/) and [Michał Łukasiewicz](/about-us/michal/). Our project manager [Kasia Łukasiewicz](/about-us/kasia/) is also a lecturer at the Gdansk University of Technology’s Informatics department.
 
-<div class="image">![Gdansk University of Technology](../../static/images/blog_post_gdansk_tech_university.png "Gdansk University of Technology")</div>
+<div className="image">![Gdansk University of Technology](../../static/images/blog_post_gdansk_tech_university.png "Gdansk University of Technology")</div>
 
 <center> Source: Gdansk University of Technology's [website](https://pg.edu.pl/dzial-promocji/marka-pg/galeria-zdjec) </center>
 
@@ -69,7 +69,7 @@ The official [news portal of Gdansk](https://www.gdansk.pl/wiadomosci/Armia-18-t
 
 [infoShare](https://infoshare.pl/conference/) brings over 6 thousand attendees, 150 speakers, and over 500 startups. The first edition of the event was organized in 2007. infoShare brings to Gdansk speakers representing companies like IBM, Linux, Oracle, Intel and more.
 
-<div class="image">![infoShare 2023](../../static/images/blog_post_infoshare.png "Pictures from infoShare 2023")</div>
+<div className="image">![infoShare 2023](../../static/images/blog_post_infoshare.png "Pictures from infoShare 2023")</div>
 
 <center> Pictures from infoShare 2023 </center>
 
@@ -77,7 +77,7 @@ The official [news portal of Gdansk](https://www.gdansk.pl/wiadomosci/Armia-18-t
 
 Gdansk citizens are one of the happiest in Poland according to studies conducted between 2021-2022 by [Otodom and ThinkCo](https://www.thefirstnews.com/article/gdynia-happiest-place-in-poland-says-new-report-revealing-countrys-most-and-least-satisfied-cities-32304). Only a nearby city Gdynia had the highest level of citizen’s happiness.
 
-<div class="image">![The level of happiness by Otodom and ThinkCo](../../static/images/blog_post_gdansk_happiness.png "The level of happiness")</div>
+<div className="image">![The level of happiness by Otodom and ThinkCo](../../static/images/blog_post_gdansk_happiness.png "The level of happiness")</div>
 
 <center> The level of happiness by Otodom and ThinkCo </center>
 
@@ -87,4 +87,4 @@ One of the reasons might be the fact that **Gdansk offers opportunities to grow 
 
 We hope that you have unlocked the potential Gdansk has. If you are looking for a software agency based in Gdansk, reach out to our team.
 
-<div class='block-button'><h2>Book a free consultation in 48 hours</h2><div>Contact us to discuss your idea or software solution. We have been developing digital products since 2012 for clients from Norway, Israel, Germany, the UK, Israel, the USA, and more.</div><a href="/start-project/"><button>let's talk about your solution</button></a></div>
+<div className="block-button"><h2>Book a free consultation in 48 hours</h2><div>Contact us to discuss your idea or software solution. We have been developing digital products since 2012 for clients from Norway, Israel, Germany, the UK, Israel, the USA, and more.</div><a href="/start-project/"><button>let's talk about your solution</button></a></div>

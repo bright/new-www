@@ -15,7 +15,7 @@ language: en
 
 It is often convenient to create a view upon your normalized schema to join and aggregate the data, especially when it requires a complicated query.
 
-![publish](/images/redshift-materialized-views/image1.jpg)
+![publish](../../static/images/redshift-materialized-views/image1.jpg "")
 
 In PostgreSQL you can create a view basing on a query.
 ```sql

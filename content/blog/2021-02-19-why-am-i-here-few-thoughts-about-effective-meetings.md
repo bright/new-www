@@ -19,7 +19,7 @@ language: en
 
 Sounds familiar? Depending on the organisation, its size and culture, you have probably already experienced that several times. Good news is: you can do something about it! I have gathered some tips for the organisers which should help with omitting those situations and result in more effective meetings. If you are usually a participant (rather than the organiser) - feel welcome to read it too! It’s good to know what you should expect. And don’t be afraid to share those 🙂
 
-<div class="image">![meeting](../../static/images/blog_meeting.png "meeting")</div>
+<div className="image">![meeting](../../static/images/blog_meeting.png "meeting")</div>
 
 ## Is this a topic for a meeting?
 

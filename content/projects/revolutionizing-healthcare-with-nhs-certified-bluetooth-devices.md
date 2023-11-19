@@ -83,7 +83,7 @@ In parallel, a surge in patients grappling with chronic illnesses and mental hea
 
 Our team faced the formidable challenge of integrating various devices with distinct Software Development Kits (SDKs) into a cohesive system. With our Android team's expertise, we successfully harmonized these disparate SDKs into a unified system. Additionally, the team developed an algorithm capable of swiftly detecting whether a patient's vital signs indicate an immediate need for assistance. The data is transmitted to the doctor, and an alert is generated, suggesting that the patient considers calling an ambulance.
 
-<div class="image">![App mockup](../../static/images/patient_parameters_app_new.png "It is not a real implemented design. It is a mockup example created for the purpose of a case study.")</div>
+<div className="image">![App mockup](../../static/images/patient_parameters_app_new.png "It is not a real implemented design. It is a mockup example created for the purpose of a case study.")</div>
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
@@ -96,7 +96,7 @@ Our team faced the formidable challenge of integrating various devices with dist
 * **Stethoscope**: known as the primary doctor’s tool, can now be used remotely by other caregivers at care homes and nursing homes.
 * **Wearable continuous monitoring devices**: a device worn for example on a patient’s arm that monitors the vital signs in real-time, 24 hours a day.
 
-<div class="image">![Pulse oximeter](../../static/images/pulse_oximeter.png "Pulse oximeter")</div>
+<div className="image">![Pulse oximeter](../../static/images/pulse_oximeter.png "Pulse oximeter")</div>
 
 <TitleWithIcon sectionTitle="revolutionizing healthcare access with video consultations" titleIcon="/images/icon_title_products.svg" titleIconAlt="revolutionizing healthcare access with video consultations" />
 
@@ -104,7 +104,7 @@ We have answered the call from Camascope, providing a seamless video consultatio
 
 Telemedicine saves patients' and doctors' time, allowing physicians to monitor more patients at the same time. Telemedicine opened a new, safer way to consult a doctor, especially during a pandemic, so we are extremely proud that we got a chance to implement that feature for our client.
 
-<div class="image">![Telemedicine](../../static/images/telemedicine.png "Telemedicine")</div>
+<div className="image">![Telemedicine](../../static/images/telemedicine.png "Telemedicine")</div>
 
 <TitleWithIcon sectionTitle="supporting the client in setting ISO healthcare standards" titleIcon="/images/three_flags.svg" titleIconAlt="supporting the client in setting ISO healthcare standards" />
 

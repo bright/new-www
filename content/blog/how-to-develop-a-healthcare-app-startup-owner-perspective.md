@@ -14,7 +14,7 @@ language: en
 ---
 **Are you planning to develop healthcare software? Or maybe you have an idea for a healthcare app and don’t know what to do next? This is a guide for startup founders and generally entrepreneurs that want to be a part of the health tech movement.**
 
-![healthcare app development](/images/healthcare_in_post2.png)
+![healthcare app development](../../static/images/healthcare_in_post2.png "")
 
 Healthcare tech has to be customized from the very beginning. That’s why **custom healthcare software development** is the key to the successful launch of a product.
 
@@ -71,4 +71,4 @@ When it comes to custom healthcare app development every part of the process has
 
 Are you looking for a **[healthcare software development company](/)**? You’ve come to the right place!
 
-<div class='block-button'><h2>Let's talk about your healthcare solution</h2><div>Since 2012 we have developed eHealth products for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk</button></a></div>
+<div className="block-button"><h2>Let's talk about your healthcare solution</h2><div>Since 2012 we have developed eHealth products for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk</button></a></div>

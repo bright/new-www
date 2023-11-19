@@ -18,7 +18,7 @@ language: en
 ---
 Due to the rapid growth of deep learning possibilities, lots of smart people do their best to create more and more sophisticated algorithms that beat human’s performance in many areas. Luckily, a great chunk of their [work](https://arxiv.org/list/cs.LG/recent "repository with lots of papers") is throw open and waits for you to harness it in some fancy way. 
 
-![mobile](/images/are-we-ready-for-deep-learning-on-mobile-devices/top_img.jpg)
+![mobile](../../static/images/are-we-ready-for-deep-learning-on-mobile-devices/top_img.jpg "")
 
 One way to take advantage of it is to make an inference of a pre-trained model in an environment that has plentiful data sources like mobile phones and their sensors. You can wonder why even bother with the inference on mobile app if you can easily make use of the internet connection and send data back and forth but we have to keep in mind that it is not very power efficient solution. What's more convincing is that because we make an inference on mobile then we can work offline and that also leads to low latency. Last but not least is privacy, sometimes we just don't want to send any data outside.
 

@@ -38,7 +38,7 @@ show on homepage: false
 published: true
 language: en
 ---
-![airhelp mobile app development](/images/flight_compensation_app_mockup.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")
+![airhelp mobile app development](../../static/images/flight_compensation_app_mockup.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
@@ -53,7 +53,7 @@ language: en
 
 In 2015 [AirHelp](https://www.airhelp.com/en-gb/) was a fast-growing startup with a mission to educate passengers about their rights. AirHelp came to us with a basic version of their iOS app and expected us to rewrite it. We developed an MVP version of the app taking care of the backend. We helped AirHelp to launch a new version of the app in the AppStore. In the meantime, the client had time to build an in-house development team that could pursue the project in the future.
 
-![airhelp mobile app development](/images/flight_compensation_app_mockup4.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")
+![airhelp mobile app development](../../static/images/flight_compensation_app_mockup4.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
@@ -61,7 +61,7 @@ In 2015 [AirHelp](https://www.airhelp.com/en-gb/) was a fast-growing startup wit
 
 The main goal was to create a mobile-friendly tool for users that want to file a complaint about a delayed or canceled flight. The app had to be really simple and minimalistic so that users are able to quickly go with the flow even if they have to provide much detailed information about the flight.
 
-![airhelp mobile app development](/images/flight_compensation_app_mockup3.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")
+![airhelp mobile app development](../../static/images/flight_compensation_app_mockup3.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 

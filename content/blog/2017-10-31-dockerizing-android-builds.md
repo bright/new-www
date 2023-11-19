@@ -32,7 +32,7 @@ If you are not sure what packages you should install, but you already have an An
 
 You can locate it using the Android SDK section in Android Studio preferences. Open the SDK location and navigate to `tools/bin/` subdirectory.
 
-![Docker](/images/dockerizing-android-builds/as_sdk.png)
+![Docker](../../static/images/dockerizing-android-builds/as_sdk.png "")
 
 Now, run `sdkmanager --list` command to see the list of installed and available (to install) packages. Some of them are required to build your project.
 
@@ -82,7 +82,7 @@ yes | sdkmanager --licenses
 
 The main advantage of this approach is that it doesn't require you to maintain a list of license strings for echoing. Nevertheless you must run it again if the license strings get changed with an SDK update. The only drawback is that you don't know _a priori_ what you are going to accept and it may be a bit more troublesome to compare your local licenses with the ones on the build machine without a direct access to it.
 
-![Docker](/images/dockerizing-android-builds/container-1574239_1920.jpg)
+![Docker](../../static/images/dockerizing-android-builds/container-1574239_1920.jpg "")
 
 # Wrapping it in a Docker container #
 

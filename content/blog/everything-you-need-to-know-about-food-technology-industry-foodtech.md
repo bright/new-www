@@ -15,7 +15,7 @@ language: en
 ---
 **Food and tech – these two are nowadays closer than you might think. Check out what FoodTech means. Get to know critical areas of food innovations and examples of real FoodTech solutions.**
 
-<div class="image">![FoodTech](../../static/images/food_tech_industry.png "undefined")</div>
+<div className="image">![FoodTech](../../static/images/food_tech_industry.png "undefined")</div>
 
 ## What is the FoodTech industry?
 
@@ -32,7 +32,7 @@ According to [Growth Market Reports](https://growthmarketreports.com/report/food
 * Greater awareness regarding food quality sources and their health benefits. Consumers pay more and more attention to the product they buy which gives a chance to food tech to deliver healthier product alternatives.
 * The increasing popularity of veganism and plant-based products. A global survey conducted in 2021 by [Rakuten](https://insight.rakuten.com/infographic-plant-based-food-alternatives-future-or-present/) found consumers are more and more open to trying vegan alternatives. Especially to milk. Over 80% of consumers tried plant-based milk in 2021.
 
-<div class="image">![Rakuten Insight](../../static/images/rakuteninsight.png "Rakuten Insight")</div>
+<div className="image">![Rakuten Insight](../../static/images/rakuteninsight.png "Rakuten Insight")</div>
 
 Source: [Rakuten Insight](https://insight.rakuten.com/infographic-plant-based-food-alternatives-future-or-present/)
 
@@ -46,7 +46,7 @@ Developing packaging that can monitor the freshness and safety of food products,
 
 An actual example of smart packaging solution:
 
-<div class="image">![Relevo as a FoodTech example](../../static/images/relevo_fb_preview.png "Relevo as a FoodTech example")</div>
+<div className="image">![Relevo as a FoodTech example](../../static/images/relevo_fb_preview.png "Relevo as a FoodTech example")</div>
 
 Check [Relevo](/projects/eco-friendly-app/), a smart, deposit-free reusable system that we have helped to develop. This smart FoodTech solution enables restaurant clients to loan reusable packages with food to go. A package is returned by a customer during the next visit to a restaurant.
 
@@ -58,7 +58,7 @@ Using delivery platforms and logistics technology to improve the efficiency of f
 
 Check the food tech case study: an app built by our team for JustEat. 
 
-<div class="image">![Just Eat POS as a FoodTech example](../../static/images/restaurant_system_preview.png "Just Eat POS as a FoodTech example")</div>
+<div className="image">![Just Eat POS as a FoodTech example](../../static/images/restaurant_system_preview.png "Just Eat POS as a FoodTech example")</div>
 
 [Just Eat POS](/projects/system-for-restaurants/) system took care of the whole process of managing restaurant orders: from ordering the meal, providing kitchen staff with details to delivering the order to the client’s table or home.
 
@@ -92,4 +92,4 @@ Then it’s time to **validate your idea** to ensure that it has a chance to sta
 
 If you validate your idea positively, **you can start to work on [MVP](/our-areas/mvp-development/)**. You don’t need a big budget to work on that. The idea behind MVP is to launch the product with key features to quickly attract the first users and then develop the product based on their needs. Having MVP can also help to attract investors. 
 
-<div class='block-button'><h2>Hire experienced FoodTech developers to build MVP</h2><div>We launched and scaled FoodTech products for startups and larger organizations. Contact us to estimate your solution.</div><a href="/start-project/"><button>estimate your solution now</button></a></div>
+<div className="block-button"><h2>Hire experienced FoodTech developers to build MVP</h2><div>We launched and scaled FoodTech products for startups and larger organizations. Contact us to estimate your solution.</div><a href="/start-project/"><button>estimate your solution now</button></a></div>

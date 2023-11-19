@@ -19,7 +19,7 @@ YODA: No! Try not. Do or do not! There is no try.
 
 How many times in your life of a professional developer have you tried to do something despite the fact that you knew that you would not succeed? How many times have you tried to finish a project earlier just because your manager asked you to, but from the beginning you knew you would not meet a new deadline? How many times have you promised to add hundred of new features to your demo in two weeks although it would normally take two months? We do it. Let us face it. We do it all the time - we promise things that we cannot achieve. We promise to do something even though it is beyond our capacity. And all this happens because we told someone that we would give it a try. Yet trying is not always enough. 
 
-![photo 1](/images/do-or-do-not-there-is-no-try/photo1.jpg)
+![photo 1](../../static/images/do-or-do-not-there-is-no-try/photo1.jpg "")
 
 ## **Professionals say no**
 
@@ -29,7 +29,7 @@ Last time I was writing about being a professional developer and we all know tha
 
 Do not promise when you know that you cannot deliver. Even when your manager demands, persuades and challenges you, do not do that. Why? Because you know deeply inside that you cannot achieve it and saying that you will try, does not change anything. So, if you hear: “I know you can do this in two weeks. Just try.”, say it aloud: “No, I can’t and you know that. I can do a part of this project, but I will not manage to finish it.” When you hear that you are the best, the only one and for sure you can deliver a full demo in one week, say it again: “No, I can’t and you know that. I am the best and I have a brilliant team, but…”. But you are not a magician and your demo will not finish automagically in one week. Never promise that you will do something if you know that you are not able to. It is better to say sorry in the beginning than lead to the situation in which your manager or CEO would have to say sorry to the client in the end. It does not mean that you just have to let it go and do not bother at all. It only means that you should not fear suggesting an alternative solution if you realize that meeting a new deadline is unachievable. 
 
-![photo 2](/images/do-or-do-not-there-is-no-try/photo2.jpg)
+![photo 2](../../static/images/do-or-do-not-there-is-no-try/photo2.jpg "")
 
 ## **All work and no play makes Jack a dull boy**
 
@@ -39,6 +39,6 @@ If it was only boredom, it would not be so bad. But spending all days at work ma
 
 All in all, it is also about being a team player, isn’t it? We should not interpret saying no as not caring about the company or our team. In fact, quite the opposite is the case. Professionals say no because they know that under some circumstances saying yes will not change anything. Professional developers always take into account potential risk and consequences of their decisions to others. They say no because they care about their goals and will not menace their code, their team and their company success due to someone’s unreasonable expectations. Professional developers are good team players. They are always reliable and communicate with confidence. And by saying no they do not show disrespect or a lack of engagement, but they present a genuine commitment to care about both their own and at the same time their client's goals. 
 
-![photo 3](/images/do-or-do-not-there-is-no-try/photo3.jpg)
+![photo 3](../../static/images/do-or-do-not-there-is-no-try/photo3.jpg "")
 
 Bibliography: *The Clean Coder. A Code of Conduct for Professional Programmers*, Robert C. Martin, Prentice Hall: 2011.

@@ -18,7 +18,7 @@ language: en
 ---
 Recently I had a need to show the simple rating control in one of our iOS apps - the typical row of stars, few leftmost highlighted, the more highlighted, the better the rating is - something as obvious as this:
 
-![star rating example](/images/star-rating-example.png)
+![star rating example](../../static/images/star-rating-example.png "")
 
 My first thoughts were wandering around star images one after another, the hell with positioning with frames or multitude of [Auto Layout constraints](http://www.informit.com/articles/article.aspx?p=2041295). Nah. The second take led me to [`EDStarRating`](https://github.com/erndev/EDStarRating), a library that does this pretty well. But all I needed was only to show few stars in a row, all the events handling and customizations seemed a bit overkill for the simple task I was facing.
 
@@ -38,7 +38,7 @@ You might prefer to choose one of the [available CocoaPods](http://cocoapods.org
 
 The idea is to prepare the string that will contain the star icon multiple times, first few highlighted (filled), the rest greyed out or not filled. We need to find the appropriate Unicode numbers for our interesting icons, first - everything we need is [here](https://fontawesome.com/icons):
 
-![Font Awesome Unicode codes](/images/star-rating-fa.png)
+![Font Awesome Unicode codes](../../static/images/star-rating-fa.png "")
 
 I decided to use the basic `fa-star` icon (`\uf005`) and manipulate with the color, making the inactive gray. You might want to use `fa-star-o` instead (`\uf123`).
 
@@ -119,6 +119,6 @@ starRating.attributedText = [self starRatingWith:2 outOfTotal:3];
 
 And here is the result:
 
-![NSAttributedString-based star rating example](/images/star-rating-label.png)
+![NSAttributedString-based star rating example](../../static/images/star-rating-label.png "")
 
 Voilà!

@@ -13,7 +13,7 @@ language: en
 ---
 My experience with frontend web development is not long yet, nevertheless, I have already got stuck a few times and spend like a few hours trying to find one perfect solution. I reckon that some of them are worth describing. 
 
-![Image](/images/nth-of-class/image1.jpeg)
+![Image](../../static/images/nth-of-class/image1.jpeg "")
 
 I have a list of HTML tags in which a few first have a certain class while the others don‘t. What I want to achieve is styling the last element having the class.
 If you look for a pure CSS solution with no JavaScript and no changes in your HTML, I have some bad news: there is no such. Of course, you shouldn‘t believe me and look for it on your own. But if you happen to find one, please come back and feel free to comment. And if you fail, read on and see if one of the below solutions might suit you.

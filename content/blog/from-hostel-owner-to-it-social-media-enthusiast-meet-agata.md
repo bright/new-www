@@ -16,7 +16,7 @@ language: en
 ---
 **For Agata, sport is a way to relax. Jogging, snowboarding, kitesurfing, pole dancing – there is an endless list of activities she enjoys. Her entrepreneurial path brought her to Bright Inventions. As a social media specialist, she shows the true spirit of our bright team. Armed with a notepad and pen she always catches every new technical phrase that she hears in our office and fiercely investigates its meanings. All of that to show you what we do at Bright Inventions. Read about Agata’s incredible path that brought her to our team.**
 
-![Agata's career story](/images/agata_bright_story.png)
+![Agata's career story](../../static/images/agata_bright_story.png "")
 
 ## I see you at almost every workout we have at Bright Inventions. How important is sport in your life?
 
@@ -34,7 +34,7 @@ Apart from jogging, I enjoy kiteboarding in summer and snowboarding during winte
 
 I have joined mountain biking training with Bartosz Banach (a pro triathlete who conducts exercises sessions for the Bright Inventions team). However, this is definitely an activity that has forced me to leave my comfort zone. Riding off-road and especially mountain biking was scary for me at first. I think that it was a matter of feeling confident on the bike. I love snowboarding, and I don't have problems riding from high and challenging slopes. Fortunately, I am starting to feel confident on my bike, and the real fun has begun.
 
-![kitesurfing](/images/kitesurfing_agata.jpeg)
+![kitesurfing](../../static/images/kitesurfing_agata.jpeg "")
 
 ## In your twenties you opened 2 hostels in Gdansk then a restaurant. How do you recall your entrepreneurial journey?
 
@@ -48,13 +48,13 @@ Some friends convinced me to open a restaurant in 2017. We tried many different 
 
 Lockdown forced me to move my restaurant business online. **I started an online shop with DIY pastrami sets that I was supposed to sell in my restaurant.** It worked out nicely and gave me access to customers within the whole country. I was still trying to manage the restaurant despite constant lockdowns but eventually I gave up on it and focused on my online business. Now I really appreciate free weekends. 😉
 
-<div class='block-button'><h2>Join Agata!</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>
+<div className="block-button"><h2>Join Agata!</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>
 
 ## You moved from a restaurant to the social media marketing industry. What was the reason?
 
 As I mentioned before COVID-19 I had been working on rebranding for my restaurant and then I first started to be involved in marketing activities. I enjoyed it. The lockdown came and I knew that I had to go online with my business. 
 
-![Agata – social media specialist at Bright Inventions](/images/agata_quote3.png)
+![Agata – social media specialist at Bright Inventions](../../static/images/agata_quote3.png "")
 
 I loved that online marketing has such power. **I could achieve much more online and build the awareness about my products on a much bigger scale compared to local business.** Before that I thought that you don’t need marketing, you just need a good product and the word about it will spread itself. Now I see that social media speeds up the spread! 
 
@@ -66,7 +66,7 @@ Soon after that, **I saw a job offer for social media specialists published by B
 
 When I joined Bright Inventions I had no background in software development. I was attending meetings and I didn't understand every second word I heard. So **I noted every mysterious word, went to lunch with developers and asked them about every single thing I didn’t understand**. I believe that I can learn by talking to people and using Google. That’s a perfect combination for me. 😁 
 
-![Agata – social media specialist at Bright Inventions](/images/agata_quote.png)
+![Agata – social media specialist at Bright Inventions](../../static/images/agata_quote.png "")
 
 ## How important is social media for Bright Inventions’s communication?
 
@@ -74,10 +74,10 @@ Social platforms take a crucial part in our communication strategy. In my view, 
 
 On social media we show projects that we develop, devices that we use on a daily basis and lots of passion and free-time activities that our team enjoys. We also share insights about the software development process. **If somebody wants to join our team, one can easily follow our social media and I guarantee that the message is clear what it means to be a part of our team.** I think it also helps to simply check if we might be a good match for someone. 
 
-![Agata – social media specialist at Bright Inventions](/images/agata_quote2.png)
+![Agata – social media specialist at Bright Inventions](../../static/images/agata_quote2.png "")
 
 ## What is ahead of you?
 
 That is a very difficult question. I don’t know. I don’t see myself anymore in the restaurant industry. But maybe I will change my mind. I am not in the place to plan anything. I follow the rule “let it be” and trust the universe.
 
-<div class='block-button'><h2>Join Agata!</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>
+<div className="block-button"><h2>Join Agata!</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>

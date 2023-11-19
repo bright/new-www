@@ -15,7 +15,7 @@ language: en
 ---
 **Are you an iOS developer, or maybe a technology maniac with a bias for apple? Do you listen to podcasts (if not, then start 😉)? Here are my top picks for iOS and general tech related podcasts to listen to in 2023.**
 
-![top iOS development podcasts](/images/top-podcasts-from-ios-developer-perspective-cover.png)
+![top iOS development podcasts](../../static/images/top-podcasts-from-ios-developer-perspective-cover.png "")
 
 ## Best iOS development podcasts in 2023
 

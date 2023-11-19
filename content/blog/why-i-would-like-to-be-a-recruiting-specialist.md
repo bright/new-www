@@ -31,7 +31,7 @@ Brave - everyday talks with candidates, exchange of messages and phone calls - w
 \
 **I do not want to recruit for quantity, I would like to recruit for quality.** My dream is to be a recruiter who is looking for someone to join Bright Team, who will really feel comfortable here and that the cooperation will go well. 
 
-![join bright inventions team](/images/join_bright_team.png)
+![join bright inventions team](../../static/images/join_bright_team.png "")
 
 ## And in the end I have a few little tips, which I find really important and valuable now when I am starting my recruiting career.
 

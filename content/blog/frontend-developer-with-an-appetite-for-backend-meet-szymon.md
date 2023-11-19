@@ -17,7 +17,7 @@ language: en
 ---
 **Szymon built his first website in middle school. He’s a frontend developer with over 5 years of commercial experience. He’s never been afraid to dig into the backend though. Discover Szymon’s love for React, holistic approach to software development, and dark beer.**
 
-<div class="image">![Szymon's career story](../../static/images/brightstoryszymoncollage.png "undefined")</div>
+<div className="image">![Szymon's career story](../../static/images/brightstoryszymoncollage.png "undefined")</div>
 
 ## What do you remember about your programming beginnings?
 
@@ -31,7 +31,7 @@ The truth is **I started my career as a fullstack**. Then I had **a turn to fron
 
 I wouldn’t call myself a fullstack though. **I am more of a front-end developer with an interest in backend**. Yet, I am not afraid of backend, but the frontend is definitely closer to my heart. All in all, we shouldn’t limit ourselves to one and panic when someone asks us to do something on the other side. If you work in a fullstack team and you want to understand what other team members do, a holistic approach is essential.
 
-<div class='block-button'><h2>Join Szymon's webinar about TypeScript</h2><div>Szymon will conduct a webinar in Polish: ***Refleksja i TypeScript czyli spojrzenie w lustro***. The online webinar takes place on 16th February.</div><a href="https://webinar-typescript-refleksja.getresponsepages.com/"><button>join free webinar</button></a></div>
+<div className="block-button"><h2>Join Szymon's webinar about TypeScript</h2><div>Szymon will conduct a webinar in Polish: ***Refleksja i TypeScript czyli spojrzenie w lustro***. The online webinar takes place on 16th February.</div><a href="https://webinar-typescript-refleksja.getresponsepages.com/"><button>join free webinar</button></a></div>
 
 ## I read in your bio, on our website, that you are in love with React. Why?
 
@@ -43,7 +43,7 @@ React has a great advantage. **You can use it in multiple ways** and each of the
 
 ## How come?
 
-<div class="image">![Quote on React](../../static/images/szymon_quote_react.png "undefined")</div>
+<div className="image">![Quote on React](../../static/images/szymon_quote_react.png "undefined")</div>
 
 The freedom that React offers could be heartbreaking for you in the future. You can really go crazy with React building very unusual things. And if you build a large application, the consequences could be painful. The business logic should be centralized so you could simply inspect it and adjust it if needed. **If you use React too freely and scatter the business logic around, you may end up with an app, that's hard to maintain and scale**. Don’t overuse the freedom that React gives you.
 
@@ -53,7 +53,7 @@ After the first months, I can definitely say that there are a couple of factors 
 
 Whenever I need something or have a question to ask I don’t hesitate to reach out to somebody. I know that this person will be helpful and kind. It doesn’t matter what position they hold at the company and what they do. It’s very encouraging, especially during onboarding, to experience this friendly atmosphere.
 
-<div class="image">![Bright Inventions team](../../static/images/brightinventions_team_retreat2022.png "undefined")</div>
+<div className="image">![Bright Inventions team](../../static/images/brightinventions_team_retreat2022.png "undefined")</div>
 
 Also, the unique fact is that **we at Bright Inventions are encouraged not only to grow internally but also to share knowledge with others, even outside our organization**. For example here you feel motivated to write blog posts, apply to be a speaker at various conferences, etc. 
 
@@ -65,7 +65,7 @@ Last but not least, is the fact that the company also **inspires us to develop o
 
 On the other hand, you can build a product smarter, with a long-term plan. And that’s how we operate here. **We constantly have in mind that we build a solution that could be used for many years by a larger group of people**. I like that approach.
 
-<div class="image">![Quote on project](../../static/images/szymon_quote_project.png "undefined")</div>
+<div className="image">![Quote on project](../../static/images/szymon_quote_project.png "undefined")</div>
 
 What’s more, I enjoy the fact that **we take part in product requirement talks**. We discuss with the client what features they need and offer our expertise from a very early stage. Thanks to that we can quickly inform the client that some features could have a negative impact on other elements of the system. Eventually, we can offer an alternative solution that will still meet the client’s goals.
 
@@ -81,6 +81,6 @@ An example of the JavaScript basics that you shouldn’t neglect is (unfortunate
 
 I like to spend my spare time **actively hiking and discovering new cities on foot**. I am a fan of dark beer like Porter or Stout – the more black and thick the better. I even made my own beer recently and it tasted quite well. I also enjoy **Asian cuisine**. Last month **I bought an electric guitar** and, to be honest, it’s my third attempt to learn to play it. 
 
-<div class="image">![Hiking](../../static/images/szymon_passions_hiking.png "undefined")</div>
+<div className="image">![Hiking](../../static/images/szymon_passions_hiking.png "undefined")</div>
 
 In the past, **I loved playing video games such as Battlefield and Call of Duty**. Unfortunately, some time ago I realized they are not as entertaining as I remember them to be. Also, they don’t provide this special feeling of satisfaction anymore. Hard to say why, maybe it’s because the game wasn’t important, but the people I played with were. I guess it’s only a childhood memory now. 😉

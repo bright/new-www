@@ -33,7 +33,7 @@ To set up the in-app purchases follow the steps below:
 
 4. Click **+** icon and select the in-app purchase type. There are 4 types of in-app purchases that you can use:
 
-    ![image](/images/working-with-ios-in-app-purchases/in-app-purchases.png)
+    ![image](../../static/images/working-with-ios-in-app-purchases/in-app-purchases.png "")
 
     Each type has a specific use case so make sure you read the descriptions first.
 
@@ -53,13 +53,13 @@ To set up the in-app purchases follow the steps below:
 
 7. Auto-renewable subscription details page should appear. Select **Subscription Duration** (from 1 week to 1 year) and **optional Free Trial** period (from 3 days to 1 year).
 
-    ![image](/images/working-with-ios-in-app-purchases/subscription-duration.png)
+    ![image](../../static/images/working-with-ios-in-app-purchases/subscription-duration.png "")
 
 8. Click **Set Starting Price** to select the default currency and price (you must choose from pricing tiers), prices for other countries are calculated automatically.
 
 9. Now you can select a different price for individual territories. After you save changes you'll notice that your price is kept as pricing tier:
 
-    ![image](/images/working-with-ios-in-app-purchases/pricing-tier.png)
+    ![image](../../static/images/working-with-ios-in-app-purchases/pricing-tier.png "")
 
 10. Add at least one **Localization** including **Subscription Display Name** and **Description**, preferably for all languages you support. Those values will be visible to the users, so make sure they sound trustworthy.
 
@@ -79,7 +79,7 @@ In order to test in the in-app purchases you need to create a sandbox test accou
 
 3. Open **Sandbox Testers** header.
 
-    ![image](/images/working-with-ios-in-app-purchases/sandbox-user.png)
+    ![image](../../static/images/working-with-ios-in-app-purchases/sandbox-user.png "")
 
 4. Click **+** icon and fill the test account details. Keep the credentials.
 
@@ -96,11 +96,11 @@ Now you need to make some changes to your **Xcode project**.
 
 3. Click **+** icon, find **StoreKit.framework** and click **Add**.
 
-    ![image](/images/working-with-ios-in-app-purchases/store-kit.png)
+    ![image](../../static/images/working-with-ios-in-app-purchases/store-kit.png "")
 
 4. Open **Capabilities** header and turn **In-App Purchase** on.
 
-    ![image](/images/working-with-ios-in-app-purchases/capability.png)
+    ![image](../../static/images/working-with-ios-in-app-purchases/capability.png "")
 
 And it's finally time for some coding!
 
@@ -217,7 +217,7 @@ To complete the configuration process you need to make sure that your payments a
 
 4. The payment info dialog will be presented. Take a screenshot of your screen (hold power/sleep and home buttons simultaneously).
 
-![image](/images/working-with-ios-in-app-purchases/purchase-test.jpg)
+![image](../../static/images/working-with-ios-in-app-purchases/purchase-test.jpg "")
 
 **You must test the in-app purchases on a real device. Purchases will always fail on iOS simulator.**
 
@@ -230,11 +230,11 @@ Go back to your in-app purchase details page on **iTunes Connect** (My Apps->You
 
 Upload the screenshot and enter the credentials of the sandbox account you've used in **Review Notes**.
 
-![image](/images/working-with-ios-in-app-purchases/review-information.png)
+![image](../../static/images/working-with-ios-in-app-purchases/review-information.png "")
 
 Save changes and make sure that the **Availability** of your in-app purchase is set to **Cleared for Sale** (on the top of the page).
 
-![image](/images/working-with-ios-in-app-purchases/cleared-for-sale.png)
+![image](../../static/images/working-with-ios-in-app-purchases/cleared-for-sale.png "")
 
 Keep in mind that your **first in-app purchase must be submitted with a new app version**. Once your binary has been uploaded and your first in-app purchase has been submitted for a review, additional in-app purchases can be submitted from the In-App Purchases section.
 
@@ -245,7 +245,7 @@ You can verify whether user's subscription is still valid outside the app. It's 
 
 To validate the user's subscription server-side you'll need a **Shared Secret**. You can find it in your app's In-App Purchases list (My Apps->Your app->Features->In-App Purchases), click **App-Specific Shared Secret** to open a dialog with the secret. If necessary, click **Generate Shared Secret**.
 
-![image](/images/working-with-ios-in-app-purchases/shared-secret.png)
+![image](../../static/images/working-with-ios-in-app-purchases/shared-secret.png "")
 
 Shared Secret, together with receipt details that you'll receive after completing the in-app purchase, will allow backend application to verify whether user's subscription is still valid or not.
 

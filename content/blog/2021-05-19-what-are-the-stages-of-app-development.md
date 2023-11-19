@@ -18,7 +18,7 @@ language: en
 ---
 **From an idea to a successful launch… There are 4 main stages of building an app. Learn more about all of software development steps.**
 
-<div class="image">![Software development stages and timeline](../../static/images/timeline_app_development_stages.png "Timeline template by Yuhki Yamashita (licence CC BY 4.0).")</div>
+<div className="image">![Software development stages and timeline](../../static/images/timeline_app_development_stages.png "Timeline template by Yuhki Yamashita (licence CC BY 4.0).")</div>
 
 <sub> [Timeline template by Yuhki Yamashita](https://www.figma.com/community/file/767777586184800315) (licence CC BY 4.0). </sub>
 
@@ -28,7 +28,7 @@ Check out all the steps on the road to a successful app launch and maintenance.
 
 ## App Idea
 
-![idea for na app](/images/1_idea.png)
+![idea for na app](../../static/images/1_idea.png "")
 
 * Even the most unique idea doesn’t guarantee success. This is only the beginning.
 * **This phase helps quickly verify if the idea has some business potential.** For example, creating another weather app may not be a profitable option.
@@ -38,13 +38,13 @@ Check out all the steps on the road to a successful app launch and maintenance.
 * This is a great moment to **establish first goals** that will help you to measure in the future if your app is a success. However, these goals might change. While you are getting to know the industry, you might better understand what you need to succeed.
 * Ideation is a significant time for product designers. During workshops with the client, designers can better understand the whole solution. This brings us to the Prototyping phase.
 
-<div class='block-button'><h2>Do you want to kick off your app development process?</h2><div>We have been developing mobile and web apps since 2012 for clients from the UK, Germany, Israel and more. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
+<div className="block-button"><h2>Do you want to kick off your app development process?</h2><div>We have been developing mobile and web apps since 2012 for clients from the UK, Germany, Israel and more. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
 
 ## App Prototyping & Product design
 
 (1-4 weeks)
 
-![App prototyping](/images/2_app_prototyping.png)
+![App prototyping](../../static/images/2_app_prototyping.png "")
 
 * The stage when a product **designer creates the first visual representation of the idea**.
 * Prototyping phase contains 3 stages: **wireframes, mockups, prototypes**. 
@@ -61,7 +61,7 @@ Check out all the steps on the road to a successful app launch and maintenance.
 
 (4-20 weeks)
 
-![Building the MVP](/images/3_mvp.png)
+![Building the MVP](../../static/images/3_mvp.png "")
 
 * According to the first feedback received during the prototyping stage, the software development agency creates the first version of the mobile app. **[MVP](/our-areas/mvp-development) is the minimal version of the product/service including only crucial features.**
 * Developing crucial features helps to reduce time to market and prevent app owners from spending too much money on a product that hasn’t been verified by the market yet. 
@@ -76,7 +76,7 @@ Check out all the steps on the road to a successful app launch and maintenance.
 
 (Infinity – usually)
 
-![App Development & Maintenance](/images/4_app_development_-_maintenance.png)
+![App Development & Maintenance](../../static/images/4_app_development_-_maintenance.png "")
 
 * Congrats, you’ve made it! 🙂
 * At this stage, a software development company regularly deploys some new features to production.
@@ -88,4 +88,4 @@ Check out all the steps on the road to a successful app launch and maintenance.
 
 Now you know more about the most important app development stages. **Remember that the final flow always depends on the project**. Not every step is required. Nothing is set in stone in the app development world.
 
-<div class='block-button'><h2>Do you want to kick off your app development process?</h2><div>We have been developing mobile and web apps since 2012 for clients from the UK, Germany, Israel and more. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
+<div className="block-button"><h2>Do you want to kick off your app development process?</h2><div>We have been developing mobile and web apps since 2012 for clients from the UK, Germany, Israel and more. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>

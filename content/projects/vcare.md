@@ -87,7 +87,7 @@ When we entrust our loved ones to a care home or assisted living facility, we wa
 
 <center>
 
-![A healthcare app](/images/vcare_app.png)
+![A healthcare app](../../static/images/vcare_app.png "")
 
 </center>
 
@@ -99,7 +99,7 @@ Firstly, VCare wanted to make their healthcare solution available to facilities 
 
 Secondly, the VCare team was looking for major design and code refinements for the existing Android app and software. They have also decided to develop several new features to further ensure patients’ security and facilitate caregivers’ daily work.
 
-<div class="image">![vCare](../../static/images/vcare.png "vCare")</div>
+<div className="image">![vCare](../../static/images/vcare.png "vCare")</div>
 
 <TitleWithIcon sectionTitle='process of developing vCare application' titleIcon='/images/gearwheel.svg' titleIconAlt='bright' />
 

@@ -48,4 +48,4 @@ Which rule helps the most? In my view - each and every, but crucial is your self
 
 Everything depends on our attitude. We can do whatever we want. We can also waste our time grumbling, hypothesising, idealising, strategising, but in the end it boils down to taking action. And if we do not take any action, nothing will happen. If you want to get something done, get grip on yourself, find the way and do it.
 
-![do_it_now](/images/do_it_now.jpg)
+![do_it_now](../../static/images/do_it_now.jpg "")

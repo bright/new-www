@@ -16,13 +16,13 @@ language: en
 ---
 **Patryk got his first software job as a teenager. Now he is a backend developer with over a decade of experience. He has just started a podcast to share knowledge with other developers. What are his career beginnings? Why can’t he work without wearing slippers? Check out the story of Patryk, a Backend Developer and a host of the BrightDevTalks podcast.**
 
-![Backend Senior Developer at Bright Inventions](/images/brightstorypatrykcollage.png)
+![Backend Senior Developer at Bright Inventions](../../static/images/brightstorypatrykcollage.png "")
 
 ## Last year you had your 10th anniversary as a software developer. Do you feel like an IT dinosaur?
 
 If I had done things I did 10 years ago, I would have felt like that. But I don’t. Software development changes so dynamically that **even if you started this career line 10 years ago you still have to learn new things all the time**. When it comes to learning new languages you can sometimes be at the same level as a junior developer (with a small advantage).
 
-![Quote on learning as a software developer](/images/patryk_quote_learning2.png)
+![Quote on learning as a software developer](../../static/images/patryk_quote_learning2.png "")
 
 ## How has the Polish IT sector changed over this decade?
 
@@ -30,7 +30,7 @@ A lot has changed. Technologies are just one thing, the whole sector has changed
 
 You can still find yourself at a company that is way behind. However, you have options to find Polish companies that simply are top of the top globally. It is unique about the [software development](/our-areas/custom-software-development) world. It is not the case for many other industries in Poland. 
 
-![Patryk - Senior Backend Developer](/images/brightstorypatryk.jpg)
+![Patryk - Senior Backend Developer](../../static/images/brightstorypatryk.jpg "")
 
 ## How do you recall your software development beginnings?
 
@@ -46,7 +46,7 @@ During that time I also started my **blog about security**. This led me to **coo
 
 Back then Polish online communities were really different. Smaller. I could say that then the internet was really like a global village. You were a part of it, you were trusted and no one even thought of verifying your age. **As long as you contributed to the community, you were appreciated**. Obviously now the internet is different. There are many tools that enable one to get information about internet users. Often too much information.
 
-![Patryk's private photo](/images/brightstory_private_archive.png)
+![Patryk's private photo](../../static/images/brightstory_private_archive.png "")
 
 ## Eventually, you changed freelancing for a regular job?
 
@@ -58,7 +58,7 @@ Yes, I went to the Polish-Japanese Academy of Information Technology in Gdańsk.
 
 Also, it wasn’t easy to keep motivated to study when I actually already had a job in software development. However, I did graduate after all, yet it was a busy time.
 
-<div class='block-button'><h2>We are looking for Senior Backend Developers (TS, Node.js)</h2><div> Do you have very good knowledge of TypeScript and experience with Node.js? Join one of our teams developing blockchain solutions, invoicing & accounting software or web therapy app.</div><a href="/jobs/senior-backend-developer-typescript/"><button>Apply and join Patryk</button></a></div>
+<div className="block-button"><h2>We are looking for Senior Backend Developers (TS, Node.js)</h2><div> Do you have very good knowledge of TypeScript and experience with Node.js? Join one of our teams developing blockchain solutions, invoicing & accounting software or web therapy app.</div><a href="/jobs/senior-backend-developer-typescript/"><button>Apply and join Patryk</button></a></div>
 
 ## You came to Bright in the middle of the pandemic. Was it challenging to change a job in that circumstances?
 
@@ -66,7 +66,7 @@ Yes. **Not only have I changed my work but also a working model**. Before the pa
 
 Then I read the article that recommended picking one wearable item that would be associated only with my work. **So I bought “work slippers” that I wear only when I work. When I finish my work, I take the slippers off and this is the metaphorical way of leaving the office**. My body and mind know that the workday is over. It definitely helped me to separate work from life even if my office and home are the same places.
 
-![Team retreat](/images/brightstory_team_retreat.png)
+![Team retreat](../../static/images/brightstory_team_retreat.png "")
 
 ## What have you learned since joining Bright Inventions in 2020?
 
@@ -74,7 +74,7 @@ I have learned a lot. **I came with strong Java skills but I learned Kubernetes 
 
 Kotlin is a very friendly language so it was a nice experience. It’s great that **even if you are in this business for over a decade you get to still feel this excitement while learning new stuff**.
 
-![Quote on learning Kotlin](/images/brightstory_quote_kotlin.png)
+![Quote on learning Kotlin](../../static/images/brightstory_quote_kotlin.png "")
 
 ## You are a host of the BrightDevTalks podcast. How did that happen?
 
@@ -100,7 +100,7 @@ I want to share insights that will be of value for every software developer no m
 
 Some of the episodes will be **short stories, more like anecdotes**, showing the ups and downs that I experienced during all these years in software development. Other episodes will be **interviews with inspiring folks**. Recently I talked with [Rafał who is an experienced blockchain developer who used to be a ship navigator](/blog/from-maritime-officer-to-blockchain-programmer-meet-rafal-fullstack-developer). 
 
-![Podcast episode number 2](/images/cover_podcast_episode2.png)
+![Podcast episode number 2](../../static/images/cover_podcast_episode2.png "")
 
 I hope to push aspiring developers and more experienced ones to constantly grow. As I said in many cases junior devs, as well as seniors, start together from the scratch. For example when it comes to learning a new language. We can have similar struggles. Also, **we all need to work strongly on our soft skills** which are not always covered in university classes. **I want to focus on that as well on my podcast**.
 
@@ -108,7 +108,7 @@ I hope to push aspiring developers and more experienced ones to constantly grow.
 
 **It is impossible to avoid making mistakes**. **All of us should make them**. Mistakes aren’t made only by people who don’t do their work. Even if your bug ends up in production, it is an integral part of the learning process. Naturally, there are mistakes that cause embarrassment for years. I definitely have made some mistakes that still make me ashamed when I think of them. However, I know I will never make them again. 
 
-![quote on mistakes](/images/brightstoryquotemistake2.png)
+![quote on mistakes](../../static/images/brightstoryquotemistake2.png "")
 
 ## You call yourself a petrolhead. What does it mean?
 
@@ -116,7 +116,7 @@ It means that I want to drive anything that has an engine. 😀 Cars, motorcycle
 
 <center>
 
-![Patryk's passions](/images/patryk_petrolhead.png)
+![Patryk's passions](../../static/images/patryk_petrolhead.png "")
 
 </center>
 
@@ -124,4 +124,4 @@ It means that I want to drive anything that has an engine. 😀 Cars, motorcycle
 
 There are so many great cars that it is hard to limit myself to only one. My favorite models are changing too fast so this question is difficult to answer. 🙂 I can say that my favorite brand is BMW.
 
-<div class='block-button'><h2>We are looking for Senior Backend Developers (TS, Node.js)</h2><div>Work for one of our international clients. Join one of our teams developing blockchain solutions, invoicing & accounting software or web therapy app. Apply!</div><a href="/jobs/senior-backend-developer-typescript/"><button>Apply and join Patryk</button></a></div>
+<div className="block-button"><h2>We are looking for Senior Backend Developers (TS, Node.js)</h2><div>Work for one of our international clients. Join one of our teams developing blockchain solutions, invoicing & accounting software or web therapy app. Apply!</div><a href="/jobs/senior-backend-developer-typescript/"><button>Apply and join Patryk</button></a></div>

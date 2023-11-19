@@ -121,7 +121,7 @@ export default cloudform({
 })
 ```
 
-![Structure and order for our AWS CloudFormation templates](/images/cloudform/mindmap.jpg)
+![Structure and order for our AWS CloudFormation templates](../../static/images/cloudform/mindmap.jpg "")
 
 ## Get rid of repetitive resources
 

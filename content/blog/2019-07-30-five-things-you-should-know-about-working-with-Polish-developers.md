@@ -30,13 +30,13 @@ We have created a list of five things you may have always wanted to know about P
 
 Poland has been recognized as one of the leading countries in Central and Eastern Europe (CEE) for software development. The Future of IT report 2023 gives a regional overview of the IT sector in the region, available talent, costs as well as room for potential growth. Polish developers have gained prominence in the tech industry due to several factors. 
 
-<div class="image">![poland leader emerging europe](../../static/images/poland-leader-emerging-europe.png "undefined")</div>
+<div className="image">![poland leader emerging europe](../../static/images/poland-leader-emerging-europe.png "undefined")</div>
 
 ###### Source: https://emerging-europe.com/future-of-it
 
 You also might have heard of a site called [HackerRank.](https://www.hackerrank.com/) It’s where hundreds of thousands of developers from all around the world test their skills by completing various coding challenges. The results of HackerRank’s [Programming Olympics](https://blog.hackerrank.com/which-country-would-win-in-the-programming-olympics/) say it all: Polish developers took third place (an average score from across all types of tech challenges in areas such as algorithms, Java, data structures, and many others).
 
-![Polish software developers](/images/Best_developers_HackerRank.png)
+![Polish software developers](../../static/images/Best_developers_HackerRank.png "")
 
 Poles were only two points short from the top two countries on the list, China and Russia. So, who knows what the next round of the Olympics might bring?
 
@@ -46,7 +46,7 @@ I am sure you have read some dreadful stories about how outsourcing to a foreign
 
 Take a look at Poland’s [English Proficiency Index](https://www.ef.com/wwen/epi/regions/europe/poland/) with the position in Europe 11 of 35, 13 out of 111 countries in the world today, and with the high proficiency as compared to Russia and China (so, the other two countries on the HackerRank podium):
 
-<div class="image">![english proficiency index ](../../static/images/english-proficiency-index.png "undefined")</div>
+<div className="image">![english proficiency index ](../../static/images/english-proficiency-index.png "undefined")</div>
 
 ###### **Source:** https://www.ef.com/wwen/epi/regions/europe/poland
 
@@ -74,4 +74,4 @@ So, for instance, if you want to schedule your sprint planning call during your 
 
 **Hopefully, we have answered at least some of the questions you may have about working with Polish developers. If there is anything else you would like to know, reach us out. We would love to tell you more!**
 
-<div class='block-button'><h2>Are you looking for a Polish software agency?</h2><div>You’ve come to the right place. Since 2012 we have built products for clients from Germany, Norway, Israel, UK and more.</div><a href="/start-project"><button>Let's talk about your product</button></a></div>
+<div className="block-button"><h2>Are you looking for a Polish software agency?</h2><div>You’ve come to the right place. Since 2012 we have built products for clients from Germany, Norway, Israel, UK and more.</div><a href="/start-project"><button>Let's talk about your product</button></a></div>

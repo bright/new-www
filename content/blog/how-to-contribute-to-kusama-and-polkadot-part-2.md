@@ -19,7 +19,7 @@ language: en
 
 According to Google Trends, YouTube users as well as Google searchers also started to be more interested in all Web3 things. 😉 If you are a YouTuber or aspire to be one – you might consider creating content about Web3.
 
-![YouTube Trends](/images/google_trends_youtube.png)
+![YouTube Trends](../../static/images/google_trends_youtube.png "")
 
 Also, if your video can be of value to the community, you can submit an idea for it on BrightTreasury. If the community appreciates your creative plans, you can turn them into a proposal and get funds to cover your expenses.
 

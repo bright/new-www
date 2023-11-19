@@ -63,7 +63,7 @@ Determine what kind of application's activities are related to the table you wan
 
 In our case, it was about the night hours. We checked the traffic for the application in the last two weeks' perspective.
 
-![night hours time frame](/images/screenshot-2021-09-13-at-14.14.27.png "night hours time frame")
+![night hours time frame](../../static/images/screenshot-2021-09-13-at-14.14.27.png "night hours time frame")
 
 #### Executing the migration
 
@@ -112,4 +112,4 @@ In this post, you learned how to alter your table during the productional applic
 
 In our case, the update of the entire table took 12hours of processing, ends successfully without causing any downtime.
 
-<div class='block-button'><h2>Let's create software that matters!</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>
+<div className="block-button"><h2>Let's create software that matters!</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>

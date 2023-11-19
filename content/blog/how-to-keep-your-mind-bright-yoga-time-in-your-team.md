@@ -24,7 +24,7 @@ One of the most common complaints connected with desk jobs is back pain. [Accord
 
 Chronic stress can take a toll not only on your physical and mental health but your relationships as well, both in private life and at work. Fortunately, yoga is great for building stress resilience. The challenge and unpredictability in yoga can teach your brain how to flexibly adapt to changes, the changes that are nowadays a common part of our daily  life. And how does it happen? Trying a new pose requires our brain to get out of the comfort zone and to solve a kind of “problem”. This activity creates some new connections in the brain that make it more adaptable to change in general. Ta da! We have novelty here and repetition (we practise the same pose), which makes those new connections stronger.  The better your brain is at adapting to change, the easier it becomes to deal with stress. Each time we are on the mat it is good to examine how we respond to frustration and uncertainty. It may be a reflection of the reactions to some similar unpredictable and stressful situations at our work. [Check a few yoga poses to calm down anxiety and reduce stress. ](https://www.yogajournal.com/poses/yoga-by-benefit/anxiety/)
 
-![](/images/yoga-desk-poses-.jpeg)
+![](../../static/images/yoga-desk-poses-.jpeg "")
 
 ## \#3  Increased Energy
 
@@ -38,4 +38,4 @@ Strict deadlines, heavy workload and endless meetings may prevent us from concen
 
 By understanding the mind-body connection and treating your physical and emotional health well we can increase productivity and improve significantly the quality of our life. You don’t have to be a big company like [Nike, Google or Facebook ](https://journey.live/6-companies-using-meditation-for-a-productive-and-happier-workplace) to start yoga classes in your team. If your budget is low to cooperate with a professional instructor, you can begin with some in-house online lunchtime stretching/yoga classes. There are many videos and  [apps](https://www.statista.com/chart/22059/most-popular-yoga-and-meditation-apps/) on the market that can help you start. You can also try [some basic desk yoga poses](https://www.workandmoney.com/s/11-yoga-poses-you-can-do-at-your-desk-817027439e104424) if you are not sure if it is something you may like. And remember - yoga is not about being good at something, it is about being good to yourself. ❤️
 
-![](/images/yoga-apps-statistics-.jpeg)
+![](../../static/images/yoga-apps-statistics-.jpeg "")

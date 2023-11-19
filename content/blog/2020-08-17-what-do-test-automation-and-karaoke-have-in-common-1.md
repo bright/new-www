@@ -21,7 +21,7 @@ Settling down into a routine of work and sleep can easily spoil even the most fu
 
 The last sentence can also be applied to a process of introducing automation testing into a project. It is challenging and won’t be done overnight but in most of the long-term projects there comes a moment when you have to do it. Automation testing reduces the time and cost of QA-related activities, improves the general understanding of the end user’s need, provides statistics describing the quality of the product and enables supporting old versions of it. When to start automating? The easiest answer is: before the cost of manual testing exceeds the cost of automation testing.
 
-![automation testing](/images/automationkaraoke/graph.png)
+![automation testing](../../static/images/automationkaraoke/graph.png "")
 
 A simplified graph above shows that the cost of manual testing grows along with the complexity and size of the product because testers have increasingly more test cases to cover over time. Automation testing means a big initial cost but then steadily adding new tests is generally cheaper. The graph obviously does not apply to every project and its individual needs. Also, it should not lead to the conclusion that manual testing can be somehow replaced by automation testing. These two processes should coexist within the project and complement each other. Which brings me to my next point...
 
@@ -29,7 +29,7 @@ A simplified graph above shows that the cost of manual testing grows along with 
 
 I do not mean to say that going to a karaoke bar alone is impossible. Some people have the guts and the talent to pull off a masterful performance on their own. Others though, prefer to assemble a team of friends to both support each other and enjoy the night together - a pack of people with different voices, temperaments, stage experience. Some are ready to nail those high notes, some prefer to support the stars as backup singers.
 
-![karaoke](/images/automationkaraoke/forja2-mx-r2kxuoOFtHY-unsplash.jpg)
+![karaoke](../../static/images/automationkaraoke/forja2-mx-r2kxuoOFtHY-unsplash.jpg "")
 
 Making the most of teammates’ strengths is the key to having great results, also in testing. Automation testers usually need to have at least some amount of experience and programming skills. But it doesn’t mean that they should lack the creativity and dexterity usually ascribed to the manual testers. It is also important to take experience into consideration. Usually, there has to be a mentor, someone who can guide the inexperienced colleagues, someone who has already heard a standing ovation after nailing the Bohemian Rhapsody.
 
@@ -57,7 +57,7 @@ It doesn’t mean it would be easy, though. Sometimes forging a test case absolu
 
 I’d also like testers to think about this process of developing and executing tests as a learning experience. There’s so much to improve - not only the actual code but also the communication, the good practices we habituate, the communication, the bond we, as a team, have with the customer.
 
-![karaoke](/images/automationkaraoke/bruno-emmanuelle-Gi6-m_t_W-E-unsplash.jpg)
+![karaoke](../../static/images/automationkaraoke/bruno-emmanuelle-Gi6-m_t_W-E-unsplash.jpg "")
 
 ## Once the dust settles…
 

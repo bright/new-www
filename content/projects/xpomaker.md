@@ -40,7 +40,7 @@ show on homepage: false
 published: true
 language: en
 ---
-![A trade fair planning software](/images/xpomaker_dashboard2.png)
+![A trade fair planning software](../../static/images/xpomaker_dashboard2.png "")
 
 <TitleWithIcon sectionTitle='main features developed by Bright Inventions' titleIcon='/images/main_features_icon.png' titleIconAlt='features' />
 
@@ -66,7 +66,7 @@ For many industries, participating in fairs lies at the heart of business, and i
 
 So, how do you stay on top of all this without worrying about organizational chaos and deadlines? Here’s where xpomaker comes into play.
 
-![A trade fair planning software](/images/xpomaker_dashboard.png)
+![A trade fair planning software](../../static/images/xpomaker_dashboard.png "")
 
 <TitleWithIcon sectionTitle='goal' titleIcon='/images/goal_title_section.png' titleIconAlt='goal' />
 

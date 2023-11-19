@@ -203,4 +203,4 @@ module-b:
 
 Please notice that `moduleB-test.yaml` is inside `main` not `test` directory!
 
-<div class='block-button'><h2>We are looking for backend developers (TS, Node.js)</h2><div>Join our team and work on projects such as the blockchain platform for humanitarian assistance, accounting software, or web therapy applications.</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>
+<div className="block-button"><h2>We are looking for backend developers (TS, Node.js)</h2><div>Join our team and work on projects such as the blockchain platform for humanitarian assistance, accounting software, or web therapy applications.</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>

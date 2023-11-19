@@ -51,7 +51,7 @@ show on homepage: false
 published: true
 language: en
 ---
-<div class="image">![Emergency app](../../static/images/smarthelp.png "Emergency app")</div>
+<div className="image">![Emergency app](../../static/images/smarthelp.png "Emergency app")</div>
 
 ## Main features
 
@@ -73,7 +73,7 @@ The app also covers situations, when the user is in no condition to communicate 
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-![An emergency service app ](/images/smarthelp_screens1and2.png)
+![An emergency service app ](../../static/images/smarthelp_screens1and2.png "")
 
 The single-click emergency button allows the user to instantly streamline his location not only to rescuers, but also family, friends, or even his/her security company – anyone whose details were added to the app.
 
@@ -91,7 +91,7 @@ Bright Inventions has been a part of the project from the very beginning – fro
 
 The iOS and Android native applications were designed to provide a smooth user experience that respects user habits in each operating system. The biggest UX-related challenge was to make sure that the app is extremely simple to use by those who have found themselves or another person in a state of critical emergency.
 
-![An emergency service app ](/images/amarthelp33_700.jpg)
+![An emergency service app ](../../static/images/amarthelp33_700.jpg "")
 
 For the iOS native application, our developers used Objective-C/Swift, ReactiveCocoa, and for Android – Kotlin, RxAndroid, Dagger, and Retrofit. Server-side applications were developed with the use of Node.js and Nest.js. PostgreSQL was chosen for database creation, integration, and management. On the front-end, the developers worked with React, supported by Socket.io and Leaflet.
 

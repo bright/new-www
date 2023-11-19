@@ -47,7 +47,7 @@ show on homepage: false
 published: true
 language: en
 ---
-<div class="image">![system for restaurants mockups](../../static/images/retail_system_mockups.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")</div>
+<div className="image">![system for restaurants mockups](../../static/images/retail_system_mockups.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")</div>
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
@@ -67,7 +67,7 @@ language: en
 
 <SliderText sliderElements='[{"title":"Food ordering management","description":"Taking care of the whole process from ordering the meal to delivering the order."},{"title":"Transactions processing","description":"Including implementing offline mode, integration with payment service providers and receipt printing."},{"title":"Integrations with external systems and providers","description":"Integration with payment service providers as well as online food delivery services."},{"title":"Integration with online food delivery services","description":"Easy management of orders from different platforms in one device. "},{"title":"Team management and tracking","description":"Employees time tracking, managing team roles e.g. cashier, manager etc. Delivery tracking."},{"title":"Supply management","description":"Inventory management and supply ordering."},{"title":"Analytics","description":"Business analytics platform reporting sales and financial information."}]' />
 
-<div class="image">![retail system case study](../../static/images/retail_system_case_study.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")</div>
+<div className="image">![retail system case study](../../static/images/retail_system_case_study.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")</div>
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
@@ -105,7 +105,7 @@ Therefore **scalability was the key**. Our teams took care of rebuilding some ap
 
 The increasing number of users also meant that **Bright Inventions’s team had to actively monitor services, especially metrics such as CPU usage, number of database connections and average response time**. The goal was to predict and solve any potential issues before they could affect clients.
 
-<div class="image">![retail system case study](../../static/images/retail_restaurant_system_case_study.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")</div>
+<div className="image">![retail system case study](../../static/images/retail_restaurant_system_case_study.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")</div>
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
@@ -131,7 +131,7 @@ One of Bright Inventions Frontend team **priorities was the development of the J
   Inventory management.
 * Setting up basic restaurant configurations e.g. taxes, operating hours, delivery hours, delivery charge and more.
 
-<div class="image">![System for restaurant](../../static/images/restaurant_web_app.png "undefined")</div>
+<div className="image">![System for restaurant](../../static/images/restaurant_web_app.png "undefined")</div>
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 

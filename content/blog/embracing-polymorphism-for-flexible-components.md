@@ -17,7 +17,7 @@ language: en
 ---
 **Do you want to take your React skills to the next level and create more versatile components? Polymorphism is here to save you! It will help you build reusable components, no matter if you're a React rookie or a seasoned pro. Prepare yourself for an expedition through the essentials, advanced techniques, and real-life use cases commonly found in various codebases. Let us embark on this voyage together and unlock the true potential of polymorphism in React!**
 
-<div class="image">![Polymorphic Components](../../static/images/polymorphic_components_blog.png "Polymorphic Components")</div>
+<div className="image">![Polymorphic Components](../../static/images/polymorphic_components_blog.png "Polymorphic Components")</div>
 
 ## What Are Polymorphic Components?
 

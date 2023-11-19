@@ -155,9 +155,9 @@ that:
 * this particular version, i.e. `2.21.0`, is hosted only on JCenter;
 * a newer version, `2.28.1`, is hosted on Maven Central.
 
-![dexmaker-2.21.0](/images/migrating-away-from-bintray-jcenter-when-there-is-no-alternative-repository/dexmaker-2.21.0.png "Dexmaker 2.21.0 is hosted only on JCenter")
+![dexmaker-2.21.0](../../static/images/migrating-away-from-bintray-jcenter-when-there-is-no-alternative-repository/dexmaker-2.21.0.png "Dexmaker 2.21.0 is hosted only on JCenter")
 
-![dexmaker-2.28.1](/images/migrating-away-from-bintray-jcenter-when-there-is-no-alternative-repository/dexmaker-2.28.1.png "Dexmaker 2.28.1 is hosted on Maven Central")
+![dexmaker-2.28.1](../../static/images/migrating-away-from-bintray-jcenter-when-there-is-no-alternative-repository/dexmaker-2.28.1.png "Dexmaker 2.28.1 is hosted on Maven Central")
 
 In this case, you can't use any other Maven repository to get the
 current dependency version, but you can try to update it.
@@ -326,4 +326,4 @@ was able to build the project successfully again 🎉
 from
 [Pixabay](https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3522487)*
 
-<div class='block-button'><h2>We are looking for Android Developers</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/jobs/senior-android-developer"><button>Apply and join our team</button></a></div>
+<div className="block-button"><h2>We are looking for Android Developers</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/jobs/senior-android-developer"><button>Apply and join our team</button></a></div>

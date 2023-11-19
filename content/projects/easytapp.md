@@ -44,7 +44,7 @@ language: en
 
 EasyTapp was an iOS and Android app that allowed users to browse through real estate and automotive listings. The app triggered push notifications on users’ phones in real time, as they were passing by a residential property or car that were up for sale.
 
-![easytapp mobile app development](/images/easytap_quartet1_copy.png)
+![easytapp mobile app development](../../static/images/easytap_quartet1_copy.png "")
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
@@ -54,7 +54,7 @@ When Bright Inventions first started working on the project, the company already
 
 Firstly, the goal was to allow users to browse through, filter, and save car and real estate listings to their ‘Favourites’ lists. Secondly, EasyTapp founders wanted to help sellers bring attention to their offers by leveraging user location data. Namely, they wanted the app to trigger push notifications on users’ screens, informing them that they were in the vicinity of a car or real estate that were up for sale on the EasyTapp platform.
 
-![easytapp mobile app development](/images/easytap_1_mockup1.png)
+![easytapp mobile app development](../../static/images/easytap_1_mockup1.png "")
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 

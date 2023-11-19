@@ -61,7 +61,7 @@ Keeping all this in mind, I have decided to try out two different approaches:
 
 I have run a batch of queries (90 sets of 10 queries used by a dashboard with different WHERE clauses) against tables with sort keys defined as above. Here are the results:
 
-![Photo 1](/images/few-steps-to-fast-redshift/chart.png)
+![Photo 1](../../static/images/few-steps-to-fast-redshift/chart.png "")
 
 The simplest solution has turned out to be the best one. It gives about 50% better performance than no sort key and 20% better than the interleaved sort key.
 

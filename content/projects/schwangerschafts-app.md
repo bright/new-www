@@ -38,7 +38,7 @@ show on homepage: false
 published: false
 language: de
 ---
-![Pregnancy App](/images/preganncy_app_2_screens2.png)
+![Pregnancy App](../../static/images/preganncy_app_2_screens2.png "")
 
 ## Wichtigste technische Elemente
 
@@ -66,7 +66,7 @@ Ein großer Teil der Arbeit bestand darin, eine Lösung zu bauen, die die Inhalt
 
 Technische Herausforderungen bestanden in erster Linie darin, die Parität der Funktionen auf allen Plattformen und die tiefe Integration mit dem Systemkalender sicherzustellen. Ereignisse mussten automatisch zum Kalender hinzugefügt, auf allen Benutzergeräten synchronisiert und geplante Push-Benachrichtigungen zu den entsprechenden Zeiten ausgelöst werden.
 
-![Pregnancy App](/images/pregnancy_app1.png)
+![Pregnancy App](../../static/images/pregnancy_app1.png "")
 
 ## Start
 

@@ -18,7 +18,7 @@ language: en
 ---
 **Sailing the Atlantic, skydiving, steering a plane… He has done it all. Apart from that he’s a Kotlin enthusiast open for some coding in Scala as well. Meet Bartek, the most adventurous bright team member!**
 
-<div class="image">![Bartek - a backend developer](../../static/images/brightstorybartekcollage_passions.png "Bartek - a backend developer")</div>
+<div className="image">![Bartek - a backend developer](../../static/images/brightstorybartekcollage_passions.png "Bartek - a backend developer")</div>
 
 ## You are a backend developer. Yet I know that you wanted to be a mobile dev. What happened? 😀
 
@@ -28,7 +28,7 @@ I was pursuing that dream and got an internship to build a mobile app. When I jo
 
 Now **I am glad I pursued the backend path instead of mobile**. Maintaining backward compatibility in mobile isn’t appealing to me. The backend is more simple in that way. So I’ve never regretted how things turned out. I sometimes build mobile apps, but only for personal use.
 
-<div class='block-button'><h2>Work with Bartek</h2><div>We are looking for an experienced Backend Developer who understands Java/Kotlin & Spring really well and who would like to work with AWS on daily basis.</div><a href="/career/"><button>check our job offers</button></a></div>
+<div className="block-button"><h2>Work with Bartek</h2><div>We are looking for an experienced Backend Developer who understands Java/Kotlin & Spring really well and who would like to work with AWS on daily basis.</div><a href="/career/"><button>check our job offers</button></a></div>
 
 ## How did you land in Bright Inventions?
 
@@ -36,7 +36,7 @@ I’ve known the company since college. **I met [Piotr](/about-us/piotr/) from B
 
 Our paths crossed again a few years later. Back then, I was working at a company where I learned Java and Kotlin. **Kotlin was life-changing to me**. I loved it. Unfortunately, I started to get projects in Python. I felt I needed to find a place where I could continue my work with Kotlin. So, I finally joined Bright Inventions. I was eager to work with Piotr on the huge international ePOS project with Kotlin and AWS.
 
-<div class="image">![Team retreats](../../static/images/bartek_team_cooking.png "Team retreats")</div>
+<div className="image">![Team retreats](../../static/images/bartek_team_cooking.png "Team retreats")</div>
 
 What's **unique about Bright Inventions is the mature process of software development**. The team is highly skilled and experienced. **We focus 100% on quality**.
 
@@ -46,7 +46,7 @@ This is an **international security system**. The backend is in **Scala**. I hav
 
 The project is a great opportunity to get to know another major language from the JVM world. After working with all of them, I still prefer Kotlin. **Kotlin is the most friendly and efficient to learn and use daily**.
 
-<div class="image">![Quote on Kotlin](../../static/images/bartek_quote_kotlin.png "Quote on Kotlin")</div>
+<div className="image">![Quote on Kotlin](../../static/images/bartek_quote_kotlin.png "Quote on Kotlin")</div>
 
 ## What were your biggest professional challenges so far?
 
@@ -68,7 +68,7 @@ Last year **I sailed across the Atlantic Ocean, from the Canary Islands to the C
 
 However now I’m focusing more on my other passions, so sailing has gone into the background for now. Although it still has a place in my heart and I would always enjoy going through the seas.
 
-<div class="image">![Bartek's passion - sailing](../../static/images/bartek_passion_sailing.png "Bartek's passion - sailing")</div>
+<div className="image">![Bartek's passion - sailing](../../static/images/bartek_passion_sailing.png "Bartek's passion - sailing")</div>
 
 ## So what do you do apart from sailing?
 
@@ -76,7 +76,7 @@ I started a skydiving course last year. However, I couldn't finish it because it
 
 The other thing is that skydiving zones are mostly open on weekends, so you have to match your free weekend with the availability of instructors… Even with that, it’s not always a recipe for success because the actual weather can differ from the forecast. 😀 **Skydiving is fun, but it requires huge amounts of patience**.
 
-<div class="image">![Bartek's passion - skydiving](../../static/images/bartek_passion_skydiving.png "Bartek's passion - skydiving")</div>
+<div className="image">![Bartek's passion - skydiving](../../static/images/bartek_passion_skydiving.png "Bartek's passion - skydiving")</div>
 
 ## But that didn’t put you off?
 
@@ -86,4 +86,4 @@ Not at all. Now I like the air even more and **I decided not only to jump out of
 
 There are people who inspired me to do this. As with many other things – people are a great inspiration. When it comes to flying, I met some pilots who are great people and I felt like this is something worth trying. 🙂
 
-<div class='block-button'><h2>Join our team</h2><div>Seeking passionate individuals to help us build a bright future. Apply today!</div><a href="/career"><button>check our job offers</button></a></div>
+<div className="block-button"><h2>Join our team</h2><div>Seeking passionate individuals to help us build a bright future. Apply today!</div><a href="/career"><button>check our job offers</button></a></div>

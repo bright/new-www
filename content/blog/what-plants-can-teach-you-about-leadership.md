@@ -32,7 +32,7 @@ All plants at our homes or in our gardens need some care and protection to grow.
 
 As we already know every plant has to be taken care of to grow. **But the point is to pay attention to individual needs of each and every.** A plant requiring “full sun” needs all the sunlight it can get, at least 6 to 8 hours of direct sun exposure per day. But there are plants which need only 3-4 hours of direct sunlight per day. There are also some that do not sun exposure almost at all. Other factors that make plants life easier are for instance proper temperature, moisture, air and nutrients. **The same works with people - people in a team need different things to grow.**
 
-<div class="image">![undefined](../../static/images/leader-expectations.jpeg "liz and mollie leader qualities")</div>
+<div className="image">![undefined](../../static/images/leader-expectations.jpeg "liz and mollie leader qualities")</div>
 
 **Some people need a bit of motivation and “push” to leave their comfort zone and then they thrive. For some it is enough when you check up their progress every now and then and water their leaves with doze of appreciation.** Others will need your support all the time as they are demanding, but they can blossom one day taking your breath away. As leaders we have to learn what works best for people we work with. 
 
@@ -42,7 +42,7 @@ People just like plants can be in a different phase of maturity depending on the
 
 The information about plant’s maturity tells you how long it takes from the moment a seed is sown to the moment when the plant is ready to set flowers. It is a tool provided to help the gardener determine when the plant will successfully grow and produce fruits. **[Hersey and Blanchard in situational leadership](https://www.toolshero.com/leadership/situational-leadership-hersey-blanchard/) suggest that managers should adapt their leadership style to an individual, their tasks and level of maturity** 
 
-![situational leadership](/images/Situational_Leadership.png)
+![situational leadership](../../static/images/Situational_Leadership.png "")
 
 In their method the maturity level is divided into three categories: high, moderate and low. High maturity includes highly capable and confident individuals who are experienced and work well on their own whereas moderate maturity is generally divided into two groups: the first are employees who are capable but lack enough confidence to take on the responsibility to do so, and the second group has the confidence but is not willing to do the task at hand. Low maturity employees are not skilled enough to do the task but are very enthusiastic. **To take proper care of people in the organisation leaders and managers should adapt an appropriate leadership style. It helps to quickly evaluate a situation and make decisions that fit your team member’s needs.** Just like with plants. 
 

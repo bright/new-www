@@ -18,7 +18,7 @@ language: en
 ---
 While implementing in-app purchases, especially **auto-renewable subscriptions**, there is a good chance your app will be rejected during a review process if you don’t follow the guidelines exactly. How can you avoid unnecessary trouble?
 
-![image1](/images/dont-let-your-ios-app-be-rejected/rejected1.png)
+![image1](../../static/images/dont-let-your-ios-app-be-rejected/rejected1.png "")
 
 ## Monetise your app
 
@@ -49,7 +49,7 @@ After a quick research, Johnny found 10 scam apps that might be earning in total
 
 Such cases have probably **made Apple be more demanding** when reviewing auto-renewable subscriptions before publishing the app in the store. Now, when you don't meet any requirement regarding subscriptions, whether within the app or in AppStore description, your binaries will most likely be **rejected**.
 
-![image2](/images/dont-let-your-ios-app-be-rejected/rejected2.jpg)
+![image2](../../static/images/dont-let-your-ios-app-be-rejected/rejected2.jpg "")
 
 ## Stick to the rules
 

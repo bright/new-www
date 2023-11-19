@@ -18,7 +18,7 @@ language: en
 
 The most common ways to settle up with software development agencies are: **fixed pricing and Time and Material (T&M) pricing models**.
 
-![pricing models software development](/images/price_models_in_post.png)
+![pricing models software development](../../static/images/price_models_in_post.png "")
 
 ## What is a fixed price model?
 
@@ -70,4 +70,4 @@ You **pay only for the real time spent on the project and the resources** (mater
 
 What is the best pricing model for you? Let us know in the comments!
 
-<div class='block-button'><h2>Looking for a software development company?</h2><div>Let's make your solution bright! Book a free consultation to discuss your product or idea. Contact us and we will get back to you within 48 hours.</div><a href="/start-project/"><button>book a free consultation</button></a></div>
+<div className="block-button"><h2>Looking for a software development company?</h2><div>Let's make your solution bright! Book a free consultation to discuss your product or idea. Contact us and we will get back to you within 48 hours.</div><a href="/start-project/"><button>book a free consultation</button></a></div>

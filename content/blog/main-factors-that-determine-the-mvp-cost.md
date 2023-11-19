@@ -16,7 +16,7 @@ language: en
 ---
 **How much does building MVP cost? There is no easy answer to that question. It’s like buying a car. You can buy an operating car for less than 10 000 dollars. Yet you can also buy a Ferrari for over 1 million dollars. It depends on how advanced the product you have in mind. Check out the main factors that affect the cost of developing MVP.**
 
-<div class="image">![MVP cost](../../static/images/blog_mvp_cost_cover.png "MVP cost")</div>
+<div className="image">![MVP cost](../../static/images/blog_mvp_cost_cover.png "MVP cost")</div>
 
 ## How advanced your app should be
 
@@ -46,4 +46,4 @@ It sometimes **comes as a surprise to startups that developing an app for Google
 
 That is why our team at Bright Inventions loves to build MVPs to analyze the app market potential and check if it is necessary to create both versions for iOS and Android. Developing only one of them is not such a rare case. For example Instagram was first launched on AppStore only.
 
-<div class='block-button'><h2>Do you want to estimate your MVP?</h2><div>Contact us to book a free consultation in 48 hours. Based on your requirements and product idea we will estimate your solution.</div><a href="/our-areas/mvp-development/"><button>let's discuss your solution</button></a></div>
+<div className="block-button"><h2>Do you want to estimate your MVP?</h2><div>Contact us to book a free consultation in 48 hours. Based on your requirements and product idea we will estimate your solution.</div><a href="/our-areas/mvp-development/"><button>let's discuss your solution</button></a></div>

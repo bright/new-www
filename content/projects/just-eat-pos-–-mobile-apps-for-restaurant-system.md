@@ -65,7 +65,7 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 * ePOS iOS and Android **applications used by restaurant staff** to take orders and manage payments.
 * iOS and Android **driver application** which assists drivers in delivering orders.
 
-<div class="image">![Mobile apps restaurant and retail](../../static/images/mobile_retail_app.png "It is not a real implemented design. It is a mockup example created for the purpose of a case study.")</div>
+<div className="image">![Mobile apps restaurant and retail](../../static/images/mobile_retail_app.png "It is not a real implemented design. It is a mockup example created for the purpose of a case study.")</div>
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
@@ -115,7 +115,7 @@ The app let you manage food orders made at restaurant, by phone or the website.
 
 <TitleWithIcon sectionTitle='customized applications for Bluetooth devices' titleIcon='/images/gearwheel.svg' titleIconAlt='delivering customized applications for Bluetooth devices' />
 
-<div class="image">![ePOS applications](../../static/images/blog_post_cover_epos.png "undefined")</div>
+<div className="image">![ePOS applications](../../static/images/blog_post_cover_epos.png "undefined")</div>
 
 A great part of working with Just Eat POS was **building iOS and Android applications integrated with Bluetooth retail and ePOS devices** including:
 

@@ -19,7 +19,7 @@ language: en
 ---
 It's obvious that DevOps is a buzzword these days. If you are somehow connected with software development, the DevOps culture could possibly jump right on your face from your fridge. You haven't heard it? I don't believe you, but if that's the case - no worries, you will. Sooner or later.
 
-![DevOps at Bright Inventions](/images/road_to_devops_michal.png)
+![DevOps at Bright Inventions](../../static/images/road_to_devops_michal.png "")
 
 ## The Definition of DevOps
 
@@ -37,7 +37,7 @@ And that’s what this story is really about.
 
 ### Background
 
-![DeLorean DMC-12](/images/delorean.jpg)
+![DeLorean DMC-12](../../static/images/delorean.jpg "")
 
 Now, let's pay a visit to Dr Emmett Lathrop Brown, and make use of that fancy DeLorean DMC-12 to jump into the past for a second. Someone is waving at us! That's a younger version of me. Meet Michał, **the SysOps.** He is working in a big corporation with bare metal servers and some virtualisation in place. Oh, and he has keys to data center! And a winter wool hat for hours spent there with all the fans and air conditioning on.
 
@@ -53,7 +53,7 @@ So automation, scripting, Perl, Bash, Sed, Awk, Python, Linux, Unix. Let's add A
 
 Ok, we are jumping into DeLorean once again. Oh, Hi Marty! When did you join us?! Never mind. We travelled in time a few years forward. Here he is, Michał with his shiny Apple Macbook working from home. Yes, from home. Why, you ask? That's because now he works **in the cloud**. Now Michał is a **DevOps Engineer**, serving as a catalyst to software development. How cool is that, huh? 
 
-![Remote Cloud Devops](/images/cloud-remote-devops.png)
+![Remote Cloud Devops](../../static/images/cloud-remote-devops.png "")
 
 **So, what changed?**
 
@@ -84,7 +84,7 @@ Where are we now? **We are in Bright Inventions**. Hurray, I've managed to pass 
 
 Actually, I'm satisfied with the fact that I'll vendor lock myself a bit with AWS, mainly because this is my field of expertise and I have the most experience with AWS services. After short onboarding, I should be ready to work. This environment is familiar to me, and also the toolset, right? Indeed, mostly. One simple thing, that is so much different in the bigger picture - [AWS CDK](https://aws.amazon.com/cdk/). So what is the CDK? According to AWS, it's is an open-source software development framework to define your [cloud application](/our-areas/cloud-services/) resources using familiar programming languages. Pretty neat right? At first sight, it seems like a substitute to Terraform.
 
-![AWS CDK](/images/cdk-logo6-1260x476.png)
+![AWS CDK](../../static/images/cdk-logo6-1260x476.png "")
 
 Now a very important piece of information that seems to be a clue to the whole story.
 
@@ -108,7 +108,7 @@ Most importantly, something I saw in Bright Inventions with a naked eye is that 
 
 ## Summary – the DevOps definition revisited
 
-![It's all about collaboration](/images/collaboration-devops.png)
+![It's all about collaboration](../../static/images/collaboration-devops.png "")
 
 Remember my definition of DevOps? That's the story of how I came to that. DevOps mindset is all about **collaboration and feedback loop**. Thanks to tools like AWS CDK one can both introduce so important dev empowerment and move the quality of work done by SysOps/DevOps/Infrastructure engineers to a whole new level. As an effect, we **destroy the silos**, which slows down the development process so much. 
 

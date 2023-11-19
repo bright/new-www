@@ -12,7 +12,7 @@ comments: true
 published: true
 language: en
 ---
-![Header](/images/react-native-the-things-that-you-shoud-be-aware-of-before-coming-onboard/header.jpeg)
+![Header](../../static/images/react-native-the-things-that-you-shoud-be-aware-of-before-coming-onboard/header.jpeg "")
 
 React Native is a neat piece of technology that I get along pretty well with. Creating multiplatform apps using a shared codebase and having a great feedback loop sounds really promising and after hearing such things you may start wondering "Why the hell am I not using React Native?!". Well... As you probably know, many things aren't all that shiny after you go past the happy-path tutorials. In this post I'd like to give you my perspective on things that I have found problematic, frustrating or things that I just wasn't prepared for while entering the React Native world. However, this will be a perspective of iOS developer who still have had a lot of fun with while developing with React Native.
 
@@ -24,7 +24,7 @@ Please do not mistake this post with a "React Native - The things that should di
 
 ## 1. The "Do-It-Yourself" approach
 
-![Tools](/images/react-native-the-things-that-you-shoud-be-aware-of-before-coming-onboard/tools.jpeg)
+![Tools](../../static/images/react-native-the-things-that-you-shoud-be-aware-of-before-coming-onboard/tools.jpeg "")
 
 If you are a native developer since forever, then coming into React Native will be something completely new to you.
 You have to keep in mind, that there will be many times where there won't be an existing solution for your usecase and the only way to push the project will be to write the whole solution yourself, adapt existing open-source project to your needs or simply fix a bug in a library. Well... This wouldn't be a surprising thing for a native developer, however keep in mind that react-native itself is also a dependency that may require fixes at times. You probably didn't have to fix things in UIKit before ;) Coming to React Native from native will probably make you much more of an open-source person than you have been before ;)
@@ -56,7 +56,7 @@ The example project configuration issue - [Github](https://github.com/facebook/r
 
 ## 7. Navigation
 
-![Navigation](/images/react-native-the-things-that-you-shoud-be-aware-of-before-coming-onboard/navigation.jpeg)
+![Navigation](../../static/images/react-native-the-things-that-you-shoud-be-aware-of-before-coming-onboard/navigation.jpeg "")
 
 As a native dev, whole navigation stack is focused around pushing/popping/dismissing controllers. You have a specific API for that and everything is working fine... If you come to React Native world... You will find many navigation libraries that will wait for you. It will be very hard to come up with a good fit at first. You may end up with something that will turn out to be not as pleasant as you expect. I'm currently a happy user of [React Native Navigation by Wix](https://github.com/wix/react-native-navigation). It should be fine for you, but if you're missing something... contribute!
 Be aware that you won't find there a standarized way to solve navigation as you used to do in your iOS/Android apps.  
@@ -81,7 +81,7 @@ Take a look at [TypeScript](https://www.typescriptlang.org/) and [Flow](https://
 
 ## 12. You don't have to setup your project from the ground
 
-![Building](/images/react-native-the-things-that-you-shoud-be-aware-of-before-coming-onboard/building.jpeg)
+![Building](../../static/images/react-native-the-things-that-you-shoud-be-aware-of-before-coming-onboard/building.jpeg "")
 
 Setting up a React Native project can be a daunting thing... It would be really time consuming to handle all these dependencies by yourself. But don't worry! There is a great tool that will help you with a setup of a project - [Create React Native App](https://github.com/react-community/create-react-native-app). It will allow you to directly jump into writing the code instead of dancing around with configs and dependencies. It's surely important to know how your project is built, but if it's your first time in "JS environment", then you will already have a lot of things to wrap your head around.
 

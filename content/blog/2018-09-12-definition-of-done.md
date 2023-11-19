@@ -30,7 +30,7 @@ The Definition of Done (DoD) is a list of features and activities that add verif
 
 Preparing a single DoD that suits every situation is impossible. Each team should collaborate and come up with the definition that suits its unique environment. First, you should define the artifacts that need to be delivered to the end customer (applications, documentation, release notes, etc.). Then, considering the current context and capability, you should decide which activities can be completed in each Sprint. Some criteria may not be mandatory (like considering analytics or internationalization) depending on the context. For a Scrum purist, such optional criteria should not be included in the Definition of Done. In my opinion, they help the team to remember about the requirements that have to be met in certain situations.
 
-![Dictionary image](/images/definition-of-done/dictionary.jpg)
+![Dictionary image](../../static/images/definition-of-done/dictionary.jpg "")
 
 The Definition of Done does not only apply to the features/stories. According to the [Scrum Alliance](https://www.scrumalliance.org/community/articles/2008/september/what-is-definition-of-done-%28dod%29), teams may have a different DoD at various levels:
 
@@ -85,6 +85,6 @@ Bear in mind that feature stages may depend on many factors like peer review pro
 
 ## Win-Win
 
-![Happy image](/images/definition-of-done/happy.jpg)
+![Happy image](../../static/images/definition-of-done/happy.jpg "")
 
 Clear workflow and unequivocal Definition of Done are necessary for the smooth work of the team. When the project manager is well informed about the progress and possible delays, he can communicate it well to stakeholders. In case of any obstacles, he can respond quickly and facilitate the development process. On the other hand, developers do not have the stressful feeling of prolonged work over the feature because it is divided into clear phases. The Definition of done ensures that you are delivering features that are truly done at the appropriate level of quality.

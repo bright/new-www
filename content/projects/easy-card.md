@@ -60,7 +60,7 @@ When we first started our cooperation, the clients already had an up-and-running
 
 The goal was to allow the end-user to attach a separate device to their phone via a mini-jack or lightening/USB-C, that would allow reading the data stored on the card’s magnetic stripe.  This required the right technical approach towards decoding the information stored on the card.
 
-![cashless transactions app](/images/card_reader_mobile.png)
+![cashless transactions app](../../static/images/card_reader_mobile.png "")
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
@@ -72,7 +72,7 @@ While the external device for credit card scanning was chosen by the client, it 
 
 The third challenge our mobile app developers tackled was ensuring that the app operated properly in Hebrew, i.e., in a right-to-left (RTL) language. This was especially important when it came to critical transaction data, such as properly displaying the amount charged.
 
-![cashless transactions app](/images/card_reader_mockup3.png)
+![cashless transactions app](../../static/images/card_reader_mockup3.png "")
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 

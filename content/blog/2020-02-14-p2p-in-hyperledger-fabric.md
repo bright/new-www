@@ -39,7 +39,7 @@ message HelloResponse {
 
 On the server side, the server implements interface and runs a **gRPC** server to handle the client calls. On the client side, the client has a stub (referred to as just a client in some languages) that provides the same methods as the server.
 
-![Grpc graph](/images/p2p-in-hyperledger-fabric/grcp-graph.png)
+![Grpc graph](../../static/images/p2p-in-hyperledger-fabric/grcp-graph.png "")
 
 Due to the fact that **gRCP** uses **proto buffers**, the server may be written in a different language than the client (for now it supports 10 programming languages).
 

@@ -24,7 +24,7 @@ The VUCA world demands constant acquisition of new knowledge and skills to remai
 
 If you do not feel sure about building the value based recruitment process from scratch, competence based recruitment (CBR) might a good starting point for you. It is a hiring approach in which recruiter’s or hiring manager's goal is to assess candidates' specific skills, knowledge, abilities, and behaviours relevant to the particular job. **Instead of solely relying on qualifications and experience, CBR aims to match candidates' competencies with the specific requirements of the position.** 
 
-<div class="image">![hire for attitude](../../static/images/hire-for-attitude.jpg "undefined")</div>
+<div className="image">![hire for attitude](../../static/images/hire-for-attitude.jpg "undefined")</div>
 
 **Before you begin the process, you have to determine what are the specific competencies required for the role you are recruiting for.** This involves understanding the tasks, responsibilities, and challenges associated with the position. Before publishing a job description conduct a comprehensive job analysis to understand and highlight the essential competencies a candidate must possess. Come up with some determined competences criteria to [the screening phase](https://resources.workable.com/stories-and-insights/phone-screen-interview) and ask all candidates the same questions. **You have to know what really matters for the role.** 
 
@@ -38,7 +38,7 @@ Now, when you know more or less how competence based recruitment works, replace 
 
 To start your value bases recruitment adventure you have to identify which beliefs and standards are essential to your company and which core values you want to include in the process. As a (hiring) manager or recruiter you have to make sure you understand them properly. Think how [these beliefs translate into daily behaviours and dat-to-day tasks at work](https://hbr.org/2002/07/make-your-values-mean-something). If there are not defined any core values in your organisation, take one step back and check how to discover them. 
 
-<div class="image">![steps to create core values ](../../static/images/steps-to-create-core-values.png "undefined")</div>
+<div className="image">![steps to create core values ](../../static/images/steps-to-create-core-values.png "undefined")</div>
 
 ###### Source: https://blog.deliveringhappiness.com/10-steps-to-creating-core-values-that-your-company-lives-by-infographic
 
@@ -48,7 +48,7 @@ To make the whole process work well I really encourage you to implement [behavio
 
 **A good strategy (if applicable or possible) might be also involving in the process a few interviewers including managers and team members, to obtain diverse perspectives on candidates' suitability for the role.** 
 
-<div class="image">![diversity ](../../static/images/diveristy-.jpeg "undefined")</div>
+<div className="image">![diversity ](../../static/images/diveristy-.jpeg "undefined")</div>
 
 **[Ensure the value-based recruitment process is fair, transparent, and free from bias.](https://brightinventions.pl/blog/cognitive-bias-how-it-affects-our-hiring-decisions/) Values should be present at every stage of the recruitment and hiring process. This ensures you’re connecting with the right people every step of the way**
 
@@ -60,7 +60,7 @@ Having a strong company DNA can help individuals and organizations not only surv
 
 The VUCA world encourages recruiters and managers to think creatively to address emerging challenges. These quick adjustments to changing circumstances lead to improved efficiency and effectiveness in the hiring process and make us choose the best talents for the role. Some uncertainty creates gaps in the market, but value based recruitment emphasises the importance of culture fit when hiring new employees**. When a new hire’s value system aligns with the reality of the organisation, they can feel happier in their new role and do their best work.** 
 
-<div class="image">![happiness at work ](../../static/images/screenshot-2023-07-25-at-10.43.47.png "undefined")</div>
+<div className="image">![happiness at work ](../../static/images/screenshot-2023-07-25-at-10.43.47.png "undefined")</div>
 
 ###### Source: Association for Talent Development
 

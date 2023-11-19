@@ -37,7 +37,7 @@ The interview lasts 2,5 hour and it usually takes the full length of the allocat
 2. technical part,
 3. culture fit section.  
 
-<div class="image">![interview sections ](../../static/images/interview-sections.png "undefined")</div>
+<div className="image">![interview sections ](../../static/images/interview-sections.png "undefined")</div>
 
 **1️⃣ Introduction is just a short 10-15 minutes section to get you current professional status and check if anything changes since our last phone conversation. W**e will ask you a few question about the present project, methodologies you use and recent tasks. \
 \
@@ -67,7 +67,7 @@ This is the moment when we ask for your patience. It is time for us to review on
 
 **We believe that the hiring process is an investment for both sides - ours and candidates’.** We never leave you without some feedback why we can or can’t provide you with a job opportunity. The goal is to provide you with great recruitment experience and a good ROI. 😎
 
-<div class="image">![feedback candidates recruitment ](../../static/images/feedback-hiring-process-all.jpeg "undefined")</div>
+<div className="image">![feedback candidates recruitment ](../../static/images/feedback-hiring-process-all.jpeg "undefined")</div>
 
 **If you want to give us a try and check whether we can offer you some space for development right now, check our [career page](https://brightinventions.pl/career/).** Maybe you will find your dream job there. 
 

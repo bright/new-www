@@ -15,7 +15,7 @@ language: en
 ---
 **Have you found someone in the Web3 community whose actions are worth rewarding? You can suggest a tip that will go to this person. Check how to do it in a simple way. No coding background is needed.**
 
-![Treasury Tip Mechanism](/images/blog_post_cover-tips.png)
+![Treasury Tip Mechanism](../../static/images/blog_post_cover-tips.png "")
 
 ## What are Treasury tips?
 
@@ -51,23 +51,23 @@ You can sign up using your email or Web3 account. You can go with your email, bu
 
 2. Choose the right network (Polkadot or Kusama).
 
-![BrightTreasury mockup](/images/change_net.png)
+![BrightTreasury mockup](../../static/images/change_net.png "")
 
 3. Click on the Tips section on the menu, then click the “Create tip” button.
 4. Fill out the form. Let's go through it right now:
 
-![Create tip BrightTreasury](/images/create_tip_form_blank.png)
+![Create tip BrightTreasury](../../static/images/create_tip_form_blank.png "")
 
 * There are two options: “I want to propose” and “I want to tip”. The latter is enabled for a tipper’s account holders. At this moment only Council members have that account. So if you are not a part of the Council, click on “I want to propose”.
 
-![Tipping two options](/images/tip_options.png)
+![Tipping two options](../../static/images/tip_options.png "")
 
 * Now you can provide the title of your Tip suggestion. For example: “Reward for a series of YouTube videos about developing in Substrate”.
 * Then you enter the beneficiary Web3 address.
 * Now you can provide a reason – it should be concise because it is going to be stored in the chain.
 * The deposit will be calculated automatically based on the number of bytes of the provided reason.
 
-![Create a treasury tip](/images/create_tip-1.png)
+![Create a treasury tip](../../static/images/create_tip-1.png "")
 
 5. When the form is ready, click “create” and the app will take care of the transaction. Naturally, you have to have some funds in your Web3 account to cover the bond. 
 6. When the transaction is done, your tip will immediately show on the Tips section on BrightTreasury. Congrats!

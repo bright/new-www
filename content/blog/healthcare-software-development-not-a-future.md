@@ -14,7 +14,7 @@ language: en
 ---
 **Digital transformation in healthcare is not just welcomed. It is needed. Global health challenges have to be globally addressed by tech. For patients and medical staff’s sake. Are you a startup founder? Are you ready to join the eHealth movement?**
 
-![telemedicine](/images/healthcare_in_post.png)
+![telemedicine](../../static/images/healthcare_in_post.png "")
 
 ## COVID-19 influence on healthcare tech
 
@@ -41,4 +41,4 @@ These statistics show the top directions that healthcare has to follow.
 
 Do you have an idea for a healthcare app? Now is the time for custom software development. This is the way to make your idea a worthwhile tool that could assist medical staff and patients around the world. Customization and flexibility are crucial in this unique process. Learn more about [healthcare custom software development](/blog/how-to-develop-a-healthcare-app-startup-owner-perspective/).
 
-<div class='block-button'><h2>Looking for a healthcare software development company?</h2><div>You’ve come to the right place! Since 2012 we have developed eHealth products for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
+<div className="block-button"><h2>Looking for a healthcare software development company?</h2><div>You’ve come to the right place! Since 2012 we have developed eHealth products for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>

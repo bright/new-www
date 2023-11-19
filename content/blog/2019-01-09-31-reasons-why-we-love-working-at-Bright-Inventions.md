@@ -31,6 +31,6 @@ For me, personally, the initiative was a time to reflect on last 2 years and rea
 
 I am always saying that the future of work is all about people, the people feeling connected to the culture of their company and the vision of their organisation.  Job is much more than a pay cheque. It is a place you go to improve your skill set, contribute to the greater good, and collaborate with other awesome people. And that is the case of our bright success. We are surrounded by Bright People every day.
 
-![31 reasons why we love working at Bright Inventions](/images/31_reasons_why_we_like_working_at_Bright_Inventions.png)
+![31 reasons why we love working at Bright Inventions](../../static/images/31_reasons_why_we_like_working_at_Bright_Inventions.png "")
 
 Bright New Year Everyone! Let's make 2019 the best year ever! 

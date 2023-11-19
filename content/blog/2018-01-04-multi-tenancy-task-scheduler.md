@@ -25,7 +25,7 @@ Last time I showed [how to extend Spring default request handler adapter](/blog/
 * reject requests after the maximum queue size is reached
 * interrupt processing of a request upon an upstream subscription disposal
 
-<div class="image">![tea](../../static/images/tea.png "undefined")</div>
+<div className="image">![tea](../../static/images/tea.png "undefined")</div>
 
 ## Tenant task coordinator execute method
 

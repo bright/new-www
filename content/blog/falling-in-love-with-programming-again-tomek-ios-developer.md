@@ -17,7 +17,7 @@ language: en
 ---
 **Tomek is a Senior iOS Developer with over 5 years of experience. His initial career, as a nuclear power engineer, guided him toward programming. Learn more about his approach to [mobile development](/our-areas/mobile-app-development/), and the iOS trends he observes. Also, find out how Tomek overcame job burnout that almost took away his passion for programming.**
 
-<div class="image">![Tomek, iOS Developer](../../static/images/brightstorytomeklcollageteam.png "Tomek, iOS Developer")</div>
+<div className="image">![Tomek, iOS Developer](../../static/images/brightstorytomeklcollageteam.png "Tomek, iOS Developer")</div>
 
 ## You studied Nuclear Power Engineering and Nuclear Physics. How did you end up becoming an iOS developer?
 
@@ -29,7 +29,7 @@ So I decided to study **Nuclear Power Engineering** at Warsaw University of Tech
 
 At my first full-time job, **I had a chance to build a power plant simulator**. I felt so limited because **I didn’t have access to the source code**. It was a constant struggle to work with logic blocks when you didn’t have access to the underlying algorithm. I tried to manage on my own, looking for reasons for problems. In the end, finding solutions felt super satisfying. I even **wrote my first commercial application to improve power plant simulations**. I was going deeper and deeper into programming.
 
-<div class='block-button'><h2>Do you want to join Tomek?</h2><div>We are looking for iOS developers. Work with Tomek and develop iOS applications for global FoodTech company.</div><a href="/jobs/senior-ios-developer/"><button>apply and join our team</button></a></div>
+<div className="block-button"><h2>Do you want to join Tomek?</h2><div>We are looking for iOS developers. Work with Tomek and develop iOS applications for global FoodTech company.</div><a href="/jobs/senior-ios-developer/"><button>apply and join our team</button></a></div>
 
 What’s more, my two friends were programming in iOS. So I started to learn with them. We even **developed an app for Warsaw University**. At that time the entry threshold to iOS development was high because you had to buy expensive Apple devices. So more people chose Android development because they already had a computer with Windows or Linux to work on. That’s why **we felt it might be easier to establish ourselves in iOS development because the competition would be lower**. 
 
@@ -39,7 +39,7 @@ Finally, I decided to focus completely on programming. I moved to Northern Polan
 
 **People**. Maybe I am just lucky, but **I’ve always come across iOS developers who were true enthusiasts**. I don’t say that it is possible only after choosing iOS development. ;) I must admit, though, that I’ve met so many iOS devs that really seem to love their job as much as I do. It’s **great to have the possibility to share the same passion with others**.
 
-<div class="image">![Tomek's quote on iOS developers](../../static/images/tomek_quote_ios_devs2.png "Tomek's quote on iOS developers")</div>
+<div className="image">![Tomek's quote on iOS developers](../../static/images/tomek_quote_ios_devs2.png "Tomek's quote on iOS developers")</div>
 
 I also enjoy the fact that when you write a mobile app, **you can quickly see the results of your work**. Quick gratification is really powerful in this case. I can instantly see the UI that was born from my code.
 
@@ -57,7 +57,7 @@ Then I reached out to Ula and after going through the recruitment process I join
 
 A new job with great people. **The people you work with are key**. You know well, how nice and friendly people are here. So it helped me get back on track.
 
-<div class="image">![Bright Inventions' team](../../static/images/brightteamtomekl.png "Bright Inventions' team")</div>
+<div className="image">![Bright Inventions' team](../../static/images/brightteamtomekl.png "Bright Inventions' team")</div>
 
 ## If you had to start an iOS project from scratch, with no technological debt, what tools would you use?
 
@@ -65,7 +65,7 @@ There isn’t one simple answer to that question. **It depends on the product I 
 
 Yet **if the product targets a smaller group of tech-savvy users I would base it on Swift UI**. Having in mind that it is still a young technology, **you cannot cross off good old UIKit completely**.
 
-<div class="image">![Tomek's quote on iOS libraries](../../static/images/tomek_quote_libs2.png "Tomek's quote on iOS libraries")</div>
+<div className="image">![Tomek's quote on iOS libraries](../../static/images/tomek_quote_libs2.png "Tomek's quote on iOS libraries")</div>
 
 What I would try to do, no matter the type of product, is to **avoid external libraries to eliminate dependencies**. It’s better to have control of our code, as much as reasonably possible. I would first explore iOS system libraries and try to utilize them for our needs.
 
@@ -77,7 +77,7 @@ Great new technologies are here to discover such as **Swift UI and generally hig
 
 Another trend is **multiplatform apps**. You can write code once and it will work (with a few alterations) on iPhones as well as iPads and Macs. You can even write an application for iPad on iPad.
 
-<div class="image">![Tomek's photo](../../static/images/brightpassion_tomek2.png "Tomek's photo")</div>
+<div className="image">![Tomek's photo](../../static/images/brightpassion_tomek2.png "Tomek's photo")</div>
 
 ## Tell us more about projects you work on.
 
@@ -87,7 +87,7 @@ Another project is a **customizable workflow management** **solution** that help
 
 ## I know you love to travel. Where have you been so far in 2023?
 
-<div class="image">![Tomek's passion](../../static/images/brightpassion_tomek.png "Tomek's passion")</div>
+<div className="image">![Tomek's passion](../../static/images/brightpassion_tomek.png "Tomek's passion")</div>
 
 My wife planned a **surprise birthday trip** for me. We went to **Wrocław**. Another gift for me was joining the barista workshop there. The art of making coffee is one of my passions.
 
@@ -95,4 +95,4 @@ Also, we’ve just come back from **Vietnam**. We spent three weeks there. It wa
 
 We will see what other adventures this year brings…
 
-<div class='block-button'><h2>Ready to join Tomek?</h2><div>Check out our openings. Build solutions for startup from Israel, USA or Germany.</div><a href="/career/"><button>check career opportunities</button></a></div>
+<div className="block-button"><h2>Ready to join Tomek?</h2><div>Check out our openings. Build solutions for startup from Israel, USA or Germany.</div><a href="/career/"><button>check career opportunities</button></a></div>

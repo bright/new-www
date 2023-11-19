@@ -17,7 +17,7 @@ language: en
 ---
 **Kotlin developer. Motorbike lover. Got his first IT job because he was the only one in the room who solved a Java puzzle. Say hi to Piotrek – a Backend Developer at Bright Inventions.**
 
-![Backend Developer at Bright Inventions](/images/brightstory_piotr_backend_dev.png)
+![Backend Developer at Bright Inventions](../../static/images/brightstory_piotr_backend_dev.png "")
 
 ## Why did you decide to become a programmer?
 
@@ -41,7 +41,7 @@ I came as a Java developer knowing that I had to learn Kotlin because this is th
 
 I work on a project dedicated to the hospitality industry. **I am a part of a team that is delivering Android applications used by thousands of restaurants in Israel and a couple of European countries.** Working with an international client gives the best opportunity to speak, write and learn in English. Before joining Bright Inventions my English skills were fine but now there are definitely more than that. Everyday communication in English obviously makes a difference.
 
-![Backend Developer at Bright](/images/brightstorypiotr3.png)
+![Backend Developer at Bright](../../static/images/brightstorypiotr3.png "")
 
 ## So, you love Kotlin now. If I asked you to mention top 3 benefits of Kotlin, what would they be?
 
@@ -55,7 +55,7 @@ Apart from that, **a great advantage is checked exceptions**. In Kotlin we don�
 
 **I still learn and will be learning.** I try to do it systematically. Of course, it doesn’t always go as planned. Sometimes I need to have some extra rest after a day at work or simply go to ride on my motorcycle. Yet I’ve bought courses that I wanna go through. I have also made a list of things I want to learn. The problem is that this list is still growing. 😉  **Right now I am doing an architectural course, then I plan to do a course about testing and after that about the legacy projects. This is the plan for a few next months.** 
 
-![Backend Developer at Bright Inventions](/images/brightstorypiotr4.png)
+![Backend Developer at Bright Inventions](../../static/images/brightstorypiotr4.png "")
 
 ## What advice do you have for future junior software developers?
 

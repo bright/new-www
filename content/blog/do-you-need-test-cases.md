@@ -14,7 +14,7 @@ language: en
 ---
 There is a trend to write test cases. If you are a tester, write test cases. The more the better… But is it really always a good idea?
 
-<div class="image">![Test cases - do you need them?](../../static/images/blogpost_test_case_preview.png "undefined")</div>
+<div className="image">![Test cases - do you need them?](../../static/images/blogpost_test_case_preview.png "undefined")</div>
 
 I'm not a test case enthusiast. I worked on many projects during my career and noticed that the value provided by test cases differs between projects. Sometimes it’s valuable and important, but sometimes it doesn’t make sense and is even a waste of time. I would like to show you why test cases are not always necessary.
 

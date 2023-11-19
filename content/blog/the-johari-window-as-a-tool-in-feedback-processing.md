@@ -18,7 +18,7 @@ The [Johari Window](https://kevan.org/johari) is a communication model developed
 
 **The Johari Window is 4-box matrix. The first quadrant is the open area (also known as the arena), then we have the blind spot, the third one is the hidden area (also known as the facade) and the fourth one is the unknown**. **Each quadrant offers us a different approach to self-development and contains information about our self-awareness and how others see us.** The information can be transferred from one area to another through mutual trust. Let us now take a deeper look at each of them. 
 
-<div class="image">![johari window ula ](../../static/images/johari-window-by-ula.png "undefined")</div>
+<div className="image">![johari window ula ](../../static/images/johari-window-by-ula.png "undefined")</div>
 
 ## **\#1 OPEN AREA** 
 
@@ -42,7 +42,7 @@ We are all good or very good at something and other people know about it. But th
 
 Remember that people we should ask feedback for are not only people around us, who works with us or live with us, these people are also ourselves. **We should ask ourselves for self-feedback and focus on our own weaknesses and areas we hide from others.** Sometimes it is really freeing to share them with others. People around you can help you overcome your imperfections, change them or just accept them. 
 
-<div class="image">![johari window harry potter ](../../static/images/harry-potter-johari-window.jpeg "undefined")</div>
+<div className="image">![johari window harry potter ](../../static/images/harry-potter-johari-window.jpeg "undefined")</div>
 
 ###### Source: https://www.barbaravevers.com/2018/11/character-development-using-johari.html
 

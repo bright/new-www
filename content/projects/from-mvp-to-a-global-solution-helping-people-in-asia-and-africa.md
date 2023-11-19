@@ -74,13 +74,13 @@ In regions such as Africa and Asia, far removed from the global media spotlight 
 
 Technology must become a handful tool for organizations aiming to help. **The Card Tracker System is one of the humanitarian projects harnessing the power of technology for aid**.
 
-<div class="image">![Natural disaster](../../static/images/natural_disaster-girl.png "Natural disaster")</div>
+<div className="image">![Natural disaster](../../static/images/natural_disaster-girl.png "Natural disaster")</div>
 
 <TitleWithIcon sectionTitle="the story behind Card Tracking System" titleIcon="/images/icon_title_products.svg" titleIconAlt="The story behind Card Tracking System" />
 
 Our client, **one of the leading global humanitarian agencies, approached us looking to create a system that would improve their payment instrument distribution process**. As part of the agency's ongoing effort to support people in need in some of our planet's poorest regions, **the agency distributes payment instruments (prepaid cards, SIM cards, vouchers, etc.) to local communities around the globe**. This, in turn, **allows beneficiaries to acquire essential items** like food, hygiene products, and other necessities for their families.
 
-<div class="image">![QR code](../../static/images/qr_code.png "QR code")</div>
+<div className="image">![QR code](../../static/images/qr_code.png "QR code")</div>
 
 The client required a **system that would follow the payment instruments at every stage** – all the way from the point of order to distributing them to the beneficiaries and beyond. The system was required to show the cards' status to ensure they fulfilled their purpose: giving resources to families living below the poverty line. Any fraudulent activity was to be tracked by the system and dealt with accordingly by the staff on the ground.
 
@@ -100,7 +100,7 @@ We had the privilege of **starting the whole development process from scratch**,
 
 The Card Tracking System was **developed as an MVP**. The goal was to build crucial features, release the product, and quickly verify if it meets the clients and their users' expectations. As the **feedback for the initial MVP was positive**, we started further work on delivering the full version of the app.
 
-<div class="image">![Payment with phone](../../static/images/payment_phone.png "Payment with phone")</div>
+<div className="image">![Payment with phone](../../static/images/payment_phone.png "Payment with phone")</div>
 
 <TitleWithIcon sectionTitle="responding to unique challenges refugees have to encounter" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Responding to unique challenges refugees have to encounter" />
 
@@ -116,7 +116,7 @@ We also had to **account for people without the proper ID required by the local 
 
 At Bright Inventions, **we are honored that we could develop a card tracking system that supports the daily jobs of humanitarian agency employees** helping them to organize aid during missions in areas affected by natural disasters, climate change, or wars. The local people can use the cards distributed to meet their most basic needs. **Our client's efforts not only result in helping people in the crises of poverty but also help to stimulate the local economies**.
 
-<div class="image">![Shopping](../../static/images/shopping_girl_women.png "Shopping")</div>
+<div className="image">![Shopping](../../static/images/shopping_girl_women.png "Shopping")</div>
 
 **A pilot of the system was launched in 2020** in one of the Middle Eastern countries where the agency operates. The reception has been positive, and **the system was rolled out across other countries in the Middle East and Africa**. 
 

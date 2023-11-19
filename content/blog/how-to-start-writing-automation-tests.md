@@ -13,7 +13,7 @@ language: en
 ---
 **You are a manual tester and you would like to start writing automation tests but you don’t know how to start. You even learn some programming language but what next? How to start writing automation tests? How to choose the right language and framework? Which test should be your first automated one? Here is my guide on how to switch from manual to automation tester.**
 
-![How to Start Writing Automation Tests](/images/gosia_automation_tests_blog.png)
+![How to Start Writing Automation Tests](../../static/images/gosia_automation_tests_blog.png "")
 
 ## How I started writing UI automation tests
 
@@ -57,7 +57,7 @@ To sum up, firstly you have to think if your test cases from the test plan, whic
 
 When you finish your basic training and choose a framework then you can finally start writing your first test. Each framework has documentation on how to install it and how to write the first test. If it’s not enough for you, **I recommend finding some repository with automation tests in your chosen framework and just cloning it to see how they set up it and written tests**. You can also look for some videos on YouTube. If you want to use JavaScript, I think Playwright is worth considering. They have a great documentation with a [Getting Started section](https://playwright.dev/docs/intro).
 
-![Playwright](/images/playwright.png)
+![Playwright](../../static/images/playwright.png "")
 
 ## Is it worth going on a paid course for Software Tester?
 

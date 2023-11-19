@@ -21,7 +21,7 @@ I would like to describe three different ways of deploying Smart Contracts. The 
 ### Via web interface
 
 When you open parity UI you need first enable Contracts tab in Settings tab (it's disabled by default). If you open Settings you should see:
-![Enable contracts tab on Parity UI](/images/smart-contract-create-test-and-deploy/enable-contracts-feature-on-parity-ui.png)
+![Enable contracts tab on Parity UI](../../static/images/smart-contract-create-test-and-deploy/enable-contracts-feature-on-parity-ui.png "")
 
 please check 
 

@@ -25,19 +25,19 @@ To set up multiple environments in iOS application I use **build configurations*
 
 You can define build configurations in the project settings (\[PROJECT]→Info).
 
-![image](/images/ios-google-configuration-per-environment/build-configurations.png)
+![image](../../static/images/ios-google-configuration-per-environment/build-configurations.png "")
 
 ### User-Defined settings
 
 Build configurations let you easily use different **User-Defined settings** for each configuration. You can define these at the bottom of target build settings (\[TARGET]→Build Settings).
 
-![image](/images/ios-google-configuration-per-environment/user-defined-settings-1.png)
+![image](../../static/images/ios-google-configuration-per-environment/user-defined-settings-1.png "")
 
-![image](/images/ios-google-configuration-per-environment/user-defined-settings-2.png)
+![image](../../static/images/ios-google-configuration-per-environment/user-defined-settings-2.png "")
 
 Respectively, you can use User-Defined settings in the **Info.plist** file.
 
-![image](/images/ios-google-configuration-per-environment/info-plist.png)
+![image](../../static/images/ios-google-configuration-per-environment/info-plist.png "")
 
 In the example above, the application will use different `FacebookAppID` properties for each build configuration. `FacebookAppID` property is automatically used by the [Facebook SDK for iOS](https://developers.facebook.com/docs/ios/), but you can also refer to these values directly in the code:
 
@@ -54,13 +54,13 @@ One might think that you can do the same with `GoogleService-Info.plist` configu
 
 Considering there can be only one `GoogleService-Info.plist` file and it is not possible to read User-Defined settings from custom .plist files, how would you set up different Google configuration for each environment?
 
-![image](/images/ios-google-configuration-per-environment/sad.jpeg)
+![image](../../static/images/ios-google-configuration-per-environment/sad.jpeg "")
 
 ## Run Scripts to the rescue
 
 Fortunately, you can add new **Run Script Phase** to target Build Phases that will **copy a proper Google configuration file** to default `GoogleService-Info.plist` place.
 
-![image](/images/ios-google-configuration-per-environment/run-script-phase-1.png)
+![image](../../static/images/ios-google-configuration-per-environment/run-script-phase-1.png "")
 
 The script is really simple and it only copies a plist file from Resources using a predefined `CONFIGURATION` variable that points to the build configuration. In the build configurations listed above, it replaces `GoogleService-Info.plist` file content with one of the following files stored in Resources:
 
@@ -80,7 +80,7 @@ Note that `src/GoogleService-Info.plist` must be added to target **Copy Bundle R
 
 The Run Script that updates `GoogleServiceInfo.plist` file must be dragged **before Copy Bundle Resources** phase. Otherwise, it will not work because the default Google configuration file will be used.
 
-![image](/images/ios-google-configuration-per-environment/run-script-phase-2.png)
+![image](../../static/images/ios-google-configuration-per-environment/run-script-phase-2.png "")
 
 ## Alternatives
 
@@ -94,7 +94,7 @@ To keep different Google configuration for each environment you can read a prope
 
 To determine build configuration at runtime you can use **Other Swift Flags** in target Build Settings. For each build configuration add a flag with environment starting with `-D`, like `-DDEVELOP`.
 
-![image](/images/ios-google-configuration-per-environment/other-swift-flags.png)
+![image](../../static/images/ios-google-configuration-per-environment/other-swift-flags.png "")
 
 Then you can easily determine build configuration at runtime:
 
@@ -110,4 +110,4 @@ Then you can easily determine build configuration at runtime:
 
 This post was inspired by [this StackOverflow topic](https://stackoverflow.com/q/34067120/1570496).
 
-<div class='block-button'><h2>We are looking for iOS Developers</h2><div>Build with us the iOS application that will impact how Just Eat shapes the retail world. Or work for our other clients representing industries such as FinTech, Blockchain, HealthTech, and Logistics.</div><a href="/jobs/senior-ios-developer"><button>Apply and join our team</button></a></div>
+<div className="block-button"><h2>We are looking for iOS Developers</h2><div>Build with us the iOS application that will impact how Just Eat shapes the retail world. Or work for our other clients representing industries such as FinTech, Blockchain, HealthTech, and Logistics.</div><a href="/jobs/senior-ios-developer"><button>Apply and join our team</button></a></div>

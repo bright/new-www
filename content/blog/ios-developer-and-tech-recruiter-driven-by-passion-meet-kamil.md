@@ -17,13 +17,13 @@ language: en
 ---
 **Although he was programming from the age of 11, he wanted to become a lawyer. Eventually, he listened to his true calling and followed a software engineering path. Check Kamil’s iOS development career story with some unusual Android stops on the way. Also, find out what he is seeking from candidates during interviews.**
 
-<div class="image">![iOS developer career story](../../static/images/brightstorykamilcollage.png "iOS developer career story")</div>
+<div className="image">![iOS developer career story](../../static/images/brightstorykamilcollage.png "iOS developer career story")</div>
 
 ## You recently came back from the iOS event NSSpain. How was it?
 
 Wine, Spain and iOS? Couldn't be better! I went there with Filip from the team, we had the opportunity to share a 4 hour drive from Barcelona to Logrono. The best part of it is that **it was a networking-first event**. There were multiple occasions to meet other iOS developers. **We were fortunate to bump into many speakers**, but when we did, honestly saying, we didn't yet know who they were! For example, we had a great conversation with a guy on the registration line about why the queue worked  the way it was and if it was optimal. Yeah we are nerds. What a shocker it was when later that day he stepped on a scene and we finally recognized it was [Swift Lee](https://www.avanderlee.com/). 
 
-<div class="image">![Kamil and FIlip at NSSpain](../../static/images/kamil_nsspain_travel.png "Kamil and FIlip at NSSpain")</div>
+<div className="image">![Kamil and FIlip at NSSpain](../../static/images/kamil_nsspain_travel.png "Kamil and FIlip at NSSpain")</div>
 
 <center>Kamil and FIlip at NSSpain</center>
 
@@ -33,7 +33,7 @@ Not yet, but I have to admit **I am tempted**. I still have an iPhone 13. I was 
 
 In general I think I agree with what [MKBHD](https://www.youtube.com/user/marquesbrownlee) recently said in one of his videos. **New iPhones are like porsche, each generation is an improvement, but not a revolution**. Over longer periods of time – you can really appreciate what changed. Are two years sufficient? I think that's a question that everyone needs to answer themselves.
 
-<div class='block-button'><h2>Do you want to work with Kamil?</h2><div>We are looking for an experienced iOS Developer whose main goal will be supporting us in building the powerful high profile iOS application that will impact how Just Eat shapes the retail world.</div><a href="https://brightinventions.pl/jobs/senior-ios-developer/"><button>apply now</button></a></div>
+<div className="block-button"><h2>Do you want to work with Kamil?</h2><div>We are looking for an experienced iOS Developer whose main goal will be supporting us in building the powerful high profile iOS application that will impact how Just Eat shapes the retail world.</div><a href="https://brightinventions.pl/jobs/senior-ios-developer/"><button>apply now</button></a></div>
 
 ## Is it true that you have been programming for half of your life?
 
@@ -55,7 +55,7 @@ However, during student internships, I could see that **it might be tricky for m
 
 **In programming, you don’t need pricey courses. The only true limitation is You**. If you are determined, consistent, curious and open minded – you can excel in your area (no pun intended). Also, **who am I kidding – I love programming**, so eventually I chose Computer Studies as my Master’s.
 
-<div class="image">![When the storm comes – there are no crowds in Rome!](../../static/images/kamil_travel_rome.png "When the storm comes – there are no crowds in Rome!")</div>
+<div className="image">![When the storm comes – there are no crowds in Rome!](../../static/images/kamil_travel_rome.png "When the storm comes – there are no crowds in Rome!")</div>
 
 <center>When the storm comes – there are no crowds in Rome!</center>
 
@@ -73,7 +73,7 @@ We work on a **food delivery app for the Israeli market** that focuses on both p
 
 **We have proved our expertise more than once, so they really listen to our recommendations**. It enables us to implement new solutions from Apple naturally while business knows it will be beneficial to them. It also allows us to be truly part of the process, aligning it to people, and not squeeze people inside some narrow box straight from the Scrum guide.
 
-<div class="image">![Bright Inventions’ team retreat in Stockholm.](../../static/images/kamil_team.png "Bright Inventions’ team retreat in Stockholm.")</div>
+<div className="image">![Bright Inventions’ team retreat in Stockholm.](../../static/images/kamil_team.png "Bright Inventions’ team retreat in Stockholm.")</div>
 
 <center> Bright Inventions’ team retreat in Stockholm. </center>
 
@@ -85,7 +85,7 @@ What if a solution that everyone agreed upon only tackled symptoms not cause? Or
 
 Another important thing is **whether you keep on growing as an iOS developer**. It might sound harsh – but if you don't move forward with technology, then you are not only left behind, you move backward. This is especially evident in iOS. You can be an iOS developer who never wrote a single code in SwiftUI. Who doesn't know about Combine and is oblivious to Tasks, and Actors. Maybe never heard of Macros and SwiftData. You can continue doing your work like that for years, and suddenly your client asks you if they should switch to SwiftUI, and you have no idea what to say. 
 
-<div class="image">![Quote on carer growth](../../static/images/kamil_quote_ios.png "Quote on carer growth")</div>
+<div className="image">![Quote on carer growth](../../static/images/kamil_quote_ios.png "Quote on carer growth")</div>
 
 **It’s really hard to argue over the benefits of new technologies if one doesn't know them**. And then it's almost impossible to push the product forward. Also without knowledge it’s tricky to distinguish good ideas from miss-used ones. When someone finds a hammer – suddenly everything around looks like a nail. You can end up in RxSwift hell where no one knows what’s going on, or with legacy code that no one wants to work with.
 
@@ -93,7 +93,7 @@ Another important thing is **whether you keep on growing as an iOS developer**. 
 
 Yes, **I would admire them even more. I mean people who want to catch up in their free time because they are genuinely passionate about it**. You have to love iOS development, stay up-to-date, test new features and versions, etc., regardless of what you do at work. **When someone does it only because they’re forced by their job, that’s not our perfect match**. 
 
-<div class="image">![Quote on automation](../../static/images/kamil_quote_thoughts.png "Quote on automation")</div>
+<div className="image">![Quote on automation](../../static/images/kamil_quote_thoughts.png "Quote on automation")</div>
 
 **iOS developers at Bright Inventions are passionate about their work. I know it sounds super cliche, but it’s true**. When looking at tedious tasks – our first thought is how we can automate it. Second one is – how we can improve it. We follow every news, update, attend iOS conferences etc. 
 
@@ -109,4 +109,4 @@ Yes, of course! **I recently made my own prawn tagliatelle**. It takes some time
 
 My passion for homemade pasta started from the cooking classes I took with my girlfriend. We were looking for new hobbies and we decided to try it. It inspired us to try to prepare some food from around the world. We enjoy not only the better taste but the whole experience. It's a great way to spend time preparing meals together. 
 
-<div class='block-button'><h2>Join Kamil</h2><div>We are looking for an experienced iOS Developer whose main goal will be supporting us in building the powerful high profile iOS application that will impact how Just Eat shapes the retail world.</div><a href="https://brightinventions.pl/jobs/senior-ios-developer/"><button>apply now</button></a></div>
+<div className="block-button"><h2>Join Kamil</h2><div>We are looking for an experienced iOS Developer whose main goal will be supporting us in building the powerful high profile iOS application that will impact how Just Eat shapes the retail world.</div><a href="https://brightinventions.pl/jobs/senior-ios-developer/"><button>apply now</button></a></div>

@@ -14,13 +14,13 @@ language: en
 ---
 **What does it mean to work with a backend development company based in Poland? What you should know about Polish backend programmers? Get insight into the world of backend development in Poland.**
 
-![backend development company Poland](/images/backend_development_poland-cover.png)
+![backend development company Poland](../../static/images/backend_development_poland-cover.png "")
 
 ## The Polish software development industry is Europe’s one of the top
 
 The Polish software development industry, with almost €9bn in revenue, is [ranked 7th among all European Union countries](https://www.ibisworld.com/poland/industry-statistics/software-development/3595/). It has been in this position since 2017. Despite pandemic turbulences, the Polish software development industry remained strong in the top 10 of the European Union.
 
-<div class='block-button'><h2>Looking for a Polish backend company?</h2><div>You’ve come to the right place. Since 2012 we have built products for clients from Germany, Norway, Israel, UK and more. </div><a href="/start-project"><button>Let's talk about your product</button></a></div>
+<div className="block-button"><h2>Looking for a Polish backend company?</h2><div>You’ve come to the right place. Since 2012 we have built products for clients from Germany, Norway, Israel, UK and more. </div><a href="/start-project"><button>Let's talk about your product</button></a></div>
 
 ## Polish backend developers use modern stack and tools
 
@@ -28,7 +28,7 @@ Polish software developers are well known for their impressive programming knowl
 
 <center>
 
-![backend development Poland](/images/hackerrank_polish_developers.png)
+![backend development Poland](../../static/images/hackerrank_polish_developers.png "")
 
 </center>
 
@@ -52,7 +52,7 @@ Also, it is worth mentioning that the Polish school system requires students to 
 
 ## Polish backend developers are not afraid to work with cloud infrastructure
 
-![Polish backend developers](/images/cloud-remote-devops.png)
+![Polish backend developers](../../static/images/cloud-remote-devops.png "")
 
 **Backend Developers and DevOps Engineers work closely according to DevOps methodology**. Backend developers at Bright Inventions are skilled to contribute to infrastructure which makes the development process more efficient. 
 
@@ -68,8 +68,8 @@ For example, the time difference between New York and Warsaw is 6 hours which ma
 
 ## Polish backend devs are experienced and full of passion
 
-![Polish backend developers](/images/blogpost_brightstory_piotr_b3.png)
+![Polish backend developers](../../static/images/blogpost_brightstory_piotr_b3.png "")
 
 Polish programmers are motivated to self-develop and follow best practices at work. As an example, you can dive into the [story of Piotr – a backend developer](/blog/piotr-team-leader-technology-evangelist) who has over 12 years of experience in software development.
 
-<div class='block-button'><h2>Looking for a Polish backend company?</h2><div>We offer custom software development for organizations of all shapes and sizes. Our clients come from multiple industries, including FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/start-project"><button>Let's talk about your product</button></a></div>
+<div className="block-button"><h2>Looking for a Polish backend company?</h2><div>We offer custom software development for organizations of all shapes and sizes. Our clients come from multiple industries, including FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/start-project"><button>Let's talk about your product</button></a></div>

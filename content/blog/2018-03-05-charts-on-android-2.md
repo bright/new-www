@@ -17,7 +17,7 @@ language: en
 
 In the [previous post](/blog/charts-on-android-1/) I did show you how to make a basic setup of Android linear chart using [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) library. Now I'll show you some features I found useful.
 
-![tuning](/images/radek/tuning.jpg)
+![tuning](../../static/images/radek/tuning.jpg "")
 
 
 ## Custom handling of chart tap event
@@ -42,7 +42,7 @@ lineChart.setOnChartValueSelectedListener(object : OnChartValueSelectedListener 
 })
 ```
 
-![highlight chart](/images/radek/chart_highlight.png)
+![highlight chart](../../static/images/radek/chart_highlight.png "")
 
 If you want to display some view over selected Entry you may take advantage of the `Highlight` object in the `onValueSelected` method and get Entry's coordinates on the screen by accsessing `xPx` and `yPx`properties and set them to the view.
 
@@ -82,7 +82,7 @@ lineChart.legend.isEnabled = false
 
 Unfortunately, it does not make the job done. As you can see below there are still space between the chart and the parent view left.
 
-![default viewport](/images/radek/chart_viewport_1.png)
+![default viewport](../../static/images/radek/chart_viewport_1.png "")
 
 How to disable the chart padding? The library provides us a simple way to modify chart's `Viewport`. In this case call method `setViewPortOffsets(0f,0f,0f,0f)` on the chart object. It sets chart's offset (padding) to 0. Just remember all viewport modifications have to be called **after** data is set up.
 
@@ -92,7 +92,7 @@ It's a solution you need to be cautious about. What does the documentation say a
 
 Why? During a short adventure with chart's viewport I came across one problematic issue. Offset seemed to be recalculated independently and every other view besides the chart itself didn't know about the change. This may cause some render problems, for example like this:
 
-![viewport issue](/images/radek/chart_viewport_2.png) 
+![viewport issue](../../static/images/radek/chart_viewport_2.png "") 
 
 Displayed value is the mentioned "other view" that does not know about the offset change, so edge values are cut. Keep this in mind modifying viewport! For more viewport modifications check out the project's [wiki page](https://github.com/PhilJay/MPAndroidChart/wiki/Modifying-the-Viewport).
 
@@ -137,4 +137,4 @@ yogurtDataSet.setDrawIcons(true)
 
 Thank's to that icons are displayed over specified entries:
 
-![icons over values](/images/radek/chart_icons_1.png)
+![icons over values](../../static/images/radek/chart_icons_1.png "")

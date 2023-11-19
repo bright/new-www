@@ -16,7 +16,7 @@ language: en
 ---
 **Are you looking for an introduction to Domain-Driven Design (DDD)? [Michał](/blog/beyond-code-meet-michal-senior-backend-developer/), a Senior Backend Dev with over 8 years of experience, gives you answers to the most popular Google searches about DDD. If you are a Domain-Driven Design newbie – keep on reading. 😉**
 
-<div class="image">![Domain-Driven Design Explained](../../static/images/ddd_blog_cover.png "undefined")</div>
+<div className="image">![Domain-Driven Design Explained](../../static/images/ddd_blog_cover.png "undefined")</div>
 
 ## What is Domain-Driven Design? With example.
 
@@ -28,7 +28,7 @@ This is where **tactical DDD** kicks in. It brings a group of patterns and relat
 
 It allows us to detach things like communication details (if this is REST, GRPC, or anything else), persistence (SQL or NoSQL database), or form of authentication from the domain itself. 
 
-<div class="image">![Strategic and tactical levels of DDD](../../static/images/two_levels_ddd.png "undefined")</div>
+<div className="image">![Strategic and tactical levels of DDD](../../static/images/two_levels_ddd.png "undefined")</div>
 
 <div class="important-info"><h2>Let’s take applying taxes as an example</h2><div>Imagine our software is responsible for selling food. Depending on ingredients we might have higher or lower tax. If we will separate tax operations like calculating gross price, from technical details like how exactly we are retrieving tax value and from which database, we might be able to speak the same language in the code as with the domain experts. Our test cases for tax calculation might be readable by non-technical people while the storage can be easily changed e.g. due to performance reasons.</div></div>
 
@@ -50,7 +50,7 @@ As mentioned above **Domain-Driven Design starts way before we sit down and writ
 
 It might also happen that the main challenge of the organization sits outside of the processes we were asked to implement. If none of the mentioned cases are valid we can implement our business logic using DDD building blocks like [Entities](/blog/domain-driven-design-in-kotlin-entities-lifecycle-management/), Value Objects, Services and so on (all of the elements can be found directly in Eric Evans book or on the diagram presented there).
 
-<div class="image">![Model-Driven Design](../../static/images/ddd_graph.png "undefined")</div>
+<div className="image">![Model-Driven Design](../../static/images/ddd_graph.png "undefined")</div>
 
 ## What are Domain-Driven Design principles?
 
@@ -62,7 +62,7 @@ Firstly, we should be **focused on the business logic** and **base software desi
 
 Experts of certain domains can expect the engineers following DDD to ask a lot of questions which can make people tired. Business people only need to realize that such an approach of knowledge crunching is an important precondition before any code will be written. **The purpose is to avoid the huge cost of refactoring and reimplementing** and correcting our assumptions while we’re still working on a piece of paper.
 
-<div class="image">![DDD software agency](../../static/images/dev_team.png "undefined")</div>
+<div className="image">![DDD software agency](../../static/images/dev_team.png "undefined")</div>
 
 **When it comes to employees, it’s a bit different**. Firstly it highly depends on how many projects within that agency are led with DDD in mind. It might happen that only a few of them use goodies of Domain-Driven Design, while others are completely unrelated to that approach. 
 
@@ -74,7 +74,7 @@ It is hard to name something like a DDD tool, to be honest. One could name techn
 
 When it comes to a physical meeting with domain experts and facilitating on-site workshops, a whiteboard, sticky notes and markers can be treated as DDD tools. Finally, once we start implementing our software based on the previous visualization and requirements, our **IDEs** and **Code Editors** will become DDD tools.
 
-<div class="image">![Event storming DDD](../../static/images/event_storming_ddd.png "undefined")</div>
+<div className="image">![Event storming DDD](../../static/images/event_storming_ddd.png "undefined")</div>
 
 ## What DDD books do you recommend?
 
@@ -82,4 +82,4 @@ I will go first with the most obvious choice which is **“Domain-Driven Design:
 
 I would start with some blog posts and presentations as an introduction to DDD to get the basics, then move to some implementation examples in Your favorite technology and finally go to the Bible.
 
-<div class='block-button'><h2>We are looking for backend developers (TS, Node.js)</h2><div>Join our team and create better code with DDD. Check out our offer.</div><a href="/jobs/senior-backend-developer-typescript/"><button>Apply and join our team</button></a></div>
+<div className="block-button"><h2>We are looking for backend developers (TS, Node.js)</h2><div>Join our team and create better code with DDD. Check out our offer.</div><a href="/jobs/senior-backend-developer-typescript/"><button>Apply and join our team</button></a></div>

@@ -23,7 +23,7 @@ language: en
 ---
 **It happens quite often that we go with the flow and let our day be controlled by such things like notifications, emails, distractions from colleagues or countless meetings. But we often do not realise to what extent they all may affect our work and life, in general.** 
 
-<div class="image">![happy employees](../../static/images/blogpost_happy_people_bright.png "Happy employees")</div>
+<div className="image">![happy employees](../../static/images/blogpost_happy_people_bright.png "Happy employees")</div>
 
 **Our job satisfaction depends not only on whether we like what we do or not. It depends greatly on our daily habits outside the workplace environment**. It is not only determined by our knowledge, skills or competences, but also by our time and energy management, proper planning, prioritising and by our physical and mental capabilities. In fact, our job happiness depends substantially on the habit of mind we cultivate and everyday habits we are building all the time.
 
@@ -69,7 +69,7 @@ We all struggle to maintain focus in our workplace. But we can also train our br
 
 Sure, sleeping six hours one day is better than sleeping five hours. Doing three tasks at once is better than doing six tasks at once. Complaining twice a week is better than complaining every day. Planning one day of your week is better than not planning at all. But the point is to make it daily.  
 
-<div class="image">![Bright Inventions team](../../static/images/team_jacek.png "Bright Inventions team")</div>
+<div className="image">![Bright Inventions team](../../static/images/team_jacek.png "Bright Inventions team")</div>
 
 **We often create our own limits of being happy**, the limits we are often not aware of. That is why, cultivating positive mindset and practising fresh behaviours is so important to change our destructive routine. Train on maintaining focus, time management, adaptability, etc. It will help you stay productive in any disruptive and changing work environment. Acknowledge the real challenges and face them. 
 

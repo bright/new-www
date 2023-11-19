@@ -29,7 +29,7 @@ That is where the **[Domain Driven Design](/blog/domain-driven-design-explained-
 
 Take a look at the graph from well known DDD bible by Eric Evans. In the middle, we can see Entities and Value objects which both should contain data and business logic that manipulates that data. We need to remember that code-wise, **tactical domain-driven design stands in opposition to well-known anemic models** in which data and behavior are separated. 
 
-<div class='block-button'><h2>Work with domain driven design team</h2><div>Join DDD fans eager to work closely with business. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
+<div className="block-button"><h2>Work with domain driven design team</h2><div>Join DDD fans eager to work closely with business. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
 
 ## Entities
 
@@ -197,6 +197,6 @@ Wait, what happened? We need only two tests to verify if accepting and rejecting
 
 Kotlin language can be really helpful to express business logic in separation from technical aspects of our applications which is one of the core aspects of Domain Driven Design. Sealed classes sound like a perfect choice for Entities that have multiple states and different behavior depending on that state. Please bear in mind, however, that not every domain or subdomain will need such a mechanism. **There are still places and contexts in which introducing building blocks from tactical DDD will be overkill and won’t solve any real problem.**
 
-<center><div class="image">![domain driven design meme](../../static/images/meme_ddd.jpeg "Meme")</div></center>
+<center><div className="image">![domain driven design meme](../../static/images/meme_ddd.jpeg "Meme")</div></center>
 
-<div class='block-button'><h2>Work with domain driven design team</h2><div>Join DDD fans eager to work closely with business. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
+<div className="block-button"><h2>Work with domain driven design team</h2><div>Join DDD fans eager to work closely with business. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>

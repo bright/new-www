@@ -55,7 +55,7 @@ Let's play with *gradle* a bit to make it work.
 1. Ensure you're using at least [Android Gradle Plugin version 1.1](http://tools.android.com/tech-docs/unit-testing-support). Follow the link to set up Android Studio correctly. 
 2. Create test directory. Put unit test classes in java directory and put your resources file in res directory. Android Studio should mark them like follow: 
 
-   ![test-directory-structure](/images/test-directory-structure.png)
+   ![test-directory-structure](../../static/images/test-directory-structure.png "")
 3. Create `gradle` task to copy resources into classes directory to make them visible for classloader `getResources()` method:
 
 ```groovy

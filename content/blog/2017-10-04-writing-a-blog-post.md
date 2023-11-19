@@ -115,10 +115,10 @@ To include a picture in your post you can add the image to a folder named after 
 In order to include the image you can use markdown or html e.g.:
 
 ```markdown
-![Image Title](/images/writing-a-blog-post/pexels-photo-296115.jpeg)
+![Image Title](../../static/images/writing-a-blog-post/pexels-photo-296115.jpeg "")
 ```
 
-![Image Title](/images/writing-a-blog-post/pexels-photo-296115.jpeg)
+![Image Title](../../static/images/writing-a-blog-post/pexels-photo-296115.jpeg "")
 
 **When you use an image in the blog post please set the path to the `image` in the front-matter like so:**
 

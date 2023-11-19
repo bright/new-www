@@ -18,7 +18,7 @@ language: en
 ---
 I guess it’s the imperative of our times - to constantly evolve and improve or you’re somehow left behind. We have more possibilities for self-development than any of the previous generations and it seems wasteful not to use them. Especially in the workplace, where personal ambitions are accompanied by economic perspectives. The constant growth is encouraged not only on a personal level but also the organizational one. Nevertheless, there are limitations in the road to perfection and that’s mainly human IMperfection and, annoyingly, time. No wonder most advice for project management revolves around these two aspects and how to overcome them or make the most (the absolute most) of the resources we have. This, or we’re left in the battlefield for the crows’ feast. Cheers. 
 
-![team improvement technique](/images/5mugs_kasia_blog-01.png)
+![team improvement technique](../../static/images/5mugs_kasia_blog-01.png "")
 
 ## “If you don’t name it, it doesn’t exist”
 

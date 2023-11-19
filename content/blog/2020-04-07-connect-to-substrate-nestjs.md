@@ -151,7 +151,7 @@ async getHello(): Promise<string> {
 Here we just create a simple response with the collected data.
 After the server has successfully restarted you can open [http://localhost:3000/](http://localhost:3000/) and see the result:
 
-![Result](/images/connect-to-substrate-nestjs/result.png)
+![Result](../../static/images/connect-to-substrate-nestjs/result.png "")
 
 The next thing that we can do is getting the balance of some account.
 
@@ -206,7 +206,7 @@ async getHello(): Promise<string> {
 
 Now you could check the changes on [http://localhost:3000/](http://localhost:3000/):
 
-![Result with balance](/images/connect-to-substrate-nestjs/result2.png)
+![Result with balance](../../static/images/connect-to-substrate-nestjs/result2.png "")
 
 All code you can find in this repository: [https://github.com/janczer/substrate-nestjs](https://github.com/janczer/substrate-nestjs)
 

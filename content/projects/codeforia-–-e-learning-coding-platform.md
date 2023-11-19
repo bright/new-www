@@ -51,7 +51,7 @@ language: en
 
 At Codeforia.com you will find over 200 programming challenges. The platform also enables you to automatically check your code and run it through test cases.
 
-<div class="image">![Codeforia](../../static/images/codeforia_mockup_tasks.png "It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.")</div>
+<div className="image">![Codeforia](../../static/images/codeforia_mockup_tasks.png "It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.")</div>
 
 *It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.*
 
@@ -67,7 +67,7 @@ We started the collaboration in the Autumn of 2022 taking care of the frontend d
 
 Although we were responsible for the frontend we didn’t just implement the clients' design mockups. We proactively offered our guidance and shared best UX practices to enhance the end result. **On our recommendation, the client implemented various gamification features** including tracking learning progress, information about skills you already mastered and the ones yet to be discovered. **All in a bid to ensure better user engagement and a higher online course completion rate**. 
 
-<div class="image">![Mockups edutech](../../static/images/codeforia_mockup_laptop.png "It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.")</div>
+<div className="image">![Mockups edutech](../../static/images/codeforia_mockup_laptop.png "It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.")</div>
 
 *It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.*
 

@@ -73,7 +73,7 @@ language: en
 
 This is a web solution that helps to digitize the company work. The app can be easily customised according to the user's business needs. It helps to create and share digital questionnaires, reports and surveys. It is a perfect tool for companies that provide inspections and audits. Also, this is the first dedicated app for the social care team.
 
-![web app development](/images/digitizing_mobile_reporting_app.png)
+![web app development](../../static/images/digitizing_mobile_reporting_app.png "")
 
 <TitleWithIcon sectionTitle="goal" titleIcon="/images/goal_title_section.png" titleIconAlt="goal" />
 
@@ -90,7 +90,7 @@ One of the key aspects of the app is the need to operate offline without any int
 
 What is more, the web app needed to be responsive and work well both on desktop and mobile devices (phones and tablets) as most of the users are expected to work in the terrain. We used the media queries to adjust the styles depending on the screen resolution. 
 
-![web app development](/images/digitizing_mobile_reporting.png)
+![web app development](../../static/images/digitizing_mobile_reporting.png "")
 
 <TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 

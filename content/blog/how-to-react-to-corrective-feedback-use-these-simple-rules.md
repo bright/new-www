@@ -40,7 +40,7 @@ The so called S.T.A.R method can help you react in a calm and peaceful way to th
 
 **REVIEW** - check the consequences of the chosen option. Has it changed anything?
 
-<div class="image">![feedback star method](../../static/images/feedback-star-method.png "undefined")</div>
+<div className="image">![feedback star method](../../static/images/feedback-star-method.png "undefined")</div>
 
 ## **Don’t become an offended recluse**
 

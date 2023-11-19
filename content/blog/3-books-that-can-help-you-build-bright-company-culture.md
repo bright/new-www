@@ -23,7 +23,7 @@ Patty McCords wrote a book about creating the unique and high-performing cultur
 
 The special place is devoted to feedback where employees share information openly, broadly and deliberately. You provide open, helpful, timely feedback to your colleagues no matter what role you have in the organisation. **Patty McCord shows that strong teams learn faster and work better if they can make giving and receiving feedback less stressful and a more normal part of work life.** Feedback is a continuous part of how people in the team communicate and work with one another. It is a large topic in the book.
 
-![](/images/powerful_quote.png)
+![](../../static/images/powerful_quote.png "")
 
 Considering recruitment needs we have to hire people who can help us solve future problems and these who can support new people. That should be always our goal. You should be always looking for talents. **Being always on the lookout give you also an opportunity to really choose the people you need. What is more, we should not be afraid of saying goodbye to people who do not seem to fit the organisation culture and do not bring any business value.** Some people may say it is brutally honest vision, but at the same time it is very pragmatic and credible. Wise hiring is something every company should focus on. 
 
@@ -37,7 +37,7 @@ Some people say that the best summary of this book will be “care personally + 
 
 You must deliver feedback - both the praise and the criticism, so that it leaves no room for ambiguity or misinterpretation. **You are not doing anybody a favour by not telling them when they do bad work.** If anything, it's better to be direct and give them the feedback than to protected their feelings just to stay friends. Radical candor is all about managing a full-feedback approach. Very important point is to avoid the fundamental attribution error - we should always focus on what someone did rather than who they are. The former is something the person can fix. 
 
-![](/images/radical_candor_quote.png)
+![](../../static/images/radical_candor_quote.png "")
 
 Another key aspect of successful team Kim Scott mentions is the diversity. Your team cannot consist only of super-stars. We need **a healthy mix of different people**, but we should never forget about the highest performers in the end as it is too easy sometimes to focus too much on these employees who have a mediocre impact on your team’s success and need our support. Always remember about those who bring the most value to your organisation. And if you can see they start to perform worse, do not ignore it. 
 
@@ -49,7 +49,7 @@ This books is full of personal stories and anecdotes with a piece of good advice
 
 Coyle emphasises that a strong culture sets up an environment where a team can deal with uncomfortable truth-telling and be candid with each other. When people make themselves vulnerable by sharing information about themselves, they build connections and makes it possible for everyone on the team to contribute. Loyalty and high quality working cultures only emerge when team members feel safe.
 
-![](/images/culture_code_quote_coyle.png)
+![](../../static/images/culture_code_quote_coyle.png "")
 
 But the book is not only about the team’s performance, it is also about the leader’s roles. T**he book shows how important is to question how your actions in everyday life impact the team you work with.** The richness of real-life stories and examples of amazing groups makes *The Culture Code* practical and at the same time inspiring. Honest and authentic leadership is required that listens and serves rather than talks and orders.
 

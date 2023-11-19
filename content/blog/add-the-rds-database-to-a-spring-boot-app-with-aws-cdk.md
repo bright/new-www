@@ -18,7 +18,7 @@ language: en
 ---
 **Are you tired of manually setting up and maintaining your own databases? Fear not, because the AWS CDK is here to save the day!**
 
-<div class="image">![\*\*AWS CDK\*\*](../../static/images/blogcover_aws_cdk_rds.png "undefined")</div>
+<div className="image">![\*\*AWS CDK\*\*](../../static/images/blogcover_aws_cdk_rds.png "undefined")</div>
 
 In this article, **you'll learn how to use the AWS Cloud Development Kit (CDK) to set up an Amazon Relational Database Service (RDS) database using the Postgres Relational Database Management System (RDBMS)**. You'll also **discover how to pass database variables**, such as the username, password, name, URL, and port, to an AWS Fargate container. Finally, you'll learn **how to configure a Spring Boot application** to access the database. By following the steps outlined in this article, you can easily set up and integrate a Postgres RDS database with a Spring Boot application deployed on Fargate using the CDK.
 
@@ -268,4 +268,4 @@ By following the instructions in this article, **you'll be able to easily set up
 ***All of the code (with working CI/CD for 2 environments) you can find here:***
 https://gitlab.com/adam.waniak11/ci-cd-demo-app
 
-<div class='block-button'><h2>We are looking for backend developers (TS, Node.js)</h2><div>Work on projects such as the blockchain platform for a top global humanitarian agency, accounting software, or web therapy application.</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>
+<div className="block-button"><h2>We are looking for backend developers (TS, Node.js)</h2><div>Work on projects such as the blockchain platform for a top global humanitarian agency, accounting software, or web therapy application.</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>

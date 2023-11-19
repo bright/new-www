@@ -71,13 +71,13 @@ Configuration with auth keys is recommended as they are the more current method 
 4. Find your application identifier and **Edit** its services.
 5. Enable **Push Notifications**.
 
-   ![image](/images/working-with-ios-push-notifications/apple-dev-enable-service.png)
+   ![image](../../static/images/working-with-ios-push-notifications/apple-dev-enable-service.png "")
 
 #### To generate `APNs SSL Certificate` on [Apple Developer Center](https://developer.apple.com):
 
 1. Choose **Create Certificate...** for Development or/and Production.
 
-   ![image](/images/working-with-ios-push-notifications/apple-dev-certificates.png)
+   ![image](../../static/images/working-with-ios-push-notifications/apple-dev-certificates.png "")
 
    **Note:** If you expect push notifications to work in an app distributed via TestFlight, you'll need to use the **Production SSL Certificate**.
 2. Read instructions, **Continue**, and upload your **Certificate Signing Request** (CSR file) exported from your **Keychain**.
@@ -95,11 +95,11 @@ Now we need to upload the generated key or certificate to **Firebase**.
 1. Log in to [Firebase Console](https://console.firebase.google.com) and select your project. If you haven't had it yet, create new a project.
 2. Open your **Project settings** from left pane.
 
-   ![image](/images/working-with-ios-push-notifications/firebase-project-settings.png)
+   ![image](../../static/images/working-with-ios-push-notifications/firebase-project-settings.png "")
 3. Open **CLOUD MESSAGING** tab.
 4. Under **iOS app configuration** upload your key or certificate.
 
-   ![image](/images/working-with-ios-push-notifications/firebase-certificates.png)
+   ![image](../../static/images/working-with-ios-push-notifications/firebase-certificates.png "")
 
    Note that you can't use `APNs auth key` and `APNs certificate` simultaneously.
 
@@ -111,7 +111,7 @@ After setting certificates up we can configure the Xcode project:
 2. Open **Capabilities** tab.
 3. Enable **Push notifications**.
 
-   ![image](/images/working-with-ios-push-notifications/xcode-capabilities.png)
+   ![image](../../static/images/working-with-ios-push-notifications/xcode-capabilities.png "")
 
    Entitlements file will be created or updated automatically. If you've skipped adding push notifications service to your application identifier in previous chapter, you'll encounter an error.
 
@@ -189,13 +189,13 @@ Since silent notifications are meant to refresh data in the background, APNs tre
 
 To support the background update notifications, make sure that the payload's `aps` dictionary includes the `content-available` key with a value of `1`. You also need to enable **Remote notifications** background mode in your project settings (Capabilities->Background Modes):
 
-![image](/images/working-with-ios-push-notifications/background-modes.png)
+![image](../../static/images/working-with-ios-push-notifications/background-modes.png "")
 
 #### iOS 11 problems
 
 iOS 11 brings a lot of new features but it also comes with some problems. One of them is that **silent notifications are not working on iOS 11.0 - 11.0.3** and were fixed only in iOS 11.1. Due to the high iOS 11 adoption, it has become a major issue for a number of apps.
 
-![image](/images/working-with-ios-push-notifications/ios11-bugs.jpg)
+![image](../../static/images/working-with-ios-push-notifications/ios11-bugs.jpg "")
 
 ## Sky is the limit
 

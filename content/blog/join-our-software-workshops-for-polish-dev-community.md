@@ -21,7 +21,7 @@ language: en
 
 ## Everyday Agile Workshops
 
-![Agile Workshops by Bright Inventions](/images/agile_workshops.png)
+![Agile Workshops by Bright Inventions](../../static/images/agile_workshops.png "")
 
 Everybody seems to be doing Agile these days. But how to be agile on a daily basis while doing software products and working in a team? What does a true Agile Manifesto mean in practice?
 
@@ -38,7 +38,7 @@ We have planned 4 live meetings deeply covering topics like:
 
 ## Road to Tech Leader Workshops
 
-![Road to Tech Lead Workshops](/images/road_to_tech_leader.png)
+![Road to Tech Lead Workshops](../../static/images/road_to_tech_leader.png "")
 
 What is the best way to transition from Software Developer to Tech Leader? Mateusz will help you navigate that career path according to his experience. 🙂  Check out another blog post to know his [road from iOS Developer to Tech Lead](/blog/responsibility-and-change-are-his-fuel-meet-mateusz/).
 
@@ -46,13 +46,13 @@ The workshops are planned for April. As always, follow our social media to stay 
 
 ## iOS + Realm Workshops for iOS Developers
 
-![iOS Development Workshops](/images/ios_workshops.png)
+![iOS Development Workshops](../../static/images/ios_workshops.png "")
 
 How to store data in iOS apps on local Realm base? Check out Filip’s workshops. Filip is [iOS Senior Developer with over 8 years of experience](/blog/ios-developer-with-over-8-years-of-experience-meet-filip/). If you are also a LEGO fan, then you really must join. No more spoilers. 😉 More details soon on our [Facebook page](https://www.facebook.com/bright.inventions).
 
 ## AWS Workshops for Serverless Enthusiasts
 
-![AWS Workshops](/images/aws_workshops.png)
+![AWS Workshops](../../static/images/aws_workshops.png "")
 
 Last but not least, it is worth mentioning that **we’ve just finished the second edition of Bright Inventions AWS Workshops**. During 6 webinars, [Piotr Mionskowski from Bright Inventions](/blog/piotr-team-leader-technology-evangelist/) solved with participants plenty of AWS mysteries. They talked about cloud computing covering topics such as:
 

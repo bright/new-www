@@ -30,7 +30,7 @@ Maybe it is odd to put the word creativity together with the planning and deadli
 
 It is important to take short breaks, not only to get away from a computer and go on a trip from your “Foteland” to “Las Kuchnias” to get some coffee, but also to do a small physical exercise.
 
-![vacation destinations](/images/laskuchnias_factepo40.png)
+![vacation destinations](../../static/images/laskuchnias_factepo40.png "")
 
 Even a short physical activity like stretching, or doing some squats will make your blood circulate better and bring more oxygen into your brain. So, move on and work out! Your brain will work better, your spine will say thank you, and your eyes will relax after looking at the screen for a long time. 
 

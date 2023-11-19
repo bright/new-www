@@ -17,7 +17,7 @@ published: true
 language: en
 ---
 Proper content organisation in your Android application may be achieved with a wide range of layouts and widgets. Today I'd like to focus on tabs that is what kind of components are dedicated to using tabs in an application, what are the key principles in using them and how to customize their view.   
-![Folder Tabs Img](/images/radek/folder_tabs.jpg)
+![Folder Tabs Img](../../static/images/radek/folder_tabs.jpg "")
 
 ## Basic concept
 Tabs are the pattern common and simple, it exceeds mobile or web apps design. To avoid overusing it though we need some clarification about its usage.   
@@ -107,7 +107,7 @@ myTabLayout.addTab(tab)
 
 The fun part is to finally add some more interesting view of our tabs instead of using only text. Let's combine the text with some nice images! Like this:
 
-![single tab](/images/radek/tab.png)
+![single tab](../../static/images/radek/tab.png "")
 
 Define a round background for our image under `res/drawable`:
 
@@ -165,7 +165,7 @@ myTabLayout.addTab(myTabLayout.newTab().setCustomView(tab))
 
 In the end, I'd like to share with you my concept of a TabLayout view, feel free to take some inspiration. Here's how it's going to look like:
 
-![Sliding Layout GIF](/images/radek/tablayout.gif)
+![Sliding Layout GIF](../../static/images/radek/tablayout.gif "")
 
 To achieve that we'll need to override some TabLayout functionality! This is what we are going to start with:
 
@@ -297,7 +297,7 @@ While calculating how much to scale the tab, we need to define how far away (`di
 
 That's it, your sliding tabs are ready to use!
 
-![Slide Penguin GIF](/images/radek/sliding_penguin.gif)
+![Slide Penguin GIF](../../static/images/radek/sliding_penguin.gif "")
 
 
 
