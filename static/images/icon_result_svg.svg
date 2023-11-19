@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="41.622" height="41.622" viewBox="0 0 41.622 41.622">
-  <g id="Group_2618" data-name="Group 2618" transform="translate(8138.811 15697.195)">
-    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.311" cy="19.311" r="19.311" transform="translate(-8137.311 -15695.695)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
-    <g id="Group_2617" data-name="Group 2617">
-      <path id="Path_36418" data-name="Path 36418" d="M51.027,41.322l8.147,7.016-7.355,7.355" transform="translate(-8172.101 -15724.893)" fill="none" stroke="#f7931e" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-      <rect id="Rectangle_1189" data-name="Rectangle 1189" width="40.866" height="40.866" transform="translate(-8138.433 -15696.818)" fill="none"/>
-    </g>
-  </g>
-</svg>
+<svg height="41.622" viewBox="0 0 41.622 41.622" width="41.622" xmlns="http://www.w3.org/2000/svg"><g fill="none"><circle cx="20.811" cy="20.811" r="19.311" stroke="#000" stroke-linecap="round" stroke-width="3"/><path d="m51.027 41.322 8.147 7.016-7.355 7.355" stroke="#f7931e" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" transform="translate(-33.29 -27.698)"/><path d="m.378.377h40.866v40.866h-40.866z"/></g></svg>
