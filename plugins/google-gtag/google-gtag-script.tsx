@@ -16,7 +16,7 @@ function gtag(){
 window.gtag = gtag;
 gtag('consent', 'default', {
   'ad_storage': '${consentToGtagValue(false)}',
-  'analytics_storage': '${consentToGtagValue(false)}',
+  'analytics_storage': '${consentToGtagValue(true)}',
   'wait_for_update': 100 // we invoke gtag consent update almost immediately after  
 });
 
