@@ -46,6 +46,7 @@ interface ContentConfig {
   collections: ContentCollection[]
 }
 
+
 export async function contentConfig() {
   const cfg = (await config()) as any
   const contentConfig: ContentConfig = { ...cfg }

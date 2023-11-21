@@ -23,3 +23,4 @@ export async function querySlugAuthorIdAndIdFromMembers<TData, TVariables>(
     }
   `)
 }
+
