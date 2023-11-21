@@ -1,7 +1,6 @@
 import path from 'path'
 import { NodeInput } from 'gatsby'
-import { readFile } from 'fs/promises'
-import yaml from 'js-yaml'
+import config from '../../static/admin/config'
 
 export class ContentCollection {
   name: string
@@ -47,18 +46,9 @@ interface ContentConfig {
   collections: ContentCollection[]
 }
 
-let _contentConfig: ContentConfig | null = null
-
-async function loadContentConfig(): Promise<ContentConfig> {
-  const configYmlContent = await readFile(path.join(process.cwd(), 'static', 'admin', 'config.yml'), 'utf-8')
-  const contentConfig: ContentConfig = yaml.load(configYmlContent) as any
+export async function contentConfig() {
+  const cfg = (await config()) as any
+  const contentConfig: ContentConfig = { ...cfg }
   contentConfig.collections = contentConfig.collections.map(col => new ContentCollection(col))
   return contentConfig
-}
-
-export async function contentConfig() {
-  if (!_contentConfig) {
-    _contentConfig = await loadContentConfig()
-  }
-  return _contentConfig
 }

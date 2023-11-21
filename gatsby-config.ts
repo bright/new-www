@@ -316,6 +316,7 @@ const gatsbyConfig: GatsbyConfig = {
     'simple-mdx',
     'content-collections',
     'scss-typescript',
+    'cms-config',
     enableWebpackBundleAnalyser ? 'gatsby-plugin-webpack-bundle-analyser-v2' : null,
   ].filter(isDefined),
   mapping: {
