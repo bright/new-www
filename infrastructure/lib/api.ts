@@ -1,18 +1,12 @@
 import { CfnOutput, Stack } from 'aws-cdk-lib'
 import { Construct } from 'constructs'
-import {
-  HttpApi,
-  HttpMethod,
-  MappingValue,
-  ParameterMapping,
-  PayloadFormatVersion
-} from '@aws-cdk/aws-apigatewayv2-alpha'
-import { HttpLambdaIntegration, HttpUrlIntegration } from '@aws-cdk/aws-apigatewayv2-integrations-alpha'
+import { HttpApi, HttpMethod, PayloadFormatVersion } from '@aws-cdk/aws-apigatewayv2-alpha'
+import { HttpLambdaIntegration } from '@aws-cdk/aws-apigatewayv2-integrations-alpha'
 import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs'
 import { Bucket } from 'aws-cdk-lib/aws-s3'
 import { ebooksBucketName } from './ebooks-bucket-name'
 import { Table } from 'aws-cdk-lib/aws-dynamodb'
-import { deployEnv } from './deploy-env'
+import { deployEnv, envSpecificName } from './deploy-env'
 import { OriginAccessIdentity } from 'aws-cdk-lib/aws-cloudfront'
 import { StringParameter } from 'aws-cdk-lib/aws-ssm'
 import { getresponseApiKeyParamName } from './getresponse-api-key-param-name'
@@ -20,15 +14,24 @@ import { thirdPartyProxyPath } from 'gatsby/dist/internal-plugins/partytown/prox
 import { Runtime } from 'aws-cdk-lib/aws-lambda'
 import { productionDomainNames, stagingDomainNames } from './domain-names'
 import { CorsHttpMethod } from '@aws-cdk/aws-apigatewayv2-alpha/lib/http/api'
+import { Topic } from 'aws-cdk-lib/aws-sns'
+import { Queue } from 'aws-cdk-lib/aws-sqs'
+import { SqsSubscription } from 'aws-cdk-lib/aws-sns-subscriptions'
+import { SqsEventSource } from 'aws-cdk-lib/aws-lambda-event-sources'
 
 interface ApiProps {
   visitorsTable: Table
+}
+
+function ebookSignUpsTopicName() {
+  return envSpecificName('ebook-sign-ups')
 }
 
 export class Api extends Stack {
   private httpApi: HttpApi
   readonly ebooks: Bucket
   readonly ebooksOriginAccessIdentity: OriginAccessIdentity
+  private ebookSignUps: Topic
 
   constructor(scope: Construct, id: string, props: ApiProps) {
     super(scope, id)
@@ -39,8 +42,8 @@ export class Api extends Stack {
       corsPreflight: {
         allowHeaders: ['content-type', 'referer'],
         allowMethods: [CorsHttpMethod.ANY],
-        allowOrigins: ['http://0.0.0.0:8000', ...productionOrigins, ...stagingOrigins]
-      }
+        allowOrigins: ['http://0.0.0.0:8000', ...productionOrigins, ...stagingOrigins],
+      },
     })
 
     this.ebooksOriginAccessIdentity = new OriginAccessIdentity(this, 'cf oai', {
@@ -50,25 +53,48 @@ export class Api extends Stack {
     this.ebooks = new Bucket(this, 'ebooks-storage', {
       bucketName: ebooksBucketName(),
     })
-
     this.ebooks.grantRead(this.ebooksOriginAccessIdentity)
 
-    const ebookSignUp = new NodejsFunction(this, 'ebooks-signup', {
-      entry: './lib/ebooks-signup.ts',
-      memorySize: 1024, // speed up the invocation
+    this.ebookSignUps = new Topic(this, 'ebook-signups', {
+      topicName: ebookSignUpsTopicName(),
+    })
+
+    const registerInGetResponseOnSignUp = new Queue(this, 'register-in-get-response-on-ebook-sign-up')
+
+    this.ebookSignUps.addSubscription(
+      new SqsSubscription(registerInGetResponseOnSignUp, {
+        rawMessageDelivery: true,
+      })
+    )
+
+    const registerInGetResponse = new NodejsFunction(this, 'register-in-get-response', {
+      entry: './lib/register-in-get-response.ts',
       environment: {
         DEPLOY_ENV: deployEnv(),
+        EBOOK_SIGN_UPS_TOPIC_ARN: this.ebookSignUps.topicArn,
       },
     })
 
     const getresponseApiKey = StringParameter.fromSecureStringParameterAttributes(this, 'getresponse api key', {
       parameterName: getresponseApiKeyParamName,
     })
-    getresponseApiKey.grantRead(ebookSignUp)
+    getresponseApiKey.grantRead(registerInGetResponse)
+
+    registerInGetResponse.addEventSource(new SqsEventSource(registerInGetResponseOnSignUp))
+
+    const ebookSignUp = new NodejsFunction(this, 'ebooks-signup', {
+      entry: './lib/ebooks-signup.ts',
+      memorySize: 1024,
+      environment: {
+        DEPLOY_ENV: deployEnv(),
+        EBOOK_SIGN_UPS_TOPIC_ARN: this.ebookSignUps.topicArn,
+      },
+    })
 
     props.visitorsTable.grantReadWriteData(ebookSignUp)
 
     this.ebooks.grantRead(ebookSignUp)
+    this.ebookSignUps.grantPublish(ebookSignUp)
 
     this.httpApi.addRoutes({
       methods: [HttpMethod.POST],
@@ -84,10 +110,10 @@ export class Api extends Stack {
         'partytown-reverse-proxy',
         new NodejsFunction(this, 'partytown-reverse-proxy', {
           entry: './lib/partytown-reverse-proxy.ts',
-          runtime: Runtime.NODEJS_18_X
+          runtime: Runtime.NODEJS_18_X,
         }),
         {
-          payloadFormatVersion: PayloadFormatVersion.VERSION_2_0
+          payloadFormatVersion: PayloadFormatVersion.VERSION_2_0,
         }
       ),
     })

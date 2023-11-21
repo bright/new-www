@@ -7,11 +7,13 @@ import { S3 } from '@aws-sdk/client-s3'
 import { ebooksBucketName } from './ebooks-bucket-name'
 import { EbookSignUp200Response } from '../../api-client'
 import { ebookBasename } from './ebook-basename'
-import { registerUserInGetresponse } from './getresponse-api'
+import { SNS } from '@aws-sdk/client-sns'
 
 const dynamoDB = DynamoDBDocument.from(new DynamoDB({}))
 
 const s3 = new S3({})
+
+const sns = new SNS({})
 
 const ebooksLoader = (async () => {
   const books = await s3.listObjects({
@@ -110,7 +112,15 @@ export const handler: APIGatewayProxyHandlerV2 = async (event, context) => {
     },
   })
 
-  await registerUserInGetresponse({ ebookName, email, name, referrerUrl })
+  console.log('Saved to dynamo')
+
+  await sns.publish({
+    TopicArn: process.env.EBOOK_SIGN_UPS_TOPIC_ARN,
+    Message: JSON.stringify({ ebookName, email, name, referrerUrl })
+  })
+
+  console.log('Published to SNS')
+
 
   return jsonResponse<EbookSignUp200Response>({
     body: {
