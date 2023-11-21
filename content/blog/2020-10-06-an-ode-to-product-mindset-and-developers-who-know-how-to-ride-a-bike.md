@@ -71,4 +71,10 @@ It's all just Agile in the end :)
 
 - - -
 
-Listen to BrightDevTalks podcast. [Kasia](/about-us/kasia/) and [Ula](/about-us/ula/) from Bright Inventions take cycling to the next level. Podcast is recorded in Polish.
+Listen to [BrightDevTalks podcast on Spotify](https://open.spotify.com/episode/3uPeTSM5EUPLVSNAjaMD5B?si=670b525dce0c4011). [Kasia](/about-us/kasia/) and [Ula](/about-us/ula/) from Bright Inventions take cycling to the next level. Podcast is recorded in Polish.
+
+<center>
+
+<div className="image">![podcast](../../static/images/podcast-episode-11-kasia-ula.png "podcast")</div>
+
+</center>
