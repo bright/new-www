@@ -317,6 +317,7 @@ const gatsbyConfig: GatsbyConfig = {
     'content-collections',
     'scss-typescript',
     'cms-config',
+    'plausible',
     enableWebpackBundleAnalyser ? 'gatsby-plugin-webpack-bundle-analyser-v2' : null,
   ].filter(isDefined),
   mapping: {
