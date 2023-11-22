@@ -43,7 +43,7 @@ When a client approaches us, she or him rarely asks us to deliver *a project*. W
 
 Let me bring up one more thing to the table. **The actual pleasure and excitement that comes from creating something**. Not just a button or an endpoint, but a whole solution, as a team. You don’t need to carve in wood or stone to be considered a creator - you create systems. I think it’s easy to forget between one git push and another that **writing software is really an art of creation**. There was nothing, emptiness of dev/null and then, line by line, something appears and works, is used by actual people who potentially find it helpful or fun. Moving tasks to Done, ticking them one by one is as satisfying as any To Do list but seeing the bigger picture and how the button you added actually works for people - that can be really fulfilling. **You just need to lift your eyes from the handlebar**, as soon as you’re ready. Look mum, no hands!
 
-<div className="hide-on-mobile">![Bright Inventions' team](../../static/images/2_galeria_bright_inventions.jpg "Bright Inventions' team")</div>
+<div className="image">![Bright Inventions' team](../../static/images/2_galeria_bright_inventions.jpg "Bright Inventions' team")</div>
 
 ## Before you set off for the adventure
 
