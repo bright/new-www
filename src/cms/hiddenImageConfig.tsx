@@ -78,7 +78,7 @@ export const hiddenImageConfig: EditorComponentOptionsOf<ImageFieldData> = {
       src: srcFromSourceMarkdownToRelative(src),
       alt: match[2],
       title: match[5],
-      hideOnMobile: match[1],
+      hideOnMobile: match[1] == 'hide-on-mobile',
     }
   },
   // Given an object with one property for each field defined in `fields`,
