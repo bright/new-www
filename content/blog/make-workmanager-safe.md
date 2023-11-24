@@ -99,7 +99,8 @@ Hilt made it all easier for you. In order to use it for the WorkManager configur
 implementation("androidx.hilt:hilt-work:<newest_version>")
 ```
 
-It provides an already existing safe `HiltWorkerFactory` ready to be used. This factory also uses `Class.forName` to get the Worker class by its name, but it’s wrapped with a try-catch statement already. This factory is ready to be injected out of the box once you add Hilt dependency - you don’t need to provide it on your own.\
+It provides an already existing safe `HiltWorkerFactory` ready to be used. This factory also uses `Class.forName` to get the Worker class by its name, but it’s wrapped with a try-catch statement already. This factory is ready to be injected out of the box once you add Hilt dependency - you don’t need to provide it on your own.
+
 It works together with `@HiltWorker` annotation which you should add over your `Worker` class.\
 It looks more or less like this:
 
@@ -134,13 +135,16 @@ Having this code, you’re ready to go. You can use WorkManager and enqueue work
 
 ## **Any other dangers?**
 
-Well, we are covered in terms of catching `ClassNotFoundException`, but is it completely safe? Well... It depends!\
-Imagine an `OfflinePaymentWorker` that is supposed to synchronise offline payments with your backend. Now, you requested a work request for this Worker and it hasn’t completed yet. Then if you e.g. change the name of the Worker from `OfflinePaymentWorker` to `SyncOfflinePaymentsWorker` and install the app, you won’t sync outstanding work requests, because our safe factories would return `null` instead of an actual Worker. You could lose critical data about the payments.\
+Well, we are covered in terms of catching `ClassNotFoundException`, but is it completely safe? Well... It depends!
+
+Imagine an `OfflinePaymentWorker` that is supposed to synchronise offline payments with your backend. Now, you requested a work request for this Worker and it hasn’t completed yet. Then if you e.g. change the name of the Worker from `OfflinePaymentWorker` to `SyncOfflinePaymentsWorker` and install the app, you won’t sync outstanding work requests, because our safe factories would return `null` instead of an actual Worker. You could lose critical data about the payments.
+
 That’s why you have to be always mindful about the Worker changes you introduce. Just keep in mind that WorkManager can store some incomplete work requests in it’s storage and modifying your Worker class might make them impossible to execute.
 
 ### **What to do to prevent losing your data?**
 
-Well, there are many approaches you can take. The most obvious one is to keep the old Worker and adjust only the logic - don’t delete it, move it or change the name. The downside of it, is that once you introduce a critical data sync Worker, it probably going to stay with you forever because theoretically, you are never sure if every task in the field has been executed or not.\
+Well, there are many approaches you can take. The most obvious one is to keep the old Worker and adjust only the logic - don’t delete it, move it or change the name. The downside of it, is that once you introduce a critical data sync Worker, it probably going to stay with you forever because theoretically, you are never sure if every task in the field has been executed or not.
+
 There are other approaches as well, here is the last one that I am going to present. Instead of relying on WorkManager to store your data in a work request, you could store the critical data in your own storage like SharedPreferences or SQLite database. In other words instead of doing this:
 
 ```kotlin
@@ -211,5 +215,6 @@ This way you won’t lose critical data if you modify or remove your Worker clas
 
 ## **Summary**
 
-We have to be mindful of our Workers and make sure that modifying or removing them is not going to cause some issues for our business.\
+We have to be mindful of our Workers and make sure that modifying or removing them is not going to cause some issues for our business.
+
 What else do you do to keep WorkManager work safe? Share in the comments!
