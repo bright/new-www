@@ -101,8 +101,31 @@ It provides an already existing safe `HiltWorkerFactory` ready to be used. This 
 It works together with `@HiltWorker` annotation which you should add over your `Worker` class.\
 It looks more or less like this:
 
-```
+```kotlin
+@HiltAndroidApp
+class SafeWorkManagerApp : Application(), Configuration.Provider {
 
+    @Inject
+    lateinit var hiltWorkerFactory: HiltWorkerFactory
+
+    override fun getWorkManagerConfiguration(): Configuration {
+        return Configuration.Builder()
+            .setWorkerFactory(hiltWorkerFactory)
+            .build()
+    }
+}
+
+@HiltWorker
+class SyncDataWorker(
+    context: Context,
+    workerParameters: WorkerParameters,
+    @Assisted
+    someOtherDependencyProvidedByHilt: SomeOtherDependencyProvidedByHilt 
+): Worker(context, workerParameters) {
+    override fun doWork(): Result {
+        // define work and return Result
+    }
+}
 ```
 
 Having this code, you’re ready to go. You can use WorkManager and enqueue work requests with assisted injection.
@@ -118,14 +141,68 @@ That’s why you have to be always mindful about the Worker changes you introduc
 Well, there are many approaches you can take. The most obvious one is to keep the old Worker and adjust only the logic - don’t delete it, move it or change the name. The downside of it, is that once you introduce a critical data sync Worker, it probably going to stay with you forever because theoretically, you are never sure if every task in the field has been executed or not.\
 There are other approaches as well, here is the last one that I am going to present. Instead of relying on WorkManager to store your data in a work request, you could store the critical data in your own storage like SharedPreferences or SQLite database. In other words instead of doing this:
 
-```
+```kotlin
+fun enqueueWork() {
+    val request = OneTimeWorkRequestBuilder<SyncDataWorker>()
+        .setInputData(
+            workDataOf(
+                "data1" to "value1",
+                "data2" to "value2",
+            )
+        ).build()
+    
+    WorkManager.getInstance(this)
+        .beginUniqueWork(..., request)
+        .enqueue()
+}
 
+    
+class SyncDataWorker(
+    appContext: Context,
+    workerParams: WorkerParameters
+) : Worker(appContext, workerParams) {
+    
+    override fun doWork(): Result {
+        val data1 = inputData.getString("data1") ?: return Result.failure()
+        val data2 = inputData.getString("data2") ?: return Result.failure()
+
+
+        // some logic to synchronise data
+        return Result.success()
+    }
+}
 ```
 
 you could store the `data1` and `data2` values in SQLite Database as a single row representing a work that has to be executed and then create a Worker that would synchronise all of the remaining data from the database:
 
-```
+```kotlin
+fun enqueueWork() {
+    val syncDataRequest = OneTimeWorkRequestBuilder<SyncDataWorker>()
+        .build()
 
+    WorkManager.getInstance(this)
+        .beginUniqueWork(..., syncDataRequest)
+        .enqueue()
+}
+
+@HiltWorker
+class SyncDataWorker(
+    appContext: Context,
+    workerParams: WorkerParameters,
+    @Assisted
+    syncDataDao: SyncDataDao
+) : Worker(appContext, workerParams) {
+
+    override fun doWork(): Result {
+        val allDataToSynchronise = syncDataDao.getAll()
+
+        allDataToSynchronize.forEach {
+            // some logic to synchronise data
+        }
+
+        return Result.success()
+    }
+}
 ```
 
 This way you won’t lose critical data if you modify or remove your Worker class. You would still have it in your database and you would be able to synchronise it in one way or another.
