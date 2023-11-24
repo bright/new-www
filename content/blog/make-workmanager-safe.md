@@ -9,15 +9,15 @@ date: 2023-11-24T12:10:32.136Z
 meaningfullyUpdatedAt: 2023-11-24T12:10:33.400Z
 title: Use WorkManager Mindfully and Don’t Make These Mistakes
 layout: post
-image: null
+image: /images/mind_the_gap.png
 hidden: false
-comments: false
-published: false
+comments: true
+published: true
 language: en
 ---
 **WorkManager is a powerful tool, but with great power comes great responsibility. Is it always completely safe to use? In this article, we will discuss a few potentially dangerous situations related to WorkManager. We will focus on the inconsistency of Workers, which can be edited or removed over time.**
 
-**<br/>**
+<div className="image">![mind the gap](../../static/images/mind_the_gap.png "mind the gap")</div>
 
 ## **Custom WorkerFactory and @AssistedInject**
 
