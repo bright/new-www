@@ -5,9 +5,9 @@ tags:
   - Kotlin
   - Hilt
   - WorkManager
-date: 2023-11-03T11:52:35.005Z
-meaningfullyUpdatedAt: 2023-11-03T11:52:36.020Z
-title: Use WorkManager safely and mindfully
+date: 2023-11-24T12:10:32.136Z
+meaningfullyUpdatedAt: 2023-11-24T12:10:33.400Z
+title: Use WorkManager Mindfully and Don’t Make These Mistakes
 layout: post
 hidden: false
 comments: false
