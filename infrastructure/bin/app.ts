@@ -7,6 +7,8 @@ import { Tag, Tags } from 'aws-cdk-lib'
 import { Visitors } from '../lib/visitors'
 import { deployEnvStackNameOf } from '../lib/stack-name'
 import { Api } from '../lib/api'
+import { Plausible } from '../lib/plausible/plausible'
+import { Network } from '../lib/network'
 
 const app = new cdk.App()
 
@@ -16,7 +18,13 @@ new CloudFrontCertificates(app)
 // for details
 // https://miensol.pl/cloudfront-custom-domain-https/
 
+const network = new Network(app, deployEnvStackNameOf(Network))
+
 const visitors = new Visitors(app, deployEnvStackNameOf(Visitors))
+
+const plausible = new Plausible(app, deployEnvStackNameOf(Plausible), {
+  vpc: network.vpc
+})
 
 const api = new Api(app, deployEnvStackNameOf(Api), {
   visitorsTable: visitors.visitorsTable,
