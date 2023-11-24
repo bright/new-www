@@ -47,7 +47,8 @@ class CustomWorkerFactory @Inject constructor(
 }
 ```
 
-It assumes that we are able to inject our custom-assisted factories, which will help us create Workers using only Context and WorkerParameters. For providing such factories, [please see Assisted Injection documentation](https://dagger.dev/dev-guide/assisted-injection.html). \
+It assumes that we are able to inject our custom-assisted factories, which will help us create Workers using only Context and WorkerParameters. For providing such factories, [please see Assisted Injection documentation](https://dagger.dev/dev-guide/assisted-injection.html). 
+
 This code works fine, however there is one issue with it. If you rename, move or delete the Worker’s class and you had a work request scheduled for the class before modification, then the `Class.forName(workerClassName)` is going to throw `ClassNotFoundException`. It’s because WorkManager stores class names in its local database and it doesn’t track class modifications. Once WorkManager saves a particular class name, it’s going to stay in the database until the associated request is completed.\
 Here is a sample scenario showing how this situation can happen:
 
