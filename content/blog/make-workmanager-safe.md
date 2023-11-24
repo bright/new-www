@@ -49,7 +49,8 @@ class CustomWorkerFactory @Inject constructor(
 
 It assumes that we are able to inject our custom-assisted factories, which will help us create Workers using only Context and WorkerParameters. For providing such factories, [please see Assisted Injection documentation](https://dagger.dev/dev-guide/assisted-injection.html). 
 
-This code works fine, however there is one issue with it. If you rename, move or delete the Worker’s class and you had a work request scheduled for the class before modification, then the `Class.forName(workerClassName)` is going to throw `ClassNotFoundException`. It’s because WorkManager stores class names in its local database and it doesn’t track class modifications. Once WorkManager saves a particular class name, it’s going to stay in the database until the associated request is completed.\
+This code works fine, however there is one issue with it. If you rename, move or delete the Worker’s class and you had a work request scheduled for the class before modification, then the `Class.forName(workerClassName)` is going to throw `ClassNotFoundException`. It’s because WorkManager stores class names in its local database and it doesn’t track class modifications. Once WorkManager saves a particular class name, it’s going to stay in the database until the associated request is completed.
+
 Here is a sample scenario showing how this situation can happen:
 
 1. Create `SyncDataWorker` class and install the app
@@ -61,7 +62,7 @@ Here is a sample scenario showing how this situation can happen:
 
 `adb shell am broadcast -a "androidx.work.diagnostics.REQUEST_DIAGNOSTICS" -p "your.package.name"`
 
-1. The app should crash soon with the `ClassNotFoundException`
+7. The app should crash soon with the `ClassNotFoundException`
 
 In order to fix this issue we can simply wrap the `Class.forName(workerClassName)` invocation with a try-catch statement:
 
