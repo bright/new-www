@@ -29,8 +29,8 @@ social_media_previev_alt: Transportation Management System case study
 bar_achievements:
   - number: "42"
     label: countries
-  - number: 1 min
-    label: to analyze 1,000 listings
+  - number: 300 hours
+    label: saved per employee a year
   - number: 0.5 sec
     label: to filter out and display the listing
 tags:
