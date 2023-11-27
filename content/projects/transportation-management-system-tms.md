@@ -29,7 +29,7 @@ social_media_previev_alt: Transportation Management System case study
 bar_achievements:
   - number: "42"
     label: countries
-  - number: 300 hours
+  - number: 300 h
     label: saved per employee a year
   - number: 3-5 sec
     label: to analyze routes per order
