@@ -143,7 +143,7 @@ It is essential to highlight the significance of product design in the context o
 
 MVP launch ensured the client that the system has the potential to change the daily work on their team. **The company is on the verge of a complete digital transformation**. At this moment **90% of daily transport management operations are done with the new system**.
 
-**Our team managed to meet the crucial client’s requirement** – delivering a fast transport listings filtering system. As a result, **the system quickly analyses routes for forwarders in just 3-5 seconds per order, saving a total of 300 h per employee a year**. Before that, the filtering process had to be done manually.
+**Our team managed to meet the crucial client’s requirement** – delivering a fast transport listings filtering system. As a result, **the system analyses routes for forwarders in just 3-5 seconds per order, saving a total of 300 h per employee a year**. Before that, the filtering process had to be done manually.
 
 <TitleWithIcon sectionTitle="client’s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="client’s perspective" />
 
