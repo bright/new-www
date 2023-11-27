@@ -31,8 +31,8 @@ bar_achievements:
     label: countries
   - number: 300 hours
     label: saved per employee a year
-  - number: 0.5 sec
-    label: to filter out and display the listing
+  - number: 3-5 sec
+    label: to analyze routes per order
 tags:
   - web app
   - mobile app
