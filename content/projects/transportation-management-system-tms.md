@@ -16,12 +16,12 @@ layout: project
 project_id: tms
 title: "Revolutionizing Logistics: How We Transformed a Transport Management System"
 image: /images/tms_cover_2x.png
-description: The Transport Management System filters the perfect listings in
-  just 0.5 seconds, providing unparalleled speed and efficiency in the logistics
-  sector. With the ever-increasing demands of the logistics industry, having the
-  right tools in place is essential for smooth operations. Our client's system
-  is tailored to address their needs, ensuring optimal performance and customer
-  satisfaction.
+description: The Transport Management System analyses routes, cutting the time
+  from 10-30 seconds to just 3-5 seconds per order, providing unparalleled speed
+  and efficiency in the logistics sector. With the ever-increasing demands of
+  the logistics industry, having the right tools in place is essential for
+  smooth operations. Our client's system is tailored to address their needs,
+  ensuring optimal performance and customer satisfaction.
 hero_image: /images/case_study_road_transportation.png
 Hero Image_alt: Transportation Management System
 social_media_previev: /images/tms_social_preview.png
@@ -29,10 +29,10 @@ social_media_previev_alt: Transportation Management System case study
 bar_achievements:
   - number: "42"
     label: countries
-  - number: 1 min
-    label: to analyze 1,000 listings
-  - number: 0.5 sec
-    label: to filter out and display the listing
+  - number: 300 h
+    label: saved per employee a year
+  - number: 3-5 sec
+    label: to analyze routes per order
 tags:
   - web app
   - mobile app
@@ -143,7 +143,7 @@ It is essential to highlight the significance of product design in the context o
 
 MVP launch ensured the client that the system has the potential to change the daily work on their team. **The company is on the verge of a complete digital transformation**. At this moment **90% of daily transport management operations are done with the new system**.
 
-**Our team managed to meet the crucial client’s requirement** – delivering a fast transport listings filtering system. As a result, **it takes up to 0.5 seconds to filter out the right transport orders and display them to users**. **Over 1,000 transport listings are analyzed in 1 minute** and the system displays only the ones that meet all the requirements. **Before that, the filtering process had to be done manually**.
+**Our team managed to meet the crucial client’s requirement** – delivering a fast transport listings filtering system. As a result, **the system analyses routes for forwarders in up to 5 seconds per order, saving a total of 300 h per employee a year**. Before that, the filtering process had to be done manually.
 
 <TitleWithIcon sectionTitle="client’s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="client’s perspective" />
 
