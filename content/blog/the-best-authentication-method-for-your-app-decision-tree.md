@@ -3,8 +3,8 @@ author: piotr
 tags:
   - business
   - development
-date: 2023-11-28T09:29:24.501Z
-meaningfullyUpdatedAt: 2023-11-28T09:29:24.527Z
+date: 2023-11-28T09:45:31.293Z
+meaningfullyUpdatedAt: 2023-11-28T09:45:31.920Z
 title: The Best Authentication Methods for Your App (Decision Tree)
 layout: post
 image: /images/blog_post_decision_tree.png
