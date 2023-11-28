@@ -61,17 +61,17 @@ If you stay updated on industry trends and advancements in technology, and you a
 
 ## preferred skills and qualifications ✅
 
-**✔️at least 6 months of experience in B2B sales or customer success in IT field** 
+**✔️ at least 6 months of experience in B2B sales or customer success in IT field** 
 
-✔️strong verbal and written communication skills.
+✔️ strong verbal and written communication skills.
 
-✔️excellent command of English (both oral and written)
+✔️ excellent command of English (both oral and written)
 
-✔️resilience and persistence to handle rejection and overcome challenges 
+✔️ resilience and persistence to handle rejection and overcome challenges 
 
-✔️an enthusiastic and eager-to-learn attitude 
+✔️ an enthusiastic and eager-to-learn attitude 
 
-✔ ️curious mindset to understand the industry, product, and customer needs
+✔️️ curious mindset to understand the industry, product, and customer needs
 
 ✔️ ability to prioritise tasks and manage time effectively
 
