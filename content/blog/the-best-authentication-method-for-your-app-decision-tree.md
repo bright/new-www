@@ -5,7 +5,7 @@ tags:
   - development
 date: 2023-11-28T09:29:24.501Z
 meaningfullyUpdatedAt: 2023-11-28T09:29:24.527Z
-title: The Best Authentication Method for Your App (Decision Tree)
+title: The Best Authentication Methods for Your App (Decision Tree)
 layout: post
 image: /images/blog_post_decision_tree.png
 hidden: true
