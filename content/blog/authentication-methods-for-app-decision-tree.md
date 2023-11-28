@@ -27,6 +27,6 @@ Here are examples of the questions:
 
 Dive into the first question with this sample:
 
-<div className="image">![authentication method decision tree](../../static/images/decision_tree_sample.png "authentication method decision tree")</div>
+<div className="image">![authentication method decision tree](../../static/images/blog_post_decision_tree_new.png "authentication method decision tree")</div>
 
 According to your answers, we prepared the proper recommendations. Download the free ebook to have the whole picture and streamline your sign-in process.
