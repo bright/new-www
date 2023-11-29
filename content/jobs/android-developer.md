@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Android Developer
-subtitle: ONGOING
+subtitle: CLOSED
 imagejob: /images/androidteam2.png
 image-alt-job: Android Team Bright Inventions
 hours: full-time
@@ -24,10 +24,10 @@ show_recruiter_info: false
 order: 6
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
+language: en
 description: We are a software development and consultancy studio based in
   Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses
   worldwide.
-language: en
 ---
 
 
