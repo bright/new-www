@@ -104,7 +104,7 @@ If you stay updated on industry trends and advancements in technology, and you a
 
 ➟ 20-26 paid days off + Polish bank holidays
 
-➟ flexible working hours and a possibility of remote work
+➟ flexible working hours and a possibility of hybrid work (partly in the office - Gdańsk and partly from home)
 
 ➟ MultiSport card and private medical package (Compensa)
 
