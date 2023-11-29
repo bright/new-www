@@ -4,7 +4,7 @@ workplace_recruiter: Junior Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: "Product Designer "
-subtitle: ONGOING
+subtitle: CLOSED
 image-alt-job: Bright Inventions team
 hours: full-time
 salary: 12 000 - 17 000 PLN + VAT (B2B) or 10 000 - 14 100 PLN gross (UoP)
@@ -39,9 +39,9 @@ hidden: true
 order: 1
 recruting_image2_title: " interview (technical & non-technical part)"
 recruting_image3_title: "product design task "
+language: en
 description: We are seeking a talented and creative Product designer who will
   focus on ensuring a first-class user experience across products we do. Apply!
-language: en
 ---
 ![]()
 
