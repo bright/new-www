@@ -19,7 +19,7 @@ import path from 'path'
 import { deployEnv } from '../deploy-env'
 import { PolicyStatement, User } from 'aws-cdk-lib/aws-iam'
 import { SesSmtpCredentials } from '@pepperize/cdk-ses-smtp-credentials'
-import { BackupPlan } from 'aws-cdk-lib/aws-backup'
+import { BackupPlan, BackupResource } from 'aws-cdk-lib/aws-backup'
 
 interface PlausibleProps {
   vpc: IVpc
@@ -182,5 +182,10 @@ POSTGRES_PASSWORD=fea20aad4b255a2e815b06d147ed61bc
     smtpCredentials.secret.grantRead(bastionHostLinux)
 
     BackupPlan.dailyMonthly1YearRetention(this, 'backup')
+      .addSelection('plausible', {
+        resources: [
+          BackupResource.fromConstruct(this)
+        ]
+      })
   }
 }
