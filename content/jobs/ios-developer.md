@@ -4,7 +4,7 @@ workplace_recruiter: Junior Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: iOS Developer
-subtitle: ONGOING
+subtitle: CLOSED
 image-alt-job: iOS Team Bright Inventions
 hours: full-time
 salary: 12 000 - 17 000 PLN + VAT (B2B) or 10 000 - 14 100 PLN gross (UoP)
@@ -29,24 +29,24 @@ links_more_about_us: >-
 
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
 title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
-name_recruiter: Agata
 image_recruiter_info: /images/agata_recruiter.png
-image_alt_recruiter_info: Agata Mietlińska - a recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our iOS team
+show_recruiter_info: true
+hidden: true
+name_recruiter: Agata
+image_alt_recruiter_info: Agata Mietlińska - a recruiter at Bright Inventions
 redirect_from:
   - /ios-developer
   - /ios-developer/
 published: false
-hidden: true
-show_recruiter_info: true
 order: 5
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
+language: en
 description: We are looking for an experienced passionate iOS Developer to
   develop and enhance innovative and robust iOS application for one of our main
   clients.
-language: en
 ---
 
 ![]()
