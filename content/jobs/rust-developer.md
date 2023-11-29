@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Rust Developer "
-subtitle: OPENING SOON
+subtitle: CLOSED
 imagejob: /images/backendteam.png
 image-alt-job: Bright Inventions team
 hours: full-time
