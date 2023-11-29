@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Junior Product Designer "
-subtitle: ONGOING
+subtitle: CLOSED
 imagejob: /images/backendteam.png
 image-alt-job: Bright Inventions team
 hours: full-time
@@ -23,10 +23,10 @@ technology:
 order: 1
 recruting_image2_title: interview
 recruting_image3_title: product design task
+language: en
 description: We are seeking a Junior Product Designer who will support our
   product design team. You will learn how to create wireframes, mock-ups and
   prototypes. Apply!
-language: en
 ---
 ## who we are
 
