@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Junior Recruitment Specialist "
-subtitle: ONGOING
+subtitle: CLOSED
 imagejob: /images/brightteam_devops_job_offer.png
 image-alt-job: Bright Inventions Team
 hours: full-time
@@ -10,10 +10,10 @@ salary_min: 4000
 salary_max: 7200
 working time: full time
 technology:
-  - perfect communication 
+  - perfect communication
   - can-do attitude
   - empathy
-  - HR tools 
+  - HR tools
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -25,14 +25,14 @@ links_more_about_us: >-
 
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
 title_recruiter_info: Do you have any questions? Ask Ula from our Bright team!
-name_recruiter: Ula
 image_recruiter_info: /images/ula_recruiter_hr.png
-image_alt_recruiter_info: Ula Stankiewicz - HR & Marketing Manager at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
-button: join our recruitment team
 published: false
-hidden: true
 show_recruiter_info: true
+hidden: true
+name_recruiter: Ula
+image_alt_recruiter_info: Ula Stankiewicz - HR & Marketing Manager at Bright Inventions
+button: join our recruitment team
 order: 3
 recruting_image2_title: recruitment task
 recruting_image3_title: interview
