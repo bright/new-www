@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Recruitment Specialist
-subtitle: OPENING SOON
+subtitle: CLOSED
 imagejob: /images/multidisciplinary-team-bright-inventions.png
 image-alt-job: Bright Inventions team
 hours: full-time
