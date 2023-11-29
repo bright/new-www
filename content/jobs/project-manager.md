@@ -4,7 +4,7 @@ workplace_recruiter: HR & Marketing Manager
 Show_recruiter_info: true
 layout: job
 title: Project Manager
-subtitle: ONGOING
+subtitle: CLOSED
 image-alt-job: "job for project manager "
 hours: full-time
 salary: 13 000 - 17 000 PLN + VAT (B2B) or 10 700 - 14 000 PLN gross (UoP)
@@ -39,14 +39,14 @@ image_alt_recruiter_info: Ula Stankiewicz - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
 button: join Agile team
 published: false
-hidden: true
 show_recruiter_info: true
+hidden: true
 order: 5
 recruting_image2_title: "interview "
 recruting_image3_title: PM task
+language: en
 description: We are looking for a Project Manager who will support our team in
   planning, executing, monitoring and closing our Bright projects. Apply!
-language: en
 ---
 ## **about the role**
 
