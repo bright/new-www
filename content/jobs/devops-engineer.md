@@ -4,7 +4,7 @@ workplace_recruiter: Junior Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: "DevOps Engineer "
-subtitle: ONGOING
+subtitle: CLOSED
 image-alt-job: Bright Inventions team
 hours: Full-time
 salary: 20 000 - 25 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
@@ -38,9 +38,9 @@ show_recruiter_info: true
 order: 3
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: DevOps task
+language: en
 description: We are looking for a DevOps Engineer who has good knowledge of AWS
   cloud services and experience with managing Kubernetes in production. Apply!
-language: en
 ---
 ## who we are
 
