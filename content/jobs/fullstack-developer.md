@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Senior Fullstack Developer "
-subtitle: ONGOING
+subtitle: CLOSED
 imagejob: /images/fullstackteam.png
 image-alt-job: Fullstack Team Bright Inventions
 hours: Full-time
@@ -22,10 +22,10 @@ technology:
 order: 7
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
+language: en
 description: We are looking now for a Full Stack Developer who has already had
   experience with web development and knows how to build Cloud Platform
   projects.
-language: en
 ---
 ## who we are
 
