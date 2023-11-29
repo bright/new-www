@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Junior Fullstack Developer "
-subtitle: "OPENING SOON "
+subtitle: CLOSED
 imagejob: /images/fullstackteam.png
 image-alt-job: Fullstack Team Bright Inventions
 hours: full-time
@@ -22,9 +22,9 @@ technology:
 order: 10
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
+language: en
 description: We are looking for a Junior Fullstack Developer to join our team.
   We want to offer you an opportunity to work with modern frameworks and tools.
-language: en
 ---
 ![]()
 
