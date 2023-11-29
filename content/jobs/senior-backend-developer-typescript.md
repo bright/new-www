@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Senior Backend Developer (TS, Node.js)
-subtitle: OPENING SOON 
+subtitle: CLOSED
 imagejob: /images/fullstackteam_job_offer.png
 image-alt-job: Backend Team Bright Inventions
 hours: Full-time
@@ -37,10 +37,10 @@ button: join our backend team
 order: 8
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
+language: en
 description: We are looking now for a Full Stack Developer who has already had
   experience with web development and knows how to build Cloud Platform
   projects.
-language: en
 ---
 ## about the role 👩🏻‍💻🧑🏻‍💻
 
