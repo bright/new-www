@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Flutter Developer
-subtitle: OPENING SOON 
+subtitle: CLOSED
 imagejob: /images/androidteam2.png
 image-alt-job: Flutter Team Bright Inventions
 hours: full-time
