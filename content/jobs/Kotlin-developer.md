@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Java/Kotlin Developer "
-subtitle: ONGOING
+subtitle: CLOSED
 imagejob: /images/backendteam_bright-inventions.png
 image-alt-job: Java and Kotlin Developers
 hours: full-time
@@ -23,10 +23,10 @@ show_recruiter_info: false
 order: 2
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
+language: en
 description: We are looking for an experienced Java/Kotlin Developer who would
   like to develop and enhance an innovative backend application for one of our
   main clients.
-language: en
 ---
 ## who we are 
 
