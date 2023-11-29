@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Frontend Developer "
-subtitle: OPENING SOON
+subtitle: CLOSED
 imagejob: /images/frontendteam_job_offer.png
 image-alt-job: Frontend Team Bright Inventions
 hours: full-time
@@ -25,21 +25,21 @@ links_more_about_us: >-
 
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
 title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
-name_recruiter: Agata
 workplace_recruiter: Junior Recruiting Specialist
 image_recruiter_info: /images/agata_recruiter.png
-image_alt_recruiter_info: Agata Mietlińska - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
-button: join our frontend team
 published: false
-hidden: true
 show_recruiter_info: true
+hidden: true
+name_recruiter: Agata
+image_alt_recruiter_info: Agata Mietlińska - a Recruiter at Bright Inventions
+button: join our frontend team
 order: 9
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
+language: en
 description: We are looking for a Frontend Developer who would like to work with
   our experienced and ambitious development team.
-language: en
 ---
 ![]()
 
