@@ -4,7 +4,7 @@ workplace_recruiter: Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: "Senior Backend Developer "
-subtitle: OPENING SOON
+subtitle: CLOSED
 image-alt-job: backend development team
 hours: full-time
 salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP)
@@ -40,10 +40,10 @@ hidden: true
 order: 8
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
+language: en
 description: We are looking for an experienced Backend Developer who understands
   Java/Kotlin & Spring really well and who would like to work with AWS on daily
   basis.
-language: en
 ---
 
 ![]()
