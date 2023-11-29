@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Junior Android Developer "
-subtitle: OPENING SOON
+subtitle: CLOSED
 imagejob: /images/androidteam2.png
 image-alt-job: Android Team Bright Inventions
 hours: full-time
@@ -19,9 +19,9 @@ show_recruiter_info: false
 order: 9
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
+language: en
 description: We are looking for a Junior Android Developer to join our team. We
   want to offer you an opportunity to work with modern frameworks and tools.
-language: en
 ---
 
 
