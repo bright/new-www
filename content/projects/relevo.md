@@ -93,3 +93,5 @@ In the front line, a **restaurant digital panel emerged with a management center
 Behind the scenes, we can’t forget about building the **admin panel for Relevos’ team to strengthen ties with their massive network of partners**. This invisible hand keeps the client's eco revolution thriving. It coordinates orders, troubleshoots, ensures smooth collaboration with every partner, and incorporates a robust analytics dashboard, providing valuable insights related to tableware borrowing. 
 
 Finally, this green wave wouldn’t have taken place without **Android and iOS applications that enable over 200,000 Relevo users to borrow reusable tableware**. Users seamlessly scan QR codes on Relevo's packaging, enjoying their take-away food and drinks wherever they want.
+
+<div className="image">![Relevo mockups](../../static/images/in_text_relevo_mobile_mockups-4-.png "Relevo mockups")</div>
