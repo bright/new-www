@@ -84,8 +84,12 @@ The final hurdle is especially captivating because it leans toward cultural barr
 
 <TitleWithIcon sectionTitle="solutions: a new approach to cloud &amp; web development" titleIcon="/images/two_flags.svg" titleIconAlt="solutions" />
 
-The founders of Relevo were looking for an experienced [software development company](/) that could take over the backend development. Bright Inventions was recommended by our long-term client – [EY etventure](https://www.etventure.com). The product was already launched and gained a steady number of users. However, the backend system needed to be quickly adjusted to the rapid growth of users looking to access the app. 
+At the heart of our work was a massive tech revamp featuring Node.js, NestJS, and AWS to supercharge performance, scalability, and efficiency. This allowed us to enhance the system on many levels. 
 
-We are in the process of rewriting the whole backend using technologies such as Node.js, NestJS and AWS. Also, we take care of the frontend part – developing a panel for restaurants allowing for managing the app users’ activity as well as an admin panel. 
+By leveraging the power of Node.js and NestJS, we aimed to create a robust and flexible backend architecture that could seamlessly support the application's evolving needs. Additionally, the incorporation of AWS services offered us a reliable and scalable cloud infrastructure to host and manage applications and data, further reinforcing our technical foundation.
 
-Although our team was hired to take care mainly of the backend side, we are about to take over the whole [mobile app development](/our-areas/mobile-app-development) as well. Our mobile developers will be working on both Android and iOS versions. We are extremely happy that the client trusted us to develop the whole system now. Our cooperation with Relevo started at the end of 2020 and in a couple of months this adventure quickly moved to another level.
+In the front line, a restaurant digital panel emerged with a management center for reusable tableware, orders, and tracking inventory — everything in one sleek interface accessible to over 3,000 Relevo partners.
+
+Behind the scenes, we can’t forget about building the admin panel for Relevos’ team to strengthen ties with their massive network of partners. This invisible hand keeps the client's eco revolution thriving. It coordinates orders, troubleshoots, ensures smooth collaboration with every partner, and incorporates a robust analytics dashboard, providing valuable insights related to tableware borrowing. 
+
+Finally, this green wave wouldn’t have taken place without Android and iOS applications that enable over 200,000 Relevo users to borrow reusable tableware. Users seamlessly scan QR codes on Relevo's packaging, enjoying their take-away food and drinks wherever they want.
