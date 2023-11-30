@@ -95,3 +95,7 @@ Behind the scenes, we can’t forget about building the **admin panel for Relevo
 Finally, this green wave wouldn’t have taken place without **Android and iOS applications that enable over 200,000 Relevo users to borrow reusable tableware**. Users seamlessly scan QR codes on Relevo's packaging, enjoying their take-away food and drinks wherever they want.
 
 <div className="image">![Relevo mockups](../../static/images/in_text_relevo_mobile_mockups-4-.png "Relevo mockups")</div>
+
+
+
+<TitleWithIcon sectionTitle="result of the collaboration: transforming MVP into a fully mature solution that catalyzes the change " titleIcon="/images/icon_result_svg.svg" titleIconAlt="result of the collaboration: transforming MVP into a fully mature solution that catalyzes the change " />
