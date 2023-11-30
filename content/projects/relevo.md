@@ -20,7 +20,7 @@ description: >
   future together with our client. 
 hero_image: /images/case_study_main_relevo.png
 Hero Image_alt: Relevo
-social_media_previev: /images/relevo_fb_preview.png
+social_media_previev: /images/relevo_some_preview.png
 social_media_previev_alt: Relevo case study
 bar_achievements:
   - number: 50k
