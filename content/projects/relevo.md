@@ -82,7 +82,7 @@ Another notable obstacle we confronted was a technical limitation – **many res
 
 The final hurdle is especially captivating because it leans toward cultural barriers rather than technical ones. **Users in Germany are cautious about downloading unfamiliar apps, so our team implemented App Clip and Instant App solutions to break this social barrier**. By implementing these technologies, we have streamlined the process of introducing new users to Relevo’s platform, instantly showcasing the app's key features on their screens without necessitating a full download. Over time, users opt to install the app as they recognize its value. Both App Clip and Instant App have evolved into significant channels for user acquisition.
 
-
+<TitleWithIcon sectionTitle="solutions: a new approach to cloud &amp; web development" titleIcon="/images/two_flags.svg" titleIconAlt="solutions" />
 
 The founders of Relevo were looking for an experienced [software development company](/) that could take over the backend development. Bright Inventions was recommended by our long-term client – [EY etventure](https://www.etventure.com). The product was already launched and gained a steady number of users. However, the backend system needed to be quickly adjusted to the rapid growth of users looking to access the app. 
 
