@@ -51,6 +51,12 @@ language: en
 
 The year 2473 – by then, the plastic made today will probably have decomposed. Germany itself witnesses the consumption of approximately [3 million tons of plastic packaging yearly](https://www.statista.com/statistics/1265122/plastic-packaging-consumption-germany/). **Relevo, a Germany-based startup, introduced a pioneering solution: the provision of reusable containers for restaurants**, which could be borrowed by their customers free of charge. 
 
+<div className="image">![Relevo app](../../static/images/relevo_official_material3.png "Relevo app")</div>
+
+Relevo’s immense growth following the MVP launch was every startup founder's dream but it also presented some hurdles. As the app user base started to grow our client **needed an experienced tech partner to lead them through the further development providing a seamless Android and iOS mobile experience as well as transforming to new frameworks**.
+
+The client sought a well-organized team ready to support them in scaling a best-in-class tableware reusable system that would be highly rated by the users. 
+
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 ![relevo app development](../../static/images/ecofriendly_app_main3.png)
