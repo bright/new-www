@@ -84,12 +84,12 @@ The final hurdle is especially captivating because it leans toward cultural barr
 
 <TitleWithIcon sectionTitle="solutions: a new approach to cloud &amp; web development" titleIcon="/images/two_flags.svg" titleIconAlt="solutions" />
 
-At the heart of our work was a massive tech revamp featuring Node.js, NestJS, and AWS to supercharge performance, scalability, and efficiency. This allowed us to enhance the system on many levels. 
+At the heart of our work was a **massive tech revamp featuring Node.js, NestJS, and AWS** to supercharge performance, scalability, and efficiency. This allowed us to enhance the system on many levels. 
 
-By leveraging the power of Node.js and NestJS, we aimed to create a robust and flexible backend architecture that could seamlessly support the application's evolving needs. Additionally, the incorporation of AWS services offered us a reliable and scalable cloud infrastructure to host and manage applications and data, further reinforcing our technical foundation.
+By leveraging the power of Node.js and NestJS, we aimed to create a robust and flexible backend architecture that could seamlessly support the application's evolving needs. Additionally, **the incorporation of AWS services offered us a reliable and scalable cloud infrastructure to host and manage applications and data**, further reinforcing our technical foundation.
 
-In the front line, a restaurant digital panel emerged with a management center for reusable tableware, orders, and tracking inventory — everything in one sleek interface accessible to over 3,000 Relevo partners.
+In the front line, a **restaurant digital panel emerged with a management center for reusable tableware, orders, and tracking inventory** — everything in one sleek interface accessible to over **3,000 Relevo partners**.
 
-Behind the scenes, we can’t forget about building the admin panel for Relevos’ team to strengthen ties with their massive network of partners. This invisible hand keeps the client's eco revolution thriving. It coordinates orders, troubleshoots, ensures smooth collaboration with every partner, and incorporates a robust analytics dashboard, providing valuable insights related to tableware borrowing. 
+Behind the scenes, we can’t forget about building the **admin panel for Relevos’ team to strengthen ties with their massive network of partners**. This invisible hand keeps the client's eco revolution thriving. It coordinates orders, troubleshoots, ensures smooth collaboration with every partner, and incorporates a robust analytics dashboard, providing valuable insights related to tableware borrowing. 
 
-Finally, this green wave wouldn’t have taken place without Android and iOS applications that enable over 200,000 Relevo users to borrow reusable tableware. Users seamlessly scan QR codes on Relevo's packaging, enjoying their take-away food and drinks wherever they want.
+Finally, this green wave wouldn’t have taken place without **Android and iOS applications that enable over 200,000 Relevo users to borrow reusable tableware**. Users seamlessly scan QR codes on Relevo's packaging, enjoying their take-away food and drinks wherever they want.
