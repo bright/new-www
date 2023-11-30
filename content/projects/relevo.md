@@ -64,14 +64,9 @@ The client sought a well-organized team ready to support them in scaling a best-
 
 <TitleWithIcon sectionTitle="challenges: overcoming technical and cultural barriers " titleIcon="/images/two_flags.svg" titleIconAlt="challenges" />
 
-Relevo and Bright Inventions’ priority has been to increase the scalability & reliability of the backend system. The challenge is to ensure the system stability during peak hours. The rapid growth of users for an app like Relevo happens during lunchtime when people use the app in restaurants. At the same time we were also developing and launching new features to provide the users with new capabilities continuously. 
+Therefore our current emphasis is on the continuous development of a more mature product with a strong commitment to code quality. We have introduced a range of automated tests and are dedicated to further improving our quality assurance processes. The challenge is to consistently deliver the most reliable and optimal solution that can be effectively extended to thousands of restaurants and an even larger user base.
 
-<TitleWithIcon sectionTitle="main features developed by Bright Inventions" titleIcon="/images/icons_features_svg.svg" titleIconAlt="features" />
-
-* Panel for restaurants,
-* QR code scanning,
-* Integration with online food delivery services,
-* Payment system.
+Another notable obstacle we confronted was a technical limitation – many restaurants throughout Germany operate without reliable internet access. In response, we devised a solution by implementing an offline mode, transforming Relevo apps into [offline-first applications](https://brightinventions.pl/blog/offline-first-app-guide-for-startups-app-owners-case-studies/). This enhancement allows users to carry out essential actions within the app, such as borrowing food containers, even in offline conditions. Once their internet connection is restored, the app seamlessly synchronizes all data, ensuring a smooth and uninterrupted user experience.
 
 <TitleWithIcon sectionTitle="skills &amp;#x2F; stack" titleIcon="/images/skills.svg" titleIconAlt="bright" />
 
