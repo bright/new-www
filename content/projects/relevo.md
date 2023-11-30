@@ -75,7 +75,7 @@ Another notable obstacle we confronted was a technical limitation – **many res
 
 The final hurdle is especially captivating because it leans toward cultural barriers rather than technical ones. **Users in Germany are cautious about downloading unfamiliar apps, so our team implemented App Clip and Instant App solutions to break this social barrier**. By implementing these technologies, we have streamlined the process of introducing new users to Relevo’s platform, instantly showcasing the app's key features on their screens without necessitating a full download. Over time, users opt to install the app as they recognize its value. Both App Clip and Instant App have evolved into significant channels for user acquisition.
 
-<TitleWithIcon sectionTitle="solutions: a new approach to cloud &amp;amp;amp;amp; web development" titleIcon="/images/two_flags.svg" titleIconAlt="solutions" />
+<TitleWithIcon sectionTitle="solutions: a new approach to cloud and web development" titleIcon="/images/two_flags.svg" titleIconAlt="solutions" />
 
 At the heart of our work was a **massive tech revamp featuring Node.js, NestJS, and AWS** to supercharge performance, scalability, and efficiency. This allowed us to enhance the system on many levels. 
 
