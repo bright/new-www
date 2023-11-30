@@ -49,9 +49,8 @@ language: en
 ---
 <TitleWithIcon sectionTitle="problem – the technology doesn&#39;t fully support Relevo’s mission" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
-[Relevo](https://www.gorelevo.de) is a German startup founded in 2020. It offers Android and iOS applications. Relevo works with restaurants (mainly in Munich and Berlin) that are eager to offer reusable packages for takeout. Thanks to the app users can scan a QR code on the reusable package and take their food in an eco-friendly tableware. We just have to remember to give back the packaging to the partner restaurant within 2 weeks. And then the next person can use it again.
+The year 2473 – by then, the plastic made today will probably have decomposed. Germany itself witnesses the consumption of approximately [3 million tons of plastic packaging yearly](https://www.statista.com/statistics/1265122/plastic-packaging-consumption-germany/). **Relevo, a Germany-based startup, introduced a pioneering solution: the provision of reusable containers for restaurants**, which could be borrowed by their customers free of charge. 
 
-Relevo is free, eco-friendly, and smart. We all see how plastic tableware took over our lives, especially during the pandemic. Now it might be more possible than ever to change that. We are proud to be a part of this change!
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 ![relevo app development](../../static/images/ecofriendly_app_main3.png)
