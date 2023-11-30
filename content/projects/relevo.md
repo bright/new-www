@@ -62,7 +62,7 @@ The client sought a well-organized team ready to support them in scaling a best-
 ![relevo app development](../../static/images/ecofriendly_app_main3.png)
 <AppStore googleApp='https://play.google.com/store/apps/details?id=com.relevoapp' srcGoogle='/images/google_play.png' altGoogleImage='google play' appStore='https://apps.apple.com/us/app/relevo/id1501683637' srcAppStore='/images/app_store.png' altAppStoreImage='app store'/>
 
-<TitleWithIcon sectionTitle="goal" titleIcon="/images/icon_title_goal.svg" titleIconAlt="goal" />
+<TitleWithIcon sectionTitle="challenges: overcoming technical and cultural barriers " titleIcon="/images/two_flags.svg" titleIconAlt="challenges" />
 
 Relevo and Bright Inventions’ priority has been to increase the scalability & reliability of the backend system. The challenge is to ensure the system stability during peak hours. The rapid growth of users for an app like Relevo happens during lunchtime when people use the app in restaurants. At the same time we were also developing and launching new features to provide the users with new capabilities continuously. 
 
