@@ -7,7 +7,7 @@ team_members:
   - mateusz
 our_service:
   - web development
-  - product design
+  - mobile app development
 layout: project
 project_id: relevo
 title: Relevo
