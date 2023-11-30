@@ -99,3 +99,7 @@ Finally, this green wave wouldn’t have taken place without **Android and iOS a
 
 
 <TitleWithIcon sectionTitle="result of the collaboration: transforming MVP into a fully mature solution that catalyzes the change " titleIcon="/images/icon_result_svg.svg" titleIconAlt="result of the collaboration: transforming MVP into a fully mature solution that catalyzes the change " />
+
+After 3 years of collaboration, Relevo’s solution has transformed from an immature product to a fully-fledged one. **The mobile app is available in over 700 European cities and is loved by over 200,000 users**. Relevo no longer wrestles with peak hours, allowing them to concentrate on their green mission. We are thrilled to stand alongside Relevo in this extraordinary project. 
+
+While our collaboration initially centered around backend development, we are appreciative that the client extended their trust to us, enabling us to oversee the complete system's development. More than [3 million plastic containers have been saved](https://app.relevo.de/) through our collaboration, and the count continues!
