@@ -7,25 +7,28 @@ team_members:
   - mateusz
 our_service:
   - web development
-  - product design
+  - mobile app development
 layout: project
 project_id: relevo
-title: Relevo
-image: /images/ecofriendly_app_main3.png
-description: Around 1 million plastic food containers are used in Germany per
-  hour! Relevo is a smart reusable system that fights plastic waste and starts
-  the real change.
-hero_image: /images/relevo.png
+title: "From MVP to 200k Users. Meet Relevo – Sustainable Food Take-Away &
+  Delivery App "
+image: /images/case_study_cover_eco_food_app.png
+description: >
+  Over 3 million single-use plastic containers have been saved thanks to German
+  startup Relevo. Every reusable container tells a story of progress in the
+  battle against plastic waste. We are happy to be scripting a greener & cleaner
+  future together with our client. 
+hero_image: /images/case_study_main_relevo.png
 Hero Image_alt: Relevo
-social_media_previev: /images/relevo_fb_preview.png
+social_media_previev: /images/relevo_some_preview.png
 social_media_previev_alt: Relevo case study
 bar_achievements:
-  - number: 50k
-    label: Downloads on Google Play
-  - number: "2"
-    label: Mobile apps
-  - number: 2+
-    label: Years of cooperation
+  - number: "+200k "
+    label: app users
+  - number: 3,000+
+    label: Relevo partners
+  - number: 700+
+    label: cities where the app operates
 tags:
   - mobile app
   - web app
@@ -44,42 +47,63 @@ show on homepage: false
 published: true
 language: en
 ---
-<TitleWithIcon sectionTitle='about the project' titleIcon='/images/icon_title_about.svg' titleIconAlt='about Relevo' />
-
-[Relevo](https://www.gorelevo.de) is a German startup founded in 2020. It offers Android and iOS applications. Relevo works with restaurants (mainly in Munich and Berlin) that are eager to offer reusable packages for takeout. Thanks to the app users can scan a QR code on the reusable package and take their food in an eco-friendly tableware. We just have to remember to give back the packaging to the partner restaurant within 2 weeks. And then the next person can use it again.
-
-Relevo is free, eco-friendly, and smart. We all see how plastic tableware took over our lives, especially during the pandemic. Now it might be more possible than ever to change that. We are proud to be a part of this change!
-<AnchorLink href='#contactForm' text='let’s talk about your project'/>
-
-![relevo app development](../../static/images/ecofriendly_app_main3.png "")
-<AppStore googleApp='https://play.google.com/store/apps/details?id=com.relevoapp' srcGoogle='/images/google_play.png' altGoogleImage='google play' appStore='https://apps.apple.com/us/app/relevo/id1501683637' srcAppStore='/images/app_store.png' altAppStoreImage='app store'/>
-
-<TitleWithIcon sectionTitle='goal' titleIcon='/images/icon_title_goal.svg' titleIconAlt='goal' />
 
 
-Relevo and Bright Inventions’ priority has been to increase the scalability & reliability of the backend system. The challenge is to ensure the system stability during peak hours. The rapid growth of users for an app like Relevo happens during lunchtime when people use the app in restaurants. At the same time we were also developing and launching new features to provide the users with new capabilities continuously. 
-
-<TitleWithIcon sectionTitle='main features developed by Bright Inventions' titleIcon='/images/icons_features_svg.svg' titleIconAlt='features' />
-
-* Panel for restaurants,
-* QR code scanning,
-* Integration with online food delivery services,
-* Payment system.
-
-<TitleWithIcon sectionTitle='skills &#x2F; stack' titleIcon='/images/skills.svg' titleIconAlt='bright' />
+<TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="bright" />
 
 <Gallery images='[{"src":"/images/node.png","alt":"node"},{"src":"/images/nest.png","alt":"nest"},{"src":"/images/react.png","alt":"react"},{"src":"/images/MySQL.png","alt":"MySQL"},{"src":"/images/swift.png","alt":"swift"},{"src":"/images/kotlin.png","alt":"kotlin"},{"src":"/images/aws.png","alt":"aws"},{"src":"/images/ci_cd.png","alt":"ci_cd"}]' />
 
-* **Fullstack**: Node.js, NestJS, React, MySQL 
-* **Mobile**: Swift, Kotlin
-* **Deployment**: AWS, CI/CD
+**technologies:** Node.js, NestJS, React, MySQL, SwiftUI, Kotlin, AWS
 
-<TitleWithIcon sectionTitle='challenge' titleIcon='/images/two_flags.svg' titleIconAlt='bright' />
+<TitleWithIcon sectionTitle="problem – the technology doesn&#39;t fully support Relevo’s mission" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
-The founders of Relevo were looking for an experienced [software development company](/) that could take over the backend development. Bright Inventions was recommended by our long-term client – [EY etventure](https://www.etventure.com). The product was already launched and gained a steady number of users. However, the backend system needed to be quickly adjusted to the rapid growth of users looking to access the app. 
+The year 2473 – by then, the plastic made today will probably have decomposed. Germany itself witnesses the consumption of approximately [3 million tons of plastic packaging yearly](https://www.statista.com/statistics/1265122/plastic-packaging-consumption-germany/). **Relevo, a Germany-based startup, introduced a pioneering solution: the provision of reusable containers for restaurants**, which could be borrowed by their customers free of charge. 
 
-We are in the process of rewriting the whole backend using technologies such as Node.js, NestJS and AWS. Also, we take care of the frontend part – developing a panel for restaurants allowing for managing the app users’ activity as well as an admin panel. 
+<div className="image">![Relevo app](../../static/images/relevo_official_material3.png "Relevo app")</div>
 
-<TitleWithIcon sectionTitle='development process' titleIcon='/images/gearwheel.svg' titleIconAlt='development process' />
+Relevo’s immense growth following the MVP launch was every startup founder's dream but it also presented some hurdles. As the app user base started to grow our client **needed an experienced tech partner to lead them through the further development providing a seamless Android and iOS mobile experience as well as transforming to new frameworks**.
 
-Although our team was hired to take care mainly of the backend side, we are about to take over the whole [mobile app development](/our-areas/mobile-app-development) as well. Our mobile developers will be working on both Android and iOS versions. We are extremely happy that the client trusted us to develop the whole system now. Our cooperation with Relevo started at the end of 2020 and in a couple of months this adventure quickly moved to another level.
+The client sought a well-organized team ready to support them in scaling a best-in-class tableware reusable system that would be highly rated by the users. 
+
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
+
+![relevo app development](../../static/images/ecofriendly_app_main3.png)
+<AppStore googleApp='https://play.google.com/store/apps/details?id=com.relevoapp' srcGoogle='/images/google_play.png' altGoogleImage='google play' appStore='https://apps.apple.com/us/app/relevo/id1501683637' srcAppStore='/images/app_store.png' altAppStoreImage='app store'/>
+
+<TitleWithIcon sectionTitle="challenges: overcoming technical and cultural barriers " titleIcon="/images/gearwheel.svg" titleIconAlt="challenges" />
+
+Lunch hours can be the nemesis of every food-related app. **Our primary challenge was to guarantee the stability of the system during peak hours**. By implementing a robust cloud infrastructure, we not only enhanced the application's reliability but also paved the way for other innovations.
+
+Therefore our current emphasis is on the continuous development of a more mature product with a strong commitment to code quality. We have introduced a range of automated tests and are dedicated to further improving our quality assurance processes. **The challenge is to consistently deliver the most reliable and optimal solution that can be effectively extended to thousands of restaurants and an even larger user base**.
+
+Another notable obstacle we confronted was a technical limitation – **many restaurants throughout Germany operate without reliable internet access. In response, we devised a solution by implementing an offline mode, transforming Relevo apps into [offline-first applications](https://brightinventions.pl/blog/offline-first-app-guide-for-startups-app-owners-case-studies/)**. This enhancement allows users to carry out essential actions within the app, such as borrowing food containers, even in offline conditions. Once their internet connection is restored, the app seamlessly synchronizes all data, ensuring a smooth and uninterrupted user experience.
+
+<div className="image">![Relevo packaging](../../static/images/relevo_official_material2.png "Relevo packaging")</div>
+
+The final hurdle is especially captivating because it leans toward cultural barriers rather than technical ones. **Users in Germany are cautious about downloading unfamiliar apps, so our team implemented App Clip and Instant App solutions to break this social barrier**. By implementing these technologies, we have streamlined the process of introducing new users to Relevo’s platform, instantly showcasing the app's key features on their screens without necessitating a full download. Over time, users opt to install the app as they recognize its value. Both App Clip and Instant App have evolved into significant channels for user acquisition.
+
+<TitleWithIcon sectionTitle="solutions: a new approach to cloud &amp; web development" titleIcon="/images/two_flags.svg" titleIconAlt="solutions" />
+
+At the heart of our work was a **massive tech revamp featuring Node.js, NestJS, and AWS** to supercharge performance, scalability, and efficiency. This allowed us to enhance the system on many levels. 
+
+By leveraging the power of Node.js and NestJS, we aimed to create a robust and flexible backend architecture that could seamlessly support the application's evolving needs. Additionally, **the incorporation of AWS services offered us a reliable and scalable cloud infrastructure to host and manage applications and data**, further reinforcing our technical foundation.
+
+In the front line, a **restaurant digital panel emerged with a management center for reusable tableware, orders, and tracking inventory** — everything in one sleek interface accessible to over **3,000 Relevo partners**.
+
+Behind the scenes, we can’t forget about building the **admin panel for Relevos’ team to strengthen ties with their massive network of partners**. This invisible hand keeps the client's eco revolution thriving. It coordinates orders, troubleshoots, ensures smooth collaboration with every partner, and incorporates a robust analytics dashboard, providing valuable insights related to tableware borrowing. 
+
+Finally, this green wave wouldn’t have taken place without **Android and iOS applications that enable over 200,000 Relevo users to borrow reusable tableware**. Users seamlessly scan QR codes on Relevo's packaging, enjoying their take-away food and drinks wherever they want.
+
+<div className="image">![Relevo mockups](../../static/images/in_text_relevo_mobile_mockups-4-.png "Relevo mockups")</div>
+
+<TitleWithIcon sectionTitle="result of the collaboration: transforming MVP into a fully mature solution that catalyzes the change " titleIcon="/images/icon_result_svg.svg" titleIconAlt="result of the collaboration: transforming MVP into a fully mature solution that catalyzes the change " />
+
+After 3 years of collaboration, Relevo’s solution has transformed from an immature product to a fully-fledged one. **The mobile app is available in over 700 European cities and is loved by over 200,000 users**. Relevo no longer wrestles with peak hours, allowing them to concentrate on their green mission. We are thrilled to stand alongside Relevo in this extraordinary project. 
+
+While our collaboration initially centered around backend development, we are appreciative that the client extended their trust to us, enabling us to oversee the complete system's development. More than [3 million plastic containers have been saved](https://app.relevo.de/) through our collaboration, and the count continues! 
+
+<TitleWithIcon sectionTitle="Relevo’s founder’s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Relevo’s founder’s perspective" />
+
+Bright inventions and the whole team is always with full heart at the project, understands our logic and intention behind and respects our requests and demands. The quality of delivered stories/features is in general very high / fast and the understanding of bright inventions is to work as a partner-team to get the best solution ready. We highly appreciate the cooperation and the great business progress Relevo did would not be possible without the dedicated work of bright inventions.
+
+**Matthias Potthast, Founder of Relevo**
