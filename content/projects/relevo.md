@@ -10,12 +10,15 @@ our_service:
   - mobile app development
 layout: project
 project_id: relevo
-title: Relevo
+title: "From MVP to 200k Users. Meet Relevo – Sustainable Food Take-Away &
+  Delivery App "
 image: /images/ecofriendly_app_main3.png
-description: Around 1 million plastic food containers are used in Germany per
-  hour! Relevo is a smart reusable system that fights plastic waste and starts
-  the real change.
-hero_image: /images/relevo.png
+description: >
+  Over 3 million single-use plastic containers have been saved thanks to German
+  startup Relevo. Every reusable container tells a story of progress in the
+  battle against plastic waste. We are happy to be scripting a greener & cleaner
+  future together with our client. 
+hero_image: /images/case_study_main_relevo.png
 Hero Image_alt: Relevo
 social_media_previev: /images/relevo_fb_preview.png
 social_media_previev_alt: Relevo case study
