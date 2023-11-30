@@ -70,7 +70,9 @@ The client sought a well-organized team ready to support them in scaling a best-
 ![relevo app development](../../static/images/ecofriendly_app_main3.png)
 <AppStore googleApp='https://play.google.com/store/apps/details?id=com.relevoapp' srcGoogle='/images/google_play.png' altGoogleImage='google play' appStore='https://apps.apple.com/us/app/relevo/id1501683637' srcAppStore='/images/app_store.png' altAppStoreImage='app store'/>
 
-<TitleWithIcon sectionTitle="challenges: overcoming technical and cultural barriers " titleIcon="/images/two_flags.svg" titleIconAlt="challenges" />
+<TitleWithIcon sectionTitle="challenges: overcoming technical and cultural barriers " titleIcon="/images/gearwheel.svg" titleIconAlt="challenges" />
+
+Lunch hours can be the nemesis of every food-related app. **Our primary challenge was to guarantee the stability of the system during peak hours**. By implementing a robust cloud infrastructure, we not only enhanced the application's reliability but also paved the way for other innovations.
 
 Therefore our current emphasis is on the continuous development of a more mature product with a strong commitment to code quality. We have introduced a range of automated tests and are dedicated to further improving our quality assurance processes. **The challenge is to consistently deliver the most reliable and optimal solution that can be effectively extended to thousands of restaurants and an even larger user base**.
 
@@ -80,12 +82,10 @@ Another notable obstacle we confronted was a technical limitation – **many res
 
 The final hurdle is especially captivating because it leans toward cultural barriers rather than technical ones. **Users in Germany are cautious about downloading unfamiliar apps, so our team implemented App Clip and Instant App solutions to break this social barrier**. By implementing these technologies, we have streamlined the process of introducing new users to Relevo’s platform, instantly showcasing the app's key features on their screens without necessitating a full download. Over time, users opt to install the app as they recognize its value. Both App Clip and Instant App have evolved into significant channels for user acquisition.
 
-<TitleWithIcon sectionTitle="challenge" titleIcon="/images/two_flags.svg" titleIconAlt="bright" />
+
 
 The founders of Relevo were looking for an experienced [software development company](/) that could take over the backend development. Bright Inventions was recommended by our long-term client – [EY etventure](https://www.etventure.com). The product was already launched and gained a steady number of users. However, the backend system needed to be quickly adjusted to the rapid growth of users looking to access the app. 
 
 We are in the process of rewriting the whole backend using technologies such as Node.js, NestJS and AWS. Also, we take care of the frontend part – developing a panel for restaurants allowing for managing the app users’ activity as well as an admin panel. 
-
-<TitleWithIcon sectionTitle="development process" titleIcon="/images/gearwheel.svg" titleIconAlt="development process" />
 
 Although our team was hired to take care mainly of the backend side, we are about to take over the whole [mobile app development](/our-areas/mobile-app-development) as well. Our mobile developers will be working on both Android and iOS versions. We are extremely happy that the client trusted us to develop the whole system now. Our cooperation with Relevo started at the end of 2020 and in a couple of months this adventure quickly moved to another level.
