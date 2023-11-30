@@ -12,7 +12,7 @@ layout: project
 project_id: relevo
 title: "From MVP to 200k Users. Meet Relevo – Sustainable Food Take-Away &
   Delivery App "
-image: /images/ecofriendly_app_main3.png
+image: /images/case_study_cover_eco_food_app.png
 description: >
   Over 3 million single-use plastic containers have been saved thanks to German
   startup Relevo. Every reusable container tells a story of progress in the
