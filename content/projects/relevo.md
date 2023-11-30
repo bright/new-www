@@ -47,6 +47,16 @@ show on homepage: false
 published: true
 language: en
 ---
+
+
+<TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="bright" />
+
+
+
+<Gallery images='[{"src":"/images/node.png","alt":"node"},{"src":"/images/nest.png","alt":"nest"},{"src":"/images/react.png","alt":"react"},{"src":"/images/MySQL.png","alt":"MySQL"},{"src":"/images/swift.png","alt":"swift"},{"src":"/images/kotlin.png","alt":"kotlin"},{"src":"/images/aws.png","alt":"aws"},{"src":"/images/ci_cd.png","alt":"ci_cd"}]' />
+
+**technologies:** Node.js, NestJS, React, MySQL, SwiftUI, Kotlin, AWS
+
 <TitleWithIcon sectionTitle="problem – the technology doesn&#39;t fully support Relevo’s mission" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
 The year 2473 – by then, the plastic made today will probably have decomposed. Germany itself witnesses the consumption of approximately [3 million tons of plastic packaging yearly](https://www.statista.com/statistics/1265122/plastic-packaging-consumption-germany/). **Relevo, a Germany-based startup, introduced a pioneering solution: the provision of reusable containers for restaurants**, which could be borrowed by their customers free of charge. 
@@ -70,13 +80,7 @@ Another notable obstacle we confronted was a technical limitation – **many res
 
 <div className="image">![Relevo packaging](../../static/images/relevo_official_material2.png "Relevo packaging")</div>
 
-<TitleWithIcon sectionTitle="skills &amp;#x2F; stack" titleIcon="/images/skills.svg" titleIconAlt="bright" />
-
-<Gallery images='[{"src":"/images/node.png","alt":"node"},{"src":"/images/nest.png","alt":"nest"},{"src":"/images/react.png","alt":"react"},{"src":"/images/MySQL.png","alt":"MySQL"},{"src":"/images/swift.png","alt":"swift"},{"src":"/images/kotlin.png","alt":"kotlin"},{"src":"/images/aws.png","alt":"aws"},{"src":"/images/ci_cd.png","alt":"ci_cd"}]' />
-
-* **Fullstack**: Node.js, NestJS, React, MySQL 
-* **Mobile**: Swift, Kotlin
-* **Deployment**: AWS, CI/CD
+The final hurdle is especially captivating because it leans toward cultural barriers rather than technical ones. **Users in Germany are cautious about downloading unfamiliar apps, so our team implemented App Clip and Instant App solutions to break this social barrier**. By implementing these technologies, we have streamlined the process of introducing new users to Relevo’s platform, instantly showcasing the app's key features on their screens without necessitating a full download. Over time, users opt to install the app as they recognize its value. Both App Clip and Instant App have evolved into significant channels for user acquisition.
 
 <TitleWithIcon sectionTitle="challenge" titleIcon="/images/two_flags.svg" titleIconAlt="bright" />
 
