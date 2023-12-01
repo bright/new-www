@@ -11,9 +11,9 @@ meaningfullyUpdatedAt: 2023-11-29T18:26:47.044Z
 title: Data Deduplication in Python with RecordLinkage
 layout: post
 image: /images/deduplication.png
-hidden: true
+hidden: false
 comments: true
-published: false
+published: true
 language: en
 ---
 # Supervised Duplicate Detection with RecordLinkage and Pandas: A Febrl Dataset Tutorial
