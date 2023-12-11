@@ -28,6 +28,11 @@ const Container = styled.div`
   &:hover {
     box-shadow: 15px 15px 40px -25px rgba(170, 170, 170, 1);
   }
+    
+  > a {
+      padding: 1rem;
+  }  
+    
   @media ${variables.device.laptop} {
     width: calc(50% - 1.75rem);
     margin: 1.75rem;
@@ -100,7 +105,7 @@ export interface SuccessStoryBoxProps {
   project: ProjectModel
 }
 
-const SuccessStoryBox: FC<SuccessStoryBoxProps> = ({ project, className }) => {
+export const SuccessStoryBox: FC<SuccessStoryBoxProps> = ({ project, className }) => {
   return (
     <Container className={className}>
       <Link to={routeLinks.project(project)}>
@@ -117,4 +122,3 @@ const SuccessStoryBox: FC<SuccessStoryBoxProps> = ({ project, className }) => {
   )
 }
 
-export default SuccessStoryBox

@@ -1,7 +1,6 @@
 import { graphql, Link, useStaticQuery } from 'gatsby'
 import React from 'react'
 import { CustomSection, CustomSectionTitle } from '../shared'
-import SuccessStoryBox from './SuccessStoryBox'
 import { routeLinks } from '../../config/routing'
 import styled from 'styled-components'
 import variables, { font } from '../../styles/variables'
@@ -11,6 +10,7 @@ import { CustomTextRegular } from './../shared/index.styled'
 import { BehanceIcon } from '../icons/Behance.icon'
 import { DribbleIcon } from './../icons/Dribble.icon'
 import { useTranslation } from 'react-i18next'
+import { SuccessStoryBox } from './SuccessStoryBox'
 
 
 export const ProjectCustomSection = styled(CustomSection) <{ isFiltered?: boolean }>`
