@@ -1,6 +1,6 @@
 ---
 layout: job
-title: Junior Sales Executive
+title: Junior Sales Specialist (New Business)
 subtitle: ONGOING
 imagejob: /images/qa_brightteam.png
 image-alt-job: Sales Team Bright Inventions
