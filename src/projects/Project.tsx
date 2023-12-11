@@ -44,7 +44,7 @@ const Template: React.FC<PropsWithChildren<{ data: { mdx: any } }>> = ({ data, c
       <HelmetMetaData title={title} description={description} type='product' image={image} alt={alt} />
       <Container id='project'>
         <TopProjectArticle >
-          <CustomSection paddingProps='0 0 35px' paddingLaptop='0 0 35px' paddingTabletXL='0 0 35px' paddingMobileProps='0 0 63px'>
+          <CustomSection paddingProps='0 0 35px' paddingLaptop='0 0 35px' paddingTabletXL='0 0 35px' paddingMobileProps='0 0 35px'>
             <FlexWrapper desktopGap='10px' desktopContent='flex-end' desktopItems='flex-end' tabletDirection='column'>
               {our_service && our_service.map(({ frontmatter: { name, slug } }: { frontmatter: { name: string; slug: string } }, index: number) => (
                 <ProjectLink key={index} to={routeLinks.ourAreas({ service: slug })}>

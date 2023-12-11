@@ -114,7 +114,7 @@ export const Title = styled.h1`
     font-size: ${variables.pxToRem(38)};
   }
   @media ${variables.device.mobile} {
-    font-size: ${clampBuilder(320, 412, 37, 48)};
+    font-size: ${clampBuilder(320, 412, 22, 32)};
     line-height: ${variables.pxToRem(54)};
     margin: 0 0 ${variables.pxToRem(48)};
     font-weight: 700;
