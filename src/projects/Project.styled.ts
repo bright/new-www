@@ -102,12 +102,12 @@ export const TopProjectArticle = styled.article`
   }
 `
 export const Title = styled.h1`
-  font-size: ${variables.pxToRem(80)};
+  font-size: ${variables.pxToRem(64)};
   line-height: ${variables.pxToRem(90)};
   font-weight: 800;
   margin: 0 0 ${variables.pxToRem(33)};
   @media ${variables.device.laptop} {
-    font-size: ${variables.pxToRem(72)};
+    font-size: ${variables.pxToRem(52)};
     margin: 0 0 ${variables.pxToRem(44)};
   }
   @media ${variables.device.tabletXL} {
