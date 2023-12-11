@@ -121,14 +121,14 @@ export const Title = styled.h1`
   }
 `
 export const ProjectTextRegular = styled.div`
-  font-size: ${variables.pxToRem(26)};
+  font-size: ${variables.pxToRem(24)};
   line-height: ${variables.pxToRem(40)};
   color: ${variables.color.text2};
   @media ${variables.device.laptop} {
-    font-size: ${variables.pxToRem(24)};
+    font-size: ${variables.pxToRem(22)};
   }
   @media ${variables.device.mobile} {
-    font-size: ${variables.pxToRem(20)};
+    font-size: ${variables.pxToRem(18)};
   }
 `
 export const ProjectLink = styled(Link)`
