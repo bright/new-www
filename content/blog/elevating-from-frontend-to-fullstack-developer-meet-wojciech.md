@@ -39,3 +39,7 @@ I used to distinguish between frontend and backend, but now **I don't separate t
 The only downside of being a full-stack developer is the constant need to learn, and keep up with updates, and news. **It requires a lot of effort to stay in the loop**. Nevertheless, I'm completely fine with it. I've always aimed to grow, so it aligns well with my ambitions.
 
 ## What types of projects do you enjoy the most?
+
+I'm drawn to non-trivial projects with complex domains. **The more intricate the domain, the greater the challenge for a developer**. Simple applications, even with significant revenue, tend to lose their appeal quickly. In complex domains, the intriguing challenges begin right from the architecture design phase.
+
+<div className="image">![Wojtek's quote](../../static/images/wojciech_quote_domain.png "Wojtek's quote")</div>
