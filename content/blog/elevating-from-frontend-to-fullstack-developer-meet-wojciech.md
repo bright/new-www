@@ -53,3 +53,5 @@ Yes, **I've reached a stage in my career where I'm particularly passionate about
 My goal isn't just to provide excellent services but to tailor them precisely to meet the unique requirements of each client. Whenever I encounter difficulty in understanding a client's needs, I persistently strive to bridge that gap. **I believe that a software developer’s job is to understand the client and they need to do everything in their power to achieve it**.
 
 <div className="image">![Wojciech's quote](../../static/images/wojciech_quote_client.png "Wojciech's quote")</div>
+
+## I know that soft skills matter to you. Was that always a core of your skillset?
