@@ -116,6 +116,4 @@ Being a company strongly focused on security, we adhere to necessary restriction
 
 After **successfully launching the pilot solution** based on an Android application, the positive feedback from the end users encouraged the client to continue developing the solution. **We provided ongoing support during the critical months post-launch**, delivering new features and handling maintenance. 
 
-Eventually, the client made the decision to transition the product's development in-house. **With our assistance, the client smoothly moved development internally**, and our team played a role in onboarding a new Android developer to their internal team. 
-
 Comascope products are used by over 1,000 health & care organization customers with over 25,000 active patients on the system. We are proud to have been a part of this significant advancement in health technology and are confident that **this product will positively impact the lives of hundreds of thousands of people**.
