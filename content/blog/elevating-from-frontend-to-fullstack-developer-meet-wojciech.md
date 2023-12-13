@@ -23,3 +23,11 @@ language: en
 It was purely coincidental. I didn’t have a clear career path in mind. I initially chose to study Electronics and Telecommunications, but I found little enjoyment in it. The only classes that truly piqued my interest were mathematics and programming. Consequently, **I decided to switch paths and delve into the fields of Informatics and Econometrics**.
 
 ## How did you start to work at Bright Inventions?
+
+**My journey to Bright Inventions has an interesting twist**. Initially, I aimed to work as a frontend developer and accepted a job offer from a different company. However, I still had an interview planned for the position at Bright Inventions. Already landing another job, I didn't approach that interview as thoroughly as I should have. I began working elsewhere, gradually transitioning into a role as a mobile developer, which, while adjacent to frontend work, was different from what I aspired to do. 
+
+**My friend — who also happened to be my college professor — highly recommended Bright Inventions and encouraged me to reapply**. However, it was Ula who reached out to me around 6 months after my failed interview, asking if I was open to trying again. I immediately said “yes” and finally joined the company. This adventure has been ongoing for almost 4 years now.
+
+<div className="image">![Bright Inventions team — the winners of Challenge Gdańsk triathlon competition.](../../static/images/wojtek_challenge.png "Bright Inventions team — the winners of Challenge Gdańsk triathlon competition.")</div>
+
+*Bright Inventions' team — the winners of Challenge Gdańsk triathlon competition.*
