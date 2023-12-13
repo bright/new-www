@@ -37,8 +37,6 @@ Ensure your environment is correctly set up using Miniconda:
    conda install -c conda-forge recordlinkage pandas
    ```
 
-Certainly! I'll update the paragraph from your blog post with the more detailed example from the RecordLinkage page and format the output as a Markdown table.
-
 ---
 
 ## Step 1: Loading the Febrl Dataset
