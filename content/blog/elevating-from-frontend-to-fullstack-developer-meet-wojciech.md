@@ -16,4 +16,4 @@ language: en
 ---
 **At 6 am, you’ll find him in a swimming pool getting his daily endorphins for a productive day. Wojtek is a fullstack developer with over 5 years of experience, who loves exploring the business side of any software product. The more challenging the domain the client represents, the more eager he is to support them with his holistic approach. Check out Wojciech’s career journey.**
 
-<div className="image">![](../../static/images/brightstorywojciechcollage.png "")</div>
+<div className="image">![Wojciech's career journey](../../static/images/brightstorywojciechcollage.png "Wojciech's career journey")</div>
