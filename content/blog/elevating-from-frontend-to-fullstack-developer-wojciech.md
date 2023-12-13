@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2023-12-13T12:18:09.689Z
 title: Elevating from Frontend to Fullstack Developer. Meet Wojciech
 layout: post
 image: /images/brightstorywojciech.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
