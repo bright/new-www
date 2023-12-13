@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2023-12-13T12:18:09.689Z
 title: Elevating from Frontend to Fullstack Developer. Meet Wojciech
 layout: post
 image: /images/brightstorywojciech.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
@@ -26,17 +26,19 @@ It was purely coincidental. I didn’t have a clear career path in mind. I initi
 
 **My journey to Bright Inventions has an interesting twist**. Initially, I aimed to work as a frontend developer and accepted a job offer from a different company. However, I still had an interview planned for the position at Bright Inventions. Already landing another job, I didn't approach that interview as thoroughly as I should have. I began working elsewhere, gradually transitioning into a role as a mobile developer, which, while adjacent to frontend work, was different from what I aspired to do. 
 
-**My friend — who also happened to be my college professor — highly recommended Bright Inventions and encouraged me to reapply**. However, it was Ula who reached out to me around 6 months after my failed interview, asking if I was open to trying again. I immediately said “yes” and finally joined the company. This adventure has been ongoing for almost 4 years now.
+**My friend — who also happened to be my college professor — highly recommended Bright Inventions and encouraged me to reapply**. However, it was Ula who reached out to me around 6 months after my failed interview, asking if I was open to trying again. I immediately said “yes” and finally joined the company. This adventure has been ongoing **for almost 4 years now**.
 
 <div className="image">![Bright Inventions team — the winners of Challenge Gdańsk triathlon competition.](../../static/images/wojtek_challenge.png "Bright Inventions team — the winners of Challenge Gdańsk triathlon competition.")</div>
 
-*Bright Inventions' team — the winners of Challenge Gdańsk triathlon competition.*
+*<center>Bright Inventions' team — the winners of Challenge Gdańsk triathlon competition.</center>*
 
 ## Frontend or backend — which one is closer to your heart?
 
 I used to distinguish between frontend and backend, but now **I don't separate them anymore**. At Bright Inventions, my position at first was a frontend developer, but I gradually acquired backend skills. Nowadays, I prefer taking a holistic view of the project. **I appreciate a full-stack role because approaching projects comprehensively is more intriguing and better supports the business**.
 
 The only downside of being a full-stack developer is the constant need to learn, and keep up with updates, and news. **It requires a lot of effort to stay in the loop**. Nevertheless, I'm completely fine with it. I've always aimed to grow, so it aligns well with my ambitions.
+
+<div class='block-button'><h2>Do you want to join Wojciech?</h2><div>We are on the lookout for highly skilled professionals. Join us!</div><a href="/career/"><button>check our career opportunities</button></a></div>
 
 ## What types of projects do you enjoy the most?
 
@@ -62,6 +64,8 @@ I needed time to discover them. Upon joining Bright Inventions as a junior, I fo
 
 <div className="image">![Wojciech](../../static/images/wojtek_baking.png "Wojciech")</div>
 
+*<center>After hours baking.</center>*
+
 ## What do you like to do after hours?
 
 I've recently delved into investment, reading books about it. However, **my enduring passion remains swimming, sparked at Bright Inventions**. I knew how to swim and enjoyed it, but i**t wasn't until Bright offered classes by a professional triathlete that I began swimming regularly**. Two reasons drove me: the opportunity to share the same passion with fellow team members and a practical one — no sports activity led to backaches.
@@ -70,4 +74,4 @@ I've recently delved into investment, reading books about it. However, **my endu
 
 Now, **I swim six times a week, usually at 6 am**. This routine suits me; **by the time work starts, endorphins are already at play, making the day nicer and more manageable**.
 
-One proud moment was outswimming Michał Łukasiewicz in a triathlon. Of course, he swiftly overtook me in the run, but **showcasing my swimming strength was gratifying**.
+One proud moment was outswimming [Michał](/about-us/michal/) in a triathlon. Of course, he swiftly overtook me in the run, but **showcasing my swimming strength was gratifying**.
