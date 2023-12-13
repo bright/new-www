@@ -63,3 +63,7 @@ I needed time to discover them. Upon joining Bright Inventions as a junior, I fo
 <div className="image">![Wojciech](../../static/images/wojtek_baking.png "Wojciech")</div>
 
 ## What do you like to do after hours?
+
+I've recently delved into investment, reading books about it. However, **my enduring passion remains swimming, sparked at Bright Inventions**. I knew how to swim and enjoyed it, but i**t wasn't until Bright offered classes by a professional triathlete that I began swimming regularly**. Two reasons drove me: the opportunity to share the same passion with fellow team members and a practical one — no sports activity led to backaches.
+
+<div className="image">![swimming](../../static/images/wojtek_swimming.png "swimming")</div>
