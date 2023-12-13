@@ -31,3 +31,11 @@ It was purely coincidental. I didn’t have a clear career path in mind. I initi
 <div className="image">![Bright Inventions team — the winners of Challenge Gdańsk triathlon competition.](../../static/images/wojtek_challenge.png "Bright Inventions team — the winners of Challenge Gdańsk triathlon competition.")</div>
 
 *Bright Inventions' team — the winners of Challenge Gdańsk triathlon competition.*
+
+## Frontend or backend — which one is closer to your heart?
+
+I used to distinguish between frontend and backend, but now **I don't separate them anymore**. At Bright Inventions, my position at first was a frontend developer, but I gradually acquired backend skills. Nowadays, I prefer taking a holistic view of the project. **I appreciate a full-stack role because approaching projects comprehensively is more intriguing and better supports the business**.
+
+The only downside of being a full-stack developer is the constant need to learn, and keep up with updates, and news. **It requires a lot of effort to stay in the loop**. Nevertheless, I'm completely fine with it. I've always aimed to grow, so it aligns well with my ambitions.
+
+## What types of projects do you enjoy the most?
