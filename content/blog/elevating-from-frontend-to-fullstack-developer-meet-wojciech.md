@@ -61,3 +61,5 @@ I needed time to discover them. Upon joining Bright Inventions as a junior, I fo
 **I started to read some books on a subject and observed how Mateusz, [Michał](/about-us/michal/), and other team members navigate daily relations with clients**. Step by step, I felt better at it. Yet, it was a long way; reading one book wouldn't make a difference.
 
 <div className="image">![Wojciech](../../static/images/wojtek_baking.png "Wojciech")</div>
+
+## What do you like to do after hours?
