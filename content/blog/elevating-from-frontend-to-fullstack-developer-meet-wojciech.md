@@ -42,6 +42,14 @@ The only downside of being a full-stack developer is the constant need to learn,
 
 I'm drawn to non-trivial projects with complex domains. **The more intricate the domain, the greater the challenge for a developer**. Simple applications, even with significant revenue, tend to lose their appeal quickly. In complex domains, the intriguing challenges begin right from the architecture design phase.
 
-<div className="image">![Wojtek's quote](../../static/images/wojciech_quote_domain.png "Wojtek's quote")</div>
+<div className="image">![Wojciech's quote](../../static/images/wojciech_quote_domain.png "Wojciech's quote")</div>
 
 Currently, **I'm part of a team developing a transport management system for a forwarding company**. This project has numerous moving parts — yet not the typical pivots seen in startups. For instance, we have to ensure compliance with the new highway payment regulations in Germany. **Our system is relied upon daily by our clients, so there's a strong sense of responsibility, which is also incredibly rewarding**.
+
+## So staying close to the business side of the project is important to you?
+
+Yes, **I've reached a stage in my career where I'm particularly passionate about the business aspect of projects**. Immersing myself in the domain background, empathizing with clients and their needs, and actively stepping into their shoes to comprehend their perspectives fuel my drive. 
+
+My goal isn't just to provide excellent services but to tailor them precisely to meet the unique requirements of each client. Whenever I encounter difficulty in understanding a client's needs, I persistently strive to bridge that gap. **I believe that a software developer’s job is to understand the client and they need to do everything in their power to achieve it**.
+
+<div className="image">![Wojciech's quote](../../static/images/wojciech_quote_client.png "Wojciech's quote")</div>
