@@ -43,3 +43,5 @@ The only downside of being a full-stack developer is the constant need to learn,
 I'm drawn to non-trivial projects with complex domains. **The more intricate the domain, the greater the challenge for a developer**. Simple applications, even with significant revenue, tend to lose their appeal quickly. In complex domains, the intriguing challenges begin right from the architecture design phase.
 
 <div className="image">![Wojtek's quote](../../static/images/wojciech_quote_domain.png "Wojtek's quote")</div>
+
+Currently, **I'm part of a team developing a transport management system for a forwarding company**. This project has numerous moving parts — yet not the typical pivots seen in startups. For instance, we have to ensure compliance with the new highway payment regulations in Germany. **Our system is relied upon daily by our clients, so there's a strong sense of responsibility, which is also incredibly rewarding**.
