@@ -26,11 +26,11 @@ It was purely coincidental. I didn’t have a clear career path in mind. I initi
 
 **My journey to Bright Inventions has an interesting twist**. Initially, I aimed to work as a frontend developer and accepted a job offer from a different company. However, I still had an interview planned for the position at Bright Inventions. Already landing another job, I didn't approach that interview as thoroughly as I should have. I began working elsewhere, gradually transitioning into a role as a mobile developer, which, while adjacent to frontend work, was different from what I aspired to do. 
 
-**My friend — who also happened to be my college professor — highly recommended Bright Inventions and encouraged me to reapply**. However, it was Ula who reached out to me around 6 months after my failed interview, asking if I was open to trying again. I immediately said “yes” and finally joined the company. This adventure has been ongoing for almost 4 years now.
+**My friend — who also happened to be my college professor — highly recommended Bright Inventions and encouraged me to reapply**. However, it was Ula who reached out to me around 6 months after my failed interview, asking if I was open to trying again. I immediately said “yes” and finally joined the company. This adventure has been ongoing **for almost 4 years now**.
 
 <div className="image">![Bright Inventions team — the winners of Challenge Gdańsk triathlon competition.](../../static/images/wojtek_challenge.png "Bright Inventions team — the winners of Challenge Gdańsk triathlon competition.")</div>
 
-*Bright Inventions' team — the winners of Challenge Gdańsk triathlon competition.*
+*<center>Bright Inventions' team — the winners of Challenge Gdańsk triathlon competition.</center>*
 
 ## Frontend or backend — which one is closer to your heart?
 
@@ -70,4 +70,4 @@ I've recently delved into investment, reading books about it. However, **my endu
 
 Now, **I swim six times a week, usually at 6 am**. This routine suits me; **by the time work starts, endorphins are already at play, making the day nicer and more manageable**.
 
-One proud moment was outswimming Michał Łukasiewicz in a triathlon. Of course, he swiftly overtook me in the run, but **showcasing my swimming strength was gratifying**.
+One proud moment was outswimming [Michał](/about-us/michal/) in a triathlon. Of course, he swiftly overtook me in the run, but **showcasing my swimming strength was gratifying**.
