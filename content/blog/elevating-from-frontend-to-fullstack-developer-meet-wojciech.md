@@ -67,3 +67,7 @@ I needed time to discover them. Upon joining Bright Inventions as a junior, I fo
 I've recently delved into investment, reading books about it. However, **my enduring passion remains swimming, sparked at Bright Inventions**. I knew how to swim and enjoyed it, but i**t wasn't until Bright offered classes by a professional triathlete that I began swimming regularly**. Two reasons drove me: the opportunity to share the same passion with fellow team members and a practical one — no sports activity led to backaches.
 
 <div className="image">![swimming](../../static/images/wojtek_swimming.png "swimming")</div>
+
+Now, **I swim six times a week, usually at 6 am**. This routine suits me; **by the time work starts, endorphins are already at play, making the day nicer and more manageable**.
+
+One proud moment was outswimming Michał Łukasiewicz in a triathlon. Of course, he swiftly overtook me in the run, but **showcasing my swimming strength was gratifying**.
