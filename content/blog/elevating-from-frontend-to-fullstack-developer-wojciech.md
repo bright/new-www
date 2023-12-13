@@ -64,7 +64,7 @@ I needed time to discover them. Upon joining Bright Inventions as a junior, I fo
 
 <div className="image">![Wojciech](../../static/images/wojtek_baking.png "Wojciech")</div>
 
-*<center>Wojciech after hours.</center>*
+*<center>After hours baking.</center>*
 
 ## What do you like to do after hours?
 
