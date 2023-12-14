@@ -83,6 +83,8 @@ By leveraging the power of Node.js and NestJS, we aimed to create a robust and f
 
 In the front line, a **restaurant digital panel emerged with a management center for reusable tableware, orders, and tracking inventory** — everything in one sleek interface accessible to over **3,000 Relevo partners**.
 
+<div className="image">![Client's quote](../../static/images/case_study_client_quote_relevo.png "Client's quote")</div>
+
 Behind the scenes, we can’t forget about building the **admin panel for Relevos’ team to strengthen ties with their massive network of partners**. This invisible hand keeps the client's eco revolution thriving. It coordinates orders, troubleshoots, ensures smooth collaboration with every partner, and incorporates a robust analytics dashboard, providing valuable insights related to tableware borrowing. 
 
 Finally, this green wave wouldn’t have taken place without **Android and iOS applications that enable over 200,000 Relevo users to borrow reusable tableware**. Users seamlessly scan QR codes on Relevo's packaging, enjoying their take-away food and drinks wherever they want.
