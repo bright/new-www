@@ -5,7 +5,7 @@ tags:
   - aws-cdk
 date: 2023-12-13T07:17:46.598Z
 meaningfullyUpdatedAt: 2023-12-13T07:17:46.598Z
-title: Google sign in with Cognito and Nest.js
+title: Google Sign In with Cognito and Nest.js
 layout: post
 image: /images/openid-connect-logo.png
 hidden: false
