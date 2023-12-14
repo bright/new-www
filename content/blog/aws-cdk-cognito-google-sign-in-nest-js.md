@@ -13,7 +13,6 @@ comments: true
 published: true
 language: en
 ---
-
 If you want to implement Google sign-in, also called Google federation, and combine it with using AWS Cognito this blog
 post if for you.
 We'll use aws-cdk combined with Nest.js to achieve that.
@@ -23,13 +22,13 @@ We'll use aws-cdk combined with Nest.js to achieve that.
 At Bright, we often keep infrastructure code next to application code.
 Thus let's start with creating:
 
-- Nest.js backend project
+* Nest.js backend project
 
 ```shell
 nest new backend
 ```
 
-- aws-cdk infrastructure project
+* aws-cdk infrastructure project
 
 ```shell
 mkdir infrastrucutre
@@ -189,9 +188,9 @@ export class AuthController {
 At the end of the sign-in flow our application we have `IdToken`, `AccessToken` and `RefreshToken`.
 What we do at this stage depends on our needs. For example, we can:
 
-- start a cookie-based session
-- return `AccessToken` to frontend
-- init user account configuration that do not fit into AWS Cognito
+* start a cookie-based session
+* return `AccessToken` to frontend
+* init user account configuration that do not fit into AWS Cognito
 
 ## Combine Cognito with Passport Nest.js
 
@@ -233,7 +232,7 @@ export class NestPassportOAuthStrategy extends PassportStrategy(OAuth2Strategy) 
 ## Provide users with login URL
 
 With AWS Cognito we can use hosted pages. However, we often need to have a full control over the UI of our
-application.  
+application.\
 In such a case, we can craft a special URL that will trigger the sign in flow. Here's how to create the URL that will
 trigger login with Google flow:
 
@@ -259,7 +258,7 @@ API credentials.
 
 ## ECS Task Definition
 
-I'll spare you the details on how to run the Nest.js application in ECS. That's a topic for a separate blog post.  
+I'll spare you the details on how to run the Nest.js application in ECS. That's a topic for a separate blog post.\
 However, there are a couple of important configuration options that you need to provide for the above snippets to work:
 
 ```typescript
@@ -288,3 +287,5 @@ The full code of the above setup is available in [GitHub](https://github.com/bri
 In our example, AWS Cognito performs OpenID Connect exchange with Google. Our Nest.js application code only receives
 information from Cognito. We can easily integrate new identity providers e.g. Facebook and our backend application code
 would still work. 
+
+<EbookDynamic sectionTitle='Optimise sign-in experience of your app' ebookName='Optimise-Sign-In-Experience.pdf' ebookDescription='Download our free ebook and explore the best authentication methods.' ebookImage='/images/cover-sign-in-ebook.png' ebookAlt='ebook cover' />
