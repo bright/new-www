@@ -23,7 +23,7 @@ The client has reached out to us to build [customized software for freight forwa
 
 **As a result of our work, it takes 3-5 seconds to analyze the route per order, saving a total of 300 h per employee a year**. However, **that’s just the one challenge of that job. Another was a product design** which aim was to support users and help them navigate smoothly through the app.
 
-Drawing from our experience in product design for this project, we want to share our insights on creating products tailored to the shipping industry.
+Drawing from our experience in [product design](/our-areas/product-design/) for this project, we want to share our insights on creating products tailored to the shipping industry.
 
 <div className="image">![Transport Management System](../../static/images/tms_social_preview.png "Transport Management System")</div>
 
