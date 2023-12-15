@@ -8,7 +8,7 @@ date: 2023-10-28T17:32:23.745Z
 meaningfullyUpdatedAt: 2023-10-28T17:32:23.761Z
 title: "Value Based Recruitment in VUCA World "
 layout: post
-image: /images/value-based-recuitment.png
+image: /images/value_based_recruitment_blog.png
 hidden: false
 comments: true
 published: true
