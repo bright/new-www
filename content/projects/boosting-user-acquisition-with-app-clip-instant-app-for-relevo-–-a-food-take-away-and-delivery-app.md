@@ -10,7 +10,7 @@ layout: project
 project_id: relevo - instant app and app clip
 title: Boosting User Acquisition with App Clip & Instant App for Relevo – a Food
   Take-Away and Delivery App
-image: /images/case_study_cover_instant_clipp_update.png
+image: /images/case_study_cover_instant_clip.png
 description: Overcoming user hesitancy towards installing new applications is a
   crucial challenge in today's competitive market. Discover the strategic
   approach our team employed to turn this obstacle into a marketing triumph.
