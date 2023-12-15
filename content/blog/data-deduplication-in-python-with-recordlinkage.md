@@ -10,7 +10,7 @@ date: 2023-11-29T18:26:47.030Z
 meaningfullyUpdatedAt: 2023-11-29T18:26:47.044Z
 title: Data Deduplication in Python with RecordLinkage
 layout: post
-image: /images/deduplication.png
+image: /images/data_duplication_blog.png
 hidden: false
 comments: true
 published: true
