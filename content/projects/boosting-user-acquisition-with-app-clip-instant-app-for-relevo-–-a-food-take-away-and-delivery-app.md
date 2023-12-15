@@ -57,4 +57,12 @@ language: en
 
 **technologies:** Swift, SwiftUI, Kotlin, App Clip, Instant Apps
 
-<TitleWithIcon sectionTitle="problem – the technology doesn’t fully support Relevo’s mission" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+<TitleWithIcon sectionTitle="problem – a cultural barrier in Germany" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+
+Relevo changes the takeout experience by facilitating the borrowing of reusable packages in restaurants across Germany. Although their mobile app is appreciated by over 200,000 people, users in Germany still exhibit some hesitancy towards unfamiliar app downloads. This cultural obstacle was likely to stop Relevo from spreading its impactful plastic-fight mission. After recognizing the problem, our team introduced a game-changing solution.
+
+<div className="image">![Relevo official materials](../../static/images/relevo_materials.png "Relevo official materials")</div>
+
+
+
+<TitleWithIcon sectionTitle="solution – implementing Instant App and App Clip to introduce new users to Relevo" titleIcon="/images/two_flags.svg" titleIconAlt="solution" />
