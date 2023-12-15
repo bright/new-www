@@ -92,3 +92,7 @@ Once the strategic decisions were made, our team embarked on finding optimal met
 
 
 <TitleWithIcon sectionTitle="result – enhancing marketing efforts with a new acquisition channel" titleIcon="/images/icon_result_svg.svg" titleIconAlt="result" />
+
+By implementing App Clip and Instant App, we have streamlined the process of introducing new users to Relevo, instantly showcasing the app's key features on their screens without necessitating a full download. Over time, users opt to install the app as they recognize its value. 
+
+We are proud to affirm that both App Clip and Instant App have evolved into significant channels for user acquisition, reaching audiences that might otherwise be inaccessible.
