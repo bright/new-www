@@ -31,8 +31,6 @@ bar_achievements:
     label: cities where the app operates
 tags:
   - mobile app
-  - web app
-  - MVP
   - customized software
   - retail & restaurant
 title_team: team behind the project
