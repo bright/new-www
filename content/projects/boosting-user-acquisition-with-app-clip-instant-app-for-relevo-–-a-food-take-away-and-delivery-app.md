@@ -61,8 +61,6 @@ Relevo changes the takeout experience by facilitating the borrowing of reusable 
 
 <div className="image">![Relevo official materials](../../static/images/relevo_materials.png "Relevo official materials")</div>
 
-
-
 <TitleWithIcon sectionTitle="solution – implementing Instant App and App Clip to introduce new users to Relevo" titleIcon="/images/two_flags.svg" titleIconAlt="solution" />
 
 Our mobile development team engineered and launched an often underestimated marvel: the Instant App and App Clip. These cutting-edge technologies grant users access to a basic version of the Relevo app without the need for a full installation.
@@ -73,11 +71,9 @@ If you love it, you install it. As simple as that!
 
 <div className="image">![Relevo Instant App on Google Play](../../static/images/relevo_instant_app_google_play.png "Relevo Instant App on Google Play")</div>
 
-<center>Relevo Instant App on Google Play</center>
+<center>*Relevo Instant App on Google Play*</center>
 
 The essential aspect of the implementation involved setting up analytics to measure the users' acquisition through the channels provided by App Clip and Instant App. We devised and implemented tracking protocols, enabling the Relevo team to meticulously monitor the results of this implementation.
-
-
 
 <TitleWithIcon sectionTitle="challenges – finding the balance between user engagement and meeting tech limitations" titleIcon="/images/gearwheel.svg" titleIconAlt="challenges" />
 
