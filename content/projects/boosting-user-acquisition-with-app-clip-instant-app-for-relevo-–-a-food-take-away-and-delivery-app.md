@@ -71,7 +71,7 @@ If you love it, you install it. As simple as that!
 
 <div className="image">![Relevo Instant App on Google Play](../../static/images/relevo_instant_app_google_play.png "Relevo Instant App on Google Play")</div>
 
-<center>*Relevo Instant App on Google Play*</center>
+<center>Relevo Instant App on Google Play</center>
 
 The essential aspect of the implementation involved setting up analytics to measure the users' acquisition through the channels provided by App Clip and Instant App. We devised and implemented tracking protocols, enabling the Relevo team to meticulously monitor the results of this implementation.
 
