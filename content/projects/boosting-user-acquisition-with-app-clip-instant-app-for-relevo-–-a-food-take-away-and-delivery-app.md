@@ -43,4 +43,14 @@ show on homepage: false
 published: true
 language: en
 ---
-Overcoming user hesitancy towards installing new applications is a crucial challenge in today's competitive market. Discover the strategic approach our team employed to turn this obstacle into a marketing triumph. Delve into the success story where we skillfully implemented cutting-edge App Clip and Instant App solutions, revolutionizing the user experience and establishing a robust user acquisition channel for a thriving startup based in Germany – Relevo.
+
+
+<TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="bright" />
+
+
+
+<Gallery images='[{"src":"/images/swift.png","alt":"swift"},{"src":"/images/kotlin.png","alt":"kotlin"}]' />
+
+**technologies:** Swift, SwiftUI, Kotlin, App Clip, Instant Apps
+
+**Overcoming user hesitancy towards installing new applications is a crucial challenge in today's competitive market. Discover the strategic approach our team employed to turn this obstacle into a marketing triumph. Delve into the success story where we skillfully implemented cutting-edge App Clip and Instant App solutions, revolutionizing the user experience and establishing a robust user acquisition channel for a thriving startup based in Germany – Relevo.**
