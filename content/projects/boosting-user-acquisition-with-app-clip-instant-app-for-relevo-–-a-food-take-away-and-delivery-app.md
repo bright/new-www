@@ -49,7 +49,7 @@ language: en
 
 
 
-<Gallery images='[{"src":"/images/swift.png","alt":"swift"},{"src":"/images/kotlin.png","alt":"kotlin"}]' />
+<Gallery images='[{"src":"/images/swift.png","alt":"swift"},{"src":"/images/kotlin.png","alt":"kotlin"},{"src":"/images/android_stack_logo.svg","alt":"Android"}]' />
 
 **technologies:** Swift, SwiftUI, Kotlin, App Clip, Instant Apps
 
