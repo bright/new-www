@@ -32,7 +32,7 @@ const vpc = new Vpc(this, 'Vpc', {
 ```
 
 Each NAT Gateway instance costs around $30 a month. When we run multiple services in a single VPC, the cost will be
-minuscule.
+minuscule in comparison. However, when we run a single service, that's a major portion of the total. 
 
 ## Fargate service
 
