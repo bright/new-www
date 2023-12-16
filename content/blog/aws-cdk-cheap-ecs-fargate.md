@@ -79,7 +79,7 @@ task.
 
 ## HTTPS is a must these days
 
-We should never expose any web service without HTTPs. In a typical setup, we would either use an AWS Load Balancer or
+We should never expose any web service without HTTPS. In a typical setup, we would either use an AWS Load Balancer or
 AWS API Gateway. The host of ALB is roughly $16 a month. API gateway would be cheaper. However, it would add complexity
 to our solution.
 
