@@ -143,7 +143,7 @@ const response = await bedrock.send(new InvokeModelCommand({
 After deploying, we can control the model parameters through query string parameters:
 
 ```shell
-curl -X POST --location "https://g66m7el4jcrtwarntzrcfps2tq0yduar.lambda-url.eu-central-1.on.aws?temperature=0.9" \
+curl -X POST --location "https://${YOUR_LAMBDA_ID}.lambda-url.eu-central-1.on.aws?temperature=0.9" \
     -H "Content-Type: text/plain" \
     -d 'What is the country that has the most freedom of speech in the world?'
     
@@ -162,7 +162,7 @@ curl -X POST --location "https://g66m7el4jcrtwarntzrcfps2tq0yduar.lambda-url.eu-
 The results will be more elaborate if we change `topP`.
 
 ```shell
-curl -X POST --location "https://g66m7el4jcrtwarntzrcfps2tq0yduar.lambda-url.eu-central-1.on.aws?temperature=0.9&topP=0.1" \
+curl -X POST --location "https://${YOUR_LAMBDA_ID}.lambda-url.eu-central-1.on.aws?temperature=0.9&topP=0.1" \
     -H "Content-Type: text/plain" \
     -d 'What is the country that has the most freedom of speech in the world?'
     
