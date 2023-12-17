@@ -5,7 +5,7 @@ tags:
   - aws-cdk
 date: 2023-12-15T07:17:46.598Z
 meaningfullyUpdatedAt: 2023-12-15T07:17:46.598Z
-title: Cheapest ECS Fargate service with HTTPs
+title: Cheapest ECS Fargate service with HTTPS
 layout: post
 image: /images/ecs-fargate-saving.png
 hidden: false
