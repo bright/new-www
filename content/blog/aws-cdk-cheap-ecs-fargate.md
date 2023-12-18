@@ -61,7 +61,7 @@ const service = new FargateService(this, 'Service', {
 
 ## Example workload
 
-A web service usually accepts HTTP traffic on a specified port. Let's http-server for demonstration purposes:
+A web service usually accepts HTTP traffic on a specified port. Let's use http-server for demonstration purposes:
 
 ```typescript
 const backend = task.addContainer('backend', {
