@@ -9,11 +9,11 @@ comments: true
 published: true
 language: en
 ---
-We are playing many games as humans. And we are putting many masks. We are playing games in private life and at work. Sometimes we play them intentionally, another time we play them completely subconsciously. Sometimes we play positive roles, sometimes negative ones. We play the roles of omniscient leaders, unmoved bosses, friendly managers, caring colleagues and many others. We put masks to be perceived as more professional or important, to feel appreciated, to avoid offending someone, to stay diplomatic, to protect ourselves. There are dozens of reasons we wear masks. **The problem appears when we really forget who we are (or who we are not) because of playing these games.** 
+People play many games and put many masks every day. They play games in private life and at work. Sometimes we play them intentionally, another time we play them completely subconsciously. Sometimes we play positive roles, sometimes negative ones. At work we play the roles of omniscient leaders, unmoved bosses, friendly managers, caring colleagues and many others. We put masks to be perceived as more professional or important, to feel appreciated, to avoid offending someone, to stay diplomatic, to protect ourselves. There are dozens of reasons we wear masks. **The problem appears when we forget who we are, when we hurt others, when our main goal is to gain control of someone or to manipulate.** 
 
-## **why do you play** 
+## **why do we play** 
 
-We play games to win. But the question is what do we want to win? In fact, we usually win emotions. Depending on the game we play we can win either positive or negative reactions. The misfortune of this winning is that it results in many cases in negative feelings and causing someone’s else harm.
+**We play games to win. But the question is what do we want to win? In fact, we usually win emotions.** Depending on the game we play we can win either positive or negative reactions. The misfortune of this winning is that it may result in many cases in arousing negative feelings in others. 
 
 ### **Among the most common “winnings” we can find:**
 
@@ -27,7 +27,7 @@ We play games to win. But the question is what do we want to win? In fact, we us
 
 ## **how did it start** 
 
-Probably (as far as I know) the first person who touched the issue of playing psychological games by people was [Eric Berne ](https://www.itaaworld.org/eric-berne-founder) who was also the creator of transactional analysis. Berne said that that the reason why people play games is obtaining some kind of pay-off. This pay-off might be both positive and negative external stimuli or reaction such as gesture, talk, emoticon etc. It can be  obtained either in face to face contact or online in a digital world. We just want to be important for someone. **The misfortune is that when we do not get positive reactions, we would feed on negative ones just because we want to be noticed.** In fact, people have been always playing games - to win battles, to compete, but also to cooperate or build thrust. **One of the first game each of us has played in life is drama triangle.** 
+Probably the first person who touched the issue of playing psychological games by people was [Eric Berne ](https://www.itaaworld.org/eric-berne-founder) who was also the creator of transactional analysis. Berne said that that the reason why people play games is obtaining some kind of pay-off. This pay-off might be both positive and negative external stimuli or reaction such as gesture, talk, emoticon etc. It can be  obtained either in face to face contact or online in a digital world. We just want to be important for someone. **The mishap appears when we do not get positive reactions, we would feed on negative ones just because we want to be noticed.** In fact, people have been always playing games - to win battles, to compete, but also to cooperate or build thrust. **One of the first game each of us has played in life is drama triangle.** 
 
 [The drama triangle](https://www.youtube.com/watch?v=E_XSeUYa0-8&t=104s) is a psychological model proposed by Stephen B. Karpman. **In the drama triangle we have three personas: victim, persecutor and rescuer - we can take the roles interchangeably depending on the circumstances.** Yes - that is how it works - you put a particular mask depending on the context you find yourself in. You are not always a victim or recruiter or persecutor. It changes.  
 
@@ -41,7 +41,7 @@ Very often psychological games in the workplace refer to interactions that invol
 
 1. **The blame game** - it involves shifting blame or responsibility onto others to avoid taking accountability for one's actions. **Blaming others help people protect their self-esteem. It allows them to maintain a positive self-image by casting themselves as the victim or the innocent party in a situation.** In fact we have a natural tendency to blame other people or circumstances when things go wrong driven by [the fundamental attribution bias](https://www.betterup.com/blog/fundamental-attribution-error). We tend to believe that what people do is a reflection of who they are, rather than considering there might be other factors affecting their behavior. Some individuals may resort to blaming others because they lack effective communication skills. They may not know how to express their feelings or concerns in a constructive manner and, instead, resort to blame as a way of communicating their frustrations.
 2. **Scapegoating** - similar as in the blame game scapegoating is a psychological defense mechanism of denial through projecting responsibility and blame on others. It happens mostly when someone blames a specific individual or group at work for larger issues or failures within the organization to divert attention from the real causes.
-3. **Office gossiping** - spreading rumours or negative information about colleagues or clients is also a type pf psychological game, usually played to create tension and manipulate social dynamics.  Those who possess insider information or spread rumours may feel a sense of influence over others. **What is interesting, in competitive workplaces, employees may engage in gossip to undermine or discredit their colleagues. This can be driven by feelings of insecurity or a desire to gain a competitive advantage.** We have to note that while gossiping may serve some entertainment and informational functions for people, in most cases it has negative consequences and leads to misunderstandings, conflicts, and a toxic work environment. Sometimes the person who spreads rumours plays also the role of victim from the drama triangle. 
+3. **Office gossiping** - spreading rumours or negative information about colleagues or clients is also a type pf psychological game, usually played to create tension and manipulate social dynamics. Those who possess insider information or spread rumours may feel a sense of influence over others. **What is interesting, in competitive workplaces, employees may engage in gossip to undermine or discredit their colleagues. This can be driven by feelings of insecurity or a desire to gain a competitive advantage.** We have to note that while gossiping may serve some entertainment and informational functions for people, in most cases it has negative consequences and leads to misunderstandings, conflicts, and a toxic work environment. Sometimes the person who spreads rumours plays also the role of victim from the drama triangle. 
 4. **Passive-aggressive behaviour** - when you indirectly express hostility or disagreement through subtle actions, sarcasm, or backhanded compliments **you play the game as you avoid honest and open communication of what you really want to achieve.** Passive-aggressive behaviors in the workplace can manifest in various ways. Among the most common ones present in the teams you can find: 
 
 * consistently delaying tasks or assignments without a valid reason, leading to missed deadlines and negatively affecting team productivity, 
@@ -91,14 +91,6 @@ In fact you can find there almost all the games presented above such as blaming 
 * and many others. 
 
 ## **what can you do with it?** 
-
-
-
-
-
-
-
-
 
 ## **summary** 
 
