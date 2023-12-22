@@ -8,8 +8,8 @@ short_name: Tomasz
 email: tomasz.krzywicki@brightinventions.pl
 bio: Senior Backend Developer
 description: Senior Backend Developer
-avatar: /images/team_member_tomek_website.png
-avatar_hover: /images/team_member_tomek_website.png
+avatar: /images/brightdev_business_tomaszk.png
+avatar_hover: /images/brightdev_passion_tomaszk.png
 published: true
 language: en
 ---
