@@ -1,5 +1,9 @@
 ---
 author: agata
+tags:
+  - inspiration
+  - business
+  - self-development
 date: 2023-12-28T21:09:29.007Z
 meaningfullyUpdatedAt: 2023-12-28T21:09:30.313Z
 title: "2023: 8 Business (and Life) Lessons"
