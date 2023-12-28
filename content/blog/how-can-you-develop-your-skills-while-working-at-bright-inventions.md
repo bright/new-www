@@ -8,7 +8,7 @@ date: 2023-12-28T09:10:24.467Z
 meaningfullyUpdatedAt: 2023-12-28T09:10:24.477Z
 title: How Can You Develop Your Skills While Working at Bright Inventions?
 layout: post
-image: /images/brightdev-36-.png
+image: /images/learning-development.png
 hidden: false
 comments: true
 published: true
