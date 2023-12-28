@@ -34,7 +34,7 @@ Haste makes waste, (my favourable “pośpiech poniża” in Polish) both in lif
 
 Creating a plan nurtures a particular mindset, preparing you to overcome potential challenges and honing your **self-efficacy—a psychological asset**. Albert Bandura's self-efficacy theory centers on the belief in one's ability to succeed in specific situations or tasks. Be ready to have a plan B because life surprises. If self-doubt creeps in, dive deeper into [Bandura's theory](https://educational-innovation.sydney.edu.au/news/pdfs/Bandura%201977.pdf) or jump into [its key insights](https://www.psychologytoday.com/intl/blog/click-here-for-happiness/202209/5-ways-to-boost-self-efficacy). 
 
-<div className="image">![Bandura self-efficiacy theory](../../static/images/bandura.png "")</div>
+<div className="image">![Bandura self-efficiacy theory](../../static/images/banduras-self-efficacy-theory.jpg "")</div>
 
 ## **Lesson 5: Drop an Anchor**
 
