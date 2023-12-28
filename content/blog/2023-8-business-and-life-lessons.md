@@ -6,7 +6,7 @@ tags:
   - self-development
 date: 2023-12-28T21:09:29.007Z
 meaningfullyUpdatedAt: 2023-12-28T21:09:30.313Z
-title: "2023: 8 Business (and Life) Lessons"
+title: "2023 Wrapped: 8 Business (and Life) Lessons"
 layout: post
 image: /images/nowy-rok-numerologiczny-2024-to-wibracja-8.jpg
 hidden: false
