@@ -28,11 +28,12 @@ Identify the tasks that truly matter; it's like Marie Kondo-ing your schedule. O
 
 ## **Lesson 3: Do Not Rush**
 
-Haste makes waste, (my favourable “pośpiech poniża” in Polish) both in life and business. **Rushed products and unplanned restaurant menus lead to dissatisfaction.** Jumping from one relationship to another? Bugs in your app just to meet a deadline? That's a no-go zone.
+Haste makes waste, (my favourable “pośpiech poniża” in Polish) both in life and business. **Rushed products and unplanned restaurant menus lead to dissatisfaction.** Bugs in your app just to meet a deadline? That's a no-go zone.
 
 ## **Lesson 4: Make a Plan**
 
-Creating a plan nurtures a particular mindset, preparing you to overcome potential challenges and honing your **self-efficacy—a psychological asset**. Albert Bandura's self-efficacy theory centers on the belief in one's ability to succeed in specific situations or tasks. Be ready to have a plan B because life surprises. If self-doubt creeps in, dive deeper into [Bandura's theory](https://educational-innovation.sydney.edu.au/news/pdfs/Bandura%201977.pdf) or jump into [its key insights](https://www.psychologytoday.com/intl/blog/click-here-for-happiness/202209/5-ways-to-boost-self-efficacy). 
+Creating a plan nurtures a specific mindset, preparing you to tackle potential challenges and **refining your self-efficacy—a psychological asset**. Albert Bandura's self-efficacy theory centers on the belief in one's ability to succeed in specific situations or tasks. Be ready to have a plan B because life surprises. \
+If self-doubt tends to sneak in, dive deeper into [Bandura's theory](https://educational-innovation.sydney.edu.au/news/pdfs/Bandura%201977.pdf) or jump into [its key insights](https://www.psychologytoday.com/intl/blog/click-here-for-happiness/202209/5-ways-to-boost-self-efficacy). 
 
 <div className="image">![Bandura self-efficiacy theory](../../static/images/banduras-self-efficacy-theory.jpg "")</div>
 
@@ -42,7 +43,7 @@ Feeling off? Reflect. **The anchoring bias** is a cognitive bias where individua
 
 ## **Lesson 6: Give Your Ideas a Reality Check**
 
-Back in 1950, it took almost 50 years for medical know-how to double up. Fast forward to 1980, and it squeezed down to 7 years. By 2010, we're talking a mere 3 and a half years. **Loads of examples show that sticking to old rules can cost big money** (RIP BlackBerry). And hey, this isn't just a business thing—it spills over into our personal lives too!
+Back in 1950, it took almost 50 years for medical know-how to double up. Fast forward to 1980, and it squeezed down to 7 years. By 2010, we're talking a mere 3 and a half years. **Loads of examples show that sticking to old rules can cost big money** (RIP BlackBerry). And this isn't just a business thing—it spills over into our personal lives too.
 
 ## **Lesson 7: Step out of Your Comfort Zone**
 
@@ -54,7 +55,7 @@ I've said it before in my [previous blogpost](https://brightinventions.pl/blog/s
 
 Mistakes happen. Learn, transform, and keep going. **Life is about growth, not perfection.**
 
-So, whether you're dreaming of coding the next big thing, developing an international company or running the coziest pub in town, these lessons might be a part of your recipe for success. Cheers to the startup life! 🚀🍻
+So, whether you're dreaming of coding the next big thing, developing an international company or running the coziest pub in town, these lessons might be a part of your recipe for success. 🚀
 
 <div className="image">![winston churchill quote](../../static/images/winstonchurchill1.jpg "")</div>
 
