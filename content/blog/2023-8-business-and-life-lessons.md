@@ -14,7 +14,7 @@ comments: true
 published: true
 language: en
 ---
-My teammate, Błażej, recently [shared on his LinkedIn](https://www.linkedin.com/posts/blazej-dziuk_lets-hope-that-joining-a-bright-team-of-activity-7146093107284017152-SuJJ?utm_source=share&utm_medium=member_desktop) some wisdom about millennials dreaming of pubs and restaurants, while Gen Z sets their sights on IT startups. 😉 As a former restaurant owner turned IT representative, let me now share some life and business lessons that the recent year (and a few before it, let's be real) has taught me.
+My teammate, Błażej, recently [shared on his LinkedIn](https://www.linkedin.com/posts/blazej-dziuk_lets-hope-that-joining-a-bright-team-of-activity-7146093107284017152-SuJJ?utm_source=share&utm_medium=member_desktop) some wisdom about millennials dreaming of pubs and restaurants, while Gen Z sets their sights on IT startups. 😉 As a former restaurant owner turned IT representative, let me share some life and business lessons that the recent year (and a few before it, let's be real) has taught me.
 
 ## **Lesson 1: Cut the Clutter**
 
