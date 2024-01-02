@@ -1,33 +1,35 @@
 ---
 author: ula
-date: 2023-12-20T20:11:35.335Z
-meaningfullyUpdatedAt: 2023-12-20T20:11:35.356Z
-title: "10 Most Common Psychological Games at Work "
+date: 2024-01-02T19:51:21.429Z
+meaningfullyUpdatedAt: 2024-01-02T19:51:23.127Z
+title: "10 Most Common Psychological Games We Play at Work "
 layout: post
 hidden: false
 comments: true
 published: true
 language: en
 ---
-People play many games and put many masks every day. They play games in private life and at work. Sometimes we play them intentionally, another time we play them completely subconsciously. Sometimes we play positive roles, sometimes negative ones. At work we play the roles of omniscient leaders, unmoved bosses, friendly managers, caring colleagues and many others. We put masks to be perceived as more professional or important, to feel appreciated, to avoid offending someone, to stay diplomatic, to protect ourselves. There are dozens of reasons we wear masks. **The problem appears when we forget who we are, when we hurt others, when our main goal is to gain control of someone or to manipulate.** 
+We put many masks every day. We play games in private life and at work. Sometimes we play them intentionally, another time we play them completely subconsciously. Sometimes we play positive roles, sometimes negative ones. At work people play the roles of omniscient leaders, unmoved bosses, friendly managers, caring colleagues or others. They put masks to be perceived as more professional or important, to feel appreciated, to avoid offending someone, to stay diplomatic, to protect themselves. There are dozens of reasons people wear masks. **The problem appears when we forget who we really are, when we hurt others in our games, and when our main goal is gaining control and manipulation.** 
 
 ## **why do we play** 
 
-**We play games to win. But the question is what do we want to win? In fact, we usually win emotions.** Depending on the game we play we can win either positive or negative reactions. The misfortune of this winning is that it may result in many cases in arousing negative feelings in others. 
+**People play games to win. And they usually win emotions.** Depending on the game they play they can win both positive and negative reactions. 
 
-### **Among the most common “winnings” we can find:**
+### **Among the most common “winnings” you can find:**
 
 * improving own self-esteem at the expense of others, 
-* the humiliation of people we work with, 
+* the humiliation of people you work with, 
 * causing unjustified guilt, 
 * justifying anger and unacceptable behaviours, 
 * maintaining self-image by ignoring someone’s feelings, 
-* getting praise we don’t deserve,  
-* or feeding on popularity and other people’s attention. 
+* getting praise you don’t deserve,  
+* feeding on popularity and other people’s attention. 
+
+**The misfortune of these winnings is that they often result in arousing negative feelings in others.** Usually people you work with or live with. 
 
 ## **how did it start** 
 
-Probably the first person who touched the issue of playing psychological games by people was [Eric Berne ](https://www.itaaworld.org/eric-berne-founder) who was also the creator of transactional analysis. Berne said that that the reason why people play games is obtaining some kind of pay-off. This pay-off might be both positive and negative external stimuli or reaction such as gesture, talk, emoticon etc. It can be  obtained either in face to face contact or online in a digital world. We just want to be important for someone. **The mishap appears when we do not get positive reactions, we would feed on negative ones just because we want to be noticed.** In fact, people have been always playing games - to win battles, to compete, but also to cooperate or build thrust. **One of the first game each of us has played in life is drama triangle.** 
+Probably the first person who wrote about playing psychological games by people was [Eric Berne ](https://www.itaaworld.org/eric-berne-founder) who is also the creator of transactional analysis. **Berne said that the reason why people play games is obtaining some kind of pay-off.** This pay-off might be both positive and negative external stimuli or reaction such as gesture, talk, emoticon etc. It can be  obtained either in face to face contact or online in a digital world. People just want to be important for someone. **The mishap appears when we do not get positive reactions, we would feed on negative ones just because we want to be noticed.** In fact, people have been always playing games - to win battles, to compete, but also to cooperate or build thrust. **One of the first game each of us has played in life is drama triangle.** 
 
 [The drama triangle](https://www.youtube.com/watch?v=E_XSeUYa0-8&t=104s) is a psychological model proposed by Stephen B. Karpman. **In the drama triangle we have three personas: victim, persecutor and rescuer - we can take the roles interchangeably depending on the circumstances.** Yes - that is how it works - you put a particular mask depending on the context you find yourself in. You are not always a victim or recruiter or persecutor. It changes.  
 
@@ -92,10 +94,18 @@ In fact you can find there almost all the games presented above such as blaming 
 
 ## **what can you do with it?** 
 
+
+
+
+
+
+
+
+
 ## **summary** 
 
-Our life is full of nonobjective facts, in fact it is full of beliefs which are not true. We use these beliefs to interprets the reality around us. You have to be aware that when one thought appears in your mind and you believe it to be true - it becomes a belief. This belief will affect your behaviour and you will be acting in such a way to make this belief true. By doing so, you are proving (and you want to prove) yourself you are right. When you accept one belief as true, you will be doing everything to make it true. 
+Our life is full of nonobjective facts, in fact it is full of beliefs which are not true. We use these beliefs to interpret the reality around us. **You have to be aware that when one thought appears in your mind and you believe it to be true - it becomes a belief. This belief will affect your behaviour and you will be acting in such a way to make this belief true.** By doing so, you are proving yourself you are right. When you accept one belief as true, you will be doing everything to make it true. 
 
-It's important to recognize that playing the blame game is generally connected with our beliefs, it is unproductive and can harm relationships, personal growth, and problem-solving. Healthy communication, self-reflection, and accountability are better ways to address issues and conflicts than putting masks. 
+It's important to recognize that playing the blame game is generally connected with our beliefs, it is unproductive and can harm relationships, personal growth, and problem-solving. **Healthy communication, self-reflection, and accountability are better ways to address issues and conflicts than putting masks.** 
 
-And how about your - have your ver thought which games you are playing at work or in your private life? Is it really worth it? :)
+And how about you - have your ever thought which games you are playing at work or in your private life? Is it really worth it? 🙂
