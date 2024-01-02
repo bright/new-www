@@ -8,6 +8,7 @@ tags:
   - W3F
   - BrightTreasury
 date: 2021-12-14T08:47:38.277Z
+meaningfullyUpdatedAt: 2024-01-02T13:46:50.932Z
 title: BrightTreasury is now LIVE
 layout: post
 image: /images/Treasury_www_LargeSize.png
@@ -20,7 +21,7 @@ language: en
 
 Bright Treasury is a web application that helps you to apply for Polkadot and Kusama Treasury funds in an easy and intuitive way. We want to attract more professionals who could contribute to the community with their ideas and skills but at the same time may not be as fluent in blockchain customs and terminology. It's been funded by [Web3 Foundation (W3F) grants program](https://web3.foundation/grants/).
 
-**Now you can use Milestone 1 and Milestone 2 features at: [treasury.bright.dev](https://treasury.bright.dev/) 🎉** This means that all the operations concerning Ideas and Proposals are ready to use! 
+**Now you can use Milestone 1 and Milestone 2 features at: treasury.bright.dev 🎉** This means that all the operations concerning Ideas and Proposals are ready to use! 
 
 ## What is BrightTreasury
 
@@ -38,7 +39,7 @@ Would you like to know more about how and when you might want to use Bright Trea
 
 ### 1. If you have an idea...
 
-The first step is to have an idea for an activity that might contribute to the Polkadot or Kusama networks community. Maybe one that would benefit both? If you have something in mind, then go on, show others what you came up with. Go to [treasury.bright.dev](https://treasury.bright.dev) and create an account. You can sign up using your email address or your Web3 blockchain account (with [polkadot extension](https://polkadot.js.org/extension/)) if you already have one. If you don’t, no worries, you can always add it later to your email based account in the settings page. 
+The first step is to have an idea for an activity that might contribute to the Polkadot or Kusama networks community. Maybe one that would benefit both? If you have something in mind, then go on, show others what you came up with. Go to treasury.bright.dev and create an account. You can sign up using your email address or your Web3 blockchain account (with [polkadot extension](https://polkadot.js.org/extension/)) if you already have one. If you don’t, no worries, you can always add it later to your email based account in the settings page. 
 
 Second step is to present your idea to the network’s community. Just click the “+Introduce Idea” button and try to give as many details about your idea as possible. It might be good to divide your planned activities into milestones, so it’s clear what is the schedule that you foresee. Need more time to work on the description? Save your idea as a draft and publish it whenever you feel ready. 
 
