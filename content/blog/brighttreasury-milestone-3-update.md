@@ -7,6 +7,7 @@ tags:
   - Kusama
   - BrightTreasury
 date: 2022-01-17T08:34:44.612Z
+meaningfullyUpdatedAt: ""
 title: BrightTreasury Milestone 3 update
 layout: post
 image: /images/bright_tereasury_app_milestones.png
@@ -15,13 +16,13 @@ comments: true
 published: true
 language: en
 ---
-We are proud and excited to announce that the [Web3 Foundation](https://web3.foundation/grants/) grant we received to build [BrightTreasury](https://treasury.bright.dev) has been successfully completed and the whole set of the planned features is now available live on production. 
+We are proud and excited to announce that the [Web3 Foundation](https://web3.foundation/grants/) grant we received to build BrightTreasury has been successfully completed and the whole set of the planned features is now available live on production. 
 
 ## What is BrightTreasury?
 
-If you haven’t followed our journey with [BrightTreasury](https://treasury.bright.dev/), just a quick summary for you:
+If you haven’t followed our journey with BrightTreasury, just a quick summary for you:
 
-[BrightTreasury](https://treasury.bright.dev/) is a standalone web application (along with a PWA representation) that allows performing basic actions on the Treasury and Bounties modules of [Polkadot](https://polkadot.network/) and [Kusama](https://kusama.network/) Substrate networks. We hope it will encourage more people to get involved in these blockchain communities.
+BrightTreasury is a standalone web application (along with a PWA representation) that allows performing basic actions on the Treasury and Bounties modules of [Polkadot](https://polkadot.network/) and [Kusama](https://kusama.network/) Substrate networks. We hope it will encourage more people to get involved in these blockchain communities.
 
 I also recommend you reading our previous blog posts [here](https://brightinventions.pl/blog/bright-treasury-a-treasury-module-application-funded-by-a-w3f-foundation-grant/) and [here](https://brightinventions.pl/blog/bright-treasury-is-now-live/) where we documented the progress and reaching subsequent milestones. 
 
