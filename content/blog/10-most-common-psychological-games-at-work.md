@@ -11,7 +11,7 @@ language: en
 ---
 We put many masks every day. We play games in private life and at work. Sometimes we play them intentionally, another time we play them completely subconsciously. Sometimes we play positive roles, sometimes negative ones. At work people play the roles of omniscient leaders, unmoved bosses, friendly managers, caring colleagues or others. They put masks to be perceived as more professional or important, to feel appreciated, to avoid offending someone, to stay diplomatic, to protect themselves. There are dozens of reasons people wear masks. **The problem appears when we forget who we really are, when we hurt others in our games, and when our main goal is gaining control and manipulation.** 
 
-## **why do we play** 
+## **why do we play?** 
 
 **People play games to win. And they usually win emotions.** Depending on the game they play they can win both positive and negative reactions. 
 
@@ -27,17 +27,21 @@ We put many masks every day. We play games in private life and at work. Sometime
 
 **The misfortune of these winnings is that they often result in arousing negative feelings in others.** Usually people you work with or live with. 
 
-## **how did it start** 
+## **how did it start?**
 
-Probably the first person who wrote about playing psychological games by people was [Eric Berne ](https://www.itaaworld.org/eric-berne-founder) who is also the creator of transactional analysis. **Berne said that the reason why people play games is obtaining some kind of pay-off.** This pay-off might be both positive and negative external stimuli or reaction such as gesture, talk, emoticon etc. It can be  obtained either in face to face contact or online in a digital world. People just want to be important for someone. **The mishap appears when we do not get positive reactions, we would feed on negative ones just because we want to be noticed.** In fact, people have been always playing games - to win battles, to compete, but also to cooperate or build thrust. **One of the first game each of us has played in life is drama triangle.** 
+Probably the first person who wrote about playing psychological games by people was [Eric Berne ](https://www.itaaworld.org/eric-berne-founder) who is also the creator of transactional analysis. **Berne said that the reason why people play games is obtaining some kind of pay-off.** This pay-off might be both positive and negative external stimuli or reaction such as gesture, talk, emoticon etc. It can be  obtained either in face to face contact or online in a digital world. We just want to be important. We just want to be noticed. 
 
-[The drama triangle](https://www.youtube.com/watch?v=E_XSeUYa0-8&t=104s) is a psychological model proposed by Stephen B. Karpman. **In the drama triangle we have three personas: victim, persecutor and rescuer - we can take the roles interchangeably depending on the circumstances.** Yes - that is how it works - you put a particular mask depending on the context you find yourself in. You are not always a victim or recruiter or persecutor. It changes.  
+In fact, people have been always playing games - to win battles, to compete, to get promoted, but also to cooperate or build thrust. But the problem appears when we do not get what we want, when we don't get positive reactions we would feed on negative ones. 
+
+**One of the first game everyone has played in life is drama triangle.** [The drama triangle](https://www.youtube.com/watch?v=E_XSeUYa0-8&t=104s) is a psychological model proposed by Stephen B. Karpman. **In the drama triangle we have three personas: victim, persecutor and rescuer - we can take the roles interchangeably depending on the circumstances.** You put a particular mask depending on the context you find yourself in. You are not always a victim or rescuer or persecutor. Your role changes.  
+
+<div className="image">![drama triangle ](../../static/images/drama-triangle.webp "")</div>
 
 ###### Source: [https://www.susannejegge.com/en/2019/05/29/drama-triangle-part-2](https://www.susannejegge.com/en/2019/05/29/drama-triangle-part-2/)
 
 Despite its potential risks and limitations - the model implies a passive stance for individuals within the roles, as they are seen as acting out predetermined patterns - the drama triangle can be also used to gain insights about dysfunctional behaviours both in private and professional situations. If you want to use it, please be cautious to avoid any fixed judgements. 
 
-## **most common psychological games at work**
+## **most common psychological games at work 🔎**
 
 Very often psychological games in the workplace refer to interactions that involve hidden agendas, manipulation, power dynamics, and other subtle psychological tactics. These games can often create a toxic or unhealthy work environment. The most common ones that can occur I present below. 
 
