@@ -2,7 +2,7 @@
 author: ula
 date: 2024-01-02T19:51:21.429Z
 meaningfullyUpdatedAt: 2024-01-02T19:51:23.127Z
-title: "10 Most Common Psychological Games We Play at Work "
+title: "10 Most Common Psychological Games You Play at Work "
 layout: post
 hidden: false
 comments: true
@@ -11,7 +11,7 @@ language: en
 ---
 We put many masks every day. We play games in private life and at work. Sometimes we play them intentionally, another time we play them completely subconsciously. Sometimes we play positive roles, sometimes negative ones. At work people play the roles of omniscient leaders, unmoved bosses, friendly managers, caring colleagues or others. They put masks to be perceived as more professional or important, to feel appreciated, to avoid offending someone, to stay diplomatic, to protect themselves. There are dozens of reasons people wear masks. **The problem appears when we forget who we really are, when we hurt others in our games, and when our main goal is gaining control and manipulation.** 
 
-## **why do we play?** 
+## **why do we play?**
 
 **People play games to win. And they usually win emotions.** Depending on the game they play they can win both positive and negative reactions. 
 
@@ -39,16 +39,33 @@ In fact, people have been always playing games - to win battles, to compete, to 
 
 ###### Source: [https://www.susannejegge.com/en/2019/05/29/drama-triangle-part-2](https://www.susannejegge.com/en/2019/05/29/drama-triangle-part-2/)
 
-Despite its potential risks and limitations - the model implies a passive stance for individuals within the roles, as they are seen as acting out predetermined patterns - the drama triangle can be also used to gain insights about dysfunctional behaviours both in private and professional situations. If you want to use it, please be cautious to avoid any fixed judgements. 
+Despite its potential risks and limitations - as the model implies a passive stance for individuals within the roles seen as acting out predetermined patterns - the drama triangle can be also used to gain insights about dysfunctional behaviours both in private and professional situations. If you want to use it, please be cautious to avoid any fixed judgements. 
 
 ## **most common psychological games at work 🔎**
 
-Very often psychological games in the workplace refer to interactions that involve hidden agendas, manipulation, power dynamics, and other subtle psychological tactics. These games can often create a toxic or unhealthy work environment. The most common ones that can occur I present below. 
+Very often psychological games in the workplace refer to interactions that involve hidden agendas, manipulation, power dynamics, and other subtle psychological tactics. The most common ones which I have observed and which can occur in many organisations are presented below. 
 
-1. **The blame game** - it involves shifting blame or responsibility onto others to avoid taking accountability for one's actions. **Blaming others help people protect their self-esteem. It allows them to maintain a positive self-image by casting themselves as the victim or the innocent party in a situation.** In fact we have a natural tendency to blame other people or circumstances when things go wrong driven by [the fundamental attribution bias](https://www.betterup.com/blog/fundamental-attribution-error). We tend to believe that what people do is a reflection of who they are, rather than considering there might be other factors affecting their behavior. Some individuals may resort to blaming others because they lack effective communication skills. They may not know how to express their feelings or concerns in a constructive manner and, instead, resort to blame as a way of communicating their frustrations.
-2. **Scapegoating** - similar as in the blame game scapegoating is a psychological defense mechanism of denial through projecting responsibility and blame on others. It happens mostly when someone blames a specific individual or group at work for larger issues or failures within the organization to divert attention from the real causes.
-3. **Office gossiping** - spreading rumours or negative information about colleagues or clients is also a type pf psychological game, usually played to create tension and manipulate social dynamics. Those who possess insider information or spread rumours may feel a sense of influence over others. **What is interesting, in competitive workplaces, employees may engage in gossip to undermine or discredit their colleagues. This can be driven by feelings of insecurity or a desire to gain a competitive advantage.** We have to note that while gossiping may serve some entertainment and informational functions for people, in most cases it has negative consequences and leads to misunderstandings, conflicts, and a toxic work environment. Sometimes the person who spreads rumours plays also the role of victim from the drama triangle. 
-4. **Passive-aggressive behaviour** - when you indirectly express hostility or disagreement through subtle actions, sarcasm, or backhanded compliments **you play the game as you avoid honest and open communication of what you really want to achieve.** Passive-aggressive behaviors in the workplace can manifest in various ways. Among the most common ones present in the teams you can find: 
+### 1. The blame game
+
+It involves shifting blame or responsibility on others to avoid taking accountability for one's actions. **Blaming others help people protect their self-esteem. It allows them to maintain a positive self-image by casting themselves as the victim or the innocent party in a situation.**
+
+ https://www.youtube.com/watch?v=RZWf2_2L2v8&t=1s
+
+In fact we have a natural tendency to blame other people or circumstances when things go wrong. This inclinations is driven by** [the fundamental attribution bias](https://www.betterup.com/blog/fundamental-attribution-error)**. We tend to believe that what people do is a reflection of who they are, rather than considering there might be other factors affecting their behaviour. We have to also remember that some individuals may resort to blaming others because they lack effective communication skills. **They may not know how to express their feelings or concerns in a constructive manner and instead resort to blame as a way of communicating their frustrations.**
+
+### 2. Scapegoating
+
+Similar as in the blame game scapegoating is **a psychological defense mechanism of denial through projecting responsibility and blame on others.** It happens mostly when someone blames a specific individual or group at work for larger issues or failures within the organization to divert attention from the real causes.
+
+<div className="image">![scapegoating](../../static/images/scapegoating.webp "")</div>
+
+### 3. Office gossiping
+
+Spreading rumours or negative information about colleagues or clients is also a type pf psychological game, usually played to create tension and manipulate social dynamics. Those who possess insider information or spread rumours may feel a sense of influence over others. **What is interesting, in competitive workplaces, employees may engage in gossip to undermine or discredit their colleagues. This can be driven by feelings of insecurity or a desire to gain a competitive advantage.** We have to note that while gossiping may serve some entertainment and informational functions for people, in most cases it has negative consequences and leads to misunderstandings, conflicts, and a toxic work environment. Sometimes the person who spreads rumours plays also the role of victim from the drama triangle. 
+
+### 4.Passive-aggressive behaviour
+
+When you indirectly express hostility or disagreement through subtle actions, sarcasm, or backhanded compliments **you play the game as you avoid honest and open communication of what you really want to achieve.** Passive-aggressive behaviors in the workplace can manifest in various ways. Among the most common ones present in the teams you can find: 
 
 * consistently delaying tasks or assignments without a valid reason, leading to missed deadlines and negatively affecting team productivity, 
 * offering compliments that are actually disguised criticism or sarcasm,
@@ -97,14 +114,6 @@ In fact you can find there almost all the games presented above such as blaming 
 * and many others. 
 
 ## **what can you do with it?** 
-
-
-
-
-
-
-
-
 
 ## **summary** 
 
