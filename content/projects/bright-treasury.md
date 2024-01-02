@@ -46,13 +46,13 @@ show on homepage: true
 published: true
 language: en
 ---
-![Bright Treasury](../../static/images/treasuryappwww.png "")
+![Bright Treasury](../../static/images/treasuryappwww.png)
 
-<TitleWithIcon sectionTitle='main features of BrightTreasury:' titleIcon='/images/main_features_icon.png' titleIconAlt='Main features of BrightTreasury:' />
+<TitleWithIcon sectionTitle="main features of BrightTreasury:" titleIcon="/images/main_features_icon.png" titleIconAlt="Main features of BrightTreasury:" />
 
 <SliderText sliderElements='[{"title":"intuitive treasury submissions","description":"An intuitive, two-step flow for submitting proposals (Idea -> Proposal)."},{"description":"In-app module for more detailed proposal descriptions (like adding milestones) connected with the proposal related discussion and reporting progress on approved proposals.","title":"In-app module"},{"title":"proposals overview","description":"Clear overview of the submitted proposals matched with derived motions and their results"},{"description":"Historical overview of the past spending periods’ proposals that were submitted using the app.","title":"historical overview "},{"title":"bounties mechanism","description":"The first app with dedicated bounties implementation."},{"title":"in-app login","description":"Login with Web3 account or email."}]' />
 
-<TitleWithIcon sectionTitle='stack' titleIcon='/images/skills.svg' titleIconAlt='bright' />
+<TitleWithIcon sectionTitle="stack" titleIcon="/images/skills.svg" titleIconAlt="bright" />
 
 <Gallery images='[{"src":"/images/react.png","alt":"React"},{"src":"/images/typescript_logo.png","alt":"TypeScript"},{"src":"/images/node.png","alt":"Node"},{"src":"/images/nest.png"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"}]' />
 
@@ -60,7 +60,7 @@ language: en
 
 **Backend:** Node.js, NestJS, TypeScript, PostgreSQL, AWS Services
 
-<TitleWithIcon sectionTitle='about BrightTreasury' titleIcon='/images/three_flags.svg' titleIconAlt='about BrightTreasury' />
+<TitleWithIcon sectionTitle="about BrightTreasury" titleIcon="/images/three_flags.svg" titleIconAlt="about BrightTreasury" />
 
 <YouTubeEmbed url='https://www.youtube.com/watch?v=AKe5HynDQnU' />
 
@@ -70,15 +70,15 @@ The [Treasury](https://wiki.polkadot.network/docs/learn-treasury) is a cryptocur
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-<TitleWithIcon sectionTitle='goal' titleIcon='/images/icon_title_goal.svg' titleIconAlt='goal' />
+<TitleWithIcon sectionTitle="goal" titleIcon="/images/icon_title_goal.svg" titleIconAlt="goal" />
 
 Our focus is to attract more professionals who could contribute to the community with their ideas and skills but at the same time may not be as fluent in blockchain customs and terminology. [BrightTreasury](https://treasury.bright.dev?utm_source=referral&utm_medium=bright_website&utm_campaign=case_study_bright) application help them apply their proposals even if they aren’t blockchain experts. The funds are available for software agencies as well as companies that want to share knowledge about Substrate such as marketing agencies or video production studios. We believe that BrightTreasury app offers a chance to increase the number of fund proposals. Eventually, it will make the Substrate Blockchain a more accessible technology.
 
-![Bright Treasury Substrate](../../static/images/treasuryapp_www.png "")
+![Bright Treasury Substrate](../../static/images/treasuryapp_www.png)
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-<TitleWithIcon sectionTitle='process of developing BrightTreasury' titleIcon='/images/gearwheel.svg' titleIconAlt='process of developing BrightTreasury' />
+<TitleWithIcon sectionTitle="process of developing BrightTreasury" titleIcon="/images/gearwheel.svg" titleIconAlt="process of developing BrightTreasury" />
 
 Based on the discussions with the Substrate networks’ users and council members as well as the analysis of the comments under Polkadot and Kusama proposal submissions, we identified the areas that caused most issues in the Treasury funding process from the user’s perspective. The main needs that were brought up were:
 
@@ -91,7 +91,7 @@ Following these needs, we have proposed a solution that will benefit the Substra
 
 The [custom software development](/our-areas/custom-software-development) process was broken into three milestones. The first two were completed in July 2021. The third one was completed in 2022. 
 
-![Bright Treasury blockchain](../../static/images/treasury_www_3.png "")
+![Bright Treasury blockchain](../../static/images/treasury_www_3.png)
 
 ### Milestone 1 — Idea creating & Proposal submission & in-app logins
 
@@ -105,9 +105,9 @@ The goal of this milestone is to add more features to the ideas and proposals ha
 
 The main goal of this milestone is the implementation of the bounties mechanism. Users will be able to add and browse through bounties, vote for their curators and check the current status. The curators will be able to accept (or reject) their nominations and manage the bounty’s status. Additionally, in this milestone we plan to add a basic integration with Polkassembly. It will be possible to see the description of a proposal/bounty published on Polkassembly. We will also include the history feature based on the data from Polkassembly, which would allow users to browse through the closed proposals and bounties in addition to in-app ideas.
 
-<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
+<TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
-[BrightTreasury](https://treasury.bright.dev?utm_source=referral&utm_medium=bright_website&utm_campaign=case_study_bright2) is live! 
+BrightTreasury is live! 
 
 The first version of the app was released in December 2021. After the launch the Substrate community appreciated the project and decided to support its further development and maintenance. Every feedback will be highly appreciated! 
 
