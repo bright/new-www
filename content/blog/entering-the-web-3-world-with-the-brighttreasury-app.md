@@ -7,7 +7,7 @@ tags:
   - Kusama
   - blockchain
 date: 2022-04-13T10:52:01.667Z
-meaningfullyUpdatedAt: 2024-01-02T13:49:02.925Z
+meaningfullyUpdatedAt: ""
 title: Entering the Web3 World with the BrightTreasury App
 layout: post
 image: /images/blog_web3_account.png
