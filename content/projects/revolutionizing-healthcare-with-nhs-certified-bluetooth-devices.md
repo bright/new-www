@@ -64,11 +64,9 @@ language: en
 
 <TitleWithIcon sectionTitle="problem: addressing staff shortages and rising health challenges" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem: addressing staff shortages & rising health challenge" />
 
-Healthcare systems worldwide face unprecedented challenges, highlighted by the strains of the COVID-19 pandemic. Notably, the United Kingdom has grappled with staffing shortages, with [NHS workforce data](https://lordslibrary.parliament.uk/staff-shortages-in-the-nhs-and-social-care-sectors/#heading-1) revealing an increase in overall and nursing vacancies despite a slight increase in medical positions.
+When COVID-19 swept across the world, it revealed the stark reality of global healthcare. The traditional system, with staff shortages and the glaring lack of funding for public care, has not been able to face the rising challenges. Among them are the mounting cases of chronic diseases and mental health issues. Healthcare cries out for a remedy. Only technology can be the final cure.
 
-In parallel, a surge in patients grappling with chronic illnesses and mental health concerns poses a pressing concern. The WHO reports that depression affects [264 million people globally,](https://www.who.int/news-room/fact-sheets/detail/mental-disorders) while [6 out of 10 U.S. adults suffer from chronic conditions](https://www.cdc.gov/chronicdisease/about/index.htm). Conventional healthcare services struggle to meet this growing demand, emphasizing the pivotal role of digitalization in offering effective solutions.
-
-<TitleWithIcon sectionTitle="empowering healthcare transformation: RPM and telemedicine" titleIcon="/images/icon_title_goal.svg" titleIconAlt="empowering healthcare transformation: RPM and telemedicine" />
+<TitleWithIcon sectionTitle="solution: empowering healthcare transformation with remote patient monitoring and telemedicine " titleIcon="/images/icon_title_goal.svg" titleIconAlt="solution: empowering healthcare transformation with remote patient monitoring and telemedicine " />
 
 **[Camascope](https://www.camascope.com/), formerly known as VCare, is a pioneering British health tech company** that has fully embraced the potential of **Remote Patient Monitoring (RPM) and telemedicine**. **Their collaboration with Bright Inventions has already yielded a robust Medicine Administration Record (eMAR) system**, available on both Android and iOS platforms. This eMAR system effectively connects pharmacies with care homes, facilitating the secure, efficient, and compliant distribution of medication.
 
