@@ -74,6 +74,10 @@ Our team developed a pilot Remote Patient Monitoring (RPM) system for Android. I
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
+<div className="image">![Pulse oximeter](../../static/images/pulse_oximeter.png "Pulse oximeter")</div>
+
+The RPM system is centered around an Android application, complemented by a couple of Bluetooth health-monitoring devices expertly integrated by the Bright Inventions team. Smart devices such as pulse oximeters, spirometers, thermometers, or stethoscopes empower medical professionals to efficiently manage more patients without the need for individual, time-consuming examinations. 
+
 <TitleWithIcon sectionTitle="the challenge of integrating Bluetooth devices into a system" titleIcon="/images/two_flags.svg" titleIconAlt="the challenge" />
 
 Our team faced the formidable challenge of integrating various devices with distinct Software Development Kits (SDKs) into a cohesive system. With our Android team's expertise, we successfully harmonized these disparate SDKs into a unified system. Additionally, the team developed an algorithm capable of swiftly detecting whether a patient's vital signs indicate an immediate need for assistance. The data is transmitted to the doctor, and an alert is generated, suggesting that the patient considers calling an ambulance.
@@ -90,8 +94,6 @@ Our team faced the formidable challenge of integrating various devices with dist
 * **Spirometer**: a device that measures the volume of air inhaled and exhaled by a human’s lungs.
 * **Stethoscope**: known as the primary doctor’s tool, can now be used remotely by other caregivers at care homes and nursing homes.
 * **Wearable continuous monitoring devices**: a device worn for example on a patient’s arm that monitors the vital signs in real-time, 24 hours a day.
-
-<div className="image">![Pulse oximeter](../../static/images/pulse_oximeter.png "Pulse oximeter")</div>
 
 <TitleWithIcon sectionTitle="revolutionizing healthcare access with video consultations" titleIcon="/images/icon_title_products.svg" titleIconAlt="revolutionizing healthcare access with video consultations" />
 
