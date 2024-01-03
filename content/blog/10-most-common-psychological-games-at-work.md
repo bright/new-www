@@ -9,7 +9,9 @@ comments: true
 published: true
 language: en
 ---
-We put many masks every day. We play games in private life and at work. Sometimes we play them intentionally, another time we play them completely subconsciously. Sometimes we play positive roles, sometimes negative ones. At work people play the roles of omniscient leaders, unmoved bosses, friendly managers, caring colleagues or others. They put masks to be perceived as more professional or important, to feel appreciated, to avoid offending someone, to stay diplomatic, to protect themselves. There are dozens of reasons people wear masks. **The problem appears when we forget who we really are, when we hurt others in our games, and when our main goal is gaining control and manipulation.** 
+We put many masks every day. We play games in private life and at work. The games we play are a nuanced dance, sometimes a deliberate performance, and at other times, an unconscious enactment. We portray roles that span the spectrum from positive and constructive to negative and detrimental.
+
+At work people play the roles of omniscient leaders, unmoved bosses, friendly managers, caring colleagues or others. They put masks to be perceived as more professional or important, to feel appreciated, to avoid offending someone, to stay diplomatic, to protect themselves. There are dozens of reasons people wear masks. **The problem appears when we forget who we really are, when we hurt others in our games, and when our main goal is gaining control and manipulation.** 
 
 ## **why do we play?**
 
