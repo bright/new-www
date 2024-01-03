@@ -2,7 +2,7 @@
 author: ula
 date: 2024-01-02T19:51:21.429Z
 meaningfullyUpdatedAt: 2024-01-02T19:51:23.127Z
-title: "10 Most Common Psychological Games You Play at Work "
+title: "10 Most Common Psychological Games You Should Stop Playing at Work "
 layout: post
 hidden: false
 comments: true
@@ -159,7 +159,7 @@ https://www.youtube.com/watch?time_continue=1&v=5udJgxOBrtk&source_ve_path=Mjg2N
 * projecting your own insecurities onto colleagues, doubting their competence because your feel insecure about your abilities,
 * and many others. 
 
-### what can you do to stop playing games? 
+## **what can you do to stop playing games?**
 
 Our life is full of nonobjective facts, in fact it is full of beliefs which are not true. We use these beliefs to interpret the reality around us. **You have to be aware that when one thought appears in your mind and you believe it to be true - it becomes a belief. This belief will affect your behaviour. When you accept one belief as true, you will be doing everything to make it true.**
 
@@ -174,8 +174,10 @@ Stopping psychological games at work requires a combination of individual and or
 * Resolving conflicts in a constructive and transparent manner.
 * Acknowledging and appreciating positive behaviors based on collaboration and support.
 * Establishing regular feedback mechanisms. 
-* Raising awareness about the impact of psychological games. 🙂
+* Raising awareness about the impact of psychological games.😉
 
-Remember, creating a healthy work environment is an ongoing process that involves continuous communication, education, and commitment from both individuals and the organization.
+**But the best antidote is to become aware that a game is happening and refuse to play.** In other words - stay mindful of what you do and focus on the goal of your work or organisational goals. **I cannot prevent other people from playing games, or attempting to hook me into their game. But I can refuse to play. When a  player’s hook fails to catch me, the game is effectively broken.** 
 
-And how about you - have your ever thought which games you are playing at work or in your private life? Is it really worth it? 🙂
+What happens next? Some game players will simply go away in search of another player to hook. Others might become upset when the game doesn’t turn out as they hoped. Avoid responding to a game player in a way that would lead to their payoff.
+
+Now think for a moment about your own life. Which games are you playing at work or in your private life? Is it really worth it?
