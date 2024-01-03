@@ -90,25 +90,12 @@ Our team faced the formidable challenge of integrating various healthcare device
 
 <div className="image">![patient remote monitoring app mockup](../../static/images/remote_monitoring_mockup_ehealth.png "patient remote monitoring app mockup")</div>
 
-### The examples of devices incorporated into the system
+Furthermore, another compelling challenge involved developing an algorithm capable of rapidly detecting whether a patient's vital signs signal an urgent requirement for assistance. Our team devised a solution that facilitates data transmission to the doctor, triggering an alarm in the event the patient’s medical condition escalates to a life-threatening state.
 
-* **Pulse oximeter**: a device that monitors the oxygen saturation of the patient’s blood.
-* **Bluetooth Thermometer**: a thermometer that also sends data to the app.
-* **Sphygmomanometer**: a blood pressure monitor.
-* **Spirometer**: a device that measures the volume of air inhaled and exhaled by a human’s lungs.
-* **Stethoscope**: known as the primary doctor’s tool, can now be used remotely by other caregivers at care homes and nursing homes.
-* **Wearable continuous monitoring devices**: a device worn for example on a patient’s arm that monitors the vital signs in real-time, 24 hours a day.
+<div className="image">![patient remote monitoring alert](../../static/images/remote_monitoring_alert.png "patient remote monitoring alert")</div>
 
-We have answered the call from Camascope, providing a seamless video consultation feature within their Android app. Patients have a scheduled consultation in the app; all they need to do is join the meeting, enabling the camera and microphone. 
 
-Telemedicine saves patients' and doctors' time, allowing physicians to monitor more patients at the same time. Telemedicine opened a new, safer way to consult a doctor, especially during a pandemic, so we are extremely proud that we got a chance to implement that feature for our client.
 
-Camascope has become an official NHS supplier, and they are also an ISO 27001 accredited company. Bright Inventions, as a company developing systems for healthcare clients, was required to follow a variety of security protocols. 
+<TitleWithIcon sectionTitle="result of the collaboration: unlocking digital health for 1000+ health &amp; care organizations " titleIcon="/images/icon_result_svg.svg" titleIconAlt="result of the collaboration: unlocking digital health for 1000+ health & care organizations " />
 
-Being a company strongly focused on security, we adhere to necessary restrictions, such as obtaining an information security policy updated every 6 months. We have security-related job responsibilities and accountabilities. We conduct regular inventories of important information assets, and employees who need to be granted access are first screened regarding their legal status according to Polish and EU standards.
-
-<TitleWithIcon sectionTitle="the outcome of Camascope and Bright Inventions collaboration" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the outcome of Camascope and Bright Inventions collaboration" />
-
-After **successfully launching the pilot solution** based on an Android application, the positive feedback from the end users encouraged the client to continue developing the solution. **We provided ongoing support during the critical months post-launch**, delivering new features and handling maintenance. 
-
-Comascope products are used by over 1,000 health & care organization customers with over 25,000 active patients on the system. We are proud to have been a part of this significant advancement in health technology and are confident that **this product will positively impact the lives of hundreds of thousands of people**.
+Camascope has become an approved NHS supplier of remote monitoring services and an ISO 27001 accredited company. Camascope products are used by over 1,000 health & care organization customers with over 25,000 active patients on the system. We are proud to have been a part of this advancement in health technology and are confident that this product will positively impact the lives of hundreds of thousands of people.
