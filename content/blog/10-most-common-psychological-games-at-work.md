@@ -65,20 +65,35 @@ Spreading rumours or negative information about colleagues or clients is also a 
 
 ### 4.Passive-aggressive behaviour
 
-When you indirectly express hostility or disagreement through subtle actions, sarcasm, or backhanded compliments **you play the game as you avoid honest and open communication of what you really want to achieve.** Passive-aggressive behaviors in the workplace can manifest in various ways. Among the most common ones present in the teams you can find: 
+**When you indirectly express hostility or disagreement through subtle actions, sarcasm, or backhanded compliments you also play the game. Have you ever thought that in this way you very often just avoid honest and open communication of what you really want to achieve?** 
 
-* consistently delaying tasks or assignments without a valid reason, leading to missed deadlines and negatively affecting team productivity, 
-* offering compliments that are actually disguised criticism or sarcasm,
-* sabotaging projects by withholding information, resources, or assistance, 
-* withholding information or updates with colleagues or team members, even when it's necessary for their work,
-* undermining decisions made by other team members or management by expressing doubt, skepticism, or pessimism, which can erode trust and morale, 
-* complaining frequently about work-related issues without taking constructive action to address  or resolve them,
-* reacting defensively or dismissively to constructive feedback, making it challenging for others to provide input or suggestions,
-* excluding certain colleagues or team members from meetings, discussions, or social activities as a form of passive-aggressive punishment.
+Passive-aggressive behaviours in the workplace can manifest in various ways. Among the most common ones we can find: 
 
-5. **Credit stealing** - I have witnessed at least a few times during my professional career people who were taking credit for someone else's work or ideas to enhance their own reputation. I believe that most of them were doing that subconsciously, but still that was diminishing a lot contributions of others and in consequence make have them felt demotivated and annoyed. 
+😵‍💫 consistently delaying tasks or assignments without a valid reason, leading to missed deadlines and negatively affecting team productivity, 
 
-**Why do people hog credits? Of course, as in any other game - to win. Some have a strong desire for recognition and praise, and believe that taking credit for others' work will boost their status and reputation within the organization. Some may fear the consequences of failure or making mistakes.** They may take credit for work they didn't do to avoid being associated with any potential failures or shortcomings. In some cases, individuals simply have a lack of ethical principles and are willing to engage in deceptive behaviors to achieve their goals or maintain their image. Remember that credit stealing is detrimental to your workplace relationships, trust, and morale. It can damage the best collaboration, and hinder innovation.
+😵‍💫 offering compliments that are actually disguised criticism or sarcasm,
+
+😵‍💫 sabotaging projects by withholding information, resources, or assistance, 
+
+😵‍💫 withholding information or updates with colleagues or team members, even when it's necessary for their work,
+
+😵‍💫 undermining decisions made by other team members or management by expressing doubt, skepticism, or pessimism, which can erode trust and morale, 
+
+😵‍💫 complaining frequently about work-related issues without taking constructive action to address or resolve them,
+
+😵‍💫 reacting defensively or dismissively to constructive feedback, making it challenging for others to provide input or suggestions,
+
+😵‍💫 excluding certain colleagues or team members from meetings, discussions, or social activities as a form of passive-aggressive punishment.
+
+<div className="image">![passive agressive behaviours ](../../static/images/how-to-manage-stop-passive-aggressive-behavior-1024x1024.webp "")</div>
+
+### 5. Credit stealing
+
+I have witnessed at least a few times during my professional career **people who were taking credit for someone else's work or ideas to enhance their own reputation**. I believe that many were doing that subconsciously, but the fact it is diminishing contribution of others a lot and in consequence make them felt demotivated and annoyed, is the main factor I personally fight and prevent credit stealing anytime I observe it. 
+
+**Why do people hog credits? Of course, as in any game - to win.** \
+\
+Some have a strong desire for recognition and praise, and they believe that taking credit for others' work will boost their status and reputation within the organization. Some may fear the consequences of failure or making mistakes. They may take credit for work they didn't do to avoid being associated with any potential failures or shortcomings. In some cases, individuals simply have a lack of ethical principles and are willing to engage in deceptive behaviors to achieve their goals or maintain their image. **Remember that credit stealing is detrimental to your workplace relations, trust and morale. It can damage the best collaboration.** 
 
 **If you are a manager, you play a crucial role in setting the tone and ensuring that credit is appropriately attributed to those who deserve it in your team.**
 
