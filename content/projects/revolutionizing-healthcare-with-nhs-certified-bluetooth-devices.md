@@ -9,7 +9,8 @@ our_service:
   - product design
 layout: project
 project_id: Remote Patient Monitoring
-title: Transforming Healthcare with NHS-Certified Bluetooth Devices
+title: Empowering MHealth Systems with NHS-certified Bluetooth Devices.
+  Camascope Success Story
 image: /images/case-study_cover_remote_monitoring.png
 description: The future of healthcare lies in remote medical care. With the
   system we had the privilege to develop for Camascope, that future is already a
@@ -59,11 +60,9 @@ language: en
 
 <Gallery images='[{"src":"/images/android_stack_logo.svg","alt":"Android"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/bluetooth_stack_logo.svg","alt":"Bluetooth"},{"src":"/images/adobexdstack_logo.svg","alt":"AdobeXD"}]' />
 
-**Android development:** Dagger, Kotlin Coroutines, Jetpack Libraries
+**technologies:** Dagger, Kotlin Coroutines, Jetpack Libraries, Adobe XD
 
-**Product design**: Adobe XD
-
-<TitleWithIcon sectionTitle="addressing staff shortages and rising health challenges" titleIcon="/images/icon_title_about.svg" titleIconAlt="addressing staff shortages & rising health challenge" />
+<TitleWithIcon sectionTitle="problem: addressing staff shortages and rising health challenges" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem: addressing staff shortages & rising health challenge" />
 
 Healthcare systems worldwide face unprecedented challenges, highlighted by the strains of the COVID-19 pandemic. Notably, the United Kingdom has grappled with staffing shortages, with [NHS workforce data](https://lordslibrary.parliament.uk/staff-shortages-in-the-nhs-and-social-care-sectors/#heading-1) revealing an increase in overall and nursing vacancies despite a slight increase in medical positions.
 
