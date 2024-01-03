@@ -161,8 +161,21 @@ https://www.youtube.com/watch?time_continue=1&v=5udJgxOBrtk&source_ve_path=Mjg2N
 
 ### what can you do to stop playing games? 
 
-Our life is full of nonobjective facts, in fact it is full of beliefs which are not true. We use these beliefs to interpret the reality around us. **You have to be aware that when one thought appears in your mind and you believe it to be true - it becomes a belief. This belief will affect your behaviour and you will be acting in such a way to make this belief true.** By doing so, you are proving yourself you are right. When you accept one belief as true, you will be doing everything to make it true. 
+Our life is full of nonobjective facts, in fact it is full of beliefs which are not true. We use these beliefs to interpret the reality around us. **You have to be aware that when one thought appears in your mind and you believe it to be true - it becomes a belief. This belief will affect your behaviour. When you accept one belief as true, you will be doing everything to make it true.**
 
-It's important to recognize that playing the blame game is generally connected with our beliefs, it is unproductive and can harm relationships, personal growth, and problem-solving. **Healthy communication, self-reflection, and accountability are better ways to address issues and conflicts than putting masks.** 
+It's important to recognize that playing any tyme ps psychological game is generally connected with our beliefs, it is unproductive and can harm relationships, personal growth, and problem-solving. **Healthy communication, self-reflection, and accountability are better ways to address issues and conflicts than putting masks.** 
+
+Stopping psychological games at work requires a combination of individual and organisational efforts. Some strategies you make take up are: 
+
+* Increasing self-awareness by recognising your own behaviors and the impact they may have on others.
+* Reflecting on your motivations and intentions in workplace interactions.
+* Encouraging open and honest communication.
+* Addressing issues directly and with empathy rather than resorting to passive-aggressive behaviours.
+* Resolving conflicts in a constructive and transparent manner.
+* Acknowledging and appreciating positive behaviors based on collaboration and support.
+* Establishing regular feedback mechanisms. 
+* Raising awareness about the impact of psychological games. 🙂
+
+Remember, creating a healthy work environment is an ongoing process that involves continuous communication, education, and commitment from both individuals and the organization.
 
 And how about you - have your ever thought which games you are playing at work or in your private life? Is it really worth it? 🙂
