@@ -159,9 +159,7 @@ https://www.youtube.com/watch?time_continue=1&v=5udJgxOBrtk&source_ve_path=Mjg2N
 * projecting your own insecurities onto colleagues, doubting their competence because your feel insecure about your abilities,
 * and many others. 
 
-## **what can you do with it?** 
-
-## **summary** 
+### what can you do to stop playing games? 
 
 Our life is full of nonobjective facts, in fact it is full of beliefs which are not true. We use these beliefs to interpret the reality around us. **You have to be aware that when one thought appears in your mind and you believe it to be true - it becomes a belief. This belief will affect your behaviour and you will be acting in such a way to make this belief true.** By doing so, you are proving yourself you are right. When you accept one belief as true, you will be doing everything to make it true. 
 
