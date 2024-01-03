@@ -64,38 +64,36 @@ language: en
 
 <TitleWithIcon sectionTitle="problem: addressing staff shortages and rising health challenges" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem: addressing staff shortages & rising health challenge" />
 
-When COVID-19 swept across the world, it revealed the stark reality of global healthcare. The traditional system, with staff shortages and the glaring lack of funding for public care, has not been able to face the rising challenges. Among them are the mounting cases of chronic diseases and mental health issues. Healthcare cries out for a remedy. Only technology can be the final cure.
+When COVID-19 swept across the world, it revealed the stark reality of global healthcare. **The traditional system, with staff shortages and the glaring lack of funding for public care, has not been able to face the rising challenges**. Among them are the mounting cases of chronic diseases and mental health issues. Healthcare cries out for a remedy. **Only technology can be the final cure**.
 
 <TitleWithIcon sectionTitle="solution: empowering healthcare transformation with remote patient monitoring and telemedicine " titleIcon="/images/icon_title_goal.svg" titleIconAlt="solution: empowering healthcare transformation with remote patient monitoring and telemedicine " />
 
-Camascope, formerly known as VCare, is a pioneering British health tech company. We joined forces with Camascope to find the cure for the healthcare sickness in the United Kingdom. Our collaboration has already yielded a robust [Medicine Administration Record (eMAR) system](/projects/vCare/), available on both Android and iOS platforms. After that, we took another step towards healthcare digitalization.
+Camascope, formerly known as VCare, is a pioneering British health tech company. **We joined forces with Camascope to find the cure for the healthcare sickness in the United Kingdom**. Our collaboration has already yielded a robust [Medicine Administration Record (eMAR) system](/projects/vCare/), available on both Android and iOS platforms. After that, we took another step towards healthcare digitalization.
 
-Our team developed a pilot Remote Patient Monitoring (RPM) system for Android. Imagine an application accessible by a doctor at their office, showing them in real-time the vital signs of their patients who are currently at home. With RPM, you don't have to imagine that anymore. It is now a reality available in the United Kingdom.
-
-<AnchorLink href='#contactForm' text='let’s talk about your project'/>
+**Our team developed a pilot Remote Patient Monitoring (RPM) system for Android**. Imagine an application accessible by a doctor at their office, showing them in real-time the vital signs of their patients who are currently at home. With RPM, you don't have to imagine that anymore. It is now a reality available in the United Kingdom.
 
 <div className="image">![Pulse oximeter](../../static/images/pulse_oximeter.png "Pulse oximeter")</div>
 
-The RPM system is centered around an Android application, complemented by a couple of Bluetooth health-monitoring devices expertly integrated by the Bright Inventions team. Smart devices such as pulse oximeters, spirometers, thermometers, or stethoscopes empower medical professionals to efficiently manage more patients without the need for individual, time-consuming examinations. 
+The RPM system is centered around an Android application, complemented by a couple of Bluetooth health-monitoring devices expertly integrated by the Bright Inventions team. **Smart devices such as pulse oximeters, spirometers, thermometers, or stethoscopes empower medical professionals to efficiently manage more patients** without the need for individual, time-consuming examinations. 
 
 <div className="image">![remote patient monitoring](../../static/images/remote_monitoring_vitals_mockup.png "remote patient monitoring")</div>
 
-Another crucial step towards the digitalization of healthcare is telemedicine. We supported Comascope in this area as well. Our team crafted an Android application supporting online consultations for Camascope users. Patients have a scheduled consultation in the app; all they need to do is join the meeting, enabling the camera and microphone. 
+Another crucial step towards the digitalization of healthcare is **telemedicine**. We supported Comascope in this area as well. **Our team crafted an Android application supporting online consultations for Camascope users**. Patients have a scheduled consultation in the app; all they need to do is join the meeting, enabling the camera and microphone. 
 
 <div className="image">![Telemedicine](../../static/images/telemedicine.png "Telemedicine")</div>
 
 <TitleWithIcon sectionTitle="challenge: integrating Bluetooth devices into a single system" titleIcon="/images/two_flags.svg" titleIconAlt="the challenge" />
 
-Our team faced the formidable challenge of integrating various healthcare devices with distinct Software Development Kits (SDKs) into a cohesive system. With our Android team's expertise, we successfully harmonized these disparate SDKs into a unified system. 
+Our team faced the formidable **challenge of integrating various healthcare devices with distinct Software Development Kits (SDKs) into a cohesive system**. With our Android team's expertise, we successfully harmonized these disparate SDKs into a unified system. 
 
 <div className="image">![patient remote monitoring app mockup](../../static/images/remote_monitoring_mockup_ehealth.png "patient remote monitoring app mockup")</div>
 
-Furthermore, another compelling challenge involved developing an algorithm capable of rapidly detecting whether a patient's vital signs signal an urgent requirement for assistance. Our team devised a solution that facilitates data transmission to the doctor, triggering an alarm in the event the patient’s medical condition escalates to a life-threatening state.
+Furthermore, another compelling challenge involved d**eveloping an algorithm capable of rapidly detecting whether a patient's vital signs signal an urgent requirement for assistance**. Our team devised a solution that facilitates data transmission to the doctor, **triggering an alarm in the event the patient’s medical condition escalates to a life-threatening state**.
 
 <div className="image">![patient remote monitoring alert](../../static/images/remote_monitoring_alert.png "patient remote monitoring alert")</div>
 
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
+<TitleWithIcon sectionTitle="result of the collaboration: unlocking digital health for 1000+ health &amp;amp; care organizations " titleIcon="/images/icon_result_svg.svg" titleIconAlt="result of the collaboration: unlocking digital health for 1000+ health & care organizations " />
 
-<TitleWithIcon sectionTitle="result of the collaboration: unlocking digital health for 1000+ health &amp; care organizations " titleIcon="/images/icon_result_svg.svg" titleIconAlt="result of the collaboration: unlocking digital health for 1000+ health & care organizations " />
-
-Camascope has become an approved NHS supplier of remote monitoring services and an ISO 27001 accredited company. Camascope products are used by over 1,000 health & care organization customers with over 25,000 active patients on the system. We are proud to have been a part of this advancement in health technology and are confident that this product will positively impact the lives of hundreds of thousands of people.
+Camascope has become an **approved NHS supplier of remote monitoring services and an ISO 27001 accredited company**. Camascope products are **used by over 1,000 health & care organization customers with over 25,000 active patients on the system**. We are proud to have been a part of this advancement in health technology and are confident that this product will positively impact the lives of hundreds of thousands of people.
