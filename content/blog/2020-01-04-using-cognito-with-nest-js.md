@@ -8,7 +8,7 @@ tags:
   - nestjs
   - nodejs
 date: 2020-01-04T20:05:28.083Z
-meaningfullyUpdatedAt: 2024-01-04T08:08:46.446Z
+meaningfullyUpdatedAt: 2024-01-03T08:08:46.446Z
 title: Using AWS Cognito with NestJS in 2024
 layout: post
 image: /images/aws_cognito_nest_blog.png
