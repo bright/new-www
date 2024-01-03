@@ -94,6 +94,6 @@ Furthermore, another compelling challenge involved d**eveloping an algorithm cap
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-<TitleWithIcon sectionTitle="result of the collaboration: unlocking digital health for 1000+ health &amp;amp; care organizations " titleIcon="/images/icon_result_svg.svg" titleIconAlt="result of the collaboration: unlocking digital health for 1000+ health & care organizations " />
+<TitleWithIcon sectionTitle="result of the collaboration: unlocking digital health for 1000+ health and care organizations " titleIcon="/images/icon_result_svg.svg" titleIconAlt="result of the collaboration: unlocking digital health for 1000+ health and care organizations " />
 
 Camascope has become an **approved NHS supplier of remote monitoring services and an ISO 27001 accredited company**. Camascope products are **used by over 1,000 health & care organization customers with over 25,000 active patients on the system**. We are proud to have been a part of this advancement in health technology and are confident that this product will positively impact the lives of hundreds of thousands of people.
