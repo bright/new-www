@@ -68,11 +68,9 @@ When COVID-19 swept across the world, it revealed the stark reality of global he
 
 <TitleWithIcon sectionTitle="solution: empowering healthcare transformation with remote patient monitoring and telemedicine " titleIcon="/images/icon_title_goal.svg" titleIconAlt="solution: empowering healthcare transformation with remote patient monitoring and telemedicine " />
 
-**[Camascope](https://www.camascope.com/), formerly known as VCare, is a pioneering British health tech company** that has fully embraced the potential of **Remote Patient Monitoring (RPM) and telemedicine**. **Their collaboration with Bright Inventions has already yielded a robust Medicine Administration Record (eMAR) system**, available on both Android and iOS platforms. This eMAR system effectively connects pharmacies with care homes, facilitating the secure, efficient, and compliant distribution of medication.
+Camascope, formerly known as VCare, is a pioneering British health tech company. We joined forces with Camascope to find the cure for the healthcare sickness in the United Kingdom. Our collaboration has already yielded a robust [Medicine Administration Record (eMAR) system](/projects/vCare/), available on both Android and iOS platforms. After that, we took another step towards healthcare digitalization.
 
-**Camascope has set us a new challenge: the development of a pilot RPM system for the Android platform**. This groundbreaking system allows for the remote monitoring of patients' vital signs, enabling physicians to oversee their patients' health remotely. This innovation not only revolutionizes post-discharge care, allowing patients to leave the hospital earlier while still receiving continuous medical attention but also optimizes daily care in numerous care homes throughout the United Kingdom.
-
-**The RPM system is centered around an Android application, complemented by a couple of Bluetooth health-monitoring devices expertly integrated by the Bright Inventions team**. These devices empower medical professionals to efficiently manage more patients without the need for individual, time-consuming examinations. They continuously monitor patients' conditions, with the application seamlessly handling data analysis. In the end, the physician can initiate treatment based on the insights provided by the algorithm that drives this healthcare application.
+Our team developed a pilot Remote Patient Monitoring (RPM) system for Android. Imagine an application accessible by a doctor at their office, showing them in real-time the vital signs of their patients who are currently at home. With RPM, you don't have to imagine that anymore. It is now a reality available in the United Kingdom.
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
