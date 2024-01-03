@@ -78,13 +78,17 @@ Our team developed a pilot Remote Patient Monitoring (RPM) system for Android. I
 
 The RPM system is centered around an Android application, complemented by a couple of Bluetooth health-monitoring devices expertly integrated by the Bright Inventions team. Smart devices such as pulse oximeters, spirometers, thermometers, or stethoscopes empower medical professionals to efficiently manage more patients without the need for individual, time-consuming examinations. 
 
-<TitleWithIcon sectionTitle="the challenge of integrating Bluetooth devices into a system" titleIcon="/images/two_flags.svg" titleIconAlt="the challenge" />
+<div className="image">![remote patient monitoring](../../static/images/remote_monitoring_vitals_mockup.png "remote patient monitoring")</div>
 
-Our team faced the formidable challenge of integrating various devices with distinct Software Development Kits (SDKs) into a cohesive system. With our Android team's expertise, we successfully harmonized these disparate SDKs into a unified system. Additionally, the team developed an algorithm capable of swiftly detecting whether a patient's vital signs indicate an immediate need for assistance. The data is transmitted to the doctor, and an alert is generated, suggesting that the patient considers calling an ambulance.
+Another crucial step towards the digitalization of healthcare is telemedicine. We supported Comascope in this area as well. Our team crafted an Android application supporting online consultations for Camascope users. Patients have a scheduled consultation in the app; all they need to do is join the meeting, enabling the camera and microphone. 
 
-<div className="image">![App mockup](../../static/images/patient_parameters_app_new.png "It is not a real implemented design. It is a mockup example created for the purpose of a case study.")</div>
+<div className="image">![Telemedicine](../../static/images/telemedicine.png "Telemedicine")</div>
 
-*It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
+<TitleWithIcon sectionTitle="challenge: integrating Bluetooth devices into a single system" titleIcon="/images/two_flags.svg" titleIconAlt="the challenge" />
+
+Our team faced the formidable challenge of integrating various healthcare devices with distinct Software Development Kits (SDKs) into a cohesive system. With our Android team's expertise, we successfully harmonized these disparate SDKs into a unified system. 
+
+<div className="image">![patient remote monitoring app mockup](../../static/images/remote_monitoring_mockup_ehealth.png "patient remote monitoring app mockup")</div>
 
 ### The examples of devices incorporated into the system
 
@@ -95,15 +99,9 @@ Our team faced the formidable challenge of integrating various devices with dist
 * **Stethoscope**: known as the primary doctor’s tool, can now be used remotely by other caregivers at care homes and nursing homes.
 * **Wearable continuous monitoring devices**: a device worn for example on a patient’s arm that monitors the vital signs in real-time, 24 hours a day.
 
-<TitleWithIcon sectionTitle="revolutionizing healthcare access with video consultations" titleIcon="/images/icon_title_products.svg" titleIconAlt="revolutionizing healthcare access with video consultations" />
-
 We have answered the call from Camascope, providing a seamless video consultation feature within their Android app. Patients have a scheduled consultation in the app; all they need to do is join the meeting, enabling the camera and microphone. 
 
 Telemedicine saves patients' and doctors' time, allowing physicians to monitor more patients at the same time. Telemedicine opened a new, safer way to consult a doctor, especially during a pandemic, so we are extremely proud that we got a chance to implement that feature for our client.
-
-<div className="image">![Telemedicine](../../static/images/telemedicine.png "Telemedicine")</div>
-
-<TitleWithIcon sectionTitle="supporting the client in setting ISO healthcare standards" titleIcon="/images/three_flags.svg" titleIconAlt="supporting the client in setting ISO healthcare standards" />
 
 Camascope has become an official NHS supplier, and they are also an ISO 27001 accredited company. Bright Inventions, as a company developing systems for healthcare clients, was required to follow a variety of security protocols. 
 
