@@ -89,38 +89,69 @@ Passive-aggressive behaviours in the workplace can manifest in various ways. Amo
 
 ### 5. Credit stealing
 
-I have witnessed at least a few times during my professional career **people who were taking credit for someone else's work or ideas to enhance their own reputation**. I believe that many were doing that subconsciously, but the fact it is diminishing contribution of others a lot and in consequence make them felt demotivated and annoyed, is the main factor I personally fight and prevent credit stealing anytime I observe it. 
+I have witnessed at least a few times during my professional career **people who were taking credit for someone else's work or ideas to enhance their own reputation**. I believe that many of them were doing that subconsciously, but still you have to keep in mind that this game is diminishing contribution of others a lot and in consequence makes them feel demotivated and annoyed. 
 
-**Why do people hog credits? Of course, as in any game - to win.** \
-\
-Some have a strong desire for recognition and praise, and they believe that taking credit for others' work will boost their status and reputation within the organization. Some may fear the consequences of failure or making mistakes. They may take credit for work they didn't do to avoid being associated with any potential failures or shortcomings. In some cases, individuals simply have a lack of ethical principles and are willing to engage in deceptive behaviors to achieve their goals or maintain their image. **Remember that credit stealing is detrimental to your workplace relations, trust and morale. It can damage the best collaboration.** 
+**Why do people hog credits? Of course, as in any game - to win.** 
 
-**If you are a manager, you play a crucial role in setting the tone and ensuring that credit is appropriately attributed to those who deserve it in your team.**
+Some have a strong desire for recognition and praise, and they take credit for others' work to boost their status and reputation within the organization. Some fear the consequences of failures or making mistakes and they take credit for work they didn't do to avoid being associated with any potential failures or shortcomings. In some cases, individuals simply have a lack of ethical principles and are willing to engage in deceptive behaviors to achieve their goals or maintain their image. **Remember that credit stealing is detrimental to your workplace relations, trust and morale. It can damage the best collaboration.** Remember that if you are a manager, you play a crucial role in setting the tone and ensuring that credit is appropriately attributed to those who deserve it in your team.
 
 **If you are not sure if your are a credit hogger, I really recommend you doing a simple exercise proposed by Marshal Goldsmith in the article [Do You Work With a Credit Hog?](https://www.entrepreneur.com/growing-a-business/do-you-work-with-a-credit-hog/242380)** **published in *Entrepreneur* a few years ago.** Still very relevant. 
 
-6. **Playing favourites** - the game is played mainly by leaders, managers or bosses, but it also functions among co-workers. Showing preferential treatment to certain team members while excluding or marginalising others will always lead to divisions and resentment. 
+### 6. Playing favourites
 
-Remember that people naturally have personal preferences, and these biases can unintentionally affect their behavior at work. **A manager might favour an employee because they share similar interests, personalities, or backgrounds (more about the most common cognitive biases we have you can read in [my previous blog post](https://brightinventions.pl/blog/cognitive-bias-how-it-affects-our-hiring-decisions/)).** 
+The game is played mainly by leaders, managers or bosses, but it also functions among co-workers. Showing preferential treatment to certain team members while excluding or marginalising others always leads to divisions and resentment. 
 
-If you experience favouritism at your work, remember you can always ask for constructive feedback from your supervisor on your performance. This shows your commitment to improvement and may help counteract any negative perceptions.
+<div className="image">![playing favourites](../../static/images/favouritism.png "")</div>
 
-7. **Micromanaging** - for some it might be surprising to find micromanagement here, but imho it is a psychological game, too. When you excessively monitor and control others people’s work frequently you want to show your dominance or create a sense of dependency, so in fact again - you want to win. With a strong need for control micromanagers feel also that things may go wrong without their direct oversight.
+It is fully understandable that people naturally have personal preferences, and these biases can even unintentionally appears at work. The example might be **a manager favouring an employee because they share similar interests, personalities, or backgrounds (more about the most common cognitive biases we have you can read in [my previous blog post](https://brightinventions.pl/blog/cognitive-bias-how-it-affects-our-hiring-decisions/)).** 
 
-   This fear may result from a desire for perfection, lack of trust based on past experiences or mistakes, insecurity of their own expertise. In general people who love micro managing believe that their involvement is essential for achieving positive results. **On the other hand, we should not forget that micromanagers may be also under significant pressure to meet deadlines or achieve results. This pressure can make them more controlling as they try to ensure that everything goes according to plan. Some of them may also lack the skills or knowledge to effectively delegate tasks or they are just new the the managerial world and they may micromanage until they gain more experience and self-assurance.**
+If you experience favouritism in your team or at your work, remember you can always ask for constructive feedback from your supervisor on your performance. This shows your commitment to improvement and may help counteract any negative perceptions.
 
-But one thing we know for sure, it is important to address micromanagement because it can stifle employee autonomy, hinder creativity, and damage morale. Employees often prefer a more hands-off approach from their managers that allows them to take ownership of their work. So, if you are playing micromanagement game now, think how to transit to a more effective leadership style.
+### 7. Micromanaging
 
-8. **Martyrdom** - working long hours, taking on excessive responsibilities, or portraying oneself as indispensable to gain recognition or manipulate sympathy. Yeah, it happens also quite often regardless of the role. We want to feel important and we want to feel noticed. Kim Scott wrote [a very interesting article about navigating a work martyr culture](http://6%20Tips%20for%20Navigating%20a%20Work%20Martyr%20Culture) -  it is important to be aware of the fact that leaving the martyr’s zone is not always so easy to do for a person who is experiencing that. Of course, some people do not want to leave this zone and that is another problem.
+For some it might be surprising to find micromanagement here, but in my humble opinion it is also a type of psychological game. **When you excessively monitor and control other people’s work, frequently you want to show your dominance or create a sense of dependency.** With a strong need for control micromanagers feel that things may go wrong without their direct oversight.
 
-To cheer you up and give you some consolation it is worth noticing that [taking vacation time really pays off.](https://thecontextofthings.com/2016/08/20/work-martyr/) 😉 The rule “ work hard play hard” not always works. What usually works is balance. 
+The fear may result from a desire for perfection, lack of trust based on past experiences,  mistakes or just insecurity of the own expertise. In general, people who love micro managing believe that their involvement is essential for achieving positive results. On the other hand, we should not forget that micromanagers may be also under significant pressure to meet deadlines or achieve results. This pressure can make them more controlling as they try to ensure that everything goes according to plan. **Some of them may also lack the skills or knowledge to effectively delegate tasks or they are just new in the managerial world and they may micromanage until they gain more experience and self-assurance.**
 
-9. **Fear mongering** - mostly present in the media, but we can also experience it at work. [Fear mongering is a form of manipulation by exaggerating potential negative outcomes, rumours or consequences to influence decisions or actions of others.](https://www.forbes.com/sites/lizryan/2017/03/07/ten-unmistakable-signs-of-a-fear-based-workplace/) If you feel that fear mongering is present in your team, you can always try to take some step to mitigate it. First of all, try to stay informed and be aware of the information being circulated and critically assess its accuracy and relevance. Ensure you have reliable sources of information within the organization - not gossips. 😇**Regardless of your role (you don’t have to a leader or manager to do that) - encourage open and transparent communication within your team and with colleagues** so that people around you will feel comfortable sharing concerns and ideas without fear of retribution. What is also really valuable is challenging unsubstantiated claims. **If you next time encounter fear-mongering or baseless rumors, calmly and respectfully challenge them with facts and evidence.** And if you see that fear-mongering originates from a lack of communication or unclear directives from leadership, seek clarification from higher-ups. There is always something you can do to take the lead in implementing changes or improvements in the workplace. 
-10. **Psychological projection -** [is a defence mechanism where individuals attribute their own undesirable traits, thoughts, or feelings to someone else.](https://personalitygrowth.com/what-is-psychological-projection/) Similarly to passive aggressive behaviours [the psychological projection can manifest in various ways in the workplace. ](https://helpfulprofessor.com/psychological-projection-examples/)
+<div className="image">![steps to autonomy](../../static/images/5-steps-to-autonomy.jpeg "")</div>
 
-In fact you can find there almost all the games presented above such as blaming others (in psychological projection someone who is unwilling to accept responsibility for their mistakes may project their own errors onto coworkers), gossiping (it can be a form of projection, as individuals may project their own insecurities or frustrations onto others leading to rumors) or micromanagement (leaders who struggles with trust issues may project their need for control onto their team resulting in micromanagement. 
+**One thing we know for sure is that uncontrollable micromanagement can stifle employee autonomy, hinder creativity, and damage morale.** Employees often prefer a more hands-off approach from their managers. First of all, it allows them to take ownership of their work and feel reponsible for what they do. Let your team members make their own independent decisions. **Instead of micromanagement develop microencouragement in your teams.** 
 
-**[Among the other popular examples at work we can see:](https://brightside.me/articles/why-a-person-may-project-their-insecurities-onto-others-and-how-to-prevent-them-from-hurting-you-802645/)** 
+### 8. Martyrdom
+
+**Working long hours, taking on excessive responsibilities, or portraying oneself as indispensable to gain recognition or manipulate sympathy - welcome in the world of work martyrs.** As everyone work martyrs want to feel important and want to feel noticed. Kim Scott wrote [a very interesting article about navigating a work martyr culture](http://6%20Tips%20for%20Navigating%20a%20Work%20Martyr%20Culture) -  it is essential to be aware of the fact that **leaving the martyr’s zone is not always easy to do for a person who is experiencing that.** 
+
+If you have a tendency to take on your plate more than you can eat and you don't do it to boost your ego, you will have to work hard to change your habits. What helps? 
+
+✅ Learn to say ‘no’ to certain projects or activities, especially ones that are low stakes and take you off focusing on your priorities. You have to start asking yourself what kind of impact each of the has on you. 
+
+✅ Stop taking on other people’s feelings and setting boundaries. You can see and identify someone’s feelings without having to fix them or make them better.
+
+✅ Share responsibility with others especially if you want them to grow.
+
+✅ Stop micromanaging. 
+
+✅ [Take time off.](https://thecontextofthings.com/2016/08/20/work-martyr/) It pays off. 😉 
+
+<div className="image">![time off](../../static/images/holiday-time.png "")</div>
+
+### 9. Fear mongering
+
+Mostly present in the media, but we can also experience that at work. [Fear mongering is a form of manipulation by exaggerating potential negative outcomes, rumours or consequences to influence decisions or actions of others.](https://www.forbes.com/sites/lizryan/2017/03/07/ten-unmistakable-signs-of-a-fear-based-workplace/) 
+
+If you feel that fear mongering is present in your team, you can always try to take some step to mitigate it. **First of all, try to stay informed and be aware of the information being circulated and critically assess its accuracy and relevance.** Ensure you have reliable sources of information within the organization - not gossips. 😇 Regardless of your role (you don’t have to be a leader or manager to do that) - encourage open and transparent communication within your team so that people around you will feel comfortable sharing concerns and ideas without fear of retribution. 
+
+What is also really valuable is challenging unsubstantiated claims. **If you next time encounter fear-mongering or baseless rumors, calmly and respectfully challenge them with facts and evidence.** **And if you see that fear-mongering originates from a lack of communication or unclear directives from leadership, seek clarification from higher-ups.** There is always something you can do to take the lead in implementing changes or improvements in the workplace. 
+
+### 10. Psychological projection
+
+[It is a defence mechanism where individuals attribute their own undesirable traits, thoughts, or feelings to someone else.](https://personalitygrowth.com/what-is-psychological-projection/) That is why, it is said that people around us are a perfect mirror of our inner relationship with ourselves. 
+
+[The psychological projection can manifest in various ways in the workplace. ](https://helpfulprofessor.com/psychological-projection-examples/)You can find there almost any games presented above such as blaming others (in psychological projection someone who is unwilling to accept responsibility for their mistakes may project their own errors onto coworkers), gossiping (it can be a form of projection, as individuals may project their own insecurities or frustrations onto others leading to rumours), micromanagement (leaders who struggles with trust issues may project their need for control onto their team resulting in micromanagement).  
+
+https://www.youtube.com/watch?time_continue=1&v=5udJgxOBrtk&source_ve_path=Mjg2NjY&feature=emb_logo
+
+**[The other popular examples are:](https://brightside.me/articles/why-a-person-may-project-their-insecurities-onto-others-and-how-to-prevent-them-from-hurting-you-802645/)** 
 
 * judging co-workers (an employee who struggles with feelings of inadequacy might project their insecurities onto colleagues unfairly judging or criticizing their work), 
 * assuming that your team members have ulterior motives, even when there's no evidence to support such claims (for example, assuming a colleague is trying to sabotage your career), 
