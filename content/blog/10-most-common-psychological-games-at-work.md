@@ -182,4 +182,4 @@ Stopping psychological games at work requires a combination of individual and or
 
 What happens next? Some game players will simply go away in search of another player to hook. Others might become upset when the game doesn’t turn out as they hoped. Avoid responding to a game player in a way that would lead to their payoff.
 
-Now think for a moment about your own life. Which games are you playing at work or in your private life? Is it really worth it?
+Now think for a moment about your own life. Which games are you playing at work or in your private life? We should strive to know ourselves, our child, adult, and parent ego states, and learning to calmly accept our thoughts, feelings, and bodily sensations as they are. It is not as anyone else would have us interpret them,  the key is to break the patterns.
