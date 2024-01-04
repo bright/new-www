@@ -27,25 +27,11 @@ It is a recommended way to start by publishing your idea for an event. In this w
 
 Why is it better to start with the idea? Because when you officially apply for funds by creating a proposal you have to put a deposit in $DOT or $KSM. If your proposal is approved you will get it back. If not, you will lose it. So simply go with the idea first to get reassurance that it has funding potential.
 
-**Check our Treasury proposals as an inspiration:**
-
-[https://treasury.bright.dev/proposals/149/](https://treasury.bright.dev/proposals/149/info?networkId=kusama)
-
-[https://treasury.bright.dev/proposals/117/](https://treasury.bright.dev/proposals/117/info?networkId=polkadot)
-
-[https://treasury.bright.dev/proposals/113/](https://treasury.bright.dev/proposals/113/info?networkId=polkadot)
-
 ## Translate educational materials or create new ones in your language
 
 Are you a translator? Or a native speaker of less common languages? You can create a treasury proposal to translate official materials about Polkadot or Kusama into your native language. You can create original content in your native language too. 
 
 You can start by creating an idea at BrightTreasury and see if the community appreciates your idea for contribution. If that is the case, you can turn it into a proposal and apply for Treasury funds.
-
-**Examples of proposals to create content in other languages (than English):**
-
-[https://treasury.bright.dev/proposals/104/](https://treasury.bright.dev/proposals/104/info?networkId=polkadot)
-
-[https://treasury.bright.dev/proposals/76/](https://treasury.bright.dev/proposals/76/info?networkId=polkadot)
 
 ## Don’t stay silent. Suggest improvements and give rewards for a job well done
 
@@ -54,14 +40,6 @@ You can start by creating an idea at BrightTreasury and see if the community app
 Thanks to Treasury Bounty Mechanism you can suggest to the council the task that should be done by someone qualified to do it. Then it will be funded by Treasury. What kind of task it could be? Everything which will contribute to the Polkadot and Kusama networks. Remember, this is not about a task that suits only you. 
 
 For example, you can create a bounty to build a plugin for some application that Kusama or Polkadot networks use, suggest a feature that would be helpful, or create a bounty for a video promoting Web3. However, when you create a bounty you need to present your case with arguments about why the bounty will contribute to the community. Then the council will decide if this bounty should be supported and even chooses a curator who is an expert in the field to take care that the bounty is done. Read more about the Treasury Bounty Mechanism.
-
-**Here are examples of bounties created by the community:**
-
-[https://treasury.bright.dev/bounties/10/](https://treasury.bright.dev/bounties/10/info?networkId=polkadot)
-
-[https://treasury.bright.dev/bounties/11/](https://treasury.bright.dev/bounties/11/info?networkId=polkadot)
-
-[https://treasury.bright.dev/bounties/13/](https://treasury.bright.dev/bounties/13/info?networkId=polkadot)
 
 ## Write articles about Web3 to share the idea behind it
 
