@@ -6,7 +6,7 @@ tags:
   - development
   - startup
 date: 2023-05-09T10:33:41.568Z
-meaningfullyUpdatedAt: 2023-05-09T10:33:42.214Z
+meaningfullyUpdatedAt: 2024-01-04T07:24:16.834Z
 title: How to Build MVP for Smart Packaging Solution in 2023
 layout: post
 image: /images/smart_packaging_blog_cover.png
