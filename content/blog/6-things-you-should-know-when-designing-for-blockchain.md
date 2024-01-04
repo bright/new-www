@@ -42,7 +42,7 @@ Nevertheless, there are a few aspects you should put extra attention to:
 
 ### Transparency (clarity)
 
-The user journey should be super clear. Transparency plays a key role, each step must be explicit and coherent. What does it mean? It means that as a designer you should add loaders showing progress, breadcrumbs, step navigations, etc. Make sure your user knows what is going on, especially when the transaction is going through, or if any status change occurs. Below you can find the example taken from our [BrightTreasury app](/projects/bright-treasury/). 
+The user journey should be super clear. Transparency plays a key role, each step must be explicit and coherent. What does it mean? It means that as a designer you should add loaders showing progress, breadcrumbs, step navigations, etc. Make sure your user knows what is going on, especially when the transaction is going through, or if any status change occurs. Below you can find the example taken from our BrightTreasury app. 
 
 ![BrightTreasury app](../../static/images/bright_treasury_app_mockup3.png "")
 
