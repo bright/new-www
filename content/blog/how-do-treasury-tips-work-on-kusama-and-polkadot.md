@@ -73,20 +73,6 @@ You can sign up using your email or Web3 account. You can go with your email, bu
 5. When the form is ready, click “create” and the app will take care of the transaction. Naturally, you have to have some funds in your Web3 account to cover the bond. 
 6. When the transaction is done, your tip will immediately show on the Tips section on BrightTreasury. Congrats!
 
-## Finally, let’s get inspired. Check out examples of Treasury tips
-
-Here are some published tips on **Polkadot** net:
-
-* [The reward for the publication of 4 articles about the common good parachains and 6 articles about XCM](https://treasury.bright.dev/tips/0x5967d09a47fc29e2ead78b0f44a24bca13e91499d86f2be945ff13ff398007cf/info?networkId=polkadot).
-* [The reward for audio dubbing of four videos in Hindi](https://treasury.bright.dev/tips/0x487f97e65349a08f4e4d77092e13c4ce8b5e619a1be8a3f4385b81da4913950e/info?networkId=polkadot).
-
-And here you will find some tips on **Kusama** net:
-
-* [The reward for a translation of "Polkadot for Beginners"](https://treasury.bright.dev/tips/0x89e570c02ee68b36f8637059cdc7d5ee4ab9f808244d16dda57cfdf6017b5daa/info?networkId=kusama).
-* [The reward for creating nomination pool number 8 with clear documentation and direction](https://treasury.bright.dev/tips/0x91e561ff28fbf2c233ab90f4db96803debddaf980c57762d3c243acccb6e1adc/info?networkId=kusama).
-
-Now you are truly ready to do some tipping. Go and be a proud tipper! 😊
-
 \---
 
 If you want to know more about tipping, read the [Polkadot guide](https://wiki.polkadot.network/docs/learn-treasury#tipping). 
