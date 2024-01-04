@@ -71,6 +71,7 @@ title_case_study: projects we have worked on
 title_faqs: blockchain development FAQ's
 image_alt_our_service_desktop: blockchain development company
 intro: We are blockchain experts ready to assist you.
+language: en
 image_alt_our_service_mobile: blockchain development company
 title_contact: book a free consultation in 48 hours
 description_contact: Fill out the form below and we'll get back to you in 48
@@ -80,7 +81,6 @@ description_mdx: We are a software development company that **specialises in
   far beyond cryptocurrency services. Tell us more about your blockchain project
   and we will let you know how we can help you.
 image_our_service: /images/blockchain_development_small.png
-language: en
 ---
 ## what is blockchain and why you might need it?
 
@@ -94,4 +94,4 @@ We specialize in integrating web and mobile apps with blockchain solutions. For 
 
 ### BrightTreasury
 
-**[BrightTreasury](/projects/bright-treasury/) is our original product supporting the blockchain community**. It is a standalone web application that allows performing basic actions on the Treasury and Bounties modules of Polkadot and Kusama Substrate networks. The app is **a part of the Web3 Foundation (W3F) grants program**. The goal of our product is to make blockchain accessible to more users. The app is still being developed by our team with **full support from Polkadot and Kusama**.
+**BrightTreasury is our original product supporting the blockchain community**. It is a standalone web application that allows performing basic actions on the Treasury and Bounties modules of Polkadot and Kusama Substrate networks. The app is **a part of the Web3 Foundation (W3F) grants program**. The goal of our product is to make blockchain accessible to more users. The app is still being developed by our team with **full support from Polkadot and Kusama**.
