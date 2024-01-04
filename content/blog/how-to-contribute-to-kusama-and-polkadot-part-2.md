@@ -5,7 +5,7 @@ tags:
   - blockchain
   - BrightTreasury
 date: 2022-06-07T09:28:13.015Z
-meaningfullyUpdatedAt: 2024-01-04T08:53:38.218Z
+meaningfullyUpdatedAt: ""
 title: How Can Non-Technical People Contribute to Kusama and Polkadot Networks? Part 2
 layout: post
 image: /images/blog_post_contribute_to_web3_part2.png
