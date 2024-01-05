@@ -4,8 +4,8 @@ tags:
   - inspiration
   - iOS
 date: 2022-05-05T11:39:04.015Z
-meaningfullyUpdatedAt: 2023-08-12T12:06:57.135Z
-title: Top Podcasts for 2023 from iOS Developer's Perspective
+meaningfullyUpdatedAt: 2024-01-05T06:53:43.891Z
+title: Top Podcasts for 2024 from iOS Developer's Perspective
 layout: post
 image: /images/top-podcast-for-2022-from-ios-developer-perspective-cover.png
 hidden: false
@@ -13,11 +13,11 @@ comments: true
 published: true
 language: en
 ---
-**Are you an iOS developer, or maybe a technology maniac with a bias for apple? Do you listen to podcasts (if not, then start 😉)? Here are my top picks for iOS and general tech related podcasts to listen to in 2023.**
+**Are you an iOS developer, or maybe a technology maniac with a bias for apple? Do you listen to podcasts (if not, then start 😉)? Here are my top picks for iOS and general tech related podcasts to listen to in 2024.**
 
 ![top iOS development podcasts](../../static/images/top-podcasts-from-ios-developer-perspective-cover.png "")
 
-## Best iOS development podcasts in 2023
+## Best iOS development podcasts in 2024
 
 Let me start with iOS focused ones. Those are high quality podcasts that vary in focus and topics from quite technical to totally informal.
 
@@ -57,7 +57,7 @@ For quite some time this was only my first pick for podcast for iOS developer. I
 
 *Swift by Sundell* was released weekly till the end of 2022.
 
-## Top tech podcasts in 2023
+## Top tech podcasts in 2024
 
 Of course you cannot live just on iOS podcasts, we need to have a richer diet in order to be healthy ;) This part is more about technology and business in a broader spectrum.
 
