@@ -4,6 +4,7 @@ date: 2024-01-05T18:11:25.791Z
 meaningfullyUpdatedAt: 2024-01-05T18:11:26.905Z
 title: "Breaking Free: 10 Workplace Mind Games You Should Quit Now"
 layout: post
+image: /images/sagar-dani-bboxc95sxle-unsplash.jpg
 hidden: false
 comments: true
 published: true
