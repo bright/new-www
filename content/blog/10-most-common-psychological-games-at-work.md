@@ -1,17 +1,17 @@
 ---
 author: ula
-date: 2024-01-02T19:51:21.429Z
-meaningfullyUpdatedAt: 2024-01-02T19:51:23.127Z
-title: "10 Most Common Psychological Games You Should Stop Playing at Work "
+date: 2024-01-05T18:11:25.791Z
+meaningfullyUpdatedAt: 2024-01-05T18:11:26.905Z
+title: "Breaking Free: 10 Workplace Mind Games You Should Quit Now"
 layout: post
 hidden: false
 comments: true
 published: true
 language: en
 ---
-We put many masks every day. We play games in private life and at work. The games we play are a nuanced dance, sometimes a deliberate performance, and at other times, an unconscious enactment. We portray roles that span the spectrum from positive and constructive to negative and detrimental.
-
-At work people play the roles of omniscient leaders, unmoved bosses, friendly managers, caring colleagues or others. They put masks to be perceived as more professional or important, to feel appreciated, to avoid offending someone, to stay diplomatic, to protect themselves. There are dozens of reasons people wear masks. **The problem appears when we forget who we really are, when we hurt others in our games, and when our main goal is gaining control and manipulation.** 
+People put masks every day. They play games in private life and at work. The games they play are a nuanced dance, sometimes a deliberate performance, and at other times, an unconscious enactment. They portray roles that span the spectrum from positive and constructive to negative and detrimental.\
+\
+At the workplace, it is a stage where we take on various roles—be it the all-knowing leader, the unyielding boss, the amiable manager, the considerate colleague, and many more. **We wear masks to appear more professional, gain appreciation, prevent offense, remain diplomatic, or shield ourselves.** The reasons for wearing these masks are myriad. However, the complexity arises when we lose sight of our true selves beneath the masks. It becomes problematic when our games hurt others, when manipulation takes precedence over authenticity, and when we want to win at all costs. 
 
 ## **why do we play?**
 
