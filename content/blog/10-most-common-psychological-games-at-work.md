@@ -1,5 +1,9 @@
 ---
 author: ula
+tags:
+  - communication
+  - teamwork
+  - psychology
 date: 2024-01-05T18:11:25.791Z
 meaningfullyUpdatedAt: 2024-01-05T18:11:26.905Z
 title: "Breaking Free: 10 Workplace Mind Games You Should Quit Now"
