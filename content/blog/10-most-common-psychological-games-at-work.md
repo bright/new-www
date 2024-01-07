@@ -15,15 +15,17 @@ comments: true
 published: true
 language: en
 ---
-People put masks every day. They play games in private life and at work. The games they play are a nuanced dance, sometimes a deliberate performance, and at other times, an unconscious enactment. They portray roles that span the spectrum from positive and constructive to negative and detrimental.
+People put masks every day. They play games in private life and at work. They portray roles that span the spectrum from positive and constructive to negative and detrimental. At the workplace, it is a stage where we take on various roles—be such as all-knowing leader, the unyielding boss, the amiable manager, the considerate colleague, and many more. **We wear masks to appear more professional, gain appreciation, prevent offense, remain diplomatic, or shield ourselves.** 
 
-At the workplace, it is a stage where we take on various roles—be it the all-knowing leader, the unyielding boss, the amiable manager, the considerate colleague, and many more. **We wear masks to appear more professional, gain appreciation, prevent offense, remain diplomatic, or shield ourselves.** The reasons for wearing these masks are myriad. **However, the complexity arises when we lose sight of our true selves beneath the masks. It becomes problematic when our games hurt others, when manipulation takes precedence over authenticity, and when we want to win at all costs.** 
+Mind games often involve deception and manipulation, leading to a breakdown of trust among team members. Trust is crucial for effective collaboration, and when it is compromised, it undermines the foundation of teamwork. Leaders or team members playing mind games may show favoritism, creating divisions within the team. People are less likely to collaborate effectively when they perceive hidden agendas or ulterior motives. This hinders the free flow of ideas and the willingness to work together toward common goals.
+
+Addressing mind games requires proactive measures such as promoting open communication, fostering a culture of trust, and providing conflict resolution mechanisms. **But first of all it requites recognition and self-awareness. As the complexity arises when we lose sight of our true selves beneath the masks, when manipulation takes precedence over authenticity, and when we want to win at all costs.** 
 
 ## **why do we play?**
 
-**People play games to win. Usually they play to win emotions.** Depending on the game they play they can win both positive and negative reactions. 
+**We play games to win. Usually people play mind games to win emotions.** Depending on the game they play they can win both positive and negative reactions. 
 
-### **Among the most common “winnings” you can find:**
+### Among the most common “winnings” there can found:
 
 * improving own self-esteem at the expense of others, 
 * the humiliation of people you work with, 
@@ -33,7 +35,7 @@ At the workplace, it is a stage where we take on various roles—be it the all-k
 * getting praise you don’t deserve,  
 * feeding on popularity and other people’s attention. 
 
-**The misfortune of these winnings is that they often result in arousing negative feelings in others.** Usually people you work with or live with. 
+The misfortune of the winning is that it often involves arousing negative feelings in others.
 
 ## **how did it start?**
 
@@ -45,7 +47,7 @@ In fact, people have been always playing games - to win battles, to compete, to 
 
 <div className="image">![drama triangle ](../../static/images/drama-triangle.webp "")</div>
 
-####### Source: [https://www.susannejegge.com/en/2019/05/29/drama-triangle-part-2](https://www.susannejegge.com/en/2019/05/29/drama-triangle-part-2/)
+###### Source: [https://www.susannejegge.com/en/2019/05/29/drama-triangle-part-2](https://www.susannejegge.com/en/2019/05/29/drama-triangle-part-2/)
 
 Despite its potential risks and limitations - as the model implies a passive stance for individuals within the roles seen as acting out predetermined patterns - the drama triangle can be also used to gain insights about dysfunctional behaviours both in private and professional situations. If you want to use it, please be cautious to avoid any fixed judgements. 
 
@@ -113,13 +115,15 @@ Some have a strong desire for recognition and praise, and they take credit for o
 
 ### 6. Playing favourites
 
-The game is played mainly by leaders, managers or bosses, but it also functions among co-workers. It can take form of assigning lighter workloads, interesting projects, or opportunities for skill development to favored individuals. Or it may be connected with promoting or giving career advancement opportunities primarily based on personal relationships rather than merit or qualifications. **In teama it may result in forming exclusive cliques or social circles where favored colleagues are included, and others feel left out or isolated.**
+The game is played mainly by leaders, managers or bosses, but it also functions among co-workers. It can take form of assigning lighter workloads, interesting projects, or opportunities for skill development to favored individuals. Or it may be connected with promoting or giving career advancement opportunities primarily based on personal relationships rather than merit or qualifications. **In teams it may result in forming exclusive cliques or social circles where favored colleagues are included, and others feel left out or isolated.**
 
 <div className="image">![playing favourites](../../static/images/favouritism.png "")</div>
 
 **Favourism can also happen unintentionally as a cognitive bias powered by shared interests, personalities or backgrounds (more you can read [here](https://brightinventions.pl/blog/cognitive-bias-how-it-affects-our-hiring-decisions/)).** 
 
-Showing preferential treatment to certain team members while excluding or marginalising others always leads to divisions and resentment. If you experience favouritism in your team, remember you can always ask for constructive feedback from your manager on your performance. This shows your commitment to improvement and may help counteract any negative perceptions.
+Showing preferential treatment to certain team members while excluding or marginalising others always leads to divisions and resentment. 
+
+💡 If you experience favouritism in your team, remember you can always ask for constructive feedback from your manager on your performance. This shows your commitment to improvement and may help counteract any negative perceptions.
 
 ### 7. Micromanaging
 
@@ -127,11 +131,13 @@ For some it might be surprising to find micromanagement here, but it is also a t
 
 **Their fear may result from a desire for perfection, lack of trust based on past experiences, mistakes or just insecurity of the own expertise.** In general, people who love micro managing believe that their involvement is essential for achieving positive results. 
 
-On the other hand, we should not forget that micromanagers may be also under significant pressure to meet deadlines or achieve results. This pressure can make them more controlling as they try to ensure that everything goes according to plan. **Some of them may also lack the skills or knowledge to effectively delegate tasks or they are just new in the managerial world and they may micromanage until they gain more experience and self-assurance.**
-
 <div className="image">![steps to autonomy](../../static/images/5-steps-to-autonomy.jpeg "")</div>
 
-**One thing known for sure is that uncontrollable micromanagement can stifle employee autonomy, hinder creativity, and damage morale.** Employees often prefer a more hands-off approach from their managers. First of all, it allows them to take ownership of their work and feel reponsible for what they do. **Instead of micromanagement let us develop microencouragement in your teams.** ❤️
+On the other hand, we should not forget that micromanagers may be also under significant pressure to meet deadlines or achieve results. This pressure can make them more controlling as they try to ensure that everything goes according to plan. **Some of them may also lack the skills or knowledge to effectively delegate tasks or they are just new in the managerial world and they may micromanage until they gain more experience and self-assurance.**
+
+**One thing known for sure is that uncontrollable micromanagement can stifle employee autonomy, hinder creativity, and damage morale.** Employees often prefer a more hands-off approach from their managers. First of all, it allows them to take ownership of their work and feel reponsible for what they do. 
+
+**Instead of micromanagement let us develop microencouragement in your teams.** ❤️
 
 ### 8. Martyrdom
 
@@ -184,17 +190,27 @@ It's important to recognize that playing any type of psychological game is gener
 Stopping psychological games at work requires a combination of individual and organisational efforts. Some strategies you can take up are: 
 
 👍 Increasing self-awareness by recognising your own behaviors and the impact they may have on others.
+
 👍 Reflecting on your motivations and intentions in workplace interactions.
+
 👍 Encouraging open and honest communication.
+
 👍 Addressing issues directly and with empathy rather than resorting to passive-aggressive behaviours.
+
 👍 Resolving conflicts in a constructive and transparent manner.
+
 👍 Acknowledging and appreciating positive behaviors based on collaboration and support.
+
 👍 Establishing regular feedback mechanisms. 
+
 👍 Stop gosspining, blaming and credit stealing. 
+
 👍 Raising awareness about the impact of psychological games.😉
 
 **If you are aware that a game is happening, you can always refuse to play.** Stay mindful of what you do and focus on the goal of your work or organisational goals. 
 
 **I personally cannot prevent other people from playing games, or attempting to hook me into their games. But I can refuse to play. When a  player’s hook fails to catch me, the game is effectively broken.** Some game players simply go away in search of another player to hook. Others become upset when the game doesn’t turn out as they hoped. 
 
-Now think for a moment about your own life. Which games are you playing at work? We should strive to know ourselves and learn to accept and manage our thoughts and feelings. It is not as anyone else would have us interpret them, **the key is to break the patterns.**
+💡 Now think for a moment about your own life. Which games are you playing at work? Are they really worth your time and energy? 
+
+We should strive to know ourselves and learn to accept and manage our thoughts and feelings. It is not as anyone else would have us interpret them, **the key is to break the patterns.**
