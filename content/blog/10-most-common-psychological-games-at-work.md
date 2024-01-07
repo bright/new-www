@@ -111,6 +111,8 @@ Every now and then you can watch **people taking credit for someone else's work 
 
 Some have a strong desire for recognition and praise, and they take credit for others' work to boost their status and reputation within the organization. Some fear the consequences of making mistakes and they take credit for work they didn't do to avoid being associated with any potential failures or shortcomings. In some cases, individuals simply have a lack of ethical principles and are willing to engage in deceptive behaviors to achieve their goals or maintain their image. **In any form credit stealing is detrimental to the workplace relations, trust and morale. It can damage the best collaboration.**
 
+<div className="image">![credit stealing](../../static/images/creadit-stealing-quote.png "")</div>
+
 💡 **If you are not sure if your are a credit hogger, you can do a simple exercise proposed by Marshal Goldsmith in the article [Do You Work With a Credit Hog?](https://www.entrepreneur.com/growing-a-business/do-you-work-with-a-credit-hog/242380)** **published in *Entrepreneur* a few years ago.** Still very relevant. 
 
 ### 6. Playing favourites
@@ -141,7 +143,7 @@ On the other hand, we should not forget that micromanagers may be also under sig
 
 ### 8. Martyrdom
 
-Kim Scott wrote [a very interesting article about navigating a work martyr culture](http://6%20Tips%20for%20Navigating%20a%20Work%20Martyr%20Culture), which main features are **working long hours, taking on excessive responsibilities, and portraying oneself as indispensable to gain recognition or manipulate sympathy. Work martyrs want to feel important and want to feel noticed. It is, however, essential to be aware of the fact that **leaving the martyr’s zone is not always easy for a person who is experiencing that.** 
+Kim Scott wrote [a very interesting article about navigating a work martyr culture](http://6%20Tips%20for%20Navigating%20a%20Work%20Martyr%20Culture), which main features are **working long hours, taking on excessive responsibilities, and portraying oneself as indispensable to gain recognition or manipulate sympathy. Work martyrs want to feel important and want to feel noticed. It is, however, essential to be aware of the fact that** leaving the martyr’s zone is not always easy for a person who is experiencing that.\*\* 
 
 If in your case being a work matryr is connected with taking on your plate more than you can eat, you can try out the hints below: 
 
@@ -159,7 +161,7 @@ If in your case being a work matryr is connected with taking on your plate more 
 
 ### 9. Fear mongering
 
-Mostly present in the media, but we can also experience that at work. **[Fear mongering is a form of manipulation by exaggerating potential negative outcomes, rumours or consequences to influence decisions or actions of others.]**(https://www.forbes.com/sites/lizryan/2017/03/07/ten-unmistakable-signs-of-a-fear-based-workplace/) 
+Mostly present in the media, but we can also experience that at work. **\[Fear mongering is a form of manipulation by exaggerating potential negative outcomes, rumours or consequences to influence decisions or actions of others.]**(https://www.forbes.com/sites/lizryan/2017/03/07/ten-unmistakable-signs-of-a-fear-based-workplace/) 
 
 If you feel that fear mongering is present in your team, you can always try to take some step to mitigate it. **First of all, try to stay informed and be aware of the information being circulated and critically assess its accuracy and relevance.** Ensure you have reliable sources of information within the organization - not gossips. Regardless of your role (you don’t have to be a leader or manager to do that) - encourage open and transparent communication within your team so that people around you will feel comfortable sharing concerns and ideas without fear of retribution. 
 
