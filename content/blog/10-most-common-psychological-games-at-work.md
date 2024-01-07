@@ -15,13 +15,13 @@ comments: true
 published: true
 language: en
 ---
-People put masks every day. They play games in private life and at work. The games they play are a nuanced dance, sometimes a deliberate performance, and at other times, an unconscious enactment. They portray roles that span the spectrum from positive and constructive to negative and detrimental.\
-\
-At the workplace, it is a stage where we take on various roles—be it the all-knowing leader, the unyielding boss, the amiable manager, the considerate colleague, and many more. **We wear masks to appear more professional, gain appreciation, prevent offense, remain diplomatic, or shield ourselves.** The reasons for wearing these masks are myriad. However, the complexity arises when we lose sight of our true selves beneath the masks. It becomes problematic when our games hurt others, when manipulation takes precedence over authenticity, and when we want to win at all costs. 
+People put masks every day. They play games in private life and at work. The games they play are a nuanced dance, sometimes a deliberate performance, and at other times, an unconscious enactment. They portray roles that span the spectrum from positive and constructive to negative and detrimental.
+
+At the workplace, it is a stage where we take on various roles—be it the all-knowing leader, the unyielding boss, the amiable manager, the considerate colleague, and many more. **We wear masks to appear more professional, gain appreciation, prevent offense, remain diplomatic, or shield ourselves.** The reasons for wearing these masks are myriad. **However, the complexity arises when we lose sight of our true selves beneath the masks. It becomes problematic when our games hurt others, when manipulation takes precedence over authenticity, and when we want to win at all costs.** 
 
 ## **why do we play?**
 
-**People play games to win. And they usually win emotions.** Depending on the game they play they can win both positive and negative reactions. 
+**People play games to win. Usually they play to win emotions.** Depending on the game they play they can win both positive and negative reactions. 
 
 ### **Among the most common “winnings” you can find:**
 
@@ -45,7 +45,7 @@ In fact, people have been always playing games - to win battles, to compete, to 
 
 <div className="image">![drama triangle ](../../static/images/drama-triangle.webp "")</div>
 
-###### Source: [https://www.susannejegge.com/en/2019/05/29/drama-triangle-part-2](https://www.susannejegge.com/en/2019/05/29/drama-triangle-part-2/)
+####### Source: [https://www.susannejegge.com/en/2019/05/29/drama-triangle-part-2](https://www.susannejegge.com/en/2019/05/29/drama-triangle-part-2/)
 
 Despite its potential risks and limitations - as the model implies a passive stance for individuals within the roles seen as acting out predetermined patterns - the drama triangle can be also used to gain insights about dysfunctional behaviours both in private and professional situations. If you want to use it, please be cautious to avoid any fixed judgements. 
 
@@ -57,9 +57,11 @@ Very often psychological games in the workplace refer to interactions that invol
 
 It involves shifting blame or responsibility on others to avoid taking accountability for one's actions. **Blaming others help people protect their self-esteem. It allows them to maintain a positive self-image by casting themselves as the victim or the innocent party in a situation.**
 
- https://www.youtube.com/watch?v=RZWf2_2L2v8&t=1s
+<YouTubeEmbed url='https://www.youtube.com/watch?v=RZWf2_2L2v8&t=1s' />
 
-In fact we have a natural tendency to blame other people or circumstances when things go wrong. This inclinations is driven by** [the fundamental attribution bias](https://www.betterup.com/blog/fundamental-attribution-error)**. We tend to believe that what people do is a reflection of who they are, rather than considering there might be other factors affecting their behaviour. We have to also remember that some individuals may resort to blaming others because they lack effective communication skills. **They may not know how to express their feelings or concerns in a constructive manner and instead resort to blame as a way of communicating their frustrations.**
+In fact we have a natural tendency to blame other people or circumstances when things go wrong. This inclinations is driven by **[the fundamental attribution bias](https://www.betterup.com/blog/fundamental-attribution-error)**. We tend to believe that what people do is a reflection of who they are, rather than considering there might be other factors affecting their behaviour. 
+
+**Some individuals may resort to blaming others because they lack effective communication skills.** They may not know how to express their feelings or concerns in a constructive manner and instead resort to blame as a way of communicating their frustrations.
 
 ### 2. Scapegoating
 
@@ -69,11 +71,15 @@ Similar as in the blame game scapegoating is **a psychological defense mechanis
 
 ### 3. Office gossiping
 
-Spreading rumours or negative information about colleagues or clients is also a type pf psychological game, usually played to create tension and manipulate social dynamics. Those who possess insider information or spread rumours may feel a sense of influence over others. **What is interesting, in competitive workplaces, employees may engage in gossip to undermine or discredit their colleagues. This can be driven by feelings of insecurity or a desire to gain a competitive advantage.** We have to note that while gossiping may serve some entertainment and informational functions for people, in most cases it has negative consequences and leads to misunderstandings, conflicts, and a toxic work environment. Sometimes the person who spreads rumours plays also the role of victim from the drama triangle. 
+Spreading rumours or negative information about colleagues or clients is also **a type pf psychological game, usually played to create tension and manipulate social dynamics.** Those who possess insider information or spread rumours may feel a sense of influence over others. Sometimes the person who spreads rumours plays also the role of victim from the drama triangle. 
+
+**In competitive workplaces, employees may engage in gossip to undermine or discredit their colleagues.** This can be driven by feelings of insecurity or a desire to gain a competitive advantage. 
+
+We have to note that while gossiping may serve some entertainment and informational functions for people, in most cases it has negative consequences and leads to misunderstandings, conflicts, and a toxic work environment. 
 
 ### 4.Passive-aggressive behaviour
 
-**When you indirectly express hostility or disagreement through subtle actions, sarcasm, or backhanded compliments you also play the game. Have you ever thought that in this way you very often just avoid honest and open communication of what you really want to achieve?** 
+**When you indirectly express hostility or disagreement through subtle actions, sarcasm, or backhanded compliments you also play the game.** In this way you avoid honest and open communication of what you really want to achieve. 
 
 Passive-aggressive behaviours in the workplace can manifest in various ways. Among the most common ones we can find: 
 
