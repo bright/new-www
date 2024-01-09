@@ -10,11 +10,12 @@ salary_min: 10000
 salary_max: 16000
 working time: full time
 technology:
-  - Appium/Espresso
-  - DB testing
+  - PostgreSQL
   - API Testing
-  - ISTQB
+  - Git
   - CI/CD
+  - Manual Testing
+  - Automated Testing
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
