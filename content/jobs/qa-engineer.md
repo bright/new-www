@@ -5,7 +5,7 @@ subtitle: ONGOING
 imagejob: /images/qa_brightteam.png
 image-alt-job: QA Team Bright Inventions
 hours: full-time
-salary: 12 000 - 16 000 PLN + VAT (B2B) or 10000 - 13 300 PLN gross (UoP)
+salary: 12 000 - 16 000 PLN + VAT (B2B) or 10 000 - 13 300 PLN gross (UoP)
 salary_min: 10000
 salary_max: 16000
 working time: full time
@@ -53,16 +53,12 @@ At Bright Inventions you'll be an important part of [a group of talented, ambiti
 
 We place a strong emphasis on accountability, and we value team members who take ownership of their work and are willing to make improvements based on regular and open feedback. Positive attitude, flexibility and teamwork are elemental parts of our success. Instead of focusing on problems we empower our team members to identify issues, propose solutions, and contribute to continuous growth.
 
-
-
 ## about the role 🧑🏻‍💻🧑🏻‍💻
 
 \
-We are looking for a business-oriented QA Engineer (regular exp.) to join one of our project teams responsible for building a Card Tracking System for one of the global humanitarian organisations. You will be a part of a highly rewarding [project](https://brightinventions.pl/projects/card-tracking-system/) that aims to build a solution for humanitarian aid.\
+We are looking for a business-oriented QA Engineer (regular exp.) to join one of our [project ](https://brightinventions.pl/projects/card-tracking-system/)teams responsible for building a Card Tracking System for one of the global humanitarian organisations.\
 \
 This position supports mainly manual testing activities including collaborating with the product owners and engineers to define testing needs and priorities, creating test plans, scripts and strategies for new product initiatives as well as improving user experience while optimising our software development life cycle. The drive to introduce automated tests is more than welcome.Agile mindset, flexibility and prioritising skills are must haves in this role.
-
-
 
 ## your job will include
 
@@ -75,8 +71,6 @@ This position supports mainly manual testing activities including collaborating 
 * API testing and endpoint testing (Postman)
 * code review related to automated tests
 *  creating performance tests (Proxyman)
-
-
 
 ## preferred skills & qualifications
 
@@ -97,8 +91,6 @@ This position supports mainly manual testing activities including collaborating 
 * basic knowledge of at least one programming language: JavaScript, Java, Kotlin 
 * practical knowledge of test automation and Cypress/Selenium
 * familiarity with JIRA
-
-
 
 ## what you will find in our Bright Team 🧡
 
