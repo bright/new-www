@@ -30,7 +30,7 @@ links_more_about_us: >-
 
 
    [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
-title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
+title_recruiter_info: Do you have any questions? Ask Sara from our Bright team!
 image_recruiter_info: /images/sara-bright-recruiter.png
 button_linkedin: https://www.linkedin.com/in/saralecka/
 published: true
