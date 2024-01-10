@@ -73,7 +73,7 @@ Similar as in the blame game scapegoating is **a psychological defense mechanis
 
 ### 3. Office gossiping
 
-Spreading rumours or negative information about colleagues or clients is also **a type pf psychological game, usually played to create tension and manipulate social dynamics.** Those who possess insider information or spread rumours may feel a sense of influence over others. Sometimes the person who spreads rumours plays also the role of victim from the drama triangle. 
+Spreading rumours or negative information about colleagues or clients is also **a type of psychological game, usually played to create tension and manipulate social dynamics.** Those who possess insider information or spread rumours may feel a sense of influence over others. Sometimes the person who spreads rumours plays also the role of victim from the drama triangle. 
 
 **In competitive workplaces, employees may engage in gossip to undermine or discredit their colleagues.** This can be driven by feelings of insecurity or a desire to gain a competitive advantage. 
 
@@ -139,7 +139,7 @@ On the other hand, we should not forget that micromanagers may be also under sig
 
 **One thing known for sure is that uncontrollable micromanagement can stifle employee autonomy, hinder creativity, and damage morale.** Employees often prefer a more hands-off approach from their managers. First of all, it allows them to take ownership of their work and feel reponsible for what they do. 
 
-**Instead of micromanagement let us develop microencouragement in your teams.** ❤️
+**Instead of micromanagement develop microencouragement in your team.** ❤️
 
 ### 8. Martyrdom
 
@@ -161,7 +161,7 @@ If in your case being a work matryr is connected with taking on your plate more 
 
 ### 9. Fear mongering
 
-Mostly present in the media, but we can also experience that at work. **\[Fear mongering is a form of manipulation by exaggerating potential negative outcomes, rumours or consequences to influence decisions or actions of others.]**(https://www.forbes.com/sites/lizryan/2017/03/07/ten-unmistakable-signs-of-a-fear-based-workplace/) 
+Mostly present in the media, but we can also experience that at work. **[Fear mongering is a form of manipulation by exaggerating potential negative outcomes, rumours or consequences to influence decisions or actions of others.](https://www.forbes.com/sites/lizryan/2017/03/07/ten-unmistakable-signs-of-a-fear-based-workplace)**
 
 If you feel that fear mongering is present in your team, you can always try to take some step to mitigate it. **First of all, try to stay informed and be aware of the information being circulated and critically assess its accuracy and relevance.** Ensure you have reliable sources of information within the organization - not gossips. Regardless of your role (you don’t have to be a leader or manager to do that) - encourage open and transparent communication within your team so that people around you will feel comfortable sharing concerns and ideas without fear of retribution. 
 
