@@ -89,7 +89,7 @@ This position supports mainly manual testing activities including collaborating 
 ## we would also appreciate if you have 
 
 * basic knowledge of at least one programming language: JavaScript, Java, Kotlin 
-* practical knowledge of test automation and Cypress/Selenium
+* practical knowledge of test automation and Mocha/SuperTest
 * familiarity with JIRA
 
 ## what you will find in our Bright Team 🧡
