@@ -113,7 +113,7 @@ Some have a strong desire for recognition and praise, and they take credit for o
 
 <div className="image">![credit stealing](../../static/images/creadit-stealing-quote.png "")</div>
 
-💡 **If you are not sure if your are a credit hogger, you can do a simple exercise proposed by Marshal Goldsmith in the article [Do You Work With a Credit Hog?](https://www.entrepreneur.com/growing-a-business/do-you-work-with-a-credit-hog/242380)** **published in *Entrepreneur* a few years ago.** Still very relevant. 
+💡 **If you are not sure if you are a credit hogger, you can do a simple exercise proposed by Marshal Goldsmith in the article [Do You Work With a Credit Hog?](https://www.entrepreneur.com/growing-a-business/do-you-work-with-a-credit-hog/242380)** **published in *Entrepreneur* a few years ago.** Still very relevant. 
 
 ### 6. Playing favourites
 
