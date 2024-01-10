@@ -58,7 +58,7 @@ We place a strong emphasis on accountability, and we value team members who take
 \
 We are looking for a business-oriented QA Engineer (regular exp.) to join one of our [project ](https://brightinventions.pl/projects/card-tracking-system/)teams responsible for building a Card Tracking System for one of the global humanitarian organisations.\
 \
-This position supports mainly manual testing activities including collaborating with the product owners and engineers to define testing needs and priorities, creating test plans, scripts and strategies for new product initiatives as well as improving user experience while optimising our software development life cycle. The drive to introduce automated tests is more than welcome.Agile mindset, flexibility and prioritising skills are must haves in this role.
+This position supports mainly manual testing activities (70% of working time) including collaborating with the product owners and engineers to define testing needs and priorities, creating test plans, scripts and strategies for new product initiatives as well as improving user experience while optimising our software development life cycle. The drive to introduce automated tests is more than welcome (30% of working time). Agile mindset, flexibility and prioritising skills are must haves in this role.
 
 ## your job will include
 
