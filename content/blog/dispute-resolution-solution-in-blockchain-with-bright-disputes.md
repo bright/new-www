@@ -34,7 +34,7 @@ A Judge and Jury are then randomly selected by the smart contract from a pool of
 
 ### The Voting Phase
 
-After confirmation, the Jury votes in secrecy. Their votes are encrypted, ensuring that only the Judge can decrypt and count them. This phase is critical and relies on zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge) to maintain the privacy of the voting process.
+After confirmation, the Jury votes in secrecy. Their votes are encrypted, ensuring that only the Judge can decrypt and count them. This phase is critical and relies on [zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge)](/blog/zk-snarks-in-substrate-part-1/) to maintain the privacy of the voting process.
 
 ### Reaching a Verdict
 
