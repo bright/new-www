@@ -3,9 +3,10 @@ author: kasia
 tags:
   - rust
   - blockchain
+  - Substrate
 date: 2024-01-10T09:07:37.518Z
 meaningfullyUpdatedAt: 2024-01-10T09:07:37.528Z
-title: Dispute resolution solution in blockchain with Bright Disputes
+title: Dispute Resolution Solution in Blockchain with Bright Disputes
 layout: post
 image: /images/blog_substrate_blockchain.png
 hidden: true
@@ -13,7 +14,7 @@ comments: true
 published: true
 language: en
 ---
-In the innovative world of blockchain technology, smart contracts are revolutionizing how we think about legal agreements and dispute resolution. Bright Disputes is a  decentralized application (dApp) designed to address and resolve conflicts on Substrate-based blockchains. Let's delve into how this solution, encapsulated in smart contract code written in the programming language Ink!, promises to bring fairness and privacy to the forefront of digital disagreements.
+**In the innovative world of blockchain technology, smart contracts are revolutionizing how we think about legal agreements and dispute resolution. Bright Disputes is a  decentralized application (dApp) designed to address and resolve conflicts on Substrate-based blockchains. Let's delve into how this solution, encapsulated in smart contract code written in the programming language Ink!, promises to bring fairness and privacy to the forefront of digital disagreements.**
 
 ### **Understanding the Participants**
 
@@ -34,7 +35,7 @@ A Judge and Jury are then randomly selected by the smart contract from a pool of
 
 ### The Voting Phase
 
-After confirmation, the Jury votes in secrecy. Their votes are encrypted, ensuring that only the Judge can decrypt and count them. This phase is critical and relies on zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge) to maintain the privacy of the voting process.
+After confirmation, the Jury votes in secrecy. Their votes are encrypted, ensuring that only the Judge can decrypt and count them. This phase is critical and relies on [zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge)](/blog/zk-snarks-in-substrate-part-1/) to maintain the privacy of the voting process.
 
 ### Reaching a Verdict
 
@@ -52,7 +53,7 @@ Once a verdict is reached, the Judge and those Juries who were in the majority r
 
 Bright Disputes is not just a theoretical construct but has practical applications. It can be seamlessly integrated with job advertising platforms like SubFunds, allowing for disputes to be raised and resolved within the ecosystem where contractors and clients interact. This was illustrated in the use case involving Bob (the job advertiser), Alice (the contractor), and Charlie (the judge).
 
-<div className="image">![](../../static/images/brightdisputes1.png "")</div>
+<div className="image">![Integration with Job Advertising Platforms](../../static/images/brightdisputes1.png "Integration with Job Advertising Platforms")</div>
 
 ### The Technical Prowess of Bright Disputes
 
