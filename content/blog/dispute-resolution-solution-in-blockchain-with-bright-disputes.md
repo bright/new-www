@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2024-01-10T09:07:37.528Z
 title: Dispute Resolution Solution in Blockchain with Bright Disputes
 layout: post
 image: /images/blog_substrate_blockchain.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
