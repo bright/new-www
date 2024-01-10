@@ -3,6 +3,7 @@ author: kasia
 tags:
   - rust
   - blockchain
+  - Substrate
 date: 2024-01-10T09:07:37.518Z
 meaningfullyUpdatedAt: 2024-01-10T09:07:37.528Z
 title: Dispute Resolution Solution in Blockchain with Bright Disputes
