@@ -164,15 +164,14 @@ Compared to the tools, toolkits have an implementation of several actions.
 
 ## Creating your first LangChain agent
 
-```
 Prerequisites: 
-- Tavily API token
-- OpenAI API token
-- Python v3.11 and 
-- Pip packages: langchain (at least v0.1.0), openai, wikipedia, 
-langchain-community, tavily-python, langchainhub, 
-langchain-openai, python-dotenv
-```
+
+* Tavily API token
+* OpenAI API token
+* Python v3.11 and 
+* Pip packages: langchain (at least v0.1.0), openai, wikipedia, 
+  langchain-community, tavily-python, langchainhub, 
+  langchain-openai, python-dotenv
 
 First, install pip packages:
 
