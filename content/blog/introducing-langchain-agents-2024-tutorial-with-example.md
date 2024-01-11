@@ -36,25 +36,25 @@ The illustration presents the agent and his components:
 
 You may be wondering, ‘Why I cannot use simple LLM to get my questions answered?’ There might be situations, where used LLM model has old data or you have to provide some internal data (and use embedding to find similarity). 
 
-Explore these examples of features that can boost your agent:
+**Explore these examples of features that can boost your agent:**
 
-1. Web search tool 
+**1. Web search tool**
 
 You can easily add different types of web search as an available action to your agent. It might be Google Search, Tavily Search, DuckDuckGo and many others.
 
-2. Embedding search in vector database 
+**2. Embedding search in vector database**
 
 You can create a tool from retriever and describe it as you need, so the agent will use this tool to get some kind of data doing e.g. similarity check and embedding model.
 
-3. Doing some actions
+**3. Doing some actions**
 
 Your agent can be multipurpose one. For example, it might be searching for some kind of information on the internet, doing the reasoning step, and after all invoking action to create a Jira issue.
 
-4. API integration tool
+**4. API integration tool**
 
 There are many API integration done for the LangChain framework, all you need to do is take the API key, install the package and attach the tool to the agent.
 
-5. Custom tool 
+**5. Custom tool**
 
 You can write your own tool, refer to the documentation to see how to do it. It might be integration with your internal API, your document system, and many others!
 
@@ -62,9 +62,9 @@ You can write your own tool, refer to the documentation to see how to do it. It 
 
 Besides having agents, LangChain also supports the idea of a Chain.
 
-Chain is a subsequence of actions to take, always in a hardcoded manner. This is the crucial difference between an agent and a chain. While in the agent, the reasoning model may choose other actions (from given tools) to fetch specific data, the chain will always take the same path that we have chosen.
+**Chain is a subsequence of actions to take, always in a hardcoded manner.** This is the crucial difference between an agent and a chain. While in the agent, the reasoning model may choose other actions (from given tools) to fetch specific data, the chain will always take the same path that we have chosen.
 
-Advantages of agents compared to chains:
+**Advantages of agents compared to chains:**
 
 1. Based on the description of tools, the agent decides which tool should be used to get relevant information.
 2. Agent takes actions and takes the context of the given result to e.g. search for other information in other resources (like for example Google Search and Wikipedia).
@@ -100,31 +100,31 @@ LangChain categorizes agents based on several dimensions:
 
 It is important to choose the option that fits to your use case:
 
-1. **OpenAI functions** 
+**1. OpenAI functions** 
 
 There are certain models fine-tuned where input is a bit different than usual. There are special functions that can be called and the role of this agent is to determine when it should be invoked. This agent is designed to work with this kind of OpenAI model. It supports chat history.
 
-2. **OpenAI tools** 
+**2. OpenAI tools** 
 
 This agent is designed to work with OpenAI tools, so its role is to interact and determine whether to use e.g. image generation tool or another built-in one. The main difference between OpenAI function is the fact that the function is trying to find the best fitting algorithm/part of an algorithm to do better reasoning, while OpenAI tool is about built-in tools like image generation, and executing code. It supports chat history.
 
-3. **XML Agent** 
+**3. XML Agent** 
 
 There are models, where reasoning/writing XML is on a very advanced level (a good example is Anthropic Claude's model). If you're operating on XML files, that might be the right one to be considered. It supports chat history.
 
-4. **JSON Chat Agent**
+**4. JSON Chat Agent**
 
 Several LLMs available in the market are particularly handy when it comes to reading JSON. JSON is also a very common standard of some e.g. entity representation. If you're building some kind of integration that operates on JSON files and the model is supporting it, you can try to use this agent. It supports chat history.
 
-5. **Structured chat** 
+**5. Structured chat** 
 
 Intended for multi-input tools. It supports chat history.
 
-6. **ReAct agent**
+**6. ReAct agent**
 
 Made for simple models (LLM - not conversational). It supports chat history.
 
-7. **Self-ask with search**
+**7. Self-ask with search**
 
 This kind of agent supports only one tool as an input. The main goal is to divide your query into smaller ones, use tools to get the answer, and then combine it into a full answer to your question. This kind of agent doesn’t support chat history.
 
