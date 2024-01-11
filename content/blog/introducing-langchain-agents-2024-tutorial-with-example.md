@@ -20,17 +20,17 @@ language: en
 
 ## What is LangChain agent?
 
-The idea behind the agent in LangChain is to utilize a language model along with a sequence of actions to take. The agent is using a reasoning engine to determine which actions to take to get a result.
+**The idea behind the agent in LangChain is to utilize a language model along with a sequence of actions to take**. The agent is using a reasoning engine to determine which actions to take to get a result.
 
 Agents are crucial for handling tasks ranging from simple automated responses to complex, context-aware interactions.
 
 For example, you may have an agent integrated with Google Search, Wikipedia and OpenAI LLM. With given agent tools, they can search for results in Google, then use retrieved context in Wikipedia tool to find detailed information and expand the context.
 
-Bear in mind that you have to put clearly defined instructions to make sure that the agent will invoke tools in a proper order.
+Bear in mind that **you have to put clearly defined instructions to make sure that the agent will invoke tools in a proper order**.
 
 The illustration presents the agent and his components:
 
-<div className="image">![Agent with all components](../../static/images/llm_agents.png "")</div>
+<div className="image">![Agent with all components](../../static/images/llm_agents.png "Agent with all components")</div>
 
 ## Boosting your agent
 
@@ -267,4 +267,3 @@ If you’re not planning to override the default prompt - provide a default one 
 ## Ready to build your custom agent in LangChain?
 
 I believe you are! In case you have any questions, just let me know in the comments.
-
