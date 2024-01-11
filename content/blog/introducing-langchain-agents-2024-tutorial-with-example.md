@@ -4,8 +4,8 @@ tags:
   - langchain
   - python
   - AI
-date: 2024-01-11T11:23:07.738Z
-meaningfullyUpdatedAt: 2024-01-11T11:23:07.760Z
+date: 2024-01-11T12:56:15.196Z
+meaningfullyUpdatedAt: 2024-01-11T12:56:16.383Z
 title: "Introducing LangChain Agents: 2024 Tutorial with Example"
 layout: post
 image: /images/langchain_agents_blog.png
