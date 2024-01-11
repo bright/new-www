@@ -117,6 +117,9 @@ groups:
       - security
       - opentelemetry
       - observability
+      - AI
+      - python
+      - machine learning
   - name: Business
     tags:
       - business
