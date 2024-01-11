@@ -28,7 +28,7 @@ For example, you may have an agent integrated with Google Search, Wikipedia and 
 
 Bear in mind that **you have to put clearly defined instructions to make sure that the agent will invoke tools in a proper order**.
 
-The illustration presents the agent and his components:
+The illustration presents the example of agent and his components:
 
 <div className="image">![Agent with all components](../../static/images/llm_agents.png "Agent with all components")</div>
 
@@ -168,7 +168,7 @@ Prerequisites:
 
 * Tavily API token
 * OpenAI API token
-* Python v3.11 and 
+* Python v3.11
 * Pip packages: langchain (at least v0.1.0), openai, wikipedia, 
   langchain-community, tavily-python, langchainhub, 
   langchain-openai, python-dotenv
