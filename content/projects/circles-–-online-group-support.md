@@ -24,12 +24,12 @@ Hero Image_alt: Circles - mental health app
 social_media_previev: /images/circles_fb_preview.png
 social_media_previev_alt: Circles case study
 bar_achievements:
+  - number: $16.5 M
+    label: Raised in Series A Round
   - number: 10k+
     label: Downloads on Google Play
-  - number: "6"
-    label: Bright team members
-  - number: 2+
-    label: Years of collaboration
+  - number: "3"
+    label: Years of Collaboration
 tags:
   - web app
   - eHealth
