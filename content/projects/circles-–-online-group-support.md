@@ -80,6 +80,12 @@ We also developed **numerous custom features to enhance the audio room experienc
 
 <div className="image">![Client's review](../../static/images/case_study_circles_client_quote.png "undefined")</div>
 
+<TitleWithIcon sectionTitle="challenge: adapting to the rapid growth of the user base" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
+
+**Circles is experiencing a phase of steady growth, continually attracting an increasing number of users**, particularly in the mobile sector. **As the app's user base expands, it brings forth scalability challenges** that every DevOps team must confront. Our primary focus is not just on adapting to these changes but on proactively preparing the infrastructure beforehand.
+
+**Our current cloud computing priority is horizontal scaling** which is a technique used to increase the capacity and performance of a system by adding more instances of the same component. By horizontally scaling, **Circles will achieve higher availability, better load balancing, and the capability to handle larger user loads seamlessly, ensuring the best possible app experience for users**.
+
 <TitleWithIcon sectionTitle="Circles’ perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Circles’ perspective" />
 
 **Kobi Avriel – VP R&D at Circles**
@@ -88,8 +94,8 @@ We also developed **numerous custom features to enhance the audio room experienc
 
 *Bright Inventions is above our expectations, and we are very happy from both the great quality of people we are fortunate to work with, and the professionalism that seems to be in Bright Inventions DNA.*
 
-<TitleWithIcon sectionTitle="what is next" titleIcon="/images/icon_result_svg.svg" titleIconAlt="what is next" />
+<TitleWithIcon sectionTitle="the results of the collaboration" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
 
-As always we will support our client and deliver the best possible solutions to satisfy the growing number of Circles users. Having in mind that we help to develop a unique product that enables people to go through life-changing events and offers them essential support. We are proud and grateful to be able to assist Circles in building such a unique healthcare application.
+Notable milestones mark the journey of Circles. In their Series A funding round, the Israeli startup successfully raised $16.5 million. Not only do they get a thumbs-up from investors, but their solution is also making waves in the mental health community.
 
-What is more, 2022 has become a very special year for our client! Circles raised $16.5 million in funding in their Series A round. Congratulations to the Circles team. 👏
+Circles was honored with the title of 'Best for Group Support' emerging as a winner in the Online Therapy & Wellness Awards, organized by Verywell Mind. We are delighted to assist Circles on their impressive way to digitalize mental health.
