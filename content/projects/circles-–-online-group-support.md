@@ -86,6 +86,8 @@ We also developed **numerous custom features to enhance the audio room experienc
 
 **Our current cloud computing priority is horizontal scaling** which is a technique used to increase the capacity and performance of a system by adding more instances of the same component. By horizontally scaling, **Circles will achieve higher availability, better load balancing, and the capability to handle larger user loads seamlessly, ensuring the best possible app experience for users**.
 
+<div className="image">![group support app mockups](../../static/images/group_therapy_app_mockups.png "group support app mockups")</div>
+
 <TitleWithIcon sectionTitle="Circles’ perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Circles’ perspective" />
 
 **Kobi Avriel – VP R&D at Circles**
