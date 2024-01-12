@@ -12,7 +12,7 @@ layout: project
 project_id: circles
 title: Secures $16.5M in Series A Funding. Circles Emerges as Premier Group
   Support Platform
-image: /images/circles_case_study_cover.png
+image: /images/case_study_cover_mental_health_app.png
 description: Circles is an online group therapy application connecting
   individuals seeking emotional support. As a mental health tech startup, it
   pioneers the path for digitalized emotional assistance, offering guidance not
