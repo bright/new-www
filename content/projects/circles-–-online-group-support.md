@@ -19,9 +19,9 @@ description: Circles is an online group therapy application connecting
   only from professionals but also from people experiencing similar life
   challenges. We are thrilled to be on board with Circles, rocking the mission
   to make mental health care much more accessible in the USA.
-hero_image: /images/case_study_circles_ehealth.png
+hero_image: /images/case_study_online_therapy_woman.png
 Hero Image_alt: Circles - mental health app
-social_media_previev: /images/circles_fb_preview.png
+social_media_previev: /images/group_therapy_app_preview.png
 social_media_previev_alt: Circles case study
 bar_achievements:
   - number: $16.5 M
@@ -48,11 +48,13 @@ show on homepage: true
 published: true
 language: en
 ---
-<TitleWithIcon sectionTitle='main features developed by Bright Inventions:' titleIcon='/images/icons_features_svg.svg' titleIconAlt='main features' />
+
+
+<TitleWithIcon sectionTitle="main features developed by Bright Inventions:" titleIcon="/images/icons_features_svg.svg" titleIconAlt="main features" />
 
 <SliderText sliderElements='[{"title":"Audio rooms","description":"Live audio rooms with up to 50 participants on iOS and Android apps."},{"title":"Various audio room functions","description":"The audio room includes various functions such as reactions, caller queuing, a moderator panel for calls, and an integrated chat feature."},{"title":"App payments","description":"Mobile app payments with different pricing tiers and plans."},{"title":"Web and mobile onboarding","description":"Onboarding which helps users quickly find the support group suitable for their needs."},{"description":"Features for video conferences such as group chat or screen sharing by a group facilitator.","title":"Video conferences"},{"title":"Direct messaging","description":"Direct messaging for group members."},{"title":"Panel for therapists","description":"Admin panel dedicated to therapists conducting group meetings."},{"description":"Redesign of the group space where group members can interact with each other.","title":"Group space redesign "},{"title":"Business and analytics tools","description":"Customized business tool for processing user experience, traffic and acquisition data."}]' />
 
-<TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='skills' />
+<TitleWithIcon sectionTitle="skills" titleIcon="/images/skills.svg" titleIconAlt="skills" />
 
 <Gallery images='[{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/react.png","alt":"React"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/docker_stack_logo.png","alt":"Docker"}]' />
 
@@ -64,7 +66,7 @@ language: en
 
 **DevOps/Deploy**: AWS, Docker, Jenkins
 
-<TitleWithIcon sectionTitle='about Circles' titleIcon='/images/icon_title_about.svg' titleIconAlt='about' />
+<TitleWithIcon sectionTitle="about Circles" titleIcon="/images/icon_title_about.svg" titleIconAlt="about" />
 
 Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges – [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
 
@@ -76,7 +78,7 @@ Circles users attend live video and audio meetings. They also have the ability t
 
 <YouTubeEmbed url='https://youtu.be/gxwapWmv-zo' />
 
-<TitleWithIcon sectionTitle='Circles development process' titleIcon='/images/gearwheel.svg' titleIconAlt='Circles Development Process' />
+<TitleWithIcon sectionTitle="Circles development process" titleIcon="/images/gearwheel.svg" titleIconAlt="Circles Development Process" />
 
 Circles is a product developed by a startup in Israel. The client came to us thanks to a referral from our long-term client. We started our collaboration in June 2021. The product was already launched. Our team of experienced bright Fullstack Developers joined to support product development. **We are responsible for the web and mobile versions of the app by delivering full-stack and cloud computing solutions**.
 
@@ -118,7 +120,7 @@ On top of that, we deliver solutions that enable analyzing data. For example, ou
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-<TitleWithIcon sectionTitle='Circles’ perspective' titleIcon='/images/clients_perspective_icon.svg' titleIconAlt='Circles’ perspective' />
+<TitleWithIcon sectionTitle="Circles’ perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Circles’ perspective" />
 
 **Kobi Avriel – VP R&D at Circles**
 
@@ -126,7 +128,7 @@ On top of that, we deliver solutions that enable analyzing data. For example, ou
 
 *Bright Inventions is above our expectations, and we are very happy from both the great quality of people we are fortunate to work with, and the professionalism that seems to be in Bright Inventions DNA.*
 
-<TitleWithIcon sectionTitle='what is next' titleIcon='/images/icon_result_svg.svg' titleIconAlt='what is next' />
+<TitleWithIcon sectionTitle="what is next" titleIcon="/images/icon_result_svg.svg" titleIconAlt="what is next" />
 
 As always we will support our client and deliver the best possible solutions to satisfy the growing number of Circles users. Having in mind that we help to develop a unique product that enables people to go through life-changing events and offers them essential support. We are proud and grateful to be able to assist Circles in building such a unique healthcare application.
 
