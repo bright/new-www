@@ -70,11 +70,9 @@ This grim reality of mental health in the U.S. calls for a solution that not onl
 
 <AppStore googleApp='https://circlesup-support.onelink.me/Zfmp/jvvug6g9' srcGoogle='/images/google_play.png' altGoogleImage='google play' appStore='https://circlesup-support.onelink.me/Zfmp/vn9898b2' srcAppStore='/images/app_store.png' altAppStoreImage='app store' />
 
-After launching the pilot version, Circles approached our team for expertise in scaling their product in a competitive market. Initially involved in web development, we now offer support in other areas such as mobile development and cloud computing.
+After launching the pilot version, **Circles approached our team for expertise in scaling their product** in a competitive market. Initially involved in **web development**, we now offer support in other areas such as **mobile development** and **cloud computing**.
 
-
-
-
+<div className="image">![mental health app mockups](../../static/images/mental_health_app_mockups.png "")</div>
 
 <div className="image">![Client's review](../../static/images/case_study_circles_client_quote.png "undefined")</div>
 
