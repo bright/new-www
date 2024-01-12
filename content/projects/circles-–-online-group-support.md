@@ -60,19 +60,17 @@ language: en
 
 **technologies**: TypeScript, React, Node.js (Express.js), PostgreSQL/Redis, AWS, React Native
 
-<TitleWithIcon sectionTitle="about Circles" titleIcon="/images/icon_title_about.svg" titleIconAlt="about" />
+<TitleWithIcon sectionTitle="problem: lack of access to mental health specialists in the USA" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
-Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges – [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
+**More than 1 in 5 U.S. adults, roughly 57.8 million people — a number close to the population of Italy — live with a mental illness**. However, not everyone has the means to access mental health experts and receive the necessary assistance. 
+
+This grim reality of mental health in the U.S. calls for a solution that not only provides Americans with professional mental health expertise but also offers something uniquely valuable in distressing moments: guidance and perspective from individuals who are grappling with similar issues.
+
+<TitleWithIcon sectionTitle="the solution: online therapy platform for expert-guided group healing" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution:" />
+
+Circles, an Israeli startup, has launched a mental health tech application designed for those dealing with grief, divorce, or simply seeking a safe space to express their emotions. 
 
 <AppStore googleApp='https://circlesup-support.onelink.me/Zfmp/jvvug6g9' srcGoogle='/images/google_play.png' altGoogleImage='google play' appStore='https://circlesup-support.onelink.me/Zfmp/vn9898b2' srcAppStore='/images/app_store.png' altAppStoreImage='app store' />
-
-Circles is a leading emotional support platform that connects people experiencing similar challenges in small online groups led by mental health experts. **Awarded as the Best Platform for Group Therapy 2021, Circles app has already supported thousands of people** while coping with grief, navigating divorce and separation, going through complex relationships or other life challenges.
-
-Circles users attend live video and audio meetings. They also have the ability to message via online chat at any time and access personalized content, including self-help exercises, blogs, webinars.
-
-<YouTubeEmbed url='https://youtu.be/gxwapWmv-zo' />
-
-<TitleWithIcon sectionTitle="Circles development process" titleIcon="/images/gearwheel.svg" titleIconAlt="Circles Development Process" />
 
 Circles is a product developed by a startup in Israel. The client came to us thanks to a referral from our long-term client. We started our collaboration in June 2021. The product was already launched. Our team of experienced bright Fullstack Developers joined to support product development. **We are responsible for the web and mobile versions of the app by delivering full-stack and cloud computing solutions**.
 
