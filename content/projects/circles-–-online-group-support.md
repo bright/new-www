@@ -48,8 +48,6 @@ show on homepage: true
 published: true
 language: en
 ---
-
-
 <TitleWithIcon sectionTitle="main features developed by Bright Inventions:" titleIcon="/images/icons_features_svg.svg" titleIconAlt="main features" />
 
 <SliderText sliderElements='[{"title":"Audio rooms","description":"Live audio rooms with up to 50 participants on iOS and Android apps."},{"title":"Various audio room functions","description":"The audio room includes various functions such as reactions, caller queuing, a moderator panel for calls, and an integrated chat feature."},{"title":"App payments","description":"Mobile app payments with different pricing tiers and plans."},{"title":"Web and mobile onboarding","description":"Onboarding which helps users quickly find the support group suitable for their needs."},{"description":"Features for video conferences such as group chat or screen sharing by a group facilitator.","title":"Video conferences"},{"title":"Direct messaging","description":"Direct messaging for group members."},{"title":"Panel for therapists","description":"Admin panel dedicated to therapists conducting group meetings."},{"description":"Redesign of the group space where group members can interact with each other.","title":"Group space redesign "},{"title":"Business and analytics tools","description":"Customized business tool for processing user experience, traffic and acquisition data."}]' />
@@ -68,11 +66,15 @@ This grim reality of mental health in the U.S. calls for a solution that not onl
 
 <TitleWithIcon sectionTitle="the solution: online therapy platform for expert-guided group healing" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution:" />
 
-Circles, an Israeli startup, has launched a mental health tech application designed for those dealing with grief, divorce, or simply seeking a safe space to express their emotions. 
+**[Circles](https://circlesup.com/), an Israeli startup, has launched a mental health tech application** designed for those dealing with grief, divorce, or simply seeking a safe space to express their emotions. 
 
 <AppStore googleApp='https://circlesup-support.onelink.me/Zfmp/jvvug6g9' srcGoogle='/images/google_play.png' altGoogleImage='google play' appStore='https://circlesup-support.onelink.me/Zfmp/vn9898b2' srcAppStore='/images/app_store.png' altAppStoreImage='app store' />
 
-Circles is a product developed by a startup in Israel. The client came to us thanks to a referral from our long-term client. We started our collaboration in June 2021. The product was already launched. Our team of experienced bright Fullstack Developers joined to support product development. **We are responsible for the web and mobile versions of the app by delivering full-stack and cloud computing solutions**.
+After launching the pilot version, Circles approached our team for expertise in scaling their product in a competitive market. Initially involved in web development, we now offer support in other areas such as mobile development and cloud computing.
+
+
+
+
 
 <div className="image">![Client's review](../../static/images/case_study_circles_client_quote.png "undefined")</div>
 
