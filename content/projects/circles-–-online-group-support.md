@@ -72,45 +72,13 @@ This grim reality of mental health in the U.S. calls for a solution that not onl
 
 After launching the pilot version, **Circles approached our team for expertise in scaling their product** in a competitive market. Initially involved in **web development**, we now offer support in other areas such as **mobile development** and **cloud computing**.
 
-<div className="image">![mental health app mockups](../../static/images/mental_health_app_mockups.png "")</div>
+<div className="image">![mental health app mockups](../../static/images/mental_health_app_mockups.png "mental health app mockups")</div>
+
+With Circles iOS or Android app, **users can easily join audio meetings led by mental health experts**. The audio drop-in and drop-out functionality, crafted by our team, not only offers easy access to mental support but also creates a sense of community. 
+
+We also developed **numerous custom features to enhance the audio room experience, including user reactions, caller queuing, a call moderator panel, and an in-built chat**. Beyond group therapy sessions, Circles provides **continuous interaction with therapists** and a **personalized mental health plan** developed by its experts.
 
 <div className="image">![Client's review](../../static/images/case_study_circles_client_quote.png "undefined")</div>
-
-### Agile approach
-
-Circles is a startup focused on building innovative mental health products. We provide support to our clients like Circles and proudly help them create products that have a significant impact on users. We are flexible and quickly adapt to the ever-changing nature of the startup environment. We understand that nothing remains constant in the pursuit of innovation. That's why we prioritize swift adjustments and offer tailored technical recommendations based on business needs.
-
-Bright Inventions works closely with the client, joining daily and weekly meetings with various teams to understand the perspectives of every side including marketing and sales departments. Working with the Circles team means not only working on tech but also exploring the business nature of the project. 
-
-### Web development
-
-Since we came on board, we helped to develop a group chat adding new features such as user engagement via chat and other tools. What is more, we implemented a user-friendly Circles group discovery section which was a part of the web onboarding process. It helped users to find the right support group to join. Naturally, we are also responsible for app maintenance.
-
-<div className="image">![onboarding mockup web](../../static/images/circles_mockup.png "It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team.")</div>
-
-<sub> *It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team*. </sub>
-
-### Mobile development
-
-After a successful collaboration in the web development area, **our client decided to engage our team in mobile development as well**. Since the beginning of 2022 mobile developers from Bright Inventions have **built cross-platform applications for Android and iOS with ReactNative**.
-
-Mobile apps have become the core of Circles' solution. Thanks to the new audio meetings feature, delivered with the support of our mobile team, Circles attract new groups of users.
-
-Audio drop-in and drop-out of conversations give users easy access to mental support and also offer them a sense of belonging. In order to develop a live audio meeting feature we implemented the Twilio library. 
-
-Besides that, we still needed to develop custom solutions to adjust the audio room to specific clients' needs. As a result, we developed custom features such as reactions, callers queuing, call moderator panel and in-built chat. The implementation of the chat feature involved the usage of the GetStream library.
-
-### Cloud computing
-
-Circles is in the face of steady growth, acquiring more and more users, especially mobile ones. As the user base of the app expands, every DevOps team has to address scalability challenges. At Bright Inventions our primary focus is not just on adapting to these changes, but rather on proactively preparing the infrastructure beforehand.
-
-That’s why our current cloud computing goal is horizontal scaling which is a technique used to increase the capacity and performance of a system by adding more instances of the same component. By horizontally scaling, Circles will achieve higher availability, better load balancing, and the capability to handle larger user loads seamlessly, ensuring the best possible app experience for users.
-
-### Analytics
-
-On top of that, we deliver solutions that enable analyzing data. For example, our team worked on a customized data tracking and processing solution that provides Circles specialists with automated reports widely covering users' activity, experience or traffic sources. All this information enables planning new features and making strategic business decisions for further growth.
-
-<AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 <TitleWithIcon sectionTitle="Circles’ perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Circles’ perspective" />
 
