@@ -96,6 +96,6 @@ We also developed **numerous custom features to enhance the audio room experienc
 
 <TitleWithIcon sectionTitle="the results of the collaboration" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
 
-Notable milestones mark the journey of Circles. In their Series A funding round, the Israeli startup successfully raised $16.5 million. Not only do they get a thumbs-up from investors, but their solution is also making waves in the mental health community.
+Notable milestones mark the journey of Circles. **In their Series A funding round, the Israeli startup successfully raised $16.5 million**. Not only do they get a thumbs-up from investors, but their solution is also making waves in the mental health community.
 
-Circles was honored with the title of 'Best for Group Support' emerging as a winner in the Online Therapy & Wellness Awards, organized by Verywell Mind. We are delighted to assist Circles on their impressive way to digitalize mental health.
+**Circles was honored with the title of 'Best for Group Support' emerging as a winner in the Online Therapy & Wellness Awards, organized by [Verywell Mind](https://www.verywellmind.com/verywell-mind-s-2023-online-therapy-and-wellness-awards-7966994)**. We are delighted to assist Circles on their impressive way to digitalize mental health.
