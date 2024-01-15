@@ -30,7 +30,7 @@ image_recruiter_info: /images/ula_recruiter_hr.png
 image_alt_recruiter_info: "ula recruiter "
 button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
 button: "join our bright team "
-published: true
+published: false
 show_recruiter_info: true
 order: 1
 recruting_image2_title: "interview (business & communication part "
