@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: blazej-d
-ex: false
+ex: true
 slug: blazej-d
 name: Błażej Dziuk
 short_name: Błażej (Blaze)
