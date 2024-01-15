@@ -31,7 +31,7 @@ image_recruiter_info: /images/agata_recruiter.png
 image_alt_recruiter_info: Agata Dankowska - Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our bright team
-published: true
+published: false
 show_recruiter_info: true
 order: 1
 recruting_image2_title: "interview (business & communication part) "
