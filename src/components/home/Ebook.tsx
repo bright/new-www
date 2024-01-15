@@ -4,7 +4,7 @@ import { ContactEbook } from './ebook/ContactEbook'
 
 import { useEbookForm } from '../utils/ebook-form/use-ebook-form'
 import { HomeEbookThankYouPage } from './ebook/HomeEbookThankYouPage'
-import EbookCover from '../../assets/ebook-sign-in-cover.svg'
+import EbookCover from '../../assets/cover_sign-in_homepage.svg'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
 import { ebookNames } from '../../ebook-names'
