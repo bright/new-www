@@ -9,6 +9,7 @@ email: lukasz.gnych@brightinventions.pl
 bio: Android Developer
 description: Android Developer
 avatar: /images/brightdev_business_1.png
+avatar_hover: /images/brightdev_business_1.png
 published: true
 language: en
 ---
