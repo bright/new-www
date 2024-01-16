@@ -50,15 +50,7 @@ show on homepage: false
 published: true
 language: en
 ---
-<TitleWithIcon sectionTitle="main features developed by Bright Inventions" titleIcon="/images/main_features_icon.png" titleIconAlt="features" />
 
-* Managing list of care home patients 
-* Registering medicine administration
-* Overview of medicine schedule for patients
-* Marking missed or skipped medicine administrations
-* Adding notes on patients’ state while administering medication
-* Requiring the supervisor’s approval for actions that might put the patient at risk
-* Setting reminders for subsequent medication administration
 
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="stack" />
 
@@ -106,7 +98,7 @@ Overcoming another hurdle, **we focused on refining a critical HealthTech featur
 
 *<center>Camascope mockup for the offline mode marked by the information bar.</center>*
 
-<TitleWithIcon sectionTitle="result: successful scaling with over 1,000 health &amp;amp;amp; care organization customers" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
+<TitleWithIcon sectionTitle="result: successful scaling with over 1,000 health &amp;amp;amp;amp; care organization customers" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
 **As an NHS Trusted Supplier and Crown Commercial Service Supplier Camascope has digitalised medicine distribution for over 1,000 health & care organizations**. The system is integrated with **leading pharmacy chains such as Boots, LloydsPharmacy, and Well**.
 
