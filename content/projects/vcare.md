@@ -66,15 +66,9 @@ language: en
 
 **technologies:** Kotlin, Swift, Bluetooth, Adobe XD
 
-<TitleWithIcon sectionTitle="about Comascope (prev. VCare)" titleIcon="/images/three_flags.svg" titleIconAlt="about" />
+<TitleWithIcon sectionTitle="problem: patients put at risk due to inefficient medicine distribution" titleIcon="/images/three_flags.svg" titleIconAlt="problem" />
 
-When we entrust our loved ones to a care home or assisted living facility, we want to be absolutely sure that their health and safety are a top priority. VCare is a software that helps care homes offer the highest level of care by making it easy to administer the right medication and dosage to residents, at the exact right time of day.
-
-<center>
-
-![A healthcare app](../../static/images/vcare_app.png)
-
-</center>
+In the United Kingdom, approximately [17,100 care homes are dedicated to accommodating over 400,000 individuals](https://www.braemarfinance.co.uk/s/insights/blog/facts-figures-uk-care-home-sector-MCXEQ2ZU7QKVFOBOP272VSXJDDWQ#:~:text=The%20care%20home%20sector%20in,after%20more%20than%20400%2C000%20people.). The UK's care home sector plays a pivotal role in supporting those in need of professional care.
 
 <TitleWithIcon sectionTitle="goal" titleIcon="/images/goal_title_section.png" titleIconAlt="goal" />
 
