@@ -106,6 +106,8 @@ Overcoming another hurdle, **we focused on refining a critical HealthTech featur
 
 *<center>Camascope mockup for the offline mode marked by the information bar.</center>*
 
-<TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
+<TitleWithIcon sectionTitle="result: successful scaling with over 1,000 health &amp; care organization customers" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
-The iOS and updated Android apps were released in 2019. For three years after the launch, we actively supported the client in maintenance and delivered new features. We are happy to see how the product is growing. We are also grateful for the opportunity to support the client during the crucial period after the launch.
+**As an NHS Trusted Supplier and Crown Commercial Service Supplier Camascope has digitalised medicine distribution for over 1,000 health & care organizations**. The system is integrated with **leading pharmacy chains such as Boots, LloydsPharmacy, and Well**.
+
+We are proud to have helped Camascope level up its solution during a crucial scaling phase. Currently, **the system supports over 25,000 active patients across the UK**, establishing itself as a leading mMedTech platform for British care homes.
