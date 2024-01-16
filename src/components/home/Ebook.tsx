@@ -4,10 +4,10 @@ import { ContactEbook } from './ebook/ContactEbook'
 
 import { useEbookForm } from '../utils/ebook-form/use-ebook-form'
 import { HomeEbookThankYouPage } from './ebook/HomeEbookThankYouPage'
-import EbookCover from '../../assets/cover_sign-in_homepage.svg'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
 import { ebookNames } from '../../ebook-names'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const EbbokSection = styled(CustomSection)`
   @media ${variables.device.mobile} {
@@ -32,7 +32,7 @@ const Ebook = () => {
         bright ebook
       </CustomSectionTitle>
       <FlexWrapper desktopGap='64px' desktopItems='center' tabletXLGap='32px' tabletDirection='column' tabletGap='64px'>
-        <EbookCover />
+        <StaticImage src={'../../../static/images/cover-sign-in-ebook.png'} alt={'cover-sign-in-ebook'}/>
 
         {!value.ebookResponse.ebook.url ? (
           <FlexWrapper desktopDirection='column' desktopBasis='63%' laptopBasis='57%' tabletXLBasis='46%'>
