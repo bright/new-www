@@ -3,6 +3,7 @@ author: izabela
 tags:
   - development
   - business
+  - AI
 date: 2023-02-10T09:44:23.326Z
 meaningfullyUpdatedAt: 2023-03-23T12:17:57.544Z
 title: ChatGPT vs. Bard – Which AI Chatbot is Better?
