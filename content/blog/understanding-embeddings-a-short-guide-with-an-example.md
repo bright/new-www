@@ -19,14 +19,13 @@ For example, the conversion of the word 'dog' into a numerical vector representa
 
 <div className="image">![embeddings convert process](../../static/images/embeddingmodel.png "")</div>
 
-\
-**What is the embedding dimension?**
+## What is the embedding dimension?
 
 **A crucial factor in determining the quality and effectiveness of the embedding is the embedding dimension. Generally, the term 'dimensionality of word embedding' refers to the total count of dimensions used to define a word's vector representation.** This number is usually established during the development of the word embedding and indicates how many distinct features are included in the vector representation of the word.
 
 For text embeddings, these vectors are constructed in a way that captures the semantic meaning of the text. This ensures that words or sentences conveying similar meanings are close to each other in the embedded space, often referred to as a vector space.
 
-**What does that mean? Here’s a simple example.**
+## What does that mean? Here’s a simple example.
 
 Let's say we have a space with only two dimensions - \[x, y], where x represents sex and y represents activity.
 
@@ -41,6 +40,6 @@ We can observe that the sentence "Walk" is associated with a woman, a man, a boy
 
 Remember, this is a very simplified example with only two dimensions of meaning. In reality, the more such dimensions there are, the better our embedding is at guessing the meanings of saved sentences as words or phrases.
 
-**Ready for more embedding tutorials?**
+## Ready for more embedding tutorials?
 
 In the upcoming articles, we'll delve deeper into various applications of embedding in AI. Subscribe to our [newsletter](https://bright-dev-newsletter.getresponsepages.com/) to stay updated and not miss out on any insights!
