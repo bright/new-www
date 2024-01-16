@@ -76,6 +76,8 @@ In the extensive array of duties borne by care home providers, the task of **med
 
 **[Camascope](https://www.camascope.com/), formerly VCare Systems, a UK-based health tech company**, was co-founded by **[Saurabh Shah](https://blog.camascope.com/resources/post/the-camascope-story), a pharmacist with 15+ years of experience** whose vision led to the creation of the Electronic **Medication Administration Record (eMAR)**, streamlining medicine distribution for care home professionals.
 
+<div className="image">![home care HealthTech](../../static/images/home_care_health_tech.png "home care HealthTech")</div>
+
 
 
 <TitleWithIcon sectionTitle="process of developing vCare application" titleIcon="/images/gearwheel.svg" titleIconAlt="bright" />
