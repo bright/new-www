@@ -98,6 +98,10 @@ Another challenge was **building a system that would genuinely streamline daily 
 
 An important feature we also incorporated was a user-friendly **body map, which enables physicians to quickly select a body part on the map, linking it to the administered medication or medical procedure**. This intuitive tool aids in both accuracy and efficiency in patient care.
 
+<div className="image">![medtech features body map](../../static/images/body_map_feature_medtech.png "medtech features body map")</div>
+
+
+
 <TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
 The iOS and updated Android apps were released in 2019. For three years after the launch, we actively supported the client in maintenance and delivered new features. We are happy to see how the product is growing. We are also grateful for the opportunity to support the client during the crucial period after the launch.
