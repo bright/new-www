@@ -43,9 +43,7 @@ show on homepage: false
 published: true
 language: en
 ---
-
-
-<TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="skills" />
+<TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
 <Gallery images='[{"src":"/images/react_stack_logo.svg","alt":"React"},{"src":"/images/node_stack_logosvg.svg","alt":"Node.js"},{"src":"/images/nestjs_stack_logo.svg","alt":"NestJS"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/aws_stack_logo.svg","alt":"AWS"}]' />
 
