@@ -90,6 +90,8 @@ Moreover, the **Camascope system mandates supervisor approval for significant tr
 
 Imagine being a nurse, juggling the care of multiple patients, each with unique health profiles, medication plans, and allergy considerations. Healthcare providers grapple with a flood of information. **The crucial challenge was to create a system that not only organizes this complexity but also reduces the risk of errors**.
 
+<div className="image">![eMAR solution mockup](../../static/images/emar_mockup_medtech.png "eMAR solution mockup")</div>
+
 
 
 <TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
