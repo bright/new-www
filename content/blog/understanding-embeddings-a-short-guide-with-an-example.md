@@ -29,7 +29,7 @@ For example, the conversion of the word 'dog' into a numerical vector representa
 
 For text embeddings, these vectors are constructed in a way that captures the semantic meaning of the text. This ensures that words or sentences conveying similar meanings are close to each other in the embedded space, often referred to as a vector space.
 
-## What does that mean? Here’s a simple example.
+## What does that mean? Here’s a simple example
 
 Let's say we have a space with only two dimensions - \[x, y], where x represents sex and y represents activity.
 
