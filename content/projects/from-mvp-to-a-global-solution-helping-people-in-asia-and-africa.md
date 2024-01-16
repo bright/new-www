@@ -43,26 +43,13 @@ show on homepage: false
 published: true
 language: en
 ---
-<TitleWithIcon sectionTitle="main features developed by Bright Inventions:" titleIcon="/images/icons_features_svg.svg" titleIconAlt="main features" />
 
-* Monitoring the “life cycle” of payment instruments.
-* Receiving data about cards from banks.
-* Scanning cards in order to track their status and location (details of payment transactions aren’t gathered).
-* A mechanism for distributing cards and PINs to local communities in need
-* Offline mode for a mobile app allowing for distributing cards in the terrain.
-* Web application providing reports about card statuses and distribution.
 
-<TitleWithIcon sectionTitle="skills" titleIcon="/images/skills.svg" titleIconAlt="skills" />
+<TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="skills" />
 
 <Gallery images='[{"src":"/images/react_stack_logo.svg","alt":"React"},{"src":"/images/node_stack_logosvg.svg","alt":"Node.js"},{"src":"/images/nestjs_stack_logo.svg","alt":"NestJS"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/aws_stack_logo.svg","alt":"AWS"}]' />
 
-**Web Frontend:** React.js + Redux, MaterialUI + styled-components
-
-**Backend:** Node.js, NestJS
-
-**Android:** Kotlin
-
-**Deployment**: AWS – CloudFormation, TeamCity
+**technologies:** React.js + Redux, MaterialUI + styled-components, Node.js, NestJS, Kotlin, AWS – CloudFormation, TeamCity
 
 <TitleWithIcon sectionTitle="harnessing the power of technology to aid" titleIcon="/images/icon_title_about.svg" titleIconAlt="Harnessing the power of technology to aid" />
 
