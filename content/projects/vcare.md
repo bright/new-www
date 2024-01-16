@@ -100,7 +100,11 @@ An important feature we also incorporated was a user-friendly **body map, which 
 
 <div className="image">![medtech features body map](../../static/images/body_map_feature_medtech.png "medtech features body map")</div>
 
+Overcoming another hurdle, **we focused on refining a critical HealthTech feature – offline mode**. In situations where every second counts, having a reliable app without an internet connection is imperative. Our challenge was to **design an interface that unmistakably signals when users are in offline mode, ensuring seamless data synchronization at a later stage**. The emphasis here was on a clear and intuitive design.
 
+<div className="image">![Camascope mockup for the offline mode marked by the information bar.](../../static/images/offline_mode_design_medtech.png "Camascope mockup for the offline mode marked by the information bar.")</div>
+
+*<center>Camascope mockup for the offline mode marked by the information bar.</center>*
 
 <TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
