@@ -68,7 +68,9 @@ language: en
 
 <TitleWithIcon sectionTitle="problem: patients put at risk due to inefficient medicine distribution" titleIcon="/images/three_flags.svg" titleIconAlt="problem" />
 
-In the United Kingdom, approximately [17,100 care homes are dedicated to accommodating over 400,000 individuals](https://www.braemarfinance.co.uk/s/insights/blog/facts-figures-uk-care-home-sector-MCXEQ2ZU7QKVFOBOP272VSXJDDWQ#:~:text=The%20care%20home%20sector%20in,after%20more%20than%20400%2C000%20people.). The UK's care home sector plays a pivotal role in supporting those in need of professional care.
+**In the United Kingdom, approximately [17,100 care homes are dedicated to accommodating over 400,000 individuals](https://www.braemarfinance.co.uk/s/insights/blog/facts-figures-uk-care-home-sector-MCXEQ2ZU7QKVFOBOP272VSXJDDWQ#:~:text=The%20care%20home%20sector%20in,after%20more%20than%20400%2C000%20people.)**. The UK's care home sector plays a pivotal role in supporting those in need of professional care.
+
+In the extensive array of duties borne by care home providers, the task of **medicine distribution is a crucial and demanding responsibility**. The lack of digitalization in this area has cast a long shadow, leading to a confronting reality where **communication between pharmacies and care homes is fragmented and historical data on patient medication distribution alarmingly inaccessible**. 
 
 <TitleWithIcon sectionTitle="goal" titleIcon="/images/goal_title_section.png" titleIconAlt="goal" />
 
