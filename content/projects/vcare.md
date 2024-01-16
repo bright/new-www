@@ -10,14 +10,17 @@ our_service:
   - product design
 layout: project
 project_id: vcare
-title: Camascope (prev. VCare Systems)
-image: /images/vcare-_mockup-3_700.jpg
-description: A healthcare software solution that helps care homes all over the
-  United Kingdom monitor their residents’ health and register medicine
-  administration.
-hero_image: /images/case_study_healthtech_mobile_web.png
+title: "Digitally Connecting the UK Care Homes with Camascope: Trusted by 1000+
+  Health Organizations"
+image: /images/case-study_cover_emar.png
+description: Behind the story of Camascope, there is a pharmacist who
+  experienced firsthand the challenges care home professionals faced in
+  medication distribution. This pharmacist was Saurabh Shah, the founder of
+  Camascope (prev. vCare). With our help, Camascope now digitally streamlines
+  daily medication routines for 25,000+ patients across the UK.
+hero_image: /images/case_study_emar_healthtech.png
 Hero Image_alt: A healthcare software solution
-social_media_previev: /images/vcare_fb_preview.png
+social_media_previev: /images/fb_preview_case_study_emar.png
 social_media_previev_alt: vCare case study
 bar_achievements:
   - number: "2"
