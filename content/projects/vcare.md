@@ -23,12 +23,12 @@ Hero Image_alt: A healthcare software solution
 social_media_previev: /images/fb_preview_case_study_emar.png
 social_media_previev_alt: vCare case study
 bar_achievements:
-  - number: "2"
-    label: mobile apps
-  - number: "1000"
-    label: Health & Care Organisation Customers
-  - number: "7"
-    label: Key features
+  - number: 25k+
+    label: Active users on Comascope systems
+  - number: 1000+
+    label: Health & Care Organisations
+  - number: 69M+
+    label: Medicines administered using Camascope
 tags:
   - mobile app
   - web app
