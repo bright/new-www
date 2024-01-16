@@ -78,7 +78,9 @@ In the extensive array of duties borne by care home providers, the task of **med
 
 <div className="image">![home care HealthTech](../../static/images/home_care_health_tech.png "home care HealthTech")</div>
 
+Upon the debut of their initial eMAR solution, **Camascope reached out to our team to explore a collaborative effort aimed at refining and advancing the product to a more sophisticated stage**. As a result, a comprehensive eMAR solution emerged. A mobile application, accessible on both Apple and Android devices, now **provides seamless access to patients' medical history and prescribed medications**.
 
+This application facilitates **real-time updates on medication intake** accessible for healthcare providers, patients, and their families. The **offline mode empowers caregivers to make essential updates without concern for internet connectivity**.
 
 <TitleWithIcon sectionTitle="process of developing vCare application" titleIcon="/images/gearwheel.svg" titleIconAlt="bright" />
 
