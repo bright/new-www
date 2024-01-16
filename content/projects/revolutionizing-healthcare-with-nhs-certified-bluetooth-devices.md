@@ -46,17 +46,9 @@ show on homepage: false
 published: true
 language: en
 ---
-<TitleWithIcon sectionTitle="key features built by Bright Inventions:" titleIcon="/images/icons_features_svg.svg" titleIconAlt="features" />
 
-* Connecting Bluetooth healthcare devices into one system.
-* Monitoring patient's vital signs.
-* Offline mode enables the measurement of a patient’s vitals without an internet connection.
-* Analyzing patient's condition with a customized algorithm.
-* Sharing patient’s results with a physician.
-* Triggering an alarm if the patient’s medical condition reaches a life-threatening state.
-* Video consultations.
 
-<TitleWithIcon sectionTitle="stack" titleIcon="/images/skills.svg" titleIconAlt="bright" />
+<TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
 <Gallery images='[{"src":"/images/android_stack_logo.svg","alt":"Android"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/bluetooth_stack_logo.svg","alt":"Bluetooth"},{"src":"/images/adobexdstack_logo.svg","alt":"AdobeXD"}]' />
 
