@@ -62,7 +62,7 @@ language: en
 
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="stack" />
 
-<Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/adobexdstack_logo.png","alt":"Adobe XD"},{"src":"/images/bluetooth_stack_logo.svg","alt":"Bluetooth"}]' />
+<Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/bluetooth_stack_logo.svg","alt":"Bluetooth"},{"src":"/images/adobexdstack_logo.svg","alt":"Adobe XD"}]' />
 
 **technologies:** Kotlin, Swift, Bluetooth, Adobe XD
 
@@ -106,7 +106,7 @@ Overcoming another hurdle, **we focused on refining a critical HealthTech featur
 
 *<center>Camascope mockup for the offline mode marked by the information bar.</center>*
 
-<TitleWithIcon sectionTitle="result: successful scaling with over 1,000 health &amp;amp; care organization customers" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
+<TitleWithIcon sectionTitle="result: successful scaling with over 1,000 health &amp;amp;amp; care organization customers" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
 **As an NHS Trusted Supplier and Crown Commercial Service Supplier Camascope has digitalised medicine distribution for over 1,000 health & care organizations**. The system is integrated with **leading pharmacy chains such as Boots, LloydsPharmacy, and Well**.
 
