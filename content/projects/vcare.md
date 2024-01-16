@@ -82,17 +82,15 @@ Upon the debut of their initial eMAR solution, **Camascope reached out to our te
 
 This application facilitates **real-time updates on medication intake** accessible for healthcare providers, patients, and their families. The **offline mode empowers caregivers to make essential updates without concern for internet connectivity**.
 
-<TitleWithIcon sectionTitle="process of developing vCare application" titleIcon="/images/gearwheel.svg" titleIconAlt="bright" />
+<div className="image">![eMAR app mockup](../../static/images/emar_app_mockup.png "eMAR app mockup")</div>
 
-Our design team’s goal was to create intuitive, reliable mobile apps that would make it easy to register medicine administration and view historical records for each patient. It was absolutely crucial that anyone using the app knew whether a given resident had already taken his/her medication, and had the option to add a note on the patient’s profile.
+Moreover, the **Camascope system mandates supervisor approval for significant treatment alterations. It also reduces errors by promptly notifying care home staff about potential missed medications**, alleviating the considerable responsibility of their workload.
 
-To further increase the security of home care residents, the software also needed to include a supervisor approval feature for any significant change in treatment applied by a member of staff.
+<TitleWithIcon sectionTitle="challenge: making a data-heavy and multifunctional system an intuitive one" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
 
-Our designers worked on the redesign and incorporation of these and several other new features to the Android app, and designed the entire experience for iOS.
+Imagine being a nurse, juggling the care of multiple patients, each with unique health profiles, medication plans, and allergy considerations. Healthcare providers grapple with a flood of information. **The crucial challenge was to create a system that not only organizes this complexity but also reduces the risk of errors**.
 
-For updating the Android app, our developers worked in Kotlin, and applied Room library for the database, Dagger for dependency injection, and Coroutines for asynchronous programming.
 
-For iOS, we chose to work in Swift, and – among others – applied Cocoa Pods for dependency injection, Nimble and Quick for running tests, and Teamcity and Fastlane for deployment.
 
 <TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
