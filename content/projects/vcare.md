@@ -72,15 +72,11 @@ language: en
 
 In the extensive array of duties borne by care home providers, the task of **medicine distribution is a crucial and demanding responsibility**. The lack of digitalization in this area has cast a long shadow, leading to a confronting reality where **communication between pharmacies and care homes is fragmented and historical data on patient medication distribution alarmingly inaccessible**. 
 
-<TitleWithIcon sectionTitle="goal" titleIcon="/images/goal_title_section.png" titleIconAlt="goal" />
+<TitleWithIcon sectionTitle="solution: a system that helps control medicine distribution" titleIcon="/images/goal_title_section.png" titleIconAlt="solution" />
 
-When we first spoke to the [VCare](https://www.vcaresystems.co.uk) team, there was already a working Android app present on the market. However, the Founders were looking to take the software to a new level by improving the design and code, and by exponentially growing the app’s reach to new target groups.
+**[Camascope](https://www.camascope.com/), formerly VCare Systems, a UK-based health tech company**, was co-founded by **[Saurabh Shah](https://blog.camascope.com/resources/post/the-camascope-story), a pharmacist with 15+ years of experience** whose vision led to the creation of the Electronic **Medication Administration Record (eMAR)**, streamlining medicine distribution for care home professionals.
 
-Firstly, VCare wanted to make their healthcare solution available to facilities using iOS-based devices. This meant that an iOS app that would work on both mobile and tablet devices needed to be developed from scratch.
 
-Secondly, the VCare team was looking for major design and code refinements for the existing Android app and software. They have also decided to develop several new features to further ensure patients’ security and facilitate caregivers’ daily work.
-
-<div className="image">![vCare](../../static/images/vcare.png "vCare")</div>
 
 <TitleWithIcon sectionTitle="process of developing vCare application" titleIcon="/images/gearwheel.svg" titleIconAlt="bright" />
 
