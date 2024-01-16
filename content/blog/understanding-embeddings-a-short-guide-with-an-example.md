@@ -15,13 +15,13 @@ language: en
 ---
 **Embeddings are an invisible, yet important part of many technologies we encounter. From internet search engines, through recommendation systems and advertisement personalization, to advanced analyses of images, videos, and technologies for speech and sound recognition – embeddings play a key role everywhere. In this article, we will explain how embeddings work and how they facilitate, and enrich our daily experiences with technology.**
 
-<div className="image">![Embedding explained](../../static/images/embeddings_blog_cover.png "")</div>
+<div className="image">![Embedding explained](../../static/images/embeddings_blog_cover.png "Embedding explained")</div>
 
 As I mentioned above, vector embeddings are a popular technique to represent information in a format (typically as a vector of numerical values) that can be easily processed by algorithms, especially deep learning models. This ‘information’ can be text, pictures, video, and audio.\
 \
 For example, the conversion of the word 'dog' into a numerical vector representation could look like this:
 
-<div className="image">![embeddings convert process](../../static/images/embeddingmodel.png "")</div>
+<div className="image">![embeddings convert process](../../static/images/embeddingmodel.png "embeddings convert process")</div>
 
 ## What is the embedding dimension?
 
@@ -33,12 +33,12 @@ For text embeddings, these vectors are constructed in a way that captures the se
 
 Let's say we have a space with only two dimensions - \[x, y], where x represents sex and y represents activity.
 
-<div className="image">![embeddings dimensional space](../../static/images/embedding_dimension_example.png "")</div>
+<div className="image">![embeddings dimensional space](../../static/images/embedding_dimension_example.png "embeddings dimensional space")</div>
 
 \
 Now, for example, by asking the question 'Who is walking?' the embeddings will search for vectors that include the 'Walk' sentence in the y dimension.
 
-<div className="image">![embeddings dimensional space with similarity comprasion](../../static/images/embedding_dimensions_example_vectors.png "")</div>
+<div className="image">![embeddings dimensional space with similarity comprasion](../../static/images/embedding_dimensions_example_vectors.png "embeddings dimensional space with similarity comprasion")</div>
 
 We can observe that the sentence "Walk" is associated with a woman, a man, a boy, and a girl. This means that all of them are walking. And thus, we get our answer: A woman, a man, a boy, and a girl are walking.  
 
