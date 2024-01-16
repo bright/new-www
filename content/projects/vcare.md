@@ -50,7 +50,7 @@ show on homepage: false
 published: true
 language: en
 ---
-<TitleWithIcon sectionTitle='main features developed by Bright Inventions' titleIcon='/images/main_features_icon.png' titleIconAlt='features' />
+<TitleWithIcon sectionTitle="main features developed by Bright Inventions" titleIcon="/images/main_features_icon.png" titleIconAlt="features" />
 
 * Managing list of care home patients 
 * Registering medicine administration
@@ -60,41 +60,23 @@ language: en
 * Requiring the supervisor’s approval for actions that might put the patient at risk
 * Setting reminders for subsequent medication administration
 
-<TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='stack' />
+<TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="stack" />
 
-<Gallery images='[{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/teamcity_stack_logo.png","alt":"Teamcity"},{"src":"/images/fastlane_logo_stack.png","alt":"Fastlane"},{"src":"/images/adobexdstack_logo.png","alt":"Adobe XD"}]' />
+<Gallery images='[{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/adobexdstack_logo.png","alt":"Adobe XD"},{"src":"/images/bluetooth_stack_logo.svg","alt":"Bluetooth"}]' />
 
-**Android:** Kotlin, Navigation Library
+**technologies:** Kotlin, Swift, Bluetooth, Adobe XD
 
-Database: Room
-
-Dependency Injection: Dagger
-
-Asynchronous programming: Coroutines
-
-**iOS:** Swift
-
-Database: Disk
-
-Dependency injection: CocoaPods
-
-Deployment: Teamcity, Fastlane
-
-Tests: Nimble, Quick
-
-**Product design**: Adobe XD
-
-<TitleWithIcon sectionTitle='about Comascope (prev. VCare)' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
+<TitleWithIcon sectionTitle="about Comascope (prev. VCare)" titleIcon="/images/three_flags.svg" titleIconAlt="about" />
 
 When we entrust our loved ones to a care home or assisted living facility, we want to be absolutely sure that their health and safety are a top priority. VCare is a software that helps care homes offer the highest level of care by making it easy to administer the right medication and dosage to residents, at the exact right time of day.
 
 <center>
 
-![A healthcare app](../../static/images/vcare_app.png "")
+![A healthcare app](../../static/images/vcare_app.png)
 
 </center>
 
-<TitleWithIcon sectionTitle='goal' titleIcon='/images/goal_title_section.png' titleIconAlt='goal' />
+<TitleWithIcon sectionTitle="goal" titleIcon="/images/goal_title_section.png" titleIconAlt="goal" />
 
 When we first spoke to the [VCare](https://www.vcaresystems.co.uk) team, there was already a working Android app present on the market. However, the Founders were looking to take the software to a new level by improving the design and code, and by exponentially growing the app’s reach to new target groups.
 
@@ -104,7 +86,7 @@ Secondly, the VCare team was looking for major design and code refinements for t
 
 <div className="image">![vCare](../../static/images/vcare.png "vCare")</div>
 
-<TitleWithIcon sectionTitle='process of developing vCare application' titleIcon='/images/gearwheel.svg' titleIconAlt='bright' />
+<TitleWithIcon sectionTitle="process of developing vCare application" titleIcon="/images/gearwheel.svg" titleIconAlt="bright" />
 
 Our design team’s goal was to create intuitive, reliable mobile apps that would make it easy to register medicine administration and view historical records for each patient. It was absolutely crucial that anyone using the app knew whether a given resident had already taken his/her medication, and had the option to add a note on the patient’s profile.
 
@@ -116,6 +98,6 @@ For updating the Android app, our developers worked in Kotlin, and applied Room 
 
 For iOS, we chose to work in Swift, and – among others – applied Cocoa Pods for dependency injection, Nimble and Quick for running tests, and Teamcity and Fastlane for deployment.
 
-<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
+<TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
 The iOS and updated Android apps were released in 2019. For three years after the launch, we actively supported the client in maintenance and delivered new features. We are happy to see how the product is growing. We are also grateful for the opportunity to support the client during the crucial period after the launch.
