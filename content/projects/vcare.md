@@ -6,8 +6,8 @@ team_members:
   - michal
 our_service:
   - mobile app development
-  - web development
   - product design
+  - bluetooth development
 layout: project
 project_id: vcare
 title: "Digitally Connecting the UK Care Homes with Camascope: Trusted by 1000+
