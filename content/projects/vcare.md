@@ -111,3 +111,5 @@ Overcoming another hurdle, **we focused on refining a critical HealthTech featur
 **As an NHS Trusted Supplier and Crown Commercial Service Supplier Camascope has digitalised medicine distribution for over 1,000 health & care organizations**. The system is integrated with **leading pharmacy chains such as Boots, LloydsPharmacy, and Well**.
 
 We are proud to have helped Camascope level up its solution during a crucial scaling phase. Currently, **the system supports over 25,000 active patients across the UK**, establishing itself as a leading mMedTech platform for British care homes.
+
+During our collaboration with Camascope, we also built an [IOT system with MedTech wearables and a telemedicine application](/projects/remote-patient-monitoring/). Read more about it in another case study!
