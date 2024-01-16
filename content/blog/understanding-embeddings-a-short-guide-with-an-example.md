@@ -13,6 +13,8 @@ language: en
 ---
 **Embeddings are an invisible, yet important part of many technologies we encounter. From internet search engines, through recommendation systems and advertisement personalization, to advanced analyses of images, videos, and technologies for speech and sound recognition – embeddings play a key role everywhere. In this article, we will explain how embeddings work and how they facilitate, and enrich our daily experiences with technology.**
 
+<div className="image">![Embedding explained](../../static/images/embeddings_blog_cover.png "")</div>
+
 As I mentioned above, vector embeddings are a popular technique to represent information in a format (typically as a vector of numerical values) that can be easily processed by algorithms, especially deep learning models. This ‘information’ can be text, pictures, video, and audio.\
 \
 For example, the conversion of the word 'dog' into a numerical vector representation could look like this:
