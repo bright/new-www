@@ -92,7 +92,11 @@ Imagine being a nurse, juggling the care of multiple patients, each with unique 
 
 <div className="image">![eMAR solution mockup](../../static/images/emar_mockup_medtech.png "eMAR solution mockup")</div>
 
+**We crafted a design that prioritizes crucial information while keeping all important patient data accessible on a single screen**. Based on detailed field studies and research, we understood that end-users desire quick access to patient information and don’t want to navigate through multiple screens to obtain it. Thus, ensuring the **interface is easy, fast, and smooth was the answer they needed**.
 
+Another challenge was **building a system that would genuinely streamline daily processes**, rather than becoming an additional burden on the shoulders of care providers. Our team built a variety of features specifically crafted to streamline the daily operations of caregivers. For instance, **by scanning the barcodes of medications, the system automatically notifies which medicine has been administered, eliminating the need for manual input**. 
+
+An important feature we also incorporated was a user-friendly **body map, which enables physicians to quickly select a body part on the map, linking it to the administered medication or medical procedure**. This intuitive tool aids in both accuracy and efficiency in patient care.
 
 <TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
