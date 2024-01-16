@@ -6,7 +6,6 @@ team_members:
   - michal
 our_service:
   - mobile app development
-  - web development
   - product design
 layout: project
 project_id: vcare
