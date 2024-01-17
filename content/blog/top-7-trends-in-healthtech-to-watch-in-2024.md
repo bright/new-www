@@ -85,3 +85,7 @@ The year 2024 could provide answers to crucial questions: **Is it feasible and e
 ## Greater focus on preventive healthcare with AI
 
 [Virtue Market Research](https://virtuemarketresearch.com/report/aI-preventive-care-market) predicts the rapid growth of AI in preventive care. In 2022, the market was valued at USD 7 billion and is projected to reach USD 161.14 billion by 2030
+
+<div className="image">![AI in preventive care](../../static/images/ai_in_preventive_care.png "Source: Virtue Market Research")</div>
+
+Source: [Virtue Market Research](https://virtuemarketresearch.com/report/aI-preventive-care-market)
