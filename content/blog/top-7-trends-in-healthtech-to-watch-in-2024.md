@@ -111,3 +111,15 @@ Particularly interesting to follow in 2024 is the work on [battery-free wearable
 Smart rings are wearable devices that are becoming smaller and more convenient alternatives to smartwatches. **Similarly to smartwatches, smart rings offer a wide range of healthcare and fitness functions, from vital signs monitoring and sleep recording to activity tracking**. The market for smart ring producers is growing, with Big Tech close to joining. Will 2024 be the year when Apple and Samsung release their first smart rings? We're about to find out! :)
 
 MedTech wearables are growing in popularity, aligning with another trend known as **biohacking**. This movement **empowers individuals to improve their body's functionality and enhance physical and cognitive performance**. Central to biohacking is the accessibility of technology, including smart devices, that enable people to take a more active role in managing their health. These devices facilitate self-care allowing people to monitor various aspects of health, such as the effects of their diet, physical activities, medication, and more.
+
+## Making telemedicine even more accessible
+
+Telemedicine gained significant popularity during the pandemic, evidenced by **the sharp increase in telehealth visits among [Medicare recipients](https://www.gao.gov/products/gao-22-104454) from about 5 million to over 53 million** in the early stages. Cost savings are a crucial factor in telemedicine growth. [A study conducted among nonelderly patients with cancer](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2800164) using telehealth shows that **the average cost savings per telemedicine visit for patients range from $147 to $186**. That means lower costs for patients as well as public or private healthcare insurance providers.
+
+<div className="image">![](../../static/images/telemedicine.png "")</div>
+
+**Moving into 2024, the focus should shift towards developing systematic solutions that enhance telemedicine accessibility for groups in dire need, such as seniors and chronic disease patients.** 
+
+Telehealth companies that will design software solutions addressing challenges like limited internet access, and technological unfamiliarity of end users have the potential to lead the way in telemedicine in the following years.
+
+Examples of telehealth companies to watch: Camascope, MedKitDoc, Maven.
