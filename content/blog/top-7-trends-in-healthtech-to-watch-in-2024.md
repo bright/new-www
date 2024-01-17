@@ -139,3 +139,16 @@ Patient Engagement Apps are the perfect solutions to monitor, support, and preve
 Get inspired by the story behind the [app for Parkinson’s patients](/projects/solution-for-parkinsons-patients/) built to engage users to monitor their symptoms better.
 
 <div className="image">![App for Parkinson patients mockups](../../static/images/app_for_parkinson_patients2.png "App for Parkinson patients mockups")</div>
+
+## The continuing rise of Mental HealthTech
+
+In 2019-2020, 20.78% of adults were experiencing a mental illness, equivalent to [over 50 million Americans](https://www.mhanational.org/issues/state-mental-health-america). Additionally, 10.8% of adults with a mental illness are uninsured, and over half (54.7%) do not receive treatment​​. Therefore, **mental HealthTech in 2024 should continue to focus on increasing access to mental support**.
+
+**Explore the most promising use cases of mental HealthTech:**
+
+**TeleTherapy Platforms**: platforms enabling remote therapy sessions between mental health professionals and clients through video calls, audio calls, or messaging. [Companies worth watching: [BetterHealth](https://www.betterhelp.com/), [TeenConsulting](https://www.teencounseling.com/), [Ritual](https://www.heyritual.com/).]
+
+**Online Support Groups**: platforms where individuals can find peer support. 
+[Check the success story of the startup [Circles](/projects/online-group-support/) which emerges as a premier online support platform.]
+
+<div className="image">![Group therapy platform mockups](../../static/images/group_therapy_app_mockups.png "Group therapy platform mockups")</div>
