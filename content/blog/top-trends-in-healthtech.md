@@ -6,8 +6,8 @@ tags:
   - AI
   - business
   - inspiration
-date: 2024-01-17T09:36:48.992Z
-meaningfullyUpdatedAt: 2024-01-17T09:36:49.012Z
+date: 2024-01-17T12:47:29.514Z
+meaningfullyUpdatedAt: 2024-01-17T12:47:30.332Z
 title: Top 7 Trends in HealthTech to Watch in 2024
 layout: post
 image: /images/healthtech2024trends_blog.png
@@ -150,7 +150,7 @@ The Patient Engagement Apps market is predicted to continually grow over the nex
 
 An important aspect of this market is related to managing chronic diseases, which are still not fully covered by HealthTech. 
 
-As of 2024, the chronic disease situation in the United States is a significant health and economic concern. **Patients with chronic diseases incur average direct healthcare costs of about $6,032 annually, which is approximately [five times higher than those without a chronic disease](https://www.americanactionforum.org/research/chronic-disease-in-the-united-states-a-worsening-health-and-economic-crisis/)**. The costs are mainly due to more frequent hospitalizations, emergency room visits, and greater prescription drug use. Notably, about 60% of all emergency room visits are associated with people with chronic conditions, costing around $8.3 billion in 2017.
+As of 2024, the chronic disease situation in the United States is a significant health and economic concern. **Patients with chronic diseases incur average direct healthcare costs of about 6,032 dollars annually, which is approximately [five times higher than those without a chronic disease](https://www.americanactionforum.org/research/chronic-disease-in-the-united-states-a-worsening-health-and-economic-crisis/)**. The costs are mainly due to more frequent hospitalizations, emergency room visits, and greater prescription drug use. Notably, about 60% of all emergency room visits are associated with people with chronic conditions, costing around $8.3 billion in 2017.
 
 Patient Engagement Apps are the perfect solutions to monitor, support, and prevent rising costs of hospitalizations and treatment of patients with chronic diseases. 
 
