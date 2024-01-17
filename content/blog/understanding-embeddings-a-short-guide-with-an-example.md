@@ -21,7 +21,7 @@ As I mentioned above, vector embeddings are a popular technique to represent inf
 \
 For example, the conversion of the word 'dog' into a numerical vector representation could look like this:
 
-<div className="image">![embeddings convert process](../../static/images/embeddingmodel.png "embeddings convert process")</div>
+<div className="image">![embeddings convert process](../../static/images/embeddings_model.png "embeddings convert process")</div>
 
 ## What is the embedding dimension?
 
