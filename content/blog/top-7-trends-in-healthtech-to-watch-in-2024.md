@@ -11,7 +11,7 @@ meaningfullyUpdatedAt: 2024-01-17T09:36:49.012Z
 title: Top 7 Trends in HealthTech to Watch in 2024
 layout: post
 image: /images/healthtech2024trends_blog.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
