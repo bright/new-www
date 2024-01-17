@@ -94,7 +94,7 @@ In 2024, **AI diagnostic applications in HealthTech should shift their focus fro
 
 This allows for early intervention and treatment, potentially **preventing more serious health issues such as cardiovascular diseases which are a leading cause of death globally**. In 2015, [17.7 million people died from cardiovascular diseases worldwide](https://www.bayer.com/en/pharma/economic-and-societal-impact-cardiovascular-disease). By the year 2030, this number is projected to rise to 22 million. Can we fight these predictions without AI? 
 
-## IoT and wearables for (truly) continuous remote patient monitoring
+## IoT and wearables for (truly) continuous remote patient monitoring and biohacking
 
 IoT and wearables in healthcare are nothing new, but their potential has not yet been fully realized. **The focus for 2024 should be on wearable health monitoring devices that can track patients' vital signs 24 hours a day** and on implementing these technologies more broadly.
 
