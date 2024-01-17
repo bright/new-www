@@ -56,7 +56,7 @@ This amounts to 150,000 tokens for the context alone. By adding the prompt query
 
 Here, the technique of representing text as numerical vectors, known as embeddings, comes to the rescue. There is another blog post where you can learn more details about how this technique works.
 
-For now, it's enough to understand that **embedding is a technique that converts text into numerical vectors, which retain the meaning of the converted sentence.** Depending on the sentence's meaning, these vectors are positioned at specific locations in the vector space.
+For now, it's enough to understand that e**mbedding is a technique that converts text into numerical vectors, which retain the meaning of the converted sentence.** Depending on the sentence's meaning, these vectors are positioned at specific locations in the vector space.
 
 So, now we know that before running our prompt, we have to first prepare the data (the book in our case) by dividing it into chunks, converting them into numeric vectors with the embedding technique, and saving them in a vector database.
 
