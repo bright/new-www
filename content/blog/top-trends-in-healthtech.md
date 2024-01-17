@@ -20,6 +20,10 @@ language: en
 
 <div className="image">![Tech trends in healthcare 2024](../../static/images/healthtech2024trends_blog.png "Tech trends in healthcare 2024")</div>
 
+## Table of contents
+
+
+
 ## HealthTech will finally shake off the post-COVID-19 hurdle
 
 While HealthTech was anticipated to flourish in the aftermath of COVID-19, it sadly became one of the most impacted sectors. Since 2021, this industry has witnessed a noticeable downturn, evident in the decline of stock values. 
