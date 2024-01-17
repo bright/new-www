@@ -10,7 +10,7 @@ our_service:
   - cloud services
 layout: project
 project_id: circles
-title: Secures $16.5M in Series A Funding. Circles Emerges as Premier Group
+title: Circles secures $16.5M in Series A Funding and Emerges as Premier Group
   Support Platform
 image: /images/case_study_cover_mental_health_app.png
 description: Circles is an online group therapy application connecting
@@ -21,7 +21,7 @@ description: Circles is an online group therapy application connecting
   to make mental health care much more accessible in the USA.
 hero_image: /images/case_study_online_therapy_woman.png
 Hero Image_alt: Circles - mental health app
-social_media_previev: /images/group_therapy_app_preview.png
+social_media_previev: /images/group_therapy_app_preview_some.png
 social_media_previev_alt: Circles case study
 bar_achievements:
   - number: $16.5 M
