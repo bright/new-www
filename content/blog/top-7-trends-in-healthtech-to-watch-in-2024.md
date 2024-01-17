@@ -71,3 +71,9 @@ AI can assist in diagnosing a variety of diseases, including:
 * **Eye Diseases**: AI algorithms can analyze retinal scans to detect diseases like diabetic retinopathy and age-related macular degeneration.
 
 Examples of AI in disease diagnostics companies to watch: [iCAD](https://www.icadmed.com/), [Emory University](https://medicalxpress.com/news/2023-08-ai-enables-earlier-diabetes-chest.html), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTech](https://www.ainnovatech.com/), [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/), [SkinVision.](https://www.skinvision.com/pl/)
+
+### Healthcare AI Chatbots – evolving from streamlining processes to actively assisting patients
+
+While most current healthcare chatbots (also called virtual healthcare assistants) are utilized to streamline processes like appointment scheduling, **the focus for 2024 should be on exploring their potential as tools that also actively solve patient issues, for example in the mental health area**. 
+
+<blockquote><div>It is very difficult for people with mental health disorders to actually talk about these things and to tell people 'I don't feel well.' So if this person feels very stigmatized and feels like it's not easy to talk about these things, to open up to this machine and say 'Well, I feel really, really bad today' and to hear something that seems like essentially what works is that they don't feel it's a person. The only reason they can open up is because they know it's not a person. It could also be that they don't have the person in front of them, so this kind of distance is what gives them the ability to actually talk about these issues.</div><footer>Dr Laura Martinengo, Research Fellow at Lee Kong Chian School of Medicine at NTU</footer></blockquote>
