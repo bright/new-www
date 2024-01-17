@@ -35,3 +35,11 @@ As stated in the [State of Health Tech 2023](https://www.bvp.com/atlas/state-of-
 <blockquote><div>The health tech cohort gains during summer of 2022 and January 2023 were mainly driven by announcements of relatively large acquisitions in the health tech sector, including Amazon’s $3.9 billion acquisition of One Medical, CVS Health’s $8 billion acquisition of Signify Health, and CVS Health’s $10.6 billion acquisition of Oak Street Health.</div></blockquote>
 
 Despite the financial struggles faced by the HealthTech sector, the enduring results of COVID-19's digital transformation in healthcare could not be slowed down. **The need for digitalization in healthcare has already been established within the industry and among patients, who feel empowered to use technology to manage their health daily.**
+
+## Advanced implementations of Generative AI in healthcare
+
+It’s impossible to discuss innovations in healthcare without including Generative AI. It is a type of artificial intelligence that can produce new content, such as text, images, or data, by learning from existing examples and patterns. **So, what Generative Al use cases in HealthTech are we most likely to see in 2024?**
+
+### Medical Imaging - one of the healthcare areas quickly to be transformed by AI
+
+Medical imaging is a method used to create images of the inside of the body for medical diagnosis and treatment. It includes techniques like X-rays, MRI, CT scans, and ultrasound.
