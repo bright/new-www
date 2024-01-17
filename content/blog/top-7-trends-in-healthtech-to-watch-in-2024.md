@@ -43,3 +43,5 @@ It’s impossible to discuss innovations in healthcare without including Generat
 ### Medical Imaging - one of the healthcare areas quickly to be transformed by AI
 
 Medical imaging is a method used to create images of the inside of the body for medical diagnosis and treatment. It includes techniques like X-rays, MRI, CT scans, and ultrasound.
+
+<YouTubeEmbed url='https://www.youtube.com/watch?v=dCDuMyzWS8Q' />
