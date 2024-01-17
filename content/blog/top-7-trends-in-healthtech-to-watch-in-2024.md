@@ -109,3 +109,5 @@ Particularly interesting to follow in 2024 is the work on [battery-free wearable
 <YouTubeEmbed url='https://www.youtube.com/watch?v=rIJjBcsJB6U' />
 
 Smart rings are wearable devices that are becoming smaller and more convenient alternatives to smartwatches. **Similarly to smartwatches, smart rings offer a wide range of healthcare and fitness functions, from vital signs monitoring and sleep recording to activity tracking**. The market for smart ring producers is growing, with Big Tech close to joining. Will 2024 be the year when Apple and Samsung release their first smart rings? We're about to find out! :)
+
+MedTech wearables are growing in popularity, aligning with another trend known as **biohacking**. This movement **empowers individuals to improve their body's functionality and enhance physical and cognitive performance**. Central to biohacking is the accessibility of technology, including smart devices, that enable people to take a more active role in managing their health. These devices facilitate self-care allowing people to monitor various aspects of health, such as the effects of their diet, physical activities, medication, and more.
