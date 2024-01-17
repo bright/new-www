@@ -69,3 +69,5 @@ AI can assist in diagnosing a variety of diseases, including:
 * **Neurological Disorders**: AI can help in diagnosing conditions like Alzheimer's and Parkinson's disease by analyzing patient data and brain imaging.
 * **Skin Conditions**: AI-driven image analysis tools can aid in diagnosing skin cancers and other dermatological conditions.
 * **Eye Diseases**: AI algorithms can analyze retinal scans to detect diseases like diabetic retinopathy and age-related macular degeneration.
+
+Examples of AI in disease diagnostics companies to watch: [iCAD](https://www.icadmed.com/), [Emory University](https://medicalxpress.com/news/2023-08-ai-enables-earlier-diabetes-chest.html), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTec](https://www.ainnovatech.com/)h, [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/), [SkinVision.](https://www.skinvision.com/pl/)
