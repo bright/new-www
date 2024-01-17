@@ -83,3 +83,5 @@ While most current healthcare chatbots (also called virtual healthcare assistant
 The year 2024 could provide answers to crucial questions: **Is it feasible and ethically acceptable to use chatbots, integrating tools from cognitive behavioral therapy and psychology, to assist users?** Or is there a line that needs to be drawn regarding their use in mental health technology?
 
 ## Greater focus on preventive healthcare with AI
+
+[Virtue Market Research](https://virtuemarketresearch.com/report/aI-preventive-care-market) predicts the rapid growth of AI in preventive care. In 2022, the market was valued at USD 7 billion and is projected to reach USD 161.14 billion by 2030
