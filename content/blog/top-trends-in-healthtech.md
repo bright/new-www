@@ -132,7 +132,7 @@ MedTech wearables are growing in popularity, aligning with another trend known a
 
 ## Making telemedicine even more accessible
 
-Telemedicine gained significant popularity during the pandemic, evidenced by **the sharp increase in telehealth visits among [Medicare recipients](https://www.gao.gov/products/gao-22-104454) from about 5 million to over 53 million** in the early stages. Cost savings are a crucial factor in telemedicine growth. [A study conducted among nonelderly patients with cancer](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2800164) using telehealth shows that **the average cost savings per telemedicine visit for patients range from $147 to $186**. That means lower costs for patients as well as public or private healthcare insurance providers.
+Telemedicine gained significant popularity during the pandemic, evidenced by **the sharp increase in telehealth visits among [Medicare recipients](https://www.gao.gov/products/gao-22-104454) from about 5 million to over 53 million** in the early stages. Cost savings are a crucial factor in telemedicine growth. [A study conducted among nonelderly patients with cancer](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2800164) using telehealth shows that **the average cost savings per telemedicine visit for patients range from 147 to 186 dollars**. That means lower costs for patients as well as public or private healthcare insurance providers.
 
 <div className="image">![TeleHealth](../../static/images/telemedicine.png "TeleHealth")</div>
 
