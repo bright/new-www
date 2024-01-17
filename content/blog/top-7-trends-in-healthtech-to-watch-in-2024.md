@@ -46,7 +46,7 @@ Medical imaging is a method used to create images of the inside of the body for 
 
 <YouTubeEmbed url='https://www.youtube.com/watch?v=dCDuMyzWS8Q' />
 
-Generative AI models are used to enhance medical imaging, following:
+**Generative AI models are used to enhance medical imaging, following:**
 
 * **Generating high-resolution images** from low-resolution inputs and reconstructing 3D images from 2D scans,
 * **Complete time-consuming work** like tracing tumors, tracing structures,
@@ -54,3 +54,5 @@ Generative AI models are used to enhance medical imaging, following:
 * **Data augmentation**: generating synthetic medical data, including images, text, or patient records or training machine learning models, especially when real data is limited or privacy concerns exist.
 * **Natural Language Processing (NLP)**: generating human-like text, making them useful for tasks like medical transcription, generating clinical notes, and assisting with healthcare documentation.
 * **Radiology Report Generation**: AI-driven models can automatically generate radiology reports based on medical images, helping radiologists save time and maintain consistency in their reporting.
+
+Examples of Medical Imaging AI companies to watch: [ContextVision](https://www.contextvision.com/), [Enlitic](https://enlitic.com/).
