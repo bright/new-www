@@ -122,4 +122,4 @@ Telemedicine gained significant popularity during the pandemic, evidenced by **t
 
 Telehealth companies that will design software solutions addressing challenges like limited internet access, and technological unfamiliarity of end users have the potential to lead the way in telemedicine in the following years.
 
-Examples of telehealth companies to watch: Camascope, MedKitDoc, Maven.
+Examples of telehealth companies to watch: [Camascope](https://www.camascope.com/), [MedKitDoc](https://medkitdoc.de/en), [Maven](https://www.mavenclinic.com/).
