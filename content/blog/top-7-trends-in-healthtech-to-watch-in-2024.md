@@ -89,3 +89,7 @@ The year 2024 could provide answers to crucial questions: **Is it feasible and e
 <div className="image">![AI in preventive care](../../static/images/ai_in_preventive_care.png "Source: Virtue Market Research")</div>
 
 Source: [Virtue Market Research](https://virtuemarketresearch.com/report/aI-preventive-care-market)
+
+In 2024, **AI diagnostic applications in HealthTech should shift their focus from merely detecting diseases to also preventing** them. For example, wearable medical devices, combined with AI applications, can monitor a patient's health. If the app detects high blood pressure, which increases the risk of heart attack or stroke, and the patient is not undergoing treatment for these conditions, it can alert either the patient or a designated doctor. 
+
+This allows for early intervention and treatment, potentially **preventing more serious health issues such as cardiovascular diseases which are a leading cause of death globally**. In 2015, [17.7 million people died from cardiovascular diseases worldwide](https://www.bayer.com/en/pharma/economic-and-societal-impact-cardiovascular-disease). By the year 2030, this number is projected to rise to 22 million. Can we fight these predictions without AI?
