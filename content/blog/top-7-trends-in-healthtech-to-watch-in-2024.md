@@ -81,3 +81,5 @@ While most current healthcare chatbots (also called virtual healthcare assistant
 <YouTubeEmbed url='https://www.youtube.com/watch?v=lLhTdV47Y8E' />
 
 The year 2024 could provide answers to crucial questions: **Is it feasible and ethically acceptable to use chatbots, integrating tools from cognitive behavioral therapy and psychology, to assist users?** Or is there a line that needs to be drawn regarding their use in mental health technology?
+
+## Greater focus on preventive healthcare with AI
