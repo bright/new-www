@@ -28,3 +28,7 @@ Fancy to go deeper with this simple example? Let's say we would like to have a m
 If we asked the learning model about this story, the model could not answer it. This is how it would look:
 
 <div className="image">![](../../static/images/rag2.png "")</div>
+
+In such a situation, **Retrieval Augmented Generation (RAG) comes to the rescue.** We can simply expand the knowledge of the machine learning model by adding contextual information to the prompt.
+
+In theory, it would look as follows:
