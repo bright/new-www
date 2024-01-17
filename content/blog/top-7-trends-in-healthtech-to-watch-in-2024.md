@@ -34,6 +34,4 @@ As stated in the [State of Health Tech 2023](https://www.bvp.com/atlas/state-of-
 
 <blockquote><div>The health tech cohort gains during summer of 2022 and January 2023 were mainly driven by announcements of relatively large acquisitions in the health tech sector, including Amazon’s $3.9 billion acquisition of One Medical, CVS Health’s $8 billion acquisition of Signify Health, and CVS Health’s $10.6 billion acquisition of Oak Street Health.</div></blockquote>
 
-Despite the financial struggles faced by the HealthTech sector, the enduring results of COVID-19's digital transformation in healthcare could not be slowed down. 
-
-<div class="important-info"><div>The need for digitalization in healthcare has already been established within the industry and among patients, who feel empowered to use technology to manage their health daily.</div></div>
+Despite the financial struggles faced by the HealthTech sector, the enduring results of COVID-19's digital transformation in healthcare could not be slowed down. **The need for digitalization in healthcare has already been established within the industry and among patients, who feel empowered to use technology to manage their health daily.**
