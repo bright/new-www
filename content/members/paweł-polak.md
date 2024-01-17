@@ -6,8 +6,8 @@ slug: pawel-p
 name: Paweł Polak
 short_name: Paweł
 email: pawel.polak@brightinventions.pl
-bio: Junior Fullstack Developer
-description: Junior Fullstack Developer
+bio: Fullstack Developer
+description: Fullstack Developer
 avatar: /images/pawelp_team.png
 avatar_hover: /images/pawelp_passion_team.png
 published: true
