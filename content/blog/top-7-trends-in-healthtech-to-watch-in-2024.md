@@ -160,3 +160,7 @@ In 2019-2020, 20.78% of adults were experiencing a mental illness, equivalent to
 **Apps for Crisis Intervention**: apps providing immediate assistance to individuals experiencing a mental health crisis, offering resources such as crisis hotlines, safety planning, and immediate coping strategies. [Companies worth watching: [Suicide Safe](https://play.google.com/store/apps/details?id=gov.hhs.samhsa.app.spa&hl=en&gl=US), [Weabot Health](https://woebothealth.com/)]
 
 **Digital Detox Apps**: applications helping users manage and limit their use of digital devices. [Companies worth watching: [ForestApp](https://www.forestapp.cc/), [Flipd](https://www.flipdapp.co/)]
+
+## Feeling excited about 2024 in HealthTech?
+
+We are! Let us know in the comment what other predictions you have.
