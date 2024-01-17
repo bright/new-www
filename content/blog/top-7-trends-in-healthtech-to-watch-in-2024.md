@@ -17,3 +17,5 @@ published: true
 language: en
 ---
 **The year 2024 comes with a promise of significant growth for HealthTech, following a period of stagnation. This growth will likely be fueled by innovations brought by Generative AI, IoT, wearables, mental HealthTech, and more. What can we expect from the MedTech sector? Read our technology trends in healthcare for 2024.**
+
+<div className="image">![Tech trends in healthcare 2024](../../static/images/healthtech2024trends_blog.png "Tech trends in healthcare 2024")</div>
