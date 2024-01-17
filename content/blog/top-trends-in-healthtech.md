@@ -22,7 +22,19 @@ language: en
 
 ## Table of contents
 
+[HealthTech will finally shake off the post-COVID-19 hurdle](/blog/top-trends-in-healthtech/#healthtech-will-finally-shake-off-the-post-covid-19-hurdle)
 
+[Advanced implementations of Generative AI in healthcare](/blog/top-trends-in-healthtech/#advanced-implementations-of-generative-ai-in-healthcare)
+
+[Greater focus on preventive healthcare with AI](/blog/top-trends-in-healthtech/#greater-focus-on-preventive-healthcare-with-)
+
+[IoT and wearables for (truly) continuous remote patient monitoring and biohacking](/blog/top-trends-in-healthtech/#iot-and-wearables-for-truly-continuous-remote-patient-monitoring-and-biohacking)
+
+[Making telemedicine even more accessible](/blog/top-trends-in-healthtech/#making-telemedicine-even-more-accessible)
+
+[Unlocking the potential of patient engagement apps for chronic disease patients](/blog/top-trends-in-healthtech/#unlocking-the-potential-of-patient-engagement-apps-for-chronic-disease-patients)
+
+[The continuing rise of Mental HealthTech](/blog/top-trends-in-healthtech/#the-continuing-rise-of-mental-healthtech)
 
 ## HealthTech will finally shake off the post-COVID-19 hurdle
 
