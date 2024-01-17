@@ -56,3 +56,16 @@ Medical imaging is a method used to create images of the inside of the body for 
 * **Radiology Report Generation**: AI-driven models can automatically generate radiology reports based on medical images, helping radiologists save time and maintain consistency in their reporting.
 
 Examples of Medical Imaging AI companies to watch: [ContextVision](https://www.contextvision.com/), [Enlitic](https://enlitic.com/).
+
+### Embracing AI in disease diagnostics
+
+<YouTubeEmbed url='https://www.youtube.com/watch?v=3EV6ryG2j7E' />
+
+AI can assist in diagnosing a variety of diseases, including:
+
+* **Cancer**: AI algorithms can analyze medical images like X-rays, MRIs, and CT scans to detect tumors and other cancerous growths.
+  Diabetes: Through pattern recognition in patient data, AI can help identify early signs of diabetes.
+* **Heart Disease**: AI can analyze ECG patterns to detect heart conditions such as arrhythmias as well as identify other crucial factors such as atherosclerosis.
+* **Neurological Disorders**: AI can help in diagnosing conditions like Alzheimer's and Parkinson's disease by analyzing patient data and brain imaging.
+* **Skin Conditions**: AI-driven image analysis tools can aid in diagnosing skin cancers and other dermatological conditions.
+* **Eye Diseases**: AI algorithms can analyze retinal scans to detect diseases like diabetic retinopathy and age-related macular degeneration.
