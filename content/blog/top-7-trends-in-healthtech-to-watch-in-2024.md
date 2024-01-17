@@ -22,4 +22,8 @@ language: en
 
 ## HealthTech will finally shake off the post-COVID-19 hurdle
 
-While HealthTech was anticipated to flourish in the aftermath of COVID-19, it sadly became one of the most impacted sectors. Since 2021, this industry has witnessed a noticeable downturn, evident in the decline of stock values.
+While HealthTech was anticipated to flourish in the aftermath of COVID-19, it sadly became one of the most impacted sectors. Since 2021, this industry has witnessed a noticeable downturn, evident in the decline of stock values. 
+
+<div className="image">![HealthTech state after the pandemic](../../static/images/healthtech_post_covid.png "State of Health Tech 2023")</div>
+
+Source: [State of Health Tech 2023](https://www.bvp.com/atlas/state-of-health-tech-2023)
