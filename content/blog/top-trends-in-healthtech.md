@@ -6,8 +6,8 @@ tags:
   - AI
   - business
   - inspiration
-date: 2024-01-17T09:36:48.992Z
-meaningfullyUpdatedAt: 2024-01-17T09:36:49.012Z
+date: 2024-01-17T12:47:29.514Z
+meaningfullyUpdatedAt: 2024-01-17T12:47:30.332Z
 title: Top 7 Trends in HealthTech to Watch in 2024
 layout: post
 image: /images/healthtech2024trends_blog.png
