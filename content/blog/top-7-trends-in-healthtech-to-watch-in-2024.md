@@ -125,3 +125,17 @@ Telehealth companies that will design software solutions addressing challenges l
 Examples of TeleHealth companies to watch: [Camascope](https://www.camascope.com/), [MedKitDoc](https://medkitdoc.de/en), [Maven](https://www.mavenclinic.com/).
 
 ## Unlocking the potential of patient engagement apps for chronic disease patients
+
+The Patient Engagement Apps market is predicted to continually grow over the next few years. As stated on [Expert Market Research](https://www.expertmarketresearch.com/reports/patient-engagement-solutions-market):
+
+<blockquote><div>The global patient engagement solutions market size attained a value of approximately USD 22.74 billion in 2023. The market is further expected to grow in the forecast period of 2024-2032 at a CAGR of 17.10%, reaching about USD 94.17 billion by 2032.</div><footer>Expert Market Research</footer></blockquote>
+
+An important aspect of this market is related to managing chronic diseases, which are still not fully covered by HealthTech. 
+
+As of 2024, the chronic disease situation in the United States is a significant health and economic concern. **Patients with chronic diseases incur average direct healthcare costs of about [$6,032 annually](https://www.americanactionforum.org/research/chronic-disease-in-the-united-states-a-worsening-health-and-economic-crisis/), which is approximately five times higher than those without a chronic disease**. The costs are mainly due to more frequent hospitalizations, emergency room visits, and greater prescription drug use. Notably, about 60% of all emergency room visits are associated with people with chronic conditions, costing around $8.3 billion in 2017.
+
+Patient Engagement Apps are the perfect solutions to monitor, support, and prevent rising costs of hospitalizations and treatment of patients with chronic diseases. 
+
+Get inspired by the story behind the [app for Parkinson’s patients](/projects/solution-for-parkinsons-patients/) built to engage users to monitor their symptoms better.
+
+<div className="image">![App for Parkinson patients mockups](../../static/images/app_for_parkinson_patients2.png "App for Parkinson patients mockups")</div>
