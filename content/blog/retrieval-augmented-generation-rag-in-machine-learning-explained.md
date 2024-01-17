@@ -1,5 +1,12 @@
 ---
 author: pawel-p
+tags:
+  - AI
+  - Embeddings
+  - machine learning
+  - rag
+  - Retrieval Augmented Generation
+  - langchain
 date: 2024-01-17T17:48:16.934Z
 meaningfullyUpdatedAt: 2024-01-17T17:48:16.946Z
 title: Retrieval Augmented Generation (RAG) in Machine Learning Explained
