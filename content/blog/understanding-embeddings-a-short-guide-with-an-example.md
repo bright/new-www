@@ -33,12 +33,12 @@ For text embeddings, these vectors are constructed in a way that captures the se
 
 Let's say we have a space with only two dimensions - \[x, y], where x represents sex and y represents activity.
 
-<div className="image">![embeddings dimensional space](../../static/images/embedding_dimension_example.png "embeddings dimensional space")</div>
+<div className="image">![embeddings dimensional space](../../static/images/embeddings_dimension_example.png "embeddings dimensional space")</div>
 
 \
 Now, for example, by asking the question 'Who is walking?' the embeddings will search for vectors that include the 'Walk' sentence in the y dimension.
 
-<div className="image">![embeddings dimensional space with similarity comprasion](../../static/images/embedding_dimensions_example_vectors.png "embeddings dimensional space with similarity comprasion")</div>
+<div className="image">![embeddings dimensional space with similarity comprasion](../../static/images/embeddings_dimension_vector_example.png "embeddings dimensional space with similarity comprasion")</div>
 
 We can observe that the sentence "Walk" is associated with a woman, a man, a boy, and a girl. This means that all of them are walking. And thus, we get our answer: A woman, a man, a boy, and a girl are walking.  
 
