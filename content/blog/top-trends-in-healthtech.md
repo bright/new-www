@@ -11,7 +11,7 @@ meaningfullyUpdatedAt: 2024-01-17T09:36:49.012Z
 title: Top 7 Trends in HealthTech to Watch in 2024
 layout: post
 image: /images/healthtech2024trends_blog.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
@@ -19,6 +19,22 @@ language: en
 **The year 2024 comes with a promise of significant growth for HealthTech, following a period of stagnation. This growth will likely be fueled by innovations brought by Generative AI, IoT, wearables, mental HealthTech, and more. What can we expect from the MedTech sector? Read our technology trends in healthcare for 2024.**
 
 <div className="image">![Tech trends in healthcare 2024](../../static/images/healthtech2024trends_blog.png "Tech trends in healthcare 2024")</div>
+
+## Table of contents
+
+[HealthTech will finally shake off the post-COVID-19 hurdle](/blog/top-trends-in-healthtech/#healthtech-will-finally-shake-off-the-post-covid-19-hurdle)
+
+[Advanced implementations of Generative AI in healthcare](/blog/top-trends-in-healthtech/#advanced-implementations-of-generative-ai-in-healthcare)
+
+[Greater focus on preventive healthcare with AI](/blog/top-trends-in-healthtech/#greater-focus-on-preventive-healthcare-with-)
+
+[IoT and wearables for (truly) continuous remote patient monitoring and biohacking](/blog/top-trends-in-healthtech/#iot-and-wearables-for-truly-continuous-remote-patient-monitoring-and-biohacking)
+
+[Making telemedicine even more accessible](/blog/top-trends-in-healthtech/#making-telemedicine-even-more-accessible)
+
+[Unlocking the potential of patient engagement apps for chronic disease patients](/blog/top-trends-in-healthtech/#unlocking-the-potential-of-patient-engagement-apps-for-chronic-disease-patients)
+
+[The continuing rise of Mental HealthTech](/blog/top-trends-in-healthtech/#the-continuing-rise-of-mental-healthtech)
 
 ## HealthTech will finally shake off the post-COVID-19 hurdle
 
@@ -32,7 +48,7 @@ However, 2023 offered renewed optimism, marked by significant acquisitions that 
 
 As stated in the [State of Health Tech 2023](https://www.bvp.com/atlas/state-of-health-tech-2023) report:
 
-<blockquote><div>The health tech cohort gains during summer of 2022 and January 2023 were mainly driven by announcements of relatively large acquisitions in the health tech sector, including Amazon’s $3.9 billion acquisition of One Medical, CVS Health’s $8 billion acquisition of Signify Health, and CVS Health’s $10.6 billion acquisition of Oak Street Health.</div></blockquote>
+<blockquote><div>The health tech cohort gains during summer of 2022 and January 2023 were mainly driven by announcements of relatively large acquisitions in the health tech sector, including Amazon’s $3.9 billion acquisition of One Medical, CVS Health’s 8 billion dollars acquisition of Signify Health, and CVS Health’s 10.6 billion dollars acquisition of Oak Street Health.</div></blockquote>
 
 Despite the financial struggles faced by the HealthTech sector, the enduring results of COVID-19's digital transformation in healthcare could not be slowed down. **The need for digitalization in healthcare has already been established within the industry and among patients, who feel empowered to use technology to manage their health daily.**
 
@@ -134,7 +150,7 @@ The Patient Engagement Apps market is predicted to continually grow over the nex
 
 An important aspect of this market is related to managing chronic diseases, which are still not fully covered by HealthTech. 
 
-As of 2024, the chronic disease situation in the United States is a significant health and economic concern. **Patients with chronic diseases incur average direct healthcare costs of about [$6,032 annually](https://www.americanactionforum.org/research/chronic-disease-in-the-united-states-a-worsening-health-and-economic-crisis/), which is approximately five times higher than those without a chronic disease**. The costs are mainly due to more frequent hospitalizations, emergency room visits, and greater prescription drug use. Notably, about 60% of all emergency room visits are associated with people with chronic conditions, costing around $8.3 billion in 2017.
+As of 2024, the chronic disease situation in the United States is a significant health and economic concern. **Patients with chronic diseases incur average direct healthcare costs of about $6,032 annually, which is approximately [five times higher than those without a chronic disease](https://www.americanactionforum.org/research/chronic-disease-in-the-united-states-a-worsening-health-and-economic-crisis/)**. The costs are mainly due to more frequent hospitalizations, emergency room visits, and greater prescription drug use. Notably, about 60% of all emergency room visits are associated with people with chronic conditions, costing around $8.3 billion in 2017.
 
 Patient Engagement Apps are the perfect solutions to monitor, support, and prevent rising costs of hospitalizations and treatment of patients with chronic diseases. 
 
