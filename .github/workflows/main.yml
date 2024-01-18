@@ -117,3 +117,23 @@ jobs:
             public
             .cache
           key: ${{ runner.os }}-gatsby-build-v29-${{ github.ref_name }}
+
+      - name: Audit URLs using Lighthouse
+        if: ${{ github.ref == 'refs/heads/gatsby' }}
+        uses: treosh/lighthouse-ci-action@v10
+        with:
+          urls: |
+            https://brightinventions.pl/
+          temporaryPublicStorage: true
+          configPath: ./.github/lighthouse/lighthouserc.json
+          runs: 3
+
+      - name: Audit URLs using Lighthouse
+        if: ${{ github.ref == 'refs/heads/staging' }}
+        uses: treosh/lighthouse-ci-action@v10
+        with:
+          urls: |
+            https://staging.brightinventions.pl/
+          temporaryPublicStorage: true
+          configPath: ./.github/lighthouse/lighthouserc.json
+          runs: 3
