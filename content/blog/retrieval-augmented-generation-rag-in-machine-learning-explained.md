@@ -27,3 +27,11 @@ The basic prompt schema for querying a machine learning model looks like this:
 <div className="image">![test](../../static/images/rag1.png "")</div>
 
 In this situation, we ask the machine learning model about the capital of Poland. This is general knowledge, and our model has no problems with the answer.
+
+**Going deeper with Retrieval Augmented Generation in machine learning**
+
+Fancy to go deeper with this simple example? Let's say we would like to have a machine learning model that can answer questions about the plot of our original, never-published 300-page book titled 'My Story,' the only source of which is a .pdf file on our private laptop. Therefore, there is no chance that the model came into contact with this book during training, nor is there any chance it could find any information about it elsewhere.
+
+If we asked the learning model about this story, the model could not answer it. This is how it would look:
+
+<div className="image">![test2](../../static/images/rag2.png "")</div>
