@@ -54,3 +54,11 @@ In situations like this, **[empathy](/blog/three-dimensions-of-empathy/) is cruc
 **I value API tests the most due to their stability, accuracy, speed, cost-effectiveness, and broad applicability**. They **provide a sense of security**, which I believe is crucial for every QA Engineer. Of course, UI tests are essential too, but they serve a different purpose and can be somewhat 'flaky'. They often fail in the pipeline, not necessarily due to bugs. This inconsistency makes them less reliable in terms of providing a sense of security, so it's harder to trust them as compared to API tests.
 
 <div className="image">![Małgosia's quote on AP tests](../../static/images/malgosia_quote_api_tests.png "Małgosia's quote on AP tests")</div>
+
+## There is an ongoing recruitment process for QA Engineer at Bright Inventions. What advice could you give to candidates?
+
+In my opinion, **the ideal candidate should be adaptable to changes and various project dynamics**, because at Bright Inventions, we are flexible and strive to adjust to the specific needs of our clients and projects. **This person also needs to have a strong desire to develop as a tester, be eager to learn, and be prepared to work with different people and personalities**. So, I guess they should also be **open to speaking their mind and sharing their ideas and knowledge**.
+
+<div className="image">![During a team retreat in the center of Gdańsk.](../../static/images/malgosia_team_retreat.png "During a team retreat in the center of Gdańsk.")</div>
+
+*<center>During a team retreat in the center of Gdańsk.</center>*
