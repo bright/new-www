@@ -5,12 +5,12 @@ tags:
   - bright story
   - inspiration
   - QA
-date: 2024-01-19T09:36:25.351Z
-meaningfullyUpdatedAt: 2024-01-19T09:36:25.896Z
+date: 2024-01-19T10:16:44.847Z
+meaningfullyUpdatedAt: 2024-01-19T10:16:45.371Z
 title: Finding the Balance in Software Testing and Life. Meet Małgosia
 layout: post
 image: /images/brightstorymalgosia.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
