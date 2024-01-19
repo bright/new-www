@@ -26,3 +26,17 @@ Initially, my goal was to become a software developer. After two months of inten
 ## I assume that back then there weren’t many software testers in the teams?
 
 Oh yes, **I was the only tester in the team**. There was another tester in the company where I worked but I didn't know many other QA Engineers back then. Obviously, **the situation is quite different now**.
+
+## What aspects of the QA job give you the most satisfaction?
+
+What drives me in my QA role is the unique set of challenges each project presents, **pushing me to constantly rethink testing and automation strategies**. Every project offers the **opportunity to find the perfect balance between manual and automated testing** and to select the right types of tests that are easy to maintain, credible, and reliable. 
+
+Throughout my career, I've encountered the mindset that 'we don’t have time to write automated tests,' but in reality, automation actually saves time. When we're not required to test everything manually, the quality of the product usually improves. Reaching this point in a project is incredibly satisfying. 🙂
+
+## What is your recipe for successful cooperation with programmers?
+
+**It’s a continuous learning process because throughout your career, you work with various people, each with different personalities**. Everyone has their own priorities in projects, and sometimes it can be challenging to persuade someone to see things from your perspective and to focus on your priorities. 
+
+What I’ve learned recently is that people can interpret your words differently. For instance, if I say something in a meeting, 2 out of 3 people might understand it in a way that's completely different from what I intended. Therefore, **it’s crucial to work on balancing your words and ensuring clear communication**.
+
+*Read Małgosia’s and Michał’s blog posts on [successful dev-QA relations](/blog/communication-challenges-faced-by-developers-and-testers/).*
