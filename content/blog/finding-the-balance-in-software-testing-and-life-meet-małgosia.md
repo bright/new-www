@@ -42,3 +42,15 @@ What I’ve learned recently is that people can interpret your words differently
 *Read Małgosia’s and Michał’s blog posts on [successful dev-QA relations](/blog/communication-challenges-faced-by-developers-and-testers/).*
 
 <div className="image">![Małgosia's quote on communication](../../static/images/malgosia_quote_communication.png "Małgosia's quote on communication")</div>
+
+## How do you react when a developer says 'It’s not a bug, it’s a feature'?
+
+I haven't heard that phrase much lately. It seemed more common among developers who were just starting in the industry. However, if I encounter that statement, **the first thing I do is to verify if it actually is a feature**. This is quite straightforward - you can always compare the current product with earlier versions. **If I still believe it's a bug, I'll present my arguments and then listen to the developer's perspective. We then discuss and work towards a solution together**. 
+
+In situations like this, **[empathy](/blog/three-dimensions-of-empathy/) is crucial — understanding the developer's viewpoint, listening to their arguments, and trying to grasp why they might see things differently**. If I'm convinced that something could compromise the quality of the product, I'll stand firm in my position. Yet if it turns out that my assessment was incorrect, I'll certainly let it go.
+
+## What types of automated tests do you value the most?
+
+**I value API tests the most due to their stability, accuracy, speed, cost-effectiveness, and broad applicability**. They **provide a sense of security**, which I believe is crucial for every QA Engineer. Of course, UI tests are essential too, but they serve a different purpose and can be somewhat 'flaky'. They often fail in the pipeline, not necessarily due to bugs. This inconsistency makes them less reliable in terms of providing a sense of security, so it's harder to trust them as compared to API tests.
+
+<div className="image">![Małgosia's quote on AP tests](../../static/images/malgosia_quote_api_tests.png "Małgosia's quote on AP tests")</div>
