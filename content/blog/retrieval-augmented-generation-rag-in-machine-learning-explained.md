@@ -43,3 +43,13 @@ In theory, it would look as follows:
 <div className="image">![test3](../../static/images/rag3.png "")</div>
 
 In theory, it would work. The model receives our query along with the entire book, so it now knows the story and can answer our query. However, **there is a practical problem with this solution.**
+
+The number of tokens that we can use with one prompt is limited. For example, **for ChatGPT-4, this limit is 8192 tokens; even for GPT-4 Turbo, the limit is 128,000 tokens.**
+
+Let's assume that one page of our book has an average of 500 words. 300 pages times 500 words equals 150,000 words in the entire book. We should remember that the number of used tokens consists of the prompt query, prompt context, and the machine learning model's answer.
+
+<div className="image">![test4](../../static/images/rag4.png "")</div>
+
+This amounts to 150,000 tokens for the context alone. By adding the prompt query and the machine learning model's answer, the total will be even higher. Even if sending such a prompt were possible, it would simply be a waste of resources and money. We don’t need the entire context of the book to answer our queries.
+
+**It seems obvious that we need to divide our book into chunks,** and for the context of the prompt, attach only those chunks that are relevant to our question. Dividing the text into chunks is a simple task, **but how do we determine which parts are necessary to get the answer to our query?**
