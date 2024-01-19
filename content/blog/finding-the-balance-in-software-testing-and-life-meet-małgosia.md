@@ -70,3 +70,11 @@ I wasn't actually planning to change my job. **When [Agata](/about-us/agata-m/) 
 <div className="image">![Another team retreat. :)](../../static/images/malgosia_team_retreat.png "Another team retreat. :)")</div>
 
 *<center>Another team retreat. :)</center>*
+
+## How do you spend your spare time?
+
+I spend it actively, for sure. **I'm really into running. I've always enjoyed it but never had someone to share this passion with until I joined the running workouts at Bright Inventions**. Thanks to our trainer, [Bartosz Banach](https://bartoszbanach.pl/), and his coaching, I was able to finish a marathon. 
+
+<div className="image">![Małgosia and Filip from Bright Inventions at a running event.](../../static/images/running.png "Małgosia and Filip from Bright Inventions at a running event.")</div>
+
+*<center>Małgosia and Filip from Bright Inventions at a running event.</center>*
