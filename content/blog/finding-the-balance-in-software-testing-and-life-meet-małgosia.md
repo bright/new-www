@@ -40,3 +40,5 @@ Throughout my career, I've encountered the mindset that 'we don’t have time to
 What I’ve learned recently is that people can interpret your words differently. For instance, if I say something in a meeting, 2 out of 3 people might understand it in a way that's completely different from what I intended. Therefore, **it’s crucial to work on balancing your words and ensuring clear communication**.
 
 *Read Małgosia’s and Michał’s blog posts on [successful dev-QA relations](/blog/communication-challenges-faced-by-developers-and-testers/).*
+
+<div className="image">![Małgosia's quote on communication](../../static/images/malgosia_quote_communication.png "Małgosia's quote on communication")</div>
