@@ -5,8 +5,8 @@ tags:
   - bright story
   - inspiration
   - QA
-date: 2024-01-19T08:47:39.560Z
-meaningfullyUpdatedAt: 2024-01-19T08:47:39.591Z
+date: 2024-01-19T09:36:25.351Z
+meaningfullyUpdatedAt: 2024-01-19T09:36:25.896Z
 title: Finding the Balance in Software Testing and Life. Meet Małgosia
 layout: post
 image: /images/brightstorymalgosia.png
@@ -78,3 +78,9 @@ I spend it actively, for sure. **I'm really into running. I've always enjoyed it
 <div className="image">![Małgosia and Filip from Bright Inventions at a running event.](../../static/images/running.png "Małgosia and Filip from Bright Inventions at a running event.")</div>
 
 *<center>Małgosia and Filip from Bright Inventions at a running event.</center>*
+
+**I'm also quite a health lifestyle enthusiast**. I love reading about nutrition, diets, self-care, and more. I aim to spend my free time actively and meaningfully, so I don't use Netflix, and I generally avoid watching TV series or movies.
+
+## Not at all?
+
+Well, maybe sometimes. 😄 I just need to control myself because once I start a series, I tend to binge-watch it right away. So, I prefer not to start watching anything at all...
