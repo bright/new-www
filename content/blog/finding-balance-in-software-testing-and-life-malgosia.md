@@ -5,12 +5,12 @@ tags:
   - bright story
   - inspiration
   - QA
-date: 2024-01-19T09:36:25.351Z
-meaningfullyUpdatedAt: 2024-01-19T09:36:25.896Z
+date: 2024-01-19T10:16:44.847Z
+meaningfullyUpdatedAt: 2024-01-19T10:16:45.371Z
 title: Finding the Balance in Software Testing and Life. Meet Małgosia
 layout: post
 image: /images/brightstorymalgosia.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
@@ -65,11 +65,11 @@ In my opinion, **the ideal candidate should be adaptable to changes and various 
 
 *<center>During a team retreat in the center of Gdańsk.</center>*
 
-## And how do you recall your recruitment process at Bright Inventions? 
+## And how do you recall your recruitment process at Bright Inventions?
 
 I wasn't actually planning to change my job. **When [Agata](/about-us/agata-m/) approached me on LinkedIn, I responded as I usually did — politely declining with a thank you**. However, her response to my decline piqued my interest. **I won't give away her secret methods, but she somehow managed to convince me to attend an interview**, and eventually, I ended up joining the team here.
 
-<div className="image">![Another team retreat. :)](../../static/images/malgosia_team_retreat.png "Another team retreat. :)")</div>
+<div className="image">![Another team retreat. :)](../../static/images/malgosia_team_retreat_forest.png "Another team retreat. :)")</div>
 
 *<center>Another team retreat. :)</center>*
 
