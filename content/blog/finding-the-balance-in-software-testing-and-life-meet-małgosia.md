@@ -62,3 +62,11 @@ In my opinion, **the ideal candidate should be adaptable to changes and various 
 <div className="image">![During a team retreat in the center of Gdańsk.](../../static/images/malgosia_team_retreat.png "During a team retreat in the center of Gdańsk.")</div>
 
 *<center>During a team retreat in the center of Gdańsk.</center>*
+
+## And how do you recall your recruitment process at Bright Inventions? 
+
+I wasn't actually planning to change my job. **When [Agata](/about-us/agata-m/) approached me on LinkedIn, I responded as I usually did — politely declining with a thank you**. However, her response to my decline piqued my interest. **I won't give away her secret methods, but she somehow managed to convince me to attend an interview**, and eventually, I ended up joining the team here.
+
+<div className="image">![Another team retreat. :)](../../static/images/malgosia_team_retreat.png "Another team retreat. :)")</div>
+
+*<center>Another team retreat. :)</center>*
