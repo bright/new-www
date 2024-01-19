@@ -41,3 +41,5 @@ In such a situation, **Retrieval Augmented Generation (RAG) comes to the rescue.
 In theory, it would look as follows:
 
 <div className="image">![test3](../../static/images/rag3.png "")</div>
+
+In theory, it would work. The model receives our query along with the entire book, so it now knows the story and can answer our query. However, **there is a practical problem with this solution.**
