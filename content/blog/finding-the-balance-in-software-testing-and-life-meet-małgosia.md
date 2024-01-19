@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2024-01-19T09:36:25.896Z
 title: Finding the Balance in Software Testing and Life. Meet Małgosia
 layout: post
 image: /images/brightstorymalgosia.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
