@@ -53,3 +53,5 @@ Let's assume that one page of our book has an average of 500 words. 300 pages ti
 This amounts to 150,000 tokens for the context alone. By adding the prompt query and the machine learning model's answer, the total will be even higher. Even if sending such a prompt were possible, it would simply be a waste of resources and money. We don’t need the entire context of the book to answer our queries.
 
 **It seems obvious that we need to divide our book into chunks,** and for the context of the prompt, attach only those chunks that are relevant to our question. Dividing the text into chunks is a simple task, **but how do we determine which parts are necessary to get the answer to our query?**
+
+Here, the technique of representing text as numerical vectors, known as embeddings, comes to the rescue. There is another blog post where you can learn more details about how this technique works.
