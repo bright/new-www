@@ -24,6 +24,6 @@ Imagine that your company has access to a powerful AI tool that can process vast
 
 The basic prompt schema for querying a machine learning model looks like this:
 
-<div className="image">![](../../static/images/rag1.png "")</div>
+<div className="image">![test](../../static/images/rag1.png "")</div>
 
 In this situation, we ask the machine learning model about the capital of Poland. This is general knowledge, and our model has no problems with the answer.
