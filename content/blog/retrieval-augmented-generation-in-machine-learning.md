@@ -4,11 +4,10 @@ tags:
   - AI
   - Embeddings
   - machine learning
-  - rag
   - Retrieval Augmented Generation
-  - langchain
-date: 2024-01-17T17:48:16.934Z
-meaningfullyUpdatedAt: 2024-01-17T17:48:16.946Z
+  - RAG
+date: 2024-01-22T14:16:26.094Z
+meaningfullyUpdatedAt: 2024-01-22T14:16:26.613Z
 title: Retrieval Augmented Generation (RAG) in Machine Learning Explained
 layout: post
 image: /images/rag_blog_cover.png
@@ -18,6 +17,8 @@ published: true
 language: en
 ---
 **Imagine that your company has access to a powerful AI tool that can process vast amounts of data and extract significant conclusions, identify key information, and effectively summarize it. Such capabilities could significantly enhance the efficiency of your employees' work, allowing them to focus on the most valuable aspects of their job, rather than on time-consuming data processing. In this context, Retrieval Augmented Generation (RAG) opens new perspectives. RAG i allows for the integration of AI models with specific, internal data of your company, enabling not only processing but also intelligent interpretation and utilization of this knowledge. In this article, we will explore how to accomplish this.**
+
+<div className="image">![Retrieval Augmented Generation (RAG) in Machine Learning](../../static/images/rag_blog_cover.png "")</div>
 
 ## Retrieval Augmented Generation (RAG) definition
 
