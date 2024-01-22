@@ -66,3 +66,5 @@ This process looks like this:
 Great! We have prepared our data so that we can easily find exactly the parts of the book that are useful for our query.
 
 With this knowledge and the data prepared, let's start the process of obtaining answers from the machine learning model once again. The image below describes all the steps undertaken during this process.
+
+<div className="image">![The whole RAG process scheme](../../static/images/rag6.png "")</div>
