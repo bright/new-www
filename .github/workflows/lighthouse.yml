@@ -1,0 +1,23 @@
+name: Lighthouse CI
+on:
+  schedule:
+    - cron: '0 20 * * *'
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Audit URLs using Lighthouse
+        uses: treosh/lighthouse-ci-action@v10
+        with:
+          urls: |
+            https://brightinventions.pl/
+            https://brightinventions.pl/about-us/
+            https://brightinventions.pl/what-we-offer/
+            https://brightinventions.pl/projects/
+            https://brightinventions.pl/career/
+            https://brightinventions.pl/blog/
+            https://brightinventions.pl/start-project/
+          temporaryPublicStorage: true
+          configPath: ./.github/lighthouse/lighthouserc.json
+          runs: 3
