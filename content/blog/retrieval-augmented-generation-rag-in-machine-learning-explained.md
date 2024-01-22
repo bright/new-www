@@ -55,3 +55,13 @@ This amounts to 150,000 tokens for the context alone. By adding the prompt query
 **It seems obvious that we need to divide our book into chunks,** and for the context of the prompt, attach only those chunks that are relevant to our question. Dividing the text into chunks is a simple task, **but how do we determine which parts are necessary to get the answer to our query?**
 
 Here, the technique of representing text as numerical vectors, known as embeddings, comes to the rescue. There is another blog post where you can learn more details about how this technique works.
+
+For now, it's enough to understand that **embedding is a technique that converts text into numerical vectors, which retain the meaning of the converted sentence.** Depending on the sentence's meaning, these vectors are positioned at specific locations in the vector space. So, now we know that before running our prompt, we have to first prepare the data (the book in our case) by dividing it into chunks, converting them into numeric vectors with the embedding technique, and saving them in a vector database.
+
+This process looks like this:
+
+<div className="image">![test5](../../static/images/rag5.png "")</div>
+
+Great! We have prepared our data so that we can easily find exactly the parts of the book that are useful for our query.
+
+With this knowledge and the data prepared, let's start the process of obtaining answers from the machine learning model once again. The image below describes all the steps undertaken during this process.
