@@ -11,6 +11,7 @@ date: 2024-01-17T17:48:16.934Z
 meaningfullyUpdatedAt: 2024-01-17T17:48:16.946Z
 title: Retrieval Augmented Generation (RAG) in Machine Learning Explained
 layout: post
+image: /images/rag_blog_cover.png
 hidden: false
 comments: true
 published: true
