@@ -35,12 +35,12 @@ Generally speaking, OpenAI is a default “goto” address for anybody who would
 
 With the free version of ChatGPT via web panel, you can use GPT-3.5 chats. Also, recently it should allow you to use Whisper API via iOS and Android WebApps. By default, it keeps a history of your chats. ChatGPT web has an opt-out model of data processing which you submit. On their page we can read
 > When you use our non-API consumer services ChatGPT or Labs, we may use the data you provide us to improve our models.
-> <cite>[OpenAI trust portal](https://trust.openai.com/?itemName=data_privacy&source=click)</cite>
+> -- [OpenAI trust portal](https://trust.openai.com/?itemName=data_privacy&source=click)
 
 that simply means that data you submit can be used to train the model. If you wonder how the data you provide is stored/processed later they say,
 
 > We remove any personally identifiable information from data we intend to use to improve model performance. We also only use a small sampling of data per customer for our efforts to improve model performance.
-> <cite>[OpenAI trust portal](https://trust.openai.com/?itemName=data_privacy&source=click)</cite>
+> -- [OpenAI trust portal](https://trust.openai.com/?itemName=data_privacy&source=click)
 
 You can opt out of this behavior in the settings of your ChatGPT profile
 
@@ -48,11 +48,11 @@ You can opt out of this behavior in the settings of your ChatGPT profile
 
 What is important to mention is that
 > This setting does not sync across browsers or devices. You will have to disable chat & history on each device/browser
-> <cite>[OpenAI help portal](https://help.openai.com/en/articles/7730893-data-controls-faq)</cite>
+> -- [OpenAI help portal](https://help.openai.com/en/articles/7730893-data-controls-faq)
 
 The downside of this approach is that you will not have access to the history of your chats. Another option to opt out but keeping the history saved:
 > In the meantime, you can opt out from our use of your data to improve our services by filling out this form. Once you submit the form, new conversations will not be used to train our models
-> <cite>[OpenAI help portal](https://help.openai.com/en/articles/7730893-data-controls-faq)</cite>
+> -- [OpenAI help portal](https://help.openai.com/en/articles/7730893-data-controls-faq)
 
 
 On [this](https://privacy.openai.com/) page you can make a privacy request for your account. What is worth mentioning, is that when you submit a request and it is accepted, nothing changes from a UI/UX perspective in your account - you have still the possibility to toggle chat history & training but it is not doing anything as you have already opted-out from data processing.
@@ -65,30 +65,30 @@ As you can see, even though I opted out of training the data it is still visible
 <div className="image">![Support conversation about training](../../static/images/openai-chatgpt-free-plus-privacy-policies-explained/OpenAI_support_response.png "")</div>
 
 Also important fact is that upon submitting the request you
-> understand that this request applies moving forward and does not apply to data that was previously disassociated from my accou
+> understand that this request applies moving forward and does not apply to data that was previously disassociated from my account
 
 so this request is in force only for future data.
 
 In the end, when you opt-out of model training with your data and
 > When chat history is disabled, we will retain new conversations for 30 days and review them only when needed to monitor for abuse, before permanently deleting
-> <cite>[OpenAI help portal](https://help.openai.com/en/articles/7730893-data-controls-faq)</cite>
+> -- [OpenAI help portal](https://help.openai.com/en/articles/7730893-data-controls-faq)
 
 This is the maximum we can do here as the zero data policy (which we will talk about later) does not apply here. 
 > Note that this data policy does not apply to OpenAI's non-API consumer services like ChatGPT or DALL·E Labs.
-> <cite> https://platform.openai.com/docs/models/moderation </cite>
+> -- [OpenAI moderation](https://platform.openai.com/docs/models/moderation)
 
 Most probably, during these 30 days it is viewed either by
 > A limited number of authorized OpenAI personnel, as well as trusted service providers that are subject to confidentiality and security obligations, may access user content only as needed for these reasons: (1) investigating abuse or a security incident; (2) to provide support to you if you reach out to us with questions about your account; (3) to handle legal matters; or (4) to improve model performance (unless you have opted out). Access to content is subject to technical access controls and limited only to authorized personnel on a need-to-know basis.
-> <cite> https://help.openai.com/en/articles/7039943-data-usage-for-consumer-services-faq </cite>
+> -- [OpenAI help portal](https://help.openai.com/en/articles/7039943-data-usage-for-consumer-services-faq)
 
 
 Additional question is - how long my data is stored when I opt-out from data training and I do not disable history? Here’s the info that OpenAI provides on a matter: 
 > Deleted chats are hard deleted from our systems within 30 days, unless they have been de-identified and disassociated from your account. If you have not opted out, we may use these de-identified chats for training to improve model performance.
-> <cite> https://help.openai.com/en/articles/8809935-how-chat-retention-works-in-chatgpt </cite>
+> -- [OpenAI help portal](https://help.openai.com/en/articles/8809935-how-chat-retention-works-in-chatgpt)
 
 You have option to toggle delete all chats from preferences of your account. Also you delete all of data by simply deleting the account. In dialog when deleting account we can see
 > Your data will be deleted within 30 days, except we may retain a limited set of data for longer where required or permitted by law.
-> <cite> https://help.openai.com/en/articles/6378407-how-to-delete-your-account </cite>
+> -- [OpenAI help portal](https://help.openai.com/en/articles/6378407-how-to-delete-your-account)
 
 <div className="image">![ChatGpt history training](../../static/images/openai-chatgpt-free-plus-privacy-policies-explained/OpenAI_delete_account.png "")</div>
 
@@ -102,7 +102,7 @@ Apart from all the information provided for ChatGPT Free which applies here, wha
 is selected. It is unclear if the option of opt-out mentioned in the GPT Free section overrides this selection or not, so if you do not wish to share the data, simply deselect the option. Also, for the files uploaded via UI input prompt or knowledge for custom GPT we can see that
 
 > Files processed via ADA / Document Analysis, and when chatting with a custom GPT (not uploaded as knowledge in GPT config): Retained for 3 hours.Images processed via Vision and Files uploaded as knowledge to custom GPT: Retained indefinitely. 
-> <cite> https://help.openai.com/en/articles/8555545-file-uploads-faq </cite>
+> -- [OpenAI help portal](https://help.openai.com/en/articles/8555545-file-uploads-faq)
 
 Hopefully this post has given you some insights on privacy in ChatGPT Free and Plus and its opt-out model. Today we;ve analyzed services directed towards individuals. In the next blog post, I will dive into other, enterprise solutions proposed by OpenAI. For ChatGPT this will be the recently introduced ChatGPT Teams plan and ChatGPT Enterprise. Both of those solutions give us better privacy controls than when using individual subscriptions. 
 
