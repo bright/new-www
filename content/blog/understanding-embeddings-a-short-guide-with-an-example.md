@@ -46,4 +46,8 @@ Remember, this is a very simplified example with only two dimensions of meaning.
 
 ## Ready for more embedding tutorials?
 
-In the upcoming articles, we'll delve deeper into various applications of embedding in AI. Subscribe to our [newsletter](https://bright-dev-newsletter.getresponsepages.com/) to stay updated and not miss out on any insights!
+Delve deeper into various applications of embedding in AI:
+
+[Retrieval Augmented Generation (RAG) in Machine Learning Explained](/blog/retrieval-augmented-generation-in-machine-learning/)
+
+More to come!
