@@ -55,7 +55,7 @@ You can opt out of this behavior in the settings of your ChatGPT profile
 *Opt-out from model training*
 
 What is important to mention is that
-<blockquote><div>This setting does not sync across browsers or devices. You will have to disable chat & history on each device/browser.</div><footer>\\[OpenAI help portal](https://help.openai.com/en/articles/7730893-data-controls-faq)</footer></blockquote>
+<blockquote><div>This setting does not sync across browsers or devices. You will have to disable chat & history on each device/browser.</div><footer>[OpenAI help portal](https://help.openai.com/en/articles/7730893-data-controls-faq)</footer></blockquote>
 
 
 The downside of this approach is that you will not have access to the history of your chats. Another option to opt out but keeping the history saved:
