@@ -11,7 +11,7 @@ date: 2024-01-23T08:56:15.196Z
 meaningfullyUpdatedAt: 2024-01-23T08:56:16.383Z
 title: "OpenAI ChatGPT Free & Plus Privacy Policies Explained"
 layout: post
-image: /images/open_ai_privacy.png
+image: images/openai-chatgpt-free-plus-privacy-policies-explained/open_ai_privacy.png
 hidden: true
 comments: true
 published: true
@@ -19,7 +19,7 @@ language: en
 ---
 **Have you ever wondered how to stop OpenAI from learning from your data while keeping the history of your chats? We’ve got the solution for that! As our apps are gaining superpowers by integrating and using OpenAI features we should stop for a moment and think about the privacy of various solutions. Hopefully, this blog post will help you make smart decisions and allay doubts. If you just want to understand the basic privacy rules of OpenAI solutions, this article is also for you.**
 
-<div className="image">![OpenAI privacy](../../static/images/open_ai_privacy.png"")</div>
+<div className="image">![OpenAI privacy](../../static/images/openai-chatgpt-free-plus-privacy-policies-explained/open_ai_privacy.png"")</div>
 
 It is the start of 2024. You might remember that we had a blog post about development trends for 2023 https://brightinventions.pl/blog/software-development-trends/ - one of them was about GPT. Frankly speaking, this was quite a good prediction - GPT’s and OpenAI are taking the world. There are more and more use cases for LLM’s in the apps we create every day - summary of the text, similarity check or sentiment analysis. We have started to use them for chatbots, virtual copilots or assistants to ease our everyday lives. LLM field of development is moving at a very fast pace, giving out new exciting features every day. 
 
@@ -46,7 +46,7 @@ With the free version of ChatGPT via web panel, you can use GPT-3.5 chats. Also,
 
 You can opt out of this behavior in the settings of your ChatGPT profile
 
-<div className="image">![ChatGpt history training](../../static/images/ChatGPT_history_training.png "")</div>
+<div className="image">![ChatGpt history training](../../static/images/openai-chatgpt-free-plus-privacy-policies-explained/ChatGPT_history_training.png "")</div>
 
 What is important to mention is that
 > This setting does not sync across browsers or devices. You will have to disable chat & history on each device/browser
