@@ -12,7 +12,7 @@ meaningfullyUpdatedAt: 2024-01-23T08:56:16.383Z
 title: "OpenAI ChatGPT Free & Plus Privacy Policies Explained"
 layout: post
 image: images/openai-chatgpt-free-plus-privacy-policies-explained/open_ai_privacy.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
