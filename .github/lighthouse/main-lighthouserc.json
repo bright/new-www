@@ -2,7 +2,7 @@
   "ci": {
     "assert": {
       "assertions": {
-        "categories:performance": ["error", {"aggregationMethod": "optimistic", "minScore": 0.5}],
+        "categories:performance": ["error", {"aggregationMethod": "optimistic", "minScore": 0.7}],
         "categories:accessibility": ["error", {"aggregationMethod": "optimistic", "minScore": 0.8}],
         "categories:best-practices": ["error", {"aggregationMethod": "optimistic", "minScore": 0.8}],
         "categories:seo": ["error", {"aggregationMethod": "optimistic", "minScore": 0.85}]

@@ -125,7 +125,7 @@ jobs:
           urls: |
             https://brightinventions.pl/
           temporaryPublicStorage: true
-          configPath: ./.github/lighthouse/lighthouserc.json
+          configPath: ./.github/lighthouse/main-lighthouserc.json
           runs: 3
 
       - name: Audit URLs using Lighthouse
@@ -135,5 +135,5 @@ jobs:
           urls: |
             https://staging.brightinventions.pl/
           temporaryPublicStorage: true
-          configPath: ./.github/lighthouse/lighthouserc.json
+          configPath: ./.github/lighthouse/main-lighthouserc.json
           runs: 3
