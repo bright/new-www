@@ -21,6 +21,7 @@ language: en
 
 <div className="image">![OpenAI privacy](../../static/images/openai-chatgpt-free-plus-privacy-policies-explained/open_ai_privacy.png "")</div>
 
+
 It is the start of 2024. You might remember that we had a [blog post](https://brightinventions.pl/blog/software-development-trends/) about development trends for 2023 - one of them was about GPT. Frankly speaking, this was quite a good prediction - GPT’s and OpenAI are taking the world. There are more and more use cases for LLM’s in the apps we create every day - summary of the text, similarity check or sentiment analysis. We have started to use them for chatbots, virtual copilots or assistants to ease our everyday lives. LLM field of development is moving at a very fast pace, giving out new exciting features every day. 
 
 Every day, new LLM solutions are deployed, both closed source like Bard from Google (with PaLM and Gemini), Claude from Anthropic and open source like LLama from Meta or Mistral. Still, LLMs are often associated with OpenAI company. That might be due to the fact that their solution was first in the market, they tend to have developed unbeatable GPT-4 (which competition claims (or not?) to overrun) and easy, straightforward access to API. They are also backed up by Mircosoft gigant, both in founding and infrastructure.
@@ -46,6 +47,8 @@ You can opt out of this behavior in the settings of your ChatGPT profile
 
 <div className="image">![ChatGpt history training](../../static/images/openai-chatgpt-free-plus-privacy-policies-explained/ChatGPT_history_training.png "")</div>
 
+*Opt-out from model training*
+
 What is important to mention is that
 > This setting does not sync across browsers or devices. You will have to disable chat & history on each device/browser
 > -- [OpenAI help portal](https://help.openai.com/en/articles/7730893-data-controls-faq)
@@ -58,18 +61,20 @@ The downside of this approach is that you will not have access to the history of
 On [this](https://privacy.openai.com/) page you can make a privacy request for your account. What is worth mentioning, is that when you submit a request and it is accepted, nothing changes from a UI/UX perspective in your account - you have still the possibility to toggle chat history & training but it is not doing anything as you have already opted-out from data processing.
 
 <div className="image">![OpenAI message when you opt out from training](../../static/images/openai-chatgpt-free-plus-privacy-policies-explained/OpenAI_support_message.png "")</div>
+*Successfully opted-out message from support*
+
 <div className="image">![ChatGpt history training](../../static/images/openai-chatgpt-free-plus-privacy-policies-explained/OpenAI_settings.png "")</div>
+*Account settings*
 
 As you can see, even though I opted out of training the data it is still visible in the UI (but actually data is not used for training).  A conversation with the support team has confirmed it: 
 
 <div className="image">![Support conversation about training](../../static/images/openai-chatgpt-free-plus-privacy-policies-explained/OpenAI_support_response.png "")</div>
+*Support conversation*
 
 Also important fact is that upon submitting the request you
 > understand that this request applies moving forward and does not apply to data that was previously disassociated from my account
 
-so this request is in force only for future data.
-
-In the end, when you opt-out of model training with your data and
+so this request is in force only for future data. In the end, when you opt-out of model training with your data and
 > When chat history is disabled, we will retain new conversations for 30 days and review them only when needed to monitor for abuse, before permanently deleting
 > -- [OpenAI help portal](https://help.openai.com/en/articles/7730893-data-controls-faq)
 
@@ -91,13 +96,14 @@ You have option to toggle delete all chats from preferences of your account. Als
 > -- [OpenAI help portal](https://help.openai.com/en/articles/6378407-how-to-delete-your-account)
 
 <div className="image">![ChatGpt history training](../../static/images/openai-chatgpt-free-plus-privacy-policies-explained/OpenAI_delete_account.png "")</div>
-
+*Delete account prompt*
 
 ## ChatGPT Plus Privacy and Data Security
 
 Compared to ChatGPT Free, with ChatGPT Plus you can use GPT-4, create DALEE3 images, search with Bing or recently create & use your own GPTs.
-Apart from all the information provided for ChatGPT Free which applies here, what is important to mention is your own ChatGPT retention. As mentioned, you have a possibility to create your GPT with data knowledge of files with your selection. As noted [here](https://community.openai.com/t/data-privacy-for-latest-features-gpts-and-assistants/493023/4) when you create your own GPT, by default 
+Apart from all the information provided for ChatGPT Free which applies here, what is important to mention is your own ChatGPT retention. As mentioned, you have a possibility to create your GPT with data knowledge of files with your selection. As noted in OpenAI community portal, when you create your own GPT, by default 
 > Use conversation data in your GPT to improve our models
+> -- [OpenAI community](https://community.openai.com/t/data-privacy-for-latest-features-gpts-and-assistants/493023/4)
 
 is selected. It is unclear if the option of opt-out mentioned in the GPT Free section overrides this selection or not, so if you do not wish to share the data, simply deselect the option. Also, for the files uploaded via UI input prompt or knowledge for custom GPT we can see that
 
