@@ -1,15 +1,9 @@
 import React from 'react'
 
-import { ArrowLeft, ArrowRight } from '../helpers/icons'
-import { routeLinks } from '../config/routing'
 import { useWindowSize } from '../components/utils/use-windowsize'
-import * as styles from './Paging.module.scss'
 import styled from 'styled-components'
 import { usePagination, DOTS } from './use-pagination/use-pagination'
-import classnames from 'classnames'
 import variables from '../styles/variables'
-import { any, number } from 'prop-types'
-import { useEffect } from 'react'
 import { Link } from 'gatsby'
 
 const PagingWrapper = styled.div`
@@ -172,7 +166,7 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
           paginationRange.map((pageNumber: any, i: any) => {
             if (pageNumber == DOTS) {
               return (
-                <span key={pageNumber + '-' + i} className='pagination-item dots'>
+                <span key={pageNumber + '-' + i} className='dots'>
                   &#8230;
                 </span>
               )

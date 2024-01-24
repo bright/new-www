@@ -41,11 +41,9 @@ html
   text-size-adjust: 100%
 
 article,
-aside,
 figure,
 footer,
 header,
-hgroup,
 section
   display: block
 
@@ -79,13 +77,6 @@ a
   &:hover
     color: $link-hover
 
-hr
-  background-color: $hr-background-color
-  border: none
-  display: block
-  height: $hr-height
-  margin: $hr-margin
-
 img
   height: auto
   max-width: 100%
@@ -107,9 +98,6 @@ strong
 
 // Block
 
-fieldset
-  border: none
-
 pre
   +overflow-touch
   background-color: $pre-background
@@ -124,12 +112,3 @@ pre
     color: currentColor
     font-size: $pre-code-font-size
     padding: 0
-
-table
-  td,
-  th
-    vertical-align: top
-    &:not([align])
-      text-align: left
-  th
-    color: $text-strong
