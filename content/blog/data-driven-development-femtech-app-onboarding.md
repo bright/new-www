@@ -63,4 +63,6 @@ Thoughtfully designed onboarding is **a crucial first step in forging a long-ter
 
 Assumptions should never be a driving force of any change in software development. **Always base your decision on data**.
 
-Looking for ways to optimize your app onboarding with data-driven development? [Contact us to set up a free consultation in 48 hours](/start-project/).
+If you are not sure what metric to measure and what analytics tools you should install, check our [mobile app metrics cheat sheet](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/).
+
+<div class='block-button'><h2>Ready to discuss your app's onboarding?</h2><div>Looking for ways to optimize your app onboarding with data-driven development? Contact us to set up a free consultation in 48 hours.</div><a href="/start-project/"><button>book a free consultation</button></a></div>
