@@ -26,7 +26,7 @@ It is the start of 2024. You might remember that we had a [blog post](https://br
 
 Every day, new LLM solutions are deployed, both closed source like Bard from Google (with PaLM and Gemini), Claude from Anthropic and open source like LLama from Meta or Mistral. Still, LLMs are often associated with OpenAI company. That might be due to the fact that their solution was first in the market, they tend to have developed unbeatable GPT-4 (which competition claims (or not?) to overrun) and easy, straightforward access to API. They are also backed up by Mircosoft gigant, both in founding and infrastructure.
 
-Generally speaking, OpenAI is a default “goto” address for anybody who would like to use LLM or integrate it into his app. Having that in mind, I will describe most of the relevant OpenAI solutions from the least private to the most private ones. I will also add a word or two about Microsoft Azure OpenAI service. All of the data that you will find here is up to date 11.01.2024. Please note though that in the end if your use case is a complicated one you should consult a lawyer and OpenAI yourself :).
+Generally speaking, OpenAI is a default “goto” address for anybody who would like to use LLM or integrate it into his app. Having that in mind, **I will describe most of the relevant OpenAI solutions from the least private to the most private ones**. Please note though that in the end if your use case is a complicated one you should consult a lawyer and OpenAI yourself :).
 
 ## OpenAI Trust Portal
 
