@@ -47,13 +47,13 @@ that simply means that data you submit can be used to train the model. If you wo
     <footer>\\[OpenAI trust portal](https://trust.openai.com/?itemName=data_privacy&source=click)</footer>
 </blockquote>
 
-You can opt out of this behavior in the settings of your ChatGPT profile
+You can opt out of this behavior in the settings of your ChatGPT profile:
 
 <div className="image">![ChatGpt history training](../../static/images/openai-chatgpt-free-plus-privacy-policies-explained/ChatGPT_history_training.png "")</div>
 
 *Opt-out from model training*
 
-What is important to mention is that
+What is important to mention is that:
 
 <blockquote><div>This setting does not sync across browsers or devices. You will have to disable chat & history on each device/browser.</div><footer>\\[OpenAI help portal](https://help.openai.com/en/articles/7730893-data-controls-faq)</footer></blockquote>
 
@@ -77,12 +77,12 @@ As you can see, even though I opted out of training the data it is still visible
 <div className="image">!\\[Support conversation about training](../../static/images/openai-chatgpt-free-plus-privacy-policies-explained/OpenAI_support_response.png "")</div>
 \\*Support conversation\\*
 
-Also important fact is that upon submitting the request you
+Also important fact is that upon submitting the request you:
 
 <blockquote>
-    <div>understand that this request applies moving forward and does not apply to data that was previously disassociated from my account</div>
+    <div>understand that this request applies moving forward and does not apply to data that was previously disassociated from my account.</div>
 </blockquote>
-so this request is in force only for future data. In the end, when you opt-out of model training with your data and
+So this request is in force only for future data. In the end, when you opt-out of model training with your data and...
 <blockquote>
     <div>When chat history is disabled, we will retain new conversations for 30 days and review them only when needed to monitor for abuse, before permanently deleting.</div>
     <footer>\\[OpenAI help portal](https://help.openai.com/en/articles/7730893-data-controls-faq)</footer>
@@ -95,7 +95,7 @@ This is the maximum we can do here as the zero data policy (which we will talk a
     <footer>\\[OpenAI moderation](https://platform.openai.com/docs/models/moderation)</footer>
 </blockquote>
 
-Most probably, during these 30 days it is viewed either by
+Most probably, during these 30 days it is viewed either by"
 
 <blockquote>
     <div>A limited number of authorized OpenAI personnel, as well as trusted service providers that are subject to confidentiality and security obligations, may access user content only as needed for these reasons: (1) investigating abuse or a security incident; (2) to provide support to you if you reach out to us with questions about your account; (3) to handle legal matters; or (4) to improve model performance (unless you have opted out). Access to content is subject to technical access controls and limited only to authorized personnel on a need-to-know basis.</div>
@@ -109,7 +109,7 @@ Additional question is - how long my data is stored when I opt-out from data tra
     <footer>\\[OpenAI help portal](https://help.openai.com/en/articles/8809935-how-chat-retention-works-in-chatgpt)</footer>
 </blockquote>
 
-You have option to toggle delete all chats from preferences of your account. Also you delete all of data by simply deleting the account. In dialog when deleting account we can see
+You have option to toggle delete all chats from preferences of your account. Also you delete all of data by simply deleting the account. In dialog when deleting account we can see:
 
 <blockquote>
     <div>Your data will be deleted within 30 days, except we may retain a limited set of data for longer where required or permitted by law.</div>
@@ -130,7 +130,7 @@ Apart from all the information provided for ChatGPT Free which applies here, wha
     <footer>\\[OpenAI community](https://community.openai.com/t/data-privacy-for-latest-features-gpts-and-assistants/493023/4)</footer>
 </blockquote>
 
-is selected. **It is unclear if the option of opt-out mentioned in the GPT Free section overrides this selection or not, so if you do not wish to share the data, simply deselect the option**. Also, for the files uploaded via UI input prompt or knowledge for custom GPT we can see that
+is selected. **It is unclear if the option of opt-out mentioned in the GPT Free section overrides this selection or not, so if you do not wish to share the data, simply deselect the option**. Also, for the files uploaded via UI input prompt or knowledge for custom GPT we can see that.
 
 <blockquote>
     <div>Files processed via ADA / Document Analysis, and when chatting with a custom GPT (not uploaded as knowledge in GPT config): Retained for 3 hours. Images processed via Vision and Files uploaded as knowledge to custom GPT: Retained indefinitely.</div>
