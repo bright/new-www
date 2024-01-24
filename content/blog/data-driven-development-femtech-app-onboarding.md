@@ -49,7 +49,7 @@ Imagine making these crucial changes without data-driven development relying onl
 
 ### Confront general best practices 👊
 
-The shorter the onboarding the better. You might have read that a few times. In the case of applications targeting specific users (like pregnant women), **a longer onboarding process might yield a higher completion rate**. This approach makes women feel cared for and understood by the app creators.
+The shorter the onboarding, the better. You might have read that a few times. In the case of applications targeting specific users (like pregnant women), **a longer onboarding process might yield a higher completion rate**. This approach makes women feel cared for and understood by the app creators.
 
 ### Show that you know your audience with a personalized approach 👐
 
