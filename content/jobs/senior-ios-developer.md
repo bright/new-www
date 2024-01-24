@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Senior iOS Developer "
-subtitle: OPENING SOON 
+subtitle: CLOSED
 imagejob: /images/iosteam_job_offer.png
 image-alt-job: iOS Development Team Bright Inventions
 hours: full-time
