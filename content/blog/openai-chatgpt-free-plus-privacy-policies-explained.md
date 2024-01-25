@@ -139,7 +139,7 @@ is selected. It is unclear if the option of opt-out mentioned in the GPT Free se
 </blockquote>
 
 
-Hopefully this post has given you some insights on privacy in ChatGPT Free and Plus and its opt-out model. If you want to dive into enterprise solutions proposed by OpenAI, [read our another blog post about recently introduced ChatGPT Teams and ChatGPT Enterprise plans](blog/openai-chatgpt-team-enterprise-privacy-policies-explained/). Both of those solutions give us better privacy controls than when using individual subscriptions.
+Hopefully this post has given you some insights on privacy in ChatGPT Free and Plus and its opt-out model. If you want to dive into enterprise solutions proposed by OpenAI, [read our another blog post about recently introduced ChatGPT Teams and ChatGPT Enterprise plans](/blog/openai-chatgpt-team-enterprise-privacy-policies-explained/). Both of those solutions give us better privacy controls than when using individual subscriptions.
 
 
 
