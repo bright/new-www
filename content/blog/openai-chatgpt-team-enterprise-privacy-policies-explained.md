@@ -13,7 +13,7 @@ date: 2024-01-25T13:56:15.196Z
 meaningfullyUpdatedAt: 2024-01-25T13:56:16.383Z
 title: OpenAI ChatGPT Team & Enterprise Privacy Terms Explained
 layout: post
-image: /images/open_ai_privacy.png
+image: /images/open_ai_privacy_2.png
 hidden: true
 comments: true
 published: true
@@ -21,7 +21,7 @@ language: en
 ---
 **Recently OpenAI introduced new business plans: ChatGPT Team and Enterprise. Which plan gives you more control over data retention? Which one might comply with the security regulations in your company? Let’s delve into the OpenAI privacy terms to find answers!**
 
-<div className="image">![OpenAI privacy](../../static/images/openai-chatgpt-free-plus-privacy-policies-explained/open_ai_privacy.png "")</div>
+<div className="image">![OpenAI privacy](../../static/images/open_ai_privacy_2.png "")</div>
 
 
 In my last [blog post](/blog/openai-chatgpt-free-plus-privacy-policies-explained/) we have been tackling privacy terms when using basic, individual ChatGPT Free & Plus subscriptions. The control of the privacy there is quite limited but taking several precautions, as mentioned in the blog post, might be enough for you.
