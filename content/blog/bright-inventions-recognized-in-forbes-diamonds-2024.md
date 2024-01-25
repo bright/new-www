@@ -14,13 +14,13 @@ comments: true
 published: true
 language: en
 ---
-We are happy and proud to announce that our company has been recognised in the **Forbes Diamonds 2024** ranking. **Big shoutout to the positive, responsible, and flexible people who create our Bright Team - you make this organisation what it is. 🧡** We would not have come this far without each and every one of you!
+We are happy and proud to announce that our company has been recognised in the[ **Forbes Diamonds 2024**](https://www.forbes.pl/diamenty/wizytowki/2024/bright-inventions/k961016) ranking. **Big shoutout to the positive, responsible, and flexible people who create our Bright Team - you make this organisation what it is. 🧡** We would not have come this far without each and every one of you!
 
 This recognition solidifies our position among **Poland's fastest-growing companies**. We value the ongoing, steady growth and progress we have achieved across all aspects of our business. **Our strategic approach not only supports sustainable expansion but also fuels ongoing initiatives to build [a unique company culture based on the values we all share](https://brightinventions.pl/about-us/#core-values).** None of this would be possible without the resolute determination and commitment of our entire team. 
 
 <div className="image">![bright team 2024](../../static/images/collage-bright-team-2024.jpg "")</div>
 
-## About Forbes Diamonds 
+## About Forbes Diamonds
 
 The Forbes Diamond stands as a prestigious accolade for the most dynamically evolving private companies in Poland. Collaboratively curated by the Forbes editorial team and Dun & Bradstreet Poland, the list of "Diamonds" comprises companies that have experienced the most rapid increase in value over the last three years. To earn the Forbes Diamond, companies must demonstrate a positive financial outcome, with a cooperation risk factor higher than 4, as evaluated by the Dun & Bradstreet Poland rating.
 
