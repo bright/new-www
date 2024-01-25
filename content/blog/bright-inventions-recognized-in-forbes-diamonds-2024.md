@@ -8,6 +8,7 @@ date: 2024-01-25T07:06:11.422Z
 meaningfullyUpdatedAt: 2024-01-25T07:06:11.432Z
 title: Bright Inventions Recognized in Forbes Diamonds 2024
 layout: post
+image: /images/forbes-diamonds-cover-04-1-.png
 hidden: false
 comments: true
 published: true
@@ -17,7 +18,7 @@ We are happy and proud to announce that our company has been recognised in the *
 
 This recognition solidifies our position among **Poland's fastest-growing companies**. We value the ongoing, steady growth and progress we have achieved across all aspects of our business. **Our strategic approach not only supports sustainable expansion but also fuels ongoing initiatives to build [a unique company culture based on the values we all share](https://brightinventions.pl/about-us/#core-values).** None of this would be possible without the resolute determination and commitment of our entire team. 
 
-<div className="image">![bright team 2024](../../static/images/bright-team-2024.png "")</div>
+<div className="image">![bright team 2024](../../static/images/collage-bright-team-2024.jpg "")</div>
 
 ## About Forbes Diamonds 
 
