@@ -34,7 +34,7 @@ The illustration presents the example of agent and his components:
 
 ## Boosting your agent
 
-You may be wondering, ‘Why I cannot use simple LLM to get my questions answered?’ There might be situations, where used LLM model has old data or you have to provide some internal data (and use embedding to find similarity). 
+You may be wondering, ‘Why I cannot use simple LLM to get my questions answered?’ There might be situations, where used LLM model has old data or you have to provide some internal data (and use [embedding](/blog/understanding-embeddings-a-short-guide-with-an-example/) to find similarity). 
 
 **Explore these examples of features that can boost your agent:**
 
