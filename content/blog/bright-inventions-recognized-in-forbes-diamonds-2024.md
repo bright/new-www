@@ -19,7 +19,7 @@ This recognition solidifies our position among **Poland's fastest-growing compan
 
 <div className="image">![bright team 2024](../../static/images/bright-team-2024.png "")</div>
 
-## About the Forbes Diamonds ranking
+## About Forbes Diamonds 
 
 The Forbes Diamond stands as a prestigious accolade for the most dynamically evolving private companies in Poland. Collaboratively curated by the Forbes editorial team and Dun & Bradstreet Poland, the list of "Diamonds" comprises companies that have experienced the most rapid increase in value over the last three years. To earn the Forbes Diamond, companies must demonstrate a positive financial outcome, with a cooperation risk factor higher than 4, as evaluated by the Dun & Bradstreet Poland rating.
 
@@ -37,4 +37,4 @@ We have extensive experience in modernizing and rescuing systems that are not co
 
 We believe that every challenge is an opportunity to innovate and learn. Join us on this exciting journey towards a future where technology not only meets but exceeds expectations. Together we can create software that really matters in the today's world. 
 
-For detailed information about the awards, visit** [Forbes Diamonds 2024](https://www.forbes.pl/diamenty-forbesa-2024).**
+For detailed information about the awards, visit **[Forbes Diamonds 2024](https://www.forbes.pl/diamenty-forbesa-2024).**
