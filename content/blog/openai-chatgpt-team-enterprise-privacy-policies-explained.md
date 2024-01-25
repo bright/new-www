@@ -14,7 +14,7 @@ meaningfullyUpdatedAt: 2024-01-25T13:56:16.383Z
 title: OpenAI ChatGPT Team & Enterprise Privacy Terms Explained
 layout: post
 image: /images/open_ai_privacy_2.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
@@ -24,7 +24,7 @@ language: en
 <div className="image">![OpenAI privacy](../../static/images/open_ai_privacy_2.png "")</div>
 
 
-In my last [blog post](/blog/openai-chatgpt-free-plus-privacy-policies-explained/) we have been tackling privacy terms when using basic, individual ChatGPT Free & Plus subscriptions. The control of the privacy there is quite limited but taking several precautions, as mentioned in the blog post, might be enough for you.
+In my last [blog post](/blog/openai-chatgpt-free-plus-privacy-policies-explained/) we have been tackling privacy terms when using basic, individual ChatGPT Free & Plus subscriptions. The control of the privacy there is quite limited but taking several precautions, as mentioned in the blog post, might be enough for you. **If you need a bigger control over your data retention, I will present ChatGPT solutions for business: ChatGPT Team and Enterprise.**
 
 ## OpenAI Trust Portal
 I have already mentioned it in the last post but it’s worth reminding. **[OpenAI Trust portal](https://trust.openai.com/) is your go-to place for privacy and security when it comes to OpenAI.** Upon this page, we can see that OpenAI is CCPA, GDPR, SOC2, and SOC3 compliant (OpenAI, not ChatGPT - note the difference). Here you can download or request security papers from OpenAI. You can see the status of their infrastructure, all privacy policies, PII usage, data processing agreement, or terms of service. Highly recommended to start your privacy journey here!
