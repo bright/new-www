@@ -31,8 +31,10 @@ For many years, a clear and dynamic work culture has been shaping here, breaking
 
 ## Our strategic focus
 
-We have extensive experience in modernizing and rescuing systems that are not compatible with user needs or market demands. **It happens that we take on and save endangered projects facing imminent issues of instability and performance.** Information systems created at Bright Inventions straightforwardly deliver advanced functionalities to users. Providing high-quality services and cultivating long-term relationships with clients pays off in trust and long-term collaboration. 
+We have extensive experience in modernizing and rescuing systems that are not compatible with user needs or market demands. **It happens that we take on endangered projects facing imminent issues of instability and performance.** Information systems created by our team straightforwardly deliver advanced functionalities to users. Providing high-quality services and cultivating long-term relationships with clients pays off in trust and long-term collaboration. 
 
-In 2022 Bright Inventions became a part of the Scandinavian Lyvia Group, aiming for integrated collaboration among the best providers of digital solutions. As a part of the broader universe we have the opportunity to modernize the digital landscape worldwide, ensuring that digitization becomes a natural part of every organization striving for continuous development.
+**In 2022 Bright Inventions became a part of the Scandinavian [Lyvia Group](https://lyviagroup.com/), aiming for integrated collaboration among the best providers of digital solutions**. As a part of the broader universe we have the opportunity to modernize the digital landscape worldwide, ensuring that digitization becomes a natural part of every organization striving for continuous development.
+
+We believe that every challenge is an opportunity to innovate and learn. Join us on this exciting journey towards a future where technology not only meets but exceeds expectations. Together we can create software that really matters in the today's world. 
 
 For detailed information about the awards, visit** [Forbes Diamonds 2024](https://www.forbes.pl/diamenty-forbesa-2024).**
