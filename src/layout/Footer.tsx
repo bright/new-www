@@ -13,7 +13,7 @@ import variables from '../styles/variables'
 import * as styles from './Footer.module.scss'
 import { Link } from 'gatsby'
 import { ModalCookies } from '../analytics/modal-cookies'
-import LyviaAndClutchIcons from '../components/subcomponents/LyviaAndClutchIcons'
+import LyviaIconAndBadges from '../components/subcomponents/LyviaIconAndBadges'
 
 
 const FooterWrapper = styled.footer`
@@ -67,7 +67,7 @@ export const Footer = () => {
               </Link>
             </div>
             <SocialIcons className='padded-right' />
-            <LyviaAndClutchIcons />
+            <LyviaIconAndBadges />
           </div>
 
           {/* <div className='column has-text-centered'>
