@@ -9,16 +9,6 @@
 .is-pulled-right
   float: right !important
 
-// Overflow
-
-.is-clipped
-  overflow: hidden !important
-
-// Overlay
-
-.is-overlay
-  @extend %overlay
-
 // Typography
 
 =typography-size($target:'')
@@ -81,18 +71,6 @@ $alignments: ('centered': 'center', 'justified': 'justify', 'left': 'left', 'rig
   +fullhd
     .has-text-#{$alignment}-fullhd
       text-align: #{$text-align} !important
-
-.is-capitalized
-  text-transform: capitalize !important
-
-.is-lowercase
-  text-transform: lowercase !important
-
-.is-uppercase
-  text-transform: uppercase !important
-
-.is-italic
-  font-style: italic !important
 
 @each $name, $pair in $colors
   $color: nth($pair, 1)
@@ -273,9 +251,6 @@ $displays: 'block' 'flex' 'inline' 'inline-block' 'inline-flex'
 
 .is-shadowless
   box-shadow: none !important
-
-.is-unselectable
-  @extend %unselectable
 
 .is-relative
   position: relative !important
