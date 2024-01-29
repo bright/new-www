@@ -109,4 +109,4 @@ In the docs variable, we will get an array of Document objects - the same as fro
 For the embeddings process, **we need an external embeddings model.** We will use OpenAI embeddings for this purpose. To do that, we have to generate an OpenAI API key. \
 But before that, we have to create a .env file where we will store this key.
 
-Now, we need to create an account on the [https://platform.openai.com/docs/overview](https://platform.openai.com/docs/overview) page.  Afterward, we should generate an API key on the [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys) page by creating a new secret key.
+Now, we need to create an account on the [platform.openai.com/docs/overview](https://platform.openai.com/docs/overview) page.  Afterward, we should generate an API key on the [platform.openai.com/api-keys](https://platform.openai.com/api-keys) page by creating a new secret key.
