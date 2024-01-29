@@ -5,7 +5,7 @@ tags:
   - AWS
 date: 2024-01-29T08:56:17.954Z
 meaningfullyUpdatedAt: 2024-01-29T08:56:18.622Z
-title: Join Tomasz Stachlewski i Grzegorz Kalwig at AWS Tricity Meetup
+title: Join Tomasz Stachlewski and Grzegorz Kalwig at AWS Tricity Meetup
 layout: post
 image: /images/aws_meetup_february2024_blog_cover.png
 hidden: false
