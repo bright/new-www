@@ -28,19 +28,34 @@ The directive, called the **Digital Markets Act (DMA)**, which **will be effecti
 
 <div className="image">![Sideloading for iOS](../../static/images/gete7kex0aazvi5.jpeg "")</div>
 
-# What is an alternative marketplace?
+Source: https://twitter.com/altstoreio/status/1750598337533747445
+
+# What is an alternative marketplace? 
 
 Currently, iOS allows users to install apps from AppStore, Testflight or by Enterprise and MDM programs. **Alternative marketplace will be a completely new method of installing apps in iOS, but Apple doesn’t just open iOS for installing any app from any source known i.e. as sideloading.**
 
-**To install an app from an alternative marketplace, users will have to first install an alternative marketplace app developed by an entitled marketplace developer.** After installing the marketplace app, they will be able to browse and install apps from it like they currently do through the AppStore app.
+**To install an app from an alternative marketplace, users will have to first install an alternative marketplace app developed by an entitled marketplace developer**. After installing the marketplace app, they will be able to browse and install apps from it like they currently do through the AppStore app.
 
 To become a marketplace developer, **multiple requirements need to be met**. A developer needs to accept new business terms, request the “Alternative App Marketplace Entitlement (EU)” and meet multiple criteria required by Apple. One of these requirements is providing “a stand-by letter of credit from an A-rated (or equivalent by S&P, Fitch, or Moody’s) financial Institution of €1,000,000 to establish adequate financial means in order to guarantee support for your developers and users”.
 
-See guides from Apple:
-
-* https://developer.apple.com/support/alternative-app-marketplace-in-the-eu/
-* https://developer.apple.com/support/dma-and-apps-in-the-eu/#ios-app-eu 
+See https://developer.apple.com/support/alternative-app-marketplace-in-the-eu/ & https://developer.apple.com/support/dma-and-apps-in-the-eu/#ios-app-eu 
 
 Considering that you will meet all the requirements and Apple will agree to grant you such entitlement, the rest of the work is building a marketplace app and providing apps for it.
 
-<div className="image">![Alternative marketplace app](../../static/images/apple_doc_mockups.png "")</div>
+<div className="image">![](../../static/images/apple_doc_mockups.png "")</div>
+
+Source: https://developer.apple.com/documentation/appdistribution/creating-an-alternative-app-marketplace#Distribute-the-marketplace-app-on-the-web
+
+# Submitting apps for alternative marketplaces
+
+To distribute an app through an alternative marketplace, **app developers will still need to submit them through AppStore connect**. It will be required to pass a new review called “Notarization for iOS apps” that will check “platform integrity and protecting users”.
+
+Notarization for iOS apps will focus on Functionality, Safety, Security, Privacy and Accuracy. Apple doesn’t mention that apps must comply with the “Human Interface Guideline”. Apps distributed on the AppStore will still need to meet Apple’s high standards and pass the normal review.
+
+See https://developer.apple.com/support/dma-and-apps-in-the-eu/#notarization-for-ios-apps
+
+After passing notarization, **developers will need to obtain a security token from the marketplace owner to make their app available in a specific marketplace**.
+
+It will be possible to make one binary available in the AppStore and multiple alternative marketplaces. App developers will be able to branch their code based on the installation (AppStore / TestFlight / Enterprise / Alternative Marketplace). 
+
+It’s important to note that **iPad-only apps can’t be distributed through an alternative marketplace**, they need to support the iPhone too.
