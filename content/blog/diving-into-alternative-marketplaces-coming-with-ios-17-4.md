@@ -59,3 +59,19 @@ After passing notarization, **developers will need to obtain a security token fr
 It will be possible to make one binary available in the AppStore and multiple alternative marketplaces. App developers will be able to branch their code based on the installation (AppStore / TestFlight / Enterprise / Alternative Marketplace). 
 
 It’s important to note that **iPad-only apps can’t be distributed through an alternative marketplace**, they need to support the iPhone too.
+
+# Building an alternative marketplace
+
+To set up a marketplace you will need to provide:
+
+* marketplace webpage for letting people download the marketplace app;
+* webserver for storing app data received from AppStore Connect and facilitating a secure app installation by communicating with iOS;
+* dedicated iOS marketplace app.
+
+<div className="image">![](../../static/images/apple_doc.png "")</div>
+
+source: https://developer.apple.com/documentation/appdistribution/creating-an-alternative-app-marketplace
+
+**Marketplace iOS apps will be a new type of app that will be distributed by external webpage**. A special URL scheme will be used to perform an iOS app installation and that’s the only way of distributing and installing it.
+
+Although the app will be distributed over an external webpage, **it will be required to do a setup with AppStore connect to obtain an “alternative distribution package”**. The process repeats with any update to the marketplace app, but can be automated with webhooks.
