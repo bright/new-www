@@ -84,7 +84,6 @@ At a glance, the new API consists of:
 * `AppLibrary` - the essential class to manage the installation and discovery of marketplace-hosted apps. See: https://developer.apple.com/documentation/marketplacekit/applibrary 
 * `App License Delivery SDK` - for vending licenses from your webserver and handle DRM
 * ​​MarketplaceExtension - “An extension that facilitates authentication, installation, and launching a marketplace with deep links.” See: https://developer.apple.com/documentation/marketplacekit/marketplaceextension 
-
 * `Marketplacekit/ActionButton` - a special button for performing the actual installation to ensure that the process of installation was initiated by the marketplace app.
 
 Apps using `MarketplaceKit` will need a special entitlement com.apple.developer.marketplace.app-installation without adding it, **iOS ignores calls to some parts of new API.**
@@ -101,7 +100,7 @@ Source: https://developer.apple.com/documentation/appdistribution/creating-an-al
 
 > Use MarketplaceKit app distributor’s static current property to determine the installation source see https://developer.apple.com/documentation/appdistribution/distributing-your-app-on-an-alternative-marketplace#Branch-your-code-base-depending-on-the-installation
 
-# What does alternative marketplace mean for iOS developers
+## What does alternative marketplace mean for iOS developers
 
 Theoretically, benefits are lower or zero commission from alternative marketplace owners and a simplified review process. We don’t know how strict Apple will be regarding the review and the commission will depend on the marketplace developer. The downside will be an obviously lower user base covering only users in the EU that will install alternative marketplace app.
 
