@@ -75,3 +75,45 @@ source: https://developer.apple.com/documentation/appdistribution/creating-an-al
 **Marketplace iOS apps will be a new type of app that will be distributed by external webpage**. A special URL scheme will be used to perform an iOS app installation and that’s the only way of distributing and installing it.
 
 Although the app will be distributed over an external webpage, **it will be required to do a setup with AppStore connect to obtain an “alternative distribution package”**. The process repeats with any update to the marketplace app, but can be automated with webhooks.
+
+# MarketplaceKit
+
+iOS 17.4 introduces a new framework called MarketplaceKit (https://developer.apple.com/documentation/marketplacekit/) that will allow creation a marketplace app. It provides tools for requesting an installation of apps distributed over your marketplace, performing updates, restoring and retrieving licenses.
+
+At a glance, the new API consists of:
+
+* `AppLibrary` - the essential class to manage the installation and discovery of marketplace-hosted apps see https://developer.apple.com/documentation/marketplacekit/applibrary 
+* `App License Delivery SDK` - for vending licenses from your webserver and handle DRM
+  ​​MarketplaceExtension - “An extension that facilitates authentication, installation, and launching a marketplace with deep links.” https://developer.apple.com/documentation/marketplacekit/marketplaceextension 
+* `Marketplacekit/ActionButton` - a special button for performing the actual installation to ensure that the process of installation was initiated by the marketplace app
+
+Apps using `MarketplaceKit` will need a special entitlement com.apple.developer.marketplace.app-installation without adding it, **iOS ignores calls to some parts of new API.**
+
+The new API looks pretty straightforward, the developer will need to build an UI and call specific methods to list available apps, and request installs or updates. The rest will be handled by the iOS operating system along with webserver provided by the marketplace owner. 
+
+More details about SDK can be found in the `MarketplaceKit` documentation https://developer.apple.com/documentation/marketplacekit
+
+<div className="image">![Alternative Markeplace App installing an app](../../static/images/apple_doc_mockup_app_install.png "")</div>
+
+Source: https://developer.apple.com/documentation/appdistribution/creating-an-alternative-app-marketplace
+
+`MarketplaceKit` is also useful for app developers that want to distribute their apps over multiple marketplaces. It also allows app developers to branch their apps based on the marketplace it was installed by.
+
+> Use MarketplaceKit app distributor’s static current property to determine the installation source see https://developer.apple.com/documentation/appdistribution/distributing-your-app-on-an-alternative-marketplace#Branch-your-code-base-depending-on-the-installation
+
+# What does alternative marketplace mean for iOS developers
+
+Theoretically, benefits are lower or zero commission from alternative marketplace owners and a simplified review process. We don’t know how strict Apple will be regarding the review and the commission will depend on the marketplace developer. The downside will be an obviously lower user base covering only users in the EU that will install alternative marketplace app.
+
+Although the technical side doesn’t look complicated, t**he business requirements for creating an alternative marketplace are high**. Becoming an entitled marketplace developer requires meeting some strict requirements. **Due to the requirement of providing a stand-by letter for €1,000,000, this process will be reserved only for big players that can afford this.**
+
+Some companies have already announced that they will create their own marketplace apps. 
+Despite some heavy criticism from Tim Sweeney, CEO of Epic Games, he mentioned that they will push to launch their Epic Games Store.
+
+<TwitterEmbed url='https://twitter.com/TimSweeneyEpic/status/1750589570880516402' />
+
+AltStore also announced that they’ve already started working on their marketplace
+
+<TwitterEmbed url='https://twitter.com/altstoreio/status/1750598337533747445' />
+
+I hope that some companies will be able to meet all the requirements and we will see alternative marketplaces soon. It’s a great new opportunity for apps breaking AppStore rules or the ones not willing to pay regular commissions to Apple.
