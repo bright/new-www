@@ -17,7 +17,9 @@ language: en
 ---
 **Apple is forced by the EU to introduce the ability to install apps by alternative marketplaces other than AppStore. What does it mean for iOS developers and app owners? In this article, I will cover the main tech and business requirements to set up your marketplace.** 
 
-<div className="image">![iOS alternative marketplaces](../../static/images/ios_alternative_marketplace_blog_cover.png "")</div>
+<div className="image">![iOS alternative marketplace app](../../static/images/ios_alternative_marketplace_blog_cover.png "")</div>
+
+Source: https://developer.apple.com/documentation/appdistribution/creating-an-alternative-app-marketplace
 
 The directive, called the **Digital Markets Act (DMA)**, which **will be effective in March 2024**, implies on Apple some major changes, the most important ones are:
 
