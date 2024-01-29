@@ -18,27 +18,16 @@ const BlockchainExperts = React.lazy(() => import('../components/home/Blockchain
 const HeroHeaderImages = React.lazy(() => import('../components/home/HeroHeaderImages'))
 
 export default () => {
-  const isSSR = typeof window === 'undefined'
-
   return (
     <Page className='page-index'>
       <Script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} async={true} />
       <Header />
       <Achievements />
-      {!isSSR && (
-        <React.Suspense fallback={<div />}>
-          <HeroHeaderImages />
-        </React.Suspense>
-      )}
+      <HeroHeaderImages />
       <TechnologyTags />
       <OurServices />
       <Ebook />
-      {!isSSR && (
-        <React.Suspense fallback={<div />}>
-          <BlockchainExperts />
-        </React.Suspense>
-      )}
-
+      <BlockchainExperts />
       <Projects isSelectedTag={false} />
       <Ratings />
       <PopularBlogPosts />
