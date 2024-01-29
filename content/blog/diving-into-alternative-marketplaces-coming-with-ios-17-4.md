@@ -81,9 +81,9 @@ iOS 17.4 introduces a new framework called [MarketplaceKit](https://developer.ap
 
 At a glance, the new API consists of:
 
-* `AppLibrary` - the essential class to manage the installation and discovery of marketplace-hosted apps see https://developer.apple.com/documentation/marketplacekit/applibrary 
+* `AppLibrary` - the essential class to manage the installation and discovery of marketplace-hosted apps. See: https://developer.apple.com/documentation/marketplacekit/applibrary 
 * `App License Delivery SDK` - for vending licenses from your webserver and handle DRM
-  ​​MarketplaceExtension - “An extension that facilitates authentication, installation, and launching a marketplace with deep links.” https://developer.apple.com/documentation/marketplacekit/marketplaceextension 
+  ​​MarketplaceExtension - “An extension that facilitates authentication, installation, and launching a marketplace with deep links.” See: https://developer.apple.com/documentation/marketplacekit/marketplaceextension 
 * `Marketplacekit/ActionButton` - a special button for performing the actual installation to ensure that the process of installation was initiated by the marketplace app
 
 Apps using `MarketplaceKit` will need a special entitlement com.apple.developer.marketplace.app-installation without adding it, **iOS ignores calls to some parts of new API.**
