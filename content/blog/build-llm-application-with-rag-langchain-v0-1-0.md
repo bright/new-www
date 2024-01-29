@@ -2,6 +2,7 @@
 author: pawel-p
 tags:
   - AI
+  - RAG
   - langchain
 date: 2024-01-29T17:02:53.378Z
 meaningfullyUpdatedAt: 2024-01-29T17:02:53.398Z
