@@ -134,8 +134,6 @@ def main():
 	documents = loader.load() 
 	text_splitter = CharacterTextSplitter( chunk_size=1000, chunk_overlap=50, separator="\n" ) 
 	docs = text_splitter.split_documents(documents)
-
-
 ```
 
 ### 5. Implementing the embedding process
@@ -174,7 +172,6 @@ def main():
 	embeddings = OpenAIEmbeddings() 
 	vectorstore = FAISS.from_documents(docs, embeddings)    
 	vectorstore.save_local("vector_db")
-
 ```
 
 We have added two lines to our code. The first line takes our split chunks (docs) and the embeddings model to convert the chunks from text to numeric vectors. After that, we are saving the converted data locally in the 'vector_db' directory.
@@ -190,4 +187,62 @@ Answer any use questions based solely on the context below:
 </context>
 ```
 
-You can check it here - [smith.langchain.com/hub/langchain-ai/retrieval-qa-chat] (https://smith.langchain.com/) in the hub section, but you will have to create an account for that.
+You can check it here - https://smith.langchain.com/ in the hub section, but you will have to create an account for that.
+
+Let’s import a hub from the 'langchain' library:
+
+```python
+from langchain import hub
+```
+
+Then, simply use the 'pull()' function to retrieve this prompt from the hub and store it in a variable:
+
+```python
+retrieval_qa_chat_prompt = hub.pull("langchain-ai/retrieval-qa-chat")
+```
+
+### 8. Setting up a large language model
+
+Great. The next thing **we'll need is a large language model** - in our case, it will be one of the OpenAI models. Again, we need an OpenAI key but we have already set up it along with the embeddings, so we don't need to do it again.
+
+Let's go ahead and import the model:
+
+```python
+from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+```
+
+And assign it to a variable in our main function:
+
+```python
+llm = ChatOpenAI()
+```
+
+### 9. Retrieve context data from the database
+
+Okay, we have finished preparing the vector database, embeddings, and LLM (large language model). Now, **we need to connect everything using chains.** We will need two types of chains provided by 'langchain' for that.  
+
+The first one is the 'create_stuff_documents_chain,' which we need to import from the 'langchain' library:
+
+```python
+from langchain.chains.combine_documents import create_stuff_documents_chain
+```
+
+Next, pass our large language model (LLM) and prompt to it.
+
+```python
+combine_docs_chain = create_stuff_documents_chain(llm, retrieval_qa_chat_prompt)
+```
+
+This function returns an LCEL Runnable object, which requires a context parameter. Running it will look like this:
+
+```python
+combine_docs_chain.invoke({"context": docs, "input": "What is REACT in machine learning meaning?"})
+```
+
+### 10. Retrieve only the relevant data as a context
+
+Generally, it will work, but in this situation, we will pass all chunks - the entire document - as the context. In our case, where the file has 33 pages, **this context is too large,** and we will probably encounter an error like this:
+
+```python
+openai.BadRequestError: Error code: 400 - {'error': {'message': "This model's maximum context length is 4097 tokens. However, your messages resulted in 33846 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+```
