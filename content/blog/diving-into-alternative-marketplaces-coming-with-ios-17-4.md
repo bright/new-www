@@ -42,7 +42,7 @@ See https://developer.apple.com/support/alternative-app-marketplace-in-the-eu/ &
 
 Considering that you will meet all the requirements and Apple will agree to grant you such entitlement, the rest of the work is building a marketplace app and providing apps for it.
 
-<div className="image">![](../../static/images/apple_doc_mockups.png "")</div>
+<div className="image">![Installing alternative marketplace app](../../static/images/apple_doc_mockups.png "")</div>
 
 Source: https://developer.apple.com/documentation/appdistribution/creating-an-alternative-app-marketplace#Distribute-the-marketplace-app-on-the-web
 
