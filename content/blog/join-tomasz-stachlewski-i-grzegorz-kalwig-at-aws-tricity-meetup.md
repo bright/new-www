@@ -34,3 +34,5 @@ In this session, we will explore various methods of serverless data analysis in 
 
 20:00 - 20:10 Q&A Session 🗣️
 20:10 Pizza & Networking 🍕👫
+
+## Meet the speakers
