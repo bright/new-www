@@ -110,3 +110,84 @@ For the embeddings process, **we need an external embeddings model.** We will us
 But before that, we have to create a .env file where we will store this key.
 
 Now, we need to create an account on the [platform.openai.com/docs/overview](https://platform.openai.com/docs/overview) page.  Afterward, we should generate an API key on the [platform.openai.com/api-keys](https://platform.openai.com/api-keys) page by creating a new secret key.
+
+Copy the secret key and paste it into the .env file like this:
+
+```
+OPENAI_API_KEY=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
+```
+
+This key will be deleted before the publication of this post, so you will be not able to use it.
+
+Okay, let’s load environment variables into our project by importing the load_dotenv function:
+
+```python
+from dotenv import load_dotenv
+```
+
+And call it at the very beginning of the main function:
+
+```python
+def main(): 
+	load_dotenv()
+	loader = PyPDFLoader(file_path=pdf_path) 
+	documents = loader.load() 
+	text_splitter = CharacterTextSplitter( chunk_size=1000, chunk_overlap=50, separator="\n" ) 
+	docs = text_splitter.split_documents(documents)
+
+
+```
+
+### 5. Implementing the embedding process
+
+At first, we have to import OpenAIEmbeddings class:
+
+```python
+from langchain_openai import OpenAIEmbeddings
+```
+
+Then we should create an instance of this class. Let’s assign it to the 'embeddings' variable like this:
+
+```python
+embeddings = OpenAIEmbeddings()
+```
+
+### 6. Setting up local vector database - FAISS
+
+Awesome! We have loaded and prepared our file, and we have also created an object instance for the embeddings model. **We are now ready to transform our chunks into numeric vectors and save them in a vector database.** We will keep all our data locally using the FAISS vector database. Facebook AI Similarity Search (Faiss) is a tool designed by Facebook AI for effective similarity search and clustering of dense vectors. 
+
+First, we need to import the FAISS instance:
+
+```python
+from langchain_community.vectorstores.faiss import FAISS
+```
+
+And implement the process of converting and saving embeddings:
+
+```python
+def main(): 
+	load_dotenv() 
+	loader = PyPDFLoader(file_path=pdf_path) 
+	documents = loader.load() 
+	text_splitter = CharacterTextSplitter( chunk_size=1000, chunk_overlap=50, separator="\n" ) 
+	docs = text_splitter.split_documents(documents) 
+	embeddings = OpenAIEmbeddings() 
+	vectorstore = FAISS.from_documents(docs, embeddings)    
+	vectorstore.save_local("vector_db")
+
+```
+
+We have added two lines to our code. The first line takes our split chunks (docs) and the embeddings model to convert the chunks from text to numeric vectors. After that, we are saving the converted data locally in the 'vector_db' directory.
+
+### 7. Creating a prompt
+
+For preparing a prompt we will use a 'langchain' hub. We will pull a prompt called 'langchain-ai/retrieval-qa-chat' from there. This prompt is specially designed for our case, allowing us to ask the model about things from the provided context. Under the hood, the prompt looks like this:
+
+```
+Answer any use questions based solely on the context below:
+<context> 
+{context}
+</context>
+```
+
+You can check it here - [smith.langchain.com/hub/langchain-ai/retrieval-qa-chat] (https://smith.langchain.com/) in the hub section, but you will have to create an account for that.
