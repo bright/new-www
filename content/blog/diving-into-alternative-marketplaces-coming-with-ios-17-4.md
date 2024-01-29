@@ -29,7 +29,7 @@ The directive, called the **Digital Markets Act (DMA)**, which **will be effecti
 
 Source: https://twitter.com/altstoreio/status/1750598337533747445
 
-# What is an alternative marketplace? 
+## What is an alternative marketplace?
 
 Currently, iOS allows users to install apps from AppStore, Testflight or by Enterprise and MDM programs. **Alternative marketplace will be a completely new method of installing apps in iOS, but Apple doesn’t just open iOS for installing any app from any source known i.e. as sideloading.**
 
@@ -45,7 +45,7 @@ Considering that you will meet all the requirements and Apple will agree to gran
 
 Source: https://developer.apple.com/documentation/appdistribution/creating-an-alternative-app-marketplace#Distribute-the-marketplace-app-on-the-web
 
-# Submitting apps for alternative marketplaces
+## Submitting apps for alternative marketplaces
 
 To distribute an app through an alternative marketplace, **app developers will still need to submit them through AppStore connect**. It will be required to pass a new review called “Notarization for iOS apps” that will check “platform integrity and protecting users”.
 
@@ -59,7 +59,7 @@ It will be possible to make one binary available in the AppStore and multiple al
 
 It’s important to note that **iPad-only apps can’t be distributed through an alternative marketplace**, they need to support the iPhone too.
 
-# Building an alternative marketplace
+## Building an alternative marketplace
 
 To set up a marketplace you will need to provide:
 
@@ -67,7 +67,7 @@ To set up a marketplace you will need to provide:
 * webserver for storing app data received from AppStore Connect and facilitating a secure app installation by communicating with iOS;
 * dedicated iOS marketplace app.
 
-<div className="image">![](../../static/images/apple_doc.png "")</div>
+<div className="image">![Apple doc](../../static/images/apple_doc.png "")</div>
 
 source: https://developer.apple.com/documentation/appdistribution/creating-an-alternative-app-marketplace
 
@@ -75,7 +75,7 @@ source: https://developer.apple.com/documentation/appdistribution/creating-an-al
 
 Although the app will be distributed over an external webpage, **it will be required to do a setup with AppStore connect to obtain an “alternative distribution package”**. The process repeats with any update to the marketplace app, but can be automated with webhooks.
 
-# MarketplaceKit
+## MarketplaceKit
 
 iOS 17.4 introduces a new framework called MarketplaceKit (https://developer.apple.com/documentation/marketplacekit/) that will allow creation a marketplace app. It provides tools for requesting an installation of apps distributed over your marketplace, performing updates, restoring and retrieving licenses.
 
