@@ -100,7 +100,9 @@ Source: https://developer.apple.com/documentation/appdistribution/creating-an-al
 
 `MarketplaceKit` is also useful for app developers that want to distribute their apps over multiple marketplaces. It also allows app developers to branch their apps based on the marketplace it was installed by.
 
-> Use MarketplaceKit app distributor’s static current property to determine the installation source see https://developer.apple.com/documentation/appdistribution/distributing-your-app-on-an-alternative-marketplace#Branch-your-code-base-depending-on-the-installation
+> Use MarketplaceKit app distributor’s static current property to determine the installation source. 
+
+See: https://developer.apple.com/documentation/appdistribution/distributing-your-app-on-an-alternative-marketplace#Branch-your-code-base-depending-on-the-installation
 
 ## What does alternative marketplace mean for iOS developers
 
