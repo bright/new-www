@@ -35,3 +35,14 @@ pip install langchain-community==0.0.11 pypdf==3.17.4 langchain==0.1.0 python-do
 ```
 
 Let's create a ‘data’ directory and place the PDF file in it.  We must also create a main.py file in the project directory, where we will store the whole code of our application.
+
+In the main.py file, we will create main() function which will store the logic. The file will look like this:
+
+```
+def main():
+  print("Hello World!")
+
+if __name__ == "__main__": 
+  main()
+
+```
