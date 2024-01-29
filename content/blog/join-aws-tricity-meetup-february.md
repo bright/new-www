@@ -20,6 +20,7 @@ language: en
 ## AWS Tricity Meeting agenda
 
 17.45-18.00 Registration & Intro 👋
+
 **18.00-18.45 Presentation by Grzegorz Kalwig 💪, DevOps Engineer, Unity Group**
 
 **Topic: Controlling the Customer Footprint in the Service of Security**
@@ -27,7 +28,9 @@ language: en
 In today's world, cybersecurity is constantly evolving to meet increasing challenges and new threats. During the presentation, we will trace the history of an attack targeted at an e-commerce system. Grzegorz will share his experiences in resolving this situation.
 
 18:45 - 18:55 Q&A Session 🗣️
+
 18:55 - 19:00 Refreshment Break ☕️
+
 **19:00-20:00 Presentation by Tomasz Stachlewski 😎, Head of Technology for EMEA CEE, AWS**
 
 **Topic: Serverless Data Analysis - What's Buzzing in the Grass**
@@ -35,6 +38,7 @@ In today's world, cybersecurity is constantly evolving to meet increasing challe
 In this session, we will explore various methods of serverless data analysis in the cloud. We will discuss distributed analytics within the Big Data ecosystem and the EMR Serverless service, orchestration with AWS Step Functions, and conclude with serverless analysis using the Athena service. If time permits, we will leverage the capabilities of GenerativeAI to help us discover collected data. All this without slides!
 
 20:00 - 20:10 Q&A Session 🗣️
+
 20:10 Pizza & Networking 🍕👫
 
 ## Meet the speakers
