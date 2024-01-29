@@ -5,7 +5,6 @@ tags:
   - iOS
   - ios
   - app store
-  - mobile development
 date: 2024-01-29T11:48:06.141Z
 meaningfullyUpdatedAt: 2024-01-29T11:48:06.158Z
 title: Diving into Alternative Marketplaces Coming with iOS 17.4
