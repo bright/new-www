@@ -37,7 +37,7 @@ Currently, iOS allows users to install apps from AppStore, Testflight or by Ente
 
 To become a marketplace developer, **multiple requirements need to be met**. A developer needs to accept new business terms, request the “Alternative App Marketplace Entitlement (EU)” and meet multiple criteria required by Apple. One of these requirements is providing “a stand-by letter of credit from an A-rated (or equivalent by S&P, Fitch, or Moody’s) financial Institution of €1,000,000 to establish adequate financial means in order to guarantee support for your developers and users”.
 
-See https://developer.apple.com/support/alternative-app-marketplace-in-the-eu/ & https://developer.apple.com/support/dma-and-apps-in-the-eu/#ios-app-eu 
+See: https://developer.apple.com/support/alternative-app-marketplace-in-the-eu/ & https://developer.apple.com/support/dma-and-apps-in-the-eu/#ios-app-eu 
 
 Considering that you will meet all the requirements and Apple will agree to grant you such entitlement, the rest of the work is building a marketplace app and providing apps for it.
 
@@ -51,7 +51,7 @@ To distribute an app through an alternative marketplace, **app developers will s
 
 Notarization for iOS apps will focus on Functionality, Safety, Security, Privacy and Accuracy. Apple doesn’t mention that apps must comply with the “Human Interface Guideline”. Apps distributed on the AppStore will still need to meet Apple’s high standards and pass the normal review.
 
-See https://developer.apple.com/support/dma-and-apps-in-the-eu/#notarization-for-ios-apps
+See: https://developer.apple.com/support/dma-and-apps-in-the-eu/#notarization-for-ios-apps
 
 After passing notarization, **developers will need to obtain a security token from the marketplace owner to make their app available in a specific marketplace**.
 
@@ -77,7 +77,7 @@ Although the app will be distributed over an external webpage, **it will be requ
 
 ## MarketplaceKit
 
-iOS 17.4 introduces a new framework called MarketplaceKit (https://developer.apple.com/documentation/marketplacekit/) that will allow creation a marketplace app. It provides tools for requesting an installation of apps distributed over your marketplace, performing updates, restoring and retrieving licenses.
+iOS 17.4 introduces a new framework called [MarketplaceKit](https://developer.apple.com/documentation/marketplacekit/) that will allow creation a marketplace app. It provides tools for requesting an installation of apps distributed over your marketplace, performing updates, restoring and retrieving licenses.
 
 At a glance, the new API consists of:
 
