@@ -113,10 +113,18 @@ Although the technical side doesn’t look complicated, t**he business requireme
 Some companies have already announced that they will create their own marketplace apps. 
 Despite some heavy criticism from Tim Sweeney, CEO of Epic Games, he mentioned that they will push to launch their Epic Games Store.
 
+<center>
+
 <TwitterEmbed url='https://twitter.com/TimSweeneyEpic/status/1750589570880516402' />
 
-AltStore also announced that they’ve already started working on their marketplace
+</center>
+
+AltStore also announced that they’ve already started working on their marketplace:
+
+<center>
 
 <TwitterEmbed url='https://twitter.com/altstoreio/status/1750598337533747445' />
+
+</center>
 
 I hope that some companies will be able to meet all the requirements and we will see alternative marketplaces soon. It’s a great new opportunity for apps breaking AppStore rules or the ones not willing to pay regular commissions to Apple.
