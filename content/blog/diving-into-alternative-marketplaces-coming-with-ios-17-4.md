@@ -17,7 +17,9 @@ language: en
 ---
 **Apple is forced by the EU to introduce the ability to install apps by alternative marketplaces other than AppStore. What does it mean for iOS developers and app owners? In this article, I will cover the main tech and business requirements to set up your marketplace.** 
 
-<div className="image">![iOS alternative marketplaces](../../static/images/ios_alternative_marketplace_blog_cover.png "")</div>
+<div className="image">![iOS alternative marketplace app](../../static/images/ios_alternative_marketplace_blog_cover.png "")</div>
+
+Source: https://developer.apple.com/documentation/appdistribution/creating-an-alternative-app-marketplace
 
 The directive, called the **Digital Markets Act (DMA)**, which **will be effective in March 2024**, implies on Apple some major changes, the most important ones are:
 
@@ -85,7 +87,7 @@ At a glance, the new API consists of:
 
 * `AppLibrary` - the essential class to manage the installation and discovery of marketplace-hosted apps. See: https://developer.apple.com/documentation/marketplacekit/applibrary 
 * `App License Delivery SDK` - for vending licenses from your webserver and handle DRM
-* ​​MarketplaceExtension - “An extension that facilitates authentication, installation, and launching a marketplace with deep links.” See: https://developer.apple.com/documentation/marketplacekit/marketplaceextension 
+* ​​`MarketplaceExtension` - “An extension that facilitates authentication, installation, and launching a marketplace with deep links.” See: https://developer.apple.com/documentation/marketplacekit/marketplaceextension 
 * `Marketplacekit/ActionButton` - a special button for performing the actual installation to ensure that the process of installation was initiated by the marketplace app.
 
 Apps using `MarketplaceKit` will need a special entitlement com.apple.developer.marketplace.app-installation without adding it, **iOS ignores calls to some parts of new API.**
@@ -108,7 +110,7 @@ See: https://developer.apple.com/documentation/appdistribution/distributing-your
 
 Theoretically, benefits are lower or zero commission from alternative marketplace owners and a simplified review process. We don’t know how strict Apple will be regarding the review and the commission will depend on the marketplace developer. The downside will be an obviously lower user base covering only users in the EU that will install alternative marketplace app.
 
-Although the technical side doesn’t look complicated, t**he business requirements for creating an alternative marketplace are high**. Becoming an entitled marketplace developer requires meeting some strict requirements. **Due to the requirement of providing a stand-by letter for €1,000,000, this process will be reserved only for big players that can afford this.**
+Although the technical side doesn’t look complicated, **the business requirements for creating an alternative marketplace are high**. Becoming an entitled marketplace developer requires meeting some strict requirements. **Due to the requirement of providing a stand-by letter for €1,000,000, this process will be reserved only for big players that can afford this.**
 
 Some companies have already announced that they will create their own marketplace apps. 
 Despite some heavy criticism from Tim Sweeney, CEO of Epic Games, he mentioned that they will push to launch their Epic Games Store.
