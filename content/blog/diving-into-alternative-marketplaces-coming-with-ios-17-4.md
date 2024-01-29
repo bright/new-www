@@ -5,8 +5,8 @@ tags:
   - iOS
   - ios
   - app store
-date: 2024-01-29T11:48:06.141Z
-meaningfullyUpdatedAt: 2024-01-29T11:48:06.158Z
+date: 2024-01-29T12:34:40.895Z
+meaningfullyUpdatedAt: 2024-01-29T12:34:41.438Z
 title: Diving into Alternative Marketplaces Coming with iOS 17.4
 layout: post
 image: /images/ios_alternative_marketplace_blog_cover.png
