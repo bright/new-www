@@ -110,6 +110,8 @@ See: https://developer.apple.com/documentation/appdistribution/distributing-your
 
 Theoretically, benefits are lower or zero commission from alternative marketplace owners and a simplified review process. We don’t know how strict Apple will be regarding the review and the commission will depend on the marketplace developer. The downside will be an obviously lower user base covering only users in the EU that will install alternative marketplace app.
 
+It's also worth mentioning that developers who choose to agree to the new business terms will have to pay a Core Technology - "€0.50 for each first annual install over one million in the past 12 months" see more here https://developer.apple.com/support/core-technology-fee/
+
 Although the technical side doesn’t look complicated, **the business requirements for creating an alternative marketplace are high**. Becoming an entitled marketplace developer requires meeting some strict requirements. **Due to the requirement of providing a stand-by letter for €1,000,000, this process will be reserved only for big players that can afford this.**
 
 Some companies have already announced that they will create their own marketplace apps. 
