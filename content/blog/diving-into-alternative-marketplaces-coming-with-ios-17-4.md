@@ -26,9 +26,9 @@ The directive, called the **Digital Markets Act (DMA)**, which **will be effecti
 
 **This article covers the first of the implications, which is alternative marketplaces.**
 
-<div className="image">![Sideloading](../../static/images/gete7kex0aazvi5.jpeg "")</div>
+<div className="image">![Sideloading for iOS](../../static/images/gete7kex0aazvi5.jpeg "")</div>
 
-# What is an alternative marketplace? 
+# What is an alternative marketplace?
 
 Currently, iOS allows users to install apps from AppStore, Testflight or by Enterprise and MDM programs. **Alternative marketplace will be a completely new method of installing apps in iOS, but Apple doesn’t just open iOS for installing any app from any source known i.e. as sideloading.**
 
@@ -42,3 +42,5 @@ See guides from Apple:
 * https://developer.apple.com/support/dma-and-apps-in-the-eu/#ios-app-eu 
 
 Considering that you will meet all the requirements and Apple will agree to grant you such entitlement, the rest of the work is building a marketplace app and providing apps for it.
+
+<div className="image">![Alternative marketplace app](../../static/images/apple_doc_mockups.png "")</div>
