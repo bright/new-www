@@ -173,7 +173,7 @@ In 2019-2020, 20.78% of adults were experiencing a mental illness, equivalent to
 
 **AI-Powered Chatbots for Mental Health**: as mentioned earlier in the article chatbots using AI can provide immediate, 24/7 support for individuals seeking mental health assistance. [Companies worth watching: [Weabot Health](https://woebothealth.com/), [Limbic](https://limbic.ai/)]
 
-**Mindfulness and Relaxation Apps**: tech offering guided mindfulness and relaxation exercises, which can be beneficial for reducing symptoms of stress, anxiety, and depression. [Companies worth watching: [HeadSpace](https://limbic.ai/), [Calm](https://www.calm.com/), [Buddhify](https://buddhify.com/), [Aura](https://www.aurahealth.io/)]
+**Mindfulness and Relaxation Apps**: tech offering guided mindfulness and relaxation exercises, which can be beneficial for reducing symptoms of stress, anxiety, and depression. [Companies worth watching: [HeadSpace](https://www.headspace.com/), [Calm](https://www.calm.com/), [Buddhify](https://buddhify.com/), [Aura](https://www.aurahealth.io/)]
 
 **Apps for Crisis Intervention**: apps providing immediate assistance to individuals experiencing a mental health crisis, offering resources such as crisis hotlines, safety planning, and immediate coping strategies. [Companies worth watching: [Suicide Safe](https://play.google.com/store/apps/details?id=gov.hhs.samhsa.app.spa&hl=en&gl=US), [Weabot Health](https://woebothealth.com/)]
 
