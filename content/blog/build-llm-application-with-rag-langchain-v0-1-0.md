@@ -4,16 +4,19 @@ tags:
   - AI
   - RAG
   - langchain
-date: 2024-01-29T17:02:53.378Z
-meaningfullyUpdatedAt: 2024-01-29T17:02:53.398Z
+date: 2024-01-30T09:03:52.457Z
+meaningfullyUpdatedAt: 2024-01-30T09:03:53.266Z
 title: Build LLM application with RAG (LangChain v0.1.0)
 layout: post
+image: /images/python_langchain.png
 hidden: false
 comments: true
 published: true
 language: en
 ---
 **Let’s build a simple LLM application in Python using the LangChain library as well as RAG and embedding techniques. Follow our step-by-step tutorial published after the new release of LangChain 0.1.0 in January 2024.**
+
+<div className="image">![Cover photo](../../static/images/python_langchain.png "")</div>
 
 In previous blog posts, we have described [how the embeddings](https://brightinventions.pl/blog/understanding-embeddings-a-short-guide-with-an-example/) work and [what the RAG technique is](https://brightinventions.pl/blog/retrieval-augmented-generation-in-machine-learning/). If you need to catch up with some basics, read the articles. Are you ready? Now it’s time to turn theory into practice!
 
@@ -347,5 +350,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 ```
