@@ -1,22 +1,22 @@
-import React, { MutableRefObject, MouseEvent, useEffect } from 'react'
+import React, { MutableRefObject, useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { story } from './story-data'
-import { TextRegular } from '../../shared'
+import { CustomSection, TextRegular } from '../../shared'
 import variables, { deviceSize } from '../../../styles/variables'
-import { CustomSection } from '../../shared'
-import { useState } from 'react'
 import { clampBuilder } from '../../../helpers/clampBuilder'
-import { TimelineLogo, TimelineImage } from '../../timeline'
+import { TimelineImage, TimelineLogo } from '../../timeline'
 import { useWindowSize } from '../../utils/use-windowsize'
-import { StoryNavigation } from './StoryNavigation'
 import { useScrollPosition } from '../../utils/use-scrollposition'
+import { StoryNavigation } from './StoryNavigation'
 
 const StoriesWrapperScroll = styled.div<{ isScrollShouldVisible: boolean }>`
   ${({ isScrollShouldVisible }) => isScrollShouldVisible && 'overflow-x: scroll'};
   height: ${variables.pxToRem(600)};
+
   &::-webkit-scrollbar {
     display: none;
   }
+
   @media ${variables.device.laptop} {
     height: ${variables.pxToRem(650)};
     width: 100vw;
@@ -134,6 +134,7 @@ const Label = styled.label`
     display: grid;
     place-content: center;
     cursor: pointer;
+
     &::before {
       content: '';
       width: 13px;
@@ -143,6 +144,7 @@ const Label = styled.label`
       transition: 120ms transform ease-in-out;
       background: #f7931e 0% 0% no-repeat padding-box;
     }
+
     &:checked::before {
       transform: scale(1);
     }
@@ -200,6 +202,7 @@ const ContentWrapper = styled.div<{ positionLeft?: boolean; positionFirst?: bool
     clip-path: polygon(59% 0%, 0% 50%, 59% 100%);
     box-shadow: 0px 0px 99px #00000017;
   }
+
   @media ${variables.device.laptop} {
     &::before {
       ${({ positionLeft }) => (positionLeft ? `right:clamp(1.125rem, -1.9686rem + 3.8610vw, 1.75rem)` : `right:unset`)};
@@ -217,9 +220,9 @@ const ContentWrapper = styled.div<{ positionLeft?: boolean; positionFirst?: bool
   @media ${variables.device.tablet} {
     &::before {
       ${({ positionLeft }) =>
-        positionLeft ? `right:clamp(3.1875rem, -0.3613rem + 9.7561vw, 5.6875rem)` : `right:unset`};
+              positionLeft ? `right:clamp(3.1875rem, -0.3613rem + 9.7561vw, 5.6875rem)` : `right:unset`};
       ${({ positionLeft }) =>
-        positionLeft ? `left: unset` : `left:clamp(3.1875rem, -0.3613rem + 9.7561vw, 5.6875rem)`};
+              positionLeft ? `left: unset` : `left:clamp(3.1875rem, -0.3613rem + 9.7561vw, 5.6875rem)`};
       ${({ positionFirst }) => positionFirst && `left: ${clampBuilder(582, 992, 51, 92)}`};
     }
   }
@@ -227,12 +230,12 @@ const ContentWrapper = styled.div<{ positionLeft?: boolean; positionFirst?: bool
     &::before {
       ${({ positionLeft }) => (positionLeft ? `right: 50%; transform: translateX(-50%);` : `right:unset`)};
       ${({ positionLeft }) =>
-        positionLeft ? `left: unset` : `left:50%;     transform: translateX(-50%) rotate(90deg);`};
+              positionLeft ? `left: unset` : `left:50%;     transform: translateX(-50%) rotate(90deg);`};
 
       ${({ positionFirst }) =>
-        positionFirst && `left: ${clampBuilder(360, 581, 47, 88)}; transform: translateX(0%) rotate(90deg);`};
+              positionFirst && `left: ${clampBuilder(360, 581, 47, 88)}; transform: translateX(0%) rotate(90deg);`};
       ${({ positionLast }) =>
-        positionLast && `left: ${clampBuilder(360, 581, 270, 449)}; transform: translateX(0%) rotate(90deg);`};
+              positionLast && `left: ${clampBuilder(360, 581, 270, 449)}; transform: translateX(0%) rotate(90deg);`};
     }
   }
 `
@@ -241,12 +244,14 @@ const ImageWrapper = styled.div`
   flex-direction: row;
   gap: ${variables.pxToRem(32)};
   padding-bottom: ${variables.pxToRem(36)};
+
   & div:not(.logo) {
     overflow: hidden;
     transition: all 0.3s ease 0s;
     width: ${variables.pxToRem(107)};
     height: ${variables.pxToRem(107)};
     flex-basis: auto;
+
     & img {
       border-radius: ${variables.pxToRem(180)};
       border: 1px solid rgb(211, 211, 211);
@@ -254,6 +259,7 @@ const ImageWrapper = styled.div`
       height: auto;
     }
   }
+
   @media ${variables.device.tabletXL} {
     gap: ${variables.pxToRem(24)};
     padding-bottom: ${variables.pxToRem(23)};
@@ -278,6 +284,11 @@ export function StoryComponent() {
   const [disabledLeft, setDisabledLeft] = useState('disabled')
   const [disabledRight, setDisabledRight] = useState('')
   const offsetMoveScroll = 100
+  const [isClient, setIsClient] = useState(false)
+
+  useEffect(() => {
+    setIsClient(true)
+  })
 
   const handleChange = ({ target }: any) => {
     // TODO: WTF ?!
@@ -387,22 +398,25 @@ export function StoryComponent() {
                       onChange={handleChange}
                     />
                   </Label>
+                  {isClient && (
+                    <>
+                      {isChecked && width > deviceSize.tablet + 1 && typeof window !== 'undefined' && (
+                        <PositionContentWrapper positionLeft={isLeft}>
+                          <ContentWrapper positionLeft={isLeft} positionFirst={isFirst} positionLast={isLast}>
+                            <ImageWrapper>
+                              {item.images?.map(image => (
+                                <TimelineImage key={image.src} {...image} />
+                              ))}
+                              {item.logos?.map(image => (
+                                <TimelineLogo key={image.src} {...image} />
+                              ))}
+                            </ImageWrapper>
 
-                  {isChecked && width > deviceSize.tablet + 1 && typeof window !== 'undefined' && (
-                    <PositionContentWrapper positionLeft={isLeft}>
-                      <ContentWrapper positionLeft={isLeft} positionFirst={isFirst} positionLast={isLast}>
-                        <ImageWrapper>
-                          {item.images?.map(image => (
-                            <TimelineImage key={image.src} {...image} />
-                          ))}
-                          {item.logos?.map(image => (
-                            <TimelineLogo key={image.src} {...image} />
-                          ))}
-                        </ImageWrapper>
-
-                        <TextRegular>{item.content}</TextRegular>
-                      </ContentWrapper>
-                    </PositionContentWrapper>
+                            <TextRegular>{item.content}</TextRegular>
+                          </ContentWrapper>
+                        </PositionContentWrapper>
+                      )}
+                    </>
                   )}
                 </StoryWrapper>
               )

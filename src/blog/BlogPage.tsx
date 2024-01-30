@@ -1,18 +1,18 @@
 import { graphql } from 'gatsby'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import { Page } from '../layout/Page'
 import { BlogFeed } from './Feed'
 import { GQLData } from '../models/gql'
 import { createBlogPosts } from '../models/creator'
 import { PageContext, Paging } from './Paging'
-import { HideTablet, PageDescription, Section } from '../components/shared'
+import { HideTablet } from '../components/shared'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
 import Helmet from 'react-helmet'
 import { resolveUrl } from '../meta/resolve-url'
 // @ts-ignore
 import blogPostDefaultImage from '../../static/images/dummy/blog_post.png'
-import { CustomPageTitle, CustomSection, PageTitle } from '../components/shared/index.styled'
+import { CustomPageTitle, CustomSection } from '../components/shared/index.styled'
 import BlogTagsAll from './BlogTagsAll'
 import { routeLinks } from '../config/routing'
 import ScrollToTop from '../components/subcomponents/ScrollToTop'
@@ -24,6 +24,12 @@ interface Props {
 }
 
 const BlogPage: React.FC<Props> = ({ data, pageContext }) => {
+  const [isClient, setIsClient] = useState(false)
+
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
+
   return (
     <Page className='page-blog-list'>
       <HelmetMetaData
@@ -50,7 +56,9 @@ const BlogPage: React.FC<Props> = ({ data, pageContext }) => {
           {' '}
           <span>bright</span> devs blog
         </CustomPageTitle>
-        <BlogTagsAll activeTag='' activeSubTag='' />
+        {isClient && (
+          <BlogTagsAll activeTag='' activeSubTag='' />
+        )}
         <HideTablet>
           {/*<PageDescription>*/}
           {/*  Get up-to-date news on Bright Inventions. Discover all the*/}
