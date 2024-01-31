@@ -85,10 +85,6 @@ As I mentioned before, you can assign some development tasks to counteract the h
 
 There is an approach to reducing the risk called ALARP - [As Low As Reasonably Practicable ](https://www.hse.gov.uk/risk/theory/alarpglance.htm). Sometimes it would be too costly to do anything about a particular threat, or there are few options left anyway. It’s like with leaving your house these days - you can hide in the bunker and order all your groceries online, washing every product with 70% alcohol, risking insanity (and getting drunk from the fumes) or go out, wear a mask, sanitise your hands and accept the residual risk.
 
-The crucial part is to be honest with yourself and your team about the risks. Team members should feel comfortable to mention any concerns - only [](google.pl)then you can manage the risk in a meaningful way and feel collectively responsible for the final result.
-
-
-
-[google.pl ](google.pl)
+> The crucial part is to be honest with yourself and your team about the risks. Team members should feel comfortable to mention any concerns - only [google.pl](google.pl)then you can manage the risk in a meaningful way and feel collectively responsible for the final result.
 
 **Knowing the risks, then reducing the ones we can and ALARPing the rest is in a way a definition of responsibility.** It’s not about avoiding any risk at all cost. You will never be 100% safe but that’s life. Wear a helmet and ride the bike, fasten your seatbelt and drive the car, encrypt the connection and let the users enjoy your great system. In the end, you’ll have to suck it and see.
