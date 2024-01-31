@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import { useWindowSize } from '../components/utils/use-windowsize'
 import styled from 'styled-components'
-import { usePagination, DOTS } from './use-pagination/use-pagination'
+import { DOTS, usePagination } from './use-pagination/use-pagination'
 import variables from '../styles/variables'
 import { Link } from 'gatsby'
 
@@ -25,11 +25,13 @@ const PagingWrapper = styled.div`
       font-size: ${variables.pxToRem(18)};
       padding: 0;
       margin: 0;
+
       &:hover span {
         color: ${variables.color.primary};
       }
     }
   }
+
   & div {
     & span {
       & .button {
@@ -37,6 +39,7 @@ const PagingWrapper = styled.div`
         padding: 0;
         font-weight: normal;
         transition: all ease-out 0.3s;
+
         &:hover span {
           color: ${variables.color.text};
           font-weight: 600;
@@ -64,6 +67,7 @@ const PagingWrapper = styled.div`
       color: ${variables.color.text};
     }
   }
+
   & .is-active {
     & span {
       color: ${variables.color.text};
@@ -71,17 +75,20 @@ const PagingWrapper = styled.div`
       font-weight: 600;
     }
   }
+
   & .is-shadow {
     color: #131214;
     filter: opacity(0.2);
     pointer-events: none;
   }
+
   & div {
     width: 100%;
     display: flex;
     gap: ${variables.pxToRem(34)};
     justify-content: center;
     align-items: center;
+
     & > .dots {
       display: flex;
       align-items: flex-end;
@@ -92,6 +99,7 @@ const PagingWrapper = styled.div`
       color: ${variables.color.text};
     }
   }
+
   @media ${variables.device.laptop} {
     margin-top: ${variables.pxToRem(82)};
     margin-bottom: ${variables.pxToRem(116)};
@@ -106,6 +114,7 @@ const PagingWrapper = styled.div`
 
       & span {
         flex-basis: calc(100% / 6);
+
         & .button {
           width: -webkit-fill-available;
         }
@@ -119,12 +128,14 @@ const PagingWrapper = styled.div`
 
     & div {
       gap: 0;
+
       & span {
         flex-basis: calc(100% / 5);
       }
     }
   }
 `
+
 export interface PageContext {
   currentPage: 2
   limit: 10
@@ -147,7 +158,12 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
     currentPage: currentPage,
     totalPageCount: numPages,
     siblingCount: width <= 580 ? 0 : width <= breakpoint ? 1 : 2,
-    pageSize: 10,
+    pageSize: 10
+  })
+  const [isClient, setIsClient] = useState(false)
+
+  useEffect(() => {
+    setIsClient(true)
   })
 
   const prevHref = !tag && currentPage <= 2 ? baseURI : `${baseURI}${currentPage - 1}`
@@ -156,36 +172,40 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
 
   return (
     <PagingWrapper>
-      <span>
-        <Link to={prevHref} className={pageContext.currentPage <= 1 ? 'button is-shadow' : 'button'}>
-          <span>back</span>
-        </Link>
-      </span>
-      <div>
-        {paginationRange &&
-          paginationRange.map((pageNumber: any, i: any) => {
-            if (pageNumber == DOTS) {
-              return (
-                <span key={pageNumber + '-' + i} className='dots'>
+      {isClient && (
+        <>
+          <span>
+            <Link to={prevHref} className={pageContext.currentPage <= 1 ? 'button is-shadow' : 'button'}>
+            <span>back</span>
+            </Link>
+          </span>
+          <div>
+            {paginationRange &&
+              paginationRange.map((pageNumber: any, i: any) => {
+                if (pageNumber == DOTS) {
+                  return (
+                    <span key={pageNumber + '-' + i} className='dots'>
                   &#8230;
                 </span>
-              )
-            }
-            const pageNumberHref = !tag && i == 0 ? baseURI : `${baseURI}${pageNumber}`
-            return (
-              <span key={pageNumber}>
-                <Link to={pageNumberHref} className={currentPage == pageNumber ? 'button is-active' : 'button'}>
-                  <span>{pageNumber}</span>
-                </Link>
-              </span>
-            )
-          })}
-      </div>
-      <span>
-        <Link to={nextHref} className={pageContext.currentPage === lastPage ? 'button is-shadow' : 'button'}>
-          <span>next</span>
-        </Link>
-      </span>
+                  )
+                }
+                const pageNumberHref = !tag && i == 0 ? baseURI : `${baseURI}${pageNumber}`
+                return (
+                  <span key={pageNumber}>
+                    <Link to={pageNumberHref} className={currentPage == pageNumber ? 'button is-active' : 'button'}>
+                    <span>{pageNumber}</span>
+                  </Link>
+                  </span>
+                )
+              })}
+          </div>
+          <span>
+            <Link to={nextHref} className={pageContext.currentPage === lastPage ? 'button is-shadow' : 'button'}>
+              <span>next</span>
+            </Link>
+          </span>
+        </>
+      )}
     </PagingWrapper>
   )
 }

@@ -1,9 +1,9 @@
 import { graphql } from 'gatsby'
-import React, { ChangeEvent, useState } from 'react'
+import React, { ChangeEvent, useEffect, useState } from 'react'
 import classNames from 'classnames'
 
 import { Page } from '../layout/Page'
-import { CustomSectionInner, CustomPageTitle, CustomSection, CustomTextRegular } from '../components/shared'
+import { CustomPageTitle, CustomSection, CustomSectionInner, CustomTextRegular } from '../components/shared'
 import { createProjects } from '../models/creator'
 import { GQLData } from '../models/gql'
 import styled from 'styled-components'
@@ -23,16 +23,24 @@ const SectionProjects = styled(CustomSection)`
 
     color: ${variables.color.text};
   }
+
   & li.is-active {
     font-weight: bold;
     border: 1px solid #f7931e;
   }
+
   &::first-letter {
     text-transform: lowercase;
   }
 `
 
 const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
+  const [isClient, setIsClient] = useState(false)
+
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
+
   const projects = createProjects(data)
 
   const allTags: string[] = []
@@ -96,48 +104,52 @@ const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
             many others.
           </CustomTextRegular>
         </CustomSectionInner>
-        {width < breakpoint ? (
+        {isClient && (
           <>
-            {allTags.length > 0 && (
-              <TagsSelect onChange={handleOnChange}>
-                <option
-                  className={classNames('project-tag', { ['is-active']: selectedTag.length === 0 })}
-                  value={'allTags'}
-                >
-                  all
-                </option>
+            {width < breakpoint ? (
+              <>
+                {allTags.length > 0 && (
+                  <TagsSelect onChange={handleOnChange}>
+                    <option
+                      className={classNames('project-tag', { ['is-active']: selectedTag.length === 0 })}
+                      value={'allTags'}
+                    >
+                      all
+                    </option>
+                    {allTags.map(tag => (
+                      <option
+                        key={tag}
+                        className={classNames('project-tag', { ['is-active']: selectedTag.includes(tag) })}
+                        value={tag}
+                      >
+                        {tag}
+                      </option>
+                    ))}
+                  </TagsSelect>
+                )}
+              </>
+            ) : (
+              <TagsWrapper>
+                {allTags.length > 0 && (
+                  <li
+                    className={classNames('project-tag', { ['is-active']: selectedTag.length === 0 })}
+                    onClick={() => setSelectedTag([])}
+                  >
+                    all
+                  </li>
+                )}
                 {allTags.map(tag => (
-                  <option
+                  <li
                     key={tag}
                     className={classNames('project-tag', { ['is-active']: selectedTag.includes(tag) })}
-                    value={tag}
+                    onClick={() => selectTag(tag)}
                   >
                     {tag}
-                  </option>
+                  </li>
                 ))}
-              </TagsSelect>
+              </TagsWrapper>
             )}
           </>
-        ) : (
-          <TagsWrapper>
-            {allTags.length > 0 && (
-              <li
-                className={classNames('project-tag', { ['is-active']: selectedTag.length === 0 })}
-                onClick={() => setSelectedTag([])}
-              >
-                all
-              </li>
-            )}
-            {allTags.map(tag => (
-              <li
-                key={tag}
-                className={classNames('project-tag', { ['is-active']: selectedTag.includes(tag) })}
-                onClick={() => selectTag(tag)}
-              >
-                {tag}
-              </li>
-            ))}
-          </TagsWrapper>
         )}
       </SectionProjects>
       <Projects
