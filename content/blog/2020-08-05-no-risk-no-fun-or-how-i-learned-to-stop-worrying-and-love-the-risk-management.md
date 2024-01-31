@@ -8,7 +8,7 @@ tags:
   - ALARP
 date: 2020-08-05T12:34:37.084Z
 meaningfullyUpdatedAt: ""
-title: "No risk, no fun or: How I learned to stop worrying and love the risk
+title: "NO risk, no fun or: How I learned to stop worrying and love the risk
   management."
 layout: post
 image: /images/blog_post_risk_management.png
@@ -19,7 +19,7 @@ language: en
 ---
 I’ve been researching and writing about the agile approach to risk management for quite a few years now but mostly in relation to safety-critical software (for example [here](https://dl.acm.org/doi/10.1145/3234152.3234174) , [here](https://link.springer.com/chapter/10.1007%2F978-3-030-37534-8_4) and [here](https://journals.agh.edu.pl/csci/article/view/51) ). This time I wanted to address other types of projects, how it can work in practice and why the risk is not necessarily a bad thing. 
 
-![risk management IT](../../static/images/blog_post_risk_management.png "")
+![risk management IT](../../static/images/blog_post_risk_management.png)
 
 I started to write this blog post back in March, I already had the title and some notes. And then something unexpected ([but apparently still predictable](https://www.youtube.com/watch?v=6Af6b_wyiwI)) happened - a global pandemic. Suddenly, writing that if there’s no risk, then there’s no fun seemed inappropriate. Going out, ignoring the risks, was simply foolish and arrogant. We were all stuck in our homes, not sure about the actual threats, following the numbers, untangling expert advice from the conspiracy theories, trying to predict whether we’d make it to the summer at all. With live footage of human tragedies unfolding in different parts of the world, we looked out the window to see the trees in bloom and birds chirping, like nothing was happening. Was it really that dangerous? While it felt awkward to write candidly about the idea of risk a few months ago, I think now the timing couldn’t be better. Because now that we debate the risk at personal level, almost every day since March, maybe considering it also on a professional level would feel more natural. Because there’s always risk. Sometimes it’s unavoidable, sometimes, manageable, but it’s there. Pretending we don’t see it (or indeed, not seeing it at all) is a dangerous strategy. **But acknowledging the risk, making informed decisions and sometimes doing things anyway is where the fun begins.**
 
@@ -85,6 +85,10 @@ As I mentioned before, you can assign some development tasks to counteract the h
 
 There is an approach to reducing the risk called ALARP - [As Low As Reasonably Practicable ](https://www.hse.gov.uk/risk/theory/alarpglance.htm). Sometimes it would be too costly to do anything about a particular threat, or there are few options left anyway. It’s like with leaving your house these days - you can hide in the bunker and order all your groceries online, washing every product with 70% alcohol, risking insanity (and getting drunk from the fumes) or go out, wear a mask, sanitise your hands and accept the residual risk.
 
-The crucial part is to be honest with yourself and your team about the risks. Team members should feel comfortable to mention any concerns - only then you can manage the risk in a meaningful way and feel collectively responsible for the final result.
+The crucial part is to be honest with yourself and your team about the risks. Team members should feel comfortable to mention any concerns - only [](google.pl)then you can manage the risk in a meaningful way and feel collectively responsible for the final result.
+
+
+
+[google.pl ](google.pl)
 
 **Knowing the risks, then reducing the ones we can and ALARPing the rest is in a way a definition of responsibility.** It’s not about avoiding any risk at all cost. You will never be 100% safe but that’s life. Wear a helmet and ride the bike, fasten your seatbelt and drive the car, encrypt the connection and let the users enjoy your great system. In the end, you’ll have to suck it and see.
