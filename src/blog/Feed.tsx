@@ -18,7 +18,6 @@ const ImageWrapper = styled.div`
     object-fit: cover;
   }
 `
-
 interface Props {
   posts: BlogPostModel[]
   numToSliced?: number
@@ -35,23 +34,19 @@ export const BlogFeed = ({ posts, numToSliced }: Props) => {
             return <></>
           }
         } else {
-          return <Post key={post.id} post={post} imageLoading={index === 0 ? 'eager' : 'lazy'} />
+          return <Post key={post.id} post={post} />
         }
       })}
     </div>
   )
 }
 
-const Post: React.FC<{ post: BlogPostModel, imageLoading?: 'eager' | 'lazy' | undefined }> = ({
-                                                                                                post,
-                                                                                                imageLoading
-                                                                                              }) => {
+const Post: React.FC<{ post: BlogPostModel }> = ({ post }) => {
   return (
     <div className={styles.entry}>
       <Link to={deleteTimestampFromUrl(post.slug)}>
         <ImageWrapper className={styles.image}>
           <GatsbyImage
-            loading={imageLoading || 'lazy'}
             image={getImage(post.image)!}
             alt={post.title}
             className='post-img'
@@ -63,23 +58,23 @@ const Post: React.FC<{ post: BlogPostModel, imageLoading?: 'eager' | 'lazy' | un
             <div className={styles.date}>
               {post.meaningfullyUpdatedAt
                 ? formatDate(
-                  new Date(
-                    post.meaningfullyUpdatedAt
-                      .replace(/-/g, '/')
-                      .replace('T', ' ')
-                      .replace(/\..*|\+.*/, '')
-                  ),
-                  'MMM dd, yyyy'
-                )
+                    new Date(
+                      post.meaningfullyUpdatedAt
+                        .replace(/-/g, '/')
+                        .replace('T', ' ')
+                        .replace(/\..*|\+.*/, '')
+                    ),
+                    'MMM dd, yyyy'
+                  )
                 : formatDate(
-                  new Date(
-                    post.date
-                      .replace(/-/g, '/')
-                      .replace('T', ' ')
-                      .replace(/\..*|\+.*/, '')
-                  ),
-                  'MMM dd, yyyy'
-                )}
+                    new Date(
+                      post.date
+                        .replace(/-/g, '/')
+                        .replace('T', ' ')
+                        .replace(/\..*|\+.*/, '')
+                    ),
+                    'MMM dd, yyyy'
+                  )}
             </div>
             <div>{post.tags.join(', ')}</div>
           </div>
