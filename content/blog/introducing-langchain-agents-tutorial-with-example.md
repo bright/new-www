@@ -266,3 +266,5 @@ If you’re not planning to override the default prompt - provide a default one 
 ## Ready to build your custom agent in LangChain?
 
 I believe you are! In case you have any questions, just let me know in the comments.
+
+Hungry for more LangChain tutorials? [Build LLM application in Python using LangChain and RAG](/blog/build-llm-application-with-rag-langchain/).
