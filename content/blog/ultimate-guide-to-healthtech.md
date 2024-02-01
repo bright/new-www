@@ -153,7 +153,9 @@ If you want to look closely at some companies that are changing healthcare, we l
 
 **TeleHealth companies to watch**: [Camascope](https://www.camascope.com/), [MedKitDoc](https://medkitdoc.de/en), [Maven](https://www.mavenclinic.com/).
 
-**Medical Imaging AI companies**: [ContextVision](https://www.contextvision.com/), [Enlitic](https://enlitic.com/).Online Support and Web Therapy Platforms: [Circles](https://brightinventions.pl/projects/online-group-support/), [BetterHealth](https://www.betterhelp.com/), [TeenConsulting](https://www.teencounseling.com/), [Ritual](https://www.heyritual.com/).
+**Medical Imaging AI companies**: [ContextVision](https://www.contextvision.com/), [Enlitic](https://enlitic.com/).
+
+**Online Support and Web Therapy Platforms**: [Circles](https://brightinventions.pl/projects/online-group-support/), [BetterHealth](https://www.betterhelp.com/), [TeenConsulting](https://www.teencounseling.com/), [Ritual](https://www.heyritual.com/).
 
 **AI-Powered Chatbots for Mental Health**: [Weabot Health](https://woebothealth.com/), [Limbic](https://limbic.ai/)
 
