@@ -137,11 +137,11 @@ Delve into [bluetooth devices that have the power to change healthcare](/blog/bl
 
 HealthTech and MedTech applications are usually comprehensive, massive systems dealing with tons of information. Patient's health history, prescribed medicine, vital sign metrics – all of this data is important for healthcare providers and must be well-designed in any system aiming to help them care for patients. That's why there are a few best practices for designing apps for healthcare:
 
-* Data Management: The design must effectively manage and display large amounts of information in an accessible manner.
-* Information Prioritization: Essential information should be prioritized and easily accessible, preferably on the main screen.
-* Iconography: Use of intuitive icons that convey information quickly and effectively.
-* Color Coding: Employ color coding to differentiate and highlight important data and functions.
-* Functional Aesthetics: The design should focus on functionality over aesthetics, meeting the practical needs of healthcare professionals.
+* **Data Management**: The design must effectively manage and display large amounts of information in an accessible manner.
+* **Information Prioritization**: Essential information should be prioritized and easily accessible, preferably on the main screen.
+* **Iconography**: Use of intuitive icons that convey information quickly and effectively.
+* **Color Coding**: Employ color coding to differentiate and highlight important data and functions.
+* **Functional Aesthetics**: The design should focus on functionality over aesthetics, meeting the practical needs of healthcare professionals.
 
 Fancy going deeper into product design for healthcare? Explore [UX design best practices in healthcare with a case study](/blog/ux-design-healthcare-medical-apps-case-study/).
 
@@ -151,19 +151,19 @@ Fancy going deeper into product design for healthcare? Explore [UX design best p
 
 If you want to look closely at some companies that are changing healthcare, we listed some startups and larger organizations that are worth watching!
 
-TeleHealth companies to watch: [Camascope](https://www.camascope.com/), [MedKitDoc](https://medkitdoc.de/en), [Maven](https://www.mavenclinic.com/).
+**TeleHealth companies to watch**: [Camascope](https://www.camascope.com/), [MedKitDoc](https://medkitdoc.de/en), [Maven](https://www.mavenclinic.com/).
 
-Medical Imaging AI companies: [ContextVision](https://www.contextvision.com/), [Enlitic](https://enlitic.com/).Online Support and Web Therapy Platforms: [Circles](https://brightinventions.pl/projects/online-group-support/), [BetterHealth](https://www.betterhelp.com/), [TeenConsulting](https://www.teencounseling.com/), [Ritual](https://www.heyritual.com/).
+**Medical Imaging AI companies**: [ContextVision](https://www.contextvision.com/), [Enlitic](https://enlitic.com/).Online Support and Web Therapy Platforms: [Circles](https://brightinventions.pl/projects/online-group-support/), [BetterHealth](https://www.betterhelp.com/), [TeenConsulting](https://www.teencounseling.com/), [Ritual](https://www.heyritual.com/).
 
-AI-Powered Chatbots for Mental Health: [Weabot Health](https://woebothealth.com/), [Limbic](https://limbic.ai/)
+**AI-Powered Chatbots for Mental Health**: [Weabot Health](https://woebothealth.com/), [Limbic](https://limbic.ai/)
 
-AI in disease diagnostics companies to watch: [iCAD](https://www.icadmed.com/), [Emory University](https://medicalxpress.com/news/2023-08-ai-enables-earlier-diabetes-chest.html), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTech](https://www.ainnovatech.com/), [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/), [SkinVision.](https://www.skinvision.com/pl/)
+**AI in disease diagnostics companies to watch**: [iCAD](https://www.icadmed.com/), [Emory University](https://medicalxpress.com/news/2023-08-ai-enables-earlier-diabetes-chest.html), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTech](https://www.ainnovatech.com/), [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/), [SkinVision.](https://www.skinvision.com/pl/)
 
-Mindfulness and Relaxation Apps: [HeadSpace](https://www.headspace.com/), [Calm](https://www.calm.com/), [Buddhify](https://buddhify.com/), [Aura](https://www.aurahealth.io/)
+**Mindfulness and Relaxation Apps**: [HeadSpace](https://www.headspace.com/), [Calm](https://www.calm.com/), [Buddhify](https://buddhify.com/), [Aura](https://www.aurahealth.io/)
 
-Apps for Crisis Intervention: [Suicide Safe](https://play.google.com/store/apps/details?id=gov.hhs.samhsa.app.spa&hl=en&gl=US), [Weabot Health](https://woebothealth.com/)
+**Apps for Crisis Intervention**: [Suicide Safe](https://play.google.com/store/apps/details?id=gov.hhs.samhsa.app.spa&hl=en&gl=US), [Weabot Health](https://woebothealth.com/)
 
-Digital Detox Apps: [ForestApp](https://www.forestapp.cc/), [Flipd](https://www.flipdapp.co/)
+**Digital Detox Apps**: [ForestApp](https://www.forestapp.cc/), [Flipd](https://www.flipdapp.co/)
 
 ## Fancy more HealthTech content?
 
