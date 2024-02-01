@@ -89,7 +89,7 @@ It refers to the practice of using mobile devices (smartphones, tablets) for hea
 
 An approach to patient care that considers individual variability in genes, environment, and lifestyle to tailor treatments and interventions.
 
-### Biohacking 
+### Biohacking
 
 The practice of using technology and biology in tandem to optimize health, well-being, and physical and mental performance, often involves DIY biology and self-experimentation.
 
@@ -108,3 +108,17 @@ An emerging field at the intersection of technology and biology, focusing on usi
 Technology has the power to change the daily lives of patients and medical staff in countless ways. We've listed the technologies that every HealthTech startup and enterprise should (at least) consider implementing.
 
 If you want to know what’s especially hot in tech for healthcare in 2024, read [Top 7 Trends in HealthTech to Watch in 2024](/blog/top-trends-in-healthtech/)!
+
+### Internet of Things & Bluetooth
+
+The Internet of Things (IoT) in healthcare refers to the network of medical devices and applications that communicate and exchange data due to an Internet and bluetooth connection. 
+
+How IoT enhances healthcare:
+
+* enables patients to manage their condition by enabling real-time health monitoring, 
+* helps doctors remotely monitor patients' condition 24 hours a day;
+* limits the costs of face-to-face examination;
+* provides analytics for disease prevention;
+* seamless data sharing among healthcare providers.
+
+Read an actual story of Camascope startup offering remote patient monitoring with the [IoT system combined with certified bluetooth devices](/projects/remote-patient-monitoring/).
