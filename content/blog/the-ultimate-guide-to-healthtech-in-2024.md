@@ -53,6 +53,8 @@ Technology focused on women's health, including reproductive health, menstrual c
 
 Check an example: a [mobile app for pregnant women](/projects/pregnancy-app/).
 
+<div className="image">![pregnant women](../../static/images/pregnant_women.png "pregnant women")</div>
+
 ### Telemedicine / Telehealth
 
 Remote delivery of healthcare services, such as consultations and diagnoses, through telecommunications technology, often involving video conferencing:
