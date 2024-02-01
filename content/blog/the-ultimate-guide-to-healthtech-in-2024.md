@@ -129,6 +129,8 @@ Devices that we have seen at doctors' offices – thanks to Bluetooth connection
 
 Delve into [bluetooth devices that have the power to change healthcare](/blog/bluetooth-devices-that-change-healthcare/).
 
+<div className="image">![smartwatch](../../static/images/healthcare_wearable_devices.png "smartwatch")</div>
+
 ## UX Design in HealthTech
 
 HealthTech and MedTech applications are usually comprehensive, massive systems dealing with tons of information. Patient's health history, prescribed medicine, vital sign metrics – all of this data is important for healthcare providers and must be well-designed in any system aiming to help them care for patients. That's why there are a few best practices for designing apps for healthcare:
@@ -140,6 +142,8 @@ HealthTech and MedTech applications are usually comprehensive, massive systems d
 * Functional Aesthetics: The design should focus on functionality over aesthetics, meeting the practical needs of healthcare professionals.
 
 Fancy going deeper into product design for healthcare? Explore [UX design best practices in healthcare with a case study](/blog/ux-design-healthcare-medical-apps-case-study/).
+
+<div className="image">![ux design for healthcare apps](../../static/images/design_for_ehealth_app_web_mockup.png "ux design for healthcare apps")</div>
 
 ## eHealth companies worth watching
 
