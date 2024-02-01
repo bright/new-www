@@ -122,3 +122,9 @@ How IoT enhances healthcare:
 * seamless data sharing among healthcare providers.
 
 Read an actual story of Camascope startup offering remote patient monitoring with the [IoT system combined with certified bluetooth devices](/projects/remote-patient-monitoring/).
+
+### Medical devices and wearables
+
+Devices that we have seen at doctors' offices – thanks to Bluetooth connections and dedicated applications – have turned into smart devices that have the power to save patients' lives daily. Pulse oximeters, Bluetooth thermometers, or stethoscopes are only examples of Bluetooth devices that are transforming healthcare. Now they can be used by patients at home to monitor their condition remotely.
+
+Delve into [bluetooth devices that have the power to change healthcare](/blog/bluetooth-devices-that-change-healthcare/).
