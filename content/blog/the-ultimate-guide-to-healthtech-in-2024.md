@@ -19,7 +19,7 @@ language: en
 
 <div className="image">![HealthTech guide](../../static/images/healthtech-guide.png "HealthTech guide")</div>
 
-## Healthtech and MedTech – recognizing the difference
+## HealthTech and MedTech – recognizing the difference
 
 MedTech and Health Tech aren’t synonyms. This guide will focus mostly on HealthTech, still, it’s essential to understand the difference between these terms.
 
