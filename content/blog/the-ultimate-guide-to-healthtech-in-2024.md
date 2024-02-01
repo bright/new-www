@@ -158,3 +158,7 @@ Mindfulness and Relaxation Apps: [HeadSpace](https://www.headspace.com/), [Calm]
 Apps for Crisis Intervention: [Suicide Safe](https://play.google.com/store/apps/details?id=gov.hhs.samhsa.app.spa&hl=en&gl=US), [Weabot Health](https://woebothealth.com/)
 
 Digital Detox Apps: [ForestApp](https://www.forestapp.cc/), [Flipd](https://www.flipdapp.co/)
+
+## Fancy more HealthTech content?
+
+[Sign up for Bright Dev Newsletter](https://bright-dev-newsletter.getresponsepages.com/) to receive our guide for successful scaling that we'll be released in February 2024. Don't miss that!
