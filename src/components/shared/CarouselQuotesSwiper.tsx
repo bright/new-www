@@ -205,7 +205,7 @@ export const CarouselQuotesSwiper: React.FC = () => {
       bio: 'Senior QA Engineer',
       slug: 'malgorzata-z',
       quote:
-        'I’ve always enjoyed running but never had someone to share this passion with until I joined the running workouts at Bright Inventions. Thanks to our trainer, Bartosz Banach, and his coaching, I was able to finish a marathon.',
+        'I’ve always enjoyed running, but never had someone to share this passion with until I joined the running workouts at Bright Inventions. Thanks to our trainer, Bartosz Banach, and his coaching, I was able to finish a marathon.',
     },
         {
       avatar_hover: (
