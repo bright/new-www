@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: michal-jan
-ex: false
+ex: true
 slug: michal-jan
 name: Michał Janiszewski
 short_name: Michał
