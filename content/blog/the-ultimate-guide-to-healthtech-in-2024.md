@@ -102,3 +102,9 @@ Explore the [patient engagement app for Parkinson's patients](/projects/solution
 ### Techbio
 
 An emerging field at the intersection of technology and biology, focusing on using technological advancements to understand and engineer biological systems, often related to health and medicine.
+
+### Innovations that will drive healthcare
+
+Technology has the power to change the daily lives of patients and medical staff in countless ways. We've listed the technologies that every HealthTech startup and enterprise should (at least) consider implementing.
+
+If you want to know what’s especially hot in tech for healthcare in 2024, read [Top 7 Trends in HealthTech to Watch in 2024](/blog/top-trends-in-healthtech/)!
