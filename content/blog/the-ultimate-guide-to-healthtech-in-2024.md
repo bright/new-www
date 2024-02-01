@@ -140,3 +140,21 @@ HealthTech and MedTech applications are usually comprehensive, massive systems d
 * Functional Aesthetics: The design should focus on functionality over aesthetics, meeting the practical needs of healthcare professionals.
 
 Fancy going deeper into product design for healthcare? Explore [UX design best practices in healthcare with a case study](/blog/ux-design-healthcare-medical-apps-case-study/).
+
+## eHealth companies worth watching
+
+If you want to look closely at some companies that are changing healthcare, we listed some startups and larger organizations that are worth watching!
+
+TeleHealth companies to watch: [Camascope](https://www.camascope.com/), [MedKitDoc](https://medkitdoc.de/en), [Maven](https://www.mavenclinic.com/).
+
+Medical Imaging AI companies: [ContextVision](https://www.contextvision.com/), [Enlitic](https://enlitic.com/).Online Support and Web Therapy Platforms: [Circles](https://brightinventions.pl/projects/online-group-support/), [BetterHealth](https://www.betterhelp.com/), [TeenConsulting](https://www.teencounseling.com/), [Ritual](https://www.heyritual.com/).
+
+AI-Powered Chatbots for Mental Health: [Weabot Health](https://woebothealth.com/), [Limbic](https://limbic.ai/)
+
+AI in disease diagnostics companies to watch: [iCAD](https://www.icadmed.com/), [Emory University](https://medicalxpress.com/news/2023-08-ai-enables-earlier-diabetes-chest.html), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTech](https://www.ainnovatech.com/), [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/), [SkinVision.](https://www.skinvision.com/pl/)
+
+Mindfulness and Relaxation Apps: [HeadSpace](https://www.headspace.com/), [Calm](https://www.calm.com/), [Buddhify](https://buddhify.com/), [Aura](https://www.aurahealth.io/)
+
+Apps for Crisis Intervention: [Suicide Safe](https://play.google.com/store/apps/details?id=gov.hhs.samhsa.app.spa&hl=en&gl=US), [Weabot Health](https://woebothealth.com/)
+
+Digital Detox Apps: [ForestApp](https://www.forestapp.cc/), [Flipd](https://www.flipdapp.co/)
