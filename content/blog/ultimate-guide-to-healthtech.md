@@ -157,7 +157,7 @@ If you want to look closely at some companies that are changing healthcare, we l
 
 **AI-Powered Chatbots for Mental Health**: [Weabot Health](https://woebothealth.com/), [Limbic](https://limbic.ai/)
 
-**AI in disease diagnostics companies to watch**: [iCAD](https://www.icadmed.com/), [Emory University](https://medicalxpress.com/news/2023-08-ai-enables-earlier-diabetes-chest.html), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTech](https://www.ainnovatech.com/), [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/), [SkinVision.](https://www.skinvision.com/pl/)
+**AI in disease diagnostics companies to watch**: [Decorte Future Industries](https://decorte.co.uk/), [iCAD](https://www.icadmed.com/), [Emory University](https://medicalxpress.com/news/2023-08-ai-enables-earlier-diabetes-chest.html), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTech](https://www.ainnovatech.com/), [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/), [SkinVision.](https://www.skinvision.com/pl/)
 
 **Mindfulness and Relaxation Apps**: [HeadSpace](https://www.headspace.com/), [Calm](https://www.calm.com/), [Buddhify](https://buddhify.com/), [Aura](https://www.aurahealth.io/)
 
