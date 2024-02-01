@@ -89,14 +89,16 @@ It refers to the practice of using mobile devices (smartphones, tablets) for hea
 
 An approach to patient care that considers individual variability in genes, environment, and lifestyle to tailor treatments and interventions.
 
-Biohacking 
+### Biohacking 
+
 The practice of using technology and biology in tandem to optimize health, well-being, and physical and mental performance, often involves DIY biology and self-experimentation.
 
-Patient Engagement Apps
+### Patient Engagement Apps
+
 Digital applications that aim to involve patients more actively in their healthcare, including tools for health tracking, appointment scheduling, and accessing medical information. It’s especially crucial in chronic disease management.
 
-Explore the patient engagement app for Parkinson's Patients.
+Explore the [patient engagement app for Parkinson's patients](/projects/solution-for-parkinsons-patients/).
 
-Techbio
+### Techbio
 
 An emerging field at the intersection of technology and biology, focusing on using technological advancements to understand and engineer biological systems, often related to health and medicine.
