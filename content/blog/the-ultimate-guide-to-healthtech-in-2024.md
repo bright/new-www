@@ -128,3 +128,17 @@ Read an actual story of Camascope startup offering remote patient monitoring wit
 Devices that we have seen at doctors' offices – thanks to Bluetooth connections and dedicated applications – have turned into smart devices that have the power to save patients' lives daily. Pulse oximeters, Bluetooth thermometers, or stethoscopes are only examples of Bluetooth devices that are transforming healthcare. Now they can be used by patients at home to monitor their condition remotely.
 
 Delve into [bluetooth devices that have the power to change healthcare](/blog/bluetooth-devices-that-change-healthcare/).
+
+## UX Design in HealthTech
+
+HealthTech and MedTech applications are usually comprehensive, massive systems dealing with tons of information. Patient's health history, prescribed medicine, vital sign metrics – all of this data is important for healthcare providers and must be well-designed in any system aiming to help them care for patients. That's why there are a few best practices for designing apps for healthcare:
+
+* Data Management: The design must effectively manage and display large amounts of information in an accessible manner.
+
+* Information Prioritization: Essential information should be prioritized and easily accessible, preferably on the main screen.
+
+* Iconography: Use of intuitive icons that convey information quickly and effectively.
+
+* Color Coding: Employ color coding to differentiate and highlight important data and functions.
+
+* Functional Aesthetics: The design should focus on functionality over aesthetics, meeting the practical needs of healthcare professionals.
