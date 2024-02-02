@@ -66,49 +66,49 @@ Who can store the data if it is retained?
 
 <blockquote>
     <div>Our access to API business data stored on our systems is limited to (1) authorized employees that require access for engineering support, investigating potential platform abuse, and legal compliance and (2) specialized third-party contractors who are bound by confidentiality and security obligations, solely to review for abuse and misuse.</div>
-    <footer>\\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 
 What is worth mentioning, if you upload files via `/v1/files` or using `/v1/assistants`, the default retention of data is:
 
 <blockquote>
     <div>Until deleted by customer</div>
-    <footer>\\[OpenAI docs](https://platform.openai.com/docs/models/how-we-use-your-data)</footer>
+    <footer>[OpenAI docs](https://platform.openai.com/docs/models/how-we-use-your-data)</footer>
 </blockquote>
 
 Regarding compliance, for GDPR OpenAI can execute:
 
 <blockquote>
     <div> Data Processing Addendum (DPA) with customers for their use of ChatGPT Team, ChatGPT Enterprise, and the API in support of their compliance with GDPR and other privacy laws </div>
-    <footer>\\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 
 In case of SOC2:
 
 <blockquote>
     <div> Our API Platform has been audited and certified for SOC 2 Type 2 compliance </div>
-    <footer>\\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 
 Apart from those, by having ZDR possibility we are eligible for HIPAA compliance:
 
 <blockquote>
     <div> We are able to sign Business Associate Agreements (BAA) in support of customers’ compliance with the Health Insurance Portability and Accountability Act (HIPAA). Please reach out to our sales team if you require a BAA.  </div>
-    <footer>\\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 
 There might be exceptions here for your use case though:
 
 <blockquote>
     <div> only endpoints that are eligible for zero retention are covered by the BAA. You can see a list of those endpoints.  </div>
-    <footer>\\[OpenAI Help portal](https://help.openai.com/en/articles/8660679-how-can-i-get-a-business-associate-agreement-baa-with-openai)</footer>
+    <footer>[OpenAI Help portal](https://help.openai.com/en/articles/8660679-how-can-i-get-a-business-associate-agreement-baa-with-openai)</footer>
 </blockquote>
 
 With OpenAI API, you have also the possibility to finetune the model. What about data privacy in that case?
 
 <blockquote>
     <div> Yes, you can adapt certain models to specific tasks by fine-tuning them with your own prompt-completion pairs. Your fine-tuned models are for your use alone and never served to or shared with other customers or used to train other models. Data submitted to fine-tune a model is retained until the customer deletes the files.  </div>
-    <footer>\\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 What it means is that upon fine-tuning the model, your fine-tuned model is only for your use case and data remains there unless you delete it.
 
@@ -116,7 +116,7 @@ Last but not least, what is also important to mention is that
 
 <blockquote>
     <div> OpenAI encrypts all data at rest (AES-256) and in transit (TLS 1.2+), and uses strict access controls to limit who can access data. </div>
-    <footer>\\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 
 As we can see, OpenAI API guarantees the best data control and privacy within all its offerings. In another blog post, I will describe Azure OpenAI service that is often taken into the equation and compared with OpenAI API. Stay tuned!
