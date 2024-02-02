@@ -12,7 +12,7 @@ meaningfullyUpdatedAt: 2024-02-02T13:56:16.383Z
 title: OpenAI API Privacy Policies Explained
 layout: post
 image: /images/open_ai_privacy_3.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
