@@ -19,7 +19,7 @@ language: en
 ---
 <div className="image">![OpenAI privacy](../../static/images/open_ai_privacy_3.png "")</div>
 
-**In my last blog post we have been [tackling privacy when using ChatGPT Team and Enterprise plan](/blog/openai-chatgpt-team-enterprise-privacy-policies-explained/). Today, we will discuss privacy for a product that will be used with a majority of OpenAI integrations. It will be OpenAI API. Compared to   already described products it has the best privacy controls which I will dive into.**
+**In my last blog post we have been [tackling privacy when using ChatGPT Team and Enterprise plan](/blog/openai-chatgpt-team-enterprise-privacy-policies-explained/). Today, we will discuss privacy for a product that will be used with a majority of OpenAI integrations. It will be OpenAI API. Compared to  already described products it has the best privacy controls which I will dive into.**
 
 ## OpenAI Trust Portal
 
