@@ -3,10 +3,7 @@ author: rafal h
 tags:
   - AI
   - OpenAI API
-  - OpenAI
   - LLM
-  - privacy
-  - security
   - HIPPA
   - ZDR
   - GDPR
