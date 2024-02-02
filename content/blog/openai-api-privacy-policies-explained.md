@@ -36,21 +36,21 @@ The first thing to mention is that OpenAI API doesn’t train from business data
 
 <blockquote>
     <div>We do not train on your business data (data from ChatGPT Team, ChatGPT Enterprise, or our API Platform)</div>
-    <footer>\\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 
 The playground is simply a wrapper for API and it will not be used for training:
 
 <blockquote>
     <div>API and Playground requests will not be used to train our models.</div>
-    <footer>\\[Community portal](https://community.openai.com/t/what-terms-of-service-privacy-policy-apply-to-playground/136036/10)</footer>
+    <footer>[Community portal](https://community.openai.com/t/what-terms-of-service-privacy-policy-apply-to-playground/136036/10)</footer>
 </blockquote>
 
 So what about data storage?
 
 <blockquote>
     <div>OpenAI may securely retain API inputs and outputs for up to 30 days to provide the services and to identify abuse. After 30 days, API inputs and outputs are removed from our systems, unless we are legally required to retain them. You can also request zero data retention (ZDR) for eligible endpoints if you have a qualifying use-case. For details on data handling, visit our Platform Docs page.</div>
-    <footer>\\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 
 Same as other OpenAI services we do have 30 days mentioned. What is new here, is ZDR - zero data retention. We are eligible for it when using API routes:
