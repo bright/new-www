@@ -481,7 +481,6 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   const jobTemplate = `${__dirname}/src/career/Job.tsx`
   await preparePage('job', 'jobs', jobTemplate)
 
-  createRedirect({ fromPath: '/jobs/senior-NET-developer', toPath: '/career/' })
   createRedirect({ fromPath: '/about-us/values', toPath: '/about-us/' })
   createRedirect({ fromPath: '/about-us/story', toPath: '/about-us/' })
   createRedirect({ fromPath: '/jobs/rust-developer-1', toPath: '/jobs/rust-developer/' })
