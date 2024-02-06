@@ -47,7 +47,7 @@ slug: vCare
 show_team: true
 show_case_study: true
 show on homepage: false
-published: true
+published: false
 language: en
 ---
 
