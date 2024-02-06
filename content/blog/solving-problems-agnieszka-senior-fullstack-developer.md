@@ -3,7 +3,6 @@ author: agnieszka
 secondAuthor: izabela
 tags:
   - bright story
-  - blockchain
   - inspiration
   - development
 date: 2022-10-05T08:47:36.209Z
