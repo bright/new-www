@@ -6,7 +6,7 @@ tags:
   - design
   - AI
 date: 2024-02-01T10:58:36.300Z
-meaningfullyUpdatedAt: 2024-02-01T10:58:36.853Z
+meaningfullyUpdatedAt: 2024-02-06T11:37:42.549Z
 title: The Ultimate Guide to HealthTech in 2024
 layout: post
 image: /images/healthtech-guide.png
@@ -142,6 +142,30 @@ Devices that we have seen at doctors' offices – thanks to Bluetooth connection
 Delve into [bluetooth devices that have the power to change healthcare](/blog/bluetooth-devices-that-change-healthcare/).
 
 <div className="image">![smartwatch](../../static/images/healthcare_wearable_devices.png "smartwatch")</div>
+
+## Compliance and certifications
+
+Managing medical data requires adherence to various local regulations. Here are examples of local laws to follow if you launch a product in that area or store patient data in that region/country.
+
+### GDPR (EU)
+
+HealthTech companies operating within the European Union must adhere to the General Data Protection Regulation (GDPR), which sets high standards for the handling and protection of personal data, especially health-related data.
+
+### NIS2 (EU)
+
+European Network and Information Security directive (NIS2) aims to achieve a higher level of cybersecurity for network and information systems in companies and organizations across EU. The deadline for EU Member States to transpose the NIS2 Directive into national law is 17 October 2024, and the laws must take effect from 18 October 2024.
+
+### HIPAA (USA)
+
+The Health Insurance Portability and Accountability Act (HIPAA) is a United States law. The law sets standards for the protection of health information, ensuring that personal health data is properly handled by various entities, including healthcare providers, insurance companies, and their business associates.
+
+### PIPEDA (Canada)
+
+The Personal Information Protection and Electronic Documents Act (PIPEDA) is a Canadian federal privacy law that governs how private sector organizations collect, use, and disclose personal information in the course of commercial business. It sets out principles for the protection of personal information, emphasizing consent, limited collection, accuracy, and accountability by organizations.
+
+### GDPR (UK)
+
+Similar to the EU GDPR, the UK GDPR regulates the processing of personal data. It mandates data protection principles like data minimization, accuracy, and security. It also requires obtaining explicit consent for processing personal data and implementing data protection measures, including data encryption and breach notification.
 
 ## UX Design in HealthTech
 
