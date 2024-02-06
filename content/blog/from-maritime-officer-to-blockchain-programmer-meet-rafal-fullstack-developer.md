@@ -3,9 +3,9 @@ author: rafal h
 secondAuthor: izabela
 tags:
   - bright story
-  - blockchain
   - development
 date: 2022-06-08T10:39:50.096Z
+meaningfullyUpdatedAt: 2024-02-06T13:35:16.517Z
 title: From a Maritime Officer to a Blockchain Programmer. Meet Rafał – a
   Fullstack Developer
 layout: post
