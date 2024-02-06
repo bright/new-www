@@ -7,8 +7,6 @@ tags:
   - LLM
   - privacy
   - security
-  - enterprise
-  - team
 date: 2024-01-25T13:56:15.196Z
 meaningfullyUpdatedAt: 2024-01-25T13:56:16.383Z
 title: OpenAI ChatGPT Team & Enterprise Privacy Terms Explained
