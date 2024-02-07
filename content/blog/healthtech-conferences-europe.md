@@ -11,3 +11,5 @@ published: true
 language: en
 ---
 **Looking for digital health conferences to attend in 2024? We’ve got you covered. Check exciting HealthTech European events that will take place in upcoming months.**
+
+<div className="image">![conference](../../static/images/blog_conference.png "conference")</div>
