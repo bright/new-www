@@ -10,7 +10,7 @@ comments: true
 published: true
 language: en
 ---
-**Looking for digital health conferences to attend in 2024? We’ve got you covered. Check exciting HealthTech European events that will take place in upcoming months.**
+**Looking for on-site digital health conferences to attend in 2024? We’ve got you covered. Check exciting HealthTech European events that will take place in upcoming months.**
 
 <div className="image">![conference](../../static/images/blog_conference.png "conference")</div>
 
@@ -42,3 +42,10 @@ Details: [https://igpp.org.uk/](https://igpp.org.uk/event/The-Third-Annual-Healt
 700 exhibitors focusing on digital health in one place! That’s DMEA gathering HealthTech startups and entrepreneurs. Apart from that, DMEA offers numerous seminars focusing on the tech challenges in digital health.
 
 Details: [https://www.dmea.de/en](https://www.dmea.de/en/)
+
+## The MedTech Forum
+
+**Date**: 22-24 May 2024
+**City**: Vienna
+**Ticket pricing**: € 390,00 - € 1 590,00 (early birds)
+**Number of attendees**: around 1000
