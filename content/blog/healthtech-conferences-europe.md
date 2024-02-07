@@ -95,6 +95,9 @@ Details: [www.bitsandpretzels.com/healthtech](https://www.bitsandpretzels.com/he
 **Number of attendees**: 3,500+
 
 **Key speakers**: 
+
 * Alex Hurd - VP Health, Walmart Canada,
 * Alison Darcy - Founder and President Woebot Health,
 * Caitlin Donovan - Global Head of Uber Health, Uber.
+
+Connect with key decision-makers in HealthTech from over 50 countries. Over 3,000 meetings were held at 2023 edition between payers and heathcare providers.
