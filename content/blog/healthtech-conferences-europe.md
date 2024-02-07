@@ -42,7 +42,7 @@ Details: [https://igpp.org.uk/](https://igpp.org.uk/event/The-Third-Annual-Healt
 
 **City**: Berlin
 
-**Ticket pricing**: from €200 to €329.
+**Ticket pricing**: from €200 to €329
 
 **Number of attendees**: 16,000
 
@@ -122,6 +122,6 @@ Details: [www.bitsandpretzels.com/healthtech](https://www.bitsandpretzels.com/he
 
 Connect with key decision-makers in HealthTech from over 50 countries. Over 3,000 meetings were held at 2023 edition between payers and heathcare providers.
 
----
+- - -
 
 Do you recommend other eHealth conferences held in Europe? Let us know in the comments and we might include them!
