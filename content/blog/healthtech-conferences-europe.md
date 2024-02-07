@@ -106,7 +106,7 @@ Details: [www.bitsandpretzels.com/healthtech](https://www.bitsandpretzels.com/he
 
 ## HLTH Europe
 
-**Date**: 05-06 June 2024
+**Date**: 17-20 June 2024
 
 **City**: London
 
@@ -121,6 +121,8 @@ Details: [www.bitsandpretzels.com/healthtech](https://www.bitsandpretzels.com/he
 * Caitlin Donovan - Global Head of Uber Health, Uber.
 
 Connect with key decision-makers in HealthTech from over 50 countries. Over 3,000 meetings were held at 2023 edition between payers and heathcare providers.
+
+Details: [https://europe.hlth.com](https://europe.hlth.com/)
 
 - - -
 
