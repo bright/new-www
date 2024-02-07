@@ -7,6 +7,7 @@ date: 2024-02-07T13:22:45.705Z
 meaningfullyUpdatedAt: 2024-02-07T13:22:45.734Z
 title: "Tuckman Model - Teambuilding Stages "
 layout: post
+image: /images/quino-al-h0xa8ngo9_s-unsplash.jpg
 hidden: false
 comments: true
 published: true
