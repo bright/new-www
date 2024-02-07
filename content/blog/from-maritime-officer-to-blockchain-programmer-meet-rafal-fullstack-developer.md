@@ -17,7 +17,7 @@ language: en
 ---
 **Rafał was a maritime officer who decided to settle on a software development land. He learned how to code aboard the ship, having very limited access to the internet. Can you imagine doing that without Stack Overflow? He can! 😉 Check out his road from a navigator to a full-stack developer who specializes in Ethereum blockchain.**
 
-![Rafał - Fullstack Developer at Bright Inventions](../../static/images/brightstoryrafal.png "")
+![Rafał - Fullstack Developer at Bright Inventions](../../static/images/brightstoryrafal.png)
 
 ## You were an experienced maritime navigator before you became a software developer. How do you remember those times?
 
@@ -25,7 +25,7 @@ Yes, **I had been a ship navigator for 4 years**. Actually, I wanted to be an ai
 
 So I moved from Częstochowa to Nothern Poland to study at Gdynia Maritime University. When I graduated and became a navigator everything was so new and exciting at first. After a couple of years, I felt that even though I became an officer I did not see any exciting challenges ahead. Everything became so monotonous and homogeneous. There was nothing new for me to learn there. 
 
-![Maritime Shipping](../../static/images/brightstory_maritime.png "")
+![Maritime Shipping](../../static/images/brightstory_maritime.png)
 
 Also, I felt that I missed so much being at the sea. During these long contracts, you don't have time for your family, you don't have time to actually live your life. People often think that this line of work gives you lots of opportunities to sightseeing. Yet in reality, I barely step on the land. On most of my contracts, I never left the ship. 
 
@@ -41,8 +41,6 @@ After that last 3 months-job, I came home and never pursued a maritime career ag
 
 Fortunately, 2 months after my interview at Bright, they called me and asked me if I wanted to join them. I said yes.
 
-<div className="block-button"><h2>We are looking for Fullstack Developers</h2><div>Do you have experience with TypeScript and Node.js? Apply and get a chance to develop products like web therapy application supporting people dealing with mental disorders.</div><a href="/jobs/fullstack-developer-nodejs-react"><button>Apply and join Rafał</button></a></div>
-
 ## You must have sunk deep into the recruiters' memory. Why do you think they called you?
 
 **I think they could see how determined I was** to start my software development career. It was a total change for me, a pivot that I truly accepted with all its advantages and disadvantages. I had a successful career that I decided to cross out. Nevertheless, I was ready for everything to get my first software development job.
@@ -57,7 +55,7 @@ Firstly, **I learned responsibility for my actions**. When you are on a shift an
 
 Secondly, **I learned analytical thinking and making decisions under stressful conditions**. Thanks to my maritime career I also knew English very well because it was the lead language used at that job. 
 
-![Rafał's navigation career before software development](../../static/images/brightstory_rafal_navigator_fullstack3.png "")
+![Rafał's navigation career before software development](../../static/images/brightstory_rafal_navigator_fullstack3.png)
 
 Also, this profession gave me an incredible chance to meet and cooperate with people from different countries. **I learned how communication depends on people's customs, backgrounds, and nationalities**. Existing in such a global and diverse community was really special.
 
@@ -69,7 +67,7 @@ I work on a project for one of the top humanitarian organizations. We have been 
 
 For me, **the most important aspect of programming is to deliver value**. While working on this project I know I achieved my goal. **A “side effect” of my daily work is helping people**. It is incredible to feel that you really have the power to help somebody, to change something. **I create code that is truly used, it is not something that will never see the daylight**. 
 
-![Rafał's quote on delivering value as software developer](../../static/images/brightstory_rafal_quote.png "")
+![Rafał's quote on delivering value as software developer](../../static/images/brightstory_rafal_quote.png)
 
 Also, due to the fact that I have been on this project for over 5 years, I can look at it from this great perspective. Not only have I seen how this project evolved, I actually have been a part of this development. 
 
@@ -85,13 +83,13 @@ I specialize in Ethereum. When I came to Bright in 2017 blockchain was still in 
 
 **I’m glad that I get to work with Ethereum. It is definitely one of the most mature blockchains**. The volume of transactions in Ethereum is bigger compared to Bitcoin and even Visa. That’s huge!
 
-![Ethereum transaction volume](../../static/images/ethereum_transaction_volume.png "")
+![Ethereum transaction volume](../../static/images/ethereum_transaction_volume.png)
 
 *Source: [https://stark.mirror.xyz/](https://stark.mirror.xyz/q3OnsK7mvfGtTQ72nfoxLyEV5lfYOqUfJIoKBx7BG1I)*
 
 Ethereum has a great community built around it and lots of use cases. I am happy that I can build a private chain for our client with Ethereum. The project I work on proves that **blockchain is much more than cryptocurrency**. I do not invest in crypto. I believe that blockchain gives more than that. And we should focus on utilizing it in other ways. 
 
-![Rafał's wuote on blockchain](../../static/images/brightstory_rafal_quote_2.png "")
+![Rafał's wuote on blockchain](../../static/images/brightstory_rafal_quote_2.png)
 
 ## What is the most important thing you learned at Bright?
 
@@ -115,6 +113,6 @@ Also, I am this guy who still bakes his own bread since the beginning of the pan
 
 **[Apple Podcasts](https://podcasts.apple.com/pl/podcast/jaki-kolor-ma-woda-wed%C5%82ug-google/id1625829267?i=1000565743841&l=pl)**
 
-<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style={{width: "100%", maxWidth: "660px", overflow: "hidden", background: "transparent"}} sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/pl/podcast/jaki-kolor-ma-woda-wed%C5%82ug-google/id1625829267?i=1000565743841&l=pl"></iframe>
+<iframe allow="autoplay \*; encrypted-media \*; fullscreen *; clipboard-write" frameborder="0" height="175" style={{width: "100%", maxWidth: "660px", overflow: "hidden", background: "transparent"}} sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/pl/podcast/jaki-kolor-ma-woda-wed%C5%82ug-google/id1625829267?i=1000565743841&l=pl"></iframe>
 
-<div className="block-button"><h2>Ready to join Rafał?</h2><div>Are you a Fullstack experienced with TypeScript and Node.js? Apply to join our Bright team!</div><a href="/jobs/fullstack-developer-nodejs-react"><button>Apply and join Rafał</button></a></div>
+<div className="block-button"><h2>Ready to join Rafał?</h2><div> Apply to join our Bright team!</div><a href="/career/"><button>see our job openings</button></a></div>
