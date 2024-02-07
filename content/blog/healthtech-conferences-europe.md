@@ -37,6 +37,7 @@ Details: [https://igpp.org.uk/](https://igpp.org.uk/event/The-Third-Annual-Healt
 **City**: Berlin
 **Ticket pricing**: from EUR 200.00 incl. VAT to EUR 329.00 incl. VAT.
 **Number of attendees**: 16,000
+
 **Key speakers**: Federal Minister of Health Prof. Dr. Karl Lauterbach
 
 700 exhibitors focusing on digital health in one place! That’s DMEA gathering HealthTech startups and entrepreneurs. Apart from that, DMEA offers numerous seminars focusing on the tech challenges in digital health.
@@ -49,3 +50,18 @@ Details: [https://www.dmea.de/en](https://www.dmea.de/en/)
 **City**: Vienna
 **Ticket pricing**: € 390,00 - € 1 590,00 (early birds)
 **Number of attendees**: around 1000
+
+3 days of numerous sessions about the future of MedTech held in the center of Vienna.
+
+Details: [https://www.themedtechforum.eu](https://www.themedtechforum.eu/)
+
+## European Health Conference & Exhibition
+
+**Date**: 29-31.05.2024
+**City**: Rome
+**Ticket pricing**: from € 120 to € 1,379 (early birds)
+**Number of attendees**: the exact number is not specified on the website.
+
+**Key speakers**: 
+* Hal Wolf III - President, CEO, HIMSS,
+* Helen Caton-Peters - Technical Officer, WHO Europe.
