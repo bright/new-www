@@ -2,7 +2,7 @@
 author: izabela
 date: 2024-02-07T09:38:15.733Z
 meaningfullyUpdatedAt: 2024-02-07T09:38:15.754Z
-title: Top HealthTech Conferences to Attend in Europe in 2024
+title: HealthTech Conferences Europe
 layout: post
 image: /images/blog_conference.png
 hidden: false
@@ -30,3 +30,15 @@ language: en
 It might be the smallest event in the article, but it's still the one to consider. The one-day event held in the Royal Society of Medicine gathers leaders of the healthcare sector. You will have a chance to listen to prominent speakers who are shaping the future of healthcare in the UK.
 
 Details: [https://igpp.org.uk/](https://igpp.org.uk/event/The-Third-Annual-Healthcare-Innovation-and-Technology-Conference-and-Exhibition-2024/)
+
+## DMEA 2024 - Connecting Digital Health
+
+**Date**: 9-11 April 2024
+**City**: Berlin
+**Ticket pricing**: from EUR 200.00 incl. VAT to EUR 329.00 incl. VAT.
+**Number of attendees**: 16,000
+**Key speakers**: Federal Minister of Health Prof. Dr. Karl Lauterbach
+
+700 exhibitors focusing on digital health in one place! That’s DMEA gathering HealthTech startups and entrepreneurs. Apart from that, DMEA offers numerous seminars focusing on the tech challenges in digital health.
+
+Details: [https://www.dmea.de/en](https://www.dmea.de/en/)
