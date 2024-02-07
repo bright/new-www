@@ -54,11 +54,11 @@ In this initial stage, team members come together, get to know each other, and b
 
 ### 2. STORMING ⚡️⚡️⚡️
 
-As team members start working closely together, differences in opinions, personalities, and work styles may lead to conflicts and power struggles. **It is common for tensions to arise during this stage as individuals vie for influence and position within the team.** Effective communication and conflict resolution skills are essential to move past this stage.\*\*
+As team members start working closely together, differences in opinions, personalities, and work styles may lead to conflicts and power struggles. **It is common for tensions to arise during this stage as individuals vie for influence and position within the team.** Effective communication and conflict resolution skills are essential to move past this stage.
 
 ### 3. NORMING 🪴
 
-During this stage, team members begin to resolve conflicts, establish norms, and develop a sense of cohesion.\*\* Trust and collaboration grow, leading to better communication and a shared understanding of goals and roles.\*\* Team members might begin to support each other and cooperate to achieve common objectives. 
+During this stage, team members begin to resolve conflicts, establish norms, and develop a sense of cohesion. **Trust and collaboration grow, leading to better communication and a shared understanding of goals and roles.** Team members might begin to support each other and cooperate to achieve common objectives. 
 
 <div className="image">![tuckman model](../../static/images/tuckman-management30.jpeg "")</div>
 
@@ -66,23 +66,21 @@ During this stage, team members begin to resolve conflicts, establish norms, and
 
 ### 4. PERFORMING 🎉
 
-At this stage, the team has developed a strong sense of unity and synergy. **Team members are comfortable with their roles and responsibilities and work together effectively to achieve the team's goals.** Creativity, problem-solving, and high levels of productivity characterize this stage.\*\*
+At this stage, the team has developed a strong sense of unity and synergy. **Team members are comfortable with their roles and responsibilities and work together effectively to achieve the team's goals.** Creativity, problem-solving, and high levels of productivity characterise this stage.
 
 ### 5. ADJOURNING (or MOURNING)⚰️
 
-In this final stage, the team's project or goal has been accomplished, and the team is disbanded or transitions to a new phase.\*\* Team members may experience a mix of emotions, including satisfaction with their achievements and sadness about the team coming to an end. Reflection and acknowledgment of the team's accomplishments are important during this stage.\*\*
+In this final stage, the team's project or goal has been accomplished, and the team is disbanded or transitions to a new phase. **Team members may experience a mix of emotions, including satisfaction with their achievements and sadness about the team coming to an end.** Reflection and acknowledgment of the team's accomplishments are important during this stage.
 
 ## **Leader’s support during team development stages** 
 
-As you can see each stage comes with its own challenges and dynamics. Leaders play a crucial role in supporting teams through each of these stages. First of all, if you are a leader/manager you have to create a safe and welcoming atmosphere for team members to introduce themselves, get to know each other, and understand the team's purpose - especially if you your team is under a forming stage. Try also to clearly define the roles and responsibilities to ensure everyone is on the same page and understands what is expected of them.\
+As you can see each stage comes with its own challenges and dynamics. Leaders play a crucial role in supporting teams through each of these stages. First of all, if you are a leader/manager you have to **create a safe and welcoming atmosphere for team members to introduce themselves, get to know each other, and understand the team's purpose** - especially if you your team is under a forming stage. Try also to **clearly define the roles and responsibilities** to ensure everyone is on the same page and understands what is expected from them.\
 \
-During storming stage your leaders’ or manager’s role may in turn resembles much more a conflict solver position. You will have to address conflicts that arise within the team, encourage open communication and guide discussions toward resolution. Remember that if conflicts escalate, you will have to intervene as a mediator to ensure issues are handled constructively and that team relationships are not negatively impacted.
+During storming stage your leader's or manager’s role may resemble much more of **a conflict solver position**. **You will have to address conflicts that arise within the team, encourage open communication and guide discussions toward resolution.** Remember that if conflicts escalate, you will have to intervene as a mediator to ensure issues are handled constructively and the team relationships are not negatively impacted. **You will also become a facilitator that helps the team establish ground rules and norms for communication, decision-making, and conflict resolution.** Acknowledge the progress the team has made in resolving conflicts and working together effectively. Don’t forget about highlighting the strengths and contributions of each team member.
 
-You will also become a facilitator that helps the team establish ground rules and norms for communication, decision-making, and conflict resolution. Acknowledge the progress the team has made in resolving conflicts and working together effectively. Don’t forget about highlighting the strengths and contributions of each team member.
+**During performing stage your leader’s and managers’s role may turn into mentoring**. Usually, your main goal would be providing autonomy to your team to make decisions and take ownership of their tasks. You should also support their growth opportunities and encourage the team to reflect on its processes and outcomes, and facilitate discussions on how to improve further. Sometimes leaders and managers have to learn how to delegate more responsibilities on this stage among team member to highlight their strengths and potentials. 
 
-During performing stage your leader’s and managers’s role will turn into mentoring. Usually, your main goal would be providing autonomy to your team to make decisions and take ownership of their tasks. You should also support their growth opportunities and encourage the team to reflect on its processes and outcomes, and facilitate discussions on how to improve further. Sometimes leaders and managers have to learn how to delegate more responsibilities  on this stage among team member to highlight their strengths and potentials. 
-
-If your team reaches the adjourning (or mourning) phase, please remember to recognise the achievements of each and every member as the project or task comes to an end. If it is possible, you can even organise a celebration or reflection session to acknowledge the team's successes as well as discuss future opportunities for collaboration. Last but not least, always provide feedback that can help team members in their future endeavors.\
+If your team reaches the adjourning (or mourning) phase, **remember to recognise the achievements of each and every member as the project or task comes to an end.** If it is possible, you can even organise a celebration or reflection session to acknowledge the team's successes as well as discuss future opportunities for collaboration. **Last but not least, always provide feedback that can help team members in their future endeavours.**\
 \
 **Summary - make Tuckman’s model one of your best friend** 
 
