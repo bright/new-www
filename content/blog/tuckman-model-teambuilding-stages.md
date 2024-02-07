@@ -78,6 +78,10 @@ As you can see each stage comes with its own challenges and dynamics. Leaders pl
 
 During storming stage your leader's or manager’s role may resemble much more of **a conflict solver position**. **You will have to address conflicts that arise within the team, encourage open communication and guide discussions toward resolution.** Remember that if conflicts escalate, you will have to intervene as a mediator to ensure issues are handled constructively and the team relationships are not negatively impacted. **You will also become a facilitator that helps the team establish ground rules and norms for communication, decision-making, and conflict resolution.** Acknowledge the progress the team has made in resolving conflicts and working together effectively. Don’t forget about highlighting the strengths and contributions of each team member.
 
+<div className="image">![solving conflicts ](../../static/images/screenshot-2024-02-07-at-14.56.01.png "")</div>
+
+###### Source: https://oazaacademy.com/best-strategies-for-conflict-resolution-that-actually-work
+
 **During performing stage your leader’s and managers’s role may turn into mentoring**. Usually, your main goal would be providing autonomy to your team to make decisions and take ownership of their tasks. You should also support their growth opportunities and encourage the team to reflect on its processes and outcomes, and facilitate discussions on how to improve further. Sometimes leaders and managers have to learn how to delegate more responsibilities on this stage among team member to highlight their strengths and potentials. 
 
 If your team reaches the adjourning (or mourning) phase, **remember to recognise the achievements of each and every member as the project or task comes to an end.** If it is possible, you can even organise a celebration or reflection session to acknowledge the team's successes as well as discuss future opportunities for collaboration. **Last but not least, always provide feedback that can help team members in their future endeavours.**
