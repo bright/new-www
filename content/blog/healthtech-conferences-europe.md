@@ -94,4 +94,7 @@ Details: [www.bitsandpretzels.com/healthtech](https://www.bitsandpretzels.com/he
 **Ticket pricing**: from €750 to €1,745 (early birds)
 **Number of attendees**: 3,500+
 
-**Key speakers**: Alex Hurd - VP Health, Walmart Canada; Alison Darcy - Founder and President Woebot Health;  Caitlin Donovan - Global Head of Uber Health, Uber
+**Key speakers**: 
+* Alex Hurd - VP Health, Walmart Canada,
+* Alison Darcy - Founder and President Woebot Health,
+* Caitlin Donovan - Global Head of Uber Health, Uber.
