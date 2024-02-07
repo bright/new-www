@@ -42,7 +42,7 @@ Details: [https://igpp.org.uk/](https://igpp.org.uk/event/The-Third-Annual-Healt
 
 700 exhibitors focusing on digital health in one place! That’s DMEA gathering HealthTech startups and entrepreneurs. Apart from that, DMEA offers numerous seminars focusing on the tech challenges in digital health.
 
-Details: [https://www.dmea.de/en](https://www.dmea.de/en/)
+Details: [www.dmea.de/en](https://www.dmea.de/en/)
 
 ## The MedTech Forum
 
@@ -53,7 +53,7 @@ Details: [https://www.dmea.de/en](https://www.dmea.de/en/)
 
 3 days of numerous sessions about the future of MedTech held in the center of Vienna.
 
-Details: [https://www.themedtechforum.eu](https://www.themedtechforum.eu/)
+Details: [www.themedtechforum.eu](https://www.themedtechforum.eu/)
 
 ## European Health Conference & Exhibition
 
@@ -70,3 +70,14 @@ Details: [https://www.themedtechforum.eu](https://www.themedtechforum.eu/)
 The conference gives network opportunities to attendees from over 70 countries representing the global health ecosystem.
 
 Details: [www.himss.org/event-himss-europe](https://www.himss.org/event-himss-europe)
+
+## health.tech
+
+**Date**: 05-06 June 2024
+**City**: Munich
+**Ticket pricing**: from €499 to €1,999 (early birds)
+**Number of attendees**: 3,500+
+
+**Key speakers**: 
+* Hema Purohit - CTO & Director Healthcare, 
+* EMEA Microsoft; Avi Mehra - Associate Partner & CSO IBM.
