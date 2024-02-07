@@ -1,5 +1,7 @@
 ---
 author: izabela
+tags:
+  - HealthTech
 date: 2024-02-07T09:38:15.733Z
 meaningfullyUpdatedAt: 2024-02-07T09:38:15.754Z
 title: HealthTech Conferences Europe
