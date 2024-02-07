@@ -93,7 +93,7 @@ Details: [www.himss.org/event-himss-europe](https://www.himss.org/event-himss-eu
 
 **Ticket pricing**: from €499 to €1,999 (early birds)
 
-**Number of attendees**: 3,500+
+**Number of attendees**: 4,000+
 
 **Key speakers**: 
 
