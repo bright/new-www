@@ -101,3 +101,7 @@ Details: [www.bitsandpretzels.com/healthtech](https://www.bitsandpretzels.com/he
 * Caitlin Donovan - Global Head of Uber Health, Uber.
 
 Connect with key decision-makers in HealthTech from over 50 countries. Over 3,000 meetings were held at 2023 edition between payers and heathcare providers.
+
+---
+
+Do you recommend other eHealth conferences held in Europe? Let us know in the comments and we might include them!
