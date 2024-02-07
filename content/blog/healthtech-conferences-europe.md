@@ -93,20 +93,20 @@ Details: [www.himss.org/event-himss-europe](https://www.himss.org/event-himss-eu
 
 **Ticket pricing**: from €499 to €1,999 (early birds)
 
-**Number of attendees**: 3,500+
+**Number of attendees**: 4,000+
 
 **Key speakers**: 
 
 * Hema Purohit - CTO & Director Healthcare, 
 * EMEA Microsoft; Avi Mehra - Associate Partner & CSO IBM.
 
-Network with over 4,00 attendees, investors, and executives from over 60 countries. Follow 6 digital health tracks and explore subjects such as the patient-centric journey or future visions of AI.
+Network with over 4,000 attendees, investors, and executives from over 60 countries. Follow 6 digital health tracks and explore subjects such as the patient-centric journey or future visions of AI.
 
 Details: [www.bitsandpretzels.com/healthtech](https://www.bitsandpretzels.com/healthtech)
 
 ## HLTH Europe
 
-**Date**: 05-06 June 2024
+**Date**: 17-20 June 2024
 
 **City**: London
 
@@ -121,6 +121,8 @@ Details: [www.bitsandpretzels.com/healthtech](https://www.bitsandpretzels.com/he
 * Caitlin Donovan - Global Head of Uber Health, Uber.
 
 Connect with key decision-makers in HealthTech from over 50 countries. Over 3,000 meetings were held at 2023 edition between payers and heathcare providers.
+
+Details: [https://europe.hlth.com](https://europe.hlth.com/)
 
 - - -
 
