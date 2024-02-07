@@ -5,7 +5,7 @@ tags:
   - leadership
 date: 2024-02-07T13:22:45.705Z
 meaningfullyUpdatedAt: 2024-02-07T13:22:45.734Z
-title: "Tuckman Model - Teambuilding Stages "
+title: "Tuckman Model - Teambuilding Stages You Should Know "
 layout: post
 image: /images/quino-al-h0xa8ngo9_s-unsplash.jpg
 hidden: false
@@ -43,7 +43,7 @@ Some of the above mentioned challenges appear in a particular stage of the team 
 
 Tuckman’s model describes the natural progression of a group or team as they work together towards achieving their goals. The stages are characterized by different dynamics and challenges that teams experience. **The original model consisted of four stages, but later, a fifth stage was added: forming, storming, norming, performing, and adjourning.** Learn about the five phases by watching how the Fellowship of the Ring gets together. 😉
 
-https://www.youtube.com/watch?v=ysWWGf8VsOg&t=1s
+<YouTubeEmbed url='https://www.youtube.com/watch?v=ysWWGf8VsOg&t=1s' />
 
 It is important to note that teams may not always progress through these stages in a linear manner. I have witnessed that nonlinearity at least a few times during my career. But what is more interesting, **teams might move back and forth between stages, particularly if new members join the team or if the team faces significant changes or challenges.** Additionally, not all teams will experience every stage, especially if they are short-term or project-based.
 
