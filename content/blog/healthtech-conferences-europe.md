@@ -18,7 +18,7 @@ language: en
 
 **Date**: February 27, 2024
 **City**: London
-**Ticket pricing**: from £299.00+VAT to £549.00+VAT
+**Ticket pricing**: from £299+VAT to £549+VAT
 **Number of attendees**: 300
 
 **Key speakers**: 
@@ -35,7 +35,7 @@ Details: [https://igpp.org.uk/](https://igpp.org.uk/event/The-Third-Annual-Healt
 
 **Date**: 9-11 April 2024
 **City**: Berlin
-**Ticket pricing**: from EUR 200.00 incl. VAT to EUR 329.00 incl. VAT.
+**Ticket pricing**: from €200 to €329.
 **Number of attendees**: 16,000
 
 **Key speakers**: Federal Minister of Health Prof. Dr. Karl Lauterbach
@@ -48,7 +48,7 @@ Details: [www.dmea.de/en](https://www.dmea.de/en/)
 
 **Date**: 22-24 May 2024
 **City**: Vienna
-**Ticket pricing**: € 390,00 - € 1 590,00 (early birds)
+**Ticket pricing**: €390,00 - €1 590,00 (early birds)
 **Number of attendees**: around 1000
 
 3 days of numerous sessions about the future of MedTech held in the center of Vienna.
@@ -59,7 +59,7 @@ Details: [www.themedtechforum.eu](https://www.themedtechforum.eu/)
 
 **Date**: 29-31.05.2024
 **City**: Rome
-**Ticket pricing**: from € 120 to € 1,379 (early birds)
+**Ticket pricing**: from €120 to €1,379 (early birds)
 **Number of attendees**: the exact number is not specified on the website.
 
 **Key speakers**: 
@@ -86,3 +86,12 @@ Details: [www.himss.org/event-himss-europe](https://www.himss.org/event-himss-eu
 Network with over 4,00 attendees, investors, and executives from over 60 countries. Follow 6 digital health tracks and explore subjects such as the patient-centric journey or future visions of AI.
 
 Details: [www.bitsandpretzels.com/healthtech](https://www.bitsandpretzels.com/healthtech)
+
+## HLTH Europe
+
+**Date**: 05-06 June 2024
+**City**: London
+**Ticket pricing**: from €750 to €1,745 (early birds)
+**Number of attendees**: 3,500+
+
+**Key speakers**: Alex Hurd - VP Health, Walmart Canada; Alison Darcy - Founder and President Woebot Health;  Caitlin Donovan - Global Head of Uber Health, Uber
