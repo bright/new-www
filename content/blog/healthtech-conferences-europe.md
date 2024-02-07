@@ -100,7 +100,7 @@ Details: [www.himss.org/event-himss-europe](https://www.himss.org/event-himss-eu
 * Hema Purohit - CTO & Director Healthcare, 
 * EMEA Microsoft; Avi Mehra - Associate Partner & CSO IBM.
 
-Network with over 4,00 attendees, investors, and executives from over 60 countries. Follow 6 digital health tracks and explore subjects such as the patient-centric journey or future visions of AI.
+Network with over 4,000 attendees, investors, and executives from over 60 countries. Follow 6 digital health tracks and explore subjects such as the patient-centric journey or future visions of AI.
 
 Details: [www.bitsandpretzels.com/healthtech](https://www.bitsandpretzels.com/healthtech)
 
