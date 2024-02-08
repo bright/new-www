@@ -108,7 +108,7 @@ Details: [www.bitsandpretzels.com/healthtech](https://www.bitsandpretzels.com/he
 
 **Date**: 17-20 June 2024
 
-**City**: London
+**City**: Amsterdam
 
 **Ticket pricing**: from €750 to €1,745 (early birds)
 
