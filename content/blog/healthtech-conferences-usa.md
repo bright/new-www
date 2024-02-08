@@ -67,6 +67,7 @@ Details: [www.himssconference.com/en/homepage.html](https://www.himssconference.
 **Number of attendees**: 300+
 
 **Keynote speakers**: 
+
 * Eve Cunningham - Chief of Virtual Care & Digital Health Providence; 
 * Dan Shoenthal - Chief Innovation Officer MD Anderson Cancer Center; 
 * Taylor McPartland - CEO ScaleHealth.
@@ -74,3 +75,17 @@ Details: [www.himssconference.com/en/homepage.html](https://www.himssconference.
 Digital Health 2924 is rather a small event, yet bringing top HealthTech leaders.
 
 Details: [events.reutersevents.com/healthcare/digital-health-usa](https://events.reutersevents.com/healthcare/digital-health-usa)
+
+## HLTH 2024
+
+**Date**: 20-23 October 2024
+
+**City**: Las Vegas
+
+**Ticket pricing**: registration coming soon
+
+**Number of attendees**: 10,000+
+
+A Las Vegas conference that covers the latest in healthcare innovation and solutions. Speakers will be announced soon.
+
+Details: [www.hlth.com/2024event](https://www.hlth.com/2024event)
