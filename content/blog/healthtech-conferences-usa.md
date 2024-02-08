@@ -13,3 +13,5 @@ published: true
 language: en
 ---
 **Are you planning to attend digital health conferences in the USA? Dive into the list of health IT events worth consideration!**
+
+<div className="image">![Digital Health Conferences USA](../../static/images/us_healthtech_conferences.png "Digital Health Conferences USA")</div>
