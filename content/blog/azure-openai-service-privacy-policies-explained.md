@@ -26,23 +26,18 @@ building Enterprise solutions. Is that true? Let’s dive into Azure Open AI Pri
 
 ## Azure Service Trust Portal
 
-Similar to the [OpenAI Trust Portal](https://trust.openai.com/), we have an information page of Microsoft
-about [privacy and compliance with different regulations](https://servicetrust.microsoft.com/). If you plan to research
-privacy and data protection within Azure, I think it is a good place to start.
+Similar to the [OpenAI Trust Portal](https://trust.openai.com/), we have an information page of Microsoft about [privacy and compliance with different regulations](https://servicetrust.microsoft.com/). If you plan to research privacy and data protection within Azure, I think it is a good place to start.
 
 ## OpenAI Azure Service
 
-Even though OpenAI is a separate company, Azure still offers OpenAI Azure service. What is important to note is that
-although the services are controlled by Microsoft, they do not interact with each other:
+Even though OpenAI is a separate company, Azure still offers OpenAI Azure service. What is important to note is that although the services are controlled by Microsoft, they do not interact with each other:
 
 <blockquote>
     <div>The Azure OpenAI Service is fully controlled by Microsoft; Microsoft hosts the OpenAI models in Microsoft’s Azure environment and the Service does NOT interact with any services operated by OpenAI (e.g. ChatGPT, or the OpenAI API).</div>
     <footer>[Microsoft OpenAI service privacy](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy)</footer>
 </blockquote>
 
-OpenAI and Azure have established a [partnership](https://openai.com/blog/openai-and-microsoft-extend-partnership), so
-probably that is the reason why Azure OpenAI Service offering exists.
-Azure ensures that our data aren’t accessible to Open AI or 3rd parties
+OpenAI and Azure have established a [partnership](https://openai.com/blog/openai-and-microsoft-extend-partnership), so probably that is the reason why Azure OpenAI Service offering exists. Azure ensures that our data aren’t accessible to Open AI or 3rd parties
 
 <blockquote>
     <div>Your prompts (inputs) and completions (outputs), your embeddings, and your training data:
