@@ -40,7 +40,8 @@ Even though OpenAI is a separate company, Azure still offers OpenAI Azure servic
 OpenAI and Azure have established a [partnership](https://openai.com/blog/openai-and-microsoft-extend-partnership), so probably that is the reason why Azure OpenAI Service offering exists. Azure ensures that our data aren’t accessible to Open AI or 3rd parties
 
 <blockquote>
-    <div>Your prompts (inputs) and completions (outputs), your embeddings, and your training data:
+    <div>
+Your prompts (inputs) and completions (outputs), your embeddings, and your training data:
 are NOT available to other customers.
 are NOT available to OpenAI.
 are NOT used to improve OpenAI models.
@@ -56,9 +57,7 @@ Your fine-tuned Azure OpenAI models are available exclusively for your use.
 Similar to OpenAI, we have 30 days data retention policy:
 
 <blockquote>
-    <div>
-To detect and mitigate abuse, Azure OpenAI stores all prompts and generated content securely for up to thirty (30) days. (No prompts or completions are stored if the customer is approved for and elects to configure abuse monitoring off, as described below.)
-</div>
+    <div>To detect and mitigate abuse, Azure OpenAI stores all prompts and generated content securely for up to thirty (30) days. (No prompts or completions are stored if the customer is approved for and elects to configure abuse monitoring off, as described below.)</div>
     <footer>[Microsoft OpenAI service privacy](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy)</footer>
 </blockquote>
 
