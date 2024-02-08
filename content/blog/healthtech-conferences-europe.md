@@ -26,7 +26,7 @@ language: en
 
 **Number of attendees**: 300
 
-**Key speakers**: 
+**Keynote speakers**: 
 
 * Ian Townend, Chief Architect, NHS England, 
 * James Freed, Head of Digital Academy for Health and Care, NHS England, 
@@ -46,7 +46,7 @@ Details: [https://igpp.org.uk/](https://igpp.org.uk/event/The-Third-Annual-Healt
 
 **Number of attendees**: 16,000
 
-**Key speakers**: Federal Minister of Health Prof. Dr. Karl Lauterbach
+**Keynote speakers**: Federal Minister of Health Prof. Dr. Karl Lauterbach
 
 700 exhibitors focusing on digital health in one place! That’s DMEA gathering HealthTech startups and entrepreneurs. Apart from that, DMEA offers numerous seminars focusing on the tech challenges in digital health.
 
@@ -76,7 +76,7 @@ Details: [www.themedtechforum.eu](https://www.themedtechforum.eu/)
 
 **Number of attendees**: the exact number is not specified on the website.
 
-**Key speakers**: 
+**Keynote speakers**: 
 
 * Hal Wolf III - President, CEO, HIMSS,
 * Helen Caton-Peters - Technical Officer, WHO Europe.
@@ -95,7 +95,7 @@ Details: [www.himss.org/event-himss-europe](https://www.himss.org/event-himss-eu
 
 **Number of attendees**: 4,000+
 
-**Key speakers**: 
+**Keynote speakers**: 
 
 * Hema Purohit - CTO & Director Healthcare, 
 * EMEA Microsoft; Avi Mehra - Associate Partner & CSO IBM.
@@ -114,7 +114,7 @@ Details: [www.bitsandpretzels.com/healthtech](https://www.bitsandpretzels.com/he
 
 **Number of attendees**: 3,500+
 
-**Key speakers**: 
+**Keynote speakers**: 
 
 * Alex Hurd - VP Health, Walmart Canada,
 * Alison Darcy - Founder and President Woebot Health,
