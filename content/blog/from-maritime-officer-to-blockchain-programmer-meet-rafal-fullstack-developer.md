@@ -5,7 +5,7 @@ tags:
   - bright story
   - development
 date: 2022-06-08T10:39:50.096Z
-meaningfullyUpdatedAt: 2024-02-06T13:35:16.517Z
+meaningfullyUpdatedAt: 2022-06-08T10:39:00.000Z
 title: From a Maritime Officer to a Blockchain Programmer. Meet Rafał – a
   Fullstack Developer
 layout: post
