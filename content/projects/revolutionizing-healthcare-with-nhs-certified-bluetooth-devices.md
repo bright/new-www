@@ -11,7 +11,7 @@ layout: project
 project_id: Remote Patient Monitoring
 title: Empowering MHealth Systems with NHS-Certified Bluetooth Devices.
   Camascope Success Story
-image: /images/case-study_cover_nhs_devices.png
+image: /images/blogpost_www_continuous_monitoring_device.png
 description: The future of healthcare lies in remote medical care. With the
   system we had the privilege to develop for Camascope, that future is already a
   reality. Physicians can remotely monitor patients' conditions, and if their
@@ -46,8 +46,6 @@ show on homepage: false
 published: false
 language: en
 ---
-
-
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
 <Gallery images='[{"src":"/images/android_stack_logo.svg","alt":"Android"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/bluetooth_stack_logo.svg","alt":"Bluetooth"},{"src":"/images/adobexdstack_logo.svg","alt":"AdobeXD"}]' />
@@ -68,8 +66,6 @@ Camascope, formerly known as VCare, is a pioneering British health tech company.
 
 The RPM system is centered around an Android application, complemented by a couple of Bluetooth health-monitoring devices expertly integrated by the Bright Inventions team. **Smart devices such as pulse oximeters, spirometers, thermometers, or stethoscopes empower medical professionals to efficiently manage more patients** without the need for individual, time-consuming examinations. 
 
-<div className="image">![remote patient monitoring](../../static/images/remote_monitoring_vitals_mockup.png "remote patient monitoring")</div>
-
 Another crucial step towards the digitalization of healthcare is **telemedicine**. We supported Comascope in this area as well. **Our team crafted an Android application supporting online consultations for Camascope users**. Patients have a scheduled consultation in the app; all they need to do is join the meeting, enabling the camera and microphone. 
 
 <div className="image">![Telemedicine](../../static/images/telemedicine.png "Telemedicine")</div>
@@ -78,11 +74,7 @@ Another crucial step towards the digitalization of healthcare is **telemedicine*
 
 Our team faced the formidable **challenge of integrating various healthcare devices with distinct Software Development Kits (SDKs) into a cohesive system**. With our Android team's expertise, we successfully harmonized these disparate SDKs into a unified system. 
 
-<div className="image">![patient remote monitoring app mockup](../../static/images/remote_monitoring_mockup_ehealth.png "patient remote monitoring app mockup")</div>
-
 Furthermore, another compelling challenge involved d**eveloping an algorithm capable of rapidly detecting whether a patient's vital signs signal an urgent requirement for assistance**. Our team devised a solution that facilitates data transmission to the doctor, **triggering an alarm in the event the patient’s medical condition escalates to a life-threatening state**.
-
-<div className="image">![patient remote monitoring alert](../../static/images/remote_monitoring_alert.png "patient remote monitoring alert")</div>
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
