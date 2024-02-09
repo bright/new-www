@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2024-02-09T13:56:16.383Z
 title: Azure OpenAI Service Privacy Policies Explained
 layout: post
 image: /images/open_ai_privacy_4.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
@@ -91,7 +91,7 @@ Azure services these are valid points to consider to stay with them
     <footer>[Microsoft OpenAI service privacy](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy)</footer>
 </blockquote>
 
-Under [this](https://servicetrust.microsoft.com/DocumentPage/7adf2d9e-d7b5-4e71-bad8-713e6a183cf3 ) link we can see
+Under [this](https://servicetrust.microsoft.com/DocumentPage/7adf2d9e-d7b5-4e71-bad8-713e6a183cf3) link we can see
 compliance of Azure Services as of December 2023
 
 <div className="image">![Azure OpenAI service compliance](../../static/images/azure-openai-service-privacy-policies-explained/azure-openai-service-compliance.png "")</div>
@@ -149,7 +149,7 @@ is [here](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/mo
 
 This was the last blog post of my series. We have gone through most of the OpenAI offerings and analyzed Azure OpenAI
 service offerings. That
-includes [ChatGPT Free, Plus](blog/openai-chatgpt-free-plus-privacy-policies-explained/), [Team, Enterprise](blog/openai-chatgpt-team-enterprise-privacy-policies-explained/), [Open AI API](blog/openai-api-privacy-policies-explained/)
+includes [ChatGPT Free, Plus](/blog/openai-chatgpt-free-plus-privacy-policies-explained/), [Team, Enterprise](/blog/openai-chatgpt-team-enterprise-privacy-policies-explained/), [Open AI API](/blog/openai-api-privacy-policies-explained/)
 and Azure OpenAI service offerings. What is important is to always adjust the technology used for your use case.
 Hopefully, my blog posts helped you a little in understanding how data is handled with the most popular LLM offering in
 the market. This is important as more and more apps, employers, companies, etc. will use AI to disrupt the world.
