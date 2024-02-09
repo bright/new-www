@@ -9,8 +9,7 @@ our_service:
   - product design
 layout: project
 project_id: Remote Patient Monitoring
-title: Empowering MHealth Systems with NHS-Certified Bluetooth Devices.
-  Camascope Success Story
+title: Empowering MHealth Systems with NHS-Certified Bluetooth Devices
 image: /images/blogpost_www_continuous_monitoring_device.png
 description: The future of healthcare lies in remote medical care. With the
   system we had the privilege to develop for Camascope, that future is already a
@@ -19,11 +18,11 @@ description: The future of healthcare lies in remote medical care. With the
   the initiation of emergency procedures.
 hero_image: /images/ehealth_remote_case_study.png
 Hero Image_alt: Transforming Healthcare with NHS-Certified Bluetooth Devices
-social_media_previev: /images/fb_preview_patient_remotenew.png
+social_media_previev: /images/fb_preview_bluetooth_devices.png
 social_media_previev_alt: Remote Patient Monitoring
 bar_achievements:
   - number: 25k+
-    label: Active users on Comascope systems
+    label: Active users on Camascope systems
   - number: 1,000
     label: Health & Care Organisations
   - number: "3"
