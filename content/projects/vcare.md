@@ -11,7 +11,7 @@ our_service:
 layout: project
 project_id: vcare
 title: Digitally Connecting the UK Care Homes
-image: /images/case_study_healthtech_mobile_web.png
+image: /images/ehealth_remote_case_study.png
 description: Behind the story of Camascope, there is a pharmacist who
   experienced firsthand the challenges care home professionals faced in
   medication distribution. This pharmacist was Saurabh Shah, the founder of
@@ -19,7 +19,7 @@ description: Behind the story of Camascope, there is a pharmacist who
   daily medication routines for 25,000+ patients across the UK.
 hero_image: /images/case_study_emar_healthtech.png
 Hero Image_alt: A healthcare software solution
-social_media_previev: /images/fb_preview_case_study_emar.png
+social_media_previev: /images/some_preview_case_study_emar_update.png
 social_media_previev_alt: vCare case study
 bar_achievements:
   - number: 25k+
