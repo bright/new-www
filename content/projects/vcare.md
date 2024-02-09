@@ -10,9 +10,8 @@ our_service:
   - bluetooth development
 layout: project
 project_id: vcare
-title: "Digitally Connecting the UK Care Homes with Camascope: Trusted by 1000+
-  Health Organizations"
-image: /images/case-study_cover_emar.png
+title: Digitally Connecting the UK Care Homes
+image: /images/ehealth_remote_case_study.png
 description: Behind the story of Camascope, there is a pharmacist who
   experienced firsthand the challenges care home professionals faced in
   medication distribution. This pharmacist was Saurabh Shah, the founder of
@@ -20,7 +19,7 @@ description: Behind the story of Camascope, there is a pharmacist who
   daily medication routines for 25,000+ patients across the UK.
 hero_image: /images/case_study_emar_healthtech.png
 Hero Image_alt: A healthcare software solution
-social_media_previev: /images/fb_preview_case_study_emar.png
+social_media_previev: /images/some_preview_case_study_emar_update.png
 social_media_previev_alt: vCare case study
 bar_achievements:
   - number: 25k+
@@ -50,8 +49,6 @@ show on homepage: false
 published: false
 language: en
 ---
-
-
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="stack" />
 
 <Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/bluetooth_stack_logo.svg","alt":"Bluetooth"},{"src":"/images/adobexdstack_logo.svg","alt":"Adobe XD"}]' />
@@ -66,7 +63,7 @@ In the extensive array of duties borne by care home providers, the task of **med
 
 <TitleWithIcon sectionTitle="solution: a system that helps control medicine distribution" titleIcon="/images/goal_title_section.png" titleIconAlt="solution" />
 
-**[Camascope](https://www.camascope.com/), formerly VCare Systems, a UK-based health tech company**, was co-founded by **[Saurabh Shah](https://blog.camascope.com/resources/post/the-camascope-story), a pharmacist with 15+ years of experience** whose vision led to the creation of the Electronic **Medication Administration Record (eMAR)**, streamlining medicine distribution for care home professionals.
+**Camascope, formerly VCare Systems, a UK-based health tech company**, was co-founded by **[Saurabh Shah](https://blog.camascope.com/resources/post/the-camascope-story), a pharmacist with 15+ years of experience** whose vision led to the creation of the Electronic **Medication Administration Record (eMAR)**, streamlining medicine distribution for care home professionals.
 
 <div className="image">![home care HealthTech](../../static/images/home_care_health_tech.png "home care HealthTech")</div>
 
@@ -74,15 +71,11 @@ Upon the debut of their initial eMAR solution, **Camascope reached out to our te
 
 This application facilitates **real-time updates on medication intake** accessible for healthcare providers, patients, and their families. The **offline mode empowers caregivers to make essential updates without concern for internet connectivity**.
 
-<div className="image">![eMAR app mockup](../../static/images/emar_app_mockup.png "eMAR app mockup")</div>
-
 Moreover, the **Camascope system mandates supervisor approval for significant treatment alterations. It also reduces errors by promptly notifying care home staff about potential missed medications**, alleviating the considerable responsibility of their workload.
 
 <TitleWithIcon sectionTitle="challenge: making a data-heavy and multifunctional system an intuitive one" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
 
 Imagine being a nurse, juggling the care of multiple patients, each with unique health profiles, medication plans, and allergy considerations. Healthcare providers grapple with a flood of information. **The crucial challenge was to create a system that not only organizes this complexity but also reduces the risk of errors**.
-
-<div className="image">![eMAR solution mockup](../../static/images/emar_mockup_medtech.png "eMAR solution mockup")</div>
 
 **We crafted a design that prioritizes crucial information while keeping all important patient data accessible on a single screen**. Based on detailed field studies and research, we understood that end-users desire quick access to patient information and don’t want to navigate through multiple screens to obtain it. Thus, ensuring the **interface is easy, fast, and smooth was the answer they needed**.
 
@@ -90,15 +83,11 @@ Another challenge was **building a system that would genuinely streamline daily 
 
 An important feature we also incorporated was a user-friendly **body map, which enables physicians to quickly select a body part on the map, linking it to the administered medication or medical procedure**. This intuitive tool aids in both accuracy and efficiency in patient care.
 
-<div className="image">![medtech features body map](../../static/images/body_map_feature_medtech.png "medtech features body map")</div>
-
 Overcoming another hurdle, **we focused on refining a critical HealthTech feature – offline mode**. In situations where every second counts, having a reliable app without an internet connection is imperative. Our challenge was to **design an interface that unmistakably signals when users are in offline mode, ensuring seamless data synchronization at a later stage**. The emphasis here was on a clear and intuitive design.
-
-<div className="image">![Camascope mockup for the offline mode marked by the information bar.](../../static/images/offline_mode_design_medtech.png "Camascope mockup for the offline mode marked by the information bar.")</div>
 
 *<center>Camascope mockup for the offline mode marked by the information bar.</center>*
 
-<TitleWithIcon sectionTitle="result: successful scaling with over 1,000 health &amp;amp;amp;amp; care organization customers" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
+<TitleWithIcon sectionTitle="result: successful scaling with over 1,000 health &amp;amp;amp;amp;amp;amp; care organization customers" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
 **As an NHS Trusted Supplier and Crown Commercial Service Supplier Camascope has digitalised medicine distribution for over 1,000 health & care organizations**. The system is integrated with **leading pharmacy chains such as Boots, LloydsPharmacy, and Well**.
 
