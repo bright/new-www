@@ -5,8 +5,8 @@ tags:
   - Azure
   - LLM
   - OpenAI
-date: 2024-02-09T13:56:15.196Z
-meaningfullyUpdatedAt: 2024-02-09T13:56:16.383Z
+date: 2024-02-09T08:46:36.685Z
+meaningfullyUpdatedAt: 2024-02-09T08:46:37.493Z
 title: Azure OpenAI Service Privacy Policies Explained
 layout: post
 image: /images/open_ai_privacy_4.png
@@ -15,9 +15,7 @@ comments: true
 published: true
 language: en
 ---
-
 <div className="image">![OpenAI privacy](../../static/images/open_ai_privacy_4.png "")</div>
-
 
 In my last blog post I have been exploring [OpenAI API service](/blog/openai-api-privacy-policies-explained/). As have
 said, OpenAI API guarantees the best data control and privacy within all their offerings. When considering Open API for
@@ -88,21 +86,18 @@ Azure services these are valid points to consider to stay with them
 
 <blockquote>
     <div>… are NOT available to OpenAI.</div>
-    <footer>[Microsoft OpenAI service privacy](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy)</footer>
+    <footer>\[Microsoft OpenAI service privacy](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy)</footer>
 </blockquote>
 
-Under [this](https://servicetrust.microsoft.com/DocumentPage/7adf2d9e-d7b5-4e71-bad8-713e6a183cf3) link we can see
-compliance of Azure Services as of December 2023
+Under this link we can see [compliance of Azure Services as of December 2023](https://servicetrust.microsoft.com/DocumentPage/7adf2d9e-d7b5-4e71-bad8-713e6a183cf3):
 
 <div className="image">![Azure OpenAI service compliance](../../static/images/azure-openai-service-privacy-policies-explained/azure-openai-service-compliance.png "")</div>
-
 
 As you can see, there is more compliance offerings mentioned compared tor OpenAI - we can see ISO or PCI compliance
 which also might be important for your use case. Also, Azure OpenAI has FedRAMP High and DoD IL2 compliance which make
 it eligible for use with US government apps.
 
 <div className="image">![Azure OpenAI service Fedramp](../../static/images/azure-openai-service-privacy-policies-explained/azure-openai-service-fedramp.png "")</div>
-
 
 For GDPR compliance, when doing the research, it was not fully clear if the solution was compliant or not.
 
@@ -114,6 +109,7 @@ Generally, Microsoft employees say that regarding GDPR compliance:
 </blockquote>
 
 In another thread though, we can read that Azure OpenAI cannot be used with any personal data (GDPR):
+
 <blockquote>
     <div>I got confirmation from Microsoft Support that Azure OpenAI is a Preview and therefore the exclusion clause in the Microsoft Products and Services Data Protection Addendum applies. This means that Azure OpenAI cannot be used with any personal data (GDPR) as the necessary compliance requirements for DPAs are not fulfilled. </div>
     <footer>[Microsoft Q&A](https://learn.microsoft.com/en-us/answers/questions/1361952/does-azure-openai-fall-under-the-dpa)</footer>
@@ -128,7 +124,6 @@ Yes. We are using Microsoft Azure Open AI technology, Microsoft Azure is already
  </div>
     <footer>[360 learning Q&A](https://support.360learning.com/hc/en-us/articles/17562881836564-AI-data-usage-protection-and-privacy)</footer>
 </blockquote>
-
 
 So somehow it might suggest that it is possible to get GDPR compliant with Azure OpenAI service. I could not find any
 specific, clear information about GDPR compliance on Azure resources though.
