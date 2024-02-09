@@ -86,10 +86,10 @@ Azure services these are valid points to consider to stay with them
 
 <blockquote>
     <div>… are NOT available to OpenAI.</div>
-    <footer>\[Microsoft OpenAI service privacy](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy)</footer>
+    <footer>[Microsoft OpenAI service privacy](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy)</footer>
 </blockquote>
 
-Under this link we can see [compliance of Azure Services as of December 2023](https://servicetrust.microsoft.com/DocumentPage/7adf2d9e-d7b5-4e71-bad8-713e6a183cf3):
+Under this link we can see [compliance of Azure Services as of December 2023.](https://servicetrust.microsoft.com/DocumentPage/7adf2d9e-d7b5-4e71-bad8-713e6a183cf3)
 
 <div className="image">![Azure OpenAI service compliance](../../static/images/azure-openai-service-privacy-policies-explained/azure-openai-service-compliance.png "")</div>
 
