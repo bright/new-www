@@ -63,7 +63,7 @@ In the extensive array of duties borne by care home providers, the task of **med
 
 <TitleWithIcon sectionTitle="solution: a system that helps control medicine distribution" titleIcon="/images/goal_title_section.png" titleIconAlt="solution" />
 
-**[Camascope](https://www.camascope.com/), formerly VCare Systems, a UK-based health tech company**, was co-founded by **[Saurabh Shah](https://blog.camascope.com/resources/post/the-camascope-story), a pharmacist with 15+ years of experience** whose vision led to the creation of the Electronic **Medication Administration Record (eMAR)**, streamlining medicine distribution for care home professionals.
+**Camascope, formerly VCare Systems, a UK-based health tech company**, was co-founded by **[Saurabh Shah](https://blog.camascope.com/resources/post/the-camascope-story), a pharmacist with 15+ years of experience** whose vision led to the creation of the Electronic **Medication Administration Record (eMAR)**, streamlining medicine distribution for care home professionals.
 
 <div className="image">![home care HealthTech](../../static/images/home_care_health_tech.png "home care HealthTech")</div>
 
@@ -87,7 +87,7 @@ Overcoming another hurdle, **we focused on refining a critical HealthTech featur
 
 *<center>Camascope mockup for the offline mode marked by the information bar.</center>*
 
-<TitleWithIcon sectionTitle="result: successful scaling with over 1,000 health &amp;amp;amp;amp;amp; care organization customers" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
+<TitleWithIcon sectionTitle="result: successful scaling with over 1,000 health &amp;amp;amp;amp;amp;amp; care organization customers" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
 **As an NHS Trusted Supplier and Crown Commercial Service Supplier Camascope has digitalised medicine distribution for over 1,000 health & care organizations**. The system is integrated with **leading pharmacy chains such as Boots, LloydsPharmacy, and Well**.
 
