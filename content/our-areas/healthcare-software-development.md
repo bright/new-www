@@ -9,7 +9,9 @@ team_members:
   - piotr
   - slawek
 faqs:
-  - agile workshop 1
+  - healthcare software development 1
+  - healthcare software development 2
+  - healthcare software development 3
 project:
   - circles
   - solution-parkinson
@@ -38,11 +40,12 @@ bullet_points:
 bar_stack:
   - IoT
   - Bluetooth
+  - LLM
+  - machine learning
   - iOS
   - Android
   - Swift
   - Kotlin
-  - Flutter
   - iBeacon
   - AWS
   - TypeScript
