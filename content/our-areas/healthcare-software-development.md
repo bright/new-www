@@ -7,6 +7,7 @@ team_members:
   - malgorzata-z
   - kasia
   - piotr
+  - joanna-c
 faqs:
   - agile workshop 1
 project:
