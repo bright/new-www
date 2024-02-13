@@ -20,7 +20,6 @@ faqs:
   - Are you an IoT product design company?
   - What are IoT security services and do you provide them?
 project:
-  - vcare
   - card-reader
   - smarthelp
   - Practi JET POS Mobile
@@ -69,6 +68,7 @@ title_case_study: IoT development that we’ve worked on
 title_faqs: IoT development FAQs
 image_alt_our_service_desktop: IoT company
 intro: We develop IoT software for startups and larger organisations.
+language: en
 image_alt_our_service_mobile: IoT company
 title_contact: book free consultation in 48 hours
 description_contact: Fill out the form below and we'll get back to you in 48 hours. Let's talk!
@@ -78,7 +78,6 @@ description_mdx: We are Bright Inventions – a software development company
   developed software for more than 40 clients from the USA, the UK, Norway,
   Israel and more.
 image_our_service: /images/iot_development_1.png
-language: en
 ---
 ## what is IoT and why you might need it?
 
@@ -96,12 +95,12 @@ As a retail business, you probably need **software compatible with ePOS**. Our t
 
 ### you represent the healthcare sector
 
-For our client [vCare](/projects/vCare/) we have developed software that enables **telemedicine.** Our team has built software connecting with such devices as Bluetooth thermometer, pulse oximeter and more.
+For a British startup we have developed software that enables **telemedicine.** Our team has built software connecting with such devices as Bluetooth thermometer, pulse oximeter and more.
 
 ### you represent the fintech sector
 
-Do you want to develop an **app integrated with an external card reader**? Or need devices and software that are going to authorise the transactions? We have worked with hardware for Fintech and we are ready to assist you with your fintech IoT project. What is more, as blockchain experts we offer to develop your IoT solutions with blockchain technology.
+Do you want to develop an **app integrated with an external card reader**? Or need devices and software that are going to authorise the transactions? **We have worked with hardware for FinTech and we are ready to assist you with your fintech IoT project**. What is more, as blockchain experts we offer to develop your IoT solutions with blockchain technology.
 
 ### you represent the industrial sector
 
-Do you plan to develop an **Industrial Internet of Things (IIoT)** system that will connect different devices in industrial settings? Contact us to learn more about our expertise and experience with IIoT.
+Do you plan to develop an **Industrial Internet of Things (IIoT)** system that will connect different devices in industrial settings? **Contact us to learn more about our expertise and experience with IIoT**.
