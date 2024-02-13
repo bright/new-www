@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "QA Engineer "
-subtitle: ONGOING
+subtitle: CLOSED
 imagejob: /images/qa_brightteam.png
 image-alt-job: QA Team Bright Inventions
 hours: full-time
