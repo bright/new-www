@@ -82,7 +82,7 @@
     "@aws-sdk/client-s3": "^3.405.0",
     "@types/classnames": "^2.3.1",
     "@types/facebook-pixel": "^0.0.26",
-    "@types/gtag.js": "^0.0.13",
+    "@types/gtag.js": "^0.0.19",
     "@types/js-cookie": "^3.0.3",
     "@types/js-yaml": "^4.0.5",
     "@types/prismjs": "^1.26.0",

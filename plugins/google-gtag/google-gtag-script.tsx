@@ -6,6 +6,7 @@ import { consentToGtagValue } from './consent-to-gtag-value'
 import { WindowLocation } from '@reach/router'
 import { isConnectedToGoogleGtagAssistant, setIsConnectedToGoogleGtagAssistant } from './google-gtag-assistant'
 
+// https://developers.google.com/tag-platform/security/guides/consent?consentmode=advanced
 export function gtagInitScript(trackingIds: any[]) {
   return `
 window.dataLayer = window.dataLayer || [];
@@ -16,6 +17,8 @@ function gtag(){
 window.gtag = gtag;
 gtag('consent', 'default', {
   'ad_storage': '${consentToGtagValue(false)}',
+  'ad_user_data': '${consentToGtagValue(false)}',
+  'ad_personalization': '${consentToGtagValue(false)}',
   'analytics_storage': '${consentToGtagValue(true)}',
   'wait_for_update': 100 // we invoke gtag consent update almost immediately after  
 });

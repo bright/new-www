@@ -6,6 +6,8 @@ export function applyConsentDecisionToGtag(decision: { analytics: boolean; marke
 
   gtag('consent', 'update', {
     ad_storage: consentToGtagValue(marketing),
+    ad_user_data: consentToGtagValue(marketing),
+    ad_personalization: consentToGtagValue(marketing),
     analytics_storage: consentToGtagValue(analytics),
   })
 }
