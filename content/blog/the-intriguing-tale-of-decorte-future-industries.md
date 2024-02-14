@@ -7,12 +7,14 @@ meaningfullyUpdatedAt: 2024-02-14T11:46:56.946Z
 title: The Intriguing Tale of Decorte Future Industries
 layout: post
 image: /images/pivot_healthcare_blog.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
 ---
-## From the sewing rooms of fashion to the corridors of healthcare. A story of data-driven pivots.
+**From the sewing rooms of fashion to the corridors of healthcare. A story of data-driven pivots.**
+
+<div className="image">![pivot](../../static/images/pivot_healthcare_blog.png "pivot")</div>
 
 As a project analyst, I've borne witness to numerous pivots firsthand. In my early days in software, I often grappled with self-doubt when confronted with the necessity to pivot alongside startup visionaries. Questions plagued my mind: "Am I faltering in my analyses? Am I doing a good job?" However, as my experience grew, with each pivot encountered, I gleaned a profound insight: the ability to discern the need for a pivot is not a mark of failure, but rather a testament to adaptability and foresight.
 
@@ -40,9 +42,9 @@ Fast forward to 2024, and Decorte Future Industries has created an AI-powered en
 
 What happened in those 4 years?
 
-## A BORING STORY IS NOT WORTH THE INK
+## A BORING STORY IS NOT WORTH THE IN
 
-[Adapt or die: Data-driven pivots as key to product-market fit | Roeland Decorte | CogX Festival 2023](https://www.youtube.com/watch?v=GbyLOsy6cKs)
+<YouTubeEmbed url='https://www.youtube.com/watch?v=GbyLOsy6cKs' />
 
 In the initial stages, operating as a lone entrepreneur, Dr. Decorte managed to capture the attention and eventually secured the endorsement of the UK Ministry of Defence and the UK government. Despite the initial alignment with Defense interests, Decorte strategically shifted its focus exclusively toward health tech. With remarkable swiftness, the company started assembling a world-class team.
 
@@ -78,6 +80,10 @@ The compelling narrative of Dr. Roeland P.-J. E. Decorte and Decorte Future Indu
 
 Let this story act as motivation to push forward and think outside the box. Each tech founder needs to have his mind open to the changes in his economic environment and try to connect the dots that seem far-fetched or counterintuitive at first. Pivoting is not a sign of failure, but rather a sign of resilience. 
 
-Lastly, let this comment from Dr. Decorte serve as a roadsign for all those founders facing a need to pivot:
+**Lastly, let this comment from Dr. Decorte serve as a roadsign for all those founders facing a need to pivot:**
 
-<blockquote><h2>Pivoting advice</h2><div>I think the need to pivot is indeed most often identified through analyzing the data, and, as with any strategic decision, (informed) intuition does play a very significant part in figuring out the direction in which to then pivot.   Beyond making sure that founders remain open to and aware of, all the ways in which the data fed back by R&D and consumers can be interpreted, I believe founders should also remain open to and cognisant of all the ways in which their core technology can be deployed. Especially the ways that are radically different from how they, or others in their field, are currently deploying that technology. Because there’s always the possibility that a better way of deploying your technology is out there, and becoming religious about the form rather than the function of your startup is setting it up for failure.   Put in other words, while trying to solve a problem or pursuing a mission, execution is everything, which is exactly why you shouldn’t get stuck in one way of executing and then put on blinders, but rather should constantly re-evaluate and assess whether your way of execution is still the most effective one.</div><footer>Dr Roeland P.J. Decorte</footer></blockquote>
+*I think the need to pivot is indeed most often identified through analyzing the data, and, as with any strategic decision, (informed) intuition does play a very significant part in figuring out the direction in which to then pivot.*
+
+*Beyond making sure that founders remain open to and aware of, all the ways in which the data fed back by R&D and consumers can be interpreted, I believe founders should also remain open to and cognisant of all the ways in which their core technology can be deployed. Especially the ways that are radically different from how they, or others in their field, are currently deploying that technology. Because there’s always the possibility that a better way of deploying your technology is out there, and becoming religious about the form rather than the function of your startup is setting it up for failure.*   
+
+*Put in other words, while trying to solve a problem or pursuing a mission, execution is everything, which is exactly why you shouldn’t get stuck in one way of executing and then put on blinders, but rather should constantly re-evaluate and assess whether your way of execution is still the most effective one.*
