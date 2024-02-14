@@ -16,6 +16,7 @@ project:
   - circles
   - solution-parkinson
   - mobile-therapy-application
+  - pregnancy-app
 layout: our-service
 our_service_id: healthcare software development
 meta_title: Healthcare Software Development
