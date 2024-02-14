@@ -7,7 +7,7 @@ meaningfullyUpdatedAt: 2024-02-14T11:46:56.946Z
 title: The Intriguing Tale of Decorte Future Industries
 layout: post
 image: /images/pivot_healthcare_blog.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
@@ -58,56 +58,26 @@ In 2022, Decorte successfully concluded its $1.6 million pre-seed funding round,
 
 2023, Decorte Future Industries uses groundbreaking artificial intelligence to extract health data from sound. Its Sonus Engine analyses a diverse range of health metrics in real time through sound captured directly from any standard microphone. This allows early identification of inconsistencies in the body’s systems that can prevent — or assist clinicians in pre-diagnosing — conditions such as cardiovascular disease, respiratory problems, depression, and anxiety.
 
-THIS IS JUST THE BEGINNING
-
-
+## THIS IS JUST THE BEGINNING
 
 As artificial intelligence continues to transform all industries, Decorte stands out amid the hype through the simplicity of its proposition — using AI to extract and interpret health data from sound. It provides the only way to connect your body to the digital world, opening up vast possibilities for innovation, disease prevention, and a greater understanding of human health via an “Internet-of-Bodies” concept.
 
-
-
-“...what direction do we set for the next 100 years of tech? The reality is that the direction that we set at this early stage, especially for AI will have long-term implications. It’s easy to forget just how fast can things move after a major technological shift like the one we’re currently experiencing…so it’s difficult to underestimate just how transformative AI can be. 
-
-
-
-It’s naive to assume we’ll get it right the first time. We need to find the courage to consistently reconfigure and constantly question ourselves and the direction in which we’re building”
-
-
-
-R.D. on the AI revolution - “ Adapt or die: Data-driven pivots as key to product-market fit | COGX 2023 “
-
-
+> “...what direction do we set for the next 100 years of tech? The reality is that the direction that we set at this early stage, especially for AI will have long-term implications. It’s easy to forget just how fast can things move after a major technological shift like the one we’re currently experiencing…so it’s difficult to underestimate just how transformative AI can be. 
+>
+> It’s naive to assume we’ll get it right the first time. We need to find the courage to consistently reconfigure and constantly question ourselves and the direction in which we’re building”
+>
+> R.D. on the AI revolution - “ Adapt or die: Data-driven pivots as key to product-market fit | COGX 2023 “
 
 ![](https://lh7-us.googleusercontent.com/anWPukBfCg71-gT5W2fMub-oYvud0FhAohhyCtvw-uCip9rn97B4E7Kz_mEROfc-9IgAd5BYEAzyFPMEfJBMKNlDxphVkhzefZYIvqMwzTpho1wv1KjgC2En92Mhj79ZCb2GIgruhubM3gcmZ0Ah4Bc)
 
-
-
 The founder himself became a well-established figure on the UK’s AI scene becoming one of its strongest promotors. Delivering Keynote speeches at countless events being awarded a Young Business Of The Year 2023 award and often quoted as an expert in the UK Press including the Financial Times. And that’s just the beginning I’m sure.
-
-
 
 The momentum continues into 2024, with investments from the biggest names on the market. Decorte stands in strategic partnerships with tech giants Microsoft and Google, with an ambitious goal to see its technology integrated into 3 billion smartphones by 2027. 
 
-
-
 The compelling narrative of Dr. Roeland P.-J. E. Decorte and Decorte Future Industries unfolds as a captivating saga of innovation, strategic pivots, and influential partnerships propelling the company towards a future of unparalleled success.
-
-
 
 Let this story act as motivation to push forward and think outside the box. Each tech founder needs to have his mind open to the changes in his economic environment and try to connect the dots that seem far-fetched or counterintuitive at first. Pivoting is not a sign of failure, but rather a sign of resilience. 
 
-
-
 Lastly, let this comment from Dr. Decorte serve as a roadsign for all those founders facing a need to pivot:
 
-
-
-I think the need to pivot is indeed most often identified through analyzing the data, and, as with any strategic decision, (informed) intuition does play a very significant part in figuring out the direction in which to then pivot. 
-
-
-
-Beyond making sure that founders remain open to and aware of, all the ways in which the data fed back by R&D and consumers can be interpreted, I believe founders should also remain open to and cognisant of all the ways in which their core technology can be deployed. Especially the ways that are radically different from how they, or others in their field, are currently deploying that technology. Because there’s always the possibility that a better way of deploying your technology is out there, and becoming religious about the form rather than the function of your startup is setting it up for failure. 
-
-
-
-Put in other words, while trying to solve a problem or pursuing a mission, execution is everything, which is exactly why you shouldn’t get stuck in one way of executing and then put on blinders, but rather should constantly re-evaluate and assess whether your way of execution is still the most effective one.
+<blockquote><h2>Pivoting advice</h2><div>I think the need to pivot is indeed most often identified through analyzing the data, and, as with any strategic decision, (informed) intuition does play a very significant part in figuring out the direction in which to then pivot.   Beyond making sure that founders remain open to and aware of, all the ways in which the data fed back by R&D and consumers can be interpreted, I believe founders should also remain open to and cognisant of all the ways in which their core technology can be deployed. Especially the ways that are radically different from how they, or others in their field, are currently deploying that technology. Because there’s always the possibility that a better way of deploying your technology is out there, and becoming religious about the form rather than the function of your startup is setting it up for failure.   Put in other words, while trying to solve a problem or pursuing a mission, execution is everything, which is exactly why you shouldn’t get stuck in one way of executing and then put on blinders, but rather should constantly re-evaluate and assess whether your way of execution is still the most effective one.</div><footer>Dr Roeland P.J. Decorte</footer></blockquote>
