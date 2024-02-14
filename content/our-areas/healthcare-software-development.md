@@ -5,9 +5,9 @@ team_members:
   - piotr_r
   - maciej-n
   - malgorzata-z
-  - kasia
-  - piotr
   - slawek
+  - dominik-d
+  - michal-wo
 faqs:
   - healthcare software development 1
   - healthcare software development 2
@@ -31,7 +31,7 @@ order: 1
 title: scale your HealthTech solution in demanding post-covid times
 highlighted_word: HealthTech
 image_our_service_desktop: /images/healthtech_consulting_web.png
-image_our_service_mobile: /images/healthtech_consulting_mobile.png
+image_our_service_mobile: /images/healthtech_consulting_agency_mobile.png
 image_alt_our_service: HealthTech cosulting
 bullet_points:
   - scaling from MVP to a global solution
@@ -54,7 +54,7 @@ bar_stack:
   - NestJ
 button: book a free consultation
 button2: book a free consultation
-published: false
+published: true
 show_case_study: true
 show_technology_stack: true
 title_team: meet the healthcare software development team
@@ -93,11 +93,11 @@ Let's build ongoing monitoring systems that streamline post-care for patients. *
 
 ### Patient engagement apps
 
-Empowering patients to manage their health conditions is a crucial step in the digital revolution of healthcare, especially in the management of chronic diseases. **Our team has experience in developing applications, for example, for Parkinson's patients, with a strong focus on patient engagement**. 
+Empowering patients to manage their health conditions is a crucial step in the digital revolution of healthcare, especially in the management of chronic diseases. **Our team has experience in developing applications, for example, for [Parkinson's patients](/projects/solution-for-parkinsons-patients/), with a strong focus on patient engagement**. 
 
 ### FemTech solutions
 
-From pregnancy and postpartum support apps to period and fertility tracking applications, and even in-vitro and fertility support solutions, scale with us as a female-focused technology that truly addresses female-specific problems. **Our approach is tailored to meet the unique needs of women, moving beyond generic applications to provide personalized and comprehensive support for every stage of a woman's health journey**.
+From [pregnancy and postpartum support apps](/projects/pregnancy-app/) to period and fertility tracking applications, and even in-vitro and fertility support solutions, scale with us as a female-focused technology that truly addresses female-specific problems. **Our approach is tailored to meet the unique needs of women, moving beyond generic applications to provide personalized and comprehensive support for every stage of a woman's health journey**.
 
 ### eMAR (electronic medication administration record)
 
@@ -105,4 +105,4 @@ Medicine distribution is one of the most essential tasks of healthcare providers
 
 ### Mental health technology
 
-Respond effectively to critical mental healthcare challenges with our solution. Whether it's depression, anxiety, or other mental disorders, we are committed to helping you scale solutions with a primary focus on and respect for your users. **Proudly supporting the growth of the online group therapy platform based in the US, we draw upon our experience to navigate the sensitive realm of digital mental health with care and expertise**.
+Respond effectively to critical mental healthcare challenges with our solution. Whether it's depression, anxiety, or other mental disorders, we are committed to helping you scale solutions with a primary focus on and respect for your users. **Proudly supporting the growth of the [online group therapy platform](/projects/online-group-support/) based in the US, we draw upon our experience to navigate the sensitive realm of digital mental health with care and expertise**.
