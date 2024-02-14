@@ -47,6 +47,7 @@ show_team: true
 show_case_study: true
 show on homepage: false
 published: false
+work_in_progress: true
 language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="stack" />
