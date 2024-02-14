@@ -7,7 +7,7 @@ meaningfullyUpdatedAt: 2024-02-14T11:46:56.946Z
 title: The Intriguing Tale of Decorte Future Industries
 layout: post
 image: /images/pivot_healthcare_blog.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
