@@ -5,9 +5,9 @@ team_members:
   - piotr_r
   - maciej-n
   - malgorzata-z
-  - kasia
-  - piotr
   - slawek
+  - dominik-d
+  - michal-wo
 faqs:
   - healthcare software development 1
   - healthcare software development 2
