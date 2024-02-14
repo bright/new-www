@@ -4,10 +4,10 @@ team_members:
   - tomasz-sch
   - piotr_r
   - maciej-n
-  - malgorzata-z
   - slawek
   - dominik-d
   - michal-wo
+  - piotr
 faqs:
   - healthcare software development 1
   - healthcare software development 2
