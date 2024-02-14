@@ -42,9 +42,9 @@ Fast forward to 2024, and Decorte Future Industries has created an AI-powered en
 
 What happened in those 4 years?
 
-## A BORING STORY IS NOT WORTH THE INK
+## A BORING STORY IS NOT WORTH THE IN
 
-[Adapt or die: Data-driven pivots as key to product-market fit | Roeland Decorte | CogX Festival 2023](https://www.youtube.com/watch?v=GbyLOsy6cKs)
+<YouTubeEmbed url='https://www.youtube.com/watch?v=GbyLOsy6cKs' />
 
 In the initial stages, operating as a lone entrepreneur, Dr. Decorte managed to capture the attention and eventually secured the endorsement of the UK Ministry of Defence and the UK government. Despite the initial alignment with Defense interests, Decorte strategically shifted its focus exclusively toward health tech. With remarkable swiftness, the company started assembling a world-class team.
 
