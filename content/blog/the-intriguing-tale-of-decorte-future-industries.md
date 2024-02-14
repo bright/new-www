@@ -80,7 +80,7 @@ The compelling narrative of Dr. Roeland P.-J. E. Decorte and Decorte Future Indu
 
 Let this story act as motivation to push forward and think outside the box. Each tech founder needs to have his mind open to the changes in his economic environment and try to connect the dots that seem far-fetched or counterintuitive at first. Pivoting is not a sign of failure, but rather a sign of resilience. 
 
-Lastly, let this comment from Dr. Decorte serve as a roadsign for all those founders facing a need to pivot:
+**Lastly, let this comment from Dr. Decorte serve as a roadsign for all those founders facing a need to pivot:**
 
 *I think the need to pivot is indeed most often identified through analyzing the data, and, as with any strategic decision, (informed) intuition does play a very significant part in figuring out the direction in which to then pivot.*
 
