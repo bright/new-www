@@ -22,11 +22,10 @@ meta_title: Healthcare Software Development
 meta_description: Since 2012 we have developed HealthTech solutions for clients
   from the UK, Germany, Israel and more. Contact us!
 our_services_icon: /images/healthcare_software_development.png
-name: Healthcare Software Development
+name: healthcare software development
 slug: healthcare-software-development
-short_description: With over a decade of experience in the market, Bright
-  Inventions has partnered with startups and SMEs representing the healthcare
-  industry.
+short_description: Over the course of a decade, we have partnered with numerous
+  startups and SMEs representing the healthcare industry.
 order: 1
 title: scale your HealthTech solution in demanding post-covid times
 highlighted_word: HealthTech
