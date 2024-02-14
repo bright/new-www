@@ -3,11 +3,11 @@ team_members:
   - mateusz
   - tomasz-sch
   - piotr_r
-  - maciej-n
   - slawek
   - dominik-d
   - michal-wo
   - piotr
+  - adam-k
 faqs:
   - healthcare software development 1
   - healthcare software development 2
