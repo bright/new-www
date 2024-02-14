@@ -12,7 +12,7 @@ comments: true
 published: true
 language: en
 ---
-From the sewing rooms of fashion to the corridors of healthcare. A story of data-driven pivots.
+## From the sewing rooms of fashion to the corridors of healthcare. A story of data-driven pivots.
 
 As a project analyst, I've borne witness to numerous pivots firsthand. In my early days in software, I often grappled with self-doubt when confronted with the necessity to pivot alongside startup visionaries. Questions plagued my mind: "Am I faltering in my analyses? Am I doing a good job?" However, as my experience grew, with each pivot encountered, I gleaned a profound insight: the ability to discern the need for a pivot is not a mark of failure, but rather a testament to adaptability and foresight.
 
