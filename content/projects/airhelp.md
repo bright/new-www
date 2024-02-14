@@ -36,6 +36,7 @@ show_team: false
 show_case_study: true
 show on homepage: false
 published: true
+work_in_progress: true
 language: en
 ---
 ![airhelp mobile app development](../../static/images/flight_compensation_app_mockup.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")
