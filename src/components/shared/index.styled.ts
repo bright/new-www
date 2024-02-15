@@ -347,11 +347,14 @@ export const CustomTextTitle = styled.h3<{
     margin: ${({ mobileMargin }) => (mobileMargin ? mobileMargin : 'margin: 1em 0')};
   }
 `
-export const CustomTextRegular = styled.div`
+export const CustomTextRegular = styled.div<{
+  centered?: boolean,
+}>`
   font-family: ${variables.font.text.family};
   font-size: ${variables.pxToRem(20)};
   line-height: ${variables.pxToRem(40)};
   font-weight: 400;
+  text-align: ${({ centered }) => (centered ? 'center' : 'initial')};
   &::first-letter {
     text-transform: uppercase;
   }

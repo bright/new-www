@@ -12,6 +12,7 @@ import AchievementsProject from '../components/shared/AchievementsProject'
 import { Projects } from '../components/home/Projects'
 import { routeLinks } from '../config/routing'
 import { Contact } from '../components/shared/Contact'
+import TemporarilyHidden from './TemporarilyHidden'
 
 
 
@@ -34,10 +35,16 @@ const Template: React.FC<PropsWithChildren<{ data: { mdx: any } }>> = ({ data, c
     title_contact,
     description_contact,
     show_case_study,
-    show_team } = frontmatter
+    show_team,
+    work_in_progress,
+  } = frontmatter
   const { width } = useWindowSize()
   const breakpointTablet = 992
   const heroImage = getImage(hero_image)
+
+  if (work_in_progress) {
+    return <TemporarilyHidden />
+  }
 
   return (
     <Page>
@@ -138,6 +145,7 @@ export const pageQuery = graphql`
             slug
           }
         }
+        work_in_progress
       }
     }
   }

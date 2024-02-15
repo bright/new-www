@@ -601,6 +601,12 @@ const config = {
           widget: 'boolean',
           default: true,
         },
+        {
+          label: 'Work in progress',
+          name: 'work_in_progress',
+          widget: 'boolean',
+          default: false,
+        },
         languageWidget,
       ],
     },
