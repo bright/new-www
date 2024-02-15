@@ -2,7 +2,7 @@ import React from 'react'
 
 import {Page} from '../layout/Page'
 import { Link } from 'gatsby'
-import StatusPanel from '../components/shared'
+import { StatusPanel } from '../components/shared'
 // import SEO from "../components/seo"
 
 const NotFoundPage = () => (
