@@ -2,8 +2,8 @@
 author: izabela
 tags:
   - HealthTech
-date: 2024-02-16T08:40:26.359Z
-meaningfullyUpdatedAt: 2024-02-16T08:40:26.403Z
+date: 2024-02-16T08:58:07.210Z
+meaningfullyUpdatedAt: 2024-02-16T08:58:07.788Z
 title: Top Newsletters about Digital Health
 layout: post
 image: /images/digital_health_newsletters.png
