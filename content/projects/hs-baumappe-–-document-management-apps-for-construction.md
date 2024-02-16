@@ -37,12 +37,13 @@ title_case_study: check other case studies
 title_contact: let's talk about your product
 description_contact: Tell us more about your mobile project or idea for an app.
   Fill out the form below and we'll get back to you in 48 hours.
-order: 99
+order: 5
 slug: document-management-apps-construction
 show_team: false
 show_case_study: false
 show on homepage: true
 published: true
+work_in_progress: false
 language: en
 ---
 <TitleWithIcon sectionTitle="skills" titleIcon="/images/skills.svg" titleIconAlt="skills" />
