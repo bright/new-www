@@ -42,7 +42,7 @@ Subscribe: [femtechinsider.com/newsletter](https://femtechinsider.com/newsletter
 
 ## The Secret Sauce
 
-Another newsletter that presents all the technology in healthcare nuances, yet with a focus on truly enhancing patient care and empathy in healthcare.
+Another newsletter that presents all the technology in healthcare nuances, yet with a focus on enhancing patient care and empathy in healthcare.
 
 Powered by: Kris Mulcahy, Director of Business Development and Innovation at Brightisle
 
@@ -56,6 +56,6 @@ Powered by: Nikhil Krishnan
 
 Subscribe: [outofpocket.health](https://www.outofpocket.health/)
 
----
+- - -
 
 What newsletters do you recommend? Let us know in the comments below!
