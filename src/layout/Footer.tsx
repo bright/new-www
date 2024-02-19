@@ -112,7 +112,7 @@ export const Footer = () => {
               <Link to={routeLinks.mobileDevelopment}>mobile development</Link>
             </p>
             <p className='content'>
-              <Link to={routeLinks.blockchainDevelopment}>blockchain development</Link>
+              <Link to={routeLinks.healthcareDevelopment}>healthcare software development</Link>
             </p>
             <p className='content'>
               <Link to={routeLinks.bluetoothDevelopment}>bluetooth development</Link>
