@@ -71,7 +71,7 @@ Working with startups brings a lot of challenges; **I never do the same thing ev
 
 ## You’ve been a part of Bright Inventions for over 3 years. What do you like about the company?
 
-I appreciate that, despite working remotely, the atmosphere at the company is very friendly and welcoming. The managers are highly accessible, allowing me to ask questions at any time, and any problems are resolved promptly. **I also value transparency and the absence of workplace politics**. We focus solely on our tasks and project challenges, with no toxic games.
+I appreciate that, despite working remotely, the atmosphere at the company is very friendly and welcoming. The managers are highly accessible, allowing me to ask questions at any time, and any problems are resolved promptly. **I also value transparency and the absence of workplace politics**. We focus solely on our tasks and project challenges, with no toxic mind games.
 
 What’s great about Bright Inventions is **the emphasis on knowledge sharing**. Even when we are very busy, we always find time to meet and discuss technological novelties and share new learnings.
 
