@@ -62,3 +62,13 @@ Not at all. It was a long road for me, working with a startup was a crucial step
 My main advice is to **ask clients as many questions as needed**. It often turns out that through the course of questioning, the client gains a better understanding of what they truly need. Together, we can then decide if an idea is worth developing at this very early stage, potentially saving a significant amount of budget.
 
 ## Having been on the same project at Bright Inventions for over three years, what keeps your interest alive and how do you stay motivated?
+
+Working with startups brings a lot of challenges; **I never do the same thing every day**. Now, I get to work with AI, which offers the opportunity to delve into new areas of software development. In a startup, every day can present a different 'fire to put out.' And I don’t mean a massive bug on production. **It often involves a spontaneous idea that we need to implement right now**. So, there's no space to be bored here.
+
+## You’ve been a part of Bright Inventions for over 3 years. What do you like about the company?
+
+I appreciate that, despite working remotely, the atmosphere at the company is very friendly and welcoming. The managers are highly accessible, allowing me to ask questions at any time, and any problems are resolved promptly. **I also value transparency and the absence of workplace politics**. We focus solely on our tasks and project challenges, with no toxic games.
+
+What’s great about Bright Inventions is **the emphasis on knowledge sharing**. Even when we are very busy, we always find time to meet and discuss technological novelties and share new learnings.
+
+## What do you do after hours?
