@@ -5,7 +5,7 @@ tags:
   - bright story
 date: 2024-02-20T09:55:10.500Z
 meaningfullyUpdatedAt: 2024-02-20T09:55:10.546Z
-title: Dreaming of Firefighting Extinguishing Software Fires
+title: From Dreaming of Firefighting to Extinguishing Software Fires. Meet Sławek
 layout: post
 image: /images/brightstoryslawek_cover.png
 hidden: false
