@@ -72,3 +72,9 @@ I appreciate that, despite working remotely, the atmosphere at the company is ve
 What’s great about Bright Inventions is **the emphasis on knowledge sharing**. Even when we are very busy, we always find time to meet and discuss technological novelties and share new learnings.
 
 ## What do you do after hours?
+
+I've always led an active lifestyle. Upon joining Bright Inventions, I participated in company workouts led by the pro triathlete Bartosz Banach. He, along with [Michał](/about-us/michal/), inspired me to take up triathlon, and I quickly became fascinated with it.
+
+So, usually, I start my day with a workout, then work, and after work, I take a nap and have another workout. That's about 10 to 12 workouts a week.
+
+<div className="image">![Duathlon](../../static/images/duatlon.png "Duathlon")</div>
