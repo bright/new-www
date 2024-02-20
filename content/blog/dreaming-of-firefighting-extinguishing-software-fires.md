@@ -34,3 +34,7 @@ I thought about it a lot during my first years as a programmer. Now, **this thou
 I remember visiting the Bright Inventions website and instantly feeling a strong desire to be part of the team. I had a tough technical interview with [Piotr](/about-us/piotr/), followed by another with [Ula](/about-us/ula/) focusing on my soft skills and English proficiency. **The feedback, after the interview, was that my technical and soft skills were satisfactory, but I needed to work on my English**. 
 
 **Accepting this challenge, I immediately signed up for English classes** and attended them three times a week. To my surprise, **Ula didn't forget about me; she reached out after 6 months** to ask if I wanted to redo the interview. This time, my interaction was solely with Ula, concentrating on my English skills. **Finally, I managed to join Bright Inventions**.
+
+## Are you excited about the AI revolution?
+
+For sure, Generative AI is something I am currently responsible for in the project I'm working on. We develop a mental health care application, so we need to approach this methodically. **The last thing we want is to launch an AI solution that ends up discouraging people who are seeking mental health support**, for example, by being ununderstandable by a bot.
