@@ -40,3 +40,13 @@ I remember visiting the Bright Inventions website and instantly feeling a strong
 For sure, Generative AI is something I am currently responsible for in the project I'm working on. We develop a mental health care application, so we need to approach this methodically. **The last thing we want is to launch an AI solution that ends up discouraging people who are seeking mental health support**, for example, by being ununderstandable by a bot.
 
 <div className="image">![Quote about AI](../../static/images/slawek_quote_ai.png "Quote about AI")</div>
+
+That's why we are currently focusing on creating various proofs of concept to determine which areas of the application can truly be enhanced with AI. Before we even begin testing them with users, **we need to identify clear signs of the value that AI can deliver**. The AI-based solutions must be primarily trustworthy for our mental health app users.
+
+## How important is communication with business at your work?
+
+While working with a startup communication with the business side is crucial. Before I joined Bright Inventions, I had a completely different mindset. Here, I learned that **not every problem should be solved with code. The best code is the one that was never written because you don't have to maintain it**.
+
+I think every developer is an advisor as well. Business representatives often seek support from developers; they want to know if they should invest in a particular feature. They don't just expect you to code; **they need your guidance on how to allocate funds in product development, so it won't be wasted**.
+
+<div className="image">![Quote about code](../../static/images/slawek_quote_code.png "Quote about code")</div>
