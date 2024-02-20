@@ -38,3 +38,5 @@ I remember visiting the Bright Inventions website and instantly feeling a strong
 ## Are you excited about the AI revolution?
 
 For sure, Generative AI is something I am currently responsible for in the project I'm working on. We develop a mental health care application, so we need to approach this methodically. **The last thing we want is to launch an AI solution that ends up discouraging people who are seeking mental health support**, for example, by being ununderstandable by a bot.
+
+<div className="image">![Quote about AI](../../static/images/slawek_quote_ai.png "Quote about AI")</div>
