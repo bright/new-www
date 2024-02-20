@@ -67,7 +67,7 @@ My main advice is to **ask clients as many questions as needed**. It often turns
 
 Working with startups brings a lot of challenges; **I never do the same thing every day**. Now, I get to work with AI, which offers the opportunity to delve into new areas of software development. In a startup, every day can present a different 'fire to put out.' And I don’t mean a massive bug on production. **It often involves a spontaneous idea that we need to implement right now**. So, there's no space to be bored here.
 
-<div class='block-button'><h2>Join Sławek</h2><div>We are a software development company based in Gdańsk, Poland. Check our job opening and join Sławek!</div><a href="/career/"><button>check job offers</button></a></div>
+<div class='block-button'><h2>Join Sławek</h2><div>We are a software development company based in Gdańsk, Poland. Check our job openings and join Sławek!</div><a href="/career/"><button>check job offers</button></a></div>
 
 ## You’ve been a part of Bright Inventions for over 3 years. What do you like about the company?
 
@@ -77,7 +77,7 @@ What’s great about Bright Inventions is **the emphasis on knowledge sharing**.
 
 ## What do you do after hours?
 
-I've always led an active lifestyle. Upon joining Bright Inventions, I participated in company workouts led by the pro triathlete Bartosz Banach. He, along with [Michał](/about-us/michal/), inspired me to take up triathlon, and I quickly became fascinated with it.
+I've always led an active lifestyle. **Upon joining Bright Inventions, I participated in company workouts led by the pro triathlete Bartosz Banach**. He, along with [Michał](/about-us/michal/), inspired me to take up triathlon, and I quickly became fascinated with it.
 
 So, usually, I start my day with a workout, then work, and after work, I take a nap and have another workout. That's about 10 to 12 workouts a week.
 
@@ -87,6 +87,6 @@ Source: [Duathlon Szczecinek / Szczecinecka 5-tka](https://www.facebook.com/phot
 
 ## Biking, swimming, or running – which one is closest to your heart?
 
-It used to be biking, but now I’d say biking and swimming are at the same level. :) 
+It used to be biking, but now I’d say biking and swimming are at the same level. 🙂 
 
-Multiple injuries have recently stopped me from reaching my goals. Hopefully, this year I will spread my wings.
+Multiple injuries have recently stopped me from reaching my goals. **Hopefully, this year I will spread my wings**.
