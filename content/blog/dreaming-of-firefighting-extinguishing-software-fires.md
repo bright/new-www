@@ -17,6 +17,8 @@ language: en
 
 <div className="image">![Fullstack developer carer story](../../static/images/brightstoryslawek_grid.png "Fullstack developer carer story")</div>
 
+Source: private archive and [Lotto Triathlon Energy Gniewino 2023 by Gdyński Fotograf](https://www.facebook.com/media/set/?vanity=100094453642738&set=a.126192140539240)
+
 ## Why did you want to become a programmer?
 
 It might come as a surprise to you, but it was never a dream of mine. Throughout my life, **I aspired to be a firefighter**. 
@@ -78,3 +80,5 @@ I've always led an active lifestyle. Upon joining Bright Inventions, I participa
 So, usually, I start my day with a workout, then work, and after work, I take a nap and have another workout. That's about 10 to 12 workouts a week.
 
 <div className="image">![Duathlon](../../static/images/duatlon.png "Duathlon")</div>
+
+Source: [Duathlon Szczecinek / Szczecinecka 5-tka](https://www.facebook.com/photo/?fbid=191659660288084&set=pcb.191661143621269)
