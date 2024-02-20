@@ -3,8 +3,8 @@ author: slawek
 secondAuthor: izabela
 tags:
   - bright story
-date: 2024-02-20T09:55:10.500Z
-meaningfullyUpdatedAt: 2024-02-20T09:55:10.546Z
+date: 2024-02-20T10:15:01.478Z
+meaningfullyUpdatedAt: 2024-02-20T10:15:02.082Z
 title: From Dreaming of Firefighting to Extinguishing Software Fires. Meet Sławek
 layout: post
 image: /images/brightstoryslawek_cover.png
