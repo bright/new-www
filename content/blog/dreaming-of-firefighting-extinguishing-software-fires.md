@@ -50,3 +50,15 @@ While working with a startup communication with the business side is crucial. Be
 I think every developer is an advisor as well. Business representatives often seek support from developers; they want to know if they should invest in a particular feature. They don't just expect you to code; **they need your guidance on how to allocate funds in product development, so it won't be wasted**.
 
 <div className="image">![Quote about code](../../static/images/slawek_quote_code.png "Quote about code")</div>
+
+When you work with startups, you also need to understand that things change fast. **You shouldn't build a strong attachment to your code**. The feature you are working on might be canceled before you even launch it in production.
+
+## You seem cool about it. Have you always embraced the change?
+
+Not at all. It was a long road for me, working with a startup was a crucial step. At Bright Inventions, **we focus more on finding solutions to solve our client’s problems rather than on the code or technology we use**. Obviously, you need experience to build that mindset and to be able to advise your clients.
+
+## What is your main advice on how to understand clients’ expectations?
+
+My main advice is to **ask clients as many questions as needed**. It often turns out that through the course of questioning, the client gains a better understanding of what they truly need. Together, we can then decide if an idea is worth developing at this very early stage, potentially saving a significant amount of budget.
+
+## Having been on the same project at Bright Inventions for over three years, what keeps your interest alive and how do you stay motivated?
