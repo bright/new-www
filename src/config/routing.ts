@@ -48,5 +48,5 @@ export const routeLinks = {
          blockchainDevelopment: '/our-areas/blockchain/',
          bluetoothDevelopment: '/our-areas/bluetooth-development/',
          mvpdDevelopment: '/our-areas/mvp-development/',
-         healthcareDevelopment: 'healthcare-software-development/',
+         healthcareDevelopment: '/our-areas/healthcare-software-development/',
        }
