@@ -79,6 +79,8 @@ Secure LLM (Large Language Models) enable the analysis of health data, effective
 
 Ensuring effective communication between doctors, nurses, and patients is a crucial goal of digital health. **We have experience in building telehealth solutions that facilitate video consultations, messaging, and other forms of communication between patients and healthcare providers**.
 
+<EbookDynamic sectionTitle='scale your eHealth app ' ebookName='undefined' ebookDescription='We've prepared a guide for eHealth companies facing the biggest challenge of all: scaling.' ebookImage='/images/frame-2608192.png' ebookAlt='undefined' />
+
 ### IoT in healthcare with wearables
 
 By integrating Bluetooth devices and establishing an IoT (Internet of Things) network, we ensure continuous monitoring of vital signs and other critical medical data. This setup is compliant with HIPAA, GDPR, and other applicable local regulations, ensuring the secure and efficient management of health information. **We have successfully implemented a network of NHS-certified devices that have significantly improved the lives of patients in home care settings across the UK**.
