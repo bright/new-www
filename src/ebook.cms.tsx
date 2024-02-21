@@ -32,13 +32,13 @@ export const EbookCmsEditorComponent = {
   ],
   label: 'Ebook',
 
-  pattern: /^\s*<EbookDynamic\s+sectionTitle=['"](.*?)['"]\s+ebookName=['"](.*?)['"]\s+ebookDescription=['"](.*?)['"]\s+ebookImage=['"](.*?)['"]\s+ebookAlt=['"](.*?)['"]\s*\/>\s*$/,
+  pattern: /^\s*<EbookDynamic\s+sectionTitle=['"](.*?)['"]\s+ebookName=['"](.*?)['"]\s+ebookDescription={'(.*?)'}\s+ebookImage=['"](.*?)['"]\s+ebookAlt=['"](.*?)['"]\s*\/>\s*$/,
 
   fromBlock(match: RegExpMatchArray) {
     return {
       sectionTitle: match[1],
       ebookName: match[2],
-      ebookDescription: match[3],
+      ebookDescription: match[3].replaceAll("\\'", "'"),
       ebookImage: match[4],
       ebookAlt: match[5],
     }
@@ -50,7 +50,7 @@ export const EbookCmsEditorComponent = {
     ebookImage: string
     ebookAlt: string
   }) {
-    return `<EbookDynamic sectionTitle='${props.sectionTitle}' ebookName='${props.ebookName}' ebookDescription='${props.ebookDescription}' ebookImage='${props.ebookImage}' ebookAlt='${props.ebookAlt}' />`
+    return `<EbookDynamic sectionTitle='${props.sectionTitle}' ebookName='${props.ebookName}' ebookDescription={'${props.ebookDescription.replaceAll("'", "\\'")}'} ebookImage='${props.ebookImage}' ebookAlt='${props.ebookAlt}' />`
   },
   toPreview(props: {
     sectionTitle: string
