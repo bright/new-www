@@ -79,6 +79,20 @@ Check out devices that are part of the digital transformation in healthcare.
 
 ## Smart healthcare devices of the future
 
+The future of digital health is closely connected with wearable healthcare devices that can non-invasively collect data 24 hours a day. The smaller these devices are, the better. Not only do they tend to have longer battery lives, but research also shows promise in [utilizing human body heat as a power source](https://scitechdaily.com/new-wearable-device-turns-your-body-into-a-biological-battery/).
+
+### Smart rings
+
+* Smart rings seem like smaller versions of smartwatches, but calling them that is an understatement.
+* Their discreet form factor and the capability to collect data unobtrusively allow for the capturing of more comprehensive health data.
+* Smart rings have also shown promise in areas such as [sign language recognition](https://dl.acm.org/doi/10.1145/3597638.3614491) and the [early detection of COVID-1](https://www.fiercehealthcare.com/tech/ucsf-launches-study-to-use-wearable-data-from-oura-ring-for-early-covid-19-detection)9 and other viral infections.
+
+### Smart earrings
+
+* Researchers at the University of Washington are developing smart earrings capable of monitoring signs of stress, eating, exercise, and ovulation.
+* These earrings continuously measure fever, indicating if the body is fighting an infection.
+* Studies show these earrings are more accurate at sensing skin temperature than smartwatches, making them potentially better for measuring ovulation and period tracking. FemTech companies are likely to explore these prototypes for integration with their applications.
+
 Gathering data from these devices isn’t really a challenge. The challenge is to develop the right algorithm that will not only analyse the data but will respond with the solution that may save a life. Healthcare apps that we create can instruct patients and caregivers to call an ambulance. An app can even set up a phone call to 911 and the patient just needs to click to start it.
 
 If you are looking for a **[healthcare software development company](/)**, make sure that the software team that you are about to hire have **deep knowledge about software development as well as experience in hardware**. These two elements are crucial in terms of developing solutions for telehealth.
