@@ -11,7 +11,7 @@ meaningfullyUpdatedAt: 2024-02-22T13:56:16.383Z
 title: How to Build Own Knowledge Base GPT Assistant in 5 Minutes
 layout: post
 image: /images/GPT_assistant.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
