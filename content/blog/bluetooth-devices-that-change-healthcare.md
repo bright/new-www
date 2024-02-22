@@ -93,8 +93,12 @@ The future of digital health is closely connected with wearable healthcare devic
 * These earrings continuously measure fever, indicating if the body is fighting an infection.
 * Studies show these earrings are more accurate at sensing skin temperature than smartwatches, making them potentially better for measuring ovulation and period tracking. FemTech companies are likely to explore these prototypes for integration with their applications.
 
-Gathering data from these devices isn’t really a challenge. The challenge is to develop the right algorithm that will not only analyse the data but will respond with the solution that may save a life. Healthcare apps that we create can instruct patients and caregivers to call an ambulance. An app can even set up a phone call to 911 and the patient just needs to click to start it.
+## Challenges in implementing smart devices in healthcare systems
 
-If you are looking for a **[healthcare software development company](/)**, make sure that the software team that you are about to hire have **deep knowledge about software development as well as experience in hardware**. These two elements are crucial in terms of developing solutions for telehealth.
+Gathering data from these devices isn’t a challenge. The challenge is to develop the right application that will not only analyze the data but will respond with a solution that may save a life. For example, healthcare apps that we have created at Bright Inventions can instruct patients and caregivers to call an ambulance based on alarming data provided by the devices. 
 
-<div className="block-button"><h2>Looking for a software company?</h2><div>We have built healthcare apps for clients from the UK, Germany, Israel, Norway and more. Estimate your project!</div><a href="/start-project"><button>Let's talk about your healthcare app</button></a></div>
+Healthcare wearables are advancing in detecting various diseases early, including cardiovascular diseases, hypertension, muscle disorders, and neurocognitive disorders. Research also focuses on the development of wearables for the early detection of Alzheimer's and other neurodegenerative diseases​. Moreover, the future of smart devices in healthcare diagnostics looks promising with applications leveraging Generative AI.
+
+If you are looking for a [healthcare software development company](/our-areas/healthcare-software-development/) to develop applications enabling remote patient monitoring with healthcare devices, make sure that the software team that you are about to hire has deep knowledge of software as well as hardware. These two elements are crucial in developing solutions for remote patient monitoring.
+
+Contact us if you want to discuss your product’s challenges. [Schedule a free consultation in 48 hours](/start-project/)!
