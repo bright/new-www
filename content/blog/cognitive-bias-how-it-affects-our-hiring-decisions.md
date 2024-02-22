@@ -50,8 +50,6 @@ An inclination to rely too heavily on the first piece of information we are give
 
 As human being we gravitate toward people like us — toward people who have something in common with us, who share the same worldview and can empathise with our experience. This tendency is known as an affinity bias. **It is our propensity to connect with people who share similar interests, backgrounds or beliefs.** If you meet someone in real life and this person likes mountain hiking as much as you do, it is likely you have a positive feeling about him/her. Nevertheless, the affinity bias is against difference and in consequence it may really narrow our possibilities and options. **In the hiring process it may manifest itself by treating particular candidates more favourably because they are like us or we just see the part of us in them.** 
 
-<div className="image">![affinity bias](../../static/images/affinity-bias.png "undefined")</div>
-
 ## 7. **Perception bias**
 
 An inclination to make a decision based on stereotypes and assumptions about a certain group. Stereotyping is probably the most common one. Recruiters are very often exposed on a perception bias and they even do not realise when it affects their hiring decisions. Someone’s ethnic background, gender, education, social status, disability etc. may lead the recruiter to attribute certain characteristics to a candidate or make some assumptions about them. **Due to that some candidates (and people in general) may be perceived as more or less capable and suitable for some positions. They either might be favoured too much or disadvantaged because of our unfair assumptions.** 
