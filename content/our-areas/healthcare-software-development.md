@@ -79,7 +79,7 @@ Secure LLM (Large Language Models) enable the analysis of health data, effective
 
 Ensuring effective communication between doctors, nurses, and patients is a crucial goal of digital health. **We have experience in building telehealth solutions that facilitate video consultations, messaging, and other forms of communication between patients and healthcare providers**.
 
-<EbookDynamic sectionTitle='scale your eHealth app' ebookName='undefined' ebookDescription={'We\'ve prepare\'d a guide for eHealth companies facing the biggest challenge of all: scaling.'} ebookImage='undefined' ebookAlt='undefined' />
+<EbookDynamic sectionTitle='scale your eHealth app' ebookName='undefined' ebookDescription={'We\'ve prepared a guide for eHealth companies facing the biggest challenge of all: scaling.'} ebookImage='undefined' ebookAlt='undefined' />
 
 ### IoT in healthcare with wearables
 
