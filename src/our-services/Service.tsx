@@ -236,8 +236,7 @@ export default function Template({
           />
         </div>
       )}
-
-      <CustomSection paddingProps='0rem 15rem 2rem 15rem' paddingMobileProps='0 1.125rem 0'>
+      <CustomSection paddingProps='2rem 15rem 2rem 15rem' paddingLaptop='5rem 6rem 0rem' paddingMobileProps='0 1.125rem 0'>
         <CustomSectionInner>
           <a href='#faqs' style={{display: 'block'}}>
             {show_case_study ? (
