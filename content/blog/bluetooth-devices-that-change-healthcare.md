@@ -73,7 +73,11 @@ Check out devices that are part of the digital transformation in healthcare.
 
 ### Smartwatches
 
+* Popular fitness gadget that can also be a part of medical remote care systems.
+* They monitor stress levels, movement disorders, sleep tracking, blood pressure, heart disease.
+* Due to their widespread popularity, these devices have the potential to evolve from mere fitness trackers to healthcare tools accessible to the masses. However, they may face some competition in this journey.
 
+## Smart healthcare devices of the future
 
 Gathering data from these devices isn’t really a challenge. The challenge is to develop the right algorithm that will not only analyse the data but will respond with the solution that may save a life. Healthcare apps that we create can instruct patients and caregivers to call an ambulance. An app can even set up a phone call to 911 and the patient just needs to click to start it.
 
