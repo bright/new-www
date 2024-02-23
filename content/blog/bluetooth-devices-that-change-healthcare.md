@@ -2,6 +2,7 @@
 author: izabela
 tags:
   - business
+  - HealthTech
 date: 2021-08-03T06:50:18.274Z
 meaningfullyUpdatedAt: 2024-02-23T07:54:59.296Z
 title: Smart Health Devices That Are Transforming Healthcare
