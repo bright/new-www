@@ -3,7 +3,7 @@ author: izabela
 tags:
   - business
 date: 2021-08-03T06:50:18.274Z
-meaningfullyUpdatedAt: 2024-02-22T15:00:05.829Z
+meaningfullyUpdatedAt: 2024-02-23T07:54:59.296Z
 title: Smart Health Devices That Are Transforming Healthcare
 layout: post
 image: /images/smart_devices_healthcare.png
