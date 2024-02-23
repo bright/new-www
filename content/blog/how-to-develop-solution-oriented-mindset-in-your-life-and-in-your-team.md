@@ -23,6 +23,8 @@ Our cognitive biases, such as [the negativity bias, make us more attentive to ne
 
 <div className="image">![negativity bias](../../static/images/negativity-bias.jpeg "undefined")</div>
 
+###### Source: https://www.instagram.com/theawkwardyeti
+
 Understanding the negativity bias can help you be more aware of your thought patterns and emotional responses. While it may be challenging to completely eliminate this bias, you may use some strategies to minimalise it. **Among the techniques you can find some simples ones such as practising gratitude, limiting expose to negative news (and negative people 😉), evaluating the validity of native thoughts or expressing appreciation.** 
 
 ## **What does it mean to be solution-oriented** 
