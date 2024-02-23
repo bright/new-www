@@ -71,7 +71,7 @@ Check out devices that are part of the digital transformation in healthcare.
 * They help to prevent circulatory diseases that are [a leading cause of death globally](https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)).
 * However, they might not be that convenient to wear 24 hours a day compared to other smaller smart devices.
 
-### Smartwatches
+### Smartwatch
 
 * Popular fitness gadget that can also be a part of medical remote care systems.
 * They monitor stress levels, movement disorders, sleep tracking, blood pressure, heart disease.
@@ -81,13 +81,17 @@ Check out devices that are part of the digital transformation in healthcare.
 
 The future of digital health is closely connected with wearable healthcare devices that can non-invasively collect data 24 hours a day. The smaller these devices are, the better. Not only do they tend to have longer battery lives, but research also shows promise in [utilizing human body heat as a power source](https://scitechdaily.com/new-wearable-device-turns-your-body-into-a-biological-battery/).
 
-### Smart rings
+### Smart ring
+
+<div className="image">![smart ring healthcare](../../static/images/smart_ring_blog.png "smart ring healthcare")</div>
 
 * Smart rings seem like smaller versions of smartwatches, but calling them that is an understatement.
 * Their discreet form factor and the capability to collect data unobtrusively allow for the capturing of more comprehensive health data.
 * Smart rings have also shown promise in areas such as [sign language recognition](https://dl.acm.org/doi/10.1145/3597638.3614491) and the [early detection of COVID-1](https://www.fiercehealthcare.com/tech/ucsf-launches-study-to-use-wearable-data-from-oura-ring-for-early-covid-19-detection)9 and other viral infections.
 
 ### Smart earrings
+
+<div className="image">![smart earrings healthcare](../../static/images/smart_earrings.png "smart earrings healthcare")</div>
 
 * Researchers at the University of Washington are developing smart earrings capable of monitoring signs of stress, eating, exercise, and ovulation.
 * These earrings continuously measure fever, indicating if the body is fighting an infection.
