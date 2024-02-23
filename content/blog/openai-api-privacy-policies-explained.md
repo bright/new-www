@@ -119,4 +119,12 @@ Last but not least, what is also important to mention is that
     <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 
-As we can see, OpenAI API guarantees the best data control and privacy within all its offerings. In another blog post, I will describe Azure OpenAI service that is often taken into the equation and compared with OpenAI API. Stay tuned!
+As we can see, OpenAI API guarantees the best data control and privacy within all its offerings.
+
+**Read more blog posts about OpenAI Privacy Policy:**
+
+[OpenAI ChatGPT Free & Plus Privacy Policies Explained](/blog/openai-chatgpt-free-plus-privacy-policies-explained/)
+
+[OpenAI ChatGPT Team & Enterprise Privacy Terms Explained](/blog/openai-chatgpt-team-enterprise-privacy-policies-explained/)
+
+[Azure OpenAI Service Privacy Policies Explained](/blog/azure-openai-service-privacy-policies-explained/)
