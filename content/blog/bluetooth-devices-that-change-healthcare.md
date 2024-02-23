@@ -99,10 +99,12 @@ The future of digital health is closely connected with wearable healthcare devic
 
 ## Challenges in implementing smart devices in healthcare systems
 
-Gathering data from these devices isn’t a challenge. The challenge is to develop the right application that will not only analyze the data but will respond with a solution that may save a life. For example, healthcare apps that we have created at Bright Inventions can instruct patients and caregivers to call an ambulance based on alarming data provided by the devices. 
+Gathering data from these devices isn’t a challenge. T**he challenge is to develop the right application that will not only analyze the data but will respond with a solution that may save a life**. For example, healthcare apps that we have created at Bright Inventions can instruct patients and caregivers to call an ambulance based on alarming data provided by the devices. 
 
 Healthcare wearables are advancing in detecting various diseases early, including cardiovascular diseases, hypertension, muscle disorders, and neurocognitive disorders. Research also focuses on the development of wearables for the early detection of Alzheimer's and other neurodegenerative diseases​. Moreover, the future of smart devices in healthcare diagnostics looks promising with applications leveraging Generative AI.
 
-If you are looking for a [healthcare software development company](/our-areas/healthcare-software-development/) to develop applications enabling remote patient monitoring with healthcare devices, make sure that the software team that you are about to hire has deep knowledge of software as well as hardware. These two elements are crucial in developing solutions for remote patient monitoring.
+Diabetics also wait for the moment when smartwatches and rings will be able to measure blood glucose but [that's still not a reality](https://www.theverge.com/2024/2/21/24079495/smartwatch-smart-ring-blood-glucose-monitoring-diabetes-fda).
+
+If you are looking for a [healthcare software development company](/our-areas/healthcare-software-development/) to develop applications enabling remote patient monitoring with healthcare devices, make sure that **the software team that you are about to hire has deep knowledge of software as well as hardware**. These two elements are crucial in developing solutions for remote patient monitoring.
 
 Contact us if you want to discuss your product’s challenges. [Schedule a free consultation in 48 hours](/start-project/)!
