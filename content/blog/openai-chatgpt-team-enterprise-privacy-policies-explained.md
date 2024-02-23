@@ -39,12 +39,12 @@ From a privacy point of view, the most important thing is that **OpenAI doesn’
 
 <blockquote>
     <div>We do not train on your business data (data from ChatGPT Team, ChatGPT Enterprise, or our API Platform)</div>
-    <footer>\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 
 <blockquote>
     <div>We do not use your ChatGPT Team, ChatGPT Enterprise, or API data, inputs, and outputs for training our models.</div>
-    <footer>\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 
 That means that Team data is excluded from training by default. As opposed to individual subscriptions for ChatGPT we have an opt-in model here.
@@ -53,33 +53,33 @@ Also, when using the Team plan, **we have Admin console and Admin roles**. As we
 
 <blockquote>
     <div>Workspace admins have control over workspaces and access</div>
-    <footer>\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 
 **Data is stored for 30 days after deleting from the system**. End users from our team are in control of how long conversations are retained:
 
 <blockquote>
     <div>Each of your end users controls whether their conversations are retained. Any deleted or unsaved conversations are removed from our systems within 30 days, unless we are legally required to retain them. Note that retention enables features like conversation history, and shorter retention periods may compromise product experience.</div>
-    <footer>\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 
 **Now, when our data is stored, who can see it?** Here’s an OpenAI explanation:
 
 <blockquote>
     <div>Within your organization, only end users can view their conversations. Workspace admins have control over workspaces and access. Our access to conversations stored on our systems is limited to (1) authorized employees that require access for engineering support, investigating potential platform abuse, and legal compliance and (2) specialized third-party contractors who are bound by confidentiality and security obligations, solely to review for abuse and misuse</div>
-    <footer>\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 
 When it comes to **compliance with the product**, we can see it's still **a working process**:
 
 <blockquote>
     <div>SOC 2 compliance coming soon</div>
-    <footer>\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
  For GDPR
 <blockquote>
     <div>we are able to execute a Data Processing Addendum (DPA) with customers for their use of ChatGPT Team, ChatGPT Enterprise, and the API in support of their compliance with GDPR and other privacy laws. Please complete our DPA form to execute a DPA with OpenAI.</div>
-    <footer>\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 
 ## ChatGPT Enterprise Privacy and Data Security
@@ -90,37 +90,37 @@ You have to ask support to get individual quota about the pricing and you are ob
 
 <blockquote>
     <div>You control how long your data is retained (ChatGPT Enterprise)</div>
-    <footer>\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 <blockquote>
     <div>Your workspace admins control how long your data is retained. Any deleted conversations are removed from our systems within 30 days, unless we are legally required to retain them. Note that retention enables features like conversation history, and shorter retention periods may compromise product experience</div>
-    <footer>\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 Having the admin’s control over data retention is a huge difference compared to the Team plan where
 <blockquote>
     <div>Each of your end users controls whether their conversations are retained.</div>
-    <footer>\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 
 For compliance, same as the Team plan we are **eligible for GDPR compliance but it is already SOC 2 compliant:**
 
 <blockquote>
     <div>ChatGPT Enterprise has been audited and certified for SOC 2 Type 1 compliance (Type 2 coming soon).</div>
-    <footer>\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 
 Also, we have a **SAML SSO authentication option:**
 
 <blockquote>
     <div>Enterprise-level authentication through SAML SSO (ChatGPT Enterprise and API)</div>
-    <footer>\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 
 For both enterprise plans, there is information that 
 
 <blockquote>
     <div>Data encryption at rest (AES-256) and in transit (TLS 1.2+)</div>
-    <footer>\[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
+    <footer>[Enterprise Privacy portal](https://openai.com/enterprise-privacy)</footer>
 </blockquote>
 
 Hopefully, this post has given you some insights into privacy in ChatGPT Team and Enterprise and its opt-in model. We’ve analyzed services designed for business. **In another blog post, I dived into the last enterprise solution proposed by OpenAI**. This is OpenAI API which grants the best possibilities when it comes to data control & privacy. I **compared it with Azure OpenAI** service which is a common alternative when using API. 
