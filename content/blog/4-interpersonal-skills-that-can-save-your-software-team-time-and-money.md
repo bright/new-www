@@ -32,8 +32,6 @@ Strong interpersonal skills enable individuals to communicate clearly and effici
 well-developed interpersonal skills can convey their thoughts, ideas, and emotions effectively, leading to better
 understanding and reducing the chances of misunderstandings with other team members or clients.
 
-<div className="image">![miscommunication](../../static/images/miscommunication-cost.png "undefined")</div>
-
 **The report [State of Business Communication: The Backbone of Business Is
 Broken ](https://www.agilitypr.com/pr-news/public-relations/bad-connection-study-finds-poor-communication-costs-businesses-1-2-trillion-annually)shows that up to a $1.2 trillion annual loss among businesses is due to ineffective communication.** 
 
