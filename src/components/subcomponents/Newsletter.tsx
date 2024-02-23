@@ -42,22 +42,15 @@ const getResponseFormHtml = {
 export default function Newsletter() {
   const { width } = useWindowSize()
   const breakpoint = 992
-  const image = useMemo(() => {
-    return width <= breakpoint ? (
-      <StaticImage
-        src='../../../static/images/newsletter_mobile.png'
-        alt='Newsletter'
-        className='newsimage'
-        quality={100}
-      />
-    ) : (
-      <StaticImage src='../../../static/images/newsletter.png' alt='Newsletter' className=' newsimage' quality={100} />
-    )
-  }, [width > breakpoint])
+  const isMobile = width <= breakpoint;
+
+  const Image = () => isMobile
+    ? <StaticImage src='../../../static/images/newsletter_mobile.png' alt='Newsletter' className='newsimage' quality={100} />
+    : <StaticImage src='../../../static/images/newsletter.png' alt='Newsletter' className='newsimage' quality={100} />
 
   return (
     <NewsletterWrapper>
-      {image}
+      <Image />
       <Script>{`
         window['__GetResponseAnalyticsObject'] = 'GrTracking'
         window['GrTracking'] = window['GrTracking'] || function() {
