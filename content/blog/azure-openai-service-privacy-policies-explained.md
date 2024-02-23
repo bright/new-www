@@ -153,6 +153,6 @@ the market. This is important as more and more apps, employers, companies, etc. 
 
 [OpenAI ChatGPT Free & Plus Privacy Policies Explained](/blog/openai-chatgpt-free-plus-privacy-policies-explained/)
 
-[OpenAI ChatGPT Free & Plus Privacy Policies Explained](/blog/openai-chatgpt-free-plus-privacy-policies-explained/)
+[OpenAI ChatGPT Team & Enterprise Privacy Terms Explained](/blog/openai-chatgpt-team-enterprise-privacy-policies-explained/)
 
 [OpenAI API Privacy Policies Explained](/blog/openai-api-privacy-policies-explained/)
