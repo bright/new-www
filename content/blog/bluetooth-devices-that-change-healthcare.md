@@ -17,7 +17,7 @@ language: en
 
 <div className="image">![smart devices healthcare](../../static/images/smart_devices_healthcare.png "smart devices healthcare")</div>
 
-Remote patient monitoring (RPM) can lead to significant cost savings in healthcare. An essential part of RPM is healthcare smart devices including wearables that monitor patients' vital signs. Empowered with healthcare software applications devices help doctors, nurses, and patients to better manage their conditions, leading to reduced hospital visits and improved management of chronic diseases.
+Remote patient monitoring (RPM) can lead to significant cost savings in healthcare. An essential part of RPM is healthcare smart devices including wearables that monitor patients' vital signs. Empowered with healthcare software applications and smart devices doctors, nurses, and patients themselves can more efficiently manage the disease, leading to reduced hospital visits and improved management of chronic diseases.
 
 ## Healthcare devices that enable remote patient monitoring:
 
