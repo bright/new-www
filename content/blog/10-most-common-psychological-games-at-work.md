@@ -101,8 +101,6 @@ Passive-aggressive behaviours in the workplace can manifest in various ways. Amo
 
 😵‍💫 excluding certain colleagues or team members from meetings, discussions, or social activities as a form of passive-aggressive punishment.
 
-<div className="image">![passive agressive behaviours ](../../static/images/how-to-manage-stop-passive-aggressive-behavior-1024x1024.webp "")</div>
-
 ### 5. Credit stealing
 
 Every now and then you can watch **people taking credit for someone else's work or ideas to enhance their own reputation**. I believe that many of them are doing that subconsciously. The sad truth behind it is that the credit stealing game is diminishing contribution of others a lot and in consequence makes them feel demotivated and annoyed. 
@@ -133,8 +131,6 @@ For some it might be surprising to find micromanagement here, but it is also a t
 
 **Their fear may result from a desire for perfection, lack of trust based on past experiences, mistakes or just insecurity of the own expertise.** In general, people who love micro managing believe that their involvement is essential for achieving positive results. 
 
-<div className="image">![steps to autonomy](../../static/images/5-steps-to-autonomy.jpeg "")</div>
-
 On the other hand, we should not forget that micromanagers may be also under significant pressure to meet deadlines or achieve results. This pressure can make them more controlling as they try to ensure that everything goes according to plan. **Some of them may also lack the skills or knowledge to effectively delegate tasks or they are just new in the managerial world and they may micromanage until they gain more experience and self-assurance.**
 
 **One thing known for sure is that uncontrollable micromanagement can stifle employee autonomy, hinder creativity, and damage morale.** Employees often prefer a more hands-off approach from their managers. First of all, it allows them to take ownership of their work and feel reponsible for what they do. 
@@ -158,6 +154,8 @@ If in your case being a work matryr is connected with taking on your plate more 
 ✅ [Take time off.](https://thecontextofthings.com/2016/08/20/work-martyr/) It pays off. 😉 
 
 <div className="image">![time off](../../static/images/holiday-time.png "")</div>
+
+###### Source: https://thecontextofthings.com/2016/08/20/work-martyr/
 
 ### 9. Fear mongering
 
