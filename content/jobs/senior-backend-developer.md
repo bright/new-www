@@ -8,7 +8,7 @@ subtitle: OPENING SOON
 image-alt-job: backend development team
 hours: full-time
 salary: 20 000 - 24 000 PLN + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
-salary_min: 16597
+salary_min: 16600
 salary_max: 24000
 working time: full time
 technology:
