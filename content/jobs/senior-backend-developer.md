@@ -4,13 +4,13 @@ workplace_recruiter: Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: "Senior Backend Developer "
-subtitle: OPENING SOON 
+subtitle: OPENING SOON
 image-alt-job: backend development team
 hours: full-time
-salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
-salary_min: 20000
-salary_max: 26000
-working time: 20-26 paid days off + Polish bank holidays
+salary: 20 000 - 24 000 PLN + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
+salary_min: 16597
+salary_max: 24000
+working time: full time
 technology:
   - Java
   - Kotlin
@@ -34,7 +34,7 @@ links_more_about_us: >-
 title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
 name_recruiter: Agata
 image_recruiter_info: /images/agata_recruiter.png
-image_alt_recruiter_info: Agata Mietlińska - a Recruiter at Bright Inventions
+image_alt_recruiter_info: Agata Dankowska - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our backend team
 published: true
@@ -56,14 +56,13 @@ We believe in open communication and encourage team members to share their insig
 
 ## **about the role**
 
-We are looking for **an experienced Backend Developer who understands Java & Spring really well and who would like to take accountability for the code he/she writes and the impact it has on users, organizations, and society as a whole.** It involves adhering to ethical principles, best practices, and professional standards throughout the software development lifecycle.
+We are looking for **an experienced Backend Developer who understands Java/Kotlin really well and who would like to take accountability for the code he/she writes and the impact it has on users, organizations, and society as a whole.** It involves adhering to ethical principles, best practices, and professional standards throughout the software development lifecycle.
 
 The person who will join our team should possess **the ability to adapt and adjust to various situations, requirements, and technologies throughout the software development process.** We would also appreciate your capability of working in different environments, such as startups, large corporations, or remote teams. Each setting may have different processes and requirements, and adaptability is key.
 
 ## **what you will do**
 
 * enhance an existing backend application in Java
-* work on the payment module development 
 * have a direct contact with business side and advise in their decision making process
 * improve internal web development processes
 * participate in software code reviews
@@ -77,13 +76,11 @@ The person who will join our team should possess **the ability to adapt and adju
 * experience with Spring Boot framework 
 * experience with SQL databases 
 * familiarity with Google Cloud or other Cloud providers e.g. AWS/Azure
-* advanced communications kills in English (both written and spoken))
+* advanced communications kills in **English and Polish** (both written and spoken))
 
 ## **we would also appreciate if you have**
 
-* experience with working on **enterprise solutions**
 * collaboration exeprience in the international teams 
-
 
 ## **what you will find in our Bright Team 🧡**
 
@@ -91,7 +88,7 @@ The person who will join our team should possess **the ability to adapt and adju
 * clear career path with 
 * flexible working hours and remote work possibility
 * 20-26 paid days off + Polish bank holidays
-* MultiSport card and private medical package (PZU Zdrowie)
+* MultiSport card and private medical package (Compensa)
 * good equipment: we provide you with MacBook and additional accessories
 * internal workshops and dev's meetings 
 * extra budget for training and library with professional books
