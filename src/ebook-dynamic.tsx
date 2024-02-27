@@ -126,7 +126,7 @@ export const EbookDynamic: (props: EbookDynamicProps) => React.JSX.Element = ({
               formRef.current?.dispatchEvent(new Event('submit', { cancelable: true, bubbles: true }))
             }}
           >
-            get free ebook
+            get your free copy
           </MoreButton>
         ) : (
           <a href={value.ebookResponse.ebook.url} target='_blank'>
