@@ -43,4 +43,4 @@ Do you have an idea for a healthcare app? Now is the time for custom software de
 
 <div className="block-button"><h2>Looking for a healthcare software development company?</h2><div>You’ve come to the right place! Since 2012 we have developed eHealth products for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
 
-<EbookDynamic sectionTitle='Download the free guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages about scaling healthcare companies just for you!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='ebook healthtech cover' />
+<EbookDynamic sectionTitle='Download the free guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages about scaling a healthcare company just for you!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='ebook healthtech cover' />
