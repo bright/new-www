@@ -1,17 +1,18 @@
-import { AdapterInit } from 'gatsby'
+import { AdapterInit, IAdapterConfig } from 'gatsby'
 import path from 'path'
 
-const createAdapterFoo: AdapterInit = () => {
+export const adapter: AdapterInit = () => {
   return {
     name: `bi-gatsby-adapter`,
     async adapt(): Promise<void> {},
-    config() {
-      return {
-        imageCDNUrlGeneratorModulePath: path.resolve(`./image-cdn-url-generator.ts`),
-        fileCDNUrlGeneratorModulePath: path.resolve(`./file-cdn-url-generator.ts`),
+    config({ reporter }) {
+      const imageCDNUrlGeneratorModulePath = path.resolve(`./adapter/image-cdn-url-generator.js`)
+      console.log(imageCDNUrlGeneratorModulePath)
+      const config: IAdapterConfig = {
+        imageCDNUrlGeneratorModulePath: imageCDNUrlGeneratorModulePath,
+        fileCDNUrlGeneratorModulePath: path.resolve(`./adapter/file-cdn-url-generator.js`),
       }
+      return config
     },
   }
 }
-
-export default createAdapterFoo

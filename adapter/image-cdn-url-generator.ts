@@ -1,18 +1,14 @@
-import type {
-  ImageCdnUrlGeneratorFn,
-  ImageCdnSourceImage,
-  ImageCdnTransformArgs,
-} from "gatsby"
+import type { ImageCdnSourceImage, ImageCdnTransformArgs, ImageCdnUrlGeneratorFn } from 'gatsby'
 
-export const generateImageUrl: ImageCdnUrlGeneratorFn =
-  function generateImageUrl(
-    source: ImageCdnSourceImage,
-    imageArgs: ImageCdnTransformArgs,
-  ): string {
+console.log('loaded image-cdn-url-generator.ts')
 
-    console.log('GENERATE IMAGE URL');
+export const generateImageUrl: ImageCdnUrlGeneratorFn = function generateImageUrl(
+  source: ImageCdnSourceImage,
+  imageArgs: ImageCdnTransformArgs
+): string {
+  console.log('GENERATE IMAGE URL')
 
-    return 'CDN_URL_MOCK';
-  }
+  return 'CDN_URL_MOCK'
+}
 
 export default generateImageUrl

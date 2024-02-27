@@ -1,4 +1,4 @@
-import type { GatsbyNode } from 'gatsby'
+import { GatsbyNode } from 'gatsby'
 import { allMdxData, GQLData } from './src/models/gql'
 import { loadTagGroups, TagGroup } from './src/tags/tag-groups'
 import { blogListForTagGroupsBasePath, blogPostUrlPath } from './src/blog-post-paths'
@@ -9,6 +9,11 @@ import { toDate } from './src/to-date'
 import { querySlugAuthorIdAndIdFromMembers } from './src/query-members'
 import Query = Queries.Query
 import { routeLinks } from './src/config/routing'
+import {
+  addRemoteFilePolyfillInterface,
+  polyfillImageServiceDevRoutes
+} from 'gatsby-plugin-utils/polyfill-remote-file'
+
 
 const path = require('path')
 
@@ -539,7 +544,7 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ sta
   } as PartialWebpackConfig)
 }
 
-export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] = async ({ actions, schema }) => {
+export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] = async ({ actions, schema, store }) => {
   actions.createTypes(
     `type Members implements Node {
       posts: [Blog] @link(by: "author.author_id", from: "author_id") 
@@ -550,4 +555,27 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
      
     }`
   )
+
+  actions.createTypes([
+    addRemoteFilePolyfillInterface(
+      schema.buildObjectType({
+        name: `AwsResizedImage`,
+        fields: {
+          // your fields
+        },
+        interfaces: [`Node`, 'RemoteFile'],
+        extensions: {
+          infer: true,
+          childOf: {
+            types: [`File`]
+          }
+        }
+      }),
+      {
+        schema,
+        actions,
+        store
+      }
+    )
+  ]);
 }

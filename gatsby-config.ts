@@ -10,7 +10,7 @@ import { GatsbyConfig } from 'gatsby'
 import { googleTagManagerUrl } from './plugins/google-gtag/google-tag-manager-url'
 import { googleTrackingIds } from './src/google-tracking-ids'
 import { partytownEnabled } from './src/partytown'
-import adapter from './adapter'
+import { adapter } from './adapter'
 
 const gatsbyActiveEnv = process.env.GATSBY_ACTIVE_ENV! as 'production' | 'staging' | 'develop'
 const isProduction = gatsbyActiveEnv === 'production'
