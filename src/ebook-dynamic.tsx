@@ -130,7 +130,7 @@ export const EbookDynamic: (props: EbookDynamicProps) => React.JSX.Element = ({
           </MoreButton>
         ) : (
           <a href={value.ebookResponse.ebook.url} target='_blank'>
-              click to open the ebook
+              start reading
               <span>
                 <EbookArrow />
               </span>
