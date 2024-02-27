@@ -119,7 +119,7 @@ export const ContactEbook: React.FC<ContactEbookProps> = ({ setEmail, setName, h
           <ErrorMessage>{value.errorMsg && value.errorMsg}</ErrorMessage>
 
           <MoreButton isSubmit isBlack>
-            get free ebook
+            get your free copy
           </MoreButton>
         </MoreButtonWrapper>
       </FlexWrapper>
