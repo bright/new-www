@@ -7,13 +7,11 @@ import { PartialWebpackConfig } from './src/partial-webpack-config'
 import readingTime from 'reading-time'
 import { toDate } from './src/to-date'
 import { querySlugAuthorIdAndIdFromMembers } from './src/query-members'
-import Query = Queries.Query
 import { routeLinks } from './src/config/routing'
-import {
-  addRemoteFilePolyfillInterface,
-  polyfillImageServiceDevRoutes
-} from 'gatsby-plugin-utils/polyfill-remote-file'
-
+import { addRemoteFilePolyfillInterface } from 'gatsby-plugin-utils/polyfill-remote-file'
+import { IRemoteFileNodeInput } from 'gatsby-plugin-utils/polyfill-remote-file/types'
+import { FileSystemNode } from 'gatsby-source-filesystem'
+import Query = Queries.Query
 
 const path = require('path')
 
@@ -489,10 +487,17 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   createRedirect({ fromPath: '/about-us/values', toPath: '/about-us/' })
   createRedirect({ fromPath: '/about-us/story', toPath: '/about-us/' })
   createRedirect({ fromPath: '/jobs/rust-developer-1', toPath: '/jobs/rust-developer/' })
-  createRedirect({ fromPath: '/blog/build-llm-application-with-rag-langchain-v0-1-0', toPath: '/blog/build-llm-application-with-rag-langchain' })
+  createRedirect({
+    fromPath: '/blog/build-llm-application-with-rag-langchain-v0-1-0',
+    toPath: '/blog/build-llm-application-with-rag-langchain',
+  })
 }
 
-export const onCreateNode: GatsbyNode['onCreateNode'] = async ({ node, actions: { createNodeField } }) => {
+export const onCreateNode: GatsbyNode['onCreateNode'] = async ({
+  node,
+  actions: { createNodeField, createNode, createParentChildLink },
+  createNodeId,
+}) => {
   if (node.internal.type === `Mdx`) {
     const nodeFilePath = node.internal.contentFilePath!
     if (!node.internal.contentFilePath) {
@@ -530,6 +535,30 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = async ({ node, actions: 
       }
     }
   }
+
+  if (node.internal.type == 'File' && node.internal.mediaType?.startsWith('image')) {
+    const fileNode = node as FileSystemNode
+    const { owner, ...fileNodeCopy } = fileNode.internal
+    console.log({node})
+    const remoteFileNode: IRemoteFileNodeInput = {
+      id: createNodeId(`${node.id} >>> BrightImage`),
+      parent: node.id,
+      internal: {
+        ...fileNodeCopy,
+        type: 'BrightImage',
+      },
+      mimeType: node.internal.mediaType,
+      url: new URL(path.join(fileNode.sourceInstanceName, fileNode.relativePath), 'http://127.0.0.1:8000/').toString() ,
+      filename: fileNode.base,
+      filesize: fileNode.size,
+      children: [],
+    }
+    createNode(remoteFileNode)
+    createParentChildLink({
+      parent: node,
+      child: remoteFileNode,
+    })
+  }
 }
 
 export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ stage, actions, getConfig }) => {
@@ -544,7 +573,11 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ sta
   } as PartialWebpackConfig)
 }
 
-export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] = async ({ actions, schema, store }) => {
+export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] = async ({
+  actions,
+  schema,
+  store,
+}) => {
   actions.createTypes(
     `type Members implements Node {
       posts: [Blog] @link(by: "author.author_id", from: "author_id") 
@@ -559,23 +592,15 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
   actions.createTypes([
     addRemoteFilePolyfillInterface(
       schema.buildObjectType({
-        name: `AwsResizedImage`,
-        fields: {
-          // your fields
-        },
-        interfaces: [`Node`, 'RemoteFile'],
-        extensions: {
-          infer: true,
-          childOf: {
-            types: [`File`]
-          }
-        }
+        name: `BrightImage`,
+        fields: {},
+        interfaces: ['Node', 'RemoteFile'],
       }),
       {
         schema,
         actions,
-        store
+        store,
       }
-    )
-  ]);
+    ),
+  ])
 }
