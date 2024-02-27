@@ -69,8 +69,6 @@ In fact we have a natural tendency to blame other people or circumstances when t
 
 Similar as in the blame game scapegoating is **a psychological defense mechanism of denial through projecting responsibility and blame on others.** It happens mostly when someone blames a specific individual or group at work for larger issues or failures within the organization to divert attention from the real causes.
 
-<div className="image">![scapegoating](../../static/images/scapegoating.webp "")</div>
-
 ### 3. Office gossiping
 
 Spreading rumours or negative information about colleagues or clients is also **a type of psychological game, usually played to create tension and manipulate social dynamics.** Those who possess insider information or spread rumours may feel a sense of influence over others. Sometimes the person who spreads rumours plays also the role of victim from the drama triangle. 
