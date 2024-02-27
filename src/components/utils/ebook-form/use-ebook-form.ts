@@ -76,7 +76,7 @@ export function useEbookForm(ebookName: string) {
     if (!policy) {
       setValue(state => ({
         ...state,
-        errorMsg: 'Please give your accept Privacy Policy',
+        errorMsg: 'Please accept the Privacy Policy',
       }))
       return false
     }
