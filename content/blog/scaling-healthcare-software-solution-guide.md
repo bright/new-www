@@ -5,7 +5,7 @@ tags:
   - business
 date: 2024-02-27T07:19:39.933Z
 meaningfullyUpdatedAt: 2024-02-27T07:19:39.955Z
-title: Scaling healthcare software solution guide
+title: "Unlock Growth: Free Guide to Scaling a Healthcare Company [PDF Inside]"
 layout: post
 image: /images/healthtech_guide_blog_cover.png
 hidden: false
