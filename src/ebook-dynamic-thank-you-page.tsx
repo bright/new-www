@@ -23,7 +23,7 @@ export const EbookThankYouPage = () => {
 		<SectionThankYouPage>
 			<p>enjoy reading</p>
 			<SectionDescription>
-				You’ll find the ebook in your inbox. Or simply click the link below to
+				You’ll find the copy in your inbox. Or simply click the link below to
 				download it.
 			</SectionDescription>
 		</SectionThankYouPage>
