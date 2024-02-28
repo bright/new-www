@@ -1,7 +1,7 @@
 ---
 author: izabela
 tags:
-  - business
+  - HealthTech
 date: 2021-07-27T08:48:40.738Z
 meaningfullyUpdatedAt: 2021-07-27T08:48:00.000Z
 title: Why healthcare software development is not a future?
