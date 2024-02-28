@@ -129,6 +129,10 @@ groups:
       - B2B
       - startups
       - business perspective
+  - name: healthtech
+    tags:
+      - healthtech
+      - HealthTech
   - name: Blockchain
     tags:
       - blockchain
