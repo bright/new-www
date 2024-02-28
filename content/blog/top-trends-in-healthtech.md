@@ -128,7 +128,7 @@ Smart rings are wearable devices that are becoming smaller and more convenient a
 
 MedTech wearables are growing in popularity, aligning with another trend known as **biohacking**. This movement **empowers individuals to improve their body's functionality and enhance physical and cognitive performance**. Central to biohacking is the accessibility of technology, including smart devices, that enable people to take a more active role in managing their health. These devices facilitate self-care allowing people to monitor various aspects of health, such as the effects of their diet, physical activities, medication, and more.
 
-<EbookDynamic sectionTitle='scale your ehealth solution with our free guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide healthcare software cover' />
+<EbookDynamic sectionTitle='scale your solution with our free guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide healthcare software cover' />
 
 ## Making telemedicine even more accessible
 
