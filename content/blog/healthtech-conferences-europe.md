@@ -127,3 +127,5 @@ Details: [https://europe.hlth.com](https://europe.hlth.com/)
 - - -
 
 Do you recommend other eHealth conferences held in Europe? Let us know in the comments and we might include them!
+
+<EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
