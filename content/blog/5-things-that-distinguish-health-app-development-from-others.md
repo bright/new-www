@@ -1,9 +1,9 @@
 ---
 author: izabela
 tags:
-  - business
+  - HealthTech
 date: 2021-08-09T07:00:10.034Z
-meaningfullyUpdatedAt: 2023-04-05T07:50:44.356Z
+meaningfullyUpdatedAt: 2021-08-09T07:00:00.000Z
 title: 5 Things that Distinguish Health App Development from Others
 layout: post
 image: /images/blogpost_www_healthcareapp.png
