@@ -2,7 +2,6 @@
 author: izabela
 tags:
   - HealthTech
-  - business
   - design
   - AI
 date: 2024-02-01T10:58:36.300Z
