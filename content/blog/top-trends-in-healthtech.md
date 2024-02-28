@@ -4,8 +4,6 @@ secondAuthor: blazej-d
 tags:
   - HealthTech
   - AI
-  - business
-  - inspiration
 date: 2024-01-17T12:47:29.514Z
 meaningfullyUpdatedAt: 2024-01-17T12:47:30.332Z
 title: Top 7 Trends in HealthTech to Watch in 2024
