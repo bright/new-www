@@ -31,6 +31,8 @@ HealthTech (known as eHealth as well) is **the implementation of technology to i
 
 MedTech relates more to **medical devices** and diagnostic equipment used in healthcare. This includes pacemakers, MRI machines, and surgical tools, focusing on enhancing the quality of medical treatments and diagnostics. **MedTech companies must comply with various standards, such as ISO 13485**, which specifies requirements for a quality management system specific to the medical device industry.
 
+<EbookDynamic sectionTitle='ready for even more HealthTech insights?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download the free guide about scaling the software solution for healthcare.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide cover ehealth' />
+
 ## Areas of HealthTech with examples
 
 Explore some of the areas of HealthTech that are shaping modern healthcare.
