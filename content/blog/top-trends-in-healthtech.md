@@ -128,6 +128,8 @@ Smart rings are wearable devices that are becoming smaller and more convenient a
 
 MedTech wearables are growing in popularity, aligning with another trend known as **biohacking**. This movement **empowers individuals to improve their body's functionality and enhance physical and cognitive performance**. Central to biohacking is the accessibility of technology, including smart devices, that enable people to take a more active role in managing their health. These devices facilitate self-care allowing people to monitor various aspects of health, such as the effects of their diet, physical activities, medication, and more.
 
+<EbookDynamic sectionTitle='scale your ehealth solution with our free guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide healthcare software cover' />
+
 ## Making telemedicine even more accessible
 
 Telemedicine gained significant popularity during the pandemic, evidenced by **the sharp increase in telehealth visits among [Medicare recipients](https://www.gao.gov/products/gao-22-104454) from about 5 million to over 53 million** in the early stages. Cost savings are a crucial factor in telemedicine growth. [A study conducted among nonelderly patients with cancer](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2800164) using telehealth shows that **the average cost savings per telemedicine visit for patients range from 147 to 186 dollars**. That means lower costs for patients as well as public or private healthcare insurance providers.
