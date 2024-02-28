@@ -89,3 +89,5 @@ Details: [events.reutersevents.com/healthcare/digital-health-usa](https://events
 A Las Vegas conference that covers the latest in healthcare innovation and solutions. Speakers will be announced soon.
 
 Details: [www.hlth.com/2024event](https://www.hlth.com/2024event)
+
+<EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
