@@ -4,9 +4,9 @@ secondAuthor: alisa
 tags:
   - design
   - business
-  - inspiration
+  - HealthTech
 date: 2022-08-10T09:35:51.370Z
-meaningfullyUpdatedAt: ""
+meaningfullyUpdatedAt: 2022-08-10T09:35:00.000Z
 title: UX Design for Healthcare and Medical Apps Case Study
 layout: post
 image: /images/cover.png
