@@ -205,4 +205,10 @@ If you want to look closely at some companies that are changing healthcare, we l
 
 ## Fancy more HealthTech content?
 
-[Sign up for Bright Dev Newsletter](https://bright-dev-newsletter.getresponsepages.com/) to receive our guide for successful scaling that we'll be released in February 2024. Don't miss that!
+Get inspired by te best experts, resources and speakers in HealthTech industry:
+
+[Top Newsletters about Digital Health](/blog/top-newsletters-digital-health-healthtech/)
+
+[Top HealthTech Conferences to Attend in Europe in 2024](/blog/healthtech-conferences-europe/)
+
+[Top HealthTech Conferences to Attend in the USA in 2024](/blog/healthtech-conferences-usa/)
