@@ -59,3 +59,5 @@ It’s important to know that only text data are GDPR and HIPAA-compliant. Avoid
 [OpenAI enables the signing of Business Associate Agreements (BAA)](https://help.openai.com/en/articles/8660679-how-can-i-get-a-business-associate-agreement-baa-with-openai) in support of customers’ compliance with HIPAA. Keep in mind that only endpoints that are eligible for zero retention are covered by the BAA.
 
 If you want to delve into the OpenAI privacy policy, read the article that will navigate you through the [OpenAI ChatGPT Team & Enterprise privacy terms](https://brightinventions.pl/blog/openai-chatgpt-team-enterprise-privacy-policies-explained/).
+
+<div class='block-button'><h2>discuss your LLM solutions with us</h2><div>Let's talk about your tech challenge while building healthcare solution. Our experts offer free consultations in 48 hours.</div><a href="/our-areas/healthcare-software-development/"><button>book a free consultation</button></a></div>
