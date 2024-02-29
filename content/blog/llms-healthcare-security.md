@@ -24,7 +24,7 @@ Large Language Models (LLMs) are a type of artificial intelligence model designe
 
 LLMs are trained on vast amounts of text data, enabling them to learn language patterns, grammar, facts about the world, and even writing styles. This training allows them to perform a wide range of language-based tasks including text generation, translation, summarization, question answering, and conversation.
 
-<EbookDynamic sectionTitle='download the free guide about scaling HealthTech' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Are you developing healthcare software solution? Prepare yourself for numerous challenges and turn obstacles into stepping stones for progress. '} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover guide' />
+<EbookDynamic sectionTitle='read more about using AI in healthcare' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Are you developing healthcare software solutions? Prepare yourself for numerous tech challenges and turn obstacles into stepping stones for growth. '} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover guide' />
 
 ## **How can LLMs be used in healthcare (a use case)**
 
