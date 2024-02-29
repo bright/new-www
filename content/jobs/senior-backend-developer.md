@@ -73,14 +73,14 @@ The person who will join our team should possess **the ability to adapt and adju
 * at least 5 years of commercial programming experience (including min. 3 years in backend development)
 * excellent problem solving and analytical thinking skills
 * very good working knowledge and deep understanding of Java/Kotlin
-* experience with Spring Boot framework 
 * experience with SQL databases 
 * familiarity with Google Cloud or other Cloud providers e.g. AWS/Azure
 * advanced communications kills in **English and Polish** (both written and spoken))
 
 ## **we would also appreciate if you have**
 
-* collaboration exeprience in the international teams 
+* collaboration experience in the international teams 
+* experience with Spring Boot framework 
 
 ## **what you will find in our Bright Team 🧡**
 
