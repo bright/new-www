@@ -14,7 +14,7 @@ comments: true
 published: true
 language: en
 ---
-**LLMs are at the forefront of the AI revolution in healthcare. However, there are ongoing concerns about the security of medical data used to generate content with LLMs. Discover what steps you need to take to ensure your LLM solution is secure and compliant with HIPAA or GDPR.**
+**LLMs are at the forefront of the AI revolution in healthcare. However, there are ongoing concerns about the security of medical data used to generate content with LLMs. Discover what steps you need to take to ensure your LLM solution is secure and compliant with HIPAA or GDPR, in case you use OpenAI solutions.**
 
 <div className="image">![LLMs healthcare](../../static/images/llms_healthcare.png "LLMs healthcare")</div>
 
@@ -24,7 +24,7 @@ Large Language Models (LLMs) are a type of artificial intelligence model designe
 
 LLMs are trained on vast amounts of text data, enabling them to learn language patterns, grammar, facts about the world, and even writing styles. This training allows them to perform a wide range of language-based tasks including text generation, translation, summarization, question answering, and conversation.
 
-**How can LLMs be used in healthcare (a use case)**
+## **How can LLMs be used in healthcare (a use case)**
 
 [Viz.ai](https://www.viz.ai/) uses LLM to support medics in faster diagnostics. Their AI-powered care coordination solution leverages advanced, FDA-cleared algorithms to analyze medical imaging data, including CT scans, EKGs, echocardiograms and more, providing real-time insights and automated assessments to accelerate diagnosis and treatment.
 
