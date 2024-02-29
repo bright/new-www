@@ -18,6 +18,8 @@ language: en
 
 As a project analyst, I've borne witness to numerous pivots firsthand. In my early days in software, I often grappled with self-doubt when confronted with the necessity to pivot alongside startup visionaries. Questions plagued my mind: "Am I faltering in my analyses? Am I doing a good job?" However, as my experience grew, with each pivot encountered, I gleaned a profound insight: the ability to discern the need for a pivot is not a mark of failure, but rather a testament to adaptability and foresight.
 
+<EbookDynamic sectionTitle='explore pivots in healthcare with our free guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Why pivots might be crucial part of scaling? Read our HealthTech guide!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
+
 Consider the story of YouTube, a digital behemoth. The brainchild of Chad Hurley, Steve Chen, and Jawed Karim started as a dating website, and just like many startups, things didn't go very well for them. The small user base that the service had initially became even smaller, and they started uploading videos that didn't match the actual context of the website. This is when Karim and other founders realized that the online service wasn't utilized to its maximum potential; 
 
 “YouTube could be something more rather than just a dating website.”
