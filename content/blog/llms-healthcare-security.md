@@ -6,7 +6,7 @@ tags:
   - AI
 date: 2024-02-29T06:52:16.156Z
 meaningfullyUpdatedAt: 2024-02-29T06:52:16.176Z
-title: LLMs healthcare security
+title: Large Language Models (LLMs) for Healthcare. Are They Secure?
 layout: post
 image: /images/llms_healthcare.png
 hidden: false
@@ -15,3 +15,5 @@ published: true
 language: en
 ---
 **LLMs are at the forefront of the AI revolution in healthcare. However, there are ongoing concerns about the security of medical data used to generate content with LLMs. Discover what steps you need to take to ensure your LLM solution is secure and compliant with HIPAA or GDPR.**
+
+<div className="image">![LLMs healthcare](../../static/images/llms_healthcare.png "LLMs healthcare")</div>
