@@ -4,8 +4,8 @@ secondAuthor: izabela
 tags:
   - HealthTech
   - AI
-date: 2024-02-29T06:52:16.156Z
-meaningfullyUpdatedAt: 2024-02-29T06:52:16.176Z
+date: 2024-02-29T07:04:21.233Z
+meaningfullyUpdatedAt: 2024-02-29T07:04:21.903Z
 title: Large Language Models (LLMs) for Healthcare. Are They Secure?
 layout: post
 image: /images/llms_healthcare.png
