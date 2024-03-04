@@ -6,6 +6,7 @@ date: 2024-03-04T10:16:13.946Z
 meaningfullyUpdatedAt: 2024-03-04T10:16:13.978Z
 title: How to Improve Your Website Messaging?
 layout: post
+image: /images/website_messaging.png
 hidden: false
 comments: true
 published: true
@@ -14,6 +15,8 @@ language: en
 **In this article you'll find the best advice on boosting your HealthTech Startups marketing stats.**
 
 And you implement it instantly without a budget. 
+
+<div className="image">![website](../../static/images/website_messaging.png "website")</div>
 
 In the last 3 months I was exploring the Healthcare Information Technology landscape. Searching for ones worth mentioning and trying to gather statistics and market research for improving our messaging and hoping to find clients of course.
 
