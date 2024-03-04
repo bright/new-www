@@ -28,7 +28,7 @@ Healthcare technology is a peculiar segment of business. Here more than anywhere
 
 Here is what you can do to improve your website messaging and help users understand how you can help them.
 
-## **\#1 Understand your segment and audience.** 
+## **\#1 Understand your segment and audience**
 
 Define who you are messaging to and what pains and gains you want to address. Work on your buyer personas and ideal customer profile.
 
@@ -36,11 +36,11 @@ Define who you are messaging to and what pains and gains you want to address. Wo
 
 There really is no value in using fancy and flamboyant wording in your messaging. If you are a startup, clear messaging is much more valuable than fancy copywriting. Fancy copywriting often leads to messaging debt.
 
-## **\#3 Keep a simple website structure.** 
+## **\#3 Keep a simple website structure**
 
 Choose a messaging strategy: brand + product + use case Lead with a HERO section + define the problem + show the solution + present the added value.
 
-## **\#4 Understand Your segment and position in it.** 
+## **\#4 Understand Your segment and position in it**
 
 Leading with the outcome is often treated as an industry standard adapted from B2C. But that is not always the case, especially in B2B and brands just trying to break through. 
 
@@ -50,7 +50,7 @@ THIS IS THE PRODUCT     vs     THIS IS THE OUTCOME
 
 This is the outcome                     This is the product
 
-## **\#5 Never let the competition choose the battle site. gen G. Patton.**
+## **\#5 Never let the competition choose the battle site.** – **Gen G. Patton**
 
 There are 4 areas You can fight in
 
@@ -59,7 +59,7 @@ There are 4 areas You can fight in
 3. Distribution channels
 4. Identifying a underserved segment
 
-## **\#6 Be humble.** 
+## **\#6 Be humble**
 
 Position Yourself for the next 6 months not years. When You are a startup pitching Your vision is a bad strategy.
 
