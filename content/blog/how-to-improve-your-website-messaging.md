@@ -52,7 +52,7 @@ This is the outcome                     This is the product
 
 ## **\#5 Never let the competition choose the battle site.** – **Gen G. Patton**
 
-There are 4 areas You can fight in
+There are 4 areas you can fight in:
 
 1. Price (example in tip #7)
 2. Quality/better product
@@ -61,7 +61,7 @@ There are 4 areas You can fight in
 
 ## **\#6 Be humble**
 
-Position Yourself for the next 6 months not years. When You are a startup pitching Your vision is a bad strategy.
+Position yourself for the next 6 months, not years. When you are a startup pitching your vision is a bad strategy.
 
 ![](https://lh7-us.googleusercontent.com/jUCqq0MwxDzJnyNnNalNRI5IBuaRvJOw8U5eHBDE4RAlwup2BITfxnugmPD3Mn2P1L3KtJiJEz3AiVGyze9t8TqkbkEboUYvgGrc219hmz83RNg0rSa9sp57YCFJlNqt3UtERPlQcwfWsJjkOUekgAc)
 
