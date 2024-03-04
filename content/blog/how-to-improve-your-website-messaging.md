@@ -32,7 +32,7 @@ Define who you are messaging to and what pains and gains you want to address. Wo
 
 **\#2 Stand out by being concise and easy to understand. - Michael Seibel, Y-combinator**
 
-There really is no value in using fancy and flamboyant wording in Your messaging. If You are a startup, clear messaging is much more valuable than fancy copywriting. Fancy copywriting often leads to messaging debt.
+There really is no value in using fancy and flamboyant wording in your messaging. If you are a startup, clear messaging is much more valuable than fancy copywriting. Fancy copywriting often leads to messaging debt.
 
 **\#3 Keep a simple website structure.** 
 
@@ -42,7 +42,7 @@ Choose a messaging strategy: brand + product + use case Lead with a HERO section
 
 Leading with the outcome is often treated as an industry standard adapted from B2C. But that is not always the case, especially in B2B and brands just trying to break through. 
 
-“Selling with benefits not the features is a good strategy when everybody knows what the product is” Anthony Pierry
+<blockquote><div>Selling with benefits not the features is a good strategy when everybody knows what the product is.</div><footer>Anthony Pierry</footer></blockquote>
 
 THIS IS THE PRODUCT     vs     THIS IS THE OUTCOME
 
