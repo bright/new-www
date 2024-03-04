@@ -40,7 +40,7 @@ There really is no value in using fancy and flamboyant wording in your messaging
 
 Choose a messaging strategy: brand + product + use case Lead with a HERO section + define the problem + show the solution + present the added value.
 
-## **\#4 Understand Your segment and position in it**
+## **\#4 Understand your segment and position in it**
 
 Leading with the outcome is often treated as an industry standard adapted from B2C. But that is not always the case, especially in B2B and brands just trying to break through. 
 
