@@ -17,20 +17,20 @@ In the last 3 months I was exploring the Healthcare Information Technology lands
 
 My first point of contact was always the website, as it normally is these days. One element that stood out is that out of more than 300 pages I analyzed only 15-20% offered messaging that made me understand what the company actually does. Most of the times it took me a minimum of 5 minutes to fill in the excel column titled “solution summary”. 
 
-Of course I eventually was able to make conclusions about the solution but I had to. Your clients or investors won’t. Like it or not we have the attention span of a goldfish when it comes to internet surfing and if You make clients search for the information most of them will just exit the website. The best You can do in the HERO section is be precise and answer 2 most basic questions:
+Of course I eventually was able to make conclusions about the solution but I had to. Your clients or investors won’t. Like it or not we have the attention span of a goldfish when it comes to internet surfing and if you make clients search for the information most of them will just exit the website. The best you can do in the HERO section is be precise and answer 2 most basic questions:
 
-* **What is the solution You are offering**
+* **What is the solution you are offering**
 * **What outcome it provides**
 
-Healthcare technology is a peculiar segment of business. Here more than anywhere else the focus should be on Your users/patients, therefore empathy is truly a skill. So lead with empathy at every step of Your journey.
+Healthcare technology is a peculiar segment of business. Here more than anywhere else the focus should be on your users/patients, therefore empathy is truly a skill. So lead with empathy at every step of your journey.
 
-Here is what You can do to improve Your website messaging and help users understand how You can help them.
+Here is what you can do to improve your website messaging and help users understand how you can help them.
 
-**\#1 Understand Your segment and audience.** 
+**\#1 Understand your segment and audience.** 
 
-Define who you are messaging to and what pains and gains You want to address. Work on Your buyer personas and ideal customer profile.
+Define who you are messaging to and what pains and gains you want to address. Work on your buyer personas and ideal customer profile.
 
-**\#2 Stand out by being concise and easy to understand. - Michael Seibel , Y-combinator**
+**\#2 Stand out by being concise and easy to understand. - Michael Seibel, Y-combinator**
 
 There really is no value in using fancy and flamboyant wording in Your messaging. If You are a startup, clear messaging is much more valuable than fancy copywriting. Fancy copywriting often leads to messaging debt.
 
