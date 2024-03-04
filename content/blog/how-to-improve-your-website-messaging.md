@@ -19,7 +19,7 @@ In the last 3 months I was exploring the Healthcare Information Technology lands
 
 My first point of contact was always the website, as it normally is these days. One element that stood out is that out of more than 300 pages I analyzed only 15-20% offered messaging that made me understand what the company actually does. Most of the times it took me a minimum of 5 minutes to fill in the excel column titled “solution summary”. 
 
-Of course I eventually was able to make conclusions about the solution but I had to. Your clients or investors won’t. Like it or not we have the attention span of a goldfish when it comes to internet surfing and if you make clients search for the information most of them will just exit the website. The best you can do in the HERO section is be precise and answer 2 most basic questions:
+Of course I eventually was able to make conclusions about the solution but I had to, it was my job, your clients or investors won’t. Like it or not we have the attention span of a goldfish when it comes to internet surfing and if you make clients search for the information most of them will just exit the website. The best you can do in the HERO section is be precise and answer 2 most basic questions:
 
 * **What is the solution you are offering**
 * **What outcome it provides**
@@ -38,7 +38,9 @@ There really is no value in using fancy and flamboyant wording in your messaging
 
 ## **\#3 Keep a simple website structure**
 
-Choose a messaging strategy: brand + product + use case Lead with a HERO section + define the problem + show the solution + present the added value.
+Choose a messaging strategy: brand + product + use case. 
+
+Lead with a HERO section, then define the problem, then show the solution and present the added value.
 
 ## **\#4 Understand Your segment and position in it**
 
@@ -77,4 +79,4 @@ Fireflies = video recording + transcription + calendar integration + repository 
 
 Position for the audience with the biggest budget and the most effective use case. A Hospital or enterprise buyer, focused on statistics and operating in high volume budgets will be in the position to spend $1,500 per user, whereas a small clinic trying to improve efficiency will not.
 
-Remember we are always happy to help you out, even via free consultation. The only think you have to do is [say "hello" first](/start-project/).
+Remember we are always happy to help you out, even via free consultation. The only think you have to do is say "hello" first.
