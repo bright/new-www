@@ -50,7 +50,7 @@ THIS IS THE PRODUCT     vs     THIS IS THE OUTCOME
 
 This is the outcome                     This is the product
 
-## **\#5 Never let the competition choose the battle site.** – **Gen G. Patton**
+## **\#5 Never let the competition choose the battle site** – **Gen G. Patton**
 
 There are 4 areas you can fight in:
 
@@ -65,7 +65,7 @@ Position yourself for the next 6 months, not years. When you are a startup pitch
 
 ![](https://lh7-us.googleusercontent.com/jUCqq0MwxDzJnyNnNalNRI5IBuaRvJOw8U5eHBDE4RAlwup2BITfxnugmPD3Mn2P1L3KtJiJEz3AiVGyze9t8TqkbkEboUYvgGrc219hmz83RNg0rSa9sp57YCFJlNqt3UtERPlQcwfWsJjkOUekgAc)
 
-## **\#7 Your messaging affects your positioning. Artem Chetverikov** 
+## **\#7 Your messaging affects your positioning** – **Artem Chetverikov** 
 
 Gong vs Fireflies 
 
@@ -77,4 +77,4 @@ Fireflies = video recording + transcription + calendar integration + repository 
 
 Position for the audience with the biggest budget and the most effective use case. A Hospital or enterprise buyer, focused on statistics and operating in high volume budgets will be in the position to spend $1,500 per user, whereas a small clinic trying to improve efficiency will not.
 
-Remember we are always happy to help You out, even via free consultation. The only think you have to do is say "hello" first.
+Remember we are always happy to help you out, even via free consultation. The only think you have to do is say "hello" first.
