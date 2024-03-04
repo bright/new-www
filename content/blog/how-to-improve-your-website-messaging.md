@@ -77,4 +77,4 @@ Fireflies = video recording + transcription + calendar integration + repository 
 
 Position for the audience with the biggest budget and the most effective use case. A Hospital or enterprise buyer, focused on statistics and operating in high volume budgets will be in the position to spend $1,500 per user, whereas a small clinic trying to improve efficiency will not.
 
-Remember we are always happy to help you out, even via free consultation. The only think you have to do is say "hello" first.
+Remember we are always happy to help you out, even via free consultation. The only think you have to do is [say "hello" first](/start-project/).
