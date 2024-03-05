@@ -25,6 +25,8 @@ In some cases, healthcare apps have to provide users with lots of information. A
 
 **In the case of healthcare apps, there is usually a lot of information that has to be designed in a way that is visible and accessible within a few taps or clicks.**
 
+<EbookDynamic sectionTitle='transform your HealthTech startup or SME with our expert guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Facing scalability challenges in your HealthTech business? Our guide offers nearly 100 pages of insights and solutions. '} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
+
 ## Challenges for healthcare UX design
 
 Designing the eHealth app for hospital staff requires dealing with these challenges:
@@ -35,7 +37,7 @@ Designing the eHealth app for hospital staff requires dealing with these challen
 
 For the purpose of this blog post, we created a hypothetical mockup for an app for doctors and nurses working at the hospital. This is the possible answer to all of these challenges:
 
-![eHealth app mockup](../../static/images/design_for_ehealth_app_web_mockup.png "")
+![eHealth app mockup](../../static/images/design_for_ehealth_app_web_mockup.png)
 
 *<center>The mockup is a fictional design made exclusively for blog post purposes.</center>*
 
@@ -43,7 +45,7 @@ For the purpose of this blog post, we created a hypothetical mockup for an app f
 
 Remember we are talking about an app for hospital employees and we need to meet their requirements. According to our research made while working on various eHealth products, **the number 1 priority for eHealth app users is fast access to all necessary information** thus they should be visible on one screen. In this case, doctors and nurses have access to patients’ names, rooms, and medicine distribution statuses on one screen. 
 
-![eHealth app mobile mockup](../../static/images/mobile_mockup_ehealth.png "")
+![eHealth app mobile mockup](../../static/images/mobile_mockup_ehealth.png)
 
 *<center>The mockup is a fictional design made exclusively for blog post purposes.</center>*
 
@@ -57,7 +59,7 @@ The **key in UX design is iconography which practically creates its own language
 
 Naturally, the explanation of every icon in the product is still recommended. Because we are talking about an eHealth app that supports medicine distribution so users have to be well prepared to use it.
 
-![icons ux design for heathcare app](../../static/images/icons_mockup_healthcare.png "")
+![icons ux design for heathcare app](../../static/images/icons_mockup_healthcare.png)
 
 *<center>The design is a fictional design made exclusively for blog post purposes.</center>*
 
@@ -79,7 +81,7 @@ In the case of electricity, in almost every electrical drawing you will find a g
 
 To be fair, color coding could be found much easier, simply by walking in the street… 😉
 
-![traffic lights](../../static/images/blog_post_coloring.png "")
+![traffic lights](../../static/images/blog_post_coloring.png)
 
 ## UX design for offline mode
 
@@ -98,15 +100,15 @@ Clear communication about statuses is [the first of Jakob Nielsen’s ten heuris
 
 **This is the mockup example including the top bar showing that the app is in offline mode:**
 
-![Design for offline mode](../../static/images/offline_mode_design.png "")
+![Design for offline mode](../../static/images/offline_mode_design.png)
 
 *<center>The mockup is a fictional design made exclusively for blog post purposes.</center>*
 
 ## Can a beautiful design be ugly?
 
-[UX design in healthcare software development ](/our-areas/product-design)is all about managing the data. So users are able to... manage data as well. Sometimes these apps cannot be full of beautiful designs because this is simply not what users expect. Yet still, eHealth apps do their job and support medical staff actions. And these are the product design’s true colors. Good design exists only if it works. Isn’t that pure beauty indeed?
+UX design in [healthcare software development](/our-areas/healthcare-software-development/) is all about managing the data. So users are able to... manage data as well. Sometimes these apps cannot be full of beautiful designs because this is simply not what users expect. Yet still, eHealth apps do their job and support medical staff actions. And these are the product design’s true colors. Good design exists only if it works. Isn’t that pure beauty indeed?
 
-<div className="block-button"><h2>Looking for a healthcare software company?</h2><div>You came to the right place! We deliver eHealth apps since 2012.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
+<div className="block-button"><h2>book a free consultation</h2><div>Discuss your product design challenges with our experts. Booka meeting in 48 hours.</div><a href="/start-project"><button>let's talk about your solution</button></a></div>
 
 - - -
 
