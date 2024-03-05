@@ -41,4 +41,4 @@ These statistics show the top directions that healthcare has to follow.
 
 Do you have an idea for a healthcare app? Now is the time for custom software development. This is the way to make your idea a worthwhile tool that could assist medical staff and patients around the world. Customization and flexibility are crucial in this unique process. Learn more about [healthcare custom software development](/our-areas/healthcare-software-development/).
 
-<EbookDynamic sectionTitle='Download the free guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages about scaling a healthcare company just for you!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='ebook healthtech cover' />
+<EbookDynamic sectionTitle='download the free guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages about scaling a healthcare company just for you!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='ebook healthtech cover' />
