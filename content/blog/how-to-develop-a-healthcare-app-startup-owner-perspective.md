@@ -14,9 +14,9 @@ language: en
 ---
 **Are you planning to develop healthcare software? Or maybe you have an idea for a healthcare app and don’t know what to do next? This is a guide for startup founders and generally entrepreneurs that want to be a part of the health tech movement.**
 
-![healthcare app development](../../static/images/healthcare_in_post2.png "")
+![healthcare app development](../../static/images/healthcare_in_post2.png)
 
-Healthcare tech has to be customized from the very beginning. That’s why **custom healthcare software development** is the key to the successful launch of a product.
+Healthcare tech has to be customized from the very beginning. That’s why **[custom healthcare software development](/our-areas/healthcare-software-development/)** is the key to the successful launch of a product.
 
 ## What is custom healthcare software development?
 
@@ -65,10 +65,12 @@ A typical flow for healthcare software development looks pretty similar to the o
 
 It is the phase **you have to turn users’ expectations into a prototype** even if users don’t know how to name their needs. 😉  For healthcare, it is essential because you have to understand the condition of patients that you create a product for. Also, you need to establish a different approach for doctors, medical staff, or other healthcare representatives that may be a part of this project. It is rare that a healthcare solution has only one target group. Often you develop software for patients and doctors and every part of the product may be different for them. Features, UI and UX design should reflect the research of your target groups. Usually, the product will look completely different for doctors and patients.
 
+<EbookDynamic sectionTitle='already thinking about scaling?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Don\'t miss out on the essential HealthTech guide! Claim your copy now!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
+
 ## How much does it cost to build a healthcare application?
 
 When it comes to custom healthcare app development every part of the process has to be adjusted to the users and their needs. Therefore, the price of building an app cannot be established blindly. Customized development cannot be priced without receiving crucial information about the development process, such as scale, target groups, expected skills and type of devices that are a part of the solution.
 
-Are you looking for a **[healthcare software development company](/)**? You’ve come to the right place!
+Are you looking for a **[healthcare software development company](/our-areas/healthcare-software-development/)**? You’ve come to the right place!
 
-<div className="block-button"><h2>Let's talk about your healthcare solution</h2><div>Since 2012 we have developed eHealth products for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk</button></a></div>
+<div className="block-button"><h2>discuss your healthcare solution</h2><div>Since 2012 we have developed eHealth products for clients from Germany, Norway, Israel, UK and more. Book a free consultation with our experts in 48 hours! </div><a href="/start-project"><button>let's talk</button></a></div>
