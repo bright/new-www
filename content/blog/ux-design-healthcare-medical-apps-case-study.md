@@ -25,6 +25,8 @@ In some cases, healthcare apps have to provide users with lots of information. A
 
 **In the case of healthcare apps, there is usually a lot of information that has to be designed in a way that is visible and accessible within a few taps or clicks.**
 
+<EbookDynamic sectionTitle='transform your HealthTech startup or SME with our expert guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Facing scalability challenges in your HealthTech business? Our guide offers nearly 100 pages of insights and solutions. '} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
+
 ## Challenges for healthcare UX design
 
 Designing the eHealth app for hospital staff requires dealing with these challenges:
