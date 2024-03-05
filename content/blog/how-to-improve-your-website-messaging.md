@@ -18,7 +18,7 @@ And you implement it instantly without a budget.
 
 <div className="image">![website](../../static/images/website_messaging.png "website")</div>
 
-In the last 3 months I was exploring the Healthcare Information Technology landscape. Searching for ones worth mentioning and trying to gather statistics and market research for improving our messaging and hoping to find clients of course.
+In the last 3 months I was exploring the [Healthcare Information Technology](/our-areas/healthcare-software-development/) landscape. Searching for ones worth mentioning and trying to gather statistics and market research for improving our messaging and hoping to find clients of course.
 
 My first point of contact was always the website, as it normally is these days. One element that stood out is that out of more than 300 pages I analyzed only 15-20% offered messaging that made me understand what the company actually does. Most of the times it took me a minimum of 5 minutes to fill in the excel column titled “solution summary”. 
 
