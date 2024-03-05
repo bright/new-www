@@ -13,6 +13,6 @@ avatar_hover: /images/klaudiusz_2_passion.png
 published: true
 language: en
 ---
-Backend Developer with over 3 years of experience in Java. After hours loves to conquer the city and more wild areas. His other passions are cooking and sports.
+Backend Developer with over 6 years of experience in Java. After hours loves to conquer the city and more wild areas. His other passions are cooking and sports.
 
 Join Klaudiusz! [Check our career opportunities](/career).
