@@ -15,7 +15,11 @@ language: en
 
 In the world of software development, making sure our apps are up to scratch before they go live is crucial. But here's the catch: testing them in a way that mirrors what happens in the production may not be so straightforward. That's where TestContainers come into the picture. It’s a handy library that lets us bring in real databases, web browsers, and more, all within Docker containers managed through code, to make our tests as close to a real-life environment as possible.
 
+### From simulation to a real environment
+
 Back in the day, we'd often rely on simulated services or in-memory databases for testing, which was okay but could be better. They just couldn't fully mimic the complexities of real-life scenarios. This mismatch could lead to apps breaking down in the real world even though they passed all tests with flying colors. We couldn't test persistence to ensure, that our data meets all DB constraints. TestContainers help us dodge this bullet by letting us test with the actual tools and services our app will interact with, but in a safe, controlled environment.
+
+### Enhanced testing
 
 In this article, we’re diving into how to integrate TestContainers into Spring integration tests, a powerful framework widely used in Java/Kotlin applications for enterprise-level development. Spring’s inherent complexity, combined with the need for consistent and reliable testing, makes the integration of TestContainers particularly beneficial.
 
