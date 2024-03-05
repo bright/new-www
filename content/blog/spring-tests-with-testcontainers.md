@@ -137,7 +137,7 @@ The overridden `initialize()` method does 3 things:
 * Should shut down container on context close
 * Set Database Properties:
     * `TestPropertyValues` is used to set various properties related to the database. These properties include the database URL (`jdbcUrl`), `username`, and `password`. These values are retrieved from the postgresSqlContainer object.
-* The `applyTo` method applies these properties to the applicationContext. This ensures that the Spring application can connect to the PostgreSQL database running in the Docker container using these properties.
+* The `applyTo()` method applies these properties to the applicationContext. This ensures that the Spring application can connect to the PostgreSQL database running in the Docker container using these properties.
 
 Then we can annotate our Spring Test classes with annotation:
 `@ContextConfiguration(initializers = [PostgresTestContainersInitializer::class])`
