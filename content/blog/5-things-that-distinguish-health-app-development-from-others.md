@@ -3,7 +3,7 @@ author: izabela
 tags:
   - HealthTech
 date: 2021-08-09T07:00:10.034Z
-meaningfullyUpdatedAt: 2021-08-09T07:00:00.000Z
+meaningfullyUpdatedAt: 2024-02-26T08:09:54.277Z
 title: 5 Things that Distinguish Healthcare Software Development
 layout: post
 image: /images/blogpost_www_healthcareapp.png
