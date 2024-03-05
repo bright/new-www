@@ -23,13 +23,13 @@ Back in the day, we'd often rely on simulated services or in-memory databases fo
 
 In this article, we’re diving into how to integrate TestContainers into Spring integration tests, a powerful framework widely used in Java/Kotlin applications for enterprise-level development. Spring’s inherent complexity, combined with the need for consistent and reliable testing, makes the integration of TestContainers particularly beneficial.
 
-We are also going to use the testFixtures plugin to create reusable Spring annotation, which will be used to set up Postgres TestContainer for our domain module’s tests.
+We are also going to use the `java-test-fixtures` plugin to create reusable Spring annotation, which will be used to set up Postgres test container for our domain module’s tests.
 
 ## What is TestContainers?
 
 TestContainers is an open-source set of libraries that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. It simplifies the process of creating unit and integration tests by providing a programmable environment that is both controlled and isolated. This is particularly useful for testing database interactions, message queues, web applications, and other services that are typically complex to set up and manage for testing purposes.
 
-You can read more about TestContainers in the [official documentation](https://testcontainers.com).
+You can read more about TestContainers in [the official documentation](https://testcontainers.com).
 
 
 ## What is TestFixtures?
@@ -98,7 +98,7 @@ This may be problematic for a couple of reasons:
 
 ## Solution
 
-Lucly, we came up with the solution, that may solve all of these problems!
+Luclky, we came up with the solution, that may solve all of these problems!
 
 What we can do instead is pre-configure Spring Context to set up TestContainers during the Spring Context initialization phase. We are going to use the `@ContextConfiguration` annotation. It requires passing initializer extending `ApplicationContextInitializer`. Our `PostgresTestContainersInitializer` looks like this:
 
@@ -108,7 +108,7 @@ What we can do instead is pre-configure Spring Context to set up TestContainers 
 class PostgresTestContainersInitializer :
     ApplicationContextInitializer<ConfigurableApplicationContext> {
     override fun initialize(applicationContext: ConfigurableApplicationContext) {
-        val postgresSqlContainer = PostgresSQLContainer<Nothing>("postgres:15.4")
+        val postgresSqlContainer = PostgreSQLContainer<Nothing>("postgres:15.4")
 
         postgresSqlContainer.start()
 
