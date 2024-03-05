@@ -65,6 +65,8 @@ A typical flow for healthcare software development looks pretty similar to the o
 
 It is the phase **you have to turn users’ expectations into a prototype** even if users don’t know how to name their needs. 😉  For healthcare, it is essential because you have to understand the condition of patients that you create a product for. Also, you need to establish a different approach for doctors, medical staff, or other healthcare representatives that may be a part of this project. It is rare that a healthcare solution has only one target group. Often you develop software for patients and doctors and every part of the product may be different for them. Features, UI and UX design should reflect the research of your target groups. Usually, the product will look completely different for doctors and patients.
 
+<EbookDynamic sectionTitle='already thinking about scaling?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Don\'t miss out on the essential HealthTech guide! Claim your copy now!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
+
 ## How much does it cost to build a healthcare application?
 
 When it comes to custom healthcare app development every part of the process has to be adjusted to the users and their needs. Therefore, the price of building an app cannot be established blindly. Customized development cannot be priced without receiving crucial information about the development process, such as scale, target groups, expected skills and type of devices that are a part of the solution.
