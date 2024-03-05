@@ -35,7 +35,7 @@ Here is what you can do to improve your website messaging and help users underst
 
 Define who you are messaging to and what pains and gains you want to address. Work on your buyer personas and ideal customer profile.
 
-## **\#2 Stand out by being concise and easy to understand. - Michael Seibel, Y-combinator**
+## **\#2 Stand out by being concise and easy to understand - Michael Seibel, Y-combinator**
 
 There really is no value in using fancy and flamboyant wording in your messaging. If you are a startup, clear messaging is much more valuable than fancy copywriting. Fancy copywriting often leads to messaging debt.
 
