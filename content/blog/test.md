@@ -9,8 +9,8 @@ comments: true
 published: true
 language: en
 ---
-<blockquote><h2>asdfs</h2><div>asdf</div><footer>[test-linku](http://sfd.pl)</footer></blockquote>
+<blockquote><h2>blockquote header</h2><div>in div</div><footer>[in footer link](http://sfd.pl)</footer></blockquote>
 
-testdfg df f f g
+testdfg df f f gkjbkjn
 
 [test-linku df gdf](http://sfd.pl)
