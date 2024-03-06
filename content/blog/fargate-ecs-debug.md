@@ -29,7 +29,7 @@ Node.js inspector [debugging](https://nodejs.org/en/learn/getting-started/debugg
 Ok, so you are armored with cool knowledge about Node.js debugging now. You say, “Great! Let’s run inspector and check it out.” Not so fast—your service is running in a remote environment. It means that you somehow have to expose a remote debugger to your local inspector environment. Sometimes, it is not necessary as you might be able to spot the problem when running the process locally. But what if the problem only appears when some particular thing happens on a remote? Traditionally, you could just expose the inspected port via [SSH local forwarding](https://nodejs.org/en/learn/getting-started/debugging#enabling-remote-debugging-scenarios). But what if you are running Fargate and you are not able to SSH to underlying machine? Let’s find out!
 
 ## Checking if your task is eligible for ECS exec
-Ok, so your task is running. What shall you do next? You will use a combination of [AWS ECS Exec](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-exec.html) and [AWS SSM port forwarding](https://aws.amazon.com/blogs/mt/use-port-forwarding-in-aws-systems-manager-session-manager-to-connect-to-remote-hosts/) to forward the debugger port to the local machine. AWS has an official [GitHub repo](https://github.com/aws-containers/amazon-ecs-exec-checker) with a script by which you can check if your task allows for AWS exec. Using the infrastructure described [before](/blog/aws-cdk-cheap-ecs-fargate/), you should execute
+Ok, so your task is running. What shall you do next? You will use a combination of [AWS ECS Exec](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-exec.html) and [AWS SSM port forwarding](https://aws.amazon.com/blogs/mt/use-port-forwarding-in-aws-systems-manager-session-manager-to-connect-to-remote-hosts/) to forward the debugger port to the local machine. AWS has an official [GitHub repo](https://github.com/aws-containers/amazon-ecs-exec-checker) with a script by which you can check if your task allows for AWS exec. Using the infrastructure described [before](/blog/aws-cdk-cheap-ecs-fargate/), you should configure AWS CLI and execute
 ```bash
 ./check-ecs-exec.sh cluster-id task-id
 ```
@@ -49,7 +49,7 @@ Task Role Permissions
      ssmmessages:OpenDataChannel: implicitDeny
 ``` 
 
-[Readme](https://github.com/bright/bright-cheap-ecs-fargate-https) provides directions on how to fix the potential issues you might have. It might be connected either to your IAM user, ECS task role permissions, or configuration. For the repo you are using, the only two things that you needed to add are:
+[The Readme](https://github.com/aws-containers/amazon-ecs-exec-checker) of the project provides directions on how to fix the potential issues you might have. It might be connected either to your IAM user, ECS task role permissions, or configuration. For the [repo](https://github.com/bright/bright-cheap-ecs-fargate-https) you are using, the only two things that you needed to add are:
 ```typescript
 enableExecuteCommand: true
 ``` 
@@ -94,7 +94,7 @@ Connection accepted for the session [rafal.hofman@brightinventions.pl-06148b47c2
 ``` 
 
 ##  Running local inspector with remote ECS target
-After the successful connection you can go to inspector in [Chrome browser](chrome://inspect/). You can see there the remote target connection you just enabled, forwarded to your local port of 9229
+After the successful connection you can go to inspector in Chrome browser (chrome://inspect). You can see there the remote target connection you just enabled, forwarded to your local port of 9229
 <div className="image">![Remote target port forwarding](../../static/images/fargate-debug-2.png "")</div>
 
 Upon connection, you can see logs from the Node.js process and can go ahead with debugging.
