@@ -5,6 +5,7 @@ tags:
   - software development company
   - software consulting studio
 date: 2021-05-04T08:13:06.170Z
+meaningfullyUpdatedAt: 2024-03-06T09:23:47.100Z
 title: 4 things that surprised me when I joined a software development company
 layout: post
 image: /images/blog_post_cover_things_suprised_me.png
@@ -32,5 +33,7 @@ Let’s be clear. I know that developers read books! But I didn't know that they
 ## 4. Friday yoga
 
 I’ve never been a yoga fan. But you know what? Group yoga conducted by a nice instructor on Friday afternoon (only a few hours before the weekend) works perfectly. It is a great start to the weekend. Of course, this is not mandatory. If you want, you can join. If you don't, you just do your things. 
+
+<blockquote><h2>tytuł</h2><div>test</div><footer>[test link](https://brightinventions.pl/)</footer></blockquote>
 
 These are 4 things that have surprised me at a software development company. No doubt that there are more surprises to come in the future… So I am happy to stick around!
