@@ -16,7 +16,7 @@ comments: true
 published: true
 language: en
 ---
-<div className="image">![ECS Node.js Fargate Debug](../../static/images/fargate-debug.png "")</div>
+<div className="image">![ECS Node.js Fargate Debug created by Dalle3](../../static/images/fargate-debug.png "")</div>
 
 **Recently my colleague wrote a blog post on how to create a [cheap Node.js Fargate service](/blog/aws-cdk-cheap-ecs-fargate/). Imagine that after some time of happy running, you investigate that something is not clearing memory or the task suddenly exits with an error. You analyze the log and metrics, but the issue seems to be deeper, and you have to get your hands dirty. For such cases, a great option to [debug](https://nodejs.org/en/learn/getting-started/debugging) the Node.js service is with inspector. In this tutorial I will show you how to utilize it with CDK deployed Node.js app on AWS Fargate using AWS ECS Exec and AWS SSM port forwarding.**
 
