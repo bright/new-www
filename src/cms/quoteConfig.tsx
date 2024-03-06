@@ -19,7 +19,8 @@ export const quoteConfig = {
       widget: 'string',
     },
   ],
-  pattern: /^<blockquote><h2>(.*)<\/h2><div>(.*)<\/div><footer>(.*)<\/footer><\/blockquote>$/, // Pattern to identify a block as being an instance of this component
+  // Pattern to identify a block as being an instance of this component
+  pattern: /^<blockquote>\s*(?:<h2>(.*)<\/h2>)?\s*<div>(.*)<\/div>\s*(?:<footer>(.*)<\/footer>)?\s*<\/blockquote>\s*$/,
   // Function to extract data elements from the regexp match
   fromBlock: function (match: any[]) {
     return {
@@ -33,13 +34,13 @@ export const quoteConfig = {
     return (
       '<blockquote>' +
       '<h2>' +
-      obj.title +
+      (obj.title ?? '') +
       '</h2>' +
       '<div>' +
       obj.quote +
       '</div>' +
       '<footer>' +
-      obj.author +
+      (obj.author ?? '') +
       '</footer>' +
       '</blockquote>'
     )
@@ -50,13 +51,13 @@ export const quoteConfig = {
     return (
       '<blockquote>' +
       '<h2>' +
-      obj.title +
+      (obj.title ?? '') +
       '</h2>' +
       '<div>' +
       obj.quote +
       '</div>' +
       '<footer>' +
-      obj.author +
+      (obj.author ?? '') +
       '</footer>' +
       '</blockquote>'
     )
