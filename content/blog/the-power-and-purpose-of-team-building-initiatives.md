@@ -8,7 +8,7 @@ meaningfullyUpdatedAt: 2024-03-07T11:02:56.043Z
 title: The Power and Purpose of Team Building Initiatives
 layout: post
 image: /images/untitled.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
