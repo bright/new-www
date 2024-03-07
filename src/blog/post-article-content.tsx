@@ -124,22 +124,19 @@ const AuthorsSection = styled.article`
       & h2 {
         // font: normal normal 800 34px/42px Montserrat;
         font-weight: 800;
-        font-size: ${clampBuilder(360, 1920, 24, 34)};
-        line-height: ${clampBuilder(360, 1920, 29, 42)};
+        font-size: 1.25rem;
         margin-bottom: ${clampBuilder(360, 1920, 32, 36)};
       }
       & div {
         font-family: ${variables.font.customtext.lato};
-        font-size: ${clampBuilder(360, 1920, 16, 20)};
-        line-height: ${variables.pxToRem(40)};
-        margin-bottom: ${clampBuilder(360, 1920, 32, 46)};
+        font-size: 1.25rem;
       }
       & footer {
+        margin-top: ${clampBuilder(360, 1920, 32, 46)};
         font: normal normal bold 16px/19px ${font.lato};
         font-weight: bold;
         font-family: ${variables.font.customtext.lato};
-        font-size: ${variables.pxToRem(16)};
-        line-height: ${variables.pxToRem(19)};
+        font-size: 1.25rem;
       }
       @media ${variables.device.laptop} {
         padding: ${variables.pxToRem(28)} ${variables.pxToRem(43)} ${variables.pxToRem(64)} ${variables.pxToRem(203)};

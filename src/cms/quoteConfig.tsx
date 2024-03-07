@@ -24,8 +24,8 @@ export const quoteConfig = {
   // Function to extract data elements from the regexp match
   fromBlock: function (match: any[]) {
     return {
-      title: match[1],
-      quote: match[2],
+      title: match[1].replaceAll('\\$', '$'),
+      quote: match[2].replaceAll('\\$', '$'),
       author: match[3],
     }
   },
@@ -34,10 +34,10 @@ export const quoteConfig = {
     return (
       '<blockquote>' +
       '<h2>' +
-      (obj.title ?? '') +
+      (obj.title.replaceAll('$', '\\$') ?? '') +
       '</h2>' +
       '<div>' +
-      obj.quote +
+      (obj.quote.replaceAll('$', '\\$') ?? '') +
       '</div>' +
       '<footer>' +
       (obj.author ?? '') +
