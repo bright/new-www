@@ -19,7 +19,7 @@ const EbbokSection = styled(CustomSection)`
 `
 
 const Ebook = () => {
-  const { value, setPolicy, handleSubmit, setEmail, setName } = useEbookForm(ebookNames[2])
+  const { value, setPolicy, handleSubmit, setEmail, setName } = useEbookForm(ebookNames[3])
 
   return (
     <EbbokSection
@@ -32,7 +32,7 @@ const Ebook = () => {
         bright ebook
       </CustomSectionTitle>
       <FlexWrapper desktopGap='64px' desktopItems='center' tabletXLGap='32px' tabletDirection='column' tabletGap='64px'>
-        <StaticImage src={'../../../static/images/cover-sign-in-ebook.png'} alt={'cover-sign-in-ebook'}/>
+        <StaticImage src={'../../../static/images/cover_healthtech_guide_home.png'} alt={'cover-healthtech-guide-ebook'}/>
 
         {!value.ebookResponse.ebook.url ? (
           <FlexWrapper desktopDirection='column' desktopBasis='63%' laptopBasis='57%' tabletXLBasis='46%'>
@@ -42,12 +42,10 @@ const Ebook = () => {
               tabletMargin='0 0 48px'
               style={{ textAlign: 'left' }}
             >
-              Optimise Sign-In Experience
+              Scale Your HealthTech Solution Successfully
             </CustomTextTitle>
             <TextRegular>
-              Explore top authentication methods and choose the best ones for your solution with this ebook. <br/>
-              If you are a product owner, head of product or CTOs this might be a must-have read for you. <br/>
-              Download the free ebook now!
+              Facing scalability challenges in your HealthTech business? Our free guide offers nearly 100 pages of insights and solutions.
             </TextRegular>
 
             <ContactEbook

@@ -54,12 +54,11 @@ export const HomeEbookThankYouPage = ({ url }: { url: string }) => {
 		<SectionEbook>
 			<SectionTitle>enjoy reading</SectionTitle>
 			<SectionDescription>
-				You’ll find the ebook in your inbox. Or simply click the link below to
-				download it.
+				You’ll find the guide in your inbox. Or simply click the link below to download it.
 			</SectionDescription>
       <LinkWrapper>
 				<a href={url} target="_blank">
-				click to open the ebook
+				click to open the guide
 				<span>
 					<EbookArrow />
 				</span>
