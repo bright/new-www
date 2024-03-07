@@ -7,9 +7,10 @@ date: 2024-03-07T12:00:50.303Z
 meaningfullyUpdatedAt: 2024-03-07T12:00:50.363Z
 title: The Power and Purpose of Team Building Initiatives
 layout: post
-hidden: false
+image: /images/untitled.png
+hidden: true
 comments: true
-published: false
+published: true
 language: en
 ---
 Team building is a form of integration that provides team members with the opportunity to collaboratively perform various tasks. However, what matters in these activities is mutual cooperation, the possibility of discussion, overcoming challenges, and, above all, having fun together. Thanks to this, the team has a chance to get to know each other better, engage in conversations beyond the office environment, and build relationships.
@@ -22,29 +23,29 @@ The main glue that binds our team together are the quarterly integrations.  Fou
 
 * we sailed yachts and worked together to operate the yacht,
 
-<div className="image">![](../../static/images/9.jpeg "")</div>
+<div className="image">![Bright Yachts](../../static/images/rectangle-8-copy-8.png "")</div>
 
 * we kayaked (in double kayaks, so we had to help each other ;)) or worked together on a dragon boat race,
 
-<div className="image">![](../../static/images/8.jpeg "")</div>
+<div className="image">![Bright Dragon Boat](../../static/images/rectangle-8-copy-7.png "")</div>
 
 *  te took part in outdoor games - we were navigating some places on the map and solved,
 
-<div className="image">![](../../static/images/7.jpeg "")</div>
+<div className="image">![Bright Forest](../../static/images/rectangle-8-copy-6.png "")</div>
 
 * we were on go-kart races,
 
-<div className="image">![](../../static/images/6.jpeg "")</div>
+<div className="image">![Bright Go-karts](../../static/images/rectangle-8-copy-5.png "")</div>
 
 * and many more including some artistic workshops.
 
-<div className="image">![](../../static/images/5.jpeg "")</div>
+<div className="image">![Bright Art](../../static/images/rectangle-8-copy-4.png "")</div>
 
 As you can see our values as teamwork and positive attitude are really close to us at integrations. :)\
 \
 After our team-building activities, we usually gather at a local restaurant to eat something delicious and have fun.  But it's not just about food. It's a time to relax, share laughter, and strengthen the bonds we've built throughout the day.
 
-<div className="image">![](../../static/images/4.jpeg "")</div>
+<div className="image">![Bright Team](../../static/images/rectangle-8-copy-3.png "")</div>
 
 ## The unique brilliance of Bright Christmas
 
@@ -52,13 +53,13 @@ One of the most anticipated meetings is always Bright Christmas. How does it dif
 
 
 
-<div className="image">![](../../static/images/3.jpeg "")</div>
+<div className="image">![Bright Christmas ](../../static/images/rectangle-8-copy-2.png "")</div>
 
-<div className="image">![](../../static/images/2.jpeg "")</div>
+<div className="image">![Tomek, Iza and Ula - Bright Christmas](../../static/images/rectangle-8-copy.png "")</div>
 
 In addition, people who have been with us for the magical two years also receive a gift, which is heavily personalised. :) With this, we want to emphasise our gratitude towards our teammates who try to create the Bright Team with us on a daily basis.
 
-<div className="image">![](../../static/images/1.jpeg "")</div>
+<div className="image">![Patryk - Bright Christmas](../../static/images/rectangle-8.png "")</div>
 
 ## Project team building events
 
