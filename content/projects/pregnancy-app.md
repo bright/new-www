@@ -8,8 +8,13 @@ layout: project
 project_id: pregnancy-app
 title: The Story of the Successful Launch of FemTech MVP for Pregnant Women
 image: /images/case_study_cover_pregnancy_app_femtech.png
-description: Dive into the story of an application crafted for expectant
-  mothers, offering personalized nutrition and fitness content.
+description: Can technology be emphatic? Dive into the story of an application
+  crafted for expectant mothers, offering personalized nutrition and fitness
+  content. From the moment women start their journey with the app, they
+  experience a level of personalization that goes beyond standard fitness and
+  nutrition advice. The app supports women's unique needs throughout their
+  nine-month journey, demonstrating how technology can indeed respond to
+  individual experiences.
 hero_image: /images/pregnancy_app_pregnant_women.png
 Hero Image_alt: Pregnancy mobile app
 social_media_previev: /images/mvp_femtech_some_preview.png
@@ -39,8 +44,6 @@ published: true
 work_in_progress: false
 language: en
 ---
-**Can technology be emphatic? Dive into the story of an application crafted for expectant mothers, offering personalized nutrition and fitness content. From the moment women start their journey with the app, they experience a level of personalization that goes beyond standard fitness and nutrition advice. The app supports women's unique needs throughout their nine-month journey, demonstrating how technology can indeed respond to individual experiences.**
-
 <TitleWithIcon sectionTitle="problem: a multitude of generic FemTech applications" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
 The studies **in the USA show that [over 50% of pregnant women](https://www.jmir.org/2021/10/e25667) downloaded pregnancy-related apps**, averaging three downloads during their prenatal period. It’s no surprise that women look for some technological assistance to help them navigate this unique time. **Although there are lots of FemTech applications addressed to pregnant women, many of them lack one thing: empathy**. 
