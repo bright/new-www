@@ -64,11 +64,11 @@ The significant effort in the MVP development was dedicated to building a soluti
 
 This project has told us a lot about implementing tech that shows its users that they are listened to.
 
-The development process was all about empathy. Our client conducted interviews with the potential users (mothers-to-be), analyzed their needs, and set up a rudimentary web-based proof of concept to verify their discoveries. Building a product like this requires an immense amount of understanding of the user's needs. 
+The development process was all about empathy. **Our client conducted interviews with the potential users (mothers-to-be), analyzed their needs, and set up a rudimentary web-based proof of concept** to verify their discoveries. Building a product like this requires an immense amount of understanding of the user's needs. 
 
-We needed to deeply scrutinize every feature and interface element to ensure its clarity and smooth navigation. The pregnancy app needs to make things easy, obvious, and fun. It also needs to build trust.
+**We needed to deeply scrutinize every feature and interface element to ensure its clarity and smooth navigation**. The pregnancy app needs to make things easy, obvious, and fun. It also needs to build trust.
 
-Naturally, we couldn't make the final software and design decisions based on intuition, especially after the MVP launch. Therefore, we adopted a data-driven development approach, relying exclusively on in-depth user behavior analytics and A/B testing.
+Naturally, we couldn't make the final software and design decisions based on intuition, especially after the MVP launch. Therefore, **we adopted a data-driven development approach, relying exclusively on in-depth user behavior analytics and A/B testing**.
 
 [Read how the data-driven development saved onboarding for this app from failure](/blog/data-driven-development-femtech-app-onboarding/).
 
