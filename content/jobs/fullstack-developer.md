@@ -1,25 +1,40 @@
 ---
 layout: job
 title: "Senior Fullstack Developer "
-subtitle: CLOSED
-imagejob: /images/fullstackteam.png
+subtitle: OPENING SOON
+imagejob: /images/backend_team_job_offer.png
 image-alt-job: Fullstack Team Bright Inventions
 hours: Full-time
-salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP)
-salary_min: 16000
-salary_max: 22000
+salary: 20 000 - 24 000 PLN + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
+salary_min: 16600
+salary_max: 24000
 working time: full time
-show_new_title_more_about_us: false
-button: join our fullstack team
-published: false
-show_recruiter_info: false
-hidden: true
 technology:
   - TypeScript
-  - JavaScript
   - Node.js
   - React
-order: 7
+  - AWS
+title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
+show_new_title_more_about_us: true
+links_more_about_us: >-
+  [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
+
+
+  [No Time for Bullsh\*\*. Feedback Culture](/blog/no-time-for-bullshit-feedback-culture/)
+
+
+  [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
+title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
+workplace_recruiter: Junior Recruiting Specialist
+image_recruiter_info: /images/sara-bright-recruiter.png
+button_linkedin: https://www.linkedin.com/in/saralecka/
+published: false
+show_recruiter_info: true
+hidden: true
+name_recruiter: Sara
+image_alt_recruiter_info: Sara Łęcka - a Junior Recruiter at Bright Inventions
+button: join our fullstack team
+order: 1
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
@@ -37,50 +52,32 @@ We support and share responsibility with the members of our team. We also active
 
 ## job description
 
-We are looking now for a  **Senior Fullstack Developer** who has already had experience with web development, knows how to build Cloud Platform projects and is not afraid of touching new technologies. What counts are your general analytical, programming and communication skills. 
+We are looking now for a  **Senior Fullstack Developer** who has already had experience with web development and is not afraid of touching new technologies. What counts are your general analytical, programming and communication skills. 
 
 ## what we would like to see
 
 * at least 3-4 years of commercial programming experience (including min. 2 years in backend development) 
 * very good knowledge of TypeScript/JavaScript
-* deep working experience with Node.js 
+* deep working experience with Node.js and React
 * strong problem solving attitude and open mind
 * positive approach to work and new challenges  
-* advanced level of English (written and spoken)
+* advanced level of English and Polish (written and spoken)
 
 ## we would also appreciate if you have
 
 * familiarity with AWS or other Cloud providers
-* experience with development in React 
+* familiarity with Agile methodologies
 
-## how we work
+## **what you will find in our Bright Team 🧡**
 
-Our team decide which technologies we use in projects. We pay special attention to selecting the appropriate technology stack that will not only support the client’s solution, but will also give us opportunities to develop and grow.
-
-*CORE PROGRAMMING LANGUAGES:*  TypeScript, JavaScript, Kotlin, Swift, Java 
-
-*PLATFORMS:* iOS, Android, Frontend, Backend, Blockchain
-
-*METHODOLOGIES:* Pair Programming, TDD, Continuous integration, Code review
-
-## what you will find in our Bright Team
-
-* international projects for such organisation as United Nations or Parity 
-* flat structure and a great impact on the key project decisions 
-* flexible schedule and remote work possibility 
-* mentoring program and regular 1:1 meetings 
-* continuous feedback culture and open communication
-* MultiSport and private medical package 
-* company library with an extra budget for professional books 
-* good equipment: MacBook and additional accessories
-* Bright Day once a month for non-project stuff
-* weekly sport classes and in-house yoga time  
-* office in Gdańsk Wrzeszcz with a parking space nearby 
-* team retreats once a quarter and lunch roulette initiative 
-* board games evenings 
-
-Sound interesting? Send us your CV or share your LinkedIn profile and we will arrange a meeting to get to know each other better. 
-
-In case you have any questions, drop a line at jobs@bright.dev. 
-
-## HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON!🧡
+* continuous feedback culture and 1:1 meetings 
+* clear career path with
+* flexible working hours and remote work possibility
+* 20-26 paid days off + Polish bank holidays
+* MultiSport card and private medical package (Compensa)
+* good equipment: we provide you with MacBook and additional accessories
+* internal workshops and dev's meetings 
+* extra budget for training and library with professional books
+* one extra day for non-project stuff each month
+* regular sports classes (running, biking, swimming) and yoga Fridays
+* board games evenings, weekly lunch initiative, team retreats once a quarter
