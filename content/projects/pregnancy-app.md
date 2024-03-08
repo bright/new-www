@@ -74,6 +74,6 @@ Naturally, we couldn't make the final software and design decisions based on int
 
 <TitleWithIcon sectionTitle="result: successful MVP launch" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
 
-The application was launched for iOS and Android at the same time, receiving p**ositive reviews from the first users**. With the help of the agency’s marketing team, **a solid user base has been achieved** in a relatively short amount of time.
+The application was launched for iOS and Android at the same time, receiving **positive reviews from the first users**. With the help of the agency’s marketing team, **a solid user base has been achieved** in a relatively short amount of time.
 
 Over the years, **thousands of women have shown their love for the app**, and we're thrilled to be a part of the creation process of such a remarkable product.
