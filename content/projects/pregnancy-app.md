@@ -7,12 +7,12 @@ our_service:
 layout: project
 project_id: pregnancy-app
 title: The Story of the Successful Launch of FemTech MVP for Pregnant Women
-image: /images/pregnancy_app1.png
+image: /images/case_study_cover_pregnancy_app_femtech.png
 description: Dive into the story of an application crafted for expectant
   mothers, offering personalized nutrition and fitness content.
 hero_image: /images/pregnancy_app_pregnant_women.png
 Hero Image_alt: Pregnancy mobile app
-social_media_previev: /images/pregnancyapp_fb_preview.png
+social_media_previev: /images/mvp_femtech_some_preview.png
 social_media_previev_alt: Pregnancy App case study
 bar_achievements:
   - number: "2"
