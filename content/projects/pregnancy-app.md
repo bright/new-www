@@ -27,7 +27,7 @@ tags:
   - eHealth
 title_team: team
 title_case_study: case study
-title_contact: Let's talk about your app
+title_contact: let's talk about your FemTech
 description_contact: Contact us and we'll get back to you in 48 hours!
 order: 99
 slug: pregnancy-app
@@ -65,3 +65,9 @@ We needed to deeply scrutinize every feature and interface element to ensure its
 Naturally, we couldn't make the final software and design decisions based on intuition, especially after the MVP launch. Therefore, we adopted a data-driven development approach, relying exclusively on in-depth user behavior analytics and A/B testing.
 
 [Read how the data-driven development saved onboarding for this app from failure](/blog/data-driven-development-femtech-app-onboarding/).
+
+<TitleWithIcon sectionTitle="result: successful MVP launch" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
+
+The application was launched for iOS and Android at the same time, receiving p**ositive reviews from the first users**. With the help of the agency’s marketing team, **a solid user base has been achieved** in a relatively short amount of time.
+
+Over the years, **thousands of women have shown their love for the app**, and we're thrilled to be a part of the creation process of such a remarkable product.
