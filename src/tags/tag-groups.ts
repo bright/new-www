@@ -8,11 +8,13 @@ interface TagGroupProps {
   tags: string[],
   parent?: TagGroup,
   groups: (parent: TagGroup) => TagGroup[]
+  aliases?: string[]
 }
 
 export class TagGroup {
   readonly name: string
   readonly tags: string[]
+  readonly aliases?: string[]
   readonly groups: TagGroup[]
   readonly parent: TagGroup | undefined
 
@@ -20,12 +22,14 @@ export class TagGroup {
                 name,
                 tags,
                 groups,
-                parent
+                parent,
+                aliases
               }: TagGroupProps) {
     this.name = name
     this.tags = tags
     this.parent = parent
     this.groups = groups(this)
+    this.aliases = aliases
   }
 
   get tagsTreeFlat(): string[] {
@@ -48,6 +52,7 @@ function toGroup(rawGroup: RawGroup, parent?: TagGroup): TagGroup {
   return new TagGroup({
     name: rawGroup.name,
     tags: rawGroup.tags,
+    aliases: rawGroup.aliases,
     parent: parent,
     groups: (parent) => rawGroup?.groups?.map(rawSubGroup => toGroup(rawSubGroup, parent)) ?? []
   })

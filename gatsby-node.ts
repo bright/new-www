@@ -13,6 +13,7 @@ import { routeLinks } from './src/config/routing'
 const path = require('path')
 
 const { queryPostsSlug } = require('./src/query-posts')
+const { addRedirectsFromAliases } = require('./src/tag-groups-aliases')
 
 export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql, reporter }) => {
   const { createPage, createRedirect } = actions
@@ -65,6 +66,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
           },
         })
       })
+      addRedirectsFromAliases([group], createRedirect)
 
       if (group.groups) {
         await Promise.all(
@@ -89,6 +91,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
                 },
               })
             })
+            addRedirectsFromAliases([group, subTag], createRedirect)
           })
         )
       }
@@ -229,7 +232,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
           })
         }
       } else {
-        createRedirect({ fromPath: memberBasePage, toPath: '/about-us/' })
+        createRedirect({ fromPath: memberBasePage, toPath: '/about-us/', isPermanent: true })
       }
     })
   )
@@ -485,6 +488,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   createRedirect({ fromPath: '/about-us/story', toPath: '/about-us/' })
   createRedirect({ fromPath: '/jobs/rust-developer-1', toPath: '/jobs/rust-developer/' })
   createRedirect({ fromPath: '/blog/build-llm-application-with-rag-langchain-v0-1-0', toPath: '/blog/build-llm-application-with-rag-langchain' })
+  createRedirect({ fromPath: '/blog/inspiration', toPath: '/blog/' })
 }
 
 export const onCreateNode: GatsbyNode['onCreateNode'] = async ({ node, actions: { createNodeField } }) => {

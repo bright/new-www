@@ -260,6 +260,7 @@ const gatsbyConfig: GatsbyConfig = {
         protocol: 'https',
         hostname: siteUrl.hostname,
         region: 'eu-central-1',
+        generateRedirectObjectsForPermanentRedirects: true,
       },
     },
     generateRobotsContent

@@ -3,4 +3,5 @@ export interface RawGroup {
   slug?: string
   groups?: RawGroup[]
   tags: string[]
+  aliases?: string[]
 }

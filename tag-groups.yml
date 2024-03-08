@@ -1,6 +1,8 @@
 groups:
   # /blog -> All tags, event not listed
-  - name: development
+  - name: programming
+    aliases:
+      - development
     # /blog/topics/development
     groups:
       - name: backend
@@ -56,6 +58,15 @@ groups:
           - code review
         # when QA and Android selected
         # /blog/topics/development/QA-Android
+      - name: blockchain
+        aliases:
+          - blockchain
+        tags:
+          - blockchain
+          - Blockchain
+          - Substrate
+          - substrate
+          - cryptocurrency
     tags:
       - development
       - software development
@@ -120,7 +131,9 @@ groups:
       - AI
       - python
       - machine learning
-  - name: Business
+  - name: business strategy
+    aliases:
+      - business
     tags:
       - business
       - Startup
@@ -129,35 +142,22 @@ groups:
       - B2B
       - startups
       - business perspective
-  - name: healthtech
+  - name: AI
+    tags:
+      - AI
+  - name: HealthTech
     tags:
       - healthtech
       - HealthTech
-  - name: Blockchain
-    tags:
-      - blockchain
-      - Blockchain
-      - Substrate
-      - substrate
-      - cryptocurrency
-  - name: Design
+  - name: UX/UI design
+    aliases:
+      - design
     tags:
       - design
       - mockups
-  - name: Inspiration
-    tags:
-      - career
-      - redshift
-      - Self-development
-      - inspiration
-      - communication
-      - team building
-      - productivity
-      - teamwork
-      - team
-      - motivation
-      - tips
-  - name: Project management
+  - name: leadership
+    aliases:
+      - project-management
     tags:
       - project management
       - communication
@@ -174,7 +174,9 @@ groups:
       - teamspirit
       - time-management
       - team
-  - name: bright updates
+  - name: bright insights
+    aliases:
+      - bright-updates
     tags:
       - software development company
       - Clutch
