@@ -2,7 +2,8 @@
 team_members:
   - agata
 our_service:
-  - mobile app development
+  - MVP development
+  - healthcare software development
 layout: project
 project_id: pregnancy-app
 title: Pregnancy App
@@ -35,6 +36,7 @@ show_team: false
 show_case_study: false
 show on homepage: false
 published: true
+work_in_progress: false
 language: en
 ---
 <div className="image">![pregnancy health tech app](../../static/images/brightstory_pregnancy_app.png "Pregnancy app")</div>
