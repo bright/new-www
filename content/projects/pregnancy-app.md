@@ -10,7 +10,7 @@ title: The Story of the Successful Launch of FemTech MVP for Pregnant Women
 image: /images/pregnancy_app1.png
 description: Dive into the story of an application crafted for expectant
   mothers, offering personalized nutrition and fitness content.
-hero_image: /images/case_study_app_pregnancyapp.png
+hero_image: /images/pregnancy_app_pregnant_women.png
 Hero Image_alt: Pregnancy mobile app
 social_media_previev: /images/pregnancyapp_fb_preview.png
 social_media_previev_alt: Pregnancy App case study
@@ -51,6 +51,8 @@ A digital agency, with whom we have established a successful collaboration on va
 **We started with thorough research and workshops in Berlin to understand the expectations and the technical assets** that needed to be created. As Bright Inventions focused on the technical aspects of the project, including **the development of the backend system, iOS, and Android apps**, the agency collaboratively worked on creating engaging videos and recipes. These elements were designed to enhance the app's value for paying customers.
 
 **The goal was to create a solution that felt personalized to female users at every step**. During the onboarding process, we exemplified the app's commitment to addressing women's unique needs. Through detailed questions about diet and fitness habits, we not only tailored content specifically for women but also fostered a connection with end-users. This approach conveyed to users that the app's creators genuinely aim to support them throughout pregnancy and the postpartum period.
+
+<div className="image">![FemTech mockups](../../static/images/femtech_mockups.png "FemTech mockups")</div>
 
 The significant effort in the MVP development was dedicated to building a solution that tailors content to female users. **By observing users' interactions with the provided recipes and workouts (i.e. what they marked as favorite, what they cooked, etc.) the system allows for a personalized and adaptive content delivery** based on a user’s individual experience.
 
