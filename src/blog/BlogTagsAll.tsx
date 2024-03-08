@@ -61,7 +61,7 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }: BlogTagsAllProps) =>
 
     const handleOnChangeSubTags = ({ target }: ChangeEvent<HTMLSelectElement>) => {
       const { value } = target
-      navigate(`${value}/1`)
+      navigate(`${value}${value.at(-1) === '/' ? '' : '/'}1`)
     }
 
     return (
@@ -75,7 +75,7 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }: BlogTagsAllProps) =>
 
               return (
                 <option key={el + '-' + i} value={routeLinks.blogTags({ tag: kebabCaseTag })}>
-                  {el.toLowerCase()}
+                  {el}
                 </option>
               )
             })}
@@ -83,7 +83,7 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }: BlogTagsAllProps) =>
 
         {tags.length > 0 ? (
           <TagsSelect value={subTagValue} onChange={handleOnChangeSubTags}>
-            <option value={`${routeLinks.blogTags({ tag: activeTag?.toLowerCase() })}1`}>All</option>
+            <option value={`${routeLinks.blogTags({ tag: activeTag })}`}>all</option>
 
             {tags.map((el, i) => {
               const kebabCaseTag = kebabCase(activeTag)
@@ -119,7 +119,7 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }: BlogTagsAllProps) =>
                     className={activeTag?.toLowerCase() == el.toLowerCase() ? 'is-active' : ''}
                     to={`${routeLinks.blogTags({ tag: kebabCaseTag })}1`}
                   >
-                    {el.toLowerCase()}
+                    {el}
                   </TagsLink>
                 </li>
               )
