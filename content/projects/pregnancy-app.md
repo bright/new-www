@@ -30,7 +30,7 @@ title_team: team
 title_case_study: more success stories
 title_contact: let's talk about your FemTech
 description_contact: Contact us and we'll get back to you in 48 hours!
-order: 99
+order: 5
 slug: pregnancy-app
 show_team: false
 show_case_study: true
