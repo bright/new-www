@@ -13,7 +13,7 @@ description: A personal digital diary for patients suffering from Parkinson’s
   prescribed drugs.
 hero_image: /images/case_study_app_parkinson_patients_app.png
 Hero Image_alt: App for patients suffering from Parkinson’s disease
-social_media_previev: /images/parkinson_s_fb_preview.png
+social_media_previev: /images/fb_preview_case_study_parkinson_app_en.png
 social_media_previev_alt: App for people with Parkinson's patients case study
 bar_achievements:
   - number: "2"
