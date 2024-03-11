@@ -41,3 +41,7 @@ If you want to delve into MVP development, we’ve got lots of other resources f
 <EbookDynamic sectionTitle='build MVP that will help you grow' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription={'Start your MVP journey with our free ebook.'} ebookImage='/images/mvp_ebook_cover.png' ebookAlt='cover' />
 
 ## Create simple design
+
+UX design is a crucial factor in ensuring a successful user experience for your solution. Depending on your end users, you might need to design for older people less familiar with technology, who might be skeptical about your solution. The design must immediately demonstrate value, enable smooth navigation, and manage the handling of vast amounts of information, which is often the case for eHealth apps.
+
+Read more about [designing healthcare solutions](/blog/ux-design-healthcare-medical-apps-case-study/).
