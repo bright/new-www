@@ -4,7 +4,7 @@ tags:
   - HealthTech
 date: 2024-03-11T08:38:12.604Z
 meaningfullyUpdatedAt: 2024-03-11T08:38:12.625Z
-title: Delivering patient engagement platform
+title: How to Build Patient Engagement Technology that Will Truly Engage Patients
 layout: post
 image: /images/phone_patient.png
 hidden: false
