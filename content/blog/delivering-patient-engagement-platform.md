@@ -15,3 +15,9 @@ language: en
 **The digital patient engagement market is growing rapidly, and its potential is even greater. However, this does not mean that any generic solution will succeed. Based on our experience in healthcare software development, we have prepared a guide on how to build a successful patient engagement solution.**
 
 <div className="image">![Patient engagement solution](../../static/images/phone_patient.png "Patient engagement solution")</div>
+
+## First, be empathic
+
+Don't scroll down, because you feel it's obvious. Is it, though? Do you treat your current or future app users merely as clients? This mindset might be suitable for retail, fintech, or other sectors, but not in digital health. HealthTech businesses must be strongly founded on a mission; otherwise, they probably won't survive. Your users aren't just users. They are real people with real-life struggles, often forced to manage chronic diseases all their lives. If you don’t try to understand your users’ experience, you won’t build a product that will be appealing to them.
+
+<EbookDynamic sectionTitle='face scalability challenges upfront' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Discover how to use tech and data to drive your company\'s growth.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide cover' />
