@@ -83,3 +83,9 @@ Trust is crucial in eHealth solutions, especially when we consider engagement so
 * **Quality assurance**: There comes a time when a balanced number of manual and automated tests must support product development. This approach will reduce the number of issues in your product, leading to fewer instances of user dissatisfaction.
 
 ## Verify the best engagement sources
+
+Study shows that in-app messaging boasts a remarkable [75% open rate](https://reckless.agency/websites/email-vs-push-notifications-vs-in-app-messaging-which-has-the-highest-engagement-2/), significantly surpassing other communication methods and nearly tripling the effectiveness of push notifications. While in-app messaging is highly effective at engaging active users within the app, enhancing their experience and encouraging specific actions, it's crucial not to overlook the importance of push notifications and traditional emails. Push notifications and emails are especially valuable for re-engaging users, drawing them back into the app, and maintaining their engagement over time.
+
+Initially, explore all potential engagement channels, then use data-driven analysis to identify the most effective ones. Following this, you can optimize the frequency of notifications, emails, etc., based on insights from this data. All these activities should be supported by rigorous A/B testing – for example, sending variations of notification text or different email subject lines to distinct groups to analyze open rates.
+
+## Why is digital engagement important
