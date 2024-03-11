@@ -27,3 +27,17 @@ Don't scroll down, because you feel it's obvious. Is it, though? Do you treat yo
 You might have an idea for an eHealth solution, but that's not even the first step to succeeding in healthcare software development. You should attend product discovery workshops that will help you understand your potential customers.
 
 Learn more about [product discovery workshops](/our-areas/product-workshops/).
+
+## Validate your idea and business approach with an MVP
+
+A Minimum Viable Product (MVP) is the most efficient way to validate your idea. In a cost-effective and timely manner, you can launch the first version of your product with key features to receive vital feedback from end-users.
+
+Before the launch, you should set up analytics metrics to measure your goals. Check out our MVP success metrics cheat sheet:
+
+<div className="image">![MVP success metrics](../../static/images/mvp_success_metrics-cheat_sheet.png "MVP success metrics")</div>
+
+If you want to delve into MVP development, we’ve got lots of other resources for you!
+
+<EbookDynamic sectionTitle='build MVP that will help you grow' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription={'Start your MVP journey with our free ebook.'} ebookImage='/images/mvp_ebook_cover.png' ebookAlt='cover' />
+
+## Create simple design
