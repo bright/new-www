@@ -45,3 +45,9 @@ If you want to delve into MVP development, we’ve got lots of other resources f
 UX design is a crucial factor in ensuring a successful user experience for your solution. Depending on your end users, you might need to design for older people less familiar with technology, who might be skeptical about your solution. The design must immediately demonstrate value, enable smooth navigation, and manage the handling of vast amounts of information, which is often the case for eHealth apps.
 
 Read more about [designing healthcare solutions](/blog/ux-design-healthcare-medical-apps-case-study/).
+
+## Evaluate your app onboarding
+
+Most software solution faces a crucial challenge: designing the onboarding process to increase the number of registered and (already) engaged users. Our experience, especially in healthcare software development, suggests creating a longer onboarding process to demonstrate your commitment to users and tailor the app to their personal experiences.
+
+Examine the story of the [FemTech pregnant women engagement app](/blog/data-driven-development-femtech-app-onboarding/) whose shortened onboarding process led to a decrease in the number of completions.
