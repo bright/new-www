@@ -1,9 +1,9 @@
 ---
 layout: job
-title: "Senior Fullstack Developer "
-subtitle: OPENING SOON
+title: "Senior Backend Developer "
+subtitle: OPEN
 imagejob: /images/backend_team_job_offer.png
-image-alt-job: Fullstack Team Bright Inventions
+image-alt-job: Backend Team Bright Inventions
 hours: Full-time
 salary: 20 000 - 24 000 PLN + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
 salary_min: 16600
@@ -33,7 +33,7 @@ show_recruiter_info: true
 hidden: true
 name_recruiter: Sara
 image_alt_recruiter_info: Sara Łęcka - a Junior Recruiter at Bright Inventions
-button: join our fullstack team
+button: join our bright team
 order: 1
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
@@ -52,21 +52,22 @@ We support and share responsibility with the members of our team. We also active
 
 ## job description
 
-We are looking for a business-oriented Fullstack Developer to join our project (<https://brightinventions.pl/projects/eco-friendly-app/>) team that has already saved over 3 million single-use plastic containers. 
+We are looking for a business-oriented Backend Developer to join our project (<https://brightinventions.pl/projects/eco-friendly-app/>) team that has already saved over 3 million single-use plastic containers. 
 
-As a business-savvy Fullstack Developer, you'll work closely with our client, the German startup Relevo. We're seeking a candidate who embodies openness, dynamism, and proactivity, fostering a close client relationship. Valuable assets include an agile mindset, flexibility, and adept prioritization skills.
+As a business-savvy Backend Developer, you'll work closely with our client, the German startup Relevo. We're seeking a candidate who embodies openness, dynamism, and proactivity, fostering a close client relationship. Valuable assets include an agile mindset, flexibility, and adept prioritization skills.
 
 ## what we would like to see
 
-* at least 3-4 years of commercial programming experience (including min. 2 years in backend development) 
+* 3-4 years of commercial programming experience 
 * very good knowledge of TypeScript/JavaScript
-* deep working experience with Node.js and React
+* deep working experience with Node.js 
 * strong problem solving attitude and open mind
 * positive approach to work and new challenges  
 * advanced level of English and Polish (written and spoken)
 
 ## we would also appreciate if you have
 
+* knowledge of React
 * familiarity with AWS or other Cloud providers
 * familiarity with Agile methodologies
 
