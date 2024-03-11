@@ -89,3 +89,7 @@ Study shows that in-app messaging boasts a remarkable [75% open rate](https://re
 Initially, explore all potential engagement channels, then use data-driven analysis to identify the most effective ones. Following this, you can optimize the frequency of notifications, emails, etc., based on insights from this data. All these activities should be supported by rigorous A/B testing – for example, sending variations of notification text or different email subject lines to distinct groups to analyze open rates.
 
 ## Why is digital engagement important
+
+The technological revolution in healthcare is built on several fundamental pillars, with both medical professionals and patients playing crucial roles. For it to be effective, both groups must actively participate. This is especially vital in the realm of chronic disease management where medics won't achieve anything without patients' engagement. Through technology, patients are empowered to take control of their health. However, they must be willing to embrace the power that technology gives them. Let’s build the technology that will be a patient engagement tool, not a burden!
+
+<div class='block-button'><h2>book a free consultation in 48 hours</h2><div>Are you facing the challenge of developing a patient engagement platform? Book a free consultation to discuss your solution!</div><a href="/our-areas/healthcare-software-development/"><button>let's talk</button></a></div>
