@@ -52,7 +52,7 @@ We support and share responsibility with the members of our team. We also active
 
 ## job description
 
-We are looking for a business-oriented Backend Developer to join our project (<https://brightinventions.pl/projects/eco-friendly-app/>) team that has already saved over 3 million single-use plastic containers. 
+We are looking for a business-oriented Backend Developer to join our project ([https://brightinventions.pl/projects/eco-friendly-app/](https://brightinventions.pl/projects/eco-friendly-app/)) team that has already saved over 3 million single-use plastic containers. 
 
 As a business-savvy Backend Developer, you'll work closely with our client, the German startup Relevo. We're seeking a candidate who embodies openness, dynamism, and proactivity, fostering a close client relationship. Valuable assets include an agile mindset, flexibility, and adept prioritization skills.
 
