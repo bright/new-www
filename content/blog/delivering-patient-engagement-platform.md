@@ -70,3 +70,9 @@ The stack and technologies you choose, even at the MVP phase, might influence yo
 * **Choosing between building mobile native applications or hybrid**: Delve into this choice in our other blog post.
 * **Implementing performance monitoring**: This type of monitoring becomes especially crucial during the scaling phase, where you want to monitor capacity, any feature blockages, etc. Only then can you foresee issues before they affect your users!
 * **Leveraging cloud computing for scalability**: Cloud computing offers cost-effective scaling of your product. Using providers like AWS also aids in adhering to HIPAA or GDPR, which is crucial for many healthcare solutions.
+
+## Build credibility with the right software
+
+Trust is crucial in eHealth solutions, especially when we consider engagement software that can assist chronically ill patients throughout their lives. Therefore, when choosing an app that might be a crucial tool every day, they need to feel the product is credible. By implementing performance monitoring, as mentioned earlier, you can avoid large performance issues, thereby sparing users any frustrations. Yet, there are other technical steps to take to build credibility:
+
+* **Adhering to laws**: while storing medical data, you must follow top security standards to comply with HIPAA, GDPR, or other regional laws. Security standards aren't supposed to be followed just to comply with the law, but foremost to take care of users' data. Any data breach could be disastrous for your credibility, so always prioritize security.
