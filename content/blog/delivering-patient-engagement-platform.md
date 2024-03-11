@@ -12,7 +12,7 @@ comments: true
 published: true
 language: en
 ---
-**The digital patient engagement market is growing rapidly, and its potential is even greater. However, this does not mean that any generic solution will succeed. Based on our experience in healthcare software development, we have prepared a guide on how to build a successful patient engagement solution.**
+**The digital patient engagement market is growing rapidly, and its potential is even greater. However, this does not mean that any generic solution will succeed. Based on our experience in [healthcare software development](/our-areas/healthcare-software-development/), we have prepared a guide on how to build a successful patient engagement solution.**
 
 <div className="image">![Patient engagement solution](../../static/images/phone_patient.png "Patient engagement solution")</div>
 
@@ -67,7 +67,7 @@ Healthcare is not a joke, yet in many cases, you can turn health management into
 
 The stack and technologies you choose, even at the MVP phase, might influence your product development for years to come. Here are examples of things to consider by CTO, Product Owner, or startup founder:
 
-* **Choosing between building mobile native applications or hybrid**: Delve into this choice in our other blog post.
+* **Choosing between building mobile native applications or hybrid**: Delve into this choice in our other blog post regarding [native apps vs cross-platform](/blog/native-app-development-vs-cross-platform/).
 * **Implementing performance monitoring**: This type of monitoring becomes especially crucial during the scaling phase, where you want to monitor capacity, any feature blockages, etc. Only then can you foresee issues before they affect your users!
 * **Leveraging cloud computing for scalability**: Cloud computing offers cost-effective scaling of your product. Using providers like AWS also aids in adhering to HIPAA or GDPR, which is crucial for many healthcare solutions.
 
