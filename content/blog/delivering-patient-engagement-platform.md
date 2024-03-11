@@ -2,8 +2,8 @@
 author: izabela
 tags:
   - HealthTech
-date: 2024-03-11T08:38:12.604Z
-meaningfullyUpdatedAt: 2024-03-11T08:38:12.625Z
+date: 2024-03-11T08:57:21.157Z
+meaningfullyUpdatedAt: 2024-03-11T08:57:21.707Z
 title: How to Build Patient Engagement Technology that Will Truly Engage Patients
 layout: post
 image: /images/phone_patient.png
@@ -18,19 +18,19 @@ language: en
 
 ## First, be empathic
 
-Don't scroll down, because you feel it's obvious. Is it, though? Do you treat your current or future app users merely as clients? This mindset might be suitable for retail, fintech, or other sectors, but not in digital health. HealthTech businesses must be strongly founded on a mission; otherwise, they probably won't survive. Your users aren't just users. They are real people with real-life struggles, often forced to manage chronic diseases all their lives. If you don’t try to understand your users’ experience, you won’t build a product that will be appealing to them.
+Don't scroll down, because you feel it's obvious. Is it, though? Do you treat your current or future app users merely as clients? This mindset might be suitable for retail, fintech, or other sectors, but not in digital health. HealthTech businesses must be strongly founded on a mission; otherwise, they probably won't survive. Your users aren't just users. They are real people with real-life struggles, often forced to manage chronic diseases all their lives. **If you don’t try to understand your users’ experience, you won’t build a product that will be appealing to them**.
 
 <EbookDynamic sectionTitle='face scalability challenges upfront' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Discover how to use tech and data to drive your company\'s growth.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide cover' />
 
 ## Start from workshops to scrutinize your idea and target groups
 
-You might have an idea for an eHealth solution, but that's not even the first step to succeeding in healthcare software development. You should attend product discovery workshops that will help you understand your potential customers.
+You might have an idea for an eHealth solution, but that's not even the first step to succeeding in healthcare software development. You should attend **product discovery workshops that will help you understand your potential customers**.
 
 Learn more about [product discovery workshops](/our-areas/product-workshops/).
 
 ## Validate your idea and business approach with an MVP
 
-A Minimum Viable Product (MVP) is the most efficient way to validate your idea. In a cost-effective and timely manner, you can launch the first version of your product with key features to receive vital feedback from end-users.
+**A Minimum Viable Product (MVP) is the most efficient way to validate your idea**. In a cost-effective and timely manner, you can launch the first version of your product with key features to receive vital feedback from end-users.
 
 Before the launch, you should set up analytics metrics to measure your goals. Check out our MVP success metrics cheat sheet:
 
@@ -42,9 +42,9 @@ If you want to delve into MVP development, we’ve got lots of other resources f
 
 ## Create simple design
 
-UX design is a crucial factor in ensuring a successful user experience for your solution. Depending on your end users, you might need to design for older people less familiar with technology, who might be skeptical about your solution. The design must immediately demonstrate value, enable smooth navigation, and manage the handling of vast amounts of information, which is often the case for eHealth apps.
+UX design is a crucial factor in ensuring a successful user experience for your solution. Depending on your end users, **you might need to design for older people less familiar with technology, who might be skeptical about your solution**. The design must immediately demonstrate value, enable smooth navigation, and manage the handling of vast amounts of information, which is often the case for eHealth apps.
 
-Read more about [designing healthcare solutions](/blog/ux-design-healthcare-medical-apps-case-study/).
+If you want to delve into product design, read more about [designing healthcare solutions](/blog/ux-design-healthcare-medical-apps-case-study/).
 
 ## Evaluate your app onboarding
 
@@ -82,14 +82,14 @@ Trust is crucial in eHealth solutions, especially when we consider engagement so
 * **Code modernization**: don't let technological debt slow your growth. Especially during the scalability phase, dedicate some sprints to code modernization, updating libraries, and other activities that will improve your code and enhance security.
 * **Quality assurance**: There comes a time when a balanced number of manual and automated tests must support product development. This approach will reduce the number of issues in your product, leading to fewer instances of user dissatisfaction.
 
-## Verify the best engagement sources
+## Verify the best engagement channels
 
-Study shows that in-app messaging boasts a remarkable [75% open rate](https://reckless.agency/websites/email-vs-push-notifications-vs-in-app-messaging-which-has-the-highest-engagement-2/), significantly surpassing other communication methods and nearly tripling the effectiveness of push notifications. While in-app messaging is highly effective at engaging active users within the app, enhancing their experience and encouraging specific actions, it's crucial not to overlook the importance of push notifications and traditional emails. Push notifications and emails are especially valuable for re-engaging users, drawing them back into the app, and maintaining their engagement over time.
+Study shows that in-app messaging boasts a remarkable [75% open rate](https://reckless.agency/websites/email-vs-push-notifications-vs-in-app-messaging-which-has-the-highest-engagement-2/), significantly surpassing other communication methods and nearly tripling the effectiveness of push notifications. **While in-app messaging is highly effective at engaging active users within the app, enhancing their experience and encouraging specific actions, it's crucial not to overlook the importance of push notifications and traditional emails**. Push notifications and emails are especially valuable for re-engaging users, drawing them back into the app, and maintaining their engagement over time.
 
-Initially, explore all potential engagement channels, then use data-driven analysis to identify the most effective ones. Following this, you can optimize the frequency of notifications, emails, etc., based on insights from this data. All these activities should be supported by rigorous A/B testing – for example, sending variations of notification text or different email subject lines to distinct groups to analyze open rates.
+Initially, **explore all potential engagement channels**, then use data-driven analysis to identify the most effective ones. Following this, you can optimize the frequency of notifications, emails, etc., based on insights from this data. All these activities should be supported by rigorous **A/B testing** – for example, sending variations of notification text or different email subject lines to distinct groups to analyze open rates.
 
 ## Why is digital engagement important
 
-The technological revolution in healthcare is built on several fundamental pillars, with both medical professionals and patients playing crucial roles. For it to be effective, both groups must actively participate. This is especially vital in the realm of chronic disease management where medics won't achieve anything without patients' engagement. Through technology, patients are empowered to take control of their health. However, they must be willing to embrace the power that technology gives them. Let’s build the technology that will be a patient engagement tool, not a burden!
+The technological revolution in healthcare is built on several fundamental pillars, with both medical professionals and patients playing crucial roles. For it to be effective, both groups must actively participate. This is especially vital in the realm of chronic disease management where medics won't achieve anything without patients' engagement. Through technology, **patients are empowered to take control of their health. However, they must be willing to embrace the power that technology gives them**. Let’s build the technology that will be a patient engagement tool, not a burden!
 
 <div class='block-button'><h2>book a free consultation in 48 hours</h2><div>Are you facing the challenge of developing a patient engagement platform? Book a free consultation to discuss your solution!</div><a href="/our-areas/healthcare-software-development/"><button>let's talk</button></a></div>
