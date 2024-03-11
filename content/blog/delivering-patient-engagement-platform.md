@@ -76,3 +76,10 @@ The stack and technologies you choose, even at the MVP phase, might influence yo
 Trust is crucial in eHealth solutions, especially when we consider engagement software that can assist chronically ill patients throughout their lives. Therefore, when choosing an app that might be a crucial tool every day, they need to feel the product is credible. By implementing performance monitoring, as mentioned earlier, you can avoid large performance issues, thereby sparing users any frustrations. Yet, there are other technical steps to take to build credibility:
 
 * **Adhering to laws**: while storing medical data, you must follow top security standards to comply with HIPAA, GDPR, or other regional laws. Security standards aren't supposed to be followed just to comply with the law, but foremost to take care of users' data. Any data breach could be disastrous for your credibility, so always prioritize security.
+
+<EbookDynamic sectionTitle='explore top security practices and tool' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription={'A free ebook for CEOs, CTOs, and software developers. A must-have for your team\'s reading list!'} ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook cover' />
+
+* **Code modernization**: don't let technological debt slow your growth. Especially during the scalability phase, dedicate some sprints to code modernization, updating libraries, and other activities that will improve your code and enhance security.
+* **Quality assurance**: There comes a time when a balanced number of manual and automated tests must support product development. This approach will reduce the number of issues in your product, leading to fewer instances of user dissatisfaction.
+
+## Verify the best engagement sources
