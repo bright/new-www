@@ -28,7 +28,7 @@ title_recruiter_info: Do you have any questions? Ask Sara from our Bright team!
 workplace_recruiter: Junior Recruiting Specialist
 image_recruiter_info: /images/sara-bright-recruiter.png
 button_linkedin: https://www.linkedin.com/in/saralecka/
-published: false
+published: true
 show_recruiter_info: true
 hidden: true
 name_recruiter: Sara
