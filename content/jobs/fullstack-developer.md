@@ -52,7 +52,9 @@ We support and share responsibility with the members of our team. We also active
 
 ## job description
 
-We are looking now for a  **Senior Fullstack Developer** who has already had experience with web development and is not afraid of touching new technologies. What counts are your general analytical, programming and communication skills. 
+We are looking for a business-oriented Fullstack Developer to join our project (<https://brightinventions.pl/projects/eco-friendly-app/>) team that has already saved over 3 million single-use plastic containers. 
+
+As a business-savvy Fullstack Developer, you'll work closely with our client, the German startup Relevo. We're seeking a candidate who embodies openness, dynamism, and proactivity, fostering a close client relationship. Valuable assets include an agile mindset, flexibility, and adept prioritization skills.
 
 ## what we would like to see
 
