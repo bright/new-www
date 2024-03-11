@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Senior Backend Developer "
-subtitle: OPEN
+subtitle: CLOSED
 imagejob: /images/backend_team_job_offer.png
 image-alt-job: Backend Team Bright Inventions
 hours: Full-time
@@ -28,11 +28,11 @@ title_recruiter_info: Do you have any questions? Ask Sara from our Bright team!
 workplace_recruiter: Junior Recruiting Specialist
 image_recruiter_info: /images/sara-bright-recruiter.png
 button_linkedin: https://www.linkedin.com/in/saralecka/
-published: true
+published: false
 show_recruiter_info: true
 hidden: true
 name_recruiter: Sara
-image_alt_recruiter_info: Sara Łęcka - a Junior Recruiter at Bright Inventions
+image_alt_recruiter_info: Sara - a Junior Recruiter at Bright Inventions
 button: join our bright team
 order: 1
 recruting_image2_title: interview (technical part & non-technical part)
