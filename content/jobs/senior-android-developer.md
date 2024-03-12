@@ -38,7 +38,7 @@ button: join our Android team
 redirect_from:
   - /android-developer
   - /android-developer/
-published: true
+published: false
 show_recruiter_info: true
 order: 5
 recruting_image2_title: interview (technical part & non-technical part)
