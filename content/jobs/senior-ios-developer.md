@@ -40,7 +40,7 @@ image_recruiter_info: /images/sara-bright-recruiter.png
 image_alt_recruiter_info: Sara Łęcka - a recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/saralecka81680085/
 button: join our bright iOS team
-published: true
+published: false
 show_recruiter_info: true
 order: 5
 recruting_image2_title: interview (technical part & non-technical part)
