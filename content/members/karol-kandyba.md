@@ -9,7 +9,7 @@ email: karol.kandyba@brightinventions.pl
 bio: Senior Android Developer
 description: Senior Android Developer
 avatar: /images/brightdev_business_2.png
-avatar_hover: /images/karol-k-passion-1.png
+avatar_hover: /images/karol-k-passion-2.png
 published: true
 language: en
 ---
