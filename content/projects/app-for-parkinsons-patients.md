@@ -58,7 +58,7 @@ Android: Kotlin, RxKotlin, Dagger, Retrofit
 
 Backend: Node.js, Typescript, PostgreSQL, AWS Services
 
-<TitleWithIcon sectionTitle="about the app for Parkinson&amp;#39;s Patients" titleIcon="/images/three_flags.svg" titleIconAlt="about" />
+<TitleWithIcon sectionTitle="about the app" titleIcon="/images/three_flags.svg" titleIconAlt="about" />
 
 Living with a chronic illness like Parkinson’s imposes many lifestyle changes on the patient. For those battling the disease, it is crucial that they have a way to easily track their overall vitals, medicine intake, or note any symptoms that need to be brought to their doctors’ attention.
 
