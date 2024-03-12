@@ -13,6 +13,7 @@ technology:
   - TypeScript
   - Node.js
   - React
+  - AWS
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -47,7 +48,7 @@ We support and share responsibility with the members of our team. We also active
 
 ## job description
 
-We are looking for a business-oriented Backend Developer to join our [project](<https://brightinventions.pl/projects/eco-friendly-app/>) team that has already saved over 3 million single-use plastic containers. 
+We are looking for a business-oriented Backend Developer to join our [project](https://brightinventions.pl/projects/eco-friendly-app/) team that has already saved over 3 million single-use plastic containers. 
 
 As a business-savvy Backend Developer, you'll work closely with our client, the German startup Relevo. We're seeking a candidate who embodies openness, dynamism, and proactivity, fostering a close client relationship. Valuable assets include an agile mindset, flexibility, and adept prioritization skills.
 
@@ -56,6 +57,7 @@ As a business-savvy Backend Developer, you'll work closely with our client, the 
 * 3-4 years of commercial programming experience 
 * very good knowledge of TypeScript/JavaScript
 * deep working experience with Node.js 
+* familiarity with AWS or other Cloud providers
 * strong problem solving attitude and open mind
 * positive approach to work and new challenges  
 * advanced level of English and Polish (written and spoken)
@@ -63,7 +65,6 @@ As a business-savvy Backend Developer, you'll work closely with our client, the 
 ## we would also appreciate if you have
 
 * knowledge of React
-* familiarity with AWS or other Cloud providers
 * familiarity with Agile methodologies
 
 ## **what you will find in our Bright Team 🧡**
