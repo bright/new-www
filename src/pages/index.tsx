@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { Suspense, useEffect, useState } from 'react'
 
 import { Page } from '../layout/Page'
 import { Header } from '../components/home/Header'
@@ -17,21 +17,35 @@ import Ebook from '../components/home/Ebook'
 const BlockchainExperts = React.lazy(() => import('../components/home/BlockchainExperts'))
 const HeroHeaderImages = React.lazy(() => import('../components/home/HeroHeaderImages'))
 
-export default () => {
-  return (
-    <Page className='page-index'>
-      <Script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} async={true} />
-      <Header />
-      <Achievements />
-      <HeroHeaderImages />
-      <TechnologyTags />
-      <OurServices />
-      <Ebook />
-      <BlockchainExperts />
-      <Projects isSelectedTag={false} />
-      <Ratings />
-      <PopularBlogPosts />
-      <Contact formButton='Business Contact Form Button' actionFormButton='Click Submit Business Form' />
-    </Page>
-  )
+  export default () => {
+    const [isClient, setIsClient] = useState(false)
+
+    useEffect(() => {
+      setIsClient(true)
+    }, [])
+
+    return (
+      <Page className='page-index'>
+        <Script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} async={true} />
+        <Header />
+        <Suspense fallback={<div>loading...</div>}>
+          <Achievements />
+          <HeroHeaderImages />
+          <TechnologyTags />
+        </Suspense>
+        <OurServices />
+        <Ebook />
+        <Suspense fallback={<div>loading...</div>}>
+          <BlockchainExperts />
+        </Suspense>
+        <Projects isSelectedTag={false} />
+        <Suspense fallback={<div>loading...</div>}>
+          <Ratings />
+        </Suspense>
+        {isClient && <>
+          <PopularBlogPosts />
+        </>}
+        <Contact formButton='Business Contact Form Button' actionFormButton='Click Submit Business Form' />
+      </Page>
+    )
 }
