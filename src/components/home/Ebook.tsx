@@ -29,7 +29,7 @@ const Ebook = () => {
       paddingMobileProps='48px 18px 0'
     >
       <CustomSectionTitle margin='0 0 48px' laptopMargin='0 0 96px' tabletMargin='0 0 48px' mobileMargin='0 0 48px'>
-        bright ebook
+        bright guide
       </CustomSectionTitle>
       <FlexWrapper desktopGap='64px' desktopItems='center' tabletXLGap='32px' tabletDirection='column' tabletGap='64px'>
         <StaticImage src={'../../../static/images/cover_healthtech_guide_home.png'} alt={'cover-healthtech-guide-ebook'}/>
