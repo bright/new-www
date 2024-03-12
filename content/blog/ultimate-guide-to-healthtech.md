@@ -114,7 +114,7 @@ Technology has the power to change the daily lives of patients and medical staff
 
 If you want to know what’s especially hot in tech for healthcare in 2024, read [Top 7 Trends in HealthTech to Watch in 2024](/blog/top-trends-in-healthtech/)!
 
-### Generative AI
+### Generative AI & Large Language Models
 
 Artificial intelligence enables us to learn from available content to produce new text, images, and other data. It gives lots of use cases for HealthTech:
 
@@ -123,6 +123,8 @@ Artificial intelligence enables us to learn from available content to produce ne
 * creating medical transcriptions;
 * virtual healthcare assistants (chatbots) streamline processes like appointment scheduling;
 * preventing care by analyzing data from wearables and detecting issues like high blood pressure, concerning EGG patterns, arrhythmias, and more.
+
+Read more about [Large Language Models (LLMs) for Healthcare](/blog/llms-healthcare-security/).
 
 ### Internet of Things & Bluetooth
 
