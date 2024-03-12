@@ -4,7 +4,7 @@ workplace_recruiter: Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: "Senior Backend Developer "
-subtitle: OPENING SOON
+subtitle: OPEN
 image-alt-job: backend development team
 hours: full-time
 salary: 20 000 - 24 000 PLN + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
