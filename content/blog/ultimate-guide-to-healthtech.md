@@ -102,6 +102,8 @@ Digital applications that aim to involve patients more actively in their healthc
 
 Explore the [patient engagement app for Parkinson's patients](/projects/solution-for-parkinsons-patients/).
 
+Read more about developing patient engagement solutions: [How to Build Patient Engagement Technology that Will Truly Engage Patients.](/blog/delivering-patient-engagement-platform/)
+
 ### Techbio
 
 An emerging field at the intersection of technology and biology, focusing on using technological advancements to understand and engineer biological systems, often related to health and medicine.
