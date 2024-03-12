@@ -5,7 +5,7 @@ tags:
   - design
   - AI
 date: 2024-02-01T10:58:36.300Z
-meaningfullyUpdatedAt: 2024-02-28T17:44:43.633Z
+meaningfullyUpdatedAt: 2024-03-12T15:20:54.521Z
 title: The Ultimate Guide to HealthTech in 2024
 layout: post
 image: /images/healthtech-guide.png
@@ -102,6 +102,8 @@ Digital applications that aim to involve patients more actively in their healthc
 
 Explore the [patient engagement app for Parkinson's patients](/projects/solution-for-parkinsons-patients/).
 
+Read more about developing patient engagement solutions: [How to Build Patient Engagement Technology that Will Truly Engage Patients.](/blog/delivering-patient-engagement-platform/)
+
 ### Techbio
 
 An emerging field at the intersection of technology and biology, focusing on using technological advancements to understand and engineer biological systems, often related to health and medicine.
@@ -112,7 +114,7 @@ Technology has the power to change the daily lives of patients and medical staff
 
 If you want to know what’s especially hot in tech for healthcare in 2024, read [Top 7 Trends in HealthTech to Watch in 2024](/blog/top-trends-in-healthtech/)!
 
-### Generative AI
+### Generative AI & Large Language Models
 
 Artificial intelligence enables us to learn from available content to produce new text, images, and other data. It gives lots of use cases for HealthTech:
 
@@ -121,6 +123,8 @@ Artificial intelligence enables us to learn from available content to produce ne
 * creating medical transcriptions;
 * virtual healthcare assistants (chatbots) streamline processes like appointment scheduling;
 * preventing care by analyzing data from wearables and detecting issues like high blood pressure, concerning EGG patterns, arrhythmias, and more.
+
+Read more about [Large Language Models (LLMs) for Healthcare](/blog/llms-healthcare-security/).
 
 ### Internet of Things & Bluetooth
 
