@@ -3,8 +3,8 @@ author: izabela
 secondAuthor: maciej-n
 tags:
   - HealthTech
-date: 2024-03-13T07:40:56.940Z
-meaningfullyUpdatedAt: 2024-03-13T07:40:56.975Z
+date: 2024-03-13T07:50:07.637Z
+meaningfullyUpdatedAt: 2024-03-13T07:50:08.444Z
 title: Is Your App Healthy? Unlock Performance Monitoring for HealthTech
 layout: post
 image: /images/healthcare_app_performance_monitoring.png
