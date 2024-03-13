@@ -57,5 +57,40 @@ Our performance monitoring team has prepared a guide for setting up performance 
 
 Follow our tutorials:
 
-* performance monitoring setup with TypeScript,
-* performance monitoring setup with Java.
+* [performance monitoring setup with TypeScript](/blog/how-to-improve-your-app-observability-easily-with-grafana-and-opentelemetry/),
+* [performance monitoring setup with Java](https://grafana.com/blog/2023/10/30/how-to-integrate-a-spring-boot-app-with-grafana-using-opentelemetry-standards/).
+
+## Key app performance monitoring metrics to measure \[a cheat sheet]
+
+In data monitoring, the question always arises: what should you actually measure, and which metrics are crucial to your business? Certainly, not all data is necessary; having too many metrics can cause chaos rather than help you reach valuable conclusions.
+
+We've listed the most common app performance metrics so that you can choose the ones best suited to your solution.
+
+### Endpoints response time
+
+It measures the time it takes for an application or system to respond to a user's request 
+for a specific feature or function.
+
+### Response from external services
+
+It tracks the time it takes for an application to receive a response after requesting an external service or API e.g. external medical providers.
+
+### Throughput
+
+The number of transactions a system can handle over a specific period. This is crucial for applications with high user volumes, such as patient portals.
+
+### Error rates
+
+The frequency of errors occurring in the system. This includes data corruption, transaction failures, or any anomalies affecting data quality and accuracy.
+
+### Access Control Violations
+
+Monitoring unauthorized access attempts or policy violations.
+
+### Resource Utilization
+
+Monitoring of CPU, memory, storage, and network usage to prevent bottlenecks and ensure optimal performance.
+
+**Or just save this infographic:**
+
+<div className="image">![app performance monitoring metrics](../../static/images/app_performance_monitoring_metrics.png "app performance monitoring metrics")</div>
