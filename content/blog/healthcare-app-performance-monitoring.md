@@ -13,4 +13,4 @@ comments: true
 published: true
 language: en
 ---
-Every software product eventually reaches a point where closely monitoring its condition becomes essential. The sooner you start monitoring your product, the better the outcomes for your business will be. Let us guide you through implementing application performance monitoring for your eHealth solution, including a technical tutorial and performance metrics cheat sheet.
+**Every software product eventually reaches a point where closely monitoring its condition becomes essential. The sooner you start monitoring your product, the better the outcomes for your business will be. Let us guide you through implementing application performance monitoring for your eHealth solution, including a technical tutorial and performance metrics cheat sheet.**
