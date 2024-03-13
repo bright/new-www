@@ -62,7 +62,7 @@ If you lack performance monitoring experts on your team, you can either hire a s
 
 ## Key app performance monitoring metrics to measure \[a cheat sheet]
 
-In data monitoring, the question always arises: what should you actually measure, and which metrics are crucial to your business? Certainly, not all data is necessary; having too many metrics can cause chaos rather than help you reach valuable conclusions.
+In data analysis, the question always arises: **what should you actually measure, and which metrics are crucial to your business?** Certainly, not all data is necessary; **having too many metrics can cause chaos** rather than help you reach valuable conclusions.
 
 We've listed the most common app performance metrics so that you can choose the ones best suited to your solution.
 
@@ -99,4 +99,4 @@ Monitoring of CPU, memory, storage, and network usage to prevent bottlenecks and
 
 </center>
 
-If you want to discuss performance monitoring for your solution, [just book a free consultation](/start-project/). Our experts will guide you through any scalability challenges.
+**If you want to discuss performance monitoring for your solution, [just book a free consultation](/start-project/). Our experts will guide you through any scalability challenges.**
