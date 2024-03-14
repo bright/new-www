@@ -14,7 +14,6 @@ import '../styles/_page-index.scss'
 // import { BlockchainExperts } from '../components/home/BlockchainExperts'
 import { Script } from 'gatsby'
 import Ebook from '../components/home/Ebook'
-const BlockchainExperts = React.lazy(() => import('../components/home/BlockchainExperts'))
 const HeroHeaderImages = React.lazy(() => import('../components/home/HeroHeaderImages'))
 
   export default () => {
@@ -28,18 +27,15 @@ const HeroHeaderImages = React.lazy(() => import('../components/home/HeroHeaderI
       <Page className='page-index'>
         <Script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} async={true} />
         <Header />
-        <Suspense fallback={<div>loading...</div>}>
+        <Suspense>
           <Achievements />
           <HeroHeaderImages />
           <TechnologyTags />
         </Suspense>
         <OurServices />
         <Ebook />
-        <Suspense fallback={<div>loading...</div>}>
-          <BlockchainExperts />
-        </Suspense>
         <Projects isSelectedTag={false} />
-        <Suspense fallback={<div>loading...</div>}>
+        <Suspense>
           <Ratings />
         </Suspense>
         {isClient && <>
