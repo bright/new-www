@@ -7,6 +7,7 @@ import { isProduction } from '../helpers/deployEnv'
 import { fbqOrFallback } from '../../plugins/facebook-pixel/fbq-or-fallback'
 import { applyConsentDecisionToHotjar } from '../../plugins/hotjar/tracking-consent'
 import { hasUserDecidedOnAnalyticsConsentCookieName } from './has-user-decided-on-analytics-consent-cookie-name'
+import { applyConsentDecisionToLinkedIn } from '../../plugins/linkedin-pixel/tracking-consent'
 
 export const marketingConsentLSName = 'ad_storage'
 export const analyticsConsentLSName = 'analytics_storage'
@@ -28,6 +29,7 @@ export const onAllowSelected = (isMarketingChecked: boolean, isAnalitycsChecked:
   applyConsentDecisionToGtag(decision, gtagOrFallback(isProduction))
   applyConsentDecisionToPixel(decision, fbqOrFallback(isProduction))
   applyConsentDecisionToHotjar(decision)
+  applyConsentDecisionToLinkedIn(decision)
 }
 
 export const onAllowAll = () => {
