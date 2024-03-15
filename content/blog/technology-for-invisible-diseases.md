@@ -18,15 +18,15 @@ language: en
 
 <div className="image">![Tech for Patients with Invisible Diseases](../../static/images/invisible_diseases_blog.png "Tech for Patients with Invisible Diseases")</div>
 
-People with invisible diseases often navigate their lives, both private and professional, while managing their conditions. These conditions are typically chronic, remaining with them for longer periods, even though their symptoms may not be visible to others.
+**People with invisible diseases often navigate their lives, both private and professional, while managing their conditions**. These conditions are typically chronic, remaining with them for longer periods, even though their symptoms may not be visible to others.
 
-Invisible diseases include mental health issues, neurodiverse conditions like ADHD and autism, chronic pain and fatigue conditions such as fibromyalgia, as well as autoimmune disorders like multiple sclerosis (MS) and lupus.
+Invisible diseases include **mental health issues**, **neurodiverse conditions** like ADHD and autism, **chronic pain and fatigue conditions** such as fibromyalgia, as well as **autoimmune disorders** like multiple sclerosis (MS) and lupus.
 
 <EbookDynamic sectionTitle='dive into the future of HealthTech with our comprehensive guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Unlock exclusive insights and expert advice now! Claim your free copy!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
 
 ## Patient-centric approach in healthcare software solutions
 
-Developing technology solutions for patients with invisible diseases may require additional effort to achieve a user-centric approach. 
+Developing technology solutions for patients with invisible diseases may require **additional effort to achieve a patient-centric/user-centric approach**. 
 
 ### Throughout the process of understanding your users, it's essential to consider several factors:
 
