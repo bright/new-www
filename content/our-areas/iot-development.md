@@ -45,7 +45,7 @@ image_alt_our_service: IoT company
 bullet_points:
   - scaling your business from MVP to global solution
   - combining smart devices into a unified system
-  - choosing the right tech for business goals
+  - aligning your business goals with the right tech
 bar_stack:
   - Bluetooth LE
   - iBeacon
