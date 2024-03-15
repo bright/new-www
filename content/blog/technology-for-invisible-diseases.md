@@ -28,3 +28,5 @@ Developing technology solutions for patients with invisible diseases may require
 ### Throughout the process of understanding your users, it's essential to consider several factors:
 
 1. Your users may be very secretive about their disease. Understanding the privacy concerns and stigma associated with invisible diseases is crucial in building trust and ensuring user comfort.
+
+<blockquote><h2>Breaking down the encrypted database</h2><div>One of the security tactics we implemented was breaking down the encrypted database into two – each stored in a different AWS services’ physical location. The first database stored basic user data, such as name or email address. The second database kept sensitive medical information, including medication intake or physical symptoms and side effects. Through this decision, we made sure that – in case of a data breach – the attacking party wouldn’t be able to access all the information. This way, there were virtually zero chances of matching symptoms or medication intake to specific patients’ names.</div><footer>Mateusz Klimczak, Partner & Head of Delivery at Bright Inventions</footer></blockquote>
