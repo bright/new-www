@@ -72,3 +72,7 @@ Help users connect with support groups or communities facing similar challenges.
 ### Accessible information on clinical data and programs 
 
 People with invisible diseases (especially chronically ill) often hold hope for new scientific discoveries that could improve or save their lives. However, access to clinical research data is usually restricted, and the material is often written in specialized language. Summarizing current medical progress in straightforward language can be a crucial feature, providing hope and information in an accessible format.
+
+## Deliver empathetic solution 
+
+Remember, what you can't see might still hurt. So, while delivering solutions for patients with invisible diseases, don't treat them merely as users, but as people who might have been waiting for years for aid that would support them at difficult times. You owe them an empathetic solution because your 'users' truly deserve it.
