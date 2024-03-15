@@ -56,3 +56,19 @@ ZOE with their outside-of-the-box messaging was able to convince 142,768 people 
 5. Your users shouldn’t be your guinea pigs because they will quickly lose trust in your solution. Implement tech trends with extra caution. A great example of this is introducing currently hot AI-based solutions. 
 
 <blockquote><h2>Approaching AI in mental health methodically</h2><div>Generative AI is something I am currently responsible for while working on a mental health care application. While developing a solution supporting people's mental well-being, we need to approach this methodically. The last thing we want is to launch an AI solution that ends up discouraging people who are seeking mental health support, for example, by being ununderstandable by a bot.  That's why we are currently focusing on creating various proofs of concept to determine which areas of the application can truly be enhanced with AI. Before we even begin testing them with users, we need to identify clear signs of the value that AI can deliver. The AI-based solutions must be primarily trustworthy for our mental health app users.</div><footer>Sławek Kopaczewski, Fullstack Developer at Bright Inventions</footer></blockquote>
+
+## Examples of features to incorporate in applications for people with invisible diseases
+
+When developing applications for individuals with invisible diseases, it's essential to focus on features that address their unique needs while fostering engagement and support:
+
+### Gamification and engaging features
+
+Introduce elements that motivate users to manage their disease daily. These could include reward systems, progress tracking, and interactive educational content. Explore our other blog post on [patient engagement solutions](/blog/delivering-patient-engagement-platform/).
+
+### Support group and community finder 
+
+Help users connect with support groups or communities facing similar challenges. This feature can offer emotional support and practical advice, making users feel less isolated.
+
+### Accessible information on clinical data and programs 
+
+People with invisible diseases (especially chronically ill) often hold hope for new scientific discoveries that could improve or save their lives. However, access to clinical research data is usually restricted, and the material is often written in specialized language. Summarizing current medical progress in straightforward language can be a crucial feature, providing hope and information in an accessible format.
