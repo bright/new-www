@@ -42,3 +42,11 @@ Delve into building [empathic app onboarding](/blog/data-driven-development-femt
 One of the examples of software that needs to engage users with simple and empathic design is yet again a solution for Parkinson’s patients:
 
 <blockquote><h2>Inclusive and empathic UX/UI design</h2><div>From the beginning, we understood that the key element of the solution must have been inclusive and empathic UX/UI design. The app had to be friendly in use for patients suffering from tremors or other movement disorders. Also, as the elderly constitute the majority of patients suffering from Parkinson’s, the challenge was to deliver a legible, highly intuitive interface that would minimize the chances of mistakes. If an accidental input were to take place, though, the interface also needed to allow the option to undo the action.</div><footer>Mateusz Klimczak, Partner & Head of Delivery at Bright Inventions</footer></blockquote>
+
+4. Some taboos might be a reality for people with particular health disorders. 
+
+Approaching sensitive topics with empathy and care can help in creating a solution that feels inclusive and supportive. Also, don’t be afraid to include a fun factor even in the most unconventional circumstances.
+
+ZOE app serves as a prime example of a healthcare solution that approaches taboos with humor for a meaningful cause. The creators of the ZOE app were not afraid to address bowel movements - a topic essential to every human being's health, yet rather avoided in conversation.
+
+<div className="image">![ZOE](../../static/images/zoe.png "ZOE")</div>
