@@ -1,9 +1,9 @@
 ---
 author: sara-l
 tags:
+  - inspiration
   - team
   - recruitment
-  - inspiration
 date: 2024-03-08T08:44:02.481Z
 meaningfullyUpdatedAt: 2024-03-08T08:44:04.398Z
 title: "Temperament Insights for Effective Recruiting: What Recruiters Need to Know?"
