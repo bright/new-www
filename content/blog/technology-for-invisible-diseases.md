@@ -30,17 +30,23 @@ Developing technology solutions for patients with invisible diseases may require
 
 ### Throughout the process of understanding your users, it's essential to consider several factors:
 
-1. Your users may be very secretive about their disease. Understanding the privacy concerns and stigma associated with invisible diseases is crucial in building trust and ensuring user comfort.
+1. **Your users may be very secretive about their disease.** 
+
+Understanding the privacy concerns and stigma associated with invisible diseases is crucial in building trust and ensuring user comfort.
 
 <blockquote><h2>Breaking down the encrypted database</h2><div>One of the security tactics we implemented was breaking down the encrypted database into two – each stored in a different AWS services’ physical location. The first database stored basic user data, such as name or email address. The second database kept sensitive medical information, including medication intake or physical symptoms and side effects. Through this decision, we made sure that – in case of a data breach – the attacking party wouldn’t be able to access all the information. This way, there were virtually zero chances of matching symptoms or medication intake to specific patients’ names.</div><footer>Mateusz Klimczak, Partner & Head of Delivery at Bright Inventions</footer></blockquote>
 
 Read more about building [an app for people with Parkinson’s](/projects/solution-for-parkinsons-patients/).
 
-2. People with invisible diseases may be distrustful, including towards technology. Initially, they might approach your app with a degree of skepticism, making the onboarding process more critical than ever. Crafting an engaging, reassuring, and personalized onboarding experience is key to overcoming initial mistrust. 
+2. People with invisible diseases may be distrustful, including towards technology. 
+
+Initially, they might approach your app with a degree of skepticism, making the onboarding process more critical than ever. Crafting an engaging, reassuring, and personalized onboarding experience is key to overcoming initial mistrust. 
 
 Delve into building [empathic app onboarding](/blog/data-driven-development-femtech-app-onboarding/) with our other blog post.
 
-3. Despite users' skepticism, they might still turn to technology to help manage their disease. This indicates a need for solutions that are not only secure but also intuitive and genuinely useful in navigating the complexities of their condition.
+3. Despite users' skepticism, they might still turn to technology to help manage their disease. 
+
+This indicates a need for solutions that are not only secure but also intuitive and genuinely useful in navigating the complexities of their condition.
 
 One of the examples of software that needs to engage users with simple and empathic design is yet again a solution for Parkinson’s patients:
 
@@ -56,7 +62,9 @@ ZOE app serves as a prime example of a healthcare solution that approaches taboo
 
 ZOE with their outside-of-the-box messaging was able to convince 142,768 people in the United Kingdom to take part in the survey. Explore insightful results of the “[The Big Poo Review](https://zoe.com/learn/fascinating-insights-from-the-big-poo-review)”.
 
-5. Your users shouldn’t be your guinea pigs because they will quickly lose trust in your solution. Implement tech trends with extra caution. A great example of this is introducing currently hot AI-based solutions. 
+5. Your users shouldn’t be your guinea pigs because they will quickly lose trust in your solution. 
+
+Implement tech trends with extra caution. A great example of this is introducing currently hot AI-based solutions. 
 
 <blockquote><h2>Approaching AI in mental health methodically</h2><div>Generative AI is something I am currently responsible for while working on a mental health care application. While developing a solution supporting people's mental well-being, we need to approach this methodically. The last thing we want is to launch an AI solution that ends up discouraging people who are seeking mental health support, for example, by being ununderstandable by a bot.  That's why we are currently focusing on creating various proofs of concept to determine which areas of the application can truly be enhanced with AI. Before we even begin testing them with users, we need to identify clear signs of the value that AI can deliver. The AI-based solutions must be primarily trustworthy for our mental health app users.</div><footer>Sławek Kopaczewski, Fullstack Developer at Bright Inventions</footer></blockquote>
 
