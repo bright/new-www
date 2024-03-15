@@ -23,4 +23,8 @@ Invisible diseases include mental health issues, neurodiverse conditions like AD
 
 ## Patient-centric approach in healthcare software solutions
 
-Developing technology solutions for patients with invisible diseases may require additional effort to achieve a user-centric approach.
+Developing technology solutions for patients with invisible diseases may require additional effort to achieve a user-centric approach. 
+
+### Throughout the process of understanding your users, it's essential to consider several factors:
+
+1. Your users may be very secretive about their disease. Understanding the privacy concerns and stigma associated with invisible diseases is crucial in building trust and ensuring user comfort.
