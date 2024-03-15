@@ -44,8 +44,8 @@ image_our_service_mobile: /images/iot_ehealth_mobile.png
 image_alt_our_service: IoT company
 bullet_points:
   - scaling your business from MVP to global solution
-  - optimizing every stage of development
-  - choosing the right tech for business goals
+  - combining smart devices into a unified system
+  - aligning your business goals with the right tech
 bar_stack:
   - Bluetooth LE
   - iBeacon
