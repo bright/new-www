@@ -21,6 +21,8 @@ People with invisible diseases often navigate their lives, both private and prof
 
 Invisible diseases include mental health issues, neurodiverse conditions like ADHD and autism, chronic pain and fatigue conditions such as fibromyalgia, as well as autoimmune disorders like multiple sclerosis (MS) and lupus.
 
+<EbookDynamic sectionTitle='dive into the future of HealthTech with our comprehensive guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Unlock exclusive insights and expert advice now! Claim your free copy!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
+
 ## Patient-centric approach in healthcare software solutions
 
 Developing technology solutions for patients with invisible diseases may require additional effort to achieve a user-centric approach. 
