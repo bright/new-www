@@ -13,6 +13,7 @@ import { setupTrackingConsentInPixel } from './plugins/facebook-pixel/tracking-c
 import { loadConsentDecision } from './src/analytics/local-storage-constants'
 import { setupGtagTrackingConsent } from './plugins/google-gtag/tracking-consent'
 import { setupTrackingConsentInHotjar } from './plugins/hotjar/tracking-consent'
+import { setupTrackingConsentInLinkedIn } from './plugins/linkedin-pixel/tracking-consent'
 import { CookieConsentContextWrapper } from './src/analytics/contextual-cookie-consent'
 import i18n from 'i18next'
 import { useSSR } from 'react-i18next'
@@ -59,6 +60,10 @@ export const onClientEntry: GatsbyBrowser['onClientEntry'] = () => {
   }).catch(console.error)
 
   setupTrackingConsentInHotjar({
+    consentDecisionLoader: loadConsentDecision,
+  }).catch(console.error)
+
+  setupTrackingConsentInLinkedIn({
     consentDecisionLoader: loadConsentDecision,
   }).catch(console.error)
 }

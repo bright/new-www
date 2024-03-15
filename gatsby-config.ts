@@ -21,6 +21,8 @@ const enableHotjar = false //to enable hotjar globally set the value to true
 
 const facebookPixelId = isProduction ? '1256554391514599' : ''
 
+const linkedInPixelId = isProduction ? '6881457' : '';
+
 const googleTrackingIdsForEnv = googleTrackingIds(gatsbyActiveEnv)
 
 const enableWebpackBundleAnalyser = process.env.WEBPACK_BUNDLE_ANALYSER_ENABLE == 'true'
@@ -49,6 +51,12 @@ const gatsbyConfig: GatsbyConfig = {
       resolve: `facebook-pixel`,
       options: {
         pixelId: facebookPixelId,
+      },
+    },
+    {
+      resolve: `linkedin-pixel`,
+      options: {
+        pixelId: linkedInPixelId,
       },
     },
     {
