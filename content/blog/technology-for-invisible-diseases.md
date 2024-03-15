@@ -38,13 +38,13 @@ Understanding the privacy concerns and stigma associated with invisible diseases
 
 Read more about building [an app for people with Parkinson’s](/projects/solution-for-parkinsons-patients/).
 
-2. People with invisible diseases may be distrustful, including towards technology. 
+2. **People with invisible diseases may be distrustful, including towards technology.** 
 
 Initially, they might approach your app with a degree of skepticism, making the onboarding process more critical than ever. Crafting an engaging, reassuring, and personalized onboarding experience is key to overcoming initial mistrust. 
 
 Delve into building [empathic app onboarding](/blog/data-driven-development-femtech-app-onboarding/) with our other blog post.
 
-3. Despite users' skepticism, they might still turn to technology to help manage their disease. 
+3. **Despite users' skepticism, they might still turn to technology to help manage their disease.** 
 
 This indicates a need for solutions that are not only secure but also intuitive and genuinely useful in navigating the complexities of their condition.
 
@@ -52,7 +52,7 @@ One of the examples of software that needs to engage users with simple and empat
 
 <blockquote><h2>Inclusive and empathic UX/UI design</h2><div>From the beginning, we understood that the key element of the solution must have been inclusive and empathic UX/UI design. The app had to be friendly in use for patients suffering from tremors or other movement disorders. Also, as the elderly constitute the majority of patients suffering from Parkinson’s, the challenge was to deliver a legible, highly intuitive interface that would minimize the chances of mistakes. If an accidental input were to take place, though, the interface also needed to allow the option to undo the action.</div><footer>Mateusz Klimczak, Partner & Head of Delivery at Bright Inventions</footer></blockquote>
 
-4. Some taboos might be a reality for people with particular health disorders. 
+4. **Some taboos might be a reality for people with particular health disorders.** 
 
 Approaching sensitive topics with empathy and care can help in creating a solution that feels inclusive and supportive. Also, don’t be afraid to include a fun factor even in the most unconventional circumstances.
 
@@ -62,7 +62,7 @@ ZOE app serves as a prime example of a healthcare solution that approaches taboo
 
 ZOE with their outside-of-the-box messaging was able to convince 142,768 people in the United Kingdom to take part in the survey. Explore insightful results of the “[The Big Poo Review](https://zoe.com/learn/fascinating-insights-from-the-big-poo-review)”.
 
-5. Your users shouldn’t be your guinea pigs because they will quickly lose trust in your solution. 
+5. **Your users shouldn’t be your guinea pigs because they will quickly lose trust in your solution.** 
 
 Implement tech trends with extra caution. A great example of this is introducing currently hot AI-based solutions. 
 
@@ -76,14 +76,14 @@ When developing applications for individuals with invisible diseases, it's essen
 
 Introduce elements that motivate users to manage their disease daily. These could include reward systems, progress tracking, and interactive educational content. Explore our other blog post on [patient engagement solutions](/blog/delivering-patient-engagement-platform/).
 
-### Support group and community finder 
+### Support group and community finder
 
 Help users connect with support groups or communities facing similar challenges. This feature can offer emotional support and practical advice, making users feel less isolated.
 
-### Accessible information on clinical data and programs 
+### Accessible information on clinical data and programs
 
 People with invisible diseases (especially chronically ill) often hold hope for new scientific discoveries that could improve or save their lives. However, access to clinical research data is usually restricted, and the material is often written in specialized language. Summarizing current medical progress in straightforward language can be a crucial feature, providing hope and information in an accessible format.
 
-## Deliver empathetic solution 
+## Deliver empathetic solution
 
 Remember, what you can't see might still hurt. So, while delivering solutions for patients with invisible diseases, don't treat them merely as users, but as people who might have been waiting for years for aid that would support them at difficult times. You owe them an empathetic solution because your 'users' truly deserve it.
