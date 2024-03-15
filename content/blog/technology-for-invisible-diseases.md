@@ -1,6 +1,7 @@
 ---
 author: izabela
 secondAuthor: mateusz
+thirdAuthor: slawek
 tags:
   - HealthTech
 date: 2024-03-15T09:17:25.414Z
