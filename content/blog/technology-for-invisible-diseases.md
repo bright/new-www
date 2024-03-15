@@ -50,3 +50,5 @@ Approaching sensitive topics with empathy and care can help in creating a soluti
 ZOE app serves as a prime example of a healthcare solution that approaches taboos with humor for a meaningful cause. The creators of the ZOE app were not afraid to address bowel movements - a topic essential to every human being's health, yet rather avoided in conversation.
 
 <div className="image">![ZOE](../../static/images/zoe.png "ZOE")</div>
+
+ZOE with their outside-of-the-box messaging was able to convince 142,768 people in the United Kingdom to take part in the survey. Explore insightful results of the “[The Big Poo Review](https://zoe.com/learn/fascinating-insights-from-the-big-poo-review)”.
