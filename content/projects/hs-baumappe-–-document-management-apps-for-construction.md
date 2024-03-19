@@ -62,15 +62,29 @@ Imagine stepping into the **bureaucratic world of construction site personnel**,
 
 <div className="image">![construction site](../../static/images/constructions.png "construction site")</div>
 
-<TitleWithIcon sectionTitle="the goal of the solution" titleIcon="/images/icon_title_goal.svg" titleIconAlt="the goal of the solution" />
 
-The ultimate goal of the solution is to **manage the whole construction documentation via smartphone or tablet and eliminate paper documentation**.
+
+<TitleWithIcon sectionTitle="solution: digital document sharing with a mobile app" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution" />
+
+Our client, Heinrich Schmid, is a building construction group, eagerly embracing digital transformation. **One of their goals was to manage the whole construction documentation** via smartphone or tablet and eliminate paper documentation. We were pleased to help them with this transition.
+
+**Our team takes care exclusively of mobile development**. The backend is developed by another software company. It requires close cooperation between various development teams to sync apps with the backend properly.
 
 <div className="image">![Document Management Apps for Construction](../../static/images/app_mockups_dodocumenttion_management_apps.png "Mockup examples designed by Heinrich Schmid's Product Design Team.")</div>
 
 <center>Mockup examples designed by Heinrich Schmid's Product Design Team.</center>
 
+**The initial phase involved launching the MVP – HS Baumappe iOS and Android applications** designed to facilitate the creation and sharing of documents among the construction crew, clients, and external contractors. Thanks to **sophisticated access management**, only employees with the appropriate credentials can access the various documents, significantly enhancing security and data protection.
+
+The client trusted us to choose the most optimal solutions, therefore we use top tools such as **SwiftUI or Jetpack Compose highly recommended by Apple and Android**.
+
+We also made a strategic decision regarding the app architecture. We decided to **build HS Baumappe as a multi-module application**. Instead of building an app as a huge monolith, we separated the code into single responsibility modules. As a result, it improved developers’ productivity, code clarity, and interoperability. It also **helps to save costs and scale the solution during the post-MVP phase**.
+
 <TitleWithIcon sectionTitle="the challenge of building the document management app for construction" titleIcon="/images/two_flags.svg" titleIconAlt="challenge " />
+
+The client trusted us to choose the most optimal solutions, therefore we use top tools such as SwiftUI or Jetpack Compose highly recommended by Apple and Android.
+
+We also made a strategic decision regarding the app architecture. We decided to build HS Baumappe as a multi-module application. Instead of building an app as a huge monolith, we separated the code into single responsibility modules. As a result, it improved developers’ productivity, code clarity, and interoperability. It also helps to save costs and scale the solution during the post-MVP phase.
 
 Construction sites are places where **the internet connection is weak or simply doesn’t exist**. Therefore from the beginning, the priority was to build the **offline-first application**. It needed plenty of preparations during the requirement phase to determine when and how the apps should operate depending on the quality of the internet connection.
 
