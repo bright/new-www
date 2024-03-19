@@ -3,8 +3,8 @@ author: tomasz-k
 secondAuthor: izabela
 tags:
   - bright story
-date: 2024-03-19T09:34:19.655Z
-meaningfullyUpdatedAt: 2024-03-19T09:34:19.679Z
+date: 2024-03-19T11:14:31.260Z
+meaningfullyUpdatedAt: 2024-03-19T11:14:32.471Z
 title: Decades in Programming Guided by Intuition. Meet Tomasz
 layout: post
 image: /images/brightstorytomaszk.png
@@ -41,7 +41,7 @@ It might seem like an unlikely combination at first. Indeed, when we embarked on
 
 <div className="image">![ Wearing a welding helmet.](../../static/images/tomasz_welding.png " Wearing a welding helmet.")</div>
 
-*Wearing a welding helmet.*
+*<center> Wearing a welding helmet. </center>* 
 
 Our role encompassed **integrating hardware** delivered by another company into our system, **developing the firmware, selecting appropriate sensors, and delivering software** that unified these components into a cohesive IoT solution.
 
@@ -57,7 +57,7 @@ I appreciate the absence of a corporate vibe here. With around 80 people on boar
 
 <div className="image">![During a team retreat.](../../static/images/malgosia_team_retreat_forest.png "During a team retreat.")</div>
 
-*During a team retreat.*
+*<center> During a team retreat. </center>* 
 
 ## Having spent decades in the IT industry, what experiences do you consider the most valuable?
 
@@ -73,7 +73,7 @@ Initially, **I made the mistake of trying to solve people's problems with my own
 
 I think that the ability to view the product from a distance and see the whole picture is invaluable. **I strive to consider both the domain and business perspectives, with a key focus on ensuring that the architecture evolves alongside the product**. This approach makes the software easier to maintain. Thus, the primary rule is to **avoid creating technological debt, paving the way for a smoother future product growth**.
 
-## How to find the balance between tech ambitions and business requirements? 
+## How to find the balance between tech ambitions and business requirements?
 
 I believe **I have an intuition that guides me in determining when to persuade a client to follow our recommended path, and when to step back**, recognizing that the client may lack the resources or willingness to proceed. 
 
@@ -91,4 +91,4 @@ First and foremost, I am a father to two daughters, and I dedicate most of my fr
 
 <div className="image">![Right before the running race.](../../static/images/tomasz_running.png "Right before the running race.")</div>
 
-*Right before the running race.*
+*<center> Right before the running race. </center>*
