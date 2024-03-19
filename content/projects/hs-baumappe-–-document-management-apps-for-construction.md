@@ -48,15 +48,13 @@ published: true
 work_in_progress: false
 language: en
 ---
-<TitleWithIcon sectionTitle="skills" titleIcon="/images/skills.svg" titleIconAlt="skills" />
+<TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
 <Gallery images='[{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/new_logo_figma_stack.png","alt":"Figma"},{"src":"/images/github_stack_logo.png","alt":"Github"}]' />
 
-**iOS development**: SwiftUI + UIKit, Swiftgen, Apollo GraphQL, CoreData, SwiftLint, SwiftFormat, Sourcery, Bitrise.
+**technologies**: SwiftUI, Apollo GraphQL, CoreData, Sourcery, Bitrise, Jetpack Compose, Hilt, offline-first approach, Jira, Figma, GitHub Actions.
 
-**Android development**: Jetpack Compose, Kotlin Flows, Apollo GraphQL, WorkManager, Room, Hilt.
 
-**Project management & documentation**: Jira, Figma, Github, Notion, Miro, GitHub Actions. 
 
 <TitleWithIcon sectionTitle="about HS Baumappe" titleIcon="/images/icon_title_about.svg" titleIconAlt="bright" />
 
