@@ -99,9 +99,9 @@ const AuthorsSection = styled.article`
     span img,
     p img {
       will-change: transform;
-      transition: all .3s cubic-bezier(0.08, 0.635, 0.25, 0.995) 0s;
+      transition: transform .9s cubic-bezier(0.08, 0.635, 0.25, 0.995) 0s;
       &:hover {
-        transform: scale(1.05);
+        transform: scale(1.03);
       }
     }
     blockquote {
@@ -256,8 +256,8 @@ const Content = styled.div`
   font-size: 1.125rem;
   line-height: 2;
 
-  & .gatsby-resp-image-wrapper {
-    margin-bottom:  ${variables.pxToRem(8)};
+  & .image {
+    overflow: hidden;
   }
 `
 const PreviousButton = styled(Button)`
