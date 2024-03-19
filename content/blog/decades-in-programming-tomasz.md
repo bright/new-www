@@ -62,3 +62,7 @@ Every time I ventured into a new technology, it felt like encountering something
 Although I consider myself an introvert who masks it well, there was a point in my career when I became a team manager. Consequently, one of my responsibilities involved dealing with aspects of psychology in the workplace.
 
 Initially, **I made the mistake of trying to solve people's problems with my own prescriptions**. I attempted to offer advice based on my experiences, which was rather naive. At that time, I didn't understand much about human relations. **I thought that since I didn't have a particular problem, I could provide a magical recipe to solve others' issues**, believing my insights would make the world a better place. This approach was fundamentally flawed. I couldn't possibly understand other people's struggles thoroughly, and I definitely didn't have a monopoly solution to complex human issues.
+
+## As a tech lead at Bright Inventions, what is the most important aspect of this role?
+
+I think that the ability to view the product from a distance and see the whole picture is invaluable. **I strive to consider both the domain and business perspectives, with a key focus on ensuring that the architecture evolves alongside the product**. This approach makes the software easier to maintain. Thus, the primary rule is to **avoid creating technological debt, paving the way for a smoother future product growth**.
