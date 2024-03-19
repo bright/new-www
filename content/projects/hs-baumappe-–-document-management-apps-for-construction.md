@@ -62,8 +62,6 @@ Imagine stepping into the **bureaucratic world of construction site personnel**,
 
 <div className="image">![construction site](../../static/images/constructions.png "construction site")</div>
 
-
-
 <TitleWithIcon sectionTitle="solution: digital document sharing with a mobile app" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution" />
 
 Our client, Heinrich Schmid, is a building construction group, eagerly embracing digital transformation. **One of their goals was to manage the whole construction documentation** via smartphone or tablet and eliminate paper documentation. We were pleased to help them with this transition.
@@ -72,9 +70,10 @@ Our client, Heinrich Schmid, is a building construction group, eagerly embracing
 
 <div className="image">![Document Management Apps for Construction](../../static/images/app_mockups_dodocumenttion_management_apps.png "Mockup examples designed by Heinrich Schmid's Product Design Team.")</div>
 
-<center>Mockup examples designed by Heinrich Schmid's Product Design Team.</center>
+<center>Mockup examples designed by Heinrich Schmid's Product Design Team. </center>
+<br>
 
-**The initial phase involved launching the MVP – HS Baumappe iOS and Android applications** designed to facilitate the creation and sharing of documents among the construction crew, clients, and external contractors. Thanks to **sophisticated access management**, only employees with the appropriate credentials can access the various documents, significantly enhancing security and data protection.
+**The initial phase involved launching the MVP – HS Baumappe iOS and Android applications** designed to facilitate the creation and sharing of documents among the construction crew, clients, and external contractors. Thanks to sophisticated access management**, only employees with the appropriate credentials can access the various documents, significantly enhancing security and data protection.
 
 The client trusted us to choose the most optimal solutions, therefore we use top tools such as **SwiftUI or Jetpack Compose highly recommended by Apple and Android**.
 
