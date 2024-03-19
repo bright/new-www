@@ -6,6 +6,8 @@ imagejob: /images/fullstackteam_job_offer.png
 image-alt-job: Devs Team Bright Inventions
 hours: full-time
 salary: 20 000 - 24 000 PLN + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
+salary_min: 16600
+salary_max: 24000
 working time: full time
 technology:
   - TypeScript
@@ -30,26 +32,26 @@ image_recruiter_info: /images/sara-bright-recruiter.png
 image_alt_recruiter_info: Sara Łęcka - Junior Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/saralecka/
 button: "join our TypeScript team "
-published: true
+published: false
 show_recruiter_info: false
 order: 1
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
 ---
-## who we are
+## who we are 🧑🏻‍💻👩🏻‍💻
 
 At Bright Inventions you'll be an important part of a group of talented, ambitious and positive developers, designers, managers and marketers who love to solve real problems and build software that really matters in today’s world. 
 
 We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously. 
 
-## about the role
+## about the role and project 🚀🚀🚀
 
-We are looking now for a Fullstack Developer who has already had experience with TypeScript, Angular, React and Node.js and would like to work with our experienced and ambitious development team. What counts is your positive mindset, analytical thinking ability as well as communication skills.
+We are looking now for a Senior Fullstack Developer who has already had experience with TypeScript, Angular, React and Node.js and would like to work with our experienced and ambitious development team. What counts is your positive mindset, analytical thinking ability as well as communication skills.
 
-??????????
+The application is **a new next generation passwordless authentication service that is used by millions of users worldwide, on a daily basis.** It is working on identity protection by using the latest trends in biometric technology, thanks to that users can gain access to accounts with just one touch. 
 
-## preferred qualifications and skills
+## preferred skills and qualifications ✅
 
 * at least 3-4 years of commercial programming experience
 * solid working knowledge of TypeScript/JavaScript
