@@ -31,6 +31,8 @@ Later I even got a chance to live in the U.S for 18 months as an Oracle employee
 
 Eventually, I left the corporate world but I still cooperated closely with enterprises as a business partner by **starting my company and employing a few people to digitize clients' processes**. One noteworthy project we undertook was the digitalization of welding processes. **We developed an IoT system that modernized welding operations for a chemical engineering company**.
 
+<div class='block-button'><h2>work with Tomasz</h2><div>We are looking for experienced and passionate backend developers. Explore our job offers!</div><a href="/career/"><button>check our job opportunities</button></a></div>
+
 ## Welding and programming? How come?
 
 It might seem like an unlikely combination at first. Indeed, when we embarked on this project, my knowledge of welding was as basic as most people's. Welding, particularly for critical structures like ships, and fuel tanks demands extensive documentation due to the legal responsibilities shouldered by the individuals involved. **A mistake in the welding process can potentially compromise the integrity of a ship or a tank, posing a direct threat to lives**. 
