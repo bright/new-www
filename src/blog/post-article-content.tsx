@@ -99,9 +99,9 @@ const AuthorsSection = styled.article`
     span img,
     p img {
       will-change: transform;
-      transition: all 1.2s cubic-bezier(0.08, 0.635, 0.25, 0.995) 0s;
+      transition: transform .9s cubic-bezier(0.08, 0.635, 0.25, 0.995) 0s;
       &:hover {
-        transform: scale(1.05);
+        transform: scale(1.02);
       }
     }
     blockquote {
@@ -255,6 +255,10 @@ const Content = styled.div`
   font-weight: normal;
   font-size: 1.125rem;
   line-height: 2;
+
+  & .image {
+    overflow: hidden;
+  }
 `
 const PreviousButton = styled(Button)`
   display: flex;
