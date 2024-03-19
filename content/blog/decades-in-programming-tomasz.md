@@ -46,3 +46,7 @@ Our role encompassed **integrating hardware** delivered by another company into 
 It might surprise you that there are numerous types of welding, and **our solution was specifically tailored for Metal Inert Gas (MIG) welding**. I remember **diving into a thick book on the subject** to grasp the complexities involved. Apart from that, **I visited the client’s R&D center and had access to their experts at any moment**. 
 
 Additionally, **I attended various conferences for the welding community**, where I met many individuals who were deeply passionate about welding. These enthusiasts could discuss the images of welds for hours. While every industry has its 'fanatics', encountering such dedicated people was genuinely intriguing.
+
+## From the corporation world to a smaller company like Bright Inventions. How do you find yourself here?
+
+I appreciate the absence of a corporate vibe here. With around 80 people on board, the company is the perfect size for me – not too small, not too big. **Everyone possesses high-quality skills and expertise**. I love how **every team member feels responsible for their project and even for the whole company**. The atmosphere is something I truly enjoy. Although **I work mostly remotely from Poznań, whenever I attend team retreats in Gdańsk, I feel well taken care of by teammates** who always make me feel welcome.
