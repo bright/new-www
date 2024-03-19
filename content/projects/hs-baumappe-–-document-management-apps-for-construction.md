@@ -10,24 +10,26 @@ our_service:
   - mobile app development
 layout: project
 project_id: HS-Baumappe
-title: HS Baumappe – Document Management Apps for Construction
+title: "Navigating Digital Transformation at Construction Sites: Heinrich
+  Schmid's Doc-Sharing App"
 image: /images/case_study-cover_hs_baumappe.png
-description: Now construction site personnel can create documents and share them
-  with coworkers and clients. Even offline, then sync them later. All they need
-  is a smartphone.
+description: The Heinrich Schmid Group is a distinguished provider of
+  construction services, with a rich history spanning over 110 years. With such
+  strong foundations, the group has consistently grown aligning closely with the
+  path of digital transformation. We have helped Heinrich Schmid digitize their
+  daily operations on its construction sites by developing a robust HS Baumappe
+  mobile application.
 hero_image: /images/baumappe_case_study_construction.png
 Hero Image_alt: Document Management Apps for Construction
 social_media_previev: /images/fb_preview-case-study.png
 social_media_previev_alt: HS Baumappe – Document Management Apps for Construction
 bar_achievements:
-  - number: "2"
-    label: 2 mobile apps
+  - number: 110+
+    label: Years in the market
+  - number: 2+
+    label: Years of collaboration
   - number: "5"
-    label: team members
-  - number: "1"
-    label: MVP
-  - number: "27"
-    label: sprints
+    label: Team members
 tags:
   - mobile app
   - customized software
