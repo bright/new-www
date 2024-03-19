@@ -54,13 +54,11 @@ language: en
 
 **technologies**: SwiftUI, Apollo GraphQL, CoreData, Sourcery, Bitrise, Jetpack Compose, Hilt, offline-first approach, Jira, Figma, GitHub Actions.
 
+<TitleWithIcon sectionTitle="problem: site construction staff overloaded with paper documentation" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
+Imagine stepping into the **bureaucratic world of construction site personnel**, where every day is a navigation through a sea of paperwork. Employees need access to a collection of documents, from architectural plans, site photographs to daily reports, timesheets, and others. Additionally, they generate numerous documents on-site, adding to the already substantial pile of documentation.
 
-<TitleWithIcon sectionTitle="about HS Baumappe" titleIcon="/images/icon_title_about.svg" titleIconAlt="bright" />
-
-HS Baumappe are **offline-first iOS and Android native applications** built for German company **Heinrich Schmid**, representing the construction sector. 
-
-Mobile applications have been developed for clients’ employees who work on construction sites. The apps enable the creation and sharing of documents among the construction crew with clients and external contractors.
+**What if all this paperwork were just one click away on a smartphone or tablet?** Critical documents would no longer be misplaced or damaged at construction sites, and access to sensitive information would be limited to individuals with the appropriate credentials.
 
 <TitleWithIcon sectionTitle="the goal of the solution" titleIcon="/images/icon_title_goal.svg" titleIconAlt="the goal of the solution" />
 
