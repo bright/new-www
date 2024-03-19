@@ -70,9 +70,9 @@ Our client, Heinrich Schmid, is a building construction group, eagerly embracing
 
 <div className="image">![Document Management Apps for Construction](../../static/images/app_mockups_dodocumenttion_management_apps.png "Mockup examples designed by Heinrich Schmid's Product Design Team.")</div>
 
-Mockup examples designed by Heinrich Schmid's Product Design Team.  
+<center> Mockup examples designed by Heinrich Schmid's Product Design Team.  </center>
 
-**The initial phase involved launching the MVP – HS Baumappe iOS and Android applications** designed to facilitate the creation and sharing of documents among the construction crew, clients, and external contractors. Thanks to sophisticated access management**, only employees with the appropriate credentials can access the various documents, significantly enhancing security and data protection.
+**The initial phase involved launching the MVP – HS Baumappe iOS and Android applications** designed to facilitate the creation and sharing of documents among the construction crew, clients, and external contractors. Thanks to sophisticated access management, only employees with the appropriate credentials can access the various documents, significantly enhancing security and data protection.
 
 The client trusted us to choose the most optimal solutions, therefore we use top tools such as **SwiftUI or Jetpack Compose highly recommended by Apple and Android**.
 
