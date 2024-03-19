@@ -50,7 +50,7 @@ language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
-<Gallery images='[{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/new_logo_figma_stack.png","alt":"Figma"},{"src":"/images/github_stack_logo.png","alt":"Github"}]' />
+<Gallery images='[{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/new_logo_figma_stack.png","alt":"Figma"},{"src":"/images/github_stack_logo.png","alt":"Github"},{"src":"/images/jetpackcompose.svg","alt":"jetpack compose"}]' />
 
 **technologies**: SwiftUI, Apollo GraphQL, CoreData, Sourcery, Bitrise, Jetpack Compose, Hilt, offline-first approach, Jira, Figma, GitHub Actions.
 
@@ -70,7 +70,7 @@ Our client, Heinrich Schmid, is a building construction group, eagerly embracing
 
 <div className="image">![Document Management Apps for Construction](../../static/images/app_mockups_dodocumenttion_management_apps.png "Mockup examples designed by Heinrich Schmid's Product Design Team.")</div>
 
-<center> Mockup examples designed by Heinrich Schmid's Product Design Team.  </center>
+Mockup examples designed by Heinrich Schmid's Product Design Team.  
 
 **The initial phase involved launching the MVP – HS Baumappe iOS and Android applications** designed to facilitate the creation and sharing of documents among the construction crew, clients, and external contractors. Thanks to sophisticated access management, only employees with the appropriate credentials can access the various documents, significantly enhancing security and data protection.
 
