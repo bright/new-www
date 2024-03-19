@@ -52,3 +52,7 @@ Additionally, **I attended various conferences for the welding community**, wher
 I appreciate the absence of a corporate vibe here. With around 80 people on board, the company is the perfect size for me – not too small, not too big. **Everyone possesses high-quality skills and expertise**. I love how **every team member feels responsible for their project and even for the whole company**. The atmosphere is something I truly enjoy. Although **I work mostly remotely from Poznań, whenever I attend team retreats in Gdańsk, I feel well taken care of by teammates** who always make me feel welcome.
 
 <div className="image">![During a team retreat.](../../static/images/malgosia_team_retreat_forest.png "During a team retreat.")</div>
+
+## Having spent decades in the IT industry, what experiences do you consider the most valuable?
+
+Every time I ventured into a new technology, it felt like encountering something magnificent; I definitely have relished the experience of discovering new tech. However, **the greatest experience by far was meeting diverse people and learning how to collaborate with them**.
