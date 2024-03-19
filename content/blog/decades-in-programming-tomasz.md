@@ -38,3 +38,11 @@ It might seem like an unlikely combination at first. Indeed, when we embarked on
 **We developed software integrated with various devices and sensors to measure critical factors** such as temperature, ambient conditions, and weld intensity to **ensure the highest quality of welding**. This approach was significantly more efficient than the previously used ultrasonography for weld inspection. Thanks to the comprehensive data our system collected, **the welding team could definitively demonstrate compliance with all requirements**.
 
 <div className="image">![ Wearing a welding helmet.](../../static/images/tomasz_welding.png " Wearing a welding helmet.")</div>
+
+Our role encompassed **integrating hardware** delivered by another company into our system, **developing the firmware, selecting appropriate sensors, and delivering software** that unified these components into a cohesive IoT solution.
+
+## How did you learn the welding domain?
+
+It might surprise you that there are numerous types of welding, and **our solution was specifically tailored for Metal Inert Gas (MIG) welding**. I remember **diving into a thick book on the subject** to grasp the complexities involved. Apart from that, **I visited the client’s R&D center and had access to their experts at any moment**. 
+
+Additionally, **I attended various conferences for the welding community**, where I met many individuals who were deeply passionate about welding. These enthusiasts could discuss the images of welds for hours. While every industry has its 'fanatics', encountering such dedicated people was genuinely intriguing.
