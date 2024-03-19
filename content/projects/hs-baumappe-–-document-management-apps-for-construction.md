@@ -88,14 +88,6 @@ Internet access is typically unreliable at construction sites. Therefore from th
 
 <center>Mockup example designed by Heinrich Schmid's Product Design Team.</center>
 
-
-
-<div className="image">![app baumappe mockup](../../static/images/app_baumappe_mockups.png "Mockup example designed by Heinrich Schmid's Product Design Team.")</div>
-
-<center>Mockup example designed by Heinrich Schmid's Product Design Team.</center>
-
-
-
 <TitleWithIcon sectionTitle="client’s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="client’s perspective" />
 
 *The collaboration with Bright Inventions started off very promising. Based on our business needs, **they gave great architectural advice, important technical information, and overall good guidance**, which allowed an ambitious start into the project.*
