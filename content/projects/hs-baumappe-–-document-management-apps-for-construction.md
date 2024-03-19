@@ -21,7 +21,7 @@ description: The Heinrich Schmid Group is a distinguished provider of
   mobile application.
 hero_image: /images/baumappe_case_study_construction.png
 Hero Image_alt: Document Management Apps for Construction
-social_media_previev: /images/fb_preview-case-study.png
+social_media_previev: /images/fb_preview-case-study_constructions.png
 social_media_previev_alt: HS Baumappe – Document Management Apps for Construction
 bar_achievements:
   - number: 110+
