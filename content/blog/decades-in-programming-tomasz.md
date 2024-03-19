@@ -3,8 +3,8 @@ author: tomasz-k
 secondAuthor: izabela
 tags:
   - bright story
-date: 2024-03-19T09:34:19.655Z
-meaningfullyUpdatedAt: 2024-03-19T09:34:19.679Z
+date: 2024-03-19T11:14:31.260Z
+meaningfullyUpdatedAt: 2024-03-19T11:14:32.471Z
 title: Decades in Programming Guided by Intuition. Meet Tomasz
 layout: post
 image: /images/brightstorytomaszk.png
