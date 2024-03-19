@@ -99,7 +99,7 @@ const AuthorsSection = styled.article`
     span img,
     p img {
       will-change: transform;
-      transition: all 1.2s cubic-bezier(0.08, 0.635, 0.25, 0.995) 0s;
+      transition: all .3s cubic-bezier(0.08, 0.635, 0.25, 0.995) 0s;
       &:hover {
         transform: scale(1.05);
       }
@@ -255,6 +255,10 @@ const Content = styled.div`
   font-weight: normal;
   font-size: 1.125rem;
   line-height: 2;
+
+  & .gatsby-resp-image-wrapper {
+    margin-bottom:  ${variables.pxToRem(8)};
+  }
 `
 const PreviousButton = styled(Button)`
   display: flex;
