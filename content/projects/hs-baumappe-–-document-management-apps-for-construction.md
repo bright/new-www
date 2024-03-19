@@ -60,6 +60,8 @@ Imagine stepping into the **bureaucratic world of construction site personnel**,
 
 **What if all this paperwork were just one click away on a smartphone or tablet?** Critical documents would no longer be misplaced or damaged at construction sites, and access to sensitive information would be limited to individuals with the appropriate credentials.
 
+<div className="image">![construction site](../../static/images/constructions.png "construction site")</div>
+
 <TitleWithIcon sectionTitle="the goal of the solution" titleIcon="/images/icon_title_goal.svg" titleIconAlt="the goal of the solution" />
 
 The ultimate goal of the solution is to **manage the whole construction documentation via smartphone or tablet and eliminate paper documentation**.
