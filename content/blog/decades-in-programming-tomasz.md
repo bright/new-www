@@ -39,6 +39,8 @@ It might seem like an unlikely combination at first. Indeed, when we embarked on
 
 <div className="image">![ Wearing a welding helmet.](../../static/images/tomasz_welding.png " Wearing a welding helmet.")</div>
 
+*Wearing a welding helmet.*
+
 Our role encompassed **integrating hardware** delivered by another company into our system, **developing the firmware, selecting appropriate sensors, and delivering software** that unified these components into a cohesive IoT solution.
 
 ## How did you learn the welding domain?
@@ -52,6 +54,8 @@ Additionally, **I attended various conferences for the welding community**, wher
 I appreciate the absence of a corporate vibe here. With around 80 people on board, the company is the perfect size for me – not too small, not too big. **Everyone possesses high-quality skills and expertise**. I love how **every team member feels responsible for their project and even for the whole company**. The atmosphere is something I truly enjoy. Although **I work mostly remotely from Poznań, whenever I attend team retreats in Gdańsk, I feel well taken care of by teammates** who always make me feel welcome.
 
 <div className="image">![During a team retreat.](../../static/images/malgosia_team_retreat_forest.png "During a team retreat.")</div>
+
+*During a team retreat.*
 
 ## Having spent decades in the IT industry, what experiences do you consider the most valuable?
 
@@ -74,3 +78,15 @@ I believe **I have an intuition that guides me in determining when to persuade a
 It's crucial to choose our ‘battles’ wisely. **Given that our clients trust us, when we emphasize the necessity of certain implementations, they are likely to listen**. However, it's equally important to ensure that the development schedule is followed. This means that we must deliver value even if it occasionally requires postponing some code modernizations. **Clients are primarily focused on the product's growth rather than perfect code**. Therefore, addressing technical debt cannot always be our top priority.
 
 <div className="image">![Quote](../../static/images/tomaszk_quote_perfect_code.png "Quote")</div>
+
+## How do you handle the diversity of opinion in the team in terms of choosing solution A or B?
+
+When it comes to choosing between solutions, we engage in debate. If I hold a particular view, I'll take a side. **I believe that to advocate for a solution, one must be able to convincingly explain its merits**; it's insufficient to prefer an option just because it's personally favored. The whole team must weigh the pros and cons together, presenting our arguments to reach a final decision. If we're uncertain about the best choice, we opt for the 'lesser evil'. **I find beauty in this process of argumentation, as every team member is encouraged to share their perspective**.
+
+## What do you do after hours?
+
+First and foremost, I am a father to two daughters, and I dedicate most of my free time to them. Aside from family time, **I try to find moments for running, and I've recently delved into music production**. Specifically, **I'm exploring DAWless music creation**, which involves making electronic music without a computer, using synthesizers instead. In January, I made my stage debut, improvising live at a club in Poznań. While I'm quite new to this, it's incredibly thrilling.
+
+<div className="image">![Right before the running race.](../../static/images/tomasz_running.png "Right before the running race.")</div>
+
+*Right before the running race.*
