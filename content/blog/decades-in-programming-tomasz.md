@@ -55,4 +55,10 @@ I appreciate the absence of a corporate vibe here. With around 80 people on boar
 
 ## Having spent decades in the IT industry, what experiences do you consider the most valuable?
 
-Every time I ventured into a new technology, it felt like encountering something magnificent; I definitely have relished the experience of discovering new tech. However, **the greatest experience by far was meeting diverse people and learning how to collaborate with them**.
+Every time I ventured into a new technology, it felt like encountering something magnificent; I definitely have relished the experience of discovering new tech. However, **the greatest experience by far was meeting diverse people and learning how to collaborate with them**. 
+
+<div className="image">![Quote](../../static/images/tomaszk_quote_people.png "Quote")</div>
+
+Although I consider myself an introvert who masks it well, there was a point in my career when I became a team manager. Consequently, one of my responsibilities involved dealing with aspects of psychology in the workplace.
+
+Initially, **I made the mistake of trying to solve people's problems with my own prescriptions**. I attempted to offer advice based on my experiences, which was rather naive. At that time, I didn't understand much about human relations. **I thought that since I didn't have a particular problem, I could provide a magical recipe to solve others' issues**, believing my insights would make the world a better place. This approach was fundamentally flawed. I couldn't possibly understand other people's struggles thoroughly, and I definitely didn't have a monopoly solution to complex human issues.
