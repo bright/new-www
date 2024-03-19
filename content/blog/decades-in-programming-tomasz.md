@@ -66,3 +66,11 @@ Initially, **I made the mistake of trying to solve people's problems with my own
 ## As a tech lead at Bright Inventions, what is the most important aspect of this role?
 
 I think that the ability to view the product from a distance and see the whole picture is invaluable. **I strive to consider both the domain and business perspectives, with a key focus on ensuring that the architecture evolves alongside the product**. This approach makes the software easier to maintain. Thus, the primary rule is to **avoid creating technological debt, paving the way for a smoother future product growth**.
+
+## How to find the balance between tech ambitions and business requirements? 
+
+I believe **I have an intuition that guides me in determining when to persuade a client to follow our recommended path, and when to step back**, recognizing that the client may lack the resources or willingness to proceed. 
+
+It's crucial to choose our ‘battles’ wisely. **Given that our clients trust us, when we emphasize the necessity of certain implementations, they are likely to listen**. However, it's equally important to ensure that the development schedule is followed. This means that we must deliver value even if it occasionally requires postponing some code modernizations. **Clients are primarily focused on the product's growth rather than perfect code**. Therefore, addressing technical debt cannot always be our top priority.
+
+<div className="image">![Quote](../../static/images/tomaszk_quote_perfect_code.png "Quote")</div>
