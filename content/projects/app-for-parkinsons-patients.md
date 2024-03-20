@@ -58,7 +58,7 @@ Our long-time partner from Germany (a digital agency and early-stage project inc
 
 Before reaching out to us, our client had already designed a high-fidelity wireframe of the user interface. Consequently, they needed a technological partner to take ownership of the software development process. And so, **Bright Inventions was entrusted with the implementation of the entire system** - the development of two apps (iOS and Android), as well as the entire backend.
 
-The app functioned as a personal digital diary for individuals with Parkinson's disease, allowing users to log their symptoms and monitor their medication intake. I**ts primary aim was to observe the body's reaction to therapies, aiding patients and healthcare professionals in managing the condition**. The app provided advanced analytics for physicians to better understand patient conditions.
+The app functioned as a personal digital diary for individuals with Parkinson's disease, allowing users to log their symptoms and monitor their medication intake. **Its primary aim was to observe the body's reaction to therapies, aiding patients and healthcare professionals in managing the condition**. The app provided advanced analytics for physicians to better understand patient conditions.
 
 ![App for Parkinson's Patients](../../static/images/app_for_parkinson_patients3.png)
 
