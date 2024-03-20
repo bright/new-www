@@ -79,7 +79,7 @@ One of the security tactics we implemented was **breaking down the encrypted dat
 
 <TitleWithIcon sectionTitle="the result: MVP in three months" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
-After three months, we successfully delivered the MVP of the solution, followed by overseeing several iterations of the system to enhance its functionality. This project is an example of an inclusive patient engagement app designed to support chronically ill patients, regardless of their age or technical proficiency. It’s great to be a part of this MVP’s story!
+After three months, **we successfully delivered the MVP of the solution**, followed by overseeing several iterations of the system to enhance its functionality. **This project is an example of an inclusive patient engagement app designed to support chronically ill patients, regardless of their age or technical proficiency**. It’s great to be a part of this MVP’s story!
 
 ![App for Parkinson's Patients](../../static/images/app_for_parkinson_patients4.png)
 
