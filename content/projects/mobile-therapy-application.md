@@ -53,19 +53,19 @@ language: en
 
 <TitleWithIcon sectionTitle="problem: short and infrequent psychotherapy visits" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
-Physiotherapy plays a crucial role in supporting successful recovery after discharge from hospital care. It’s also an effective tool for reducing the negative impacts of desk-bound work or sports injuries.
+Physiotherapy plays a crucial role in s**upporting successful recovery after discharge** from hospital care. It’s also an effective tool for **reducing the negative impacts of desk-bound work or sports injuries**.
 
 <div className="image">![physiotherapy](../../static/images/physiotherapy.png "physiotherapy")</div>
 
-One of the recoveries physiotherapy can deeply influence is post-stroke care. Globally, cardiovascular disease remains the leading cause of death, with stroke being a significant contributor. Physiotherapy can start as early as 24 hours following a stroke. Unfortunately, in many cases, patients do not receive physiotherapy as promptly or as frequently as they should. The critical window for maximizing recovery post-stroke is narrow, and once it closes, the optimal recovery is almost impossible.
+One of the recoveries physiotherapy can deeply influence is post-stroke care. Globally, cardiovascular disease remains the leading cause of death, with stroke being a significant contributor. **Physiotherapy can start as early as 24 hours following a stroke**. **Unfortunately, in many cases, patients do not receive physiotherapy as promptly or as frequently as they should**. The critical window for maximizing recovery post-stroke is narrow, and once it closes, the optimal recovery is almost impossible.
 
-No matter the condition a patient has, short and infrequent psychotherapy visits probably won't solve their issues. The key is to continue the work at home. What if technology could support patients and therapists to harness the potential of physiotherapy by motivating patients to exercise at home and streamlining therapists' workflows to give them more time for personalized patient care?
+No matter the condition a patient has, **short and infrequent psychotherapy visits probably won't solve their issues**. The key is to continue the work at home. **What if technology could support patients and therapists to harness the potential of physiotherapy** by motivating patients to exercise at home and streamlining therapists' workflows to give them more time for personalized patient care?
 
 ![Mobile Therapy App](../../static/images/mobile_therapy_app2.jpg)
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-<TitleWithIcon sectionTitle="goal" titleIcon="/images/goal_title_section.png" titleIconAlt="goal" />
+<TitleWithIcon sectionTitle="solution: mobile app engaging physiotherapy patients" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution" />
 
 Our client, a product design agency and an early-stage project incubator, has turned to us with a ready-to-implement idea for an app. Before reaching out to Bright Inventions, they had already spent months validating their concept by observing physiotherapy sessions. This resulted in a comprehensive plan for an app that would solve the biggest challenges patients and therapists face.
 
