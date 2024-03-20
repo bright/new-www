@@ -49,11 +49,15 @@ language: en
 
 
 
+<TitleWithIcon sectionTitle="problem – lack of an easy way to daily manage the disease" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+
+Only in the U.S. each year, about [90,000](https://www.parkinson.org/understanding-parkinsons/statistics) people are diagnosed with Parkinson's disease. Living with a chronic illness like Parkinson’s imposes many lifestyle changes on the patient. For those battling the disease, it is crucial to have a way to easily track their overall vitals, medicine intake, or note any symptoms that need to be brought to doctors’ attention.
 
 
-<TitleWithIcon sectionTitle="about the app" titleIcon="/images/three_flags.svg" titleIconAlt="about" />
 
-Living with a chronic illness like Parkinson’s imposes many lifestyle changes on the patient. For those battling the disease, it is crucial that they have a way to easily track their overall vitals, medicine intake, or note any symptoms that need to be brought to their doctors’ attention.
+
+
+
 
 <TitleWithIcon sectionTitle="goal" titleIcon="/images/goal_title_section.png" titleIconAlt="goal" />
 
