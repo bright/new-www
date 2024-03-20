@@ -65,8 +65,6 @@ No matter the condition a patient has, **short and infrequent psychotherapy visi
 
 ![Mobile Therapy App](../../static/images/mobile_therapy_app2.jpg)
 
-<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
-
 On the patient profile, one could download the therapy plan, as well as use the app daily for exercise and progress tracking. **The patient’s app also featured reminders and thanks to gamification, motivated the patient to continue on their path to recovery** by displaying therapy statistics.
 
 **The therapist panel was more sophisticated**. Firstly, it needed to allow therapists to customize plans for each patient. **The specialist could quickly make photos or videos of patients performing the exercises** and upload them to an individual patient profile, so the patient could then correctly perform the exercises at home without worrying about remembering them correctly. Therapists could also plan out exercise sessions on a calendar and include information on the number of circuits per exercise as well as other important recommendations.
@@ -78,12 +76,12 @@ Given that physiotherapists already had minimal time allocated per patient, we a
 
 ![Mobile Therapy App](../../static/images/mobile_therapy_app3.jpg)
 
-<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
-
 Another challenge we faced collaboratively with our client was **finding the most user-friendly way to introduce the app to patients**. As visits tend to be very short, it was crucial that the therapist and patients would be able to link their accounts in the app quickly. Naturally, only some patients already had the app when they came in, and not everyone felt comfortable with using new technologies. Low levels of tech-savviness meant it was difficult for them to download the app during the session, register an account, and – most importantly – link their profiles with those of therapists. Also, it would mean that the precious time meant for the therapy would be taken away for dealing with the new app installation.
 
 **We solved the problem by automating the linking of patient-therapist profiles through a previously generated codes**. Therefore, the therapist could print the codes, and simply give it to the patients at the end of the session. This enabled patients to link their accounts from the comfort of their homes after the physiotherapy session was over. By inserting the code in the app, they were able to download the prescribed exercise plan.
 
 <TitleWithIcon sectionTitle="result of collaboration: delivering a robust MVP" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
-We delivered the Minimum Viable Product (MVP) within a six-month timeframe. Subsequently, our client opted for an external audit of the project's technical aspects, which was successfully passed. The solution has expanded, changing the physiotherapy experience for individuals across Germany. We are thrilled to contribute to the digitalization of traditional psychotherapy.
+We delivered the Minimum Viable Product (MVP) within a six-month timeframe. Subsequently, our client opted for an external audit of the project's technical aspects, which was successfully passed. The solution has expanded, changing the physiotherapy experience for individuals across Germany. We are thrilled to contribute to the digitalization of traditional psychotherapy.  
+
+<sub>*Presented mockups are not real implemented design. Mockups were created for the purpose of case study.*</sub>
