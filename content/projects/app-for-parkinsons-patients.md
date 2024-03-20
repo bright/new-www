@@ -60,7 +60,7 @@ The app functioned as a personal digital diary for individuals with Parkinson's 
 
 ![App for Parkinson's Patients](../../static/images/app_for_parkinson_patients3.png)
 
-<TitleWithIcon sectionTitle="challenges: inclusive AI and securing medical data" titleIcon="/images/gearwheel.svg" titleIconAlt="challenges" />
+<TitleWithIcon sectionTitle="challenges: inclusive design and securing medical data" titleIcon="/images/gearwheel.svg" titleIconAlt="challenges" />
 
 From the beginning, we understood that **the key element of the solution must have been inclusive and empathic UX/UI design**. The app had to be **friendly in use for patients suffering from tremors** or other movement disorders. Also, as the elderly constitute the majority of patients suffering from Parkinson’s, **the challenge was to deliver a legible, highly intuitive interface that would minimize the chances of mistake**s. If an accidental input were to take place, though, the interface also needed to allow the option to undo the action.
 
