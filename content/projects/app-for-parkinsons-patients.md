@@ -13,7 +13,7 @@ description: From the idea to the patient engagement solution in 3 months.
   monitoring their symptoms.
 hero_image: /images/case_study_app_parkinson_patients_app.png
 Hero Image_alt: App for patients suffering from Parkinson’s disease
-social_media_previev: /images/fb_preview_case_study_parkinson_app_en.png
+social_media_previev: /images/preview_case_study_parkinson_disease_app.png
 social_media_previev_alt: App for people with Parkinson's patients case study
 bar_achievements:
   - number: 90,000
