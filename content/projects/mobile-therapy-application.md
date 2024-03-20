@@ -15,7 +15,7 @@ description: Physiotherapy holds the transformative power to improve lives,
   recovery.
 hero_image: /images/case_study_ehealth_mobile_app.png
 Hero Image_alt: Therapy app
-social_media_previev: /images/therapy_fb_preview.png
+social_media_previev: /images/fb_preview_case_study_physiotherapy_app.png
 social_media_previev_alt: Mobile Therapy App case study
 bar_achievements:
   - number: 24h
