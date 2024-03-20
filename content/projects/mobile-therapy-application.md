@@ -32,7 +32,7 @@ title_team: team
 title_case_study: more success stories
 title_contact: let’s talk about your product
 description_contact: Contact us and we'll get back in 48 hours.
-order: 99
+order: 6
 slug: mobile-therapy-application
 show_team: false
 show_case_study: true
