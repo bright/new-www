@@ -1,6 +1,6 @@
 ---
 layout: job
-title: "Senior Fullstack Developer (Angular + React + Node.js) "
+title: "Senior Fullstack Developer "
 subtitle: OPEN
 imagejob: /images/fullstackteam_job_offer.png
 image-alt-job: Devs Team Bright Inventions
