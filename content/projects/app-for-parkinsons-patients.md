@@ -41,23 +41,15 @@ published: true
 work_in_progress: false
 language: en
 ---
-<TitleWithIcon sectionTitle="main features developed by Bright Inventions" titleIcon="/images/main_features_icon.png" titleIconAlt="features" />
+<TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
-* Tracking physical response to standard and experimental therapy
-* Medication reminder
-* Accessibility – an easy way of adding medical information by patients with movement disorders
-* Advances statistics and reports for physicians
-* Gamification of the app
+<Gallery images='[{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/node_stack_logosvg.svg","alt":"Node.js"},{"src":"/images/case-study_typescript_stack-logo.svg","alt":"TypeScript"},{"src":"/images/aws_stack_logo.svg","alt":"AWS"}]' />
 
-<TitleWithIcon sectionTitle="skills" titleIcon="/images/skills.svg" titleIconAlt="bright" />
+**technologies**: Swift, Kotlin, Node.js, Typescript, AWS
 
-<Gallery images='[{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"}]' />
 
-iOS: Swift, RxSwift, Alamofire
 
-Android: Kotlin, RxKotlin, Dagger, Retrofit
 
-Backend: Node.js, Typescript, PostgreSQL, AWS Services
 
 <TitleWithIcon sectionTitle="about the app" titleIcon="/images/three_flags.svg" titleIconAlt="about" />
 
