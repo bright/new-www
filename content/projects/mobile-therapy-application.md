@@ -41,22 +41,25 @@ published: true
 work_in_progress: false
 language: en
 ---
-
-
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
-
-
 
 <Gallery images='[{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/node.png","alt":"node.js"},{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/react.png","alt":"React"}]' />
 
 **technologies:** Swift, Kotlin, Node.js, Typescript, AWS, React
 
-<TitleWithIcon sectionTitle="intro" titleIcon="/images/three_flags.svg" titleIconAlt="intro" />
 
-At some point in our lives, either we ourselves or our loved ones will require physiotherapy to get back on our feet. However, there are many factors that influence whether this will be a stress-free and effective process.\
-With this in mind, our client created an app that supports therapists and patients on their way to a fast (and lasting!) recovery.
+
+<TitleWithIcon sectionTitle="problem: short and infrequent psychotherapy visits" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+
+Physiotherapy plays a crucial role in supporting successful recovery after discharge from hospital care. It’s also an effective tool for reducing the negative impacts of desk-bound work or sports injuries.
+
+<div className="image">![physiotherapy](../../static/images/physiotherapy.png "physiotherapy")</div>
+
+One of the recoveries physiotherapy can deeply influence is post-stroke care. Globally, cardiovascular disease remains the leading cause of death, with stroke being a significant contributor. Physiotherapy can start as early as 24 hours following a stroke. Unfortunately, in many cases, patients do not receive physiotherapy as promptly or as frequently as they should. The critical window for maximizing recovery post-stroke is narrow, and once it closes, the optimal recovery is almost impossible.
+
+No matter the condition a patient has, short and infrequent psychotherapy visits probably won't solve their issues. The key is to continue the work at home. What if technology could support patients and therapists to harness the potential of physiotherapy by motivating patients to exercise at home and streamlining therapists' workflows to give them more time for personalized patient care?
 
 ![Mobile Therapy App](../../static/images/mobile_therapy_app2.jpg)
 
