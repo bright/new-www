@@ -23,7 +23,7 @@ bar_achievements:
   - number: "3"
     label: Months to MVP launch
   - number: "2"
-    label: 2 iOS and Android apps
+    label: iOS and Android apps
 tags:
   - mobile app
   - MVP
