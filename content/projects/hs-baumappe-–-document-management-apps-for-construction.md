@@ -50,7 +50,7 @@ language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
-<Gallery images='[{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/new_logo_figma_stack.png","alt":"Figma"},{"src":"/images/github_stack_logo.png","alt":"Github"},{"src":"/images/jetpackcompose.svg","alt":"jetpack compose"}]' />
+<Gallery images='[{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/new_logo_figma_stack.png","alt":"Figma"},{"src":"/images/github_stack_logo.png","alt":"Github"},{"src":"/images/jetpackcompose.svg","alt":"jetpack compose"}]' />
 
 **technologies**: SwiftUI, Apollo GraphQL, CoreData, Sourcery, Bitrise, Jetpack Compose, Hilt, offline-first approach, Jira, Figma, GitHub Actions.
 
