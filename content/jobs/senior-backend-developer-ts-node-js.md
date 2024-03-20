@@ -31,7 +31,7 @@ image_recruiter_info: /images/sara-bright-recruiter.png
 image_alt_recruiter_info: Sara - a Junior Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/saralecka/
 button: join our bright team
-published: true
+published: false
 show_recruiter_info: true
 order: 1
 recruting_image2_title: interview (technical part & non-technical part)
