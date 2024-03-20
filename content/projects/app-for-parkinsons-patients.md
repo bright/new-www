@@ -4,6 +4,7 @@ team_members:
 our_service:
   - MVP development
   - mobile app development
+  - healthcare software development
 layout: project
 project_id: solution-parkinson
 title: "Supporting People with Parkinson's Disease – MVP story "
