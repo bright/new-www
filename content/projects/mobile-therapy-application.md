@@ -41,15 +41,11 @@ published: true
 work_in_progress: false
 language: en
 ---
-<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
-
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
 <Gallery images='[{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/node_stack_logosvg.svg","alt":"node.js"},{"src":"/images/postgresql_logo_stack_update.svg","alt":"PostgreSQL"},{"src":"/images/aws_stack_logo.svg","alt":"AWS"},{"src":"/images/react_stack_logo.svg","alt":"React"}]' />
 
 **technologies:** Swift, Kotlin, Node.js, Typescript, AWS, React
-
-
 
 <TitleWithIcon sectionTitle="problem: short and infrequent psychotherapy visits" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
