@@ -2,8 +2,6 @@
 team_members:
   - michal
 our_service:
-  - MVP development
-  - mobile app development
   - healthcare software development
 layout: project
 project_id: solution-parkinson
