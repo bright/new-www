@@ -6,22 +6,23 @@ our_service:
   - mobile app development
 layout: project
 project_id: solution-parkinson
-title: Patient Engagement App for People with Parkinson's Disease
+title: "Supporting People with Parkinson's Disease – MVP story "
 image: /images/app_for_parkinson_patients1.png
-description: A personal digital diary for patients suffering from Parkinson’s
-  disease. The app lets users record their symptoms and track the intake of
-  prescribed drugs.
+description: From the idea to the patient engagement solution in 3 months.
+  Discover the journey of an eHealth MVP crafted to engage individuals living
+  with Parkinson's disease in managing their condition, and assisting doctors in
+  monitoring their symptoms.
 hero_image: /images/case_study_app_parkinson_patients_app.png
 Hero Image_alt: App for patients suffering from Parkinson’s disease
 social_media_previev: /images/fb_preview_case_study_parkinson_app_en.png
 social_media_previev_alt: App for people with Parkinson's patients case study
 bar_achievements:
-  - number: "2"
-    label: iOS and Android apps
-  - number: "5"
-    label: Key features
+  - number: 90,000
+    label: Annual U.S. Parkinson's diagnoses
   - number: "3"
-    label: months to MVP launch
+    label: Months to MVP launch
+  - number: "2"
+    label: 2 iOS and Android apps
 tags:
   - mobile app
   - MVP
