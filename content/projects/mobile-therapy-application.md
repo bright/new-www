@@ -65,42 +65,28 @@ No matter the condition a patient has, **short and infrequent psychotherapy visi
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-<TitleWithIcon sectionTitle="solution: mobile app engaging physiotherapy patients" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution" />
+<TitleWithIcon sectionTitle="solution: mobile app engaging physiotherapy patients" titleIcon="/images/gearwheel.svg" titleIconAlt="solution" />
 
-Our client, a product design agency and an early-stage project incubator, has turned to us with a ready-to-implement idea for an app. Before reaching out to Bright Inventions, they had already spent months validating their concept by observing physiotherapy sessions. This resulted in a comprehensive plan for an app that would solve the biggest challenges patients and therapists face.
+**Our client, a digital agency and an early-stage project incubator based in Germany**, has turned to us with a ready-to-implement idea for a healthcare app. Before reaching out to us, **they had already spent over 300 hours validating their concept** by observing physiotherapy sessions. This resulted in a comprehensive plan for an app that would solve the biggest challenges patients and therapists face, including limited time therapists have for each patient, patients not exercising regularly, and performing some exercises incorrectly at home.
 
-**These include**
+**Our client entrusted us with the implementation of the entire system comprised of iOS and Android applications and the backend**. We also crafted separate modules for patients and therapists.
 
-* Limited time therapists have for each patient
-* Patients tending to forget how to perform their exercises properly
-* Patients not exercising regularly enough
-* Exercises recommended by therapists are often repetitive among patients.
+On the patient profile, one could download the therapy plan, as well as use the app daily for exercise and progress tracking. **The patient’s app also featured reminders and thanks to gamification, motivated the patient to continue on their path to recovery** by displaying therapy statistics.
 
-Our client also had a high-fidelity wireframe of the app, and entrusted us with the implementation of the entire system, comprised of:
-
-\- iOS and Android apps
-
-\- Backend
-
-\- Content Management System (used, for instance, for storing step-by-step video tutorials for patients)
-
-\- An admin panel for therapists.
+**The therapist panel was more sophisticated**. Firstly, it needed to allow therapists to customize plans for each patient. **The specialist could quickly make photos or videos of patients performing the exercises** and upload them to an individual patient profile, so the patient could then correctly perform the exercises at home without worrying about remembering them correctly. Therapists could also plan out exercise sessions on a calendar and include information on the number of circuits per exercise as well as other important recommendations.
 
 ![Mobile Therapy App](../../static/images/mobile_therapy_app3.jpg)
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-<TitleWithIcon sectionTitle="development process" titleIcon="/images/gearwheel.svg" titleIconAlt="process" />
+<TitleWithIcon sectionTitle="challenges" titleIcon="/images/icon_title_goal.svg" titleIconAlt="challenges" />
 
-One of the key challenges for the system was making sure that it matched the way physical therapy looks like in real life. As visits tend to be very short, it was crucial that the therapist and patients would be able to link their accounts in the app quickly. Naturally, not all patients already had the app when they came in, nor did everyone feel comfortable with using new technologies. Low levels of tech-savviness meant it was difficult for them to download the app, register an account, and – most importantly – link their profiles with those of therapists.
+One of the technical challenges was **enabling smooth video uploads of the exercise recordings**. 
+Given that physiotherapists already had minimal time allocated per patient, we aimed to avoid having them spend it waiting for videos to upload. Furthermore, **we wanted to ensure they could continue using their devices without interruption while the videos were being uploaded**. Therefore, **we implemented asynchronous uploading, allowing therapists to freely continue using the phone** while the videos were uploaded in the background.
 
-We decided to solve the latter problem by automating the linking of patient-therapist profiles through a previously generated and printed code. This enables patients to link their accounts after the physiotherapy session is over, from the comfort of their homes. By inserting the code in the app, they’re now able to download their prescribed exercise plan.
+Another challenge we faced collaboratively with our client was **finding the most user-friendly way to introduce the app to patients**. As visits tend to be very short, it was crucial that the therapist and patients would be able to link their accounts in the app quickly. Naturally, only some patients already had the app when they came in, and not everyone felt comfortable with using new technologies. Low levels of tech-savviness meant it was difficult for them to download the app during the session, register an account, and – most importantly – link their profiles with those of therapists. Also, it would mean that the precious time meant for the therapy would be taken away for dealing with the new app installation.
 
-We also needed to create separate modules for patients and therapists.
-
-On the patient profile, one could download the therapy plan, as well as use the app on a daily basis for exercise and progress tracking. The patient’s app also features reminders and motivates the patient to continue on his/her path to recovery by displaying therapy statistics.
-
-The therapist panel was much more sophisticated. Firstly, it needed to allow therapists to customize plans for each patient. They also needed to plan out exercise sessions on a calendar and include information on the number of circuits per each exercise. Additionally, they needed an option to store photos and videos recorded during the patient’s therapeutic session. Alternatively, they were also to choose from a library of tutorial videos stored in the CMS.
+**We solved the problem by automating the linking of patient-therapist profiles through a previously generated codes**. Therefore, the therapist could print the codes, and simply give it to the patients at the end of the session. This enabled patients to link their accounts from the comfort of their homes after the physiotherapy session was over. By inserting the code in the app, they were able to download the prescribed exercise plan.
 
 <TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
