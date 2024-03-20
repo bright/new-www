@@ -47,9 +47,9 @@ We support and share responsibility with the members of our team. We also active
 
 ## about the role and project 🚀🚀🚀
 
-We are looking now for a Senior Fullstack Developer who has already had experience with TypeScript, Angular, React and Node.js and would like to work with our experienced and ambitious development team. What counts is your positive mindset, analytical thinking ability as well as communication skills.
+We are looking now for a senior fullstack developer who has already had experience with TypeScript, Angular and Node.js and would like to work with our bright team. What counts is your positive mindset, responsible and flexible approach as well as communication skills.
 
-The application is **a new next generation passwordless authentication service that is used by millions of users worldwide, on a daily basis.** We are working on cross-channel identity platform that integrates and control authentication, fraud detection, and access controls.
+The application is **a new next generation passwordless authentication service that is used by millions of users worldwide on a daily basis.** We are working on the cross-channel identity platform that integrates and control authentication, fraud detection, and access controls.
 
 ## preferred skills and qualifications ✅
 
@@ -65,7 +65,6 @@ The application is **a new next generation passwordless authentication service 
 
 * experience with React development 
 * familiarity with AWS or other Cloud providers
-* familiarity with Agile methodologies
 
 ## what you will find in our Bright Team 🧡
 
