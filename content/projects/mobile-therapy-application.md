@@ -88,6 +88,6 @@ Another challenge we faced collaboratively with our client was **finding the mos
 
 **We solved the problem by automating the linking of patient-therapist profiles through a previously generated codes**. Therefore, the therapist could print the codes, and simply give it to the patients at the end of the session. This enabled patients to link their accounts from the comfort of their homes after the physiotherapy session was over. By inserting the code in the app, they were able to download the prescribed exercise plan.
 
-<TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
+<TitleWithIcon sectionTitle="result of collaboration: delivering a robust MVP" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
-Our work with the client lasted until the MVP was built and refined. The entire cooperation took place for half a year. Six months later, our clients put up the app for sale. Quickly, an interested party decided to order an audit of the software before making an offer. Upon a positive review of the service, the company decided to finalize their purchase and are now developing the app with an in-house development team.
+We delivered the Minimum Viable Product (MVP) within a six-month timeframe. Subsequently, our client opted for an external audit of the project's technical aspects, which was successfully passed. The solution has expanded, changing the physiotherapy experience for individuals across Germany. We are thrilled to contribute to the digitalization of traditional psychotherapy.
