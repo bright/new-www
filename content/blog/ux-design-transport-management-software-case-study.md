@@ -3,8 +3,8 @@ author: joanna-c
 secondAuthor: izabela
 tags:
   - design
-  - inspiration
-  - business
+  - UX
+  - UI
 date: 2023-11-07T10:47:03.864Z
 meaningfullyUpdatedAt: 2023-11-07T10:47:04.488Z
 title: UX Design for Custom Transport Management Software [Case Study]
