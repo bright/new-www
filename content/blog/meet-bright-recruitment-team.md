@@ -3,7 +3,7 @@ author: ula
 secondAuthor: paulina-t
 thirdAuthor: agata-m
 tags:
-  - inspiration
+  - bright insights
   - recruitment
   - HR
 date: 2022-07-28T05:12:27.820Z
