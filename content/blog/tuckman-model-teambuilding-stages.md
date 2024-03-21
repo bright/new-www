@@ -1,7 +1,7 @@
 ---
 author: ula
 tags:
-  - teamwork
+  - team building
   - leadership
 date: 2024-02-07T13:22:45.705Z
 meaningfullyUpdatedAt: 2024-02-07T13:22:45.734Z
