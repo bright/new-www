@@ -77,6 +77,8 @@ When developing applications for individuals with invisible diseases, it's essen
 
 Introduce elements that motivate users to manage their disease daily. These could include reward systems, progress tracking, and interactive educational content. Explore our other blog post on [patient engagement solutions](/blog/delivering-patient-engagement-platform/).
 
+<div className="image">![eHealth app mockup](../../static/images/app_for_parkinson_patients1.png "eHealth app mockup")</div>
+
 ### Support group and community finder
 
 Help users connect with support groups or communities facing similar challenges. This feature can offer emotional support and practical advice, making users feel less isolated.
