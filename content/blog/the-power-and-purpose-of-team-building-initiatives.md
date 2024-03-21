@@ -2,7 +2,6 @@
 author: agata-m
 tags:
   - teamwork
-  - team building
   - bright insights
 date: 2024-03-07T11:02:58.195Z
 meaningfullyUpdatedAt: 2024-03-07T11:02:56.043Z
