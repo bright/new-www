@@ -7,10 +7,8 @@ excerpt: I am always saying that the future of work is all about people, the
   surrounded by Bright People every day.
 author: ula
 tags:
-  - team
-  - success
-  - independence
-  - trust
+  - teamwork
+  - bright insights
 date: 2019-01-08T23:00:00.000Z
 title: 31 reasons why we love working at Bright Inventions
 layout: post
