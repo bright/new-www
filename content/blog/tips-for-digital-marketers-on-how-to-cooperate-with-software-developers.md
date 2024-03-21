@@ -1,8 +1,8 @@
 ---
 author: izabela
 tags:
-  - inspiration
-  - business
+  - business strategy
+  - collaboration
 date: 2022-11-29T07:47:35.848Z
 meaningfullyUpdatedAt: 2022-11-29T07:47:36.978Z
 title: Tips for Digital Marketers on How to Cooperate with Software Developers
