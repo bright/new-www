@@ -3,9 +3,8 @@ author: szymon-ch
 secondAuthor: rafal h
 thirdAuthor: joanna-c
 tags:
-  - development
+  - programming
   - design
-  - inspiration
   - AI
 date: 2021-12-02T09:01:58.260Z
 meaningfullyUpdatedAt: 2022-12-06T09:02:24.979Z
