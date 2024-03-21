@@ -3,8 +3,7 @@ author: kasia g
 secondAuthor: izabela
 tags:
   - bright story
-  - update
-  - project management
+  - bright insights 
 date: 2022-12-22T07:31:15.126Z
 meaningfullyUpdatedAt: 2022-12-22T07:31:15.171Z
 title: Thriving on Responsibility. Meet Kasia – a Bright Project Manager
