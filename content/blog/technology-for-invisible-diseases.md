@@ -4,8 +4,8 @@ secondAuthor: mateusz
 thirdAuthor: slawek
 tags:
   - HealthTech
-date: 2024-03-20T12:34:54.410Z
-meaningfullyUpdatedAt: 2024-03-20T12:34:56.385Z
+date: 2024-03-21T07:30:20.435Z
+meaningfullyUpdatedAt: 2024-03-21T07:30:21.288Z
 title: "What You Can’t See Still Hurts: Crafting Tech for Patients with
   Invisible Diseases"
 layout: post
@@ -35,7 +35,7 @@ Developing technology solutions for patients with invisible diseases may require
 
 Understanding the privacy concerns and stigma associated with invisible diseases is crucial in building trust and ensuring user comfort.
 
-<blockquote><h2>Breaking down the encrypted database</h2><div>One of the security tactics we implemented was breaking down the encrypted database into two – each stored in a different AWS services’ physical location. The first database stored basic user data, such as name or email address. The second database kept sensitive medical information, including medication intake or physical symptoms and side effects. Through this decision, we made sure that – in case of a data breach – the attacking party wouldn’t be able to access all the information. This way, there were virtually zero chances of matching symptoms or medication intake to specific patients’ names.</div><footer>Mateusz Klimczak, Partner & Head of Delivery at Bright Inventions</footer></blockquote>
+<blockquote><h2>Breaking down the encrypted database</h2><div>One of the security tactics we implemented was breaking down the encrypted database into two – each stored in a different AWS services’ physical location. The first database stored basic user data, such as name or email address. The second database kept sensitive medical information, including medication intake or physical symptoms and side effects. Through this decision, we minimized the chance that, in the event of a data breach, the attacking party would be able to access all the information. Therefore, even in the case of a data breach, the risk of matching symptoms to specific patients' names is low.</div><footer>Mateusz Klimczak, Partner & Head of Delivery at Bright Inventions</footer></blockquote>
 
 Read more about building [an app for people with Parkinson’s](/projects/solution-for-parkinsons-patients/).
 
