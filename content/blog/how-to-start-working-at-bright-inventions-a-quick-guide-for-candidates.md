@@ -1,9 +1,8 @@
 ---
 author: ula
 tags:
-  - inspiration
+  - bright insights
   - recruitment
-  - team building
 date: 2023-06-09T12:09:45.433Z
 meaningfullyUpdatedAt: 2023-06-09T12:09:45.461Z
 title: "How To Start Working at Bright Inventions -  A Quick Guide for Candidates "
