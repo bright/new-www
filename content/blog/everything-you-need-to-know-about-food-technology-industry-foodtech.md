@@ -1,8 +1,8 @@
 ---
 author: izabela
 tags:
-  - business
-  - inspiration
+  - business strategy
+  - food industry
 date: 2023-04-24T09:53:09.854Z
 meaningfullyUpdatedAt: 2023-04-24T09:53:10.533Z
 title: Everything You Need to Know about Food Technology Industry [FoodTech]
