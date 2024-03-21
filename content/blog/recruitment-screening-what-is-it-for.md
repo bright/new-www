@@ -2,7 +2,7 @@
 author: agata-m
 tags:
   - recruitment
-  - inspiration
+  - bright insights
 date: 2023-08-07T07:39:57.882Z
 meaningfullyUpdatedAt: 2023-08-07T07:39:58.525Z
 title: Recruitment Screening – What Is It for?
