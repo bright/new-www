@@ -3,8 +3,7 @@ author: malgorzata-z
 secondAuthor: izabela
 tags:
   - bright story
-  - inspiration
-  - QA
+  - bright insights 
 date: 2024-01-19T10:16:44.847Z
 meaningfullyUpdatedAt: 2024-01-19T10:16:45.371Z
 title: Finding the Balance in Software Testing and Life. Meet Małgosia
