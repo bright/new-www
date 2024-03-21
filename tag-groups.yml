@@ -149,6 +149,7 @@ groups:
     tags:
       - healthtech
       - HealthTech
+      - eHealth
   - name: UX/UI design
     aliases:
       - design
@@ -172,7 +173,7 @@ groups:
       - Cooperation
       - teamspirit
       - time-management
-      - team
+      - leadership
   - name: bright insights
     aliases:
       - bright-updates
@@ -190,3 +191,6 @@ groups:
       - bright story
       - Bright Inventions
       - recruitment
+      - bright insights 
+      - bright team
+      - team
