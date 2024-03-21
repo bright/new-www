@@ -3,8 +3,8 @@ author: aleksandra-z
 secondAuthor: izabela
 tags:
   - bright story
-  - fullstack
-  - inspiration
+  - career
+  - growth
 date: 2023-02-21T08:42:12.343Z
 meaningfullyUpdatedAt: 2023-02-21T08:42:14.139Z
 title: A Persistent Fullstack at Work and Life. Meet Ola
