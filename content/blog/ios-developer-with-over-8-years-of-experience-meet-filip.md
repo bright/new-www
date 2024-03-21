@@ -2,8 +2,7 @@
 author: fjablonski
 secondAuthor: izabela
 tags:
-  - ios
-  - inspiration
+  - growth
   - career
   - bright story
 date: 2022-01-12T09:29:40.355Z
