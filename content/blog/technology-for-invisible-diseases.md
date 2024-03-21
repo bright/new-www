@@ -4,8 +4,8 @@ secondAuthor: mateusz
 thirdAuthor: slawek
 tags:
   - HealthTech
-date: 2024-03-21T07:30:20.435Z
-meaningfullyUpdatedAt: 2024-03-21T07:30:21.288Z
+date: 2024-03-21T07:32:31.365Z
+meaningfullyUpdatedAt: 2024-03-21T07:32:32.319Z
 title: "What You Can’t See Still Hurts: Crafting Tech for Patients with
   Invisible Diseases"
 layout: post
