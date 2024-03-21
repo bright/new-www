@@ -1,8 +1,9 @@
 ---
 author: tomasz-l
 tags:
-  - inspiration
+  - programming
   - iOS
+  - growth
 date: 2022-05-05T11:39:04.015Z
 meaningfullyUpdatedAt: 2024-01-05T06:53:43.891Z
 title: Top Podcasts for 2024 from iOS Developer's Perspective
