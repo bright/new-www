@@ -1,6 +1,6 @@
 ---
 layout: job
-title: "Senior Fullstack Developer (Angular + React + Node.js) "
+title: "Senior Fullstack Developer "
 subtitle: OPEN
 imagejob: /images/fullstackteam_job_offer.png
 image-alt-job: Devs Team Bright Inventions
@@ -41,15 +41,15 @@ language: en
 ---
 ## who we are 🧑🏻‍💻👩🏻‍💻
 
-At Bright Inventions you'll be an important part of a group of talented, ambitious and positive developers, designers, managers and marketers who love to solve real problems and build software that really matters in today’s world. 
-
-We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously. 
+At Bright Inventions you'll be an important part of a group of talented, ambitious and positive developers, designers, managers and marketers who love to solve real problems and build software that really matters in today’s world. \
+\
+We foster a culture of mutual support and shared responsibility within our team. We are proactive in taking ownership of our personal growth and development. **Our success is built on a foundation of positive attitude, flexibility and collaborative teamwork. Clients rely on us to deliver effective solutions which help them achieve their business goals.** 
 
 ## about the role and project 🚀🚀🚀
 
-We are looking now for a Senior Fullstack Developer who has already had experience with TypeScript, Angular, React and Node.js and would like to work with our experienced and ambitious development team. What counts is your positive mindset, analytical thinking ability as well as communication skills.
+We are looking now for **a senior fullstack developer who has already had experience with TypeScript, Angular and Node.js** and would like to work with our bright team. What counts  most is your positive mindset, open mind, flexible approach to the tools you use as well as good communication skills.
 
-The application is **a new next generation passwordless authentication service that is used by millions of users worldwide, on a daily basis.** It is working on identity protection by using the latest trends in biometric technology, thanks to that users can gain access to accounts with just one touch. 
+**The project you will be involved in is a cross-channel identity platform that integrates and control authentication, fraud detection, and access controls.** The system is used by millions of users worldwide on a daily basis. **You will be working on a new version of a graphical process editor app built with Angular 9, Angular Material i Rete.js.** 
 
 ## preferred skills and qualifications ✅
 
@@ -64,8 +64,8 @@ The application is **a new next generation passwordless authentication service t
 ## we would also appreciate if you have
 
 * experience with React development 
+* familiarity with Rete.js 
 * familiarity with AWS or other Cloud providers
-* familiarity with Agile methodologies
 
 ## what you will find in our Bright Team 🧡
 
