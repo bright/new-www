@@ -3,8 +3,7 @@ author: arturs
 secondAuthor: izabela
 tags:
   - bright story
-  - iOS
-  - inspiration
+  - bright insights
 date: 2023-09-15T06:44:21.808Z
 meaningfullyUpdatedAt: 2023-09-15T06:44:21.849Z
 title: iOS Developer Who Loves to Build Apps Users Rely On. Meet Artur
