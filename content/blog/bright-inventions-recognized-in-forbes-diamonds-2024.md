@@ -1,9 +1,8 @@
 ---
 author: ula
 tags:
-  - bright updates
-  - inspiration
-  - business
+  - bright insights
+  - company update
 date: 2024-01-25T07:06:11.422Z
 meaningfullyUpdatedAt: 2024-01-25T07:06:11.432Z
 title: Bright Inventions Recognized in Forbes Diamonds 2024
