@@ -3,8 +3,8 @@ author: bartek k
 secondAuthor: izabela
 tags:
   - bright story
-  - backend
-  - inspiration
+  - bright insights
+  - growth
 date: 2023-06-20T06:30:10.772Z
 meaningfullyUpdatedAt: 2023-06-20T06:30:11.380Z
 title: He Conquered Ocean, Sky and JVM World. Meet Bartek, a Thrill-Seeking
