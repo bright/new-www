@@ -2,10 +2,7 @@
 author: kasia
 secondAuthor: izabela
 tags:
-  - project management
-  - business
-  - development
-  - inspiration
+  - bright insights
   - bright story
 date: 2021-10-20T09:22:39.425Z
 title: Bringing Science and Business together. Meet Kasia, a Project Manager and
