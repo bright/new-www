@@ -3,7 +3,7 @@ author: joanna-c
 tags:
   - design
   - UX
-  - inspiration
+  - growth
 date: 2022-10-20T06:49:39.906Z
 meaningfullyUpdatedAt: 2022-10-20T06:49:40.672Z
 title: How to Get That First Product Designer Job
