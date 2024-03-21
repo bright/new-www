@@ -31,7 +31,7 @@ title_team: team
 title_case_study: more success stories
 title_contact: let's talk about your product
 description_contact: Fill out the form below and we'll get back to you in 48 hours.
-order: 99
+order: 7
 slug: solution-for-parkinsons-patients
 show_team: false
 show_case_study: true
@@ -74,7 +74,7 @@ One of the security tactics we implemented was **breaking down the encrypted dat
 
 ![App for Parkinson's Patients](../../static/images/app_for_parkinson_patients2.png)
 
-<TitleWithIcon sectionTitle="the result: MVP in three months" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
+<TitleWithIcon sectionTitle="result: MVP in three months" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
 After three months, **we successfully delivered the MVP of the solution**, followed by overseeing several iterations of the system to enhance its functionality. **This project is an example of an inclusive patient engagement app designed to support chronically ill patients, regardless of their age or technical proficiency**. It’s great to be a part of this MVP’s story!
 
