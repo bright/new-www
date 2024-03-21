@@ -32,7 +32,7 @@ image_recruiter_info: /images/sara-bright-recruiter.png
 image_alt_recruiter_info: Sara Łęcka - Junior Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/saralecka/
 button: "join our TypeScript team "
-published: false
+published: true
 show_recruiter_info: false
 order: 1
 recruting_image2_title: interview (technical part & non-technical part)
@@ -41,8 +41,8 @@ language: en
 ---
 ## who we are 🧑🏻‍💻👩🏻‍💻
 
-At Bright Inventions you'll be an important part of a group of talented, ambitious and positive developers, designers, managers and marketers who love to solve real problems and build software that really matters in today’s world. \
-\
+At Bright Inventions you'll be an important part of a group of talented, ambitious and positive developers, designers, managers and marketers who love to solve real problems and build software that really matters in today’s world. 
+
 We foster a culture of mutual support and shared responsibility within our team. We are proactive in taking ownership of our personal growth and development. **Our success is built on a foundation of positive attitude, flexibility and collaborative teamwork. Clients rely on us to deliver effective solutions which help them achieve their business goals.** 
 
 ## about the role and project 🚀🚀🚀
