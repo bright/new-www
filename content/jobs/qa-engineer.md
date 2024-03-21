@@ -81,7 +81,7 @@ This position supports mainly manual testing activities (70% of working time) in
 * solid knowledge of CI and CD 
 * strong problem solving and analytical skills
 * the ability to adapt to changing contexts and priorities
-* client-centric approach and string communication skills  (you will take part in meetings with business on a daily basis)
+* client-centric approach and strong communication skills  (you will take part in meetings with business on a daily basis)
 * accuracy and attention to details
 * **very good level of English** (both written and spoken)
 * **very good level of Polish** 🇵🇱 (we work in an international environment, but within the company, we communicate in Polish)
