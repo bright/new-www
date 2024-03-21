@@ -3,7 +3,7 @@ author: wojciech
 secondAuthor: izabela
 tags:
   - bright story
-  - inspiration
+  - bright insights
 date: 2023-12-13T12:18:09.658Z
 meaningfullyUpdatedAt: 2023-12-13T12:18:09.689Z
 title: Elevating from Frontend to Fullstack Developer. Meet Wojciech
