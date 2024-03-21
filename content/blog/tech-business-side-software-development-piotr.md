@@ -2,9 +2,9 @@
 author: piotr_r
 secondAuthor: izabela
 tags:
-  - Android
-  - inspiration
+  - bright insights
   - bright story
+  - growth
 date: 2023-11-14T14:12:35.089Z
 meaningfullyUpdatedAt: 2023-11-14T14:12:35.605Z
 title: Embracing Tech and Business Side of Software Development. Meet Piotr
