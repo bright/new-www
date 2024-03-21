@@ -3,8 +3,7 @@ author: izabela
 secondAuthor: mateusz
 tags:
   - startup
-  - software development
-  - project management
+  - business strategy
 date: 2021-07-15T07:31:54.979Z
 meaningfullyUpdatedAt: 2023-07-12T10:22:44.794Z
 title: How to Protect Software Development Projects from Bus Factor Problem
