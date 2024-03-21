@@ -5,7 +5,6 @@ thirdAuthor: agata-m
 tags:
   - bright insights
   - recruitment
-  - HR
 date: 2022-07-28T05:12:27.820Z
 meaningfullyUpdatedAt: 2024-03-21T08:49:47.450Z
 title: "Meet Bright Recruitment Team "
