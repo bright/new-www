@@ -2,11 +2,8 @@
 author: mateusz
 secondAuthor: izabela
 tags:
-  - development
-  - business
-  - project management
-  - inspiration
   - bright story
+  - bright insights
 date: 2022-02-21T10:16:22.522Z
 title: Responsibility and change are his fuel. Meet Mateusz
 layout: post
