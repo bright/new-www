@@ -3,8 +3,7 @@ author: kamil-b
 secondAuthor: izabela
 tags:
   - bright story
-  - iOS
-  - inspiration
+  - bright insights
 date: 2023-10-17T11:27:42.085Z
 meaningfullyUpdatedAt: 2023-10-17T11:27:43.101Z
 title: iOS Developer and Tech Recruiter Driven by Passion. Meet Kamil
