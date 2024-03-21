@@ -3,8 +3,8 @@ author: jacek
 secondAuthor: izabela
 tags:
   - bright story
-  - backend
-  - inspiration
+  - career
+  - growth
 date: 2023-05-22T08:44:23.054Z
 meaningfullyUpdatedAt: 2023-05-22T08:44:23.882Z
 title: Software Engineer with a Focus on DevOps. Meet Jacek – a Senior Backend
