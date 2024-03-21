@@ -3,9 +3,9 @@ author: pawel-p
 secondAuthor: lukasz-k
 thirdAuthor: jedrzej
 tags:
-  - software development
-  - communication
-  - team building
+  - bright insights
+  - recruitment
+  - career
 date: 2021-09-08T08:01:19.875Z
 title: Bright Junior Developers Are Answering Most Searched Questions
 layout: post
