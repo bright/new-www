@@ -1,10 +1,8 @@
 ---
 author: paulina-t
 tags:
-  - HR
   - recruitment
-  - communication
-  - inspiration
+  - bright insights
 date: 2021-12-20T11:48:15.996Z
 title: The Importance of Feedback in Bright Recruitment Process
 layout: post
