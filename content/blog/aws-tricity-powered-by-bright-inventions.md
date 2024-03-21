@@ -2,9 +2,8 @@
 author: izabela
 secondAuthor: piotr
 tags:
-  - update
-  - AWS
-  - inspiration
+  - company update
+  - bright insights
 date: 2023-03-29T11:09:50.057Z
 meaningfullyUpdatedAt: 2023-03-29T11:09:50.089Z
 title: "AWS Tricity Powered by Bright Inventions. Meeting #1"
