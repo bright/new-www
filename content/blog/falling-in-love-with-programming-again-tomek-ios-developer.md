@@ -3,8 +3,8 @@ author: tomasz-l
 secondAuthor: izabela
 tags:
   - bright story
-  - ios
-  - inspiration
+  - career
+  - growth
 date: 2023-04-17T06:36:31.384Z
 meaningfullyUpdatedAt: 2023-04-17T06:36:31.913Z
 title: Falling in Love with Programming Again. Meet Tomek – iOS Developer
