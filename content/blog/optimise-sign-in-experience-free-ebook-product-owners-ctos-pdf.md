@@ -2,10 +2,8 @@
 author: piotr
 secondAuthor: izabela
 tags:
-  - business
-  - inspiration
-  - development
-  - update
+  - business strategy
+  - product development
 date: 2023-10-30T09:16:54.811Z
 meaningfullyUpdatedAt: 2023-10-30T09:16:55.535Z
 title: Optimise Sign-In Experience. Free Ebook for Product Owners and CTOs [Get PDF]
