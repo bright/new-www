@@ -1,8 +1,6 @@
 ---
 author: sara-l
 tags:
-  - inspiration
-  - team
   - recruitment
   - bright insights
 date: 2024-03-08T08:44:02.481Z
