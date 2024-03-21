@@ -3,7 +3,7 @@ author: mateusz
 tags:
   - MVP
   - startup
-  - agile
+  - business strategy
 date: 2019-09-02T11:35:50.918Z
 meaningfullyUpdatedAt: 2023-07-07T08:33:28.662Z
 title: 4 Things We Love About Building MVPs
