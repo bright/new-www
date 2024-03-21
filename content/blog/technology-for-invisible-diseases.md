@@ -49,7 +49,7 @@ Delve into building [empathic app onboarding](/blog/data-driven-development-femt
 
 This indicates a need for solutions that are not only secure but also intuitive and genuinely useful in navigating the complexities of their condition.
 
-One of the examples of software that needs to engage users with simple and empathic design is yet again a solution for Parkinson’s patients:
+One of the examples of software that needs to engage users with simple and empathic design is yet again a [solution for Parkinson’s patients](/projects/solution-for-parkinsons-patients/):
 
 <blockquote><h2>Inclusive and empathic UX/UI design</h2><div>From the beginning, we understood that the key element of the solution must have been inclusive and empathic UX/UI design. The app had to be friendly in use for patients suffering from tremors or other movement disorders. Also, as the elderly constitute the majority of patients suffering from Parkinson’s, the challenge was to deliver a legible, highly intuitive interface that would minimize the chances of mistakes. If an accidental input were to take place, though, the interface also needed to allow the option to undo the action.</div><footer>Mateusz Klimczak, Partner & Head of Delivery at Bright Inventions</footer></blockquote>
 
