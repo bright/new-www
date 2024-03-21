@@ -3,8 +3,8 @@ author: jedrzej-s
 secondAuthor: izabela
 tags:
   - bright story
-  - frontend
-  - inspiration
+  - career
+  - growth
 date: 2023-03-06T08:56:35.944Z
 meaningfullyUpdatedAt: 2023-03-06T08:56:37.736Z
 title: Frontend Developer with Over 8 Years of Experience. Meet Jędrzej
