@@ -1,9 +1,8 @@
 ---
 author: agnieszka
 tags:
-  - development
-  - project management
-  - inspiration
+  - bright story
+  - bright insights
 date: 2022-01-18T08:25:45.769Z
 title: What a Senior Developer Can Learn from a Project Manager?
 layout: post
