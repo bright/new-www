@@ -49,21 +49,10 @@ show_team: true
 show_case_study: true
 show on homepage: false
 published: true
+work_in_progress: false
 language: en
 ---
-<div className="image">![Emergency app](../../static/images/smarthelp.png "Emergency app")</div>
-
-## Main features
-
-* Websocket communication
-* Push notifications
-* End-to-end encryption
-* Privacy by design
-* Custom map layers integration
-* Geolocation
-* Reverse geocoding
-
-<TitleWithIcon sectionTitle='about the project' titleIcon='/images/three_flags.svg' titleIconAlt='bright' />
+<TitleWithIcon sectionTitle="about the project" titleIcon="/images/three_flags.svg" titleIconAlt="bright" />
 
 SmartHelp is a holistic solution offering emergency services to anyone who’s found themselves in need of critical help. The app operates in Norway, and makes it nearly effortless for users to answer the three questions emergency centers ask before they send a rescue team – ‘where’, ‘what’, and ‘who’.
 
@@ -73,7 +62,7 @@ The app also covers situations, when the user is in no condition to communicate 
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-![An emergency service app ](../../static/images/smarthelp_screens1and2.png "")
+![An emergency service app ](../../static/images/smarthelp_screens1and2.png)
 
 The single-click emergency button allows the user to instantly streamline his location not only to rescuers, but also family, friends, or even his/her security company – anyone whose details were added to the app.
 
@@ -81,17 +70,17 @@ Importantly, once the SmartButton is pressed, all of the notified sides keep rec
 
 This feature can also be leveraged by institutional clients (for ex. Health & Safety professionals), who need to make sure their employees are always safe and taken care of in case of any work-related emergency.
 
-<TitleWithIcon sectionTitle='goal' titleIcon='/images/flag.svg' titleIconAlt='bright' />
+<TitleWithIcon sectionTitle="goal" titleIcon="/images/flag.svg" titleIconAlt="bright" />
 
 The goal was to create a system that consists of three elements: two native mobile apps – for iPhone and Android, an Emergency Services web panel allowing to locate and communicate with users (both those with the app and without it), and the backend.
 
-<TitleWithIcon sectionTitle='development process' titleIcon='/images/gearwheel.svg' titleIconAlt='bright' />
+<TitleWithIcon sectionTitle="development process" titleIcon="/images/gearwheel.svg" titleIconAlt="bright" />
 
 Bright Inventions has been a part of the project from the very beginning – from the ideation phase to the project’s full-stack implementation, deployment, and maintenance.
 
 The iOS and Android native applications were designed to provide a smooth user experience that respects user habits in each operating system. The biggest UX-related challenge was to make sure that the app is extremely simple to use by those who have found themselves or another person in a state of critical emergency.
 
-![An emergency service app ](../../static/images/amarthelp33_700.jpg "")
+![An emergency service app ](../../static/images/amarthelp33_700.jpg)
 
 For the iOS native application, our developers used Objective-C/Swift, ReactiveCocoa, and for Android – Kotlin, RxAndroid, Dagger, and Retrofit. Server-side applications were developed with the use of Node.js and Nest.js. PostgreSQL was chosen for database creation, integration, and management. On the front-end, the developers worked with React, supported by Socket.io and Leaflet.
 
@@ -99,10 +88,12 @@ It was critical that the SmartHelp platform represents a 'Privacy by Design' app
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='Result' />
+<TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="Result" />
 
 SmartHelp has been in operational use since December 2014. To date, it is the only app that makes the user visible on the map to call center staff right at the moment of the call.
 
 Apart from a freshly-revamped design, the newest version of the app now also offers more than the emergency communication features themselves. The app allows any organization to set up its own emergency response center with internal emergency numbers, own resources, and secure communication.
 
 SmartHelp can also be used in day-to-day life to share a user’s location with friends, travelling companions, family, or colleagues. It can also be used to communicate with the wider public. By setting a geographical area and sending messages to those who are within its premises or nearby, users can warn them about an impending dangerous situation.
+
+<div className="image">![Emergency app](../../static/images/smarthelp.png "Emergency app")</div>
