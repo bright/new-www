@@ -57,7 +57,7 @@ title_case_study: the clients we have supported in the tech journey
 title_faqs: FAQs
 title_contact: book a free consultation in 48 hours
 description_contact: Fill out the form below and we'll get back to you in 48
-  hours. And hopefully we;ll see soon in Gdansk!
+  hours. And hopefully we'll see you soon in Gdansk!
 language: en
 ---
 Headquartered in the city of Gdansk – a hub of innovation and technological expertise – our team has been at the forefront of [the dynamic Polish IT sector](/blog/five-things-you-should-know-about-working-with-Polish-developers/) for over 13 years.
