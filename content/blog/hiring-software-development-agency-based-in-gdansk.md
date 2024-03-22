@@ -15,7 +15,11 @@ language: en
 ---
 **Looking for a software development agency based in Poland? Consider choosing a software company from Gdansk. Why? Unlock Gdansk's tech potential and find out why it might be a perfect place for you to create digital solutions.**
 
-<div className="image">![Bright Inventions team in Gdansk](../../static/images/blog_gdansk.png "Bright Inventions team in Gdansk")</div>
+<center>
+
+<div className="image">![Bright Inventions team in Gdansk](../../static/images/gdansk_team.png "Bright Inventions team in Gdansk")</div>
+
+</center>
 
 ## Great geo-localization and flight connections
 
@@ -27,7 +31,7 @@ The Gdansk Airport is located about 20 minutes from the center of the city by ca
 
 <div className="image">![Gdansk airport flight connections](../../static/images/blog_post_airport_gdansk.png "Gdansk airport flight connections")</div>
 
-<center>Source: [Gdansk Airport website](https://www.airport.gdansk.pl/flight-information/where-we-fly-p3.html) </center>
+<center>Source: \[Gdansk Airport website](https://www.airport.gdansk.pl/flight-information/where-we-fly-p3.html) </center>
 
 ## Collaboration-friendly time zone
 
@@ -55,7 +59,7 @@ Lots of Bright Inventions team members graduated from Gdansk University of Techn
 
 <div className="image">![Gdansk University of Technology](../../static/images/blog_post_gdansk_tech_university.png "Gdansk University of Technology")</div>
 
-<center> Source: Gdansk University of Technology's [website](https://pg.edu.pl/dzial-promocji/marka-pg/galeria-zdjec) </center>
+<center> Source: Gdansk University of Technology's \[website](https://pg.edu.pl/dzial-promocji/marka-pg/galeria-zdjec) </center>
 
 It’s worth mentioning that graduates of the Gdansk University of Technology created [text-to-speech Ivona](https://pg.edu.pl/aktualnosci/2021-04/chcemy-dac-polakom-milion-dodatkowych-lat-zycia-w-zdrowiu-rozmowa-z-lukaszem). Their solution eventually helped to build the famous Alexa.
 
