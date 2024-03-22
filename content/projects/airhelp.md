@@ -36,28 +36,20 @@ show_team: false
 show_case_study: true
 show on homepage: false
 published: true
+work_in_progress: false
 language: en
 ---
+
+
+<TitleWithIcon sectionTitle="about AirHelp iOS app" titleIcon="/images/icon_title_about.svg" titleIconAlt="about AirHelp" />
+
+In 2015 [AirHelp](https://www.airhelp.com/en-gb/) was a fast-growing startup with a mission to educate passengers about their rights. AirHelp came to us with a basic version of their iOS app and expected us to rewrite it. We developed an MVP version of the app taking care of the backend. We helped AirHelp to launch a new version of the app in the AppStore. In the meantime, the client had time to build an in-house development team that could pursue the project in the future.
+
 ![airhelp mobile app development](../../static/images/flight_compensation_app_mockup.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-<TitleWithIcon sectionTitle='main features developed by Bright Inventions' titleIcon='/images/icons_features_svg.svg' titleIconAlt='features' />
-
-* Dynamic and UX friendly survey
-* Push notifications
-* Facebook and Google integration
-* File uploading
-
-<TitleWithIcon sectionTitle='about AirHelp iOS app' titleIcon='/images/icon_title_about.svg' titleIconAlt='about AirHelp' />
-
-In 2015 [AirHelp](https://www.airhelp.com/en-gb/) was a fast-growing startup with a mission to educate passengers about their rights. AirHelp came to us with a basic version of their iOS app and expected us to rewrite it. We developed an MVP version of the app taking care of the backend. We helped AirHelp to launch a new version of the app in the AppStore. In the meantime, the client had time to build an in-house development team that could pursue the project in the future.
-
-![airhelp mobile app development](../../static/images/flight_compensation_app_mockup4.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")
-
-<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
-
-<TitleWithIcon sectionTitle='goal' titleIcon='/images/icon_title_goal.svg' titleIconAlt='goal' />
+<TitleWithIcon sectionTitle="goal" titleIcon="/images/icon_title_goal.svg" titleIconAlt="goal" />
 
 The main goal was to create a mobile-friendly tool for users that want to file a complaint about a delayed or canceled flight. The app had to be really simple and minimalistic so that users are able to quickly go with the flow even if they have to provide much detailed information about the flight.
 
@@ -65,6 +57,6 @@ The main goal was to create a mobile-friendly tool for users that want to file a
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-<TitleWithIcon sectionTitle='result' titleIcon='/images/icon_result_svg.svg' titleIconAlt='result' />
+<TitleWithIcon sectionTitle="result" titleIcon="/images/icon_result_svg.svg" titleIconAlt="result" />
 
 We developed an MVP version of an iOS app. After that AirHelp in-house development team could continue the project. Nowadays, AirHelps successfully completed the transformation from a startup to the top global air passengers’ rights advocate. We are happy that we could assist them at the beginning of their incredible journey.
