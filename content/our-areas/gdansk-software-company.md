@@ -33,6 +33,10 @@ highlighted_word: Gdansk
 image_our_service_desktop: /images/c7ecddcd-e526-4d45-ad3d-bbc8d8ee7061_text.gif
 image_our_service_mobile: /images/c7ecddcd-e526-4d45-ad3d-bbc8d8ee7061_text.gif
 image_alt_our_service: software house gdansk
+bullet_points:
+  - EU-based company
+  - Established in 2012
+  - A part of Nordic Group Lyvia
 bar_stack:
   - Generative AI
   - IoT
