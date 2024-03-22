@@ -68,7 +68,7 @@ Headquartered in the city of Gdansk – a hub of innovation and technological ex
 
 Gdansk has proven itself as a magnet for global business giants, with industry leaders like Intel, Amazon, Nordea, and Lufthansa choosing to establish a presence here. From the convenience of Gdansk Airport, you can easily access over 20 countries with the majority of European destinations just a short flight away—many within a mere two hours.
 
-If you are considering partnering with a company from Gdansk, go deeper into [the advantages our city has to offer](https://brightinventions.pl/blog/hiring-software-development-agency-based-in-gdansk/). We can join forces and explore together the potential of Poland's tech scene.
+If you are considering partnering with a company from Gdansk, go deeper into [the advantages our city has to offer](https://brightinventions.pl/blog/hiring-software-development-agency-based-in-gdansk/). We can join forces and explore together the potential of Poland's tech scene.  
 
 ## our expertise
 
