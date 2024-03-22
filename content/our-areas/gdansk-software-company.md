@@ -27,7 +27,7 @@ slug: gdansk-software-company
 short_description: Poland is well-known for having top software developers. For
   over a decade, we have been a part of the vibrant Polish IT sector, proudly
   based in Gdansk — a city bursting with innovation.
-order: 1
+order: 99
 title: partner with a top Gdansk software house
 highlighted_word: Gdansk
 image_our_service_desktop: /images/mvp_development_company_mobile_big.png
