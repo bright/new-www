@@ -69,3 +69,27 @@ Headquartered in the city of Gdansk – a hub of innovation and technological ex
 Gdańsk has proven itself as a magnet for global business giants, with industry leaders like Intel, Amazon, Nordea, and Lufthansa choosing to establish a presence here. From the convenience of Gdansk Airport, you can easily access over 20 countries with the majority of European destinations just a short flight away—many within a mere two hours.
 
 If you are considering partnering with a company from Gdansk, go deeper into [the advantages our city has to offer](https://brightinventions.pl/blog/hiring-software-development-agency-based-in-gdansk/). We can join forces and explore together the potential of Poland's tech scene.
+
+## our expertise
+
+We offer custom software development for organizations of all shapes and sizes – from emerging startups, mid-sized companies, and consultancy agencies, to renowned NGOs and international organizations.
+
+### [mobile development](/our-areas/mobile-app-development/)
+
+We have built over 50 mobile applications for both iOS and Android systems for clients ranging from well-established companies to startup businesses, including Just Eat Takeaway, Relevo, Heinrich Schmid, and Circles.
+
+### [IoT development](/our-areas/iot-development/)
+
+We specialize in integrating smart bluetooth devices into sophisticated systems. We have cooperated with clients representing the industrial, healthcare, and retail sectors.
+
+### [healthcare software development](/our-areas/healthcare-software-development/)
+
+We assist our partners in developing products that have a meaningful impact on the lives of their end users. By building an engagement app for chronically ill patients, a digital guide for future moms, or an online therapy platform, we take part in the global digital healthcare movement.
+
+### [MVP development](/our-areas/mvp-development/)
+
+We craft MVPs to quickly validate ideas for the software solutions. We’ve built numerous MVPs including a humanitarian aid solution which turned into a global product.
+
+### [cloud computing](/our-areas/cloud-services/)
+
+As an official AWS partner, we help our partners scale their solutions reducing costs for infrastructure. We also offer full support during deployment and migration.
