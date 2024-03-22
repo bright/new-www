@@ -9,7 +9,7 @@ team_members:
   - bartosz
   - fjablonski
 faqs:
-  - agile workshop 5
+  - Do you conduct product workshops? Gdansk
 project:
   - circles
   - relevo - instant app and app clip
