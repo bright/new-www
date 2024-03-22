@@ -76,20 +76,20 @@ We offer custom software development for organizations of all shapes and sizes �
 
 ### [mobile development](/our-areas/mobile-app-development/)
 
-We have built over 50 mobile applications for both iOS and Android systems for clients ranging from well-established companies to startup businesses, including Just Eat Takeaway, Relevo, Heinrich Schmid, and Circles.
+We have built over 50 mobile applications for both iOS and Android systems for clients ranging from well-established companies to startup businesses, including [Just Eat Takeaway](/projects/system-for-restaurants/), [Relevo](/projects/eco-friendly-app/), [Heinrich Schmid](/projects/document-management-apps-construction/), and [Circles](/projects/online-group-support/).
 
 ### [IoT development](/our-areas/iot-development/)
 
-We specialize in integrating smart bluetooth devices into sophisticated systems. We have cooperated with clients representing the industrial, healthcare, and retail sectors.
+We specialize in integrating smart bluetooth devices into sophisticated systems. We have cooperated with clients representing the industrial, healthcare, and [retail](/projects/system-for-restaurants/) sectors.
 
 ### [healthcare software development](/our-areas/healthcare-software-development/)
 
-We assist our partners in developing products that have a meaningful impact on the lives of their end users. By building an engagement app for chronically ill patients, a digital guide for future moms, or an online therapy platform, we take part in the global digital healthcare movement.
+We assist our partners in developing products that have a meaningful impact on the lives of their end users. By building an [engagement app for chronically ill patients](/projects/solution-for-parkinsons-patients/), a [digital guide for future moms](/projects/pregnancy-app/), or an [online therapy platform](/projects/online-group-support/), we take part in the global digital healthcare movement.
 
 ### [MVP development](/our-areas/mvp-development/)
 
-We craft MVPs to quickly validate ideas for the software solutions. We’ve built numerous MVPs including a humanitarian aid solution which turned into a global product.
+We craft MVPs to quickly validate ideas for the software solutions. We’ve built numerous MVPs including a [humanitarian aid solution which turned into a global product](/projects/card-tracking-system/).
 
 ### [cloud computing](/our-areas/cloud-services/)
 
-As an official AWS partner, we help our partners scale their solutions reducing costs for infrastructure. We also offer full support during deployment and migration.
+As an official **AWS partner**, we help our partners scale their solutions reducing costs for infrastructure. We also offer full support during deployment and migration.
