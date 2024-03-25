@@ -15,7 +15,7 @@ language: en
 ---
 **With this tutorial, you'll receive step-by-step instructions on how to conduct an internal security audit of your healthcare software, along with a list of dozens of tools to assist you in the process. Most of these tools offer free trials, allowing you to quickly test them and then decide if they're the right asset for your team.**
 
-<div className="image">![security in healthcare](../../static/images/blog_post_cover-8-.png "security in healthcare")</div>
+<div className="image">![security in healthcare](../../static/images/healthcare_security_cover.png "security in healthcare")</div>
 
 Only [14% of patients](https://rockhealth.com/insights/the-new-era-of-consumer-engagement-insights-from-rock-healths-ninth-annual-consumer-adoption-survey/?mc_cid=1d086c1225&mc_eid=fbb3bdc963) want to share their health data with HealthTech companies, and their willingness fades year by year (in 2020 22% of patients opted for sharing their healthcare data). 
 
