@@ -3,8 +3,8 @@ author: izabela
 secondAuthor: rafal h
 tags:
   - HealthTech
-date: 2024-03-25T12:24:54.169Z
-meaningfullyUpdatedAt: 2024-03-25T12:24:54.217Z
+date: 2024-03-25T13:09:00.406Z
+meaningfullyUpdatedAt: 2024-03-25T13:09:01.183Z
 title: "Securing Health Data: Best Practices for Building Trustworthy Healthcare Apps"
 layout: post
 image: /images/blog_post_cover-8-.png
