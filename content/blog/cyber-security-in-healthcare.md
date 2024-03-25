@@ -5,7 +5,7 @@ tags:
   - HealthTech
 date: 2024-03-25T12:24:54.169Z
 meaningfullyUpdatedAt: 2024-03-25T12:24:54.217Z
-title: Cyber security in healthcare
+title: "Securing Health Data: Best Practices for Building Trustworthy Healthcare Apps"
 layout: post
 image: /images/blog_post_cover-8-.png
 hidden: false
