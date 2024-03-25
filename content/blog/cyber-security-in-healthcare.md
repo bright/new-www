@@ -28,3 +28,41 @@ Can you blame patients? Just visit the TechCrunch healthcare section to see coun
 <div className="image">![techcrunch](../../static/images/techcrunch_healthcare.png "techcrunch")</div>
 
 <center> Source: [techcrunch.com](https://techcrunch.com/tag/healthcare/) </center>
+
+## Audit your software and keep SSDLC (Secure Software Development Life Cycle)
+
+### Adhering to OWASP best practices
+
+The security bible for many is the set of security checklists OWASP provides. Begin by making sure your software team adheres to OWASP security resources. Methodically progress through every top OWASP checklist and verify with your software team that you have implemented these recommendations.
+
+👉 [The list of OWASP resources](/blog/top-owasp-resources-to-follow/)
+
+## Static Application Security Testing (SAST)
+
+Static Application Security Testing (SAST), using dedicated SAST tools, will scan your app's code and alert you to any vulnerabilities, such as SQL injections, outdated algorithms, or strings that could be potential passwords.
+
+👉 The list of SAST tools to consider: https://brightinventions.pl/blog/examples-of-sast-tools-for-app-security/
+
+## Dynamic Application Security Testing (DAST)
+
+DAST tools often provide the ability to proxy requests, record them, tamper with them, replay them, inject parameters, build a site map by crawling, and more.
+
+👉 [The list of DAST tools to consider](/blog/examples-of-dast-tools-for-app-security/).
+
+## Track dependencies
+
+Dependency tracking tools assist in identifying outdated or vulnerable dependencies in our code e.g. libraries, frameworks, plugins, or other software modules that a project relies on to function. Track dependencies tools support effective code modernization by automatically highlighting places that should be updated.
+
+👉 [The list of dependency-tracking tools to consider](/blog/examples-of-dependency-tracking-tools-for-app-security/).
+
+## Detect secret leaks
+
+Detecting secret leaks involves identifying instances where sensitive information, such as passwords, API keys, secret tokens, or private keys, have been unintentionally exposed in places they shouldn't be like public repositories, open documentation, or log files. There are tools and practices designed to prevent and detect these leaks.
+
+👉 [The list of secret leaks detecting tools to consider](/blog/secret-leak-detection-tools-to-consider-for-your-app-security/).
+
+## Infrastructure Reconnaissance
+
+Infrastructure reconnaissance tools allow businesses to scan their infrastructure for vulnerabilities, including outdated software versions, open ports, and misconfigured security headers.
+
+👉 [The list of infrastructure reconnaissance tools to consider](/blog/infrastructure-reconnaissance-tools-for-your-app-security).
