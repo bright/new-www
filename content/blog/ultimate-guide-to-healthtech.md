@@ -172,6 +172,8 @@ The Personal Information Protection and Electronic Documents Act (PIPEDA) is a C
 
 Similar to the EU GDPR, the UK GDPR regulates the processing of personal data. It mandates data protection principles like data minimization, accuracy, and security. It also requires obtaining explicit consent for processing personal data and implementing data protection measures, including data encryption and breach notification.
 
+Read more about [security in healthcare](/blog/cyber-security-in-healthcare/), which is a crucial aspect of compliance with local laws.
+
 ## UX Design in HealthTech
 
 HealthTech and MedTech applications are usually comprehensive, massive systems dealing with tons of information. Patient's health history, prescribed medicine, vital sign metrics – all of this data is important for healthcare providers and must be well-designed in any system aiming to help them care for patients. That's why there are a few best practices for designing apps for healthcare:
