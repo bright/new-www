@@ -95,8 +95,10 @@ Monitoring of CPU, memory, storage, and network usage to prevent bottlenecks and
 
 <center>
 
-<div className="image">![app performance monitoring metrics](../../static/images/app_performance_monitoring_metrics.png "app performance monitoring metrics")</div>
+<div className="image">![app performance monitoring metrics](../../static/images/app_performance_monitoring_metrics_update_blog.png "Design template by Emmanuel Iwegbue")</div>
 
 </center>
+
+Design template by [Emmanuel Iwegbue](https://www.figma.com/community/file/1331537825284408926).  
 
 **If you want to discuss performance monitoring for your solution, [just book a free consultation](/start-project/). Our experts will guide you through any scalability challenges.**
