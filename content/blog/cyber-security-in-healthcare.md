@@ -14,3 +14,5 @@ published: true
 language: en
 ---
 **With this tutorial, you'll receive step-by-step instructions on how to conduct an internal security audit of your healthcare software, along with a list of dozens of tools to assist you in the process. Most of these tools offer free trials, allowing you to quickly test them and then decide if they're the right asset for your team.**
+
+<div className="image">![security in healthcare](../../static/images/blog_post_cover-8-.png "security in healthcare")</div>
