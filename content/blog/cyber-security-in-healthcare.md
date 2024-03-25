@@ -76,3 +76,17 @@ Use GDPR & HIPPA-compliant software for medical data processing. By signing up f
 <blockquote><h2>As one can read on AWS website</h2><div>AWS enables covered entities and their business associates subject to the U.S. Health Insurance Portability and Accountability Act of 1996 (HIPAA) to use the secure AWS environment to process, maintain, and store protected health information.</div><footer>Source: https://aws.amazon.com/compliance/hipaa-compliance/</footer></blockquote>
 
 What’s more, the cloud enables data backup and disaster recovery, ensuring that HealthTech organizations can quickly recover from data loss events and maintain continuity of care without the need for extensive on-site data storage facilities.
+
+## Utilize managed identity services
+
+Cloud providers offer various tools to help you manage users' sensitive data securely. One such tool is AWS Cognito, designed to securely add user sign-up, sign-in, and access control to web and mobile applications. AWS Cognito encrypts user data, supports multi-factor authentication to add a level of security, and helps detect unusual sign-in activities. [Read more on AWS](https://docs.aws.amazon.com/cognito/latest/developerguide/managing-users.html).
+
+Naturally, you can create own customized solutions to manage user data; however, there is a higher risk of incorrect implementation, and you need to remember to update the software on your own. Don’t reinvent the wheel seems like a smarter approach in this case.
+
+Bright Inventions' team primarily works with AWS tools; therefore, we are showcasing examples from Amazon's suite of services. Although providers like Google Cloud or Microsoft Azure also offer tools designed to comply with major security standards and certifications.
+
+## Maintain separation of concerts
+
+Don’t store sensitive data in one place. You make the work for attackers simpler. Each encrypted database should be stored in a different physical location provided by cloud providers. One database can store patients' private data (name, age, social security number, etc.), while another should store medical information. Therefore, the risk of leaking data from both databases is much lower. What’s more, keep your staging and production sites in separate networks with different authorization levels limiting the number of users gaining the access.
+
+<blockquote><h2>This is how we introduced this tactic while building a mobile app for people with Parkinson’:</h2><div>Given its healthcare nature, the app stored sensitive medical data on patients’ health, including information on pain and tremors, as well as data on very specific side effects, such as sexual drive levels and gambling propensity.  One of the security tactics we implemented was breaking down the encrypted database into two – each stored in a different AWS services’ physical location. The first database stored basic user data, such as name or email address. The second database kept sensitive medical information, including medication intake or physical symptoms and side effects. Through this decision, we minimized the chance that, in the event of a data breach, the attacking party would be able to access all the information. Therefore, even in the case of a data breach, the risk of matching symptoms to specific patients' names is low.</div><footer>Mateusz Klimczak, Partner & Head of Delivery at bright inventions</footer></blockquote>
