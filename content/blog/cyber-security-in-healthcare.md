@@ -21,13 +21,13 @@ Only [14% of patients](https://rockhealth.com/insights/the-new-era-of-consumer-e
 
 <div className="image">![Rock Health](../../static/images/4-willing-to-share-all-entities.png "Rock Health")</div>
 
-<center> Source: \[Rock Health](https://rockhealth.com/insights/the-new-era-of-consumer-engagement-insights-from-rock-healths-ninth-annual-consumer-adoption-survey/?mc_cid=1d086c1225&mc_eid=fbb3bdc963) </center>
+<center> Source: [Rock Health](https://rockhealth.com/insights/the-new-era-of-consumer-engagement-insights-from-rock-healths-ninth-annual-consumer-adoption-survey/?mc_cid=1d086c1225&mc_eid=fbb3bdc963) </center>
 
 Can you blame patients? Just visit the TechCrunch healthcare section to see countless stories about data leaks, hacks, and more. Why should patients trust healthcare tech companies with their data? Unfortunately, even if you aim to implement top security practices, you are facing the same mistrust issues as part of the industry. So, how can you build trust among your users? Secure product is the right answer. Let’s discuss security measures you should incorporate in your HealthTech company. 
 
 <div className="image">![techcrunch](../../static/images/techcrunch_healthcare.png "techcrunch")</div>
 
-<center> Source: \[techcrunch.com](https://techcrunch.com/tag/healthcare/) </center>
+<center> Source: [techcrunch.com](https://techcrunch.com/tag/healthcare/) </center>
 
 ## Audit your software and start Secure Software Development Life Cycle
 
