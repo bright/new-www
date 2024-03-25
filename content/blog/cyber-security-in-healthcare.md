@@ -29,7 +29,11 @@ Can you blame patients? Just visit the TechCrunch healthcare section to see coun
 
 <center> Source: \[techcrunch.com](https://techcrunch.com/tag/healthcare/) </center>
 
-## Audit your software and keep SSDLC (Secure Software Development Life Cycle)
+## Audit your software and start Secure Software Development Life Cycle
+
+You should implement dozens of security tactics that will audit your software internally and kick off your Secure Software Development Life Cycle (SSDLC).
+
+<div className="image">![securing health data infographics](../../static/images/security_healthcare.jpg "securing health data infographics")</div>
 
 ### Adhering to OWASP best practices
 
@@ -66,8 +70,6 @@ Detecting secret leaks involves identifying instances where sensitive informatio
 Infrastructure reconnaissance tools allow businesses to scan their infrastructure for vulnerabilities, including outdated software versions, open ports, and misconfigured security headers.
 
 👉 [The list of infrastructure reconnaissance tools to consider](/blog/infrastructure-reconnaissance-tools-for-your-app-security).
-
-<div className="image">![securing health data infographics](../../static/images/security_healthcare.jpg "securing health data infographics")</div>
 
 ## Adhere to local data protection laws
 
