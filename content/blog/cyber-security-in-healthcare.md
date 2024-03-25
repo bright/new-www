@@ -99,4 +99,4 @@ Good news! The OpenAI API is eligible for GDPR and HIPAA compliance under a few 
 
 Delve into [LLMs fot healthcare](/blog/llms-healthcare-security/) in another blog post.
 
-<EbookDynamic sectionTitle='want to delve into scaling HeathTech' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'We\'ve got much more resources for you! Download our free guide for HealthTech leaders.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
+<EbookDynamic sectionTitle='ready to face other HealthTech challenges?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'We\'ve got much more resources for you! Download our free guide for HealthTech leaders.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
