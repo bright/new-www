@@ -61,8 +61,10 @@ Detecting secret leaks involves identifying instances where sensitive informatio
 
 👉 [The list of secret leaks detecting tools to consider](/blog/secret-leak-detection-tools-to-consider-for-your-app-security/).
 
-## Infrastructure Reconnaissance
+## Infrastructure reconnaissance
 
 Infrastructure reconnaissance tools allow businesses to scan their infrastructure for vulnerabilities, including outdated software versions, open ports, and misconfigured security headers.
 
 👉 [The list of infrastructure reconnaissance tools to consider](/blog/infrastructure-reconnaissance-tools-for-your-app-security).
+
+<div className="image">![securing health data infographics](../../static/images/security_healthcare.jpg "securing health data infographics")</div>
