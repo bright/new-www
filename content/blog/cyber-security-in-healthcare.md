@@ -8,7 +8,7 @@ meaningfullyUpdatedAt: 2024-03-25T13:09:01.183Z
 title: "Securing Health Data: Best Practices for Building Trustworthy Healthcare Apps"
 layout: post
 image: /images/healthcare_security_cover.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
