@@ -68,3 +68,11 @@ Infrastructure reconnaissance tools allow businesses to scan their infrastructur
 👉 [The list of infrastructure reconnaissance tools to consider](/blog/infrastructure-reconnaissance-tools-for-your-app-security).
 
 <div className="image">![securing health data infographics](../../static/images/security_healthcare.jpg "securing health data infographics")</div>
+
+## Adhere to local data protection laws
+
+Use GDPR & HIPPA-compliant software for medical data processing. By signing up for a cloud provider you might get access to HIPPA-compliant architecture to process medical data. It’s the fastest way to achieve HIPPA or GDPR compliance.
+
+<blockquote><h2>As one can read on AWS website</h2><div>AWS enables covered entities and their business associates subject to the U.S. Health Insurance Portability and Accountability Act of 1996 (HIPAA) to use the secure AWS environment to process, maintain, and store protected health information.</div><footer>Source: https://aws.amazon.com/compliance/hipaa-compliance/</footer></blockquote>
+
+What’s more, the cloud enables data backup and disaster recovery, ensuring that HealthTech organizations can quickly recover from data loss events and maintain continuity of care without the need for extensive on-site data storage facilities.
