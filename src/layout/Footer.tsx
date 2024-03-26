@@ -101,6 +101,9 @@ export const Footer = () => {
             <p className='content'>
               <a href='https://bright-dev-newsletter.getresponsepages.com/' target='_blank' rel='noopener noreferrer nofollow'>newsletter</a>
             </p>
+            <p className='content'>
+              <Link to={routeLinks.agencyGdansk}>software agency from Gdansk</Link>
+            </p>
           </div>
 
           <div className={classNames('column hidden', styles.links)}>
