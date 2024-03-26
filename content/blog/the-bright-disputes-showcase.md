@@ -47,3 +47,9 @@ To view the details of a dispute, one must click the "show" button, which leads 
 The page features seven action buttons that become active depending on the user account context and the trial stage. All user accounts are clickable, facilitating switching between them. Icons next to user accounts, such as a thumbs-up (role acceptance) or a voting urn (cast vote), indicate completed actions. Hovering over an icon displays the status description. To return to the main page, simply click on the application logo.
 
 <div className="image">![bright dispute mockup](../../static/images/bright_dispute_mockup3.png "bright dispute mockup")</div>
+
+This comprehensive overview of the interface underlines the application's commitment to user-centric design and functionality. With its intuitive navigation, clear visual cues, the interface not only simplifies the process of dispute resolution but also enhances user engagement and understanding. 
+
+## Conclusions
+
+Bright Disputes marks a significant leap forward in blockchain-based dispute resolution. In this context, Bright Disputes Showcase serves an educational and demonstrative purpose, encouraging users to explore it. This feature is a valuable tool for understanding the detailed process of dispute resolution in the Bright Disputes program and for learning how to use its Command Line Interface (CLI).
