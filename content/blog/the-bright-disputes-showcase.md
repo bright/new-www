@@ -2,8 +2,8 @@
 author: krystian
 tags:
   - blockchain
-date: 2024-03-26T09:28:49.282Z
-meaningfullyUpdatedAt: 2024-03-26T09:28:49.307Z
+date: 2024-03-26T09:35:58.659Z
+meaningfullyUpdatedAt: 2024-03-26T09:35:59.187Z
 title: The Bright Disputes Showcase
 layout: post
 image: /images/bright_dispute_cover_blog.png
