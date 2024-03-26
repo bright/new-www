@@ -91,4 +91,4 @@ One of the reasons might be the fact that **Gdansk offers opportunities to grow 
 
 We hope that you have unlocked the potential Gdansk has. If you are looking for a software agency based in Gdansk, reach out to our team.
 
-<div className="block-button"><h2>Book a free consultation in 48 hours</h2><div>Contact us to discuss your idea or software solution. We have been developing digital products since 2012 for clients from Norway, Israel, Germany, the UK, Israel, the USA, and more.</div><a href="/start-project/"><button>let's talk about your solution</button></a></div>
+<div className="block-button"><h2>Book a free consultation in 48 hours</h2><div>Contact us to discuss your idea or software solution. We have been developing digital products since 2012 for clients from Norway, Israel, Germany, the UK, Israel, the USA, and more.</div><a href="/our-areas/gdansk-software-company/"><button>let's talk about your solution</button></a></div>
