@@ -41,3 +41,9 @@ It's worth noting the dropdown in the top right corner, which allows for the sel
 The dispute creation form in the "Bright Dispute Showcase" is a straightforward interface featuring just three fields and a submit button. Users can conveniently select the defendant's public key from a list of predefined users.
 
 <div className="image">![bright dispute mockup](../../static/images/bright_dispute_mockup2.png "bright dispute mockup")</div>
+
+To view the details of a dispute, one must click the "show" button, which leads to the details page. Here, users can learn about the case descriptions of both parties - the owner and the defendant. In the center of the screen, there's information about the current state of the dispute and the next steps. At relevant stages of the trial, lists of jurors, blocked jurors, the judge, the voting round number, the status, and the verdict are available. 
+
+The page features seven action buttons that become active depending on the user account context and the trial stage. All user accounts are clickable, facilitating switching between them. Icons next to user accounts, such as a thumbs-up (role acceptance) or a voting urn (cast vote), indicate completed actions. Hovering over an icon displays the status description. To return to the main page, simply click on the application logo.
+
+<div className="image">![bright dispute mockup](../../static/images/bright_dispute_mockup3.png "bright dispute mockup")</div>
