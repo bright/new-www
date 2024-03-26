@@ -37,3 +37,7 @@ This section delves into the various aspects of the application's interface, hig
 It's worth noting the dropdown in the top right corner, which allows for the selection of predefined users. Below the application logo, there's a counter of registered jurors, alongside buttons for registering and deregistering users from the jury pool. There is also a button for creating new disputes, leading to the creation form.
 
 <div className="image">![bright dispute mockup](../../static/images/bright_dispute_mockup1.png "bright dispute mockup")</div>
+
+The dispute creation form in the "Bright Dispute Showcase" is a straightforward interface featuring just three fields and a submit button. Users can conveniently select the defendant's public key from a list of predefined users.
+
+<div className="image">![bright dispute mockup](../../static/images/bright_dispute_mockup2.png "bright dispute mockup")</div>
