@@ -8,8 +8,8 @@ short_name: Mateusz
 email: mateusz.gabrynowicz@brightinventions.pl
 bio: Senior Android Developer
 description: Senior Android Developer
-avatar: /images/team_member_margines-1-.png
-avatar_hover: /images/team_member_margines.png
+avatar: /images/team_member_margines-3-.png
+avatar_hover: /images/team_member_margines-2-.png
 published: true
 language: en
 ---
