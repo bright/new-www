@@ -30,8 +30,8 @@ short_description: Poland is well-known for having top software developers. For
 order: 99
 title: partner with a top Gdansk software house
 highlighted_word: Gdansk
-image_our_service_desktop: /images/software_house_based_in_gdansk.png
-image_our_service_mobile: /images/software_house_based_in_gdansk.png
+image_our_service_desktop: /images/gdansk_desktoplp.png
+image_our_service_mobile: /images/gdansk_lp_mobile.png
 image_alt_our_service: software house gdansk
 bullet_points:
   - EU-based company
