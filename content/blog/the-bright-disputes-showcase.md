@@ -15,3 +15,16 @@ language: en
 **In the ever-evolving world of blockchain technology, decentralized applications (dApps) are making significant strides, particularly in legal agreements and dispute resolution. Among these innovations, Bright Disputes stands out as a transformative solution for conflict resolution on Substrate-based blockchains, leveraging the capabilities of smart contracts.**
 
 <div className="image">![bright dispute](../../static/images/bright_dispute_cover_blog.png "bright dispute")</div>
+
+## Understanding Decentralized Applications (dApps)
+
+Decentralized applications, or dApps, are an integral part of the blockchain ecosystem, offering enhanced security, transparency, and user autonomy. Unlike traditional applications, dApps run on a peer-to-peer network of computers, making them immune to single points of failure and offering a new level of user trust and interaction.
+
+## The Role of Bright Disputes in Blockchain Conflict Resolution
+
+Bright Dispute Showcase serves as a demonstration tool, designed to help users understand the intricacies of Bright Disputes. Utilizing a Command Line Interface (CLI), the application showcases the step-by-step process of a dispute resolution, from initiation to conclusion, using predefined user accounts. It illustrates the dispute resolution process:
+* Initiating a dispute involves specifying the defendant's public key and case details, followed by creating the dispute.
+* Users can observe the CLI commands used at each stage, enhancing their understanding of the application's functionality.
+* The process involves multiple stages, including defendant confirmation, jury selection, and voting phases.
+* Juror anonymity is maintained during voting, and private keys play a critical role in the process.
+* The resolution of the dispute occurs when a majority decision is reached, followed by the distribution of token deposits among the successful party's jurors and the judge.
