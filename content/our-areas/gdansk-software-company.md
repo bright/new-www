@@ -31,7 +31,7 @@ order: 99
 title: partner with a top Gdansk software house
 highlighted_word: Gdansk
 image_our_service_desktop: /images/gdansk_desktoplp.png
-image_our_service_mobile: /images/gdansk_lp_mobile.png
+image_our_service_mobile: /images/gdansk_lp_mobile_update.png
 image_alt_our_service: software house gdansk
 bullet_points:
   - EU-based company
