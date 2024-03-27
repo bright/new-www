@@ -12,10 +12,12 @@ faqs:
   - Do you conduct product workshops? Gdansk
 project:
   - circles
-  - relevo - instant app and app clip
+  - relevo
   - Practi JET POS
   - HS-Baumappe
   - solution-parkinson
+  - Card Tracking System
+  - tms
 layout: our-service
 our_service_id: Gdansk software company
 meta_title: Software House from Gdansk
