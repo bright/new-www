@@ -50,4 +50,4 @@ UX/UI design must tame any complexities and immediately show the value of your s
 
 [Check how we approached a product design for a complex healthcare solution](/blog/ux-design-healthcare-medical-apps-case-study/).
 
-<div className="image">![]( "")</div>
+<div className="image">![UX design best practices](../../static/images/femtech_ux_design.png "UX design best practices")</div>
