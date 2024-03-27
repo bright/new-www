@@ -9,7 +9,13 @@ team_members:
   - bartosz
   - fjablonski
 faqs:
-  - Do you conduct product workshops? Gdansk
+  - What services does your software house offer? gdansk
+  - How experienced is your team in software development? Gdansk
+  - What industries do you specialize in? Gdansk
+  - What is the typical timeline for completing a project? Gdansk
+  - How do you handle communication and updates throughout the project? Gdansk
+  - Are there any specific technologies or platforms your team specializes in?
+    Gdansk
 project:
   - circles
   - relevo
