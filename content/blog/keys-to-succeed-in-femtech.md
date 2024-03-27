@@ -43,3 +43,11 @@ User frustrations related to your solution may be painful for you in the future.
 </center>
 
 A basic app performance monitoring can be set up even within a day. For more information on this go to our another blog post deeply covering [eHealth app performance monitoring](/blog/healthcare-app-performance-monitoring/).
+
+## Inclusive product design
+
+UX/UI design must tame any complexities and immediately show the value of your solution, otherwise patients and physicians won’t be keen to use it. Your design should offer a personal approach and enhance smooth navigation for women of different age groups and levels of tech-savviness.
+
+[Check how we approached a product design for a complex healthcare solution](/blog/ux-design-healthcare-medical-apps-case-study/).
+
+<div className="image">![]( "")</div>
