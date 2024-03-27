@@ -51,3 +51,25 @@ UX/UI design must tame any complexities and immediately show the value of your s
 [Check how we approached a product design for a complex healthcare solution](/blog/ux-design-healthcare-medical-apps-case-study/).
 
 <div className="image">![UX design best practices](../../static/images/femtech_ux_design.png "UX design best practices")</div>
+
+## Offline-first application
+
+Depending on your FemTech solution, implementing an offline mode might be necessary to enable users to take crucial actions within the app, even without internet access. This feature is particularly important for apps designed to track vital signs, menstrual cycles, or breastfeeding experiences, ensuring accessibility even with unreliable internet connectivity. Additionally, for remote patient monitoring, offline mode allows for the tracking of vital signs with medical devices, with data synchronization with doctors as soon as internet access is restored.
+
+Offline mode can significantly enhance your solution, but it's important to first assess whether your product truly benefits from this feature. [Read more about offline-first applications](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/).
+
+## Incorporate medical devices and wearables
+
+This includes the development of medical devices and diagnostics specifically designed for female anatomy or conditions. Examples include advanced mammography devices, pelvic floor exercisers, and devices for non-invasive gynecological treatments.
+
+In many cases, telemedicine cannot exist without medical devices creating IoT systems that enable the tracking of patients’ vitals and allow physicians to monitor them in real-time. One of the greatest challenges is integrating various devices with often different SDKs into one unified system.
+
+[Glooma](https://glooma.pt/en) introduces SenseGlove, a breast self-examination device, enhances traditional breast exams by linking to a mobile app for reminders and recommendations​​.
+
+## Last but not least – change your mindset from client-centric to patient-centric
+
+In FemTech, it's crucial not to see your 'users' merely as clients. Instead, foster a mindset among your team and within yourself to treat 'users' as patients with specific issues and needs. Recognize them as females, mothers, sisters, daughters, wives, girlfriends, and more – but never just users or clients.
+
+## Bonus: areas of FemTech with examples of companies
+
+<div className="image">![FemTech areas](../../static/images/femtech-areas.png "FemTech areas")</div>
