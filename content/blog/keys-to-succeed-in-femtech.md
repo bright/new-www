@@ -41,3 +41,5 @@ User frustrations related to your solution may be painful for you in the future.
 <div className="image">![app performance monitoring](../../static/images/app_performance_monitoring_metrics_update_blog.png "app performance monitoring")</div>
 
 </center>
+
+A basic app performance monitoring can be set up even within a day. For more information on this go to our another blog post deeply covering [eHealth app performance monitoring](/blog/healthcare-app-performance-monitoring/).
