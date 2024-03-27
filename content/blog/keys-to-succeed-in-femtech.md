@@ -4,10 +4,10 @@ tags:
   - HealthTech
 date: 2024-03-27T12:09:10.298Z
 meaningfullyUpdatedAt: 2024-03-27T12:09:10.934Z
-title: Keys to succeed in femtech
+title: "Understanding FemTech: Keys to Succeed with Your Software Solution for Women"
 layout: post
 image: /images/femtech_blog_cover.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
