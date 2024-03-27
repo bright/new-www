@@ -52,15 +52,19 @@ UX/UI design must tame any complexities and immediately **show the value of your
 
 <div className="image">![UX design best practices](../../static/images/femtech_ux_design.png "UX design best practices")</div>
 
-## Offline-first application
+## Offline-first application \[examples]
 
 Depending on your FemTech solution, **implementing an offline mode might be necessary to enable users to take crucial actions within the app, even without internet access**. This feature is particularly important for apps designed to track vital signs, menstrual cycles, or breastfeeding experiences, ensuring accessibility even with unreliable internet connectivity. Additionally, for remote patient monitoring, offline mode allows for the tracking of vital signs with medical devices, with data synchronization with doctors as soon as internet access is restored.
 
 Offline mode can significantly enhance your solution, but it's important to first assess whether your product truly benefits from this feature. [Read more about offline-first applications](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/).
 
-## Incorporate medical devices and wearables
+## Incorporate medical devices and wearables \[example]
 
 This includes the development of medical devices and diagnostics specifically designed for female anatomy or conditions. Examples include advanced mammography devices, pelvic floor exercisers, and devices for non-invasive gynecological treatments. [Glooma](https://glooma.pt/en) introduces SenseGlove, a breast self-examination device, enhances traditional breast exams by linking to a mobile app for reminders and recommendations​​.
+
+<div className="image">![Glooma website](../../static/images/glooma.png "Glooma website")</div>
+
+Source: [glooma.pt](https://glooma.pt/en)
 
 In many cases, telemedicine cannot exist without medical devices creating IoT systems that enable the tracking of patients’ vitals and allow physicians to monitor them in real-time. **One of the greatest tech challenges is integrating various devices with often different SDKs into one unified system**. To build truly unified system the best way is contact [IoT development company](/our-areas/iot-development/) that has experience in building IoT, especially for healthcare.
 
