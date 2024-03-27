@@ -2,8 +2,8 @@
 author: izabela
 tags:
   - HealthTech
-date: 2024-03-27T11:41:59.831Z
-meaningfullyUpdatedAt: 2024-03-27T11:41:59.854Z
+date: 2024-03-27T12:09:10.298Z
+meaningfullyUpdatedAt: 2024-03-27T12:09:10.934Z
 title: Keys to succeed in femtech
 layout: post
 image: /images/femtech_blog_cover.png
