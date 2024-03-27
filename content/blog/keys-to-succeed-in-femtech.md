@@ -25,3 +25,9 @@ From the first interactions with your FemTech app, it's crucial to demonstrate t
 No matter what onboarding strategy you will choose you should always analyze its performance by measuring the competition rate as a part of data-driven development.
 
 Read more about [how data-driven development saved the onboarding of FemTech app for moms-to-be](/blog/data-driven-development-femtech-app-onboarding/).
+
+## Building trust with security \[guide to internal security audit included]
+
+Patients don't want to share their health data with health tech companies. It's hard to blame them. Day by day, we hear about cyber attacks targeted at healthcare companies. At the same time, security practices aren't some mystery knowledge. You can quickly conduct even an internal security audit with the tools that we list in our [security guide for healthcare](/blog/cyber-security-in-healthcare/).
+
+<div className="image">![security for healthtech](../../static/images/security_healthcare.jpg "security for healthtech")</div>
