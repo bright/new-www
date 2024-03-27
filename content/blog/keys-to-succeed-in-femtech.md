@@ -31,3 +31,13 @@ Read more about [how data-driven development saved the onboarding of FemTech app
 Patients don't want to share their health data with health tech companies. It's hard to blame them. Day by day, we hear about cyber attacks targeted at healthcare companies. At the same time, security practices aren't some mystery knowledge. You can quickly conduct even an internal security audit with the tools that we list in our [security guide for healthcare](/blog/cyber-security-in-healthcare/).
 
 <div className="image">![security for healthtech](../../static/images/security_healthcare.jpg "security for healthtech")</div>
+
+## Ensuring credibility with app performance monitoring \[tutorial and metrics cheat sheet included]
+
+User frustrations related to your solution may be painful for you in the future. Yet, there is quite an easy way to prevent it. Implement app monitoring from the very beginning (or as soon as possible) to monitor any app performance issues before your female users even experience them. There are many crucial metrics you should measure:
+
+<center>
+
+<div className="image">![app performance monitoring](../../static/images/app_performance_monitoring_metrics_update_blog.png "app performance monitoring")</div>
+
+</center>
