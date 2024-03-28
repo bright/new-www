@@ -10,6 +10,11 @@ salary_min: 13300
 salary_max: 19000
 working time: full time
 technology:
+  - Manual testing
+  - Automated testing
+  - API Testing
+  - Git
+  - Ci/CD
   - PostgreSQL
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
@@ -53,7 +58,7 @@ We are looking for a business-oriented senior QA engineer to join one of our [pr
 * defining acceptance criteria for features
 * making suggestions for changes and improvements to project
 * close collaboration with developers & PM team on the implementation of app
-* conducting various non-functional tests to evaluate aspects such as performance (Proxyman), usability, reliability, scalability, security, and compatibility
+* conducting various non-functional tests to evaluate aspects such as performance, usability, reliability, scalability, security, and compatibility
 * API testing and endpoint testing (Postman)
 * optimisation of testing processes
 * code review related to automated tests
