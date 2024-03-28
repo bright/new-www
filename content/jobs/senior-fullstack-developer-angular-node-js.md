@@ -5,7 +5,7 @@ subtitle: OPEN
 imagejob: /images/fullstack-team-job-offer-1-.png
 image-alt-job: Devs Team Bright Inventions
 hours: full-time
-salary: 20 000 - 24 000 PLN + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
+salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
 salary_min: 16600
 salary_max: 24000
 working time: full time
@@ -73,7 +73,6 @@ We are looking now for **a senior fullstack developer who has already had experi
 * continuous feedback culture and 1:1 meetings 
 * clear career path with
 * flexible working hours and remote work possibility 
-* 20-26 paid days off + Polish bank holidays
 * MultiSport card and private medical package (Compensa)
 * good equipment: we provide you with MacBook and additional accessories
 * internal workshops and dev's meetings 
