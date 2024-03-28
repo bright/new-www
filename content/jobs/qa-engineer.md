@@ -33,7 +33,7 @@ links_more_about_us: >-
 title_recruiter_info: Do you have any questions? Ask Sara from our Bright team!
 image_recruiter_info: /images/sara-bright-recruiter.png
 button_linkedin: https://www.linkedin.com/in/saralecka/
-published: true
+published: false
 show_recruiter_info: true
 hidden: false
 name_recruiter: Sara
