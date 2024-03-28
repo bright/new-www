@@ -53,33 +53,27 @@ We are looking for a business-oriented senior QA engineer to join one of our [pr
 * defining acceptance criteria for features
 * making suggestions for changes and improvements to project
 * close collaboration with developers & PM team on the implementation of app
-* API testing and endpoint testing (Postman)
 * conducting various non-functional tests to evaluate aspects such as performance (Proxyman), usability, reliability, scalability, security, and compatibility
+* API testing and endpoint testing (Postman)
 * optimisation of testing processes
 * code review related to automated tests
 * maintenance of documentation
 
 ## preferred skills & qualifications
 
-* practical experience of software development testing, both web and mobile 
+* at least 4 years of full-time commercial QA experience including significant product experience (both web and mobile)
+* client-centric approach and strong communication skills (you will take part in meetings with business on a daily basis)
+* the ability to adapt to changing contexts and priorities
 * experience with DB testing (PostgreSQL, DataGrip), performance testing and API testing (Postman, Swagger, REST, Charles) 
 * experience with Git and most effective QA tools
-* good knowledge of testing methodologies and test cases specification & execution
 * experience with non-functional testing: performance, load, stress testing
 * experience with API automation testing (TS/JS) 
+* very good knowledge of testing methodologies and test cases specification & execution
 * solid knowledge of CI and CD 
 * strong problem solving and analytical skills
-* the ability to adapt to changing contexts and priorities
-* client-centric approach and strong communication skills  (you will take part in meetings with business on a daily basis)
 * accuracy and attention to details
 * **very good level of English** (both written and spoken)
 * **very good level of Polish** 🇵🇱 (we work in an international environment, but within the company, we communicate in Polish)
-
-## we would also appreciate if you have 
-
-* basic knowledge of at least one programming language: JavaScript, Java, Kotlin 
-* practical knowledge of test automation and Mocha/SuperTest
-* familiarity with JIRA
 
 ## what you will find in our Bright Team 🧡
 
