@@ -15,6 +15,7 @@ technology:
   - Node.js
   - React
   - AWS
+  - Java
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -31,7 +32,7 @@ workplace_recruiter: Junior Recruiting Specialist
 image_recruiter_info: /images/sara-bright-recruiter.png
 image_alt_recruiter_info: Sara Łęcka - Junior Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/saralecka/
-button: "join our TypeScript team "
+button: "join our Bright team "
 published: true
 show_recruiter_info: false
 order: 1
@@ -55,7 +56,7 @@ We are looking now for **a senior fullstack developer who has already had experi
 
 * at least 3-4 years of commercial programming experience
 * solid working knowledge of TypeScript/JavaScript
-* working experience with Angular and Node.js
+* working experience with Angular and Node.js/Java
 * experience with SQL databases
 * very good problem solving and analytical thinking skills
 * positive attitude and open mind
