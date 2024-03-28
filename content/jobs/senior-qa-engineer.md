@@ -56,20 +56,19 @@ We are looking for a business-oriented senior QA engineer to join one of our [pr
 
 * testing new functionalities in accordance with their specification (70% manual tests, 30% automated tests)
 * defining acceptance criteria for features
-* making suggestions for changes and improvements to project
+* making improvements to the project and optimisation of testing processes
 * close collaboration with developers & PM team on the implementation of app
 * conducting various non-functional tests to evaluate aspects such as performance, usability, reliability, scalability, security, and compatibility
 * API testing and endpoint testing (Postman)
-* optimisation of testing processes
-* code review related to automated tests
 * maintenance of documentation
 
 ## preferred skills & qualifications
 
 * at least 4 years of full-time commercial QA experience including significant product experience (both web and mobile)
-* client-centric approach and strong communication skills (you will take part in meetings with business on a daily basis)
+* a client-focused approach coupled with excellent communication skills (you'll be involved in daily business meetings)
 * the ability to adapt to changing contexts and priorities
-* experience with DB testing (PostgreSQL, DataGrip), performance testing and API testing (Postman, Swagger, REST, Charles) 
+* knowledge of various testing frameworks and their adaptation to project needs
+* experience with DB testing (e.g. PostgreSQL, DataGrip), performance testing and API testing (e.g. Postman, Swagger, REST, Charles) 
 * experience with Git and most effective QA tools
 * experience with non-functional testing: performance, load, stress testing
 * experience with API automation testing (TS/JS) 
@@ -83,9 +82,9 @@ We are looking for a business-oriented senior QA engineer to join one of our [pr
 ## what you will find in our Bright Team 🧡
 
 * a great impact on the key project decisions
-* flexible working hours and remote work possibility
+* flexible working hours and hybrid work model 
 * 20-26 paid days off + Polish public holidays
-* mentoring program and regular 1:1 meetings
+* mentoring program and 1:1 meetings with a project manager
 * continuous feedback culture and open communication
 * MultiSport and private medical package
 * company library with an extra budget for professional books
@@ -94,7 +93,6 @@ We are looking for a business-oriented senior QA engineer to join one of our [pr
 * weekly sport classes and in-house yoga time
 * office in Gdańsk Wrzeszcz with a parking space nearby
 * team retreats once a quarter and lunch roulette initiative
-* board games evenings
 
 ## recruitment process
 
