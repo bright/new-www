@@ -14,7 +14,7 @@ technology:
   - Automated testing
   - API Testing
   - Git
-  - Ci/CD
+  - CI/CD
   - PostgreSQL
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
