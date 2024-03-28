@@ -87,7 +87,6 @@ The person who will join our team should possess **the ability to adapt and adju
 * continuous feedback culture and 1:1 meetings 
 * clear career path with 
 * flexible working hours and remote work possibility
-* 20-26 paid days off + Polish bank holidays
 * MultiSport card and private medical package (Compensa)
 * good equipment: we provide you with MacBook and additional accessories
 * internal workshops and dev's meetings 
