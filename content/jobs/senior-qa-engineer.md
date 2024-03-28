@@ -5,7 +5,7 @@ subtitle: OPEN
 imagejob: /images/brightteam_devops.png
 image-alt-job: QA Team Bright Inventions
 hours: full-time
-salary: 16 000 - 19 000 PLN + VAT (B2B) or 13 300 - 15 800 PLN gross (UoP)
+salary: 108 - 128 PLN/hour + VAT (B2B) or 13 300 - 15 800 PLN gross (UoP)
 salary_min: 13300
 salary_max: 19000
 working time: full time
@@ -83,7 +83,6 @@ We are looking for a business-oriented senior QA engineer to join one of our [pr
 
 * a great impact on the key project decisions
 * flexible working hours and hybrid work model 
-* 20-26 paid days off + Polish public holidays
 * mentoring program and 1:1 meetings with a project manager
 * continuous feedback culture and open communication
 * MultiSport and private medical package
