@@ -18,7 +18,7 @@ language: en
 
 <div className="image">![FemTech key areas](../../static/images/femtech_key_areas.png "FemTech key areas")</div>
 
-## Reproductive health
+### Reproductive health
 
 This area includes technologies related to menstruation, contraception, fertility solutions, pregnancy, and nursing care. Apps that track menstrual cycles and fertility windows fall into this category, as do technologies assisting with in vitro fertilization (IVF) and other fertility treatments.
 
@@ -27,3 +27,13 @@ This area includes technologies related to menstruation, contraception, fertilit
 [Flo Health](https://flo.health/) has developed a widely-used app for period and ovulation tracking, leveraging AI to offer personalized insights and support for female health​​.
 
 <InstagramEmbed url='https://www.instagram.com/p/C1-I6sMofMo/' />
+
+### Pregnancy and postpartum care
+
+Technologies and services designed to support women before, during, and after childbirth. This can include prenatal and postnatal care apps, wearable devices monitoring maternal and fetal health, and platforms offering support and resources for new mothers.
+
+[Keleya](https://keleya.de/en/pregnancy-app/) offers a large selection of pregnancy workouts, yoga & expert knowledge tailored to the needs of pregnant women.
+
+[LEIA Health](https://www.leia.health/en) helps to track women's well-being after giving birth including postpartum depression and pelvic floor tests, recovery plans, sleep, feeding and exercising recommendations.
+
+<InstagramEmbed url='https://www.instagram.com/p/C4ivih8MCQm/?img_index=1' />
