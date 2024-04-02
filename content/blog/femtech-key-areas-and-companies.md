@@ -73,3 +73,17 @@ Menopause is often associated with the aging of females, yet reaching a certain 
 [INNOVO](https://www.myinnovo.com/) offers a non-invasive, FDA-cleared solution for treating stress urinary incontinence in women.
 
 <InstagramEmbed url='https://www.instagram.com/p/C4_Qsr0ORoE/' />
+
+### Breastfeeding and nursing 
+
+Technology solutions designed to support breastfeeding mothers, including lactation apps, smart breast pumps, and devices for monitoring milk supply and feeding schedules.
+
+[LactApp](https://lactapp.com/) provides personalized support for breastfeeding and motherhood, integrating professional healthcare services via an app​​.
+
+### Mental health
+
+Platforms and apps focused on mental health issues, offering services such as counseling, therapy, and support groups tailored specifically for women and the unique challenges they may face.
+
+[AtEase](https://mentalhealthatease.com/) is an inclusive mental health platform by Lilac Insights that caters to women (cis-women & transwomen) and non-binary individuals (gender identities that are outside the binary of man & woman) with different stories.
+
+<InstagramEmbed url='https://www.instagram.com/p/C4QHL_XrUGA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' />
