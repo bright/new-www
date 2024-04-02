@@ -87,3 +87,5 @@ Platforms and apps focused on mental health issues, offering services such as co
 [AtEase](https://mentalhealthatease.com/) is an inclusive mental health platform by Lilac Insights that caters to women (cis-women & transwomen) and non-binary individuals (gender identities that are outside the binary of man & woman) with different stories.
 
 <InstagramEmbed url='https://www.instagram.com/p/C4QHL_XrUGA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' />
+
+Ready to explore FemTech further? Read our blog post on how [technology can help you build a unique experience for your female users](/blog/keys-to-succeed-in-femtech/)?
