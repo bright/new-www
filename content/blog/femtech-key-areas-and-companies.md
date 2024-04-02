@@ -37,3 +37,29 @@ Technologies and services designed to support women before, during, and after ch
 [LEIA Health](https://www.leia.health/en) helps to track women's well-being after giving birth including postpartum depression and pelvic floor tests, recovery plans, sleep, feeding and exercising recommendations.
 
 <InstagramEmbed url='https://www.instagram.com/p/C4ivih8MCQm/?img_index=1' />
+
+### General healthcare
+
+This encompasses a broader range of health issues, including prevention, treatment, and wellness. It includes platforms for women-specific health conditions like polycystic ovary syndrome (PCOS), breast cancer and endometriosis, as well as apps and wearables focused on general fitness, nutrition, and mental health tailored to women's needs.
+
+[Gennev](https://www.gennev.com/) provides a telehealth menopause clinic, offering consultations with doctors and dietitians alongside education and menopause treatment​​.
+
+<InstagramEmbed url='https://www.instagram.com/p/C3O0XUHtVMV/' />
+
+[DeepLook Medical](https://www.deeplookmedical.com/) empowers radiologists with a cutting-edge software tool to improve the visualization and efficiency of medical imaging, even in dense breast tissue.
+
+### Sexual health
+
+Solutions and platforms dedicated to sexual education, sexual health, and wellness, including STD prevention and treatment, sexual dysfunction solutions, and products enhancing sexual well-being.
+
+[Tabu](https://www.heytabu.com/) focuses on sexual wellness, starting with products aimed at women in peri- to post-menopause, addressing the connection between sex and overall well-being​​.
+
+### Menopause
+
+Products and services focused on health issues related to aging in women, including menopause management. This can involve hormone replacement therapy (HRT) management apps, products for managing symptoms of menopause, and platforms offering advice and community support.
+
+[XbyX](https://www.xbyx.com/) offers a digital platform with plant-based products and educational content to help women navigate menopause with ease​​.
+
+[Astinno](https://www.gracecooling.com/) is developing Grace, an automated smart cooling bracelet designed to help women experiencing hot flushes during menopause​​.
+
+<YouTubeEmbed url='https://youtu.be/WIlMU6jLezo' />
