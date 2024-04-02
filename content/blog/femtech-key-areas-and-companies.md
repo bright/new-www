@@ -63,3 +63,13 @@ Products and services focused on health issues related to aging in women, includ
 [Astinno](https://www.gracecooling.com/) is developing Grace, an automated smart cooling bracelet designed to help women experiencing hot flushes during menopause​​.
 
 <YouTubeEmbed url='https://youtu.be/WIlMU6jLezo' />
+
+### Aging
+
+Menopause is often associated with the aging of females, yet reaching a certain age is related to many conditions that should also be addressed by tech companies. Osteoporosis, dementia, weight gain, and urinary incontinence are only a few of the conditions.
+
+[Oviva Therapeutics](https://www.ovivatx.com/) focuses on developing innovative therapeutics aimed at improving ovarian function to extend the healthspan of women
+
+[INNOVO](https://www.myinnovo.com/) offers a non-invasive, FDA-cleared solution for treating stress urinary incontinence in women.
+
+<InstagramEmbed url='https://www.instagram.com/p/C4_Qsr0ORoE/' />
