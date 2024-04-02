@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: patryk sz
-ex: false
+ex: true
 slug: patryk-sz
 name: Patryk Szlagowski
 short_name: Patryk
