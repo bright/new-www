@@ -199,6 +199,16 @@ export const CarouselQuotesSwiper: React.FC = () => {
   const quotes = [
     {
       avatar_hover: (
+        <StaticImage src='../../../static/images/brightdev_passion_tomaszk.png' alt='Tomasz' className='quote-img' />
+      ),
+      short_name: 'Tomasz',
+      bio: 'Senior Backend Developer',
+      slug: 'tomasz-k',
+      quote:
+        'Although I work mostly remotely from Poznań, whenever I attend team retreats in Gdańsk, I feel well taken care of by teammates who always make me feel welcome.',
+    },
+    {
+      avatar_hover: (
         <StaticImage src='../../../static/images/slawek_team_passion2022.png' alt='Sławek' className='quote-img' />
       ),
       short_name: 'Sławek',
