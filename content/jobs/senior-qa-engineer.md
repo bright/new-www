@@ -2,7 +2,7 @@
 layout: job
 title: "Senior QA Engineer "
 subtitle: OPEN
-imagejob: /images/brightteam_devops.png
+imagejob: /images/qa_brightteam.png
 image-alt-job: QA Team Bright Inventions
 hours: full-time
 salary: 108 - 128 PLN/hour + VAT (B2B) or 13 300 - 15 800 PLN gross (UoP)
