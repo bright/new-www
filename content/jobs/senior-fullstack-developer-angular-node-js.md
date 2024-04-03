@@ -71,7 +71,7 @@ We are looking now for **a senior fullstack developer who has already had experi
 ## what you will find in our Bright Team 🧡
 
 * continuous feedback culture and 1:1 meetings 
-* clear career path with
+* clear career path with transparent expectations considering both technical knowledge and interpersonal/business skills
 * flexible working hours and remote work possibility 
 * MultiSport card and private medical package (Compensa)
 * good equipment: we provide you with MacBook and additional accessories
