@@ -76,7 +76,7 @@ We are looking for a business-oriented senior QA engineer to join one of our [pr
 * solid knowledge of CI and CD 
 * strong problem solving and analytical skills
 * accuracy and attention to details
-* **very good level of English** (both written and spoken)
+* **very good level of English 🏴󠁧󠁢󠁥󠁮󠁧󠁿** (both written and spoken)
 * **very good level of Polish** 🇵🇱 (we work in an international environment, but within the company, we communicate in Polish)
 
 ## what you will find in our Bright Team 🧡
