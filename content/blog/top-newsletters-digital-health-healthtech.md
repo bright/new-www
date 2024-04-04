@@ -4,7 +4,7 @@ tags:
   - HealthTech
 date: 2024-02-16T08:58:07.210Z
 meaningfullyUpdatedAt: 2024-02-16T08:58:07.788Z
-title: Top Newsletters about Digital Health
+title: Top Newsletters about Digital Health [April 2024 Udpate]
 layout: post
 image: /images/digital_health_newsletters.png
 hidden: false
@@ -55,6 +55,24 @@ A simple and funny newsletter explaining the healthcare industry. Sometimes that
 Powered by: Nikhil Krishnan
 
 Subscribe: [outofpocket.health](https://www.outofpocket.health/)
+
+## Rock Weekly
+
+Great insights into recent innovations, funds and market statistics.
+
+Subscribe: [rockhealth.com](https://rockhealth.com/rock-weekly/?mc_cid=004ea2384f&mc_eid=fbb3bdc963)
+
+Powered by: [Rock Health](https://rockhealth.com/)
+
+## Healthtech Pigeon
+
+News bites from the digital health world, sprinkled with industry events and job opportunities.
+
+Subscribe: [healthtechpigeon.com](https://www.healthtechpigeon.com/)
+
+Powered by: [SomX](https://www.somx.health/)
+
+
 
 - - -
 
