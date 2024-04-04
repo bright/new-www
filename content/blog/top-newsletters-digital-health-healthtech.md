@@ -3,7 +3,7 @@ author: izabela
 tags:
   - HealthTech
 date: 2024-02-16T08:58:07.210Z
-meaningfullyUpdatedAt: 2024-02-16T08:58:07.788Z
+meaningfullyUpdatedAt: 2024-04-04T11:50:10.161Z
 title: Top Newsletters about Digital Health [April 2024 Udpate]
 layout: post
 image: /images/digital_health_newsletters.png
