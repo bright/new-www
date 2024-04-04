@@ -26,9 +26,10 @@ project:
   - tms
 layout: our-service
 our_service_id: Gdansk software company
-meta_title: Software House from Gdansk
-meta_description: Partner with top software house based in Gdansk. Bright
-  Inventions is a software agency crafting web and mobile solutions for clients.
+meta_title: Software House from Gdansk, Poland
+meta_description: Partner with top software house based in Gdansk (Poland).
+  Bright Inventions is a software agency crafting custom web and mobile
+  solutions.
 our_services_icon: /images/custom_software_development_icon.png
 name: Gdansk software company
 slug: gdansk-software-company
@@ -64,7 +65,7 @@ button2: let's face tech challenges together
 published: false
 show_case_study: true
 show_technology_stack: true
-title_team: meet the software development team based in Gdansk
+title_team: meet the software development team from Poland
 title_case_study: the clients we have supported in the tech journey
 title_faqs: FAQs
 title_contact: book a free consultation in 48 hours
