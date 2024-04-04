@@ -62,17 +62,17 @@ Subscribe: [outofpocket.health](https://www.outofpocket.health/)
 
 Great insights into recent innovations, funds and market statistics.
 
-Subscribe: [rockhealth.com](https://rockhealth.com/rock-weekly/?mc_cid=004ea2384f&mc_eid=fbb3bdc963)
+Powered by: Rock Health
 
-Powered by: [Rock Health](https://rockhealth.com/)
+Subscribe: [rockhealth.com](https://rockhealth.com/rock-weekly/?mc_cid=004ea2384f&mc_eid=fbb3bdc963)
 
 ## Healthtech Pigeon
 
 News bites from the digital health world, sprinkled with industry events and job opportunities.
 
-Subscribe: [healthtechpigeon.com](https://www.healthtechpigeon.com/)
+Powered by: SomX
 
-Powered by: [SomX](https://www.somx.health/)
+Subscribe: [healthtechpigeon.com](https://www.healthtechpigeon.com/)
 
 - - -
 
