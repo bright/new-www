@@ -3,7 +3,7 @@ author: izabela
 tags:
   - HealthTech
 date: 2024-02-16T08:58:07.210Z
-meaningfullyUpdatedAt: 2024-02-16T08:58:07.788Z
+meaningfullyUpdatedAt: 2024-04-04T11:50:10.161Z
 title: Top Newsletters about Digital Health
 layout: post
 image: /images/digital_health_newsletters.png
@@ -48,6 +48,8 @@ Powered by: Kris Mulcahy, Director of Business Development and Innovation at Bri
 
 Subscribe: [linkedin.com/pulse/ai-healthcare-personalizing-patient-care-digital-age-kris-mulcahy](https://www.linkedin.com/pulse/ai-healthcare-personalizing-patient-care-digital-age-kris-mulcahy-iyr5e/?trackingId=%2FI5K%2FtuVTiaImPWXOV%2BvPQ%3D%3D)
 
+<EbookDynamic sectionTitle='get more resources about digital health' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download our free guide about scaling software solutions for healthcare. Almost 100 pages about leveraging technology in digital health!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide cover' />
+
 ## Out-Of-Pocket
 
 A simple and funny newsletter explaining the healthcare industry. Sometimes that’s all you need in your mailbox.
@@ -55,6 +57,22 @@ A simple and funny newsletter explaining the healthcare industry. Sometimes that
 Powered by: Nikhil Krishnan
 
 Subscribe: [outofpocket.health](https://www.outofpocket.health/)
+
+## Rock Weekly
+
+Great insights into recent innovations, funds and market statistics.
+
+Subscribe: [rockhealth.com](https://rockhealth.com/rock-weekly/?mc_cid=004ea2384f&mc_eid=fbb3bdc963)
+
+Powered by: [Rock Health](https://rockhealth.com/)
+
+## Healthtech Pigeon
+
+News bites from the digital health world, sprinkled with industry events and job opportunities.
+
+Subscribe: [healthtechpigeon.com](https://www.healthtechpigeon.com/)
+
+Powered by: [SomX](https://www.somx.health/)
 
 - - -
 
