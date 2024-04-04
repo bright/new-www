@@ -60,7 +60,8 @@ We are looking now for **a senior fullstack developer who has already had experi
 * experience with SQL databases
 * very good problem solving and analytical thinking skills
 * positive attitude and open mind
-* **very good communication skills both in Polish & English**
+* **very good level of English 🏴󠁧󠁢󠁥󠁮󠁧󠁿** (both written and spoken)
+* **very good level of Polish** 🇵🇱 (we work in an international environment, but within the company, we communicate in Polish)
 
 ## we would also appreciate if you have
 
