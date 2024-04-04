@@ -8,6 +8,7 @@ tags:
   - thread-pool
   - timeout
 date: 2017-11-20T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-11-20T23:00:00.000Z
 title: Request timeouts in Spring MVC
 layout: post
 image: /images/thread-pool-timeouts/thread-pool.jpg

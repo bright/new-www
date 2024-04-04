@@ -3,6 +3,7 @@ author: eliasz
 tags:
   - iOS
 date: 2016-01-24T23:00:00.000Z
+meaningfullyUpdatedAt: 2016-01-24T23:00:00.000Z
 title: ReactiveCocoa 4 - SignalProducer
 layout: post
 image: /images/laptop.jpg

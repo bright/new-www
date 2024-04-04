@@ -7,6 +7,7 @@ tags:
   - cloudformation
   - zuul
 date: 2018-02-18T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-02-18T23:00:00.000Z
 title: How to deploy a service to Amazon Elastic Container Service with
   CloudFormation?
 layout: post

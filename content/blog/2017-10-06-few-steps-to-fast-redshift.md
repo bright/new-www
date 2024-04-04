@@ -2,6 +2,7 @@
 layout: post
 title: Few Steps to Fast Redshift
 date: 2017-10-05T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-10-05T22:00:00.000Z
 image: /images/woman-hand-smartphone-desk.jpg
 author: agnieszka
 tags:

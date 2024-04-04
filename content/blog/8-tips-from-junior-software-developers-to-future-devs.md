@@ -6,6 +6,7 @@ tags:
   - development
   - inspiration
 date: 2021-09-16T08:26:08.425Z
+meaningfullyUpdatedAt: 2021-09-16T08:26:08.425Z
 title: 8 Tips from Junior Software Developers to Future Devs
 layout: post
 image: /images/8_tips_from_junior_developers.png

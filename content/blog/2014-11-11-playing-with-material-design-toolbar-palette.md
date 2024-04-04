@@ -12,6 +12,7 @@ tags:
   - materialdesign
   - android-support-library
 date: 2014-11-10T23:00:00.000Z
+meaningfullyUpdatedAt: 2014-11-10T23:00:00.000Z
 title: Playing with Material Design, Toolbar and Palette
 layout: post
 image: /images/software_development.jpg

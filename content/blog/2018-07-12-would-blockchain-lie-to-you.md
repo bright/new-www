@@ -11,6 +11,7 @@ tags:
   - MainNet
   - workshops
 date: 2018-07-11T22:00:00.000Z
+meaningfullyUpdatedAt: 2018-07-11T22:00:00.000Z
 title: Would Blockchain lie to you?
 layout: post
 image: /images/Blockchain_workshops.jpg

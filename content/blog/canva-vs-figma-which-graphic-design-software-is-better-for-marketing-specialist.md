@@ -4,6 +4,7 @@ tags:
   - design
   - inspiration
 date: 2022-05-12T08:20:09.439Z
+meaningfullyUpdatedAt: 2022-05-12T08:20:09.439Z
 title: Canva vs. Figma – Which Graphic Design Software is Better for a Marketing
   Specialist
 layout: post

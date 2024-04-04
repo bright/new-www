@@ -12,7 +12,8 @@ tags:
 comments: true
 crosspost: true
 image: /images/publish-library/announce.jpg
-date: '2018-02-05T23:00:00.000Z'
+date: 2018-02-05T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-02-05T23:00:00.000Z
 published: true
 language: en
 ---

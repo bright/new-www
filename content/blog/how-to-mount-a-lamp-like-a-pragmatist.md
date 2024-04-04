@@ -5,6 +5,7 @@ tags:
   - business perspective
   - proactivity
 date: 2021-10-28T09:00:11.831Z
+meaningfullyUpdatedAt: 2021-10-28T09:00:11.831Z
 title: How to mount a lamp like a pragmatist?
 layout: post
 image: /images/blog_post_lamp_development.png

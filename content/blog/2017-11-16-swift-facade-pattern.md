@@ -14,7 +14,8 @@ tags:
 comments: true
 hidden: false
 image: /images/swift-facade-pattern/facade.jpg
-date: '2017-11-15T23:00:00.000Z'
+date: 2017-11-15T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-11-15T23:00:00.000Z
 published: true
 language: en
 ---

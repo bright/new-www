@@ -2,6 +2,7 @@
 layout: post
 title: P2P in Hyperledger Fabric
 date: 2020-02-14T15:21:07.486Z
+meaningfullyUpdatedAt: 2020-02-14T15:21:07.486Z
 image: /images/tomek-p2p-in-hyperledger.png
 author: tomek
 tags:

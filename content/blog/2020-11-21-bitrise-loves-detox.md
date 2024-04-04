@@ -6,6 +6,7 @@ tags:
   - react native
   - CI
 date: 2020-11-21T17:35:00.000Z
+meaningfullyUpdatedAt: 2020-11-21T17:35:00.000Z
 title: Bitrise Loves Detox
 layout: post
 image: /images/blog_cover_bitrise_detox.png

@@ -7,6 +7,7 @@ tags:
   - readonly
   - immutability
 date: 2018-05-01T22:00:00.000Z
+meaningfullyUpdatedAt: 2018-05-01T22:00:00.000Z
 title: TypeScript tips from Kotlin developer - readonly
 layout: post
 image: /images/blog_post_readonly.png

@@ -4,6 +4,7 @@ tags:
   - business
   - iOS
 date: 2022-03-22T11:49:41.446Z
+meaningfullyUpdatedAt: 2022-03-22T11:49:41.446Z
 title: What to Expect From Swift Development Company from Poland
 layout: post
 image: /images/ios_development.png

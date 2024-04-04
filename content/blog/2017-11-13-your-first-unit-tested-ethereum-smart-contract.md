@@ -9,6 +9,7 @@ tags:
   - parity
   - unittests
 date: 2017-11-12T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-11-12T23:00:00.000Z
 title: Your first unit tested Ethereum Smart Contract
 layout: post
 image: /images/laptop-2.jpg

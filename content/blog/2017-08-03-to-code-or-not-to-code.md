@@ -8,7 +8,8 @@ tags:
   - balance
 comments: true
 author: ula
-date: '2017-08-02T22:00:00.000Z'
+date: 2017-08-02T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-08-02T22:00:00.000Z
 image: /images/yes_or_no.png
 published: true
 language: en

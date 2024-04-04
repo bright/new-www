@@ -9,7 +9,8 @@ tags:
   - certificates
 comments: true
 image: /images/app-transfer-side-effects/hairy-hand.jpg
-date: '2018-01-31T23:00:00.000Z'
+date: 2018-01-31T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-01-31T23:00:00.000Z
 published: true
 language: en
 ---

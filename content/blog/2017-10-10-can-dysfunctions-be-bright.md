@@ -3,6 +3,7 @@ excerpt: Thoughts on management and team building
 layout: post
 title: Can Dysfunctions be Bright
 date: 2017-10-09T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-10-09T22:00:00.000Z
 image: /images/team.png
 author: monika
 tags:

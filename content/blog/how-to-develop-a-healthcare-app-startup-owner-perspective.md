@@ -3,7 +3,7 @@ author: izabela
 tags:
   - HealthTech
 date: 2021-07-30T07:48:44.080Z
-meaningfullyUpdatedAt: ""
+meaningfullyUpdatedAt: 2021-07-30T07:48:44.080Z
 title: How to Develop a Healthcare App [Startup Founder Perspective]
 layout: post
 image: /images/blogpost_www_healthcare_2.png

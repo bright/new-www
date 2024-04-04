@@ -7,6 +7,7 @@ extract: Everybody seems to be doing Agile these days. Start-ups do it, big
 layout: post
 title: A sky full of Agile
 date: 2019-03-04T23:00:00.000Z
+meaningfullyUpdatedAt: 2019-03-04T23:00:00.000Z
 image: /images/a-sky-full-of-agile/agile_team.jpeg
 author: kasia
 tags:

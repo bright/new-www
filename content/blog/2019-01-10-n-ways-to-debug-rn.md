@@ -7,6 +7,7 @@ tags:
   - ios
   - react native
 date: 2019-01-09T23:00:00.000Z
+meaningfullyUpdatedAt: 2019-01-09T23:00:00.000Z
 title: N ways to debug React Native app
 layout: post
 image: /images/blog_post_debug_react_native.png

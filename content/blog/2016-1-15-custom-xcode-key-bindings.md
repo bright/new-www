@@ -6,6 +6,7 @@ tags:
 comments: true
 author: eliasz
 date: '2016-01-14T23:00:00.000Z'
+meaningfullyUpdatedAt: '2016-01-14T23:00:00.000Z'
 image: /images/iphone.jpg
 published: true
 language: en

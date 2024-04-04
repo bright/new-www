@@ -7,6 +7,7 @@ tags:
   - math
   - vehicles
 date: 2020-12-28T12:12:12.000Z
+meaningfullyUpdatedAt: 2020-12-28T12:12:12.000Z
 title: Covariance & Contravariance
 layout: post
 image: /images/blog_post_covariance.png

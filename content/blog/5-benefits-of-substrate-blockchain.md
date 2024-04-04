@@ -7,6 +7,7 @@ tags:
   - development
   - business
 date: 2021-11-08T09:59:36.695Z
+meaningfullyUpdatedAt: 2021-11-08T09:59:36.695Z
 title: 5 Benefits of Substrate Blockchain
 layout: post
 image: /images/blog_substrate_blockchain.png

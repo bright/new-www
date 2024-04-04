@@ -15,7 +15,8 @@ tags:
 comments: true
 author: adam
 image: /images/cloudform/mindmap.jpg
-date: '2017-12-14T23:00:00.000Z'
+date: 2017-12-14T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-12-14T23:00:00.000Z
 published: true
 language: en
 ---

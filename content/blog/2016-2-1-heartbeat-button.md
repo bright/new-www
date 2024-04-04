@@ -3,6 +3,7 @@ author: eliasz
 tags:
   - iOS
 date: 2016-01-31T23:00:00.000Z
+meaningfullyUpdatedAt: 2016-01-31T23:00:00.000Z
 title: Heartbeat button
 layout: post
 image: /images/heart-baloon.webp

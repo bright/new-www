@@ -7,6 +7,7 @@ tags:
   - Blockchain
   - B2B
 date: 2020-07-21T05:31:11.261Z
+meaningfullyUpdatedAt: 2020-07-21T05:31:11.261Z
 title: Bright Inventions recognised by Clutch as amongst the Top App Developers
   in Poland in 2020
 layout: post

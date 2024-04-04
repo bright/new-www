@@ -29,6 +29,7 @@ const config = {
     {
       name: blogCollectionName,
       label: 'Blog',
+      sortable_fields: ['title', 'date', 'author', 'meaningfullyUpdatedAt'],
       folder: 'content/blog',
       create: true,
       fields: [

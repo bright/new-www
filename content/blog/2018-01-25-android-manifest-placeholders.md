@@ -6,6 +6,7 @@ tags:
   - gradle
   - manifest
 date: 2018-01-24T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-01-24T23:00:00.000Z
 title: Android Manifest placeholders
 layout: post
 image: /images/android-manifest-placeholders/placeholder.png

@@ -7,6 +7,7 @@ tags:
   - iOS
   - Android
 date: 2019-09-17T08:05:05.904Z
+meaningfullyUpdatedAt: 2019-09-17T08:05:05.904Z
 title: "What most startup owners fail to get about mobile development "
 layout: post
 image: /images/blog_post_cover_failtoget.png

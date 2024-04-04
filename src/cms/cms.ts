@@ -1,4 +1,4 @@
-import CMS from 'netlify-cms-app'
+import CMS from 'decap-cms-app'
 import { BlogPostPreview } from './BlogPostPreview'
 import { buttonBlockConfig } from './buttonBlockConfig'
 import { hiddenImageConfig } from './hiddenImageConfig'

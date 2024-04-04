@@ -6,6 +6,7 @@ tags:
   - teamwork
   - communication
 date: 2021-09-02
+meaningfullyUpdatedAt: 2021-09-02
 title: No Time for Bullsh**. Feedback Culture.
 layout: post
 image: /images/blog_feedback_culture.png

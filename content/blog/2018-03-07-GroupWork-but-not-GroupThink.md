@@ -6,6 +6,7 @@ tags:
   - creativity
   - success
 date: 2018-03-06T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-03-06T23:00:00.000Z
 title: GroupWork, but not GroupThink
 layout: post
 image: /images/team_work.png

@@ -5,6 +5,7 @@ tags:
   - solidity
   - blockchain
 date: 2022-04-11T09:40:36.796Z
+meaningfullyUpdatedAt: 2022-04-11T09:40:36.796Z
 title: Single swap on Uniswap v3 with 3 common mistakes
 layout: post
 image: /images/blog_cover_uniswap.png

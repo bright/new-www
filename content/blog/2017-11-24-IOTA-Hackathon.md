@@ -9,6 +9,7 @@ tags:
   - cryptocurrency
   - teamwork
 date: 2017-11-23T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-11-23T23:00:00.000Z
 title: IOTA Hackathon
 layout: post
 image: /images/bright-1847006_1920.jpg

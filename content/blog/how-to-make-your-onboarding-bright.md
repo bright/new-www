@@ -5,6 +5,7 @@ tags:
   - leadership
   - communication
 date: 2021-11-15T18:03:06.653Z
+meaningfullyUpdatedAt: 2021-11-15T18:03:06.653Z
 title: How to Make Your Onboarding Bright
 layout: post
 image: /images/welcome_on_bright_board.png

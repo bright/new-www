@@ -10,7 +10,8 @@ tags:
   - digital
   - apps
 image: /images/Developers_Poland_2018.png
-date: '2018-07-30T22:00:00.000Z'
+date: 2018-07-30T22:00:00.000Z
+meaningfullyUpdatedAt: 2018-07-30T22:00:00.000Z
 published: true
 language: en
 ---

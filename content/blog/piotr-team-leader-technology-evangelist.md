@@ -8,7 +8,7 @@ tags:
   - Kotlin
   - bright story
 date: 2021-11-03T08:44:02.443Z
-meaningfullyUpdatedAt: ""
+meaningfullyUpdatedAt: 2021-11-03T08:44:02.443Z
 title: A Man Dancing with Code. Meet Piotr
 layout: post
 image: /images/blogpost_www_brightstory_piotr_b2.png

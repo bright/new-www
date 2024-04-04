@@ -6,6 +6,7 @@ tags:
   - berlin
   - update
 date: 2017-12-21T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-12-21T23:00:00.000Z
 title: Polish Tech Night
 layout: post
 image: /images/blog_polish_tech_night.png

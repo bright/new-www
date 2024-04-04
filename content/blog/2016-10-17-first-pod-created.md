@@ -5,6 +5,7 @@ tags:
   - swift
   - cocoapods
 date: 2016-10-16T22:00:00.000Z
+meaningfullyUpdatedAt: 2016-10-16T22:00:00.000Z
 title: My first Cocoapod created
 layout: post
 image: /images/iphone-6-apple-ios-iphone-50603.jpeg

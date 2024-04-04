@@ -12,6 +12,7 @@ tags:
   - CloudFormation
   - open-source
 date: 2017-11-28T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-11-28T23:00:00.000Z
 title: Introducing cloudform – tame your AWS CloudFormation templates
 layout: post
 image: /images/cloudform/blackboard.jpg

@@ -5,6 +5,7 @@ tags:
   - java
   - android
 date: 2016-03-28T22:00:00.000Z
+meaningfullyUpdatedAt: 2016-03-28T22:00:00.000Z
 title: Trust specific certificate on JVM-based platforms
 layout: post
 image: /images/laptop-software-developer.jpg

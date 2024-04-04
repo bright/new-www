@@ -7,6 +7,7 @@ tags:
   - index
   - backend
 date: 2021-07-23T12:17:18.035Z
+meaningfullyUpdatedAt: 2021-07-23T12:17:18.035Z
 title: SQL Performance - composite indexes
 layout: post
 image: /images/composite-indexes_sql.png

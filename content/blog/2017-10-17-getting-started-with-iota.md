@@ -12,7 +12,8 @@ tags:
   - cryptocurrency
 comments: true
 author: adam
-date: '2017-10-16T22:00:00.000Z'
+date: 2017-10-16T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-10-16T22:00:00.000Z
 image: /images/iota.png
 published: true
 language: en

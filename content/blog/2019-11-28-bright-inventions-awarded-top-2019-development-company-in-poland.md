@@ -8,6 +8,7 @@ tags:
   - digital
   - startups
 date: 2019-11-28T08:11:47.483Z
+meaningfullyUpdatedAt: 2019-11-28T08:11:47.483Z
 title: Bright Inventions Awarded Top 2019 Development Company in Poland
 layout: post
 image: /images/blog_clutch_2019png.png

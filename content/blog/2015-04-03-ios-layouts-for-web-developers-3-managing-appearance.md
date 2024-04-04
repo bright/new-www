@@ -7,6 +7,7 @@ author: adam
 tags:
   - iOS
 date: 2015-04-03T00:00:00.000Z
+meaningfullyUpdatedAt: 2015-04-03T00:00:00.000Z
 title: "iOS layouts for web developers #3 - managing the appearance"
 layout: post
 image: /images/laptop_work.jpg

@@ -9,6 +9,7 @@ tags:
   - android
   - videoview
 date: 2015-01-10T23:00:00.000Z
+meaningfullyUpdatedAt: 2015-01-10T23:00:00.000Z
 title: How to avoid flickering and black screen issues when using VideoView?
 layout: post
 image: /images/people-office-group-team.jpg

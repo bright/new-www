@@ -11,6 +11,7 @@ tags:
   - pedometer
   - tutorial
 date: 2017-12-07T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-12-07T23:00:00.000Z
 title: Implementing a simple pedometer using Swift
 layout: post
 image: /images/coremotion-pedometer-swift/footsteps.jpg

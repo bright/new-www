@@ -6,6 +6,7 @@ tags:
 comments: true
 author: michal
 date: '2015-12-02T23:00:00.000Z'
+meaningfullyUpdatedAt: '2015-12-02T23:00:00.000Z'
 image: /images/laptop-programming.jpg
 published: true
 language: en

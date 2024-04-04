@@ -6,6 +6,7 @@ tags:
   - security
   - js
 date: 2021-07-02T10:57:20.701Z
+meaningfullyUpdatedAt: 2021-07-02T10:57:20.701Z
 title: XSS - are you sure you are protected?
 layout: post
 image: /images/blog_post_xss.png

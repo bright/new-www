@@ -3,6 +3,7 @@ author: eliasz
 tags:
   - iOS
 date: 2016-01-07T23:00:00.000Z
+meaningfullyUpdatedAt: 2016-01-07T23:00:00.000Z
 title: Swift files generator
 layout: post
 image: /images/iphone.jpg

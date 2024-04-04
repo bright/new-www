@@ -6,6 +6,7 @@ tags:
 comments: true
 author: eliasz
 date: '2016-01-17T23:00:00.000Z'
+meaningfullyUpdatedAt: '2016-01-17T23:00:00.000Z'
 image: /images/people-office-group-team.jpg
 published: true
 language: en

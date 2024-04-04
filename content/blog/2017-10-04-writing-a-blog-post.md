@@ -5,6 +5,7 @@ tags:
   - jekyll
   - github
 date: 2017-10-03T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-10-03T22:00:00.000Z
 title: Writing a blog post
 layout: post
 hidden: true

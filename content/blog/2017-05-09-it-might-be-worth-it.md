@@ -5,7 +5,8 @@ tags:
   - iOS
 comments: false
 author: michal
-date: '2017-05-08T22:00:00.000Z'
+date: 2017-05-08T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-05-08T22:00:00.000Z
 image: /images/job_fair.jpg
 published: true
 language: en

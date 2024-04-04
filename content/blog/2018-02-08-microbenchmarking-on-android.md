@@ -7,6 +7,7 @@ tags:
   - kotlin
   - benchmark
 date: 2018-02-07T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-02-07T23:00:00.000Z
 title: Microbenchmarking on Android
 layout: post
 image: /images/microbenchmarking-on-android/hourglass-2910948_1280.jpg

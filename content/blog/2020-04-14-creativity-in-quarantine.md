@@ -2,6 +2,7 @@
 layout: post
 title: Creativity in quarantine?
 date: 2020-04-14T08:16:57.897Z
+meaningfullyUpdatedAt: 2020-04-14T08:16:57.897Z
 image: /images/alisa_creativityonquarantine-copy.png
 author: alisa
 tags:

@@ -11,6 +11,7 @@ tags:
 comments: true
 author: michal
 date: '2015-05-31T22:00:00.000Z'
+meaningfullyUpdatedAt: '2015-05-31T22:00:00.000Z'
 image: /images/4_app_development_-_maintenance.png
 published: true
 language: en

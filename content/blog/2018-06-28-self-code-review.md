@@ -3,6 +3,7 @@ author: agnieszka
 tags:
   - code review
 date: 2018-06-27T22:00:00.000Z
+meaningfullyUpdatedAt: 2018-06-27T22:00:00.000Z
 title: Self code review
 layout: post
 image: /images/blog_post_self_code_review.png

@@ -8,6 +8,7 @@ tags:
   - language
   - dagger
 date: 2018-02-14T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-02-14T23:00:00.000Z
 title: Implementing in-app language change
 layout: post
 image: /images/implementing-in-app-language-change/communication.jpg

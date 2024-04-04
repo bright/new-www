@@ -7,6 +7,7 @@ tags:
   - AWS
   - DNS
 date: 2022-05-01T08:41:48.239Z
+meaningfullyUpdatedAt: 2022-05-01T08:41:48.239Z
 title: Migrate EC2-Classic RDS to a VPC - Step 2 - DNS
 layout: post
 image: /images/blog_post_cover_dns_generic.png

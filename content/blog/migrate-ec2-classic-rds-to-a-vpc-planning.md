@@ -5,6 +5,7 @@ tags:
   - AWS-CDK
   - database
 date: 2022-01-21T21:32:21.081Z
+meaningfullyUpdatedAt: 2022-01-21T21:32:21.081Z
 title: Migrate EC2-Classic RDS to a VPC - Planning
 layout: post
 image: /images/database-files_blog.png

@@ -16,6 +16,7 @@ tags:
   - slack
   - continuous integration
 date: 2017-10-25T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-10-25T22:00:00.000Z
 title: Slack + Fastlane = ❤️. About one of Continuous Integration puzzles.
 layout: post
 image: /images/slack-fastlane/puzzle.jpg

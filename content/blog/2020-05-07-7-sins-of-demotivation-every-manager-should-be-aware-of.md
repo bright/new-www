@@ -7,6 +7,7 @@ tags:
   - team
   - management
 date: 2020-05-07T07:21:03.566Z
+meaningfullyUpdatedAt: 2020-05-07T07:21:03.566Z
 title: "7 sins of demotivation every manager should be aware of "
 layout: post
 image: /images/ula_7sinsdemotivation.png

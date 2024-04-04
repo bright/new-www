@@ -5,6 +5,7 @@ tags:
   - swift
   - 3d touch
 date: 2016-11-26T23:00:00.000Z
+meaningfullyUpdatedAt: 2016-11-26T23:00:00.000Z
 title: 3D Touch - Adopting shortcut items to your app.
 layout: post
 image: /images/iphone.jpg

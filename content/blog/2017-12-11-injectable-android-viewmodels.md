@@ -11,7 +11,8 @@ tags:
   - dagger
   - viewmodel
   - mvvm
-date: '2017-12-10T23:00:00.000Z'
+date: 2017-12-10T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-12-10T23:00:00.000Z
 published: true
 language: en
 ---

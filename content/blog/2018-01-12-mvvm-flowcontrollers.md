@@ -7,6 +7,7 @@ excerpt: There are many different approaches to building an iOS application.
 layout: post
 title: My motives for MVVM + FlowControllers path
 date: 2018-01-11T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-01-11T23:00:00.000Z
 image: /images/mvvm-flowcontrollers.jpeg
 author: eliasz
 tags:

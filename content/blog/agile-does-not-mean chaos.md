@@ -5,7 +5,7 @@ tags:
   - software development
   - soft skills
 date: 2022-10-12T07:54:40.976Z
-meaningfullyUpdatedAt: ""
+meaningfullyUpdatedAt: 2022-10-12T07:54:40.976Z
 title: Agile does not mean chaos!
 layout: post
 image: /images/dog_blog_post.png
