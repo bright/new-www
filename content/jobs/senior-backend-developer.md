@@ -75,7 +75,8 @@ The person who will join our team should possess **the ability to adapt and adju
 * very good working knowledge and deep understanding of Java/Kotlin
 * experience with SQL databases 
 * familiarity with Google Cloud or other Cloud providers e.g. AWS/Azure
-* advanced communications kills in **English and Polish** (both written and spoken))
+* **very good level of English 🏴󠁧󠁢󠁥󠁮󠁧󠁿** (both written and spoken)
+* **very good level of Polish** 🇵🇱 (we work in an international environment, but within the company, we communicate in Polish)
 
 ## **we would also appreciate if you have**
 
