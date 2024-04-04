@@ -26,9 +26,10 @@ project:
   - tms
 layout: our-service
 our_service_id: Gdansk software company
-meta_title: Software House from Gdansk
-meta_description: Partner with top software house based in Gdansk. Bright
-  Inventions is a software agency crafting web and mobile solutions for clients.
+meta_title: Software House from Gdansk, Poland
+meta_description: Partner with top software house based in Gdansk (Poland).
+  Bright Inventions is a software agency crafting custom web and mobile
+  solutions.
 our_services_icon: /images/custom_software_development_icon.png
 name: Gdansk software company
 slug: gdansk-software-company
@@ -64,9 +65,9 @@ button2: let's face tech challenges together
 published: false
 show_case_study: true
 show_technology_stack: true
-title_team: meet the software development team based in Gdansk
+title_team: meet the software development team from Poland
 title_case_study: the clients we have supported in the tech journey
-title_faqs: FAQs
+title_faqs: software development Poland FAQs
 title_contact: book a free consultation in 48 hours
 description_contact: Fill out the form below and we'll get back to you in 48
   hours. And hopefully we'll see you soon in Gdansk!
@@ -76,7 +77,7 @@ Headquartered in the city of Gdansk – a hub of innovation and technological ex
 
 Gdansk has proven itself as a magnet for global business giants, with industry leaders like Intel, Amazon, Nordea, and Lufthansa choosing to establish a presence here. From the convenience of Gdansk Airport, you can easily access over 20 countries with the majority of European destinations just a short flight away—many within a mere two hours.
 
-If you are considering partnering with a company from Gdansk, go deeper into [the advantages our city has to offer](https://brightinventions.pl/blog/hiring-software-development-agency-based-in-gdansk/). We can join forces and explore together the potential of Poland's tech scene.   
+If you are considering partnering with a company from Gdansk, go deeper into [the advantages our city has to offer](https://brightinventions.pl/blog/hiring-software-development-agency-based-in-gdansk/). We can join forces and explore together the potential of Poland's tech scene.  
 
 ## our expertise
 
