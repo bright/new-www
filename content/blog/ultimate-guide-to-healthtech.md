@@ -5,7 +5,7 @@ tags:
   - design
   - AI
 date: 2024-02-01T10:58:36.300Z
-meaningfullyUpdatedAt: 2024-03-12T15:20:54.521Z
+meaningfullyUpdatedAt: 2024-04-05T10:18:05.978Z
 title: The Ultimate Guide to HealthTech in 2024
 layout: post
 image: /images/healthtech-guide.png
@@ -52,7 +52,7 @@ The use of artificial intelligence in medical diagnostics involves AI algorithms
 
 Technology focused on women's health, including reproductive health, menstrual cycle tracking, fertility solutions, and maternal healthcare.
 
-We cover FemTech in varius resources:
+We cover FemTech in various resources:
 
 * Read more about [developing a successful FemTech solution](/blog/keys-to-succeed-in-femtech/). 
 * Explore the diverse [world of FemTech with all its areas and innovators](/blog/femtech-key-areas-and-companies/).
