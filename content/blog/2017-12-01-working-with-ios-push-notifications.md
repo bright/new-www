@@ -6,6 +6,7 @@ tags:
   - firebase
   - swift
 date: 2017-11-30T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-11-30T23:00:00.000Z
 title: Working with iOS push notifications
 layout: post
 image: /images/iphone.jpg

@@ -5,7 +5,8 @@ tags:
   - HR
   - teamwork
   - communication
-date: 2021-09-02
+date: 2021-09-02T00:00:00.000Z
+meaningfullyUpdatedAt: 2021-09-02T00:00:00.000Z
 title: No Time for Bullsh**. Feedback Culture.
 layout: post
 image: /images/blog_feedback_culture.png

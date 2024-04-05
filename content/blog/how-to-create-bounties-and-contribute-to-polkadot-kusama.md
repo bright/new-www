@@ -6,7 +6,7 @@ tags:
   - blockchain
   - substrate
 date: 2022-05-16T10:21:07.505Z
-meaningfullyUpdatedAt: ""
+meaningfullyUpdatedAt: 2022-05-16T10:21:07.505Z
 title: How to Create Bounties and Contribute to Polkadot & Kusama
 layout: post
 image: /images/blog_bounty_brighttreasury.png

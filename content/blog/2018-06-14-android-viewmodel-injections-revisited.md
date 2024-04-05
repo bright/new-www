@@ -4,6 +4,7 @@ author: azabost
 tags:
   - android
 date: 2018-06-18T00:00:00.000Z
+meaningfullyUpdatedAt: 2018-06-18T00:00:00.000Z
 title: Android ViewModel injections revisited
 layout: post
 image: /images/android-viewmodel-injections-revisited/vaccine.jpg

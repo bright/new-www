@@ -3,6 +3,7 @@ crosspost: true
 layout: post
 title: Testing Android ViewModels
 date: 2018-01-02T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-01-02T23:00:00.000Z
 image: /images/testing-android-viewmodels/stethoscope.jpg
 author: azabost
 tags:

@@ -7,6 +7,7 @@ tags:
   - blockchain
   - cryptocurrency
 date: 2017-10-29T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-10-29T23:00:00.000Z
 title: IOTA - Hello World
 layout: post
 image: /images/iota/attach-tangle.jpg

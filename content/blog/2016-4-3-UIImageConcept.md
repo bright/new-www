@@ -4,6 +4,7 @@ tags:
   - iOS
   - swift
 date: 2016-04-02T22:00:00.000Z
+meaningfullyUpdatedAt: 2016-04-02T22:00:00.000Z
 title: Creating an UIImage using ImageIdentifiers
 layout: post
 image: /images/iphone-6-apple-ios-iphone-50603.jpeg

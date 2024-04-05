@@ -6,6 +6,7 @@ tags:
   - iOS
   - Swift
 date: 2022-08-30T09:18:47.158Z
+meaningfullyUpdatedAt: 2022-08-30T09:18:47.158Z
 title: Becoming an iOS Developer Again. Meet Michał – a Programmer with over 10
   Years of Experience
 layout: post

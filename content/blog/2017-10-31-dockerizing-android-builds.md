@@ -9,7 +9,8 @@ tags:
   - android
   - build
   - docker
-date: '2017-10-30T23:00:00.000Z'
+date: 2017-10-30T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-10-30T23:00:00.000Z
 published: true
 ---
 

@@ -6,6 +6,7 @@ tags:
   - android
   - cross-platform
 date: 2019-03-17T23:00:00.000Z
+meaningfullyUpdatedAt: 2019-03-17T23:00:00.000Z
 title: Flutter - why you may love it or hate it
 layout: post
 image: /images/fluttter_logo_blog.png

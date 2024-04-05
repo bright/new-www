@@ -3,6 +3,7 @@ crosspost: true
 layout: post
 title: Brief introduction to transfer learning
 date: 2020-05-18T22:00:00.000Z
+meaningfullyUpdatedAt: 2020-05-18T22:00:00.000Z
 image: /images/brief-introduction-to-transfer-learning/brief-introduction-to-transfer-learning-top.jpg
 author: radeks
 tags:

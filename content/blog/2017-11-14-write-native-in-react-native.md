@@ -6,6 +6,7 @@ tags:
   - java
   - platform specific
 date: 2017-11-13T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-11-13T23:00:00.000Z
 title: Putting native in React Native on Android
 layout: post
 image: /images/putting-native-in-rn/toymodel.JPG

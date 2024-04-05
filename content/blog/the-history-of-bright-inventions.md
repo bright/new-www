@@ -5,6 +5,7 @@ tags:
   - software development company
   - inspiration
 date: 2022-03-15T11:37:30.979Z
+meaningfullyUpdatedAt: 2022-03-15T11:37:30.979Z
 title: And they lived bright ever after… The story of Bright Inventions
 layout: post
 image: /images/blog_post_cover_10thanniversary.png

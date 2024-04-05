@@ -6,6 +6,7 @@ tags:
   - inspiration
   - bright story
 date: 2022-04-29T10:00:24.548Z
+meaningfullyUpdatedAt: 2022-04-29T10:00:24.548Z
 title: Frontend Developer with Fullstack Mindset. Meet Bartek – a Bright Tech Lead
 layout: post
 image: /images/senior_frontend_developer_story.png

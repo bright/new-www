@@ -9,7 +9,8 @@ tags:
   - iOS
   - Android
   - mobile
-date: '2017-10-16T22:00:00.000Z'
+date: 2017-10-16T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-10-16T22:00:00.000Z
 published: true
 language: en
 ---

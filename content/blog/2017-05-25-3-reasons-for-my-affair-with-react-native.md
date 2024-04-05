@@ -5,7 +5,8 @@ tags:
   - React-Native
 comments: true
 author: eliasz
-date: '2017-05-24T22:00:00.000Z'
+date: 2017-05-24T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-05-24T22:00:00.000Z
 image: /images/love_react_native.png
 published: true
 ---

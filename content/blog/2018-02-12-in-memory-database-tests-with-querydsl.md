@@ -8,6 +8,7 @@ tags:
   - jpa
   - database
 date: 2018-02-11T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-02-11T23:00:00.000Z
 title: In-memory database tests with Querydsl
 layout: post
 image: /images/test_blog.png

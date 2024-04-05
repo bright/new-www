@@ -11,7 +11,8 @@ tags:
   - iOS
 comments: true
 author: adam
-date: '2015-02-26T23:00:00.000Z'
+date: 2015-02-26T23:00:00.000Z
+meaningfullyUpdatedAt: 2015-02-26T23:00:00.000Z
 image: /images/laptop-software-developer.jpg
 published: true
 ---

@@ -7,6 +7,7 @@ tags:
   - development
   - bluetooth
 date: 2022-08-04T07:23:33.938Z
+meaningfullyUpdatedAt: 2022-08-04T07:23:33.938Z
 title: What Are Point of Sale Devices?
 layout: post
 image: /images/blog_post_cover_epos2.png

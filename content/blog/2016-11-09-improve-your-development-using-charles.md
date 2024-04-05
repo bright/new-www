@@ -6,6 +6,7 @@ tags:
   - proxy
   - web
 date: 2016-11-08T23:00:00.000Z
+meaningfullyUpdatedAt: 2016-11-08T23:00:00.000Z
 title: Make your development better. Use the proxy.
 layout: post
 image: /images/head.jpeg

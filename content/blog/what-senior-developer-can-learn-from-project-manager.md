@@ -4,6 +4,7 @@ tags:
   - bright story
   - bright insights
 date: 2022-01-18T08:25:45.769Z
+meaningfullyUpdatedAt: 2022-01-18T08:25:45.769Z
 title: What a Senior Developer Can Learn from a Project Manager?
 layout: post
 image: /images/agnieszka_senior_dev_blog.png

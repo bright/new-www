@@ -31,6 +31,7 @@ const config = {
       label: 'Blog',
       folder: 'content/blog',
       create: true,
+      sortable_fields: ['meaningfullyUpdatedAt'],
       fields: [
         {
           label: 'Author',

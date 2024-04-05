@@ -2,6 +2,7 @@
 layout: post
 title: Walking skeleton
 date: 2017-10-05T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-10-05T22:00:00.000Z
 image: /images/skeleton.jpeg
 author: mateusz
 tags:

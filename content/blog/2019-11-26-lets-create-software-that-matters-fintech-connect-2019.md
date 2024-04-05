@@ -7,6 +7,7 @@ tags:
   - web
   - IoT
 date: 2019-11-26T08:14:28.083Z
+meaningfullyUpdatedAt: 2019-11-26T08:14:28.083Z
 title: "Let's create software that matters, Fintech Connect 2019 "
 layout: post
 image: /images/ltscreatefintech3.png

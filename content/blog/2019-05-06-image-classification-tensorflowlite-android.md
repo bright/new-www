@@ -7,6 +7,7 @@ tags:
   - deep learning
   - image classification
 date: 2019-05-05T22:00:00.000Z
+meaningfullyUpdatedAt: 2019-05-05T22:00:00.000Z
 title: Image classification with TensorFlow Lite on Android
 layout: post
 image: /images/blog_post_cover_surfing.png

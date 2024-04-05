@@ -1,5 +1,4 @@
 ---
-meaningfullyUpdatedAt: ""
 excerpt: Even though at Bright Inventions we use a number of technologies and
   work on multiple software stacks, we have a few practices that are common and
   widely accepted across all projects and stacks. One of these things is how we
@@ -11,6 +10,7 @@ tags:
   - git
   - development
 date: 2019-01-03T23:00:00.000Z
+meaningfullyUpdatedAt: 2019-01-03T23:00:00.000Z
 title: How do we use Git at Bright Inventions?
 layout: post
 image: /images/git/wild-merges.png

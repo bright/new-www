@@ -9,6 +9,7 @@ tags:
   - TypeScript
   - web
 date: 2018-04-11T22:00:00.000Z
+meaningfullyUpdatedAt: 2018-04-11T22:00:00.000Z
 title: 5 (or more) ways to benefit from TypeScript in React projects
 layout: post
 image: /images/blog_redux_ts.png

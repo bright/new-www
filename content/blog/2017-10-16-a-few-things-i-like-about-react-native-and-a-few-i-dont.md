@@ -9,7 +9,8 @@ tags:
   - iOS
   - Android
 comments: true
-date: '2017-10-15T22:00:00.000Z'
+date: 2017-10-15T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-10-15T22:00:00.000Z
 image: /images/react_native_logo.png
 published: true
 language: en

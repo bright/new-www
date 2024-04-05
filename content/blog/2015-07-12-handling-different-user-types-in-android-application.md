@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Handling different user types in Android application
-date: '2015-07-12 23:40'
+date: 2015-07-12T23:40:00.000Z
+meaningfullyUpdatedAt: 2015-07-12T23:40:00.000Z
 image: /images/android.jpeg
 author: piotr
 tags:

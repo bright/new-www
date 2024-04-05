@@ -5,6 +5,7 @@ image: >-
   /images/downsizing-jpeg-image-efficiently-to-certain-size-on-android/stress.jpg
 author: azabost
 date: 2019-03-27T00:00:00.000Z
+meaningfullyUpdatedAt: 2019-03-27T00:00:00.000Z
 crosspost: true
 comments: true
 hidden: true

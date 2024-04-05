@@ -12,6 +12,7 @@ tags:
   - logo
   - communication
 date: 2019-05-16T22:00:00.000Z
+meaningfullyUpdatedAt: 2019-05-16T22:00:00.000Z
 title: Coming Back to Bright Roots
 layout: post
 image: /images/blog_post_cover.png

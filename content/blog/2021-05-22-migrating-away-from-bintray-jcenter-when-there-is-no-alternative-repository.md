@@ -15,6 +15,7 @@ tags:
   - cache
   - repository
 date: 2021-05-26T12:01:21.342Z
+meaningfullyUpdatedAt: 2021-05-26T12:01:21.342Z
 title: Migrating away from Bintray/JCenter when there is no alternative repository
 layout: post
 image: /images/blog_post_elephant.png

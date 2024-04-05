@@ -5,7 +5,8 @@ tags:
   - android
 comments: true
 author: mateuszklimek
-date: '2016-03-30T22:00:00.000Z'
+date: 2016-03-30T22:00:00.000Z
+meaningfullyUpdatedAt: 2016-03-30T22:00:00.000Z
 image: /images/android.jpeg
 published: true
 language: en

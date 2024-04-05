@@ -6,6 +6,7 @@ tags:
   - WASM
   - WebAssembly
 date: 2018-09-10T22:00:00.000Z
+meaningfullyUpdatedAt: 2018-09-10T22:00:00.000Z
 title: Using WebAssembly with React
 layout: post
 image: /images/webassembly_blog.png

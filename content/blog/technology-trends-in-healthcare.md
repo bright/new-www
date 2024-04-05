@@ -7,6 +7,7 @@ tags:
   - inspiration
   - business
 date: 2021-11-26T07:25:21.614Z
+meaningfullyUpdatedAt: 2021-11-26T07:25:21.614Z
 title: Technology Trends in Healthcare for the Year 2022 (and far beyond)
 layout: post
 image: /images/healthcare_trends_2022_2.png

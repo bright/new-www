@@ -3,6 +3,7 @@ author: malgorzata-z
 tags:
   - QA
 date: 2022-06-06T09:47:30.104Z
+meaningfullyUpdatedAt: 2022-06-06T09:47:30.104Z
 title: How to Start Writing Automation Tests
 layout: post
 image: /images/gosia_automation_tests_blog.png

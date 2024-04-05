@@ -5,7 +5,8 @@ tags:
   - iOS
 comments: true
 author: michal
-date: '2015-10-18T22:00:00.000Z'
+date: 2015-10-18T22:00:00.000Z
+meaningfullyUpdatedAt: 2015-10-18T22:00:00.000Z
 image: /images/more_productivity.jpeg
 published: true
 language: en

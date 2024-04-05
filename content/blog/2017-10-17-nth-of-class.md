@@ -3,6 +3,7 @@ author: agnieszka
 tags:
   - css
 date: 2017-10-16T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-10-16T22:00:00.000Z
 title: Simulating nth-of-class CSS selector
 layout: post
 image: /images/blog_post_cover_css_selector.png

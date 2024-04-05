@@ -15,6 +15,7 @@ tags:
   - startups
   - cooperation
 date: 2018-12-18T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-12-18T23:00:00.000Z
 title: Bright Networking Time
 layout: post
 image: /images/london.jpg

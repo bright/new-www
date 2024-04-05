@@ -4,6 +4,7 @@ tags:
   - react native
   - navigation
 date: 2018-02-22T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-02-22T23:00:00.000Z
 title: Navigation in React Native
 layout: post
 image: /images/navigation-in-react-native/navigation-1.jpeg

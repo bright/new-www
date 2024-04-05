@@ -5,6 +5,7 @@ tags:
   - inspiration
   - recruitment
 date: 2021-11-19T09:00:57.338Z
+meaningfullyUpdatedAt: 2021-11-19T09:00:57.338Z
 title: "Why I Would Like to Be a Recruiting Specialist "
 layout: post
 image: /images/recruiter_to_be.png

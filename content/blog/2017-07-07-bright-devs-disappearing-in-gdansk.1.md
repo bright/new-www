@@ -7,7 +7,8 @@ tags:
   - workshops
 comments: true
 author: ula
-date: '2017-07-06T22:00:00.000Z'
+date: 2017-07-06T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-07-06T22:00:00.000Z
 image: /images/app_summer_course.png
 published: true
 language: en

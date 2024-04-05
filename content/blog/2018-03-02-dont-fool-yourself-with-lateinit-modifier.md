@@ -5,6 +5,7 @@ tags:
   - android
   - kotlin
 date: 2018-03-22T00:00:00.000Z
+meaningfullyUpdatedAt: 2018-03-22T00:00:00.000Z
 title: Don't fool yourself with lateinit modifier
 layout: post
 image: /images/risk_android.png

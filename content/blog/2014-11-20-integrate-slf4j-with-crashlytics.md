@@ -3,7 +3,7 @@ author: piotr
 tags:
   - android
 date: 2014-11-20T21:00:00.000Z
-meaningfullyUpdatedAt: ""
+meaningfullyUpdatedAt: 2014-11-20T21:00:00.000Z
 title: Integrate slf4j with Crashlytics
 layout: post
 image: /images/robot_android_blog.png

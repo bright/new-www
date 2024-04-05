@@ -6,6 +6,7 @@ tags:
   - career
   - bright story
 date: 2021-12-20T13:13:48.576Z
+meaningfullyUpdatedAt: 2021-12-20T13:13:48.576Z
 title: From Hostel Owner to IT Social Media Enthusiast. Meet Agata
 layout: post
 image: /images/agata_bright_story.png

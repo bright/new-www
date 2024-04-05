@@ -5,7 +5,7 @@ tags:
   - development
   - domain-driven design
 date: 2022-10-04T07:30:53.975Z
-meaningfullyUpdatedAt: ""
+meaningfullyUpdatedAt: 2022-10-04T07:30:53.975Z
 title: Domain-Driven Design Explained by a Senior Backend Developer
 layout: post
 image: /images/ddd_blog_cover.png

@@ -9,6 +9,7 @@ tags:
   - inspiration
   - AWS
 date: 2022-02-28T13:28:25.257Z
+meaningfullyUpdatedAt: 2022-02-28T13:28:25.257Z
 title: Join Our Software Workshops for Polish Dev Community
 layout: post
 image: /images/blog_cover_workshops.png

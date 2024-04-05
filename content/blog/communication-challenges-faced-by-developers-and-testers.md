@@ -5,6 +5,7 @@ tags:
   - QA
   - communication
 date: 2022-09-05T08:56:56.159Z
+meaningfullyUpdatedAt: 2022-09-05T08:56:56.159Z
 title: It’s Not a Bug, It’s a Feature – Communication Challenges Faced by
   Developers and Testers
 layout: post

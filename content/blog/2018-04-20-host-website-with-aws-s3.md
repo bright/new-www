@@ -7,6 +7,7 @@ tags:
   - amazon
   - s3
 date: 2018-04-19T22:00:00.000Z
+meaningfullyUpdatedAt: 2018-04-19T22:00:00.000Z
 title: Host your react-redux website with AWS S3
 layout: post
 image: /images/host-website-with-aws-s3/www.png

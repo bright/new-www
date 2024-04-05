@@ -10,6 +10,7 @@ tags:
   - TypeScript
   - web
 date: 2018-03-07T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-03-07T23:00:00.000Z
 title: The modern way of getting started with React and TypeScript
 layout: post
 image: /images/welcome_to_react.png

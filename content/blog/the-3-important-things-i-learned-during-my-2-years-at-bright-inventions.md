@@ -5,6 +5,7 @@ tags:
   - bright story
   - self-development
 date: 2021-10-12T06:35:07.176Z
+meaningfullyUpdatedAt: 2021-10-12T06:35:07.176Z
 title: The 3 Important Things I Learned During My 2 Years at Bright Inventions
 layout: post
 image: /images/blog_post_cover_piotr_anniversary.png

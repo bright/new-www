@@ -9,7 +9,8 @@ tags:
   - iOS
 comments: true
 author: mateuszklimek
-date: '2015-03-16T23:00:00.000Z'
+date: 2015-03-16T23:00:00.000Z
+meaningfullyUpdatedAt: 2015-03-16T23:00:00.000Z
 image: /images/laptop_coding.jpg
 published: true
 language: en

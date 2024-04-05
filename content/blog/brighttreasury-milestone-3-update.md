@@ -7,7 +7,7 @@ tags:
   - Kusama
   - BrightTreasury
 date: 2022-01-17T08:34:44.612Z
-meaningfullyUpdatedAt: ""
+meaningfullyUpdatedAt: 2022-01-17T08:34:44.612Z
 title: BrightTreasury Milestone 3 update
 layout: post
 image: /images/bright_tereasury_app_milestones.png

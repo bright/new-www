@@ -6,6 +6,7 @@ modified: 2015-04-13T00:00:00.000Z
 layout: post
 title: Using the file resources in Android POJO unit test
 date: 2015-04-12T22:00:00.000Z
+meaningfullyUpdatedAt: 2015-04-12T22:00:00.000Z
 image: /images/desktop-android-unit-test.jpg
 author: mateuszklimek
 tags:

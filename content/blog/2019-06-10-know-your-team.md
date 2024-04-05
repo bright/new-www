@@ -10,6 +10,7 @@ extract: The core of business is to build and maintain a great environment so
 layout: post
 title: Know Your Team
 date: 2019-06-09T22:00:00.000Z
+meaningfullyUpdatedAt: 2019-06-09T22:00:00.000Z
 image: /images/Ula_blog_know_your_team.png
 author: ula
 tags:

@@ -4,8 +4,8 @@ tags:
   - inspiration
   - communication
   - feedback
-date: 2023-02-05
-meaningfullyUpdatedAt: 2023-02-05
+date: 2023-02-05T00:00:00.000Z
+meaningfullyUpdatedAt: 2023-02-05T00:00:00.000Z
 title: 8 Mistakes You Make While Giving Constructive Feedback
 layout: post
 image: /images/feedback_mistake_cover.png

@@ -5,6 +5,7 @@ tags:
   - team work
   - communication
 date: 2021-07-16T07:10:00.371Z
+meaningfullyUpdatedAt: 2021-07-16T07:10:00.371Z
 title: You are a junior developer now. What's next?
 layout: post
 image: /images/blog_post_cover_love_to_learn.png

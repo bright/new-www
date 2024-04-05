@@ -5,6 +5,7 @@ tags:
   - ios
   - programming practices
 date: 2018-09-06T22:00:00.000Z
+meaningfullyUpdatedAt: 2018-09-06T22:00:00.000Z
 title: Don't be a mockup developer
 layout: post
 image: /images/blog_post_cover_mockup_dev.png
