@@ -6,6 +6,7 @@ tags:
   - cooperation
   - planning
 date: 2018-02-26T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-02-26T23:00:00.000Z
 title: 3 top habits to improve the cooperation with clients
 layout: post
 image: /images/3-habits-to-improve-cooperation-wth-clients/clients.jpeg

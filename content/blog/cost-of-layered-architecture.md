@@ -7,6 +7,7 @@ tags:
   - layered architecture
   - backend
 date: 2022-08-02T10:41:15.387Z
+meaningfullyUpdatedAt: 2022-08-02T10:41:15.387Z
 title: Cost of Layered Architecture
 layout: post
 image: /images/layers.png

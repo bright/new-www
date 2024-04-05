@@ -4,6 +4,7 @@ secondAuthor: mateusz
 tags:
   - development
 date: 2021-08-20T10:18:03.410Z
+meaningfullyUpdatedAt: 2021-08-20T10:18:03.410Z
 title: Native app development vs cross-platform
 layout: post
 image: /images/native_hybrid_apps.png

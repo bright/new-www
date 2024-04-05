@@ -5,6 +5,7 @@ tags:
   - university
   - time-management
 date: 2017-10-12T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-10-12T22:00:00.000Z
 title: How to bring together university and work?
 layout: post
 image: /images/time.png

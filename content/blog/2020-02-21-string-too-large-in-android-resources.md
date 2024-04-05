@@ -9,6 +9,7 @@ tags:
   - apk
   - crash
 date: 2020-02-21T00:00:00.000Z
+meaningfullyUpdatedAt: 2020-02-21T00:00:00.000Z
 title: Watch out for large strings crashing your Android app
 layout: post
 image: /images/blog_post_andrzej_watch_out.png

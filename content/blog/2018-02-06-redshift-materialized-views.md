@@ -4,6 +4,7 @@ tags:
   - redshift
   - development
 date: 2018-02-05T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-02-05T23:00:00.000Z
 title: Redshift Materialized Views
 layout: post
 image: /images/blog_post_cover_redshift.png

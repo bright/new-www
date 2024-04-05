@@ -8,6 +8,7 @@ tags:
   - rest
   - api
 date: 2017-11-04T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-11-04T23:00:00.000Z
 title: HTTP client timeouts
 layout: post
 image: /images/http-client-timeouts/waiting.jpg

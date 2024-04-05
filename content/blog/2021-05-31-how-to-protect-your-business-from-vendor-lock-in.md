@@ -6,6 +6,7 @@ tags:
   - software
   - development
 date: 2021-05-31T06:29:54.316Z
+meaningfullyUpdatedAt: 2021-05-31T06:29:54.316Z
 title: How to protect your business from vendor lock-in?
 layout: post
 image: /images/blog_post_cover_vendor_lock_in.png

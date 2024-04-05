@@ -9,6 +9,7 @@ tags:
   - TypeScript
   - web
 date: 2018-04-19T22:00:00.000Z
+meaningfullyUpdatedAt: 2018-04-19T22:00:00.000Z
 title: Using TypeScript with Redux
 layout: post
 image: /images/typescript_redux.png

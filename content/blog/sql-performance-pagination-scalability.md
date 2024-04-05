@@ -7,6 +7,7 @@ tags:
   - development
   - tips&tricks
 date: 2021-08-26T07:39:58.352Z
+meaningfullyUpdatedAt: 2021-08-26T07:39:58.352Z
 title: SQL Performance - pagination scalability
 layout: post
 image: /images/sql_performance_pagination_scalability.png

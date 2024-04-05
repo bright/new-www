@@ -3,6 +3,7 @@ author: eliasz
 tags:
   - iOS
 date: 2015-12-13T23:00:00.000Z
+meaningfullyUpdatedAt: 2015-12-13T23:00:00.000Z
 title: 3 tips for iOS Calabash beginners
 layout: post
 image: /images/iphone.jpeg

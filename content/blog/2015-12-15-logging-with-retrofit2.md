@@ -5,7 +5,8 @@ tags:
   - android
 comments: true
 author: mateuszklimek
-date: '2015-12-14T23:00:00.000Z'
+date: 2015-12-14T23:00:00.000Z
+meaningfullyUpdatedAt: 2015-12-14T23:00:00.000Z
 image: /images/desktop-android-unit-test.jpg
 published: true
 language: en

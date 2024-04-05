@@ -6,7 +6,7 @@ tags:
   - career
   - growth
 date: 2022-10-05T08:47:36.209Z
-meaningfullyUpdatedAt: ""
+meaningfullyUpdatedAt: 2022-10-05T08:47:36.209Z
 title: Solving Problems with Code for over 12 Years. Meet Agnieszka – Senior
   Fullstack Developer
 layout: post

@@ -3,6 +3,7 @@ excerpt: null
 layout: post
 title: From React to React-Redux in a few steps
 date: 2018-02-08T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-02-08T23:00:00.000Z
 image: /images/laptop-programming.jpg
 author: eliasz
 tags:

@@ -5,6 +5,7 @@ tags:
   - bright insights
   - company update
 date: 2022-02-09T10:31:01.939Z
+meaningfullyUpdatedAt: 2022-02-09T10:31:01.939Z
 title: Bright Inventions turns 10 in March! What do we value? How did we get there?
 layout: post
 image: /images/10_years_bright_team.png

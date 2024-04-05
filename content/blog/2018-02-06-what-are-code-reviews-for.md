@@ -11,7 +11,8 @@ tags:
 comments: true
 author: adam
 image: /images/people-office-group-team.jpg
-date: '2018-02-05T23:00:00.000Z'
+date: 2018-02-05T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-02-05T23:00:00.000Z
 published: true
 language: en
 ---

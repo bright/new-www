@@ -6,7 +6,8 @@ tags:
   - AWS-CDK
   - AWS
   - RDS
-date: 2022-01-30
+date: 2022-01-30T00:00:00.000Z
+meaningfullyUpdatedAt: 2022-01-30T00:00:00.000Z
 title: Migrate EC2-Classic RDS to a VPC - Step 1 - Replication
 layout: post
 image: /images/replica_blog_post.png

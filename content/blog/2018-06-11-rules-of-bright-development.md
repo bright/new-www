@@ -13,6 +13,7 @@ tags:
   - web
   - software
 date: 2018-06-10T22:00:00.000Z
+meaningfullyUpdatedAt: 2018-06-10T22:00:00.000Z
 title: Rules of Bright Development
 layout: post
 image: /images/blog_post_bright_development_rules.png

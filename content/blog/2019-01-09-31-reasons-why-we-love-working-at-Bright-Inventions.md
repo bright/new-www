@@ -10,6 +10,7 @@ tags:
   - teamwork
   - bright insights
 date: 2019-01-08T23:00:00.000Z
+meaningfullyUpdatedAt: 2019-01-08T23:00:00.000Z
 title: 31 reasons why we love working at Bright Inventions
 layout: post
 image: /images/reasons_working_at_bright_inventions.png

@@ -6,7 +6,7 @@ tags:
   - mobile
   - app
 date: 2021-06-22T08:09:07.016Z
-meaningfullyUpdatedAt: ""
+meaningfullyUpdatedAt: 2021-06-22T08:09:07.016Z
 title: App Security Practices a Startup Founder or CTO Should Expect from Developers
 layout: post
 image: /images/security-apps.jpg

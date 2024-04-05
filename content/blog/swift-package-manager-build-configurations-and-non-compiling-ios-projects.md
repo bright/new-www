@@ -5,6 +5,7 @@ tags:
   - Swift Package Manager
   - Xcode
 date: 2022-07-29T10:34:45.775Z
+meaningfullyUpdatedAt: 2022-07-29T10:34:45.775Z
 title: Swift Package Manager, build configurations and non compiling iOS projects
 layout: post
 image: /images/blogpost_spm_tomasz.png

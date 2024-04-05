@@ -11,6 +11,7 @@ tags:
   - career
   - stress
 date: 2017-10-30T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-10-30T23:00:00.000Z
 title: The human side of software development
 layout: post
 image: /images/human_side2.png

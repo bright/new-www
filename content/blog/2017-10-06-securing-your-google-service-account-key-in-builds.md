@@ -3,6 +3,7 @@ crosspost: true
 layout: post
 title: Securing your Google service account key in builds
 date: 2017-10-05T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-10-05T22:00:00.000Z
 image: /images/securing-your-google-service-account-key-in-builds/padlock-597495_1920.jpg
 author: azabost
 tags:

@@ -16,7 +16,8 @@ tags:
   - Poland
   - outsourcing
   - software house
-date: '2019-07-15T22:00:00.000Z'
+date: 2019-07-15T22:00:00.000Z
+meaningfullyUpdatedAt: 2019-07-15T22:00:00.000Z
 published: true
 language: en
 ---

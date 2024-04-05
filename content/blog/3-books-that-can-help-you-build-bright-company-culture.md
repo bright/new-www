@@ -5,6 +5,7 @@ tags:
   - business
   - company culture
 date: 2022-03-06T16:50:24.882Z
+meaningfullyUpdatedAt: 2022-03-06T16:50:24.882Z
 title: "3 Books That Can Help You Build Bright Company Culture "
 layout: post
 image: /images/books_company_culture_blog.png

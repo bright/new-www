@@ -3,6 +3,7 @@ author: eliasz
 tags:
   - iOS
 date: 2016-10-21T22:00:00.000Z
+meaningfullyUpdatedAt: 2016-10-21T22:00:00.000Z
 title: ReactiveSwift - Manage your memory!
 layout: post
 image: /images/mistakes_startups_make_when_developing_their_mobile_product.jpg

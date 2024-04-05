@@ -6,6 +6,7 @@ tags:
   - web
   - Blockchain
 date: 2018-04-17T22:00:00.000Z
+meaningfullyUpdatedAt: 2018-04-17T22:00:00.000Z
 title: Bright Inventions Recognised as a Top App Development Company
 layout: post
 image: /images/clutch_1.png

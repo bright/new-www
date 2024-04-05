@@ -2,6 +2,7 @@
 layout: post
 title: Object typing
 date: 2021-01-06T12:12:12.000Z
+meaningfullyUpdatedAt: 2021-01-06T12:12:12.000Z
 image: /images/request_typing.png
 author: wojciech
 tags:

@@ -9,6 +9,7 @@ author: adam
 tags:
   - iOS
 date: 2015-08-13T00:00:00.000Z
+meaningfullyUpdatedAt: 2015-08-13T00:00:00.000Z
 title: "iOS: The simplest star rating control ever"
 layout: post
 image: /images/internet-ios.jpg

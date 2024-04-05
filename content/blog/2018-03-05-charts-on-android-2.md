@@ -10,7 +10,8 @@ tags:
   - dynamic data
 comments: true
 image: /images/radek/tuning.jpg
-date: '2018-03-04T23:00:00.000Z'
+date: 2018-03-04T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-03-04T23:00:00.000Z
 published: true
 language: en
 ---

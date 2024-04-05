@@ -4,6 +4,7 @@ author: azabost
 tags:
   - android
 date: 2018-03-29T00:00:00.000Z
+meaningfullyUpdatedAt: 2018-03-29T00:00:00.000Z
 title: Top 3 reasons why you should start with Android
 layout: post
 image: /images/top-3-reasons-why-you-should-start-with-android/doors-1767563_1920_80.jpg

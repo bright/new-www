@@ -4,6 +4,7 @@ tags:
   - business
   - Kotlin
 date: 2022-03-09T10:11:14.427Z
+meaningfullyUpdatedAt: 2022-03-09T10:11:14.427Z
 title: What to Expect from Kotlin Development Company from Poland
 layout: post
 image: /images/android_development_company.png

@@ -6,6 +6,7 @@ modified: 2014-11-07T00:00:00.000Z
 layout: post
 title: InjectionForXcode meets command line
 date: 2014-11-06T23:00:00.000Z
+meaningfullyUpdatedAt: 2014-11-06T23:00:00.000Z
 image: /images/bright_team-compressor.jpg
 author: michal
 tags:

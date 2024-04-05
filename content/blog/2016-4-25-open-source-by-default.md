@@ -3,6 +3,7 @@ author: eliasz
 tags:
   - OpenSource
 date: 2016-04-24T22:00:00.000Z
+meaningfullyUpdatedAt: 2016-04-24T22:00:00.000Z
 title: Open source by default
 layout: post
 image: /images/b-88Light.jpg

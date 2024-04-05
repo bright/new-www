@@ -4,7 +4,7 @@ tags:
   - inspiration
   - design
 date: 2022-01-10T11:52:37.230Z
-meaningfullyUpdatedAt: ""
+meaningfullyUpdatedAt: 2022-01-10T11:52:37.230Z
 title: 5 Timeless Web Development Rules from “Don’t Make Me Think” Book
 layout: post
 image: /images/blog_book_krug.png

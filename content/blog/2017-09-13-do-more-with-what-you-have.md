@@ -5,6 +5,7 @@ tags:
   - programming
   - business
 date: 2017-09-12T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-09-12T22:00:00.000Z
 title: Do More with What You Have
 layout: post
 image: /images/working_office.jpeg

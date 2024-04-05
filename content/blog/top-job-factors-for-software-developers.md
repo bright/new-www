@@ -7,6 +7,7 @@ tags:
   - inspiration
   - teamwork
 date: 2021-11-23T08:11:07.092Z
+meaningfullyUpdatedAt: 2021-11-23T08:11:07.092Z
 title: Top Job Factors for Software Developers
 layout: post
 image: /images/developers_top_factors_blog.png

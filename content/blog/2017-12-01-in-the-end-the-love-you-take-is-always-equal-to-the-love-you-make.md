@@ -10,6 +10,7 @@ excerpt: Elon Musk once said that leadership does not depend nowadays on the
 layout: post
 title: In the end, the love you take is always equal to the love you make
 date: 2017-11-30T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-11-30T23:00:00.000Z
 image: /images/hand-teamwork.jpg
 author: ula
 tags:

@@ -10,7 +10,8 @@ tags:
   - programming
   - motivation
 image: /images/bright_team-compressor.jpg
-date: '2018-08-07T22:00:00.000Z'
+date: 2018-08-07T22:00:00.000Z
+meaningfullyUpdatedAt: 2018-08-07T22:00:00.000Z
 published: true
 language: en
 ---

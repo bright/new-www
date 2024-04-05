@@ -6,6 +6,7 @@ tags:
   - empathy
   - meetings
 date: 2021-08-04T09:16:01.315Z
+meaningfullyUpdatedAt: 2021-08-04T09:16:01.315Z
 title: Communication Breakdown - 5 great ways to be misunderstood
 layout: post
 image: /images/blog_post_communication.png

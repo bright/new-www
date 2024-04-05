@@ -4,6 +4,7 @@ excerpt: Let's take a quick look at one of the design patterns that should help
 layout: post
 title: "Design Patterns with Swift: Quick look at a Strategy Pattern"
 date: 2017-10-08T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-10-08T22:00:00.000Z
 image: /images/strategy.jpeg
 author: kwysocki
 tags:

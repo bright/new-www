@@ -5,6 +5,7 @@ tags:
   - software development company
   - software consulting studio
 date: 2021-05-04T08:13:06.170Z
+meaningfullyUpdatedAt: 2021-05-04T08:13:06.170Z
 title: 4 things that surprised me when I joined a software development company
 layout: post
 image: /images/blog_post_cover_things_suprised_me.png

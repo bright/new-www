@@ -8,6 +8,7 @@ tags:
   - elb
   - cloudform
 date: 2018-03-05T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-03-05T23:00:00.000Z
 title: How to call a load balanced ECS service?
 layout: post
 image: /images/ecs-service/containers.jpeg

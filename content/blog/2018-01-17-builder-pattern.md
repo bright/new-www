@@ -2,6 +2,7 @@
 layout: post
 title: Builder pattern in Kotlin
 date: 2018-01-16T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-01-16T23:00:00.000Z
 image: /images/builder-pattern-in-kotlin/builder.jpeg
 author: agnieszka
 tags:

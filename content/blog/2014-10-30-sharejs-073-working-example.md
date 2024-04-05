@@ -15,7 +15,8 @@ tags:
   - javascript
 comments: true
 author: adam
-date: '2014-10-29T23:00:00.000Z'
+date: 2014-10-29T23:00:00.000Z
+meaningfullyUpdatedAt: 2014-10-29T23:00:00.000Z
 image: /images/laptop_work.jpg
 published: true
 language: en

@@ -5,6 +5,7 @@ excerpt: Sorting data is one of the most important tasks that computers have
 layout: post
 title: Comparison sorting part 1
 date: 2018-01-17T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-01-17T23:00:00.000Z
 image: /images/laptop.jpg
 author: grzesiek
 tags:

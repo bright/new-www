@@ -3,6 +3,7 @@ author: eliasz
 tags:
   - Architecture
 date: 2017-04-18T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-04-18T22:00:00.000Z
 title: Redux - How do I understand it?
 layout: post
 image: /images/header.jpeg

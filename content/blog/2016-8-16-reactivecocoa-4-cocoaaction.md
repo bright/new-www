@@ -3,6 +3,7 @@ author: eliasz
 tags:
   - iOS
 date: 2016-08-15T22:00:00.000Z
+meaningfullyUpdatedAt: 2016-08-15T22:00:00.000Z
 title: ReactiveCocoa 4 - CocoaActions
 layout: post
 image: /images/b-88Light_gradient2000-p-1080.png

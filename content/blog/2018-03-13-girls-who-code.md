@@ -7,7 +7,8 @@ comments: true
 hidden: false
 author: agnieszka
 image: /images/girls-who-code/image1.jpg
-date: '2018-03-12T23:00:00.000Z'
+date: 2018-03-12T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-03-12T23:00:00.000Z
 published: true
 language: en
 ---

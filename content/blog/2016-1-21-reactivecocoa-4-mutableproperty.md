@@ -5,7 +5,8 @@ tags:
   - iOS
 comments: true
 author: eliasz
-date: '2016-01-20T23:00:00.000Z'
+date: 2016-01-20T23:00:00.000Z
+meaningfullyUpdatedAt: 2016-01-20T23:00:00.000Z
 image: /images/programming.jpg
 published: true
 language: en

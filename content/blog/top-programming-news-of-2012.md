@@ -4,6 +4,7 @@ tags:
   - development
   - inspiration
 date: 2022-03-11T08:52:37.538Z
+meaningfullyUpdatedAt: 2022-03-11T08:52:37.538Z
 title: 10 Years Back… Top Programming News of 2012
 layout: post
 image: /images/2012_tech_news_blog_cover.png

@@ -8,8 +8,8 @@ short_name: "Błażej "
 email: blazej.dziuk@brightinventions.pl
 bio: Senior Project Analyst
 description: Senior Project Analyst
-avatar: /images/brightdev_business_blazejbłażej.png
-avatar_hover: /images/brightdev_passion_błażejbłażej.png
+avatar: /images/brightdev_business_blazejblazej.png
+avatar_hover: /images/brightdev_passion_blazejblazej.png
 published: true
 language: en
 ---

@@ -9,6 +9,7 @@ tags:
   - TeamCity
   - continuous integration
 date: 2017-11-10T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-11-10T23:00:00.000Z
 title: TeamCity for iOS project
 layout: post
 image: /images/teamcity-for-ios-project/title_image.jpg

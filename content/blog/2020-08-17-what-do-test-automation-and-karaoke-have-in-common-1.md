@@ -5,6 +5,7 @@ tags:
   - QA
   - karaoke
 date: 2020-08-17T11:45:17.768Z
+meaningfullyUpdatedAt: 2020-08-17T11:45:17.768Z
 title: What do test automation and karaoke have in common?
 layout: post
 image: /images/blog_post_cover_karoke.png

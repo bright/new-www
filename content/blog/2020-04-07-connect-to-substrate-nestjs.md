@@ -6,6 +6,7 @@ tags:
   - javascript
   - substrate
 date: 2020-04-07T10:41:51.004Z
+meaningfullyUpdatedAt: 2020-04-07T10:41:51.004Z
 title: Connecting to Substrate blockchain from NestJS
 layout: post
 image: /images/substrate_blockchain_blog.png

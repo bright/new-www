@@ -6,6 +6,7 @@ tags:
   - development
   - linkedin
 date: 2022-07-27T11:45:23.553Z
+meaningfullyUpdatedAt: 2022-07-27T11:45:23.553Z
 title: You didn’t call me, Charlie?
 layout: post
 image: /images/blog_post_cover_charlie.png

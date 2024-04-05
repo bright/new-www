@@ -6,6 +6,7 @@ tags:
   - java
   - backend
 date: 2022-07-14T03:44:55.437Z
+meaningfullyUpdatedAt: 2022-07-14T03:44:55.437Z
 title: Understanding Covariants, Contravariants, and Invariants on JVM Generics
   Example. Part 1 - Java
 layout: post

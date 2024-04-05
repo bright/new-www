@@ -3,6 +3,7 @@ author: eliasz
 tags:
   - iOS
 date: 2016-08-21T22:00:00.000Z
+meaningfullyUpdatedAt: 2016-08-21T22:00:00.000Z
 title: ReactiveCocoa UI bindings with Rex
 layout: post
 image: /images/bright_team-compressor.jpg

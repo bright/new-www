@@ -7,6 +7,7 @@ tags:
   - team
   - update
 date: 2018-03-22T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-03-22T23:00:00.000Z
 title: Make IT Bright - Join our Developer's Team
 layout: post
 image: /images/make_it_bright.JPG

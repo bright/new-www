@@ -7,7 +7,7 @@ tags:
   - serialization
   - forward compatibility
 date: 2020-11-17T18:49:00.000Z
-meaningfullyUpdatedAt: ""
+meaningfullyUpdatedAt: 2020-11-17T18:49:00.000Z
 title: Forward compatible enums in Kotlin
 layout: post
 image: /images/blog_post_forward_compatible.png

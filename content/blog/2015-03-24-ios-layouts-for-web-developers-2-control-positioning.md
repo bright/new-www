@@ -8,6 +8,7 @@ author: adam
 tags:
   - iOS
 date: 2015-03-23T23:00:00.000Z
+meaningfullyUpdatedAt: 2015-03-23T23:00:00.000Z
 title: "iOS layouts for web developers #2 - control positioning"
 layout: post
 image: /images/software_dev.jpg

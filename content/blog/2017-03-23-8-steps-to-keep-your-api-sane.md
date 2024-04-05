@@ -9,6 +9,7 @@ tags:
   - api
   - design
 date: 2017-03-22T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-03-22T23:00:00.000Z
 title: 8 steps to keep your API sane
 layout: post
 image: /images/woman-hand-smartphone-desk.jpg

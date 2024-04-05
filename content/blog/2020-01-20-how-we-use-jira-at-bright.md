@@ -6,6 +6,7 @@ tags:
   - Scrum
   - Kanban
 date: 2020-01-20T07:25:48.061Z
+meaningfullyUpdatedAt: 2020-01-20T07:25:48.061Z
 title: How we use Jira at Bright?
 layout: post
 image: /images/KASIA_How we use Jira at Bright_1 copy.png

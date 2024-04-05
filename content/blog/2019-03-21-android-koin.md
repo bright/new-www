@@ -8,6 +8,7 @@ tags:
   - mobiledev
   - mobile
 date: 2019-03-20T23:00:00.000Z
+meaningfullyUpdatedAt: 2019-03-20T23:00:00.000Z
 title: Android - Koin DI
 layout: post
 image: /images/android.jpeg

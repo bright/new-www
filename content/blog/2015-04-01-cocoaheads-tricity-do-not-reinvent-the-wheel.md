@@ -7,7 +7,8 @@ tags:
   - CocoaPods
 comments: true
 author: mateusz
-date: '2015-03-31T22:00:00.000Z'
+date: 2015-03-31T22:00:00.000Z
+meaningfullyUpdatedAt: 2015-03-31T22:00:00.000Z
 image: /images/wooden-wheel.png
 published: true
 language: en

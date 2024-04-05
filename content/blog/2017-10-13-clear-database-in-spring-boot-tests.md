@@ -3,6 +3,7 @@ crosspost: true
 layout: post
 title: How to clear database in Spring Boot tests?
 date: 2017-10-12T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-10-12T22:00:00.000Z
 image: /images/bright_team-compressor.jpg
 author: piotr
 tags:

@@ -11,7 +11,8 @@ tags:
   - android
 comments: true
 author: daniel
-date: '2014-11-03T23:00:00.000Z'
+date: 2014-11-03T23:00:00.000Z
+meaningfullyUpdatedAt: 2014-11-03T23:00:00.000Z
 image: /images/android.jpeg
 published: true
 language: en

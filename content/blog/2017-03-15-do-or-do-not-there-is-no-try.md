@@ -5,6 +5,7 @@ tags:
   - coding
   - teamwork
 date: 2017-03-14T23:00:00.000Z
+meaningfullyUpdatedAt: 2017-03-14T23:00:00.000Z
 title: Do or do not. There is no try.
 layout: post
 image: /images/do-or-do-not-there-is-no-try/photo1.jpg

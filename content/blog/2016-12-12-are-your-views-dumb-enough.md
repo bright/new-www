@@ -3,6 +3,7 @@ author: eliasz
 tags:
   - iOS
 date: 2016-12-11T23:00:00.000Z
+meaningfullyUpdatedAt: 2016-12-11T23:00:00.000Z
 title: Are your views dumb enough? — A way to run your tests without simulator
 layout: post
 image: /images/ios_turbo.jpeg

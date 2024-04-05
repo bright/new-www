@@ -5,6 +5,7 @@ tags:
   - iOS
   - Android
 date: 2017-10-12T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-10-12T22:00:00.000Z
 title: React Native - The things that you should be aware of before coming onboard
 layout: post
 image: /images/react_native_header.jpeg
