@@ -18,12 +18,18 @@ language: en
 
 ## FemTech & Consumer Innovation Summit 2024
 
-Date: 16-17 April 2024
-City: Basel, Switzerland
-Ticket pricing: from €649 to €2,699
-Number of attendees: 350+
+**Date**: 16-17 April 2024
 
-Key speakers: Abbie Strabala, Investment Associate at True Wealth VC; Anna Lee, Co-Founder & CEO at Lioness; Dr Lyndsey Harper MD, FACOG IF, Founder & CEO Rosy Wellness.
+**City**: Basel, Switzerland
+
+**Ticket pricing**: from €649 to €2,699
+
+**Number of attendees**: 350+
+
+**Key speakers**: 
+* Abbie Strabala, Investment Associate at True Wealth VC; 
+* Anna Lee, Co-Founder & CEO at Lioness; 
+* Dr Lyndsey Harper MD, FACOG IF, Founder & CEO Rosy Wellness.
 
 The summit connects stakeholders at the convergence of healthcare and consumer innovation to drive investment, enhance solutions and forge partnerships to unlock industry growth.
 
@@ -31,24 +37,34 @@ The summit connects stakeholders at the convergence of healthcare and consumer i
 
 ## FemTech Forward 2024: Transforming Women’s Health With Tech
 
-Date: May 10, 2024
-City: Oxford, UK
-Ticket pricing: £18.00
-Number of attendees: 300+
+**Date**: May 10, 2024
 
-Speakers: Dr Helen O’Neill, BSc (hons), MSc, PhD - CEO, Founder of Hertility; Elisa Sai
-VP in Analytics and AI, Capgemini Invent; 
+**City**: Oxford, UK
+
+**Ticket pricing**: £18.00
+
+**Number of attendees**: 300+
+
+**Speakers**: 
+* Dr Helen O’Neill, BSc (hons), MSc, PhD - CEO, Founder of Hertility; 
+* Elisa Sai, VP in Analytics and AI, Capgemini Invent; 
 
 [eventbrite.com/femtech-forward](https://www.eventbrite.com/e/femtech-forward-2024-transforming-womens-health-with-tech-tickets-859434811657?aff=oddtdtcreator)
 
 ## Women's Health Innovation Summit, Europe 2024
 
-Date: 5-6 June 2024
-City: New Jersey, USA
-Ticket pricing: from $599 to $2799
-Number of attendees: info not provided
+**Date**: 5-6 June 2024
 
-Key speakers: Amira Ghouaibi - Lead, Women’s Health Initiative World Economic Forum; Bridget Gorham - Health Economics Policy Advisor NHS Confederation; Peter Turek, Head of Women's Healthcare Gedeon Richter
+**City**: New Jersey, USA
+
+**Ticket pricing**: from $599 to $2799
+
+**Number of attendees**: info not provided
+
+**Key speakers**: 
+* Amira Ghouaibi - Lead, Women’s Health Initiative World Economic Forum; 
+* Bridget Gorham - Health Economics Policy Advisor NHS Confederation; 
+* Peter Turek, Head of Women's Healthcare Gedeon Richter
 
 [womenshealthinnovationeurope.com](https://www.womenshealthinnovationeurope.com/events/womenshealthinnovationeurope)
 
