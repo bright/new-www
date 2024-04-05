@@ -42,7 +42,7 @@ language: en
 ---
 ## bright culture 🧡
 
-At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
+At Bright Inventions you'll be an important part of [](https://brightinventions.pl/about-us/team/)[a group of talented, ambitious and positive web and mobile developers, QAs, UI/UX designers, project managers, and marketing and recruitment specialists](https://brightinventions.pl/about-us/team/)[](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
 
 We place a strong emphasis on accountability, and we value team members who take ownership of their work and are willing to make improvements based on regular and open feedback. Positive attitude, flexibility and teamwork are elemental parts of our success. Instead of focusing on problems we empower our team members to identify issues, propose solutions, and contribute to continuous growth.
 
