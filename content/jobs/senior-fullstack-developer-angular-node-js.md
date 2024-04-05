@@ -42,7 +42,7 @@ language: en
 ---
 ## who we are 🧑🏻‍💻👩🏻‍💻
 
-At Bright Inventions you'll be an important part of a group of talented, ambitious and positive developers, designers, managers and marketers who love to solve real problems and build software that really matters in today’s world. 
+At Bright Inventions you'll be an important part of [](https://brightinventions.pl/about-us/team/)[a group of talented, ambitious and positive web and mobile developers, QAs, UI/UX designers, project managers, and marketing and recruitment specialists](https://brightinventions.pl/about-us/team/)[](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
 
 We foster a culture of mutual support and shared responsibility within our team. We are proactive in taking ownership of our personal growth and development. **Our success is built on a foundation of positive attitude, flexibility and collaborative teamwork. Clients rely on us to deliver effective solutions which help them achieve their business goals.** 
 
