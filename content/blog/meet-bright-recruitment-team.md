@@ -6,7 +6,7 @@ tags:
   - bright insights
   - recruitment
 date: 2022-07-28T05:12:27.820Z
-meaningfullyUpdatedAt: 2024-03-21T08:49:47.450Z
+meaningfullyUpdatedAt: 2024-04-05T11:21:28.990Z
 title: "Meet Bright Recruitment Team "
 layout: post
 image: /images/recruitment_team_cover.png
@@ -112,9 +112,10 @@ Choose wisely and be honest with us and with yourself. \
 **Paulina:** *One man by nature is just as good as any other* (J.J. Rousseau) and *I’m not telling you it’s going to be easy, I’m telling you it’s going to be worth it.* ​​(Art Williams)
 
 **Ula:**  It is not a good question for me as I have at least a few, e.g. *Hope for the best, there is no point in hoping for the worst.* (Stanisław Lem), *Alone we can do so little, together we can do so much.* (Helen Keller), *It is literally true that you can succeed best and quickest by helping others to succeed. (Napoleon Hill). 
-And I also really like Socrate's* The secret of happiness, you see, is not found in seeking more, but in developing the capacity to enjoy less.* Now you know why I call myself #ulacoelho. 🙈😉\
-\
+And I also really like Socrate's* The secret of happiness, you see, is not found in seeking more, but in developing the capacity to enjoy less. *Now you know why I call myself #ulacoelho. 🙈😉**\
 **Sara:** '*Let people be people*' - that motto came to me. It is very universal. Our behavior is connected with our motives and always has a reason (or reasons). And my role (as a human) is not to judge, but to try to understand. It helps me remember that all of us have our own perspectives, feelings, and needs. And I respect that. It is extremely important to be open to differences, especially if we do not understand them. Openness is key. :)
+
+<div className="image">![Sara Bright Recruiter](../../static/images/sara_rekru_team.jpg "Sara Bright Recruiter")</div>
 
 That is the end for today. Stay tuned! 
 
