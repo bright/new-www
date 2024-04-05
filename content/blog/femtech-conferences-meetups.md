@@ -16,7 +16,7 @@ language: en
 
 <div className="image">![FemTech conferences and meetups](../../static/images/meetup_femtech.png "FemTech conferences and meetups")</div>
 
-FemTech & Consumer Innovation Summit 2024
+## FemTech & Consumer Innovation Summit 2024
 
 Date: 16-17 April 2024
 City: Basel, Switzerland
@@ -27,9 +27,9 @@ Key speakers: Abbie Strabala, Investment Associate at True Wealth VC; Anna Lee, 
 
 The summit connects stakeholders at the convergence of healthcare and consumer innovation to drive investment, enhance solutions and forge partnerships to unlock industry growth.
 
-https://www.femtechconsumerinnovation.com/events/femtechconsumerinnovation
+[femtechconsumerinnovation.com](https://www.femtechconsumerinnovation.com/events/femtechconsumerinnovation)
 
-FemTech Forward 2024: Transforming Women’s Health With Tech
+## FemTech Forward 2024: Transforming Women’s Health With Tech
 
 Date: May 10, 2024
 City: Oxford, UK
@@ -39,9 +39,9 @@ Number of attendees: 300+
 Speakers: Dr Helen O’Neill, BSc (hons), MSc, PhD - CEO, Founder of Hertility; Elisa Sai
 VP in Analytics and AI, Capgemini Invent; 
 
-https://www.eventbrite.com/e/femtech-forward-2024-transforming-womens-health-with-tech-tickets-859434811657?aff=oddtdtcreator
+[eventbrite.com/femtech-forward](https://www.eventbrite.com/e/femtech-forward-2024-transforming-womens-health-with-tech-tickets-859434811657?aff=oddtdtcreator)
 
-Women's Health Innovation Summit, Europe 2024
+## Women's Health Innovation Summit, Europe 2024
 
 Date: 5-6 June 2024
 City: New Jersey, USA
@@ -50,6 +50,6 @@ Number of attendees: info not provided
 
 Key speakers: Amira Ghouaibi - Lead, Women’s Health Initiative World Economic Forum; Bridget Gorham - Health Economics Policy Advisor NHS Confederation; Peter Turek, Head of Women's Healthcare Gedeon Richter
 
-https://www.womenshealthinnovationeurope.com/events/womenshealthinnovationeurope
+[womenshealthinnovationeurope.com](https://www.womenshealthinnovationeurope.com/events/womenshealthinnovationeurope)
 
 Do you recommend other FemTech conferences? Let us know in the comments and we might include them!
