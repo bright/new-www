@@ -3,8 +3,7 @@ author: dawid-cz
 secondAuthor: dominik-d
 thirdAuthor: slawek
 tags:
-  - business
-  - development
+  - HealthTech
 date: 2022-09-09T07:00:29.612Z
 meaningfullyUpdatedAt: 2024-04-08T10:37:15.273Z
 title: 3 Tech Challenges to Face When You Build Mental Health App
@@ -42,6 +41,8 @@ Moreover, it can be extra catastrophic when taking into account the fact that in
 There are also challenges regarding **anonymity**. Not every user wants to share everything about themselves with other users. We might need their first and last name for payment purposes but they rather not be mentioned by real names inside the app. 
 
 Another thing to keep in mind is if we accept **payments with credit cards**. What will the credit card statement show? Some users might not be willing to share information that they’re using a mental health help with people who have access to their credit card statement – a spouse or parents.
+
+
 
 ## Never losing users' trust
 
