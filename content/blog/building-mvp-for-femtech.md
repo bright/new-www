@@ -48,7 +48,7 @@ Do you plan to better understand your buyer persona? Check out the free [ICP + B
 
 ### Prototyping (1-4 weeks)
 
-This is the moment to visualize the idea, often in the form of basic clickable mockups. This stage helps every member of the development process—both business and technological sides—to ensure they are on the same page. It also enables the elimination of initial mistakes in the UI.
+This is the moment to visualize the idea, often in the form of basic clickable mockups. This stage helps every member of the development process – both business and technological sides – to ensure they are on the same page. It also enables the elimination of initial mistakes in the UI.
 
 ### Development and launch the MVP (4-20 weeks)
 
@@ -56,4 +56,4 @@ The moment when the software team, whether in-house or outsourced, can develop t
 
 ### Scaling (Infinity – hopefully)
 
-The post-MVP phase can be a critical moment for your FemTech startup. Finding the balance between delivering new features, as well as building credibility with a reliable and secure solution, is essential. Development and maintenance are crucial, and the rising number of users, which is indeed something to celebrate, might cause performance issues that every successful post-MVP product has to face at some point. Therefore, performance monitoring, adhering to security best practices, and a strong QA approach might be key to success. Along with a marketing campaign, of course. :)
+The post-MVP phase can be a critical moment for your FemTech startup. Finding the balance between delivering new features, as well as building credibility with a reliable and secure solution, is essential. Development and maintenance are crucial, and the rising number of users, which is indeed something to celebrate, might cause performance issues that every successful post-MVP product has to face at some point. Therefore, performance monitoring, adhering to security best practices, and a strong QA approach might be key to success. Along with a marketing campaign, of course.
