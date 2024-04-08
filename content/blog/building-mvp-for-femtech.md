@@ -18,4 +18,4 @@ language: en
 
 There are several key technological aspects of FemTech that could significantly influence the success of your product. We delve deeply into FemTech in another one of our blog posts, which you are encouraged to explore here: [Understanding FemTech: Keys to Succeed with Your Software Solution for Women](/blog/keys-to-succeed-in-femtech/). 
 
-However, in this article, we focus exclusively on the development of a Minimum Viable Product (MVP), which is also a critical component of the software development process, especially in the context of FemTech.
+However, in this article, we focus exclusively on [the development of a Minimum Viable Product (MVP)](/our-areas/mvp-development/), which is also a critical component of the software development process, especially in the context of FemTech.
