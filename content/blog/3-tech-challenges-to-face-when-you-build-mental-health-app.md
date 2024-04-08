@@ -6,6 +6,7 @@ tags:
   - business
   - development
 date: 2022-09-09T07:00:29.612Z
+meaningfullyUpdatedAt: 2024-04-08T10:37:15.273Z
 title: 3 Tech Challenges to Face When You Build Mental Health App
 layout: post
 image: /images/blogpost_mental_app.png
@@ -68,7 +69,7 @@ We should **be open about the data we collect about the users**. You can be even
 
 <div className="image">![Dawid's quote on support contact info](../../static/images/dawid_quote_mental_app.png "Dawid's quote")</div>
 
-## Creating the best possible UI
+## Designing inclusive UI
 
 **Sławek, Fullstack Developer at Bright Inventions:**
 
