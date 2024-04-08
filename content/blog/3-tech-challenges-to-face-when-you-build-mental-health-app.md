@@ -3,9 +3,9 @@ author: dawid-cz
 secondAuthor: dominik-d
 thirdAuthor: slawek
 tags:
-  - business
-  - development
+  - HealthTech
 date: 2022-09-09T07:00:29.612Z
+meaningfullyUpdatedAt: 2024-04-08T10:44:11.021Z
 title: 3 Tech Challenges to Face When You Build Mental Health App
 layout: post
 image: /images/blogpost_mental_app.png
@@ -42,6 +42,8 @@ There are also challenges regarding **anonymity**. Not every user wants to share
 
 Another thing to keep in mind is if we accept **payments with credit cards**. What will the credit card statement show? Some users might not be willing to share information that they’re using a mental health help with people who have access to their credit card statement – a spouse or parents.
 
+Read our guide on [security practices for healthcare apps](/blog/cyber-security-in-healthcare/) that you can implement  to ensure your app trustworthy and credibility.
+
 ## Never losing users' trust
 
 **Dawid, Fullstack Developer at Bright Inventions:**
@@ -58,6 +60,8 @@ Let’s take as an example the hypothetical app that offers online group therapy
 
 This may seem a bit odd in terms of maintaining the user’s trust, but **by knowing how a user is using our application and being able to track what she or he was doing, we can improve user experience**, and have an easier way to reproduce some faulty paths.
 
+App performance monitoring is a perfect solution to proactively react to any performance issues before they start to frustrate your users. You can set up a basic monitoring with our guide: [Unlock Performance Monitoring for HealthTech](/blog/healthcare-app-performance-monitoring/).
+
 * **Being transparent about the data we collect and our privacy policy**
 
 We should **be open about the data we collect about the users**. You can be even obliged to do so for example in the European Union countries. There’s really no need to hide the fact that we are gonna use their e-mail for some marketing purposes. But please, give the user a way to sign off it, nothing may annoy them as constant spam on their e-mail inbox.
@@ -68,7 +72,7 @@ We should **be open about the data we collect about the users**. You can be even
 
 <div className="image">![Dawid's quote on support contact info](../../static/images/dawid_quote_mental_app.png "Dawid's quote")</div>
 
-## Creating the best possible UI
+## Designing inclusive UI
 
 **Sławek, Fullstack Developer at Bright Inventions:**
 
