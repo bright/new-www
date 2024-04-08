@@ -46,14 +46,14 @@ Perhaps it all begins with an idea, but the real work is just getting started. T
 
 Do you plan to better understand your buyer persona? Check out the free [ICP + B2B Buyer Persona Workshop](https://miro.com/miroverse/b2b-buyer-persona-workshop-template/) template made by our team.
 
-Prototyping (1-4 weeks)
+### Prototyping (1-4 weeks)
 
 This is the moment to visualize the idea, often in the form of basic clickable mockups. This stage helps every member of the development process—both business and technological sides—to ensure they are on the same page. It also enables the elimination of initial mistakes in the UI.
 
-Development and launch the MVP (4-20 weeks)
+### Development and launch the MVP (4-20 weeks)
 
 The moment when the software team, whether in-house or outsourced, can develop the solution according to the plan, preferably in 2-week sprints. The MVP should showcase the key features but shouldn't be too advanced, allowing the development process to realistically last up to 20 months.
 
-Scaling (Infinity – hopefully)
+### Scaling (Infinity – hopefully)
 
 The post-MVP phase can be a critical moment for your FemTech startup. Finding the balance between delivering new features, as well as building credibility with a reliable and secure solution, is essential. Development and maintenance are crucial, and the rising number of users, which is indeed something to celebrate, might cause performance issues that every successful post-MVP product has to face at some point. Therefore, performance monitoring, adhering to security best practices, and a strong QA approach might be key to success. Along with a marketing campaign, of course. :)
