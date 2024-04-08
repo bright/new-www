@@ -19,7 +19,7 @@ language: en
 
 As HLTH Europe partner we invite you to the event where over 3,500 digital health representatives will reflect on what’s happening in European health.
 
-**We’ve got a discount code for you! Save €150 on your ticket with this code: HE24_BI150.**
+**We’ve got a discount code for you! Save €150 on your ticket with this code: HE24_BI150. [Register now](https://europe.hlth.com/?utm_source=brightinventions.pl&utm_medium=referral&utm_campaign=blog_post)!**
 
 <div className="image">![HLTH Europe](../../static/images/bright-inventions-co-marketing-partner-email-header-1920-x-1080-px-2-.jpg "HLTH Europe")</div>
 
@@ -27,7 +27,7 @@ As HLTH Europe partner we invite you to the event where over 3,500 digital healt
 
 Over 250 speakers will take to the HLTH Europe stage. They represent companies and organizations like the WHO, Mayo Clinic, Google Health, Roche, Bayer, Uber, AWS, NHS England, and more!
 
-Check the full list of [2024 Speakers - HLTH Europe](https://europe.hlth.com/speakers).
+Check the full list of [2024 Speakers - HLTH Europe](https://europe.hlth.com/speakers?utm_source=brightinventions.pl&utm_medium=referral&utm_campaign=blog_post).
 
 ## See you soon in Amsterdam!
 
