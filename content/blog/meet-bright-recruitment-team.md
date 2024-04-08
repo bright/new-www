@@ -19,6 +19,8 @@ Recruiting success is not necessarily a measure of the volume of candidates obt
 
 Today we would like to present to you our bright recruiters - [Agata](/about-us/agata-m/), [Paulina](/about-us/paulina-t/), [Sara](https://brightinventions.pl/about-us/sara-l/) and [Ula](/about-us/ula/) who on daily basis take care of our recruiting process and talk with dozens of candidates to check if our company is a unique and desirable place for them. We asked them a few questions so that you can get to know them a bit better. 
 
+![](../../static/images/brightdev.png)
+
 ## How do you recall your own recruitment process at Bright Inventions?
 
 **Agata:** I remember my recruitment process really good - not only because of that I was hired. :) From the very beginning Ula presented the steps of the entire recruitment process in detail, thanks to which I knew what happened next. That was really helpful. When it comes to the interview, it was very pleasant because it was a real conversation and not Q&A. (It surprised me.)
@@ -29,7 +31,7 @@ Today we would like to present to you our bright recruiters - [Agata](/about-us/
 \
 **Sara:** That process was very surprising for me - I remember the girls (my recruitment process was conducted by Ula and Agata) really wanted to get to know me. Questions were constructed in a way that allowed me to share my attitude and way of thinking. I had no experience in recruitment or IT, and I did not know the answers to so many questions (that's how I remember it :p). I recall that during the interview, I had the thought that there was no way for me to get this job, but at the same time, I had a really good time with Ula and Agata. I felt respected. :)
 
-![](../../static/images/brightdev.png)
+<div className="image">![Sara Bright Recruiter](../../static/images/sara_rekru_team.jpg "Sara Bright Recruiter")</div>
 
 ## Why did you decide to join Bright Team?
 
@@ -116,7 +118,7 @@ And I also really like Socrate's* The secret of happiness, you see, is not found
 
 **Sara:** *'Let people be people'* - that motto came to me. It is very universal. Our behavior is connected with our motives and always has a reason (or reasons). And my role (as a human) is not to judge, but to try to understand. It helps me remember that all of us have our own perspectives, feelings, and needs. And I respect that. It is extremely important to be open to differences, especially if we do not understand them. Openness is the key. :)
 
-<div className="image">![Sara Bright Recruiter](../../static/images/sara_rekru_team.jpg "Sara Bright Recruiter")</div>
+<div className="image">![inspiration recruitment quote ](../../static/images/sara_rekru_team_quote.jpg "inspiration recruitment quote ")</div>
 
 That is the end for today. Stay tuned! 
 
