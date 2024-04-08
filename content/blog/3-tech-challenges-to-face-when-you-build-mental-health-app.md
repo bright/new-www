@@ -8,7 +8,7 @@ date: 2022-09-09T07:00:29.612Z
 meaningfullyUpdatedAt: 2024-04-08T10:44:11.021Z
 title: 3 Tech Challenges to Face When You Build Mental Health App
 layout: post
-image: /images/blogpost_mental_app.png
+image: /images/mental_health_app_challenges.png
 hidden: false
 comments: true
 published: true
@@ -42,7 +42,7 @@ There are also challenges regarding **anonymity**. Not every user wants to share
 
 Another thing to keep in mind is if we accept **payments with credit cards**. What will the credit card statement show? Some users might not be willing to share information that they’re using a mental health help with people who have access to their credit card statement – a spouse or parents.
 
-Read our guide on [security practices for healthcare apps](/blog/cyber-security-in-healthcare/) that you can implement  to ensure your app trustworthy and credibility.
+*Read our guide on [security practices for healthcare apps](/blog/cyber-security-in-healthcare/) that you can implement  to ensure your app trustworthy and credibility.*
 
 ## Never losing users' trust
 
@@ -60,7 +60,7 @@ Let’s take as an example the hypothetical app that offers online group therapy
 
 This may seem a bit odd in terms of maintaining the user’s trust, but **by knowing how a user is using our application and being able to track what she or he was doing, we can improve user experience**, and have an easier way to reproduce some faulty paths.
 
-App performance monitoring is a perfect solution to proactively react to any performance issues before they start to frustrate your users. You can set up a basic monitoring with our guide: [Unlock Performance Monitoring for HealthTech](/blog/healthcare-app-performance-monitoring/).
+*App performance monitoring is a perfect solution to proactively react to any performance issues before they start to frustrate your users. You can set up a basic monitoring with our guide: [Unlock Performance Monitoring for HealthTech](/blog/healthcare-app-performance-monitoring/).*
 
 * **Being transparent about the data we collect and our privacy policy**
 
@@ -84,4 +84,4 @@ Overcomplicated design can even be an obstacle for less technical users to recei
 
 **[Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility) is something that has just started to get awareness** throughout the software development community. Now it is a must-have to take under consideration various groups of users. Our users can be visually impaired or have other disabilities that make their experience with the app totally different than we could ever expect. The mental health app, especially, should be adjusted to the needs of the larger possible number of people.
 
-<div className="block-button"><h2>Let's talk about your healthcare solution</h2><div>Looking for a software development company to build your mental health app? Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk!</button></a></div>
+<EbookDynamic sectionTitle='ready to dive into HealthTech?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download our free guide on scaling healthcare software! Nearly 100 pages packed with market insights, tech strategies, and case studies.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
