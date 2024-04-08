@@ -5,7 +5,7 @@ thirdAuthor: slawek
 tags:
   - HealthTech
 date: 2022-09-09T07:00:29.612Z
-meaningfullyUpdatedAt: 2024-04-08T10:37:15.273Z
+meaningfullyUpdatedAt: 2024-04-08T10:44:11.021Z
 title: 3 Tech Challenges to Face When You Build Mental Health App
 layout: post
 image: /images/blogpost_mental_app.png
