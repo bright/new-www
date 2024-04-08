@@ -42,7 +42,7 @@ There are also challenges regarding **anonymity**. Not every user wants to share
 
 Another thing to keep in mind is if we accept **payments with credit cards**. What will the credit card statement show? Some users might not be willing to share information that they’re using a mental health help with people who have access to their credit card statement – a spouse or parents.
 
-
+Read our guide on [security practices for healthcare apps](/blog/cyber-security-in-healthcare/) that you can implement  to ensure your app trustworthy and credibility.
 
 ## Never losing users' trust
 
