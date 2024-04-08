@@ -271,6 +271,4 @@ I believe you are! In case you have any questions, just let me know in the comme
 
 Hungry for more LangChain tutorials? [Build LLM application in Python using LangChain and RAG](/blog/build-llm-application-with-rag-langchain/).
 
-
-
-<div class='block-button'><h2>discuss AI in your project with us</h2><div>Schedule a complimentary session with our AI professionals to explore the integration of AI into your project.</div><a href="/start-project/"><button>schedule a call in 48 hours</button></a></div>
+<div class='block-button'><h2>enhance your solution with AI</h2><div>Schedule a complimentary session with our AI professionals to explore the integration of AI into your project.</div><a href="/start-project/"><button>schedule a call in 48 hours</button></a></div>
