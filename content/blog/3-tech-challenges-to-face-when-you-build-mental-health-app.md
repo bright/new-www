@@ -60,6 +60,8 @@ Let’s take as an example the hypothetical app that offers online group therapy
 
 This may seem a bit odd in terms of maintaining the user’s trust, but **by knowing how a user is using our application and being able to track what she or he was doing, we can improve user experience**, and have an easier way to reproduce some faulty paths.
 
+App performance monitoring is a perfect solution to proactively react to any performance issues before they start to frustrate your users. You can set up a basic monitoring with our guide: [Unlock Performance Monitoring for HealthTech](/blog/healthcare-app-performance-monitoring/).
+
 * **Being transparent about the data we collect and our privacy policy**
 
 We should **be open about the data we collect about the users**. You can be even obliged to do so for example in the European Union countries. There’s really no need to hide the fact that we are gonna use their e-mail for some marketing purposes. But please, give the user a way to sign off it, nothing may annoy them as constant spam on their e-mail inbox.
