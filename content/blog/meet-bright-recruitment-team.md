@@ -63,7 +63,7 @@ Today we would like to present to you our bright recruiters - [Agata](/about-us/
 
 **Ula:** The fact that I can meet dozens of interesting people and help them find a good place for their development. And the fact that I am learning all the time. Every person is a new experience. The structure of the recruitment process is well-defined, but people are not defined at all. You can ask the same questions, but every time you get different answers. Every person that I meet teaches me something new. \
 \
-**Sara:** I think there isn't just one thing I like the most. Basically, I enjoy the diversity of my responsibilities. IFor sure screenings and interviews are one of my favourite parts. I enjoy talking with people, and fortunately, in my role, I have many opportunities to do so. On the other hand, I also like the sourcing process - listening to loud, rhythmic music and searching for passive candidates can be very relaxing for me. Additionally, I enjoy writing - in my role, I write feedback, LinkedIn posts, and blog posts. The balance between all of these aspects makes my job really pleasant and satisfying.
+**Sara:** I think there isn't just one thing I like the most. Basically, I enjoy the diversity of my responsibilities. For sure screenings and interviews are one of my favourite parts. I enjoy talking with people, and fortunately, in my role, I have many opportunities to do so. On the other hand, I also like the sourcing process - listening to loud, rhythmic music and searching for passive candidates can be very relaxing for me. Additionally, I enjoy writing - in my role, I write feedback, LinkedIn posts, and blog posts. The balance between all of these aspects makes my job really pleasant and satisfying.
 
 ![Ula Recruiting Team ](../../static/images/ula_rekru_team-1-.jpg)
 
@@ -112,8 +112,9 @@ Choose wisely and be honest with us and with yourself. \
 **Paulina:** *One man by nature is just as good as any other* (J.J. Rousseau) and *I’m not telling you it’s going to be easy, I’m telling you it’s going to be worth it.* ​​(Art Williams)
 
 **Ula:**  It is not a good question for me as I have at least a few, e.g. *Hope for the best, there is no point in hoping for the worst.* (Stanisław Lem), *Alone we can do so little, together we can do so much.* (Helen Keller), *It is literally true that you can succeed best and quickest by helping others to succeed. (Napoleon Hill). 
-And I also really like Socrate's* The secret of happiness, you see, is not found in seeking more, but in developing the capacity to enjoy less. *Now you know why I call myself #ulacoelho. 🙈😉\
-Sara:\*\* '*Let people be people*' - that motto came to me. It is very universal. Our behavior is connected with our motives and always has a reason (or reasons). And my role (as a human) is not to judge, but to try to understand. It helps me remember that all of us have our own perspectives, feelings, and needs. And I respect that. It is extremely important to be open to differences, especially if we do not understand them. Openness is the key. :)
+And I also really like Socrate's* The secret of happiness, you see, is not found in seeking more, but in developing the capacity to enjoy less. *Now you know why I call myself #ulacoelho. 🙈😉*
+
+**Sara:** *'Let people be people'* - that motto came to me. It is very universal. Our behavior is connected with our motives and always has a reason (or reasons). And my role (as a human) is not to judge, but to try to understand. It helps me remember that all of us have our own perspectives, feelings, and needs. And I respect that. It is extremely important to be open to differences, especially if we do not understand them. Openness is the key. :)
 
 <div className="image">![Sara Bright Recruiter](../../static/images/sara_rekru_team.jpg "Sara Bright Recruiter")</div>
 
