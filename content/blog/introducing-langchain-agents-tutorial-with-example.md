@@ -128,6 +128,8 @@ Made for simple models (LLM - not conversational). It supports chat history.
 
 This kind of agent supports only one tool as an input. The main goal is to divide your query into smaller ones, use tools to get the answer, and then combine it into a full answer to your question. This kind of agent doesn’t support chat history.
 
+<div class='block-button'><h2>do you want to discuss your AI solution?</h2><div>Book a free consultation with our AI specialists. Let's discuss how leveraging AI can enhance your solution.</div><a href="/start-project/"><button>schedule a call in 48 hours</button></a></div>
+
 ## Tools
 
 Tools are the main components of agents that perform individual tasks. It may be web search, vector database search, or any other action. You can choose from many complete tools done by the community or write your own.
@@ -268,3 +270,7 @@ If you’re not planning to override the default prompt - provide a default one 
 I believe you are! In case you have any questions, just let me know in the comments.
 
 Hungry for more LangChain tutorials? [Build LLM application in Python using LangChain and RAG](/blog/build-llm-application-with-rag-langchain/).
+
+
+
+<div class='block-button'><h2>discuss AI in your project with us</h2><div>Schedule a complimentary session with our AI professionals to explore the integration of AI into your project.</div><a href="/start-project/"><button>schedule a call in 48 hours</button></a></div>
