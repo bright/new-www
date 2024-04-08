@@ -44,7 +44,7 @@ Every MVP development process is different, but we listed the typical MVP phases
 
 Perhaps it all begins with an idea, but the real work is just getting started. This is the time to assess the business potential of the idea, establish buyer personas, and identify market challengers. One of the most effective ways to do this is through [product workshops](/our-areas/product-workshops/), preferably conducted by a company that specializes in delivering MVPs for specific sectors.
 
-Do you plan to better understand your buyer persona? Check out the free workshop template made by our team: 
+Do you plan to better understand your buyer persona? Check out the free [ICP + B2B Buyer Persona Workshop](https://miro.com/miroverse/b2b-buyer-persona-workshop-template/) template made by our team.
 
 Prototyping (1-4 weeks)
 
