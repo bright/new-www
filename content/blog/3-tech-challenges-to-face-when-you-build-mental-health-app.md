@@ -16,7 +16,7 @@ language: en
 ---
 **Building a mental health app differs from other software products. Are you planning to hire a software agency to develop your app for emotional support? Make sure that you know the technical challenges you and your team will likely face.**
 
-<div className="image">![mental health applications](../../static/images/blogpost_mental_app_cover.png "Mental health applications blog post")</div>
+<EbookDynamic sectionTitle='open to dive into HealthTech?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download our free guide on scaling healthcare software! Nearly 100 pages packed with market insights, tech strategies, and case studies.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
 
 Numbers aren’t optimistic. [WHO](https://www.who.int/news-room/fact-sheets/detail/depression) estimated that **280 million people around the world suffer from depression**. Putting that in perspective – it’s around 80% of the population of the USA. Moreover, at least **[25% of people](https://www2.deloitte.com/content/dam/insights/us/articles/glob114104_future-of-behavioral-health/GLOB114104_Future-of-behavioral-health.pdf) will experience behavioral illness**. 
 
@@ -83,5 +83,3 @@ A clear, uncomplicated graphical user interface is one of the key factors of men
 Overcomplicated design can even be an obstacle for less technical users to receive the professional help they look for.
 
 **[Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility) is something that has just started to get awareness** throughout the software development community. Now it is a must-have to take under consideration various groups of users. Our users can be visually impaired or have other disabilities that make their experience with the app totally different than we could ever expect. The mental health app, especially, should be adjusted to the needs of the larger possible number of people.
-
-<EbookDynamic sectionTitle='ready to dive into HealthTech?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download our free guide on scaling healthcare software! Nearly 100 pages packed with market insights, tech strategies, and case studies.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
