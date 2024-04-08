@@ -2,8 +2,9 @@
 author: izabela
 tags:
   - HealthTech
-date: 2024-04-05T11:25:05.127Z
-meaningfullyUpdatedAt: 2024-04-05T11:25:05.157Z
+  - bright insights
+date: 2024-04-08T06:30:55.006Z
+meaningfullyUpdatedAt: 2024-04-08T06:30:55.992Z
 title: Let’s Meet at HLTH Europe [Grab a Discount Code]
 layout: post
 image: /images/hlth_europe_blog_cover.png
