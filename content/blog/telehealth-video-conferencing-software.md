@@ -112,6 +112,7 @@ To summarize, allow me to present a checklist of elements to look out for when c
 <div class="important-info"><h2>Good to know: SDK vs API</h2><div>APIs are used to communicate between different applications, whilst an SDK is a tool kit to build applications and features. In most cases, an SDK application will contain an API — or even multiple APIs depending on the purpose of the software.</div></div>
 
 8. Feature suggestions.
+
 * chat and messaging;
 * screen sharing;
 * security and encryption protocols;
@@ -119,3 +120,138 @@ To summarize, allow me to present a checklist of elements to look out for when c
 * scheduling;
 * file sharing;
 * virtual waiting room.
+
+## Video conferencing tools available to healthcare providers in 2024
+
+*Please note that we are not affiliated with any of the mentioned providers. This comparison is made to help you out by mentioning the providers' “Google” and “G2” search results places as the most popular. The information provided in the below table is gathered from the official websites of these solutions.*
+
+### Doxy.me
+
+GDPR: Yes
+HIPAA: Yes
+Pricing starts from 35 USD (free plan available)
+<https://doxy.me/en/pricing/>
+
+Worth mentioning
+HD video and audio for an optimal experience. 
+Works directly in popular browsers without any downloads, plugins, or installations. 
+Identified by Clemson University research as the easiest telemedicine platform. 
+Personalization options with text, pictures, and videos for an engaging patient waiting experience. 
+Automatic tracking of each session's date, time, and duration for effortless record-keeping. 
+Accessible from almost anywhere using a mobile browser for flexible patient consultations.
+
+### ZOOM for healthcare
+
+GDPR: Yes (only paid plans)
+HIPAA: Yes (only paid plans)
+Pricing starts from 149.90 USD /year/user
+https://zoom.us/pricing/healthcare/
+
+Worth mentioning
+Meetings up to 30 hours per meeting
+100 Attendees per meeting
+Whiteboard Basic
+Team Chat
+Mail & Calendar Client & Service
+Cloud Storage 5GB
+
+### GetStream
+
+GDPR: Yes
+HIPAA: Yes (only in enterprise plan)
+Pricing : Pay as you Go available
+
+https://getstream.io/pricing/#features
+
+Worth mentioning
+Flexible video quality for an optimal experience. 
+Healthcare chat experience with SOC2, ISO 27001, GDPR.
+Enterprise grade uptime & performance + 99.999% uptime SLA available.
+Official Dolby.io partner for best in class video/audio calls.
+All the modern messaging essentials your users expect. Threads, replies, reactions, typing indicators and read state.
+Easy Integration
+Build chat using a combination of low-level API access and complete client-side SDKs to meet your needs.
+
+Go To 
+
+GDPR: Yes
+HIPAA: Yes 
+Pricing : starting from 12 USD /user/month
+
+https://www.goto.com/pricing/meeting
+
+Worth mentioning
+Meeting locks and password protections create waiting rooms for patients just like an in-person practice.
+Video-based telehealth offers patients a convenient, safe option on any device, without sacrificing privacy.
+HIPAA-ready features and settings are pre-configured to provide the most comprehensive security.
+GoTo Resolve is an all-in-one IT management suite purpose-built for today's IT support challenges.
+99,999% up up time
+Good variety of supported integrations.
+
+GOOGLE Meets
+
+GDPR: Yes (under BAA)
+HIPAA: Yes (under BAA)
+But… 
+“Customers are responsible for … ensuring that they use Google services in compliance with HIPAA.”
+
+Pricing : Google workspace pricing plans
+
+https://workspace.google.com/pricing.html
+
+Worth mentioning
+Google Meet offers high-definition video and clear audio quality, 
+Users can share their screens with others.
+Google Meet allows you to record meetings
+Real-time captioning is available 
+Integration with Google Workspace - Calendar, Gmail, and Google Drive, simplifying scheduling and document sharing.
+End-to-End Encryption
+Live Polls and Q&A
+
+MS Teams
+
+GDPR: Yes 
+HIPAA: Yes 
+
+Pricing : MS 365 pricing plans
+
+https://www.microsoft.com/en-us/microsoft-teams/healthcare-solutions
+
+Worth mentioning
+
+tumor boards Use a virtual environment to admit and diagnose patients, start treatment, and review test results.
+team coordination and collaboration across shared devices while adhering to compliance needs.​
+knowledge and content sharing by hosting grand rounds to eliminate technology barriers.
+virtual classes for prospective patients that cover a variety of topics.​
+team huddles​ Address industry challenges related to patient care, safety, technology, equipment, process, and supplies.
+
+Whereby
+
+GDPR: Yes
+HIPAA: Yes 
+Pricing : Pay as you Go available
+
+https://whereby.com/information/embedded/pricing
+
+Worth mentioning
+Thanks to SDK with React hooks, you can fully customize the UI 
+virtual classroom experiences for students and teachers
+Embedded and Meetings plans
+Support, tutorial and full documentation available
+No app or software download required
+
+WEBEX by cisco
+
+GDPR: Yes 
+HIPAA: Yes 
+
+Pricing : 14.50 USD/ month/user
+
+https://pricing.webex.com/us/en/hybrid-work/meetings/
+
+Worth mentioning
+
+Strong AI focus and a dynamic ecosystem with incoming new features.
+Enables clinicians to send x-rays, treatment information, and screen recordings.
+Interactive patient experiences with new channels such as RCS and Apple Messages for Business. 
+Personalize patient experiences with custom buttons, carousels, list pickers, and video.
