@@ -130,15 +130,16 @@ To summarize, allow me to present a checklist of elements to look out for when c
 GDPR: Yes
 HIPAA: Yes
 Pricing starts from 35 USD (free plan available)
-<https://doxy.me/en/pricing/>
+[doxy.me/en/pricing/](< https://doxy.me/en/pricing/>)
 
-Worth mentioning
-HD video and audio for an optimal experience. 
-Works directly in popular browsers without any downloads, plugins, or installations. 
-Identified by Clemson University research as the easiest telemedicine platform. 
-Personalization options with text, pictures, and videos for an engaging patient waiting experience. 
-Automatic tracking of each session's date, time, and duration for effortless record-keeping. 
-Accessible from almost anywhere using a mobile browser for flexible patient consultations.
+**Worth mentioning:**
+
+* HD video and audio for an optimal experience. 
+* Works directly in popular browsers without any downloads, plugins, or installations. 
+* Identified by Clemson University research as the easiest telemedicine platform. 
+* Personalization options with text, pictures, and videos for an engaging patient waiting experience. 
+* Automatic tracking of each session's date, time, and duration for effortless record-keeping. 
+* Accessible from almost anywhere using a mobile browser for flexible patient consultations.
 
 ### ZOOM for healthcare
 
@@ -147,40 +148,42 @@ HIPAA: Yes (only paid plans)
 Pricing starts from 149.90 USD /year/user
 https://zoom.us/pricing/healthcare/
 
-Worth mentioning
-Meetings up to 30 hours per meeting
-100 Attendees per meeting
-Whiteboard Basic
-Team Chat
-Mail & Calendar Client & Service
-Cloud Storage 5GB
+**Worth mentioning:**
+
+* Meetings up to 30 hours per meeting
+* 100 Attendees per meeting
+* Whiteboard Basic
+* Team Chat
+* Mail & Calendar Client & Service
+* Cloud Storage 5GB
 
 ### GetStream
 
 GDPR: Yes
 HIPAA: Yes (only in enterprise plan)
-Pricing : Pay as you Go available
+Pricing: Pay as you Go available
 
-https://getstream.io/pricing/#features
+[getstream.io/pricing/](https://getstream.io/pricing/#features)
 
-Worth mentioning
-Flexible video quality for an optimal experience. 
-Healthcare chat experience with SOC2, ISO 27001, GDPR.
-Enterprise grade uptime & performance + 99.999% uptime SLA available.
-Official Dolby.io partner for best in class video/audio calls.
-All the modern messaging essentials your users expect. Threads, replies, reactions, typing indicators and read state.
-Easy Integration
-Build chat using a combination of low-level API access and complete client-side SDKs to meet your needs.
+**Worth mentioning:**
 
-Go To 
+* Flexible video quality for an optimal experience. 
+* Healthcare chat experience with SOC2, ISO 27001, GDPR.
+* Enterprise grade uptime & performance + 99.999% uptime SLA available.
+* Official Dolby.io partner for best in class video/audio calls.
+* All the modern messaging essentials your users expect. Threads, replies, reactions, typing indicators and read state.
+* Easy Integration
+* Build chat using a combination of low-level API access and complete client-side SDKs to meet your needs.
+
+### Go To 
 
 GDPR: Yes
 HIPAA: Yes 
-Pricing : starting from 12 USD /user/month
+Pricing: starting from 12 USD /user/month
 
-https://www.goto.com/pricing/meeting
+[goto.com/pricing/](https://www.goto.com/pricing/meeting)
 
-Worth mentioning
+**Worth mentioning:**
 Meeting locks and password protections create waiting rooms for patients just like an in-person practice.
 Video-based telehealth offers patients a convenient, safe option on any device, without sacrificing privacy.
 HIPAA-ready features and settings are pre-configured to provide the most comprehensive security.
