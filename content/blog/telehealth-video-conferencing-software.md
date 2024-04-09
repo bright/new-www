@@ -192,14 +192,14 @@ Pricing: starting from 12 USD /user/month
 * 99,999% uptime
 * Good variety of supported integrations.
 
-### GOOGLE Meets
+### Google Meets
 
 GDPR: Yes (under BAA)
 HIPAA: Yes (under BAA)
 But… 
 “Customers are responsible for … ensuring that they use Google services in compliance with HIPAA.”
 
-Pricing  Google workspace pricing plans
+Pricing: Google workspace pricing plans
 
 [workspace.google.com/pricing](https://workspace.google.com/pricing.html)
 
@@ -230,7 +230,7 @@ Pricing: MS 365 pricing plans
 * virtual classes for prospective patients that cover a variety of topics.​
   team huddles​ Address industry challenges related to patient care, safety, technology, equipment, process, and supplies.
 
-## Whereby
+### Whereby
 
 GDPR: Yes
 HIPAA: Yes 
