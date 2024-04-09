@@ -36,3 +36,33 @@ The mentioned provider highlights ZOOM as a potential replacement, but given the
 An honest answer to a question about the best video provider solution for your venture is as you might already know is: it depends. There are both business and technical factors that need to be taken into consideration and the decision must be a calculated one. 
 
 We can only provide you with the spectrum of options that are at your disposal. So here they are.
+
+### 1. Build your own native solution
+
+Integrating native video conferencing into your telehealth application can seem highly effective. This method offers a lot of flexibility and room for customization, it ensures full control over the user experience. 
+
+But “with great power comes great responsibility”.
+
+Building a video conferencing tool is a startup in itself. This approach is best for companies with big budgets, definitely not an option for startups on VC funding. Yes, it offers a lot of flexibility and opens the door for new monetization methods but it also leaves YOU to adjust and  comply with all regulations and place all the risk that comes with it in your hands.
+
+So not only is it a huge expense but also extra time-consuming when applying to get all the certificates.
+
+### 2. Look for open-source software
+
+Open-source solutions are usually a “smart choice”. It leaves you some room for customization but takes the load of building the solution's core feature. 
+
+Usually, I recommend it to startups as a first choice when they are already after the MVP stage. It requires some budget to build but in time the benefits start to show with time. However, they are not GDPR or HIPAA compliant by default. 
+
+Take “Jitsy”, one of the more popular open-source video providers which we have integrated in the past. Even if it does not store conversation contents by default, it does process personal data to operate and store browsing data and conversation metadata in logs. Although it implements client-server encryption it does not implement end-to-end encryption between clients, so it has to be properly configured, to be GDPR compliant.
+
+In other words, you can implement the solution in a compliant way, but it does not mitigate the “legal’ risk to a third party.
+
+### 3. Leverage existing compliant software providers
+
+This is probably the most popular road that founders take when incorporating a video conferencing solution into their telehealth venture. It’s the most risk-averse option. But just like with the discontinuation of the API that we mentioned at the beggining, choosing an external provider might prove irritating in the future.
+
+They offer all the basic features like calendar integrations, screen sharing, chat, or document sharing. Also, they have a seemingly low entry barrier because the only challenge is to integrate via a ready-made API. For all those founders lacking the engineering resources this is a good way to start.
+
+Of course with those solutions, there is not much room for flexibility and you become dependent on external factors. At the same time alongside the ease of integration comes a lack of risk in regards to GDPR or HIPAA compliance but also the bills will get higher when more users join your platform.
+
+In time, when your venture scales and reaches more users the monthly cost of supporting this solution will start to grow. It’s up to you to decide when or if there is a need to change. Balance out the development cost with monthly support and if those two meet within a few years, it's probably a good idea to look for alternatives. But when starting, this is the way to go.
