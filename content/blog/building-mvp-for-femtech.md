@@ -57,3 +57,17 @@ The moment when the software team, whether in-house or outsourced, can develop t
 ### Scaling (Infinity – hopefully)
 
 The post-MVP phase can be a critical moment for your FemTech startup. Finding the balance between delivering new features, as well as building credibility with a reliable and secure solution, is essential. Development and maintenance are crucial, and the rising number of users, which is indeed something to celebrate, might cause performance issues that every successful post-MVP product has to face at some point. Therefore, performance monitoring, adhering to security best practices, and a strong QA approach might be key to success. Along with a marketing campaign, of course.
+
+## MVP stack to choose for your FemTech solution
+
+<div className="image">![MVP stack](../../static/images/blog_post_tech_stack_mvp.png "MVP stack")</div>
+
+**Web development**: JavaScript/TypeScript, React
+
+**Mobile development**: Swift (iOS), Kotlin (Android)
+
+**Hybrid mobile app development**: React Native, TypeScript, mobx-state-tree
+
+**Cloud development**: Amazon Web Services (AWS) / Microsoft Azure / Google Cloud, JavaScript/TypeScript, Node.js/NestJS
+
+## Examples of technologies and best practices to implement in FemTech
