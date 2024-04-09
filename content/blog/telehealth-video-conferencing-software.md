@@ -184,12 +184,12 @@ Pricing: starting from 12 USD /user/month
 [goto.com/pricing/](https://www.goto.com/pricing/meeting)
 
 **Worth mentioning:**
-Meeting locks and password protections create waiting rooms for patients just like an in-person practice.
-Video-based telehealth offers patients a convenient, safe option on any device, without sacrificing privacy.
-HIPAA-ready features and settings are pre-configured to provide the most comprehensive security.
-GoTo Resolve is an all-in-one IT management suite purpose-built for today's IT support challenges.
-99,999% up up time
-Good variety of supported integrations.
+* Meeting locks and password protections create waiting rooms for patients just like an in-person practice.
+* Video-based telehealth offers patients a convenient, safe option on any device, without sacrificing privacy.
+* HIPAA-ready features and settings are pre-configured to provide the most comprehensive security.
+* GoTo Resolve is an all-in-one IT management suite purpose-built for today's IT support challenges.
+* 99,999% uptime
+* Good variety of supported integrations.
 
 GOOGLE Meets
 
