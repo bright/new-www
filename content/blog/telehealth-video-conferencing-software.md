@@ -59,7 +59,7 @@ In other words, you can implement the solution in a compliant way, but it does n
 
 ### 3. Leverage existing compliant software providers
 
-This is probably the most popular road that founders take when incorporating a video conferencing solution into their telehealth venture. It’s the most risk-averse option. But just like with the discontinuation of the API that we mentioned at the beggining, choosing an external provider might prove irritating in the future.
+This is probably the most popular road that founders take when incorporating a video conferencing solution into their telehealth venture. It’s the most risk-averse option. But just like with the discontinuation of the API that we mentioned at the begining, choosing an external provider might prove irritating in the future.
 
 They offer all the basic features like calendar integrations, screen sharing, chat, or document sharing. Also, they have a seemingly low entry barrier because the only challenge is to integrate via a ready-made API. For all those founders lacking the engineering resources this is a good way to start.
 
