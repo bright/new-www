@@ -4,12 +4,12 @@ secondAuthor: tomasz-sch
 thirdAuthor: michal-wo
 tags:
   - HealthTech
-date: 2024-04-09T10:48:09.946Z
-meaningfullyUpdatedAt: 2024-04-09T10:48:09.969Z
+date: 2024-04-09T13:04:27.604Z
+meaningfullyUpdatedAt: 2024-04-09T13:04:28.187Z
 title: How to Choose the Right Video Conferencing Tool for Healthcare
 layout: post
 image: /images/telemedicine_video_conferencing_tool.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
