@@ -14,3 +14,5 @@ published: true
 language: en
 ---
 **In December 2024, Twilio will decommission its video API, posing a significant challenge for HealthTech companies, particularly those specializing in telemedicine, as they now need to find an alternative video conferencing provider. To assist in this transition, we've prepared a guide on selecting the right provider for your telehealth solutions.**
+
+<div className="image">![telehealth video conferencing tools](../../static/images/telemedicine_video_conferencing_tool.png "telehealth video conferencing tools")</div>
