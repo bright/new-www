@@ -71,7 +71,7 @@ Side note: Is “Google Meets” HIPAA and GDPR compliant?
 
 Google Meet safeguards HIPAA-compliant chat through a multi-layered approach, alongside robust encryption, access controls, 2FA, and data minimization. It adheres to HIPAA regulations via a dedicated Business Associate Agreement and GDPR compliance on top, while offering features like chat log export and reporting tools for enhanced security and record-keeping.
 
-
+<EbookDynamic sectionTitle='face scaling challenges before they affect your users' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Get a free copy of our guide on scaling HealthTech. Download a pdf packed with market insights, tech recommendations and case studies.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
 
 ## Engineers' perspective on video telehealth videoconferencing solutions
 
