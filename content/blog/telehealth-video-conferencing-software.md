@@ -1,6 +1,7 @@
 ---
 author: blazej-d
 secondAuthor: tomasz-sch
+thirdAuthor: michal-wo
 tags:
   - HealthTech
 date: 2024-04-09T10:48:09.946Z
@@ -29,3 +30,9 @@ This year started with some of our clients asking us to help explore the possibi
 The mentioned provider highlights ZOOM as a potential replacement, but given the backlash of the 2020 data breach, and constant phishing attacks performed in ZOOM’s direction it’s hard to be 100% confident about its stability and safety. In all fairness, ZOOM has done a lot of work to improve their safety and no major breach has happened since 2020, but being one of the leaders always puts you in the “hacker spotlight”. 
 
 **In this article, we will provide key information you need to make an educated decision when choosing a video conferencing tool**.
+
+## What options do you have when deciding on a telehealth video provider?
+
+An honest answer to a question about the best video provider solution for your venture is as you might already know is: it depends. There are both business and technical factors that need to be taken into consideration and the decision must be a calculated one. 
+
+We can only provide you with the spectrum of options that are at your disposal. So here they are.
