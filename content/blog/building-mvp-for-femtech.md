@@ -118,7 +118,7 @@ Read [the story of the app for pregnant women](/projects/pregnancy-app/) that wa
 
 <div className="image">![pregnancy app](../../static/images/pregnancy_app_femtech.png "pregnancy app")</div>
 
-## And what after the MVP launch?
+## What comes after the MVP launch?
 
 Launching an MVP in conjunction with a marketing campaign provides the ultimate validation of your idea. If the MVP attracts users, you can proceed with further iterations, gradually adding new features and proactively preparing for scaling. In some instances, the MVP may reveal that the application needs to pivot.
 
