@@ -88,4 +88,14 @@ Find out [how to set up app performance monitoring](/blog/healthcare-app-perform
 
 ### Security practices
 
-Securing your patients' data should always be a priority, even during MVP development. You can then start a proper secure software development cycle, incorporating all recommended security strategies and tools. In another blog post, [we've listed security practices you need to implement to build a secure and trustworthy solution](/blog/cyber-security-in-healthcare/).
+Securing your patients' data should always be a priority, even during MVP development. You can then start a proper secure software development cycle, incorporating all recommended security strategies and tools. In another blog post, [we've listed security practices you need to implement to build a secure and trustworthy solution](/blog/cyber-security-in-healthcare/). 
+
+## Key technology decisions to make at the MVP stage
+
+### Native or hybrid mobile applications
+
+Building one hybrid solution for both app stores or a separate dedicated apps for Google Play and App Store? That is the question every mobile MVP owner has to face.
+
+We cover deeply the subject of [hybrid vs native mobile apps](/blog/mvp-tech-stack-what-startup-founder-should-know/#hybrid-or-native-mobile-app-that-is-the-question) in another article.
+
+<div className="image">![hybrid vs native mobile development](../../static/images/infografika_hybrid_native.png "hybrid vs native mobile development")</div>
