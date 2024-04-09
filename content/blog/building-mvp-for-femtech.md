@@ -71,3 +71,21 @@ The post-MVP phase can be a critical moment for your FemTech startup. Finding th
 **Cloud development**: Amazon Web Services (AWS) / Microsoft Azure / Google Cloud, JavaScript/TypeScript, Node.js/NestJS
 
 ## Examples of technologies and best practices to implement in FemTech
+
+### IoT with healthcare smart wearables enabling telemedicine and remote patient monitoring
+
+Femtech wearables offer numerous opportunities to support female patients on a daily basis. These devices range from those that assist with menstrual and fertility monitoring to cooling bracelets designed for women experiencing menopause, marking a new era for FemTech through wearables and the Internet of Things (IoT).
+
+The Internet of Things enables the connection of all devices with dedicated applications, allowing data collected by these devices to be quickly processed and verified by doctors. This significantly reduces the time required for diagnosis.
+
+[Read more about examples of IoT implementation](/blog/examples-of-the-internet-of-things-for-retail-healthcare-and-more-with-case-studies/).
+
+### Data analytics & performance monitoring
+
+Before launching your MVP, consider setting up even a basic app performance monitoring system to ensure your solution operates as intended and to proactively prevent any potential performance issues. This is particularly crucial in the post-MVP phase when your solution begins to attract more users, which will serve as the real test of your infrastructure.
+
+Find out [how to set up app performance monitoring](/blog/healthcare-app-performance-monitoring/) with our tutorial.
+
+### Security practices
+
+Securing your patients' data should always be a priority, even during MVP development. You can then start a proper secure software development cycle, incorporating all recommended security strategies and tools. In another blog post, [we've listed security practices you need to implement to build a secure and trustworthy solution](/blog/cyber-security-in-healthcare/).
