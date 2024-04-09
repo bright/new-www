@@ -55,29 +55,25 @@ We are looking for a business-oriented senior QA engineer to join one of our [pr
 ## your job will include
 
 * testing new functionalities in accordance with their specification (70% manual tests, 30% automated tests)
-* defining acceptance criteria for features
-* making improvements to the project and optimisation of testing processes
-* close collaboration with developers & PM team on the implementation of app
+* defining acceptance criteria for features and optimisation of testing processes
+* close collaboration with developers & PM team on the app implementation
 * conducting various non-functional tests to evaluate aspects such as performance, usability, reliability, scalability, security, and compatibility
 * API testing and endpoint testing (Postman)
 * maintenance of documentation
 
-## preferred skills & qualifications
+## preferred skills & experience 
 
 * at least 4 years of full-time commercial QA experience including significant product experience (both web and mobile)
-* a client-focused approach coupled with excellent communication skills (you'll be involved in daily business meetings)
-* the ability to adapt to changing contexts and priorities
 * knowledge of various testing frameworks and their adaptation to project needs
+* a client-focused approach coupled with excellent communication skills (you'll be involved in business meetings)
+* the ability to adapt to changing contexts and priorities
 * experience with DB testing (e.g. PostgreSQL, DataGrip), performance testing and API testing (e.g. Postman, Swagger, REST, Charles) 
-* experience with Git and most effective QA tools
 * experience with non-functional testing: performance, load, stress testing
 * experience with API automation testing (TS/JS) 
-* very good knowledge of testing methodologies and test cases specification & execution
-* solid knowledge of CI and CD 
+* solid knowledge of Git and CI/CD tools 
 * strong problem solving and analytical skills
 * accuracy and attention to details
-* **very good level of English 🏴󠁧󠁢󠁥󠁮󠁧󠁿** (both written and spoken)
-* **very good level of Polish** 🇵🇱 (we work in an international environment, but within the company, we communicate in Polish)
+* **very good level of English 🇬🇧 & Polish** 🇵🇱 (we work in an international environment, but within the company we communicate in Polish)
 
 ## what you will find in our Bright Team 🧡
 
