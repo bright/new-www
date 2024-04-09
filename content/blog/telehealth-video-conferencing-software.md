@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2024-04-09T13:04:28.187Z
 title: How to Choose the Right Video Conferencing Tool for Healthcare
 layout: post
 image: /images/telemedicine_video_conferencing_tool.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
@@ -20,10 +20,10 @@ language: en
 
 ## What will you find in this article?
 
-* possible options of video conferencing providers;
-* a software developer's perspective on what’s important when choosing a provider;
-* what to look for when choosing a solution dedicated for healthcare;
-* what video conferencing providers are available and the most popular in 2024.
+* [possible options you have when deciding on conferencing providers](/blog/telehealth-video-conferencing-software/#what-options-do-you-have-when-deciding-on-a-telehealth-video-provider);
+* [a software developer's perspective on what’s important when choosing a provider](/blog/telehealth-video-conferencing-software/#engineers-perspective-on-video-telehealth-videoconferencing-solutions);
+* [what to look for when choosing a solution dedicated for healthcare](/blog/telehealth-video-conferencing-software/#what-options-do-you-have-when-deciding-on-a-telehealth-video-provider);
+* [what video conferencing providers are available and the most popular in 2024](/blog/telehealth-video-conferencing-software/#video-conferencing-tools-available-to-healthcare-providers-in-2024).
 
 This year started with some of our clients asking us to help explore the possibilities of shifting from one of the major video providers [Twilio that will decommission its video API by the end of 2024](https://www.twilio.com/en-us/changelog/programmable-video-eol-notice). This has put a lot of stress on some organizations, forcing them to act fast and look for a substitute. 
 
@@ -59,7 +59,7 @@ In other words, you can implement the solution in a compliant way, but it does n
 
 ### 3. Leverage existing compliant software providers
 
-This is probably the most popular road that founders take when incorporating a video conferencing solution into their telehealth venture. It’s the most risk-averse option. But just like with the discontinuation of the API that we mentioned at the beggining, choosing an external provider might prove irritating in the future.
+This is probably the most popular road that founders take when incorporating a video conferencing solution into their telehealth venture. It’s the most risk-averse option. But just like with the discontinuation of the API that we mentioned at the begining, choosing an external provider might prove irritating in the future.
 
 They offer all the basic features like calendar integrations, screen sharing, chat, or document sharing. Also, they have a seemingly low entry barrier because the only challenge is to integrate via a ready-made API. For all those founders lacking the engineering resources this is a good way to start.
 
@@ -67,9 +67,7 @@ Of course with those solutions, there is not much room for flexibility and you b
 
 In time, when your venture scales and reaches more users the monthly cost of supporting this solution will start to grow. It’s up to you to decide when or if there is a need to change. Balance out the development cost with monthly support and if those two meet within a few years, it's probably a good idea to look for alternatives. But when starting, this is the way to go.
 
-Side note: Is “Google Meets” HIPAA and GDPR compliant?
-
-Google Meet safeguards HIPAA-compliant chat through a multi-layered approach, alongside robust encryption, access controls, 2FA, and data minimization. It adheres to HIPAA regulations via a dedicated Business Associate Agreement and GDPR compliance on top, while offering features like chat log export and reporting tools for enhanced security and record-keeping.
+<EbookDynamic sectionTitle='face scaling challenges before they affect your users' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Get a free copy of our guide on scaling HealthTech. Download a pdf packed with market insights, tech recommendations and case studies.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
 
 ## Engineers' perspective on video telehealth videoconferencing solutions
 
@@ -107,9 +105,9 @@ To summarize, allow me to present a checklist of elements to look out for when c
 6. Verify the video quality. Practitioners need to be able to spot any changes in general presence or skin tone. Full HD should be enough.
 7. Tech documentation. Before you decide, ask your engineers for their opinion on each solution and if the available specifications are understandable and up to date.
 
-<div class="important-info"><h2>Good to know: Web Real-time communication (WebRTC)</h2><div>With WebRTC, you can add real-time communication capabilities to your application that works on top of an open standard. It supports video, voice, and generic data to be sent between peers, allowing developers to build powerful voice- and video-communication solutions. The technology is available on all modern browsers as well as on native clients for all major platforms</div></div>
+<div class="important-info"><h2>good to know: Web Real-time communication (WebRTC)</h2><div>With WebRTC, you can add real-time communication capabilities to your application that works on top of an open standard. It supports video, voice, and generic data to be sent between peers, allowing developers to build powerful voice- and video-communication solutions. The technology is available on all modern browsers as well as on native clients for all major platforms</div></div>
 
-<div class="important-info"><h2>Good to know: SDK vs API</h2><div>APIs are used to communicate between different applications, whilst an SDK is a tool kit to build applications and features. In most cases, an SDK application will contain an API — or even multiple APIs depending on the purpose of the software.</div></div>
+<div class="important-info"><h2>good to know: SDK vs API</h2><div>APIs are used to communicate between different applications, whilst an SDK is a tool kit to build applications and features. In most cases, an SDK application will contain an API — or even multiple APIs depending on the purpose of the software.</div></div>
 
 8. Feature suggestions.
 
@@ -192,14 +190,14 @@ Pricing: starting from 12 USD /user/month
 * 99,999% uptime
 * Good variety of supported integrations.
 
-### GOOGLE Meets
+### Google Meets
 
 GDPR: Yes (under BAA)
 HIPAA: Yes (under BAA)
 But… 
 “Customers are responsible for … ensuring that they use Google services in compliance with HIPAA.”
 
-Pricing  Google workspace pricing plans
+Pricing: Google workspace pricing plans
 
 [workspace.google.com/pricing](https://workspace.google.com/pricing.html)
 
@@ -224,13 +222,13 @@ Pricing: MS 365 pricing plans
 
 **Worth mentioning:**
 
-* tumor boards Use a virtual environment to admit and diagnose patients, start treatment, and review test results.
-* team coordination and collaboration across shared devices while adhering to compliance needs.​
-* knowledge and content sharing by hosting grand rounds to eliminate technology barriers.
-* virtual classes for prospective patients that cover a variety of topics.​
-  team huddles​ Address industry challenges related to patient care, safety, technology, equipment, process, and supplies.
+* Tumor boards Use a virtual environment to admit and diagnose patients, start treatment, and review test results.
+* Team coordination and collaboration across shared devices while adhering to compliance needs.​
+* Knowledge and content sharing by hosting grand rounds to eliminate technology barriers.
+* Virtual classes for prospective patients that cover a variety of topics.​
+* Team huddles​ Address industry challenges related to patient care, safety, technology, equipment, process, and supplies.
 
-## Whereby
+### Whereby
 
 GDPR: Yes
 HIPAA: Yes 
@@ -253,17 +251,15 @@ HIPAA: Yes
 
 Pricing: 14.50 USD/ month/user
 
-https://pricing.webex.com/us/en/hybrid-work/meetings/
+[pricing.webex.com/us/en/hybrid-work/meetings/](https://pricing.webex.com/us/en/hybrid-work/meetings/)
 
-**Worth mentioning:**
+**[](https://pricing.webex.com/us/en/hybrid-work/meetings/)Worth mentioning:**
 
 * Strong AI focus and a dynamic ecosystem with incoming new features.
 * Enables clinicians to send x-rays, treatment information, and screen recordings.
 * Interactive patient experiences with new channels such as RCS and Apple Messages for Business. 
 * Personalize patient experiences with custom buttons, carousels, list pickers, and video.
 
-I hope you found something valuable in this article and the information shared can help you choose the video conferencing tool that is the right one for you and your organization. Also please keep in mind that we are neither favoring any mentioned tools nor trying to dissuade you from any other providers available on the market but not mentioned here.
-
-Thanks for reading
+I hope you found something valuable in this article and the information shared can help you choose the video conferencing tool that is the right one for you and your organization. Also please keep in mind that we are neither favoring any mentioned tools nor trying to dissuade you from any other providers available on the market but not mentioned here. Thanks for reading!
 
 <div class='block-button'><h2>discuss your video conferencing provider with our team</h2><div>If you need more assistance or guidance on choosing the right provider, or you are unsure if the solution you would like to implement is fitting for your current architecture, do not hesitate to reach out to us directly. Our tech experts will happily guide you through the details.</div><a href="/our-areas/healthcare-software-development/"><button>book a free consultation</button></a></div>
