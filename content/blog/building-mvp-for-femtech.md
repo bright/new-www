@@ -111,3 +111,9 @@ Cloud computing is crucial for medial data storage. In terms of cloud providers,
 Multi-module Android development represents a contemporary approach to structuring the architecture of Android applications. Unlike traditional, monolithic codebases, multi-module apps feature separated units of code within distinct modules. This structure enhances clarity, customization, and, consequently, the scalability of your Android solution. If you plan to develop an Android MVP, considering a multi-module solution is advisable.
 
 My colleague, an experienced Android developer dives into multi-module apps in another blog post, feel free to check it out: [Multi-Module Android Application – Why You Should Choose It for Your Business.](/blog/multi-module-android-app-why-you-should-choose-it-for-your-business/)
+
+## Example of a successful FemTech MVP launch
+
+Read [the story of the app for pregnant women](/projects/pregnancy-app/) that was successfully released as MVP in Germany.
+
+<div className="image">![pregnancy app](../../static/images/pregnancy_app_femtech.png "pregnancy app")</div>
