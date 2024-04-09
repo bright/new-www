@@ -204,58 +204,60 @@ Pricing  Google workspace pricing plans
 [workspace.google.com/pricing](https://workspace.google.com/pricing.html)
 
 **Worth mentioning:**
-Google Meet offers high-definition video and clear audio quality, 
-Users can share their screens with others.
-Google Meet allows you to record meetings
-Real-time captioning is available 
-Integration with Google Workspace - Calendar, Gmail, and Google Drive, simplifying scheduling and document sharing.
-End-to-End Encryption
-Live Polls and Q&A
 
-MS Teams
+* Google Meet offers high-definition video and clear audio quality, 
+* Users can share their screens with others.
+* Google Meet allows you to record meetings
+* Real-time captioning is available 
+* Integration with Google Workspace - Calendar, Gmail, and Google Drive, simplifying scheduling and document sharing.
+* End-to-End Encryption
+* Live Polls and Q&A
+
+### MS Teams
 
 GDPR: Yes 
 HIPAA: Yes 
 
-Pricing : MS 365 pricing plans
+Pricing: MS 365 pricing plans
 
-https://www.microsoft.com/en-us/microsoft-teams/healthcare-solutions
+[microsoft.com/en-us/microsoft-teams/healthcare-solutions](https://www.microsoft.com/en-us/microsoft-teams/healthcare-solutions)
 
-Worth mentioning
+**Worth mentioning:**
 
-tumor boards Use a virtual environment to admit and diagnose patients, start treatment, and review test results.
-team coordination and collaboration across shared devices while adhering to compliance needs.​
-knowledge and content sharing by hosting grand rounds to eliminate technology barriers.
-virtual classes for prospective patients that cover a variety of topics.​
-team huddles​ Address industry challenges related to patient care, safety, technology, equipment, process, and supplies.
+* tumor boards Use a virtual environment to admit and diagnose patients, start treatment, and review test results.
+* team coordination and collaboration across shared devices while adhering to compliance needs.​
+* knowledge and content sharing by hosting grand rounds to eliminate technology barriers.
+* virtual classes for prospective patients that cover a variety of topics.​
+  team huddles​ Address industry challenges related to patient care, safety, technology, equipment, process, and supplies.
 
-Whereby
+## Whereby
 
 GDPR: Yes
 HIPAA: Yes 
-Pricing : Pay as you Go available
+Pricing: Pay as you Go available
 
-https://whereby.com/information/embedded/pricing
+[whereby.com/information/embedded/pricing](https://whereby.com/information/embedded/pricing)
 
-Worth mentioning
-Thanks to SDK with React hooks, you can fully customize the UI 
-virtual classroom experiences for students and teachers
-Embedded and Meetings plans
-Support, tutorial and full documentation available
-No app or software download required
+**Worth mentioning:**
 
-WEBEX by cisco
+* Thanks to SDK with React hooks, you can fully customize the UI 
+  virtual classroom experiences for students and teachers
+* Embedded and Meetings plans
+* Support, tutorial and full documentation available
+* No app or software download required
+
+### WEBEX by cisco
 
 GDPR: Yes 
 HIPAA: Yes 
 
-Pricing : 14.50 USD/ month/user
+Pricing: 14.50 USD/ month/user
 
 https://pricing.webex.com/us/en/hybrid-work/meetings/
 
-Worth mentioning
+**Worth mentioning:**
 
-Strong AI focus and a dynamic ecosystem with incoming new features.
-Enables clinicians to send x-rays, treatment information, and screen recordings.
-Interactive patient experiences with new channels such as RCS and Apple Messages for Business. 
-Personalize patient experiences with custom buttons, carousels, list pickers, and video.
+* Strong AI focus and a dynamic ecosystem with incoming new features.
+* Enables clinicians to send x-rays, treatment information, and screen recordings.
+* Interactive patient experiences with new channels such as RCS and Apple Messages for Business. 
+* Personalize patient experiences with custom buttons, carousels, list pickers, and video.
