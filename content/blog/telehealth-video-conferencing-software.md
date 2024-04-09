@@ -226,7 +226,7 @@ Pricing: MS 365 pricing plans
 * Team coordination and collaboration across shared devices while adhering to compliance needs.​
 * Knowledge and content sharing by hosting grand rounds to eliminate technology barriers.
 * Virtual classes for prospective patients that cover a variety of topics.​
-  team huddles​ Address industry challenges related to patient care, safety, technology, equipment, process, and supplies.
+* Team huddles​ Address industry challenges related to patient care, safety, technology, equipment, process, and supplies.
 
 ### Whereby
 
