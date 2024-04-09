@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2024-04-09T13:04:28.187Z
 title: How to Choose the Right Video Conferencing Tool for Healthcare
 layout: post
 image: /images/telemedicine_video_conferencing_tool.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
