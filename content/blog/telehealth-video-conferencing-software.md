@@ -66,3 +66,25 @@ They offer all the basic features like calendar integrations, screen sharing, ch
 Of course with those solutions, there is not much room for flexibility and you become dependent on external factors. At the same time alongside the ease of integration comes a lack of risk in regards to GDPR or HIPAA compliance but also the bills will get higher when more users join your platform.
 
 In time, when your venture scales and reaches more users the monthly cost of supporting this solution will start to grow. It’s up to you to decide when or if there is a need to change. Balance out the development cost with monthly support and if those two meet within a few years, it's probably a good idea to look for alternatives. But when starting, this is the way to go.
+
+Side note: Is “Google Meets” HIPAA and GDPR compliant?
+
+Google Meet safeguards HIPAA-compliant chat through a multi-layered approach, alongside robust encryption, access controls, 2FA, and data minimization. It adheres to HIPAA regulations via a dedicated Business Associate Agreement and GDPR compliance on top, while offering features like chat log export and reporting tools for enhanced security and record-keeping.
+
+## Engineers' perspective on video telehealth videoconferencing solutions
+
+If an engineer could choose a video conferencing tool to integrate what would they look for?
+
+I’ve been talking with our team trying to get their point of view. Here are a few elements that we decided to highlight.
+
+### 1. Technology alignment
+
+Before you make a business decision, double-check with the engineers if the tech stack aligns. For example, If most of your users connect via mobile, and the tech stack that is used on your platform is React Native, verify if the tools you have chosen will be easy to integrate with this technology. On top of that, verify which devices the chosen solution supports.
+
+### 2. Documentation
+
+Before choosing a solution, highlight all the options you have on the table to your engineers and allow them to verify how specific the documentation is. The better this is prepared the less problems you will have when integrating it. A poorly prepared API documentation can have huge effects on the time consumed during the integration process.
+
+### 3. Support levels
+
+Remember when choosing a third-party option you are placing yourself at their mercy during downtime. Be sure that they are offering good quality support because many times your engineers will have their hands tied when trying to solve problems.
