@@ -88,3 +88,27 @@ Before choosing a solution, highlight all the options you have on the table to y
 ### 3. Support levels
 
 Remember when choosing a third-party option you are placing yourself at their mercy during downtime. Be sure that they are offering good quality support because many times your engineers will have their hands tied when trying to solve problems.
+
+## Telemedicine video conferencing tools checklist
+
+To summarize, allow me to present a checklist of elements to look out for when choosing a provider.
+
+1. Remember that HIPAA does not equal GDPR and tools compliant with one do not necessarily comply with the other.
+
+2. Look at the pricing plans, but also search for the small print. Solutions might only seem cheap at the start but once you: 
+   * Need 24-hour support
+   * Want unlimited data
+   * Want unlimited call time
+   * Want to add multiple callers
+   The bill will start to grow.
+
+3. Does the solution offer support for both web and mobile technologies?
+
+4. Check if they have a developers' forum. This can act as an extra safety valve for your engineers, if the support will be slow to respond and a problem that occurs is critical, a developers forum might save the day. (nice to have)
+
+5. Verify the opinions on industry directories. 
+
+6. Verify the video quality. Practitioners need to be able to spot any changes in general presence or skin tone. Full HD should be enough.
+
+7. Tech documentation
+Before you decide, ask your engineers for their opinion on each solution and if the available specifications are understandable and up to date.
