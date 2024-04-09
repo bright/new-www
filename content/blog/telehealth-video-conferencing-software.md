@@ -105,9 +105,9 @@ To summarize, allow me to present a checklist of elements to look out for when c
 6. Verify the video quality. Practitioners need to be able to spot any changes in general presence or skin tone. Full HD should be enough.
 7. Tech documentation. Before you decide, ask your engineers for their opinion on each solution and if the available specifications are understandable and up to date.
 
-<div class="important-info"><h2>Good to know: Web Real-time communication (WebRTC)</h2><div>With WebRTC, you can add real-time communication capabilities to your application that works on top of an open standard. It supports video, voice, and generic data to be sent between peers, allowing developers to build powerful voice- and video-communication solutions. The technology is available on all modern browsers as well as on native clients for all major platforms</div></div>
+<div class="important-info"><h2>good to know: Web Real-time communication (WebRTC)</h2><div>With WebRTC, you can add real-time communication capabilities to your application that works on top of an open standard. It supports video, voice, and generic data to be sent between peers, allowing developers to build powerful voice- and video-communication solutions. The technology is available on all modern browsers as well as on native clients for all major platforms</div></div>
 
-<div class="important-info"><h2>Good to know: SDK vs API</h2><div>APIs are used to communicate between different applications, whilst an SDK is a tool kit to build applications and features. In most cases, an SDK application will contain an API — or even multiple APIs depending on the purpose of the software.</div></div>
+<div class="important-info"><h2>good to know: SDK vs API</h2><div>APIs are used to communicate between different applications, whilst an SDK is a tool kit to build applications and features. In most cases, an SDK application will contain an API — or even multiple APIs depending on the purpose of the software.</div></div>
 
 8. Feature suggestions.
 
