@@ -126,7 +126,9 @@ To summarize, allow me to present a checklist of elements to look out for when c
 ### Doxy.me
 
 GDPR: Yes
+
 HIPAA: Yes
+
 Pricing starts from 35 USD (free plan available)
 [doxy.me/en/pricing/](< https://doxy.me/en/pricing/>)
 
@@ -142,8 +144,11 @@ Pricing starts from 35 USD (free plan available)
 ### ZOOM for healthcare
 
 GDPR: Yes (only paid plans)
+
 HIPAA: Yes (only paid plans)
+
 Pricing starts from 149.90 USD /year/user
+
 https://zoom.us/pricing/healthcare/
 
 **Worth mentioning:**
@@ -158,7 +163,9 @@ https://zoom.us/pricing/healthcare/
 ### GetStream
 
 GDPR: Yes
+
 HIPAA: Yes (only in enterprise plan)
+
 Pricing: Pay as you Go available
 
 [getstream.io/pricing/](https://getstream.io/pricing/#features)
@@ -176,7 +183,9 @@ Pricing: Pay as you Go available
 ### Go To
 
 GDPR: Yes
+
 HIPAA: Yes 
+
 Pricing: starting from 12 USD /user/month
 
 [goto.com/pricing/](https://www.goto.com/pricing/meeting)
@@ -193,7 +202,9 @@ Pricing: starting from 12 USD /user/month
 ### Google Meets
 
 GDPR: Yes (under BAA)
+
 HIPAA: Yes (under BAA)
+
 But… 
 “Customers are responsible for … ensuring that they use Google services in compliance with HIPAA.”
 
@@ -214,6 +225,7 @@ Pricing: Google workspace pricing plans
 ### MS Teams
 
 GDPR: Yes 
+
 HIPAA: Yes 
 
 Pricing: MS 365 pricing plans
@@ -231,7 +243,9 @@ Pricing: MS 365 pricing plans
 ### Whereby
 
 GDPR: Yes
+
 HIPAA: Yes 
+
 Pricing: Pay as you Go available
 
 [whereby.com/information/embedded/pricing](https://whereby.com/information/embedded/pricing)
@@ -247,6 +261,7 @@ Pricing: Pay as you Go available
 ### WEBEX by cisco
 
 GDPR: Yes 
+
 HIPAA: Yes 
 
 Pricing: 14.50 USD/ month/user
