@@ -99,3 +99,9 @@ Building one hybrid solution for both app stores or a separate dedicated apps fo
 We cover deeply the subject of [hybrid vs native mobile apps](/blog/mvp-tech-stack-what-startup-founder-should-know/#hybrid-or-native-mobile-app-that-is-the-question) in another article.
 
 <div className="image">![hybrid vs native mobile development](../../static/images/infografika_hybrid_native.png "hybrid vs native mobile development")</div>
+
+### Choosing a cloud provider
+
+Cloud computing is crucial for medial data storage. In terms of cloud providers, you should choose the one your team is the most familiar with.
+
+<blockquote><h2>Software engineer's perspective</h2><div>It is like driving on the left side of the street in England or Australia. It is just how they learned so they do it that way. At Bright Inventions we started with AWS so we stuck to it. I do not think that it would make a great technical difference if we used Azure or other cloud services instead of AWS. Looking from a business perspective it does not matter as well.</div><footer>Piotr Mionskowski, Head of Technology & Partner @bright inventions</footer></blockquote>
