@@ -105,3 +105,9 @@ We cover deeply the subject of [hybrid vs native mobile apps](/blog/mvp-tech-sta
 Cloud computing is crucial for medial data storage. In terms of cloud providers, you should choose the one your team is the most familiar with.
 
 <blockquote><h2>Software engineer's perspective</h2><div>It is like driving on the left side of the street in England or Australia. It is just how they learned so they do it that way. At Bright Inventions we started with AWS so we stuck to it. I do not think that it would make a great technical difference if we used Azure or other cloud services instead of AWS. Looking from a business perspective it does not matter as well.</div><footer>Piotr Mionskowski, Head of Technology & Partner @bright inventions</footer></blockquote>
+
+### Implementing multi-module apps for Android
+
+Multi-module Android development represents a contemporary approach to structuring the architecture of Android applications. Unlike traditional, monolithic codebases, multi-module apps feature separated units of code within distinct modules. This structure enhances clarity, customization, and, consequently, the scalability of your Android solution. If you plan to develop an Android MVP, considering a multi-module solution is advisable.
+
+My colleague, an experienced Android developer dives into multi-module apps in another blog post, feel free to check it out: [Multi-Module Android Application – Why You Should Choose It for Your Business.](/blog/multi-module-android-app-why-you-should-choose-it-for-your-business/)
