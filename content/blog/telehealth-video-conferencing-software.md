@@ -175,7 +175,7 @@ Pricing: Pay as you Go available
 * Easy Integration
 * Build chat using a combination of low-level API access and complete client-side SDKs to meet your needs.
 
-### Go To 
+### Go To
 
 GDPR: Yes
 HIPAA: Yes 
@@ -184,6 +184,7 @@ Pricing: starting from 12 USD /user/month
 [goto.com/pricing/](https://www.goto.com/pricing/meeting)
 
 **Worth mentioning:**
+
 * Meeting locks and password protections create waiting rooms for patients just like an in-person practice.
 * Video-based telehealth offers patients a convenient, safe option on any device, without sacrificing privacy.
 * HIPAA-ready features and settings are pre-configured to provide the most comprehensive security.
@@ -191,18 +192,18 @@ Pricing: starting from 12 USD /user/month
 * 99,999% uptime
 * Good variety of supported integrations.
 
-GOOGLE Meets
+### GOOGLE Meets
 
 GDPR: Yes (under BAA)
 HIPAA: Yes (under BAA)
 But… 
 “Customers are responsible for … ensuring that they use Google services in compliance with HIPAA.”
 
-Pricing : Google workspace pricing plans
+Pricing  Google workspace pricing plans
 
-https://workspace.google.com/pricing.html
+[workspace.google.com/pricing](https://workspace.google.com/pricing.html)
 
-Worth mentioning
+**Worth mentioning:**
 Google Meet offers high-definition video and clear audio quality, 
 Users can share their screens with others.
 Google Meet allows you to record meetings
