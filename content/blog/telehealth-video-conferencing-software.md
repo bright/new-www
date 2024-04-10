@@ -199,7 +199,7 @@ Pricing: starting from 12 USD /user/month
 * 99,999% uptime
 * Good variety of supported integrations.
 
-### Google Meets
+### Google Meet
 
 GDPR: Yes (under BAA)
 
