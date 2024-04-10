@@ -5,7 +5,7 @@ tags:
   - HealthTech
 date: 2024-04-10T06:27:51.766Z
 meaningfullyUpdatedAt: 2024-04-10T06:27:52.484Z
-title: "Building MVP for FemTech in 2024: Timeline, Stack, Security, and More"
+title: "Building MVP for FemTech in 2024: Timeline, Stack, Security and More"
 layout: post
 image: /images/femtech_mvp.png
 hidden: false
