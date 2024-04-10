@@ -123,7 +123,7 @@ To summarize, allow me to present a checklist of elements to look out for when c
 
 *Please note that we are not affiliated with any of the mentioned providers. This comparison is made to help you out by mentioning the providers' “Google” and “G2” search results places as the most popular. The information provided in the below table is gathered from the official websites of these solutions.*
 
-### Doxy.me
+### doxy.me
 
 GDPR: Yes
 
@@ -141,7 +141,7 @@ Pricing starts from 35 USD (free plan available)
 * Automatic tracking of each session's date, time, and duration for effortless record-keeping. 
 * Accessible from almost anywhere using a mobile browser for flexible patient consultations.
 
-### ZOOM for healthcare
+### Zoom for healthcare
 
 GDPR: Yes (only paid plans)
 
@@ -222,7 +222,7 @@ Pricing: Google workspace pricing plans
 * End-to-End Encryption
 * Live Polls and Q&A
 
-### MS Teams
+### Microsoft Teams
 
 GDPR: Yes 
 
@@ -258,7 +258,7 @@ Pricing: Pay as you Go available
 * Support, tutorial and full documentation available
 * No app or software download required
 
-### WEBEX by cisco
+### Webex by CISCO
 
 GDPR: Yes 
 
