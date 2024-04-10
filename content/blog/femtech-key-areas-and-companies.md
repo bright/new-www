@@ -14,7 +14,7 @@ language: en
 ---
 **FemTech unveils fascinating female journeys through life. Technology can assist women in various forms and shapes, and its potential has not yet been fully tapped. There are so many FemTech areas to be enhanced. Explore them from the inside with examples of companies striving to make a difference for women.**
 
-## Ares of FemTech
+## Areas of FemTech
 
 <div className="image">![FemTech key areas](../../static/images/femtech_key_areas.png "FemTech key areas")</div>
 
@@ -74,7 +74,7 @@ Menopause is often associated with the aging of females, yet reaching a certain 
 
 <InstagramEmbed url='https://www.instagram.com/p/C4_Qsr0ORoE/' />
 
-### Breastfeeding and nursing 
+### Breastfeeding and nursing
 
 Technology solutions designed to support breastfeeding mothers, including lactation apps, smart breast pumps, and devices for monitoring milk supply and feeding schedules.
 
