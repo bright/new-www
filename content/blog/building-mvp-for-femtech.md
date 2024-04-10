@@ -3,8 +3,8 @@ author: izabela
 secondAuthor: mateusz
 tags:
   - HealthTech
-date: 2024-04-08T13:37:37.975Z
-meaningfullyUpdatedAt: 2024-04-08T13:37:38.040Z
+date: 2024-04-10T06:27:51.766Z
+meaningfullyUpdatedAt: 2024-04-10T06:27:52.484Z
 title: "Building MVP for FemTech in 2024: Timeline, Stack, Security, and More"
 layout: post
 image: /images/femtech_mvp.png
