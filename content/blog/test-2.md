@@ -10,3 +10,5 @@ published: true
 language: en
 ---
 test
+
+<div className="image">![](/images/baltic_sea_destination.jpg "")</div>
