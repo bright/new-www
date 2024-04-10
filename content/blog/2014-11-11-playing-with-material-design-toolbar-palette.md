@@ -1,4 +1,5 @@
 ---
+meaningfullyUpdatedAt: 2014-11-10T23:00:00.000Z
 excerpt: People around the world are waiting for Google to push Lollipop to
   theirs smartphones. Material Design completely changed the appearance of
   Android, and did it right. Material Design is really beautiful. But who says
@@ -12,7 +13,6 @@ tags:
   - materialdesign
   - android-support-library
 date: 2014-11-10T23:00:00.000Z
-meaningfullyUpdatedAt: 2014-11-10T23:00:00.000Z
 title: Playing with Material Design, Toolbar and Palette
 layout: post
 image: /images/software_development.jpg
@@ -29,11 +29,11 @@ It's looks like this:<br /><br />
 
 first screenshot
 
-![screenshot](../../static/images/palette-example1.png "")
+![screenshot](/static/images/palette-example1.png "")
 
 second screenshot
 
-![screenshot](../../static/images/palette-example2.png "")
+![screenshot](../static/images/palette-example2.png "")
 
 third screenshot
 
