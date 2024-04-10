@@ -20,10 +20,10 @@ language: en
 
 ## What will you find in this article?
 
-* [possible options you have when deciding on conferencing providers](/blog/telehealth-video-conferencing-software/#what-options-do-you-have-when-deciding-on-a-telehealth-video-provider);
-* [a software developer's perspective on what’s important when choosing a provider](/blog/telehealth-video-conferencing-software/#engineers-perspective-on-video-telehealth-videoconferencing-solutions);
-* [what to look for when choosing a solution dedicated for healthcare](/blog/telehealth-video-conferencing-software/#what-options-do-you-have-when-deciding-on-a-telehealth-video-provider);
-* [what video conferencing providers are available and the most popular in 2024](/blog/telehealth-video-conferencing-software/#video-conferencing-tools-available-to-healthcare-providers-in-2024).
+* [Possible options you have when deciding on conferencing providers.](/blog/telehealth-video-conferencing-software/#what-options-do-you-have-when-deciding-on-a-telehealth-video-provider)
+* [A software developer's perspective on what’s important when choosing a provider.](/blog/telehealth-video-conferencing-software/#engineers-perspective-on-video-telehealth-videoconferencing-solutions)
+* [What to look for when choosing a solution dedicated for healthcare.](/blog/telehealth-video-conferencing-software/#what-options-do-you-have-when-deciding-on-a-telehealth-video-provider)
+* [What video conferencing providers are available and the most popular in 2024.](/blog/telehealth-video-conferencing-software/#video-conferencing-tools-available-to-healthcare-providers-in-2024)
 
 This year started with some of our clients asking us to help explore the possibilities of shifting from one of the major video providers [Twilio that will decommission its video API by the end of 2024](https://www.twilio.com/en-us/changelog/programmable-video-eol-notice). This has put a lot of stress on some organizations, forcing them to act fast and look for a substitute. 
 
@@ -268,7 +268,7 @@ Pricing: 14.50 USD/ month/user
 
 [pricing.webex.com/us/en/hybrid-work/meetings/](https://pricing.webex.com/us/en/hybrid-work/meetings/)
 
-**[](https://pricing.webex.com/us/en/hybrid-work/meetings/)Worth mentioning:**
+[](https://pricing.webex.com/us/en/hybrid-work/meetings/)**Worth mentioning:**
 
 * Strong AI focus and a dynamic ecosystem with incoming new features.
 * Enables clinicians to send x-rays, treatment information, and screen recordings.
