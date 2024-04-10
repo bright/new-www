@@ -17,6 +17,20 @@ language: en
 
 ![Book "Don't Make Me Think"](../../static/images/blog_post_krug.png "")
 
+![Book "Don't Make Me Think"](../static/images/blog_post_krug.png "")
+
+![Book "Don't Make Me Think"](/static/images/blog_post_krug.png "")
+
+![Book "Don't Make Me Think"](static/images/blog_post_krug.png "")
+
+![Book "Don't Make Me Think"](/images/blog_post_krug.png "")
+
+![Book "Don't Make Me Think"](images/blog_post_krug.png "")
+
+![Book "Don't Make Me Think"](/blog_post_krug.png "")
+
+![Book "Don't Make Me Think"](blog_post_krug.png "")
+
 ## 1. People don't read – they scan your website
 
 As Krug wisely wrote, we should not create elaborations about our company because people will not read them. **Display a short and clear message about your brand.** Include a title and tagline that visibly shows what your page is about. **Omit needless words, especially adjectives.** Do not write that your product is amazing, write what benefits it brings to the table.
