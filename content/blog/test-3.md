@@ -1,7 +1,7 @@
 ---
 author: krystian
 date: 2019-04-01T10:38:34.029Z
-meaningfullyUpdatedAt: 2024-04-10T10:38:34.048Z
+meaningfullyUpdatedAt: 2024-04-10T10:38:00.000Z
 title: test
 layout: post
 hidden: false
