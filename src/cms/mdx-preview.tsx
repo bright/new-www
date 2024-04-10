@@ -8,20 +8,29 @@ import {
 import styled from 'styled-components'
 import { ErrorBoundary } from './error-boundary'
 import { mdxOptionsForPreviewOnly } from '../gatsby-mdx-options'
+import { CmsWidgetPreviewProps } from 'netlify-cms-core'
+
+export type GetAssetFunction = (asset: string) => {
+  url: string;
+  path: string;
+  field?: any;
+  fileObj: File;
+};
 
 interface MdxPreviewProps {
   value: string // actual mdx
+  getAsset: GetAssetFunction
 }
 
 const Error = styled.div`
   color: red;
 `
 
-export const MdxPreview = ({ value }: MdxPreviewProps) => {
+export const MdxPreview = ({ value, getAsset }: CmsWidgetPreviewProps) => {
   const [compiledResult, setCompiledResult] = useState<MDXCompiledContentOrError | null>(null)
 
   useEffect(() => {
-    compileMDXToReactComponentSafely(value, mdxOptionsForPreviewOnly).then(setCompiledResult)
+    compileMDXToReactComponentSafely(value, mdxOptionsForPreviewOnly(getAsset)).then(setCompiledResult)
   }, [value])
 
   const error = compiledResult?.error

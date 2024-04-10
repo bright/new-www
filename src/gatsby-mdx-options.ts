@@ -5,6 +5,7 @@ import remarkMath from 'remark-math'
 import rehypeMathJax from 'rehype-mathjax'
 import { BaseProcessorOptions } from '@mdx-js/mdx/lib/core'
 import { replaceImageUrlPrefix } from './replace-image-url-prefix'
+import { GetAssetFunction } from './cms/mdx-preview'
 
 export type MdxOptions = Pick<BaseProcessorOptions, 'remarkPlugins' | 'rehypePlugins'>
 export const mdxOptions: MdxOptions = {
@@ -17,7 +18,7 @@ export const mdxOptions: MdxOptions = {
     rehypeMathJax
   ]
 }
-export const mdxOptionsForPreviewOnly: MdxOptions = {
+export const mdxOptionsForPreviewOnly = (getAsset: GetAssetFunction): MdxOptions => ({
   remarkPlugins: [
     // gatsby-remark-image
     // in SSR it only picks up relative paths e.g. ../../static/image/something.png
@@ -26,13 +27,13 @@ export const mdxOptionsForPreviewOnly: MdxOptions = {
     // however, in preview i.e. in browser, gatsby-remark-image doesn't work (or at least I don't know how to make it work there)
     // and the /static/image/... path doesn't load anything
     // so when in preview, we replace ../../static/image/something.png with /image/something.png
-    [replaceImageUrlPrefix, { prefix: '../../static' }],
+    [replaceImageUrlPrefix, { prefix: '../../static', getAsset }],
     ...mdxOptions.remarkPlugins!
   ],
   rehypePlugins: [
     ...mdxOptions.rehypePlugins!
   ]
-}
+})
 
 export const gatsbyMdxOptions = {
   extensions: [`.md`, `.mdx`],

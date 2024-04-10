@@ -2,16 +2,6 @@ import { EditorComponentField, EditorComponentOptions, PreviewTemplateComponentP
 import React from 'react'
 import { List, Map } from 'immutable'
 
-function srcFromSourceMarkdownToRelative(src: string | undefined) {
-  const updated = (src?.startsWith('/') ? src : src?.replace('../../static', '')) ?? ''
-  console.log('srcFromSourceMarkdownToRelative', src , '->', updated)
-  return updated;
-}
-
-function srcFromPreviewToRelativeInMarkdown(src: string | undefined) {
-  return (src?.startsWith('/') ? `../../static${src}` : src) ?? ''
-}
-
 interface ImageFieldData {
   src: string
   alt: string
@@ -73,9 +63,8 @@ export const hiddenImageConfig: EditorComponentOptionsOf<ImageFieldData> = {
   //
   // This is used to populate the custom widget in the markdown editor in the CMS.
   fromBlock: function (match: any[]) {
-    const src: string = match[3]
     return {
-      src: srcFromSourceMarkdownToRelative(src),
+      src: match[3],
       alt: match[2],
       title: match[5],
       hideOnMobile: match[1] == 'hide-on-mobile',
@@ -90,7 +79,7 @@ export const hiddenImageConfig: EditorComponentOptionsOf<ImageFieldData> = {
     const className = data.hideOnMobile ? 'hide-on-mobile' : 'image'
     return `<div className="${className}">![${
       data.alt ?? ''
-    }](${srcFromPreviewToRelativeInMarkdown(data.src)} "${data.title ?? ''}")</div>`
+    }](${data.src} "${data.title ?? ''}")</div>`
   },
   // Preview output for this component. Can either be a string or a React component
   // (component gives better render performance)
