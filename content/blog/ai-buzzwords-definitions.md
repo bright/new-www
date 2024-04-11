@@ -78,4 +78,10 @@ Conversational AI enables computers to simulate human-like conversations. This e
 
 ### Example of Conversational AI – Weabot (mental health chatbot)
 
-<blockquote><h2>Weabot</h2><div>Woebot is the evidence-based, AI-powered digital companion at the heart of our platform that delivers personalized, in-the-moment support through chat-based conversations and techniques. Woebot is the world’s first relational agent to create a bond with people that is comparable to that achieved by human therapists.* Woebot digitizes concepts based on Cognitive Behavioral Therapy and is informed by the way clinicians move through a session.</div><footer>woebothealth.com</footer></blockquote>
+<blockquote><h2>Woebot</h2><div>Woebot is the evidence-based, AI-powered digital companion at the heart of our platform that delivers personalized, in-the-moment support through chat-based conversations and techniques. Woebot is the world’s first relational agent to create a bond with people that is comparable to that achieved by human therapists.* Woebot digitizes concepts based on Cognitive Behavioral Therapy and is informed by the way clinicians move through a session.</div><footer>woebothealth.com</footer></blockquote>
+
+<center>
+
+<div className="image">![Woebot](../../static/images/woebot.png "Woebot")</div>
+
+</center>
