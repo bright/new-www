@@ -8,7 +8,7 @@ date: 2024-04-11T06:51:08.994Z
 meaningfullyUpdatedAt: 2024-04-11T06:51:09.022Z
 title: AI buzzwords definitions
 layout: post
-image: /images/generative_ai.png
+image: /images/buzzwords_ai_blog.png
 hidden: false
 comments: true
 published: true
