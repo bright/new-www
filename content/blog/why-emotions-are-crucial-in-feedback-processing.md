@@ -19,7 +19,7 @@ Emotions, both basic and complex, may have an emotional tone that can be either 
 
 **In any feedback process emotions play a significant role regardless of whether you are a feedback giver or a receiver. They can engage individuals in your messages more effectively. They capture attention and foster a deeper understanding of the message, leading to better results.** Let us now dive into emotional landscape bit deeper and discover the true potential that lies behind it. 
 
-## how many emotions do we have? 
+## how many emotions do we have?
 
 Different theories offer varying perspectives on how to categorize emotions and how many emotions we can recognise. Some propose the existence of eight fundamental emotions, while others argue for a more extensive range. 
 
@@ -39,7 +39,7 @@ Emotions play a crucial role in feedback processing for several reasons:  
 
 ### 🚀 Motivation
 
-Emotions like enthusiasm or satisfaction can motivate individuals to continue their current behaviors or make improvements. Conversely, emotions like disappointment or frustration can prompt them to address areas of concern.  
+Emotions like enthusiasm or satisfaction can motivate individuals to continue their current behaviours or make improvements. Conversely, emotions like disappointment or frustration can prompt them to address areas of concern.  
 
 ### 🧠 Memory and Learning
 
@@ -47,11 +47,11 @@ Emotions can enhance memory and learning. Feedback received with some emotional 
 
 ### 🤝 Engagement
 
-Emotionally charged feedback can engage individuals more effectively. It captures their attention and fosters a deeper understanding of the message, leading to better results.  
+Emotionally charged feedback can engage individuals more effectively. It captures their attention and fosters a deeper understanding of the message. 
 
 ### 🏞 Perspective
 
-Emotions can help you see feedback in a broader context. Positive emotions can encourage you to recognize strengths, while negative emotions can prompt you to see areas that require improvement.  
+Emotions can help you see feedback in a broader context. Positive emotions can encourage you to recognise strengths, while negative emotions can prompt you to see areas that require improvement.  
 
 ### 🗣Communication
 
@@ -59,21 +59,28 @@ Emotions can influence how feedback is delivered and received. Effective feedbac
 
 ## how can I use emotions in feedback process
 
-When used effectively, emotions can largely enhance the feedback communication process. So, instead of making other people guess your emotions, it is much easier to tell about them. If you are the feedback giver, you should particularly be aware of the emotions you are going to inform about. Don’t be emotional, but talk about emotions you have been experiencing.
+When used effectively, emotions can largely enhance the feedback communication process. **But instead of making other people guess your emotions, it is much easier to tell about them.** If you are the feedback giver, you should particularly be aware of the emotions you are going to inform about.** [Don’t be emotional](https://brightinventions.pl/blog/8-mistakes-you-make-while-giving-constructive-feedback/), but talk about emotions you have been experiencing.**
 
-Take a look at three example of feedback message according to FECE Feedback Model by Jurgen Appelo that involve information about emotions:  
+https://www.youtube.com/watch?v=dOkyKyVFnSs&t=2s 
 
-1. Situation: Your colleague helped you resolve a critical bug just before a project deadline. 🥳 
+Take a look at three examples of feedback message according to FECE Feedback Model by Jurgen Appelo that involve information about emotions:  
+
+### 1. Situation: Your colleague helped you resolve a critical bug just before a project deadline.🥳 
+
    Facts: "You provided a quick solution for the bug just before the project deadline."
    Emotions: "I felt relieved and grateful for your quick response."
    Consequences: "This greatly contributed to the successful project completion and saved us time and stress."
    Expectations: "I look forward to continuing our collaborative efforts to maintain this project's success."
    ions: "I expect that we will continue these practices to benefit the team."
-2. Situation: Your colleague's frequent tardiness is causing delays in the project. 😰 
+
+### 2. Situation: Your colleague's frequent tardiness is causing delays in the project.😰 
+
    Facts: "I've noticed that you've been late for several meetings and project milestones."
    Emotions: "I'm concerned and annoyed at the same time because it has become a recurring issue."
    Consequences: "This delay affects our project's timeline and team productivity negatively.”
-   Expectations: “It would be great if we can talk about that and and resolve this issue to improve our team's performance."  3. Situation: A team member's failure to communicate about a roadblock led to misunderstandings.
+   Expectations: “It would be great if we can talk about that and and resolve this issue to improve our team's performance."  
+
+### 3. Situation: One of team members failed to communicate about a roadblock which led to misunderstandings.😓
 
 Facts: “I want to understand why yesterday you didn’t communicate at daily meeting that you are having some roadblock in your task.” 
 Emotions: “I  am a bit disappointed and confused by this situation."
