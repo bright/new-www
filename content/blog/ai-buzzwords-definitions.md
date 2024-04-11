@@ -52,7 +52,8 @@ Language Models are specific types of Generative AI that focus on processing and
 
 LLMs understand, generate, and process natural language text. These models are trained on vast amounts of textual data, enabling them to comprehend context, generate coherent and relevant text, and perform various language-based tasks such as translation, summarization, and question-answering.
 
-Read more about the technical aspects of building LLM applications: https://brightinventions.pl/blog/build-llm-application-with-rag-langchain/
+Read more about the technical aspects of building LLM applications: 
+[Build LLM application with RAG](/blog/build-llm-application-with-rag-langchain/)
 
 ### Small Language Models (SLMs)
 
