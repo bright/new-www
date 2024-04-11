@@ -15,7 +15,7 @@ language: en
 ---
 In a scientific context, emotions are [a complex behavioural phenomena that involves multiple levels of neural and chemical integration.](https://psycnet.apa.org/record/1951-07758-022) In simpler terms, we can say that emotions are an instinctive way of alerting us to significant events. They arise involuntarily and unexpectedly. We don't choose to experience them, they simply happen to us spontaneously.
 
-Emotions, both basic and complex, may have an emotional tone that can be either positive (e.g. joy, contentment) or negative (e.g. sadness, disgust, frustration). Emotions like fear or sadness can trigger physiological reactions in our bodies, such as an increased heart rate, signalling danger. On the other hand, emotions like joy can lead to reactions such as smiling. Both "positive" and "negative" emotions have their place in our lives. Negative feelings may seem challenging, but they serve as a signal that something isn't right and help us understand our needs.
+[Emotions, both basic and complex, may have an emotional tone that can be either positive (e.g. joy, contentment, sadness) or negative (e.g. disgust, frustration, happiness). ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5397534/)**Research indicates that emotions can yield both positive and negative outcomes simultaneously, sometimes leading to conflicting consequences.** While certain emotions are typically viewed as positive and desirable, such as happiness, studies have unveiled potential downsides to these emotions. Both "positive" and "negative" emotions have yet their place in our lives and can serve different functions. Negative feelings may seem challenging, but they serve as a signal that something isn't right and help us understand our needs.
 
 **In any feedback process emotions play a significant role regardless of whether you are a feedback giver or a receiver. They can engage individuals in your messages more effectively. They capture attention and foster a deeper understanding of the message, leading to better results.** Let us now dive into emotional landscape bit deeper and discover the true potential that lies behind it. 
 
@@ -69,18 +69,17 @@ Take a look at three examples of feedback message according to **FECE (Facts, Em
 
 ### 1. Situation: Your colleague helped you resolve a critical bug just before a project deadline.🥳 
 
-  ** Facts:** "You provided a quick solution for the bug just before the project deadline."
-  ** Emotions**: "I felt relieved and grateful for your quick response."
-  ** Consequences:** "This greatly contributed to the successful project completion and saved us time and stress."
-  ** Expectations:** "I look forward to doing some next project with you. Teamwork makes the dreamwork. Great job!"
- 
+   **Facts:** "You provided a quick solution for the bug just before the project deadline."
+   **Emotions**: "I felt relieved and grateful for your quick response."
+   **Consequences:** "This greatly contributed to the successful project completion and saved us time and stress."
+   **Expectations:** "I look forward to doing some next project with you. Teamwork makes the dreamwork. Great job!"
 
 ### 2. Situation: Your colleague's frequent tardiness is causing delays in the project.😰 
 
-  ** Facts:** "I've noticed that you've been late for several meetings and project milestones."
-  ** Emotions:** "I'm concerned and annoyed at the same time because it has become a recurring issue."
-  ** Consequences:** "This delay affects our project's timeline and team productivity in a negative way.”
-  ** Expectations**: “It would be great if we can talk about that and resolve this issue to improve yours and at the same time our team's performance."  
+   **Facts:** "I've noticed that you've been late for several meetings and project milestones."
+   **Emotions:** "I'm concerned and annoyed at the same time because it has become a recurring issue."
+   **Consequences:** "This delay affects our project's timeline and team productivity in a negative way.”
+   **Expectations**: “It would be great if we can talk about that and resolve this issue to improve yours and at the same time our team's performance."  
 
 ### 3. Situation: Your colleague failed to communicate about a roadblock which led to misunderstandings.😓
 
