@@ -75,8 +75,8 @@ const gatsbyConfig: GatsbyConfig = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'bright inventions',
+        short_name: 'bright inventions',
         start_url: '/',
         background_color: '#fff',
         theme_color: '#fff',
