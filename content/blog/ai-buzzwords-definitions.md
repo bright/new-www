@@ -58,4 +58,6 @@ Read more about the technical aspects of building LLM applications: https://brig
 
 SMLs serve the same purpose as Large Language Models (LLMs), yet they are trained on a smaller amount of data. Therefore, they require significantly fewer computational resources compared to LLMs. Despite their smaller size, SLMs aim to maintain a high level of performance on various natural language processing tasks, including text generation, classification, and translation. Choosing SLMs can make your application more accessible on a broader spectrum of devices, or even enable offline functionality.
 
-### Example of language models in use – Duolingo
+### Example of language models in use – Duolingo 
+
+<blockquote><h2>Explain my answer</h2><div>Explain My Answer offers learners the chance to learn more about their response in a lesson (whether their answer was correct or incorrect!) By tapping a button after certain exercise types, learners can enter a chat with Duo to get a simple explanation on why their answer was right or wrong, and ask for examples or further clarification.</div><footer>Duolingo Blog</footer></blockquote>
