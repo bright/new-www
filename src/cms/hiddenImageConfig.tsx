@@ -56,7 +56,7 @@ export const hiddenImageConfig: EditorComponentOptionsOf<ImageFieldData> = {
   //
   // Additionally, it's recommended that you use non-greedy capturing groups (e.g.
   // `(.*?)` vs `(.*)`), especially if matching against newline characters.
-  pattern: /^<div\s+className="(.*?)">\s*!\[(.*?)]\((.*?)\s*("(.*?)")?\)<\/div>$/s,
+  pattern: /^<div\s+className="(.*?)">\s*!\[(.*?)]\((.*?)\s*("(.*?)")?\)<\/div>$/sm,
   // Given a RegExp Match object
   // (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match#return_value),
   // return an object with one property for each field defined in `fields`.
