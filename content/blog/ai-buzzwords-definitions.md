@@ -83,8 +83,7 @@ Conversational AI enables computers to simulate human-like conversations. This e
 
 <center>
 
-<div className="image">![Woebot](../../static/images/woebot_mockup.png "Woebot")</div>
-
+<div className="image">![Woebot](../../static/images/woebot_mockup_ai.png "Woebot")</div>
 
 </center>
 
