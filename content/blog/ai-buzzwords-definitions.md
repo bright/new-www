@@ -2,6 +2,8 @@
 author: izabela
 secondAuthor: pawel-p
 thirdAuthor: rafal h
+tags:
+  - AI
 date: 2024-04-11T06:51:08.994Z
 meaningfullyUpdatedAt: 2024-04-11T06:51:09.022Z
 title: AI buzzwords definitions
