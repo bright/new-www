@@ -27,7 +27,7 @@ export const mdxOptionsForPreviewOnly = (getAsset: GetAssetFunction): MdxOptions
     // however, in preview i.e. in browser, gatsby-remark-image doesn't work (or at least I don't know how to make it work there)
     // and the /static/image/... path doesn't load anything
     // so when in preview, we replace ../../static/image/something.png with /image/something.png
-    [replaceImageUrlPrefix, { prefix: '../../static', getAsset }],
+    [replaceImageUrlPrefix, { getAsset }],
     ...mdxOptions.remarkPlugins!
   ],
   rehypePlugins: [

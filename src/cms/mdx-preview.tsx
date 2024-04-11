@@ -31,7 +31,7 @@ export const MdxPreview = ({ value, getAsset }: CmsWidgetPreviewProps) => {
 
   useEffect(() => {
     compileMDXToReactComponentSafely(value, mdxOptionsForPreviewOnly(getAsset)).then(setCompiledResult)
-  }, [value])
+  }, [value, getAsset])
 
   const error = compiledResult?.error
   const Component = compiledResult?.Component
