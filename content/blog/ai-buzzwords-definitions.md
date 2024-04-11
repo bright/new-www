@@ -60,4 +60,12 @@ SMLs serve the same purpose as Large Language Models (LLMs), yet they are traine
 
 ### Example of language models in use – Duolingo 
 
-<blockquote><h2>Explain my answer</h2><div>Explain My Answer offers learners the chance to learn more about their response in a lesson (whether their answer was correct or incorrect!) By tapping a button after certain exercise types, learners can enter a chat with Duo to get a simple explanation on why their answer was right or wrong, and ask for examples or further clarification.</div><footer>Duolingo Blog</footer></blockquote>
+<blockquote><h2>Explain My Answer</h2><div>Explain My Answer offers learners the chance to learn more about their response in a lesson (whether their answer was correct or incorrect!) By tapping a button after certain exercise types, learners can enter a chat with Duo to get a simple explanation on why their answer was right or wrong, and ask for examples or further clarification.</div><footer>Duolingo Blog</footer></blockquote>
+
+<center>
+
+<div className="image">![Duolingo](../../static/images/duolingo_explain_my_answer.png "Duolingo")</div>
+
+</center>
+
+Source: [Duolingo blog](https://blog.duolingo.com/duolingo-max/)
