@@ -43,3 +43,19 @@ Our internal chatbots process information on our webpage, including hundreds of 
 <div className="image">![Own Knowledge Base Chatbot](../../static/images/chatbot_bright_inventions.png "Own Knowledge Base Chatbot")</div>
 
 It’s easier than you might think to set up a basic chatbot based on your knowledge. My colleague, Rafał Hofman, has prepared a tutorial on [how to create your own knowledge-based chatbot in just 5 minutes](/blog/how-to-build-gpt-assistant/). This guide provides all the essential information you need to set up your chatbot, thereby integrating Generative AI (with OpenAI) into your operations.
+
+## Large Language Models and Small Language Models
+
+Language Models are specific types of Generative AI that focus on processing and generating text.
+
+### Large Language Models (LLMs) 
+
+LLMs understand, generate, and process natural language text. These models are trained on vast amounts of textual data, enabling them to comprehend context, generate coherent and relevant text, and perform various language-based tasks such as translation, summarization, and question-answering.
+
+Read more about the technical aspects of building LLM applications: https://brightinventions.pl/blog/build-llm-application-with-rag-langchain/
+
+### Small Language Models (SLMs)
+
+SMLs serve the same purpose as Large Language Models (LLMs), yet they are trained on a smaller amount of data. Therefore, they require significantly fewer computational resources compared to LLMs. Despite their smaller size, SLMs aim to maintain a high level of performance on various natural language processing tasks, including text generation, classification, and translation. Choosing SLMs can make your application more accessible on a broader spectrum of devices, or even enable offline functionality.
+
+### Example of language models in use – Duolingo
