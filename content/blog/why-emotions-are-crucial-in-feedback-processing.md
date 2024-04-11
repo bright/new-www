@@ -23,21 +23,41 @@ Emotions, both basic and complex, may have an emotional tone that can be either 
 
 Different theories offer varying perspectives on how to categorize emotions and how many emotions we can recognise. Some propose the existence of eight fundamental emotions, while others argue for a more extensive range. 
 
-According to the discrete emotion theory, the Differential Emotions Scale recognizes 12 separate emotions. However, the recent research from the University of California, Berkeley, reveals a more extensive spectrum of emotions, pinpointing 27 distinct categories. This comprehensive analysis involved the study of thousands of individuals, scrutinizing their reactions to a variety of stimuli, such as videos, music, and diverse situations, to identify genuinely unique emotional categories.
+According to [the discrete emotion theory](https://psychology.fandom.com/wiki/Discrete_emotion_theory), the Differential Emotions Scale recognizes 12 separate emotions. However,** [the recent research from the University of California, Berkeley, reveals a more extensive spectrum of emotions, pinpointing 27 distinct categories](https://greatergood.berkeley.edu/article/item/how_many_different_human_emotions_are_there)**. This comprehensive analysis involved the study of thousands of individuals, scrutinizing their reactions to a variety of stimuli, such as videos, music, and diverse situations, to identify genuinely unique emotional categories.
 
-What is interesting, Paul Ekman, an American psychologist and professor emeritus at the University of California, discovered that emotions such as joy, anger, disgust, sadness, fear, and surprise (and later added contempt) are universally recognised across different cultures. In his research he used short stories and images of emotional faces to understand the universality of emotional expression, developed later into the Facial Action Coding System. 
+What is interesting, **Paul Ekman, an American psychologist and professor emeritus at the University of California, [discovered that emotions such as joy, anger, disgust, sadness, fear, and surprise (and later added contempt) are universally recognised across different cultures](https://www.paulekman.com/universal-emotions/).** In his research he used short stories and images of emotional faces to understand the universality of emotional expression, developed later into the Facial Action Coding System. 
 
-On the other hand, Robert Plutchik, a psychologist specializing in emotions, developed the Wheel of emotions, which comprises eight basic emotions: joy, sadness, trust, disgust, fear, anger, surprise, and anticipation. According to Plutchik, these basic emotions can combine to create complex emotions, such as love (a combination of trust and joy) or embarrassment (a combination of fear and surprise). The model illustrates how emotions function, defining their placement on the wheel, which indicates their intensity and opposites. Half of these emotions are considered positive, and the other half are considered negative. They are perceived as opposites of each other.     
+On the other hand, **Robert Plutchik, a psychologist specializing in emotions, developed [the wheel of emotions](https://www.6seconds.org/2022/03/13/plutchik-wheel-emotions/?gad_source=1), which comprises eight basic emotions: joy, sadness, trust, disgust, fear, anger, surprise, and anticipation.** According to Plutchik, these basic emotions can combine to create complex emotions, such as love (a combination of trust and joy) or embarrassment (a combination of fear and surprise). The model illustrates how emotions function, defining their placement on the wheel, which indicates their intensity and opposites. Half of these emotions are considered positive, and the other half are considered negative. They are perceived as opposites of each other.     
 
 For instance, joy is opposite to sadness, surprise is contrary to impatience, trust opposes disgust, and anger is opposite to fear. Plutchik elaborated on each emotion in detail and divided them into primary, secondary, and tertiary subgroups. His model describes a fascinating relationship between emotions, their intensity, and polarization. In Plutchik's model, the intensity of emotions is high when they are located at the center of the wheel and decreases as the distance from the center increases. Furthermore, Plutchik's Wheel of Emotions demonstrates that basic emotions can combine to form more complex emotions.
 
-In fact, our capacity for diverse emotional encounters is dependent on the size of our emotional vocabulary. Reflect on your personal encounters – it's often exasperating when you struggle to articulate your emotions effectively. You might opt for the readily available term: “I’m angry at you." Yet if you pause for a moment and scan your mental library of emotions, you might uncover a richer assortment of words to convey your sentiments: hurt, undermined, insulted, neglected, or provoked.
+**In fact, our capacity for diverse emotional encounters is dependent on the size of our emotional vocabulary.** Reflect on your personal encounters – it's often exasperating when you struggle to articulate your emotions effectively. You might opt for the readily available term: “I’m angry at you." Yet if you pause for a moment and scan your mental library of emotions, you might uncover a richer assortment of words to convey your sentiments: hurt, undermined, insulted, neglected, or provoked.
 
-why do we need emotions in feedback processing 
+## why do we need emotions in feedback process
 
-Emotions play a crucial role in feedback processing for several reasons:  🚀 Motivation - emotions like enthusiasm or satisfaction can motivate individuals to continue their current behaviors or make improvements. Conversely, emotions like disappointment or frustration can prompt them to address areas of concern.  🧠 Memory and Learning - emotions can enhance memory and learning. Feedback received with some emotional reinforcement is more likely to be remembered, making it easier to implement changes or take action based on the feedback.  🤝 Engagement - emotionally charged feedback can engage individuals more effectively. It captures their attention and fosters a deeper understanding of the message, leading to better results.  🏞 Perspective - emotions can help you see feedback in a broader context. Positive emotions can encourage you to recognize strengths, while negative emotions can prompt you to see areas that require improvement.  🗣Communication - emotions can influence how feedback is delivered and received. Effective feedback should consider the emotional state of the recipient to ensure it is well-received and acted upon.
+Emotions play a crucial role in feedback processing for several reasons:  
 
-how can I use emotions in feedback process
+### 🚀 Motivation
+
+Emotions like enthusiasm or satisfaction can motivate individuals to continue their current behaviors or make improvements. Conversely, emotions like disappointment or frustration can prompt them to address areas of concern.  
+
+### 🧠 Memory and Learning
+
+Emotions can enhance memory and learning. Feedback received with some emotional reinforcement is more likely to be remembered, making it easier to implement changes or take action based on the feedback.  
+
+### 🤝 Engagement
+
+Emotionally charged feedback can engage individuals more effectively. It captures their attention and fosters a deeper understanding of the message, leading to better results.  
+
+### 🏞 Perspective
+
+Emotions can help you see feedback in a broader context. Positive emotions can encourage you to recognize strengths, while negative emotions can prompt you to see areas that require improvement.  
+
+### 🗣Communication
+
+Emotions can influence how feedback is delivered and received. Effective feedback should consider the emotional state of the recipient to ensure it is well-received and acted upon.
+
+## how can I use emotions in feedback process
 
 When used effectively, emotions can largely enhance the feedback communication process. So, instead of making other people guess your emotions, it is much easier to tell about them. If you are the feedback giver, you should particularly be aware of the emotions you are going to inform about. Don’t be emotional, but talk about emotions you have been experiencing.
 
