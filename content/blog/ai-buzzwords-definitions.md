@@ -19,3 +19,11 @@ language: en
 Google Trends reveals that Generative AI is the most discussed buzzword: 
 
 <div className="image">![Google Trends](../../static/images/ai_google_trends.png "Google Trends")</div>
+
+It makes sense since Generative AI represents the broadest category. It encompasses all AI systems designed to generate new content that could plausibly have been created by a human.
+
+<center>
+
+<div className="image">![AI definitions](../../static/images/ai_buzzwords_landscape.png "AI definitions")</div>
+
+</center>
