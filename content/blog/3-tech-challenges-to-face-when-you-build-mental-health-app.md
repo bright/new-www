@@ -26,7 +26,7 @@ Probably no public health system will be able to respond to those needs. Therefo
 
 As software developers specializing in building apps for depression, anxiety, and other mental disorders we have distinguished **3 challenges that every emotional support app team will likely face**.
 
-<div className="image">![Software developers Bright Inventions](../../static/images/blog_dawid_dominik_slawek.png "Software developers Bright Inventions")</div>
+<div className="image">![Software developers Bright Inventions](/images/blog_dawid_dominik_slawek.png "Software developers Bright Inventions")</div>
 
 ## Data security and privacy
 
@@ -34,7 +34,7 @@ As software developers specializing in building apps for depression, anxiety, an
 
 Privacy of personal information has always been a serious topic in [software development](/our-areas/custom-software-development). Yet it is especially important in the case of data connected to personal health. Every **data leak is a potential complete loss of trust in a company**. 
 
-<div className="image">![Dominik's quote on data leak](../../static/images/dominik_quote_mental_app.png "Dominik's quote")</div>
+<div className="image">![Dominik's quote on data leak](/images/dominik_quote_mental_app.png "Dominik's quote")</div>
 
 Moreover, it can be extra catastrophic when taking into account the fact that in many countries **health information privacy is protected by law**. 
 
@@ -70,7 +70,7 @@ We should **be open about the data we collect about the users**. You can be even
 
 **Providing various methods so the user can reach support easier if he/she is in need**. Support contact information hidden between thousand of subpages is one of the worst things I can think of. By showing users a clear indication of where they should click, either by some chat widget or highlighted link, we show that we care about them and that they matter. Thus we build a bond between the brand and the customers.
 
-<div className="image">![Dawid's quote on support contact info](../../static/images/dawid_quote_mental_app.png "Dawid's quote")</div>
+<div className="image">![Dawid's quote on support contact info](/images/dawid_quote_mental_app.png "Dawid's quote")</div>
 
 ## Designing inclusive UI
 
@@ -78,7 +78,7 @@ We should **be open about the data we collect about the users**. You can be even
 
 A clear, uncomplicated graphical user interface is one of the key factors of mental health applications. It is not so difficult to imagine that **even tech-savvy users might have issues with the app especially being overwhelmed with their personal issues**. It is also important to remember that users won’t expect advanced animations, complex features, or modern designs. They will focus on receiving the help they need.
 
-<div className="image">![Slawek's quote on mental health app users](../../static/images/slawek_quote_mental_app.png "Slawek's quote")</div>
+<div className="image">![Slawek's quote on mental health app users](/images/slawek_quote_mental_app.png "Slawek's quote")</div>
 
 Overcomplicated design can even be an obstacle for less technical users to receive the professional help they look for.
 
