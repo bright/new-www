@@ -69,3 +69,13 @@ SMLs serve the same purpose as Large Language Models (LLMs), yet they are traine
 </center>
 
 Source: [Duolingo blog](https://blog.duolingo.com/duolingo-max/)
+
+## Conversational AI – definition
+
+Finally, Conversational AI is an application of AI technologies, often leveraging LLMs, SLMs, or a combination of different AI models, to simulate human-like conversations. By using natural language processing (NLP), machine learning, and sometimes speech recognition technologies it results in understanding, processing, and responding to human language in a way that is both meaningful and contextually relevant.
+
+Conversational AI enables computers to simulate human-like conversations. This encompasses a range of applications, including chatbots, voice assistants, and interactive voice response (IVR) systems. 
+
+### Example of Conversational AI – Weabot (mental health chatbot)
+
+<blockquote><h2>Weabot</h2><div>Woebot is the evidence-based, AI-powered digital companion at the heart of our platform that delivers personalized, in-the-moment support through chat-based conversations and techniques. Woebot is the world’s first relational agent to create a bond with people that is comparable to that achieved by human therapists.* Woebot digitizes concepts based on Cognitive Behavioral Therapy and is informed by the way clinicians move through a session.</div><footer>woebothealth.com</footer></blockquote>
