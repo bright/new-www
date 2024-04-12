@@ -68,8 +68,6 @@ Remote delivery of healthcare services, such as consultations and diagnoses, thr
 
 Technology that enables monitoring of patients outside of conventional clinical settings, such as in the home, using various devices to collect medical and health data.
 
-Read the story of [Camascope, the startup enabling remote patient monitoring](/projects/remote-patient-monitoring/) for patients in the UK.
-
 ### Mental Health Tech
 
 Digital solutions aimed at improving mental health, such as:
