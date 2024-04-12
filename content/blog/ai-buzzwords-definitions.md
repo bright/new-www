@@ -6,7 +6,7 @@ tags:
   - AI
 date: 2024-04-11T07:21:52.862Z
 meaningfullyUpdatedAt: 2024-04-11T07:21:53.533Z
-title: "Understanding the Difference: Generative AI, Conversational AI, LLMs & SMLs"
+title: "Understanding the Difference: Generative AI, Conversational AI, LLMs & SLMs"
 layout: post
 image: /images/buzzwords_ai_blog.png
 hidden: false
