@@ -68,6 +68,8 @@ Remote delivery of healthcare services, such as consultations and diagnoses, thr
 
 Technology that enables monitoring of patients outside of conventional clinical settings, such as in the home, using various devices to collect medical and health data.
 
+A crucial part of telemedicine is video consultations with physicians. Delve into a subject of [choosing the right video conferencing tool for healthcare](/blog/telehealth-video-conferencing-software/).
+
 ### Mental Health Tech
 
 Digital solutions aimed at improving mental health, such as:
