@@ -132,6 +132,8 @@ Read more about [Large Language Models (LLMs) for Healthcare](/blog/llms-healthc
 
 Also, explore ai buzzwords and [understand the difference: Generative AI, Conversational AI, LLMs & SLMs](/blog/ai-buzzwords-definitions/).
 
+<div className="image">![AI buzzwords](../../static/images/ai_buzzwords_landscape.png "AI buzzwords")</div>
+
 ### Internet of Things & Bluetooth
 
 The Internet of Things (IoT) in healthcare refers to the network of medical devices and applications that communicate and exchange data due to an Internet and bluetooth connection. 
