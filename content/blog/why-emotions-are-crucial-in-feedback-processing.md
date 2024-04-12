@@ -8,7 +8,7 @@ date: 2024-04-11T19:06:07.296Z
 meaningfullyUpdatedAt: 2024-04-11T19:06:07.324Z
 title: "Why Emotions Are Crucial in Feedback Processing? "
 layout: post
-image: /images/emotions-in-feedback-process.jpg
+image: /images/emotions-feedback.png
 hidden: false
 comments: true
 published: true
