@@ -66,7 +66,7 @@ Emotions can influence how feedback is delivered and received. Effective feedbac
 
 When used effectively, emotions can largely enhance the feedback communication process. **But instead of making other people guess your emotions, it is much easier to tell about them.** If you are the feedback giver, you should particularly be aware of the emotions you are going to inform about. **[Don’t be emotional](https://brightinventions.pl/blog/8-mistakes-you-make-while-giving-constructive-feedback/), but talk about emotions you have been experiencing.**
 
-https://www.youtube.com/watch?v=dOkyKyVFnSs&t=2s 
+<YouTubeEmbed url='https://www.youtube.com/watch?v=dOkyKyVFnSs&t=2s' />
 
 Take a look at three examples of feedback message according to **FECE (Facts, Emotions, Consequences, Expectations) Feedback Model by Jurgen Appelo** that involve information about emotions:  
 
