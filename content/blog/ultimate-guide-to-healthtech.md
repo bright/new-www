@@ -5,7 +5,7 @@ tags:
   - design
   - AI
 date: 2024-02-01T10:58:36.300Z
-meaningfullyUpdatedAt: 2024-04-05T10:18:05.978Z
+meaningfullyUpdatedAt: 2024-04-12T11:43:56.270Z
 title: The Ultimate Guide to HealthTech in 2024
 layout: post
 image: /images/healthtech-guide.png
@@ -54,8 +54,9 @@ Technology focused on women's health, including reproductive health, menstrual c
 
 We cover FemTech in various resources:
 
-* Read more about [developing a successful FemTech solution](/blog/keys-to-succeed-in-femtech/). 
 * Explore the diverse [world of FemTech with all its areas and innovators](/blog/femtech-key-areas-and-companies/).
+* Read more about [developing a successful FemTech solution](/blog/keys-to-succeed-in-femtech/). 
+* Learn [how to build a successful FemTech MVP](/blog/building-mvp-for-femtech/).
 * Check an example of successful MVP launch of a [mobile app for pregnant women](/projects/pregnancy-app/).
 
 <div className="image">![pregnant women](../../static/images/pregnant_women.png "pregnant women")</div>
@@ -68,7 +69,7 @@ Remote delivery of healthcare services, such as consultations and diagnoses, thr
 
 Technology that enables monitoring of patients outside of conventional clinical settings, such as in the home, using various devices to collect medical and health data.
 
-Read the story of [Camascope, the startup enabling remote patient monitoring](/projects/remote-patient-monitoring/) for patients in the UK.
+A crucial part of telemedicine is video consultations with physicians. Delve into a subject of [choosing the right video conferencing tool for healthcare](/blog/telehealth-video-conferencing-software/).
 
 ### Mental Health Tech
 
@@ -129,6 +130,10 @@ Artificial intelligence enables us to learn from available content to produce ne
 * preventing care by analyzing data from wearables and detecting issues like high blood pressure, concerning EGG patterns, arrhythmias, and more.
 
 Read more about [Large Language Models (LLMs) for Healthcare](/blog/llms-healthcare-security/).
+
+Also, explore ai buzzwords and [understand the difference: Generative AI, Conversational AI, LLMs & SLMs](/blog/ai-buzzwords-definitions/).
+
+<div className="image">![AI buzzwords](../../static/images/ai_buzzwords_landscape.png "AI buzzwords")</div>
 
 ### Internet of Things & Bluetooth
 
@@ -221,3 +226,7 @@ Get inspired by te best experts, resources and speakers in HealthTech industry:
 [Top HealthTech Conferences to Attend in Europe in 2024](/blog/healthtech-conferences-europe/)
 
 [Top HealthTech Conferences to Attend in the USA in 2024](/blog/healthtech-conferences-usa/)
+
+[Top FemTech Conferences and Meetups in 2024](/blog/femtech-conferences-meetups/)
+
+<div class='block-button'><h2>discuss your HealthTech challenges with our team</h2><div>We have been developing software solutions since 2012 supporting clients representing healthcare, logistics, retail and other industries. Let's talk about your solution!</div><a href="/our-areas/healthcare-software-development/"><button>book a free consultation in 48 hours</button></a></div>
