@@ -130,6 +130,8 @@ Artificial intelligence enables us to learn from available content to produce ne
 
 Read more about [Large Language Models (LLMs) for Healthcare](/blog/llms-healthcare-security/).
 
+Also, explore ai buzzwords and understand the difference: Generative AI, Conversational AI, LLMs & SMLs.
+
 ### Internet of Things & Bluetooth
 
 The Internet of Things (IoT) in healthcare refers to the network of medical devices and applications that communicate and exchange data due to an Internet and bluetooth connection. 
