@@ -23,13 +23,15 @@ In a scientific context, emotions are [a complex behavioural phenomena that invo
 
 Different theories offer varying perspectives on how to categorize emotions and how many emotions we can recognise. Some propose the existence of eight fundamental emotions, while others argue for a more extensive range. 
 
-According to [the discrete emotion theory](https://psychology.fandom.com/wiki/Discrete_emotion_theory), the Differential Emotions Scale recognizes 12 separate emotions. However,** [the recent research from the University of California, Berkeley, reveals a more extensive spectrum of emotions, pinpointing 27 distinct categories](https://greatergood.berkeley.edu/article/item/how_many_different_human_emotions_are_there)**. This comprehensive analysis involved the study of thousands of individuals, scrutinizing their reactions to a variety of stimuli, such as videos, music, and diverse situations, to identify genuinely unique emotional categories.
+According to [the discrete emotion theory](https://psychology.fandom.com/wiki/Discrete_emotion_theory), the Differential Emotions Scale recognises 12 separate emotions. However, [the recent research from the University of California, Berkeley, reveals a more extensive spectrum of emotions, pinpointing 27 distinct categories](https://greatergood.berkeley.edu/article/item/how_many_different_human_emotions_are_there). This comprehensive analysis involved the study of thousands of individuals, scrutinizing their reactions to a variety of stimuli, such as videos, music, and diverse situations, to identify genuinely unique emotional categories.
 
 What is interesting, **Paul Ekman, an American psychologist and professor emeritus at the University of California, [discovered that emotions such as joy, anger, disgust, sadness, fear, and surprise (and later added contempt) are universally recognised across different cultures](https://www.paulekman.com/universal-emotions/).** In his research he used short stories and images of emotional faces to understand the universality of emotional expression, developed later into the Facial Action Coding System. 
 
 On the other hand, **Robert Plutchik, a psychologist specializing in emotions, developed [the wheel of emotions](https://www.6seconds.org/2022/03/13/plutchik-wheel-emotions/?gad_source=1), which comprises eight basic emotions: joy, sadness, trust, disgust, fear, anger, surprise, and anticipation.** According to Plutchik, these basic emotions can combine to create complex emotions, such as love (a combination of trust and joy) or embarrassment (a combination of fear and surprise). The model illustrates how emotions function, defining their placement on the wheel, which indicates their intensity and opposites. Half of these emotions are considered positive, and the other half are considered negative. They are perceived as opposites of each other.     
 
 <div className="image">![wheel of emotions](../../static/images/plutchik-wheel.svg.png "Source: https://commons.wikimedia.org/wiki/File:Plutchik-wheel.svg")</div>
+
+###### Source: https://commons.wikimedia.org/wiki/File:Plutchik-wheel_es.svg
 
 For instance, joy is opposite to sadness, surprise is contrary to impatience, trust opposes disgust, and anger is opposite to fear. Plutchik elaborated on each emotion in detail and divided them into primary, secondary, and tertiary subgroups. His model describes a fascinating relationship between emotions, their intensity, and polarization. In Plutchik's model, the intensity of emotions is high when they are located at the center of the wheel and decreases as the distance from the center increases. Furthermore, Plutchik's Wheel of Emotions demonstrates that basic emotions can combine to form more complex emotions.
 
@@ -61,7 +63,7 @@ Emotions can influence how feedback is delivered and received. Effective feedbac
 
 ## how can I use emotions in feedback process
 
-When used effectively, emotions can largely enhance the feedback communication process. **But instead of making other people guess your emotions, it is much easier to tell about them.** If you are the feedback giver, you should particularly be aware of the emotions you are going to inform about.** [Don’t be emotional](https://brightinventions.pl/blog/8-mistakes-you-make-while-giving-constructive-feedback/), but talk about emotions you have been experiencing.**
+When used effectively, emotions can largely enhance the feedback communication process. **But instead of making other people guess your emotions, it is much easier to tell about them.** If you are the feedback giver, you should particularly be aware of the emotions you are going to inform about. **[Don’t be emotional](https://brightinventions.pl/blog/8-mistakes-you-make-while-giving-constructive-feedback/), but talk about emotions you have been experiencing.**
 
 https://www.youtube.com/watch?v=dOkyKyVFnSs&t=2s 
 
