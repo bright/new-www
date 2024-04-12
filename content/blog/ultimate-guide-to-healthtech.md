@@ -56,6 +56,7 @@ We cover FemTech in various resources:
 
 * Read more about [developing a successful FemTech solution](/blog/keys-to-succeed-in-femtech/). 
 * Explore the diverse [world of FemTech with all its areas and innovators](/blog/femtech-key-areas-and-companies/).
+* Learn [how to build a successful FemTech MVP](/blog/building-mvp-for-femtech/).
 * Check an example of successful MVP launch of a [mobile app for pregnant women](/projects/pregnancy-app/).
 
 <div className="image">![pregnant women](../../static/images/pregnant_women.png "pregnant women")</div>
