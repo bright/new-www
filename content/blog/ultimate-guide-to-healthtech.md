@@ -130,7 +130,7 @@ Artificial intelligence enables us to learn from available content to produce ne
 
 Read more about [Large Language Models (LLMs) for Healthcare](/blog/llms-healthcare-security/).
 
-Also, explore ai buzzwords and understand the difference: Generative AI, Conversational AI, LLMs & SMLs.
+Also, explore ai buzzwords and [understand the difference: Generative AI, Conversational AI, LLMs & SLMs](/blog/ai-buzzwords-definitions/).
 
 ### Internet of Things & Bluetooth
 
