@@ -7521,7 +7521,7 @@ __metadata:
     gatsby: ^5.12.4
     gatsby-plugin-disqus: ^1.2.6
     gatsby-plugin-feed: ^5.12.0
-    gatsby-plugin-image: ^3.12.0
+    gatsby-plugin-image: ^3.13.1
     gatsby-plugin-json-pages: ^1.0.0
     gatsby-plugin-manifest: ^5.12.0
     gatsby-plugin-mdx: ^5.13.1
@@ -11696,7 +11696,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-image@npm:^3.12.0":
+"gatsby-plugin-image@npm:^3.13.1":
   version: 3.13.1
   resolution: "gatsby-plugin-image@npm:3.13.1"
   dependencies:
