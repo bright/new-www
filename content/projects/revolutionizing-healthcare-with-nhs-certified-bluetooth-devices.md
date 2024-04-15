@@ -66,7 +66,7 @@ When COVID-19 swept across the world, it revealed the stark reality of global he
 
 The RPM system is centered around an Android application, complemented by a couple of Bluetooth health-monitoring devices expertly integrated by the Bright Inventions team. **Smart devices such as pulse oximeters, spirometers, thermometers, or stethoscopes empower medical professionals to efficiently manage more patients** without the need for individual, time-consuming examinations. 
 
-Another crucial step towards the digitalization of healthcare is **telemedicine**. We supported our client in this area as well. **Our team crafted an Android application supporting online consultations for Camascope users**. Patients have a scheduled consultation in the app; all they need to do is join the meeting, enabling the camera and microphone. 
+Another crucial step towards the digitalization of healthcare is **telemedicine**. We supported our client in this area as well. **Our team crafted an Android application supporting online consultations for users**. Patients have a scheduled consultation in the app; all they need to do is join the meeting, enabling the camera and microphone. 
 
 <div className="image">![Telemedicine](../../static/images/telemedicine.png "Telemedicine")</div>
 
