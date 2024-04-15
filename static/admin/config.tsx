@@ -8,6 +8,15 @@ const languageWidget = {
   options: ['en', 'de'],
 }
 
+const blogSectionWidget = {
+  label: 'Blog section',
+  name: 'blog-section',
+  widget: 'select',
+  options: [],
+}
+
+
+
 export const blogCollectionName = 'blog'
 const authorFieldName = 'author'
 const secondAuthorFieldName = 'secondAuthor'
@@ -19,7 +28,7 @@ const config = {
   backend: {
     name: 'github',
     repo: 'bright/new-www',
-    branch: 'gatsby',
+    branch: 'staging',
     base_url: 'https://github-auth.brightinventions.pl',
   },
   publish_mode: 'editorial_workflow',
@@ -121,6 +130,7 @@ const config = {
           default: true,
         },
         languageWidget,
+        blogSectionWidget,
       ],
     },
     {
@@ -434,6 +444,7 @@ const config = {
           widget: 'string',
         },
         languageWidget,
+        blogSectionWidget,
       ],
     },
     {
@@ -877,28 +888,21 @@ const config = {
   ],
 }
 
-
 const getTags = async () => {
   const ymlDocTags = await loadTagGroups()
 
   return ymlDocTags.allGroups.map(({ name }) => name)
 }
 
-const blogSectionWidgetBase = {
-  label: 'Blog section',
-  name: 'blog-section',
-  widget: 'select',
-  options: []
-}
-
 export default async () => {
-  const blogCollection = config.collections.find(collection => collection.name === blogCollectionName)
-  const options = await getTags()
+  const options = await getTags();
 
-  blogCollection?.fields.push({
-    ...blogSectionWidget,
-    options,
+  config.collections.forEach((collection) => {
+    if (collection.name === blogCollectionName) {
+      collection.fields.forEach((field) => (field as any).options = options)
+    }
   })
 
   return config
 }
+
