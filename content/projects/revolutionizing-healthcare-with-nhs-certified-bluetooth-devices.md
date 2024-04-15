@@ -12,17 +12,17 @@ project_id: Remote Patient Monitoring
 title: Empowering MHealth Systems with NHS-Certified Bluetooth Devices
 image: /images/blogpost_www_continuous_monitoring_device.png
 description: The future of healthcare lies in remote medical care. With the
-  system we had the privilege to develop for Camascope, that future is already a
-  reality. Physicians can remotely monitor patients' conditions, and if their
-  vital signs become alarming, the algorithm will trigger an alert, recommending
-  the initiation of emergency procedures.
+  system we had the privilege to develop for it is already a reality. Physicians
+  can remotely monitor patients' conditions, and if their vital signs become
+  alarming, the algorithm will trigger an alert, recommending the initiation of
+  emergency procedures.
 hero_image: /images/ehealth_remote_case_study.png
 Hero Image_alt: Transforming Healthcare with NHS-Certified Bluetooth Devices
 social_media_previev: /images/fb_preview_bluetooth_devices.png
 social_media_previev_alt: Remote Patient Monitoring
 bar_achievements:
   - number: 25k+
-    label: Active users on Camascope systems
+    label: Active users
   - number: 1,000
     label: Health & Care Organisations
   - number: "3"
@@ -58,7 +58,7 @@ When COVID-19 swept across the world, it revealed the stark reality of global he
 
 <TitleWithIcon sectionTitle="solution: empowering healthcare transformation with remote patient monitoring and telemedicine " titleIcon="/images/icon_title_goal.svg" titleIconAlt="solution: empowering healthcare transformation with remote patient monitoring and telemedicine " />
 
-Camascope, formerly known as VCare, is a pioneering British health tech company. **We joined forces with Camascope to find the cure for the healthcare sickness in the United Kingdom**. Our collaboration has already yielded a robust [Medicine Administration Record (eMAR) system](/projects/vCare/), available on both Android and iOS platforms. After that, we took another step towards healthcare digitalization.
+**We joined forces with our client based in the United Kingdom to find the cure for the healthcare sickness in the United Kingdom**. Our collaboration has already yielded a robust [Medicine Administration Record (eMAR) system](/projects/vCare/), available on both Android and iOS platforms. After that, we took another step towards healthcare digitalization.
 
 **Our team developed a pilot Remote Patient Monitoring (RPM) system for Android**. Imagine an application accessible by a doctor at their office, showing them in real-time the vital signs of their patients who are currently at home. With RPM, you don't have to imagine that anymore. It is now a reality available in the United Kingdom.
 
