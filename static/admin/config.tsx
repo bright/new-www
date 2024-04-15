@@ -1,3 +1,5 @@
+import { loadTagGroups } from '../../src/tags/tag-groups'
+
 const languageWidget = {
   label: 'Language',
   name: 'language',
@@ -875,6 +877,28 @@ const config = {
   ],
 }
 
+
+const getTags = async () => {
+  const ymlDocTags = await loadTagGroups()
+
+  return ymlDocTags.allGroups.map(({ name }) => name)
+}
+
+const blogSectionWidgetBase = {
+  label: 'Blog section',
+  name: 'blog-section',
+  widget: 'select',
+  options: []
+}
+
 export default async () => {
+  const blogCollection = config.collections.find(collection => collection.name === blogCollectionName)
+  const options = await getTags()
+
+  blogCollection?.fields.push({
+    ...blogSectionWidget,
+    options,
+  })
+
   return config
 }
