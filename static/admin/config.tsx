@@ -15,8 +15,6 @@ const blogSectionWidget = {
   options: [],
 }
 
-
-
 export const blogCollectionName = 'blog'
 const authorFieldName = 'author'
 const secondAuthorFieldName = 'secondAuthor'
@@ -130,7 +128,6 @@ const config = {
           default: true,
         },
         languageWidget,
-        blogSectionWidget,
       ],
     },
     {
@@ -817,6 +814,7 @@ const config = {
           widget: 'markdown',
         },
         languageWidget,
+        blogSectionWidget,
       ],
     },
     {
