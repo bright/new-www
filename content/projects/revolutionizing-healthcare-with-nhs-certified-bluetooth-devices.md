@@ -21,8 +21,8 @@ Hero Image_alt: Transforming Healthcare with NHS-Certified Bluetooth Devices
 social_media_previev: /images/fb_preview_bluetooth_devices.png
 social_media_previev_alt: Remote Patient Monitoring
 bar_achievements:
-  - number: 25k+
-    label: Active users
+  - number: $3.9 billion
+    label: the RPM in the UK market size by 2029
   - number: 1,000
     label: Health & Care Organisations
   - number: "3"
@@ -80,4 +80,4 @@ Furthermore, another compelling challenge involved d**eveloping an algorithm cap
 
 <TitleWithIcon sectionTitle="result of the collaboration: unlocking digital health for 1000+ health and care organizations " titleIcon="/images/icon_result_svg.svg" titleIconAlt="result of the collaboration: unlocking digital health for 1000+ health and care organizations " />
 
-Our client has become an **approved NHS supplier of remote monitoring services and an ISO 27001 accredited company**. Its products are **used by over 1,000 health & care organization customers with over 25,000 active patients on the system**. We are proud to have been a part of this advancement in health technology and are confident that this product will positively impact the lives of hundreds of thousands of people.
+Our client has become an **approved NHS supplier of remote monitoring services and an ISO 27001 accredited company**. Its products are **used by over 1,000 health & care organization customers with dozens of thousands active patients on the system**. We are proud to have been a part of this advancement in health technology and are confident that this product will positively impact the lives of hundreds of thousands of people.
