@@ -101,6 +101,9 @@ export default function Template({
     project: projects,
     slug,
   } = page
+
+  console.log('page', page)
+
   const titleArr = title.split(' ')
   const newTitle = titleArr.map((ta: string) => {
     const highlightedWordArr = highlighted_word?.split(' ')

@@ -12,7 +12,7 @@ const blogSectionWidget = {
   label: 'Blog section',
   name: 'blog-section',
   widget: 'select',
-  options: [],
+  options: [] as string[],
 }
 
 export const blogCollectionName = 'blog'
@@ -892,13 +892,19 @@ const getTags = async () => {
   return ymlDocTags.allGroups.map(({ name }) => name)
 }
 
+function isBlogSectionWidget(field: unknown): field is typeof blogSectionWidget {
+  return (field as typeof blogSectionWidget).name === 'blog-section';
+}
+
 export default async () => {
   const options = await getTags();
 
   config.collections.forEach((collection) => {
-    if (collection.name === blogCollectionName) {
-      collection.fields.forEach((field) => (field as any).options = options)
-    }
+    collection.fields.forEach((field) => {
+      if (isBlogSectionWidget(field)) {
+        field.options = options
+      }
+    })
   })
 
   return config
