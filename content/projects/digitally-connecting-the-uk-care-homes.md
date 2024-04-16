@@ -43,6 +43,8 @@ description_contact: Tell us more about your mobile project or idea for an app.
   Fill out the form below and we'll get back to you in 48 hours.
 order: 99
 slug: emar-healthcare-solution
+redirect_from:
+  - vcare
 show_team: true
 show_case_study: true
 show on homepage: false
