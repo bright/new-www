@@ -76,13 +76,13 @@ This application facilitates **real-time updates on medication intake** accessib
 
 Furthermore, our collaboration with the client includes implementing a system that mandates supervisor approval for significant treatment changes, fostering a collaborative approach. **The system also minimizes errors by promptly notifying care home staff of potential missed medications, thereby lightening their workload through our client-centric solutions**.
 
-## ![challenge](/images/gearwheel.svg) challenge: making a data-heavy and multifunctional system an intuitive one
+<TitleWithIcon sectionTitle="challenge: making a data-heavy and multifunctional system an intuitive one" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
 
 **Our challenge was to help the client create a system that truly enhances daily operations instead of adding to the workload of care providers**. In response, we designed an interface that prioritizes essential information, ensuring all critical patient data is accessible on a single screen. Based on detailed field studies and research, we identified that end-users desire quick access to patient information and don’t want to navigate through multiple screens to obtain it. **Therefore, we prioritized creating an interface that is intuitive, speedy, and seamless to meet their needs**.
 
 Navigating through another challenge, our collaboration intensified as we honed in on enhancing a pivotal HealthTech feature – **offline mode**. Recognizing the significance of a reliable app in time-sensitive situations, we worked closely to design an interface that distinctly indicates when users are in offline mode, fostering seamless data synchronization at a later stage.
 
-## ![result](/images/results_icon_title_small.png) result: successful scaling and meds distribution digitalization
+<TitleWithIcon sectionTitle="result: successful scaling and meds distribution digitalization" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
 We helped our client during the crucial post-MVP phase to build a solution that addresses all the needs and requirements of the nurses and doctors working with the system. **eMAR now supports a wide range of care homes across the UK**. As the population ages, the demand for care services that allow older individuals to remain in their homes becomes increasingly important. Therefore, solutions like eMAR will play a significant role in digitizing healthcare.
 
