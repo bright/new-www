@@ -26,7 +26,7 @@ bar_achievements:
     label: Care homes are in the UK
   - number: 400k+
     label: People receive help at UK care homes
-  - number: 3+
+  - number: "3"
     label: Years of Collaboration
 tags:
   - mobile app
