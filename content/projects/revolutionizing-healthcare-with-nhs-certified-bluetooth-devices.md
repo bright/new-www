@@ -10,7 +10,7 @@ our_service:
 layout: project
 project_id: Remote Patient Monitoring
 title: Empowering MHealth Systems with NHS-Certified Bluetooth Devices
-image: /images/blogpost_www_continuous_monitoring_device.png
+image: /images/case_study_rpm_devices.png
 description: The future of healthcare lies in remote medical care. With the
   system we had the privilege to develop for it is already a reality. Physicians
   can remotely monitor patients' conditions, and if their vital signs become
@@ -18,7 +18,7 @@ description: The future of healthcare lies in remote medical care. With the
   emergency procedures.
 hero_image: /images/ehealth_remote_case_study.png
 Hero Image_alt: Transforming Healthcare with NHS-Certified Bluetooth Devices
-social_media_previev: /images/fb_preview_bluetooth_devices.png
+social_media_previev: /images/some_preview_bluetooth_devices.png
 social_media_previev_alt: Remote Patient Monitoring
 bar_achievements:
   - number: $3.9 billion
