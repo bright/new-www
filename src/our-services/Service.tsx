@@ -342,6 +342,7 @@ export const pageQuery = graphql`
             gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE, webpOptions: { quality: 100 })
           }
         }
+        blog_section
       }
     }
   }

@@ -12,6 +12,7 @@ const blogSectionWidget = {
   label: 'Blog section',
   name: 'blog-section',
   widget: 'select',
+  multiple: true,
   options: [] as string[],
 }
 
