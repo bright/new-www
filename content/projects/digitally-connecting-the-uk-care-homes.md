@@ -19,7 +19,7 @@ description: Nurses are forced to juggle the care of multiple patients, each
   also reduces the risk of errors.
 hero_image: /images/case_study_emar_healthtech.png
 Hero Image_alt: A healthcare software solution
-social_media_previev: /images/some_preview_case_study_emar_update.png
+social_media_previev: /images/fb_preview_case_study_emar_update_some.png
 social_media_previev_alt: eMAR solution case study
 bar_achievements:
   - number: 17k+
