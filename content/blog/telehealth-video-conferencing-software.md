@@ -180,7 +180,7 @@ Pricing: Pay as you Go available
 * Easy Integration
 * Build chat using a combination of low-level API access and complete client-side SDKs to meet your needs.
 
-### Go To
+### GoTo
 
 GDPR: Yes
 
