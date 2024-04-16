@@ -20,8 +20,8 @@ Hero Image_alt: Transforming Healthcare with NHS-Certified Bluetooth Devices
 social_media_previev: /images/some_preview_bluetooth_devices.png
 social_media_previev_alt: Remote Patient Monitoring
 bar_achievements:
-  - number: $3.9 billion
-    label: the RPM UK market size by 2029
+  - number: $3.9B
+    label: UK RPM market growth by 2029
   - number: 1,000
     label: Health & Care Organisations
   - number: "3"
