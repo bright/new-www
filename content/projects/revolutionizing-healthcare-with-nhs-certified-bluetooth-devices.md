@@ -17,7 +17,7 @@ description: The future of healthcare lies in remote medical care. In the system
   logistics costs for patients and healthcare providers.
 hero_image: /images/ehealth_remote_case_study.png
 Hero Image_alt: Transforming Healthcare with NHS-Certified Bluetooth Devices
-social_media_previev: /images/some_preview_bluetooth_devices.png
+social_media_previev: /images/some_preview_bluetooth_devices_fb.png
 social_media_previev_alt: Remote Patient Monitoring
 bar_achievements:
   - number: $3.9B
