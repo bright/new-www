@@ -9,7 +9,7 @@ our_service:
   - product design
 layout: project
 project_id: eMAR
-title: Optimizing Medicine Distribution for the UK Care Homes
+title: Optimizing Medicine Distribution for UK Care Homes
 image: /images/case_study_emar_ehealth.png
 description: Nurses are forced to juggle the care of multiple patients, each
   with unique health profiles, medication plans, and allergy considerations. If
