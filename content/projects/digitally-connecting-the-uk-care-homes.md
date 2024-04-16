@@ -86,4 +86,4 @@ Navigating through another challenge, our collaboration intensified as we honed 
 
 We helped our client during the crucial post-MVP phase to build a solution that addresses all the needs and requirements of the nurses and doctors working with the system. **eMAR now supports a wide range of care homes across the UK**. As the population ages, the demand for care services that allow older individuals to remain in their homes becomes increasingly important. Therefore, solutions like eMAR will play a significant role in digitizing healthcare.
 
-During our collaboration with Camascope, we also built the [Remote Patient Monitoring with wearables and a telemedicine application](/projects/remote-patient-monitoring/). Read more about it in another case study!
+During our collaboration, we also built the [Remote Patient Monitoring with wearables and a telemedicine application](/projects/remote-patient-monitoring/). Read more about it in another case study!
