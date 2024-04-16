@@ -6,7 +6,7 @@ team_members:
   - michal
 our_service:
   - mobile app development
-  - product design
+  - healthcare software development
 layout: project
 project_id: Remote Patient Monitoring
 title: Empowering MHealth Systems with NHS-Certified Bluetooth Devices
