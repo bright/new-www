@@ -52,13 +52,15 @@ published: true
 work_in_progress: false
 language: en
 ---
-## ![stack](/images/skills.svg) technologies
+<TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="stack" />
 
-![Kotlin](/images/kotlin_new_stack_logo.svg)![Swift](/images/swift_icon_stack.svg)![Bluetooth](/images/bluetooth_stack_logo.svg)![Adobe XD](/images/adobexdstack_logo.svg)
+<Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/bluetooth_stack_logo.svg","alt":"Bluetooth"},{"src":"/images/adobexdstack_logo.svg","alt":"Adobe XD"}]' />
 
 **technologies:** Kotlin, Swift, Bluetooth, Adobe XD
 
-## ![problem](/images/three_flags.svg) problem: transforming system inefficiencies to ensure patient safety
+
+
+<TitleWithIcon sectionTitle="problem: transforming system inefficiencies to ensure patient safety" titleIcon="/images/three_flags.svg" titleIconAlt="problem" />
 
 **In the United Kingdom, approximately [17,100 care homes are dedicated to accommodating over 400,000 individuals](https://www.braemarfinance.co.uk/s/insights/blog/facts-figures-uk-care-home-sector-MCXEQ2ZU7QKVFOBOP272VSXJDDWQ#:~:text=The%20care%20home%20sector%20in,after%20more%20than%20400%2C000%20people.)**. The UK's care home sector plays a pivotal role in supporting those in need of professional care.
 
