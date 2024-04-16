@@ -10,7 +10,7 @@ our_service:
 layout: project
 project_id: eMAR
 title: Digitally Connecting the UK Care Homes
-image: /images/ehealth_remote_case_study.png
+image: /images/case_study_emar_ehealth.png
 description: Nurses are forced to juggle the care of multiple patients, each
   with unique health profiles, medication plans, and allergy considerations. If
   only there was a digital solution that would streamline their work and help
