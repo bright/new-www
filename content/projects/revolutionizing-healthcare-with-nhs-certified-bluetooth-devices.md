@@ -53,13 +53,15 @@ language: en
 
 <TitleWithIcon sectionTitle="problem: addressing staff shortages and rising health challenges" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem: addressing staff shortages & rising health challenge" />
 
-When COVID-19 swept across the world, it revealed the stark reality of global healthcare. **The traditional system, with staff shortages and the glaring lack of funding for public care, has not been able to face the rising challenges**. Among them are the mounting cases of chronic diseases and mental health issues. Healthcare cries out for a remedy. **Only technology can be the final cure**.
+When COVID-19 swept across the world, it revealed the stark reality of global healthcare. **The traditional health systems, with staff shortages and the glaring lack of funding for public care, have not been able to face the rising challenges**. Among these challenges were the escalating cases of chronic diseases and mental health issues. The healthcare sector urgently needs a comprehensive and technologically advanced solution that addresses the shortcomings revealed during the COVID-19 pandemic.
+
+This could be done by the integration of telehealth services, remote patient monitoring, efficient data management, and improved communication channels between healthcare providers and patients.
 
 <TitleWithIcon sectionTitle="solution: empowering healthcare transformation with remote patient monitoring and telemedicine " titleIcon="/images/icon_title_goal.svg" titleIconAlt="solution: empowering healthcare transformation with remote patient monitoring and telemedicine " />
 
 **We joined forces with our client based in the United Kingdom to find the cure for the healthcare sickness in the United Kingdom**. Our collaboration has already yielded a robust [Medicine Administration Record (eMAR) system](/projects/vCare/), available on both Android and iOS platforms. After that, we took another step towards healthcare digitalization.
 
-**Our team developed a pilot Remote Patient Monitoring (RPM) system for Android**. Imagine an application accessible by a doctor at their office, showing them in real-time the vital signs of their patients who are currently at home. With RPM, you don't have to imagine that anymore. It is now a reality available in the United Kingdom.
+Our team supported the client in **developing a pilot Remote Patient Monitoring (RPM) system for Android**, the application accessible by a doctor at their office, showing them in real-time the vital signs of their patients who are currently at home. The app is now available in the United Kingdom.
 
 <div className="image">![Pulse oximeter](../../static/images/pulse_oximeter.png "Pulse oximeter")</div>
 
