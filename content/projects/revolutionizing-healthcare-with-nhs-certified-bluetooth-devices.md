@@ -65,7 +65,7 @@ Our team supported the client in **developing a pilot Remote Patient Monitoring 
 
 <div className="image">![Pulse oximeter](../../static/images/pulse_oximeter.png "Pulse oximeter")</div>
 
-The RPM system is centered around an Android application, complemented by a couple of Bluetooth health-monitoring devices expertly integrated by the Bright Inventions team. **Smart devices such as pulse oximeters, spirometers, thermometers, or stethoscopes empower medical professionals to efficiently manage more patients** without the need for individual, time-consuming examinations. 
+The RPM system is centered around an Android application, complemented by a couple of **Bluetooth health-monitoring devices** integrated by the Bright Inventions team. The application empowers medical professionals to efficiently manage more patients without needing individual, time-consuming examinations. 
 
 Another crucial step towards the digitalization of healthcare is **telemedicine**. We supported our client in this area as well. **Our team crafted an Android application supporting online consultations for users**. Patients have a scheduled consultation in the app; all they need to do is join the meeting, enabling the camera and microphone. 
 
@@ -75,10 +75,10 @@ Another crucial step towards the digitalization of healthcare is **telemedicine*
 
 Our team faced the formidable **challenge of integrating various healthcare devices with distinct Software Development Kits (SDKs) into a cohesive system**. With our Android team's expertise, we successfully harmonized these disparate SDKs into a unified system. 
 
-Furthermore, another compelling challenge involved d**eveloping an algorithm capable of rapidly detecting whether a patient's vital signs signal an urgent requirement for assistance**. Our team devised a solution that facilitates data transmission to the doctor, **triggering an alarm in the event the patient’s medical condition escalates to a life-threatening state**.
+Furthermore, another compelling challenge involved **developing an algorithm capable of rapidly detecting whether a patient's vital signs signal an urgent requirement for assistance**. Our team devised a solution that facilitates data transmission to the doctor, **triggering an alarm in the event the patient’s medical condition escalates to a life-threatening state**.
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 <TitleWithIcon sectionTitle="result of the collaboration: unlocking digital health for 1000+ health and care organizations " titleIcon="/images/icon_result_svg.svg" titleIconAlt="result of the collaboration: unlocking digital health for 1000+ health and care organizations " />
 
-Our client has become an **approved NHS supplier of remote monitoring services and an ISO 27001 accredited company**. Its products are **used by over 1,000 health & care organization customers with dozens of thousands active patients on the system**. We are proud to have been a part of this advancement in health technology and are confident that this product will positively impact the lives of hundreds of thousands of people.
+Our client has become an **approved NHS supplier of remote monitoring services and an ISO 27001 accredited company**. The company sets a direction for digital healthcare transformation in the UK. We are proud to have been a part of this advancement in health technology and are confident that this product will positively impact the lives of hundreds of thousands of people.
