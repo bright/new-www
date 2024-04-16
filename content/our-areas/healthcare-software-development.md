@@ -17,6 +17,7 @@ project:
   - solution-parkinson
   - mobile-therapy-application
   - pregnancy-app
+  - Remote Patient Monitoring
 layout: our-service
 our_service_id: healthcare software development
 meta_title: Healthcare Software Development
