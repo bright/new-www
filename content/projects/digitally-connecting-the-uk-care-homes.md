@@ -70,11 +70,11 @@ Our client is a UK-based health tech company aiming to streamline medicine distr
 
 ![home care HealthTech](blob:https://brightinventions.pl/c34ed702-a0dd-44a5-b251-ac6091eb69e5 "home care HealthTech")
 
-Upon the debut of their initial eMAR solution, **Camascope reached out to our team to explore a collaborative effort aimed at refining and advancing the product to a more sophisticated stage**. As a result, a comprehensive eMAR solution emerged. A mobile application, accessible on both Apple and Android devices, now **provides seamless access to patients' medical history and prescribed medications**.
+Upon the debut of their initial **Electronic Medication Administration Record (eMAR) solution, the client reached out to our team to explore a collaborative effort to refine and advance the product to a more sophisticated stage**. As a result, a comprehensive eMAR solution has been developed together with a mobile application, accessible on both Apple and Android devices, which now **provides seamless access to patients' medical history and prescribed medications**.
 
 This application facilitates **real-time updates on medication intake** accessible for healthcare providers, patients, and their families. The **offline mode empowers caregivers to make essential updates without concern for internet connectivity**.
 
-Moreover, the **Camascope system mandates supervisor approval for significant treatment alterations. It also reduces errors by promptly notifying care home staff about potential missed medications**, alleviating the considerable responsibility of their workload.
+Furthermore, our collaboration with the client includes implementing a system that mandates supervisor approval for significant treatment changes, fostering a collaborative approach. **The system also minimizes errors by promptly notifying care home staff of potential missed medications, thereby lightening their workload through our client-centric solutions**.
 
 ## ![challenge](/images/gearwheel.svg) challenge: making a data-heavy and multifunctional system an intuitive one
 
