@@ -58,19 +58,17 @@ language: en
 
 **technologies:** Kotlin, Swift, Bluetooth, Adobe XD
 
-
-
 <TitleWithIcon sectionTitle="problem: transforming system inefficiencies to ensure patient safety" titleIcon="/images/three_flags.svg" titleIconAlt="problem" />
 
 **In the United Kingdom, approximately [17,100 care homes are dedicated to accommodating over 400,000 individuals](https://www.braemarfinance.co.uk/s/insights/blog/facts-figures-uk-care-home-sector-MCXEQ2ZU7QKVFOBOP272VSXJDDWQ#:~:text=The%20care%20home%20sector%20in,after%20more%20than%20400%2C000%20people.)**. The UK's care home sector plays a pivotal role in supporting those in need of professional care.
 
 In the extensive array of duties borne by care home providers, the task of **medicine distribution is a crucial and demanding responsibility**. The lack of digitalization in this area has cast a long shadow, leading to a confronting reality where **communication between pharmacies and care homes is fragmented and historical data on patient medication distribution alarmingly inaccessible**.
 
-## ![solution](/images/goal_title_section.png) solution: a system that helps control medicine distribution
+<TitleWithIcon sectionTitle="solution: a system that helps control medicine distribution" titleIcon="/images/goal_title_section.png" titleIconAlt="solution" />
 
 Our client is a UK-based health tech company aiming to streamline medicine distribution for care home professionals. 
 
-![home care HealthTech](blob:https://brightinventions.pl/c34ed702-a0dd-44a5-b251-ac6091eb69e5 "home care HealthTech")
+<div className="image">![eMAR](/images/home_care_health_tech.png "eMAR")</div>
 
 Upon the debut of their initial **Electronic Medication Administration Record (eMAR) solution, the client reached out to our team to explore a collaborative effort to refine and advance the product to a more sophisticated stage**. As a result, a comprehensive eMAR solution has been developed together with a mobile application, accessible on both Apple and Android devices, which now **provides seamless access to patients' medical history and prescribed medications**.
 
