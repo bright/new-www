@@ -21,8 +21,12 @@ Hero Image_alt: A healthcare software solution
 social_media_previev: /images/some_preview_case_study_emar_update.png
 social_media_previev_alt: eMAR solution case study
 bar_achievements:
-  - number: 25k+
-    label: Active users
+  - number: 17k+
+    label: Care homes are in the UK
+  - number: 400k
+    label: Patients are accommodated in care homes
+  - number: 3+
+    label: Years of collaboration
 tags:
   - mobile app
   - web app
