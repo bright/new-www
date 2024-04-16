@@ -8,7 +8,7 @@ our_service:
   - mobile app development
 layout: project
 project_id: Remote Patient Monitoring
-title: Empowering MHealth Systems with NHS-Certified Bluetooth Devices
+title: Empowering MHealth System with NHS-Certified Bluetooth Devices
 image: /images/case_study_rpm_devices.png
 description: The future of healthcare lies in remote medical care. In the system
   we helped our client build that future is already a reality. Physicians can
