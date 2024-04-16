@@ -160,7 +160,7 @@ https://zoom.us/pricing/healthcare/
 * Mail & Calendar Client & Service
 * Cloud Storage 5GB
 
-### GetStream
+### Stream
 
 GDPR: Yes
 
