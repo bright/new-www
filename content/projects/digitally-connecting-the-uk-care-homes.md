@@ -85,8 +85,6 @@ An important feature we also incorporated was a user-friendly **body map, which 
 
 Overcoming another hurdle, **we focused on refining a critical HealthTech feature – offline mode**. In situations where every second counts, having a reliable app without an internet connection is imperative. Our challenge was to **design an interface that unmistakably signals when users are in offline mode, ensuring seamless data synchronization at a later stage**. The emphasis here was on a clear and intuitive design.
 
-*Camascope mockup for the offline mode marked by the information bar.*
-
 ## ![result](/images/results_icon_title_small.png) result: successful scaling with over 1,000 health care organization customers
 
 **As an NHS Trusted Supplier and Crown Commercial Service Supplier Camascope has digitalised medicine distribution for over 1,000 health & care organizations**. The system is integrated with **leading pharmacy chains such as Boots, LloydsPharmacy, and Well**.
