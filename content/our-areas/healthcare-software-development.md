@@ -64,7 +64,9 @@ title_contact: book free consultation in 48 hours
 description_contact: Let’s discuss your HealthTech project. Fill out the form
   below and we'll get back to you in 48 hours.
 language: en
-blog-section: HealthTech
+blog-section:
+  - HealthTech
+  - frontend
 ---
 ## healthtech consulting
 
