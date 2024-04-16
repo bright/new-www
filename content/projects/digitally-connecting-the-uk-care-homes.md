@@ -11,11 +11,12 @@ layout: project
 project_id: eMAR
 title: Digitally Connecting the UK Care Homes
 image: /images/ehealth_remote_case_study.png
-description: Behind the story of Camascope, there is a pharmacist who
-  experienced firsthand the challenges care home professionals faced in
-  medication distribution. This pharmacist was Saurabh Shah, the founder of
-  Camascope (prev. vCare). With our help, Camascope now digitally streamlines
-  daily medication routines for 25,000+ patients across the UK.
+description: Nurses are forced to juggle the care of multiple patients, each
+  with unique health profiles, medication plans, and allergy considerations. If
+  only there was a digital solution that would streamline their work and help
+  them avoid life-threatening mistakes. This is a story of a robust Electronic
+  Medication Administration Record that not only organizes this complexity but
+  also reduces the risk of errors.
 hero_image: /images/case_study_emar_healthtech.png
 Hero Image_alt: A healthcare software solution
 social_media_previev: /images/some_preview_case_study_emar_update.png
@@ -23,10 +24,10 @@ social_media_previev_alt: eMAR solution case study
 bar_achievements:
   - number: 17k+
     label: Care homes are in the UK
-  - number: 400k
-    label: Patients are accommodated in care homes
+  - number: 400k+
+    label: People receive help at UK care homes
   - number: 3+
-    label: Years of collaboration
+    label: Years of Collaboration
 tags:
   - mobile app
   - web app
@@ -55,7 +56,7 @@ language: en
 
 **technologies:** Kotlin, Swift, Bluetooth, Adobe XD
 
-## ![problem](/images/three_flags.svg) problem: patients put at risk due to inefficient medicine distribution
+## ![problem](/images/three_flags.svg) problem: transforming system inefficiencies to ensure patient safety
 
 **In the United Kingdom, approximately [17,100 care homes are dedicated to accommodating over 400,000 individuals](https://www.braemarfinance.co.uk/s/insights/blog/facts-figures-uk-care-home-sector-MCXEQ2ZU7QKVFOBOP272VSXJDDWQ#:~:text=The%20care%20home%20sector%20in,after%20more%20than%20400%2C000%20people.)**. The UK's care home sector plays a pivotal role in supporting those in need of professional care.
 
@@ -63,7 +64,7 @@ In the extensive array of duties borne by care home providers, the task of **med
 
 ## ![solution](/images/goal_title_section.png) solution: a system that helps control medicine distribution
 
-**Camascope, formerly VCare Systems, a UK-based health tech company**, was co-founded by **[Saurabh Shah](https://blog.camascope.com/resources/post/the-camascope-story), a pharmacist with 15+ years of experience** whose vision led to the creation of the Electronic **Medication Administration Record (eMAR)**, streamlining medicine distribution for care home professionals.
+Our client is a UK-based health tech company aiming to streamline medicine distribution for care home professionals. 
 
 ![home care HealthTech](blob:https://brightinventions.pl/c34ed702-a0dd-44a5-b251-ac6091eb69e5 "home care HealthTech")
 
@@ -75,20 +76,12 @@ Moreover, the **Camascope system mandates supervisor approval for significant tr
 
 ## ![challenge](/images/gearwheel.svg) challenge: making a data-heavy and multifunctional system an intuitive one
 
-Imagine being a nurse, juggling the care of multiple patients, each with unique health profiles, medication plans, and allergy considerations. Healthcare providers grapple with a flood of information. **The crucial challenge was to create a system that not only organizes this complexity but also reduces the risk of errors**.
+**Our challenge was to help the client create a system that truly enhances daily operations instead of adding to the workload of care providers**. In response, we designed an interface that prioritizes essential information, ensuring all critical patient data is accessible on a single screen. Based on detailed field studies and research, we identified that end-users desire quick access to patient information and don’t want to navigate through multiple screens to obtain it. **Therefore, we prioritized creating an interface that is intuitive, speedy, and seamless to meet their needs**.
 
-**We crafted a design that prioritizes crucial information while keeping all important patient data accessible on a single screen**. Based on detailed field studies and research, we understood that end-users desire quick access to patient information and don’t want to navigate through multiple screens to obtain it. Thus, ensuring the **interface is easy, fast, and smooth was the answer they needed**.
+Navigating through another challenge, our collaboration intensified as we honed in on enhancing a pivotal HealthTech feature – **offline mode**. Recognizing the significance of a reliable app in time-sensitive situations, we worked closely to design an interface that distinctly indicates when users are in offline mode, fostering seamless data synchronization at a later stage.
 
-Another challenge was **building a system that would genuinely streamline daily processes**, rather than becoming an additional burden on the shoulders of care providers. Our team built a variety of features specifically crafted to streamline the daily operations of caregivers. For instance, **by scanning the barcodes of medications, the system automatically notifies which medicine has been administered, eliminating the need for manual input**.
+## ![result](/images/results_icon_title_small.png) result: successful scaling and meds distribution digitalization
 
-An important feature we also incorporated was a user-friendly **body map, which enables physicians to quickly select a body part on the map, linking it to the administered medication or medical procedure**. This intuitive tool aids in both accuracy and efficiency in patient care.
+We helped our client during the crucial post-MVP phase to build a solution that addresses all the needs and requirements of the nurses and doctors working with the system. **eMAR now supports a wide range of care homes across the UK**. As the population ages, the demand for care services that allow older individuals to remain in their homes becomes increasingly important. Therefore, solutions like eMAR will play a significant role in digitizing healthcare.
 
-Overcoming another hurdle, **we focused on refining a critical HealthTech feature – offline mode**. In situations where every second counts, having a reliable app without an internet connection is imperative. Our challenge was to **design an interface that unmistakably signals when users are in offline mode, ensuring seamless data synchronization at a later stage**. The emphasis here was on a clear and intuitive design.
-
-## ![result](/images/results_icon_title_small.png) result: successful scaling with over 1,000 health care organization customers
-
-**As an NHS Trusted Supplier and Crown Commercial Service Supplier Camascope has digitalised medicine distribution for over 1,000 health & care organizations**. The system is integrated with **leading pharmacy chains such as Boots, LloydsPharmacy, and Well**.
-
-We are proud to have helped Camascope level up its solution during a crucial scaling phase. Currently, **the system supports over 25,000 active patients across the UK**, establishing itself as a leading mMedTech platform for British care homes.
-
-During our collaboration with Camascope, we also built an [IOT system with MedTech wearables and a telemedicine application](/projects/remote-patient-monitoring/). Read more about it in another case study!
+During our collaboration with Camascope, we also built the [Remote Patient Monitoring with wearables and a telemedicine application](/projects/remote-patient-monitoring/). Read more about it in another case study!
