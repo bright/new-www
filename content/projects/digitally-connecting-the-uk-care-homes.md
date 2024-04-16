@@ -9,7 +9,7 @@ our_service:
   - product design
 layout: project
 project_id: eMAR
-title: Digitally Connecting the UK Care Homes
+title: Optimizing Medicine Distribution for the UK Care Homes
 image: /images/case_study_emar_ehealth.png
 description: Nurses are forced to juggle the care of multiple patients, each
   with unique health profiles, medication plans, and allergy considerations. If
@@ -48,7 +48,7 @@ redirect_from:
 show_team: true
 show_case_study: true
 show on homepage: false
-published: false
+published: true
 work_in_progress: false
 language: en
 ---
