@@ -85,3 +85,7 @@ One of the main reasons mobile health users uninstall the app is due to boredom 
 <div className="image">![motivation](/images/mhealth_uninstall_blog_motivation.png "motivation")</div>
 
 <blockquote><h2>Gamification in mHealth apps</h2><div>In gamification context, some identified themes were linked to various motivational affordances (game elements) in mHealth apps. The motivational affordances identified in this study include leader boards, challenges, levels, connection (relatedness), achievement, feedback, prompting, and tracking. An important factor was that most respondents who use non-gamified mHealth apps stated that motivation significantly affects their adherence. Hence, introducing game-like features can increase the prospect of adoption and continued use of fitness apps.</div><footer>User Engagement and Abandonment of mHealth: A Cross-Sectional Survey</footer></blockquote>
+
+This data suggests that if your app's goal is to engage users, you should consider integrating gamification features, possibly even in the MVP phase. These features are likely to be key components of your solution and a critical factor in its success.
+
+If you want to delve deeper into [patient engagement and gamification](/blog/delivering-patient-engagement-platform/), read our blog post on the subject.
