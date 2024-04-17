@@ -89,3 +89,5 @@ One of the main reasons mobile health users uninstall the app is due to boredom 
 This data suggests that if your app's goal is to engage users, you should consider integrating gamification features, possibly even in the MVP phase. These features are likely to be key components of your solution and a critical factor in its success.
 
 If you want to delve deeper into [patient engagement and gamification](/blog/delivering-patient-engagement-platform/), read our blog post on the subject.
+
+<div class='block-button'><h2>do you want to discuss your mHealth solution?</h2><div>We have been crafting mobile applications since 2012 for companies such as JustEatTakeaway, Circles, Relevo and EY etventure. Book a free consultation with our mobile development experts</div><a href="/our-areas/healthcare-software-development/"><button>book a free consultation in 48 hours</button></a></div>
