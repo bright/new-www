@@ -12,7 +12,7 @@ comments: true
 published: true
 language: en
 ---
-**Are mHealth app users more likely to uninstall your app compared to others? How can you keep your users engaged and committed to your solution? Protect your healthcare app from the risks of user abandonment by implementing 6 app development practices.**
+**Are mHealth app users more likely to uninstall your app compared to others? How can you keep your users engaged and committed to your solution? Protect your healthcare app from the risks of user abandonment by implementing 6 mobile app development practices.**
 
 <div className="image">![healthare app uninstallation](/images/mhealth_app_uninstallation.png "healthare app uninstallation")</div>
 
@@ -66,7 +66,7 @@ This point ties directly into the previous one. **Before launching your app, you
 
 Also, read more about these [mobile app success metrics and analytical tools](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/) that will help you measure them.
 
-## 4. Inclusive AI
+## 4. Inclusive AI for healthcare
 
 Another key reason for mHealth app uninstallation is that the app is 'not easy to use'. To address this, an inclusive UI can naturally attract users to your solution by immediately demonstrating the value of the mHealth app.
 
