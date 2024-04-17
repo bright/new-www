@@ -39,21 +39,9 @@ Data provided offline will be stored on the device and then synchronized when th
 
 While building a mobile solution for industries like **medical care, retail and transportation you have to offer an offline mode** in order to distinguish your product. 
 
-<div className="block-button"><h2>Looking for offline mode experts?</h2><div>Contact us to discuss and estimate your solution. We’ll be happy to share our experience.</div><a href="/start-project"><button>let's talk</button></a></div>
+Check out the actual case study of [healthcare eMAR software solution](/projects/emar-healthcare-solution/) with an offline mode that we helped to build.
 
-## Offline-first examples for various industries
-
-We have developed offline-first apps for many industries. Get access to actual case studies below.
-
-### Offline-first app for healthcare and medical care
-
-Tech used by doctors, nurses and other caregivers has to be a reliable tool that supports their actions and helps them eliminate mistakes. Remember, the patient's health is at risk here. 
-
-Let’s imagine an app for hospital staff that enables them to submit information about patients' vital signs measures, taken medicine, etc. **Hospital staff should be able to provide that with a phone or tablet on the go in patients' rooms no matter the internet connection**. Then the data should be synchronized as soon as the internet connection is sufficient. So other members of the hospital staff are well aware of the patient’s actual state. That's why offline mode is a crucial feature for healthcare.
-
-**Check out the actual case study of [vCare](/projects/vCare) healthcare app with an offline mode that we helped to build**.
-
-<div className="image">![vCare app with offline mode](../../static/images/vcare_fb_preview.png "vCare app with offline mode")</div>
+<div className="image">![eMar with offline mode](/images/fb_preview_case_study_emar_update_some.png "eMar  app with offline mode")</div>
 
 ### Offline-first app for retail and restaurants
 
@@ -101,4 +89,4 @@ We’ve explained [offline UX design](/blog/ux-design-healthcare-medical-apps-ca
 
 The offline mode might be a challenge, but this feature is crucial for many industries.
 
-<div className="block-button"><h2>Planning to build offline-first app?</h2><div>Contact us to discuss and estimate your solution. We’ll be happy to share our experience.</div><a href="/start-project"><button>let's talk</button></a></div>
+<div className="block-button"><h2>planning to build offline-first app?</h2><div>Contact us to discuss and estimate your solution. We’ll be happy to share our experience.</div><a href="/start-project"><button>book a free consultation in 48 hours</button></a></div>
