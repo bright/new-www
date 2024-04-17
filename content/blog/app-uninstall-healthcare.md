@@ -45,3 +45,11 @@ Explore [the case study of a FemTech app](/blog/data-driven-development-femtech-
 First interactions with the app are also crucial, as users admitted in the survey that they install several apps, compare them, and then keep only the best one:
 
 <div className="image">![mHealth App Abandonment](/images/mhealth_app_abandonment.jpg "mHealth App Abandonment")</div>
+
+## 3. Decisions based on data, not assumptions
+
+This point ties directly into the previous one. Before launching your app, you should install analytics tools – ideally more than one for data comparison – to observe how users interact with the app, including during onboarding and with crucial features. Only then will you truly understand how your solution performs and be able to respond accordingly. This approach is known as data-driven development, and we strongly encourage you to introduce it to your software development team.
+
+These are examples of metrics you should measure (apart from uninstallation rate): 
+
+<div className="image">![success metrics mobile app](/images/metrics-cheat-sheet_logo.png "success metrics mobile app")</div>
