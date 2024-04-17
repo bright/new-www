@@ -4,7 +4,7 @@ tags:
   - HealthTech
 date: 2024-04-17T07:20:37.002Z
 meaningfullyUpdatedAt: 2024-04-17T07:20:37.034Z
-title: app uninstall healthcare
+title: Why Do Users Uninstall mHealth Apps? Insights and Solutions
 layout: post
 image: /images/mhealth_app_uninstallation.png
 hidden: false
