@@ -2,12 +2,12 @@
 author: izabela
 tags:
   - HealthTech
-date: 2024-04-17T07:20:37.002Z
-meaningfullyUpdatedAt: 2024-04-17T07:20:37.034Z
+date: 2024-04-17T08:21:16.068Z
+meaningfullyUpdatedAt: 2024-04-17T08:21:17.150Z
 title: Why Do Users Uninstall mHealth Apps? Insights and Solutions
 layout: post
 image: /images/mhealth_app_uninstallation.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
