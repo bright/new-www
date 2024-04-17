@@ -57,3 +57,13 @@ These are examples of metrics you should measure (apart from uninstallation rate
 Also, read more about these [mobile app success metrics and analytical tools](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/) that will help you measure them.
 
 ## Inclusive AI
+
+Another key reason for mHealth app uninstallation is that the app is 'not easy to use'. To address this, an inclusive UI can naturally attract users to your solution by immediately demonstrating the value of the mHealth app.
+
+Understanding the User Persona is again a key! Before any mockups are developed, it’s wise to organize product workshops with your team to understand the end-users, benchmark your solutions against others, and establish core design principles.
+
+A case study: An App for Individuals with Parkinson’s Disease
+
+Designing an app for individuals suffering from Parkinson’s can be particularly challenging, as it must cater to users experiencing tremors and other movement disorders. Additionally, some users may be less tech-savvy. From the outset, it is crucial to design a UI that minimizes the potential for errors and, if an incorrect input does occur, easily allows the user to correct it.
+
+If you want to read more about developing a [mobile solution for People with Parkinson's Disease](/projects/solution-for-parkinsons-patients/), read the case study!
