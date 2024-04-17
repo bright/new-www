@@ -71,3 +71,9 @@ If you want to read more about developing a [mobile solution for People with Par
 Also, if you are looking for more UX and UI best practices for healthcare, check this article on [UX Design for Healthcare and Medical Apps Case Study](/blog/ux-design-healthcare-medical-apps-case-study/).
 
 ## 5. Minimizing users' frustrations with app performance monitoring
+
+Patients don't want to be your guinea pigs. It’s your responsibility to ensure the app performs properly. You should proactively monitor any performance issues, which is only possible with app performance monitoring tools. If you don't have performance monitoring implemented, check out our technical tutorial on how to set up [app performance monitoring for healthcare](/blog/healthcare-app-performance-monitoring/).
+
+Performance monitoring in healthcare offers numerous opportunities to identify potential issues in your solution before they frustrate your users:
+
+<div className="image">![mhealth app performance monitoring metrics](/images/app_performance_monitoring_metrics_update_blog.png "mhealth app performance monitoring metrics")</div>
