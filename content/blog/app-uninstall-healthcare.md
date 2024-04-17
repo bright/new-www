@@ -66,7 +66,7 @@ This point ties directly into the previous one. **Before launching your app, you
 
 Also, read more about these [mobile app success metrics and analytical tools](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/) that will help you measure them.
 
-## Inclusive AI
+## 4. Inclusive AI
 
 Another key reason for mHealth app uninstallation is that the app is 'not easy to use'. To address this, an inclusive UI can naturally attract users to your solution by immediately demonstrating the value of the mHealth app.
 
@@ -88,7 +88,7 @@ Performance monitoring in healthcare offers numerous opportunities to identify p
 
 <div className="image">![mhealth app performance monitoring metrics](/images/app_performance_monitoring_metrics_update_blog.png "mhealth app performance monitoring metrics")</div>
 
-## Patient engagement and gamification for better motivation
+## 6. Patient engagement and gamification for better motivation
 
 One of the main reasons mobile health users uninstall the app is due to boredom or loss of motivation. This is mostly applicable to lifestyle and fitness apps.
 
