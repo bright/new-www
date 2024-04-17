@@ -3,6 +3,7 @@ author: szymek
 secondAuthor: izabela
 tags:
   - business perspective
+  - HealthTech
 date: 2023-03-09T14:30:26.285Z
 meaningfullyUpdatedAt: 2023-06-21T06:59:33.489Z
 title: Offline-First App Guide for Startups and App Owners (Case Studies Included)
