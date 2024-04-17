@@ -40,7 +40,7 @@ This IoT network consists of a **thermometer** that measures the body’s temper
 
 The app and modern eHealth devices create a **healthcare IoT network that measures patients' vital signs and processes them in the app**. Now, the **app could send data to a designated doctor who can immediately verify the state of a patient**. IoT is definitely the future of healthcare. Or even the present because that technology already exists!
 
-**Check out an actual case study – [remote patient monitoring app with healthcare devices](/projects/remote-patient-monitoring/) that we helped to develop.**
+**Check out an actual case study – a [remote patient monitoring app with healthcare devices.](/projects/remote-patient-monitoring/)**
 
 <div className="image">![IoT in sports](../../static/images/sports_iot.png "IoT in sports")</div>
 
