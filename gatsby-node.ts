@@ -489,7 +489,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   createRedirect({ fromPath: '/jobs/rust-developer-1', toPath: '/jobs/rust-developer/' })
   createRedirect({ fromPath: '/blog/build-llm-application-with-rag-langchain-v0-1-0', toPath: '/blog/build-llm-application-with-rag-langchain' })
   createRedirect({ fromPath: '/blog/inspiration', toPath: '/blog/' })
-  createRedirect({ fromPath: '/projects/vCare/', toPath: 'projects/emar-healthcare-solution/' })
+  createRedirect({ fromPath: '/projects/vCare/', toPath: 'projects/emar-healthcare-solution/', statusCode: 301 })
 }
 
 export const onCreateNode: GatsbyNode['onCreateNode'] = async ({ node, actions: { createNodeField } }) => {
