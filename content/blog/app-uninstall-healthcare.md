@@ -21,3 +21,9 @@ App downloads are definitely one of the key success metrics to track when develo
 A [survey](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8872344/) from 2022 shows that around half of the users of a healthcare mobile app will uninstall it within the next 30 days.
 
 <div className="image">![](/images/mhealth_uninstall_data.png "")</div>
+
+Although these numbers might alarm app owners, it's useful to consider some benchmarks. [The uninstall rate for Android apps generally falls between 40-50%](https://www.appsflyer.com/resources/reports/app-uninstall-benchmarks/). In this context, **healthcare apps don’t seem to deviate from the trend**. This is simply the nature of the app lifecycle. As noted in an article, more than half of all apps installed are uninstalled within 30 days of download.
+
+<div className="image">![AppsFlyer](/images/app_uninstall_trend_android.png "AppsFlyer")</div>
+
+Source: [AppsFlyer](https://www.appsflyer.com/resources/reports/app-uninstall-benchmarks/)
