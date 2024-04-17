@@ -66,7 +66,7 @@ This point ties directly into the previous one. **Before launching your app, you
 
 Also, read more about these [mobile app success metrics and analytical tools](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/) that will help you measure them.
 
-## 4. Inclusive AI
+## 4. Inclusive AI for healthcare
 
 Another key reason for mHealth app uninstallation is that the app is 'not easy to use'. To address this, an inclusive UI can naturally attract users to your solution by immediately demonstrating the value of the mHealth app.
 
