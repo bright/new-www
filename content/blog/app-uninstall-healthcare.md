@@ -67,3 +67,5 @@ A case study: An App for Individuals with Parkinson’s Disease
 Designing an app for individuals suffering from Parkinson’s can be particularly challenging, as it must cater to users experiencing tremors and other movement disorders. Additionally, some users may be less tech-savvy. From the outset, it is crucial to design a UI that minimizes the potential for errors and, if an incorrect input does occur, easily allows the user to correct it.
 
 If you want to read more about developing a [mobile solution for People with Parkinson's Disease](/projects/solution-for-parkinsons-patients/), read the case study!
+
+Also, if you are looking for more UX and UI best practices for healthcare, check this article on [UX Design for Healthcare and Medical Apps Case Study](/blog/ux-design-healthcare-medical-apps-case-study/).
