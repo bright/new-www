@@ -37,3 +37,11 @@ It all starts way before the app installation. You plan a marketing budget for u
 If you feel like you still need to refine your user persona, check out our [free workshop template](https://miro.com/miroverse/b2b-buyer-persona-workshop-template/). It will assist you and your marketing and sales teams in this process.
 
 ## 2. Personalized onboarding
+
+In mobile health apps, the onboarding process should emphasize personalized treatment for your users and show that you care about them. This is particularly important if your mHealth app is designed to assist users with chronic conditions that affect their everyday lives or significant life events such as pregnancy, postpartum, or menopause.
+
+Explore [the case study of a FemTech app](/blog/data-driven-development-femtech-app-onboarding/) where simplifying and depersonalizing the onboarding process actually decreased the completion rate.
+
+First interactions with the app are also crucial, as users admitted in the survey that they install several apps, compare them, and then keep only the best one:
+
+<div className="image">![](/images/mhealth_app_abandonment.jpg "")</div>
