@@ -44,4 +44,4 @@ Explore [the case study of a FemTech app](/blog/data-driven-development-femtech-
 
 First interactions with the app are also crucial, as users admitted in the survey that they install several apps, compare them, and then keep only the best one:
 
-<div className="image">![](/images/mhealth_app_abandonment.jpg "")</div>
+<div className="image">![mHealth App Abandonment](/images/mhealth_app_abandonment.jpg "mHealth App Abandonment")</div>
