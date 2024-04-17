@@ -40,13 +40,13 @@ Source: [AppsFlyer](https://www.appsflyer.com/resources/reports/app-uninstall-be
 
 It all starts way before the app installation. You plan a marketing budget for user acquisition, but do you truly understand your target group? If you target the campaign to the wrong users, they will install the app, realize it’s not for them, and uninstall it – yet you will still have to foot the bill for acquiring them. Verify your marketing campaign with your marketing team to ensure you're reaching the right target group.
 
-If you feel like you still need to refine your user persona, check out our [free workshop template](https://miro.com/miroverse/b2b-buyer-persona-workshop-template/). It will assist you and your marketing and sales teams in this process.
+**If you feel like you still need to refine your user persona, check out our [free workshop template](https://miro.com/miroverse/b2b-buyer-persona-workshop-template/)**. It will assist you and your marketing and sales teams in this process.
 
 ## 2. Personalized onboarding
 
-In mobile health apps, the onboarding process should emphasize personalized treatment for your users and show that you care about them. This is particularly important if your mHealth app is designed to assist users with chronic conditions that affect their everyday lives or significant life events such as pregnancy, postpartum, or menopause.
+In mobile health apps, **the onboarding process should emphasize personalized treatment for your users and show that you care about them**. This is particularly important if your mHealth app is designed to assist users with chronic conditions that affect their everyday lives or significant life events such as pregnancy, postpartum, or menopause.
 
-Explore [the case study of a FemTech app](/blog/data-driven-development-femtech-app-onboarding/) where simplifying and depersonalizing the onboarding process actually decreased the completion rate.
+**Explore [the case study of a FemTech app](/blog/data-driven-development-femtech-app-onboarding/) where simplifying and depersonalizing the onboarding process actually decreased the completion rate**.
 
 First interactions with the app are also crucial, as users admitted in the survey that they install several apps, compare them, and then keep only the best one:
 
@@ -58,9 +58,9 @@ First interactions with the app are also crucial, as users admitted in the surve
 
 ## 3. Decisions based on data, not assumptions
 
-This point ties directly into the previous one. Before launching your app, you should install analytics tools – ideally more than one for data comparison – to observe how users interact with the app, including during onboarding and with crucial features. Only then will you truly understand how your solution performs and be able to respond accordingly. This approach is known as data-driven development, and we strongly encourage you to introduce it to your software development team.
+This point ties directly into the previous one. **Before launching your app, you should install analytics tools** – ideally more than one for data comparison – to observe how users interact with the app, including during onboarding and with crucial features. Only then will you truly understand how your solution performs and be able to respond accordingly. This approach is known as data-driven development, and we strongly encourage you to introduce it to your software development team.
 
-These are examples of metrics you should measure (apart from uninstallation rate): 
+**These are examples of metrics you should measure:** 
 
 <div className="image">![success metrics mobile app](/images/metrics-cheat-sheet_logo.png "success metrics mobile app")</div>
 
