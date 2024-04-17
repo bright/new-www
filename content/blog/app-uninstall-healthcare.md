@@ -77,3 +77,9 @@ Patients don't want to be your guinea pigs. It’s your responsibility to ensure
 Performance monitoring in healthcare offers numerous opportunities to identify potential issues in your solution before they frustrate your users:
 
 <div className="image">![mhealth app performance monitoring metrics](/images/app_performance_monitoring_metrics_update_blog.png "mhealth app performance monitoring metrics")</div>
+
+## Patient engagement and gamification for better motivation
+
+One of the main reasons mobile health users uninstall the app is due to boredom or loss of motivation. This is mostly applicable to lifestyle and fitness apps.
+
+<div className="image">![motivation](/images/mhealth_uninstall_blog_motivation.png "motivation")</div>
