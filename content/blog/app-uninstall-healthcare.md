@@ -32,3 +32,8 @@ So, is there anything we can do to reduce the user abandonment rate? Let’s exp
 
 ## 1. User-Focused Marketing Campaign
 
+It all starts way before the app installation. You plan a marketing budget for user acquisition, but do you truly understand your target group? If you target the campaign to the wrong users, they will install the app, realize it’s not for them, and uninstall it – yet you will still have to foot the bill for acquiring them. Verify your marketing campaign with your marketing team to ensure you're reaching the right target group.
+
+If you feel like you still need to refine your user persona, check out our [free workshop template](https://miro.com/miroverse/b2b-buyer-persona-workshop-template/). It will assist you and your marketing and sales teams in this process.
+
+## 2. Personalized onboarding
