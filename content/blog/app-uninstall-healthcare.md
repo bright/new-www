@@ -69,3 +69,5 @@ Designing an app for individuals suffering from Parkinson’s can be particularl
 If you want to read more about developing a [mobile solution for People with Parkinson's Disease](/projects/solution-for-parkinsons-patients/), read the case study!
 
 Also, if you are looking for more UX and UI best practices for healthcare, check this article on [UX Design for Healthcare and Medical Apps Case Study](/blog/ux-design-healthcare-medical-apps-case-study/).
+
+## 5. Minimizing users' frustrations with app performance monitoring
