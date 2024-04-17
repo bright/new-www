@@ -44,6 +44,10 @@ Check out the actual case study of [healthcare eMAR software solution](/projects
 
 <div className="image">![eMar with offline mode](/images/fb_preview_case_study_emar_update_some.png "eMar  app with offline mode")</div>
 
+## Offline-first examples for various industries
+
+We have developed offline-first apps for many industries. Get access to actual case studies below.
+
 ### Offline-first app for retail and restaurants
 
 Retail apps with payment features definitely should have an offline mode. **The quality of the internet shouldn’t affect the transaction**. So if you plan to build an app for retail and restaurant including a payment feature, an offline-first approach is a mandatory way to go.
