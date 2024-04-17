@@ -83,3 +83,5 @@ Performance monitoring in healthcare offers numerous opportunities to identify p
 One of the main reasons mobile health users uninstall the app is due to boredom or loss of motivation. This is mostly applicable to lifestyle and fitness apps.
 
 <div className="image">![motivation](/images/mhealth_uninstall_blog_motivation.png "motivation")</div>
+
+<blockquote><h2>Gamification in mHealth apps</h2><div>In gamification context, some identified themes were linked to various motivational affordances (game elements) in mHealth apps. The motivational affordances identified in this study include leader boards, challenges, levels, connection (relatedness), achievement, feedback, prompting, and tracking. An important factor was that most respondents who use non-gamified mHealth apps stated that motivation significantly affects their adherence. Hence, introducing game-like features can increase the prospect of adoption and continued use of fitness apps.</div><footer>User Engagement and Abandonment of mHealth: A Cross-Sectional Survey</footer></blockquote>
