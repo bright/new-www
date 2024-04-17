@@ -20,7 +20,7 @@ App downloads are definitely one of the key success metrics to track when develo
 
 A [survey](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8872344/) from 2022 shows that around half of the users of a healthcare mobile app will uninstall it within the next 30 days.
 
-<div className="image">![](/images/mhealth_uninstall_data.png "")</div>
+<div className="image">![app uninstall data](/images/mhealth_uninstall_data.png "app uninstall data")</div>
 
 Although these numbers might alarm app owners, it's useful to consider some benchmarks. [The uninstall rate for Android apps generally falls between 40-50%](https://www.appsflyer.com/resources/reports/app-uninstall-benchmarks/). In this context, **healthcare apps don’t seem to deviate from the trend**. This is simply the nature of the app lifecycle. As noted in an article, more than half of all apps installed are uninstalled within 30 days of download.
 
@@ -32,7 +32,9 @@ Although these numbers might alarm app owners, it's useful to consider some benc
 
 Source: [AppsFlyer](https://www.appsflyer.com/resources/reports/app-uninstall-benchmarks/)
 
-So, is there anything we can do to reduce the user abandonment rate? Let’s explore the top solutions to prevent users from uninstalling your app.
+<EbookDynamic sectionTitle='download the free guide on scaling HealthTech' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Get your pdf with reports, insights, case studies and tech recommendation. Nearly 100 pages just for you!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
+
+**So, is there anything we can do to reduce the user abandonment rate? Let’s explore the top solutions to prevent users from uninstalling your app.**
 
 ## 1. User-Focused Marketing Campaign
 
