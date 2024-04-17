@@ -18,6 +18,7 @@ project:
   - mobile-therapy-application
   - pregnancy-app
   - Remote Patient Monitoring
+  - eMAR
 layout: our-service
 our_service_id: healthcare software development
 meta_title: Healthcare Software Development
