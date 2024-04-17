@@ -34,27 +34,13 @@ The fact that you pay with your card and then receive a printed receipt means th
 
 **Check out an actual case study – [Just Eat POS applications](/projects/system-for-restaurants) that we built and scaled.**
 
-<div className="block-button"><h2>Planning to build your own IoT for retail or restaurant?</h2><div>We have developed IoT products for clients from Germany, Israel, USA and UK. Contact us to book a free consultation and estimate your IoT solution.</div><a href="/start-project"><button>let's talk about IoT</button></a></div>
-
-## IoT for healthcare
-
-Healthcare is an industry where IoT can support the prevention of many illnesses, especially cardiovascular diseases which are the [leading cause of death](https://www.who.int/health-topics/cardiovascular-diseases#tab=tab_1) globally. As an example of healthcare IoT check out a possible **network of a mobile phone, with a dedicated application, connected to eHealth devices** that send data to the app.
-
 <div className="image">![IoT for healthcare](../../static/images/iot_in_healthcare.png "IoT for healthcare")</div>
 
 This IoT network consists of a **thermometer** that measures the body’s temperature and thanks to a Bluetooth connection sends it to the app. The **spirometer** checks the respiration rate and sends data to the app too. Also, we have a **pulse oximeter** that sends data about heart rate. 
 
 The app and modern eHealth devices create a **healthcare IoT network that measures patients' vital signs and processes them in the app**. Now, the **app could send data to a designated doctor who can immediately verify the state of a patient**. IoT is definitely the future of healthcare. Or even the present because that technology already exists!
 
-**Check out an actual case study – [vCare healthcare application](/projects/vCare) that we helped to develop.**
-
-<div className="block-button"><h2>Planning to build your own IoT for healthcare?</h2><div>We have developed healthcare solutions dedicated to Parkinson's patients, pregnant women, people suffering from depression, caregivers and more. Contact us to book a free consultation and estimate your IoT healthcare solution.</div><a href="/start-project"><button>let's talk about IoT</button></a></div>
-
-## IoT in sports
-
-The network of devices connected with apps is quite known for athletes. Anyone can wear a **smartwatch to measure heart rate, burned calories**, and other data that are transferred to our phones and then we can analyze them. That also is the Internet of Things. 
-
-Gathered data might be similar to the one processed by healthcare IoT systems but the way we utilize the data may vary. According to data collected and analyzed with IoT apps and devices **athletes and coaches can plan workouts, establish dietary requirements**, and more. This can be managed by an IoT sports app built for specific disciplines such as cycling, running, or swimming.
+**Check out an actual case study – [remote patient monitoring app with healthcare devices](/projects/remote-patient-monitoring/) that we helped to develop.**
 
 <div className="image">![IoT in sports](../../static/images/sports_iot.png "IoT in sports")</div>
 
