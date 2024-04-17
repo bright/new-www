@@ -12,7 +12,7 @@ comments: true
 published: true
 language: en
 ---
-**Are mHealth app users more likely to uninstall your app compared to others? How can you keep your users engaged and committed to your solution? Protect your healthcare app from the risks of user abandonment by implementing 6 app development practices.**
+**Are mHealth app users more likely to uninstall your app compared to others? How can you keep your users engaged and committed to your solution? Protect your healthcare app from the risks of user abandonment by implementing 6 mobile app development practices.**
 
 <div className="image">![healthare app uninstallation](/images/mhealth_app_uninstallation.png "healthare app uninstallation")</div>
 
