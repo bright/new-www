@@ -24,7 +24,11 @@ A [survey](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8872344/) from 2022 show
 
 Although these numbers might alarm app owners, it's useful to consider some benchmarks. [The uninstall rate for Android apps generally falls between 40-50%](https://www.appsflyer.com/resources/reports/app-uninstall-benchmarks/). In this context, **healthcare apps don’t seem to deviate from the trend**. This is simply the nature of the app lifecycle. As noted in an article, more than half of all apps installed are uninstalled within 30 days of download.
 
+<center>
+
 <div className="image">![AppsFlyer](/images/app_uninstall_trend_android.png "AppsFlyer")</div>
+
+</center>
 
 Source: [AppsFlyer](https://www.appsflyer.com/resources/reports/app-uninstall-benchmarks/)
 
@@ -44,7 +48,11 @@ Explore [the case study of a FemTech app](/blog/data-driven-development-femtech-
 
 First interactions with the app are also crucial, as users admitted in the survey that they install several apps, compare them, and then keep only the best one:
 
+<center>
+
 <div className="image">![mHealth App Abandonment](/images/mhealth_app_abandonment.jpg "mHealth App Abandonment")</div>
+
+</center>
 
 ## 3. Decisions based on data, not assumptions
 
