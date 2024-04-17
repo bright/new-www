@@ -53,3 +53,5 @@ This point ties directly into the previous one. Before launching your app, you s
 These are examples of metrics you should measure (apart from uninstallation rate): 
 
 <div className="image">![success metrics mobile app](/images/metrics-cheat-sheet_logo.png "success metrics mobile app")</div>
+
+Also, read more about these [mobile app success metrics and analytical tools](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/) that will help you measure them:
