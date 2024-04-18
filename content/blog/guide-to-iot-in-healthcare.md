@@ -113,3 +113,7 @@ Although not exclusively an IoT application, telehealth often integrates IoT dev
 **Companies that do already do it: Teladoc Health, Amwell**
 
 ## IoT devices - examples
+
+IoT network in healthcare is also called The Internet of Medical Things (IoMT). It refers to a connected infrastructure of medical devices, software applications, and health systems and services. Let’s assess IoMT potential in geriatric healthcare.
+
+<div className="image">![IoT geriatric healthcare](/images/iot_geriatric_healthcare.png "IoT geriatric healthcare")</div>
