@@ -119,3 +119,7 @@ IoT network in healthcare is also called The Internet of Medical Things (IoMT). 
 <div className="image">![IoT geriatric healthcare](/images/iot_geriatric_healthcare.png "IoT geriatric healthcare")</div>
 
 Source: [nature.com](https://www.nature.com/articles/s41591-023-02391-8/figures/2)
+
+Devices and sensors such as cardiac monitors, fall-detection sensors, smart socks, digital mirrors, smart shoes, and assistive robots enable 24-hour care and remote patient monitoring. A physician or caregiver can monitor all the health data in real-time and respond with tailored treatment.
+
+Discover more [health smart devices that are transforming healthcare](/blog/bluetooth-devices-that-change-healthcare/).
