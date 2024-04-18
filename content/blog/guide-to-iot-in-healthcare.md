@@ -29,3 +29,17 @@ According to [IoT in Healthcare Market](https://www.marketsandmarkets.com/Market
 <div className="image">![IoT in the healthcare market overview](/images/iot_healthcare_market_stats.png "IoT in the healthcare market overview")</div>
 
 ## Top challenges in developing IoT solutions in healthcare
+
+### Data security and privacy
+
+Before you craft your IoT network, you need to implement security protocols and ensure secure data storage & sharing. Using a cloud provider for data storage can speed up your process of adhering to HIPAA or GDPR.
+
+### Integration of devices’ SDKs
+
+Some software teams face the challenge of integrating various healthcare devices with distinct Software Development Kits (SDKs) into a cohesive system. As a system owner, you need to be aware that designing a unified system might take more time than you initially assumed.
+
+### Poor internet coverage
+
+Medical systems should not be solely dependent on an internet connection, particularly when developing IoT solutions for remote patient monitoring. Interruptions in the storage and sharing of data can have serious implications for patient health. 
+
+A viable solution is an offline mode, allowing data to be stored locally and synchronized automatically once the connection is reestablished. Read our [guide to offline-first applications](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/).
