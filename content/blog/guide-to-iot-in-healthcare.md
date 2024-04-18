@@ -2,8 +2,8 @@
 author: izabela
 tags:
   - HealthTech
-date: 2024-04-18T08:51:02.927Z
-meaningfullyUpdatedAt: 2024-04-18T08:51:02.953Z
+date: 2024-04-18T09:08:18.541Z
+meaningfullyUpdatedAt: 2024-04-18T09:08:19.243Z
 title: "Introduction to IoT in Healthcare: Insights, Use Cases, Challenges and
   Benefits"
 layout: post
