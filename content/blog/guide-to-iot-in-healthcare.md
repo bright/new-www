@@ -43,3 +43,71 @@ Some software teams face the challenge of integrating various healthcare devices
 Medical systems should not be solely dependent on an internet connection, particularly when developing IoT solutions for remote patient monitoring. Interruptions in the storage and sharing of data can have serious implications for patient health. 
 
 A viable solution is an offline mode, allowing data to be stored locally and synchronized automatically once the connection is reestablished. Read our [guide to offline-first applications](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/).
+
+## Use cases & examples of IoT in healthcare
+
+### Telemedicine & Remote Patient Monitoring
+
+IoT enables continuous patient monitoring through wearable devices and other health sensors. This can significantly improve patient care by providing real-time data on vital signs like heart rate, blood pressure, and glucose levels. Remote monitoring is particularly valuable for managing chronic conditions and for elderly care, reducing the need for frequent hospital visits.
+
+**Companies that do already do it: Oracle Health, Meditech**
+
+### Electronic Health Records
+
+IoT enhances EHR systems by providing richer, real-time data that improves the quality of care, operational efficiency, and patient outcomes in healthcare settings. EHR systems can use data collected from IoT devices to perform predictive analytics, identifying potential health issues before they become serious.
+
+Companies that do already do it: MedKitDoc, Camascope, 
+
+### Wearable Health Monitors
+
+Devices like fitness bands and other wearable health trackers allow continuous monitoring of patients' vital signs such as heart rate, blood pressure, and oxygen levels. These devices can alert patients and doctors to potential health issues before they require acute care.
+
+Companies that do already do it: Fitbit, Garmin
+
+### Smart Hospitals
+
+IoT devices are used in hospitals to enhance patient care and optimize operations. For example, smart beds can detect when they're occupied and when a patient is attempting to get up. IoT can also track the location of medical equipment, like wheelchairs or defibrillators, improving asset utilization and reducing costs.
+
+**Companies that do already do it: GE Healthcare, Siemens Healthineers**
+
+### Personalized Medicine
+
+IoT can analyze data from various sources to tailor medical treatment to individual patients. This can involve adjusting medication based on how a patient's body reacts, which can be monitored through smart devices.
+
+**Companies that do already do it: IBM Watson Health, 23andMe**
+
+### Ingestible Sensors
+
+These tiny electronic devices are swallowed by patients and can collect data from within the body to diagnose and monitor digestive tract issues, medication adherence, and more.
+
+**Companies that do already do it: Proteus Digital Health, CapsoVision**
+
+### Fall Detection
+
+For elderly patients, sensors can detect changes in posture or abrupt movements that indicate a fall, automatically alerting healthcare providers and family members.
+
+**Companies that do already do it: Apple, Philips Lifeline**
+
+### Connected Inhalers
+
+For patients with asthma or chronic obstructive pulmonary disease (COPD), connected inhalers can track usage, monitor the patient's condition, and determine if the patient is using their inhaler correctly.
+
+**Companies that do already do it: Propeller Health, Teva Pharmaceuticals**
+
+### Smart Home Care
+
+Smart home technologies can help patients with disabilities or the elderly live independently. This includes voice-activated devices, motion sensors, and other monitoring technologies that help ensure safety and provide alerts to caregivers when needed.
+
+**Companies that do already do it: Google Nest, Alexa**
+
+### Supply Chain Management
+
+In healthcare facilities, IoT can be used for tracking inventory levels of medical supplies and automatically reordering when stock is low. This helps in ensuring that essential items are always available and can also help in tracking the usage rates of various supplies for better management.
+
+**Companies that do already do it: SAP, Oracle**
+
+### Telehealth and Virtual Visits
+
+Although not exclusively an IoT application, telehealth often integrates IoT devices for better patient outcomes during virtual visits. Data collected through patient monitors can be transmitted during a telehealth session, giving healthcare providers a better understanding of the patient’s current health status.
+
+**Companies that do already do it: Teladoc Health, Amwell**
