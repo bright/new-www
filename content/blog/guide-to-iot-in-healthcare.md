@@ -2,18 +2,34 @@
 author: izabela
 tags:
   - HealthTech
-date: 2024-04-18T09:08:18.541Z
-meaningfullyUpdatedAt: 2024-04-18T09:08:19.243Z
+date: 2024-04-18T09:48:45.519Z
+meaningfullyUpdatedAt: 2024-04-18T09:48:46.133Z
 title: "Introduction to IoT in Healthcare: Insights, Use Cases, Challenges and
   Benefits"
 layout: post
 image: /images/iot_introduction_dall_e.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
 ---
 **The Internet of Things will be one of the key technologies supporting the digital transformation of healthcare. Dive into IoT for healthcare, explore IoMT devices, and meet companies already taking crucial steps in implementing IoT in the daily care of patients.**
+
+<div className="image">![IoT devices healthcare](/images/iot_introduction_dall_e.png "IoT devices healthcare")</div>
+
+## Contents
+
+[Internet of Things in healthcare: the definition and example](/blog/guide-to-iot-in-healthcare/#internet-of-things-in-healthcare-the-definition-and-example)
+
+[IoT in the healthcare market overview](/blog/guide-to-iot-in-healthcare/#iot-in-the-healthcare-market-overview)
+
+[Top challenges in developing IoT solutions in healthcare](/blog/guide-to-iot-in-healthcare/#top-challenges-in-developing-iot-solutions-in-healthcare)
+
+[Use cases & examples of IoT in healthcare](/blog/guide-to-iot-in-healthcare/#use-cases--examples-of-iot-in-healthcare)
+
+[IoT devices - examples](/blog/guide-to-iot-in-healthcare/#iot-devices---examples)
+
+[Are you planning to develop IoT for healthcare?](/blog/guide-to-iot-in-healthcare/#are-you-planning-to-develop-iot-for-healthcare)
 
 ## Internet of Things in healthcare: the definition and example
 
@@ -25,7 +41,7 @@ For example, smart healthcare devices such as thermometers, spirometers and puls
 
 ## IoT in the healthcare market overview
 
-According to [IoT in Healthcare Market](https://www.marketsandmarkets.com/Market-Reports/iot-healthcare-market-160082804.html), the global IoT in Healthcare market size is projected to grow from $127.7 billion in 2023 to $289.2 billion by 2028.
+According to [IoT in Healthcare Market](https://www.marketsandmarkets.com/Market-Reports/iot-healthcare-market-160082804.html), the global IoT in Healthcare market size is projected to grow from USD 127.7 billion in 2023 to USD 289.2 billion by 2028.
 
 <div className="image">![IoT in the healthcare market overview](/images/iot_healthcare_market_stats.png "IoT in the healthcare market overview")</div>
 
@@ -131,6 +147,6 @@ Discover more [health smart devices that are transforming healthcare](/blog/blue
 
 As an [IoT development company](/our-areas/iot-development/), we have helped our clients leverage Internet of Things technology. If you want to discuss your solution, [book a free consultation with our IoT experts](/start-project/).
 
----
+- - -
 
 Blog cover: DALL·E
