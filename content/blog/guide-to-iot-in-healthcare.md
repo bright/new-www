@@ -4,7 +4,8 @@ tags:
   - HealthTech
 date: 2024-04-18T08:51:02.927Z
 meaningfullyUpdatedAt: 2024-04-18T08:51:02.953Z
-title: guide-to-iot-in-healthcare
+title: "Introduction to IoT in Healthcare: Insights, Use Cases, Challenges and
+  Benefits"
 layout: post
 image: /images/iot_introduction_dall_e.png
 hidden: false
