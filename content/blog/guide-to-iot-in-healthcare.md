@@ -111,3 +111,5 @@ In healthcare facilities, IoT can be used for tracking inventory levels of medic
 Although not exclusively an IoT application, telehealth often integrates IoT devices for better patient outcomes during virtual visits. Data collected through patient monitors can be transmitted during a telehealth session, giving healthcare providers a better understanding of the patient’s current health status.
 
 **Companies that do already do it: Teladoc Health, Amwell**
+
+## IoT devices - examples
