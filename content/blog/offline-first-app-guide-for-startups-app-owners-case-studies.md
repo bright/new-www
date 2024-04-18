@@ -3,6 +3,7 @@ author: szymek
 secondAuthor: izabela
 tags:
   - business perspective
+  - HealthTech
 date: 2023-03-09T14:30:26.285Z
 meaningfullyUpdatedAt: 2023-06-21T06:59:33.489Z
 title: Offline-First App Guide for Startups and App Owners (Case Studies Included)
@@ -51,7 +52,7 @@ Tech used by doctors, nurses and other caregivers has to be a reliable tool that
 
 Let’s imagine an app for hospital staff that enables them to submit information about patients' vital signs measures, taken medicine, etc. **Hospital staff should be able to provide that with a phone or tablet on the go in patients' rooms no matter the internet connection**. Then the data should be synchronized as soon as the internet connection is sufficient. So other members of the hospital staff are well aware of the patient’s actual state. That's why offline mode is a crucial feature for healthcare.
 
-**Check out the actual case study of [vCare](/projects/vCare) healthcare app with an offline mode that we helped to build**.
+**Check out the actual case study of [healthcare eMAR software solution](/projects/emar-healthcare-solution/) with an offline mode that we helped to build**.
 
 <div className="image">![vCare app with offline mode](../../static/images/vcare_fb_preview.png "vCare app with offline mode")</div>
 
