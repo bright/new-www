@@ -27,3 +27,5 @@ For example, smart healthcare devices such as thermometers, spirometers and puls
 According to [IoT in Healthcare Market](https://www.marketsandmarkets.com/Market-Reports/iot-healthcare-market-160082804.html), the global IoT in Healthcare market size is projected to grow from $127.7 billion in 2023 to $289.2 billion by 2028.
 
 <div className="image">![IoT in the healthcare market overview](/images/iot_healthcare_market_stats.png "IoT in the healthcare market overview")</div>
+
+## Top challenges in developing IoT solutions in healthcare
