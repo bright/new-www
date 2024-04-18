@@ -125,3 +125,7 @@ Source: [nature.com](https://www.nature.com/articles/s41591-023-02391-8/figures/
 Devices and sensors such as cardiac monitors, fall-detection sensors, smart socks, digital mirrors, smart shoes, and assistive robots enable 24-hour care and remote patient monitoring. A physician or caregiver can monitor all the health data in real-time and respond with tailored treatment.
 
 Discover more [health smart devices that are transforming healthcare](/blog/bluetooth-devices-that-change-healthcare/).
+
+## Are you planning to develop IoT for healthcare?
+
+As an [IoT development company](/our-areas/iot-development/), we have helped our clients leverage Internet of Things technology. If you want to discuss your solution, [book a free consultation with our IoT experts](/start-project/).
