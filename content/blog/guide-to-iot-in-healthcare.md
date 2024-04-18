@@ -44,6 +44,8 @@ Medical systems should not be solely dependent on an internet connection, partic
 
 A viable solution is an offline mode, allowing data to be stored locally and synchronized automatically once the connection is reestablished. Read our [guide to offline-first applications](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/).
 
+<EbookDynamic sectionTitle='are you facing tech challenges while scaling HealthTech?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download our free guide about scaling software solutions for healthcare. Almost 100 pages about leveraging technology in digital health!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
+
 ## Use cases & examples of IoT in healthcare
 
 ### Telemedicine & Remote Patient Monitoring
