@@ -6,8 +6,8 @@ slug: radek-l
 name: Radosław Landowski
 short_name: Radek
 email: radoslaw.landowski@brightinventions.pl
-bio: Backend Developer
-description: Backend Developer
+bio: Senior Backend Developer
+description: Senior Backend Developer
 avatar: /images/radek_2_team.png
 avatar_hover: /images/radek_2passion.png
 published: true
