@@ -15,6 +15,22 @@ language: en
 ---
 **The Internet of Things will be one of the key technologies supporting the digital transformation of healthcare. Dive into IoT for healthcare, explore IoMT devices, and meet companies already taking crucial steps in implementing IoT in the daily care of patients.**
 
+<div className="image">![IoT devices healthcare](/images/iot_introduction_dall_e.png "IoT devices healthcare")</div>
+
+## Contents
+
+[Internet of Things in healthcare: the definition and example](/blog/guide-to-iot-in-healthcare/#internet-of-things-in-healthcare-the-definition-and-example)
+
+[IoT in the healthcare market overview](/blog/guide-to-iot-in-healthcare/#iot-in-the-healthcare-market-overview)
+
+[Top challenges in developing IoT solutions in healthcare](/blog/guide-to-iot-in-healthcare/#top-challenges-in-developing-iot-solutions-in-healthcare)
+
+[Use cases & examples of IoT in healthcare](/blog/guide-to-iot-in-healthcare/#use-cases--examples-of-iot-in-healthcare)
+
+[IoT devices - examples](/blog/guide-to-iot-in-healthcare/#iot-devices---examples)
+
+[Are you planning to develop IoT for healthcare?](/blog/guide-to-iot-in-healthcare/#are-you-planning-to-develop-iot-for-healthcare)
+
 ## Internet of Things in healthcare: the definition and example
 
 The Internet of Things (IoT) in healthcare refers to the network of medical devices and applications that communicate and exchange data due to an Internet and bluetooth connection.
@@ -131,6 +147,6 @@ Discover more [health smart devices that are transforming healthcare](/blog/blue
 
 As an [IoT development company](/our-areas/iot-development/), we have helped our clients leverage Internet of Things technology. If you want to discuss your solution, [book a free consultation with our IoT experts](/start-project/).
 
----
+- - -
 
 Blog cover: DALL·E
