@@ -8,7 +8,7 @@ title: "Introduction to IoT in Healthcare: Insights, Use Cases, Challenges and
   Benefits"
 layout: post
 image: /images/iot_introduction_dall_e.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
