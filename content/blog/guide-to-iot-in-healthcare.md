@@ -129,3 +129,7 @@ Discover more [health smart devices that are transforming healthcare](/blog/blue
 ## Are you planning to develop IoT for healthcare?
 
 As an [IoT development company](/our-areas/iot-development/), we have helped our clients leverage Internet of Things technology. If you want to discuss your solution, [book a free consultation with our IoT experts](/start-project/).
+
+---
+
+Blog cover: DALL·E
