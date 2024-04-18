@@ -117,3 +117,5 @@ Although not exclusively an IoT application, telehealth often integrates IoT dev
 IoT network in healthcare is also called The Internet of Medical Things (IoMT). It refers to a connected infrastructure of medical devices, software applications, and health systems and services. Let’s assess IoMT potential in geriatric healthcare.
 
 <div className="image">![IoT geriatric healthcare](/images/iot_geriatric_healthcare.png "IoT geriatric healthcare")</div>
+
+Source: [nature.com](https://www.nature.com/articles/s41591-023-02391-8/figures/2)
