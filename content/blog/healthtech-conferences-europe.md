@@ -102,7 +102,7 @@ Details: [https://europe.hlth.com](https://europe.hlth.com/)
 
 **Number of attendees**: 300+
 
-**Key speakers**: 
+**Keynote speaker**: 
 
 * Lorraine Foley - Chief Executive Officer at Professional Record Standards Body (PRSB)
 
