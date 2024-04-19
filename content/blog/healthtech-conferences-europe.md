@@ -3,7 +3,7 @@ author: izabela
 tags:
   - HealthTech
 date: 2024-02-07T10:04:20.149Z
-meaningfullyUpdatedAt: 2024-02-07T10:04:20.755Z
+meaningfullyUpdatedAt: 2024-04-19T06:34:45.393Z
 title: Top HealthTech Conferences to Attend in Europe in 2024
 layout: post
 image: /images/blog_conference.png
