@@ -16,42 +16,6 @@ language: en
 
 <div className="image">![conference](../../static/images/blog_conference.png "conference")</div>
 
-## The Third Annual Healthcare Innovation and Technology Conference and Exhibition 2024
-
-**Date**: February 27, 2024
-
-**City**: London
-
-**Ticket pricing**: from £299+VAT to £549+VAT
-
-**Number of attendees**: 300
-
-**Keynote speakers**: 
-
-* Ian Townend, Chief Architect, NHS England, 
-* James Freed, Head of Digital Academy for Health and Care, NHS England, 
-* Megan Morys-Carter, Director of Digital Innovation (TheHill), Oxford University Hospitals.
-
-It might be the smallest event in the article, but it's still the one to consider. The one-day event held in the Royal Society of Medicine gathers leaders of the healthcare sector. You will have a chance to listen to prominent speakers who are shaping the future of healthcare in the UK.
-
-Details: [https://igpp.org.uk/](https://igpp.org.uk/event/The-Third-Annual-Healthcare-Innovation-and-Technology-Conference-and-Exhibition-2024/)
-
-## DMEA 2024 - Connecting Digital Health
-
-**Date**: 9-11 April 2024
-
-**City**: Berlin
-
-**Ticket pricing**: from €200 to €329
-
-**Number of attendees**: 16,000
-
-**Keynote speakers**: Federal Minister of Health Prof. Dr. Karl Lauterbach
-
-700 exhibitors focusing on digital health in one place! That’s DMEA gathering HealthTech startups and entrepreneurs. Apart from that, DMEA offers numerous seminars focusing on the tech challenges in digital health.
-
-Details: [www.dmea.de/en](https://www.dmea.de/en/)
-
 ## The MedTech Forum
 
 **Date**: 22-24 May 2024
@@ -123,6 +87,22 @@ Details: [www.bitsandpretzels.com/healthtech](https://www.bitsandpretzels.com/he
 Connect with key decision-makers in HealthTech from over 50 countries. Over 3,000 meetings were held at 2023 edition between payers and heathcare providers.
 
 Details: [https://europe.hlth.com](https://europe.hlth.com/)
+
+## The Healthcare Innovation and Technology North Conference and Exhibition 2024
+
+**Date**: 22.02.2024
+
+**City**: Manchester
+
+**Ticket pricing**: from £249.00+VAT to £599.00+VAT
+
+**Number of attendees**: 300+
+
+**Key speakers**: Lorraine Foley, Professional Record Standards Body (PRSB), Chief Executive Officer
+
+Discuss digital health with healthcare leaders representing top British hospitals.
+
+Details: [igpp.org.uk/event/](https://igpp.org.uk/event/Healthcare-Innovation-and-Technology-North-Conference-and-Exhibition-2024/)
 
 - - -
 
