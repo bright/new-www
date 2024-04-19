@@ -29,12 +29,14 @@ language: en
 **Keynote speakers**: 
 
 * Ardy Arianpour - CEO and Co-Founder at SEQSTER;
-* K.R. PrabhaVP - Strategy, Growth and Innovation at OptumDigital Health 2924 is rather a small event, yet bringing top HealthTech leaders.
+* K.R. PrabhaVP - Strategy, Growth and Innovation at Optum;
 * Patrick J. Kennedy - Former U.S. Representative (D-RI) and Founder of The Kennedy Forum.
 
 Over 80 oral and poster research presentations offering CME opportunities will keep attendees at the forefront of the latest innovations and findings.
 
 Details: [ata-nexus.org](https://ata-nexus.org/)
+
+<EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
 
 ## Digital Health 2024
 
@@ -69,5 +71,3 @@ Details: [events.reutersevents.com/healthcare/digital-health-usa](https://events
 A Las Vegas conference that covers the latest in healthcare innovation and solutions. Speakers will be announced soon.
 
 Details: [www.hlth.com/2024event](https://www.hlth.com/2024event)
-
-<EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
