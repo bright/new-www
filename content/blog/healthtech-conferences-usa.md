@@ -28,12 +28,13 @@ language: en
 
 **Keynote speakers**: 
 
-* Ardy Arianpour, CEO and Co-Founder at SEQSTER;
-*
+* Ardy Arianpour - CEO and Co-Founder at SEQSTER;
+* K.R. PrabhaVP - Strategy, Growth and Innovation at OptumDigital Health 2924 is rather a small event, yet bringing top HealthTech leaders.
+* Patrick J. Kennedy - Former U.S. Representative (D-RI) and Founder of The Kennedy Forum.
 
-Digital Health 2924 is rather a small event, yet bringing top HealthTech leaders.
+Over 80 oral and poster research presentations offering CME opportunities will keep attendees at the forefront of the latest innovations and findings.
 
-Details: https://events.reutersevents.com/healthcare/digital-health-usa
+Details: [ata-nexus.org](https://ata-nexus.org/)
 
 ## Digital Health 2024
 
