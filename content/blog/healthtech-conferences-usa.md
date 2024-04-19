@@ -18,7 +18,7 @@ language: en
 
 ## American Telemedicine Association ATA Nexus 2024
 
-**Date**: 5-7 May 2024
+**Date**: May 5-7, 2024
 
 **City**: Phoenix
 
@@ -40,7 +40,7 @@ Details: [ata-nexus.org](https://ata-nexus.org/)
 
 ## Digital Health 2024
 
-**Date**: 14-15 May 2024
+**Date**: May 14-15, 2024
 
 **City**: San Diego
 
@@ -60,7 +60,7 @@ Details: [events.reutersevents.com/healthcare/digital-health-usa](https://events
 
 ## HLTH 2024
 
-**Date**: 20-23 October 2024
+**Date**: October 20-23, 2024
 
 **City**: Las Vegas
 
