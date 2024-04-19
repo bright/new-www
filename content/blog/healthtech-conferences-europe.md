@@ -34,7 +34,7 @@ Details: [www.themedtechforum.eu](https://www.themedtechforum.eu/)
 
 ## European Health Conference & Exhibition
 
-**Date**: 29-31.05.2024
+**Date**: 29-31 May 2024
 
 **City**: Rome
 
@@ -94,7 +94,7 @@ Details: [https://europe.hlth.com](https://europe.hlth.com/)
 
 ## The Healthcare Innovation and Technology North Conference and Exhibition 2024
 
-**Date**: 22.02.2024
+**Date**: 22 October 2024
 
 **City**: Manchester
 
