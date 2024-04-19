@@ -102,7 +102,9 @@ Details: [https://europe.hlth.com](https://europe.hlth.com/)
 
 **Number of attendees**: 300+
 
-**Key speakers**: Lorraine Foley, Professional Record Standards Body (PRSB), Chief Executive Officer
+**Key speakers**: 
+
+* Lorraine Foley - Chief Executive Officer at Professional Record Standards Body (PRSB)
 
 Discuss digital health with healthcare leaders representing top British hospitals.
 
