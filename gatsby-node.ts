@@ -253,6 +253,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
                   language
                 }
               }
+              blog_section_tags
             }
             internal {
               contentFilePath
@@ -272,6 +273,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         id: service.node.id,
         slug: service.node.frontmatter!!.slug,
         language: service.node.frontmatter!!.language,
+        blog_section_tags: service.node.frontmatter!!.blog_section_tags || [],
       },
     })
 

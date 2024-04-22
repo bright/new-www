@@ -51,13 +51,9 @@ const Image = styled.figure`
 
 const PopularBlogPostBoxContainer = styled.div`
   width: 100%;
-  height: 100%;
+  height: 95%;
   border: 1px solid #d3d3d3;
   overflow: hidden;
-
-  @media (max-width: 991px) {
-    height: auto;
-  }
 
   &:hover {
     box-shadow: 15px 15px 40px -25px rgba(170, 170, 170, 1);

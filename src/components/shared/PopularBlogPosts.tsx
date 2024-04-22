@@ -5,6 +5,10 @@ import { routeLinks } from '../../config/routing'
 import { useTopBlogPosts } from '../../use-blog-posts/use-blog-posts'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
+import { toBlogPost } from '../../use-blog-posts/blog-post-frontmatter-query-result'
+import TeamMemebersSwiper from '../subcomponents/TeamMembersSwiper'
+import { useWindowSize } from '../utils/use-windowsize'
+import { Swiper, SwiperSlide } from 'swiper/react'
 
 const HeroSectionTitle = styled(CustomSectionTitle)`
   margin: 11.625rem 0 4.56rem;
@@ -78,14 +82,17 @@ const MoreButtonBlogWrapper = styled.div`
   }
 `
 
-const PopularBlogPosts: FC = () => {
+const PopularBlogPosts = ({ posts, title }: { posts?: ReturnType<typeof toBlogPost>[], title?: string }) => {
   const blogPosts = useTopBlogPosts()
+  const { width } = useWindowSize()
+  const toScrollBreakpoint = 992
 
   return (
     <HeroBlog>
-      <HeroSectionTitle>recent blog posts</HeroSectionTitle>
-      <div className='hero-blog columns is-multiline is-12'>
-        {blogPosts.map((post, ix) => {
+      <HeroSectionTitle>{title || 'recent blog posts'}</HeroSectionTitle>
+
+      {width >= toScrollBreakpoint && <div className='hero-blog columns is-multiline is-12'>
+        {(posts || blogPosts).map((post, ix) => {
           return (
             <div className='hero-blog column is-6' key={post.title}>
               <PopularBlogPostBox
@@ -100,7 +107,35 @@ const PopularBlogPosts: FC = () => {
             </div>
           )
         })}
-      </div>
+      </div>}
+
+      {width < toScrollBreakpoint && <div className='hero-blog columns is-multiline is-12'>
+        <Swiper slidesPerView={1.1}
+                spaceBetween={16}
+                loop={false}
+                breakpoints={{
+                  580: {
+                    slidesPerView: 2.1,
+                    spaceBetween: 32,
+                  },
+                }}>
+          {(posts || blogPosts).map((post, ix) => {
+            return (
+              <SwiperSlide key={post.slug} style={{ height: 'auto' }}>
+                <PopularBlogPostBox
+                  date={post.date}
+                  meaningfullyUpdatedAt={post.meaningfullyUpdatedAt}
+                  tags={post.tags}
+                  image={post.image}
+                  url={post.slug}
+                  title={post.title}
+                  key={ix}
+                />
+              </SwiperSlide>
+            )
+          })}
+        </Swiper>
+      </div>}
       <MoreButtonBlogWrapper>
         <MoreButton className='btn' href={routeLinks.blog}>
           more blog posts

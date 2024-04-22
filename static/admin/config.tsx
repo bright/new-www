@@ -1,3 +1,5 @@
+import { loadTagGroups } from '../../src/tags/tag-groups'
+
 const languageWidget = {
   label: 'Language',
   name: 'language',
@@ -5,6 +7,28 @@ const languageWidget = {
   default: 'en',
   options: ['en', 'de'],
 }
+
+const blogSectionWidgetTags = {
+    label: 'Blog section tags',
+    name: 'blog_section_tags',
+    widget: 'select',
+    multiple: true,
+    options: [] as string[],
+  };
+
+const blogSectionWidget = [
+  {
+    label: 'Blog section',
+    name: 'blog_section',
+    widget: 'boolean',
+  },
+  blogSectionWidgetTags,
+  {
+    label: 'Blog section custom title',
+    name: 'blog_section_title',
+    widget: 'text',
+  }
+]
 
 export const blogCollectionName = 'blog'
 const authorFieldName = 'author'
@@ -804,6 +828,7 @@ const config = {
           widget: 'markdown',
         },
         languageWidget,
+        ...blogSectionWidget,
       ],
     },
     {
@@ -875,6 +900,27 @@ const config = {
   ],
 }
 
+const getTags = async () => {
+  const ymlDocTags = await loadTagGroups()
+
+  return ymlDocTags.allGroups.map(({ name }) => name)
+}
+
+function isBlogSectionWidget(field: unknown): field is typeof blogSectionWidgetTags {
+  return (field as typeof blogSectionWidgetTags).name === 'blog_section_tags';
+}
+
 export default async () => {
+  const options = await getTags();
+
+  config.collections.forEach((collection) => {
+    collection.fields.forEach((field) => {
+      if (isBlogSectionWidget(field)) {
+        field.options = options
+      }
+    })
+  })
+
   return config
 }
+
