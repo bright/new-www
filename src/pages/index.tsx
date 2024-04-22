@@ -9,7 +9,7 @@ import { Projects } from '../components/home/Projects'
 const Ratings = React.lazy(() => import('../components/shared/Ratings'))
 import { Contact } from '../components/shared/Contact'
 // const HeroHeaderImages = React.lazy(() => import('../components/home/HeroHeaderImages'))
-const PopularBlogPosts = React.lazy(() => import('../components/home/PopularBlogPosts'))
+const PopularBlogPosts = React.lazy(() => import('../components/shared/PopularBlogPosts'))
 import '../styles/_page-index.scss'
 // import { BlockchainExperts } from '../components/home/BlockchainExperts'
 import { Script } from 'gatsby'

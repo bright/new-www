@@ -36,7 +36,10 @@ import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
 
 import { MoreButton } from '../components/shared'
 import FaqsDropdown from '../components/shared/FaqsDropdown'
+import { toBlogPost } from '../use-blog-posts/blog-post-frontmatter-query-result'
+import { useClient } from '../hooks/useClient'
 
+const PopularBlogPosts = React.lazy(() => import('../components/shared/PopularBlogPosts'))
 const TechnologyTags = React.lazy(() => import('../components/shared/TechnologyTags'))
 const TeamMembers = React.lazy(() => import('../components/subcomponents/TeamMembers'))
 // const TeamMemebersSwiper = React.lazy(() => import('../components/subcomponents/TeamMembersSwiper'))
@@ -46,11 +49,12 @@ export default function Template({
   pageContext,
   children,
 }: PropsWithChildren<{
-  data: { mdx: any }
+  data: { service: any, related: any }
   pageContext: { faqTitle: string; faqSlug: string; language: string }
 }>) {
-  const { mdx } = data // data.mdx holds your post data
-  const { frontmatter: page } = mdx
+  const { service, related } = data // data.mdx holds your post data
+  const { frontmatter: page } = service
+  const posts: ReturnType<typeof toBlogPost>[] = related.edges.map((edge: any) => toBlogPost(edge.node))
   const { width } = useWindowSize()
   const breakpointTablet = 992
   const mobileImage = getImage(page.image_our_service_mobile)
@@ -78,6 +82,7 @@ export default function Template({
   // }, [])
 
   const [show, setShow] = useState<any>({})
+  const isClient = useClient();
 
   const {
     faqs,
@@ -100,7 +105,10 @@ export default function Template({
     bullet_points,
     project: projects,
     slug,
+    blog_section,
+    blog_section_title,
   } = page
+
   const titleArr = title.split(' ')
   const newTitle = titleArr.map((ta: string) => {
     const highlightedWordArr = highlighted_word?.split(' ')
@@ -236,6 +244,11 @@ export default function Template({
           />
         </div>
       )}
+
+      {isClient && blog_section && <>
+        <PopularBlogPosts posts={posts} title={blog_section_title} />
+      </>}
+
       <CustomSection paddingProps='2rem 15rem 2rem 15rem' paddingLaptop='5rem 6rem 0rem' paddingMobileProps='0 1.125rem 0'>
         <CustomSectionInner>
           <a href='#faqs' style={{display: 'block'}}>
@@ -286,8 +299,38 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-  query($id: String!) {
-    mdx(id: { eq: $id }) {
+  query($id: String!, $blog_section_tags: [String!]) {
+    related: allMdx(
+      filter: {frontmatter: {tags: {in: $blog_section_tags}}}
+      limit: 4
+    ) {
+      edges {
+        node {
+          id
+          internal {  contentFilePath  }
+          excerpt(pruneLength: 500)
+          frontmatter {
+            excerpt
+            comments
+            image {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+            author
+            title
+            tags
+            date
+            meaningfullyUpdatedAt
+          }
+          fields {
+            slug
+            timeToRead { minutes }
+          }   
+        }
+      }
+    }
+    service: mdx(id: { eq: $id }) {
       frontmatter {
         team_members
         faqs {
@@ -339,6 +382,8 @@ export const pageQuery = graphql`
             gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE, webpOptions: { quality: 100 })
           }
         }
+        blog_section
+        blog_section_title
       }
     }
   }

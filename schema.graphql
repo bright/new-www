@@ -1239,6 +1239,9 @@ type OurAreasFrontmatter {
   title_contact: String!
   title_faqs: String!
   title_team: String!
+  blog_section: Boolean!
+  blog_section_tags: [String]
+  blog_section_title: String
 }
 
 type OurAreasGroupConnection {
