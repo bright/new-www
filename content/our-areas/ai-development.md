@@ -82,7 +82,7 @@ We offer tailored AI prompt engineering services designed to meet your business 
 
 We build **Large Language Models trained on vast amounts of textual data, enabling you to generate and process natural language text**. These systems can produce a wide variety of outputs, including text, images, music, and even video.
 
-## Natural Language Processing solutions
+## natural language processing solutions
 
 We delve into the realm of Natural Language Processing offering personalized NLP solutions tailored to your unique requirements, **providing your users with the most human-like experience possible**.
 
