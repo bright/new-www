@@ -59,6 +59,10 @@ title_contact: book a free consultation in 48 hours
 description_contact: Let’s discuss your AI project. Fill out the form below and
   we'll get back to you in 48 hours.
 language: en
+blog_section: true
+blog_section_tags:
+  - AI
+blog_section_title: our team’s insights into AI development
 ---
 Whether you require complex systems with an extensive vector database or a no-code solution, our AI engineers will build a secure and thoroughly tested AI solution. Every element, including embeddings and prompts, is meticulously scrutinized for optimal utilization. **From the beginning, you will understand the potential of your solution as well as its operational costs**.
 
