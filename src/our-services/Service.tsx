@@ -302,6 +302,7 @@ export const pageQuery = graphql`
   query($id: String!, $blog_section_tags: [String!]) {
     related: allMdx(
       filter: {frontmatter: {tags: {in: $blog_section_tags}}}
+      sort: { frontmatter: {meaningfullyUpdatedAt: DESC } }
       limit: 4
     ) {
       edges {
