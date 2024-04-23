@@ -14,7 +14,7 @@ export function ArrowBackOrange(props: any) {
         style={{
           strokeLinejoin: 'round',
           fill: 'none',
-          stroke: '#f7931e',
+          stroke: '#FE6B00',
           strokeLinecap: 'round',
           strokeWidth: 3,
         }}
@@ -24,7 +24,7 @@ export function ArrowBackOrange(props: any) {
         style={{
           strokeMiterlimit: 10,
           fill: 'none',
-          stroke: '#f7931e',
+          stroke: '#FE6B00',
           strokeLinecap: 'round',
           strokeWidth: 3,
         }}

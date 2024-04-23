@@ -87,11 +87,11 @@ const Label = styled.label`
       border-radius: 50%;
       transform: scale(0);
       transition: 120ms transform ease-in-out;
-      background: #f7931e 0% 0% no-repeat padding-box;
+      background: #FE6B00 0% 0% no-repeat padding-box;
     }
 
     &:checked {
-      border: 1px solid #f7931e;
+      border: 1px solid #FE6B00;
       color: #0a0a0a;
       opacity: 1;
     }

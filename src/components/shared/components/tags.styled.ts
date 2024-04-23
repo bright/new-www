@@ -22,7 +22,7 @@ export const TagsWrapper = styled.ul<{ isBlogTagsAll?: boolean }>`
     }
 
     &:hover {
-      border: 1px solid #f7931e;
+      border: 1px solid #FE6B00;
     }
   }
   @media ${variables.device.laptop} {
@@ -69,7 +69,7 @@ export const TagsLink = styled(Link)`
 
   &.is-active {
     font-weight: bold;
-    border: 1px solid #f7931e;
+    border: 1px solid #FE6B00;
   }
   &::first-letter {
     text-transform: lowercase;

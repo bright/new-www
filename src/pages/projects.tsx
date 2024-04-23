@@ -26,7 +26,7 @@ const SectionProjects = styled(CustomSection)`
 
   & li.is-active {
     font-weight: bold;
-    border: 1px solid #f7931e;
+    border: 1px solid #FE6B00;
   }
 
   &::first-letter {

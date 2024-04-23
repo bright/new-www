@@ -175,8 +175,8 @@ const AuthorsSection = styled.article`
       margin-bottom: ${clampBuilder(360, 1920, 32, 36)};
     }
     & button {
-      border: 1px solid #f7931e;
-      background: #f7931e;
+      border: 1px solid #FE6B00;
+      background: #FE6B00;
       font-family: 'Montserrat', sans-serif;
       font-style: normal;
       font-weight: 700;

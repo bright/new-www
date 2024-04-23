@@ -8,7 +8,7 @@ blockquote {
 }
 blockquote::before {
   content: '“';
-  color: #f7931e;
+  color: #FE6B00;
   position: absolute;
   font-family: Montserrat, "DejaVu Sans", Verdana, sans‑serif, serif;
   font-size: 231px;
