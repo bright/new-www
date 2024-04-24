@@ -1031,6 +1031,7 @@ type MdxFrontmatter {
   web: String
   working_time: String
   workplace_recruiter: String
+  blog_section_tags: [String]
 }
 
 type MdxFrontmatterBar_achievements {

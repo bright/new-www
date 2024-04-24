@@ -1,9 +1,10 @@
 import { CreatePagesArgs } from 'gatsby'
+import { GQLData } from './models/gql'
 
-export async function queryPostsSlug({ graphql, tags }: Pick<CreatePagesArgs, 'graphql'> & { tags?: string[] }) {
+export async function queryPostsSlug({ graphql, tags }: Pick<CreatePagesArgs, 'graphql'> & { tags?: string }) {
   const tagsFilter = tags ? `tags: { in: ${tags} }` : ''
-  return await graphql(`
-      {
+  return await graphql<GQLData>(`
+      query PostSlug {
           allMdx(
               filter: { 
                 frontmatter: { 

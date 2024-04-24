@@ -6,14 +6,10 @@ import { IgnorePlugin } from 'webpack'
 import { PartialWebpackConfig } from './src/partial-webpack-config'
 import readingTime from 'reading-time'
 import { toDate } from './src/to-date'
-import { querySlugAuthorIdAndIdFromMembers } from './src/query-members'
-import Query = Queries.Query
 import { routeLinks } from './src/config/routing'
-
-const path = require('path')
-
-const { queryPostsSlug } = require('./src/query-posts')
-const { addRedirectsFromAliases } = require('./src/tag-groups-aliases')
+import * as path from 'path'
+import { queryPostsSlug } from './src/query-posts'
+import { addRedirectsFromAliases } from './src/tag-groups-aliases'
 
 export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql, reporter }) => {
   const { createPage, createRedirect } = actions
@@ -25,7 +21,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     return
   }
 
-  const posts = postSlugs.data.allMdx.edges
+  const posts = postSlugs.data!.allMdx.edges
   const postsPerPage = 10
   const numPages = Math.ceil(posts.length / postsPerPage)
 
@@ -48,7 +44,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     ymlDocTags.groups.map(async (group: TagGroup) => {
       const searchTags = JSON.stringify(group.tags)
       const result = await queryPostsSlug({ graphql, tags: searchTags })
-      const posts = result.data.allMdx.edges
+      const posts = result.data!.allMdx.edges
       const postsPerPage = 10
       const numPages = Math.ceil(posts.length / postsPerPage)
 
@@ -73,7 +69,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
           group.groups.map(async subTag => {
             const searchTags = JSON.stringify(subTag.tags)
             const result = await queryPostsSlug({ graphql, tags: searchTags })
-            const posts = result.data.allMdx.edges
+            const posts = result.data!.allMdx.edges
             const postsPerPage = 10
             const numPages = Math.ceil(posts.length / postsPerPage)
             Array.from({ length: numPages }).forEach((item, i) => {
@@ -98,12 +94,26 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     })
   )
 
-  const memberResult = await querySlugAuthorIdAndIdFromMembers(graphql)
+  const memberResult = await graphql<Queries.AboutUsMembersListingQuery>(`
+    query AboutUsMembersListing {
+      allMembers {
+        nodes {
+          id
+          internal {
+            contentFilePath
+          }
+          slug
+          author_id
+          ex
+        }
+      }
+    }
+  `)
 
   const members = memberResult.data!.allMembers.nodes
 
   await Promise.all(
-    members.map(async member => {
+    members.map(async (member) => {
       const result = await graphql<{
         author: allMdxData
         secondAuthor?: allMdxData
@@ -238,7 +248,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   )
 
   const serviceResult = await graphql<GQLData>(`
-    {
+    query Services {
       allMdx(filter: { frontmatter: { layout: { eq: "our-service" } } }, limit: 1000) {
         edges {
           node {
@@ -295,7 +305,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
 
   const faqsCareerResult = await graphql<GQLData>(
     `
-      {
+      query Career {
         allMdx(
           filter: { frontmatter: { show_on_career: { in: true }, layout: { eq: "faqs" }, published: { ne: false } } }
         ) {
@@ -338,7 +348,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
 
   const postResult = await graphql<GQLData>(
     `
-      {
+      query Posts {
         allMdx(
           filter: { frontmatter: { layout: { eq: "post" } } }
           sort: [{ frontmatter: { meaningfullyUpdatedAt: ASC } }, { frontmatter: { meaningfullyUpdatedAt: DESC } }]
@@ -419,8 +429,8 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   })
 
   const preparePage = async (layout: string, path: string, template: string) => {
-    const result = await graphql<Pick<Query, 'allMdx'>>(`
-      {
+    const result = await graphql<GQLData>(`
+      query Pages {
         allMdx(
           filter: {
             frontmatter: { layout: { eq: "${layout}" } }
@@ -448,7 +458,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       reporter.panicOnBuild(`Error while running GraphQL query.`, result.errors)
       return
     }
-    // console.log(result.data.allMdx.edges)
+
     result.data!.allMdx.edges.forEach(({ node }) => {
       if (!node.internal.contentFilePath) {
         console.log('no contentFilePath in', node)
@@ -458,14 +468,6 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         .pop()!!
         .replace('.md', '')
         .replace(/([0-9]{4})-([0-9]{2})-([0-9]{2})-/, '')
-      // console.log({
-      //   path: path + "/" + (node.frontmatter.slug || name),
-      //   component: template,
-      //   context: {
-      //     // additional data can be passed via context
-      //     fileAbsolutePath: node.fileAbsolutePath,
-      //   },
-      // })
 
       createPage({
         path: path + '/' + (node.frontmatter?.slug || name),
