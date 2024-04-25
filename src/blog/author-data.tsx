@@ -83,7 +83,7 @@ const Figure = styled.figure`
       max-height: 77px;
     }
     &:hover {
-      border: 1px solid #f7931e;
+      border: 1px solid ${variables.color.primary};
     }
   }
 

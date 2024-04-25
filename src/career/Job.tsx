@@ -639,7 +639,7 @@ export default function Template({
             paddingTabletXL='0 '
             paddingTablet='0'
             paddingMobileProps='0'
-            style={{ backgroundColor: '#F7931E', position: 'relative' }}
+            style={{ backgroundColor: '#fe6b00', position: 'relative' }}
           >
             <WrapperRecruiterDescription
               desktopDirection='column'

@@ -317,7 +317,7 @@ const gatsbyConfig: GatsbyConfig = {
         includePaths: [{ regex: '^/blog/.+' }],
         height: 2,
         prependToBody: false,
-        color: `#f7931e`,
+        color: `#fe6b00`,
         footerHeight: 1000,
         headerHeight: 73,
       },

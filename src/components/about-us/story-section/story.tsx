@@ -86,7 +86,7 @@ const StoryWrapper = styled.div`
   flex-direction: column;
 
   & .is-active {
-    border: 1px solid #f7931e;
+    border: 1px solid ${variables.color.primary};
     font-weight: 600;
   }
 
@@ -142,7 +142,7 @@ const Label = styled.label`
       border-radius: 50%;
       transform: scale(0);
       transition: 120ms transform ease-in-out;
-      background: #f7931e 0% 0% no-repeat padding-box;
+      background: ${variables.color.primary} 0% 0% no-repeat padding-box;
     }
 
     &:checked::before {
