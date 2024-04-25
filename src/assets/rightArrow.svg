@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="26.799" height="18.748" viewBox="0 0 26.799 18.748">
   <g id="strzalka" transform="translate(1.5 2.113)">
-    <path id="Path_35449" data-name="Path 35449" d="M14.568,0l8.617,7.238H0" transform="translate(0 0)" fill="none" stroke="#f7931e" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-    <line id="Line_39" data-name="Line 39" x1="8.617" y2="7.238" transform="translate(14.569 7.283)" fill="none" stroke="#f7931e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="Path_35449" data-name="Path 35449" d="M14.568,0l8.617,7.238H0" transform="translate(0 0)" fill="none" stroke="#fe6b00" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Line_39" data-name="Line 39" x1="8.617" y2="7.238" transform="translate(14.569 7.283)" fill="none" stroke="#fe6b00" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
   </g>
 </svg>
 s

@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="29.411" height="21.041" viewBox="0 0 29.411 21.041">
   <g id="back_arrow" data-name="back arrow" transform="translate(-847.182 -1798.182)">
     <g id="Group_633" data-name="Group 633" transform="translate(850 1801)">
-      <path id="Path_35450" data-name="Path 35450" d="M113.114,226l-9.141,7.679h24.594" transform="translate(-103.973 -226)" fill="none" stroke="#f7931e" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-      <line id="Line_41" data-name="Line 41" x2="9.141" y2="7.679" transform="translate(0 7.726)" fill="none" stroke="#f7931e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <path id="Path_35450" data-name="Path 35450" d="M113.114,226l-9.141,7.679h24.594" transform="translate(-103.973 -226)" fill="none" stroke="#fe6b00" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_41" data-name="Line 41" x2="9.141" y2="7.679" transform="translate(0 7.726)" fill="none" stroke="#fe6b00" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
     </g>
   </g>
 </svg>

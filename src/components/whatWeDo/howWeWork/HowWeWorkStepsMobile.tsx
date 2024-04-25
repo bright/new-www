@@ -7,7 +7,7 @@ const Container = styled.div({
   marginTop: '99px',
   width: '100%',
   height: '318px',
-  background: '#F7931E 0% 0% no-repeat padding-box',
+  background: '#fe6b00 0% 0% no-repeat padding-box',
 
   display: 'flex',
   flexDirection: 'column',
