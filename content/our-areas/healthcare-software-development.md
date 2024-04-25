@@ -66,7 +66,7 @@ title_contact: book free consultation in 48 hours
 description_contact: Let’s discuss your HealthTech project. Fill out the form
   below and we'll get back to you in 48 hours.
 language: en
-blog_section: false
+blog_section: true
 blog_section_tags:
   - HealthTech
 blog_section_title: our team’s insights into AI development
