@@ -1,9 +1,7 @@
 import React from 'react'
 import { Page } from '../layout/Page'
-import { HelmetMetaData } from '../meta/HelmetMetaData'
 import { PageTitle, Section } from '../components/shared'
 import WhatWePractice from '../career/_WhatWePractice'
-const HeaderImages = React.lazy(() => import('../career/_HeaderImages'))
 import Description from '../career/_Description'
 import Offers from '../career/_Offers'
 import OurWork from '../career/_OurWork'
@@ -15,7 +13,9 @@ import variables from '../styles/variables'
 import CareerFaqs from '../career/CareerFaqs'
 import { graphql, useStaticQuery } from 'gatsby'
 import { FaqStructuredData } from '../FaqStructuredData'
+import { SEO } from '../meta/SEO'
 
+const HeaderImages = React.lazy(() => import('../career/_HeaderImages'))
 
 export const SectionCareerTitle = styled(Section)`
   padding: 3rem 2rem 3rem 2rem;
@@ -40,24 +40,23 @@ const PageTitleCareer = styled(PageTitle)`
     font-weight: 900;
   }
 `
-interface CareerPageProps {
 
+export const Head = () => <SEO
+  title='Career'
+  description='We like people with bright minds! Join software development company from Gdańsk.'
+/>
+
+interface CareerPageProps {
   pageContext: {
     language: string
     slug: string
   }
 }
-
 const CareerPage: React.FC<CareerPageProps> = ({ pageContext }) => {
   const data = useStaticQuery(faqsQuery)
   const faqs = data.allMdx.edges.map((edge: any) => edge.node)
   return (
     <Page className='page-career'>
-      <HelmetMetaData
-        title='Career'
-        description='We like people with bright minds! Join software development company from Gdańsk.'
-      />
-
       <div className='container'>
         <SectionCareerTitle className='career-title'>
           <PageTitleCareer>

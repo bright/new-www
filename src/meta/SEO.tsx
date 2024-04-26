@@ -1,55 +1,41 @@
-import React, { PropsWithChildren } from 'react'
-import { Helmet, HelmetProps } from 'react-helmet'
-import { siteTitle } from './site-title'
 import { descriptionOrDefault } from './meta-description'
-import { getSrc, ImageDataLike } from 'gatsby-plugin-image'
 import { siteMetadata } from '../site-metadata'
 import { resolveUrl } from './resolve-url'
+import { getSrc, ImageDataLike } from 'gatsby-plugin-image'
 import { fbShareImage } from './bright-logo'
+import React from 'react'
+import { useLocation } from '@reach/router'
+import { useTranslation } from 'react-i18next'
 
-interface HelmetMetaDataProps {
+interface SEOProps {
   title: string
   description?: string
-  url?: string
+  twitterType?: string
   type?: string
   image?: ImageDataLike
-  canonicalUrl?: string
-  twitterType?: string
   alt?: string
-  language?: string
+  canonicalUrl?: string
+  children?: React.ReactNode
 }
-
-export const HelmetMetaData: React.FC<PropsWithChildren<HelmetMetaDataProps>> = ({
-  title,
-  description,
-  url,
-  type,
-  image,
-  alt,
-  canonicalUrl,
-  twitterType,
-  language,
-  children: additionalMeta,
-}) => {
-  // we don't want an empty language reset previously configured value
-  // ideally we'd only have one Helmet invocation per page
-  // but at the moment we don't ;/
-  const otherProps: HelmetProps = {
-    ...(language ? { htmlAttributes: { lang: language } } : {}),
-  }
+export const SEO = ({ title, description, twitterType, type, image, alt, canonicalUrl, children }: SEOProps) => {
+  const { pathname } = useLocation()
+  const { i18n } = useTranslation()
 
   return (
-    // please note that Helmet does not support nesting higher order components like so
-    // <Helmet><MetaTitle title={whatever}></Helmet>
-    <Helmet defaultTitle={siteTitle} {...otherProps}>
+    <>
+      <html lang={i18n.language} />
+
       <title>{title} | Bright Inventions</title>
-      {title && <meta property='og:title' content={title} />}
       <meta name='description' content={descriptionOrDefault(description)} />
+
       {twitterType && <meta name='twitter:card' content={twitterType} />}
+
+      <meta property='og:title' content={title} />
       <meta property='og:description' content={descriptionOrDefault(description)} />
       <meta property='og:site_name' content={siteMetadata.title} />
-      {url && <meta property='og:url' content={resolveUrl(url)} />}
+      <meta property='og:url' content={resolveUrl(pathname)} />
       {type ? <meta property='og:type' content={type} /> : <meta property='og:type' content='website' />}
+
       {image ? (
         <meta property='og:image' content={resolveUrl(getSrc(image)!)} />
       ) : (
@@ -61,7 +47,8 @@ export const HelmetMetaData: React.FC<PropsWithChildren<HelmetMetaDataProps>> = 
         <meta property='og:image:alt' content='Bright Inventions' />
       )}
       {canonicalUrl && <link key='canonical' rel='canonical' href={canonicalUrl} />}
-      {additionalMeta}
-    </Helmet>
+
+      {children}
+    </>
   )
 }

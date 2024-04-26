@@ -3,7 +3,14 @@ import React from 'react'
 import {Page} from '../layout/Page'
 import { Link } from 'gatsby'
 import { StatusPanel } from '../components/shared'
+import { useLocation } from '@reach/router'
+import { useTranslation } from 'react-i18next'
+import { SEO } from '../meta/SEO'
 // import SEO from "../components/seo"
+
+export const Head = () => <SEO
+  title='404: Not found'
+/>
 
 const NotFoundPage = () => (
   <Page>

@@ -5,7 +5,6 @@ import { PageContext, Paging } from '../blog/Paging'
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { routeLinks } from '../config/routing'
-import { HelmetMetaData } from '../meta/HelmetMetaData'
 import { HideDesktop, HideTablet } from '../components/shared'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Edge } from '../models/gql'
@@ -20,6 +19,7 @@ import {
 } from '../components/shared/index.styled'
 
 import variables from '../styles/variables'
+import { SEO } from '../meta/SEO'
 
 const gatsbyStyle: CSSProperties = {
   display: 'block !important',
@@ -100,6 +100,11 @@ interface Props {
   pageContext: PageContext & { posts: Edge[]; id: string } // TODO: add use proper blog post type
 }
 
+export const Head = ({ data }: Props) => <SEO
+  title={`Meet ${data.members?.short_name}`}
+  description={data.members?.bio}
+/>
+
 const AboutUSTemplate: React.FC<PropsWithChildren<Props>> = ({ data, pageContext, children }) => {
   const { members: member } = data // data.mdx holds your post data
   if (!member) {
@@ -132,7 +137,6 @@ const AboutUSTemplate: React.FC<PropsWithChildren<Props>> = ({ data, pageContext
 
   return (
     <Page>
-      <HelmetMetaData title={`Meet ${member.short_name}`} description={member.bio} />
       <AuthorSection>
         <CustomContainer>
           <AuthorWrapper>

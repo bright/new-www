@@ -66,7 +66,6 @@ const gatsbyConfig: GatsbyConfig = {
         sv: enableHotjar && isProduction ? '6' : '',
       },
     },
-    'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',

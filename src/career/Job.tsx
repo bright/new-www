@@ -4,7 +4,6 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { routeLinks } from '../config/routing'
-import { HelmetMetaData } from '../meta/HelmetMetaData'
 import RecruitingProcess from './_RecruitingProcess'
 import styled from 'styled-components'
 import {
@@ -24,6 +23,7 @@ import { LinkedIn } from '../components/icons/LinkedIn.icon'
 import useOnScreen from '../components/utils/use-onscreen'
 import { clampBuilder } from '../helpers/clampBuilder'
 import { JobImage } from './JobImage'
+import { SEO } from '../meta/SEO'
 
 const SalaryHeading = styled.h5`
   margin: 1.5rem 0;
@@ -539,6 +539,11 @@ const Salary: React.FC<{ salary: string }> = ({ salary }) => {
   return <SalaryHeading className='has-text-weight-normal'>{salaryParts[0]!}</SalaryHeading>
 }
 
+export const Head = ({ data }: PropsWithChildren<{ data: { mdx: any } }>) => <SEO
+  title={data.mdx.page.title}
+  description={data.mdx.page.description}
+/>
+
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
   children,
@@ -559,8 +564,6 @@ export default function Template({
   const linksMoreAboutUsHtml = page.links_more_about_us?.html
   return (
     <Page>
-      <HelmetMetaData title={page.title} description={page.description} />
-
       <CustomSection
         paddingMobileProps='64px 18px 0'
         paddingTablet='83px 36px 0'

@@ -7,20 +7,20 @@ import OurDevelopmentAreas from '../components/whatWeDo/ourDevelopmentAreas/OurD
 import { CustomSection, CustomPageTitle, CustomSectionInner } from '../components/shared'
 import TechnologyTags from '../components/shared/TechnologyTags'
 import { Page } from '../layout/Page'
-import { HelmetMetaData } from '../meta/HelmetMetaData'
-import { CustomTextRegular } from './../components/shared/index.styled'
+import { CustomTextRegular } from '../components/shared/index.styled'
 import { Projects } from '../components/home/Projects'
 import { Script } from 'gatsby'
+import { SEO } from '../meta/SEO'
+
+export const Head = () => <SEO
+  title='What We Offer'
+  description='We specialise in Mobile App Development, IoT Development, Blockchain and Product Design. Contact us!'
+/>
 
 const WhatWeOfferPage: React.FocusEventHandler = () => {
   return (
     <Page>
       <Script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} />
-      <HelmetMetaData
-        title='What We Offer'
-        description='We specialise in Mobile App Development, IoT Development, Blockchain and Product Design. Contact us!'
-      />
-
       <CustomSection
         paddingProps='4rem 0  4rem'
         paddingLaptop='2.8125 0  3.375rem'

@@ -2,7 +2,6 @@ import React, { ReactNode } from 'react'
 import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image'
 import { routeLinks } from '../config/routing'
 import { Link } from 'gatsby'
-import { HelmetMetaAuthor } from '../HelmetMetaAuthor'
 import { useAuthors } from '../use-authors/use-authors'
 import styled from 'styled-components'
 import variables from '../styles/variables'
@@ -141,7 +140,6 @@ export function AuthorsView({
     : (props: { children?: ReactNode }) => <span>{props.children}</span>
   return (
     <LinkComponent>
-      <HelmetMetaAuthor author={name} />
       {isSingleAuthor ? (
         <SingleAuthorArticle>
           {avatar && (

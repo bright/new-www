@@ -1,14 +1,11 @@
 import { graphql } from 'gatsby'
 import React, { useEffect, useState } from 'react'
-
 import { Page } from '../layout/Page'
 import { BlogFeed } from './Feed'
 import { GQLData } from '../models/gql'
 import { createBlogPosts } from '../models/creator'
 import { PageContext, Paging } from './Paging'
 import { HideTablet } from '../components/shared'
-import { HelmetMetaData } from '../meta/HelmetMetaData'
-import Helmet from 'react-helmet'
 import { resolveUrl } from '../meta/resolve-url'
 // @ts-ignore
 import blogPostDefaultImage from '../../static/images/dummy/blog_post.png'
@@ -17,6 +14,14 @@ import BlogTagsAll from './BlogTagsAll'
 import { routeLinks } from '../config/routing'
 import ScrollToTop from '../components/subcomponents/ScrollToTop'
 import NewsletterWrapper from '../components/subcomponents/NewsletterWrapper'
+import { SEO } from '../meta/SEO'
+
+export const Head = () => <SEO
+  title='Blog about web & mobile app development'
+  description='Articles about software development, agile and project management. Coding examples in Swift, Kotlin, Android, iOS, Backend, Node.js, SQL, AWS and more.'
+>
+  <meta property='og:image' content={resolveUrl(blogPostDefaultImage)} />
+</SEO>
 
 interface Props {
   data: GQLData
@@ -32,14 +37,6 @@ const BlogPage: React.FC<Props> = ({ data, pageContext }) => {
 
   return (
     <Page className='page-blog-list'>
-      <HelmetMetaData
-        title='Blog about web & mobile app development'
-        description='Articles about software development, agile and project management. Coding examples in Swift, Kotlin, Android, iOS, Backend, Node.js, SQL, AWS and more.'
-      />
-      <Helmet>
-        <meta property='og:image' content={resolveUrl(blogPostDefaultImage)} />
-      </Helmet>
-
       <CustomSection
         paddingProps='3rem 15rem 0rem '
         paddingLaptop='3rem 6rem 0'

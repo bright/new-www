@@ -1,18 +1,17 @@
 import { graphql } from 'gatsby'
 import React, { ChangeEvent, useEffect, useState } from 'react'
 import classNames from 'classnames'
-
 import { Page } from '../layout/Page'
 import { CustomPageTitle, CustomSection, CustomSectionInner, CustomTextRegular } from '../components/shared'
 import { createProjects } from '../models/creator'
 import { GQLData } from '../models/gql'
 import styled from 'styled-components'
-import { HelmetMetaData } from '../meta/HelmetMetaData'
 import variables from '../styles/variables'
-import { TagsSelect, TagsWrapper } from './../components/shared/components/index'
+import { TagsSelect, TagsWrapper } from '../components/shared/components'
 import { useWindowSize } from '../components/utils/use-windowsize'
 import { Projects } from '../components/home/Projects'
 import { Contact } from '../components/shared/Contact'
+import { SEO } from '../meta/SEO'
 
 const SectionProjects = styled(CustomSection)`
   && .project-tag {
@@ -33,6 +32,11 @@ const SectionProjects = styled(CustomSection)`
     text-transform: lowercase;
   }
 `
+
+export const Head = () => <SEO
+  title='Projects'
+  description='We’ve developed web and mobile applications for clients from UK, Germany, Netherlands, Norway, Israel and more.'
+/>
 
 const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
   const [isClient, setIsClient] = useState(false)
@@ -80,11 +84,6 @@ const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
 
   return (
     <Page>
-      <HelmetMetaData
-        title='Projects'
-        description='We’ve developed web and mobile applications for clients from UK, Germany, Netherlands, Norway, Israel and more.'
-      />
-
       <CustomSection
         paddingProps='3rem 2rem 1rem 2rem'
         paddingLaptop='3rem 2rem 4rem 2rem'

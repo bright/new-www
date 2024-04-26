@@ -6,9 +6,9 @@ const TeamMembers = React.lazy(() => import('../../components/subcomponents/Team
 import { FormComponent } from '../../components/about-us/form-section/form'
 import { CustomPageTitle, CustomSection, CustomSectionInner, TextRegular } from '../../components/shared'
 import { Page } from '../../layout/Page'
-import { HelmetMetaData } from '../../meta/HelmetMetaData'
 import variables from '../../styles/variables'
 import ScrollToTop from '../../components/subcomponents/ScrollToTop'
+import { SEO } from '../../meta/SEO'
 
 const Caption = styled.div`
   &&& {
@@ -26,14 +26,16 @@ const Caption = styled.div`
     }
   }
 `
+
+export const Head = () => <SEO
+  title='Meet our software development team'
+  description='Meet mobile developers, web app developers, project managers, designers, and more people who are a part of our software development team from Poland.'
+/>
+
 export default function TeamPage() {
   const isSSR = typeof window === 'undefined'
   return (
     <Page>
-      <HelmetMetaData
-        title='Meet our software development team'
-        description='Meet mobile developers, web app developers, project managers, designers, and more people who are a part of our software development team from Poland.'
-      />
       <ScrollToTop />
       <CustomSection
         paddingProps='3rem 2rem 6.5625rem 2rem'

@@ -3,18 +3,19 @@ import React from 'react'
 import { Page } from '../../layout/Page'
 
 import { CustomSection, CustomPageTitle } from '../../components/shared'
-import { HelmetMetaData } from '../../meta/HelmetMetaData'
 import { StoryComponent } from '../../components/about-us/story-section/story'
 import TeamMembers from '../../components/subcomponents/TeamMembers'
 import { FormComponent } from '../../components/about-us/form-section/form'
 import Values from './_Values'
+import { SEO } from '../../meta/SEO'
+
+export const Head = () => <SEO
+  title='Our history, team and values'
+  description='Since 2012 we have built software for startups, digital agencies and mid-sized organisations from such industries as FinTech, Healthcare or Retail.'
+/>
 
 const AboutUsPage: React.FC = () => (
   <Page>
-    <HelmetMetaData
-      title='Our history, team and values'
-      description='Since 2012 we have built software for startups, digital agencies and mid-sized organisations from such industries as FinTech, Healthcare or Retail.'
-    />
     <CustomSection
       paddingProps='3rem 15rem 0rem '
       paddingLaptop='3rem 6rem 0'

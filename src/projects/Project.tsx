@@ -2,7 +2,6 @@ import React, { PropsWithChildren } from 'react'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { graphql } from 'gatsby'
 import { Page } from '../layout/Page'
-import { HelmetMetaData } from '../meta/HelmetMetaData'
 import { CustomSection, CustomSectionTitle, FlexWrapper } from '../components/shared'
 import { useWindowSize } from '../components/utils/use-windowsize'
 import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
@@ -13,10 +12,23 @@ import { Projects } from '../components/home/Projects'
 import { routeLinks } from '../config/routing'
 import { Contact } from '../components/shared/Contact'
 import TemporarilyHidden from './TemporarilyHidden'
+import { SEO } from '../meta/SEO'
 
+export const Head = ({ data }: PropsWithChildren<{ data: { mdx: any } }>) => {
+  const { title,
+    description,
+    social_media_previev_alt: alt,
+    social_media_previev: image,
+  } = data.mdx.frontmatter
 
-
-
+  return <SEO
+    title={title}
+    description={description}
+    type='product'
+    image={image}
+    alt={alt}
+  />
+}
 
 const Template: React.FC<PropsWithChildren<{ data: { mdx: any } }>> = ({ data, children }) => {
   const { mdx } = data // data.mdx holds your post data
@@ -48,7 +60,6 @@ const Template: React.FC<PropsWithChildren<{ data: { mdx: any } }>> = ({ data, c
 
   return (
     <Page>
-      <HelmetMetaData title={title} description={description} type='product' image={image} alt={alt} />
       <Container id='project'>
         <TopProjectArticle >
           <CustomSection paddingProps='0 0 35px' paddingLaptop='0 0 35px' paddingTabletXL='0 0 35px' paddingMobileProps='0 0 35px'>

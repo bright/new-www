@@ -1,9 +1,8 @@
 import React from 'react'
-
 import { Page } from '../layout/Page'
-import { HelmetMetaData } from '../meta/HelmetMetaData'
 import styled from 'styled-components'
 import variables from '../styles/variables'
+import { SEO } from '../meta/SEO'
 
 const Container = styled.div`
   && .container {
@@ -63,13 +62,14 @@ const Container = styled.div`
   }
 `
 
+export const Head = () => <SEO
+  title='Privacy policy'
+  description='All the necessary information about the data we collect and process when you use our website.'
+/>
+
 const PrivacyPolicy = () => {
   return (
     <Page>
-      <HelmetMetaData
-        title='Privacy policy'
-        description='All the necessary information about the data we collect and process when you use our website.'
-      />
       <Container>
         <div className='container'>
           <article className='section'>

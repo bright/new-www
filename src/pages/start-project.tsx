@@ -8,7 +8,6 @@
 import React from 'react'
 
 import { Page } from '../layout/Page'
-import { HelmetMetaData } from '../meta/HelmetMetaData'
 import { CustomSection, CustomSectionTitle, FlexWrapper, TextRegular } from '../components/shared'
 import styled from 'styled-components'
 import variables from '../styles/variables'
@@ -16,6 +15,7 @@ import { CustomPageTitle } from './../components/shared/index'
 import StartProjectContact from '../components/start-project/StartProjectContact'
 import { clampBuilder } from '../helpers/clampBuilder'
 import image from '../../static/images/inverted-commas.svg'
+import { SEO } from '../meta/SEO'
 
 const QuoteTextRegular = styled(TextRegular)`
   font-weight: 400;
@@ -58,13 +58,14 @@ const SignatureQuote = styled(TextRegular)`
   }
 `
 
+export const Head = () => <SEO
+  title='Estimate a project'
+  description='Estimate your project based on a description and technologies'
+/>
+
 const StartProjectPage: React.FC = () => {
   return (
     <Page>
-      <HelmetMetaData
-        title='Estimate a project'
-        description='Estimate your project based on a description and technologies'
-      />
       <CustomSection
         paddingProps='0 240px 124px'
         paddingLaptop='0 80px 127px'

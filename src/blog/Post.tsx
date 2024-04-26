@@ -15,7 +15,7 @@ import { SocialMediaShare } from './SocialMediaShare'
 import { allMdxData } from '../models/gql'
 import RelatedPosts from './related-posts'
 import { PostArticleContent } from './post-article-content'
-import { HelmetMetaData } from '../meta/HelmetMetaData'
+import { SEO } from '../meta/SEO'
 
 const WrapperNews = styled.div`
   @media ${variables.device.tablet} {
@@ -25,6 +25,21 @@ const WrapperNews = styled.div`
     padding: 0 ${variables.pxToRem(18)};
   }
 `
+
+export const Head = ({ data }: PostTemplateProps) => {
+  const {image, canonicalUrl, title, date, excerpt, tags, author} = data.mdx.frontmatter
+
+  return <SEO
+    title={title}
+    description={excerpt} type='article'
+    image={image}
+    canonicalUrl={canonicalUrl}
+  >
+    <meta property='article:published_time' content={date} />
+    <meta property='article:tag' content={tags?.join(', ') ?? ''} />
+    <meta property='article:author' content={author} />
+  </SEO>
+}
 
 export type PostTemplateProps = PropsWithChildren<{
   path: string
@@ -68,8 +83,6 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
   const { pathname } = useLocation()
   const slug = props.path.replace(/^(\/blog\/)/, '')
   const title = mdx.frontmatter.title
-  const image = mdx.frontmatter.image
-  const canonicalUrl = mdx.frontmatter.canonicalUrl
 
   const postStructuredData = props.structuredData?.({
     authors_id: [page.author, page.secondAuthor, page.thirdAuthor],
@@ -109,10 +122,6 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
 
   return (
     <Page>
-      <HelmetMetaData title={title} description={mdx.excerpt} type='article' image={image} canonicalUrl={canonicalUrl}>
-        <meta property='article:published_time' content={mdx.frontmatter.date} />
-        <meta property='article:tag' content={mdx.frontmatter.tags?.join(', ') ?? ''} />
-      </HelmetMetaData>
       <ConstrainedWidthContainer id='blog'>
         <SocialMediaShare blackIcons slug={pathname} title={title} />
         <PostArticleContent

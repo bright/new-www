@@ -5,7 +5,6 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Contact } from '../components/shared/Contact'
 // import TechnologyTags from '../components/shared/TechnologyTags'
 import { Page } from '../layout/Page'
-import { HelmetMetaData } from '../meta/HelmetMetaData'
 import RatingClutch from '../assets/rating.svg'
 import { useWindowSize } from '../components/utils/use-windowsize'
 import { CustomSectionInner, CustomSection, TextRegular, CustomSectionTitle } from '../components/shared/index.styled'
@@ -38,11 +37,20 @@ import { MoreButton } from '../components/shared'
 import FaqsDropdown from '../components/shared/FaqsDropdown'
 import { toBlogPost } from '../use-blog-posts/blog-post-frontmatter-query-result'
 import { useClient } from '../hooks/useClient'
+import { SEO } from '../meta/SEO'
 
 const PopularBlogPosts = React.lazy(() => import('../components/shared/PopularBlogPosts'))
 const TechnologyTags = React.lazy(() => import('../components/shared/TechnologyTags'))
 const TeamMembers = React.lazy(() => import('../components/subcomponents/TeamMembers'))
 // const TeamMemebersSwiper = React.lazy(() => import('../components/subcomponents/TeamMembersSwiper'))
+
+export const Head = ({ data }: PropsWithChildren<{
+  data: { service: any, related: any }
+  pageContext: { faqTitle: string; faqSlug: string; language: string }
+}>) => <SEO
+  title={data.service.frontmatter.meta_title}
+  description={data.service.frontmatter.meta_description}
+/>
 
 export default function Template({
   data,
@@ -87,8 +95,6 @@ export default function Template({
   const {
     faqs,
     image_alt_our_service,
-    meta_title,
-    meta_description,
     title,
     highlighted_word,
     button,
@@ -121,8 +127,6 @@ export default function Template({
 
   return (
     <Page>
-      <HelmetMetaData title={meta_title} description={meta_description} />
-
       <OurServiceFlexWraper desktopItems='center' tabletDirection='column'>
         <CustomSectionOurService
           paddingProps='1rem 0 0 15rem '
