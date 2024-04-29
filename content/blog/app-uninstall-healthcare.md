@@ -58,6 +58,8 @@ First interactions with the app are also crucial, as users admitted in the surve
 
 ## 3. Decisions based on data, not assumptions
 
+<YouTubeEmbed url='https://www.youtube.com/watch?v=ljeqnUbnrCg' />
+
 This point ties directly into the previous one. **Before launching your app, you should install analytics tools** – ideally more than one for data comparison – to observe how users interact with the app, including during onboarding and with crucial features. Only then will you truly understand how your solution performs and be able to respond accordingly. This approach is known as data-driven development, and we strongly encourage you to introduce it to your software development team.
 
 **These are examples of metrics you should measure:** 
