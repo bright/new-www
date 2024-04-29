@@ -43,7 +43,7 @@ After noticing the initial drop in the onboarding rate, our first step was to ve
 
 Imagine making these crucial changes without data-driven development relying only on our feelings or assumptions. **The numbers provided by analytical tools were quite straightforward and quickly helped us verify the hypothesis** and come back to the onboarding that attracted more moms-to-be.
 
-**Watch the video to get more insights from [Mateusz](https://www.linkedin.com/in/klimczak-mateusz/) from out team:**
+**Watch the video to get more onboarding insights from [Mateusz Klimczak](https://www.linkedin.com/in/klimczak-mateusz/), Partner & Head of Delivery @ bright inventions:**
 
 <YouTubeEmbed url='https://www.youtube.com/watch?v=ljeqnUbnrCg' />
 
