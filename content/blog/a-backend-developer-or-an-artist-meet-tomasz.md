@@ -39,3 +39,9 @@ After about two years, the job started to feel too repetitive for me. **I began 
 In programming, there is always something new; every day brings a new challenge, and that drove me. So, eventually, **I decided to leave my stable job and senior position, accepting a role as a junior software developer with a salary cut in half**. Starting from scratch was a challenge, but I'm deeply grateful for the wealth of network administration experience I gained over the years. **I believe it's a great asset to understand computing and to possess strong soft skills**. Finally, a year later, I landed a job at Bright Inventions as a backend developer.
 
 ## Could you share your recollections of the recruitment process at Bright Inventions?
+
+The recruitment process was friendly, open, and smooth. **I enjoyed a talk with [Ula](/about-us/ula/) as well as a longer technical discussion with [Piotr](/about-us/piotr/)**. In the meantime, I had to complete a technical task. Even though there were some specific requirements and preferred technologies, I still felt **I had the freedom to solve the issue in the way I thought was best**. Eventually, I joined Bright Inventions, and my adventure with the company has now continued for over three years.
+
+<div className="image">![Valentine’s Day at the office.](/images/tomasz_valentine-s_day.png "Valentine’s Day at the office.")</div>
+
+<center> Valentine’s Day at the office. </center>
