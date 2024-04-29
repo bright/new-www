@@ -4,7 +4,7 @@ secondAuthor: adam-w
 tags:
   - backend
 date: 2024-03-05T13:42:10.428Z
-meaningfullyUpdatedAt: 2024-03-05T13:42:10.443Z
+meaningfullyUpdatedAt: 2024-04-29T06:51:36.374Z
 title: Spring Tests with TestContainers
 layout: post
 image: /images/frame-45.png
@@ -32,6 +32,8 @@ We are also going to use the `java-test-fixtures` plugin to create reusable Spri
 TestContainers is an open-source set of libraries that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. It simplifies the process of creating unit and integration tests by providing a programmable environment that is both controlled and isolated. This is particularly useful for testing database interactions, message queues, web applications, and other services that are typically complex to set up and manage for testing purposes.
 
 You can read more about TestContainers in [the official documentation](https://testcontainers.com).
+
+<YouTubeEmbed url='https://www.youtube.com/shorts/57SPdiHwVSo' />
 
 ## What is TestFixtures?
 
