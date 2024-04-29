@@ -3,13 +3,13 @@ author: tomasz-sch
 secondAuthor: izabela
 tags:
   - bright story
-date: 2024-04-29T07:39:30.973Z
-meaningfullyUpdatedAt: 2024-04-29T07:39:30.998Z
+date: 2024-04-29T08:17:36.251Z
+meaningfullyUpdatedAt: 2024-04-29T08:17:36.901Z
 slug: backend-developer-artist-tomasz
 title: A Backend Developer or an Artist? Meet Tomasz
 layout: post
 image: /images/brightstorytomaszs.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
