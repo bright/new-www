@@ -45,3 +45,15 @@ The recruitment process was friendly, open, and smooth. **I enjoyed a talk with 
 <div className="image">![Valentine’s Day at the office.](/images/tomasz_valentine-s_day.png "Valentine’s Day at the office.")</div>
 
 <center> Valentine’s Day at the office. </center>
+
+## After more than 3 years, how do you feel about working at Bright Inventions?
+
+I appreciate that at Bright Inventions, you are quickly recognized and valued for a job well done. I've always been extremely professional about my work and my duties, and **it's rewarding to see that recognized and appreciated swiftly**. I value the trust and flexibility we're given; keeping in mind that I can still reach out to a colleague or any manager and receive the help I need. Also, **after years in a corporate environment, I cherish the fact that I don't have dozens of managers above me**.
+
+## You recently became a tech lead. What has this role taught you so far?
+
+Since becoming a tech lead a couple of months ago, I've already learned a great deal, particularly about **working closely with the client and understanding the business side of the project**. I feel a strong responsibility for the technical direction of the solution, **suggesting implementations, features, and general product-wise directions**.
+
+Another significant aspect is **managing the distributed software development team**. I've come to believe that **in order to deliver better software, the team must form a strong bond**. They need to feel connected to communicate freely, share experiences and issues, and exchange knowledge. This is something I strive to foster within the team, showing them that they can rely on each other. **Even if they are responsible for different parts of the solution, they should stay in touch with other team members to gain unique insights and perspectives**.
+
+<div className="image">![Quote](/images/tomaszs_quote_team.png "Quote")</div>
