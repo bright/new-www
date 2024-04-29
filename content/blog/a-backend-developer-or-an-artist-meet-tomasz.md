@@ -57,3 +57,37 @@ Since becoming a tech lead a couple of months ago, I've already learned a great 
 Another significant aspect is **managing the distributed software development team**. I've come to believe that **in order to deliver better software, the team must form a strong bond**. They need to feel connected to communicate freely, share experiences and issues, and exchange knowledge. This is something I strive to foster within the team, showing them that they can rely on each other. **Even if they are responsible for different parts of the solution, they should stay in touch with other team members to gain unique insights and perspectives**.
 
 <div className="image">![Quote](/images/tomaszs_quote_team.png "Quote")</div>
+
+Also, as a tech lead, **I'm still learning how to communicate with other groups involved in the telemedicine solution we develop, such as doctors**. They approach us with various issues and technical questions, and my role is to explain everything clearly and understandably. This is important in all walks of life. For instance, I would prefer to visit a doctor who can explain my medical condition to me in an understandable way, rather than leaving me anxious and clueless.
+
+## As mentioned, you are a part of a team crafting a telemedicine solution. What are the key challenges in this domain?
+
+Our project focuses not only on profit but primarily on helping people which is immensely rewarding. **We are creating a solution dedicated to individuals who lack access to healthcare**, including physical doctor's appointments. Even in European countries like Germany, there are regions far from big cities where access to doctors is not readily available. 
+
+Telemedicine, with remote patient monitoring, enables the collection of patient vitals through devices. These records can then be transferred to a **doctor who, based on the data and video consultations with a patient, can initiate data-based treatment** – even if a physician is hundreds of kilometers away from the patient.
+
+**One of the key challenges in this domain is securing medical data**. Any data breach, especially for a startup, could potentially be catastrophic.
+
+## So how do you handle medical data security?
+
+We adhere to HIPAA, GDPR, and TÜV requirements, which encompass **hundreds of pages of specifications**. The foundational practice is, of course, **data encryption, access keys, secure environments, and secret leak detection**. Apart from that, **access management** is strictly controlled, and staff members outside the EU are not permitted to access sensitive data. Another important aspect is **log auditing** to monitor user activity.
+
+A crucial part of the project is **maintaining backward compatibility** **for mobile apps**, which presents its own set of challenges. We can't simply rewrite a part of the app because we need to support older versions of the application to keep it as accessible and inclusive as possible.
+
+Another security aspect is proactive documentation. **Disaster recovery (DR) for application or data access if required in case the application is down**. Incidents like these can occur, so I strongly believe in being prepared for any scenario. This way, when something happens, we don't panic; we simply follow the established procedures and minimize downtime.
+
+## How can a backend developer chart a path for self-growth to stay ahead in the field?
+
+The path to self-growth as a backend developer depends largely on what aspect of programming you're most passionate about. One option is **transitioning into fullstack development**. I considered this myself, but I don't have a strong design intuition, and I feel it wouldn't be as satisfying for me. However, the frontend does have the significant advantage of allowing you to quickly see the results of your work.
+
+Another option is **leaning towards infrastructure**. As more companies move to the cloud, I believe that backend developers should have at least basic knowledge of network administration, or perhaps even more in-depth. I know that we can rely on DevOps Engineers, but a backend developer with strong ops knowledge is a valuable asset. Such developers can not only write code but also understand how the application operates from a networking perspective after it's deployed. Additionally, issues in the app are often across both code and infrastructure, and having a holistic perspective helps solve them.
+
+Finally, you can follow my path, which involves **managing the team**. However, this requires strong soft skills and empathy. You must understand that everyone is different; anyone can have a bad day or even a bad week at work, and you still need to support them, sometimes even acting as a buffer for the entire team. Also, when a screw-up occurs, you as a tech lead are always responsible. Another challenge is task delegation – it's difficult to learn to finally trust that someone else will take care of it.
+
+## What do you enjoy doing after work?
+
+Sports, sports, sports. 💪 **I spend a lot of time at the gym, training for Runmageddons, practicing tennis, and kickboxing, and I also love to indulge in winter swimming in the Baltic Sea**. After spending 8-10 hours a day at a desk, I feel the urge to hit the gym, lifting weights while listening to my favorite music or podcasts. **It's a great retreat for my brain and, obviously, beneficial for my body**. Unfortunately, the winter swimming season is over right now in Poland, but that doesn't stop me from starting my day with a cold shower. 🙂
+
+<div className="image">![winter swimming](/images/winter_swimming.png "winter swimming")</div>
+
+<center> Tomek and Magda, from the Bright Inventions team, winter swimming in the Baltic Sea. </center>
