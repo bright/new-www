@@ -6,8 +6,8 @@ slug: joanna-c
 name: Joanna Cieszyńska
 short_name: Joanna
 email: joanna.cieszynska@brightinventions.pl
-bio: Junior Product Designer
-description: Junior Product Designer
+bio: Product Designer
+description: Product Designer
 avatar: /images/asia_team.png
 avatar_hover: /images/asia_passion.png
 published: true
