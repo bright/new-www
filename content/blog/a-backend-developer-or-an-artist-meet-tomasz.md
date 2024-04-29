@@ -8,7 +8,7 @@ meaningfullyUpdatedAt: 2024-04-29T08:17:36.901Z
 slug: backend-developer-artist-tomasz
 title: A Backend Developer or an Artist? Meet Tomasz
 layout: post
-image: /images/brightstorytomaszs.png
+image: /images/brightstorytomaszsupdate.png
 hidden: false
 comments: true
 published: true
@@ -16,7 +16,7 @@ language: en
 ---
 **He has been captivated by programming for a long time, but that didn't stop him from navigating a career in system networking. Learn about Tomasz's career journey, the challenges he faces as a tech lead, and the paths for self-growth as a backend developer that he charts.**
 
-<div className="image">![Tomasz's career story](/images/brightstorytomaszsgrid.png "Tomasz's career story")</div>
+<div className="image">![Tomasz's career story](/images/brightstorytomaszsgridupdate.png "Tomasz's career story")</div>
 
 ## How did your adventure with programming begin?
 
@@ -28,7 +28,7 @@ I enjoyed writing little programs in Turbo Pascal; **I loved the feeling of brin
 
 Not quite. 😉 Although I completed a year-long internship as a Java developer, **I eventually shifted toward system networking**. This was related to my Master's studies at the Department of Computer Communications, so I decided to pursue this direction. **I started working at a large corporation, managing extensive networks and servers** that, for example, facilitated real-time trading. I worked there for almost four years and learned a great deal about network administration, but I also gained valuable insights into soft skills. 
 
-<div className="image">![Quote](/images/tomaszs_skills.png "Quote")</div>
+<div className="image">![Quote](/images/tomaszs_skills_quote.png "Quote")</div>
 
 **While technical skills are fundamental to the job, I learned how crucial soft skills are as well**. Improving my communication with colleagues, managers, and importantly, clients became a significant part of my learning. I still use that knowledge daily.
 
@@ -56,7 +56,7 @@ Since becoming a tech lead a couple of months ago, I've already learned a great 
 
 Another significant aspect is **managing the distributed software development team**. I've come to believe that **in order to deliver better software, the team must form a strong bond**. They need to feel connected to communicate freely, share experiences and issues, and exchange knowledge. This is something I strive to foster within the team, showing them that they can rely on each other. **Even if they are responsible for different parts of the solution, they should stay in touch with other team members to gain unique insights and perspectives**.
 
-<div className="image">![Quote](/images/tomaszs_quote_team.png "Quote")</div>
+<div className="image">![Quote](/images/tomaszs_team_quote.png "Quote")</div>
 
 Also, as a tech lead, **I'm still learning how to communicate with other groups involved in the telemedicine solution we develop, such as doctors**. They approach us with various issues and technical questions, and my role is to explain everything clearly and understandably. This is important in all walks of life. For instance, I would prefer to visit a doctor who can explain my medical condition to me in an understandable way, rather than leaving me anxious and clueless.
 
