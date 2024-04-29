@@ -6,7 +6,7 @@ tags:
   - HealthTech
   - design
 date: 2024-01-24T09:08:17.662Z
-meaningfullyUpdatedAt: 2024-01-24T09:08:18.346Z
+meaningfullyUpdatedAt: 2024-04-29T10:40:39.398Z
 title: How Data-Driven Development Saved a Successful FemTech App Onboarding
   From a Failure
 layout: post
@@ -43,7 +43,9 @@ After noticing the initial drop in the onboarding rate, our first step was to ve
 
 Imagine making these crucial changes without data-driven development relying only on our feelings or assumptions. **The numbers provided by analytical tools were quite straightforward and quickly helped us verify the hypothesis** and come back to the onboarding that attracted more moms-to-be.
 
-<div className="image">![Pregnancy app](../../static/images/pregnant_women.png "Pregnancy app")</div>
+**Watch the video to get more onboarding insights from [Mateusz Klimczak](https://www.linkedin.com/in/klimczak-mateusz/), Partner & Head of Delivery @ bright inventions:**
+
+<YouTubeEmbed url='https://www.youtube.com/watch?v=ljeqnUbnrCg' />
 
 ## Key Points to Remember While Designing App Onboarding for Pregnancy Apps
 
@@ -65,4 +67,4 @@ Assumptions should never be a driving force of any change in software developmen
 
 If you are not sure what metric to measure and what analytics tools you should install, check our [mobile app metrics cheat sheet](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/).
 
-<div class='block-button'><h2>Ready to discuss your app's onboarding?</h2><div>Looking for ways to optimize your app onboarding with data-driven development? Contact us to set up a free consultation in 48 hours.</div><a href="/start-project/"><button>book a free consultation</button></a></div>
+<div class='block-button'><h2>ready to discuss your app's onboarding?</h2><div>Looking for ways to optimize your app onboarding with data-driven development? Contact us to set up a free consultation in 48 hours.</div><a href="/start-project/"><button>book a free consultation</button></a></div>
