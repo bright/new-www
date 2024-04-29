@@ -9,7 +9,7 @@ slug: backend-developer-artist-tomasz
 title: A Backend Developer or an Artist? Meet Tomasz
 layout: post
 image: /images/brightstorytomaszs.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
