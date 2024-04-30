@@ -60,7 +60,7 @@ bar_stack:
   - Node.js
   - React
   - NestJS
-button: let's talk
+button: book a meeting
 button2: let's face tech challenges together
 published: false
 show_case_study: true
