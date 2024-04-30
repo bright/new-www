@@ -26,8 +26,8 @@ project:
   - tms
 layout: our-service
 our_service_id: Gdansk software company
-meta_title: Software House from Gdansk, Poland
-meta_description: Partner with top software house based in Gdansk (Poland).
+meta_title: Best Software Development Studio in Gdańsk
+meta_description: Meet best software development studio in Gdańsk (Poland).
   Bright Inventions is a software agency crafting custom web and mobile
   solutions.
 our_services_icon: /images/custom_software_development_icon.png
@@ -35,10 +35,10 @@ name: Gdansk software company
 slug: gdansk-software-company
 short_description: Poland is well-known for having top software developers. For
   over a decade, we have been a part of the vibrant Polish IT sector, proudly
-  based in Gdansk — a city bursting with innovation.
+  based in Gdańsk — a city bursting with innovation.
 order: 99
-title: partner with a top Gdansk software house
-highlighted_word: Gdansk
+title: meet best software development studio in Gdańsk
+highlighted_word: Gdańsk
 image_our_service_desktop: /images/gdansk_desktoplp.png
 image_our_service_mobile: /images/gdansk_lp_mobile_update.png
 image_alt_our_service: software house gdansk
@@ -72,12 +72,16 @@ title_contact: book a free consultation in 48 hours
 description_contact: Fill out the form below and we'll get back to you in 48
   hours. And hopefully we'll see you soon in Gdansk!
 language: en
+blog_section: false
+blog_section_tags:
+  - programming
+blog_section_title: blog posts
 ---
-Headquartered in the city of Gdansk – a hub of innovation and technological expertise – our team has been at the forefront of [the dynamic Polish IT sector](/blog/five-things-you-should-know-about-working-with-Polish-developers/) for over 13 years.
+Headquartered in the city of Gdańsk – a hub of innovation and technological expertise – our team has been at the forefront of [the dynamic Polish IT sector](/blog/five-things-you-should-know-about-working-with-Polish-developers/) for over 13 years.
 
 Gdansk has proven itself as a magnet for global business giants, with industry leaders like Intel, Amazon, Nordea, and Lufthansa choosing to establish a presence here. From the convenience of Gdansk Airport, you can easily access over 20 countries with the majority of European destinations just a short flight away—many within a mere two hours.
 
-If you are considering partnering with a company from Gdansk, go deeper into [the advantages our city has to offer](https://brightinventions.pl/blog/hiring-software-development-agency-based-in-gdansk/). We can join forces and explore together the potential of Poland's tech scene.  
+If you are considering partnering with a company from Gdańsk, go deeper into [the advantages our city has to offer](https://brightinventions.pl/blog/hiring-software-development-agency-based-in-gdansk/). We can join forces and explore together the potential of Poland's tech scene.  
 
 ## our expertise
 
