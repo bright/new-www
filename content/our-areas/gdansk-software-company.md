@@ -70,7 +70,7 @@ title_case_study: the clients we have supported in the tech journey
 title_faqs: software development Gdańsk FAQs
 title_contact: book a free consultation in 48 hours
 description_contact: Fill out the form below and we'll get back to you in 48
-  hours. And hopefully we'll see you soon in Gdansk!
+  hours. And hopefully we'll see you soon in Gdańsk!
 language: en
 blog_section: false
 blog_section_tags:
