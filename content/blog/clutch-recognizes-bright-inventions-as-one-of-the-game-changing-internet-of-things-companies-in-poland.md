@@ -2,8 +2,8 @@
 author: izabela
 tags:
   - bright insights
-date: 2024-05-02T08:17:19.197Z
-meaningfullyUpdatedAt: 2024-05-02T08:17:19.216Z
+date: 2024-05-02T08:38:39.015Z
+meaningfullyUpdatedAt: 2024-05-02T08:38:39.973Z
 slug: game-changing-iot-company
 title: Clutch Recognizes bright inventions as one of the Game-Changing Internet
   of Things Companies in Poland
