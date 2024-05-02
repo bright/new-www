@@ -22,7 +22,7 @@ Founded in 2012, Bright Inventions is a Gdansk, Poland-based software consultanc
 
 We take pleasure in assisting our clients through every stage of the software delivery process, from ideation to requirements elicitation, visual design, project management, software development, quality assurance, and maintenance. We currently have over 70 software development specialists on staff.
 
-Projects we work on frequently develop into large, extremely profitable endeavors in the end, both technically and commercially. As a matter of fact, our company has been recently named one of the most-reviewed game-changing [Internet of Things Companies in Poland](http://clutch.co/pl/developers/internet-of-things?utm_source=directory&utm_medium=blog&utm_campaign=surgical) by none other than Clutch! 
+Projects we work on frequently develop into large, extremely profitable endeavors in the end, both technically and commercially. As a matter of fact, **bright inventions has been recently named one of the most-reviewed game-changing [Internet of Things Companies in Poland](http://clutch.co/pl/developers/internet-of-things?utm_source=directory&utm_medium=blog&utm_campaign=surgical) by none other than Clutch**! 
 
 Clutch is a B2B ratings and reviews platform based in Washington, DC. They evaluate technology service and solutions companies based on the quality of work, thought leadership, and client reviews. A rapidly expanding startup, Clutch has become the go-to resource in the agency space. 
 
