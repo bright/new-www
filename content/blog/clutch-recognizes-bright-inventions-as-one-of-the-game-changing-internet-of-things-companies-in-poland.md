@@ -36,4 +36,4 @@ Let’s talk about your project idea! Drop us a line today.
 
 \---
 
-The article was written in collaboration with Clutch editorial team.
+The article was written by Clutch editorial team.
