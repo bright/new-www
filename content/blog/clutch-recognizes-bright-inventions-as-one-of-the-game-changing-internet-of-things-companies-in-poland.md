@@ -32,7 +32,7 @@ With that being said, we would like to highlight some of the best reviews from y
 
 <blockquote><h2>Working with Bright Inventions is always a pleasure</h2><div>For us as an agency, the project was a good showcase for future clients in the health industry. Working with Bright Inventions is always a pleasure. The people involved are friendly and to the point. They’re also pragmatic, constructive, and punctual. Their team is fast, friendly, effective, proactive, and able to deliver on time.</div><footer>Kira Nezu, Project Manager at AppAdvisors GmbH</footer></blockquote>
 
-Let’s talk about your project idea! Drop us a line today.
+Let’s talk about your project idea! [Drop us a line today](/start-project/).
 
 \---
 
