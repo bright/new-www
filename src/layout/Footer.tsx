@@ -102,7 +102,7 @@ export const Footer = () => {
               <a href='https://bright-dev-newsletter.getresponsepages.com/' target='_blank' rel='noopener noreferrer nofollow'>newsletter</a>
             </p>
             <p className='content'>
-              <Link to={routeLinks.agencyGdansk}>software agency from Gdansk</Link>
+              <Link to={routeLinks.agencyGdansk}>software development studio in Gdansk</Link>
             </p>
           </div>
 
