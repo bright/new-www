@@ -271,4 +271,23 @@ Companies: Elvie and INNOVO are notable in the field of devices for urinary inco
 
 These devices often track physiological markers such as basal body temperature, hormone levels, or menstrual cycle patterns to predict ovulation and optimize the chances of conception.
 
-Companies: Ava, Kegg and Clearblue are leading manufacturers in this sector.
+Companies: Ava, Kegg and Clearblue are leading manufacturers in this sector. 
+
+### Breastfeeding Monitor
+
+Devices designed to assist nursing mothers by tracking breastfeeding sessions, monitoring the baby’s intake, and analyzing feeding patterns. This information helps mothers manage their feeding schedules and ensures adequate nutrition for the baby.
+
+Companies: Coro is one of the pioneers in breastfeeding monitoring.
+https://www.corobaby.com/
+
+### Smart breast pump
+
+Modern breast pumps connected to a dedicated app enable monitoring of milk volume, tracking of pumping sessions, and offer guidance to optimize the pumping experience.
+
+Companies: Elvie, Willow and Freemie offer smart breast pumps.
+
+### Hot flush relief bracelet
+
+A piece of smart jewelry that automatically tracks hot flashes for women experiencing menopause, offering relief by triggering cooling at the onset of a flush.
+
+Companies: Grace is the manufacturer developing bracelets for women with menopause.
