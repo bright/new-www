@@ -71,7 +71,7 @@ Wearable devices that monitor physical fitness, track posture, and even alert us
 
 Companies: WELT is an example of a company that has developed smart belts with health tracking.
 
-### Smart Socks
+### Smart socks
 
 Smart socks monitor foot temperature, helping to detect early signs of inflammation or injury. Smart socks can also help with the fall prevention.
 
@@ -83,7 +83,7 @@ Smart shoe insoles are designed to fit inside footwear and provide real-time fee
 
 Companies: Digitsole, Orpyx, Nurvv are leading smart shoe insoles providers.
 
-### Smart Contact Lenses
+### Smart contact lenses
 
 Connected contact lenses are innovative devices designed to monitor physiological conditions, like glucose levels or intraocular pressure, or to provide augmented reality displays.
 
@@ -103,9 +103,7 @@ These devices use sensors to detect falls among patients and the elderly, alerti
 
 Companies: Lifeline develops fall-detection devices and sensors.
 
-https://www.lifeline.com/
-
-### Smart Bandages
+### Smart bandages
 
 They monitor wound conditions, such as moisture and temperature, and can deliver targeted drug treatments to improve healing processes.
 
@@ -119,7 +117,7 @@ It monitors the oxygen saturation of the patient’s blood and displays the perc
 
 Companies: Masimo, iHealth are examples of companies developing smart pulse oximeter
 
-### Bluetooth Thermometer
+### Bluetooth thermometer
 
 Modern thermometer devices not only read a patient's temperature remotely but also send the data to the app that evaluates them.
 
@@ -143,7 +141,7 @@ It enables real-time and remote medical examinations that don’t have to be con
 
 Check companies developing smart home stethoscopes: Stethome, Feelix@Home.
 
-### Smart Cardiac monitor
+### Smart cardiac monitor
 
 These are medical devices that continuously measure and record heart activity, providing essential data for detecting heart conditions such as arrhythmias, heart attacks, and other cardiovascular issues. Their “smart versions” can be utilised by patients in home settings.
 
@@ -155,7 +153,7 @@ Smart scales that not only measure weight but also track body composition, inclu
 
 Companies: Withings, Fitbit and Xiaomi are examples of companies selling  smart scales
 
-### Sleep Monitors
+### Sleep monitors
 
 Devices that track sleep patterns and quality, providing insights into sleep cycles, disturbances, and overall sleep health.
 
@@ -177,7 +175,7 @@ Medtronic and Insulet are known for their development of artificial pancreas sys
 
 Companies: Medtronic, Insulet are developing artificial pancreas
 
-### Smart Pillbox
+### Smart pillbox
 
 Smart pillboxes help manage medication schedules and ensure adherence to prescriptions and provides alerts whenever something is due.
 
@@ -189,19 +187,19 @@ A smart medication dispenser intelligently manages and dispenses prescribed drug
 
 Companies: Hero is one of the companies developing smart dispensers.
 
-### Smart Inhalers
+### Smart inhalers
 
 Devices that help manage respiratory conditions like asthma or COPD by tracking usage patterns and medication adherence, and sometimes providing feedback on inhalation technique.
 
 Companies: Propeller Health and Teva Pharmaceuticals offer advanced connected inhaler systems that sync with mobile apps for real-time monitoring.
 
-### Glucose Monitoring Systems
+### Glucose monitoring systems
 
 They provide continuous or flash monitoring of blood glucose levels, helping individuals with diabetes manage their condition more effectively.
 
 Companies: Dexcom and Abbott Laboratories are leading manufacturers of CGM (continuous glucose monitoring) systems, offering devices that deliver real-time glucose readings and trend data.
 
-### Wearable Device to Track Epilepsy
+### Wearable device to track epilepsy
 
 This wearable technology is focused on monitoring and analyzing symptoms of epilepsy, aiding in the effective management of the condition.
 
@@ -213,13 +211,13 @@ A wearable device for the arm that uses non-invasive methods to prevent and moni
 
 Company: Metyos is pioneering this technology with its cutting-edge wearable device.
 
-### Devices for Chronic Pain
+### Devices for chronic pain
 
 Description: Devices designed to deliver neuromodulation therapy, effectively managing chronic pain conditions and improving quality of life.
 
 Company: Nalu Medical is known for its advanced pain management devices.
 
-### Gloves Reducing Hand Tremors
+### Gloves reducing hand tremors
 
 These gloves are engineered to stabilize hand movements for patients with Parkinson’s disease, helping to reduce tremors and improve daily functionality.
 
@@ -227,19 +225,19 @@ Company: Various is in the development stages for this type of assistive technol
 
 ## Healthcare assistance devices
 
-### AI Voice Assistant
+### AI voice assistant
 
 AI-driven voice assistants to help manage health by providing medication reminders, scheduling doctor’s appointments, and offering health advice.
 
 Companies: Nuance and Orbita offer AI voice assistants.
 
-### Assistive Robot
+### Assistive robot
 
 Robots can assist staff in hospitals by automating routine tasks like fetching and delivering supplies.
 
 Company: Diligent Robotics is an example of the company developing robots supporting hospital staff.
 
-### Robot Pet
+### Robot pet
 
 Companies like Joy for All create robotic pets designed to provide companionship for the elderly, which can help reduce stress and provide emotional support.
 
@@ -247,7 +245,7 @@ Company: Joy for All offers pets for emotional support.
 
 <YouTubeEmbed url='https://youtu.be/W2hs1ar_lvE' />
 
-### Smart Carpet
+### Smart carpet
 
 They are designed to enhance elderly care by detecting falls and unusual walking patterns, and alerting caregivers to potential issues.
 
