@@ -161,6 +161,20 @@ Company: DermaSensor is leading the way with this innovative approach to early s
 
 ## Chronic disease management devices
 
+### Artificial pancreas
 
+Medtronic and Insulet are known for their development of artificial pancreas systems that automatically adjust insulin levels in diabetic patients.
 
-Contact us if you want to discuss your product’s challenges. [Schedule a free consultation in 48 hours](/start-project/)!
+Companies: Medtronic, Insulet are developing artificial pancreas
+
+### Smart Pillbox
+
+Smart pillboxes help manage medication schedules and ensure adherence to prescriptions and provides alerts whenever something is due.
+
+Companies: Tinylogics, and PillDrill are developing smart pillbox.
+
+### Smart med dispenser
+
+A smart medication dispenser intelligently manages and dispenses prescribed drugs, ensuring that patients take the correct dosage at the right times, thereby improving adherence and overall treatment efficacy.
+
+Companies developing smart dispensers: HeroContact us if you want to discuss your product’s challenges. [Schedule a free consultation in 48 hours](/start-project/)!
