@@ -237,8 +237,16 @@ Company: Joy for All offers pets for emotional support.
 
 <YouTubeEmbed url='https://youtu.be/W2hs1ar_lvE' />
 
+### Smart Carpet
 
+They are designed to enhance elderly care by detecting falls and unusual walking patterns, and alerting caregivers to potential issues.
 
+Company: SensFloor by Future-Shape is a notable example of this technology. 
 
+### Digital Mirror
 
-Companies developing smart dispensers: HeroContact us if you want to discuss your product’s challenges. [Schedule a free consultation in 48 hours](/start-project/)!
+It provides health and beauty insights, integrates with other health devices, and supports teleconsultation.
+
+Companies: CareOS ang Neurologic develop smart mirrors.
+
+<YouTubeEmbed url='https://youtu.be/J9o6_YlxlvA' />
