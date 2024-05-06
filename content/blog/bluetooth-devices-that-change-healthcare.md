@@ -143,8 +143,9 @@ Companies: SmartHeart is an example of a company manufacturing home cardiac moni
 
 Smart scales that not only measure weight but also track body composition, including muscle mass and body fat percentage.
 
-Companies: Withings, Fitbit and Xiaomi areexamples of companies selling  smart scales
-Sleep Monitors
+Companies: Withings, Fitbit and Xiaomi are examples of companies selling  smart scales
+
+### Sleep Monitors
 
 Devices that track sleep patterns and quality, providing insights into sleep cycles, disturbances, and overall sleep health.
 
