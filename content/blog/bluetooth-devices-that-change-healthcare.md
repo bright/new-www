@@ -157,7 +157,7 @@ A device that utilizes spectroscopy to evaluate skin lesions and detect potentia
 
 Company: DermaSensor is leading the way with this innovative approach to early skin cancer detection.
 
-
+<YouTubeEmbed url='https://youtu.be/0wQreIXmS8Y' />
 
 
 
