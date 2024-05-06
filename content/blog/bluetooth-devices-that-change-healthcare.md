@@ -147,7 +147,7 @@ These are medical devices that continuously measure and record heart activity, p
 
 Companies: SmartHeart is an example of a company manufacturing home cardiac monitors.
 
-### Smart Scale
+### Smart scale
 
 Smart scales that not only measure weight but also track body composition, including muscle mass and body fat percentage.
 
@@ -159,7 +159,7 @@ Devices that track sleep patterns and quality, providing insights into sleep cyc
 
 Companies: Fitbit, Philips, and Withings are notable producers of sleep monitoring devices that integrate with other health tracking systems.
 
-### Skin Cancer Detection Device
+### Skin cancer detection device
 
 A device that utilizes spectroscopy to evaluate skin lesions and detect potential skin cancers, recommending further analysis when necessary.
 
@@ -261,7 +261,7 @@ Companies: CareOS ang Neurologic develop smart mirrors.
 
 ## FemTech
 
-### Breast Self-Examination Device
+### Breast self-examination device
 
 A device specifically designed to enable women to perform regular breast self-examinations at home, which is crucial for early detection of breast cancer.
 
@@ -275,13 +275,13 @@ Companies: Elvie and INNOVO are notable in the field of devices for urinary inco
 
 <InstagramEmbed url='https://www.instagram.com/p/C5l4d-Bpyrl/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' />
 
-### Fertility Tracker Devices
+### Fertility tracker devices
 
 These devices often track physiological markers such as basal body temperature, hormone levels, or menstrual cycle patterns to predict ovulation and optimize the chances of conception.
 
 Companies: Ava, Kegg and Clearblue are leading manufacturers in this sector. 
 
-### Breastfeeding Monitor
+### Breastfeeding monitor
 
 Devices designed to assist nursing mothers by tracking breastfeeding sessions, monitoring the baby’s intake, and analyzing feeding patterns. This information helps mothers manage their feeding schedules and ensures adequate nutrition for the baby.
 
