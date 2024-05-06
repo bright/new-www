@@ -250,3 +250,19 @@ It provides health and beauty insights, integrates with other health devices, an
 Companies: CareOS ang Neurologic develop smart mirrors.
 
 <YouTubeEmbed url='https://youtu.be/J9o6_YlxlvA' />
+
+## FemTech
+
+### Breast Self-Examination Device
+
+A device specifically designed to enable women to perform regular breast self-examinations at home, which is crucial for early detection of breast cancer.
+
+Company: Glooma and Dotplot are aim to empower women to monitor their breast health effectively.
+
+### Devices for urinary incontinence treatment
+
+ These devices can include wearable sensors that detect moisture and send alerts to a smartphone app, allowing users to track incidents and patterns. Some advanced systems also offer pelvic floor training programs to strengthen muscles and reduce incidents of leaks.
+
+Companies: Elvie and INNOVO are notable in the field of devices for urinary incontinence.
+
+<InstagramEmbed url='https://www.instagram.com/p/C5l4d-Bpyrl/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' />
