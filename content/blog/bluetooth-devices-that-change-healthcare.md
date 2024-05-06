@@ -141,7 +141,7 @@ These are medical devices that continuously measure and record heart activity, p
 
 Companies: SmartHeart is an example of a company manufacturing home cardiac monitors.
 
-### Smart Scale 
+### Smart Scale
 
 Smart scales that not only measure weight but also track body composition, including muscle mass and body fat percentage.
 
@@ -279,8 +279,7 @@ Companies: Ava, Kegg and Clearblue are leading manufacturers in this sector.
 
 Devices designed to assist nursing mothers by tracking breastfeeding sessions, monitoring the baby’s intake, and analyzing feeding patterns. This information helps mothers manage their feeding schedules and ensures adequate nutrition for the baby.
 
-Companies: Coro is one of the pioneers in breastfeeding monitoring.
-https://www.corobaby.com/
+Company: Coro is one of the pioneers in breastfeeding monitoring.
 
 ### Smart breast pump
 
