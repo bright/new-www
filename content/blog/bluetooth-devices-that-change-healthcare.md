@@ -133,9 +133,11 @@ It enables real-time and remote medical examinations that don’t have to be con
 
 Check companies developing smart home stethoscopes: Stethome, Feelix@Home.
 
+### Smart Cardiac monitor
 
+These are medical devices that continuously measure and record heart activity, providing essential data for detecting heart conditions such as arrhythmias, heart attacks, and other cardiovascular issues. Their “smart versions” can be utilised by patients in home settings.
 
-
+Companies: Smartheart is an example of a company manufacturring home cardiac monitors.
 
 
 
