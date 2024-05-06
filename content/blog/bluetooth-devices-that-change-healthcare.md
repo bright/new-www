@@ -199,7 +199,7 @@ Company: Neurava is at the forefront of developing these innovative wearable dev
 
 ### Wearable for monitoring of chronic kidney disease
 
-Description: A wearable device for the arm that uses non-invasive methods to prevent and monitor chronic kidney diseases, offering a new approach to managing this widespread health issue.
+A wearable device for the arm that uses non-invasive methods to prevent and monitor chronic kidney diseases, offering a new approach to managing this widespread health issue.
 
 Company: Metyos is pioneering this technology with its cutting-edge wearable device.
 
