@@ -235,4 +235,10 @@ Companies like Joy for All create robotic pets designed to provide companionship
 
 Company: Joy for All offers pets for emotional support.
 
+<YouTubeEmbed url='https://youtu.be/W2hs1ar_lvE' />
+
+
+
+
+
 Companies developing smart dispensers: HeroContact us if you want to discuss your product’s challenges. [Schedule a free consultation in 48 hours](/start-project/)!
