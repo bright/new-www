@@ -266,3 +266,9 @@ Company: Glooma and Dotplot are aim to empower women to monitor their breast hea
 Companies: Elvie and INNOVO are notable in the field of devices for urinary incontinence.
 
 <InstagramEmbed url='https://www.instagram.com/p/C5l4d-Bpyrl/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' />
+
+### Fertility Tracker Devices
+
+These devices often track physiological markers such as basal body temperature, hormone levels, or menstrual cycle patterns to predict ovulation and optimize the chances of conception.
+
+Companies: Ava, Kegg and Clearblue are leading manufacturers in this sector.
