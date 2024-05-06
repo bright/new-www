@@ -65,7 +65,7 @@ Companies: WELT is an example of a company that has developed smart belts with h
 
 Smart socks monitor foot temperature, helping to detect early signs of inflammation or injury. Smart socks can also help with the fall prevention.
 
-Companies such as Siren https://www.siren.care/, Pup smart socks https://palarum.com/ https://palarum.org/wp-content/uploads/2022/10/whitePaper20.pdf
+Companies such as Siren and Palarum offer smart socks. 
 
 Smart shoe insoles
 
