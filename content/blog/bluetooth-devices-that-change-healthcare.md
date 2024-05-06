@@ -191,4 +191,30 @@ They provide continuous or flash monitoring of blood glucose levels, helping ind
 
 Companies: Dexcom and Abbott Laboratories are leading manufacturers of CGM (continuous glucose monitoring) systems, offering devices that deliver real-time glucose readings and trend data.
 
+### Wearable Device to Track Epilepsy
+
+This wearable technology is focused on monitoring and analyzing symptoms of epilepsy, aiding in the effective management of the condition.
+
+Company: Neurava is at the forefront of developing these innovative wearable devices.
+
+### Wearable for monitoring of chronic kidney disease
+
+Description: A wearable device for the arm that uses non-invasive methods to prevent and monitor chronic kidney diseases, offering a new approach to managing this widespread health issue.
+
+Company: Metyos is pioneering this technology with its cutting-edge wearable device.
+
+### Devices for Chronic Pain
+
+Description: Devices designed to deliver neuromodulation therapy, effectively managing chronic pain conditions and improving quality of life.
+
+Company: Nalu Neurostimulation is known for its advanced pain management devices.
+
+### Gloves Reducing Hand Tremors
+
+These gloves are engineered to stabilize hand movements for patients with Parkinson’s disease, helping to reduce tremors and improve daily functionality.
+
+Company: Various companies are in the development stages for this type of assistive technology.
+
+
+
 Companies developing smart dispensers: HeroContact us if you want to discuss your product’s challenges. [Schedule a free consultation in 48 hours](/start-project/)!
