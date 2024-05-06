@@ -1,11 +1,10 @@
 ---
 author: izabela
 tags:
-  - business
   - HealthTech
 date: 2021-08-03T06:50:18.274Z
 meaningfullyUpdatedAt: 2024-02-23T07:54:59.296Z
-title: Smart Health Devices That Are Transforming Healthcare
+title: The List of 42 Healthcare Smart Devices (Regularly Updated)
 layout: post
 image: /images/smart_devices_healthcare.png
 hidden: false
@@ -13,103 +12,284 @@ comments: true
 published: true
 language: en
 ---
-**Smartwatches, rings, and even earrings… Explore devices currently transforming healthcare and those that could revolutionize digital health in the future.**
+**Smart earrings, tattoos, smart socks, robot pets, and more... Discover the types of smart healthcare devices transforming patient care with the Internet of Things (IoT). Also, meet HealthTech companies that are behind these devices. The list is continuously updated.**
 
 <div className="image">![smart devices healthcare](../../static/images/smart_devices_healthcare.png "smart devices healthcare")</div>
 
-Remote patient monitoring (RPM) can lead to significant cost savings in healthcare. An essential part of RPM is healthcare smart devices including wearables that monitor patients' vital signs. Empowered with healthcare software applications and smart devices doctors, nurses, and patients themselves can more efficiently manage the disease, leading to reduced hospital visits and improved management of chronic diseases.
+## Healthcare wearables
 
-## Healthcare devices that enable remote patient monitoring:
+### Multi-functional smartwatch
 
-Check out devices that are part of the digital transformation in healthcare.
+They monitor stress levels, movement disorders, sleep tracking, blood pressure, heart disease.
+Due to their widespread popularity, these devices have the potential to evolve from mere fitness trackers to healthcare tools accessible to the masses.
 
-### Pulse oximeter
-
-![Pulse oximeter](../../static/images/blogpost_www_pulse_oximeter.png)
-
-* It monitors the oxygen saturation of the patient’s blood and displays the percentage of blood loaded with oxygen.
-* The device has become popular during the pandemic because it is a fast and simple method to calculate the risk of COVID-19 infection. 
-* For one of our clients, we connect oximeters with a dedicated app that process the data about the patient’s oxygen saturation and analyze them. We’ve developed an algorithm that verifies if the patient’s condition requires any ambulance assistance. Also, the data about the patient saturation can be sent to a doctor who monitors the condition of the patient.
-
-### Bluetooth Thermometer
-
-![Bluetooth Thermometer](../../static/images/blogpost_www_thermometer.png)
-
-* Another healthcare device that has become crucial during the pandemic.
-* Modern thermometer devices not only read a patient's temperature remotely but also send the data to the app that evaluates them.
-
-### Sphygmomanometer
-
-![Sphygmomanometer](../../static/images/blogpost_www_sphygmomanometer.png)
-
-* It is a well-known blood pressure monitor.
-* Modern versions of these devices can connect to the app which enables sending the data about blood pressure to the medical staff.
-
-### Spirometer
-
-![Spirometer](../../static/images/blogpost_www_spirometer.png)
-
-* It measures the volume of air inhaled and exhaled by human’s lungs.
-* It’s another device that helps to diagnose COVID-19 infection. 
-* Apart from that, it tests lung functionality, reasons for shortness of breath and other issues related to breathing.
-* Modern hand-held spirometers can be used by patients on a daily basis.
-* It is a helpful tool, especially for patients with chronic diseases like asthma who have to monitor their condition every day. Thanks to the app connected to the device doctors can monitor a patient's state in real time.
-
-### Stethoscope
-
-![Stethoscope](../../static/images/blogpost_www_stethoscope.png)
-
-* Known as the number one of doctor’s gadgets, it can now be used remotely by other caregivers at care homes and nursing homes. 
-* It enables real-time and remote medical examinations that don’t have to be conducted by doctors. Caregivers not only can record a patient’s beating heart but even “broadcast” it live to the doctor.
-* Digital stethoscopes gather a very unique set of data which must be verified by doctors. Bluetooth connection enables transferring the data to an app which analyses them and informs a doctor about the results. 
-
-### Wearable vital sign arm monitor
-
-![Wearable continuous monitoring device](../../static/images/blogpost_www_continuous_monitoring_device.png)
-
-* Patients wear a device for example on their arm and doctors as well as caregivers can monitor the vital signs in real-time, 24 hours a day.
-* These types of devices are especially beneficial for older patients because they are easy to use. Patients just have to wear it and have the app around.
-* They help to prevent circulatory diseases that are [a leading cause of death globally](https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)).
-* However, they might not be that convenient to wear 24 hours a day compared to other smaller smart devices.
-
-### Smartwatch
-
-* Popular fitness gadget that can also be a part of medical remote care systems.
-* They monitor stress levels, movement disorders, sleep tracking, blood pressure, heart disease.
-* Due to their widespread popularity, these devices have the potential to evolve from mere fitness trackers to healthcare tools accessible to the masses. However, they may face some competition in this journey.
-
-## Smart healthcare devices of the future
-
-The future of digital health is closely connected with wearable healthcare devices that can non-invasively collect data 24 hours a day. The smaller these devices are, the better. Not only do they tend to have longer battery lives, but research also shows promise in [utilizing human body heat as a power source](https://scitechdaily.com/new-wearable-device-turns-your-body-into-a-biological-battery/).
+Companies: Brands like Fitbit and Garmin specialize in such devices.
 
 ### Smart ring
 
-<div className="image">![smart ring healthcare](../../static/images/smart_ring_blog.png "smart ring healthcare")</div>
+Smart rings have shown promise in areas such as sign language recognition and the early detection of COVID-19 and other viral infections. They are also utilized for early detection and prevention of burnout and other mental disorders. 
 
-Image generated by DALL-E.
-
-* Smart rings seem like smaller versions of smartwatches, but calling them that is an understatement.
-* Their discreet form factor and the capability to collect data unobtrusively allow for the capturing of more comprehensive health data.
-* Smart rings have also shown promise in areas such as [sign language recognition](https://dl.acm.org/doi/10.1145/3597638.3614491) and the [early detection of COVID-1](https://www.fiercehealthcare.com/tech/ucsf-launches-study-to-use-wearable-data-from-oura-ring-for-early-covid-19-detection)9 and other viral infections.
+Companies: Oura, Motiv, Ringly, and Nuanic are examples of companies that have developed smart rings, providing insights into human well-being.
 
 ### Smart earrings
 
-<div className="image">![smart earrings healthcare](../../static/images/smart_earrings.png "smart earrings healthcare")</div>
+Researchers at the University of Washington are developing smart earrings capable of monitoring signs of stress, eating, exercise, and ovulation.
 
-Image generated by DALL-E.
+Companies: this technology is mostly developed at universities.
 
-* Researchers at the University of Washington are developing smart earrings capable of monitoring signs of stress, eating, exercise, and ovulation.
-* These earrings continuously measure fever, indicating if the body is fighting an infection.
-* Studies show these earrings are more accurate at sensing skin temperature than smartwatches, making them potentially better for measuring ovulation and period tracking. FemTech companies are likely to explore these prototypes for integration with their applications.
+<div className="image">![Image generated by DALL-E.](/images/smart_earrings.png "Image generated by DALL-E.")</div>
 
-## Challenges in implementing smart devices in healthcare systems
+### Smart bracelet
 
-Gathering data from these devices isn’t a challenge. T**he challenge is to develop the right application that will not only analyze the data but will respond with a solution that may save a life**. For example, healthcare apps that we have created at Bright Inventions can instruct patients and caregivers to call an ambulance based on alarming data provided by the devices. 
+A smart bracelet can as many wearables track vital signs. High-performance athletic wearables provide detailed insights into recovery, strain, and sleep, designed primarily for athletes and fitness enthusiasts. 
 
-Healthcare wearables are advancing in detecting various diseases early, including cardiovascular diseases, hypertension, muscle disorders, and neurocognitive disorders. Research also focuses on the development of wearables for the early detection of Alzheimer's and other neurodegenerative diseases​. Moreover, the future of smart devices in healthcare diagnostics looks promising with applications leveraging Generative AI.
+Companies: Fitbit, Garmin, Whoop specializes in athletic and lifestyle wearables. 
 
-Diabetics also wait for the moment when smartwatches and rings will be able to measure blood glucose but [that's still not a reality](https://www.theverge.com/2024/2/21/24079495/smartwatch-smart-ring-blood-glucose-monitoring-diabetes-fda).
+### Smart tattoos
 
-If you are looking for a [healthcare software development company](/our-areas/healthcare-software-development/) to develop applications enabling remote patient monitoring with healthcare devices, make sure that **the software team that you are about to hire has deep knowledge of software as well as hardware**. These two elements are crucial in developing solutions for remote patient monitoring.
+Smart tattoos offer a promising future in the realm of personalized medicine including continuous health monitoring in a non-invasive and virtually unnoticeable manner.
 
-Contact us if you want to discuss your product’s challenges. [Schedule a free consultation in 48 hours](/start-project/)!
+Companies: smart tattoos are still in the experimental stage, undergoing research.
+
+### Smart headband
+
+Smart headbands are designed to monitor brain activity, stress levels, and sleep patterns. They often utilize sensors to collect data that can aid meditation, improve sleep, and manage neurological conditions.
+
+Companies: Muse and Emotiv produce headbands that are widely used in neurofeedback and mental health improvement applications.
+
+### Smart belt
+
+Wearable devices that monitor physical fitness, track posture, and even alert users to health issues like irregular breathing or heart rates. They can also provide haptic feedback for posture correction.
+
+Companies: WELT is an example of a company that has developed smart belts with health tracking.
+
+### Smart Socks
+
+Smart socks monitor foot temperature, helping to detect early signs of inflammation or injury. Smart socks can also help with the fall prevention.
+
+Companies such as Siren and Palarum offer smart socks. 
+
+### Smart shoe insoles
+
+Smart shoe insoles are designed to fit inside footwear and provide real-time feedback on walking and running patterns. This technology is a proactive tool in diabetic foot ulcer prevention, helping to maintain foot health and mobility in patients with diabetes.
+
+Companies: Digitsole, Orpyx, Nurvv are leading smart shoe insoles providers.
+
+### Smart Contact Lenses
+
+Connected contact lenses are innovative devices designed to monitor physiological conditions, like glucose levels or intraocular pressure, or to provide augmented reality displays.
+
+Companies: Companies like Alcon and Mojo Vision are pioneering this technology, aiming to merge vision correction with digital data display or health monitoring functionalities.
+
+### Smart glasses
+
+These devices are particularly valuable for providing real-time patient data display, assisting with surgical procedures through augmented reality overlays, and improving accessibility for the visually impaired by enhancing residual vision or reading text aloud.
+
+Companies: Vuzix and Google, Apple are key players in the development of smart glasses.
+
+<YouTubeEmbed url='https://www.youtube.com/watch?v=2ts7Gxx2uc8' />
+
+### Fall-detection devices
+
+These devices use sensors to detect falls among patients and the elderly, alerting caregivers and emergency services automatically.
+
+Companies: Lifeline develops fall-detection devices and sensors.
+
+https://www.lifeline.com/
+
+### Smart Bandages
+
+They monitor wound conditions, such as moisture and temperature, and can deliver targeted drug treatments to improve healing processes.
+
+Companies: This technology is still mostly in the prototype phase; if you know companies that are developing smart bandages, let us know in the comments.
+
+## Remote patient monitoring & diagnostics devices
+
+### Pulse oximeter
+
+It monitors the oxygen saturation of the patient’s blood and displays the percentage of blood loaded with oxygen.
+
+Companies: Masimo, iHealth are examples of companies developing smart pulse oximeter
+
+### Bluetooth Thermometer
+
+Modern thermometer devices not only read a patient's temperature remotely but also send the data to the app that evaluates them.
+
+Companies: ihealth, Withings and Kinsa are examples of companies developing smart thermometers.
+
+### Sphygmomanometer (electronic blood pressure monitor)
+
+These devices often feature wireless connectivity, enabling easy tracking and management of blood pressure readings.
+
+Companies: Omron, Withings and Qardio are examples of companies at the forefront of developing smart sphygmomanometers.
+
+### Spirometer
+
+Devcies designed to measure lung function and help diagnose, monitor, and treat respiratory conditions such as asthma, COPD (chronic obstructive pulmonary disease), and cystic fibrosis. 
+
+Companies: NuovoAir, AioCare are examples of companies known for developing innovative smart spirometers.
+
+### Stethoscope
+
+It enables real-time and remote medical examinations that don’t have to be conducted by doctors. Caregivers not only can record a patient’s beating heart but even “broadcast” it live to the doctor.
+
+Check companies developing smart home stethoscopes: Stethome, Feelix@Home.
+
+### Smart Cardiac monitor
+
+These are medical devices that continuously measure and record heart activity, providing essential data for detecting heart conditions such as arrhythmias, heart attacks, and other cardiovascular issues. Their “smart versions” can be utilised by patients in home settings.
+
+Companies: SmartHeart is an example of a company manufacturing home cardiac monitors.
+
+### Smart Scale 
+
+Smart scales that not only measure weight but also track body composition, including muscle mass and body fat percentage.
+
+Companies: Withings, Fitbit and Xiaomi are examples of companies selling  smart scales
+
+### Sleep Monitors
+
+Devices that track sleep patterns and quality, providing insights into sleep cycles, disturbances, and overall sleep health.
+
+Companies: Fitbit, Philips, and Withings are notable producers of sleep monitoring devices that integrate with other health tracking systems.
+
+### Skin Cancer Detection Device
+
+A device that utilizes spectroscopy to evaluate skin lesions and detect potential skin cancers, recommending further analysis when necessary.
+
+Company: DermaSensor is leading the way with this innovative approach to early skin cancer detection.
+
+<YouTubeEmbed url='https://youtu.be/0wQreIXmS8Y' />
+
+## Chronic disease management devices
+
+### Artificial pancreas
+
+Medtronic and Insulet are known for their development of artificial pancreas systems that automatically adjust insulin levels in diabetic patients.
+
+Companies: Medtronic, Insulet are developing artificial pancreas
+
+### Smart Pillbox
+
+Smart pillboxes help manage medication schedules and ensure adherence to prescriptions and provides alerts whenever something is due.
+
+Companies: Tinylogics, and PillDrill are developing smart pillbox.
+
+### Smart med dispenser
+
+A smart medication dispenser intelligently manages and dispenses prescribed drugs, ensuring that patients take the correct dosage at the right times, thereby improving adherence and overall treatment efficacy.
+
+Companies: Hero is one of the companies developing smart dispensers.
+
+### Smart Inhalers
+
+Devices that help manage respiratory conditions like asthma or COPD by tracking usage patterns and medication adherence, and sometimes providing feedback on inhalation technique.
+
+Companies: Propeller Health and Teva Pharmaceuticals offer advanced connected inhaler systems that sync with mobile apps for real-time monitoring.
+
+### Glucose Monitoring Systems
+
+They provide continuous or flash monitoring of blood glucose levels, helping individuals with diabetes manage their condition more effectively.
+
+Companies: Dexcom and Abbott Laboratories are leading manufacturers of CGM (continuous glucose monitoring) systems, offering devices that deliver real-time glucose readings and trend data.
+
+### Wearable Device to Track Epilepsy
+
+This wearable technology is focused on monitoring and analyzing symptoms of epilepsy, aiding in the effective management of the condition.
+
+Company: Neurava is at the forefront of developing these innovative wearable devices.
+
+### Wearable for monitoring of chronic kidney disease
+
+A wearable device for the arm that uses non-invasive methods to prevent and monitor chronic kidney diseases, offering a new approach to managing this widespread health issue.
+
+Company: Metyos is pioneering this technology with its cutting-edge wearable device.
+
+### Devices for Chronic Pain
+
+Description: Devices designed to deliver neuromodulation therapy, effectively managing chronic pain conditions and improving quality of life.
+
+Company: Nalu Medical is known for its advanced pain management devices.
+
+### Gloves Reducing Hand Tremors
+
+These gloves are engineered to stabilize hand movements for patients with Parkinson’s disease, helping to reduce tremors and improve daily functionality.
+
+Company: Various is in the development stages for this type of assistive technology.
+
+## Healthcare assistance devices
+
+### AI Voice Assistant
+
+AI-driven voice assistants to help manage health by providing medication reminders, scheduling doctor’s appointments, and offering health advice.
+
+Companies: Nuance and Orbita offer AI voice assistants.
+
+### Assistive Robot
+
+Robots can assist staff in hospitals by automating routine tasks like fetching and delivering supplies.
+
+Company: Diligent Robotics is an example of the company developing robots supporting hospital staff.
+
+### Robot Pet
+
+Companies like Joy for All create robotic pets designed to provide companionship for the elderly, which can help reduce stress and provide emotional support.
+
+Company: Joy for All offers pets for emotional support.
+
+<YouTubeEmbed url='https://youtu.be/W2hs1ar_lvE' />
+
+### Smart Carpet
+
+They are designed to enhance elderly care by detecting falls and unusual walking patterns, and alerting caregivers to potential issues.
+
+Company: SensFloor by Future-Shape is a notable example of this technology. 
+
+### Digital Mirror
+
+It provides health and beauty insights, integrates with other health devices, and supports teleconsultation.
+
+Companies: CareOS ang Neurologic develop smart mirrors.
+
+<YouTubeEmbed url='https://youtu.be/J9o6_YlxlvA' />
+
+## FemTech
+
+### Breast Self-Examination Device
+
+A device specifically designed to enable women to perform regular breast self-examinations at home, which is crucial for early detection of breast cancer.
+
+Company: Glooma and Dotplot are aim to empower women to monitor their breast health effectively.
+
+### Devices for urinary incontinence treatment
+
+ These devices can include wearable sensors that detect moisture and send alerts to a smartphone app, allowing users to track incidents and patterns. Some advanced systems also offer pelvic floor training programs to strengthen muscles and reduce incidents of leaks.
+
+Companies: Elvie and INNOVO are notable in the field of devices for urinary incontinence.
+
+<InstagramEmbed url='https://www.instagram.com/p/C5l4d-Bpyrl/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' />
+
+### Fertility Tracker Devices
+
+These devices often track physiological markers such as basal body temperature, hormone levels, or menstrual cycle patterns to predict ovulation and optimize the chances of conception.
+
+Companies: Ava, Kegg and Clearblue are leading manufacturers in this sector. 
+
+### Breastfeeding Monitor
+
+Devices designed to assist nursing mothers by tracking breastfeeding sessions, monitoring the baby’s intake, and analyzing feeding patterns. This information helps mothers manage their feeding schedules and ensures adequate nutrition for the baby.
+
+Companies: Coro is one of the pioneers in breastfeeding monitoring.
+https://www.corobaby.com/
+
+### Smart breast pump
+
+Modern breast pumps connected to a dedicated app enable monitoring of milk volume, tracking of pumping sessions, and offer guidance to optimize the pumping experience.
+
+Companies: Elvie, Willow and Freemie offer smart breast pumps.
+
+### Hot flush relief bracelet
+
+A piece of smart jewelry that automatically tracks hot flashes for women experiencing menopause, offering relief by triggering cooling at the onset of a flush.
+
+Companies: Grace is the manufacturer developing bracelets for women with menopause.
