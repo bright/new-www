@@ -127,11 +127,11 @@ Devcies designed to measure lung function and help diagnose, monitor, and treat 
 
 Companies: NuovoAir, AioCare are examples of companies known for developing innovative smart spirometers.
 
+### Stethoscope
 
+It enables real-time and remote medical examinations that don’t have to be conducted by doctors. Caregivers not only can record a patient’s beating heart but even “broadcast” it live to the doctor.
 
-
-
-
+Check companies developing smart home stethoscopes: Stethome, Feelix@Home.
 
 
 
