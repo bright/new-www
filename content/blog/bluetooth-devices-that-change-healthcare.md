@@ -227,14 +227,12 @@ Companies: Nuance and Orbita offer AI voice assistants.
 
 Robots can assist staff in hospitals by automating routine tasks like fetching and delivering supplies.
 
-Companies: Diligent Robotics is an example of the company developing robots supporting hospital staff.
+Company: Diligent Robotics is an example of the company developing robots supporting hospital staff.
 
 ### Robot Pet
 
 Companies like Joy for All create robotic pets designed to provide companionship for the elderly, which can help reduce stress and provide emotional support.
 
-
-
-
+Company: Joy for All offers pets for emotional support.
 
 Companies developing smart dispensers: HeroContact us if you want to discuss your product’s challenges. [Schedule a free consultation in 48 hours](/start-project/)!
