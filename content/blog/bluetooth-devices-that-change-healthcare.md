@@ -67,14 +67,13 @@ Smart socks monitor foot temperature, helping to detect early signs of inflammat
 
 Companies such as Siren and Palarum offer smart socks. 
 
-Smart shoe insoles
+### Smart shoe insoles
 
 Smart shoe insoles are designed to fit inside footwear and provide real-time feedback on walking and running patterns. This technology is a proactive tool in diabetic foot ulcer prevention, helping to maintain foot health and mobility in patients with diabetes.
 
 Companies: Digitsole, Orpyx, Nurvv are leading smart shoe insoles providers.
-https://www.digitsole.com/  https://www.orpyx.com/
 
-Smart Contact Lenses
+### Smart Contact Lenses
 
 Connected contact lenses are innovative devices designed to monitor physiological conditions, like glucose levels or intraocular pressure, or to provide augmented reality displays.
 
