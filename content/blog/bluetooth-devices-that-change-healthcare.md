@@ -1,11 +1,10 @@
 ---
 author: izabela
 tags:
-  - business
   - HealthTech
 date: 2021-08-03T06:50:18.274Z
 meaningfullyUpdatedAt: 2024-02-23T07:54:59.296Z
-title: Smart Health Devices That Are Transforming Healthcare
+title: The List of 43 Healthcare Smart Devices (Regularly Updated)
 layout: post
 image: /images/smart_devices_healthcare.png
 hidden: false
@@ -13,23 +12,40 @@ comments: true
 published: true
 language: en
 ---
-**Smartwatches, rings, and even earrings… Explore devices currently transforming healthcare and those that could revolutionize digital health in the future.**
+**Smart earrings, tattoos, smart socks, robot pets, and more... Discover the types of smart healthcare devices transforming patient care with the Internet of Things (IoT). Also, meet HealthTech companies that are behind these devices. The list is continuously updated.**
 
 <div className="image">![smart devices healthcare](../../static/images/smart_devices_healthcare.png "smart devices healthcare")</div>
 
-Remote patient monitoring (RPM) can lead to significant cost savings in healthcare. An essential part of RPM is healthcare smart devices including wearables that monitor patients' vital signs. Empowered with healthcare software applications and smart devices doctors, nurses, and patients themselves can more efficiently manage the disease, leading to reduced hospital visits and improved management of chronic diseases.
+## Healthcare wearables
 
-## Healthcare devices that enable remote patient monitoring:
+### Multi-functional smartwatch
 
-Check out devices that are part of the digital transformation in healthcare.
+They monitor stress levels, movement disorders, sleep tracking, blood pressure, heart disease.
+Due to their widespread popularity, these devices have the potential to evolve from mere fitness trackers to healthcare tools accessible to the masses.
 
-### Pulse oximeter
+Companies: Brands like Fitbit and Garmin specialize in such devices.
 
-![Pulse oximeter](../../static/images/blogpost_www_pulse_oximeter.png)
+### Smart ring
 
-* It monitors the oxygen saturation of the patient’s blood and displays the percentage of blood loaded with oxygen.
-* The device has become popular during the pandemic because it is a fast and simple method to calculate the risk of COVID-19 infection. 
-* For one of our clients, we connect oximeters with a dedicated app that process the data about the patient’s oxygen saturation and analyze them. We’ve developed an algorithm that verifies if the patient’s condition requires any ambulance assistance. Also, the data about the patient saturation can be sent to a doctor who monitors the condition of the patient.
+Smart rings have shown promise in areas such as sign language recognition and the early detection of COVID-19 and other viral infections. They are also utilized for early detection and prevention of burnout and other mental disorders. 
+
+Companies: Oura, Motiv, Ringly, and Nuanic are examples of companies that have developed smart rings, providing insights into human well-being.
+
+### Smart earrings
+
+Researchers at the University of Washington are developing smart earrings capable of monitoring signs of stress, eating, exercise, and ovulation.
+
+Companies: this technology is mostly developed at universities.
+
+### Smart bracelet
+
+A smart bracelet can as many wearables track vital signs. High-performance athletic wearables provide detailed insights into recovery, strain, and sleep, designed primarily for athletes and fitness enthusiasts. 
+
+Companies: Fitbit, Garmin, Whoop specializes in athletic and lifestyle wearables. 
+
+
+
+
 
 ### Bluetooth Thermometer
 
