@@ -177,4 +177,6 @@ Companies: Tinylogics, and PillDrill are developing smart pillbox.
 
 A smart medication dispenser intelligently manages and dispenses prescribed drugs, ensuring that patients take the correct dosage at the right times, thereby improving adherence and overall treatment efficacy.
 
+Companies: Hero is one of the companies developing smart dispensers.
+
 Companies developing smart dispensers: HeroContact us if you want to discuss your product’s challenges. [Schedule a free consultation in 48 hours](/start-project/)!
