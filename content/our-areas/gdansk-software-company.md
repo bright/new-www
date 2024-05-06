@@ -27,7 +27,7 @@ project:
 layout: our-service
 our_service_id: Gdansk software company
 meta_title: Best Software Development Studio in Gdańsk
-meta_description: Meet best software development studio in Gdańsk (Poland).
+meta_description: Meet the best software development studio in Gdańsk (Poland).
   Bright Inventions is a software agency crafting custom web and mobile
   solutions.
 our_services_icon: /images/custom_software_development_icon.png
@@ -60,15 +60,15 @@ bar_stack:
   - Node.js
   - React
   - NestJS
-button: book a meeting
-button2: let's face tech challenges together
+button: meet for a coffee
+button2: meet for a coffee together
 published: false
 show_case_study: true
 show_technology_stack: true
 title_team: meet the software development team
 title_case_study: the clients we have supported in the tech journey
 title_faqs: software development Gdańsk FAQs
-title_contact: book a free consultation in 48 hours
+title_contact: meet for a coffee in 48 hours
 description_contact: Fill out the form below and we'll get back to you in 48
   hours. And hopefully we'll see you soon in Gdańsk!
 language: en
@@ -77,11 +77,29 @@ blog_section_tags:
   - programming
 blog_section_title: blog posts
 ---
-Headquartered in the city of Gdańsk – a hub of innovation and technological expertise – our team has been at the forefront of [the dynamic Polish IT sector](/blog/five-things-you-should-know-about-working-with-Polish-developers/) for over 13 years.
+Welcome to Gdańsk, the city that embraces its 1000-year history while emerging as one of the most vibrant technological hubs in Poland. 
 
-Gdansk has proven itself as a magnet for global business giants, with industry leaders like Intel, Amazon, Nordea, and Lufthansa choosing to establish a presence here. From the convenience of Gdansk Airport, you can easily access over 20 countries with the majority of European destinations just a short flight away—many within a mere two hours.
+We are **Bright Inventions – a company proudly located in the city, just 15 minutes from the airport**. Are you currently exploring Gdansk? Why don't we grab a coffee together? Meet with our software engineering team and learn how together we can create software that matters.
 
-If you are considering partnering with a company from Gdańsk, go deeper into [the advantages our city has to offer](https://brightinventions.pl/blog/hiring-software-development-agency-based-in-gdansk/). We can join forces and explore together the potential of Poland's tech scene.  
+## Gdańsk from our team’s perspective
+
+Explore the city from our local point of view. View places that might not be seen in guidebooks.
+
+### Post-shipyard industrial cultural center
+
+Once a hub for industrial activity, the streets such as Elektryków and Narzędziowa have transformed blossoming into a vibrant cultural hotspot.
+
+### The fortifications of Gdańsk
+
+These historic structures stand as beloved landmarks, providing a picturesque backdrop for exploring Gdansk's historic streets, charming squares, and architectural treasures.
+
+### Górki Wschodnie beach
+
+Surrounded by dunes and coastal vegetation, Górki Wschodnie Beach boasts natural beauty and serenity, making it an ideal destination for nature lovers and outdoor enthusiasts.
+
+### Jaskowa Valley Park 
+
+The urban park only 20 minutes walk from our office offers a peaceful retreat from the bustling city life.
 
 ## our expertise
 
