@@ -179,4 +179,16 @@ A smart medication dispenser intelligently manages and dispenses prescribed drug
 
 Companies: Hero is one of the companies developing smart dispensers.
 
+### Smart Inhalers
+
+Devices that help manage respiratory conditions like asthma or COPD by tracking usage patterns and medication adherence, and sometimes providing feedback on inhalation technique.
+
+Companies: Propeller Health and Teva Pharmaceuticals offer advanced connected inhaler systems that sync with mobile apps for real-time monitoring.
+
+### Glucose Monitoring Systems
+
+They provide continuous or flash monitoring of blood glucose levels, helping individuals with diabetes manage their condition more effectively.
+
+Companies: Dexcom and Abbott Laboratories are leading manufacturers of CGM (continuous glucose monitoring) systems, offering devices that deliver real-time glucose readings and trend data.
+
 Companies developing smart dispensers: HeroContact us if you want to discuss your product’s challenges. [Schedule a free consultation in 48 hours](/start-project/)!
