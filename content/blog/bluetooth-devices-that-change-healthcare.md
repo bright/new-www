@@ -159,6 +159,8 @@ Company: DermaSensor is leading the way with this innovative approach to early s
 
 <YouTubeEmbed url='https://youtu.be/0wQreIXmS8Y' />
 
+## Chronic disease management devices
+
 
 
 Contact us if you want to discuss your product’s challenges. [Schedule a free consultation in 48 hours](/start-project/)!
