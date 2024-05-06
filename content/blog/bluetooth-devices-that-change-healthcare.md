@@ -4,7 +4,7 @@ tags:
   - HealthTech
 date: 2021-08-03T06:50:18.274Z
 meaningfullyUpdatedAt: 2024-02-23T07:54:59.296Z
-title: The List of 43 Healthcare Smart Devices (Regularly Updated)
+title: The List of 42 Healthcare Smart Devices (Regularly Updated)
 layout: post
 image: /images/smart_devices_healthcare.png
 hidden: false
