@@ -137,7 +137,26 @@ Check companies developing smart home stethoscopes: Stethome, Feelix@Home.
 
 These are medical devices that continuously measure and record heart activity, providing essential data for detecting heart conditions such as arrhythmias, heart attacks, and other cardiovascular issues. Their “smart versions” can be utilised by patients in home settings.
 
-Companies: Smartheart is an example of a company manufacturring home cardiac monitors.
+Companies: SmartHeart is an example of a company manufacturing home cardiac monitors.
+
+### Smart Scale 
+
+Withings and Fitbit produce smart scales that not only measure weight but also track body composition, including muscle mass and body fat percentage.
+
+Companies: Withings and Xiaomi areexamples of companies selling  smart scales
+Sleep Monitors
+
+Devices that track sleep patterns and quality, providing insights into sleep cycles, disturbances, and overall sleep health.
+
+Companies: Fitbit, Philips, and Withings are notable producers of sleep monitoring devices that integrate with other health tracking systems.
+
+### Skin Cancer Detection Device
+
+A device that utilizes spectroscopy to evaluate skin lesions and detect potential skin cancers, recommending further analysis when necessary.
+
+Company: DermaSensor is leading the way with this innovative approach to early skin cancer detection.
+
+
 
 
 
