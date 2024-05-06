@@ -251,7 +251,7 @@ They are designed to enhance elderly care by detecting falls and unusual walking
 
 Company: SensFloor by Future-Shape is a notable example of this technology. 
 
-### Digital Mirror
+### Digital mirror
 
 It provides health and beauty insights, integrates with other health devices, and supports teleconsultation.
 
