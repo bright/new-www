@@ -79,7 +79,7 @@ blog_section_title: blog posts
 ---
 Welcome to Gdańsk, the city that embraces its 1000-year history while emerging as one of the most vibrant technological hubs in Poland. 
 
-We are Bright Inventions – a company proudly located in the city, just 15 minutes from the airport. Are you currently exploring Gdansk? Why don't we grab a coffee together? Meet with our software engineering team and learn how together we can create software that matters.
+We are **Bright Inventions – a company proudly located in the city, just 15 minutes from the airport**. Are you currently exploring Gdansk? Why don't we grab a coffee together? Meet with our software engineering team and learn how together we can create software that matters.
 
 ## Gdańsk from our team’s perspective
 
