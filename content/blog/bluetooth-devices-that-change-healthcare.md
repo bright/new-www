@@ -19,9 +19,13 @@ language: en
 **Contents**
 
 [Healthcare wearables](/blog/bluetooth-devices-that-change-healthcare/#healthcare-wearables)
+
 [Remote patient monitoring & diagnostics devices](/blog/bluetooth-devices-that-change-healthcare/#remote-patient-monitoring--diagnostics-devices)
+
 [Chronic disease management devices](/blog/bluetooth-devices-that-change-healthcare/#chronic-disease-management-devices)
+
 [Healthcare assistance devices](/blog/bluetooth-devices-that-change-healthcare/#healthcare-assistance-devices)
+
 [FemTech](/blog/bluetooth-devices-that-change-healthcare/#femtech)
 
 ## Healthcare wearables
