@@ -207,13 +207,13 @@ Company: Metyos is pioneering this technology with its cutting-edge wearable dev
 
 Description: Devices designed to deliver neuromodulation therapy, effectively managing chronic pain conditions and improving quality of life.
 
-Company: Nalu Neurostimulation is known for its advanced pain management devices.
+Company: Nalu Medical is known for its advanced pain management devices.
 
 ### Gloves Reducing Hand Tremors
 
 These gloves are engineered to stabilize hand movements for patients with Parkinson’s disease, helping to reduce tremors and improve daily functionality.
 
-Company: Various companies are in the development stages for this type of assistive technology.
+Company: Various is in the development stages for this type of assistive technology.
 
 
 
