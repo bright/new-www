@@ -43,9 +43,42 @@ A smart bracelet can as many wearables track vital signs. High-performance athle
 
 Companies: Fitbit, Garmin, Whoop specializes in athletic and lifestyle wearables. 
 
+### Smart tattoos
 
+Smart tattoos offer a promising future in the realm of personalized medicine including continuous health monitoring in a non-invasive and virtually unnoticeable manner.
 
+Companies: smart tattoos are still in the experimental stage, undergoing research.
 
+### Smart headband
+
+Smart headbands are designed to monitor brain activity, stress levels, and sleep patterns. They often utilize sensors to collect data that can aid meditation, improve sleep, and manage neurological conditions.
+
+Companies: Muse and Emotiv produce headbands that are widely used in neurofeedback and mental health improvement applications.
+
+### Smart belt
+
+Wearable devices that monitor physical fitness, track posture, and even alert users to health issues like irregular breathing or heart rates. They can also provide haptic feedback for posture correction.
+
+Companies: WELT is an example of a company that has developed smart belts with health tracking.
+
+### Smart Socks
+
+Smart socks monitor foot temperature, helping to detect early signs of inflammation or injury. Smart socks can also help with the fall prevention.
+
+Companies such as Siren https://www.siren.care/, Pup smart socks https://palarum.com/ https://palarum.org/wp-content/uploads/2022/10/whitePaper20.pdf
+
+Smart shoe insoles
+
+Smart shoe insoles are designed to fit inside footwear and provide real-time feedback on walking and running patterns. This technology is a proactive tool in diabetic foot ulcer prevention, helping to maintain foot health and mobility in patients with diabetes.
+
+Companies: Digitsole, Orpyx, Nurvv are leading smart shoe insoles providers.
+https://www.digitsole.com/  https://www.orpyx.com/
+
+Smart Contact Lenses
+
+Connected contact lenses are innovative devices designed to monitor physiological conditions, like glucose levels or intraocular pressure, or to provide augmented reality displays.
+
+Companies: Companies like Alcon and Mojo Vision are pioneering this technology, aiming to merge vision correction with digital data display or health monitoring functionalities.
 
 ### Bluetooth Thermometer
 
