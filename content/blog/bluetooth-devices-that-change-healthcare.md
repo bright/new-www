@@ -79,6 +79,14 @@ Connected contact lenses are innovative devices designed to monitor physiologica
 
 Companies: Companies like Alcon and Mojo Vision are pioneering this technology, aiming to merge vision correction with digital data display or health monitoring functionalities.
 
+### Smart glasses
+
+These devices are particularly valuable for providing real-time patient data display, assisting with surgical procedures through augmented reality overlays, and improving accessibility for the visually impaired by enhancing residual vision or reading text aloud.
+
+Companies: Vuzix and Google, Apple are key players in the development of smart glasses.
+
+<YouTubeEmbed url='https://www.youtube.com/watch?v=2ts7Gxx2uc8' />
+
 ### Bluetooth Thermometer
 
 ![Bluetooth Thermometer](../../static/images/blogpost_www_thermometer.png)
