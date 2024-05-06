@@ -61,7 +61,7 @@ bar_stack:
   - React
   - NestJS
 button: meet for a coffee
-button2: let's face tech challenges together
+button2: meet for a coffee together
 published: false
 show_case_study: true
 show_technology_stack: true
