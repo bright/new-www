@@ -27,7 +27,7 @@ project:
 layout: our-service
 our_service_id: Gdansk software company
 meta_title: Best Software Development Studio in Gdańsk
-meta_description: Meet best software development studio in Gdańsk (Poland).
+meta_description: Meet the best software development studio in Gdańsk (Poland).
   Bright Inventions is a software agency crafting custom web and mobile
   solutions.
 our_services_icon: /images/custom_software_development_icon.png
