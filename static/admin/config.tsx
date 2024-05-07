@@ -104,7 +104,7 @@ const config = {
           hint: 'when creating a new post, Update Date must be Publish date',
         },
         {
-          label: 'Custom slug',
+          label: 'Custom slug - do not change after publishing',
           name: 'slug',
           widget: 'string',
           required: false,

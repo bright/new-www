@@ -58,6 +58,7 @@ type Blog = Node & {
   readonly parent: Maybe<Node>;
   readonly published: Scalars['Boolean'];
   readonly secondAuthor: Maybe<Members>;
+  readonly slug: Maybe<Scalars['String']>;
   readonly tags: ReadonlyArray<Maybe<Scalars['String']>>;
   readonly thirdAuthor: Maybe<Members>;
   readonly title: Scalars['String'];
@@ -138,6 +139,7 @@ type BlogFieldSelector = {
   readonly parent: InputMaybe<NodeFieldSelector>;
   readonly published: InputMaybe<FieldSelectorEnum>;
   readonly secondAuthor: InputMaybe<MembersFieldSelector>;
+  readonly slug: InputMaybe<FieldSelectorEnum>;
   readonly tags: InputMaybe<FieldSelectorEnum>;
   readonly thirdAuthor: InputMaybe<MembersFieldSelector>;
   readonly title: InputMaybe<FieldSelectorEnum>;
@@ -165,6 +167,7 @@ type BlogFilterInput = {
   readonly parent: InputMaybe<NodeFilterInput>;
   readonly published: InputMaybe<BooleanQueryOperatorInput>;
   readonly secondAuthor: InputMaybe<MembersFilterInput>;
+  readonly slug: InputMaybe<StringQueryOperatorInput>;
   readonly tags: InputMaybe<StringQueryOperatorInput>;
   readonly thirdAuthor: InputMaybe<MembersFilterInput>;
   readonly title: InputMaybe<StringQueryOperatorInput>;
@@ -190,6 +193,7 @@ type BlogFrontmatter = {
   readonly modified: Maybe<Scalars['Date']>;
   readonly published: Scalars['Boolean'];
   readonly secondAuthor: Maybe<Members>;
+  readonly slug: Maybe<Scalars['String']>;
   readonly tags: ReadonlyArray<Maybe<Scalars['String']>>;
   readonly thirdAuthor: Maybe<Members>;
   readonly title: Scalars['String'];
@@ -219,6 +223,7 @@ type BlogFrontmatterFieldSelector = {
   readonly modified: InputMaybe<FieldSelectorEnum>;
   readonly published: InputMaybe<FieldSelectorEnum>;
   readonly secondAuthor: InputMaybe<MembersFieldSelector>;
+  readonly slug: InputMaybe<FieldSelectorEnum>;
   readonly tags: InputMaybe<FieldSelectorEnum>;
   readonly thirdAuthor: InputMaybe<MembersFieldSelector>;
   readonly title: InputMaybe<FieldSelectorEnum>;
@@ -240,6 +245,7 @@ type BlogFrontmatterFilterInput = {
   readonly modified: InputMaybe<DateQueryOperatorInput>;
   readonly published: InputMaybe<BooleanQueryOperatorInput>;
   readonly secondAuthor: InputMaybe<MembersFilterInput>;
+  readonly slug: InputMaybe<StringQueryOperatorInput>;
   readonly tags: InputMaybe<StringQueryOperatorInput>;
   readonly thirdAuthor: InputMaybe<MembersFilterInput>;
   readonly title: InputMaybe<StringQueryOperatorInput>;
@@ -261,6 +267,7 @@ type BlogFrontmatterSortInput = {
   readonly modified: InputMaybe<SortOrderEnum>;
   readonly published: InputMaybe<SortOrderEnum>;
   readonly secondAuthor: InputMaybe<MembersSortInput>;
+  readonly slug: InputMaybe<SortOrderEnum>;
   readonly tags: InputMaybe<SortOrderEnum>;
   readonly thirdAuthor: InputMaybe<MembersSortInput>;
   readonly title: InputMaybe<SortOrderEnum>;
@@ -329,6 +336,7 @@ type BlogSortInput = {
   readonly parent: InputMaybe<NodeSortInput>;
   readonly published: InputMaybe<SortOrderEnum>;
   readonly secondAuthor: InputMaybe<MembersSortInput>;
+  readonly slug: InputMaybe<SortOrderEnum>;
   readonly tags: InputMaybe<SortOrderEnum>;
   readonly thirdAuthor: InputMaybe<MembersSortInput>;
   readonly title: InputMaybe<SortOrderEnum>;
@@ -4287,6 +4295,7 @@ type Query_blogArgs = {
   parent: InputMaybe<NodeFilterInput>;
   published: InputMaybe<BooleanQueryOperatorInput>;
   secondAuthor: InputMaybe<MembersFilterInput>;
+  slug: InputMaybe<StringQueryOperatorInput>;
   tags: InputMaybe<StringQueryOperatorInput>;
   thirdAuthor: InputMaybe<MembersFilterInput>;
   title: InputMaybe<StringQueryOperatorInput>;
