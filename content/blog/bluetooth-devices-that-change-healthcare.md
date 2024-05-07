@@ -28,7 +28,7 @@ language: en
 
 [FemTech devices](/blog/bluetooth-devices-that-change-healthcare/#femtech-devices)
 
-<EbookDynamic sectionTitle='face challenges while saling HealthTech' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download our free guide, where we\'ve compiled market reports, case studies, expert insights, tech trends, and more. Almost 100 pages for you!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
+<EbookDynamic sectionTitle='face challenges while scaling HealthTech' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download our free guide, where we\'ve compiled market reports, case studies, expert insights, tech trends, and more. Almost 100 pages for you!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
 
 ## Healthcare wearables
 
