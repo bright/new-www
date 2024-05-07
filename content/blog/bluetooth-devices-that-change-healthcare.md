@@ -3,7 +3,7 @@ author: izabela
 tags:
   - HealthTech
 date: 2021-08-03T06:50:18.274Z
-meaningfullyUpdatedAt: 2024-05-06T10:23:20.520Z
+meaningfullyUpdatedAt: 2024-05-07T08:13:16.758Z
 title: The List of 42 Healthcare Smart Devices (Regularly Updated)
 layout: post
 image: /images/smart_devices_healthcare.png
@@ -26,7 +26,7 @@ language: en
 
 [Healthcare assistance devices](/blog/bluetooth-devices-that-change-healthcare/#healthcare-assistance-devices)
 
-FemTech devices
+[FemTech devices](/blog/bluetooth-devices-that-change-healthcare/#femtech-devices)
 
 <EbookDynamic sectionTitle='face challenges while saling HealthTech' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download our free guide, where we\'ve compiled market reports, case studies, expert insights, tech trends, and more. Almost 100 pages for you!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
 
