@@ -6,8 +6,8 @@ team_members:
   - kasia
   - joanna-c
   - szymek
-  - bartosz
   - fjablonski
+  - ula
 faqs:
   - What services does your software house offer? gdansk
   - How experienced is your team in software development? Gdansk
