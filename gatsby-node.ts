@@ -504,7 +504,7 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = async ({ node, actions: 
     }
 
     const nodeSlug = (node.frontmatter as any)?.slug
-      ? (node.frontmatter as any)?.slug
+      ? '/' + nodeFilePath.split('/').splice(-2).at(0) + '/' + (node.frontmatter as any)?.slug
       : '/' + nodeFilePath.split('/').splice(-2).join('/').replace('.md', '')
 
     createNodeField({
