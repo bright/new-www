@@ -26,7 +26,7 @@ language: en
 
 [Healthcare assistance devices](/blog/bluetooth-devices-that-change-healthcare/#healthcare-assistance-devices)
 
-FemTech
+FemTech devices
 
 ## Healthcare wearables
 
