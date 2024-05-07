@@ -30,6 +30,14 @@ FemTech devices
 
 ## Healthcare wearables
 
+<center>
+
+<div className="image">![healthcare and fitness wearables](/images/wearables_dall-e.png "DALL-E generated image")</div>
+
+DALL-E generated image
+
+</center>
+
 ### Multi-functional smartwatch
 
 They monitor stress levels, movement disorders, sleep tracking, blood pressure, heart disease.
