@@ -86,9 +86,9 @@ export const OurServiceSection = styled.section`
     }
   }
 
-  @media ${variables.device.tablet} {
-    padding: 0 0 ${variables.pxToRem(82)};
-  }
+  // @media ${variables.device.tablet} {
+  //  padding: 0 0 ${variables.pxToRem(82)};
+  // }
 `
 export const Content = styled.div<{ textAlign?: string }>`
   font-size: ${variables.pxToRem(22)};
