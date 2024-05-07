@@ -276,9 +276,11 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   const services = serviceResult.data!.allMdx.edges
 
   services.forEach(service => {
+    const isLandingPage = service.node.frontmatter.slug === 'gdansk-software-company'
+
     createPage({
       path: 'our-areas/' + service.node.frontmatter.slug,
-      component: `${__dirname}/src/our-services/Service.tsx?__contentFilePath=${service.node.internal.contentFilePath}`,
+      component: `${__dirname}/src/our-services/${isLandingPage ? 'Studio': 'Service'}.tsx?__contentFilePath=${service.node.internal.contentFilePath}`,
       context: {
         id: service.node.id,
         slug: service.node.frontmatter!!.slug,
