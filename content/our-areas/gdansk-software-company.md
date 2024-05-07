@@ -6,8 +6,8 @@ team_members:
   - kasia
   - joanna-c
   - szymek
-  - bartosz
   - fjablonski
+  - ula
 faqs:
   - What services does your software house offer? gdansk
   - How experienced is your team in software development? Gdansk
@@ -105,13 +105,9 @@ The urban park only 20 minutes walk from our office offers a peaceful retreat fr
 
 We offer custom software development for organizations of all shapes and sizes – from emerging startups, mid-sized companies, and consultancy agencies, to renowned NGOs and international organizations.
 
-### [mobile development](/our-areas/mobile-app-development/)
-
-We have built over 50 mobile applications for both iOS and Android systems for clients ranging from well-established companies to startup businesses, including [Just Eat Takeaway](/projects/system-for-restaurants/), [Relevo](/projects/eco-friendly-app/), [Heinrich Schmid](/projects/document-management-apps-construction/), and [Circles](/projects/online-group-support/).
-
 ### [IoT development](/our-areas/iot-development/)
 
-We specialize in integrating smart bluetooth devices into sophisticated systems. We have cooperated with clients representing the industrial, healthcare, and [retail](/projects/system-for-restaurants/) sectors.
+We specialize in [integrating smart bluetooth devices into sophisticated systems](/projects/remote-patient-monitoring/). We have cooperated with clients representing the industrial, healthcare, and [retail](/projects/system-for-restaurants/) sectors.
 
 ### [healthcare software development](/our-areas/healthcare-software-development/)
 
@@ -120,7 +116,3 @@ We assist our partners in developing products that have a meaningful impact on t
 ### [MVP development](/our-areas/mvp-development/)
 
 We craft MVPs to quickly validate ideas for the software solutions. We’ve built numerous MVPs including a [humanitarian aid solution which turned into a global product](/projects/card-tracking-system/).
-
-### [cloud computing](/our-areas/cloud-services/)
-
-As an official **AWS partner**, we help our partners scale their solutions reducing costs for infrastructure. We also offer full support during deployment and migration.
