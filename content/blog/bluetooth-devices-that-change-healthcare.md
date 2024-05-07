@@ -26,7 +26,7 @@ language: en
 
 [Healthcare assistance devices](/blog/bluetooth-devices-that-change-healthcare/#healthcare-assistance-devices)
 
-[FemTech](/blog/bluetooth-devices-that-change-healthcare/#femtech)
+FemTech
 
 ## Healthcare wearables
 
@@ -263,7 +263,7 @@ Companies: CareOS ang Neurologic develop smart mirrors.
 
 <YouTubeEmbed url='https://youtu.be/J9o6_YlxlvA' />
 
-## FemTech
+## FemTech devices
 
 ### Breast self-examination device
 
