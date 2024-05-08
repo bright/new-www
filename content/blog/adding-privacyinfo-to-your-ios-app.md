@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2024-05-08T13:26:07.134Z
 title: Adding PrivacyInfo to your iOS App
 layout: post
 image: /images/privacy_info_ios.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
