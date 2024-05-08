@@ -13,7 +13,7 @@ comments: true
 published: true
 language: en
 ---
-**Are you attending the Infoshare conference in Gdańsk? Join our team for a coffee! Plus, discover what we're most excited about this year's event.**
+**Are you attending the Infoshare conference in Gdańsk? Join our team for a coffee there! Plus, discover what we're most excited about this year's event.**
 
 <div className="image">![infoshare](/images/infoshare2023.png "infoshare")</div>
 
