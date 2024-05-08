@@ -24,3 +24,8 @@ As a [Gdańsk-based software development studio](/our-areas/gdansk-software-comp
 We can't wait to meet other innovators coming to Gdańsk for infoShare, particularly representatives from tech startups and MSEs. We're eager to learn about your solutions or ideas for applications.
 
 <div className="image">![Mateusz Klimczak, Michał Łukasiewicz](/images/mateusz_michal.png "Mateusz Klimczak, Michał Łukasiewicz")</div>
+
+[Michał Łukasiewicz](https://www.linkedin.com/in/micha%C5%82-%C5%82ukasiewicz-8b805b5/) (Co-founder) and [Mateusz Klimczak](https://www.linkedin.com/in/klimczak-mateusz/) (Partner & Head of Delivery) from our team will be at infoShare and are open to discussing your solutions and sharing our software development insights with founders, CTOs, POs, and other tech leaders. If you’d like to discuss your ideas over coffee (tea is also fine 😉), feel free to contact Michał or Mateusz on LinkedIn.
+
+[Find Michał on LinkedIn](https://www.linkedin.com/in/micha%C5%82-%C5%82ukasiewicz-8b805b5/).
+[Find Mateusz on LinkedIn](https://www.linkedin.com/in/klimczak-mateusz/).
