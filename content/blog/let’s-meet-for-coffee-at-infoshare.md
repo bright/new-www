@@ -7,7 +7,7 @@ meaningfullyUpdatedAt: 2024-05-08T08:41:36.058Z
 slug: lets-meet-at-infoshare
 title: Let’s Meet for Coffee at Infoshare
 layout: post
-image: /images/infoshare2023.png
+image: /images/gdansk_team_blog.png
 hidden: false
 comments: true
 published: true
