@@ -17,6 +17,8 @@ language: en
 ---
 **Read a tutorial on how to add a Privacy Manifest to your codebase, which has been required by Apple since the beginning of May 2024.**
 
+<div className="image">![](/images/privacy_info_ios.png "")</div>
+
 Starting from May 1, Apple demands the addition of a Privacy Manifest to your codebase. This file provides an explanation why your app is using 'SDKs that require a privacy manifest and signature'.
 
 Find more info [here](https://developer.apple.com/documentation/bundleresources/privacy_manifest_files).
@@ -35,15 +37,11 @@ To add PrivacyInfo.xcprivacy (which is a regular .plist file), first click on yo
 
 ![](https://lh7-us.googleusercontent.com/PuixoEkbPgWrXfCseMQ5FAYLu-qjJ-8VNKocFyCK4dTA8Krc6TgOUQC_m8vGCIxMvLrx9wUw5JtGSJ5tJ-IhYHhMO9lL8fY6W4aI0oplYmvpfRTDm3roamLa7LTQg2gFcvHjw64XIAJ4To3SNCheChQ)
 
-
-
 And then on File -> New -> File… 
 
 Search for Privacy
 
 ![](https://lh7-us.googleusercontent.com/WKMaDUuJuS4ITfudLZ42WLiDcJY4YdA0oDN8Tkpj7hm3Nw-kLBVOPXSNYk9Gu4V05zELrvf5CK7Qn7oiQIB5SeoQQ8a0elIHt59Ft7MPrXnNYay5nVWHHaSZzpY4Pw4HyoAcklgqyLTKGSiJBaA7sSU)
-
-
 
 Then add it to your main target. Keep in mind that the path matters! Apple is really strict about where you place this file. You can find more information [here](https://developer.apple.com/documentation/bundleresources/placing_content_in_a_bundle).
 
