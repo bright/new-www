@@ -28,6 +28,7 @@ We can't wait to meet other innovators coming to Gdańsk for Infoshare, particul
 [Michał Łukasiewicz](https://www.linkedin.com/in/micha%C5%82-%C5%82ukasiewicz-8b805b5/) (Co-founder) and [Mateusz Klimczak](https://www.linkedin.com/in/klimczak-mateusz/) (Partner & Head of Delivery) from our team will be at infoShare and are open to discussing your solutions and sharing our software development insights with founders, CTOs, POs, and other tech leaders. If you’d like to discuss your ideas over coffee (tea is also fine 😉), feel free to contact Michał or Mateusz on LinkedIn.
 
 [Find Michał on LinkedIn](https://www.linkedin.com/in/micha%C5%82-%C5%82ukasiewicz-8b805b5/).
+
 [Find Mateusz on LinkedIn](https://www.linkedin.com/in/klimczak-mateusz/).
 
 ## Speeches
