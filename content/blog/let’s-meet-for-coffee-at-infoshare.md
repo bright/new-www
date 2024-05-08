@@ -27,9 +27,9 @@ We can't wait to meet other innovators coming to Gdańsk for Infoshare, particul
 
 [Daniel Makurat](https://www.linkedin.com/in/daniel-makurat-b7b5a026/) (Co-founder) and [Mateusz Klimczak](https://www.linkedin.com/in/klimczak-mateusz/) (Partner & Head of Delivery) from our team will be at infoShare and are open to discussing your solutions and sharing our software development insights with founders, CTOs, POs, and other tech leaders. If you’d like to discuss your ideas over coffee (tea is also fine 😉), feel free to contact Daniel or Mateusz on LinkedIn.
 
-[Find Daniel on LinkedIn](https://www.linkedin.com/in/daniel-makurat-b7b5a026/).
+👉 [Find Daniel on LinkedIn](https://www.linkedin.com/in/daniel-makurat-b7b5a026/)
 
-[Find Mateusz on LinkedIn](https://www.linkedin.com/in/klimczak-mateusz/).
+👉 [Find Mateusz on LinkedIn](https://www.linkedin.com/in/klimczak-mateusz/)
 
 ## Speeches
 
