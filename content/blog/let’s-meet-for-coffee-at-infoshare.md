@@ -23,7 +23,7 @@ As a [Gdańsk-based software development studio](/our-areas/gdansk-software-comp
 
 We can't wait to meet other innovators coming to Gdańsk for Infoshare, particularly representatives from tech startups and MSEs. We're eager to learn about your solutions or ideas for applications.
 
-<div className="image">![Mateusz Klimczak, Michał Łukasiewicz](/images/mateusz_michal.png "Mateusz Klimczak, Michał Łukasiewicz")</div>
+<div className="image">![Bright Inventions team](/images/mateusz_michal_ula.png "Bright Inventions team")</div>
 
 [Daniel Makurat](https://www.linkedin.com/in/daniel-makurat-b7b5a026/) (Co-founder) and [Mateusz Klimczak](https://www.linkedin.com/in/klimczak-mateusz/) (Partner & Head of Delivery) from our team will be at infoShare and are open to discussing your solutions and sharing our software development insights with founders, CTOs, POs, and other tech leaders. If you’d like to discuss your ideas over coffee (tea is also fine 😉), feel free to contact Daniel or Mateusz on LinkedIn.
 
