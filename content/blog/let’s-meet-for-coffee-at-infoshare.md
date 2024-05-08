@@ -25,7 +25,7 @@ We can't wait to meet other innovators coming to Gdańsk for Infoshare, particul
 
 <div className="image">![Mateusz Klimczak, Michał Łukasiewicz](/images/mateusz_michal.png "Mateusz Klimczak, Michał Łukasiewicz")</div>
 
-[Daniel Makurat](https://www.linkedin.com/in/daniel-makurat-b7b5a026/) (Co-founder) and [Mateusz Klimczak](https://www.linkedin.com/in/klimczak-mateusz/) (Partner & Head of Delivery) from our team will be at infoShare and are open to discussing your solutions and sharing our software development insights with founders, CTOs, POs, and other tech leaders. If you’d like to discuss your ideas over coffee (tea is also fine 😉), feel free to contact Michał or Mateusz on LinkedIn.
+[Daniel Makurat](https://www.linkedin.com/in/daniel-makurat-b7b5a026/) (Co-founder) and [Mateusz Klimczak](https://www.linkedin.com/in/klimczak-mateusz/) (Partner & Head of Delivery) from our team will be at infoShare and are open to discussing your solutions and sharing our software development insights with founders, CTOs, POs, and other tech leaders. If you’d like to discuss your ideas over coffee (tea is also fine 😉), feel free to contact Daniel or Mateusz on LinkedIn.
 
 [Find Daniel on LinkedIn](https://www.linkedin.com/in/daniel-makurat-b7b5a026/).
 
