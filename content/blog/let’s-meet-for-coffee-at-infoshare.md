@@ -37,7 +37,7 @@ Four dev-oriented stages as well as a datamass and leaders stages will be places
 * **Breaking Barriers: The Art of (Free) Gamified Security Training** | Joseph Katsioloudes, GitHub
 * **Data as the Lifeblood of an Organization: Be Careful What You Wish For** | Jim Allen, Stealth Startup
 * **Why Tech Leaders Should Think Like Poker Players** | Adam Bartkiewicz, Digital Ocean Ventures
-* **AI w Psychiatrii: Jak zmusić LLM do uzasadniania swoich decyzji jak specjalista?** | Zofia Smolen, mindmatch.pl
+* **AI w Psychiatrii: Jak zmusić LLM do uzasadniania swoich decyzji jak specjalista?** | Zofia Smoleń, mindmatch.pl
 * **Lessons learned while bootstrapping to $15MLN ARR**  | Kazik Piętka, Surfer
 
-Are you coming to InfoShare? Hope to see you there!
+Are you coming to Infoshare? Hope to see you there!
