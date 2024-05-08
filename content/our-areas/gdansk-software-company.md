@@ -49,9 +49,6 @@ bullet_points:
 bar_stack:
   - Generative AI
   - IoT
-  - Bluetooth
-  - iOS
-  - Android
   - Swift
   - Kotlin
   - Flutter
