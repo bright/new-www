@@ -220,7 +220,6 @@ export const ProjectsLink = styled.a`
   @media ${variables.device.tablet} {
     & div {
       margin: 0.5625rem 0 0 0;
-      border: 1px solid #0a0a0a;
     }
     & div.full-height {
       height: auto;

@@ -186,7 +186,7 @@ export const PrivacyPolicyCheckboxContainer = styled(TextRegular)`
   align-items: center;
   margin-top: ${variables.pxToRem(16)};
   & span {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.5rem;
     font-family: Lato;
     & a {

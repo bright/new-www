@@ -42,7 +42,7 @@ const TeamMember = styled.article`
     min-height: ${variables.pxToRem(491)};
   }
   @media ${variables.device.mobile} {
-    min-height: ${variables.pxToRem(500)};
+    min-height: ${variables.pxToRem(300)};
   }
 `
 
@@ -69,6 +69,18 @@ const AvatarWrapper = styled.figure`
     left: 0;
     height: 364px;
     width: 205px;
+  }
+
+  @media ${variables.device.mobile} {
+    height: 264px;
+
+    & .avatar1 {
+      height: 264px;
+    }
+
+    & .avatar2 {
+      height: 264px;
+    }
   }
 `
 const NameWrapper = styled.div`

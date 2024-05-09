@@ -8,8 +8,7 @@ import { Link } from 'gatsby'
 import variables from '../../styles/variables'
 import 'swiper/css'
 import 'swiper/css/pagination'
-import { StaticImage } from 'gatsby-plugin-image'
-import { CustomSection, CustomTextTitle, FlexWrapper } from './index.styled'
+import { CustomTextTitle, FlexWrapper } from './index.styled'
 import { clampBuilder } from '../../helpers/clampBuilder'
 
 const SwiperlWrapper = styled.section`
@@ -225,7 +224,7 @@ export const CarouselQuotesSwiper: React.FC<CarouselQuotesSwiperProps> = ({quote
       <SlideWrapper>
         <Swiper
           slidesPerView={1}
-          spaceBetween={0}
+          spaceBetween={50}
           loop={true}
           navigation={{
             prevEl: '.prev',

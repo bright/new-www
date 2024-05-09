@@ -320,7 +320,7 @@ export default function Template({ data, pageContext }: PropsWithChildren<{
       <CustomSection
         paddingProps='2.25rem 137px 5rem'
         paddingTabletXL='0 2.25rem 2.25rem 2.25rem'
-        paddingMobileProps='0 2.25rem 2.25rem 2.25rem'
+        paddingMobileProps='0 1.25rem 2.25rem'
         paddingTablet='0 2.25rem 2.25rem 2.25rem'
         paddingLaptop='1rem 137px 2.25rem'
       >
