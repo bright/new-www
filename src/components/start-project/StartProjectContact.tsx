@@ -164,8 +164,6 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
             </span>
           </PrivacyPolicyCheckboxContainer>
 
-          <RequiredMessage>*fields required</RequiredMessage>
-
           {isSending ? (
             <Loader className='loader'></Loader>
           ) : (
@@ -174,9 +172,9 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
             </MoreButton>
           )}
           <div>
-            <ContactTextRegular style={{ marginTop: '32px' }}>
+            <ContactTextRegular>
               or drop us a line via{' '}
-              <a href='mailto:info@brightinventions.pl?subject=bright%20mail'>info@brightinventions.pl</a>
+              <a href='mailto:info@bright.dev?subject=bright%20mail'>info@bright.dev</a>
             </ContactTextRegular>
           </div>
         </Form>
@@ -198,10 +196,6 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
             <p>Your application wasn’t submitted. Please try again.</p>
           </ErrorMessage>
         )}
-
-        {/* {success && <SuccessMessage>Thank you! Your submission has been received!</SuccessMessage>} */}
-        {/* {valid === false && <ErrorMessage>Please, complete missing information</ErrorMessage>} */}
-        {/* {error && <ErrorMessage>Oops! Something went wrong while submitting the form.</ErrorMessage>} */}
       </Container>
     </ContainerWrapper>
   )

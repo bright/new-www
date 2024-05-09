@@ -133,20 +133,16 @@ const WrapperImage = styled.div`
   flex-basis: 42%;
   & .quote-img {
     max-height: ${variables.pxToRem(521)};
-    width: auto;
     & img {
       max-height: ${variables.pxToRem(521)};
-      width: auto;
     }
   }
   @media ${variables.device.tabletXL} {
     flex-basis: 42%;
     & .quote-img {
       max-height: ${variables.pxToRem(345)};
-      width: auto;
       & img {
         max-height: ${variables.pxToRem(345)};
-        width: auto;
       }
     }
   }
@@ -154,20 +150,16 @@ const WrapperImage = styled.div`
     flex-basis: 100%;
     & .quote-img {
       max-height: ${variables.pxToRem(400)};
-      width: auto;
       & img {
         max-height: ${variables.pxToRem(400)};
-        width: auto;
       }
     }
   }
   @media ${variables.device.mobile} {
     & .quote-img {
       max-height: ${variables.pxToRem(300)};
-      width: auto;
       & img {
         max-height: ${variables.pxToRem(300)};
-        width: auto;
       }
     }
   }
@@ -194,6 +186,11 @@ const SlideWrapper = styled.div`
   @media ${variables.device.tablet} {
     padding: 0;
   }
+`
+
+const SingleSlideWrapper = styled.div`
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 `
 
 const ArrowWrapper = styled.span`

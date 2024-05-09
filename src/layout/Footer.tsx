@@ -141,7 +141,7 @@ export const Footer = () => {
                 <EmailIcon />
               </div>
               <div className='right'>
-                <a href='mailto:info@brightinventions.pl?subject=bright%20mail'>info@brightinventions.pl</a>
+                <a href='mailto:info@bright.dev?subject=bright%20mail'>info@bright.dev</a>
               </div>
             </div>
           </div>

@@ -104,7 +104,7 @@ const PrivacyPolicy = () => {
               </p>
               <p>by mail - ul. Jana Matejki 12, 80-232 Gda&#x144;sk, Poland;</p>
               <p>by phone - +48 695 934 555; </p>
-              <p>by e-mail - info@brightinventions.pl </p>
+              <p>by e-mail - info@bright.dev </p>
               <p>&#x200D;</p>
               <p>2. The purposes of the date processing</p>
               <p>
