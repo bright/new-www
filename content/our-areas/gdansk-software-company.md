@@ -9,8 +9,6 @@ team_members:
   - fjablonski
   - ula
 faqs:
-  - What services does your software house offer? gdansk
-  - How experienced is your team in software development? Gdansk
   - What industries do you specialize in? Gdansk
   - What is the typical timeline for completing a project? Gdansk
   - How do you handle communication and updates throughout the project? Gdansk
@@ -20,10 +18,6 @@ project:
   - circles
   - relevo
   - Practi JET POS
-  - HS-Baumappe
-  - solution-parkinson
-  - Card Tracking System
-  - tms
 layout: our-service
 our_service_id: Gdansk software company
 meta_title: Best Software Development Studio in Gdańsk
@@ -48,7 +42,7 @@ bullet_points:
   - A part of Nordic Group Lyvia
 bar_stack:
   - Generative AI
-  - IoT
+  - Java
   - Swift
   - Kotlin
   - Flutter
@@ -62,7 +56,7 @@ button2: meet for a coffee together
 published: false
 show_case_study: true
 show_technology_stack: true
-title_team: meet the software development team
+title_team: meet our bright team
 title_case_study: the clients we have supported in the tech journey
 title_faqs: software development Gdańsk FAQs
 title_contact: meet for a coffee in 48 hours
