@@ -160,7 +160,7 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
               <strong>
                 <Link to={routeLinks.privacyPolicy}>Privacy Policy</Link>
               </strong>{' '}
-              and agree to receive communications from Bright Inventions.*
+              and agree to receive communications from Bright Inventions.
             </span>
           </PrivacyPolicyCheckboxContainer>
 
