@@ -7,6 +7,8 @@ import { List } from './TopNavigation/List'
 import { routeLinks } from '../config/routing'
 
 import * as styles from './TopNavigation/style.module.scss'
+import styled from 'styled-components'
+import variables from '../styles/variables'
 
 export interface MenuElement {
   title: string
@@ -53,7 +55,7 @@ export const TopNavigation: React.FC<Props> = ({ path, toggled }) => {
   }
 
   return (
-    <nav
+    <StyledNav
       className={classNames('navbar is-fixed-top', styles.container, {
         [styles.hasShadow]: isScrolledDown,
       })}
@@ -63,6 +65,12 @@ export const TopNavigation: React.FC<Props> = ({ path, toggled }) => {
       <Logo />
       <Burger opened={menuOpened} toggle={toggleMenu} />
       <List opened={menuOpened} elements={TopMenu} currentPath={path || ''} />
-    </nav>
+    </StyledNav>
   )
 }
+
+const StyledNav = styled.nav`
+    @media ${variables.device.tablet} {
+        padding-left: .75rem;
+    }
+`

@@ -29,7 +29,7 @@ import {
   OurStudioPageTitle,
   StudioContent,
   SliderSection,
-  ImageWrapper, HeroWrapper, CustomSectionOurService, CustomSectionOurServiceImage
+  ImageWrapper, HeroWrapper, CustomSectionOurService, CustomSectionOurServiceImage, FormHeading, RoundedImage
 } from './Studio.styled'
 import { CarouselQuotesSwiper } from '../components/shared/CarouselQuotesSwiper'
 import StartProjectContact from '../components/start-project/StartProjectContact'
@@ -117,10 +117,10 @@ export default function Template({ data, pageContext }: PropsWithChildren<{
 
       <HeroWrapper>
         <CustomSectionOurService
-          paddingProps='1rem 0 0 15rem '
-          paddingLaptop='6.4375rem 1rem 0 6rem'
-          paddingTabletXL='7.5rem 1rem 0 8.5625rem '
-          paddingTablet='1.5625rem  2.25rem 0'
+          paddingProps='3.4375rem 0 0 15rem '
+          paddingLaptop='6.4375rem 0 0 6rem'
+          paddingTabletXL='7.5rem 0 0 8.5625rem '
+          paddingTablet='1.5625rem 2.25rem 0'
           paddingMobileProps='3rem 1.125rem 0'
         >
           <MobileOurServiceFlexWrapper desktopDirection='column' mobileContent='space-between'>
@@ -318,11 +318,11 @@ export default function Template({ data, pageContext }: PropsWithChildren<{
       </CustomSection>
 
       <CustomSection
-        paddingProps='0px 137px 2.25rem'
+        paddingProps='2.25rem 137px 5rem'
         paddingTabletXL='0 2.25rem 2.25rem 2.25rem'
         paddingMobileProps='0 2.25rem 2.25rem 2.25rem'
         paddingTablet='0 2.25rem 2.25rem 2.25rem'
-        paddingLaptop='0 137px 2.25rem'
+        paddingLaptop='1rem 137px 2.25rem'
       >
         <FormHeading>
           <CustomSectionTitle margin='0'
@@ -354,30 +354,7 @@ export default function Template({ data, pageContext }: PropsWithChildren<{
   )
 }
 
-const RoundedImage = styled.div`
-    & img {
-        border-radius: 16px;
-    }
-`
 
-const FormHeading = styled.div`
-    max-width: 800px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: auto;
-    margin-bottom: 3rem;
-
-    @media ${variables.device.laptop} {
-        max-width: 800px;
-    }
-    @media ${variables.device.tabletXL} {
-        max-width: 824px;
-    }
-    @media ${variables.device.tablet} {
-        max-width: 100%;
-    }
-`
 
 export const pageQuery = graphql`
   query($id: String!, $blog_section_tags: [String!]) {

@@ -187,6 +187,7 @@ export const HeroWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
+  gap: 24px;
   margin-bottom: ${variables.pxToRem(60)};
 
   @media ${variables.device.tablet} {
@@ -198,4 +199,29 @@ export const HeroWrapper = styled.div`
 export const CustomSectionOurServiceImage = styled(CustomSection)`
   flex-basis: 52.5%;
   height: 100%;
+`
+
+export const RoundedImage = styled.div`
+    & img {
+        border-radius: 16px;
+    }
+`
+
+export const FormHeading = styled.div`
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 3rem;
+
+    @media ${variables.device.laptop} {
+        max-width: 800px;
+    }
+    @media ${variables.device.tabletXL} {
+        max-width: 824px;
+    }
+    @media ${variables.device.tablet} {
+        max-width: 100%;
+    }
 `

@@ -252,7 +252,7 @@ export const Contact: FC<ContactProps> = ({
           <div>
             <ContactTextRegular style={{ marginTop: '32px' }}>
               {t('or drop us a line via', { ns: 'other copy' })}{' '}
-              <a href='mailto:info@brightinventions.pl?subject=bright%20mail'>info@brightinventions.pl</a>
+              <a href='mailto:info@bright.dev?subject=bright%20mail'>info@bright.dev</a>
             </ContactTextRegular>
           </div>
         </Form>

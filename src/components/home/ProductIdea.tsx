@@ -23,7 +23,7 @@ const ProductIdea: FC<ProductIdeaProps> = props => {
         Have an idea for a groundbreaking software project, but don’t know where to start? Or maybe you’re looking for
         software development experts to help take your product to the next level? We’ll be more than happy to discuss
         how we can help your business succeed! Fill the form below, or drop us a line via{' '}
-        <a href='mailto:info@brightinventions.pl?subject=bright%20mail'>info@brightinventions.pl</a>
+        <a href='mailto:info@bright.dev?subject=bright%20mail'>info@bright.dev</a>
       </SectionDescription>
       <Link to={routeLinks.startProject}>
         <Button className='has-background-primary hover-white'>request a consulatation</Button>

@@ -37,7 +37,7 @@ export const Form = styled.form({
 })
 
 export const Label = styled.div({
-  fontSize: '16px',
+  fontSize: '18px',
   lineHeight: '40px',
 
   fontFamily: variables.font.text.family,
@@ -147,7 +147,7 @@ export const DoubleInputsRowEntry = styled.div({
 })
 
 export const IdeaTextArea = styled.textarea({
-  height: '228px',
+  height: '108px',
   maxWidth: '955px',
   width: '100%',
 
@@ -157,7 +157,7 @@ export const IdeaTextArea = styled.textarea({
   ...placeHolderStyle,
   color: variables.color.text,
 
-  padding: '20px',
+  padding: '10px 20px',
 
   border: `1px solid ${variables.color.darkerGrey}`,
 
@@ -180,31 +180,13 @@ export const IdeaTextArea = styled.textarea({
   },
 })
 
-// export const SelectWrapper = styled.div`
-//   position: relative;
-//   max-width: 445px;
-//   &::after {
-//     content: '';
-//     background: url(${Arrow}) 50% no-repeat;
-//     background-size: contain;
-//     pointer-events: none;
-//     transition: transform 0.2s ease-in-out;
-//     position: absolute;
-//     top: calc(23px - 6px);
-//     right: 16px;
-//     width: 12px;
-//     height: 12px;
-//     z-index: 2;
-//   }
-// `
-
 export const PrivacyPolicyCheckboxContainer = styled(TextRegular)`
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: ${variables.pxToRem(54)};
+  margin-top: ${variables.pxToRem(16)};
   & span {
-    font-size: 1.25rem;
+    font-size: 18px;
     line-height: 1.5rem;
     font-family: Lato;
     & a {
@@ -335,18 +317,21 @@ export const HeroTextInput = styled(TextInput)`
   }
 `
 export const ContactTextRegular = styled(TextRegular)`
+  margin-top: 20px;
+  text-align: center;
+    
   & a {
     line-height: ${variables.pxToRem(40)};
     position: relative;
-    padding: 0 8px 10px;
+    padding: 0 2px;
     font-weight: 700;
     color: ${variables.color.text};
-    border-bottom: 1px solid ${variables.color.text};
+    text-decoration: underline;
   }
   @media ${variables.device.mobile} {
-    font-size: ${clampBuilder(340, 370, 14, 16)};
+    font-size: 18px;
     & a {
-      padding: 0 8px 8px;
+      padding: 0 2px;
     }
   }
 `
