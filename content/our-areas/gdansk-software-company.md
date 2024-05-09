@@ -42,7 +42,7 @@ bullet_points:
   - A part of Nordic Group Lyvia
 bar_stack:
   - Generative AI
-  - IoT
+  - Java
   - Swift
   - Kotlin
   - Flutter
