@@ -56,7 +56,7 @@ button2: meet for a coffee together
 published: false
 show_case_study: true
 show_technology_stack: true
-title_team: meet the software development team
+title_team: meet our bright team
 title_case_study: the clients we have supported in the tech journey
 title_faqs: software development Gdańsk FAQs
 title_contact: meet for a coffee in 48 hours
