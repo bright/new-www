@@ -7,7 +7,7 @@ tags:
   - mobile development
 date: 2024-05-08T13:26:07.112Z
 meaningfullyUpdatedAt: 2024-05-08T13:26:07.134Z
-title: Adding PrivacyInfo to your iOS App
+title: Adding PrivacyInfo to Your iOS App
 layout: post
 image: /images/privacy_info_ios.png
 hidden: false
