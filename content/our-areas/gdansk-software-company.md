@@ -20,10 +20,6 @@ project:
   - circles
   - relevo
   - Practi JET POS
-  - HS-Baumappe
-  - solution-parkinson
-  - Card Tracking System
-  - tms
 layout: our-service
 our_service_id: Gdansk software company
 meta_title: Best Software Development Studio in Gdańsk
