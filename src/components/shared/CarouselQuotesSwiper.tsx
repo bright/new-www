@@ -59,7 +59,7 @@ const SliderButton = styled.div`
 const PreviousSliderButton = styled(SliderButton)`
   margin-right: ${variables.pxToRem(0)};
   position: absolute;
-  top: 50%;
+  top: calc(50% - 50px);
   left: 0;
   transform: translateY(-50%);
   width: 50px;
@@ -73,7 +73,7 @@ const PreviousSliderButton = styled(SliderButton)`
     justify-content: flex-start;
     align-items: center;
     position: absolute;
-    top: 50%;
+    top: 200px;
     left: 0;
     transform: translateY(-50%);
     width: 50px;
@@ -84,11 +84,14 @@ const PreviousSliderButton = styled(SliderButton)`
     left: 0;
     transform: translateY(-25%);
   }
+  @media (max-width: 375px) {
+      top: calc(50vw - 44px);
+  }
 `
 const NextSliderButton = styled(SliderButton)`
   margin-left: ${variables.pxToRem(0)};
   position: absolute;
-  top: 50%;
+  top: calc(50% - 50px);
   right: 0;
   transform: translateY(-50%);
   width: 50px;
@@ -102,7 +105,7 @@ const NextSliderButton = styled(SliderButton)`
     justify-content: flex-end;
     align-items: center;
     position: absolute;
-    top: 50%;
+    top: 200px;
     right: 0;
     transform: translateY(-50%);
     width: 50px;
@@ -112,6 +115,9 @@ const NextSliderButton = styled(SliderButton)`
     top: 25%;
     right: 0;
     transform: translateY(-25%);
+  }
+  @media (max-width: 375px) {
+      top: calc(50vw - 44px);
   }
 `
 const QuoteWrapper = styled.p`
