@@ -181,7 +181,7 @@ export default function Template({ data, pageContext }: PropsWithChildren<{
       <CustomSection
         paddingProps='0 15rem 6.5rem 15rem'
         paddingTabletXL='0 0 6rem'
-        paddingMobileProps='0 1.125rem 4rem'
+        paddingMobileProps='0 1.125rem 2rem'
         paddingTablet='0 2.25rem 0 '
         paddingLaptop='0 6rem 6.5rem'
       >
@@ -337,7 +337,7 @@ export default function Template({ data, pageContext }: PropsWithChildren<{
         </FormHeading>
 
         <FlexWrapper desktopGap='64px' desktopDirection='row' tabletDirection='column'>
-          {width >= deviceSize.tablet && <FlexWrapper desktopDirection='column' desktopBasis='48%' desktopGap='48px'>
+          {width >= deviceSize.mobile && <FlexWrapper desktopDirection='column' desktopBasis='48%' desktopGap='48px'>
             <RoundedImage>
               <StaticImage src='../../static/images/gdansk/gdansk_contact.jpg' alt='Contact in Gdańsk' />
             </RoundedImage>
@@ -348,7 +348,9 @@ export default function Template({ data, pageContext }: PropsWithChildren<{
           />
         </FlexWrapper>
       </CustomSection>
-
+      {width < deviceSize.mobile && <FlexWrapper desktopDirection='column' desktopBasis='48%' desktopGap='48px'>
+          <StaticImage src='../../static/images/gdansk/gdansk_contact.jpg' alt='Contact in Gdańsk' />
+      </FlexWrapper>}
       <FaqStructuredData faqs={faqs} />
     </Page>
   )
