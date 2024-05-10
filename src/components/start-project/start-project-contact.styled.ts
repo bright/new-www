@@ -151,7 +151,7 @@ export const IdeaTextArea = styled.textarea({
   maxWidth: '955px',
   width: '100%',
 
-  fontSize: '18px',
+  fontSize: '16px',
   lineHeight: '40px',
   fontFamily: variables.font.text.family,
   ...placeHolderStyle,
@@ -311,6 +311,7 @@ export const Loader = styled.div`
   border-width: 5px;
 `
 export const HeroTextInput = styled(TextInput)`
+  font-size: 16px;
   @media ${variables.device.tablet} {
     width: 100%;
     max-width: 100%;
