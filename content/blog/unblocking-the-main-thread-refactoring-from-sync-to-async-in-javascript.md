@@ -185,7 +185,7 @@ In this code sample, we define a function **`processArrayAsyncWithRequestIdleCal
 
 Within the callback function, we use a **`while`** loop to process array elements until the deadline is reached or there are no more elements left to process. We check the remaining time using the **`deadline.timeRemaining()`** method, which returns the amount of time (in milliseconds) left until the deadline. This allows us to use the available time in the most efficient way, ensuring that our tasks are executed without blocking the main thread for extended periods. If there are remaining elements to process, we schedule the processing of the next batch of elements in the next idle period.
 
-We need to consider the scenario where the browser might be overwhelmed with tasks, leading to our **`requestIdleCallback`** not being executed. In such cases, we can provide a timeout value to ensure that our callback gets executed even if the browser is too busy to handle it immediately. 
+**We need to consider the scenario where the browser might be overwhelmed with tasks**, leading to our **`requestIdleCallback`** not being executed. In such cases, **we can provide a timeout value** to ensure that our callback gets executed even if the browser is too busy to handle it immediately. 
 
 ```tsx
 // Define a function to process a single element
@@ -228,9 +228,9 @@ By incorporating this check into our while loop condition, we ensure that the lo
 
 In this blog post, we've witnessed how traditional synchronous tasks can monopolize the main thread, resulting in sluggish performance and unresponsive interfaces.
 
-However, we've discovered an escape hatch, allowing us to convert synchronous workflows into asynchronous ones, enabling the browser to manage additional tasks such as user interaction events. Initially, we employed **`setTimeout`** with a 40ms deadline. Later, we transitioned to using **`setImmediate`** through the **`MessageChannel`** shim, which enabled us to bypass the 4ms clamp. While this approach is effective for urgent tasks, it may not be the optimal choice for non-urgent work that can be deferred until the browser is free.
+However, we've discovered an escape hatch, allowing us to **convert synchronous workflows into asynchronous ones, enabling the browser to manage additional tasks such as user interaction events**. Initially, we employed **`setTimeout`** with a 40ms deadline. Later, we transitioned to using **`setImmediate`** through the **`MessageChannel`** shim, which enabled us to bypass the 4ms clamp. While this approach is effective for urgent tasks, it may not be the optimal choice for non-urgent work that can be deferred until the browser is free.
 
-Fortunately, a novel solution presents itself in the form of the **`requestIdleCallback`** API. This tool enables us to schedule tasks during periods of browser inactivity and precisely measure available processing time and determine when to return control back to the browser. Moreover, in instances of browser overload, the timeout parameter offers a means to enforce execution after a specified delay.
+Fortunately, a novel solution presents itself in the form of the **`requestIdleCallback`** API. This tool enables us to **schedule tasks during periods of browser inactivity and precisely measure available processing time and determine when to return control back to the browser**. Moreover, in instances of browser overload, the timeout parameter offers a means to enforce execution after a specified delay.
 
 By adopting these strategies, we can enhance the user experience of our web applications, optimizing performance and responsiveness.
 
