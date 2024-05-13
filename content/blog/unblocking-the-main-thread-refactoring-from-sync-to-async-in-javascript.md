@@ -6,6 +6,7 @@ tags:
   - performance
 date: 2024-05-13T05:35:42.792Z
 meaningfullyUpdatedAt: 2024-05-13T05:35:42.804Z
+slug: refactoring-from-sync-to-async-in-javascript
 title: "Unblocking the Main Thread: Refactoring from Sync to Async in JavaScript"
 layout: post
 hidden: false
