@@ -35,6 +35,6 @@ It’s where our team often engages in mountain biking (MTB) or team retreats. T
 
 ## Explore Gdańsk’s coast from the boat
 
-Embark on a maritime journey along the stunning coast of Gdańsk. Get closes to some of Gdańsk’s most iconic and historically significant sites including Westerplatte, shipyard cranes, and more.
+Embark on a maritime journey along the stunning coast of Gdańsk. Get close to some of Gdańsk’s most iconic and historically significant sites including Westerplatte, shipyard cranes, and more.
 
 <div className="image">![Gdansk, sailing](/images/gdansk_sailing.png "Gdansk, sailing")</div>
