@@ -13,7 +13,7 @@ comments: true
 published: true
 language: en
 ---
-**As a software development studio based in Gdańsk, our team not only creates software here but also spends free time exploring the city. Many of us are Gdańsk enthusiasts, so we’d like to share some of our favorite spots from a local perspective. These are some of the best places in Gdańsk to sightsee, relax, run, sail, and much more.**
+**As a [software development studio based in Gdańsk](/our-areas/gdansk-software-company/), our team not only creates software here but also spends free time exploring the city. Many of us are Gdańsk enthusiasts, so we’d like to share some of our favorite spots from a local perspective. These are some of the best places in Gdańsk to sightsee, relax, run, sail, and much more.**
 
 ## Brzeźno Beach
 
@@ -44,3 +44,9 @@ Embark on a maritime journey along the stunning coast of Gdańsk. Get close to s
 Historically significant shipyard areas of the city have been revitalized, transforming into vibrant hubs of art, cuisine, and leisure. Visit streets like Narzędziowa, Popiełuszki, and Elektryków to see these dynamic changes yourself.
 
 <div className="image">![Gdansk, shipyard](/images/gdansk_shipyard-post.png "Gdansk, shipyard")</div>
+
+## Bright Inventions’s office :) 
+
+Finally, if you want to meet the best software development studio from Gdańsk, [contact us to meet for a coffee](/our-areas/gdansk-software-company/). Hope to see you in Gdańsk soon!
+
+<div className="image">![Bright Inventions team](/images/gdansk_meetup_cofee.png "Bright Inventions team")</div>
