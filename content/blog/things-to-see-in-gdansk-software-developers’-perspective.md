@@ -38,3 +38,9 @@ It’s where our team often engages in mountain biking (MTB) or team retreats. T
 Embark on a maritime journey along the stunning coast of Gdańsk. Get close to some of Gdańsk’s most iconic and historically significant sites including Westerplatte, shipyard cranes, and more.
 
 <div className="image">![Gdansk, sailing](/images/gdansk_sailing.png "Gdansk, sailing")</div>
+
+## Post-shipyard cultural center
+
+Historically significant shipyard areas of the city have been revitalized, transforming into vibrant hubs of art, cuisine, and leisure. Visit streets like Narzędziowa, Popiełuszki, and Elektryków to see these dynamic changes yourself.
+
+<div className="image">![Gdansk, shipyard](/images/gdansk_shipyard-post.png "Gdansk, shipyard")</div>
