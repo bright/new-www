@@ -146,7 +146,7 @@ This workaround not only g**uarantees immediate execution but also circumvents t
 
 ## No need to hurry? Wait for idle time
 
-For less critical tasks, we can utilize a new API called **`requestIdleCallback`**. This API allows us to schedule work to be executed during idle periods when the browser's main thread is not busy with other high-priority tasks. By leveraging **`requestIdleCallback`**, we can ensure that our less important tasks are executed efficiently without impacting the overall performance of the application. Let's explore how we can implement this alternative approach.
+For less critical tasks, we can utilize a new API called **`requestIdleCallback`**. This API allows us to schedule work to be executed during idle periods when the browser's main thread is not busy with other high-priority tasks. By leveraging **`requestIdleCallback`**, **we can ensure that our less important tasks are executed efficiently without impacting the overall performance of the application**. Let's explore how we can implement this alternative approach.
 
 ```tsx
 // Define a function to process a single element
