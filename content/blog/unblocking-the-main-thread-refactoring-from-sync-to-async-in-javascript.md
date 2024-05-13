@@ -4,8 +4,8 @@ tags:
   - JavaScript
   - web development
   - performance
-date: 2024-05-13T05:35:42.792Z
-meaningfullyUpdatedAt: 2024-05-13T05:35:42.804Z
+date: 2024-05-13T11:47:56.881Z
+meaningfullyUpdatedAt: 2024-05-13T11:47:57.583Z
 slug: refactoring-from-sync-to-async-in-javascript
 title: "Unblocking the Main Thread: Refactoring from Sync to Async in JavaScript"
 layout: post
