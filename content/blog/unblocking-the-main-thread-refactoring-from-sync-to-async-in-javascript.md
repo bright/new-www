@@ -18,7 +18,7 @@ language: en
 
 By doing so, we can unblock the main thread and return to the next task later on, allowing it to progress incrementally until it's completed in its entirety. This approach not only prevents the main thread from becoming overwhelmed but also ensures that critical operations can proceed without unnecessary delay.
 
-# The impact on the performance of synchronous processing
+## The impact on the performance of synchronous processing
 
 Let's break down a typical scenario where we have a large array and want to process each element.
 
@@ -48,7 +48,7 @@ You may consider marking our **`processElementSynchronously`** function with the
 
 You might also think about employing a Web Worker and shifting our workload there. However, not all tasks are suitable for execution within a worker. Workers lack access to the DOM, preventing any manipulation. If your task involves interacting with the DOM, it must be executed on the main thread. Consider React, for example. It doesn't utilize Web Workers yet manages to prevent thread blocking. How does it achieve this?
 
-# Breaking down tasks and introducing asynchronicity
+## Breaking down tasks and introducing asynchronicity
 
 The key here is to break down the work into smaller tasks and defer their execution. This way we ensure that the main thread remains unblocked, providing a smoother user experience.
 
@@ -123,7 +123,7 @@ In this code sample, we define a function **`processArrayAsyncWithDeadline`** th
 
 While this approach ensures that our tasks don't exceed a specific time limit, it's crucial to understand that the browser's workload can vary. There may be other tasks competing for resources in the queue, making it challenging to guarantee that the browser will always have 40 milliseconds available to execute our work.
 
-# What about setImmediate?
+## What about setImmediate?
 
 In the past, developers often favored **`setImmediate`** over **`setTimeout(func, 0)`** for scheduling immediate tasks. The **`setImmediate`** function provided a more efficient means of executing code immediately after the current task completed, without the artificial delay of zero milliseconds seen with **`setTimeout`**.
 
@@ -144,7 +144,7 @@ setImmediate(() => {
 
 This workaround not only guarantees immediate execution but also circumvents the 4ms minimum delay imposed by browsers on **`setTimeout`**. It's even employed internally by [React for scheduling work.](https://github.com/facebook/react/blob/2c022b847ed2171c59d37db9f71b394e0082ae3f/packages/scheduler/src/forks/Scheduler.js#L532)
 
-# No need to hurry? Wait for idle time.
+## No need to hurry? Wait for idle time.
 
 For less critical tasks, we can utilize a new API called **`requestIdleCallback`**. This API allows us to schedule work to be executed during idle periods when the browser's main thread is not busy with other high-priority tasks. By leveraging **`requestIdleCallback`**, we can ensure that our less important tasks are executed efficiently without impacting the overall performance of the application. Let's explore how we can implement this alternative approach.
 
@@ -224,7 +224,7 @@ During the execution of **`requestIdleCallback`**, if the timeout specified in t
 
 By incorporating this check into our while loop condition, we ensure that the loop terminates if either the deadline is met or the callback times out. If the callback times out, **`deadline.timeRemaining()`** will return 0, but **`deadline.didTimeout`** will be **`true`**, allowing us to gracefully handle the timeout scenario. We also incorporate additional limit, similar to the one used before, to still split work into smaller parts.
 
-# Conclusion
+## Conclusion
 
 In this blog post, we've witnessed how traditional synchronous tasks can monopolize the main thread, resulting in sluggish performance and unresponsive interfaces.
 
