@@ -14,7 +14,9 @@ comments: true
 published: true
 language: en
 ---
-Synchronous work in JavaScript often presents itself as a single, uninterrupted task that must be completed before the next operation can proceed. However, one key characteristic of synchronous work is its potential divisibility: it can typically be broken down into numerous smaller tasks, each requiring less time to execute individually. We'll leverage this characteristic to our advantage, splitting the workload into manageable chunks. By doing so, we can unblock the main thread and return to the next task later on, allowing it to progress incrementally until it's completed in its entirety. This approach not only prevents the main thread from becoming overwhelmed but also ensures that critical operations can proceed without unnecessary delay.
+**Synchronous work in JavaScript often presents itself as a single, uninterrupted task that must be completed before the next operation can proceed. However, one key characteristic of synchronous work is its potential divisibility: it can typically be broken down into numerous smaller tasks, each requiring less time to execute individually. We'll leverage this characteristic to our advantage, splitting the workload into manageable chunks.** 
+
+By doing so, we can unblock the main thread and return to the next task later on, allowing it to progress incrementally until it's completed in its entirety. This approach not only prevents the main thread from becoming overwhelmed but also ensures that critical operations can proceed without unnecessary delay.
 
 # The impact on the performance of synchronous processing
 
@@ -38,7 +40,6 @@ function processArraySynchronously(array: number[]): void {
 // Example usage: Process an array of numbers synchronously
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 processArraySynchronously(numbers);
-
 ```
 
 In the synchronous version of our example, we iterate over each element of the array and process it synchronously using the **`processElementSynchronously`** function. While this approach may seem straightforward, it can have detrimental effects on the performance and responsiveness of our application. Processing the array synchronously means that each element is processed one after the other, blocking the main thread until all elements have been processed. What does this mean for users? They can't do anything with your app. To them, it looks like the app is stuck. That's not good, right?
@@ -54,7 +55,6 @@ The key here is to break down the work into smaller tasks and defer their execut
 We'll achieve this by splitting the array into individual elements and processing each element separately using **`setTimeout`**.
 
 ```tsx
-
 // Define a function to process a single element
 function processElement(element: number): void {
     // Perform computation for the element
@@ -117,10 +117,9 @@ function processArrayAsyncWithDeadline(array: number[], index: number): void {
 // Example usage: Process an array of numbers asynchronously with a deadline
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 processArrayAsyncWithDeadline(numbers, 0);
-
 ```
 
-In this code sample, we define a function **`processArrayAsyncWithDeadline`** that takes an array and an index as parameters. Inside this function, we use a while loop to process elements of the array within a deadline of 40 milliseconds. We continuously check the elapsed time using `**window.performance.now()`** to ensure that we don't exceed the deadline. If the deadline is not met, we schedule the processing of the remaining elements using **`setTimeout`** to allow the main thread to handle other tasks and maintain responsiveness.
+In this code sample, we define a function **`processArrayAsyncWithDeadline`** that takes an array and an index as parameters. Inside this function, we use a while loop to process elements of the array within a deadline of 40 milliseconds. We continuously check the elapsed time using `**window.performance.now()` **to ensure that we don't exceed the deadline. If the deadline is not met, we schedule the processing of the remaining elements using** `setTimeout`\*\* to allow the main thread to handle other tasks and maintain responsiveness.
 
 While this approach ensures that our tasks don't exceed a specific time limit, it's crucial to understand that the browser's workload can vary. There may be other tasks competing for resources in the queue, making it challenging to guarantee that the browser will always have 40 milliseconds available to execute our work.
 
