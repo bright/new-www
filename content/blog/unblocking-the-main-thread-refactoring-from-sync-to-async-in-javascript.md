@@ -119,7 +119,7 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 processArrayAsyncWithDeadline(numbers, 0);
 ```
 
-In this code sample, we define a function **`processArrayAsyncWithDeadline`** that takes an array and an index as parameters. Inside this function, we use a while loop to process elements of the array within a deadline of 40 milliseconds. We continuously check the elapsed time using `**window.performance.now()` **to ensure that we don't exceed the deadline. If the deadline is not met, we schedule the processing of the remaining elements using** `setTimeout`\*\* to allow the main thread to handle other tasks and maintain responsiveness.
+In this code sample, we define a function **`processArrayAsyncWithDeadline`** that takes an array and an index as parameters. Inside this function, we use a while loop to process elements of the array within a deadline of 40 milliseconds. We continuously check the elapsed time using `window.performance.now()` **to ensure that we don't exceed the deadline. If the deadline is not met, we schedule the processing of the remaining elements using** `setTimeout` to allow the main thread to handle other tasks and maintain responsiveness.
 
 While this approach ensures that our tasks don't exceed a specific time limit, it's crucial to understand that the **browser's workload can vary**. There may be other tasks competing for resources in the queue, making it challenging to guarantee that the browser will always have 40 milliseconds available to execute our work.
 
