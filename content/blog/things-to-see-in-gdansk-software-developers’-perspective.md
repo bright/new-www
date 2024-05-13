@@ -20,3 +20,9 @@ language: en
 Brzeźno Beach is perfect for relaxation and recreation. Here, you can enjoy barbecues, play volleyball, or engage in beach yoga. It's also home to a pier, ideal for a leisurely stroll or watching the sunset.
 
 <div className="image">![Gdansk Brzezno beach](/images/gdansk_brzezno_beach.png "Gdansk Brzezno beach")</div>
+
+## Old Town from Motlawa’s point of view
+
+The heart of Gdańsk is its Old Town, a breathtaking area with architecturally stunning buildings nestled along the Motława River. It’s an excellent place for kayaking or dragon boat racing. 😉
+
+<div className="image">![Gdansk Motlawa, Old Town](/images/gdansk_motlawa.png "Gdansk Motlawa, Old Town")</div>
