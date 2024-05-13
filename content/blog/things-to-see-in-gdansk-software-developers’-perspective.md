@@ -26,3 +26,9 @@ Brzeźno Beach is perfect for relaxation and recreation. Here, you can enjoy bar
 The heart of Gdańsk is its Old Town, a breathtaking area with architecturally stunning buildings nestled along the Motława River. It’s an excellent place for kayaking or dragon boat racing. 😉
 
 <div className="image">![Gdansk Motlawa, Old Town](/images/gdansk_motlawa.png "Gdansk Motlawa, Old Town")</div>
+
+## Oliwa forest
+
+It’s where our team often engages in mountain biking (MTB) or team retreats. The forest is perfect for exploring nature and engaging in team-building activities, providing a refreshing break from the city’s bustle.
+
+<div className="image">![Gdansk, Oliwa forest](/images/gdansk_forest_oliwa.png "Gdansk, Oliwa forest")</div>
