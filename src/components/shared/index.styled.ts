@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import variables, { font } from '../../styles/variables'
+import variables, { font, roundedCorners } from '../../styles/variables'
 import { pxToRem } from './../../styles/variables'
 
 export const HideTablet = styled.div({
@@ -485,4 +485,8 @@ export const FlexWrapper = styled.div<{
     flex-wrap: ${({ mobileWrap }) => mobileWrap};
     flex-basis: ${({ mobileBasis }) => mobileBasis};
   }
+`
+
+export const RoundedButton = styled.button`
+  border-radius: ${roundedCorners};
 `

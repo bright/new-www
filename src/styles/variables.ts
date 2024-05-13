@@ -87,3 +87,5 @@ export default {
   },
   font: font,
 }
+
+export const roundedCorners = 'calc(infinity * 1px)'

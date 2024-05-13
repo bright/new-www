@@ -1,6 +1,7 @@
 import React, { PropsWithChildren } from 'react'
 import { Link } from 'gatsby'
 import * as Styled from './index.styled'
+import { RoundedButton } from './index.styled'
 
 interface MoreButtonProps {
   onClick?: (e: React.MouseEvent) => void
@@ -29,9 +30,9 @@ export const MoreButton: React.FC<PropsWithChildren<MoreButtonProps>> = ({
   isPositionLeft,
 }) => {
   const Btn = () => (
-    <button type={isSubmit ? 'submit' : 'button'} disabled={disabled} onClick={onClick} className={className}>
+    <RoundedButton type={isSubmit ? 'submit' : 'button'} disabled={disabled} onClick={onClick} className={className}>
       {text || children}
-    </button>
+    </RoundedButton>
   )
   const BtnLink = ({ hrefTarget }: { hrefTarget: string }) => {
     if (hrefTarget.includes('#')) {

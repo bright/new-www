@@ -71,6 +71,8 @@
         font-weight: bold;
 
         span {
+          padding: 0.4rem 1rem;
+          border-radius: $roundedCorners;
           background-color: $primary;
           color: $heading-black;
           font-weight: bold;
