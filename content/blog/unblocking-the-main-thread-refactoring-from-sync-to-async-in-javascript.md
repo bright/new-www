@@ -19,6 +19,8 @@ language: en
 
 By doing so, we can unblock the main thread and return to the next task later on, allowing it to progress incrementally until it's completed in its entirety. This approach not only prevents the main thread from becoming overwhelmed but also ensures that critical operations can proceed without unnecessary delay.
 
+<div className="image">![refactoring](/images/refactoring.png "refactoring")</div>
+
 ## The impact on the performance of synchronous processing
 
 Let's break down a typical scenario where we have a large array and want to process each element.
