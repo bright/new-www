@@ -32,3 +32,9 @@ The heart of Gdańsk is its Old Town, a breathtaking area with architecturally s
 It’s where our team often engages in mountain biking (MTB) or team retreats. The forest is perfect for exploring nature and engaging in team-building activities, providing a refreshing break from the city’s bustle.
 
 <div className="image">![Gdansk, Oliwa forest](/images/gdansk_forest_oliwa.png "Gdansk, Oliwa forest")</div>
+
+## Explore Gdańsk’s coast from the boat
+
+Embark on a maritime journey along the stunning coast of Gdańsk. Get closes to some of Gdańsk’s most iconic and historically significant sites including Westerplatte, shipyard cranes, and more.
+
+<div className="image">![Gdansk, sailing](/images/gdansk_sailing.png "Gdansk, sailing")</div>
