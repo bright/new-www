@@ -9,6 +9,7 @@ meaningfullyUpdatedAt: 2024-05-13T05:35:42.804Z
 slug: refactoring-from-sync-to-async-in-javascript
 title: "Unblocking the Main Thread: Refactoring from Sync to Async in JavaScript"
 layout: post
+image: /images/refactoring.png
 hidden: false
 comments: true
 published: true
