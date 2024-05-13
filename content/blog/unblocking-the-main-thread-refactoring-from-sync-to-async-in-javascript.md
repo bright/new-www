@@ -42,15 +42,15 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 processArraySynchronously(numbers);
 ```
 
-In the synchronous version of our example, we iterate over each element of the array and process it synchronously using the **`processElementSynchronously`** function. While this approach may seem straightforward, it can have detrimental effects on the performance and responsiveness of our application. Processing the array synchronously means that each element is processed one after the other, blocking the main thread until all elements have been processed. What does this mean for users? They can't do anything with your app. To them, it looks like the app is stuck. That's not good, right?
+In the synchronous version of our example, we iterate over each element of the array and process it synchronously using the **`processElementSynchronously`** function. While this approach may seem straightforward, it can have detrimental effects on the performance and responsiveness of our application. **Processing the array synchronously means that each element is processed one after the other, blocking the main thread until all elements have been processed**. What does this mean for users? They can't do anything with your app. To them, **it looks like the app is stuck**. That's not good, right?
 
-You may consider marking our **`processElementSynchronously`** function with the **`async`** keyword, assuming it will operate asynchronously. While this is true, the catch is that we're merely deferring execution, which still occurs on the main thread, thereby causing blocking.
+You may consider marking our **`processElementSynchronously`** function with the **`async`** keyword, assuming it will operate asynchronously. While this is true, the catch is that **we're merely deferring execution, which still occurs on the main thread, thereby causing blocking**.
 
-You might also think about employing a Web Worker and shifting our workload there. However, not all tasks are suitable for execution within a worker. Workers lack access to the DOM, preventing any manipulation. If your task involves interacting with the DOM, it must be executed on the main thread. Consider React, for example. It doesn't utilize Web Workers yet manages to prevent thread blocking. How does it achieve this?
+You might also think about employing a Web Worker and shifting our workload there. However, **not all tasks are suitable for execution within a worker**. Workers lack access to the DOM, preventing any manipulation. If your task involves interacting with the DOM, it must be executed on the main thread. Consider React, for example. It doesn't utilize Web Workers yet manages to prevent thread blocking. How does it achieve this?
 
 ## Breaking down tasks and introducing asynchronicity
 
-The key here is to break down the work into smaller tasks and defer their execution. This way we ensure that the main thread remains unblocked, providing a smoother user experience.
+The key here is to **break down the work into smaller tasks and defer their execution**. This way we ensure that **the main thread remains unblocked**, providing a smoother user experience.
 
 We'll achieve this by splitting the array into individual elements and processing each element separately using **`setTimeout`**.
 
@@ -83,7 +83,7 @@ processArrayAsync(numbers, 0);
 
 In this simplified code sample, we define a function **`processArrayAsync`** that takes an array and an index as parameters. Inside this function, we process each element of the array one by one using **`setTimeout`**. This allows each element to be processed asynchronously, giving the main thread time to handle other tasks and maintain responsiveness
 
-It's important to note that even when we provide a timeout of 0 milliseconds, [the browser may delay the execution slightly](https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html). To mitigate this effect and ensure that the main thread still remains unblocked, we can introduce a deadline of 40 milliseconds. This allows more work to be completed swiftly without noticeably impacting the user experience.
+It's important to note that even when we provide a timeout of 0 milliseconds, [the browser may delay the execution slightly](https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html). To mitigate this effect and ensure that the main thread still remains unblocked, **we can introduce a deadline of 40 milliseconds**. This allows more work to be completed swiftly without noticeably impacting the user experience.
 
 ```tsx
 // Define a function to process a single element
