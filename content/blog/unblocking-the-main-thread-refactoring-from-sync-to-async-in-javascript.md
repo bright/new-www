@@ -121,7 +121,7 @@ processArrayAsyncWithDeadline(numbers, 0);
 
 In this code sample, we define a function **`processArrayAsyncWithDeadline`** that takes an array and an index as parameters. Inside this function, we use a while loop to process elements of the array within a deadline of 40 milliseconds. We continuously check the elapsed time using `**window.performance.now()` **to ensure that we don't exceed the deadline. If the deadline is not met, we schedule the processing of the remaining elements using** `setTimeout`\*\* to allow the main thread to handle other tasks and maintain responsiveness.
 
-While this approach ensures that our tasks don't exceed a specific time limit, it's crucial to understand that the browser's workload can vary. There may be other tasks competing for resources in the queue, making it challenging to guarantee that the browser will always have 40 milliseconds available to execute our work.
+While this approach ensures that our tasks don't exceed a specific time limit, it's crucial to understand that the **browser's workload can vary**. There may be other tasks competing for resources in the queue, making it challenging to guarantee that the browser will always have 40 milliseconds available to execute our work.
 
 ## What about setImmediate?
 
@@ -142,9 +142,9 @@ setImmediate(() => {
 });
 ```
 
-This workaround not only guarantees immediate execution but also circumvents the 4ms minimum delay imposed by browsers on **`setTimeout`**. It's even employed internally by [React for scheduling work.](https://github.com/facebook/react/blob/2c022b847ed2171c59d37db9f71b394e0082ae3f/packages/scheduler/src/forks/Scheduler.js#L532)
+This workaround not only g**uarantees immediate execution but also circumvents the 4ms minimum delay imposed by browsers on** **`setTimeout`**. It's even employed internally by [React for scheduling work.](https://github.com/facebook/react/blob/2c022b847ed2171c59d37db9f71b394e0082ae3f/packages/scheduler/src/forks/Scheduler.js#L532)
 
-## No need to hurry? Wait for idle time.
+## No need to hurry? Wait for idle time
 
 For less critical tasks, we can utilize a new API called **`requestIdleCallback`**. This API allows us to schedule work to be executed during idle periods when the browser's main thread is not busy with other high-priority tasks. By leveraging **`requestIdleCallback`**, we can ensure that our less important tasks are executed efficiently without impacting the overall performance of the application. Let's explore how we can implement this alternative approach.
 
