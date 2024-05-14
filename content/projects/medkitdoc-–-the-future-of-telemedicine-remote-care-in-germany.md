@@ -21,8 +21,8 @@ social_media_previev_alt: telehealth app
 bar_achievements:
   - number: 6M
     label: Elderlies live alone in Germany
-  - number: 70 care homes
-    label: Where MedKitDoc rolled out in Germany
+  - number: "70"
+    label: Care homes where MedKitDoc rolled out
   - number: 25%
     label: Reduction of unnecessary hospitalization
 tags:
