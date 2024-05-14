@@ -45,8 +45,8 @@ Historically significant shipyard areas of the city have been revitalized, trans
 
 <div className="image">![Gdansk, shipyard](/images/gdansk_shipyard-post.png "Gdansk, shipyard")</div>
 
-## Bright Inventions’s office :) 
+## Let's meet for a coffee in Gdańsk
 
-Finally, if you want to meet the best software development studio from Gdańsk, [contact us to meet for a coffee](/our-areas/gdansk-software-company/). Hope to see you in Gdańsk soon!
+**Finally, if you want to meet the best software development studio from Gdańsk, [contact us to meet for a coffee](/our-areas/gdansk-software-company/). Hope to see you in Gdańsk soon!**
 
 <div className="image">![Bright Inventions team](/images/gdansk_meetup_cofee.png "Bright Inventions team")</div>
