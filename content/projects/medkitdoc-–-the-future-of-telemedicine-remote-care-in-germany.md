@@ -68,3 +68,13 @@ After experiencing several years of successful growth, the founders of **MedKitD
 Through collaborative efforts with our client, MedKitDoc has undergone continuous improvement. **New features like medical documentation storage and integrations with medical providers have been developed to enhance user experience**. We also **enhance existing features**, including the scheduling of video appointments between doctors and patients, which has been a core function of MedKitDoc for years. 
 
 <div className="image">![telehealth](/images/telehealth_solution.png "telehealth")</div>
+
+<TitleWithIcon sectionTitle="challenge: making a data-heavy and multifunctional system an intuitive one" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
+
+Faced with the challenge of ensuring optimal performance for MedKitDoc, **we implemented a robust strategic solution – performance monitoring based on the OpenTelemetry standard**, which provides our client with vital insights, including response time, peak usage periods, and resource utilization within the application. The primary aim is to proactively identify and address any potential performance issues, enabling swift interventions before they can impact the end-users' experience.
+
+We have also helped to address the challenges of comprehensive business and marketing analytics by maintaining **monitoring for crucial metrics like feature usage**, including successful appointment count, the number of messages exchanged between patient and doctor, and the number of shared documents. **The data serves as a valuable resource for the client's analytics team ensuring app optimizations are always based on solid and reliable data**. 
+
+Securing healthcare solutions that store sensitive medical data, such as MedKitDoc, presents an additional challenge in **ensuring compliance with HIPAA, GDPR and being eligible for German TÜV certification**. To meet these requirements, it's essential to **follow best security practices such as data encryption, and managing user access with tools like AWS Cognito, among many others**.
+
+Part of addressing this challenge involves **software modernization**. While our core responsibility is to deliver new features, we also play a crucial role in **modernizing the current code and architecture**. This includes updating libraries to comply with security standards, and **ensuring that our solution remains secure and trustworthy for handling sensitive medical data**.
