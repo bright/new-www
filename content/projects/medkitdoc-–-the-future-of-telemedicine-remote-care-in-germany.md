@@ -51,6 +51,10 @@ language: en
 
 The story of MedKitDoc started before it was even founded. Its two **co-founders were unable to assist their chronically ill grandmother living hundreds of miles away**. Benjamin Gutermann, one of the co-founders and a doctor, found his skills ineffective over the distance. If only he could have listened to his grandmother's heart and checked her lung sounds. **Ultimately, their grandmother had to be hospitalized, which they believed might have been avoided**.
 
-In Germany, the demographic trend indicates a significant increase in the population of elderly individuals, particularly those living alone. As of 2020, nearly 6 million people aged 65 or over were living alone, representing one in three people (34%) of that age group.
+In Germany, the demographic trend indicates a significant increase in the population of elderly individuals, particularly those living alone. **As of 2020, [nearly 6 million people aged 65 or over were living alone](https://www.destatis.de/EN/Press/2021/09/PE21_N057_12411.html), representing one in three people (34%) of that age group**.
 
 Remote patient monitoring and telehealth are essential for ensuring well-being and providing the necessary assistance before it's too late.
+
+<TitleWithIcon sectionTitle="solution: telehealth application with integrated medical devices" titleIcon="/images/goal_title_section.png" titleIconAlt="solution" />
+
+**MedKitDoc is paving the way in remote medical care in Germany** by integrating certified medical devices, applications, and trained specialists into a comprehensive healthcare solution. This innovative approach has gained popularity in care homes, facilitating virtual appointments between patients and doctors who may be located far away. Patients use smart healthcare devices to monitor their vital signs, which are then transmitted to the doctor via the app. At the same time, doctors conduct real-time communication with patients through video calls, enabling the prompt initiation of appropriate treatment based on the medical data collected through the devices and the patient's consultation.
