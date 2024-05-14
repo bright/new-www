@@ -69,7 +69,7 @@ Through collaborative efforts with our client, MedKitDoc has undergone continuou
 
 <div className="image">![telehealth](/images/telehealth_solution.png "telehealth")</div>
 
-<TitleWithIcon sectionTitle="challenge: making a data-heavy and multifunctional system an intuitive one" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
+<TitleWithIcon sectionTitle="challenge: ensuring optimal performance and compliance with HIPAA, GDPR and TÜV " titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
 
 Faced with the challenge of ensuring optimal performance for MedKitDoc, **we implemented a robust strategic solution – performance monitoring based on the OpenTelemetry standard**, which provides our client with vital insights, including response time, peak usage periods, and resource utilization within the application. The primary aim is to proactively identify and address any potential performance issues, enabling swift interventions before they can impact the end-users' experience.
 
@@ -81,6 +81,6 @@ Part of addressing this challenge involves **software modernization**. While our
 
 <div className="image">![MedKitDoc](/images/medkitdoc_mockups_app.png "MedKitDoc")</div>
 
-<TitleWithIcon sectionTitle="result: increasing access to medical care" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
+<TitleWithIcon sectionTitle="result: increased access to medical care in Germany" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
 MedKitDoc is changing telemedicine in Germany. **By implementing new features and gathering data to understand users' needs, we proudly support their mission to increase access to medical care** among people who are often left to manage on their own. Let's hope that remote patient care will soon be a widespread reality for older and chronically ill individuals.
