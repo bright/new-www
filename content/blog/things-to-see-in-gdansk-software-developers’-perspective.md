@@ -2,10 +2,10 @@
 author: izabela
 tags:
   - bright insights
-date: 2024-05-13T14:03:44.772Z
-meaningfullyUpdatedAt: 2024-05-13T14:03:44.795Z
+date: 2024-05-14T07:11:44.180Z
+meaningfullyUpdatedAt: 2024-05-14T07:11:44.745Z
 slug: things-to-see-in-Gdansk
-title: Things to See in Gdansk (Software Developers’ Perspective)
+title: Things to See in Gdansk (Local Software Developers’ Perspective)
 layout: post
 image: /images/cover_gdansk_sightseeing.png
 hidden: false
