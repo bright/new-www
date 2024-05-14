@@ -2,6 +2,8 @@
 team_members:
   - tomasz-sch
   - maciej-n
+  - michal-d
+  - wojciech-k
 our_service:
   - healthcare software development
 layout: project
