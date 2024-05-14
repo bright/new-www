@@ -65,4 +65,6 @@ After experiencing several years of successful growth, the founders of **MedKitD
 
 **Our team is responsible for backend development and the infrastructure** – the core of the system. In close partnership with our client, one of our colleagues from Bright Inventions takes on the role of a tech lead. **Together, we oversee a development team comprising backend, mobile, and QA experts**. 
 
-Through collaborative efforts with our client, MedKitDoc has undergone continuous improvement. **New features like medical documentation storage and integrations with medical providers have been developed to enhance user experience**. We also **enhance existing features**, including the scheduling of video appointments between doctors and patients, which has been a core function of MedKitDoc for years.
+Through collaborative efforts with our client, MedKitDoc has undergone continuous improvement. **New features like medical documentation storage and integrations with medical providers have been developed to enhance user experience**. We also **enhance existing features**, including the scheduling of video appointments between doctors and patients, which has been a core function of MedKitDoc for years. 
+
+<div className="image">![telehealth](/images/telehealth_solution.png "telehealth")</div>
