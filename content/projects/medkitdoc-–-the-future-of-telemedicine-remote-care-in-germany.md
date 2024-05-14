@@ -78,3 +78,5 @@ We have also helped to address the challenges of comprehensive business and mark
 Securing healthcare solutions that store sensitive medical data, such as MedKitDoc, presents an additional challenge in **ensuring compliance with HIPAA, GDPR and being eligible for German TÜV certification**. To meet these requirements, it's essential to **follow best security practices such as data encryption, and managing user access with tools like AWS Cognito, among many others**.
 
 Part of addressing this challenge involves **software modernization**. While our core responsibility is to deliver new features, we also play a crucial role in **modernizing the current code and architecture**. This includes updating libraries to comply with security standards, and **ensuring that our solution remains secure and trustworthy for handling sensitive medical data**.
+
+<div className="image">![MedKitDoc](/images/medkitdoc_mockups_app.png "MedKitDoc")</div>
