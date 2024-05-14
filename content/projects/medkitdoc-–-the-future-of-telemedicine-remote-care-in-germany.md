@@ -18,6 +18,13 @@ hero_image: /images/telemedicine_remote_care_case_syudy.png
 Hero Image_alt: telehealth app
 social_media_previev: /images/fb_preview_case_study_telehealth_some.png
 social_media_previev_alt: telehealth app
+bar_achievements:
+  - number: 6M
+    label: Elderlies live alone in Germany
+  - number: 70 care homes
+    label: Where MedKitDoc rolled out in Germany
+  - number: 50%
+    label: Reduction of unnecessary hospitalization
 tags:
   - eHealth
   - customized software
