@@ -23,7 +23,7 @@ bar_achievements:
     label: Elderlies live alone in Germany
   - number: 70 care homes
     label: Where MedKitDoc rolled out in Germany
-  - number: 50%
+  - number: 25%
     label: Reduction of unnecessary hospitalization
 tags:
   - eHealth
@@ -80,3 +80,5 @@ Securing healthcare solutions that store sensitive medical data, such as MedKitD
 Part of addressing this challenge involves **software modernization**. While our core responsibility is to deliver new features, we also play a crucial role in **modernizing the current code and architecture**. This includes updating libraries to comply with security standards, and **ensuring that our solution remains secure and trustworthy for handling sensitive medical data**.
 
 <div className="image">![MedKitDoc](/images/medkitdoc_mockups_app.png "MedKitDoc")</div>
+
+<TitleWithIcon sectionTitle="result: successful scaling and meds distribution digitalization" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
