@@ -43,7 +43,7 @@ published: true
 work_in_progress: false
 language: en
 ---
-<Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/aws_stack_logo.svg","alt":"AWS-CDK"},{"src":"/images/opentelemetry_stack_logo.svg","alt":"OpenTelemtry"},{"src":"/images/mysql.svg","alt":"MySQL"}]' />
+<Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/aws_stack_logo.svg","alt":"AWS-CDK"},{"src":"/images/opentelemetry_stack_logo.svg","alt":"OpenTelemetry"},{"src":"/images/mysql.svg","alt":"MySQL"}]' />
 
 **technologies:** Kotlin, AWS-CDK, OpenTelemetry, MySQL
 
