@@ -2,6 +2,8 @@
 team_members:
   - tomasz-sch
   - maciej-n
+  - michal-d
+  - wojciech-k
 our_service:
   - healthcare software development
 layout: project
@@ -21,8 +23,8 @@ social_media_previev_alt: telehealth app
 bar_achievements:
   - number: 6M
     label: Elderlies live alone in Germany
-  - number: 70 care homes
-    label: Where MedKitDoc rolled out in Germany
+  - number: "70"
+    label: Care homes where MedKitDoc rolled out
   - number: 25%
     label: Reduction of unnecessary hospitalization
 tags:
@@ -34,15 +36,17 @@ title_case_study: more success stories
 title_contact: book a free consultation in 48 hours
 description_contact: Tell us more about your mobile project or idea for an app.
   Fill out the form below and we'll get back to you in 48 hours.
-order: 99
+order: 1
 slug: telehealth-solution
-show_team: false
+show_team: true
 show_case_study: true
 show on homepage: false
 published: true
 work_in_progress: false
 language: en
 ---
+<TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="stack" />
+
 <Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/aws_stack_logo.svg","alt":"AWS-CDK"},{"src":"/images/opentelemetry_stack_logo.svg","alt":"OpenTelemetry"},{"src":"/images/mysql.svg","alt":"MySQL"}]' />
 
 **technologies:** Kotlin, AWS-CDK, OpenTelemetry, MySQL
@@ -57,7 +61,9 @@ Remote patient monitoring and telehealth are essential for ensuring well-being a
 
 <TitleWithIcon sectionTitle="solution: telehealth application with integrated devices" titleIcon="/images/goal_title_section.png" titleIconAlt="solution" />
 
-**MedKitDoc is paving the way in remote medical care in Germany** by integrating certified medical devices, applications, and trained specialists into a comprehensive healthcare solution. This innovative approach has gained popularity in care homes, facilitating virtual appointments between patients and doctors who may be located far away. **Patients use smart healthcare devices to monitor their vital signs, which are then transmitted to the doctor via the app**. At the same time, **doctors conduct real-time communication with patients through video calls**, enabling the prompt initiation of appropriate treatment based on the medical data collected through the devices and the patient's consultation.
+**MedKitDoc is paving the way in remote medical care in Germany** by integrating certified medical devices, applications, and trained specialists into a comprehensive healthcare solution. This innovative approach has gained popularity in care homes, facilitating virtual appointments between patients and doctors who may be located far away. 
+
+**Patients use smart healthcare devices to monitor their vital signs, which are then transmitted to the doctor via the app**. At the same time, **doctors conduct real-time communication with patients through video calls**, enabling the prompt initiation of appropriate treatment based on the medical data collected through the devices and the patient's consultation.
 
 <div className="image">![MedKitDoc](/images/medkitdoc_mockups.png "MedKitDoc")</div>
 
