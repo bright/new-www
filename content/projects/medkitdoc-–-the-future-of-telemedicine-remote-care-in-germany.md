@@ -81,4 +81,6 @@ Part of addressing this challenge involves **software modernization**. While our
 
 <div className="image">![MedKitDoc](/images/medkitdoc_mockups_app.png "MedKitDoc")</div>
 
-<TitleWithIcon sectionTitle="result: successful scaling and meds distribution digitalization" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
+<TitleWithIcon sectionTitle="result: increasing access to medical care" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
+
+MedKitDoc is changing telemedicine in Germany. **By implementing new features and gathering data to understand users' needs, we proudly support their mission to increase access to medical care** among people who are often left to manage on their own. Let's hope that remote patient care will soon be a widespread reality for older and chronically ill individuals.
