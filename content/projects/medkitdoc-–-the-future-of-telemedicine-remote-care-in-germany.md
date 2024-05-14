@@ -57,7 +57,9 @@ Remote patient monitoring and telehealth are essential for ensuring well-being a
 
 <TitleWithIcon sectionTitle="solution: telehealth application with integrated devices" titleIcon="/images/goal_title_section.png" titleIconAlt="solution" />
 
-**MedKitDoc is paving the way in remote medical care in Germany** by integrating certified medical devices, applications, and trained specialists into a comprehensive healthcare solution. This innovative approach has gained popularity in care homes, facilitating virtual appointments between patients and doctors who may be located far away. **Patients use smart healthcare devices to monitor their vital signs, which are then transmitted to the doctor via the app**. At the same time, **doctors conduct real-time communication with patients through video calls**, enabling the prompt initiation of appropriate treatment based on the medical data collected through the devices and the patient's consultation.
+**MedKitDoc is paving the way in remote medical care in Germany** by integrating certified medical devices, applications, and trained specialists into a comprehensive healthcare solution. This innovative approach has gained popularity in care homes, facilitating virtual appointments between patients and doctors who may be located far away. 
+
+**Patients use smart healthcare devices to monitor their vital signs, which are then transmitted to the doctor via the app**. At the same time, **doctors conduct real-time communication with patients through video calls**, enabling the prompt initiation of appropriate treatment based on the medical data collected through the devices and the patient's consultation.
 
 <div className="image">![MedKitDoc](/images/medkitdoc_mockups.png "MedKitDoc")</div>
 
