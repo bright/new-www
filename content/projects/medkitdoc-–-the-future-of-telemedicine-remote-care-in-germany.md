@@ -60,3 +60,9 @@ Remote patient monitoring and telehealth are essential for ensuring well-being a
 **MedKitDoc is paving the way in remote medical care in Germany** by integrating certified medical devices, applications, and trained specialists into a comprehensive healthcare solution. This innovative approach has gained popularity in care homes, facilitating virtual appointments between patients and doctors who may be located far away. **Patients use smart healthcare devices to monitor their vital signs, which are then transmitted to the doctor via the app**. At the same time, **doctors conduct real-time communication with patients through video calls**, enabling the prompt initiation of appropriate treatment based on the medical data collected through the devices and the patient's consultation.
 
 <div className="image">![MedKitDoc](/images/medkitdoc_mockups.png "MedKitDoc")</div>
+
+After experiencing several years of successful growth, the founders of **MedKitDoc decided to seek assistance with backend development to ensure the ongoing expansion of their solution**. They reached out to us, and **we gladly kicked off this collaboration**.
+
+**Our team is responsible for backend development and the infrastructure** – the core of the system. In close partnership with our client, one of our colleagues from Bright Inventions takes on the role of a tech lead. **Together, we oversee a development team comprising backend, mobile, and QA experts**. 
+
+Through collaborative efforts with our client, MedKitDoc has undergone continuous improvement. **New features like medical documentation storage and integrations with medical providers have been developed to enhance user experience**. We also **enhance existing features**, including the scheduling of video appointments between doctors and patients, which has been a core function of MedKitDoc for years.
