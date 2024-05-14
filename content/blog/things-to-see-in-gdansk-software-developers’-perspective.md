@@ -4,7 +4,7 @@ tags:
   - bright insights
 date: 2024-05-14T07:11:44.180Z
 meaningfullyUpdatedAt: 2024-05-14T07:11:44.745Z
-slug: things-to-see-in-Gdansk
+slug: things-to-see-in-gdansk
 title: Things to See in Gdansk (Local Software Developers’ Perspective)
 layout: post
 image: /images/cover_gdansk_sightseeing.png
