@@ -21,6 +21,7 @@
     flex-basis: calc(50% - 65px / 2);
     padding: 2.75rem 2.75rem 3.125rem;
     border: 1px solid #d3d3d3;
+    border-radius: 16px;
     &:hover {
       box-shadow: 15px 15px 40px -25px rgba(170, 170, 170, 1);
     }

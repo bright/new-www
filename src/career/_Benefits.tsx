@@ -32,6 +32,8 @@ const Block = styled.div`
   min-height: 10rem;
   margin: 1rem 1rem;
   font-size: 0;
+  border-radius: 16px;
+  overflow: hidden;
   @media ${variables.device.laptop} {
     width: calc(50% - 3.375rem);
     margin: 1.6875rem 1.6875rem;
@@ -108,6 +110,7 @@ const Block = styled.div`
 
 const BlockSmall = styled(Block)`
   border: 1px solid ${variables.color.border};
+  border-radius: 16px;
   height: 9rem;
   display: flex;
   flex-direction: row;

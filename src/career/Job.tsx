@@ -18,7 +18,7 @@ import {
   MoreButton,
 } from '../components/shared'
 import { FormComponent } from '../components/about-us/form-section/form'
-import variables, { font } from '../styles/variables'
+import variables, { font, roundedCorners } from '../styles/variables'
 import { CustomSection } from '../components/shared'
 import { LinkedIn } from '../components/icons/LinkedIn.icon'
 import useOnScreen from '../components/utils/use-onscreen'
@@ -460,6 +460,7 @@ const LinkLinkedin = styled.a`
   justify-content: center;
   padding: ${variables.pxToRem(11)} 0;
   max-width: ${variables.pxToRem(230)};
+  border-radius: ${roundedCorners};
 
   & span {
     color: #f9f9f9;

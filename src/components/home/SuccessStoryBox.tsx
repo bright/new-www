@@ -9,12 +9,12 @@ import { ProjectModel } from '../../models/gql'
 const Container = styled.div`
   border: 1px solid #d3d3d3;
   width: calc(50% - 2rem);
-  min-height: 10rem;
   margin: 2rem 2rem;
   display: flex;
   flex-direction: column;
   min-height: 748px ;
   cursor: pointer;
+  border-radius: 16px;
   &:nth-child(odd) {
     margin-right: 0rem;
   }

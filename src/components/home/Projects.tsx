@@ -103,6 +103,7 @@ export const BlockSmall = styled.div`
   padding: 2rem;
   margin: 2rem;
   font-size: 1rem;
+  border-radius: 16px;
 
   &:first-of-type:not(div.down) {
     margin-right: 0;
