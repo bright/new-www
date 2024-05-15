@@ -53,7 +53,7 @@ language: en
 
 <TitleWithIcon sectionTitle="problem: increase in the population of elderly living alone" titleIcon="/images/three_flags.svg" titleIconAlt="problem" />
 
-The story of MedKitDoc started before it was even founded. Its two **co-founders were unable to assist their chronically ill grandmother living hundreds of miles away**. Benjamin Gutermann, one of the co-founders and a doctor, found his skills ineffective over the distance. If only he could have listened to his grandmother's heart and checked her lung sounds. **Ultimately, their grandmother had to be hospitalized, which they believed might have been avoided**.
+The story of [MedKitDoc](https://medkitdoc.de/en/) started before it was even founded. Its two **co-founders were unable to assist their chronically ill grandmother living hundreds of miles away**. Benjamin Gutermann, one of the co-founders and a doctor, found his skills ineffective over the distance. If only he could have listened to his grandmother's heart and checked her lung sounds. **Ultimately, their grandmother had to be hospitalized, which they believed might have been avoided**.
 
 In Germany, the demographic trend indicates a significant increase in the population of elderly individuals, particularly those living alone. **As of 2020, [nearly 6 million people aged 65 or over were living alone](https://www.destatis.de/EN/Press/2021/09/PE21_N057_12411.html), representing one in three people (34%) of that age group**.
 
