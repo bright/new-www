@@ -26,6 +26,7 @@ const Job = styled.h3`
   flex-basis: calc(50% - ${variables.pxToRem(63)} / 2);
   background: #ffffff 0% 0%;
   border: 1px solid #d3d3d3;
+  border-radius: 16px;
   opacity: 1;
   padding: ${variables.pxToRem(36)} ${variables.pxToRem(32)} ${variables.pxToRem(76)} ${variables.pxToRem(36)};
   &:hover {

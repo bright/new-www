@@ -48,7 +48,6 @@ export const GoToContainer = styled.div({
 
 export const RevertHoverLink = styled(Link)`
   color: ${variables.color.text};
-  border: 1px solid #d3d3d3;
   padding: ${variables.pxToRem(43)} ${variables.pxToRem(45)} ${variables.pxToRem(43)};
   min-height: ${variables.pxToRem(410)};
   height: 100%;
@@ -76,6 +75,8 @@ export const DevelopmentAreaContainer = styled.div`
   align-items: center;
   flex-basis: calc(50% - 65px / 2);
   box-shadow: 0 0 0 #00000029;
+  border: 1px solid #d3d3d3;
+  border-radius: 16px;
   transition: box-shadow 0.1s ease-in, transform 0.1s ease-in;
 
   font-family: ${variables.font.customtext.lato};

@@ -18,6 +18,7 @@ const TeamMember = styled.article<{ isOurServiceTemplate: boolean; isWhyUs: bool
   text-align: center;
   display: flex;
   flex-direction: column;
+  border-radius: 16px;
 
   &:hover {
     & .avatar1 {

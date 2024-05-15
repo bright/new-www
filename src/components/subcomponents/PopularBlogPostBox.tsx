@@ -53,6 +53,7 @@ const PopularBlogPostBoxContainer = styled.div`
   width: 100%;
   height: 95%;
   border: 1px solid #d3d3d3;
+  border-radius: 16px;
   overflow: hidden;
 
   &:hover {
