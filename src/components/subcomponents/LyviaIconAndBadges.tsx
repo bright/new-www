@@ -1,5 +1,4 @@
 import React from 'react'
-import ClutchIcon from '../../assets/TopDevelopers_badge.svg'
 import LyviaLogo from '../../assets/a_part_of_lyvia_white_1.svg'
 import ForbesDiamondBadge from '../../assets/forbes_badge.svg'
 import styled from 'styled-components'
@@ -7,11 +6,12 @@ import variables from '../../styles/variables'
 import { FlexWrapper } from '../shared'
 import { CustomSection } from '../shared/index.styled'
 
-
 const Image100 = styled.figure`
   width: 120px;
   height: auto;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 
   svg {
     width: 100%;
@@ -34,6 +34,10 @@ const IconLink = styled.a`
   height: 100%;
 `
 
+const AWSIcon = styled.img`
+  padding-top: 5px;
+`
+
 const LyviaIconAndBadges = () => {
   return (
     <CustomSection paddingProps='35px 0 0 12px ' paddingLaptop='35px 0 0 12px' paddingTabletXL='35px 0 0 12px'
@@ -45,14 +49,10 @@ const LyviaIconAndBadges = () => {
           We are a part of Lyvia Group
           <Image100><LyviaLogo /> </Image100>
         </IconLink>
-        <FlexWrapper desktopGap='30px'>
-          <IconLink
-            href='https://clutch.co/profile/bright-inventions#highlights'
-            target='_blank'
-            rel='noopener noreferrer nofollow'
-          >
-            Clutch <Image100> <ClutchIcon /> </Image100>
-          </IconLink>
+        <FlexWrapper desktopGap='26px'>
+          <Image100>
+            <AWSIcon src={'/images/aws-partner-black.png'} />
+          </Image100>
           <IconLink
             href='/blog/bright-inventions-recognized-in-forbes-diamonds-2024/'
             rel='noopener noreferrer nofollow'
