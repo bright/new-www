@@ -4,7 +4,7 @@ team_members:
 our_service:
   - healthcare software development
 layout: project
-project_id: emergency-services-app
+project_id: emergency-contact-app
 title: Accessible 911 Call for People with Speech Disabilities [Confidential Project]
 image: /images/case_study_emergency_911_app.png
 description: The American emergency dispatch system, established in the 1960s,
