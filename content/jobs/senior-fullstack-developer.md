@@ -4,7 +4,7 @@ title: "Senior Fullstack Developer "
 subtitle: OPEN
 imagejob: /images/fullstackteam_job_offer.png
 image-alt-job: Fullstack Team Bright Inventions
-hours: Full-time
+hours: full-time
 salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
 salary_min: 16000
 salary_max: 24000
@@ -32,14 +32,14 @@ links_more_about_us: >-
 
    [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
 title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
-workplace_recruiter: Junior Recruiting Specialist
+workplace_recruiter: Recruiting Specialist
 image_recruiter_info: /images/agata_recruiter.png
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 published: true
 show_recruiter_info: true
 hidden: false
 name_recruiter: Agata
-image_alt_recruiter_info: Agata Mietlińska - A Recruiter at Bright Inventions
+image_alt_recruiter_info: Agata Dankowska - A Recruiter at Bright Inventions
 button: join our bright team
 order: 5
 recruting_image2_title: interview (technical part & non-technical part)
@@ -53,13 +53,13 @@ description: We are looking now for a Full Stack Developer who has already had
 
 At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
 
-We place a strong emphasis on accountability, and we value team members **who take ownership of their work and are willing to make improvements based on regular and open feedback.** Positive attitude, flexibility and teamwork are elemental parts of our success. Instead of focusing on problems we empower our team members to identify issues, propose solutions, and contribute to continuous growth. 
+We place a strong emphasis on accountability, and we value team members **who take ownership of their work and are willing to make improvements based on regular and open feedback.** Positive attitude, flexibility and teamwork are elemental parts of our success. Instead of focusing on problems, we empower our team members to identify issues, propose solutions, and contribute to continuous growth. 
 
 ## about the role 🧑🏻‍💻🧑🏻‍💻
 
-We are seeking an experienced Fullstack Developer to join our bright team. The ideal candidate will have **a strong understanding of both frontend and backend development**, along with the ability to work on a variety of projects ranging from web applications to database design. 
+We are seeking an experienced Fullstack Developer to join our bright team. The ideal candidate will have **a strong understanding of both frontend and backend development**, along with the ability to work on a variety of projects, ranging from web applications to database design. 
 
-As a Fullstack Developer, you will collaborate with cross-functional teams to design, develop, and maintain software solutions that meet our clients' needs.  **You will feel great in our team if you are a team player who approach challenges and complexities with a problem-solving mindset and openess to feedback.** 
+As a Fullstack Developer, you will collaborate with cross-functional teams to design, develop, and maintain software solutions that meet our clients' needs.  **You will feel great in our team if you are a team player who approach challenges and complexities with a problem-solving mindset and openness to feedback.** 
 
 ## what you will do 🤝
 
@@ -68,11 +68,11 @@ As a Fullstack Developer, you will collaborate with cross-functional teams to de
 * design and implement server-side logic, APIs, and database structures for backend applications
 * participate in code reviews to maintain code quality and ensure best practices
 * provide constructive feedback to team members as well as to the clients
-* share knowlege with the rest of the team (outside and inside the organisation) 
+* share knowledge with the rest of the team (outside and inside the organisation) 
 
 ## what we would like to see ✅
 
-* at least 4 years of commercial programming experience as a fullstack develoepr or ina  similar role 
+* at least 4 years of commercial programming experience as a fullstack developer or similar role 
 * solid understanding of TypeScript/JavaScript
 * deep working experience with Node.js and React
 * a solution-oriented mindset 
@@ -81,9 +81,8 @@ As a Fullstack Developer, you will collaborate with cross-functional teams to de
 
 ## we would also appreciate if you have 🙌
 
-* familiarity cloud platforms and deployment processes 
+* familiarity with cloud platforms and deployment processes 
 * experience with working on startup projects 
-
 
 ## what you will find in our Bright Team 🚀
 
@@ -100,4 +99,4 @@ As a Fullstack Developer, you will collaborate with cross-functional teams to de
 * weekly sport classes and in-house yoga time  
 * office in Gdańsk Wrzeszcz with a parking space nearby 
 * team retreats once a quarter and lunch roulette initiative 
-* board games evenings 
+* board games evenings
