@@ -259,6 +259,27 @@ const Content = styled.div`
   & .image {
     overflow: hidden;
   }
+
+  code {
+    border-radius: 4px;
+    padding: 4px 6px;
+    margin: 0 1px;
+    color: #586e75;
+    background-color: #fdf6e3;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 1rem;
+    font-weight: normal;
+
+    @media ${variables.device.laptop} {
+      font-size: 1rem;
+    }
+    @media ${variables.device.tabletXL} {
+      font-size: 1rem;
+    }
+    @media ${variables.device.mobile} {
+      font-size: .85rem;
+    }
+  }
 `
 const PreviousButton = styled(Button)`
   display: flex;
