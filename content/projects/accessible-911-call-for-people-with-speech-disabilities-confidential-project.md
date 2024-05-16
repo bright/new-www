@@ -78,3 +78,7 @@ In collaboration with our client and based on research provided by scientists fr
 Another challenge originated from the core of the solution, which aims to help people and even save lives. This underscored the immense gravity of our responsibility as software providers. Any issue in production could directly endanger someone's life. Therefore, one of the key strategies we implemented was performance monitoring and alerting systems. These allowed us to detect and respond to any disruptions before they could affect users. The monitoring system enabled us to continuously track the application's performance, while the alerting system notified us of potential problems, allowing us to take swift action.
 
 <div className="image">![emergency](/images/emergency_dispatch_app_photo.png "emergency")</div>
+
+<TitleWithIcon sectionTitle="the results: app release and reaching the national audience" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
+
+The pilot version was successfully released in one of the American state capital cities. The app was widely featured in the top media including NBC, Forbes, and ABC reaching a national audience. Now the project is in a crucial phase of partnering with national dispatch systems. This application is a great example of how technology can break barriers for those in need and we are thrilled to be involved in it.
