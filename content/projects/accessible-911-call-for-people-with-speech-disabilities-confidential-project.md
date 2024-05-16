@@ -23,7 +23,7 @@ bar_achievements:
   - number: 1960s
     label: The emergency system originated
   - number: 3 months
-    label: from the idea to the release
+    label: From the idea to the release
 tags:
   - eHealth
   - customized software
