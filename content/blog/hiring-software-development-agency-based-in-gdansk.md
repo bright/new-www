@@ -5,7 +5,7 @@ tags:
   - inspiration
 date: 2023-08-03T11:09:07.179Z
 meaningfullyUpdatedAt: 2023-08-03T11:09:08.052Z
-title: Why You Should Consider Hiring a Software Agency Based in Gdansk (Poland)
+title: Why You Should Hire a Software Agency Based in Gdansk (Poland)
 layout: post
 image: /images/blog_gdansk.png
 hidden: false
