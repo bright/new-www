@@ -21,6 +21,26 @@ language: en
 
 </center>
 
+**Contents**
+
+[Great geo-localization and flight connections](/blog/hiring-software-development-agency-based-in-gdansk/#great-geo-localization-and-flight-connections)
+
+The opportunity to see face-to-face
+
+Collaboration-friendly time zone
+
+One of the top Polish technology universities is in Gdansk
+
+Gdansk is full of programming talents
+
+Gdansk hosts infoShare – the biggest tech and startup event in CEE
+
+Studies show that people who live in Gdansk are one of the happiest in Poland ☺️
+
+Combine your business trip with pleasure
+
+See you in Gdansk? 😉
+
 ## Great geo-localization and flight connections
 
 You can fly to over 20 countries from Gdansk Airport ([data](https://www.airport.gdansk.pl/lotnisko/aktualnosci/80-polaczen-do-24-krajow-n2234.html) from March 2023). Thanks to the Gdansk's great localization in the center of Europe, flying to some cities like Copenhagen, Oslo, and Munich takes even less than two hours.
@@ -31,7 +51,7 @@ The Gdansk Airport is located about 20 minutes from the center of the city by ca
 
 <div className="image">![Gdansk airport flight connections](../../static/images/blog_post_airport_gdansk.png "Gdansk airport flight connections")</div>
 
-<center>Source: \[Gdansk Airport website](https://www.airport.gdansk.pl/flight-information/where-we-fly-p3.html) </center>
+<center>Source: \\[Gdansk Airport website](https://www.airport.gdansk.pl/flight-information/where-we-fly-p3.html) </center>
 
 Additionally, you can reach the city comfortably by train from Berlin. 
 
@@ -67,7 +87,7 @@ Lots of Bright Inventions team members graduated from Gdansk University of Techn
 
 <div className="image">![Gdansk University of Technology](../../static/images/blog_post_gdansk_tech_university.png "Gdansk University of Technology")</div>
 
-<center> Source: Gdansk University of Technology's \[website](https://pg.edu.pl/dzial-promocji/marka-pg/galeria-zdjec) </center>
+<center> Source: Gdansk University of Technology's \\[website](https://pg.edu.pl/dzial-promocji/marka-pg/galeria-zdjec) </center>
 
 It’s worth mentioning that graduates of the Gdansk University of Technology created [text-to-speech Ivona](https://pg.edu.pl/aktualnosci/2021-04/chcemy-dac-polakom-milion-dodatkowych-lat-zycia-w-zdrowiu-rozmowa-z-lukaszem). Their solution eventually helped to build the famous Alexa.
 
