@@ -25,19 +25,27 @@ language: en
 
 [Great geo-localization and flight connections](/blog/hiring-software-development-agency-based-in-gdansk/#great-geo-localization-and-flight-connections)
 
+
 [The opportunity to see face-to-face](/blog/hiring-software-development-agency-based-in-gdansk/#the-opportunity-to-see-face-to-face)
+
 
 [Collaboration-friendly time zone](/blog/hiring-software-development-agency-based-in-gdansk/#collaboration-friendly-time-zone)
 
+
 [One of the top Polish technology universities is in Gdansk](/blog/hiring-software-development-agency-based-in-gdansk/#one-of-the-top-polish-technology-universities-is-in-gdansk)
+
 
 [Gdansk is full of programming talents](/blog/hiring-software-development-agency-based-in-gdansk/#gdansk-is-full-of-programming-talents)
 
+
 [](/blog/hiring-software-development-agency-based-in-gdansk/#gdansk-is-full-of-programming-talents)[Gdansk hosts infoShare – the biggest tech and startup event in CEE](/blog/hiring-software-development-agency-based-in-gdansk/#gdansk-hosts-infoshare--the-biggest-tech-and-startup-event-in-cee)
+
 
 [Studies show that people who live in Gdansk are one of the happiest in Poland ☺️](/blog/hiring-software-development-agency-based-in-gdansk/#studies-show-that-people-who-live-in-gdansk-are-one-of-the-happiest-in-poland-%EF%B8%8F)
 
+
 [Combine your business trip with pleasure](/blog/hiring-software-development-agency-based-in-gdansk/#combine-your-business-trip-with-pleasure)
+
 
 [See you in Gdansk? 😉](/blog/hiring-software-development-agency-based-in-gdansk/#see-you-in-gdansk-)
 
