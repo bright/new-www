@@ -35,7 +35,8 @@ const IconLink = styled.a`
 `
 
 const AWSIcon = styled.img`
-  padding-top: 5px;
+  padding-top: 10px;
+  width: 85%;
 `
 
 const LyviaIconAndBadges = () => {
@@ -49,10 +50,16 @@ const LyviaIconAndBadges = () => {
           We are a part of Lyvia Group
           <Image100><LyviaLogo /> </Image100>
         </IconLink>
-        <FlexWrapper desktopGap='26px'>
-          <Image100>
-            <AWSIcon src={'/images/aws-partner-black.png'} />
-          </Image100>
+        <FlexWrapper desktopGap='18px'>
+          <IconLink
+            href='https://partners.amazonaws.com/partners/0010h00001hdw3OAAQ/Bright%20Inventions'
+            target='_blank'
+            rel='noopener noreferrer nofollow'
+          >
+            <Image100>
+              <AWSIcon src={'/images/aws-partner-black.png'} />
+            </Image100>
+          </IconLink>
           <IconLink
             href='/blog/bright-inventions-recognized-in-forbes-diamonds-2024/'
             rel='noopener noreferrer nofollow'
