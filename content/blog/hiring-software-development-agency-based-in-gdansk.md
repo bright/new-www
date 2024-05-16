@@ -25,21 +25,21 @@ language: en
 
 [Great geo-localization and flight connections](/blog/hiring-software-development-agency-based-in-gdansk/#great-geo-localization-and-flight-connections)
 
-The opportunity to see face-to-face
+[The opportunity to see face-to-face](/blog/hiring-software-development-agency-based-in-gdansk/#the-opportunity-to-see-face-to-face)
 
-Collaboration-friendly time zone
+[Collaboration-friendly time zone](/blog/hiring-software-development-agency-based-in-gdansk/#collaboration-friendly-time-zone)
 
-One of the top Polish technology universities is in Gdansk
+[One of the top Polish technology universities is in Gdansk](/blog/hiring-software-development-agency-based-in-gdansk/#one-of-the-top-polish-technology-universities-is-in-gdansk)
 
-Gdansk is full of programming talents
+[Gdansk is full of programming talents](/blog/hiring-software-development-agency-based-in-gdansk/#gdansk-is-full-of-programming-talents)
 
-Gdansk hosts infoShare – the biggest tech and startup event in CEE
+[](/blog/hiring-software-development-agency-based-in-gdansk/#gdansk-is-full-of-programming-talents)[Gdansk hosts infoShare – the biggest tech and startup event in CEE](/blog/hiring-software-development-agency-based-in-gdansk/#gdansk-hosts-infoshare--the-biggest-tech-and-startup-event-in-cee)
 
-Studies show that people who live in Gdansk are one of the happiest in Poland ☺️
+[Studies show that people who live in Gdansk are one of the happiest in Poland ☺️](/blog/hiring-software-development-agency-based-in-gdansk/#studies-show-that-people-who-live-in-gdansk-are-one-of-the-happiest-in-poland-%EF%B8%8F)
 
-Combine your business trip with pleasure
+[Combine your business trip with pleasure](/blog/hiring-software-development-agency-based-in-gdansk/#combine-your-business-trip-with-pleasure)
 
-See you in Gdansk? 😉
+[See you in Gdansk? 😉](/blog/hiring-software-development-agency-based-in-gdansk/#see-you-in-gdansk-)
 
 ## Great geo-localization and flight connections
 
@@ -51,7 +51,7 @@ The Gdansk Airport is located about 20 minutes from the center of the city by ca
 
 <div className="image">![Gdansk airport flight connections](../../static/images/blog_post_airport_gdansk.png "Gdansk airport flight connections")</div>
 
-<center>Source: \\[Gdansk Airport website](https://www.airport.gdansk.pl/flight-information/where-we-fly-p3.html) </center>
+<center>Source: \\\[Gdansk Airport website](https://www.airport.gdansk.pl/flight-information/where-we-fly-p3.html) </center>
 
 Additionally, you can reach the city comfortably by train from Berlin. 
 
@@ -87,7 +87,7 @@ Lots of Bright Inventions team members graduated from Gdansk University of Techn
 
 <div className="image">![Gdansk University of Technology](../../static/images/blog_post_gdansk_tech_university.png "Gdansk University of Technology")</div>
 
-<center> Source: Gdansk University of Technology's \\[website](https://pg.edu.pl/dzial-promocji/marka-pg/galeria-zdjec) </center>
+<center> Source: Gdansk University of Technology's \\\[website](https://pg.edu.pl/dzial-promocji/marka-pg/galeria-zdjec) </center>
 
 It’s worth mentioning that graduates of the Gdansk University of Technology created [text-to-speech Ivona](https://pg.edu.pl/aktualnosci/2021-04/chcemy-dac-polakom-milion-dodatkowych-lat-zycia-w-zdrowiu-rozmowa-z-lukaszem). Their solution eventually helped to build the famous Alexa.
 
