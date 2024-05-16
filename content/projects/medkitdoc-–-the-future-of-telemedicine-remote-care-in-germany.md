@@ -63,6 +63,8 @@ Remote patient monitoring and telehealth are essential for ensuring well-being a
 
 **MedKitDoc is paving the way in remote medical care in Germany** by integrating certified medical devices, applications, and trained specialists into a comprehensive healthcare solution. This innovative approach has gained popularity in care homes, facilitating virtual appointments between patients and doctors who may be located far away. 
 
+<AppStore googleApp='https://play.google.com/store/apps/details?id=de.medkitdoc.app&hl=en&gl=US' srcGoogle='/images/google_play.png' altGoogleImage='MedKitDoc on Google Play' appStore='https://apps.apple.com/pl/app/medkitdoc/id1510720618' srcAppStore='/images/app_store.png' altAppStoreImage='MedKitDoc on AppStore' />
+
 **Patients use smart healthcare devices to monitor their vital signs, which are then transmitted to the doctor via the app**. At the same time, **doctors conduct real-time communication with patients through video calls**, enabling the prompt initiation of appropriate treatment based on the medical data collected through the devices and the patient's consultation.
 
 <div className="image">![MedKitDoc](/images/medkitdoc_mockups.png "MedKitDoc")</div>
