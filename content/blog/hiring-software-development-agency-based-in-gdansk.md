@@ -4,7 +4,7 @@ tags:
   - business
   - inspiration
 date: 2023-08-03T11:09:07.179Z
-meaningfullyUpdatedAt: 2023-08-03T11:09:08.052Z
+meaningfullyUpdatedAt: 2024-05-16T09:46:17.537Z
 title: Why You Should Hire a Software Agency Based in Gdansk (Poland)
 layout: post
 image: /images/blog_gdansk.png
