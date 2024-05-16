@@ -21,7 +21,7 @@ bar_achievements:
   - number: 11M
     label: Americans are deaf or have hearing difficulties
   - number: 1960s
-    label: the emergency dispatch system originated
+    label: The emergency system originated
   - number: 3 months
     label: from the idea to the release
 tags:
