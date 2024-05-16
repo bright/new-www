@@ -17,6 +17,13 @@ hero_image: /images/case_study_emergency_response_app.png
 Hero Image_alt: emergency services app
 social_media_previev: /images/fb_preview_case_study_emergency_some.png
 social_media_previev_alt: emergency services app
+bar_achievements:
+  - number: 11M
+    label: Americans are deaf or have hearing difficulties
+  - number: 1960s
+    label: when the emergency dispatch system originated
+  - number: "3"
+    label: months from the idea to the release
 tags:
   - eHealth
   - customized software
@@ -27,11 +34,11 @@ title_contact: book a free consultation in 48 hours
 description_contact: Tell us more about your mobile project or idea for an app.
   Fill out the form below and we'll get back to you in 48 hours.
 order: 99
-slug: emergency-services-solution
-show_team: true
+slug: emergency-contact-app
+show_team: false
 show_case_study: true
 show on homepage: false
-published: true
+published: false
 work_in_progress: false
 language: en
 ---
