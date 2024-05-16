@@ -68,3 +68,13 @@ We partnered with a US-based non-profit organization and together introduced a s
 It's worth noting that the solution is a progressive web app (PWA), which means it is a web application that can be easily accessed on smartphones without installation from any application stores. This was a key requirement from our client, who wanted to ensure the application would be quickly accessible in emergencies.
 
 <TitleWithIcon sectionTitle="challenges: simple and effective UI in stressful situations and immense responsibility" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
+
+The key challenge was designing a smooth user interface supporting people in reporting emergencies. Given that users would be accessing the app during extremely stressful moments, this consideration was crucial. 
+
+Although our team wasn’t in charge of product design, we offered our insights based on more than a decade of experience in software development. We are always deeply invested in product design because it is one of the critical success factors for most solutions. In the case of this application, it was undoubtedly the paramount factor.
+
+In collaboration with our client and based on research provided by scientists from American universities, we finetuned a design that minimized the process, eliminated potential errors, and guided users effectively to avoid additional stress.
+
+Another challenge originated from the core of the solution, which aims to help people and even save lives. This underscored the immense gravity of our responsibility as software providers. Any issue in production could directly endanger someone's life. Therefore, one of the key strategies we implemented was performance monitoring and alerting systems. These allowed us to detect and respond to any disruptions before they could affect users. The monitoring system enabled us to continuously track the application's performance, while the alerting system notified us of potential problems, allowing us to take swift action.
+
+<div className="image">![emergency](/images/emergency_dispatch_app_photo.png "emergency")</div>
