@@ -95,6 +95,10 @@ Gdansk citizens are one of the happiest in Poland according to studies conducted
 
 One of the reasons might be the fact that **Gdansk offers opportunities to grow professionally as well as to pursue other passions**. Gdansk, situated next to Baltic See, gives a chance for water activities like kite surfing, sup, sailing, and more. With hundreds of kilometers of bike routes and lots of green spaces, the city lets you truly rest after work. As a result, it helps to establish a work-life balance among employees [crucial for maintaining happiness](https://www.researchgate.net/publication/299741273_The_Relationship_Between_Work-Life_Balance_and_Happiness_From_the_Perspectives_of_Generation_X_and_Y).
 
+## Combine your business trip with pleasure
+
+Gdansk is a great city to experience beach sunsets, sailing, post-industrial historical sightseeing, and much more. Check out the places to visit in the city recommended by our team!
+
 ## See you in Gdansk? 😉
 
 We hope that you have unlocked the potential Gdansk has. If you are looking for a software agency based in Gdansk, reach out to our team.
