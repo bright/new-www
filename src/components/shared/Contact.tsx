@@ -237,10 +237,8 @@ export const Contact: FC<ContactProps> = ({
                 <u>{t('Privacy Policy', { ns: 'other copy' })}</u>
               </b>
             </a>{' '}
-              {t('and agree to receive communications from Bright Inventions.', { ns: 'other copy' })}*</span>
+              {t('and agree to receive communications from Bright Inventions.', { ns: 'other copy' })}</span>
           </PrivacyPolicyCheckboxContainer>
-
-          <RequiredMessage>{t('*fields required', { ns: 'other copy' })}</RequiredMessage>
 
           {isSending ? (
             <Loader className='loader'></Loader>
