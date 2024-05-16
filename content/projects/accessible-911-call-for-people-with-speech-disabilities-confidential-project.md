@@ -21,15 +21,15 @@ bar_achievements:
   - number: 11M
     label: Americans are deaf or have hearing difficulties
   - number: 1960s
-    label: the emergency dispatch system originated
+    label: The emergency system originated
   - number: 3 months
-    label: from the idea to the release
+    label: From the idea to the release
 tags:
   - eHealth
   - customized software
   - web app
 title_team: team
-title_case_study: explore other healthcare success stories
+title_case_study: explore other success stories
 title_contact: book a free consultation in 48 hours
 description_contact: Tell us more about your mobile project or idea for an app.
   Fill out the form below and we'll get back to you in 48 hours.
@@ -42,13 +42,14 @@ published: false
 work_in_progress: false
 language: en
 ---
+<TitleWithIcon sectionTitle="" titleIcon="" titleIconAlt="" />
+
 *The case study discusses a real project; however, due to a confidentiality agreement, we cannot reveal the name of our partner.*
 
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
 <Gallery images='[{"src":"/images/pwa_stack_logo.svg","alt":"PWA"},{"src":"/images/aws_stack_logo.svg","alt":"AWS Lambda"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/react_stack_logo.svg","alt":"React"}]' />
 
-\
 technologies: PWA, AWS Lambda, Node.js, React.
 
 <TitleWithIcon sectionTitle="problem: non-inclusive emergency dispatch system" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
@@ -58,8 +59,6 @@ Have you ever made a phone call to 911? That is one of the most stressful situat
 Approximately **[11 million Americans](https://nationaldeafcenter.org/faq/how-many-deaf-people-live-in-the-united-states/) are deaf or have hearing difficulties, yet 911 call centers only accept phone call**s. People with speaking disabilities are not the only group excluded from the emergency response system. Consider i**ndividuals who need to call the police while hiding from the intruder**. The inability to silently send a text to 911 could potentially endanger their lives.
 
 <div className="image">![emergency dispatch system](/images/emergency_dispatch_solution_app.png "emergency dispatch system")</div>
-
-
 
 <TitleWithIcon sectionTitle="the solution: non-verbal communication with dispatch centers" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution:" />
 
