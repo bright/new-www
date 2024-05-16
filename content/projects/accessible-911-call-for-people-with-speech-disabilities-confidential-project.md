@@ -7,12 +7,16 @@ layout: project
 project_id: emergency-contact-app
 title: Accessible 911 Call for People with Speech Disabilities [Confidential Project]
 image: /images/case_study_emergency_911_app.png
-description: The American emergency dispatch system, established in the 1960s,
-  originally relied on landlines. Decades later, emergency call centers still do
-  not support text messaging, which poses a challenge for people with speech
+description: >-
+  The American emergency dispatch system, established in the 1960s, originally
+  relied on landlines. Decades later, emergency call centers still do not
+  support text messaging, which poses a challenge for people with speech
   disabilities to ask for help in the most stressful moments of their lives. To
   address this issue, we have partnered with a US-based NGO to develop an
   application that enables people to receive help without making a phone call.
+
+
+  The case study discusses a real project; however, due to a confidentiality agreement, we cannot reveal the name of our partner.
 hero_image: /images/case_study_emergency_response_app.png
 Hero Image_alt: emergency services app
 social_media_previev: /images/fb_preview_case_study_emergency_some.png
@@ -42,8 +46,6 @@ published: false
 work_in_progress: false
 language: en
 ---
-*The case study discusses a real project; however, due to a confidentiality agreement, we cannot reveal the name of our partner.*
-
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
 <Gallery images='[{"src":"/images/pwa_stack_logo.svg","alt":"PWA"},{"src":"/images/aws_stack_logo.svg","alt":"AWS Lambda"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/react_stack_logo.svg","alt":"React"}]' />
@@ -58,8 +60,6 @@ Have you ever made a phone call to 911? That is one of the most stressful situat
 Approximately **[11 million Americans](https://nationaldeafcenter.org/faq/how-many-deaf-people-live-in-the-united-states/) are deaf or have hearing difficulties, yet 911 call centers only accept phone call**s. People with speaking disabilities are not the only group excluded from the emergency response system. Consider i**ndividuals who need to call the police while hiding from the intruder**. The inability to silently send a text to 911 could potentially endanger their lives.
 
 <div className="image">![emergency dispatch system](/images/emergency_dispatch_solution_app.png "emergency dispatch system")</div>
-
-
 
 <TitleWithIcon sectionTitle="the solution: non-verbal communication with dispatch centers" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution:" />
 
