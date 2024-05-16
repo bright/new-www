@@ -58,3 +58,13 @@ Have you ever made a phone call to 911? That is one of the most stressful situat
 Approximately [11 million Americans](https://nationaldeafcenter.org/faq/how-many-deaf-people-live-in-the-united-states/) are deaf or have hearing difficulties, yet 911 call centers only accept phone calls. People with speaking disabilities are not the only group excluded from the emergency response system. Consider individuals who need to call the police while hiding from the intruder. The inability to silently send a text to 911 could potentially endanger their lives.
 
 <div className="image">![emergency dispatch system](/images/emergency_dispatch_solution_app.png "emergency dispatch system")</div>
+
+
+
+<TitleWithIcon sectionTitle="the solution: non-verbal communication with dispatch centers" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution:" />
+
+We partnered with a US-based non-profit organization and together introduced a solution that aims to fight health inequity and make emergency assistance more accessible. A web application reaches 911 through a provider that handles the emergency request no matter if the dispatch center supports API communication or not (then it makes a voice call on the user's behalf). This application features a user-friendly interface, allowing individuals in emergencies to quickly report the issue.
+
+It's worth noting that the solution is a progressive web app (PWA), which means it is a web application that can be easily accessed on smartphones without installation from any application stores. This was a key requirement from our client, who wanted to ensure the application would be quickly accessible in emergencies.
+
+<TitleWithIcon sectionTitle="challenges: simple and effective UI in stressful situations and immense responsibility" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
