@@ -31,7 +31,15 @@ The Gdansk Airport is located about 20 minutes from the center of the city by ca
 
 <div className="image">![Gdansk airport flight connections](../../static/images/blog_post_airport_gdansk.png "Gdansk airport flight connections")</div>
 
-<center>Source: [Gdansk Airport website](https://www.airport.gdansk.pl/flight-information/where-we-fly-p3.html) </center>
+<center>Source: \[Gdansk Airport website](https://www.airport.gdansk.pl/flight-information/where-we-fly-p3.html) </center>
+
+Additionally, you can reach the city comfortably by train from Berlin. 
+
+## The opportunity to see face-to-face
+
+Working day by day in a distributed team has proven effective, yet from time to time, you might need to meet the people you work with daily in an offline setting. That’s why Gdańsk is a great place to have a software development team located, as you can reach the city in only a few hours from across Europe. Or the team can come to you. This is especially useful for [product workshops](/our-areas/product-workshops/) that kick off most software development projects. These are the workshops that can benefit from face-to-face interactions. Software agency members can visit you to conduct these workshops.
+
+For example, we visited our client, a renowned humanitarian agency in Rome, to conduct product workshops for the team.
 
 ## Collaboration-friendly time zone
 
@@ -59,7 +67,7 @@ Lots of Bright Inventions team members graduated from Gdansk University of Techn
 
 <div className="image">![Gdansk University of Technology](../../static/images/blog_post_gdansk_tech_university.png "Gdansk University of Technology")</div>
 
-<center> Source: Gdansk University of Technology's [website](https://pg.edu.pl/dzial-promocji/marka-pg/galeria-zdjec) </center>
+<center> Source: Gdansk University of Technology's \[website](https://pg.edu.pl/dzial-promocji/marka-pg/galeria-zdjec) </center>
 
 It’s worth mentioning that graduates of the Gdansk University of Technology created [text-to-speech Ivona](https://pg.edu.pl/aktualnosci/2021-04/chcemy-dac-polakom-milion-dodatkowych-lat-zycia-w-zdrowiu-rozmowa-z-lukaszem). Their solution eventually helped to build the famous Alexa.
 
