@@ -50,3 +50,11 @@ language: en
 
 \
 technologies: PWA, AWS Lambda, Node.js, React.
+
+<TitleWithIcon sectionTitle="problem: non-inclusive emergency dispatch system" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+
+Have you ever made a phone call to 911? That is one of the most stressful situations in life. Put yourself in the shoes of deaf or hard-of-hearing people. Imagine their stress when they are in an emergency and cannot communicate it. 
+
+Approximately [11 million Americans](https://nationaldeafcenter.org/faq/how-many-deaf-people-live-in-the-united-states/) are deaf or have hearing difficulties, yet 911 call centers only accept phone calls. People with speaking disabilities are not the only group excluded from the emergency response system. Consider individuals who need to call the police while hiding from the intruder. The inability to silently send a text to 911 could potentially endanger their lives.
+
+<div className="image">![emergency dispatch system](/images/emergency_dispatch_solution_app.png "emergency dispatch system")</div>
