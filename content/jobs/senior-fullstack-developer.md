@@ -35,9 +35,9 @@ title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
 workplace_recruiter: Junior Recruiting Specialist
 image_recruiter_info: /images/agata_recruiter.png
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
-published: false
+published: true
 show_recruiter_info: true
-hidden: true
+hidden: false
 name_recruiter: Agata
 image_alt_recruiter_info: Agata Mietlińska - A Recruiter at Bright Inventions
 button: join our bright team
