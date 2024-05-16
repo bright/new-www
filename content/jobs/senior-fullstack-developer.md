@@ -8,7 +8,6 @@ hours: full-time
 salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
 salary_min: 16000
 salary_max: 24000
-working time: 26 paid days off + Polish bank holidays
 technology:
   - TypeScript
   - JavaScript
