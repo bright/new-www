@@ -81,6 +81,8 @@ The official [news portal of Gdansk](https://www.gdansk.pl/wiadomosci/Armia-18-t
 
 [infoShare](https://infoshare.pl/conference/) brings over 6 thousand attendees, 150 speakers, and over 500 startups. The first edition of the event was organized in 2007. infoShare brings to Gdansk speakers representing companies like IBM, Linux, Oracle, Intel and more.
 
+Heading to Infoshare this year? [Let’s meet for a coffee there](/blog/lets-meet-at-infoshare/)!
+
 <div className="image">![infoShare 2023](../../static/images/blog_post_infoshare.png "Pictures from infoShare 2023")</div>
 
 <center> Pictures from infoShare 2023 </center>
