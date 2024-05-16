@@ -4,8 +4,8 @@ tags:
   - business
   - inspiration
 date: 2023-08-03T11:09:07.179Z
-meaningfullyUpdatedAt: 2023-08-03T11:09:08.052Z
-title: Why You Should Consider Hiring a Software Agency Based in Gdansk (Poland)
+meaningfullyUpdatedAt: 2024-05-16T09:46:17.537Z
+title: Why You Should Hire a Software Agency Based in Gdansk (Poland)
 layout: post
 image: /images/blog_gdansk.png
 hidden: false
@@ -31,7 +31,15 @@ The Gdansk Airport is located about 20 minutes from the center of the city by ca
 
 <div className="image">![Gdansk airport flight connections](../../static/images/blog_post_airport_gdansk.png "Gdansk airport flight connections")</div>
 
-<center>Source: [Gdansk Airport website](https://www.airport.gdansk.pl/flight-information/where-we-fly-p3.html) </center>
+<center>Source: \[Gdansk Airport website](https://www.airport.gdansk.pl/flight-information/where-we-fly-p3.html) </center>
+
+Additionally, you can reach the city comfortably by train from Berlin. 
+
+## The opportunity to see face-to-face
+
+Working day by day in a distributed team has proven effective, yet from time to time, you might need to meet the people you work with daily in an offline setting. That’s why Gdańsk is a great place to have a software development team located, as you can reach the city in only a few hours from across Europe. Or the team can come to you. This is especially useful for [product workshops](/our-areas/product-workshops/) that kick off most software development projects. These are the workshops that can benefit from face-to-face interactions. Software agency members can visit you to conduct these workshops.
+
+For example, we visited our client, a renowned humanitarian agency in Rome, to conduct product workshops for the team.
 
 ## Collaboration-friendly time zone
 
@@ -59,7 +67,7 @@ Lots of Bright Inventions team members graduated from Gdansk University of Techn
 
 <div className="image">![Gdansk University of Technology](../../static/images/blog_post_gdansk_tech_university.png "Gdansk University of Technology")</div>
 
-<center> Source: Gdansk University of Technology's [website](https://pg.edu.pl/dzial-promocji/marka-pg/galeria-zdjec) </center>
+<center> Source: Gdansk University of Technology's \[website](https://pg.edu.pl/dzial-promocji/marka-pg/galeria-zdjec) </center>
 
 It’s worth mentioning that graduates of the Gdansk University of Technology created [text-to-speech Ivona](https://pg.edu.pl/aktualnosci/2021-04/chcemy-dac-polakom-milion-dodatkowych-lat-zycia-w-zdrowiu-rozmowa-z-lukaszem). Their solution eventually helped to build the famous Alexa.
 
@@ -72,6 +80,8 @@ The official [news portal of Gdansk](https://www.gdansk.pl/wiadomosci/Armia-18-t
 ## Gdansk hosts infoShare – the biggest tech and startup event in CEE
 
 [infoShare](https://infoshare.pl/conference/) brings over 6 thousand attendees, 150 speakers, and over 500 startups. The first edition of the event was organized in 2007. infoShare brings to Gdansk speakers representing companies like IBM, Linux, Oracle, Intel and more.
+
+Heading to Infoshare this year? [Let’s meet for a coffee there](/blog/lets-meet-at-infoshare/)!
 
 <div className="image">![infoShare 2023](../../static/images/blog_post_infoshare.png "Pictures from infoShare 2023")</div>
 
@@ -86,6 +96,12 @@ Gdansk citizens are one of the happiest in Poland according to studies conducted
 <center> The level of happiness by Otodom and ThinkCo </center>
 
 One of the reasons might be the fact that **Gdansk offers opportunities to grow professionally as well as to pursue other passions**. Gdansk, situated next to Baltic See, gives a chance for water activities like kite surfing, sup, sailing, and more. With hundreds of kilometers of bike routes and lots of green spaces, the city lets you truly rest after work. As a result, it helps to establish a work-life balance among employees [crucial for maintaining happiness](https://www.researchgate.net/publication/299741273_The_Relationship_Between_Work-Life_Balance_and_Happiness_From_the_Perspectives_of_Generation_X_and_Y).
+
+## Combine your business trip with pleasure
+
+Gdansk is a great city to experience beach sunsets, sailing, historical sightseeing, and much more. Check out the [places to visit in the city recommended by our team](/blog/things-to-see-in-gdansk/)!
+
+<div className="image">![Gdansk - things to see](/images/gdansk_sailing.png "Gdansk - things to see")</div>
 
 ## See you in Gdansk? 😉
 
