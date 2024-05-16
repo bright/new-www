@@ -53,9 +53,9 @@ technologies: PWA, AWS Lambda, Node.js, React.
 
 <TitleWithIcon sectionTitle="problem: non-inclusive emergency dispatch system" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
-Have you ever made a phone call to 911? That is one of the most stressful situations in life. Put yourself in the shoes of deaf or hard-of-hearing people. Imagine their stress when they are in an emergency and cannot communicate it. 
+Have you ever made a phone call to 911? That is one of the most stressful situations in life. **Put yourself in the shoes of deaf or hard-of-hearing people**. Imagine **their stress when they are in an emergency and cannot communicate it**. 
 
-Approximately [11 million Americans](https://nationaldeafcenter.org/faq/how-many-deaf-people-live-in-the-united-states/) are deaf or have hearing difficulties, yet 911 call centers only accept phone calls. People with speaking disabilities are not the only group excluded from the emergency response system. Consider individuals who need to call the police while hiding from the intruder. The inability to silently send a text to 911 could potentially endanger their lives.
+Approximately **[11 million Americans](https://nationaldeafcenter.org/faq/how-many-deaf-people-live-in-the-united-states/) are deaf or have hearing difficulties, yet 911 call centers only accept phone call**s. People with speaking disabilities are not the only group excluded from the emergency response system. Consider i**ndividuals who need to call the police while hiding from the intruder**. The inability to silently send a text to 911 could potentially endanger their lives.
 
 <div className="image">![emergency dispatch system](/images/emergency_dispatch_solution_app.png "emergency dispatch system")</div>
 
@@ -63,22 +63,24 @@ Approximately [11 million Americans](https://nationaldeafcenter.org/faq/how-many
 
 <TitleWithIcon sectionTitle="the solution: non-verbal communication with dispatch centers" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution:" />
 
-We partnered with a US-based non-profit organization and together introduced a solution that aims to fight health inequity and make emergency assistance more accessible. A web application reaches 911 through a provider that handles the emergency request no matter if the dispatch center supports API communication or not (then it makes a voice call on the user's behalf). This application features a user-friendly interface, allowing individuals in emergencies to quickly report the issue.
+**We partnered with a US-based non-profit organization and together introduced a solution that aims to fight health inequity** and make emergency assistance more accessible. **A web application reaches 911 through a provider that handles the emergency request** no matter if the dispatch center supports API communication or not (then it makes a voice call on the user's behalf). This application f**eatures a user-friendly interface**, allowing individuals in emergencies to quickly report the issue.
 
-It's worth noting that the solution is a progressive web app (PWA), which means it is a web application that can be easily accessed on smartphones without installation from any application stores. This was a key requirement from our client, who wanted to ensure the application would be quickly accessible in emergencies.
+It's worth noting that **the solution is a progressive web app (PWA), which means it is a web application that can be easily accessed on smartphones without installation** from any application stores. This was a key requirement from our client, who wanted to ensure the application would be quickly accessible in emergencies.
 
 <TitleWithIcon sectionTitle="challenges: simple and effective UI in stressful situations and immense responsibility" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
 
-The key challenge was designing a smooth user interface supporting people in reporting emergencies. Given that users would be accessing the app during extremely stressful moments, this consideration was crucial. 
+The key challenge was **designing a smooth user interface supporting people in reporting emergencies**. Given that users would be accessing the app during extremely stressful moments, this consideration was crucial. 
 
 Although our team wasn’t in charge of product design, we offered our insights based on more than a decade of experience in software development. We are always deeply invested in product design because it is one of the critical success factors for most solutions. In the case of this application, it was undoubtedly the paramount factor.
 
-In collaboration with our client and based on research provided by scientists from American universities, we finetuned a design that minimized the process, eliminated potential errors, and guided users effectively to avoid additional stress.
+In collaboration with our client and based on research provided by scientists from American universities, **we finetuned a design that minimized the process, eliminated potential errors, and guided users effectively to avoid additional stress**.
 
-Another challenge originated from the core of the solution, which aims to help people and even save lives. This underscored the immense gravity of our responsibility as software providers. Any issue in production could directly endanger someone's life. Therefore, one of the key strategies we implemented was performance monitoring and alerting systems. These allowed us to detect and respond to any disruptions before they could affect users. The monitoring system enabled us to continuously track the application's performance, while the alerting system notified us of potential problems, allowing us to take swift action.
+Another challenge originated from the core of the solution, which aims to help people and even save lives. This underscored the immense gravity of our responsibility as software providers. **Any issue in production could directly endanger someone's life**. 
+
+Therefore, one of the key strategies we implemented was **performance monitoring and alerting systems**. These allowed us to **detect and respond to any disruptions before they could affect users**. The monitoring system enabled us to continuously track the application's performance, while the alerting system notified us of potential problems, allowing us to take swift action.
 
 <div className="image">![emergency](/images/emergency_dispatch_app_photo.png "emergency")</div>
 
 <TitleWithIcon sectionTitle="the results: app release and reaching the national audience" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
 
-The pilot version was successfully released in one of the American state capital cities. The app was widely featured in the top media including NBC, Forbes, and ABC reaching a national audience. Now the project is in a crucial phase of partnering with national dispatch systems. This application is a great example of how technology can break barriers for those in need and we are thrilled to be involved in it.
+**The pilot version was successfully released** in one of the American state capital cities. The app was widely **featured in the top media including NBC, Forbes, and ABC** reaching a national audience. Now the project is in a crucial phase of partnering with national dispatch systems. This application is a great example of how technology can break barriers for those in need and we are thrilled to be involved in it.
