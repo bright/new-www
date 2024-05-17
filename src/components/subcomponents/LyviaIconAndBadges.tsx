@@ -57,7 +57,7 @@ const LyviaIconAndBadges = () => {
             rel='noopener noreferrer nofollow'
           >
             <Image100>
-              <AWSIcon src={'/images/aws-partner-black.png'} />
+              <AWSIcon src={'/images/aws-partner-black.png'} alt="Bright Inventions AWS Partner Network" />
             </Image100>
           </IconLink>
           <IconLink
