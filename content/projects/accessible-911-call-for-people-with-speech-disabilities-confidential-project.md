@@ -5,14 +5,15 @@ our_service:
   - healthcare software development
 layout: project
 project_id: emergency-contact-app
-title: Accessible 911 Call for People with Speech Disabilities [Confidential Project]
+title: Emergency Services Accessible for People with Speech Disabilities
+  [Confidential Project]
 image: /images/case_study_emergency_911_app.png
 description: The American emergency dispatch system, established in the 1960s,
-  originally relied on landlines. Decades later, emergency call centers still do
-  not support text messaging, which poses a challenge for people with speech
-  disabilities to ask for help in the most stressful moments of their lives. To
-  address this issue, we have partnered with a US-based NGO to develop an
-  application that enables people to receive help without making a phone call.
+  originally relied on landlines and still doesn't support text messaging. This
+  is a challenge for people with speech disabilities seeking help in
+  emergencies. To address this, we partnered with a US-based NGO to develop an
+  app enabling help without a phone call. Please note that while the project is
+  real, we can't disclose our partner's name due to confidentiality.
 hero_image: /images/case_study_emergency_response_app.png
 Hero Image_alt: emergency services app
 social_media_previev: /images/fb_preview_case_study_emergency_some.png
@@ -42,10 +43,6 @@ published: false
 work_in_progress: false
 language: en
 ---
-<TitleWithIcon sectionTitle="" titleIcon="" titleIconAlt="" />
-
-*The case study discusses a real project; however, due to a confidentiality agreement, we cannot reveal the name of our partner.*
-
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
 <Gallery images='[{"src":"/images/pwa_stack_logo.svg","alt":"PWA"},{"src":"/images/aws_stack_logo.svg","alt":"AWS Lambda"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/react_stack_logo.svg","alt":"React"}]' />
