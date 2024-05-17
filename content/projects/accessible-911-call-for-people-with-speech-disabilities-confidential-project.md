@@ -16,7 +16,7 @@ description: The American emergency dispatch system, established in the 1960s,
   real, we can't disclose our partner's name due to confidentiality.
 hero_image: /images/case_study_emergency_response_app.png
 Hero Image_alt: emergency services app
-social_media_previev: /images/fb_preview_case_study_emergency_some.png
+social_media_previev: /images/some_preview_case_study_emergency_app.png
 social_media_previev_alt: emergency services app
 bar_achievements:
   - number: 11M
