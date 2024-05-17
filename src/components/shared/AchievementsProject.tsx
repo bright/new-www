@@ -8,7 +8,7 @@ import { FlexWrapper } from '.'
 const AchievementsSectionBlack = styled(SectionBlack)`
   padding: ${variables.pxToRem(110)} ${variables.pxToRem(240)};
   @media ${variables.device.laptop} {
-    padding: 6rem 11.125rem;
+    padding: 6rem 9rem;
   }
   @media ${variables.device.tabletXL} {
     padding: 6rem 9rem;
@@ -23,6 +23,8 @@ const AchievementsSectionBlack = styled(SectionBlack)`
 const AchievementsWrapper = styled.div`
   max-width: 1440px;
   display: flex;
+  gap: 24px;
+  align-items: start;
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
@@ -31,6 +33,7 @@ const AchievementsWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
   }
   @media ${variables.device.desktop} {
     max-width: 1440px;
@@ -71,6 +74,7 @@ const Number = styled.div`
     line-height: ${variables.pxToRem(88)};
     font-size: ${variables.pxToRem(72)};
     font-weight: 800;
+    white-space: nowrap;
     @media ${variables.device.tabletXL} {
       font-size: ${variables.pxToRem(54)};
       line-height: ${variables.pxToRem(66)};
@@ -84,6 +88,7 @@ const Number = styled.div`
 const Label = styled.div`
     line-height: ${variables.pxToRem(27)};
     font-size: ${variables.pxToRem(22)};
+    text-align: center;
     opacity: .76;
     @media ${variables.device.tabletXL} {
       font-size: ${variables.pxToRem(16)};
