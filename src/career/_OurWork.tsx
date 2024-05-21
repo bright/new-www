@@ -27,7 +27,7 @@ const OurWork: React.FC = () => {
       bio: 'Backend Developer',
       slug: 'tomasz-sch',
       quote:
-        'At Bright Inventions, you are quickly recognized and valued for a job well done. I also appreciate the trust and flexibility we're given.',
+        `At Bright Inventions, you are quickly recognized and valued for a job well done. I also appreciate the trust and flexibility we're given.`,
     },
     {
       avatar_hover: (
