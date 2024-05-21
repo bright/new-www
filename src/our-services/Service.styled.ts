@@ -1,41 +1,39 @@
 import styled from 'styled-components'
-import { CustomPageTitle, CustomSection, CustomTextRegular, FlexWrapper } from '../components/shared'
+import { CustomPageTitle, CustomSection, CustomTextRegular, FlexWrapper, HideTablet } from '../components/shared'
 import variables, { font } from '../styles/variables'
 import image from '../../static/images/bullet_point.svg'
 import questionArrow from '../../static/images/arrowFaqs.svg'
-import { HideTablet } from '../components/shared/index.styled'
 import { clampBuilder } from '../helpers/clampBuilder'
 
 export const CustomSectionOurService = styled(CustomSection)`
   flex-basis: 47.5%;
   height: 100%;
-  padding-top: ${clampBuilder(1542, 1920, 100, 177)};
+  padding-top: ${variables.pxToRem(16)};
 
   @media ${variables.device.laptop} {
-    padding-top: ${variables.pxToRem(103.5)};
     flex-basis: 44.5%;
   }
 
   @media ${variables.device.tabletXL} {
-    padding-top: ${variables.pxToRem(60)};
+    padding-top: ${variables.pxToRem(32)};
     flex-basis: 47.61%;
   }
 
   @media ${variables.device.laptop} {
-    padding-top: ${variables.pxToRem(120)};
+    padding-top: ${variables.pxToRem(32)};
   }
 
   @media ${variables.device.laptop} {
-    padding-top: ${variables.pxToRem(120)};
+    padding-top: ${variables.pxToRem(32)};
   }
 
   @media ${variables.device.laptop} {
-    padding-top: ${variables.pxToRem(120)};
+    padding-top: ${variables.pxToRem(32)};
   }
 
   @media ${variables.device.tablet} {
     flex-basis: 100%;
-    padding-top: ${variables.pxToRem(64)};
+    padding-top: ${variables.pxToRem(32)};
   }
   @media ${variables.device.mobile} {
     flex-basis: 100%;
@@ -99,13 +97,10 @@ export const Content = styled.div<{ textAlign?: string }>`
     font-size: ${variables.pxToRem(40)};
     color: #000000;
     font-weight: 900;
-    margin: ${variables.pxToRem(64)} 0 ${variables.pxToRem(36)};
+    margin: 4rem 0 2.25rem;
     line-height: ${variables.pxToRem(40)};
-
-    &:first-of-type {
-      margin: 0 0 ${variables.pxToRem(36)};
-    }
-
+    text-align: center;
+      
     @media ${variables.device.tablet} {
       font-size: ${variables.pxToRem(34)};
       line-height: ${variables.pxToRem(27)};
@@ -318,8 +313,7 @@ export const OurServicePageTitle = styled(CustomPageTitle)<{ language: boolean }
   text-align: left;
   letter-spacing: -0.04em;
   & .highlighted-word {
-    font-style: normal;
-    font-weight: 300;
+    color: ${variables.color.primary};
   }
   & span {
     color: ${variables.color.text2};
@@ -382,8 +376,6 @@ export const CloutchWrapper = styled.div`
   padding-top: ${variables.pxToRem(16)};
 `
 export const OurServiceFlexWraper = styled(FlexWrapper)`
-  height: 100vh;
-
   @media ${variables.device.tabletXL} {
     height: 100%;
   }
