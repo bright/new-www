@@ -43,11 +43,11 @@ export const sliderConfig = {
     const slidesData = execAll(slidesRegex, slidesString)
 
     return {
-      slides: slidesData.map({
-        title: match[1],
-        description: match[2],
-        image: match[4],
-      })
+      slides: slidesData.map((slide) => ({
+        title: slide[1],
+        description: slide[2],
+        image: slide[4],
+      }))
     }
   },
   toBlock(data: SliderData) {
