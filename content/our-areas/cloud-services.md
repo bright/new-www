@@ -76,4 +76,12 @@ image_our_service: /images/cloudservices1.png
 ---
 ## AWS cloud services
 
-As a cloud development company we closely cooperate with Amazon Web Services using the top tools Amazon has to offer. We specialise in AWS Lambda which enables serverless developments where instead of traditional serval administration you pay only for functions you use.
+As a cloud development company we closely cooperate with 
+
+
+<PhotoSlider slides={[{title: 'tytuł1', description: 'opis1', image: '../../static/abcaaf9eadd9266d2c454b0f13680738/779f8/beach.webp'},{title: 'tytuł2', description: 'opis2', image: '../../static/abcaaf9eadd9266d2c454b0f13680738/779f8/beach.webp'}]}>
+![asd](../../static/abcaaf9eadd9266d2c454b0f13680738/779f8/beach.webp)
+</PhotoSlider>
+
+
+Amazon Web Services using the top tools Amazon has to offer. We specialise in AWS Lambda which enables serverless developments where instead of traditional serval administration you pay only for functions you use.

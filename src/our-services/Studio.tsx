@@ -13,7 +13,7 @@ import {
   BulletList,
   BulletsList,
   CloutchWrapper,
-  MoreButtonOurServiceWrapper
+  MoreButtonOurServiceWrapper, Content
 } from './Service.styled'
 import { FaqStructuredData } from '../FaqStructuredData'
 import { ProjectModel } from '../models/gql'
@@ -35,12 +35,13 @@ import { CarouselQuotesSwiper } from '../components/shared/CarouselQuotesSwiper'
 import StartProjectContact from '../components/start-project/StartProjectContact'
 import styled from 'styled-components'
 import variables, { deviceSize } from '../styles/variables'
+import ReactMarkdown from 'react-markdown'
 
 const PopularBlogPosts = React.lazy(() => import('../components/shared/PopularBlogPosts'))
 const TechnologyTags = React.lazy(() => import('../components/shared/TechnologyTags'))
 const TeamMembers = React.lazy(() => import('../components/subcomponents/TeamMembers'))
 
-export default function Template({ data, pageContext }: PropsWithChildren<{
+export default function Template({ data, pageContext, children }: PropsWithChildren<{
   data: { service: any, related: any }
   pageContext: { faqTitle: string; faqSlug: string; language: string }
 }>) {
@@ -187,6 +188,10 @@ export default function Template({ data, pageContext }: PropsWithChildren<{
       >
         <OurServiceSection>
           <CustomSectionInner>
+            <Content className='content'>{children}</Content>
+
+
+
             <StudioContent className='content'>
               <p>Welcome to Gdańsk, the city that embraces its 1000-year history while emerging as one of the most
                 vibrant technological hubs in Poland.</p>

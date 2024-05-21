@@ -28,6 +28,7 @@ import { SliderCmsEditorComponent } from '../slider.cms'
 import { AppStoreCmsEditorComponent } from '../app-store.cms'
 import { AnchorLinkCmsEditorComponent } from '../button.cms'
 import { EditorComponentOptions } from 'netlify-cms-core'
+import { sliderConfig } from './sliderConfig'
 
 applyFixForJumpingCursorIssue()
 applyFixForSortingCaret()
@@ -50,3 +51,4 @@ CMS.registerEditorComponent(GalleryCmsEditorComponent)
 CMS.registerEditorComponent(SliderCmsEditorComponent)
 CMS.registerEditorComponent(AppStoreCmsEditorComponent)
 CMS.registerEditorComponent(AnchorLinkCmsEditorComponent)
+CMS.registerEditorComponent(sliderConfig)
