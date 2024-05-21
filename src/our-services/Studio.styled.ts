@@ -201,9 +201,11 @@ export const CustomSectionOurServiceImage = styled(CustomSection)`
   height: 100%;
 `
 
-export const RoundedImage = styled.div`
+export const RoundedImage = styled.div<{
+  off?: boolean
+}>`
     & img {
-        border-radius: 16px;
+        border-radius: ${({off}) => off ? 'none' : '16px'};
     }
 `
 

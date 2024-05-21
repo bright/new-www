@@ -1,39 +1,31 @@
-import React, { useState, useEffect, useRef, PropsWithChildren } from 'react'
+import React, { useRef, PropsWithChildren } from 'react'
 import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-
 import { Contact } from '../components/shared/Contact'
-// import TechnologyTags from '../components/shared/TechnologyTags'
 import { Page } from '../layout/Page'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
 import RatingClutch from '../assets/rating.svg'
 import { useWindowSize } from '../components/utils/use-windowsize'
 import { CustomSectionInner, CustomSection, TextRegular, CustomSectionTitle } from '../components/shared/index.styled'
-// import TeamMembers  from '../components/subcomponents/TeamMembers'
 import { Projects } from '../components/home/Projects'
 import { routeLinks } from '../config/routing'
 import {
   CustomSectionOurService,
   ImageWrapper,
   Content,
-  FaqWrapper,
-  Question,
-  FaqsTextRegural,
   OurServicePageTitle,
   OurServiceSection,
   BulletList,
   BulletsList,
   CloutchWrapper,
-  OurServiceFlexWraper,
   MoreButtonOurServiceWrapper,
   CustomSectionOurServiceImage,
-  MobileOurServiceFlexWrapper,
+  MobileOurServiceFlexWrapper, OurServiceFlexWraper
 } from './Service.styled'
 import { FaqStructuredData } from '../FaqStructuredData'
 import { ProjectModel } from '../models/gql'
 import { FlexWrapper } from '../components/shared'
 import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
-
 import { MoreButton } from '../components/shared'
 import FaqsDropdown from '../components/shared/FaqsDropdown'
 import { toBlogPost } from '../use-blog-posts/blog-post-frontmatter-query-result'
@@ -42,7 +34,6 @@ import { useClient } from '../hooks/useClient'
 const PopularBlogPosts = React.lazy(() => import('../components/shared/PopularBlogPosts'))
 const TechnologyTags = React.lazy(() => import('../components/shared/TechnologyTags'))
 const TeamMembers = React.lazy(() => import('../components/subcomponents/TeamMembers'))
-// const TeamMemebersSwiper = React.lazy(() => import('../components/subcomponents/TeamMembersSwiper'))
 
 export default function Template({
   data,
@@ -62,26 +53,6 @@ export default function Template({
   const myRef = useRef<HTMLDivElement>(null)
   const { faqSlug, language } = pageContext
   const de = language === 'de'
-
-  // useEffect(() => {
-  //   if (faqSlug) {
-  //     const index = faqs.map(({ frontmatter: faq }: { frontmatter: { slug: string }}) => faq.slug).indexOf(faqSlug)
-
-  //     if (index >= 0 && myRef.current) {
-  //       handleShow(index)
-  //       const yOffset = 400
-  //       const y = myRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset
-
-  //       setTimeout(() => {
-  //         window.scrollTo({
-  //           top: y,
-  //         })
-  //       }, 100)
-  //     }
-  //   }
-  // }, [])
-
-  const [show, setShow] = useState<any>({})
   const isClient = useClient();
 
   const {
@@ -125,10 +96,10 @@ export default function Template({
 
       <OurServiceFlexWraper desktopItems='center' tabletDirection='column'>
         <CustomSectionOurService
-          paddingProps='1rem 0 0 15rem '
-          paddingLaptop='6.4375rem 0 0 6rem'
-          paddingTabletXL='7.5rem 0 0 8.5625rem '
-          paddingTablet='1.5625rem  2.25rem 0'
+          paddingProps='3.4375rem 0 0 15rem '
+          paddingLaptop='3.4375rem 0 0 6rem'
+          paddingTabletXL='3.4375rem 0 0 8.5625rem '
+          paddingTablet='1.5625rem 2.25rem 0'
           paddingMobileProps='3rem 1.125rem 0'
         >
           <MobileOurServiceFlexWrapper desktopDirection='column' mobileContent='space-between'>
@@ -169,9 +140,9 @@ export default function Template({
           </MobileOurServiceFlexWrapper>
         </CustomSectionOurService>
         <CustomSectionOurServiceImage
-          paddingProps='3.5rem 15rem 0 0 '
-          paddingLaptop='0 6rem 0 0'
-          paddingTabletXL='7.5rem 8.5625rem 0 0 '
+          paddingProps='3.5rem 15rem 0 0'
+          paddingLaptop='3.5rem 6rem 0 0'
+          paddingTabletXL='3.5rem 8.5625rem 0 0 '
           paddingTablet='2rem 0 0 0'
           paddingMobileProps='2rem 0 0 0'
         >
@@ -192,21 +163,12 @@ export default function Template({
         </CustomSectionOurServiceImage>
       </OurServiceFlexWraper>
 
-      {/* <Section>
-        <CustomSection paddingProps='2rem 15rem 0rem 15rem'>
-          <CustomSectionInner>
-            <TextRegular className='content'>
-              {description && <Content dangerouslySetInnerHTML={{ __html: description.html }} />}
-            </TextRegular>
-          </CustomSectionInner>
-        </CustomSection>
-      </Section> */}
       <CustomSection
-        paddingProps='6.5625rem 15rem 6.5rem 15rem'
-        paddingTabletXL='6rem 0  6rem'
-        paddingMobileProps='0 1.125rem 4rem'
-        paddingTablet='5rem 2.25rem 0 '
-        paddingLaptop='6.5625rem 6rem 6.5rem'
+        paddingProps='0 15rem 6.5rem 15rem'
+        paddingTabletXL='0 0 6rem'
+        paddingMobileProps='0 1.125rem 2rem'
+        paddingTablet='0 2.25rem 0 '
+        paddingLaptop='0 6rem 6.5rem'
       >
         <OurServiceSection>
           <CustomSectionInner>
@@ -249,7 +211,8 @@ export default function Template({
         <PopularBlogPosts posts={posts} title={blog_section_title} />
       </>}
 
-      <CustomSection paddingProps='2rem 15rem 2rem 15rem' paddingLaptop='5rem 6rem 0rem' paddingMobileProps='0 1.125rem 0'>
+      <CustomSection paddingProps='2rem 15rem 2rem 15rem' paddingLaptop='5rem 6rem 0rem'
+                     paddingMobileProps='0 1.125rem 0'>
         <CustomSectionInner>
           <a href='#faqs' style={{display: 'block'}}>
             {show_case_study ? (
@@ -285,10 +248,10 @@ export default function Template({
           )}
         </CustomSectionInner>
       </CustomSection>
+
       <Contact
         title={title_contact}
         subtitle={description_contact}
-        isOurServiceTemplate={true}
         formButton='Business Contact Form Button'
         actionFormButton='Click Submit Business Form'
       />

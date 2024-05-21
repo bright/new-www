@@ -100,7 +100,6 @@ const Template: React.FC<PropsWithChildren<{ data: { mdx: any } }>> = ({ data, c
         <Contact
           title={title_contact}
           subtitle={description_contact}
-          isOurServiceTemplate={true}
           formButton='Business Contact Form Button'
           actionFormButton='Click Submit Business Form'
         />

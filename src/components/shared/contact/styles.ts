@@ -1,18 +1,9 @@
 import styled from 'styled-components'
-import { TextRegular, TextTitle } from '..'
+import { CustomTextRegular, TextRegular, TextTitle } from '..'
 import variables from '../../../styles/variables'
 import Arrow from '../../../../static/images/arrow-select.svg'
 import { Button as ButtonBase } from './../index'
 import { clampBuilder } from '../../../helpers/clampBuilder'
-
-export const Header = styled.div({
-  fontSize: '36px',
-  lineHeight: '42px',
-  fontWeight: 800,
-  fontFamily: variables.font.title.family,
-
-  color: variables.color.heading,
-})
 
 export const Description = styled.div({
   fontSize: '18px',
@@ -23,7 +14,6 @@ export const Description = styled.div({
 })
 
 export const Form = styled.form({
-  marginTop: '55px',
   ['& .isSelected']: {
     color: variables.color.text,
     opacity: 1,
@@ -116,51 +106,6 @@ export const TextInput = styled.input({
   },
 })
 
-export const SingleSelect = styled.select({
-  height: '48px',
-  maxWidth: '445px',
-  width: '100%',
-
-  fontSize: '16px',
-  lineHeight: '40px',
-
-  fontFamily: variables.font.text.family,
-
-  border: `1px solid ${variables.color.darkerGrey}`,
-  background: variables.color.white,
-  appearance: 'none',
-  marginBottom: '40px',
-  borderRadius: 'unset',
-  outline: 0,
-
-  paddingLeft: '20px',
-
-  ['&:focus-visible']: {
-    outline: '1px solid #000',
-    background: 'inherit',
-  },
-  [':focus:not(:focus-visible)']: {
-    outline: 'none',
-  },
-
-  ['@media screen and (max-width: 767px)']: {
-    width: '100%',
-    marginBottom: '10px',
-  },
-})
-
-export const DoubleInputsRow = styled.div({
-  display: 'flex',
-  flexDirection: 'row',
-  flexGrow: 1,
-  justifyContent: 'space-between',
-
-  flexWrap: 'wrap',
-  ['@media screen and (max-width: 1281px)']: {
-    flexDirection: 'row',
-  },
-})
-
 export const DoubleInputsRowEntry = styled.div<{ leftSide?: boolean }>(({ leftSide }) => ({
   marginRight: leftSide ? '64px' : 0,
   width: '45%',
@@ -204,24 +149,6 @@ export const IdeaTextArea = styled.textarea({
     marginBottom: '10px',
   },
 })
-
-export const SelectWrapper = styled.div`
-  position: relative;
-  max-width: 445px;
-  &::after {
-    content: '';
-    background: url(${Arrow}) 50% no-repeat;
-    background-size: contain;
-    pointer-events: none;
-    transition: transform 0.2s ease-in-out;
-    position: absolute;
-    top: calc(23px - 6px);
-    right: 16px;
-    width: 12px;
-    height: 12px;
-    z-index: 2;
-  }
-`
 
 export const PrivacyPolicyCheckboxContainer = styled(TextRegular)({
   display: 'flex',
@@ -279,17 +206,8 @@ const SubmitMessage = styled.div({
   marginTop: '30px',
 })
 
-export const RequiredMessage = styled(Label)({
-  marginTop: '16px',
-  marginBottom: '32px',
-})
-
 export const ErrorMessage = styled(SubmitMessage)({
   color: 'red',
-})
-
-export const SuccessMessage = styled(SubmitMessage)({
-  color: 'green',
 })
 
 export const Button = styled(ButtonBase)({
@@ -314,5 +232,94 @@ export const ContactTextRegular = styled(TextRegular)`
     & a {
       padding: 0 8px 8px;
     }
+  }
+`
+
+export const ContainerWrapper = styled.div`
+  @media ${variables.deviceWidthMin.mobile} {
+      padding: 0 2.2rem 2.2rem;
+  }
+`
+
+export const SuccesMessage = styled(CustomTextRegular)`
+  @media ${variables.device.mobile} {
+    font-size: 1.125rem;
+  }
+`
+
+export const Loader = styled.div`
+  margin: auto;
+  width: 3rem;
+  height: 3rem;
+  border-left-color: var(--orange-200);
+  border-width: 5px;
+`
+export const HeroTextInput = styled(TextInput)`
+  @media ${variables.device.tablet} {
+    width: 100%;
+    max-width: 100%;
+  }
+`
+
+export const FormGrid = styled.div`
+    display: grid;
+    gap: 32px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "form" "image";
+    
+    @media ${variables.deviceWidthMin.mobile} {
+        grid-template-columns: 1fr;
+        grid-template-areas: "header" "image" "form" ;
+    }
+
+    @media ${variables.deviceWidthMin.tablet} {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "header header" "image form";
+    }
+`
+
+export const FormHeader = styled.div`
+    grid-area: header;
+    padding: 0 1.25rem;
+    
+    @media ${variables.deviceWidthMin.mobile} {
+        padding: 0;
+    }
+`
+
+export const SubTitle = styled(TextRegular)`
+    text-align: center;
+`
+
+export const ImageWrapper = styled.div`
+    grid-area: image;
+`
+
+export const InputRow = styled.div`
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+
+    @media ${variables.deviceWidthMin.mobile} {
+        flex-wrap: nowrap;
+    }
+`
+
+export const FormWrapper = styled.div`
+    grid-area: form;
+    padding: 0 1.25rem;
+
+    @media ${variables.deviceWidthMin.mobile} {
+        padding: 0;
+    }
+`
+
+export const FormErrorMessage = styled(CustomTextRegular)`
+  background: #e50000;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  @media ${variables.device.mobile} {
+    font-size: 1.125rem;
+    text-align: center;
   }
 `

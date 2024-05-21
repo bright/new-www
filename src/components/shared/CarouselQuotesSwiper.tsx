@@ -10,6 +10,7 @@ import 'swiper/css'
 import 'swiper/css/pagination'
 import { CustomTextTitle, FlexWrapper } from './index.styled'
 import { clampBuilder } from '../../helpers/clampBuilder'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const SwiperlWrapper = styled.section`
   position: relative;
@@ -257,22 +258,24 @@ export const CarouselQuotesSwiper: React.FC<CarouselQuotesSwiperProps> = ({quote
                       desktopContent='space-between'
                     >
                       <QuoteCustomSectionInner>
-                        <QuoteTextTitle tabletXLMargin='0 0 51px' mobileMargin='0 0 18px' margin='0 0 56px'>
+                        <QuoteTextTitle className="header" tabletXLMargin='0 0 51px' mobileMargin='0 0 18px' margin='0 0 56px'>
                           <FlexWrapper
                             desktopGap='5px'
                             tabletContent='center'
                             mobileDirection='column'
                             tabletXLWrap='wrap'
                           >
-                            <p>{short_name}{bio ? ',' : ''}</p>
+                            <p className="title">{short_name}{bio ? ',' : ''}</p>
                             <p>{bio}</p>
                           </FlexWrapper>
                         </QuoteTextTitle>
 
-                        <QuoteWrapper>{quote}</QuoteWrapper>
+                        <QuoteWrapper className="description">{quote}</QuoteWrapper>
                       </QuoteCustomSectionInner>
 
-                      <WrapperImage>{avatar_hover}</WrapperImage>
+                      <WrapperImage>
+                        {avatar_hover}
+                      </WrapperImage>
                     </FlexWrapper>
                   </ConditionalLink>
                 </div>

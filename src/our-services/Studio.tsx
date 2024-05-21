@@ -1,5 +1,5 @@
 import React, { useRef, PropsWithChildren } from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import { Page } from '../layout/Page'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
@@ -13,13 +13,12 @@ import {
   BulletList,
   BulletsList,
   CloutchWrapper,
-  MoreButtonOurServiceWrapper
+  MoreButtonOurServiceWrapper, Content
 } from './Service.styled'
 import { FaqStructuredData } from '../FaqStructuredData'
 import { ProjectModel } from '../models/gql'
 import { FlexWrapper } from '../components/shared'
 import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
-
 import { MoreButton } from '../components/shared'
 import FaqsDropdown from '../components/shared/FaqsDropdown'
 import { toBlogPost } from '../use-blog-posts/blog-post-frontmatter-query-result'
@@ -27,20 +26,16 @@ import { useClient } from '../hooks/useClient'
 import {
   MobileOurServiceFlexWrapper,
   OurStudioPageTitle,
-  StudioContent,
-  SliderSection,
   ImageWrapper, HeroWrapper, CustomSectionOurService, CustomSectionOurServiceImage, FormHeading, RoundedImage
 } from './Studio.styled'
-import { CarouselQuotesSwiper } from '../components/shared/CarouselQuotesSwiper'
 import StartProjectContact from '../components/start-project/StartProjectContact'
-import styled from 'styled-components'
-import variables, { deviceSize } from '../styles/variables'
+import { deviceSize } from '../styles/variables'
 
 const PopularBlogPosts = React.lazy(() => import('../components/shared/PopularBlogPosts'))
 const TechnologyTags = React.lazy(() => import('../components/shared/TechnologyTags'))
 const TeamMembers = React.lazy(() => import('../components/subcomponents/TeamMembers'))
 
-export default function Template({ data, pageContext }: PropsWithChildren<{
+export default function Template({ data, pageContext, children }: PropsWithChildren<{
   data: { service: any, related: any }
   pageContext: { faqTitle: string; faqSlug: string; language: string }
 }>) {
@@ -72,44 +67,6 @@ export default function Template({ data, pageContext }: PropsWithChildren<{
     blog_section,
     blog_section_title
   } = page
-
-  const quotes = [
-    {
-      avatar_hover: (
-        <StaticImage src='../../static/images/gdansk/beach.png' alt='Górki Wschodnie beach'
-                     className='quote-img' />
-      ),
-      short_name: 'Górki Wschodnie beach',
-      quote:
-        'Surrounded by dunes and coastal vegetation, Górki Wschodnie Beach boasts natural beauty and serenity, making it an ideal destination for nature lovers and outdoor enthusiasts.'
-    },
-    {
-      avatar_hover: (
-        <StaticImage src='../../static/images/gdansk/fortifications.png' alt='the fortifications of Gdańsk'
-                     className='quote-img' />
-      ),
-      short_name: 'the fortifications of Gdańsk',
-      quote:
-        'These historic structures stand as beloved landmarks, providing a picturesque backdrop for exploring Gdansk\'s historic streets, charming squares, and architectural treasures.'
-    },
-    {
-      avatar_hover: (
-        <StaticImage src='../../static/images/gdansk/park.png' alt='Jaśkowa Valley Park' className='quote-img' />
-      ),
-      short_name: 'Jaśkowa Valley Park',
-      quote:
-        'The urban park only 20 minutes walk from our office offers a peaceful retreat from the bustling city life.'
-    },
-    {
-      avatar_hover: (
-        <StaticImage src='../../static/images/gdansk/shipyard.png' alt='post-shipyard industrial cultural center'
-                     className='quote-img' />
-      ),
-      short_name: 'post-shipyard industrial cultural center',
-      quote:
-        'Once a hub for industrial activity, the streets such as Elektryków and Narzędziowa have transformed blossoming into a vibrant cultural hotspot.'
-    }
-  ]
 
   return (
     <Page>
@@ -187,60 +144,7 @@ export default function Template({ data, pageContext }: PropsWithChildren<{
       >
         <OurServiceSection>
           <CustomSectionInner>
-            <StudioContent className='content'>
-              <p>Welcome to Gdańsk, the city that embraces its 1000-year history while emerging as one of the most
-                vibrant technological hubs in Poland.</p>
-
-              <p>We are <strong>Bright Inventions – a company proudly located in the city, just 15 minutes from the
-                airport</strong>. Are you currently exploring Gdansk? Why don't we grab a coffee together? Meet with our
-                software engineering team and learn how together we can create software that matters.</p>
-
-              <h2>Gdańsk from our team’s perspective</h2>
-            </StudioContent>
-          </CustomSectionInner>
-        </OurServiceSection>
-
-        <SliderSection
-          paddingProps='2.25rem 0 2.25rem 3rem'
-          paddingTabletXL='2.25rem 2.25rem 3rem'
-          paddingMobileProps='0 1.125rem 3rem'
-          paddingTablet='2.25rem 2.25rem 0 3rem'
-          paddingLaptop='2.25rem 0 2.25rem 3rem'
-        >
-          <CarouselQuotesSwiper quotes={quotes} />
-        </SliderSection>
-
-        <OurServiceSection>
-          <CustomSectionInner>
-            <StudioContent className='content'>
-              <h2>our expertise</h2>
-
-              <p>We offer custom software development for organizations of all shapes and sizes – from emerging
-                startups, mid-sized companies, and consultancy agencies, to renowned NGOs and international
-                organizations.</p>
-
-              <h3><Link to='/our-areas/iot-development/'>IoT development</Link></h3>
-
-              <p>We specialize in <Link to='/projects/remote-patient-monitoring/'>integrating smart bluetooth devices
-                into sophisticated
-                systems</Link>. We have cooperated with clients representing the
-                industrial, healthcare, and <Link to='/projects/system-for-restaurants/'>retail</Link> sectors.</p>
-
-              <h3><Link to='/our-areas/healthcare-software-development/'>healthcare software development</Link></h3>
-
-              <p>We assist our partners in developing products that have a meaningful impact on the lives of their end
-                users. By building an <Link to='/projects/solution-for-parkinsons-patients/'>engagement app for
-                  chronically ill
-                  patients</Link>, a <Link to='/projects/pregnancy-app/'>digital guide for future
-                  moms</Link>, or an <Link to='/projects/online-group-support/'>online therapy platform</Link>, we
-                take part in the global digital healthcare movement.</p>
-
-              <h3><Link to='/our-areas/mvp-development/'>MVP development</Link></h3>
-
-              <p>We craft MVPs to quickly validate ideas for the software solutions. We've built numerous MVPs including
-                a <Link to='/projects/card-tracking-system/'>humanitarian aid solution which turned into a global
-                  product</Link>.</p>
-            </StudioContent>
+            <Content className='content'>{children}</Content>
 
             <MoreButtonOurServiceWrapper>
               <MoreButton href={'#contactForm'} isBlack marginTop='0'>
