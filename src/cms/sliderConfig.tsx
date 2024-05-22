@@ -8,7 +8,7 @@ export type SlideData = {
   image: string
 }
 
-export const sliderConfig: any = {
+export const sliderConfig = {
   id: 'photo_slider',
   label: 'Photo slider',
   fields: [
