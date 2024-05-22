@@ -77,6 +77,8 @@ We are **Bright Inventions – a company proudly located in the city, just 15 mi
 
 Explore the city from our local point of view. View places that might not be seen in guidebooks.
 
+<PhotoSlider slides="{"slides":[{"title":"post-shipyard industrial cultural center","text":"Once a hub for industrial activity, the streets such as Elektryków and Narzędziowa have transformed blossoming into a vibrant cultural hotspot.","image":"/images/beach_square_update.png"}]}" />
+
 ### post-shipyard industrial cultural center
 
 Once a hub for industrial activity, the streets such as Elektryków and Narzędziowa have transformed blossoming into a vibrant cultural hotspot.
