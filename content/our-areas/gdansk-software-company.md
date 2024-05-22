@@ -75,7 +75,7 @@ We are **Bright Inventions – a company proudly located in the city, just 15 mi
 
 ## Gdańsk from our team’s perspective
 
-<PhotoSlider slides="[{"title":"Górki Wschodnie beach","text":"Surrounded by dunes and coastal vegetation, Górki Wschodnie Beach boasts natural beauty and serenity, making it an ideal destination for nature lovers and outdoor enthusiasts.","image":"/images/beach.png"},{"title":"the fortifications of Gdańsk","text":"These historic structures stand as beloved landmarks, providing a picturesque backdrop for exploring Gdansk's historic streets, charming squares, and architectural treasures.","image":"/images/fortifications.png"}]" />
+aaa
 
 ## our expertise
 
