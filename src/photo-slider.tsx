@@ -10,15 +10,15 @@ interface PhotoSliderProps {
 }
 
 export const PhotoSlider = ({ slides }: PhotoSliderProps) => {
-  const quotes = slides.map(slide => ({
-    avatar_hover: (
-      <StaticImage src='https://brightinventions.pl/static/abcaaf9eadd9266d2c454b0f13680738/779f8/beach.webp'
-                   alt='Górki Wschodnie beach'
-                   className='quote-img' />
-    ),
-    short_name: slide.title,
-    quote: slide.description,
-  }))
+  const quotes = slides.map(slide => {
+    return {
+      avatar_hover: (
+        <StaticImage src={slide.image} alt={slide.title} className='quote-img' />
+      ),
+      short_name: slide.title,
+      quote: slide.description,
+    }
+  })
 
   return <Wrapper>
     <CarouselQuotesSwiper quotes={quotes} />

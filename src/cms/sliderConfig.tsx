@@ -1,5 +1,6 @@
 import React from 'react'
 import { PhotoSlider } from '../photo-slider'
+import { GetAssetFunction } from './mdx-preview'
 
 export type SlideData = {
   title: string
@@ -8,9 +9,8 @@ export type SlideData = {
 }
 
 export const sliderConfig = {
-  id: 'photo_slider', // Internal id of the component
-  label: 'Photo slider', // Visible label
-  // Fields the user need to fill out when adding an instance of the component
+  id: 'photo_slider',
+  label: 'Photo slider',
   fields: [
     {
       name: 'slides',
@@ -23,7 +23,7 @@ export const sliderConfig = {
           widget: 'string',
         },
         {
-          name: 'text',
+          name: 'description',
           label: 'Text',
           widget: 'markdown',
         },
@@ -39,12 +39,21 @@ export const sliderConfig = {
   fromBlock: function (match: any[]) {
     return JSON.parse(match[1])
   },
-  toBlock(data: SlideData[]) {
-    return `<PhotoSlider slides="${JSON.stringify(data)}" />`
+  toBlock(data: { slides: SlideData[] }) {
+    return `<PhotoSlider slides={${JSON.stringify(data.slides)}} />`
   },
-  toPreview(data: SlideData[]) {
+  toPreview(data: { slides: SlideData[] }, getAsset: GetAssetFunction) {
+    const slides = data.slides.map((slide) => {
+      const image  = getAsset(slide.image);
+
+      return {
+        ...slide,
+        image: image.toString(),
+      }
+    })
+
     return (
-      <PhotoSlider slides={data} />
-    ) as unknown as string
+      <PhotoSlider slides={slides} />
+    )
   },
 }
