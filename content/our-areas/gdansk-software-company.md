@@ -93,8 +93,6 @@ Surrounded by dunes and coastal vegetation, Górki Wschodnie Beach boasts natura
 
 The urban park only 20 minutes walk from our office offers a peaceful retreat from the bustling city life.
 
-<PhotoSlider slides="{"slides":[{"title":"post-shipyard industrial cultural center","text":"Once a hub for industrial activity, the streets such as Elektryków and Narzędziowa have transformed blossoming into a vibrant cultural hotspot.","image":"/images/beach_square_update.png"}]}" />
-
 ## our expertise
 
 We offer custom software development for organizations of all shapes and sizes – from emerging startups, mid-sized companies, and consultancy agencies, to renowned NGOs and international organizations.
