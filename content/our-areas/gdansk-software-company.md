@@ -93,6 +93,8 @@ Surrounded by dunes and coastal vegetation, Górki Wschodnie Beach boasts natura
 
 The urban park only 20 minutes walk from our office offers a peaceful retreat from the bustling city life.
 
+<PhotoSlider slides={[{"title":"Górki Wschodnie beach","description":"Surrounded by dunes and coastal vegetation, Górki Wschodnie Beach boasts natural beauty and serenity, making it an ideal destination for nature lovers and outdoor enthusiasts.","image":"/images/beach.png"},{"title":"the fortifications of Gdańsk","description":"These historic structures stand as beloved landmarks, providing a picturesque backdrop for exploring Gdansk's historic streets, charming squares, and architectural treasures.","image":"/images/fortifications.png"}]} />
+
 ## our expertise
 
 We offer custom software development for organizations of all shapes and sizes – from emerging startups, mid-sized companies, and consultancy agencies, to renowned NGOs and international organizations.
