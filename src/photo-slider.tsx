@@ -3,13 +3,10 @@ import { CarouselQuotesSwiper } from './components/shared/CarouselQuotesSwiper'
 import { StaticImage } from 'gatsby-plugin-image'
 import styled from 'styled-components'
 import variables from './styles/variables'
+import { SlideData } from './cms/sliderConfig'
 
 interface PhotoSliderProps {
-  slides: {
-    title: string
-    description: string
-    image: string
-  }[]
+  slides: Array<SlideData>
 }
 
 export const PhotoSlider = ({ slides }: PhotoSliderProps) => {

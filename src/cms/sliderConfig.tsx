@@ -1,12 +1,11 @@
 import React from 'react'
-import { execAll } from '../helpers/execAll'
 import { PhotoSlider } from '../photo-slider'
 
-type SliderData = {
+export type SlideData = {
   title: string
   description: string
   image: string
-}[]
+}
 
 export const sliderConfig = {
   id: 'photo_slider', // Internal id of the component
@@ -36,24 +35,14 @@ export const sliderConfig = {
       ],
     },
   ],
-  pattern: /^<PhotoSlider>([\S\s]*)<\/PhotoSlider>$/,
+  pattern: /^<PhotoSlider slides="(.*?)" \/>$/,
   fromBlock: function (match: any[]) {
-    const slidesRegex = /<PhotoSlide\s+title="([^"]*)"\s+description="([^"]*)">\[([^\]]*)\]\(([^\s]+)\s"([^"]+)"\)<\/PhotoSlide>/gm
-    const slidesString = match[0]
-    const slidesData = execAll(slidesRegex, slidesString)
-
-    return {
-      slides: slidesData.map((slide) => ({
-        title: slide[1],
-        description: slide[2],
-        image: slide[4],
-      }))
-    }
+    return JSON.parse(match[1])
   },
-  toBlock(data: SliderData) {
-    return `<PhotoSlider slides={${JSON.stringify(data)}} />`
+  toBlock(data: SlideData[]) {
+    return `<PhotoSlider slides="${JSON.stringify(data)}" />`
   },
-  toPreview(data: SliderData) {
+  toPreview(data: SlideData[]) {
     return (
       <PhotoSlider slides={data} />
     ) as unknown as string
