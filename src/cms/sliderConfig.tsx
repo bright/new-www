@@ -51,7 +51,7 @@ export const sliderConfig = {
     }
   },
   toBlock(data: SliderData) {
-    return `<PhotoSlider slides={JSON.stringify(data)} />`
+    return `<PhotoSlider slides={${JSON.stringify(data)}} />`
   },
   toPreview(data: SliderData) {
     return (
