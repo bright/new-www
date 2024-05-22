@@ -1,6 +1,6 @@
 import React from 'react'
 import { PhotoSlider } from '../photo-slider'
-import { GetAssetFunction } from './mdx-preview'
+import { PreviewTemplateComponentProps } from 'netlify-cms-core'
 
 export type SlideData = {
   title: string
@@ -8,7 +8,7 @@ export type SlideData = {
   image: string
 }
 
-export const sliderConfig = {
+export const sliderConfig: any = {
   id: 'photo_slider',
   label: 'Photo slider',
   fields: [
@@ -42,7 +42,7 @@ export const sliderConfig = {
   toBlock(data: { slides: SlideData[] }) {
     return `<PhotoSlider slides={${JSON.stringify(data.slides)}} />`
   },
-  toPreview(data: { slides: SlideData[] }, getAsset: GetAssetFunction) {
+  toPreview(data: { slides: SlideData[] }, getAsset: PreviewTemplateComponentProps['getAsset']) {
     const slides = data.slides.map((slide) => {
       const image  = getAsset(slide.image);
 
