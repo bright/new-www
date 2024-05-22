@@ -75,23 +75,7 @@ We are **Bright Inventions – a company proudly located in the city, just 15 mi
 
 ## Gdańsk from our team’s perspective
 
-Explore the city from our local point of view. View places that might not be seen in guidebooks.
-
-### post-shipyard industrial cultural center
-
-Once a hub for industrial activity, the streets such as Elektryków and Narzędziowa have transformed blossoming into a vibrant cultural hotspot.
-
-### the fortifications of Gdańsk
-
-These historic structures stand as beloved landmarks, providing a picturesque backdrop for exploring Gdansk's historic streets, charming squares, and architectural treasures.
-
-### Górki Wschodnie beach
-
-Surrounded by dunes and coastal vegetation, Górki Wschodnie Beach boasts natural beauty and serenity, making it an ideal destination for nature lovers and outdoor enthusiasts.
-
-### Jaskowa Valley Park
-
-The urban park only 20 minutes walk from our office offers a peaceful retreat from the bustling city life.
+<PhotoSlider slides="{"slides":[{"title":"Górki Wschodnie beach","text":"Surrounded by dunes and coastal vegetation, Górki Wschodnie Beach boasts natural beauty and serenity, making it an ideal destination for nature lovers and outdoor enthusiasts.","image":"/images/beach_square_update.png"},{"title":"the fortifications of Gdańsk","text":"These historic structures stand as beloved landmarks, providing a picturesque backdrop for exploring Gdansk's historic streets, charming squares, and architectural treasures.","image":"/images/fortifications.png"},{"title":"Jaśkowa Valley Park","text":"The urban park only 20 minutes walk from our office offers a peaceful retreat from the bustling city life.","image":"/images/park.png"},{"title":"post-shipyard industrial cultural center","text":"Once a hub for industrial activity, the streets such as Elektryków and Narzędziowa have transformed blossoming into a vibrant cultural hotspot.","image":"/images/shipyard.png"}]}" />
 
 ## our expertise
 
