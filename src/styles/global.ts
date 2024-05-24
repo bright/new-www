@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 require('prismjs/themes/prism-solarizedlight.css')
 import '../../static/fonts/fonts.scss'
-import { font } from './variables'
+import variables, { font } from './variables'
 
 export const GlobalStyle = createGlobalStyle` 
 :root {

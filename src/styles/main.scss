@@ -41,4 +41,11 @@
 html {
   // TODO: for some reason simply $navbar-height is not enough :(
   scroll-padding-top: $navbar-height * 2;
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
 }

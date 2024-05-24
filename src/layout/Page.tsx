@@ -1,7 +1,7 @@
 import React, { PropsWithChildren, useState } from 'react'
 import classNames from 'classnames'
 
-import { Footer } from './Footer'
+import { Footer } from './Footer/Footer'
 import { TopNavigation } from './TopNavigation'
 
 import * as styles from './Page.module.scss'

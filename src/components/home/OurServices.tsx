@@ -108,7 +108,7 @@ export const OurServices: React.FC = () => {
         </div>
 
         <MoreButton className='servicesbutton' href={routeLinks.whatWeOffer}>
-          learn more
+          explore our services
         </MoreButton>
       </CustomContainer>
     </CustomSection>
