@@ -75,3 +75,17 @@ In terms of SLMs, there have been situations where some models were not accessib
 Therefore, I would consider whether SLMs are the right models, as they might not deliver the expected results.
 
 <div className="image">![travelling](/images/rafal_travelling.png "travelling")</div>
+
+## I know you are a coffee aficionado. What coffee do you drink and what acidity do you prefer?
+
+It's actually fascinating because it's hard to drink the same coffee twice since even filters can change the taste of the coffee.
+
+I enjoy very acidic coffee, but only when it’s brewed with a drip method. I don’t like to drink a straight espresso; for me, espresso serves as a base for milk coffees like cappuccino or flat white. When it comes to black coffee, it has to be brewed with a drip method.
+
+## What coffee brand do you recommend?
+
+I support a local business and buy coffee from a roastery in Łódź called Coffeehood. They offer specialty coffee, which means it has been rated as high quality during a coffee cupping.
+
+## Are you attending coffee cuppings? Tell us more about those.
+
+Yes! These are coffee tastings where a coffee shop presents eight different types of coffee from various roasteries around the world. **The goal is to assess the coffee from many different perspectives**. First, you judge the **sensory aspects: the smell and aromas you can detect**. Then, you **take a first sip to evaluate its taste, structure, and how oily or bitter it is**. The first sip is crucial but it can be challenging as your taste buds aren’t as clear as they were at the beginning of the event. But exploring new coffee tastes is worth it!
