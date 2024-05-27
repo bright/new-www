@@ -55,3 +55,9 @@ I recommend prompt engineering. Model training requires more expertise, which in
 It's not only about prompt engineering though. Building vector databases can also be more affordable than training models.
 
 <div className="image">![quote](/images/rafal_w_prompt.png "quote")</div>
+
+## What trends do you see in the implementation of generative AI?
+
+I’ve noticed a need that still hasn’t been fully addressed by generative AI. **We still lack models that recognize specific items from pictures or understand voice prompts**. Using written prompts is quite common, yet what about other options?
+
+I think the [medtech industry will benefit from image recognition models](/blog/top-trends-in-healthtech/#advanced-implementations-of-generative-ai-in-healthcare), for example, for medical imaging. AI can support lung cancer diagnostics based on thousands of X-ray images. This is just one of many possible utilizations.
