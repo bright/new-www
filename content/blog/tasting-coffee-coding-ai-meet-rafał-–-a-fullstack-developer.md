@@ -31,3 +31,5 @@ Then, in technical school, I followed my passion for informatics and explored we
 It was 2 years ago when I was working at a software development agency, but my project ended and I was devastated because I enjoyed working with that team. **Eventually, Agata (a recruiter) reached out to me on LinkedIn**. It wasn’t anything new, but her message stood out because **she was very transparent about the company, projects, and clients I could work for**. That’s not always the case when you talk to recruiters. Also, at Bright Inventions, I had the chance to work with a tech stack I was keen on, including Node.js and NestJS.
 
 **I actually wanted to join Bright Inventions after the initial screening with Agata. I was already super excited about this job opportunity.**
+
+<div className="image">![team retreat](/images/rafal_team_retreat.png "team retreat")</div>
