@@ -32,4 +32,6 @@ It was 2 years ago when I was working at a software development agency, but my p
 
 **I actually wanted to join Bright Inventions after the initial screening with Agata. I was already super excited about this job opportunity.**
 
-<div className="image">![team retreat](/images/rafal_team_retreat.png "team retreat")</div>
+<div className="image">![team retreat](/images/rafal_team_retreat.png "A team retreat in the center of Gdansk.")</div>
+
+<center> A team retreat in the center of Gdansk. </center>
