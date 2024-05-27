@@ -7576,7 +7576,7 @@ __metadata:
     react-modal: ^3.16.1
     react-responsive-carousel: ^3.2.23
     react-social-media-embed: ^2.3.5
-    react-tag-input: ^6.8.1
+    react-tag-input: 6.9.0
     reading-time: ^1.5.0
     rehype-mathjax: ^4.0.2
     remark-gfm: ^3.0.1
@@ -21213,7 +21213,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-tag-input@npm:^6.8.1":
+"react-tag-input@npm:6.9.0":
   version: 6.9.0
   resolution: "react-tag-input@npm:6.9.0"
   dependencies:
