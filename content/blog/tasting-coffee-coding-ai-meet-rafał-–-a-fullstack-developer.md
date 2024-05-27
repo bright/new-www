@@ -63,3 +63,13 @@ I’ve noticed a need that still hasn’t been fully addressed by generative AI.
 I think the [medtech industry will benefit from image recognition models](/blog/top-trends-in-healthtech/#advanced-implementations-of-generative-ai-in-healthcare), for example, for medical imaging. AI can support lung cancer diagnostics based on thousands of X-ray images. This is just one of many possible utilizations.
 
 <div className="image">![quote](/images/rafal_quote_ai.png "quote")</div>
+
+## What are the differences between LLMs and SLMs? Are SLMs a serious alternative to LLMs?
+
+Small Language Models (SLMs) are supposed to be trained on less amount of data, therefore, they require fewer computational resources compared to LLMs. *[Read more about [LLMs, SLMs, and all those AI buzzwords](/blog/ai-buzzwords-definitions/).]* Yet, that’s a theory.
+
+We have tested SLMs on laptops for personal use, and their responses to simple questions were usually correct. However, when the questions became more complex, these models made mistakes. Given the high cost of launching SLMs, it’s not an investment that generates the desired returns, especially compared to models offered by OpenAI API. With OpenAI, we don’t need to set up our infrastructure; we only pay for the actual requests we make.
+
+In terms of SLMs, there have been situations where some models were not accessible through providers like AWS and Azure, meaning you have to set up and manage the infrastructure and bear all associated costs.
+
+Therefore, I would consider whether SLMs are the right models, as they might not deliver the expected results.
