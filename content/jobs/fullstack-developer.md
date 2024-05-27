@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Senior Node.js Developer "
-subtitle: OPEN
+subtitle: CLOSED
 imagejob: /images/join_bright_team-5-.png
 image-alt-job: Backend Team Bright Inventions
 hours: Full-time
@@ -27,7 +27,7 @@ title_recruiter_info: Do you have any questions? Ask Sara from our Bright team!
 workplace_recruiter: Junior Recruiting Specialist
 image_recruiter_info: /images/sara-bright-recruiter.png
 button_linkedin: https://www.linkedin.com/in/saralecka/
-published: true
+published: false
 show_recruiter_info: true
 hidden: true
 name_recruiter: Sara
