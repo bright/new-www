@@ -35,3 +35,23 @@ It was 2 years ago when I was working at a software development agency, but my p
 <div className="image">![team retreat](/images/rafal_team_retreat.png "A team retreat in the center of Gdansk.")</div>
 
 <center> A team retreat in the center of Gdansk. </center>
+
+## You are one of our AI development specialists. What was your research process and how did you gain knowledge about AI?
+
+The entire AI research group at Bright Inventions focused on **exploring large language models (LLMs) and frameworks, along with concrete solutions such as building vector databases and using them with embeddings, to tailor AI to specific use cases**. This exploration led us to discover LangChain. **LangChain has extensive documentation**, which has been incredibly helpful.
+
+We also read numerous blog posts, watched various videos, and listened to podcasts, although we found that this content quickly needed to be updated. **Therefore, documentation has proven to be the best source of information**. While other content was useful, it primarily served a supporting role in our research process.
+
+## What is the skillset for a software developer who wants to specialize in AI implementation?
+
+**Knowing Python is key**, as it leads the way in languages used for AI development. **Understanding prompt engineering is also important**. You need to read extensively about how models accept prompts, how they analyze them, and how to construct effective prompts. 
+
+Additionally, it's crucial to **understand what various models can truly offer**. Understanding how models work and knowing the various models available on the market is essential for choosing the right one for our use case, especially when we have a strict budget. Fortunately, there are **tools like PromptFoo that can help us assess the costs our solution will generate**.
+
+## What is more effective and affordable for a company that wants to implement generative AI: model training or enhancing prompt engineering?
+
+I recommend prompt engineering. Model training requires more expertise, which increases the budget and resources needed. Additionally, often you have to pay extra for a model that allows for training. Usually, **creating a new prompt with a wider context to generate better results is less expensive compared to model training**.
+
+It's not only about prompt engineering though. Building vector databases can also be more affordable than training models.
+
+<div className="image">![quote](/images/rafal_w_prompt.png "quote")</div>
