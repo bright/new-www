@@ -61,3 +61,5 @@ It's not only about prompt engineering though. Building vector databases can als
 I’ve noticed a need that still hasn’t been fully addressed by generative AI. **We still lack models that recognize specific items from pictures or understand voice prompts**. Using written prompts is quite common, yet what about other options?
 
 I think the [medtech industry will benefit from image recognition models](/blog/top-trends-in-healthtech/#advanced-implementations-of-generative-ai-in-healthcare), for example, for medical imaging. AI can support lung cancer diagnostics based on thousands of X-ray images. This is just one of many possible utilizations.
+
+<div className="image">![quote](/images/rafal_quote_ai.png "quote")</div>
