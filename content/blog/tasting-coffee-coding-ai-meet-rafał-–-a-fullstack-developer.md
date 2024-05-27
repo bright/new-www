@@ -9,7 +9,7 @@ slug: coffee-ai-rafal-fullstack
 title: Tasting Coffee, Coding AI. Meet Rafał – A Fullstack Developer
 layout: post
 image: /images/brightstoryrafalw.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
