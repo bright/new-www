@@ -1,18 +1,17 @@
 ---
 layout: job
-title: "Senior Backend Developer "
-subtitle: CLOSED
-imagejob: /images/backend_team_job_offer.png
+title: "Senior Node.js Developer "
+subtitle: OPEN
+imagejob: /images/join_bright_team-5-.png
 image-alt-job: Backend Team Bright Inventions
 hours: Full-time
-salary: 20 000 - 24 000 PLN + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
-salary_min: 16600
-salary_max: 24000
+salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
+salary_min: 135
+salary_max: 19920
 working time: full time
 technology:
   - TypeScript
   - Node.js
-  - React
   - AWS
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
@@ -28,7 +27,7 @@ title_recruiter_info: Do you have any questions? Ask Sara from our Bright team!
 workplace_recruiter: Junior Recruiting Specialist
 image_recruiter_info: /images/sara-bright-recruiter.png
 button_linkedin: https://www.linkedin.com/in/saralecka/
-published: false
+published: true
 show_recruiter_info: true
 hidden: true
 name_recruiter: Sara
@@ -44,17 +43,13 @@ description: We are looking now for a Full Stack Developer who has already had
 ---
 ## who we are
 
-We are a team of talented senior developers who value and apply the best programming practices. We focus on cutting-edge technologies and innovations, and try to find simple structure in complex things. 
-
 At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
 
-We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.
+We place a strong emphasis on accountability, and we value team members **who take ownership of their work and are willing to make improvements based on regular and open feedback.** Positive attitude, flexibility and teamwork are elemental parts of our success. Instead of focusing on problems, we empower our team members to identify issues, propose solutions, and contribute to continuous growth
 
 ## job description
 
-We are looking for a business-oriented Backend Developer to join our project ([https://brightinventions.pl/projects/eco-friendly-app/](https://brightinventions.pl/projects/eco-friendly-app/)) team that has already saved over 3 million single-use plastic containers. 
-
-As a business-savvy Backend Developer, you'll work closely with our client, the German startup Relevo. We're seeking a candidate who embodies openness, dynamism, and proactivity, fostering a close client relationship. Valuable assets include an agile mindset, flexibility, and adept prioritization skills.
+We are looking for a business-oriented senior backend developer to join one of our [project ](https://brightinventions.pl/projects/card-tracking-system/)teams responsible for building a Card Tracking System for one of the global humanitarian organisations.
 
 ## what we would like to see
 
