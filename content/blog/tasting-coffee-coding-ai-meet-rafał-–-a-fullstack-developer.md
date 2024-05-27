@@ -15,3 +15,5 @@ published: true
 language: en
 ---
 Check out Rafał’s journey to becoming an AI development specialist and discover which niche still hasn’t been addressed by AI. Also, learn how to explore coffee taste with just one sip.
+
+<div className="image">![fullstack developer's story](/images/brightstoryrafalw.png "fullstack developer's story")</div>
