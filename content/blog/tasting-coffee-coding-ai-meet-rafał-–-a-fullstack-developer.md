@@ -3,13 +3,13 @@ author: izabela
 secondAuthor: rafal-w
 tags:
   - bright story
-date: 2024-05-27T12:50:52.485Z
-meaningfullyUpdatedAt: 2024-05-27T12:50:52.506Z
+date: 2024-05-28T05:17:59.135Z
+meaningfullyUpdatedAt: 2024-05-28T05:17:59.920Z
 slug: coffee-ai-rafal-fullstack
 title: Tasting Coffee, Coding AI. Meet Rafał – A Fullstack Developer
 layout: post
 image: /images/brightstoryrafalw.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
