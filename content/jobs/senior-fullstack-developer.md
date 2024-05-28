@@ -2,13 +2,13 @@
 layout: job
 title: "Senior Fullstack Developer "
 subtitle: OPEN
-imagejob: /images/fullstackteam_job_offer.png
+imagejob: /images/fullstack-team-job-offer-2-.png
 image-alt-job: Fullstack Team Bright Inventions
 hours: full-time
 salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
-working time: full time
 salary_min: 16000
 salary_max: 24000
+working time: full time
 technology:
   - TypeScript
   - JavaScript
