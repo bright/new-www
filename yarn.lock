@@ -4057,7 +4057,14 @@
   dependencies:
     "@types/node" "*"
 
-"@types/lodash@^4.14.92":
+"@types/lodash-es@^4.17.12":
+  version "4.17.12"
+  resolved "https://registry.yarnpkg.com/@types/lodash-es/-/lodash-es-4.17.12.tgz#65f6d1e5f80539aa7cfbfc962de5def0cf4f341b"
+  integrity sha512-0NgftHUcV4v34VhXm8QBSftKVXtbkBG3ViCjs6+eJ5a6y6Mi/jiFGPc1sC7QK+9BFhWrURE3EOggmWaSxL9OzQ==
+  dependencies:
+    "@types/lodash" "*"
+
+"@types/lodash@*", "@types/lodash@^4.14.92":
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.17.4.tgz#0303b64958ee070059e3a7184048a55159fe20b7"
   integrity sha512-wYCP26ZLxaT3R39kiN2+HcJ4kTd3U1waI/cY7ivWYqFP6pW3ZNpvi6Wd6PHZx7T/t8z0vlkXMg3QYLa7DZ/IJQ==
@@ -4188,13 +4195,6 @@
     "@types/react" "*"
     hoist-non-react-statics "^3.3.0"
     redux "^4.0.0"
-
-"@types/react-tag-input@^6.6.1":
-  version "6.6.6"
-  resolved "https://registry.yarnpkg.com/@types/react-tag-input/-/react-tag-input-6.6.6.tgz#28f99ffb47159da74b6b0345d8be86cc0580e226"
-  integrity sha512-GtVh5tYQ4lsl7dGddVaIh3yRieSHZzcULVTCUyltRfrpK9NBp+vEpYUoQaY8oQCZxOOKkQaRzlJvgZQuf+YwUQ==
-  dependencies:
-    "@types/react" "*"
 
 "@types/react@*", "@types/react@>=16", "@types/react@^18.2.11":
   version "18.3.3"
@@ -11641,7 +11641,7 @@ lock@^1.1.0:
   resolved "https://registry.yarnpkg.com/lock/-/lock-1.1.0.tgz#53157499d1653b136ca66451071fca615703fa55"
   integrity sha512-NZQIJJL5Rb9lMJ0Yl1JoVr9GSdo4HTPsUEWsSFzB8dE8DSoiLCVavWZPi7Rnlv/o73u6I24S/XYc/NmG4l8EKA==
 
-lodash-es@^4.17.15:
+lodash-es@^4.17.15, lodash-es@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
   integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
@@ -11731,7 +11731,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==
 
-lodash@^4.0.0, lodash@^4.0.1, lodash@^4.1.1, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.4, lodash@~4.17.0, lodash@~4.17.12:
+lodash@^4.0.0, lodash@^4.0.1, lodash@^4.1.1, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.4, lodash@~4.17.0:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -15506,14 +15506,14 @@ react-sub-unsub@^2.2.1:
   resolved "https://registry.yarnpkg.com/react-sub-unsub/-/react-sub-unsub-2.2.7.tgz#d755ea40ab61ff64bc8c73a9013efa910472629d"
   integrity sha512-b2o0mIW8G4Yb3aaKxFB9iiCCHxCDGmogy+493oQpEJHjBy/hl6uf+6RhAinqKWRwi1fvO6mGIMVGsf2XYLL38g==
 
-react-tag-input@6.9.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/react-tag-input/-/react-tag-input-6.9.0.tgz#8323ca0ca1eec27e6a2960556e2ecb822cb5f850"
-  integrity sha512-pVSjhlYkz9HJifGLDe8wIiZ8DMSwSlL0L14vhsVrgDcMyIQdbCKNuiWHdh61DkjLKNYpAoM5MjTuAgJXOXM+vg==
+react-tag-input@^6.10.2:
+  version "6.10.2"
+  resolved "https://registry.yarnpkg.com/react-tag-input/-/react-tag-input-6.10.2.tgz#d95b7de7c449c7df9c20361ab6b556183546a946"
+  integrity sha512-ucxcNrTq1rTLH9j49qxOBCcALg6Q5H3MUzxDGSbj0xvwliu9FH7TSohG7mduLoUyW3nvhtzne55V62GgAs0fPA==
   dependencies:
+    "@types/lodash-es" "^4.17.12"
     classnames "~2.3.1"
-    lodash "~4.17.12"
-    prop-types "^15.7.2"
+    lodash-es "^4.17.21"
 
 react-textarea-autosize@^8.0.0:
   version "8.5.3"

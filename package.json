@@ -67,7 +67,7 @@
     "react-modal": "^3.16.1",
     "react-responsive-carousel": "^3.2.23",
     "react-social-media-embed": "^2.3.5",
-    "react-tag-input": "6.9.0",
+    "react-tag-input": "^6.10.2",
     "reading-time": "^1.5.0",
     "rehype-mathjax": "^4.0.2",
     "remark-gfm": "^3.0.1",
@@ -90,7 +90,6 @@
     "@types/react-dom": "^18.2.4",
     "@types/react-helmet": "^6.1.6",
     "@types/react-modal": "^3.16.0",
-    "@types/react-tag-input": "^6.6.1",
     "@types/styled-components": "^5.1.26",
     "dts-css-modules-loader": "^2.0.1",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.31",
@@ -132,5 +131,6 @@
   "resolutions": {
     "@types/react": "^18.2.11",
     "@builder.io/partytown": "^0.7.5"
-  }
+  },
+  "packageManager": "yarn@1.22.22"
 }
