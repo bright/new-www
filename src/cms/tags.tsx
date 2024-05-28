@@ -1,40 +1,47 @@
 import { CmsWidgetControlProps, CmsWidgetPreviewProps } from 'netlify-cms-core'
 import { PostTags } from '../PostTags'
-import { Tag, WithContext as ReactTags } from 'react-tag-input'
+import { WithContext as ReactTags } from 'react-tag-input'
 import styled from 'styled-components'
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useState } from 'react'
+
+interface Tag {
+  id: string;
+  className: string;
+  [key: string]: string;
+}
 
 const ReactTagsContainer = styled.div`
-  // mostly copy paste from bulma tags
-  // can't get it to work in a clean way
-  .tags {
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    display: flex;
-    align-items: center;
-  }
-
-  .tag {
+  .ReactTags__tag {
     align-items: center;
     border-radius: 2px;
     display: inline-flex;
     height: 2em;
     justify-content: center;
     line-height: 1.5;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
     white-space: nowrap;
+    margin-right: 12px;
 
     button {
+      padding-top: 2px;
+      padding-right: 3px;
       margin-left: 0.5em;
+        
+      svg {
+          fill: currentColor;
+      }
     }
+  }
+    
+  .ReactTags__tagInput {
+    width: 100%;
   }
 `
 
 function toTag(value: string, index: number): Tag {
   return {
     id: index.toString(),
-    text: value
+    text: value,
+    className: '',
   }
 }
 
@@ -51,10 +58,10 @@ function useAllPostsTags(): Tag[] {
       setTags(tags)
     }
 
-    fetchPostTags()
+    void fetchPostTags()
   }, [])
 
-  return tags.map(t => ({ id: t, text: t }))
+  return tags.map(t => ({ id: t, text: t, className: '' }))
 }
 
 export const TagsControl: React.FC<CmsWidgetControlProps> = props => {
@@ -99,8 +106,16 @@ export const TagsControl: React.FC<CmsWidgetControlProps> = props => {
           handleDelete={onDelete}
           handleDrag={onDrag}
           classNames={{
-            tag: 'tag',
-            tags: 'tags'
+            root: 'root',
+            rootFocused: 'rootFocused',
+            selected: 'selected',
+            selectedTag: 'selectedTag',
+            selectedTagName: 'selectedTagName',
+            search: 'search',
+            searchInput: 'searchInput',
+            suggestions: 'suggestions',
+            suggestionActive: 'suggestionActive',
+            suggestionDisabled: 'suggestionDisabled',
           }}
         />
       </ReactTagsContainer>
