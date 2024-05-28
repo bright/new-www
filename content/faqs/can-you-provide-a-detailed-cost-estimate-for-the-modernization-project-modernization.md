@@ -4,7 +4,7 @@ faqs_id: Can you provide a detailed cost estimate for the modernization project?
   | Modernization
 name: Can you provide a detailed cost estimate for the modernization project? |
   Modernization
-slug: cost-estimate-app-modernization
+slug: cost-app-modernization
 question: Can you provide a detailed cost estimate for the modernization project?
 answer: The cost of legacy modernization depends on several factors, including
   the current stage of your product, the underlying technology, and your
