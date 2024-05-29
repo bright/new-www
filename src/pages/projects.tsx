@@ -1,7 +1,5 @@
 import { graphql } from 'gatsby'
-import React, { ChangeEvent, useEffect, useState } from 'react'
-import classNames from 'classnames'
-
+import React, { useState } from 'react'
 import { Page } from '../layout/Page'
 import { CustomPageTitle, CustomSection, CustomSectionInner, CustomTextRegular } from '../components/shared'
 import { createProjects } from '../models/creator'
@@ -9,10 +7,10 @@ import { GQLData } from '../models/gql'
 import styled from 'styled-components'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
 import variables from '../styles/variables'
-import { TagsSelect, TagsWrapper } from './../components/shared/components/index'
-import { useWindowSize } from '../components/utils/use-windowsize'
 import { Projects } from '../components/home/Projects'
 import { Contact } from '../components/shared/Contact'
+import { Tags } from '../projects/Tags/Tags'
+import { TagTree } from '../projects/Tags/types'
 
 const SectionProjects = styled(CustomSection)`
   && .project-tag {
@@ -35,47 +33,20 @@ const SectionProjects = styled(CustomSection)`
 `
 
 const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
-  const [isClient, setIsClient] = useState(false)
-
-  useEffect(() => {
-    setIsClient(true)
-  }, [])
-
+  const [selectedTags, setSelectedTags] = useState<TagTree>({})
   const projects = createProjects(data)
 
-  const allTags: string[] = []
-  projects.forEach(project =>
-    (project.tags || []).forEach(tag => {
-      if (!allTags.includes(tag)) {
-        allTags.push(tag)
+  const filteredProjects = projects.filter((project) => {
+      for (const group in selectedTags) {
+        const common = selectedTags[group]?.some((tag) => project.tags?.includes(tag))
+
+        if (!common) {
+          return false
+        }
       }
-    })
-  )
 
-  const [selectedTag, setSelectedTag] = useState<string[]>([])
-
-  const selectTag = (tag: string) => {
-    setSelectedTag([tag])
-  }
-
-  const declarationTag = ['retail & restaurant', 'blockchain', 'fintech', 'IoT']
-  const specificTag = declarationTag?.includes(selectedTag[0])
-
-  const tagsEmpty = selectedTag.length === 0
-  const handleOnChange = ({ target }: ChangeEvent<HTMLSelectElement>) => {
-    const { value } = target
-    if (value == 'allTags') {
-      setSelectedTag([])
-    } else {
-      setSelectedTag([value])
+      return true
     }
-  }
-
-  const { width } = useWindowSize()
-  const breakpoint = 769
-
-  const filteredProjects = projects.filter(
-    project => selectedTag.length === 0 || (project.tags && selectedTag.every(tag => project.tags?.includes(tag)))
   )
 
   return (
@@ -104,59 +75,21 @@ const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
             many others.
           </CustomTextRegular>
         </CustomSectionInner>
-        {isClient && (
-          <>
-            {width < breakpoint ? (
-              <>
-                {allTags.length > 0 && (
-                  <TagsSelect onChange={handleOnChange}>
-                    <option
-                      className={classNames('project-tag', { ['is-active']: selectedTag.length === 0 })}
-                      value={'allTags'}
-                    >
-                      all
-                    </option>
-                    {allTags.map(tag => (
-                      <option
-                        key={tag}
-                        className={classNames('project-tag', { ['is-active']: selectedTag.includes(tag) })}
-                        value={tag}
-                      >
-                        {tag}
-                      </option>
-                    ))}
-                  </TagsSelect>
-                )}
-              </>
-            ) : (
-              <TagsWrapper>
-                {allTags.length > 0 && (
-                  <li
-                    className={classNames('project-tag', { ['is-active']: selectedTag.length === 0 })}
-                    onClick={() => setSelectedTag([])}
-                  >
-                    all
-                  </li>
-                )}
-                {allTags.map(tag => (
-                  <li
-                    key={tag}
-                    className={classNames('project-tag', { ['is-active']: selectedTag.includes(tag) })}
-                    onClick={() => selectTag(tag)}
-                  >
-                    {tag}
-                  </li>
-                ))}
-              </TagsWrapper>
-            )}
-          </>
-        )}
       </SectionProjects>
+      <CustomSection
+        paddingProps='2rem 15rem'
+        paddingLaptop='2rem 6rem'
+        paddingTabletXL='2rem 9rem'
+        paddingTablet='3rem 2rem 2rem 2rem'
+        paddingMobileProps='3rem 1.125rem 0rem 1.125rem'
+      >
+        <Tags value={selectedTags} onChange={(selected) => setSelectedTags(selected)} />
+      </CustomSection>
       <Projects
         isFetchProject={false}
         projectsArray={filteredProjects}
-        isTagsEmpty={tagsEmpty}
-        isSelectedTag={specificTag}
+        isTagsEmpty={!!projects.length}
+        isSelectedTag={!!Object.keys(selectedTags).length}
       />
       <Contact formButton='Business Contact Form Button' actionFormButton='Click Submit Business Form' />
     </Page>
