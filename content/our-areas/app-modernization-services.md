@@ -89,3 +89,11 @@ We enhance a legacy system in ways that were not possible when it was originally
 ### re-architecting
 
 We transform your legacy system into modern, scalable, and efficient architecture to meet any business challenge with agility and robust performance.
+
+### integrations
+
+We connect your solution with external providers, third parties, and business partners. **We specialize in retail integrations including POS integrations with payment platforms** (Stripe, Square, Paypal, Adyen), **food delivery platforms**, or **devices** (printers, terminals, or cash registers).
+
+### security improvements
+
+Enhance the security of your systems with our in-depth experience. We ensure your infrastructure complies with GDPR, HIPAA and other legal requirements.
