@@ -7,12 +7,12 @@ image-alt-job: QA Team Bright Inventions
 hours: full-time
 salary: 81-118 PLN/hour + VAT (B2B) or 10000 - 14500 PLN gross (UoP)
 salary_min: 81
-salary_max: 14498
+salary_max: 14499
 working time: full time
 technology:
   - PostgreSQL
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
-show_new_title_more_about_us: false
+show_new_title_more_about_us: true
 links_more_about_us: >-
   [How to Start Working at Bright Inventions - A Quick Guide for Candidates
    ](https://brightinventions.pl/blog/how-to-start-working-at-bright-inventions-a-quick-guide-for-candidates/)
@@ -25,7 +25,7 @@ links_more_about_us: >-
 title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
 name_recruiter: Agata
 image_recruiter_info: /images/agata_recruiter.png
-image_alt_recruiter_info: Sara - a Recruiter at Bright Inventions
+image_alt_recruiter_info: Agata - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our Bright team
 published: true
@@ -43,7 +43,7 @@ We place a strong emphasis on accountability, and we value team members who take
 
 ## about the role 🧑🏻‍💻🧑🏻‍💻
 
-We are looking for a business-oriented senior QA engineer to join one of our project team responsible for building an application which is a new next generation passwordless authentication service that is used by millions of users worldwide, on a daily basis. 
+We are looking for a business-oriented QA engineer to join one of our project team responsible for building an application which is a new next generation passwordless authentication service that is used by millions of users worldwide, on a daily basis. 
 
 We are working on cross-channel identity platform that  integrates and control authentication, fraud detection, and access controls"organisations.
 
