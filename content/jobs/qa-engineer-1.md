@@ -45,7 +45,7 @@ We place a strong emphasis on accountability, and we value team members who take
 
 We are looking for a business-oriented QA engineer to join one of our project team responsible for building an application which is a new next generation passwordless authentication service that is used by millions of users worldwide, on a daily basis. 
 
-We are working on cross-channel identity platform that  integrates and control authentication, fraud detection, and access controls"organisations.
+We are working on cross-channel identity platform that  integrates and control authentication, fraud detection, and access controls organisations.
 
 ## your job will include
 
