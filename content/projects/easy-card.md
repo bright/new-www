@@ -25,6 +25,7 @@ tags:
   - mobile app
   - customized software
   - fintech
+  - SME
 title_team: team
 title_case_study: more case studies
 title_contact: let's talk about your product
