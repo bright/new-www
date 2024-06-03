@@ -10,7 +10,7 @@ salary_min: 81
 salary_max: 14499
 working time: full time
 technology:
-  - manual mobile testing
+  - mobile testing
   - cyber security
   - API testing
   - performance testing
