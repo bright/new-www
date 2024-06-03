@@ -39,6 +39,7 @@ tags:
   - customized software
   - MVP
   - product design
+  - enterprise
 title_team: meet the team behind the solution
 title_case_study: more success stories
 title_contact: let's talk about your solution
