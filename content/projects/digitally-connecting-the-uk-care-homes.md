@@ -7,6 +7,7 @@ team_members:
 our_service:
   - mobile app development
   - product design
+  - SME
 layout: project
 project_id: eMAR
 title: Optimizing Medicine Distribution for UK Care Homes
