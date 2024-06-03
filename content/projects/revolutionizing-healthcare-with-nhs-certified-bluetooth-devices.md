@@ -31,6 +31,7 @@ tags:
   - mobile app
   - eHealth
   - product design
+  - SME
 title_team: the team behind the project
 title_case_study: more success stories
 title_contact: let's talk about your product
