@@ -35,6 +35,7 @@ tags:
   - MVP
   - customized software
   - retail & restaurant
+  - startup
 title_team: team behind the project
 title_case_study: more success stories
 title_contact: let’s talk about your solution
