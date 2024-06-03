@@ -29,6 +29,7 @@ tags:
   - eHealth
   - customized software
   - web app
+  - NGO
 title_team: team
 title_case_study: explore other success stories
 title_contact: book a free consultation in 48 hours
