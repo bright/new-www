@@ -18,7 +18,7 @@ export const Tags = ({ value, onChange }: TagsProps) => {
       newValue[tagGroup] = [tag]
     }
     else if (newValue[tagGroup]?.includes(tag)) {
-      newValue[tagGroup] = newValue[tagGroup]?.filter(tag => tag !== tag)
+      newValue[tagGroup] = newValue[tagGroup]?.filter(t => t !== tag)
     } else {
       newValue[tagGroup] = [...(newValue[tagGroup] || []), tag]
     }
