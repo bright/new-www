@@ -14,5 +14,10 @@ export const tagTree = {
     'bluetooth',
     'IoT',
   ],
-  company: [],
+  company: [
+    'startup',
+    'SME',
+    'enterprise',
+    'NGO',
+  ],
 } as const
