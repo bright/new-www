@@ -34,6 +34,7 @@ tags:
   - mobile app
   - customized software
   - MVP
+  - enterprise
 title_team: meet the team
 title_case_study: check other case studies
 title_contact: let's talk about your product
