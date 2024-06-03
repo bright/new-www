@@ -28,6 +28,7 @@ tags:
   - mobile app
   - customized software
   - eHealth
+  - SME
 title_team: team
 title_case_study: more success stories
 title_contact: let’s talk about your product
