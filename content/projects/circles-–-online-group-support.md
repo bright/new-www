@@ -8,6 +8,7 @@ our_service:
   - web development
   - mobile app development
   - cloud services
+  - startup
 layout: project
 project_id: circles
 title: Circles secures $16.5M in Series A Funding and Emerges as Premier Group
