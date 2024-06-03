@@ -21,6 +21,8 @@ language: en
 
 **Performance monitoring involves regularly checking the "vital signs" of your application** to keep an eye on its performance, which is especially crucial as the number of users increases. **Every company with a growing product faces the challenge of scaling its infrastructure in line with the increasing number of users**. Performance monitoring is a great tool to handle this challenge proactively.
 
+<YouTubeEmbed url='https://youtu.be/obxhjNnNCH0' />
+
 ### Example of performing monitoring use case in eHealth
 
 Imagine an app designed to remind your users about taking medication or joining a video consultation with a doctor. However, the notification meant to prompt these actions isn't sent. **How can you actually realize that the notifications don't work?** It's difficult to notice when something doesn't happen. Yet, **with app performance monitoring, you can track every feature, including sending notifications**. This way, you'll quickly know when any part of the app doesn't function as intended.
