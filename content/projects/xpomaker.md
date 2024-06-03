@@ -29,6 +29,7 @@ tags:
   - product design
   - MVP
   - customized software
+  - startup
 title_team: team
 title_case_study: more success stories
 title_contact: Let's talk about your app
