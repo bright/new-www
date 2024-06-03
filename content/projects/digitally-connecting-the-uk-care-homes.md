@@ -7,7 +7,6 @@ team_members:
 our_service:
   - mobile app development
   - product design
-  - SME
 layout: project
 project_id: eMAR
 title: Optimizing Medicine Distribution for UK Care Homes
@@ -37,6 +36,7 @@ tags:
   - customized software
   - eHealth
   - bluetooth
+  - SME
 title_team: team behind the project
 title_case_study: more success stories
 title_contact: let's talk about your product
