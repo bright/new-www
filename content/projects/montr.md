@@ -33,6 +33,7 @@ tags:
   - IoT
   - customized software
   - fintech
+  - SME
 title_team: team behind the project
 title_case_study: more case studies
 title_contact: let's talk about your solution
