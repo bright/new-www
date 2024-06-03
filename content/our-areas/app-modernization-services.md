@@ -11,6 +11,7 @@ team_members:
 faqs:
   - Can you provide a detailed cost estimate for the modernization project? |
     Modernization
+  - What is your experience in application modernization? | Modernization
 project:
   - MedKitDoc
   - Practi JET POS
