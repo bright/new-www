@@ -4,7 +4,7 @@ secondAuthor: maciej-n
 tags:
   - HealthTech
 date: 2024-03-13T07:50:07.637Z
-meaningfullyUpdatedAt: 2024-03-13T07:50:08.444Z
+meaningfullyUpdatedAt: 2024-06-03T12:28:46.107Z
 title: Is Your App Healthy? Unlock Performance Monitoring for HealthTech
 layout: post
 image: /images/healthcare_app_performance_monitoring.png
@@ -20,6 +20,8 @@ language: en
 ## What is app performance monitoring and what does it bring to the HealthTech table
 
 **Performance monitoring involves regularly checking the "vital signs" of your application** to keep an eye on its performance, which is especially crucial as the number of users increases. **Every company with a growing product faces the challenge of scaling its infrastructure in line with the increasing number of users**. Performance monitoring is a great tool to handle this challenge proactively.
+
+<YouTubeEmbed url='https://youtu.be/obxhjNnNCH0' />
 
 ### Example of performing monitoring use case in eHealth
 
