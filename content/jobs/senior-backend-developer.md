@@ -3,7 +3,7 @@ imagejob: /images/backend-team-job-offer-3-.png
 workplace_recruiter: Recruiting Specialist
 Show_recruiter_info: true
 layout: job
-title: "Senior Backend Developer "
+title: Senior Backend Developer (Java/Kotlin)
 subtitle: OPEN
 image-alt-job: backend development team
 hours: full-time
