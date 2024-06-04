@@ -12,6 +12,7 @@ faqs:
   - Can you provide a detailed cost estimate for the modernization project? |
     Modernization
   - What is your experience in application modernization? | Modernization
+  - What are the benefits of legacy modernization? | Modernization
 project:
   - MedKitDoc
   - Practi JET POS
@@ -53,7 +54,7 @@ bar_stack:
   - NestJS
 button: book a free consultation
 button2: book a free consultation
-published: false
+published: true
 show_case_study: true
 show_technology_stack: true
 title_team: meet the bright team
