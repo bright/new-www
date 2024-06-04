@@ -52,7 +52,7 @@ We are working on cross-channel identity platform that  integrates and control 
 
 ## your job will include
 
-* manually testing new functionalities in accordance with their specification and creating detailed and comprehensive test plans
+* **manually testing** new functionalities in accordance with their specification and creating detailed and comprehensive test plans
 * defining acceptance criteria for features and optimisation of testing processes
 * close collaboration with developers & PM team on the app implementation
 * estimating, prioritizing, planning and coordinating test activities
