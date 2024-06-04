@@ -46,13 +46,13 @@ We place a strong emphasis on accountability, and we value team members who take
 
 ## about the role 🧑🏻‍💻🧑🏻‍💻
 
-We are looking for a business-oriented QA engineer to join one of our project team responsible for building an application which is a new next generation passwordless authentication service that is used by millions of users worldwide, on a daily basis. 
+We are looking for a business-oriented **manual QA engineer** to join one of our project team responsible for building an application which is a new next generation passwordless authentication service that is used by millions of users worldwide, on a daily basis. 
 
 We are working on cross-channel identity platform that  integrates and control authentication, fraud detection, and access controls organisations.
 
 ## your job will include
 
-* testing new functionalities in accordance with their specification and creating detailed and comprehensive test plans
+* **manually testing** new functionalities in accordance with their specification and creating detailed and comprehensive test plans
 * defining acceptance criteria for features and optimisation of testing processes
 * close collaboration with developers & PM team on the app implementation
 * estimating, prioritizing, planning and coordinating test activities
@@ -62,7 +62,8 @@ We are working on cross-channel identity platform that  integrates and control 
 
 ## preferred skills & experience
 
-* at least 3 years of full-time commercial QA experience including significant product experience 
+* **at least 3 years of full-time commercial manual QA experience including significant product experience** 
+* practical knowledge in the field of web application testing and mobile testing
 * knowledge of various testing frameworks and their adaptation to project needs
 * experience in testing de-centralized applications in a Server/client architecture in a Cloud/On-prem environments
 * a client-focused approach coupled with excellent communication skills (you'll be involved in business meetings)
