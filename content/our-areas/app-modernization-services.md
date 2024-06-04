@@ -24,7 +24,7 @@ our_service_id: Application modernization
 meta_title: Application modernization
 meta_description: We transform legacy systems into modern, scalable, and efficient applications.
 our_services_icon: /images/app_modernization_icon.png
-name: App Modernization Services
+name: app modernization
 slug: app-modernization
 short_description: We transform legacy systems into modern, scalable, and
   efficient applications ensuring security, top-notched UI and integrations with
