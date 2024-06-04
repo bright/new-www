@@ -38,7 +38,7 @@ slug: blockchain
 short_description: Our team has a vast experience in blockchain projects based
   on Ethereum and Substrate blockchain. Blockchain technology is what we are
   really good at!
-order: 3
+order: 5
 title: build future with blockchain development
 highlighted_word: blockchain
 image_our_service_desktop: /images/blockchain_development_desktop_big.png
@@ -69,13 +69,17 @@ show_technology_stack: true
 title_team: meet our blockchain development team
 title_case_study: projects we have worked on
 title_faqs: blockchain development FAQ's
-image_alt_our_service_desktop: blockchain development company
-intro: We are blockchain experts ready to assist you.
-language: en
-image_alt_our_service_mobile: blockchain development company
 title_contact: book a free consultation in 48 hours
 description_contact: Fill out the form below and we'll get back to you in 48
   hours. Let’s talk about your blockchain project!
+blog_section_tags:
+  - blockchain
+blog_section_title: read more
+image_alt_our_service_desktop: blockchain development company
+blog_section: false
+intro: We are blockchain experts ready to assist you.
+language: en
+image_alt_our_service_mobile: blockchain development company
 description_mdx: We are a software development company that **specialises in
   blockchain technology**. Blockchain is a groundbreaking technology that goes
   far beyond cryptocurrency services. Tell us more about your blockchain project
