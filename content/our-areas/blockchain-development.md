@@ -3,11 +3,11 @@ team_members:
   - agnieszka
   - rafal h
   - robert
-  - lukasz-k
   - piotr_r
   - kasia
   - maja
   - joanna-c
+  - lukasz
 faqs:
   - blockchain 1
   - blockchain 2
