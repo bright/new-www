@@ -21,6 +21,7 @@ import { useTranslation } from 'react-i18next'
 import { RoundedImage } from '../../our-services/Studio.styled'
 import { StaticImage } from 'gatsby-plugin-image'
 import { useWindowSize } from '../utils/use-windowsize'
+import { useClient } from '../../hooks/useClient'
 
 export interface ContactProps {
   title?: string
@@ -47,6 +48,7 @@ export const Contact: FC<ContactProps> = ({
   const [error, setError] = useState(false)
 
   const { width } = useWindowSize()
+  const isClient = useClient()
 
   const checkValid = (): boolean => {
     return checkedRules && name && email ? true : false
@@ -111,7 +113,7 @@ export const Contact: FC<ContactProps> = ({
         </FormHeader>
 
         <ImageWrapper>
-          <RoundedImage off={width < deviceSize.mobile}>
+          <RoundedImage off={(width < deviceSize.mobile) || !isClient}>
             <StaticImage src='../../../static/images/gdansk/gdansk_contact.jpg' alt='Contact in Gdańsk' />
           </RoundedImage>
         </ImageWrapper>
