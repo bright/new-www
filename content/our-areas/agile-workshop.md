@@ -16,12 +16,12 @@ faqs:
   - agile workshop 9
   - agile workshops 10
 project:
-  - bright-treasury
   - solution-parkinson
   - smarthelp
-  - vcare
   - digitized-questionnaires
   - xpomaker
+  - HS-Baumappe
+  - eMAR
 layout: our-service
 our_service_id: agile workshops
 meta_title: Agile Workshops for Teams
