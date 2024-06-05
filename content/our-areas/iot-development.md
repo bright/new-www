@@ -5,9 +5,9 @@ team_members:
   - kasia
   - wojciech
   - rafal h
-  - maja
   - mateusz
   - lukasz
+  - michal-d
 faqs:
   - "What does IoT mean? "
   - What are IoT devices?
@@ -66,12 +66,16 @@ show_technology_stack: true
 title_team: meet IoT development team
 title_case_study: IoT development that we’ve worked on
 title_faqs: IoT development FAQs
+title_contact: book free consultation in 48 hours
+description_contact: Fill out the form below and we'll get back to you in 48 hours. Let's talk!
+blog_section_tags:
+  - programming
+blog_section_title: blog posts
 image_alt_our_service_desktop: IoT company
+blog_section: false
 intro: We develop IoT software for startups and larger organisations.
 language: en
 image_alt_our_service_mobile: IoT company
-title_contact: book free consultation in 48 hours
-description_contact: Fill out the form below and we'll get back to you in 48 hours. Let's talk!
 description_mdx: We are Bright Inventions – a software development company
   specializing in the Internet of Things solutions. We build IoT software for
   restaurants, retail, eHealth and fintech industries. Since 2012 we have
