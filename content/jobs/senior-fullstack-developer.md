@@ -11,9 +11,9 @@ salary_max: 24000
 working time: full time
 technology:
   - TypeScript
-  - JavaScript
   - Node.js
   - React
+  - NestJS
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -74,7 +74,7 @@ As a Fullstack Developer, you will collaborate with cross-functional teams to de
 
 * at least 4 years of commercial programming experience as a fullstack developer or similar role 
 * solid understanding of TypeScript/JavaScript
-* deep working experience with Node.js and React
+* deep working experience with Node.js, NestJS and React
 * a solution-oriented mindset 
 * positive approach and flexibility to work on new challenges  
 * advanced level of English (written and spoken)
