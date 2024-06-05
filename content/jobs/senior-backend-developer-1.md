@@ -13,6 +13,7 @@ technology:
   - TypeScript
   - Node.js
   - AWS
+  - NestJS
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -51,7 +52,7 @@ We are looking for a business-oriented senior backend developer to join one of o
 
 * 3-4 years of commercial programming experience 
 * very good knowledge of TypeScript/JavaScript
-* deep working experience with Node.js 
+* deep working experience with Node.js and NestJS
 * strong problem solving attitude and open mind
 * positive approach to work and new challenges  
 * **advanced level of English and Polish (written and spoken)**
