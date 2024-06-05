@@ -61,13 +61,16 @@ show_technology_stack: true
 title_team: "meet our Agile team "
 title_case_study: projects we delivered with Agile
 title_faqs: agile workshops FAQs
-image_alt_our_service_desktop: agile workshops
-intro: We have used Agile to build over 50 projects.
-image_alt_our_service_mobile: agile workshops
 title_contact: let’s talk about your workshops
-description_contact: Every workshop is adjusted to clients' needs. Just let us
-  know what you expect and we will find the best solution for you! Fill out the
-  form below. We'll get back to you in 48 hours.
+description_contact: Fill out the form below and we'll get back to you in 48 hours.
+blog_section_tags:
+  - leadership
+blog_section_title: blog posts
+image_alt_our_service_desktop: agile workshops
+blog_section: false
+intro: We have used Agile to build over 50 projects.
+language: en
+image_alt_our_service_mobile: agile workshops
 description_mdx: We live and breathe Agile. For almost a decade we have used
   Agile methodology to develop software projects for clients from various
   industries. We provide hands-on consulting, coaching, and Agile training for
@@ -75,7 +78,6 @@ description_mdx: We live and breathe Agile. For almost a decade we have used
   experience to help you solve your project management and process problems. We
   offer face to face meetings (across Europe) and online workshops as well.
 image_our_service: /images/agile_workshops_small.png
-language: en
 ---
 
 ## who will benefit from an Agile workshop?
