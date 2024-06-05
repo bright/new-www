@@ -30,21 +30,9 @@ short_description: You can count on our expertise in interface analysis,
 order: 5
 title: embrace your idea with product design
 highlighted_word: product design
-intro: Every software needs a design touch.
-image_our_service: /images/productdesign_2.png
-image_alt_our_service: product design company
 image_our_service_desktop: /images/product_devsign_desktop.png
-image_alt_our_service_desktop: product design company
 image_our_service_mobile: /images/product_devsign_mobile.png
-image_alt_our_service_mobile: product design company
-description_mdx: >-
-  We know what it takes to create not only functional but also beautifully
-  crafted online products that are memorable to your audience. You can count on
-  our expertise in interface analysis, animation design, UX and UI design, as
-  well as root cause analysis, among many others.
-
-
-  We have worked on design projects of all sizes – from simple mobile apps to scalable enterprise software systems. We’ll happily discuss how we can turn your idea or design brief into a polished final product, optimized for all devices and platforms.
+image_alt_our_service: product design company
 bullet_points:
   - tailored UI & UX for MVP in 30 days
   - from research to whole system design
@@ -53,17 +41,7 @@ bar_stack:
   - Adobe XD
   - Figma
   - Miro
-  - desk research
-  - benchmarking
-  - In-depth interviews
-  - user personas
-  - customer journey
-  - value proposition
-  - user story mapping
-  - lo-fi wireframes
-  - ux writing
-  - prototyping
-  - accessibility
+  - Jira
 button: let's talk about design
 button2: let’s talk about design
 published: true
@@ -75,9 +53,25 @@ title_faqs: product design FAQs
 title_contact: let’s design your product
 description_contact: Tell us more about your project or idea for an app. We will
   take care of the rest. Fill out the form below.
+blog_section_tags:
+  - UX/UI design
+blog_section_title: blog posts
+image_alt_our_service_desktop: product design company
+blog_section: false
+intro: Every software needs a design touch.
 language: en
+image_alt_our_service_mobile: product design company
+description_mdx: >-
+  We know what it takes to create not only functional but also beautifully
+  crafted online products that are memorable to your audience. You can count on
+  our expertise in interface analysis, animation design, UX and UI design, as
+  well as root cause analysis, among many others.
+
+
+  We have worked on design projects of all sizes – from simple mobile apps to scalable enterprise software systems. We’ll happily discuss how we can turn your idea or design brief into a polished final product, optimized for all devices and platforms.
+image_our_service: /images/productdesign_2.png
 ---
-## Product design services that we offer
+## product design services that we offer
 
 It does not matter in which phase you are with your product, we will make sure you make the best out of it. Our product design process contains a couple of steps to ensure that your project will reflect your business goals. We are flexible, the final product design flow always depends on your needs.
 
