@@ -41,17 +41,7 @@ bar_stack:
   - Adobe XD
   - Figma
   - Miro
-  - desk research
-  - benchmarking
-  - In-depth interviews
-  - user personas
-  - customer journey
-  - value proposition
-  - user story mapping
-  - lo-fi wireframes
-  - ux writing
-  - prototyping
-  - accessibility
+  - Jira
 button: let's talk about design
 button2: let’s talk about design
 published: true
