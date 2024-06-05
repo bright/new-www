@@ -19,10 +19,10 @@ faqs:
 project:
   - finebite
   - relevo
-  - vcare
-  - bright-treasury
   - mobile-therapy-application
   - motivo
+  - HS-Baumappe
+  - Practi JET POS
 layout: our-service
 our_service_id: custom software development
 meta_title: Custom Software Development
@@ -38,17 +38,9 @@ short_description: Our custom software serves the unique processes of your
 order: 8
 title: be unique with custom software development
 highlighted_word: custom software
-intro: We help to address your clients needs.
-image_our_service: /images/customsoftwaredevelopment_small.png
-image_alt_our_service: custom software development
 image_our_service_desktop: /images/custom_software_development_desktop_big.png
-image_alt_our_service_desktop: custom software development company
 image_our_service_mobile: /images/custom_software_development_mobile_big.png
-image_alt_our_service_mobile: custom software development company
-description_mdx: Every business is unique. Bespoke software development can
-  truly address your needs, challenges, and goals. By adopting a personalized
-  approach for your software development, we also simplify and optimize your
-  workflows.
+image_alt_our_service: custom software development
 bullet_points:
   - assessment of your idea in 7 days
   - taking care of every stage of development
@@ -67,7 +59,7 @@ bar_stack:
   - NestJS
   - Java
 button: let's talk about your product
-button2: "cooperate with us "
+button2: book a free consultation
 published: true
 show_case_study: true
 show_technology_stack: true
@@ -78,9 +70,21 @@ title_contact: let’s talk about your custom solution
 description_contact: Don’t know where to start with your idea for a software
   project? Or you are looking for a custom software development company to help
   take your product to the next level? Fill out the form below.
+blog_section_tags:
+  - programming
+blog_section_title: blog posts
+image_alt_our_service_desktop: custom software development company
+blog_section: false
+intro: We help to address your clients needs.
 language: en
+image_alt_our_service_mobile: custom software development company
+description_mdx: Every business is unique. Bespoke software development can
+  truly address your needs, challenges, and goals. By adopting a personalized
+  approach for your software development, we also simplify and optimize your
+  workflows.
+image_our_service: /images/customsoftwaredevelopment_small.png
 ---
-## Is custom application development a good fit for you?
+## is custom application development a good fit for you?
 
 If your business needs an individual approach and flexible development process, a custom software development company like Bright Inventions will be a perfect fit for you. 
 
