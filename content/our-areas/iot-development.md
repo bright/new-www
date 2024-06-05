@@ -20,11 +20,12 @@ faqs:
   - Are you an IoT product design company?
   - What are IoT security services and do you provide them?
 project:
+  - Remote Patient Monitoring
+  - MedKitDoc
   - card-reader
   - smarthelp
   - Practi JET POS Mobile
   - Practi JET POS
-  - digitized-questionnaires
 layout: our-service
 our_service_id: IoT development
 meta_title: IoT Development Company
