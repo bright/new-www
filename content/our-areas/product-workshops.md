@@ -17,7 +17,11 @@ faqs:
   - product workshop 11
   - product workshop 3
 project:
-  - bright-treasury
+  - eMAR
+  - HS-Baumappe
+  - Practi JET POS
+  - MedKitDoc
+  - emergency-contact-app
 layout: our-service
 our_service_id: product workshops
 meta_title: Product workshops for business
@@ -48,10 +52,10 @@ bar_stack:
 button: let's talk about workshops
 button2: book workshop
 published: true
-show_case_study: false
+show_case_study: true
 show_technology_stack: true
 title_team: meet our product workshop team
-title_case_study: case studies
+title_case_study: clients we have supported in their tech journey
 title_faqs: product workshop FAQs
 title_contact: let's talk about product workshops for your team
 description_contact: Every product workshop is adjusted to clients needs. Just
