@@ -66,19 +66,23 @@ show_technology_stack: true
 title_team: meet our MVP development team
 title_case_study: MVPs that we have developed
 title_faqs: MVP development FAQs
-image_alt_our_service_desktop: MVP development company
-intro: We are an experienced MVP partner ready to assist you.
-image_alt_our_service_mobile: MVP development company
 title_contact: book free consultation in 48 hours
 description_contact: Fill out the form below and we'll get back to you in 48
   hours. Let’s talk about your MVP!
+blog_section_tags:
+  - business strategy
+blog_section_title: blog posts
+image_alt_our_service_desktop: MVP development company
+blog_section: false
+intro: We are an experienced MVP partner ready to assist you.
+language: en
+image_alt_our_service_mobile: MVP development company
 description_mdx: Do you want to build an MVP? You came to the right place. We
   have developed MVPs for startups, NGOs and consulting agencies from the USA,
   UK, Germany, Norway and more. Let’s work on your MVP.
 image_our_service: /images/mvp_development2.png
-language: en
 ---
-## Is MVP right for your business?
+## is MVP right for your business?
 
 MVP stands for minimum viable product. It is the first version of your product containing only key features. MVP development is a perfect solution for you if:
 
