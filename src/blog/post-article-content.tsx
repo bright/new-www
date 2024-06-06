@@ -9,7 +9,7 @@ import { navigate } from 'gatsby'
 import { ArrowBackOrange } from '../components/icons/ArrowBackOrange.icon'
 import React, { PropsWithChildren } from 'react'
 import styled from 'styled-components'
-import variables, { font } from '../styles/variables'
+import variables, { font, roundedCorners } from '../styles/variables'
 import { clampBuilder } from '../helpers/clampBuilder'
 
 const AuthorsSection = styled.article`
@@ -176,6 +176,7 @@ const AuthorsSection = styled.article`
     }
     & button {
       border: 1px solid ${variables.color.primary};
+      border-radius: ${roundedCorners};
       background: ${variables.color.primary};
       font-family: 'Montserrat', sans-serif;
       font-style: normal;

@@ -308,7 +308,8 @@ const ButtonWrapper = styled.div`
       display: block;
       width: 100%;
       & .job-button {
-        width: 100%;
+        width: calc(100% - 32px);
+        margin: 0 16px 16px 16px
       }
     }
   }

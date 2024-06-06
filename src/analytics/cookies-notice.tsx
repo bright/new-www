@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { routeLinks } from '../config/routing'
 import { TextRegular } from '../components/shared/index.styled'
 import styled from 'styled-components'
-import variables from '../styles/variables'
+import variables, { roundedCorners } from '../styles/variables'
 import { ModalCookies } from './modal-cookies'
 import { onAllowAll } from './local-storage-constants'
 import { hasUserDecidedOnAnalyticsConsentCookieName } from './has-user-decided-on-analytics-consent-cookie-name'
@@ -53,6 +53,7 @@ const SectionNotice = styled.section`
     font-weight: bold;
     cursor: pointer;
     border: 1px solid ${variables.color.primary};
+    border-radius: ${roundedCorners};
     text-transform: lowercase;
     letter-spacing: 0px;
     color: #0a0a0a;
