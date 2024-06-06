@@ -289,7 +289,7 @@ const OffersList: React.FC<{ jobs?: JobModel[] }> = ({ jobs }) => {
             <JobLink to={routeLinks.jobOffer(getJobSlug(job.url))}>
               <JobSubtitleWrapper>
                 <JobHourWrapper>
-                  <span className='job'>{job.hours}</span>Gdańsk/remote
+                  <span className='job'>{job.hours}</span>Gdańsk / hybrid model
                 </JobHourWrapper>
                 <JobSubtitle>{job.subtitle}</JobSubtitle>
               </JobSubtitleWrapper>
