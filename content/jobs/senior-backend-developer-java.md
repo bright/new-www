@@ -62,7 +62,7 @@ The person who will join our team should possess **the ability to adapt and adju
 
 ## **what you will do**
 
-* enhance an existing backend application in Java
+* enhance an existing backend application in Java/Kotlin
 * have a direct contact with business side and advise in their decision making process
 * improve internal web development processes
 * participate in software code reviews
@@ -70,9 +70,10 @@ The person who will join our team should possess **the ability to adapt and adju
 
 ## **preferred skills and qualifications**
 
-* at least 5 years of commercial programming experience (including min. 3 years in backend development)
+* at least 5 years of commercial programming experience (including min. 3 years in backend development in Java/Kotlin)
 * excellent problem solving and analytical thinking skills
 * very good working knowledge and deep understanding of Java/Kotlin
+* experience with Spring Boot framework 
 * experience with SQL databases 
 * familiarity with Google Cloud or other Cloud providers e.g. AWS/Azure
 * **very good level of English 🏴󠁧󠁢󠁥󠁮󠁧󠁿** (both written and spoken)
@@ -81,7 +82,7 @@ The person who will join our team should possess **the ability to adapt and adju
 ## **we would also appreciate if you have**
 
 * collaboration experience in the international teams 
-* experience with Spring Boot framework 
+* any practical experience with other programming languages ex. JavaScript/TypeScript
 
 ## **what you will find in our Bright Team 🧡**
 
