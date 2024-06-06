@@ -576,7 +576,7 @@ export default function Template({
         </SalaryWrapper>
         <HoursWraper>
           {page.working_time && <h4>{page.working_time}</h4>}
-          <div>Gdańsk or remote</div>
+          <div>Gdańsk or hybrid model</div>
         </HoursWraper>
         <TechnologyWrapper>
           <ul>{listTechnologies ? listTechnologies : <li></li>}</ul>
