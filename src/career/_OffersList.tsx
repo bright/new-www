@@ -7,18 +7,18 @@ import { JobModel } from '../models/gql'
 import variables from '../styles/variables'
 
 const JobWrapper = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  gap: ${variables.pxToRem(63)};
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: ${variables.pxToRem(63)};
   @media ${variables.device.laptop} {
-    gap: ${variables.pxToRem(55)};
+    grid-gap: ${variables.pxToRem(55)};
   }
   @media ${variables.device.tabletXL} {
-    gap: ${variables.pxToRem(43)};
+    grid-gap: ${variables.pxToRem(43)};
   }
   @media ${variables.device.tablet} {
-    gap: ${variables.pxToRem(32)};
-    flex-direction: column;
+    grid-gap: ${variables.pxToRem(32)};
+    grid-template-columns: 1fr;
   }
 `
 
@@ -285,8 +285,8 @@ const OffersList: React.FC<{ jobs?: JobModel[] }> = ({ jobs }) => {
     <>
       <JobWrapper>
         {(jobs || []).map(job => (
-          <Job >
-            <JobLink to={routeLinks.jobOffer(getJobSlug(job.url))}>
+          <JobLink to={routeLinks.jobOffer(getJobSlug(job.url))}>
+            <Job>
               <JobSubtitleWrapper>
                 <JobHourWrapper>
                   <span className='job'>{job.hours}</span>Gdańsk / hybrid model
@@ -313,8 +313,8 @@ const OffersList: React.FC<{ jobs?: JobModel[] }> = ({ jobs }) => {
                   })}
                 </JobInfo>
               </Info>
-            </JobLink>
-          </Job>
+            </Job>
+          </JobLink>
         ))}
       </JobWrapper>
       <JobSentence>
