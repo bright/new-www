@@ -36,7 +36,7 @@ title: scale your HealthTech solution in demanding post-covid times
 highlighted_word: HealthTech
 image_our_service_desktop: /images/healthtech_consulting_web.png
 image_our_service_mobile: /images/healthtech_consulting_mobile_update.png
-image_alt_our_service: HealthTech cosulting
+image_alt_our_service: HealthTech consulting
 bullet_points:
   - scaling from MVP to a global solution
   - support at every stage of development
