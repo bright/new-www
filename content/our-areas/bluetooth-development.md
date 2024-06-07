@@ -15,12 +15,13 @@ faqs:
   - "What is iBeacon technology? "
   - What technology stack is used by a Bluetooth app development company?
 project:
+  - Remote Patient Monitoring
+  - MedKitDoc
   - motivo
-  - easytapp
-  - smarthelp
   - Practi JET POS
   - Practi JET POS Mobile
-  - MedKitDoc
+  - easytapp
+  - smarthelp
 layout: our-service
 our_service_id: bluetooth development
 meta_title: Bluetooth Development
