@@ -32,8 +32,8 @@ slug: healthcare-software-development
 short_description: Over the course of a decade, we have partnered with numerous
   startups and SMEs representing the healthcare industry.
 order: 1
-title: scale your HealthTech solution in demanding post-covid times
-highlighted_word: HealthTech
+title: scale trustworthy HealthTech solutions
+highlighted_word: trustworthy HealthTech
 image_our_service_desktop: /images/healthtech_consulting_desktop_update.png
 image_our_service_mobile: /images/healthtech_consulting_mobile_update.png
 image_alt_our_service: HealthTech consulting
