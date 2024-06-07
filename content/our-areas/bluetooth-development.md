@@ -34,20 +34,11 @@ short_description: We have developed Bluetooth applications for international
   clients representing the retail, healthcare, and fitness industries. Our team
   specializes in Bluetooth Low Energy and iBeacon technology.
 order: 11
-title: build apps with Bluetooth development team
+title: scale your app with secure Bluetooth
 highlighted_word: Bluetooth
-intro: We deliver Bluetooth-based solutions.
-image_our_service: /images/bluetooth_development_poland.png
-image_alt_our_service: Bluetooth app development Poland
 image_our_service_desktop: /images/bluetooth_development_services_desktop_big.png
-image_alt_our_service_desktop: Bluetooth app development company
 image_our_service_mobile: /images/bluetooth_development_services_mobile_big.png
-image_alt_our_service_mobile: Bluetooth app development services
-description_mdx: We deliver Bluetooth-based solutions. We have developed
-  Bluetooth applications for international clients representing the retail,
-  healthcare, and fitness industries. We specialize in Bluetooth Low Energy
-  solutions and iBeacon technology. We deliver customized mobile & web
-  applications connected with hardware thanks to Bluetooth technology.
+image_alt_our_service: Bluetooth app development Poland
 bullet_points:
   - customized Bluetooth solutions for web & mobile
   - iOS and Android Bluetooth apps in 3 to 6 months
@@ -72,7 +63,20 @@ title_contact: let’s talk about your Bluetooth solution
 description_contact: Whether your project is just an idea or an existing system
   Bright Inventions, as a Bluetooth development company, can help you in any
   phase of your software development. Fill out the form below.
+blog_section_tags:
+  - programming
+blog_section_title: blog posts
+image_alt_our_service_desktop: Bluetooth app development company
+blog_section: false
+intro: We deliver Bluetooth-based solutions.
 language: en
+image_alt_our_service_mobile: Bluetooth app development services
+description_mdx: We deliver Bluetooth-based solutions. We have developed
+  Bluetooth applications for international clients representing the retail,
+  healthcare, and fitness industries. We specialize in Bluetooth Low Energy
+  solutions and iBeacon technology. We deliver customized mobile & web
+  applications connected with hardware thanks to Bluetooth technology.
+image_our_service: /images/bluetooth_development_poland.png
 ---
 ## what is Bluetooth and why you might need it?
 
