@@ -15,7 +15,6 @@ faqs:
   - "What is iBeacon technology? "
   - What technology stack is used by a Bluetooth app development company?
 project:
-  - vcare
   - motivo
   - easytapp
   - smarthelp
