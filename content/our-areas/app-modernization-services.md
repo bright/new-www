@@ -32,8 +32,8 @@ short_description: We transform legacy systems into modern, scalable, and
 order: 3
 title: give your legacy new life with app modernization
 highlighted_word: app modernization
-image_our_service_desktop: /images/legacy_revamp.png
-image_our_service_mobile: /images/legacy_revamp_mobile.png
+image_our_service_desktop: /images/legacy_revamp_new.png
+image_our_service_mobile: /images/legacy_revamp_mobile_new.png
 image_alt_our_service: Legacy modernization
 bullet_points:
   - partner with an EU-based company
