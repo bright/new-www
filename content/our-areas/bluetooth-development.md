@@ -20,6 +20,7 @@ project:
   - smarthelp
   - Practi JET POS
   - Practi JET POS Mobile
+  - MedKitDoc
 layout: our-service
 our_service_id: bluetooth development
 meta_title: Bluetooth Development
