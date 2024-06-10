@@ -23,7 +23,6 @@ project:
   - pregnancy-app
   - HS-Baumappe
   - mobile-therapy-application
-  - pregnancy-app
   - tms
 layout: our-service
 our_service_id: MVP development
