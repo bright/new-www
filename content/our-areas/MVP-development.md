@@ -18,12 +18,12 @@ faqs:
   - mvp development 7
   - mvp development 8
 project:
+  - relevo
   - solution-parkinson
   - pregnancy-app
   - cryptoAtlas
   - mobile-therapy-application
   - xpomaker
-  - bright-treasury
 layout: our-service
 our_service_id: MVP development
 meta_title: MVP Development Agency
