@@ -4,10 +4,10 @@ team_members:
   - michal-l
   - bartek k
   - maciej-n
-  - jacek
   - adam-w
   - wojciech-k
   - klaudiusz
+  - agnieszka
 faqs:
   - What benefits do cloud services offer?
   - What are cloud services and how do they work?
@@ -61,12 +61,16 @@ show_technology_stack: true
 title_team: meet our cloud computing team
 title_case_study: cloud services projects we have worked on
 title_faqs: cloud services FAQs
+title_contact: let’s talk about your cloud solution
+description_contact: Are you looking for a cloud computing company? Fill out the form below.
+blog_section_tags:
+  - backend
+blog_section_title: blog posts
 image_alt_our_service_desktop: cloud computing services
+blog_section: false
 intro: Improve security with cloud computing company.
 language: en
 image_alt_our_service_mobile: cloud computing services
-title_contact: let’s talk about your cloud solution
-description_contact: Are you looking for a cloud computing company? Fill out the form below.
 description_mdx: Join the serverless movement. Improve security and reduce costs
   with cloud computing services. Migrate your solution to the cloud or develop a
   cloud application from the scratch. As an AWS cloud services provider, we will
