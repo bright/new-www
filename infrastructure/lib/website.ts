@@ -11,6 +11,7 @@ import cloudfront, {
   SourceConfiguration,
   ViewerCertificate,
   Function as CloudfrontFunction,
+  PriceClass
 } from 'aws-cdk-lib/aws-cloudfront'
 import { Effect, PolicyStatement, User } from 'aws-cdk-lib/aws-iam'
 import { productionDomainNames, stagingDomainNames } from './domain-names'
@@ -155,6 +156,7 @@ export class Website extends cdk.Stack {
     }
 
     const productionWebDistribution = new CloudFrontWebDistribution(this, 'distribution', {
+      priceClass: PriceClass.PRICE_CLASS_ALL,
       originConfigs: [
         ebooksDownloadOrigin,
         apiOrigin,
@@ -179,6 +181,7 @@ export class Website extends cdk.Stack {
     })
 
     const stagingWebDistribution = new CloudFrontWebDistribution(this, 'staging-distribution', {
+      priceClass: PriceClass.PRICE_CLASS_ALL,
       originConfigs: [
         ebooksDownloadOrigin,
         apiOrigin,
