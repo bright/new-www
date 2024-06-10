@@ -19,11 +19,11 @@ faqs:
   - "What are cloud applications? "
   - What is cloud application development?
 project:
-  - bright-treasury
   - digitized-questionnaires
   - Practi JET POS
   - relevo
   - circles
+  - MedKitDoc
 layout: our-service
 our_service_id: cloud services
 meta_title: Cloud Computing Services
