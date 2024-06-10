@@ -84,7 +84,7 @@ const Wrapper = styled.div`
     }
   }
 
-  h3 div p.title {
+  h3 div p.slider-title {
     font-family: Montserrat, "DejaVu Sans", Verdana, sans‑serif, serif;
     font-size: 1.25rem;
     font-weight: 900;

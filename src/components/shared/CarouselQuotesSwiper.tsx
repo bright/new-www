@@ -265,7 +265,7 @@ export const CarouselQuotesSwiper: React.FC<CarouselQuotesSwiperProps> = ({quote
                             mobileDirection='column'
                             tabletXLWrap='wrap'
                           >
-                            <p className="title">{short_name}{bio ? ',' : ''}</p>
+                            <p className="slider-title">{short_name}{bio ? ',' : ''}</p>
                             <p>{bio}</p>
                           </FlexWrapper>
                         </QuoteTextTitle>
