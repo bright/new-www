@@ -7,7 +7,7 @@ team_members:
   - joanna-c
   - tomasz-l
   - piotr_r
-  - jacek
+  - mateuszg
 faqs:
   - Can you provide a detailed cost estimate for the modernization project? |
     Modernization
