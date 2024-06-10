@@ -13,6 +13,8 @@ faqs:
     Modernization
   - What is your experience in application modernization? | Modernization
   - What are the benefits of legacy modernization? | Modernization
+  - Do you provide maintenance and support throughout and after the project? |
+    Modernization
 project:
   - MedKitDoc
   - Practi JET POS
