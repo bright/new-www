@@ -21,9 +21,10 @@ project:
   - relevo
   - solution-parkinson
   - pregnancy-app
-  - cryptoAtlas
+  - HS-Baumappe
   - mobile-therapy-application
-  - xpomaker
+  - pregnancy-app
+  - tms
 layout: our-service
 our_service_id: MVP development
 meta_title: MVP Development Agency
