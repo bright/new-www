@@ -20,7 +20,7 @@ There are more parallels between nature and project management than you might th
 
 ### Forest Succession
 
-A comparison of process change to forest succession is an idea introduced to me by Esther Derby during the ScanAgile24 conference in Helsinki, and it resonated deeply. Simply put, a forest does not appear overnight. First, the soil needs preparation, followed by the appearance of small shrubs, and so on. The trees will not grow immediately; all these steps are necessary. It’s a process. One cannot simply plant a forest on any soil and expect a lush explosion of greenery the next day.
+A comparison of process change to forest succession is an idea introduced to me by [Esther Derby](https://estherderby.com/) during the [ScanAgile 2024 conference](https://www.scan-agile.org/previous/scanagile-2024/program-2024/) in Helsinki, and it resonated deeply. Simply put, a forest does not appear overnight. First, the soil needs preparation, followed by the appearance of small shrubs, and so on. The trees will not grow immediately; all these steps are necessary. It’s a process. One cannot simply plant a forest on any soil and expect a lush explosion of greenery the next day.
 
 <div className="image">![](/images/pexels-lauripoldre-20630040.jpg "")</div>
 
@@ -54,7 +54,7 @@ In a crowded patch, it’s hard for all plants to grow harmoniously. The fastest
 
 Company culture and its values build the soil—the environment in which we can all grow or slowly wilt. Do you want a thriving environment? As Esther Derby pointed out in her ScanAgile24 presentation, do not focus only on hiring the best people. Work on the soil—the company environment—as well. 
 
-<div className="image">![](/images/pexels-fotios-photos-1301856.jpg "")</div>
+<div className="image">![](/images/pexels-binyaminmellish-169523.jpg "")</div>
 
 That said, just as with plants and soils, not every soil will benefit every plant. Some, however, are more fertile than others, and that’s always a good start.
 
@@ -62,6 +62,6 @@ That said, just as with plants and soils, not every soil will benefit every plan
 
 Thinking about the Agile team as a garden is also a good ego check for Scrum Masters. A team of gardeners without any plants or soil will not produce any growth, whereas just a bunch of plants would more or less form a garden. The same applies to Scrum Masters. A team of Scrum Masters could conduct a really nice retrospective but would not produce business value, whereas a group of developers, without a Scrum Master, could do some (more or less) valuable work. The role of a Scrum Master is important, and a good Scrum Master can make a crucial impact, but it’s not a one-man show.
 
-<div className="image">![](/images/pexels-binyaminmellish-169523.jpg "")</div>
+<div className="image">![](/images/pexels-anete-lusina-6331046.jpg "")</div>
 
 Agile means a sustainable approach. One that focuses on delivering quickly, yes, but with a long-term goal in mind. We’re not there yet with the product, but we want to get your feedback to improve in the next steps. All this embracing change and building increments—it’s worth it only if there will be next steps, ones in which we incorporate the feedback and grow. Agile also means focusing on people, as they are the ones who need the product and the ones who work on the product. Finding a harmonious way to develop solutions and operate an organization needs to be sustainable, so why not draw inspiration from the queen of sustainability—Mother Nature?
