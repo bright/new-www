@@ -5,6 +5,8 @@ tags:
   - agile mindset
   - project management
   - teamwork
+  - leadership
+  - bright insights
 date: 2024-06-11T11:41:27.180Z
 meaningfullyUpdatedAt: 2024-06-11T11:41:27.197Z
 title: Blooming teams, the sustainable Agile way
@@ -52,7 +54,9 @@ In a crowded patch, it’s hard for all plants to grow harmoniously. The fastest
 
 ### The Soil
 
-**Company culture and its values build the soil**—the environment in which we can all grow or slowly wilt. Do you want a thriving environment? As Esther Derby pointed out in her ScanAgile24 presentation, do not focus only on hiring the best people. Work on the soil—the company environment—as well. 
+**Company culture and its values build the soil**—the environment in which we can all grow or slowly wilt. Do you want a thriving environment? As Esther Derby pointed out in her ScanAgile presentation, do not focus only on hiring the best people. Work on the soil—the company environment—as well. 
+
+I think that this point of view represents the way we work at Bright Inventions. The values, communication, culture and feedback allow people to grow together and stick together. Recruitment of great talents is not enough, we do not meet as final versions of ourselves. It takes dedication and care to build such thriving environment and I'm very proud of what we've accomplished at Bright.
 
 <div className="image">![](/images/pexels-binyaminmellish-169523.jpg "")</div>
 
