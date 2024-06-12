@@ -19,11 +19,11 @@ language: en
 
 ## Meet with our team and share your story
 
-Mateusz and Agata will represent Bright Inventions at HLTH Europe. As a media partner, we plan to meet as many HealthTech companies as possible and share their stories. Connect with Mateusz and Agata to grab a coffee during the event and discuss your healthcare solution.
-
-[Connect on LinkedIn with Mateusz](https://www.linkedin.com/in/klimczak-mateusz/)
+Agata and Mateusz will represent Bright Inventions at HLTH Europe. As a media partner, we plan to meet as many HealthTech companies as possible and share their stories. **Connect with Agata and Mateusz to grab a coffee during the event and discuss your healthcare solution**.
 
 [Connect on LinkedIn with Agata](https://www.linkedin.com/in/agata-piwko-269077b5/)
+
+[Connect on LinkedIn with Mateusz](https://www.linkedin.com/in/klimczak-mateusz/)
 
 <div className="image">![Bright Inventions at HLTH Europe](/images/hlth_amsterdam_blog_cover.png "Bright Inventions at HLTH Europe")</div>
 
