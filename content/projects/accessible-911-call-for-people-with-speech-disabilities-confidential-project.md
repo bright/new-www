@@ -5,8 +5,8 @@ our_service:
   - healthcare software development
 layout: project
 project_id: emergency-contact-app
-title: Emergency Services Accessible for People with Speech Disabilities
-  [Confidential Project]
+title: Emergency Services Accessible to People with Hearing Loss [Confidential
+  Project]
 image: /images/case_study_emergency_911_app.png
 description: The American emergency dispatch system, established in the 1960s,
   originally relied on landlines and still doesn't support text messaging. This
