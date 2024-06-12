@@ -7,7 +7,7 @@ date: 2024-04-08T06:30:55.006Z
 meaningfullyUpdatedAt: 2024-04-08T06:30:55.992Z
 title: Let’s Meet at HLTH Europe and Spread the Word About Your HealthTech Company
 layout: post
-image: /images/hlth_europe_blog_cover.png
+image: /images/hlth_amsterdam_blog_cover.png
 hidden: false
 comments: true
 published: true
@@ -25,7 +25,7 @@ Mateusz and Agata will represent Bright Inventions at HLTH Europe. As a media pa
 
 [Connect on LinkedIn with Agata](https://www.linkedin.com/in/agata-piwko-269077b5/)
 
-<div className="image">![Bright Inventions at HLTH Europe](/images/hlth_media_partner_cover.png "Bright Inventions at HLTH Europe")</div>
+<div className="image">![Bright Inventions at HLTH Europe](/images/hlth_amsterdam_blog_cover.png "Bright Inventions at HLTH Europe")</div>
 
 ## Register with a discount
 
