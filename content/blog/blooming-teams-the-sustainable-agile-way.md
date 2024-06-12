@@ -11,7 +11,8 @@ date: 2024-06-11T11:41:27.180Z
 meaningfullyUpdatedAt: 2024-06-11T11:41:27.197Z
 title: Blooming teams, the sustainable Agile way
 layout: post
-hidden: false
+image: /images/pexels-anete-lusina-6331046.jpg
+hidden: true
 comments: true
 published: true
 language: en
@@ -56,16 +57,14 @@ In a crowded patch, it’s hard for all plants to grow harmoniously. The fastest
 
 **Company culture and its values build the soil**—the environment in which we can all grow or slowly wilt. Do you want a thriving environment? As Esther Derby pointed out in her ScanAgile presentation, do not focus only on hiring the best people. Work on the soil—the company environment—as well. 
 
-I think that this point of view represents the way we work at Bright Inventions. The values, communication, culture and feedback allow people to grow together and stick together. Recruitment of great talents is not enough, we do not meet as final versions of ourselves. It takes dedication and care to build such thriving environment and I'm very proud of what we've accomplished at Bright.
-
 <div className="image">![](/images/pexels-binyaminmellish-169523.jpg "")</div>
+
+I think that this point of view represents the way we work at Bright Inventions. **The values, communication, culture and feedback allow people to grow together and stick together.** Recruitment of great talents  is not enough, we do not meet as final versions of ourselves. It takes dedication and care to build a thriving environment and I greatly appreciate what we create every day at Bright.
 
 That said, just as with plants and soils, not every soil will benefit every plant. Some, however, are more fertile than others, and that’s always a good start.
 
-### The Gardener
+### Sustainability
 
-Thinking about the Agile team as a garden is also a good ego check for Scrum Masters. A team of gardeners without any plants or soil will not produce any growth, whereas just a bunch of plants would more or less form a garden. The same applies to Scrum Masters. A team of Scrum Masters could conduct a really nice retrospective but would not produce business value, whereas a group of developers, without a Scrum Master, could do some (more or less) valuable work. The role of a Scrum Master is important, and a good Scrum Master can make a crucial impact, but it’s not a one-man show.
-
+**Agile means a sustainable approach.** One that focuses on delivering quickly, yes, but with a long-term goal in mind. We’re not there yet with the product, but we want to get your feedback to improve in the next steps. All this embracing change and building increments—it’s worth it only if there will be next steps, ones in which we incorporate the feedback and grow. 
 <div className="image">![](/images/pexels-anete-lusina-6331046.jpg "")</div>
-
-**Agile means a sustainable approach.** One that focuses on delivering quickly, yes, but with a long-term goal in mind. We’re not there yet with the product, but we want to get your feedback to improve in the next steps. All this embracing change and building increments—it’s worth it only if there will be next steps, ones in which we incorporate the feedback and grow. Agile also means focusing on people, as they are the ones who need the product and the ones who work on the product. Finding a harmonious way to develop solutions and operate an organization needs to be sustainable, so why not draw inspiration from the queen of sustainability—Mother Nature?
+Agile also means focusing on people, as they are the ones who need the product and the ones who work on the product. Finding a harmonious way to develop solutions and operate an organization needs to be sustainable, so why not draw inspiration from the queen of sustainability—Mother Nature?
