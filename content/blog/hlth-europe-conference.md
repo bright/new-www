@@ -4,7 +4,7 @@ tags:
   - HealthTech
   - bright insights
 date: 2024-04-08T06:30:55.006Z
-meaningfullyUpdatedAt: 2024-04-08T06:30:55.992Z
+meaningfullyUpdatedAt: 2024-06-12T13:08:40.611Z
 title: Let’s Meet at HLTH Europe and Spread the Word About Your HealthTech Company
 layout: post
 image: /images/hlth_amsterdam_blog_cover.png
