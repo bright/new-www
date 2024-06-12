@@ -29,7 +29,9 @@ Agata and Mateusz will represent Bright Inventions at HLTH Europe. As a media pa
 
 ## Register with a discount
 
-Haven’t you registered for the conference yet? **We’ve got a discount code for you! Save €150 on your ticket with this code: HE24_BI150. [Register now](https://europe.hlth.com/?utm_source=brightinventions.pl&utm_medium=referral&utm_campaign=blog_post)!**
+Haven’t you registered for the conference yet? Join 3,500+ health leaders from over 50 countries. Also, take a part in sessions with over 280 industry leaders taking the HLTH stage.
+
+**We’ve got a discount code for you! Save €150 on your ticket with this code: HE24_BI150. [Register now](https://europe.hlth.com/?utm_source=brightinventions.pl&utm_medium=referral&utm_campaign=blog_post)!**
 
 <div className="image">![HLTH Europe](../../static/images/bright-inventions-co-marketing-partner-email-header-1920-x-1080-px-2-.jpg "HLTH Europe")</div>
 
