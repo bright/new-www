@@ -7,9 +7,9 @@ tags:
   - leadership
 date: 2024-06-11T11:41:27.180Z
 meaningfullyUpdatedAt: 2024-06-11T11:41:27.197Z
-title: Blooming teams, the sustainable Agile way
+title: Blooming Teams, the Sustainable Agile Way
 layout: post
-image: /images/pexels-anete-lusina-6331046.jpg
+image: /images/blog_agile_garden.png
 hidden: true
 comments: true
 published: true
