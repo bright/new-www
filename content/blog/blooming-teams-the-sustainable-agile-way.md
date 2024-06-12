@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2024-06-11T11:41:27.197Z
 title: Blooming Teams, the Sustainable Agile Way
 layout: post
 image: /images/blog_agile_garden.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
