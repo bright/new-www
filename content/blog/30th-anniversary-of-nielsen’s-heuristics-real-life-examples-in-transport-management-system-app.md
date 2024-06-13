@@ -5,6 +5,7 @@ meaningfullyUpdatedAt: 2024-06-13T10:15:37.253Z
 title: 30th Anniversary of Nielsen’s Heuristics - Real Life Examples in
   Transport Management System App
 layout: post
+image: /images/artboard-1.png
 hidden: false
 comments: true
 published: true
