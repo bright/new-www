@@ -13,7 +13,7 @@ language: en
 ---
 30 years ago, one of the pioneers of UX, Jakob Nielsen introduced 10 usability heuristics, which now have become the general rules of thumb when it comes to designing digital products with better user experience. What are the now iconic heuristics? How do we apply these principles when designing products? Let me show you.
 
-## 1. Visibility of the system status
+## 1. Visibility of The System Status
 
 > The design should always keep users informed about what is going on, through appropriate feedback within a reasonable amount of time.
 
@@ -23,7 +23,7 @@ To achieve that we need to make sure the system communicates every action the us
 
 We’re explaining to users who clicked on an offer, which has expired, why they cannot go further in the system with it, by showing a toast for a few seconds with appropriate information.
 
-## 2. Match between the system and the real world
+## 2. Match Between The System and The Real World
 
 > The design should speak the users' language. Use words, phrases, and concepts familiar to the user, rather than internal jargon. Follow real-world conventions, making information appear in a natural and logical order.
 
