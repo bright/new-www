@@ -6,7 +6,7 @@ date: 2024-06-13T10:15:37.239Z
 meaningfullyUpdatedAt: 2024-06-13T10:15:37.253Z
 slug: nielsen-heuristics-examples
 title: 30th Anniversary of Nielsen’s Heuristics - Real Life Examples in
-  Transport Management System App
+  Transport Management System
 layout: post
 image: /images/nielsen_cover.png
 hidden: false
