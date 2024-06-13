@@ -24,7 +24,11 @@ language: en
 
 To achieve that we need to make sure the system communicates every action the user takes. We shouldn’t leave them without any feedback. Let’s take a look at the TMS app: 
 
+<center>
+
 <div className="image">![A toast with text "Offer no longer available"](/images/screenshot-2024-06-13-at-11.48.28.png "")</div>
+
+</center>
 
 We’re explaining to users who clicked on an offer, which has expired, why they cannot go further in the system with it, by showing a toast for a few seconds with appropriate information.
 
@@ -50,7 +54,11 @@ Clear navigation and an accessible back button are always available. This allows
 
 No matter what the button's purpose, the pattern of the state, whether they’re disabled or focused, should always stay the same. That way, whenever the user interacts with it, they know what’s going on and it enhances the learnability aspect of the system. 
 
+<center>
+
 <div className="image">![buttons in the design system](/images/screenshot-2024-06-12-at-15.21.06.png "")</div>
+
+</center>
 
 ## 5. Error Prevention
 
@@ -58,7 +66,11 @@ No matter what the button's purpose, the pattern of the state, whether they’re
 
 Before performing a significant action that could have an effect on other instances, always confirm with the user. There’s always a possibility that the user clicked on it by mistake. What then? 
 
+<center>
+
 <div className="image">![](/images/pop-up.png "")</div>
+
+</center>
 
 ## 6. Recognition Rather than Recall
 
@@ -92,7 +104,11 @@ Hierarchy of information is crucial here. It helps to avoid visual clutter and r
 
 The user knows that they need to insert the correct date in the appropriate format. The message is clear, the date format is given, so that there’s no doubt about what should be corrected. 
 
-<div className="image">![](/images/screenshot-2024-06-13-at-12.08.39.png "")</div>
+<center>
+
+<div className="image">![date UI](/images/screenshot-2024-06-13-at-12.08.39.png "")</div>
+
+</center>
 
 ## 10. Help and Documentation
 
@@ -100,9 +116,13 @@ The user knows that they need to insert the correct date in the appropriate form
 
 In such cases, a hover interaction on the information icon explaining what the shortcuts might mean for the new users is always available by the “suggested car” label. 
 
-<div className="image">![](/images/info.png "")</div>
+<center>
+
+<div className="image">![label](/images/info.png "")</div>
+
+</center>
 
 \
 As you can see, 30 years have passed since Nielsen introduced the guidelines of creating a user-friendly interface, however they’re still very much true. It’s likely that they will apply for the future UI. The question is whether (or how much) will they adjust to new technologies? 
 
-You can find out more about heuristics here: [nngroup.com/articles/ten-usability-heuristics](nngroup.com/articles/ten-usability-heuristics)
+You can find out more about heuristics here: [nngroup.com/articles/ten-usability-heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)
