@@ -9,7 +9,7 @@ title: 30th Anniversary of Nielsen’s Heuristics - Real Life Examples in
   Transport Management System
 layout: post
 image: /images/nielsen_cover.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
