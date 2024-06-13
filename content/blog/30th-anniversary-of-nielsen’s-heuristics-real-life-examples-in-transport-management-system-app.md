@@ -8,7 +8,7 @@ slug: nielsen-heuristics-examples
 title: 30th Anniversary of Nielsen’s Heuristics - Real Life Examples in
   Transport Management System App
 layout: post
-image: /images/artboard-1.png
+image: /images/nielsen_cover.png
 hidden: false
 comments: true
 published: true
@@ -16,7 +16,7 @@ language: en
 ---
 30 years ago, one of the pioneers of UX, Jakob Nielsen introduced 10 usability heuristics, which now have become the general rules of thumb when it comes to designing digital products with better user experience. What are the now iconic heuristics? How do we apply these principles when designing products? Let me show you.
 
-<div className="image">![30th Anniversary of Nielsen’s Heuristics](/images/artboard-1.png "30th Anniversary of Nielsen’s Heuristics")</div>
+<div className="image">![30th Anniversary of Nielsen’s Heuristics](/images/nielsen_cover.png "30th Anniversary of Nielsen’s Heuristics")</div>
 
 ## 1. Visibility of the system status
 
