@@ -46,7 +46,7 @@ Icons that inform about the status of the car, such as loading, unloading and en
 
 Clear navigation and an accessible back button are always available. This allows users to exit whenever they want to and freely navigate through the whole application.
 
-<div className="image">![screen from the TMS app](/images/default-view-add-order-one-vehicle-collapsed-summary-section.png "")</div>
+<div className="image">![screen from the TMS app](/images/going_back.png "")</div>
 
 ## 4. Consistency and Standards
 
@@ -96,7 +96,7 @@ Those users who are more experienced might want to narrow down the offers to spe
 
 Hierarchy of information is crucial here. It helps to avoid visual clutter and reduce cognitive load.
 
-<div className="image">![](/images/add-external-carrier.png "")</div>
+<div className="image">![add carrier](/images/add-external-carrier-2.png "")</div>
 
 ## 9. Help Users Recognize, Diagnose, and Recover from Errors
 
@@ -118,7 +118,7 @@ In such cases, a hover interaction on the information icon explaining what the s
 
 <center>
 
-<div className="image">![label](/images/info.png "")</div>
+<div className="image">![label](/images/mockup_tms_ui_blank.png "")</div>
 
 </center>
 
