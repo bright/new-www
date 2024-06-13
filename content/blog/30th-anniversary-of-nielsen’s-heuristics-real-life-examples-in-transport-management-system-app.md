@@ -1,5 +1,9 @@
 ---
 author: joanna-c
+tags:
+  - UX
+  - UI
+  - Product Design
 date: 2024-06-13T10:15:37.239Z
 meaningfullyUpdatedAt: 2024-06-13T10:15:37.253Z
 title: 30th Anniversary of Nielsen’s Heuristics - Real Life Examples in
