@@ -118,7 +118,7 @@ In such cases, a hover interaction on the information icon explaining what the s
 
 <center>
 
-<div className="image">![label](/images/mockup_tms_ui_blank.png "")</div>
+<div className="image">![label](/images/tms_smaller_mockup.png "")</div>
 
 </center>
 
