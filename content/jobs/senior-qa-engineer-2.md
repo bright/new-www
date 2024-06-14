@@ -43,13 +43,15 @@ We place a strong emphasis on accountability, and we value team members who take
 
 ## about the project 🧑🏻‍💻🧑🏻‍💻
 
-The system has been in production for over eight years and is used by the largest organizations in the world. The app orchestrate hundreds of millions of customer interactions every day, including the most sensitive transactions in the world. The system orchestrate the most complex policies of the most significant organizations in the world, and we do it reliably, at scale.
+The system has been in production for over eight years and is used by the largest organizations in the world. The app orchestrates hundreds of millions of customer interactions every day, including the most sensitive transactions globally. It handles the most complex policies of major organizations reliably and at scale.
 
 Identity orchestration allows you to offload identity logic and workflows from your application - the system is typically layered on top to resolve complexity and make your identity projects successful. Instead of writing code, user can graphically design workflows for authentication, identity proofing, and fraud detection.
 
 ## about the role 🧑🏻‍💻🧑🏻‍💻
 
-We are looking for a business-oriented senior QA engineer to join one of our project teams responsible for building the leading identity orchestration solution for enterprises. 
+We are looking for a business-oriented Senior QA Engineer to join one of our project teams responsible for building the leading identity orchestration solution for enterprises.
+
+You would join the team as the most experienced person in testing, closely collaborating with manual QA, developers, and the client. The environment is complex, as the client has several products, and you would test not only the orchestration app but also the interactions between these products. One of your first tasks would be to choose the technology stack, but the base is JS/TS.
 
 
 
@@ -65,12 +67,12 @@ We are looking for a business-oriented senior QA engineer to join one of our pro
 ## preferred skills & experience
 
 * at least 4 years of full-time commercial QA experience including significant product experience (both web and mobile)
+* strong experience with API automation testing (TS/JS) 
 * knowledge of various testing frameworks and their adaptation to project needs
 * a client-focused approach coupled with excellent communication skills (you'll be involved in business meetings)
 * the ability to adapt to changing contexts and priorities
 * experience with DB testing (e.g. PostgreSQL, DataGrip), performance testing and API testing (e.g. Postman, Swagger, REST, Charles) 
 * experience with non-functional testing: performance, load, stress testing
-* experience with API automation testing (TS/JS) 
 * solid knowledge of Git and CI/CD tools 
 * strong problem solving and analytical skills
 * accuracy and attention to details
