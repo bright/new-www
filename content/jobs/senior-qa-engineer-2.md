@@ -10,12 +10,7 @@ salary_min: 13300
 salary_max: 19000
 working time: full time
 technology:
-  - Manual testing
-  - Automated testing
-  - API Testing
-  - Git
-  - CI/CD
-  - PostgreSQL
+  - TypeScript
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -46,22 +41,28 @@ At Bright Inventions you'll be an important part of [](https://brightinventions.
 
 We place a strong emphasis on accountability, and we value team members who take ownership of their work and are willing to make improvements based on regular and open feedback. Positive attitude, flexibility and teamwork are elemental parts of our success. Instead of focusing on problems we empower our team members to identify issues, propose solutions, and contribute to continuous growth.
 
+## about the project 🧑🏻‍💻🧑🏻‍💻
+
+The system has been in production for over eight years and is used by the largest organizations in the world. The app orchestrate hundreds of millions of customer interactions every day, including the most sensitive transactions in the world. The system orchestrate the most complex policies of the most significant organizations in the world, and we do it reliably, at scale.
+
+Identity orchestration allows you to offload identity logic and workflows from your application - the system is typically layered on top to resolve complexity and make your identity projects successful. Instead of writing code, user can graphically design workflows for authentication, identity proofing, and fraud detection.
+
 ## about the role 🧑🏻‍💻🧑🏻‍💻
 
-We are looking for a business-oriented senior QA engineer to join one of our [project ](https://brightinventions.pl/projects/card-tracking-system/)teams responsible for building a Card Tracking System for one of the global humanitarian organisations.
+We are looking for a business-oriented senior QA engineer to join one of our project teams responsible for building the leading identity orchestration solution for enterprises. 
 
-**This position supports both manual testing activities (approx. 70% of working time) and automated tests.** It includes collaborating with the product owners and engineers to define testing needs and priorities, creating test plans, scripts and strategies for new product initiatives as well as improving user experience while optimising our software development life cycle. **Agile mindset, flexibility and excellent prioritising skills are must haves in this role.**
+
 
 ## your job will include
 
-* testing new functionalities in accordance with their specification (70% manual tests, 30% automated tests)
+* automation testing new functionalities in accordance with their specification
 * defining acceptance criteria for features and optimisation of testing processes
-* close collaboration with developers & PM team on the app implementation
+* close collaboration with manual QA, developers & PM team on the app implementation
 * conducting various non-functional tests to evaluate aspects such as performance, usability, reliability, scalability, security, and compatibility
 * API testing and endpoint testing (Postman)
 * maintenance of documentation
 
-## preferred skills & experience 
+## preferred skills & experience
 
 * at least 4 years of full-time commercial QA experience including significant product experience (both web and mobile)
 * knowledge of various testing frameworks and their adaptation to project needs
