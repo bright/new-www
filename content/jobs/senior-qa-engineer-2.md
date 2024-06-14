@@ -49,7 +49,7 @@ Identity orchestration allows you to offload identity logic and workflows from y
 
 ## about the role 🧑🏻‍💻🧑🏻‍💻
 
-We are looking for a business-oriented Senior QA Engineer to join one of our project teams responsible for building the leading identity orchestration solution for enterprises.
+We are looking for a business-oriented, open-to-diverse-technologies Senior QA Engineer to join one of our project teams responsible for building the leading identity orchestration solution for enterprises.
 
 You would join the team as the most experienced person in testing, closely collaborating with manual QA, developers, and the client. The environment is complex, as the client has several products, and you would test not only the orchestration app but also the interactions between these products. One of your first tasks would be to choose the technology stack, but the base is JS/TS.
 
