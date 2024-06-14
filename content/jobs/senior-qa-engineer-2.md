@@ -53,8 +53,6 @@ We are looking for a business-oriented Senior QA Engineer to join one of our pro
 
 You would join the team as the most experienced person in testing, closely collaborating with manual QA, developers, and the client. The environment is complex, as the client has several products, and you would test not only the orchestration app but also the interactions between these products. One of your first tasks would be to choose the technology stack, but the base is JS/TS.
 
-
-
 ## your job will include
 
 * automation testing new functionalities in accordance with their specification
@@ -68,6 +66,7 @@ You would join the team as the most experienced person in testing, closely colla
 
 * at least 4 years of full-time commercial QA experience including significant product experience (both web and mobile)
 * strong experience with API automation testing (TS/JS) 
+* solid knowledge of Cypress/Playwright/Selenium
 * knowledge of various testing frameworks and their adaptation to project needs
 * a client-focused approach coupled with excellent communication skills (you'll be involved in business meetings)
 * the ability to adapt to changing contexts and priorities
