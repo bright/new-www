@@ -7,7 +7,11 @@ import {
   Wrapper,
   InnerContent,
   ExaggeratedLink,
-  Partners, Disclaimer, List, DesktopOnlyBox
+  Partners,
+  Disclaimer,
+  List,
+  DesktopOnlyBox,
+  PartnerLink,
 } from './Footer.styled'
 import LyviaLogo from '../../assets/a_part_of_lyvia_white_1.svg'
 import { FooterLogo } from './FooterLogo'
@@ -120,33 +124,53 @@ export const Footer = () => {
 
         <Box style={{ gridArea: 'disclaimer' }}>
           <Partners>
-            <a href='https://www.lyviagroup.com' target='_blank' rel='noopener noreferrer nofollow'>
+            <PartnerLink
+              href='https://www.lyviagroup.com'
+              target='_blank'
+              rel='noopener noreferrer nofollow'
+              style={{ width: '60px'}}
+            >
               <LyviaLogo />
-            </a>
+            </PartnerLink>
 
-            <a
+            <PartnerLink
+              href='https://www.zebra.com/pl/pl/partners/partner-application-locator/partner-details.html?id=0016S00003NQa9WQAT'
+              target='_blank'
+              rel='noopener noreferrer nofollow'
+              style={{ marginLeft: '8px', width: '100px' }}
+            >
+              <img src={'/images/isvPartner.png'} alt='Bright Inventions Registered ISV Partner' />
+            </PartnerLink>
+
+            <PartnerLink
               href='/blog/bright-inventions-recognized-in-forbes-diamonds-2024/'
               target='_blank'
               rel='noopener noreferrer nofollow'
+              style={{ width: '72px'}}
             >
               <ForbesDiamondBadge />
-            </a>
+            </PartnerLink>
 
-            <a
+            <PartnerLink
               href='https://partners.amazonaws.com/partners/0010h00001hdw3OAAQ/Bright%20Inventions'
               target='_blank'
               rel='noopener noreferrer nofollow'
+              style={{ width: '46px'}}
             >
               <img src={'/images/aws-partner-black.png'} alt='Bright Inventions AWS Partner Network' />
-            </a>
+            </PartnerLink>
           </Partners>
 
           <Disclaimer>
             © 2024 Bright Inventions. All rights reserved. We use cookies to ensure that we give you the best experience
             on our website. You can change your cookie preferences&nbsp;
-            <ExaggeratedLink onClick={openModal} as={'span'}>here</ExaggeratedLink>.
+            <ExaggeratedLink onClick={openModal} as={'span'}>
+              here
+            </ExaggeratedLink>
+            .
             <ModalCookies modalIsOpen={isCookiesModalOpen} closeModal={setCookiesModalOpen} />
-            <br /><br />
+            <br />
+            <br />
             <Link to={routeLinks.privacyPolicy}>Privacy Policy</Link>
           </Disclaimer>
         </Box>

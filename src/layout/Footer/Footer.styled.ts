@@ -136,24 +136,24 @@ export const SocialsWrapper = styled.div`
 
 export const Partners = styled.div`
     display: flex;
-    gap: 12px;
+    gap: 8px;
     align-items: start;
     align-self: end;
     width: 75%;
     
-    & svg {
-        max-height: 70px;
-        max-width: 70px;
-    }
-
-    & img {
-        max-height: 55px;
-        max-width: 55px;
-        margin: 10px 8px;
-    }
-
     @media ${variables.deviceWidthMin.tabletXL} {
         width: 100%;
+    }
+`;
+
+export const PartnerLink = styled.a`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+    & svg {
+        max-height: 60px;
     }
 `;
 
