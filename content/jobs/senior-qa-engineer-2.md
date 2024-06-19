@@ -1,6 +1,6 @@
 ---
 layout: job
-title: Senior QA Engineer 2
+title: Senior QA Automation Engineer
 subtitle: OPEN
 imagejob: /images/qa_brightteam.png
 image-alt-job: QA Team Bright Inventions
@@ -39,7 +39,7 @@ language: en
 
 At Bright Inventions you'll be an important part of [](https://brightinventions.pl/about-us/team/)[a group of talented, ambitious and positive web and mobile developers, QAs, UI/UX designers, project managers, and marketing and recruitment specialists](https://brightinventions.pl/about-us/team/)[](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
 
-We place a strong emphasis on accountability, and we value team members who take ownership of their work and are willing to make improvements based on regular and open feedback. Positive attitude, flexibility and teamwork are elemental parts of our success. Instead of focusing on problems we empower our team members to identify issues, propose solutions, and contribute to continuous growth.
+We place a strong emphasis on accountability, and we value team members who take ownership of their work and are willing to make improvements based on regular and open feedback. Positive attitude, flexibility and teamwork are elemental parts of our culture. Instead of focusing on problems we empower our team members to identify issues, propose solutions, and contribute to continuous growth.
 
 ## about the project 🧑🏻‍💻🧑🏻‍💻
 
@@ -49,9 +49,9 @@ Identity orchestration allows you to offload identity logic and workflows from y
 
 ## about the role 🧑🏻‍💻🧑🏻‍💻
 
-We are looking for a business-oriented, open-to-diverse-technologies Senior QA Engineer to join one of our project teams responsible for building the leading identity orchestration solution for enterprises.
+We are looking for a business-oriented, open-to-diverse-technologies Senior QA Automated  Engineer to join one of our project teams responsible for building the leading identity orchestration solution for enterprises.
 
-You would join the team as the most experienced person in testing, closely collaborating with manual QA, developers, and the client. The environment is complex, as the client has several products, and you would test not only the orchestration app but also the interactions between these products. One of your first tasks would be to choose the technology stack, but the base is JS/TS.
+You would join the team as the most experienced person in testing, closely collaborating with manual QA, developers, and the client. The environment is complex, as the client has several products, and you would test not only the orchestration app but also the interactions between these products. **One of your initial responsibilities will be to develop, design, and maintain our test suite and test environment for the system. Additionally, you will share best testing practices, motivating the team to deliver top-quality products to the market. The tech stack used in the project is TypeScript, Scala, Angular, React, Node.js.** 
 
 ## your job will include
 
