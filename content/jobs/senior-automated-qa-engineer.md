@@ -10,7 +10,8 @@ salary_min: 13300
 salary_max: 19000
 working time: full time
 technology:
-  - TypeScript
+  - TypeScript/Scala
+  - 
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -53,26 +54,26 @@ We are looking for a business-oriented, open-to-diverse-technologies Senior QA A
 
 You would join the team as the most experienced person in testing, closely collaborating with manual QA, developers, and the client. The environment is complex, as the client has several products, and you would test not only the orchestration app but also the interactions between these products. **One of your initial responsibilities will be to develop, design, and maintain our test suite and test environment for the system. Additionally, you will share best testing practices, motivating the team to deliver top-quality products to the market. The tech stack used in the project is TypeScript, Scala, Angular, React, Node.js.** 
 
-## your job will include
+## in this role you will
 
-* automation testing new functionalities in accordance with their specification
-* defining acceptance criteria for features and optimisation of testing processes
-* close collaboration with manual QA, developers & PM team on the app implementation
-* conducting various non-functional tests to evaluate aspects such as performance, usability, reliability, scalability, security, and compatibility
-* API testing and endpoint testing (Postman)
-* maintenance of documentation
+* design, develop, and maintain scalable and reusable test automation frameworks and tools
+* ensure that the frameworks can support a variety of testing needs, including unit tests, integration tests, end-to-end tests, and performance tests
+* collaborate closely with manual QAs, developers & PMs to understand requirements and ensure the testability of features
+* write and execute automated test scripts to validate software functionality, performance, and reliability
+* integrate automated tests into the CI/CD pipeline to ensure continuous testing and quick feedback on software quality
+* develop and implement comprehensive test plans and strategies for new and existing features
+* document test plans, test cases, and test scripts in a clear and concise manner
 
 ## preferred skills & experience
 
-* at least 4 years of full-time commercial QA experience including significant product experience (both web and mobile)
-* strong experience with API automation testing (TS/JS) 
-* solid knowledge of Cypress/Playwright/Selenium
-* knowledge of various testing frameworks and their adaptation to project needs
+* at least 4-5 years of experience in software quality assurance, with at least 3 years in test automation
+* strong programming skills in languages such as JavaScript/TypeScript, Java, Python
+* strong understanding of software testing tools, methodologies, test processes, and best practices
+* knowledge of performance testing tools like JMeter, Gatling, or similar
 * a client-focused approach coupled with excellent communication skills (you'll be involved in business meetings)
-* the ability to adapt to changing contexts and priorities
 * experience with DB testing (e.g. PostgreSQL, DataGrip), performance testing and API testing (e.g. Postman, Swagger, REST, Charles) 
-* experience with non-functional testing: performance, load, stress testing
-* solid knowledge of Git and CI/CD tools 
+* solid knowledge of Git and CI/CD tools
+* the ability to adapt to changing contexts and priorities
 * strong problem solving and analytical skills
 * accuracy and attention to details
 * **very good level of English 🇬🇧 & Polish** 🇵🇱 (we work in an international environment, but within the company we communicate in Polish)
