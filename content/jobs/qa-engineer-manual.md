@@ -1,6 +1,6 @@
 ---
 layout: job
-title: QA Engineer
+title: QA Manual Engineer
 subtitle: OPEN
 imagejob: /images/qa_brightteam.png
 image-alt-job: QA Team Bright Inventions
@@ -46,7 +46,7 @@ We place a strong emphasis on accountability, and we value team members who take
 
 ## about the role 🧑🏻‍💻🧑🏻‍💻
 
-We are looking for a business-oriented **manual QA engineer** to join one of our project team responsible for building an application which is a new next generation passwordless authentication service that is used by millions of users worldwide, on a daily basis. 
+We are looking for a business-oriented **QA manual engineer** to join one of our project team responsible for building an application which is a new next generation passwordless authentication service that is used by millions of users worldwide, on a daily basis. 
 
 We are working on cross-channel identity platform that  integrates and control authentication, fraud detection, and access controls organisations.
 
@@ -62,22 +62,20 @@ We are working on cross-channel identity platform that  integrates and control 
 
 ## preferred skills & experience
 
-* **at least 3 years of full-time commercial manual QA experience including significant product experience** 
+* **at least 3 years of full-time manual testing experience in commercial products
 * practical knowledge in the field of web application testing and mobile testing
 * knowledge of various testing frameworks and their adaptation to project needs
 * experience in testing de-centralized applications in a Server/client architecture in a Cloud/On-prem environments
 * a client-focused approach coupled with excellent communication skills (you'll be involved in business meetings)
 * the ability to adapt to changing contexts and priorities
-* solid knowledge of Git and CI/CD tools 
 * strong problem solving and analytical skills
 * accuracy and attention to details
 * **very good level of English 🇬🇧 & Polish** 🇵🇱 (we work in an international environment, but within the company we communicate in Polish)
 
 ## we would also appreciate if you have 🙌
 
-* cyber-security experience
-* familiarity with AWS
-* experience with hands on scripting development
+* cyber-security interest
+* experience in working with cross-platform teams 
 
 ## what you will find in our Bright Team 🧡
 
