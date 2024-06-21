@@ -5,7 +5,7 @@ subtitle: OPEN
 imagejob: /images/qa_brightteam.png
 image-alt-job: QA Team Bright Inventions
 hours: full-time
-salary: 81-118 PLN/hour + VAT (B2B) or 10000 - 14500 PLN gross (UoP)
+salary: 82-98 PLN/hour + VAT (B2B) or 12000 - 14500 PLN gross (UoP)
 salary_min: 81
 salary_max: 14499
 working time: full time
