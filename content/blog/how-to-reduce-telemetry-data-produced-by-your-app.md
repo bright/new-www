@@ -46,7 +46,6 @@ The first metric is provided by Spring Boot, and the second one by OpenTelemetry
      match_type: strict
      metric_names:
        - http.server.requests
-
 ```
 
 ## Identify unnecessary labels
@@ -127,7 +126,6 @@ tail_sampling:
        probabilistic: { sampling_percentage: 5 },
      }
    ]
-
 ```
 Policy Analysis:
 
@@ -160,7 +158,6 @@ receivers:
      http:
        endpoint: 0.0.0.0:${HTTP_PORT}
 
-
 processors:
  batch:
  tail_sampling:
@@ -185,13 +182,11 @@ processors:
        }
      ]
 
-
  resource/loki-labels:
    attributes:
      - action: insert
        key: loki.resource.labels
        value: service.name, deploy.environment
-
 
  filter/drop_springboot_metrics:
    metrics:
@@ -199,7 +194,6 @@ processors:
        match_type: strict
        metric_names:
          - http.server.requests
-
 
  transform/add_resource_attributes_as_metric_attributes:
    error_mode: ignore
@@ -209,8 +203,6 @@ processors:
          - set(attributes["deploy.environment"], resource.attributes["deploy.environment"])
          - set(attributes["service.name"], resource.attributes["service.name"])
          - set(attributes["instance"], resource.attributes["instance"])
-
-
  metricstransform/aggregate_http_server_request_duration_labels:
    transforms:
      - include: http.server.request.duration
@@ -226,20 +218,17 @@ processors:
            label_set: [ deploy.environment, service.name, http.method, http.status_code, http.route, instance, user_agent.original ]
            aggregation_type: sum
 
-
 exporters:
  otlp/grafana_cloud_traces:
    endpoint: "${TEMPO_ENDPOINT}"
    auth:
      authenticator: basicauth/grafana_cloud_tempo
 
-
  prometheusremotewrite/grafana_cloud_metrics:
    endpoint: "${PROM_ENDPOINT}"
    add_metric_suffixes: false
    auth:
      authenticator: basicauth/grafana_cloud_prometheus
-
 
  loki/grafana_cloud_logs:
    endpoint: "${LOKI_ENDPOINT}"
@@ -249,15 +238,12 @@ exporters:
    auth:
      authenticator: basicauth/grafana_cloud_loki
 
-
  logging:
    verbosity: detailed
-
 
  prometheus:
    endpoint: "0.0.0.0:8889"
    add_metric_suffixes: false
-
 
 service:
  telemetry:
@@ -286,7 +272,6 @@ service:
      receivers: [ otlp ]
      processors: [ batch, resource/loki-labels ]
      exporters: [ loki/grafana_cloud_logs, logging ]
-
 ```
 
 By following these steps, you can effectively reduce the telemetry data produced by your application, staying within the limits of Grafana Cloud's free plan while maintaining essential observability.
