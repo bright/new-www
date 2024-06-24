@@ -4,10 +4,7 @@ tags:
   - opentelemetry
   - monitoring
   - observability
-  - grafana
-  - metrics
-  - costs
-  - budget
+  - infrastructure
 date: 2024-06-24T10:16:23.361Z
 meaningfullyUpdatedAt: 2024-06-24T10:16:23.374Z
 title: How to reduce telemetry data produced by your app
