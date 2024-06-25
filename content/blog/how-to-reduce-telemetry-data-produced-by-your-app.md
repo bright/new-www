@@ -7,7 +7,7 @@ tags:
   - infrastructure
 date: 2024-06-24T10:16:23.361Z
 meaningfullyUpdatedAt: 2024-06-24T10:16:23.374Z
-title: How to reduce telemetry data produced by your app
+title: How to Reduce Telemetry Data Produced by Your App
 layout: post
 image: /images/reducing-data.png
 hidden: false
@@ -17,9 +17,9 @@ language: en
 ---
 In previous articles, we discussed how to connect your application to Grafana using OpenTelemetry:
 
-[https://brightinventions.pl/blog/how-to-improve-your-app-observability-easily-with-grafana-and-opentelemetry/](https://brightinventions.pl/blog/how-to-improve-your-app-observability-easily-with-grafana-and-opentelemetry/)
+<https://brightinventions.pl/blog/how-to-improve-your-app-observability-easily-with-grafana-and-opentelemetry/>
 
-[https://grafana.com/blog/2023/10/30/how-to-integrate-a-spring-boot-app-with-grafana-using-opentelemetry-standards/](https://grafana.com/blog/2023/10/30/how-to-integrate-a-spring-boot-app-with-grafana-using-opentelemetry-standards/)
+<https://grafana.com/blog/2023/10/30/how-to-integrate-a-spring-boot-app-with-grafana-using-opentelemetry-standards/>
 
 While observability and monitoring are crucial throughout the lifecycle of a production application, budget constraints at the beginning of a project often prevent us from affording additional costs for monitoring tool subscriptions. In such cases, focusing on storing only essential data is vital. Fortunately, Grafana Cloud offers a free plan for small teams. However, when sending all telemetry data gathered by OpenTelemetry auto-instrumentation, we can quickly reach the free tier limit, especially with metrics.
 
@@ -36,10 +36,12 @@ Grafana provides a tool called Cardinality Management to review metrics producti
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXd36NuLm3953N-AllvX4X5gWHIud2gzBjNGR5q7ubUQjZA-OILL6rlT3SmQyp32c1QuuJA2v7VoXXw14ptOLS6XNHwKYGfDJGXBx3m-4JkCUOf-7ya_CB2haF1dKN4pogMJWF5073sgLch334TY9l2OmDmc?key=SAsVSNF7tYs-3QAXxC5B1w)
 
 For example, in Java auto-instrumentation for Spring Boot applications, we have two very similar metrics:
+
 * `http.server.requests`
 * `http.server.request.duration`
 
 The first metric is provided by Spring Boot, and the second one by OpenTelemetry. There is no reason to keep both since they essentially provide the same information. I decided to keep the one provided by OpenTelemetry and drop the other using the [filter processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/filterprocessor) in my opentelemetry-collector-contrib:
+
 ```yaml
  metrics:
    exclude:
@@ -53,6 +55,7 @@ The first metric is provided by Spring Boot, and the second one by OpenTelemetry
 If you need to retain the rest of your metrics but their series count is too high, Grafana suggests removing some labels to reduce cardinality. The second part of the Cardinality Management dashboard lists the “Top labels by value count”.
 
 In my case, the biggest issue was with the http.server.duration (later changed to http.server.request.duration) metric. To keep only essential labels, you can aggregate labels using the [metricstransform processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/metricstransformprocessor):
+
 ```yaml
 metricstransform/aggregate_http_server_request_duration_labels:
  transforms:
@@ -70,9 +73,10 @@ Even after aggregating the labels, the http.server.request.duration metric conti
 
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXduuuETQjGCV2fccwvkvwZrXFoAs8hwJTBWpyU6iUYbWbljAfO2zWwQQA9_uIdb1o2pu7dIkJvrjxC0Qe6dsodj7be-kNBtBNQPT3myasJ-hvcVhtpiFx8yXsB3SnIxfA7ys9zmmtfufrgJbCmynpWlnd8a?key=SAsVSNF7tYs-3QAXxC5B1w)
 
-we used a custom view for HTTP metrics histograms to set our custom bucket boundaries.
+We used a custom view for HTTP metrics histograms to set our custom bucket boundaries.
 
 We added the file metrics_view_config.yaml:
+
 ```yaml
 - selector:
     instrument_type: HISTOGRAM
@@ -82,11 +86,13 @@ We added the file metrics_view_config.yaml:
     aggregation_args:
       bucket_boundaries: [0.05, 0.25, 1.0]
 ```
+
 And set the environment variable:
 
 OTEL_EXPERIMENTAL_METRICS_VIEW_CONFIG=opentelemetry/metrics_view_config.yaml
 
 For JavaScript/TypeScript instrumentation, the custom boundaries may be set in NodeSDK:
+
 ```typescript
 const sdk = new opentelemetry.NodeSDK({
    traceExporter: traceExporter,
@@ -101,9 +107,11 @@ const sdk = new opentelemetry.NodeSDK({
    resource: resource,
 })
 ```
+
 ## Reduce the number of traces
 
 Even before your application’s traffic becomes significant, it may produce many traces. To reduce the number of traces sent to storage, you can apply the [tail_sampling processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/tailsamplingprocessor):
+
 ```yaml
 tail_sampling:
  decision_wait: 10s
@@ -127,6 +135,7 @@ tail_sampling:
      }
    ]
 ```
+
 Policy Analysis:
 
 * errors-policy: Retains traces where the status code indicates an error, ensuring error traces are always sampled for further analysis.
@@ -136,6 +145,7 @@ Policy Analysis:
 The tail_sampling processor evaluates traces based on these three policies, capturing all error traces, traces with minimal latency, and a random 5% of all traces. It waits 10 seconds to gather complete trace data and processes up to 100 traces at a time.
 
 Full Example of collector-config.yml:
+
 ```yaml
 extensions:
  basicauth/grafana_cloud_tempo:
