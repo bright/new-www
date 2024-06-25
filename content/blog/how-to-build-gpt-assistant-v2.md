@@ -1,5 +1,5 @@
 ---
-author: rafal h
+author: Rafal H
 tags:
   - AI
   - OpenAI
@@ -8,7 +8,7 @@ tags:
   - RAG
 date: 2024-06-24T13:56:15.196Z
 meaningfullyUpdatedAt: 2024-06-24T13:56:16.383Z
-title: Using OpenAI Assistant v2 API to Build Your Own Knowledge Base Chatbot in 5 min
+title: Using OpenAI Assistant v2 API to Build Your Own Knowledge Base Chatbot in 5 Minutes
 layout: post
 image: /images/GPT_assistant_v2.png
 hidden: false
