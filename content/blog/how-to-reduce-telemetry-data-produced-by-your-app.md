@@ -17,9 +17,9 @@ language: en
 ---
 In previous articles, we discussed how to connect your application to Grafana using OpenTelemetry:
 
-<https://brightinventions.pl/blog/how-to-improve-your-app-observability-easily-with-grafana-and-opentelemetry/>
+https://brightinventions.pl/blog/how-to-improve-your-app-observability-easily-with-grafana-and-opentelemetry
 
-<https://grafana.com/blog/2023/10/30/how-to-integrate-a-spring-boot-app-with-grafana-using-opentelemetry-standards/>
+https://grafana.com/blog/2023/10/30/how-to-integrate-a-spring-boot-app-with-grafana-using-opentelemetry-standards
 
 While observability and monitoring are crucial throughout the lifecycle of a production application, budget constraints at the beginning of a project often prevent us from affording additional costs for monitoring tool subscriptions. In such cases, focusing on storing only essential data is vital. Fortunately, Grafana Cloud offers a free plan for small teams. However, when sending all telemetry data gathered by OpenTelemetry auto-instrumentation, we can quickly reach the free tier limit, especially with metrics.
 
