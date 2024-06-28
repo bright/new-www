@@ -42,3 +42,9 @@ language: en
 <Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/springboot.svg","alt":"SpringBoot"},{"src":"/images/flutter.svg","alt":"Flutter"},{"src":"/images/grafana.svg","alt":"Grafana"},{"src":"/images/figma_update_stack_logo.svg","alt":"Figma"}]' />
 
 **technologies:** Kotlin, Spring Boot, Flutter, Grafana, Figma
+
+<TitleWithIcon sectionTitle="the POS system desperately needed an update" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+
+Every legacy system eventually reaches a point where its founder must face the ultimate challenge: revamping the software. The clock is ticking! Every day, acquiring new users is becoming more challenging with an outdated UI and disturbing performance. Yet how do you upgrade the system without losing loyal users who have made you profit all these years?
+
+Our client, a company offering digital solutions for the hospitality industry, was facing these challenges. For over two decades, its system has been utilized by restaurants nationwide. However, the application required modernization to remain competitive in the POS market. The client reached out to us for a complete POS system revamp. They also expressed interest in developing mobile applications to expand its digital portfolio.
