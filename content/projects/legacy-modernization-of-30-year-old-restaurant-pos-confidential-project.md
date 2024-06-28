@@ -76,3 +76,7 @@ Despite the old version being built with outdated technologies like Visual Basic
 Day by day we retain compatibility while integrating new technologies. We deliver code compatible with the old POS and aligned with modern standards. This way, when the old version is eventually retired, the new one will be self-sustainable and ready for further development and scalability.
 
 Another challenge is adjusting to the various hardware that restaurants possess. Therefore we have to pay extra attention to performance and memory efficiency to make the software accessible on a spectrum of devices, both new and old. To achieve that we also introduced app performance monitoring with Grafana, which enables us to foresee performance issues before they could affect users. Thanks to reports and alerts, we are aware of some features not working properly or if the system is overloaded, and we can quickly react to that.
+
+<TitleWithIcon sectionTitle="results: releasing the modern POS solution" titleIcon="/images/icon_result_svg.svg" titleIconAlt="result of the collaboration" />
+
+The modern version of the solution has been released reaching its first users in a testing phase. Meanwhile, our team continues the software modernization by planning cloud migrations, further integrations with payment and food delivery providers, and enhancements to the payment process.
