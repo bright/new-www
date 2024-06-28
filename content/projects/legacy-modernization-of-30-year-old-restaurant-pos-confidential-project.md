@@ -39,7 +39,7 @@ language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="bright" />
 
-<Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/springboot.svg","alt":"SpringBoot"},{"src":"/images/flutter.svg","alt":"Flutter"},{"src":"/images/grafana.svg","alt":"Grafana"},{"src":"/images/figma_update_stack_logo.svg","alt":"Figma"}]' />
+<Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/springboot_update.svg","alt":"SpringBoot"},{"src":"/images/flutter.svg","alt":"Flutter"},{"src":"/images/grafana.svg","alt":"Grafana"},{"src":"/images/figma_update_stack_logo.svg","alt":"Figma"}]' />
 
 **technologies:** Kotlin, Spring Boot, Flutter, Grafana, Figma
 
