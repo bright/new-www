@@ -73,6 +73,6 @@ Another challenge is adjusting to the various hardware that restaurants possess.
 
 <div className="image">![pos system restaurant](/images/pos_restaurant.png "pos system restaurant")</div>
 
-<TitleWithIcon sectionTitle="results: releasing the modern POS solution" titleIcon="/images/icon_result_svg.svg" titleIconAlt="result of the collaboration" />
+<TitleWithIcon sectionTitle="results: releasing the new POS solution" titleIcon="/images/icon_result_svg.svg" titleIconAlt="result of the collaboration" />
 
-The modern version of the solution has been released reaching its first users in a testing phase. Meanwhile, our team continues the software modernization by planning cloud migrations, further integrations with payment and food delivery providers, and enhancements to the payment process.
+The modern version of the solution has been **released reaching its first users in a testing phase**. Meanwhile, our team continues the software modernization by **planning cloud migrations, further integrations with payment and food delivery providers, and enhancements to the payment process**.
