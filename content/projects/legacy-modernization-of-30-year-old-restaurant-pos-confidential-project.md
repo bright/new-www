@@ -48,3 +48,5 @@ language: en
 Every legacy system eventually reaches a point where its founder must face the ultimate challenge: revamping the software. The clock is ticking! Every day, acquiring new users is becoming more challenging with an outdated UI and disturbing performance. Yet how do you upgrade the system without losing loyal users who have made you profit all these years?
 
 Our client, a company offering digital solutions for the hospitality industry, was facing these challenges. For over two decades, its system has been utilized by restaurants nationwide. However, the application required modernization to remain competitive in the POS market. The client reached out to us for a complete POS system revamp. They also expressed interest in developing mobile applications to expand its digital portfolio.
+
+<div className="image">![POS upgrade](/images/pos_upgrade.png "POS upgrade")</div>
