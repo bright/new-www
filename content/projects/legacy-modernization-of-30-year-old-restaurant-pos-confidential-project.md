@@ -52,7 +52,6 @@ Our client, a company offering digital solutions for the hospitality industry, w
 <div className="image">![POS upgrade](/images/pos_upgrade.png "POS upgrade")</div>
 
 
-
 <TitleWithIcon sectionTitle="solutions: POS with a modern UI, performance monitoring, and mobile applications" titleIcon="/images/two_flags.svg" titleIconAlt="solutions" />
 
 Based on over a decade of experience developing POS solutions for brands like Just Eat POS, we began the work by auditing the software for modernization, allowing us to spot areas for significant improvement. 
@@ -64,7 +63,6 @@ During the application re-engineering, we identified features that needed altera
 Our mobile team also developed a hybrid mobile app accessible for iOS and Android. That has been a meaningful upgrade because the system used to be based only on a desktop application.
 
 <div className="image">![POS revamp](/images/pos_revamp.png "POS revamp")</div>
-
 
 
 <TitleWithIcon sectionTitle="challenges: compatibility with the legacy system" titleIcon="/images/gearwheel.svg" titleIconAlt="challenges" />
