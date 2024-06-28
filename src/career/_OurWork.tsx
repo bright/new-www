@@ -96,14 +96,6 @@ const OurWork: React.FC = () => {
         'What’s unique about Bright Inventions is the mature process of software development. The team is highly skilled and experienced. We focus 100% on quality.',
     },
     {
-      avatar_hover: <StaticImage src='../../static/images/jacek_passion.png' alt='Jacek' className='quote-img' />,
-      short_name: 'Jacek',
-      bio: 'Senior Backend Developer',
-      slug: 'jacek',
-      quote:
-        'People here are great, as well as the technologies we use. We aren’t afraid of implementing new solutions. Also, I love the spirit of knowledge-sharing that I’ve experienced since joining Bright Inventions.',
-    },
-    {
       avatar_hover: (
         <StaticImage src='../../static/images/tomasz_l_passion.png' alt='Tomasz' className='quote-img' />
       ),
