@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: jacek
-ex: false
+ex: true
 slug: jacek
 name: Jacek Czapla
 short_name: Jacek
