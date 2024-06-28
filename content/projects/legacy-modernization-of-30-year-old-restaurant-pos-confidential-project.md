@@ -64,3 +64,15 @@ During the application re-engineering, we identified features that needed altera
 Our mobile team also developed a hybrid mobile app accessible for iOS and Android. That has been a meaningful upgrade because the system used to be based only on a desktop application.
 
 <div className="image">![POS revamp](/images/pos_revamp.png "POS revamp")</div>
+
+
+
+<TitleWithIcon sectionTitle="challenges: compatibility with the legacy system" titleIcon="/images/gearwheel.svg" titleIconAlt="challenges" />
+
+Following the client's expectations, we needed to keep the old version of the POS operational while working on the modernization. It matches our revamp approach. Our goal is not to create a revolution, so compatibility with the legacy system is key.
+
+Despite the old version being built with outdated technologies like Visual Basic 6 and operating with binary files, we ensured compatibility. Our team built a Spring Boot and Kotlin library to read and translate these binary files into Kotlin objects.
+
+Day by day we retain compatibility while integrating new technologies. We deliver code compatible with the old POS and aligned with modern standards. This way, when the old version is eventually retired, the new one will be self-sustainable and ready for further development and scalability.
+
+Another challenge is adjusting to the various hardware that restaurants possess. Therefore we have to pay extra attention to performance and memory efficiency to make the software accessible on a spectrum of devices, both new and old. To achieve that we also introduced app performance monitoring with Grafana, which enables us to foresee performance issues before they could affect users. Thanks to reports and alerts, we are aware of some features not working properly or if the system is overloaded, and we can quickly react to that.
