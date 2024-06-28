@@ -39,8 +39,6 @@ language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="bright" />
 
-
-
-<Gallery images='[{"src":"/images/node.png","alt":"node"},{"src":"/images/nest.png","alt":"nest"},{"src":"/images/react.png","alt":"react"},{"src":"/images/MySQL.png","alt":"MySQL"},{"src":"/images/swift.png","alt":"swift"},{"src":"/images/kotlin.png","alt":"kotlin"},{"src":"/images/aws.png","alt":"aws"},{"src":"/images/ci_cd.png","alt":"ci_cd"}]' />
+<Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/nest.png","alt":"nest"},{"src":"/images/react.png","alt":"react"},{"src":"/images/MySQL.png","alt":"MySQL"},{"src":"/images/swift.png","alt":"swift"},{"src":"/images/kotlin.png","alt":"kotlin"},{"src":"/images/aws.png","alt":"aws"},{"src":"/images/ci_cd.png","alt":"ci_cd"}]' />
 
 **technologies:** Kotlin, Spring Boot, Flutter, Grafana, Figma
