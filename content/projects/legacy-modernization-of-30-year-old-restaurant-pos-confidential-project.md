@@ -50,3 +50,17 @@ Every legacy system eventually reaches a point where its founder must face the u
 Our client, a company offering digital solutions for the hospitality industry, was facing these challenges. For over two decades, its system has been utilized by restaurants nationwide. However, the application required modernization to remain competitive in the POS market. The client reached out to us for a complete POS system revamp. They also expressed interest in developing mobile applications to expand its digital portfolio.
 
 <div className="image">![POS upgrade](/images/pos_upgrade.png "POS upgrade")</div>
+
+
+
+<TitleWithIcon sectionTitle="solutions: POS with a modern UI, performance monitoring, and mobile applications" titleIcon="/images/two_flags.svg" titleIconAlt="solutions" />
+
+Based on over a decade of experience developing POS solutions for brands like Just Eat POS, we began the work by auditing the software for modernization, allowing us to spot areas for significant improvement. 
+
+One of the key aspects of the upgrade was a new product design to streamline the process for users, who are primarily waitstaff. The modern UI provides quick access to core POS features such as managing table orders with any possible modifiers (extra fries, no onions, etc.), sending orders to the kitchen, and managing payments, including splitting payments and tipping. It also ensures integrations with retail devices including printers, cash registers, terminals, and more.
+
+During the application re-engineering, we identified features that needed alteration or addition. For example, we introduced a role management feature that allows assigning roles with appropriate permissions, such as restricting discount approvals to managers. This addition enhances the system's safety and transparency for restaurant staff. 
+
+Our mobile team also developed a hybrid mobile app accessible for iOS and Android. That has been a meaningful upgrade because the system used to be based only on a desktop application.
+
+<div className="image">![POS revamp](/images/pos_revamp.png "POS revamp")</div>
