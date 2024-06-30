@@ -8,6 +8,7 @@ date: 2024-06-10T10:27:59.365Z
 meaningfullyUpdatedAt: 2024-06-10T10:27:59.378Z
 title: "Recruiingt Like a Pro: 5 Marketing Tips for Smarter Hiring"
 layout: post
+image: /images/screenshot-2024-06-30-at-15.27.31.png
 hidden: false
 comments: true
 published: true
