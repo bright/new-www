@@ -53,9 +53,9 @@ While working in recruitment you will have to be active at least on one or a few
 
 Strategic thinking is one of major strengths of talented marketers and it begins with seeing questions before seeing solutions. Marketers who think strategically focus on how they can help their customers solve some problems. The final outcome is of course connected with getting a sale, but strategical thinkers focus more on getting to know their customers first and creating some long-term relationship with them. When the sale is done the customers have to feel that it is what they really expect or need. 
 
-<div className="image">![strategic thinking recruitment](/images/strategic-thinking.png "")</div>
+<div className="image">![strategic thinking recruitment](/images/screenshot-2024-06-30-at-19.30.37.png "")</div>
 
-###### Source: 
+###### Source: https://betterprogramming.pub/how-to-develop-your-strategic-thinking-skills-and-stay-ahead-d52612b4254d
 
 The same applies to recruiters. You should not perceive a recruitment process as a pure transaction. **You should put both candidate’s and employer’s needs at the forefront of your decision. Rather than just selling the job offer your focus should be on what can be done to solve both sides’ problems.** Look at your target group and the challengers they are facing. You need the ability to see things from a broader perspective. **Do not see recruiting as filling the vacancy, but more as an evolving process that has to bring the real value to the business and applicants.** 
 
