@@ -47,13 +47,13 @@ Look for patterns and road blocks that may help you run the recruitment process 
 
 A good marketer knows that creativity and innovation can come from almost anywhere and anyone - from friends, partners, clients, colleagues at work, surroundings, nature, even random incidents. All these can give us a fresh view on a product or service we want to deliver. 
 
-While working in recruitment you will have to be active at least on one or a few social media platforms, especially these where your target group can be found. Social media sites let you upload photos and videos that may attract your followers’ attention. However, only text can become boring for the audience. And a good idea might be involving some visual aspects. These might be pictures infographics or videos that make your written content stand out. You don need a graphic designer for that - you can create visual content using free tools or modifying available templates. 
+While working in recruitment you will have to be active at least on one or a few social media platforms, especially these where your target group can be found. Social media sites let you upload photos and videos that may attract your followers’ attention. However, only text can become boring for the audience. And a good idea might be involving some visual aspects. These might be pictures infographics or videos that make your written content stand out. You don't need a graphic designer for that - you can create visual content using free tools or modifying available templates. 
 
 Think outside the box - think why the role you are recruiting for is unique, how the job offer can help to develop your candidate’s skills etc. Think about your target group and show them things they are interested in in the formula that can grab their attention. Invest in media to attract, inform, and delight your target groups when they are most open to your content. Invest in continuous exploration of new ideas to stay fresh with candidates. 
 
 ## 4. Strategic thinking
 
-Strategic thinking is one of major strengths of talented marketers and it begins with seeing questions before seeing solutions. Marketers who think strategically focus on how they can hel their customers solve some problems. The final outcome is of course connected with getting a sale, but strategical thinkers focus more on getting to know their customers first and creating some long-term relationship with them. When the sale is done the customers have to feel that it is what they really expect or need. 
+Strategic thinking is one of major strengths of talented marketers and it begins with seeing questions before seeing solutions. Marketers who think strategically focus on how they can help their customers solve some problems. The final outcome is of course connected with getting a sale, but strategical thinkers focus more on getting to know their customers first and creating some long-term relationship with them. When the sale is done the customers have to feel that it is what they really expect or need. 
 
 <div className="image">![strategic thinking recruitment](/images/strategic-thinking.png "")</div>
 
