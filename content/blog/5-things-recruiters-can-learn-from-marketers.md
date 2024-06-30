@@ -24,7 +24,7 @@ Being a lifelong learner is something that I have always believed in. The pace 
 
 As a recruiter you should be up-to-date with recruitment and marketing trends. Probably you will use social media on daily basis either to contact your candidates or just to increase your brand/organisation/client awareness among your target group. Choose learning tools which work best for you: read business books or blogs, subscribe to newsletters, listen to podcasts, watch webinars, take part in workshops, do courses, join a study group. There are many ways to grow.  
 
-https://www.youtube.com/watch?v=cqRoGpSGFwk 
+<YouTubeEmbed url='https://www.youtube.com/watch?v=cqRoGpSGFwk' />
 
 What I find especially exciting in marketing field is learning by experiments. I am not saying you should all the time reinvent the wheel, but to some extend it is advisable. **Perform some tests to gain new insights or data. You can alter the copy or graphics in your recruitment posts, try out new job boards or look for new channels to reach your target group. Learn, experiment and achieve better and better results.**
 
