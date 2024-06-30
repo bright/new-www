@@ -4,8 +4,8 @@ tags:
   - leadership
   - recruitment
   - HR
-date: 2024-06-10T10:27:59.365Z
-meaningfullyUpdatedAt: 2024-06-10T10:27:59.378Z
+date: 2024-06-30T17:21:38.728Z
+meaningfullyUpdatedAt: 2024-06-30T17:21:41.943Z
 title: "Recruiting Like a Pro: 5 Marketing Tips for Smarter Hiring"
 layout: post
 image: /images/screenshot-2024-06-30-at-15.27.31.png
