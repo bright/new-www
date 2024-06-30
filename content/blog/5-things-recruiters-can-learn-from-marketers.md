@@ -6,16 +6,16 @@ tags:
   - HR
 date: 2024-06-10T10:27:59.365Z
 meaningfullyUpdatedAt: 2024-06-10T10:27:59.378Z
-title: "5 things recruiters can learn from marketers "
+title: "Recruiingt Like a Pro: 5 Marketing Tips for Smarter Hiring"
 layout: post
 hidden: false
 comments: true
 published: true
 language: en
 ---
-You probably have heard bout something like recruitment marketing i.e the proces of attracting best talents by promoting your organisation (employer) brand with the use of different marketing methods and tools. In fact, marketing elements are visible throughout the whole recruitment cycle. Some might be even surprised about how much extra value they can bring to the candidate's experience. \
-\
-My marketing background allowed me to uncover the synergies between marketing strategies and effective talent acquisition practices many years ago. Marketing skills might be beneficial both in your recruitment's role and your organisational recruitment processes. as being an effective recruiter involves many skills that talented markters have. 
+You have probably heard about recruitment marketing – the process of attracting top talent by promoting your organization’s brand using various marketing methods and tools. In fact, marketing elements are present throughout the entire recruitment cycle, often adding significant value to the candidate experience.
+
+My background in marketing allowed me to uncover the synergies between marketing strategies and effective talent acquisition practices many years ago. Marketing skills can be incredibly beneficial in both your role as a recruiter and your organization's recruitment processes. Being an effective recruiter involves many of the same skills that talented marketers possess.
 
 ## 1. Lifelong learning
 
@@ -25,25 +25,24 @@ As a recruiter you should be up-to-date with recruitment and marketing trends. P
 
 https://www.youtube.com/watch?v=cqRoGpSGFwk 
 
-What I find especially exciting in marketing field is learning by experiments. I am not saying you should all the time reinvent the wheel, but to some extend it is advisable. Perform some tests to gain new insights or data. You can alter the copy or graphics in your EB posts, try out new job boards or look for new channels to reach your target group. Learn, experiment and achieve better and better results.
+What I find especially exciting in marketing field is learning by experiments. I am not saying you should all the time reinvent the wheel, but to some extend it is advisable. Perform some tests to gain new insights or data. You can alter the copy or graphics in your recruitment posts, try out new job boards or look for new channels to reach your target group. Learn, experiment and achieve better and better results.
 
-## 2. Analytical thinking 
+## 2. Analytical thinking
 
-And it all brings us here. Experimenting and learning without analysing the effects would be pointless.\
+And it all brings us here. Experimenting and learning without analysing the effects would be pointless.
 
-In marketing I have always worked with data. I am comfortable with metrics and I usually know how to interpret them. Imho in recruitment area it should be the same. As a recruiter your goal is to meet the organisation’s goals. You have to look beyond isolated application and identify which metrics may help you reach the expected results in a given time. Knowing how to use some analytical tools is just step one though. In fact, this tool tool can be sometimes your Excel or Google sheets table. Do not forget that there is much more than the tools. There are multiple factors that may affect how effective your recruitment process is. It is crucial to know how each and every variable influences your performance and ho to use these dat to make the best hiring decisions. \
+In marketing I have always worked with data. I am comfortable with metrics and I usually know how to interpret them. Imho in recruitment area it should be the same. As a recruiter your goal is to meet the organisation’s goals. You have to look beyond isolated application and identify which metrics may help you reach the expected results in a given time. Knowing how to use some analytical tools is just step one though. In fact, this tool tool can be sometimes your Excel or Google sheets table. Do not forget that there is much more than the tools. There are multiple factors that may affect how effective your recruitment process is. It is crucial to know how each and every variable influences your performance and ho to use these dat to make the best hiring decisions. 
 
-Sometimes this variable can be the type of role you are recruiting for, vacancy you have to fill, and the number of specialists available on the market that may differ depending on the position. Another time your variable may be the seasonality that can affect your planning. There are some months which are considered to be the best ones for hiring new employees. Check on your own which period of the year works best for you and your organisation. You should also keep in mind industry fluctuations and economic situation. Analysing all these data can help you optimise your recruitment actions and understand the market trends. 
-Look for patterns and road blocks that may help you run the recruitment process in the long term. Do not only analyse the data considering your own processes but also pay attention to the industry itself and your competitors. You should be able to see whether they affect the position of you offer in the market. \
 
-Some examples of recruitment metrics can be found here: 
-https://www.aihr.com/blog/recruiting-metrics/ 
 
 <div className="image">![recruitment metrics](/images/recruiting-metrics-updated.webp "")</div>
 
+###### Source: https://www.aihr.com/blog/recruiting-metrics
 
+Sometimes this variable can be the type of role you are recruiting for, vacancy you have to fill, and the number of specialists available on the market that may differ depending on the position. Another time your variable may be the seasonality that can affect your planning. There are some months which are considered to be the best ones for hiring new employees. Check on your own which period of the year works best for you and your organisation. You should also keep in mind industry fluctuations and economic situation. Analysing all these data can help you optimise your recruitment actions and understand the market trends. 
+Look for patterns and road blocks that may help you run the recruitment process in the long term. Do not only analyse the data considering your own processes but also pay attention to the industry itself and your competitors. You should be able to see whether they affect the position of you offer in the market. 
 
-## 3. Creativity and innovation 
+## 3. Creativity and innovation
 
 A good marketer knows that creativity and innovation can come from almost anywhere and anyone - from friends, partners, clients, colleagues at work, surroundings, nature, even random incidents. All these can give us a fresh view on a product or service we want to deliver. 
 
@@ -51,7 +50,7 @@ While working in recruitment you will have to be active at least on one or a few
 
 Think outside the box - think why the role you are recruiting for is unique, how the job offer can help to develop your candidate’s skills etc. Think about your target group and show them things they are interested in in the formula that can grab their attention. Invest in media to attract, inform, and delight your target groups when they are most open to your content. Invest in continuous exploration of new ideas to stay fresh with candidates. 
 
-## 4. Strategic thinking 
+## 4. Strategic thinking
 
 Strategic thinking is one of major strengths of talented marketers and it begins with seeing questions before seeing solutions. Marketers who think strategically focus on how they can hel their customers solve some problems. The final outcome is of course connected with getting a sale, but strategical thinkers focus more on getting to know their customers first and creating some long-term relationship with them. When the sale is done the customers have to feel that it is what they really expect or need. 
 
@@ -69,6 +68,6 @@ If you are a recruiter, you should dig deep in the domain you work in and be an 
 
 And what the best way to understand the product? To us eat on your own or talk with people who use it. Probably in the recruiting world it would be hard to try out every job but you can always talk with professionals who do it and will hel you discover strengths and weakness or advantages and disadvantages you should be aware of. Get feedback as often as you can. Learn from experts and  keep up to date with industry trends.
 
-## The passion of explorer, researcher, creator … 
+## The passion of explorer, researcher, creator …
 
 Look for inspiration everywhere. As a recruiter you do not have to follow only pure HR trends or best practices. Truth is that you can find some innovative approaches in completely different industries. Considerable ingenuity, creativity and curiosity are the qualities highly desired in this role. Grow horizontally and expand what you know by reading books, learning concepts, etc. about the professions and sectors around you. Take as much as you can from the marketing field as well, but try not to limit yourself to the area you work in on daily basis.
