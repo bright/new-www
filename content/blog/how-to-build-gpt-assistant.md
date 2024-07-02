@@ -18,7 +18,10 @@ language: en
 ---
 <div className="image">![GPT assistant](../../static/images/GPT_assistant.png "")</div>
 
+**UPDATE 🔈 Recently OpenAI has introduced v2 Beta updates. Go to a brand new tutorial to [learn how to use OpenAI Assistant v2 API to build your own knowledge base chatbot in 5 min](/blog/how-to-build-gpt-assistant-v2/).**
+
 **Imagine you want to create a bot with an internal company wiki or bot that will help your customers navigate via your page. Traditionally, you could do it with the [RAG approach](/blog/build-llm-application-with-rag-langchain/). Since last 4 months, you have the option to create a custom GPT if you are a GPT Plus subscriber. The problem with this approach is that the bot is only accessible to other Plus subscribers. Additionally, you are bound to Chat GPT data privacy which I was writing in [this](/blog/openai-chatgpt-free-plus-privacy-policies-explained/) post. I will show you how to use API and create your own GPT Assistant. Firstly, you will not be limited to Plus GPT subscribers. Secondly, you will most likely have better out-of-the-box data control via API than the ChatGPT interface.**
+
 ## What is a GPT assistant?
 
 [GPT assistant API](https://platform.openai.com/docs/assistants/overview) was introduced at [OpenAI Dev Day](https://devday.openai.com/). Instead of just using chat completions OpenAI allows you to enable code interpreter (which is executing Python snippets) and uploading of external knowledge which is used by it.
@@ -44,11 +47,7 @@ In the retrieval part of the menu add files that will be your external knowledge
 
 For the limits of the file, on the OpenAI page, we can read that:
 
-
-<blockquote>
-    <div>You can attach a maximum of 20 files per Assistant, and they can be at most 512 MB each. The size of all the files uploaded by your organization should not exceed 100 GB. You can request an increase in this storage limit using our help center. In addition to the 512 MB file size limit, each file can only contain 2,000,000 tokens. Assistant or Message creation will fail if any attached files exceed the token limit.</div>
-    <footer>[OpenAI docs](https://platform.openai.com/docs/assistants/how-it-works/creating-assistants)</footer>
-</blockquote>
+<blockquote><h2></h2><div>You can attach a maximum of 20 files per Assistant, and they can be at most 512 MB each. The size of all the files uploaded by your organization should not exceed 100 GB. You can request an increase in this storage limit using our help center. In addition to the 512 MB file size limit, each file can only contain 2,000,000 tokens. Assistant or Message creation will fail if any attached files exceed the token limit.</div><footer>[OpenAI docs](https://platform.openai.com/docs/assistants/how-it-works/creating-assistants)</footer></blockquote>
 
 [On supported files page](https://platform.openai.com/docs/assistants/tools/supported-files) you can find what file extensions are supported. For the pricing of the assistant you can read more [on pricing page](https://openai.com/pricing).
 If you are interested what is happening under the hood, you can read up [community discussion](https://community.openai.com/t/where-does-gpt-assistant-store-the-embeddings/506167) how and where embedings are stored.
@@ -63,12 +62,9 @@ By using file manipulations, I created one file that consists of `our-areas.txt`
 
 <div className="image">![Own assistant menu](../../static/images/how-to-build-gpt-assistant/bright_assistant.png "")</div>
 
-
 When I created my assistant I started to test it via the playground by asking knowledge available from data: 
 
-
 <div className="image">![Own assistant menu](../../static/images/how-to-build-gpt-assistant/chatbot.png "")</div>
-
 
 As you can see, if your knowledge database is big, building chatbots for your company to access them is a good idea. It might limit the time needed for the newcomers or potential customers to get some information.
 What is important to note is that one should place only public, non-critical information in the bot. There are ways you can force unprotected assistants to return files/information it has access to. When you will create assistant you can easily connect it to your Slack (via for example no-code [Zapier](https://zapier.com/)) or create external chat bot project (like [Open-Custom-GPT](https://github.com/SamurAIGPT/Open-Custom-GPT)). 
