@@ -56,7 +56,7 @@ The pre-conference day, "Day 0," included **workshops focused on specific Europe
 
 The event also delved into the role of internet influencers and social media in patient education, questioning the balance between promoting healthy lifestyles and proposing unrealistic beauty standards.
 
-## The Area to improve
+## The area to improve
 
 And now a few words of criticism. As much as **networking is definitely the strongest aspect of the event**, the organizers should improve the organization of meetings so that in the next edition, participants can make the most of it, reducing the time and stress of finding their interlocutors.
 
