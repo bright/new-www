@@ -12,7 +12,7 @@ comments: true
 published: true
 language: en
 ---
-**[HLTH](https://europe.hlth.com/?utm_source=brightinventions.pl&utm_medium=referral&utm_2024_blog_summary), the largest health information and technology event in the USA, has now expanded to Europe, choosing Amsterdam for its strong transport links, English proficiency, and attractive amenities. Let's examine whether this European version lived up to its reputation.**
+**[HLTH](https://europe.hlth.com/?utm_source=brightinventions.pl&utm_medium=referral&utm_campaign=2024_blog_summary), the largest health information and technology event in the USA, has now expanded to Europe, choosing Amsterdam for its strong transport links, English proficiency, and attractive amenities. Let's examine whether this European version lived up to its reputation.**
 
 <div className="image">![HLTH Europe 2024](/images/hlth-blogpost-cover.png "HLTH Europe 2024")</div>
 
