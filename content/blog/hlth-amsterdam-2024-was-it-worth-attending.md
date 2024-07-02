@@ -44,15 +44,13 @@ The conference didn't shy away from topics like **the use of psychedelic drugs i
 
 Interoperability was another significant theme, discussed both in presentations and informally. As **[MD MBA Adam Brown](https://www.linkedin.com/in/adambrownmdmba/)** noted, achieving interoperability is essential for realizing the goals of value-based care by improving quality, reducing costs, and enhancing access.
 
-> 
-> *Having a system that's able to communicate even across vendors has a benefit to a patient. It's hard to get to a place in health care that we are truly exercising the goals or realizing the goals of value-based care where we're improving quality and reducing costs and improving access without interoperability of our digital systems. And so that's one of the big challenges.*
+<blockquote><h2></h2><div>Having a system that's able to communicate even across vendors has a benefit to a patient. It's hard to get to a place in health care that we are truly exercising the goals or realizing the goals of value-based care where we're improving quality and reducing costs and improving access without interoperability of our digital systems. And so that's one of the big challenges.</div><footer>Adam Brown</footer></blockquote>
 
 AI was a hot topic but didn't dominate the exhibitor space or presentation stages, which is often the case at this and last year's conferences.
 
 **[Aahuti Rai's](https://www.linkedin.com/in/meetaahutirai/)** remark is a good summary of the event’s approach to AI:
 
-> 
-> "I'm not really so buzzed about specific technologies. It's more about how you put them to use and make them relevant for people. For me, it's never been about the actual technology, it's about what the technology enables."
+<blockquote><h2></h2><div>I'm not really so buzzed about specific technologies. It's more about how you put them to use and make them relevant for people. For me, it's never been about the actual technology, it's about what the technology enables.</div><footer>Aahuti Rai</footer></blockquote>
 
 The pre-conference day, "Day 0," included **workshops focused on specific European digital health markets**, providing valuable insights into the legal and regulatory challenges and differences across countries. This day was especially beneficial for startups and scale-ups planning to expand their products.
 
