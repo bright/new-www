@@ -1,0 +1,17 @@
+{
+  "name": "gatsby-plugin-json-pages",
+  "version": "1.0.0",
+  "description": "Create JSON only pages at Gatsby build time.",
+  "main": "index.js",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-plugin-json-pages",
+    "json",
+    "graphql",
+    "pages"
+  ],
+  "repository": "notrab/gatsby-plugin-json-pages",
+  "author": "Jamie Barton <jamie@notrab.dev>",
+  "license": "MIT"
+}
