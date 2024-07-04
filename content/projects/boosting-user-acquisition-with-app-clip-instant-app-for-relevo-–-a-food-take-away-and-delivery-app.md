@@ -88,6 +88,8 @@ We are proud to affirm that both **App Clip and Instant App have evolved into si
 
 <TitleWithIcon sectionTitle="Relevo’s founder’s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Relevo’s founder’s perspective" />
 
-*Bright inventions and the whole team is always with full heart at the project, understands our logic and intention behind and respects our requests and demands. The quality of delivered stories / features is in general very high / fast and the understanding of bright inventions is to work as a partner-team to get the best solution ready. We highly appreciate the cooperation and the great business progress Relevo did would not be possible without the dedicated work of bright inventions.*
+Bright inventions serves both as a development partner and a sparing partner in challenging and choosing the right approach & setup.
+
+The excitement the whole development team is putting into our work is vivid and the communication goes beyond only work related topics. To find a development partner matching the skillset and the cultural / communicational level of bright inventions is tough to imaging.
 
 **Matthias Potthast, Founder of Relevo**
