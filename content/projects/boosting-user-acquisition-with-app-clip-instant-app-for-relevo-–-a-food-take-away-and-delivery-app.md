@@ -85,3 +85,9 @@ Once the strategic decisions were made, our team embarked on **finding optimal m
 By implementing App Clip and Instant App, **we have streamlined the process of introducing new users to Relevo, instantly showcasing the app's key features on their screens** without necessitating a full download. Over time, users opt to install the app as they recognize its value. 
 
 We are proud to affirm that both **App Clip and Instant App have evolved into significant channels for user acquisition**, reaching audiences that might otherwise be inaccessible.
+
+<TitleWithIcon sectionTitle="Relevo’s founder’s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Relevo’s founder’s perspective" />
+
+*Bright inventions and the whole team is always with full heart at the project, understands our logic and intention behind and respects our requests and demands. The quality of delivered stories / features is in general very high / fast and the understanding of bright inventions is to work as a partner-team to get the best solution ready. We highly appreciate the cooperation and the great business progress Relevo did would not be possible without the dedicated work of bright inventions.*
+
+**Matthias Potthast, Founder of Relevo**
