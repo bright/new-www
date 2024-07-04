@@ -37,12 +37,13 @@ title_team: team behind the project
 title_case_study: more success stories
 title_contact: let’s talk about your solution
 description_contact: Book a free consultation in 48 hours. Contact us!
-order: 3
+order: 6
 slug: app-clips-instant-apps-solution
 show_team: true
 show_case_study: true
 show on homepage: false
 published: true
+work_in_progress: false
 language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="bright" />
