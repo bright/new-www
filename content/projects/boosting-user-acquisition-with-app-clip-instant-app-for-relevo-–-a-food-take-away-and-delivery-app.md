@@ -76,6 +76,8 @@ The essential aspect of the implementation involved setting up analytics to meas
 
 The critical challenge involved **strategizing which features should be incorporated into the sample versions of the iOS and Android apps**. The challenge lay in crafting a flow that not only entices new users to Relevo but also adheres to the strict size limitations stipulated by Google and Apple. Furthermore, **the flow needed to closely resemble the final version of the application to ensure a seamless transition**. This way, switching from App Clip/Instant App would be a smooth experience.
 
+<div className="image">![quote](/images/case_study_client_quote_relevo2.png "quote")</div>
+
 Once the strategic decisions were made, our team embarked on **finding optimal methods to implement these selected features within the sample versions**. This was accomplished through a modular approach, segmenting various parts of the application into distinct modules. This strategy not only enhanced clarity but also streamlined the customization process for App Clip and Instant App.
 
 <div className="image">![Relevo official materials](../../static/images/relevo_official_material.png "Relevo official materials")</div>
