@@ -76,7 +76,7 @@ The essential aspect of the implementation involved setting up analytics to meas
 
 The critical challenge involved **strategizing which features should be incorporated into the sample versions of the iOS and Android apps**. The challenge lay in crafting a flow that not only entices new users to Relevo but also adheres to the strict size limitations stipulated by Google and Apple. Furthermore, **the flow needed to closely resemble the final version of the application to ensure a seamless transition**. This way, switching from App Clip/Instant App would be a smooth experience.
 
-<div className="image">![quote](/images/case_study_client_quote_relevo2.png "quote")</div>
+<div className="image">![quote](/images/case_study_client_quote_relevo_founder.png "quote")</div>
 
 Once the strategic decisions were made, our team embarked on **finding optimal methods to implement these selected features within the sample versions**. This was accomplished through a modular approach, segmenting various parts of the application into distinct modules. This strategy not only enhanced clarity but also streamlined the customization process for App Clip and Instant App.
 
@@ -90,8 +90,8 @@ We are proud to affirm that both **App Clip and Instant App have evolved into si
 
 <TitleWithIcon sectionTitle="Relevo’s founder’s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Relevo’s founder’s perspective" />
 
-Bright inventions serves both as a development partner and a sparing partner in challenging and choosing the right approach & setup.
+*Bright inventions serves both as a development partner and a sparing partner in challenging and choosing the right approach & setup.*
 
-The excitement the whole development team is putting into our work is vivid and the communication goes beyond only work related topics. To find a development partner matching the skillset and the cultural / communicational level of bright inventions is tough to imaging.
+*The excitement the whole development team is putting into our work is vivid and the communication goes beyond only work related topics. To find a development partner matching the skillset and the cultural / communicational level of bright inventions is tough to imaging.*
 
 **Matthias Potthast, Founder of Relevo**
