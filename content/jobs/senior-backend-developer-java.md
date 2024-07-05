@@ -1,5 +1,5 @@
 ---
-imagejob: /images/backend-team-job-offer-3-.png
+imagejob: /images/fullstack-team-job-offer.png
 workplace_recruiter: Recruiting Specialist
 Show_recruiter_info: true
 layout: job
