@@ -2,7 +2,7 @@
 layout: job
 title: Senior Backend Developer
 subtitle: OPEN
-imagejob: /images/team-job-offer.png
+imagejob: /images/fullstack-team-job-offer.png
 image-alt-job: Backend Team Bright Inventions
 hours: Full-time
 salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
