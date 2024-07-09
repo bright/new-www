@@ -13,16 +13,14 @@ language: en
 \
 At the recent **HLTH Conference in Amsterdam**, industry leaders and experts gathered to discuss the most pressing challenges and exciting opportunities in digital health innovation. From technological readiness and regulatory hurdles to the transformative potential of AI and preventive healthcare, the conversations highlighted the fast-evolving landscape of digital health and medtech. Check out the insights shared at the conference to understand the current state and the future of healthcare innovation.
 
-## \
 Top Challenges 
 
-### \
 Technological advancements vs. readiness of healthcare systems
 
-\
-"The challenge is not the technology but the readiness to embrace and implement it, especially in healthcare, where things are still quite archaic. There are places that still use fax machines and lots of paper-pushing. There are silos and fragmentation in processes and administration." (Aahuti Rai, Strategic Advisor, Venture Partner @ Four Points Consulting)
 
-### \
+
+<blockquote><h2>Technological advancements vs. readiness of healthcare systems</h2><div>"The challenge is not the technology but the readiness to embrace and implement it, especially in healthcare, where things are still quite archaic. There are places that still use fax machines and lots of paper-pushing. There are silos and fragmentation in processes and administration." </div><footer>Aahuti Rai, Strategic Advisor, Venture Partner @ Four Points Consulting</footer></blockquote>
+
 Importance of cultural change and mindset shifts
 
 <div className="image">![](/images/baner_final-fernando-1-.png "")</div>
@@ -31,20 +29,18 @@ Importance of cultural change and mindset shifts
 "When discussing data, interoperability, data quality, unstructured data, and structured data, challenges abound. In Brazil, our biggest challenge is the mindset of healthcare leaders. Patients often need to opt in to share their data for better outcomes, and regulatory bodies and healthcare providers can be resistant to data exchange." (Fernando Campos, Founder & CEO @ Nuria)
 
 ### \
+
 Regulatory and market understanding
 
 \
 "The regulatory space is another challenge. Having FDA approval is not enough—you also need CMS and Medicaid approval to pay for your product or device. Without this, your product or service won't be implemented or used in the US." (Dr Adam Brown, Founder @ ABIG Health)
 
-
-
 ### Interoperability
-
-
 
 "One of the biggest challenges in the US is our disparate electronic healthcare systems (EHRs). Every hospital has a different system. Even though there are major EHR vendors with large market portions, communication between vendors can be challenging." (Dr Adam Brown, Founder @ ABIG Health)
 
 ### \
+
 Ensuring Data Privacy and Security
 
 \
@@ -52,9 +48,7 @@ Anonymous Mode in Flo allows users to use the app without any identifiable infor
 
 ## Top Opportunities
 
-
-
-###  AI and biomarkers as a digital health tool
+### AI and biomarkers as a digital health tool
 
 <div className="image">![](/images/baner_finalaahuti-1-.png "")</div>
 
@@ -69,19 +63,19 @@ Anonymous Mode in Flo allows users to use the app without any identifiable infor
 
 "Our solution is modular, with five modules that hospitals, clinics, and labs can buy from us and offer to their patients to better their digital journey. The second focus is an integration and interoperability platform. This involves data exchange between hospitals, clinics, labs, and other healthcare solutions, health techs, payers, the pharma industry, and distributors. Essentially, any player in healthcare that needs to automate a service or product, we connect them." (Fernando Campos, Founder & CEO @ Nuria)
 
-
-
 ### Focusing on preventive healthcare
 
 My favorite trend is preventive healthcare. We are working on this at Smarter Diagnostics because we believe it is the future of healthcare. The term 'healthcare' is misleading because it often deals with diseases rather than health. We need to change this paradigm to truly focus on health. (Bartosz Borucki, CEO @ Smarter Diagnostics)
 
 ### \
+
 Innovative collaboration and ecosystem development
 
 \
 "The ability to pull together different stakeholders from various industries with a common goal of improving health is a significant strength. We're tackling issues like the price of innovation, the implications of price on the healthcare workforce, and the future of the healthcare workforce." (Dr Adam Brown, Founder @ ABIG Health)
 
 ### \
+
 Empowering the disabled
 
 <div className="image">![](/images/baner_final-frank.png "")</div>
