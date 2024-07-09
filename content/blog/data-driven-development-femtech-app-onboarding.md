@@ -6,7 +6,7 @@ tags:
   - HealthTech
   - design
 date: 2024-01-24T09:08:17.662Z
-meaningfullyUpdatedAt: 2024-04-29T10:40:39.398Z
+meaningfullyUpdatedAt: 2024-07-08T14:14:13.353Z
 title: How Data-Driven Development Saved a Successful FemTech App Onboarding
   From a Failure
 layout: post
@@ -32,6 +32,8 @@ The pregnancy app in question had, at that time, an **onboarding process contain
 * allergies.
 
 Although **the onboarding conversion rate was 80%, our client – a Germany-based FemTech startup – questioned whether the detailed onboarding process might deter users from signing up**. We jointly decided to validate this hypothesis.
+
+<EbookDynamic sectionTitle='dive into HealthTech' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Facing scalability challenges in your HealthTech business? Read our free guide full of insights and tech solutions.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide cover' />
 
 ## The validation: confronting assumptions with data
 
