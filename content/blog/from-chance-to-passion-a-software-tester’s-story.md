@@ -3,13 +3,13 @@ author: michal-d
 secondAuthor: izabela
 tags:
   - bright story
-date: 2024-07-09T10:33:41.926Z
-meaningfullyUpdatedAt: 2024-07-09T10:33:41.950Z
+date: 2024-07-09T11:47:01.788Z
+meaningfullyUpdatedAt: 2024-07-09T11:47:02.340Z
 slug: software-tester-story-michal
 title: "From Chance to Passion: A Software Tester’s Story"
 layout: post
 image: /images/brightstorymichald.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
