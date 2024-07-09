@@ -6,7 +6,7 @@ tags:
   - HealthTech
   - design
 date: 2024-01-24T09:08:17.662Z
-meaningfullyUpdatedAt: 2024-04-29T10:40:39.398Z
+meaningfullyUpdatedAt: 2024-07-08T14:14:13.353Z
 title: How Data-Driven Development Saved a Successful FemTech App Onboarding
   From a Failure
 layout: post
