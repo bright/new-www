@@ -3,13 +3,13 @@ author: michal-d
 secondAuthor: izabela
 tags:
   - bright story
-date: 2024-07-09T10:33:41.926Z
-meaningfullyUpdatedAt: 2024-07-09T10:33:41.950Z
+date: 2024-07-09T11:47:01.788Z
+meaningfullyUpdatedAt: 2024-07-09T11:47:02.340Z
 slug: software-tester-story-michal
 title: "From Chance to Passion: A Software Tester’s Story"
 layout: post
 image: /images/brightstorymichald.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
@@ -29,6 +29,8 @@ I was a bit surprised. Maybe back then, I wasn’t assertive enough, so I didn�
 ## What surprised you in a software tester role?
 
 At first, the fact that it even exists! I mean, I was aware of the role in software development, but I never really thought about its purpose in the whole process. **I was certainly surprised by the amount of repetitive work related to it**. While some might find it boring, I somehow enjoy it. Of course, QA is not the only role that involves repetitive tasks; other professions, including programmers, also have to deal with that challenge.
+
+<div class='block-button'><h2>join our team</h2><div> Check our job offers and join the best software development studio in Gdansk.</div><a href="/career/"><button>come to the bright side</button></a></div>
 
 ## Is manual testing a profession that’s about to become extinct?
 
