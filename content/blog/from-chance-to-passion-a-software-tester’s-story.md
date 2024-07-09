@@ -64,7 +64,7 @@ Currently, **I am part of a team developing an IoT solution based on a network o
 
 I also look for **people who know how to work with software developers** because it can be quite challenging. That’s why soft skills are essential. I usually ask candidates about their experience with cooperation with developers **checking their proactivity, assertiveness, and empathy**.
 
-
+<div class='block-button'><h2>apply and join Michał</h2><div>Work with top bright minds! Create software that matters in the best software development studio in Gdansk.</div><a href="/career/"><button>check job openings</button></a></div>
 
 ## What is your after-hours hobby?
 
