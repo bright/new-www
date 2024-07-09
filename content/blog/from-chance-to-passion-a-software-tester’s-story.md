@@ -47,3 +47,11 @@ It's all thanks to [Łukasz](/about-us/lukasz/), whom I have known for years. He
 <div className="image">![During a team retreat.](/images/michal_team_retreat.png "During a team retreat.")</div>
 
 <center> During a team retreat. </center>
+
+## At Bright Inventions, you test software and its integrations with hardware. Tell us more about it.
+
+Yes, **all my desk drawers are full of different devices, cables, trackers, and more**. While working at Bright Inventions, I had the opportunity to be part of various projects, including testing a POS application with multiple devices such as printers, terminals, and POS monitors. 
+
+Currently, **I am part of a team developing an IoT solution based on a network of bluetooth trackers which is mostly used for device tracking**. The number of usages is almost limitless and it can serve in healthcare, supply chains, or cold delivery chains for example. 
+
+**Working with Bluetooth is very specific and differs significantly from testing web or typical mobile apps**. It's a truly developmental experience because you must anticipate many factors, such as the impact of wireless headphones connected to a phone on the entire application's operation. It also allows me to conduct some tests outdoors, providing a welcome break from sitting in front of the computer all the time.
