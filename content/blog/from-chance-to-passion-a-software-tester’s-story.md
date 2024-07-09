@@ -38,4 +38,4 @@ Absolutely not. **Both manual and automated testing have different responsibilit
 
 Based on my experience, I don’t see that happening. I think that **there will actually be a greater need for testers to verify AI results**.
 
-<div className="image">![](/images/michald_quote_ai.png "")</div>
+<div className="image">![AI vs software testers quote](/images/michald_quote_ai.png "AI vs software testers quote")</div>
