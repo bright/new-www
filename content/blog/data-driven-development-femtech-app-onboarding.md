@@ -33,6 +33,8 @@ The pregnancy app in question had, at that time, an **onboarding process contain
 
 Although **the onboarding conversion rate was 80%, our client – a Germany-based FemTech startup – questioned whether the detailed onboarding process might deter users from signing up**. We jointly decided to validate this hypothesis.
 
+<EbookDynamic sectionTitle='dive into HealthTech' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Facing scalability challenges in your HealthTech business? Read our free guide full of insights and tech solutions.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide cover' />
+
 ## The validation: confronting assumptions with data
 
 For testing purposes, **we shortened the onboarding process from 8 to 3 steps**, focusing on login, name, and accepting terms, while omitting questions about fitness, food preferences, and other specifics related to pregnancy. What was the outcome? **The app onboarding conversion rate plummeted from 80% to 50%**.
