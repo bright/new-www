@@ -55,3 +55,19 @@ Yes, **all my desk drawers are full of different devices, cables, trackers, and 
 Currently, **I am part of a team developing an IoT solution based on a network of bluetooth trackers which is mostly used for device tracking**. The number of usages is almost limitless and it can serve in healthcare, supply chains, or cold delivery chains for example. 
 
 **Working with Bluetooth is very specific and differs significantly from testing web or typical mobile apps**. It's a truly developmental experience because you must anticipate many factors, such as the impact of wireless headphones connected to a phone on the entire application's operation. It also allows me to conduct some tests outdoors, providing a welcome break from sitting in front of the computer all the time.
+
+## As a tech recruiter, what do you expect from candidates?
+
+**I seek people who truly understand what they say they do**. Sometimes, when you learn from a tutorial, you might grasp a framework like Cypress for test automation but not fully understand what automation is all about.
+
+I also look for **people who know how to work with software developers** because it can be quite challenging. That’s why soft skills are essential. I usually ask candidates about their experience with cooperation with developers **checking their proactivity, assertiveness, and empathy**.
+
+## What is your after-hours hobby?
+
+Since I was a child, **I've always enjoyed assembling Lego**.
+
+<div className="image">![Family Lego assembling.](/images/lego_michald.png "Family Lego assembling.")</div>
+
+<center> Family Lego assembling. </center>
+
+Now that I have a three-year-old, I can go to the store and pretend that the Lego is only for him.  I mostly buy Lego City sets – my son is excited about all the vehicles, and I get to assemble the bricks. It's a win-win!
