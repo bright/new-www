@@ -39,3 +39,11 @@ Absolutely not. **Both manual and automated testing have different responsibilit
 Based on my experience, I don’t see that happening. I think that **there will actually be a greater need for testers to verify AI results**.
 
 <div className="image">![AI vs software testers quote](/images/michald_quote_ai.png "AI vs software testers quote")</div>
+
+## How did you land at Bright Inventions?
+
+It's all thanks to [Łukasz](/about-us/lukasz/), whom I have known for years. He works at Bright Inventions and had been convincing me for years to apply. **For a long time, I thought I couldn't possibly meet the requirements to join the company**. Obviously, **I now regret that hesitation because I really enjoy working here**.
+
+<div className="image">![During a team retreat.](/images/michal_team_retreat.png "During a team retreat.")</div>
+
+<center> During a team retreat. </center>
