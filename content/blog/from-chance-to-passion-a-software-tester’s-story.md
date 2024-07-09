@@ -56,13 +56,15 @@ Currently, **I am part of a team developing an IoT solution based on a network o
 
 **Working with Bluetooth is very specific and differs significantly from testing web or typical mobile apps**. It's a truly developmental experience because you must anticipate many factors, such as the impact of wireless headphones connected to a phone on the entire application's operation. It also allows me to conduct some tests outdoors, providing a welcome break from sitting in front of the computer all the time.
 
-<div className="image">![](/images/michald_quote_bluetooth.png "")</div>
+<div className="image">![testing with bluetooth quote](/images/michald_quote_bluetooth.png "testing with bluetooth quote")</div>
 
 ## As a tech recruiter, what do you expect from candidates?
 
 **I seek people who truly understand what they say they do**. Sometimes, when you learn from a tutorial, you might grasp a framework like Cypress for test automation but not fully understand what automation is all about.
 
 I also look for **people who know how to work with software developers** because it can be quite challenging. That’s why soft skills are essential. I usually ask candidates about their experience with cooperation with developers **checking their proactivity, assertiveness, and empathy**.
+
+
 
 ## What is your after-hours hobby?
 
