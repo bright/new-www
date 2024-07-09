@@ -9,7 +9,7 @@ slug: software-tester-story-michal
 title: "From Chance to Passion: A Software Tester’s Story"
 layout: post
 image: /images/brightstorymichald.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
