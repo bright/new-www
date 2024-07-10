@@ -22,7 +22,7 @@ At the recent **HLTH Conference in Amsterdam**, industry leaders and experts gat
 
 
 
-<div className="image">![](/images/baner_final-quote-fernando.png "")</div>
+<div className="image">![](/images/baner_final-quote-fernando-1-.png "")</div>
 
 
 
@@ -64,7 +64,7 @@ At the recent **HLTH Conference in Amsterdam**, industry leaders and experts gat
 
 
 
-<div className="image">![](/images/baner_final-quote-frank.png "")</div>
+<div className="image">![](/images/baner_final-quote-frank-2-.png "")</div>
 
 
 
