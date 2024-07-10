@@ -40,6 +40,12 @@ language: en
 
 <blockquote><h2></h2><div>Anonymous Mode in Flo allows users to use the app without any identifiable information being linked to their account, such as their NAME or email address. It was already in development when the US Supreme Court ruled to overturn Roe v. Wade, but in the wake of that ruling, some users expressed concerns about how their health data might be used by third parties, such as official requests for apps like Flo to share pregnancy data with law enforcement. We believe our users should feel in control and secure when using our app, so we launched Anonymous Mode right away.</div><footer> Dr Claudia Pastides, Medical Director @ Flo</footer></blockquote>
 
+
+
+<EbookDynamic sectionTitle='almost 100 pages about scaling HealthTech' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download the free pdf full of insights, case studies and tech solutions for healthtech and medtech leaders.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover guide' />
+
+
+
 ## Top Opportunities
 
 <div className="image">![](/images/baner_final-quote-frank-3-.png "")</div>
