@@ -2,8 +2,8 @@
 author: agata
 date: 2024-07-09T10:07:14.572Z
 meaningfullyUpdatedAt: 2024-07-09T10:07:14.607Z
-title: Top Challenges and Opportunities in Digital Health Innovation - Experts
-  Insights Shared at the HLTH Conference
+title: Top Challenges and Opportunities in Digital Health – Experts Insights
+  Shared at the HLTH Conference
 layout: post
 image: /images/hlth-blogpost-cover-1-.png
 hidden: false
@@ -13,6 +13,8 @@ language: en
 ---
 \
 At the recent **HLTH Conference in Amsterdam**, industry leaders and experts gathered to discuss the most pressing challenges and exciting opportunities in digital health innovation. From technological readiness and regulatory hurdles to the transformative potential of AI and preventive healthcare, the conversations highlighted the fast-evolving landscape of digital health and medtech. Check out the insights shared at the conference to understand the current state and the future of healthcare innovation.
+
+
 
 # **Top Challenges** 
 
