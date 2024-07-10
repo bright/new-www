@@ -22,7 +22,7 @@ language: en
 
 ### 1. Technological advancements vs. readiness of healthcare systems
 
-<blockquote><h2></h2><div>The challenge is not the technology but the readiness to embrace and implement it, especially in healthcare, where things are still quite archaic. There are places that still use fax machines and lots of paper-pushing. There are silos and fragmentation in processes and administration."</div><footer>Aahuti Rai, Strategic Advisor, Venture Partner @ Four Points Consulting</footer></blockquote>
+<blockquote><h2></h2><div>The challenge is not the technology but the readiness to embrace and implement it, especially in healthcare, where things are still quite archaic. There are places that still use fax machines and lots of paper-pushing. There are silos and fragmentation in processes and administration.</div><footer>Aahuti Rai, Strategic Advisor, Venture Partner @ Four Points Consulting</footer></blockquote>
 
 ### 2. Importance of cultural change and mindset shifts
 
@@ -30,11 +30,11 @@ language: en
 
 ### 3. Regulatory and market understanding
 
-<blockquote><h2></h2><div>The regulatory space is another challenge. Having FDA approval is not enough—you also need CMS and Medicaid approval to pay for your product or device. Without this, your product or service won't be implemented or used in the US</div><footer>Dr Adam Brown, Founder @ ABIG Health</footer></blockquote>
+<blockquote><h2></h2><div>The regulatory space is another challenge. Having FDA approval is not enough—you also need CMS and Medicaid approval to pay for your product or device. Without this, your product or service won't be implemented or used in the US.</div><footer>Dr Adam Brown, Founder @ ABIG Health</footer></blockquote>
 
 ### 4. Interoperability
 
-<blockquote><h2></h2><div>One of the biggest challenges in the US is our disparate electronic healthcare systems (EHRs). Every hospital has a different system. Even though there are major EHR vendors with large market portions, communication between vendors can be challenging</div><footer>Dr Adam Brown, Founder @ ABIG Health</footer></blockquote>
+<blockquote><h2></h2><div>One of the biggest challenges in the US is our disparate electronic healthcare systems (EHRs). Every hospital has a different system. Even though there are major EHR vendors with large market portions, communication between vendors can be challenging.</div><footer>Dr Adam Brown, Founder @ ABIG Health</footer></blockquote>
 
 ### 5. Ensuring Data Privacy and Security
 
