@@ -72,3 +72,5 @@ language: en
 As we steer towards the future of digital health, the insights from these experts light the path forward. \
 \
 By addressing the challenges and seizing the opportunities, we can transform healthcare into a more efficient, inclusive, and innovative field. The question remains: are we ready to embrace the change and drive the future of healthtech? The journey ahead requires not only technological advancements but also a collective effort to reshape our approach to healthcare, ensuring better outcomes for all.
+
+<div class='block-button'><h2>facing tech challenges?</h2><div>If you like to discuss the tech challenges your healthcare solution is facing, talk to one of our experts and we'll try to solve your problems together. Schedule a meeting in 48 hours!</div><a href="/our-areas/healthcare-software-development/"><button>book a free consultation</button></a></div>
