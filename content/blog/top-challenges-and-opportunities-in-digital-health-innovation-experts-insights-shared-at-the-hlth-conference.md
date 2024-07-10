@@ -64,7 +64,7 @@ At the recent **HLTH Conference in Amsterdam**, industry leaders and experts gat
 
 
 
-<div className="image">![](/images/baner_final-quote-frank-2-.png "")</div>
+<div className="image">![](/images/baner_final-quote-frank-3-.png "")</div>
 
 
 
@@ -112,7 +112,7 @@ At the recent **HLTH Conference in Amsterdam**, industry leaders and experts gat
 
 
 
-<blockquote><h2></h2><div>I developed a program to train visually impaired women. Nowadays, we run a social enterprise called Discovering Hands. Discovering Hands trains these women, who are the perfect tactile examiners. We also have scientific research on the results of their examinations. They find tumor sizes between six and eight millimeters. We, as doctors, find tumors between one and two centimeters. That makes a big difference because it's not the tumor inside the breast that is the killer; it's always the metastasizing cells sent out from there into the body. If you find it at the earliest possible stage, you will have a cure. In other cases, maybe not.</div><footer>Dr. Frank Hoffmann, CEO & Founder @ Discovering Hands</footer></blockquote>
+<blockquote><h2></h2><div>I developed a program to train visually impaired women. Nowadays, we run a social enterprise called Discovering Hands. Discovering Hands trains these women, who are the perfect tactile examiners. We also have scientific research on the results of their examinations. They find tumor sizes between six and eight millimeters. We, as doctors, find tumors between one and two centimeters. That makes a big difference because it's not the tumor inside the breast that is the killer; it's always the metastasizing cells sent out from there into the body. If you find it at the earliest possible stage, you will have a cure. In other cases, maybe not.</div><footer>Dr Frank Hoffmann, CEO & Founder @ Discovering Hands</footer></blockquote>
 
 \
 As we steer towards the future of digital health, the insights from these experts light the path forward. \
