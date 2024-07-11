@@ -24,12 +24,12 @@ Before we start, you need to have an iOS project with at least one unit test.
 
 ## What is CI/CD and what can you gain from it?
 
-Continuous Integration (CI) is the practice of frequently integrating code changes into a shared repository, where automated builds and tests are run to detect issues at an early stage. Continuous Delivery (CD) extends this by automating the deployment of applications, ensuring that code can be reliably released at any time. What can you gain by this automation?
+**Continuous Integration** (CI) is the practice of frequently integrating code changes into a shared repository, where automated builds and tests are run to detect issues at an early stage. **Continuous Delivery** (CD) extends this by automating the deployment of applications, ensuring that code can be reliably released at any time. What can you gain by this automation?
 
-* Faster Time to Market: Automating the build, test, and deployment processes allows for quicker and more frequent releases.
-* Improved Code Quality: Continuous integration ensures that code changes are automatically tested, leading to higher code quality and fewer bugs.
-* Consistent Deployment: Automating deployments reduces the risk of human error, ensuring consistency across environments.
-* Tools integrations: CI/CD allows you to integrate tools into your pipeline, such as SwiftLint, SonarQube, sending dSYMs to Firebase Crashlytics or Sentry for error monitoring. 
+* **Faster Time to Market:** Automating the build, test, and deployment processes allows for quicker and more frequent releases.
+* **Improved Code Quality:** Continuous integration ensures that code changes are automatically tested, leading to higher code quality and fewer bugs.
+* **Consistent Deployment:** Automating deployments reduces the risk of human error, ensuring consistency across environments.
+* **Tools integrations:** CI/CD allows you to integrate tools into your pipeline, such as SwiftLint, SonarQube, sending dSYMs to Firebase Crashlytics or Sentry for error monitoring. 
 
 ## How can you integrate CI/CD in iOS programming? 
 
@@ -57,8 +57,6 @@ during installation select the option “Manual setup - manually setup your proj
 <div className="image">![fastlane setup options](/images/fastlane-setup-options.png "Options for Fastlane setup")</div>
 
 <center>Options for Fastlane setup</center>
-
-
 
 Now, you should see a new one named “fastlane” in the root folder. Inside there should be two files:
 
@@ -91,8 +89,6 @@ Congratulations! You just wrote your first lane - and with that, you've prepared
 <div className="image">![fastlane output](/images/fastlane-output.png "Example output of launching “fastlane build_and_run_tests” command")</div>
 
 <center>Example output of launching “fastlane build_and_run_tests” command</center>
-
-
 
 This is the first part of the iOS CI/CD tutorial. In the next articles you will learn:
 
