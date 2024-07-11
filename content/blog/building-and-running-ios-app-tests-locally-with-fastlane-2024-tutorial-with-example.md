@@ -18,18 +18,18 @@ language: en
 ---
 **Quick and reliable iOS application delivery is crucial and properly configured CI/CD pipelines can significantly aid in this process. Learn how to start your journey by building your app and running tests locally with Fastlane in 2024. Enjoy the part 1 of the step-by-step iOS CI/CD tutorial. More to come soon!**
 
-<div className="image">![fastlane + ios](/images/ios_fastlane_cover.png "")</div>
+<div className="image">![fastlane + ios](/images/ios_fastlane_in_text_update.png "")</div>
 
 Before we start, you need to have an iOS project with at least one unit test.
 
 ## What is CI/CD and what can you gain from it?
 
-Continuous Integration (CI) is the practice of frequently integrating code changes into a shared repository, where automated builds and tests are run to detect issues at an early stage. Continuous Delivery (CD) extends this by automating the deployment of applications, ensuring that code can be reliably released at any time. What can you gain by this automation?
+**Continuous Integration** (CI) is the practice of frequently integrating code changes into a shared repository, where automated builds and tests are run to detect issues at an early stage. **Continuous Delivery** (CD) extends this by automating the deployment of applications, ensuring that code can be reliably released at any time. What can you gain by this automation?
 
-* Faster Time to Market: Automating the build, test, and deployment processes allows for quicker and more frequent releases.
-* Improved Code Quality: Continuous integration ensures that code changes are automatically tested, leading to higher code quality and fewer bugs.
-* Consistent Deployment: Automating deployments reduces the risk of human error, ensuring consistency across environments.
-* Tools integrations: CI/CD allows you to integrate tools into your pipeline, such as SwiftLint, SonarQube, sending dSYMs to Firebase Crashlytics or Sentry for error monitoring. 
+* **Faster Time to Market:** Automating the build, test, and deployment processes allows for quicker and more frequent releases.
+* **Improved Code Quality:** Continuous integration ensures that code changes are automatically tested, leading to higher code quality and fewer bugs.
+* **Consistent Deployment:** Automating deployments reduces the risk of human error, ensuring consistency across environments.
+* **Tools integrations:** CI/CD allows you to integrate tools into your pipeline, such as SwiftLint, SonarQube, sending dSYMs to Firebase Crashlytics or Sentry for error monitoring. 
 
 ## How can you integrate CI/CD in iOS programming? 
 
@@ -56,14 +56,12 @@ during installation select the option “Manual setup - manually setup your proj
 
 <div className="image">![fastlane setup options](/images/fastlane-setup-options.png "Options for Fastlane setup")</div>
 
-<center>Options for Fastlane setup</center>
-
-
+<sub><center>Options for Fastlane setup</center></sub>
 
 Now, you should see a new one named “fastlane” in the root folder. Inside there should be two files:
 
-* Fastfile - fastlane uses it to store the automation configuration. Within that, you’ll see different lanes. Each is there to automate different tasks, like screenshots, code signing, or publishing new releases.
-* Appfile - configuration file. Stores information about the Bundle ID of your app and your Apple Developer Portal username. For now, we don’t need to focus on it, if you want, you can read more about it [here](https://docs.fastlane.tools/advanced/Appfile/)
+* **Fastfile -** fastlane uses it to store the automation configuration. Within that, you’ll see different lanes. Each is there to automate different tasks, like screenshots, code signing, or publishing new releases.
+* **Appfile** - configuration file. Stores information about the Bundle ID of your app and your Apple Developer Portal username. For now, we don’t need to focus on it, if you want, you can read more about it [here](https://docs.fastlane.tools/advanced/Appfile/)
 
 ## **Building your first lane**
 
@@ -90,9 +88,7 @@ Congratulations! You just wrote your first lane - and with that, you've prepared
 
 <div className="image">![fastlane output](/images/fastlane-output.png "Example output of launching “fastlane build_and_run_tests” command")</div>
 
-<center>Example output of launching “fastlane build_and_run_tests” command</center>
-
-
+<sub><center>Example output of launching “fastlane build_and_run_tests” command</center></sub>
 
 This is the first part of the iOS CI/CD tutorial. In the next articles you will learn:
 
