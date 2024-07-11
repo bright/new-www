@@ -14,13 +14,13 @@ faqs:
   - healthcare software development 3
 project:
   - circles
+  - MedKitDoc
   - solution-parkinson
+  - emergency-contact-app
   - mobile-therapy-application
   - pregnancy-app
   - Remote Patient Monitoring
   - eMAR
-  - emergency-contact-app
-  - MedKitDoc
 layout: our-service
 our_service_id: healthcare software development
 meta_title: Healthcare Software Development
