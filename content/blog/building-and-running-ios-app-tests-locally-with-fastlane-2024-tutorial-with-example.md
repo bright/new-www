@@ -60,8 +60,8 @@ during installation select the option “Manual setup - manually setup your proj
 
 Now, you should see a new one named “fastlane” in the root folder. Inside there should be two files:
 
-* Fastfile - fastlane uses it to store the automation configuration. Within that, you’ll see different lanes. Each is there to automate different tasks, like screenshots, code signing, or publishing new releases.
-* Appfile - configuration file. Stores information about the Bundle ID of your app and your Apple Developer Portal username. For now, we don’t need to focus on it, if you want, you can read more about it [here](https://docs.fastlane.tools/advanced/Appfile/)
+* **Fastfile -** fastlane uses it to store the automation configuration. Within that, you’ll see different lanes. Each is there to automate different tasks, like screenshots, code signing, or publishing new releases.
+* **Appfile** - configuration file. Stores information about the Bundle ID of your app and your Apple Developer Portal username. For now, we don’t need to focus on it, if you want, you can read more about it [here](https://docs.fastlane.tools/advanced/Appfile/)
 
 ## **Building your first lane**
 
