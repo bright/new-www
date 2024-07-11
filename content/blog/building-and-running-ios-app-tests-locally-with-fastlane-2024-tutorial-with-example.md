@@ -18,7 +18,7 @@ language: en
 ---
 **Quick and reliable iOS application delivery is crucial and properly configured CI/CD pipelines can significantly aid in this process. Learn how to start your journey by building your app and running tests locally with Fastlane in 2024. Enjoy the part 1 of the step-by-step iOS CI/CD tutorial. More to come soon!**
 
-<div className="image">![fastlane + ios](/images/ios_fastlane_in_text.png "")</div>
+<div className="image">![fastlane + ios](/images/ios_fastlane_in_text_update.png "")</div>
 
 Before we start, you need to have an iOS project with at least one unit test.
 
