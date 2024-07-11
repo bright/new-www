@@ -4,8 +4,8 @@ tags:
   - iOS
   - Fastlane
   - ci/cd
-date: 2024-07-11T06:16:36.857Z
-meaningfullyUpdatedAt: 2024-07-11T06:16:36.881Z
+date: 2024-07-11T12:06:31.279Z
+meaningfullyUpdatedAt: 2024-07-11T12:06:32.268Z
 slug: building-running-ios-app-test-locally-fastlane
 title: Building and Running iOS App Tests Locally with Fastlane - 2024 Tutorial
   with Example
@@ -81,8 +81,6 @@ desc "Build app and run tests"
 We defined our custom lane named “build_and_run_tests” which underneath calls build-in lane “scan” ([docs.fastlane.tools/actions/scan](https://docs.fastlane.tools/actions/scan/)). The “desc” line provides a description for your lane, making it easier to understand its purpose. 
 
 You can replace “iPhone 15” with any device you want to use for your tests. If you omit this option, Fastlane will select the first available simulator. Additionally, there are many other parameters you can modify and choose from: [docs.fastlane.tools/actions/scan/#parameters](https://docs.fastlane.tools/actions/scan/#parameters)
-
-
 
 Congratulations! You just wrote your first lane - and with that, you've prepared everything to run your tests through a single command in the console! Now let's check if it works! Go to the root folder of your project and enter command: 
 
