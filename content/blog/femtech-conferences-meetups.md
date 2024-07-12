@@ -44,7 +44,7 @@ This event is designed to empower women in medicine, offering leadership develop
 
 **Key speakers**: Information to be announced
 
-This summit focuses on addressing challenges women face in the workplace, offering tools to advance careers, and promoting DEI in health care. Open to all genders, it features discussions on leadership, emotional intelligence, and more.
+This summit focuses on addressing challenges women face in the workplace, offering tools to advance careers, and promoting DEI (diversity, equity and inclusion) in health care.
 
 [women.risehealth.org](https://www.women.risehealth.org/)
 
