@@ -32,7 +32,7 @@ This event is designed to empower women in medicine, offering leadership develop
 
 [womeninmedicinesummit.org](https://www.womeninmedicinesummit.org/)
 
-## Women in Medicine Summit
+## The RISE Women in Health Care Leadership Summit
 
 **Date**: December 9-10, 2024
 
@@ -52,7 +52,7 @@ This summit focuses on addressing challenges women face in the workplace, offeri
 
 ### FemTech & Consumer Innovation Summit 2024
 
-**Date**: 16-17 April 2024
+**Date**: Aril 16-17, 2024
 
 **City**: Basel, Switzerland
 
