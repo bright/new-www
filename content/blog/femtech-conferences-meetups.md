@@ -46,6 +46,8 @@ This event is designed to empower women in medicine, offering leadership develop
 
 This summit focuses on addressing challenges women face in the workplace, offering tools to advance careers, and promoting DEI in health care. Open to all genders, it features discussions on leadership, emotional intelligence, and more.
 
+[women.risehealth.org](https://www.women.risehealth.org/)
+
 ## **Events that already have taken place in 2024**
 
 ### FemTech & Consumer Innovation Summit 2024
