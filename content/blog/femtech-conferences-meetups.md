@@ -16,6 +16,22 @@ language: en
 
 <div className="image">![FemTech conferences and meetups](../../static/images/meetup_femtech.png "FemTech conferences and meetups")</div>
 
+## Women in Medicine Summit
+
+**Date**: September 13-14, 2024
+
+**City**: Chicago, USA
+
+**Ticket pricing**: Information not provided
+
+**Number of attendees**: Information not provided
+
+**Key speakers**: Information to be announced
+
+This event is designed to empower women in medicine, offering leadership development, negotiation skills, and strategies for career growth.
+
+**Events that already have taken place in 2024:**
+
 ## FemTech & Consumer Innovation Summit 2024
 
 **Date**: 16-17 April 2024
@@ -54,25 +70,5 @@ The summit connects stakeholders at the convergence of healthcare and consumer i
 FemTech Forward 2024 aims to catalyze nuanced discussions on the potential benefits and pitfalls of applying technology to longstanding gaps in women's health.
 
 [eventbrite.com/femtech-forward](https://www.eventbrite.com/e/femtech-forward-2024-transforming-womens-health-with-tech-tickets-859434811657?aff=oddtdtcreator)
-
-## Women's Health Innovation Summit, Europe 2024
-
-**Date**: 5-6 June 2024
-
-**City**: New Jersey, USA
-
-**Ticket pricing**: from $599 to $2799
-
-**Number of attendees**: info not provided
-
-**Key speakers**: 
-
-* Amira Ghouaibi - Lead, Women’s Health Initiative World Economic Forum; 
-* Bridget Gorham - Health Economics Policy Advisor NHS Confederation; 
-* Peter Turek, Head of Women's Healthcare Gedeon Richter.
-
-With senior executives from pharmaceutical and medical device companies, startups, investors, government representatives, and more, the summit addresses diverse women’s health needs, from endometriosis to Alzheimer’s
-
-[womenshealthinnovationeurope.com](https://www.womenshealthinnovationeurope.com/events/womenshealthinnovationeurope)
 
 Do you recommend other FemTech conferences? Let us know in the comments and we might include them!
