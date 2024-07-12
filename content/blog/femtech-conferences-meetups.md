@@ -20,7 +20,7 @@ language: en
 
 **Date**: September 13-14, 2024
 
-**City**: Chicago, USA
+**City**: Chicago, Illinois, USA
 
 **Ticket pricing**: Information not provided
 
@@ -32,9 +32,23 @@ This event is designed to empower women in medicine, offering leadership develop
 
 [womeninmedicinesummit.org](https://www.womeninmedicinesummit.org/)
 
-**Events that already have taken place in 2024:**
+## Women in Medicine Summit
 
-## FemTech & Consumer Innovation Summit 2024
+**Date**: December 9-10, 2024
+
+**City**: Scottsdale, Arizona, USA
+
+**Ticket pricing**: Information not provided
+
+**Number of attendees**: Information not provided
+
+**Key speakers**: Information to be announced
+
+This summit focuses on addressing challenges women face in the workplace, offering tools to advance careers, and promoting DEI in health care. Open to all genders, it features discussions on leadership, emotional intelligence, and more.
+
+## **Events that already have taken place in 2024**
+
+### FemTech & Consumer Innovation Summit 2024
 
 **Date**: 16-17 April 2024
 
@@ -54,7 +68,7 @@ The summit connects stakeholders at the convergence of healthcare and consumer i
 
 [femtechconsumerinnovation.com](https://www.femtechconsumerinnovation.com/events/femtechconsumerinnovation)
 
-## FemTech Forward 2024: Transforming Women’s Health With Tech
+### FemTech Forward 2024: Transforming Women’s Health With Tech
 
 **Date**: May 10, 2024
 
