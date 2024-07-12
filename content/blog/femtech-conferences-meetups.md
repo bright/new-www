@@ -30,6 +30,8 @@ language: en
 
 This event is designed to empower women in medicine, offering leadership development, negotiation skills, and strategies for career growth.
 
+[womeninmedicinesummit.org](https://www.womeninmedicinesummit.org/)
+
 **Events that already have taken place in 2024:**
 
 ## FemTech & Consumer Innovation Summit 2024
