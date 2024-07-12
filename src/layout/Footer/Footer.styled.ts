@@ -153,7 +153,7 @@ export const PartnerLink = styled.a`
     height: 100%;
     
     & svg {
-        max-height: 60px;
+        height: 60px;
     }
 `;
 
