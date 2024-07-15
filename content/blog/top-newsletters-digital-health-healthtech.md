@@ -49,7 +49,13 @@ Powered by: Axios news portal
 
 Subscribe: [axios.com/newsletters](https://www.axios.com/newsletters)
 
+## Stat News
 
+An extensive news source providing in-depth reporting on health, medicine, biotech, pharma, and science.
+
+Powered by: Stat News healthcare news portal
+
+Subscribe: [statnews.com/signup/](https://www.statnews.com/signup/)
 
 ## The Future of Digital Health
 
