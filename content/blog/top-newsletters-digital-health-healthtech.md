@@ -4,7 +4,7 @@ secondAuthor: agata
 tags:
   - HealthTech
 date: 2024-02-16T08:58:07.210Z
-meaningfullyUpdatedAt: 2024-04-04T11:50:10.161Z
+meaningfullyUpdatedAt: 2024-07-15T13:05:59.552Z
 title: Top Newsletters about Digital Health
 layout: post
 image: /images/digital_health_newsletters.png
