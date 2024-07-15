@@ -25,6 +25,16 @@ Powered by: Blake Madden, Founder & Creator of Hospitalogy
 
 Subscribe: [](https://www.linkedin.com/newsletters/the-future-of-digital-health-6501324601757442048/)[](https://www.linkedin.com/in/blakecmadden/)[hospitalogy.com](https://hospitalogy.com/)
 
+## Healthcare Huddle
+
+A newsletter created by a physician for health professionals explaining complex healthcare topics.
+
+Powered by: Jared Dashevsky, MD, Founder of Healthcare Huddle newsletter
+
+Subscribe: [healthcarehuddle.com](https://www.healthcarehuddle.com/)
+
+
+
 ## The Future of Digital Health
 
 An insightful newsletter touching on how new technologies can transform digital health.
