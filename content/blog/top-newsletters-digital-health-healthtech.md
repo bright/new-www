@@ -33,7 +33,13 @@ Powered by: Jared Dashevsky, MD, Founder of Healthcare Huddle newsletter
 
 Subscribe: [healthcarehuddle.com](https://www.healthcarehuddle.com/)
 
+## Fierce Healthcare
 
+A comprehensive news source covering various aspects of the healthcare industry from healthcare legislation, EMR systems, HIPAA, interoperability to risk management, and more.
+
+Powered by: Fierce Healthcarenews portal
+
+Subscribe: [](https://www.healthcarehuddle.com/)[fiercehealthcare.com](https://fiercehealthcare.questexinfo.com/loading.do?omedasite=HC_full&_gl=1*4xpr71*_gcl_au*MzAxMDI0ODU0LjE3MjEwNDY2NjQ.*_ga*NjYxNDk2NDQ1LjE3MjEwNDY2NjQ.*_ga_RMX1PXZZZZ*MTcyMTA0NjY2NC4xLjEuMTcyMTA0Njc5OS41OS4wLjA)
 
 ## The Future of Digital Health
 
