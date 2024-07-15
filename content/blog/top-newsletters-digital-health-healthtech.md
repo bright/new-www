@@ -41,6 +41,16 @@ Powered by: Fierce Healthcarenews portal
 
 Subscribe: [](https://www.healthcarehuddle.com/)[fiercehealthcare.com](https://fiercehealthcare.questexinfo.com/loading.do?omedasite=HC_full&_gl=1*4xpr71*_gcl_au*MzAxMDI0ODU0LjE3MjEwNDY2NjQ.*_ga*NjYxNDk2NDQ1LjE3MjEwNDY2NjQ.*_ga_RMX1PXZZZZ*MTcyMTA0NjY2NC4xLjEuMTcyMTA0Njc5OS41OS4wLjA)
 
+## Axios Vitals
+
+A newsletter offering updates and insights into the latest healthcare news.
+
+Powered by: Axios news portal
+
+Subscribe: [axios.com/newsletters](https://www.axios.com/newsletters)
+
+
+
 ## The Future of Digital Health
 
 An insightful newsletter touching on how new technologies can transform digital health.
