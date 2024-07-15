@@ -1,9 +1,10 @@
 ---
 author: izabela
+secondAuthor: agata
 tags:
   - HealthTech
 date: 2024-02-16T08:58:07.210Z
-meaningfullyUpdatedAt: 2024-04-04T11:50:10.161Z
+meaningfullyUpdatedAt: 2024-07-15T13:05:59.552Z
 title: Top Newsletters about Digital Health
 layout: post
 image: /images/digital_health_newsletters.png
@@ -15,6 +16,46 @@ language: en
 **Discover viable sources of news about HealthTech and MedTech. These newsletters are worth finding a place in your inbox.**
 
 <div className="image">![newsletters technology in healthcare](../../static/images/digital_health_newsletters.png "newsletters technology in healthcare")</div>
+
+## Hospitalogy
+
+A newsletter focusing on the financial aspects and future trends in large healthcare systems and payers.
+
+Powered by: Blake Madden, Founder & Creator of Hospitalogy
+
+Subscribe: [](https://www.linkedin.com/newsletters/the-future-of-digital-health-6501324601757442048/)[](https://www.linkedin.com/in/blakecmadden/)[hospitalogy.com](https://hospitalogy.com/)
+
+## Healthcare Huddle
+
+A newsletter created by a physician for health professionals explaining complex healthcare topics.
+
+Powered by: Jared Dashevsky, MD, Founder of Healthcare Huddle newsletter
+
+Subscribe: [healthcarehuddle.com](https://www.healthcarehuddle.com/)
+
+## Fierce Healthcare
+
+A comprehensive news source covering various aspects of the healthcare industry from healthcare legislation, EMR systems, HIPAA, interoperability to risk management, and more.
+
+Powered by: Fierce Healthcarenews portal
+
+Subscribe: [](https://www.healthcarehuddle.com/)[fiercehealthcare.com](https://fiercehealthcare.questexinfo.com/loading.do?omedasite=HC_full&_gl=1*4xpr71*_gcl_au*MzAxMDI0ODU0LjE3MjEwNDY2NjQ.*_ga*NjYxNDk2NDQ1LjE3MjEwNDY2NjQ.*_ga_RMX1PXZZZZ*MTcyMTA0NjY2NC4xLjEuMTcyMTA0Njc5OS41OS4wLjA)
+
+## Axios Vitals
+
+A newsletter offering updates and insights into the latest healthcare news.
+
+Powered by: Axios news portal
+
+Subscribe: [axios.com/newsletters](https://www.axios.com/newsletters)
+
+## Stat News
+
+An extensive news source providing in-depth reporting on health, medicine, biotech, pharma, and science.
+
+Powered by: Stat News healthcare news portal
+
+Subscribe: [statnews.com/signup/](https://www.statnews.com/signup/)
 
 ## The Future of Digital Health
 
