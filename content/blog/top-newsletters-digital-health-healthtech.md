@@ -1,5 +1,6 @@
 ---
 author: izabela
+secondAuthor: agata
 tags:
   - HealthTech
 date: 2024-02-16T08:58:07.210Z
@@ -15,6 +16,14 @@ language: en
 **Discover viable sources of news about HealthTech and MedTech. These newsletters are worth finding a place in your inbox.**
 
 <div className="image">![newsletters technology in healthcare](../../static/images/digital_health_newsletters.png "newsletters technology in healthcare")</div>
+
+## Hospitalogy
+
+A newsletter focusing on the financial aspects and future trends in large healthcare systems and payers.
+
+Powered by: Blake Madden, Founder & Creator of Hospitalogy
+
+Subscribe: [](https://www.linkedin.com/newsletters/the-future-of-digital-health-6501324601757442048/)[](https://www.linkedin.com/in/blakecmadden/)[hospitalogy.com](https://hospitalogy.com/)
 
 ## The Future of Digital Health
 
