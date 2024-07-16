@@ -109,6 +109,6 @@ Just [book a free consultation](/start-project/). Our experts will guide you thr
 
 <center>
 
-[![let's talk](static/images/contact_mateusz_0.75.png)](/start-project/) 
+[![let's talk](/images/contact_mateusz_0.75.png)](/start-project/) 
 
 </center>
