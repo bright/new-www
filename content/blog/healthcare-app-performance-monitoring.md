@@ -103,13 +103,12 @@ Monitoring of CPU, memory, storage, and network usage to prevent bottlenecks and
 
 Design template by [Emmanuel Iwegbue](https://www.figma.com/community/file/1331537825284408926).  
 
-
 ## Do you want to discuss performance monitoring for your solution?
 
 Just [book a free consultation](/start-project/). Our experts will guide you through any scalability challenges.
 
 <center>
 
-[![let's talk](/images/contact_mateusz_small.png)](/start-project/) 
+[![let's talk](static/images/contact_mateusz_0.75.png)](/start-project/) 
 
 </center>
