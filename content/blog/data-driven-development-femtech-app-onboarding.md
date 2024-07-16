@@ -75,6 +75,6 @@ Looking for ways to optimize your app onboarding with data-driven development? C
 
 <center>
 
-[![let's talk](/images/contact_mateusz_small.png)](/start-project/) 
+[![let's talk](/images/contact_mateusz_0.75.png)](/start-project/) 
 
 </center>
