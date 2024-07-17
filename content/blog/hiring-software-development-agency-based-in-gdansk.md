@@ -99,7 +99,7 @@ The official [news portal of Gdańsk](https://www.gdansk.pl/wiadomosci/Armia-18-
 
 ## Gdansk hosts infoShare – the biggest tech and startup event in CEE
 
-[infoShare](https://infoshare.pl/conference/) brings over 6 thousand attendees, 150 speakers, and over 500 startups. The first edition of the event was organized in 2007. infoShare brings to Gdańsk speakers representing companies like IBM, Linux, Oracle, Intel and more.
+[infoShare](https://infoshare.pl/conference/) brings over 6 thousand attendees, 150 speakers, and over 500 startups. The first edition of the event was organized in 2007. infoShare brings to Gdansk speakers representing companies like IBM, Linux, Oracle, Intel and more.
 
 <div className="image">![infoShare 2023](../../static/images/blog_post_infoshare.png "Pictures from infoShare 2023")</div>
 
