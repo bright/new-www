@@ -51,3 +51,11 @@ language: en
 <Gallery images='[{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/firebase_logo_stack_new.svg","alt":"Firebase"},{"src":"/images/alamofire.svg","alt":"Alamofire"},{"src":"/images/realm_stack_logo.svg","alt":"Realm"}]' />
 
 technologies: Swift, Firebase, Crashlytics, Alamofire, Realm, MVVM
+
+<TitleWithIcon sectionTitle="problem: ineffective Kitchen Receipt Printing System" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+
+**This story starts in the hot, crowded restaurant kitchen full of busy staff trying to handle too many printed food orders**. This old-fashioned approach has been so deeply ingrained in the daily life of the staff that they haven’t thought of confronting the system, despite experiencing its limitations first-hand.
+
+The high volume of printed receipts posed a challenge for the already busy kitchen staff, making it **difficult to keep track of them**. As a result, receipts often became mixed up, disrupting their proper order, and were prone to being lost or damaged, which made them difficult to read. 
+
+They also proved ineffective as a tool for exchanging information. For instance, **kitchen personnel had no means of informing waitstaff about the progress of meal preparation**. This system also failed to provide relevant data regarding meal preparation to delivery providers, which resulted in **unrealistic delivery estimates**.
