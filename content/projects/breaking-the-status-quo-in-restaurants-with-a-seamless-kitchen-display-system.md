@@ -4,7 +4,7 @@ team_members:
   - arturs
   - piotr
 our_service:
-  - custom software development
+  - mobile app development
 layout: project
 project_id: kitchen-display-system
 title: Breaking the Status Quo in Restaurants with a Seamless Kitchen Display System
