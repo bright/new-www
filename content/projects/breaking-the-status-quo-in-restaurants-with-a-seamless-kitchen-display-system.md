@@ -47,13 +47,11 @@ language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
-
-
 <Gallery images='[{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/firebase_logo_stack_new.svg","alt":"Firebase"},{"src":"/images/alamofire.svg","alt":"Alamofire"},{"src":"/images/realm_stack_logo.svg","alt":"Realm"}]' />
 
 technologies: Swift, Firebase, Crashlytics, Alamofire, Realm, MVVM
 
-<TitleWithIcon sectionTitle="problem: ineffective Kitchen Receipt Printing System" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+<TitleWithIcon sectionTitle="problem: ineffective kitchen receipt printing system" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
 **This story starts in the hot, crowded restaurant kitchen full of busy staff trying to handle too many printed food orders**. This old-fashioned approach has been so deeply ingrained in the daily life of the staff that they haven’t thought of confronting the system, despite experiencing its limitations first-hand.
 
@@ -90,8 +88,6 @@ To **make the transition to KDS as smooth as possible** we had to ensure instant
 The Right UI was also a crucial factor in convincing restaurant staff to transition from their old system. **Our team collaborated closely with Practi's product designers to craft a simple, user-friendly UI that would appeal to even the most resistant end users**.
 
 <div className="image">![restaurant](/images/kds_restaurant_photo.png "")</div>
-
-
 
 <TitleWithIcon sectionTitle="the results: successful launch across Israel and the UK" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
 
