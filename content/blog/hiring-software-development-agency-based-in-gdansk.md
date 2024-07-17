@@ -117,7 +117,7 @@ One of the reasons might be the fact that **Gdansk offers opportunities to grow 
 
 ## Combine your business trip with pleasure
 
-Gdańsk is a great city to experience beach sunsets, sailing, historical sightseeing, and much more. Check out the [places to visit in the city recommended by our team](/blog/things-to-see-in-gdansk/)!
+Gdansk is a great city to experience beach sunsets, sailing, historical sightseeing, and much more. Check out the [places to visit in the city recommended by our team](/blog/things-to-see-in-gdansk/)!
 
 <div className="image">![Gdansk - things to see](/images/gdansk_sailing.png "Gdansk - things to see")</div>
 
