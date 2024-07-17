@@ -69,3 +69,13 @@ They also proved ineffective as a tool for exchanging information. For instance,
 Our product team uncovered these limitations, deciding to change printed receipts into a screen placed in the center of every restaurant kitchen. It was high time to put receipts into the past. Instead, a bespoke Kitchen Display System (KDS) has emerged.
 
 <TitleWithIcon sectionTitle="the solution: digitalized kitchen receipts" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution:" />
+
+**The Kitchen Display System seamlessly presents all orders on an enormous kitchen screen**. Additionally, **kitchen staff can update order progress** effortlessly keeping waitstaff in the loop. 
+
+**KDS eliminates receipts loss, reduces paper use, and optimizes the collaborative efforts between the kitchen and waitstaff**. Finally, both teams can dedicate their undivided attention to their core responsibilities: food preparation and customer service. 
+
+The new system also **improves tracking of order preparation time**, enhancing delivery estimates. This not only **optimizes driver pickups** but also **improves customer satisfaction**.
+
+<div className="image">![kitchen display system mockup](/images/kds_mockup.png "")</div>
+
+Boosting productivity? That's another perk of our revamped system. We included color-coded indicators to identify orders that take too long to process. **The color-coding system is fully customizable, empowering restaurant staff to determine specific time thresholds associated with each color**. For instance, the red color might indicate that a meal has not been prepared within 20 minutes after ordering.
