@@ -3,6 +3,7 @@ team_members:
   - michal
   - arturs
   - piotr
+  - fjablonski
 our_service:
   - mobile app development
 layout: project
@@ -37,7 +38,7 @@ description_contact: Tell us more about your project or idea for an app. Fill
   out the form below and we'll get back to you in 48 hours.
 order: 99
 slug: kitchen-display-system
-show_team: false
+show_team: true
 show_case_study: true
 show on homepage: false
 published: true
