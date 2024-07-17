@@ -51,7 +51,7 @@ The Gdańsk Airport is located about 20 minutes from the center of the city by c
 
 <div className="image">![Gdansk airport flight connections](../../static/images/blog_post_airport_gdansk.png "Gdansk airport flight connections")</div>
 
-<center>Source: [Gdansk Airport website](https://www.airport.gdansk.pl/flight-information/where-we-fly-p3.html) </center>
+<center>Source: \[Gdansk Airport website](https://www.airport.gdansk.pl/flight-information/where-we-fly-p3.html) </center>
 
 Additionally, you can reach the city comfortably by train from Berlin. 
 
@@ -87,7 +87,7 @@ Lots of Bright Inventions team members graduated from Gdansk University of Techn
 
 <div className="image">![Gdansk University of Technology](../../static/images/blog_post_gdansk_tech_university.png "Gdansk University of Technology")</div>
 
-<center> Source: [Gdansk University of Technology's website](https://pg.edu.pl/dzial-promocji/marka-pg/galeria-zdjec)</center>
+<center> Source: \[Gdansk University of Technology's website](https://pg.edu.pl/dzial-promocji/marka-pg/galeria-zdjec)</center>
 
 It’s worth mentioning that graduates of the Gdansk University of Technology created [text-to-speech Ivona](https://pg.edu.pl/aktualnosci/2021-04/chcemy-dac-polakom-milion-dodatkowych-lat-zycia-w-zdrowiu-rozmowa-z-lukaszem). Their solution eventually helped to build the famous Alexa.
 
@@ -100,8 +100,6 @@ The official [news portal of Gdańsk](https://www.gdansk.pl/wiadomosci/Armia-18-
 ## Gdansk hosts infoShare – the biggest tech and startup event in CEE
 
 [infoShare](https://infoshare.pl/conference/) brings over 6 thousand attendees, 150 speakers, and over 500 startups. The first edition of the event was organized in 2007. infoShare brings to Gdańsk speakers representing companies like IBM, Linux, Oracle, Intel and more.
-
-Heading to Infoshare this year? [Let’s meet for a coffee there](/blog/lets-meet-at-infoshare/)!
 
 <div className="image">![infoShare 2023](../../static/images/blog_post_infoshare.png "Pictures from infoShare 2023")</div>
 
