@@ -56,6 +56,12 @@ technologies: Swift, Firebase, Crashlytics, Alamofire, Realm, MVVM
 
 **This story starts in the hot, crowded restaurant kitchen full of busy staff trying to handle too many printed food orders**. This old-fashioned approach has been so deeply ingrained in the daily life of the staff that they haven’t thought of confronting the system, despite experiencing its limitations first-hand.
 
+<div className="image">![kitchen printed receipts](/images/printed_kitchen_receipts.png "")</div>
+
 The high volume of printed receipts posed a challenge for the already busy kitchen staff, making it **difficult to keep track of them**. As a result, receipts often became mixed up, disrupting their proper order, and were prone to being lost or damaged, which made them difficult to read. 
 
 They also proved ineffective as a tool for exchanging information. For instance, **kitchen personnel had no means of informing waitstaff about the progress of meal preparation**. This system also failed to provide relevant data regarding meal preparation to delivery providers, which resulted in **unrealistic delivery estimates**.
+
+<div className="image">![printed kitchen receipt - example](/images/kitchen_receipt_order.png "An example of a printed receipt for a kitchen staff")</div>
+
+<center> <sub> An example of a printed receipt for a kitchen staff </sub> </center>
