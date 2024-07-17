@@ -89,3 +89,9 @@ To **make the transition to KDS as smooth as possible** we had to ensure instant
 The Right UI was also a crucial factor in convincing restaurant staff to transition from their old system. **Our team collaborated closely with Practi's product designers to craft a simple, user-friendly UI that would appeal to even the most resistant end users**.
 
 <div className="image">![restaurant](/images/kds_restaurant_photo.png "")</div>
+
+
+
+<TitleWithIcon sectionTitle="the results: successful launch across Israel and the UK" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
+
+After the successful launch of the Kitchen Display System, employees of numerous restaurants across Israel and the United Kingdom finally said goodbye to unloved receipts. **KDS became a remedy to all pain points of the outdated kitchen thermal receipt system**. That’s another weight lifted off the shoulders of restaurant workers during our 10-year collaboration with Practi. Let’s continue this journey. Destination: change!
