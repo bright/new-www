@@ -65,3 +65,7 @@ They also proved ineffective as a tool for exchanging information. For instance,
 <div className="image">![printed kitchen receipt - example](/images/kitchen_receipt_order.png "An example of a printed receipt for a kitchen staff")</div>
 
 <center> <sub> An example of a printed receipt for a kitchen staff </sub> </center>
+
+Our product team uncovered these limitations, deciding to change printed receipts into a screen placed in the center of every restaurant kitchen. It was high time to put receipts into the past. Instead, a bespoke Kitchen Display System (KDS) has emerged.
+
+<TitleWithIcon sectionTitle="the solution: digitalized kitchen receipts" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution:" />
