@@ -9,7 +9,7 @@ our_service:
 layout: project
 project_id: kitchen-display-system
 title: Breaking Status Quo in Restaurants with Kitchen Display System
-image: /images/case_study_kds.png
+image: /images/case_study_kds_update.png
 description: Can technology change the status quo? The Kitchen Display System
   developed for the Israeli startup Practi stands as a prime illustration of
   dependable and user-friendly software, instantly embraced by its end users.
@@ -18,7 +18,7 @@ description: Can technology change the status quo? The Kitchen Display System
   witnessing how KDS impacts restaurant food management in Israel and the UK.
 hero_image: /images/case_study_kds_hero.png
 Hero Image_alt: kitchen display system
-social_media_previev: /images/fb_preview_case_study_kds.png
+social_media_previev: /images/fb_preview_case_study_kds_update.png
 social_media_previev_alt: kitchen display system
 bar_achievements:
   - number: "10"
