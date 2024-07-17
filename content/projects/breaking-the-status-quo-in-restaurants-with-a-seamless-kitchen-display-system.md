@@ -45,3 +45,7 @@ work_in_progress: false
 language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
+
+
+
+<Gallery images='[{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/firebase_logo_stack_new.svg","alt":"Firebase"},{"src":"/images/alamofire.svg","alt":"Alamofire"},{"src":"/images/realm_stack_logo.svg","alt":"Realm"}]' />
