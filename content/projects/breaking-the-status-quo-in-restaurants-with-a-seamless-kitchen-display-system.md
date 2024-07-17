@@ -49,3 +49,5 @@ language: en
 
 
 <Gallery images='[{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/firebase_logo_stack_new.svg","alt":"Firebase"},{"src":"/images/alamofire.svg","alt":"Alamofire"},{"src":"/images/realm_stack_logo.svg","alt":"Realm"}]' />
+
+technologies: Swift, Firebase, Crashlytics, Alamofire, Realm, MVVM
