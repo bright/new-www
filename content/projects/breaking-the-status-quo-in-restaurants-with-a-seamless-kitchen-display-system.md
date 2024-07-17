@@ -87,3 +87,5 @@ The last thing that the kitchen staff should worry about is the quality of the i
 To **make the transition to KDS as smooth as possible** we had to ensure instant communication across multiple environments, involving the POS application, backend, KDS, and waitstaff application. By implementing a constant synchronization the system displayed new orders on the kitchen screen in a matter of seconds.
 
 The Right UI was also a crucial factor in convincing restaurant staff to transition from their old system. **Our team collaborated closely with Practi's product designers to craft a simple, user-friendly UI that would appeal to even the most resistant end users**.
+
+<div className="image">![restaurant](/images/kds_restaurant_photo.png "")</div>
