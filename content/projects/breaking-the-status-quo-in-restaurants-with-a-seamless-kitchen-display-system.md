@@ -8,7 +8,7 @@ our_service:
   - mobile app development
 layout: project
 project_id: kitchen-display-system
-title: Breaking the Status Quo in Restaurants with a Seamless Kitchen Display System
+title: Breaking Status Quo in Restaurants with Kitchen Display System
 image: /images/case_study_kds.png
 description: Can technology change the status quo? The Kitchen Display System
   developed for the Israeli startup Practi stands as a prime illustration of
