@@ -79,3 +79,11 @@ The new system also **improves tracking of order preparation time**, enhancing d
 <div className="image">![kitchen display system mockup](/images/kds_mockup.png "")</div>
 
 Boosting productivity? That's another perk of our revamped system. We included color-coded indicators to identify orders that take too long to process. **The color-coding system is fully customizable, empowering restaurant staff to determine specific time thresholds associated with each color**. For instance, the red color might indicate that a meal has not been prepared within 20 minutes after ordering.
+
+<TitleWithIcon sectionTitle="challenge: instant communication across multiple applications" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
+
+The last thing that the kitchen staff should worry about is the quality of the internet connection. Therefore, **we implemented an offline mode, enabling crucial actions to be taken even offline**.
+
+To **make the transition to KDS as smooth as possible** we had to ensure instant communication across multiple environments, involving the POS application, backend, KDS, and waitstaff application. By implementing a constant synchronization the system displayed new orders on the kitchen screen in a matter of seconds.
+
+The Right UI was also a crucial factor in convincing restaurant staff to transition from their old system. **Our team collaborated closely with Practi's product designers to craft a simple, user-friendly UI that would appeal to even the most resistant end users**.
