@@ -124,3 +124,10 @@ To see the result, go to your repository on GitHub and tap on the actions tab. H
 <sub><center>GitHub Actions tab with result latest build</center></sub>
 
 Congratulations, you just fired your first pipeline using GitHub Actions!
+
+
+
+This is the second part of the iOS CI/CD tutorial. In another articles you will learn:
+
+* [how to build and run iOS app tests locally with **Fastlane**](/blog/building-running-ios-app-test-locally-fastlane/);
+* how to upload your app to TestFlight with the usage of **GitHub Actions and Fastlane Match** (soon to be released).
