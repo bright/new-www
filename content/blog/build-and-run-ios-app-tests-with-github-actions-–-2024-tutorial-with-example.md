@@ -129,3 +129,5 @@ This is the second part of the iOS CI/CD tutorial. In another articles you will 
 
 * [how to build and run iOS app tests locally with **Fastlane**](/blog/building-running-ios-app-test-locally-fastlane/);
 * how to upload your app to TestFlight with the usage of **GitHub Actions and Fastlane Match** (soon to be released).
+
+Don’t miss those tutorials! [Sign up for our newsletter and receive the articles in your inbox](https://bright-dev-newsletter.getresponsepages.com/).
