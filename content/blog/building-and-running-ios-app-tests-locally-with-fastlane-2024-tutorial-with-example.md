@@ -91,8 +91,8 @@ Congratulations! You just wrote your first lane - and with that, you've prepared
 
 This is the first part of the iOS CI/CD tutorial. In the next articles you will learn:
 
-* how to build an iOS app and run tests with the usage of GitHub Actions;
-* how to upload your app to TestFlight with the usage of GitHub Actions and Fastlane Match.
+* [how to build an iOS app and run tests with the usage of GitHub Actions](/blog/ios-build-run-tests-github-actions/);
+* how to upload your app to TestFlight with the usage of GitHub Actions and Fastlane Match (soon to be released).
 
 **\
 Don’t miss those tutorials! [Sign up for our newsletter and receive the articles in your inbox](https://bright-dev-newsletter.getresponsepages.com/).**
