@@ -16,7 +16,9 @@ comments: true
 published: true
 language: en
 ---
-**In a previous [article](https://brightinventions.pl/blog/building-running-ios-app-test-locally-fastlane/) we configured fastlane and succeeded in running tests locally, right from our console, now it's time to make them fly, fly on GitHub!**
+**In the first part of a tutorial we [configured fastlane and succeeded in running tests locally](/blog/building-running-ios-app-test-locally-fastlane/), right from our console, now it's time to make them fly, fly on GitHub!**
+
+<div className="image">![GitHubActions + iOS](/images/background.jpg "GitHubActions + iOS")</div>
 
 ## Creating a workflow file
 
@@ -34,7 +36,7 @@ This one creates workflows directory, you can read more about it here:
 
 Inside, create a workflow file. You can name it “build-test-ios.yml”
 
-## Setting Up and Understanding Your Pipeline 
+## Setting Up and Understanding Your Pipeline
 
 Now open the file that you just created and enter the code snippet that I added below. Don't be afraid if you don't fully get what's going on here - we will take it part by part down below
 
@@ -61,7 +63,6 @@ jobs:
           bundler-cache: true
       - name: Build & test iOS binary
         run: bundle exec fastlane ios build_and_run_tests
-
 ```
 
 Now let’s split it into small parts, so it will be easier to understand what our pipeline is doing.
