@@ -7,8 +7,7 @@ tags:
 date: 2024-07-11T12:06:31.279Z
 meaningfullyUpdatedAt: 2024-07-11T12:06:32.268Z
 slug: building-running-ios-app-test-locally-fastlane
-title: Building and Running iOS App Tests Locally with Fastlane - 2024 Tutorial
-  with Example
+title: Build and Run iOS App Tests Locally with Fastlane - 2024 Tutorial with Example
 layout: post
 image: /images/ios_fastlane_cover.png
 hidden: false
