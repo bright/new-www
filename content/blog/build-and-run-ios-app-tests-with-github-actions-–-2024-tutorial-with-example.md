@@ -5,8 +5,8 @@ tags:
   - ci/cd
   - github actions
   - fastlane
-date: 2024-07-17T15:29:43.819Z
-meaningfullyUpdatedAt: 2024-07-17T15:29:43.829Z
+date: 2024-07-18T11:14:12.143Z
+meaningfullyUpdatedAt: 2024-07-18T11:14:12.960Z
 slug: ios-build-run-tests-github-actions
 title: Build and Run iOS App Tests with GitHub Actions – 2024 Tutorial with Example
 layout: post
