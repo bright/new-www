@@ -119,13 +119,11 @@ Now commit and push your changes. It has to be done on the main branch as on thi
 
 To see the result, go to your repository on GitHub and tap on the actions tab. Here you should see the pipeline that has started after you pushed your changes to the repository.
 
-<div className="image">![](/images/github-workflow.png "GitHub Actions tab with result latest build")</div>
+<div className="image">![GitHub Actions tab with result latest build](/images/github-workflow.png "GitHub Actions tab with result latest build")</div>
 
 <sub><center>GitHub Actions tab with result latest build</center></sub>
 
 Congratulations, you just fired your first pipeline using GitHub Actions!
-
-
 
 This is the second part of the iOS CI/CD tutorial. In another articles you will learn:
 
