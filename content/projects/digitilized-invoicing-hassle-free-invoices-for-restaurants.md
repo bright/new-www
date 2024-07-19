@@ -55,3 +55,13 @@ In the heart of the bustling hospitality industry, invoice management is a persi
 <div className="image">![invoices](/images/invoice_system.png "invoices")</div>
 
 <TitleWithIcon sectionTitle="the solution: automated invoice generation" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution:" />
+
+In **2016**, our journey began. Our team set out to create an **invoice generation system based on an API that guarantees a verified connection**. This system empowers restaurants to seamlessly send data for invoice creation, with invoices then accessible through a dedicated restaurant panel or sent directly via email.
+
+**Within just 3 months, we launched the first version of the product**. Our partnership with the client has only grown stronger over the years as **we continuously maintain, enhance, and modernize the system**.
+
+As our fintech solution evolved, **we incorporated several additional features, including digital signatures for invoices and key verification**. The key verification is particularly security-focused; **the system generates invoices only when the user's key matches their account**. This additional layer of security not only verifies the user's identity but also ensures the credibility of each invoice.
+
+We have also developed a **client management panel** that provides **access to all invoices**, enables customization (such as adding logos to invoices), and **generates detailed fiscal and tax reports**. These reports summarize key metrics, including the number of invoices, payment method types, and the total net and gross amount paid by each client.
+
+Recently, **we implemented a critical update in line with an amendment to the VAT Law in Israel**. Beginning May 5, 2024, businesses receiving tax invoices exceeding 25,000 NIS can deduct input tax only if the invoice includes an allocation number. Anticipating this change, **we adapted our system to generate invoices with certified allocation numbers**, ensuring our **users remain compliant with the new regulations**.
