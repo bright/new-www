@@ -45,7 +45,7 @@ language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
-<Gallery images='[{"src":"/images/pwa_stack_logo.svg","alt":"PWA"},{"src":"/images/aws_stack_logo.svg","alt":"AWS Lambda"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/react_stack_logo.svg","alt":"React"}]' />
+<Gallery images='[{"src":"/images/pwa_stack_logo.svg","alt":"PWA"},{"src":"/images/aws_stack_logo.svg","alt":"AWS Lambda"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/react_stack_logo_update.svg","alt":"React"}]' />
 
 technologies: PWA, AWS Lambda, Node.js, React.
 
@@ -57,7 +57,7 @@ Approximately **[11 million Americans](https://nationaldeafcenter.org/faq/how-ma
 
 <div className="image">![emergency dispatch system](/images/emergency_dispatch_solution_app.png "emergency dispatch system")</div>
 
-<TitleWithIcon sectionTitle="the solution: non-verbal communication with dispatch centers" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution:" />
+<TitleWithIcon sectionTitle="the solution: non-verbal communication with dispatch centers" titleIcon="/images/flag.png" titleIconAlt="the solution:" />
 
 **We partnered with a US-based non-profit organization and together introduced a solution that aims to fight health inequity** and make emergency assistance more accessible. **A web application reaches 911 through a provider that handles the emergency request** no matter if the dispatch center supports API communication or not (then it makes a voice call on the user's behalf). This application f**eatures a user-friendly interface**, allowing individuals in emergencies to quickly report the issue.
 
