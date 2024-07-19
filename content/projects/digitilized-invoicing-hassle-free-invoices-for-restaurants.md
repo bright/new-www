@@ -45,3 +45,11 @@ language: en
 <Gallery images='[{"src":"/images/case-study_typescript_stack-logo.svg","alt":"TypeScript"},{"src":"/images/react_stack_logo.svg","alt":"React"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Node.js"},{"src":"/images/springboot_update.svg","alt":"Spring Boot"},{"src":"/images/aws_stack_logo.svg","alt":"AWS"}]' />
 
 **technologies**: TypeScript, React, Kotlin, Spring Boot, AWS
+
+
+
+<TitleWithIcon sectionTitle="problem: inefficient invoice management" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+
+In the heart of the bustling hospitality industry, invoice management is a persistent challenge. Restaurant managers spend too much time on the tedious task of generating invoices. Recognizing this inefficiency, our client, a forward-thinking Israeli company specializing in digital solutions for hospitality, saw the need for change. With a vision to digitalize invoice management in the industry, we joined forces to create a fintech solution. This innovation quickly became a key part of their digital portfolio.
+
+<div className="image">![invoices](/images/invoice_system.png "invoices")</div>
