@@ -1,0 +1,40 @@
+---
+team_members:
+  - mateusz
+our_service:
+  - custom software development
+layout: project
+project_id: invoice-system
+title: "Digitilized Invoicing: Hassle-Free Invoices for Restaurants "
+image: /images/case_study_invoices.png
+description: Hundreds of invoices easily generated without any disturbances and
+  limits. This is the reality our client envisioned, aiming to improve the
+  financial operations of restaurants in Israel. Dive into the journey of a
+  fintech solution we've developed over the past 8 years, changing daily tedious
+  tasks into an effortless, automated process.
+hero_image: /images/case_study_invoice_system_hero.png
+Hero Image_alt: invoice generation
+social_media_previev: /images/fb_preview_case_study_invoice_generation.png
+social_media_previev_alt: invoice generation system
+tags:
+  - fintech
+  - retail & restaurant
+title_team: meet the team behind the project
+title_case_study: explore other success stories
+title_contact: book a free consultation in 48 hours
+description_contact: Tell us more about your business or idea for an app. Fill
+  out the form below and we'll get back to you in 48 hours.
+order: 99
+slug: invoice-generation-system
+show_team: true
+show_case_study: true
+show on homepage: false
+published: true
+work_in_progress: false
+language: en
+---
+<TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
+
+
+
+<Gallery images='[{"src":"/images/case-study_typescript_stack-logo.svg","alt":"TypeScript"},{"src":"/images/react_stack_logo.svg","alt":"React"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Node.js"},{"src":"/images/springboot_update.svg","alt":"Spring Boot"},{"src":"/images/aws_stack_logo.svg","alt":"AWS"}]' />
