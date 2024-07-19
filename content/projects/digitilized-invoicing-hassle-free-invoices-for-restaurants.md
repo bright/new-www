@@ -31,7 +31,7 @@ title_case_study: explore other success stories
 title_contact: book a free consultation in 48 hours
 description_contact: Tell us more about your business or idea for an app. Fill
   out the form below and we'll get back to you in 48 hours.
-order: 99
+order: 5
 slug: invoice-generation-system
 show_team: false
 show_case_study: true
@@ -52,7 +52,7 @@ In the heart of the bustling hospitality industry, invoice management is a persi
 
 <div className="image">![invoices](/images/invoice_system.png "invoices")</div>
 
-<TitleWithIcon sectionTitle="the solution: automated invoice generation" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution:" />
+<TitleWithIcon sectionTitle="the solution: automated invoice generation" titleIcon="/images/goal_title_section.png" titleIconAlt="solution" />
 
 In **2016**, our journey began. Our team set out to create an **invoice generation system based on an API that guarantees a verified connection**. This system empowers restaurants to seamlessly send data for invoice creation, with invoices then accessible through a dedicated restaurant panel or sent directly via email.
 
