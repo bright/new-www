@@ -16,6 +16,13 @@ hero_image: /images/case_study_invoice_system_hero.png
 Hero Image_alt: invoice generation
 social_media_previev: /images/fb_preview_case_study_invoice_generation.png
 social_media_previev_alt: invoice generation system
+bar_achievements:
+  - number: 8+
+    label: Years of collaboration
+  - number: "3"
+    label: Months from the idea to release
+  - number: ∞
+    label: Invoices generated
 tags:
   - fintech
   - retail & restaurant
