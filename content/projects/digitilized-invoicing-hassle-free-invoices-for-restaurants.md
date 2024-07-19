@@ -42,6 +42,6 @@ language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
-
-
 <Gallery images='[{"src":"/images/case-study_typescript_stack-logo.svg","alt":"TypeScript"},{"src":"/images/react_stack_logo.svg","alt":"React"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Node.js"},{"src":"/images/springboot_update.svg","alt":"Spring Boot"},{"src":"/images/aws_stack_logo.svg","alt":"AWS"}]' />
+
+**technologies**: TypeScript, React, Kotlin, Spring Boot, AWS
