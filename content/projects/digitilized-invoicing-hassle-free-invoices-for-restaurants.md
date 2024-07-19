@@ -67,3 +67,15 @@ We have also developed a **client management panel** that provides **access to a
 Recently, **we implemented a critical update in line with an amendment to the VAT Law in Israel**. Beginning May 5, 2024, businesses receiving tax invoices exceeding 25,000 NIS can deduct input tax only if the invoice includes an allocation number. Anticipating this change, **we adapted our system to generate invoices with certified allocation numbers**, ensuring our **users remain compliant with the new regulations**.
 
 <div className="image">![invoice generation system for restaurants](/images/invoice_system_restaurant.png "invoice generation system for restaurants")</div>
+
+<TitleWithIcon sectionTitle="challenges: processing countless requests at once" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
+
+In our mission to provide a superb invoicing experience, our team faced **the challenge of ensuring that users could generate an unlimited number of invoices without any disruptions**. Imagine a busy restaurant manager needing to process hundreds of invoices at once – this task needed to be efficient.
+
+To make this possible, **we designed a request queue system**. This system works in the background, generating invoices without impacting the application's performance. Restaurant managers can **send vast amounts of data for invoice creation and continue using the software without any slowdowns or interruptions**.
+
+This solution was **crucial in preventing potential application crashes** that could occur from handling a high volume of simultaneous requests. By implementing the queue system, we effectively minimized this risk, ensuring a smooth and reliable experience for all users.
+
+<TitleWithIcon sectionTitle="the results: a step forward in digital transformation in hospitality" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
+
+**For over 8 years, our invoice generator has been a notable tool for efficient financial operations in the dining industry across Israel**. We had the opportunity to create this fintech solution from scratch, nurturing its growth and evolution through continuous software modernizations and updates.
