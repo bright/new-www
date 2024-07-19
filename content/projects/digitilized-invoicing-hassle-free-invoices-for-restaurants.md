@@ -65,3 +65,5 @@ As our fintech solution evolved, **we incorporated several additional features, 
 We have also developed a **client management panel** that provides **access to all invoices**, enables customization (such as adding logos to invoices), and **generates detailed fiscal and tax reports**. These reports summarize key metrics, including the number of invoices, payment method types, and the total net and gross amount paid by each client.
 
 Recently, **we implemented a critical update in line with an amendment to the VAT Law in Israel**. Beginning May 5, 2024, businesses receiving tax invoices exceeding 25,000 NIS can deduct input tax only if the invoice includes an allocation number. Anticipating this change, **we adapted our system to generate invoices with certified allocation numbers**, ensuring our **users remain compliant with the new regulations**.
+
+<div className="image">![invoice generation system for restaurants](/images/invoice_system_restaurant.png "invoice generation system for restaurants")</div>
