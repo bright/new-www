@@ -46,8 +46,6 @@ language: en
 
 **technologies**: TypeScript, React, Kotlin, Spring Boot, AWS
 
-
-
 <TitleWithIcon sectionTitle="problem: inefficient invoice management" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
 In the heart of the bustling hospitality industry, invoice management is a persistent challenge. **Restaurant managers spend too much time on the tedious task of generating invoices**. Recognizing this inefficiency, **our client, a forward-thinking Israeli company specializing in digital solutions for hospitality, saw the need for change**. With a vision to digitalize invoice management in the industry, we joined forces to create a fintech solution. This innovation quickly became a key part of their digital portfolio.
@@ -64,15 +62,17 @@ As our fintech solution evolved, **we incorporated several additional features, 
 
 We have also developed a **client management panel** that provides **access to all invoices**, enables customization (such as adding logos to invoices), and **generates detailed fiscal and tax reports**. These reports summarize key metrics, including the number of invoices, payment method types, and the total net and gross amount paid by each client.
 
-Recently, **we implemented a critical update in line with an amendment to the VAT Law in Israel**. Beginning May 5, 2024, businesses receiving tax invoices exceeding 25,000 NIS can deduct input tax only if the invoice includes an allocation number. Anticipating this change, **we adapted our system to generate invoices with certified allocation numbers**, ensuring our **users remain compliant with the new regulations**.
-
 <div className="image">![invoice generation system for restaurants](/images/invoice_system_restaurant.png "invoice generation system for restaurants")</div>
+
+Recently, **we implemented a critical update in line with an amendment to the VAT Law in Israel**. Beginning May 5, 2024, businesses receiving tax invoices exceeding 25,000 NIS can deduct input tax only if the invoice includes an allocation number. Anticipating this change, **we adapted our system to generate invoices with certified allocation numbers**, ensuring our **users remain compliant with the new regulations**.
 
 <TitleWithIcon sectionTitle="challenges: processing countless requests at once" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
 
 In our mission to provide a superb invoicing experience, our team faced **the challenge of ensuring that users could generate an unlimited number of invoices without any disruptions**. Imagine a busy restaurant manager needing to process hundreds of invoices at once – this task needed to be efficient.
 
 To make this possible, **we designed a request queue system**. This system works in the background, generating invoices without impacting the application's performance. Restaurant managers can **send vast amounts of data for invoice creation and continue using the software without any slowdowns or interruptions**.
+
+<div className="image">![invoices](/images/invoice_system_photo.png "invoices")</div>
 
 This solution was **crucial in preventing potential application crashes** that could occur from handling a high volume of simultaneous requests. By implementing the queue system, we effectively minimized this risk, ensuring a smooth and reliable experience for all users.
 
