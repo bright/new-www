@@ -50,7 +50,7 @@ The studies **in the USA show that [over 50% of pregnant women](https://www.jmir
 
 A digital agency, with whom we have established a successful collaboration on various software products, presented us with an intriguing problem. **They were seeking expertise in developing the MVP for a fitness and nutrition app tailored for expectant mothers, aiming to ensure a healthy nine-month journey**. Notably, two key members of our team, both fathers-to-be, brought a unique perspective to the project, closely aligned with the product's purpose. **This collaboration was fully based on addressing specific industry needs and collecting valuable insights from the target user group**. 
 
-<TitleWithIcon sectionTitle="solution: FemTech app that adapts to mothers-to-be’ needs and lifestyle choices" titleIcon="/images/gearwheel.svg" titleIconAlt="solution" />
+<TitleWithIcon sectionTitle="solution: FemTech app that adapts to mothers-to-be’ needs and lifestyle choices" titleIcon="/images/flag.png" titleIconAlt="solution" />
 
 **We started with thorough research and workshops in Berlin to understand the expectations and the technical assets** that needed to be created. As Bright Inventions focused on the technical aspects of the project, including **the development of the backend system, iOS, and Android apps**, the agency collaboratively worked on creating engaging videos and recipes. These elements were designed to enhance the app's value for paying customers.
 
