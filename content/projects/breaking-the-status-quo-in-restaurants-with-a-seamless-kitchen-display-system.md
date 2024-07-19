@@ -67,7 +67,7 @@ They also proved ineffective as a tool for exchanging information. For instance,
 
 Our product team uncovered these limitations, deciding to change printed receipts into a screen placed in the center of every restaurant kitchen. It was high time to put receipts into the past. Instead, a bespoke Kitchen Display System (KDS) has emerged.
 
-<TitleWithIcon sectionTitle="the solution: digitalized kitchen receipts" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution:" />
+<TitleWithIcon sectionTitle="the solution: digitalized kitchen receipts" titleIcon="/images/flag.png" titleIconAlt="the solution:" />
 
 **The Kitchen Display System seamlessly presents all orders on an enormous kitchen screen**. Additionally, **kitchen staff can update order progress** effortlessly keeping waitstaff in the loop. 
 
