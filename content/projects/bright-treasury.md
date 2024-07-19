@@ -110,4 +110,4 @@ The main goal of this milestone is the implementation of the bounties mechanism.
 
 BrightTreasury is live! 
 
-The first version of the app was released in December 2021. After the launch the Substrate community appreciated the project and decided to support its further development and maintenance. Every feedback will be highly appreciated!
+The first version of the app was released in December 2021. After the launch the Substrate community appreciated the project and decided to support its further development and maintenance.
