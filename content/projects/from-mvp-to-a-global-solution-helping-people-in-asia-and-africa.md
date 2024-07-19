@@ -41,11 +41,12 @@ show_team: false
 show_case_study: true
 show on homepage: false
 published: true
+work_in_progress: false
 language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
-<Gallery images='[{"src":"/images/react_stack_logo.svg","alt":"React"},{"src":"/images/node_stack_logosvg.svg","alt":"Node.js"},{"src":"/images/nestjs_stack_logo.svg","alt":"NestJS"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/aws_stack_logo.svg","alt":"AWS"}]' />
+<Gallery images='[{"src":"/images/react_stack_logo_update.svg","alt":"React"},{"src":"/images/node_stack_logosvg.svg","alt":"Node.js"},{"src":"/images/nestjs_stack_logo.svg","alt":"NestJS"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/aws_stack_logo.svg","alt":"AWS"}]' />
 
 **technologies:** React.js + Redux, MaterialUI + styled-components, Node.js, NestJS, Kotlin, AWS – CloudFormation, TeamCity
 
