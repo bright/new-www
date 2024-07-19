@@ -49,11 +49,9 @@ published: true
 work_in_progress: false
 language: en
 ---
-
-
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
-<Gallery images='[{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/react.png","alt":"React"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/docker_stack_logo.png","alt":"Docker"}]' />
+<Gallery images='[{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/react_stack_logo_update.svg","alt":"React"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/docker_stack_logo.png","alt":"Docker"}]' />
 
 **technologies**: TypeScript, React, Node.js (Express.js), PostgreSQL/Redis, AWS, React Native
 
@@ -63,7 +61,7 @@ language: en
 
 This grim reality of mental health in the U.S. calls for a solution that not only provides Americans with professional mental health expertise but also offers something uniquely valuable in distressing moments: guidance and perspective from individuals who are grappling with similar issues.
 
-<TitleWithIcon sectionTitle="the solution: online therapy platform for expert-guided group healing" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution:" />
+<TitleWithIcon sectionTitle="the solution: online therapy platform for expert-guided group healing" titleIcon="/images/flag.png" titleIconAlt="the solution:" />
 
 **[Circles](https://circlesup.com/), an Israeli startup, has launched a mental health tech application** designed for those dealing with grief, divorce, or simply seeking a safe space to express their emotions. 
 
