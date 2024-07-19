@@ -72,7 +72,7 @@ In our mission to provide a superb invoicing experience, our team faced **the ch
 
 To make this possible, **we designed a request queue system**. This system works in the background, generating invoices without impacting the application's performance. Restaurant managers can **send vast amounts of data for invoice creation and continue using the software without any slowdowns or interruptions**.
 
-<div className="image">![](/images/invoice_system_photo.png "")</div>
+<div className="image">![invoices](/images/invoice_system_photo.png "invoices")</div>
 
 This solution was **crucial in preventing potential application crashes** that could occur from handling a high volume of simultaneous requests. By implementing the queue system, we effectively minimized this risk, ensuring a smooth and reliable experience for all users.
 
