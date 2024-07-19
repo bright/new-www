@@ -49,6 +49,7 @@ show_team: true
 show_case_study: true
 show on homepage: false
 published: true
+work_in_progress: false
 language: en
 ---
 <TitleWithIcon sectionTitle="main features developed by Bright Inventions" titleIcon="/images/icons_features_svg.svg" titleIconAlt="main features developed by Bright Inventions" />
@@ -61,7 +62,7 @@ language: en
 
 <TitleWithIcon sectionTitle="stack" titleIcon="/images/skills.svg" titleIconAlt="bright" />
 
-<Gallery images='[{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/react.png","alt":"React"},{"src":"/images/nest.png","alt":"Nest"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/new_logo_figma_stack.png","alt":"Figma"}]' />
+<Gallery images='[{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/react_stack_logo_update.svg","alt":"React"},{"src":"/images/nest.png","alt":"Nest"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/new_logo_figma_stack.png","alt":"Figma"}]' />
 
 **Frontend**: TypeScript, React, Redux, React Query
 
