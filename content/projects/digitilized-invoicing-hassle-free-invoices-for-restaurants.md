@@ -33,7 +33,7 @@ description_contact: Tell us more about your business or idea for an app. Fill
   out the form below and we'll get back to you in 48 hours.
 order: 99
 slug: invoice-generation-system
-show_team: true
+show_team: false
 show_case_study: true
 show on homepage: false
 published: true
