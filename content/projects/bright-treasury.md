@@ -44,6 +44,7 @@ show_team: true
 show_case_study: true
 show on homepage: true
 published: true
+work_in_progress: false
 language: en
 ---
 ![Bright Treasury](../../static/images/treasuryappwww.png)
@@ -54,7 +55,7 @@ language: en
 
 <TitleWithIcon sectionTitle="stack" titleIcon="/images/skills.svg" titleIconAlt="bright" />
 
-<Gallery images='[{"src":"/images/react.png","alt":"React"},{"src":"/images/typescript_logo.png","alt":"TypeScript"},{"src":"/images/node.png","alt":"Node"},{"src":"/images/nest.png"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"}]' />
+<Gallery images='[{"src":"/images/react_stack_logo_update.svg","alt":"React"},{"src":"/images/typescript_logo.png","alt":"TypeScript"},{"src":"/images/node.png","alt":"Node"},{"src":"/images/nest.png"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"}]' />
 
 **Frontend:** React, TypeScript
 
