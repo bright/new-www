@@ -70,6 +70,8 @@ The summit connects stakeholders at the convergence of healthcare and consumer i
 
 [femtechconsumerinnovation.com](https://www.femtechconsumerinnovation.com/events/femtechconsumerinnovation)
 
+<EbookDynamic sectionTitle='get more resources about digital health' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download our free guide about scaling software solutions for healthcare. Almost 100 pages about leveraging technology in digital health!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide cover' />
+
 ### FemTech Forward 2024: Transforming Women’s Health With Tech
 
 **Date**: May 10, 2024
