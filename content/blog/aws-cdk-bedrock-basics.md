@@ -15,8 +15,7 @@ comments: true
 published: true
 language: en
 ---
-
-AI is taking over the world. At Bright Inventions, we've already helped several clients with generative AI.  
+AI is taking over the world. At Bright Inventions, we've already helped several clients with [generative AI](/our-areas/ai-software-development/).\
 In this blog post, we'll see how to use aws-cdk to create a simple API that responds to prompts.
 
 ## Request Bedrock model access
@@ -108,7 +107,6 @@ curl -s -X POST --location "https://${YOUR_LAMBDA_ID}.lambda-url.eu-central-1.on
     }
   ]
 }
-
 ```
 
 ## Titan Text Express configuration
@@ -117,10 +115,10 @@ We can control and tweak some the aspects of how the model responds to our promp
 we can
 configure:
 
-- temperature: Float value to control randomness in the response (0 to 1, default 0). Lower values decrease randomness.
-- topP: Float value to control the diversity of options (0 to 1, default 1). Lower values ignore less probable options.
-- maxTokenCount: Integer specifying the maximum number of tokens in the generated response (0 to 8,000, default 512).
-- stopSequences: Array of strings indicating where the model should stop generating text. Use the pipe character (|) to
+* temperature: Float value to control randomness in the response (0 to 1, default 0). Lower values decrease randomness.
+* topP: Float value to control the diversity of options (0 to 1, default 1). Lower values ignore less probable options.
+* maxTokenCount: Integer specifying the maximum number of tokens in the generated response (0 to 8,000, default 512).
+* stopSequences: Array of strings indicating where the model should stop generating text. Use the pipe character (|) to
   separate different sequences (up to 20 characters).
 
 Let's modify our lambda to allow controlling the parameters.
@@ -182,4 +180,3 @@ curl -X POST --location "https://${YOUR_LAMBDA_ID}.lambda-url.eu-central-1.on.aw
 
 As you see, it is straightforward to get started with AWS Bedrock. The full example of this blog post is available in
 [GitHub repo](https://github.com/bright/bright-aws-cdk-bedrock).
-
