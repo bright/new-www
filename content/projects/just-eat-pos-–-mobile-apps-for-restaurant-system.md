@@ -41,15 +41,16 @@ show_team: true
 show_case_study: true
 show on homepage: false
 published: true
+work_in_progress: false
 language: en
 ---
-<TitleWithIcon sectionTitle='Just Eat POS restaurant system' titleIcon='/images/icon_title_about.svg' titleIconAlt='about' />
+<TitleWithIcon sectionTitle="Just Eat POS restaurant system" titleIcon="/images/icon_title_about.svg" titleIconAlt="about" />
 
 Just Eat POS system took care of the whole process of managing restaurant orders: from ordering the meal, providing kitchen staff with details to delivering the order to the client’s table or home. A huge part of the system was a couple of Android and iOS applications.
 
 Also, read another [Just Eat POS case study](/projects/system-for-restaurants) about other products built for this enormous system.
 
-<TitleWithIcon sectionTitle='main features developed by Bright Inventions:' titleIcon='/images/icons_features_svg.svg' titleIconAlt='main features' />
+<TitleWithIcon sectionTitle="main features developed by Bright Inventions:" titleIcon="/images/icons_features_svg.svg" titleIconAlt="main features" />
 
 * Transactions processing
 * Integration with payment service providers
@@ -60,7 +61,7 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 * Supply ordering
 * Offline mode during transactions
 
-<TitleWithIcon sectionTitle='mobile apps integrated with restaurant and retail systems' titleIcon='/images/icon_title_products.svg' titleIconAlt='Apps' />
+<TitleWithIcon sectionTitle="mobile apps integrated with restaurant and retail systems" titleIcon="/images/icon_title_products.svg" titleIconAlt="Apps" />
 
 * ePOS iOS and Android **applications used by restaurant staff** to take orders and manage payments.
 * iOS and Android **driver application** which assists drivers in delivering orders.
@@ -69,7 +70,7 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
-<TitleWithIcon sectionTitle='stack and skills:' titleIcon='/images/skills.svg' titleIconAlt='features' />
+<TitleWithIcon sectionTitle="stack and skills:" titleIcon="/images/skills.svg" titleIconAlt="features" />
 
 <Gallery images='[{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/firebase_logo_stack.png","alt":"Firebase"},{"src":"/images/realm_stack_logo.png","alt":"Realm"},{"src":"/images/fastlane_logo_stack.png","alt":"Fastlane"}]' />
 
@@ -79,7 +80,7 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-<TitleWithIcon sectionTitle='iOS development' titleIcon='/images/gearwheel.svg' titleIconAlt='iOS development' />
+<TitleWithIcon sectionTitle="iOS development" titleIcon="/images/gearwheel.svg" titleIconAlt="iOS development" />
 
 iOS products developed by our team were used in restaurants in Israel. Practi iOS solution was one of the top ePOS solutions used by restaurants in Israel. There were **three main retail products developed by bright iOS developers**.
 
@@ -95,7 +96,7 @@ iOS products developed by our team were used in restaurants in Israel. Practi iO
 
 Our team also developed an independent **product used by drivers who deliver the orders from a restaurant to customers**. The app not only showed the destination and navigates drivers but also kept them informed about the transaction details. Drivers knew whether the order was paid or it needed to be paid. The driver was well-aware about the payment method (by cash or card). Thanks to the app, drivers were provided with all necessary information and could focus on delivering the meals as soon as possible.
 
-<TitleWithIcon sectionTitle='Android development' titleIcon='/images/gearwheel.svg' titleIconAlt='Android development' />
+<TitleWithIcon sectionTitle="Android development" titleIcon="/images/gearwheel.svg" titleIconAlt="Android development" />
 
 Android development team delivered similar solutions to the iOS team. Android app was used by end-users in the UK.
 
@@ -113,7 +114,7 @@ The app let you manage food orders made at restaurant, by phone or the website.
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-<TitleWithIcon sectionTitle='customized applications for Bluetooth devices' titleIcon='/images/gearwheel.svg' titleIconAlt='delivering customized applications for Bluetooth devices' />
+<TitleWithIcon sectionTitle="customized applications for Bluetooth devices" titleIcon="/images/gearwheel.svg" titleIconAlt="delivering customized applications for Bluetooth devices" />
 
 <div className="image">![ePOS applications](../../static/images/blog_post_cover_epos.png "undefined")</div>
 
@@ -131,6 +132,6 @@ A great part of working with Just Eat POS was **building iOS and Android applica
 
 Our applications had been integrated mostly with **Sunmi Technology** – one of the top global hardware providers.
 
-<TitleWithIcon sectionTitle='what is next for Just Eat Takeaway and Bright Inventions' titleIcon='/images/icon_result_svg.svg' titleIconAlt='result' />
+<TitleWithIcon sectionTitle="what is next for Just Eat Takeaway and Bright Inventions" titleIcon="/images/icon_result_svg.svg" titleIconAlt="result" />
 
-Just Eat POS (prev. Practi) and Bright Inventions have established a long-term business relationship. Although the retail system is no longer developed, **Bright Inventions Android and iOS developers still work with Just Eat Takeaway on other solutions**.
+Just Eat POS (prev. Practi) and Bright Inventions have established a long-term business relationship and our team proudly collaborates with **Just Eat Takeaway on retail solutions**.
