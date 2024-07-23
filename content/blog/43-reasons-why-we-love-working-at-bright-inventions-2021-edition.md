@@ -66,6 +66,7 @@ language: en
 42. Openness.
 43. You are quickly recognized and valued for a job well done.
 44. The trust and flexibility we're given.
-45. Kind people around me. Just like that.
+45. Transparency and the absence of workplace politics.
+46. Kind people around me. Just like that.
 
 Kudos for the whole Bright Team for sharing these insights.
