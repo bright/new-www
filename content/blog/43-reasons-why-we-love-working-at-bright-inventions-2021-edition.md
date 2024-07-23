@@ -8,7 +8,7 @@ date: 2021-12-13T08:40:25.630Z
 meaningfullyUpdatedAt: 2024-07-23T12:50:28.288Z
 title: 50 Reasons Why We Love Working at Bright Inventions
 layout: post
-image: /images/bright_inventions_2021.png
+image: /images/collage_reasons_to_work.png
 hidden: false
 comments: true
 published: true
@@ -16,7 +16,7 @@ language: en
 ---
 **We have decided to stop for a moment and think about our bright culture. We asked people to answer a simple yet meaningful question – Why do you work at Bright Inventions? Our Bright Team submitted their answers and let me be clear – the participation was voluntary. No one was forced and never will be to write some puff pieces.**
 
-![christmas gathering](../../static/images/christmas_team_retreats2.png)
+<div className="image">![Bright Inventions team](/images/collage_reasons_to_work.png "Bright Inventions team")</div>
 
 [In 2019 we also asked the team why they work at Bright.](/blog/31-reasons-why-we-love-working-at-Bright-Inventions/) Back then our team consisted of around 20 members. Now we have over 80 people on board! Thus it is time for new perspectives.
 
