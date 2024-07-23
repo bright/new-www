@@ -38,7 +38,7 @@ This event is designed to empower women in medicine, offering leadership develop
 
 **City**: Boston, MA, USA
 
-**Ticket pricing**: from USD599,00 to USD2,499
+**Ticket pricing**: from USD 599,00 to USD 2,499
 
 **Number of attendees**: Information not provided
 
