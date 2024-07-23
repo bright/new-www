@@ -1,7 +1,7 @@
 ---
 author: agata
-date: 2024-07-23T08:59:10.715Z
-meaningfullyUpdatedAt: 2024-07-23T08:59:10.744Z
+date: 2024-07-23T11:50:16.832Z
+meaningfullyUpdatedAt: 2024-07-23T11:50:17.468Z
 slug: ​​tech-trends-in-healthcare-experts-perspectives
 title: "Tech Trends in Healthcare: Industry Experts' Perspectives"
 layout: post
