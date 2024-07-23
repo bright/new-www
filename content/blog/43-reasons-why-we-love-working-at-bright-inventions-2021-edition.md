@@ -5,7 +5,7 @@ tags:
   - teamwork
   - update
 date: 2021-12-13T08:40:25.630Z
-meaningfullyUpdatedAt: 2024-07-23T12:50:28.288Z
+meaningfullyUpdatedAt: 2024-07-22T13:04:36.458Z
 title: 50 Reasons Why We Love Working at Bright Inventions
 layout: post
 image: /images/collage_reasons_to_work.png
