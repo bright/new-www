@@ -68,6 +68,7 @@ language: en
 44. The trust and flexibility we're given.
 45. Transparency and the absence of workplace politics.
 46. The culture of knowledge sharing.
-47. Kind people around me. Just like that.
+47. Building products that are used and appreciated by users.
+48. Kind people around me. Just like that.
 
 Kudos for the whole Bright Team for sharing these insights.
