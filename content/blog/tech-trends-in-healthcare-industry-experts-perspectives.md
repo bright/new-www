@@ -13,7 +13,7 @@ comments: true
 published: true
 language: en
 ---
-The recent [HLTH Europe](https://europe.hlth.com/) conference served as a platform for leading voices in healthcare technology to share insights and debate the future of the industry. Here's a deeper look at the transformative trends highlighted by these experts, which are shaping the next generation of healthcare.
+**The recent [HLTH Europe](https://europe.hlth.com/) conference served as a platform for leading voices in healthcare technology to share insights and debate the future of the industry. Here's a deeper look at the transformative trends highlighted by these experts, which are shaping the next generation of healthcare.**
 
 ## 1. Digital transformation as a catalyst
 
