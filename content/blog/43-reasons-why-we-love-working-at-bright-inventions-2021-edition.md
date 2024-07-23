@@ -64,6 +64,8 @@ language: en
 40. Mentoring opportunities.
 41. Positive attitude.
 42. Openness.
-43. Kind people around me. Just like that.
+43. You are quickly recognized and valued for a job well done.
+44. The trust and flexibility we're given.
+45. Kind people around me. Just like that.
 
 Kudos for the whole Bright Team for sharing these insights.
