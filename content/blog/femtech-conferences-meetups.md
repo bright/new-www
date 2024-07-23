@@ -3,7 +3,7 @@ author: izabela
 tags:
   - HealthTech
 date: 2024-04-05T10:56:44.214Z
-meaningfullyUpdatedAt: 2024-07-12T06:46:33.472Z
+meaningfullyUpdatedAt: 2024-07-23T11:44:11.010Z
 title: Top FemTech Conferences and Meetups in 2024
 layout: post
 image: /images/meetup_femtech.png
@@ -31,6 +31,26 @@ language: en
 This event is designed to empower women in medicine, offering leadership development, negotiation skills, and strategies for career growth.
 
 [womeninmedicinesummit.org](https://www.womeninmedicinesummit.org/)
+
+## Women's Health Innovation Summit 2024
+
+**Date**: September 23-25, 2024
+
+**City**: Boston, MA, USA
+
+**Ticket pricing**: from USD 799 to USD 2,899
+
+**Number of attendees**: Information not provided
+
+**Key speakers**:
+
+* Trish Costello, Founder & CEO, Portfolia; 
+* Jennifer Schneiders, President Diagnostic Solutions, Hologic;
+* Shefali Goyal MS, MSc, Vice President, Head of Global RA Strategy and US Regulatory Affairs Organon.
+
+The summit features industry leaders, networking opportunities, and sessions to drive the women's health sector forward. The organizer's mission is to mission to revolutionize the women’s health industry by uniting stakeholders from across the industry to drive innovation and partnership and improve access to and the quality of women's health care.
+
+[kisacoresearch.com/events](https://www.kisacoresearch.com/events/womens-health-innovation-summit-2024)
 
 ## The RISE Women in Health Care Leadership Summit
 
