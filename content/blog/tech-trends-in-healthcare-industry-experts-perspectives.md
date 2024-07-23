@@ -4,7 +4,7 @@ tags:
   - HealthTech
 date: 2024-07-23T08:59:10.715Z
 meaningfullyUpdatedAt: 2024-07-23T12:52:54.921Z
-slug: ​​tech-trends-in-healthcare-experts-perspectives
+slug: tech-trends-in-healthcare-experts-perspectives
 title: "Tech Trends in Healthcare: Industry Experts' Perspectives"
 layout: post
 image: /images/baner_final-2-.png
