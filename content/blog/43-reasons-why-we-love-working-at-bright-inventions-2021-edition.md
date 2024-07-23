@@ -14,7 +14,7 @@ comments: true
 published: true
 language: en
 ---
-**We have decided to stop for a moment and think about our bright culture. We asked people to answer a simple yet meaningful question – Why do you work at Bright Inventions? Our Bright Team submitted their answers and let me be clear – the participation was voluntary. No one was forced and never will be to write some puff pieces.**
+**We have decided to stop for a moment and think about our bright culture. We asked people to answer a simple yet meaningful question – Why do you work at Bright Inventions? Our bright team submitted their answers and let me be clear – the participation was voluntary. No one was forced and never will be to write some puff pieces.**
 
 <div className="image">![Bright Inventions team](/images/collage_reasons_to_work.png "Bright Inventions team")</div>
 
