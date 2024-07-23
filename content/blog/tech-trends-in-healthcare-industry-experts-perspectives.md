@@ -30,6 +30,8 @@ Attention to women's health tech is growing, filling gaps in historically under-
 
 Remote care technologies are reshaping where and how care is delivered. **Łukasz Krasnopolski,** Founder and CEO at Higo Sense, explained how new devices are enabling comprehensive health assessments from the home, expanding access to healthcare services, especially in remote and underserved areas.
 
+<EbookDynamic sectionTitle='almost 100 pages about scaling HealthTech' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download the free pdf full of insights, case studies and tech solutions for healthtech and medtech leaders.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover guide' />
+
 ## 5. Innovations in pain management and diagnostic AI
 
 **Guy Siman,** Co-Founder and COO at Sensars, discussed their approach to chronic pain management through neurostimulation, tailored for individual needs. Concurrently, AI's role in diagnostics is expanding, with **Bartosz Borucki,** CEO at Smarter Diagnostics, highlighting its use in detecting early signs of orthopedic conditions, signaling a shift towards proactive healthcare.
