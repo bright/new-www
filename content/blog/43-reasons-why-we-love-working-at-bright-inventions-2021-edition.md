@@ -23,7 +23,7 @@ language: en
 ## Why do you work at Bright Inventions?
 
 1. You are quickly recognized and valued for a job well done.
-2. The trust and flexibility we're given.
+2. Because of the trust and flexibility we're given.
 3. Transparency and the absence of workplace politics.
 4. The culture of knowledge sharing.
 5. Building products that are used and appreciated by users.
