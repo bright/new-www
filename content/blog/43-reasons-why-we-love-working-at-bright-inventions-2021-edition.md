@@ -71,6 +71,7 @@ language: en
 47. Building products that are used and appreciated by users.
 48. The mature process of software development. The team is highly skilled and experienced. We focus 100% on quality.
 49. We are partners to our clients and bring something more to the table than lines of code.
-50. Kind people around me. Just like that.
+50. People treat each other with respect and you can feel that they do work that really gives them satisfaction.
+51. Kind people around me. Just like that.
 
 Kudos for the whole Bright Team for sharing these insights.
