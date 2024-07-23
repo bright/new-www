@@ -69,6 +69,7 @@ language: en
 45. Transparency and the absence of workplace politics.
 46. The culture of knowledge sharing.
 47. Building products that are used and appreciated by users.
-48. Kind people around me. Just like that.
+48. The mature process of software development. The team is highly skilled and experienced. We focus 100% on quality.
+49. Kind people around me. Just like that.
 
 Kudos for the whole Bright Team for sharing these insights.
