@@ -6,7 +6,7 @@ tags:
   - update
 date: 2021-12-13T08:40:25.630Z
 meaningfullyUpdatedAt: 2021-12-13T08:40:00.000Z
-title: 43 Reasons Why We Love Working at Bright Inventions [2021 Edition]
+title: 43 Reasons Why We Love Working at Bright Inventions
 layout: post
 image: /images/bright_inventions_2021.png
 hidden: false
