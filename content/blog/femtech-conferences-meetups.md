@@ -3,7 +3,7 @@ author: izabela
 tags:
   - HealthTech
 date: 2024-04-05T10:56:44.214Z
-meaningfullyUpdatedAt: 2024-07-23T11:39:28.291Z
+meaningfullyUpdatedAt: 2024-07-23T11:44:11.010Z
 title: Top FemTech Conferences and Meetups in 2024
 layout: post
 image: /images/meetup_femtech.png
@@ -38,7 +38,7 @@ This event is designed to empower women in medicine, offering leadership develop
 
 **City**: Boston, MA, USA
 
-**Ticket pricing**: from USD 599,00 to USD 2,499
+**Ticket pricing**: from USD 799 to USD 2,899
 
 **Number of attendees**: Information not provided
 
@@ -46,7 +46,7 @@ This event is designed to empower women in medicine, offering leadership develop
 
 * Trish Costello, Founder & CEO, Portfolia; 
 * Jennifer Schneiders, President Diagnostic Solutions, Hologic;
-* Hadine Joffee, MD, MSc, Brigham and Women’s Hospital & Harvard Medical School.
+* Shefali Goyal MS, MSc, Vice President, Head of Global RA Strategy and US Regulatory Affairs Organon.
 
 The summit features industry leaders, networking opportunities, and sessions to drive the women's health sector forward. The organizer's mission is to mission to revolutionize the women’s health industry by uniting stakeholders from across the industry to drive innovation and partnership and improve access to and the quality of women's health care.
 
