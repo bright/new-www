@@ -14,13 +14,11 @@ comments: true
 published: true
 language: en
 ---
-**2021 will become a memory soon and it is time for a little summary of the passing year. We have decided to stop for a moment and think about our bright culture. We asked people to answer a simple yet meaningful question – Why do you work at Bright Inventions? Our Bright Team submitted over 40 answers and let me be clear – the participation was voluntary. No one was forced and never will be to write some puff pieces.**
+**We have decided to stop for a moment and think about our bright culture. We asked people to answer a simple yet meaningful question – Why do you work at Bright Inventions? Our Bright Team submitted over 40 answers and let me be clear – the participation was voluntary. No one was forced and never will be to write some puff pieces.**
 
-![christmas gathering](../../static/images/christmas_team_retreats2.png "")
+![christmas gathering](../../static/images/christmas_team_retreats2.png)
 
-The 2021 year was definitely the one to remember. Our team was empowered by new bright people, we were ranked among the [Top 40 Blockchain Development Companies](/blog/bright-inventions-among-top-40-blockchain-development-companies/) and have worked on new international projects like [zero-waste app Relevo](/projects/eco-friendly-app/), [CryptoAtlas social platform](/projects/cryptocurrency-platfrom/) or [Bright Treasury app](/projects/bright-treasury/) for Substrate Blockchain networks.
-
-[In 2019 we also asked the team why they work at Bright.](/blog/31-reasons-why-we-love-working-at-Bright-Inventions/) Back then our team consisted of around 20 members. Now we have over 60 people on board! Thus it is time for new perspectives.
+[In 2019 we also asked the team why they work at Bright.](/blog/31-reasons-why-we-love-working-at-Bright-Inventions/) Back then our team consisted of around 20 members. Now we have over 80 people on board! Thus it is time for new perspectives.
 
 ## Why do you work at Bright Inventions?
 
@@ -67,7 +65,5 @@ The 2021 year was definitely the one to remember. Our team was empowered by new 
 41. Positive attitude.
 42. Openness.
 43. Kind people around me. Just like that.
-
-That is how we end 2021, with a lot of positive reflections. 🙂
 
 Kudos for the whole Bright Team for sharing these insights.
