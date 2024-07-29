@@ -16,7 +16,7 @@ description: Just Eat POS was a retail system available on iOS and Android used
   phase to a fully developed global solution.
 hero_image: /images/case_study_mobile_retail_epos.png
 Hero Image_alt: Mobile Apps for Restaurant System
-social_media_previev: /images/restaurant_apps_mobile_preview.png
+social_media_previev: /images/fb_preview_mobile_just_eat_pos.png
 social_media_previev_alt: Just Eat POS Mobile
 bar_achievements:
   - number: "9"
