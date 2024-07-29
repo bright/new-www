@@ -13,13 +13,13 @@ our_service:
   - web development
 layout: project
 project_id: Practi JET POS
-title: Just Eat POS – System for Restaurants
+title: "Just Eat POS: From Startup to Global ePOS Provider"
 image: /images/restaurant_system_cover.png
 description: Just Eat POS was a retail system used by restaurants in Israel and
   the UK. We worked on this project for almost a decade.
 hero_image: /images/case_study_pos_solution.png
 Hero Image_alt: Just Eat POS
-social_media_previev: /images/restaurant_system_preview.png
+social_media_previev: /images/fb_preview_just_eat_pos_case_study.png
 social_media_previev_alt: Just Eat POS
 bar_achievements:
   - number: "9"
@@ -88,7 +88,7 @@ language: en
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-<TitleWithIcon sectionTitle="about Just Eat POS and Bright Inventions cooperation" titleIcon="/images/icon_title_about.svg" titleIconAlt="about BrightTreasury" />
+<TitleWithIcon sectionTitle="about Just Eat POS and Bright Inventions cooperation" titleIcon="/images/icon_title_about.svg" titleIconAlt="about Just Eat POS" />
 
 The client reached out to us in **2013**. At that time it was an early-stage Israeli startup “Practi” that offered web application solutions to users. Since 2013 **the company has transformed from a promising startup to an international ePOS applications provider**.
 
