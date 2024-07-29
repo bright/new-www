@@ -88,7 +88,7 @@ language: en
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-<TitleWithIcon sectionTitle="about Just Eat POS and Bright Inventions cooperation" titleIcon="/images/icon_title_about.svg" titleIconAlt="about BrightTreasury" />
+<TitleWithIcon sectionTitle="about Just Eat POS and Bright Inventions cooperation" titleIcon="/images/icon_title_about.svg" titleIconAlt="about Just Eat POS" />
 
 The client reached out to us in **2013**. At that time it was an early-stage Israeli startup “Practi” that offered web application solutions to users. Since 2013 **the company has transformed from a promising startup to an international ePOS applications provider**.
 
