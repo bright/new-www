@@ -60,11 +60,11 @@ If Flo were to ever receive an official request to identify an Anonymous Mode us
 
 <div className="image">![claudia pastides flo](/images/baner_final-quote-claudia.png "")</div>
 
-\
+## 
 **Agata Bielówka**: What trends do you see in health tech, apart from AI?\
-\
+
 **Claudia Pastides**: Apart from AI, which is still in its early stages, I think there's a growing focus on women's health. Women's health has been under-researched and neglected for a long time, but there's increasing recognition that it's a global issue. I see more tech solutions being developed for women's health, especially around taboo topics like menopause.
 
-## **Agata Bielówka**: That's great. Thank you so much for your time.
+**Agata Bielówka**: That's great. Thank you so much for your time.
 
 **Claudia Pastides**: Thank you!
