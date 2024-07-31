@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: janek
-ex: false
+ex: true
 slug: janek
 name: Jan Hanc
 short_name: Jan
