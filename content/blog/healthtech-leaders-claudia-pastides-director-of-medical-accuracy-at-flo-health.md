@@ -17,11 +17,11 @@ language: en
 
 ## Agata Bielówka: Can you briefly introduce yourself and your solution?
 
-**Claudia Pastides**: Yeah, so I'm Claudia Pastides. I'm the Director of Medical Accuracy at Flo Health. Flo Health is the most popular women's health app globally. We support women during their entire reproductive lives, from first period to menopause. The app provides curated cycle and ovulation tracking, personalized health insights, expert tips, and a fully closed community for women to share their questions and concerns. One thing that really sets us apart from other players in the space is our commitment to privacy and security.
+**Claudia Pastides**: Yeah, so I'm Claudia Pastides. I'm the Director of Medical Accuracy at Flo Health. **Flo Health is the most popular women's health app globally**. We support women during their entire reproductive lives, from first period to menopause. The app provides curated cycle and ovulation tracking, personalized health insights, expert tips, and a fully closed community for women to share their questions and concerns. One thing that really sets us apart from other players in the space is our commitment to privacy and security.
 
 ## AB: Okay, so what inspired you to enter this market and develop this solution?
 
-**CP**: Yes, so I am a doctor by background. I worked as a family doctor for many years and was always very interested in women's health. I was fascinated by the idea of producing high-quality educational content that could be shared with millions, potentially even billions, of women around the world on topics like reproductive health and hormones. Flo approached me to work for them, and I joined as the Medical Director. My role is to ensure that everything we create in the app is accurate, safe, and medically credible.
+**CP**: Yes, so I am a doctor by background. I worked as a family doctor for many years and was always very interested in women's health. I was fascinated by the idea of producing high-quality educational content that could be shared with millions, potentially even billions, of women around the world on topics like reproductive health and hormones. Flo approached me to work for them, and I joined as the Medical Director. **My role is to ensure that everything we create in the app is accurate, safe, and medically credible**.
 
 <div className="image">![claudia pastides flo](/images/baner_final-quote-claudia-1-.png "")</div>
 
@@ -31,33 +31,33 @@ language: en
 
 ## AB: Do you miss that?
 
-**CP**: You know, sometimes yes and sometimes no. While I loved the one-on-one connection and making a difference for individuals, I realized that at Flo, I can create features or content that impact many more people. So, I feel very fulfilled in this role.
+**CP**: You know, sometimes yes and sometimes no. While I loved the one-on-one connection and making a difference for individuals, **I realized that at Flo, I can create features or content that impact many more people**. So, I feel very fulfilled in this role.
 
 ## AB: What do you think has been the key to maintaining such high user engagement and retention?
 
-**CP**: I think it's a combination of things. The app is well-designed, user-friendly, visually appealing, and engaging, which keeps people coming back. Since periods are a monthly occurrence for many women, there's natural user engagement. We also put a lot of effort into medical accuracy and credibility, ensuring that users trust the information provided. We balance being safe, credible, and medical with being fun, engaging, and attractive. This middle ground sets us apart.
+**CP**: I think it's a combination of things. The app is well-designed, user-friendly, visually appealing, and engaging, which keeps people coming back. **Since periods are a monthly occurrence for many women, there's natural user engagement**. We also put a lot of effort into medical accuracy and credibility, ensuring that users trust the information provided. **We balance being safe, credible, and medical with being fun, engaging, and attractive**. This middle ground sets us apart.
 
 ## AB: Can you say a bit more about this medical credibility? As I understand it, that's your role to ensure that.
 
-CP: Yes, absolutely. Everything we do involves a doctor from the very beginning. When we develop a new feature or integrate artificial intelligence, a doctor is always involved to bring medical credibility and accuracy to every conversation. We are involved from the start, sign everything off at the end, and contribute throughout the process. I manage a team of doctors and scientists, and we work with over 120 medical experts worldwide. We ensure everything we do is as accurate, safe, and credible as possible because we are dealing with health, specifically women's health.
+CP: Yes, absolutely. **Everything we do involves a doctor from the very beginning**. When we develop a new feature or integrate artificial intelligence, a doctor is always involved to bring medical credibility and accuracy to every conversation. We are involved from the start, sign everything off at the end, and contribute throughout the process. **I manage a team of doctors and scientists, and we work with over 120 medical experts worldwide**. We ensure everything we do is as accurate, safe, and credible as possible because we are dealing with health, specifically women's health.
 
 ## AB: What about law regulations? Have you faced any challenges due to regulations in different countries?
 
-**CP**: Flo has a legal and compliance team that handles regulatory matters across different countries. They proactively manage any potential challenges related to health regulations to ensure our operations remain fully compliant. We haven't faced any challenges to date thanks to our team's due diligence.
+**CP**: **Flo has a legal and compliance team that handles regulatory matters across different countries**. They proactively manage any potential challenges related to health regulations to ensure our operations remain fully compliant. We haven't faced any challenges to date thanks to our team's due diligence.
 
 ## AB: Privacy features are increasingly important these days. Flo's Anonymous Mode is particularly crucial for users. Could you explain what this feature is about?
 
-**CP**: Yeah, Anonymous Mode allows users to use the app without any identifiable information being linked to their account, such as their NAME or email address. It was already in development when the US Supreme Court ruled to overturn Roe v. Wade, but in the wake of that ruling, some users expressed concerns about how their health data might be used by third parties, such as official requests for apps like Flo to share pregnancy data with law enforcement. We believe our users should feel in control and secure when using our app, so we launched Anonymous Mode right away.
+**CP**: Yeah, **Anonymous Mode allows users to use the app without any identifiable information being linked to their account, such as their NAME or email address**. It was already in development when the US Supreme Court ruled to overturn Roe v. Wade, but in the wake of that ruling, some users expressed concerns about how their health data might be used by third parties, such as official requests for apps like Flo to share pregnancy data with law enforcement. We believe our users should feel in control and secure when using our app, so we launched Anonymous Mode right away.
 
-If Flo were to ever receive an official request to identify an Anonymous Mode user by name or email, it wouldn't be possible to satisfy that request. Our users have been very appreciative of this offering and it's since won multiple awards including TIME Best Invention, Fast Company
+**If Flo were to ever receive an official request to identify an Anonymous Mode user by name or email, it wouldn't be possible to satisfy that request**. Our users have been very appreciative of this offering and it's since won multiple awards including TIME Best Invention, Fast Company
 
 ## AB: Do you have any favorite podcasts or news sites where you get inspiration for your work?
 
-**CP**: We create our own resources at Flo. We have a marketing and a science digest, where we compile the latest research and advancements in women's health and technology. Personally, I like James Somauroo’s SomX podcast; it's very insightful.
+**CP**: We create our own resources at Flo. We have a marketing and a science digest, where we compile the latest research and advancements in women's health and technology. **Personally, I like James Somauroo’s SomX podcast; it's very insightful**.
 
 ## AB: What do you do in your free time, if you have any?
 
-**CP**: I have three children, so there's not much free time, but I make time for activities I love. I enjoy playing tennis, doing Pilates, running, and sewing. I started sewing during COVID and now make dresses and other items.
+**CP**: I have three children, so there's not much free time, but I make time for activities I love. I enjoy playing tennis, doing Pilates, running, and sewing. **I started sewing during COVID** and now make dresses and other items.
 
 <div className="image">![claudia pastides flo](/images/baner_final-quote-claudia.png "")</div>
 
