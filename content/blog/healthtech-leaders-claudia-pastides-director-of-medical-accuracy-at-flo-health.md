@@ -5,9 +5,9 @@ tags:
 date: 2024-07-31T09:49:28.459Z
 meaningfullyUpdatedAt: 2024-07-31T09:49:28.485Z
 slug: interview-claudia-pastides-flo-health
-title: "HealthTech Leaders: Interview with Claudia Pastides, Director of Medical
-  Accuracy at FLO Health"
+title: Claudia Pastides on Leading Innovation at FLO Health, a New FemTech Unicorn
 layout: post
+image: /images/baner_final-3-.png
 hidden: false
 comments: true
 published: true
