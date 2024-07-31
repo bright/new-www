@@ -6,13 +6,13 @@ our_service:
   - custom software development
 layout: project
 project_id: card-reader
-title: Card Reader
+title: Turning Smartphones into Terminals with Card Payment App
 image: /images/card_reader_mockup.png
 description: A fintech iOS and Android application that allows businesses to
   charge credit cards without a payment terminal.
 hero_image: /images/case_study_card_reader_fintech_app.png
 Hero Image_alt: Card reader
-social_media_previev: /images/cardreader_fb_preview.png
+social_media_previev: /images/fb_preview_case_study_card_reader.png
 social_media_previev_alt: Card Reader case study
 bar_achievements:
   - number: "2"
