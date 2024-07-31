@@ -9,13 +9,14 @@ our_service:
   - custom software development
 layout: project
 project_id: finebite
-title: "Finebite (Everytap) "
+title: "Finebite’s Successful Pivot Story: Loyalty App Hits 500K Users with New
+  Reservation Feature"
 image: /images/foodapp_ingredients.png
 description: Finebite app helps to discover the best restaurants in the biggest
   Polish cities. Finebite originated from a very popular loyalty app – Everytap.
 hero_image: /images/case_study_dining_booking_app.png
 Hero Image_alt: "Finebite (Everytap) "
-social_media_previev: /images/finebite_fb_preview.png
+social_media_previev: /images/fb_preview_case_study_finebite.png
 social_media_previev_alt: Finebite (Everytap) case study
 bar_achievements:
   - number: "2"
@@ -38,6 +39,7 @@ show_team: true
 show_case_study: true
 show on homepage: false
 published: true
+work_in_progress: false
 language: en
 ---
 <TitleWithIcon sectionTitle="main Finebite tech elements:" titleIcon="/images/main_features_icon.png" titleIconAlt="Main features of BrightTreasury:" />
