@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: szymon-ch
-ex: false
+ex: true
 slug: szymon-ch
 name: Szymon Chmal
 short_name: "Szymon "
