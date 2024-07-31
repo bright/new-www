@@ -63,10 +63,10 @@ CP: Yes, absolutely. **Everything we do involves a doctor from the very beginnin
 
 ## AB: What trends do you see in health tech, apart from AI?
 
-**Claudia Pastides**: Apart from AI, which is still in its early stages, I think there's a growing focus on women's health. Women's health has been under-researched and neglected for a long time, but there's increasing recognition that it's a global issue. I see more tech solutions being developed for women's health, especially around taboo topics like menopause.
+**CP**: Apart from AI, which is still in its early stages, **I think there's a growing focus on women's health**. Women's health has been under-researched and neglected for a long time, but there's increasing recognition that it's a global issue. I see more tech solutions being developed for women's health, especially around taboo topics like menopause.
 
 ## AB: That's great. Thank you so much for your time.
 
-**Claudia Pastides**: Thank you!
+**CP**: Thank you!
 
 <EbookDynamic sectionTitle='explore even more HealthTech insights' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Almost 100 pages about scaling HealthTech solution. Don’t miss the chance to get your copy.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
