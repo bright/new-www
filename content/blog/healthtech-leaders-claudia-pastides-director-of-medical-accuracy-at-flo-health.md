@@ -41,6 +41,8 @@ language: en
 
 CP: Yes, absolutely. **Everything we do involves a doctor from the very beginning**. When we develop a new feature or integrate artificial intelligence, a doctor is always involved to bring medical credibility and accuracy to every conversation. We are involved from the start, sign everything off at the end, and contribute throughout the process. **I manage a team of doctors and scientists, and we work with over 120 medical experts worldwide**. We ensure everything we do is as accurate, safe, and credible as possible because we are dealing with health, specifically women's health.
 
+<EbookDynamic sectionTitle='explore even more HealthTech insights' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Almost 100 pages about scaling HealthTech solution. Don’t miss the chance to get your copy.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
+
 ## AB: What about law regulations? Have you faced any challenges due to regulations in different countries?
 
 **CP**: **Flo has a legal and compliance team that handles regulatory matters across different countries**. They proactively manage any potential challenges related to health regulations to ensure our operations remain fully compliant. We haven't faced any challenges to date thanks to our team's due diligence.
@@ -68,5 +70,3 @@ CP: Yes, absolutely. **Everything we do involves a doctor from the very beginnin
 ## AB: That's great. Thank you so much for your time.
 
 **CP**: Thank you!
-
-<EbookDynamic sectionTitle='explore even more HealthTech insights' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Almost 100 pages about scaling HealthTech solution. Don’t miss the chance to get your copy.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
