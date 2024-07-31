@@ -4,6 +4,7 @@ tags:
   - HealthTech
 date: 2024-07-31T09:49:28.459Z
 meaningfullyUpdatedAt: 2024-07-31T09:49:28.485Z
+slug: interview-claudia-pastides-flo-health
 title: "HealthTech Leaders: Interview with Claudia Pastides, Director of Medical
   Accuracy at FLO Health"
 layout: post
