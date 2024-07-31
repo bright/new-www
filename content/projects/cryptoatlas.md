@@ -6,14 +6,14 @@ our_service:
   - MVP development
 layout: project
 project_id: cryptoAtlas
-title: CryptoAtlas
+title: User-Driven Development in the Cryptocurrency World
 image: /images/cryptoportal2.png
 description: CryptoAtlas is a social platform connecting people passionate about
   cryptocurrency. The first and only place where you can find crypto news,
   communities and leaders.
 hero_image: /images/case_study_social_app.png
 Hero Image_alt: CryptoAtlas
-social_media_previev: /images/cryptoatlas_fb_preview.png
+social_media_previev: /images/fb_preview_case_study_cryptocurrency.png
 social_media_previev_alt: CryptoAtlas case study
 bar_achievements:
   - number: "1"
@@ -38,6 +38,7 @@ show_team: false
 show_case_study: true
 show on homepage: false
 published: true
+work_in_progress: false
 language: en
 ---
 <TitleWithIcon sectionTitle='main features' titleIcon='/images/icons_features_svg.svg' titleIconAlt='main features' />
