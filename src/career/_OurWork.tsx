@@ -167,16 +167,6 @@ const OurWork: React.FC = () => {
     },
     {
       avatar_hover: (
-        <StaticImage src='../../static/images/szymon_passion2022.png' alt='Szymon' className='quote-img' />
-      ),
-      short_name: 'Szymon',
-      bio: 'Senior Frontend Developer',
-      slug: 'szymon-ch',
-      quote:
-        'We are encouraged not only to grow internally but also to share knowledge with others, even outside our organization. For example to write blog posts, apply to be a speaker at various conferences, etc.',
-    },
-    {
-      avatar_hover: (
         <StaticImage src='../../static/images/michal_w_passion_team.png' alt='Michal' className='quote-img' />
       ),
       short_name: 'Michał',
