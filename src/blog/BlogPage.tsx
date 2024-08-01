@@ -33,8 +33,8 @@ const BlogPage: React.FC<Props> = ({ data, pageContext }) => {
   return (
     <Page className='page-blog-list'>
       <HelmetMetaData
-        title='Blog about web & mobile app development'
-        description='Articles about software development, agile and project management. Coding examples in Swift, Kotlin, Android, iOS, Backend, Node.js, SQL, AWS and more.'
+        title='Blog about software development'
+        description='Articles about web and mobile, AI, healthtech and leadership in tech. Coding examples in Swift, Kotlin, Android, iOS, Backend, Node.js, SQL, AWS and more.'
       />
       <Helmet>
         <meta property='og:image' content={resolveUrl(blogPostDefaultImage)} />
