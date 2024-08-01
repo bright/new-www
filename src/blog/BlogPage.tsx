@@ -33,7 +33,7 @@ const BlogPage: React.FC<Props> = ({ data, pageContext }) => {
   return (
     <Page className='page-blog-list'>
       <HelmetMetaData
-        title='Blog about software development'
+        title='A blog about programming and tech leadership'
         description='Articles about web and mobile, AI, healthtech and leadership in tech. Coding examples in Swift, Kotlin, Android, iOS, Backend, Node.js, SQL, AWS and more.'
       />
       <Helmet>
