@@ -43,3 +43,15 @@ Have you received feedback from prospects and actual clients that your legacy sy
 ## Is it hard to find software developers who can handle the technologies your POS system uses?
 
 Is your POS based on technologies that are not popular anymore or haven’t been upgraded for years (such as Visual Basic)? Is onboarding new developers lengthy and difficult due to a lot of “tribal knowledge” residing within individual employees or simply missing?
+
+## How often do you have to put the fires in production?
+
+How frequently do you address critical issues in production, such as payment processing failures, orders not reaching the kitchen, or features like bill sorting and modifications not working, forcing you to prioritize these urgent fixes? Also, are your developers hesitant to make changes in production due to insufficient automated testing and a lack of comprehensive system knowledge?
+
+## Last but not least… Is your POS legacy system as old as some of the developers working on it? 😉
+
+Are you continuing to develop a system that's been decades in the making? Is it finally time to build the new version and ensure (with backward compatibility) a smooth transition for your clients?
+
+- - -
+
+How many times did you nod? If you feel that POS modernization is your fate but understandably are apprehensive about the process, check out our approach to software revamping. Read [the story of 30-year-old legacy POS system](/projects/pos-legacy/) that our team revamped.
