@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Senior QA Engineer "
-subtitle: OPEN
+subtitle: CLOSED
 imagejob: /images/qa_brightteam.png
 image-alt-job: QA Team Bright Inventions
 hours: full-time
@@ -33,7 +33,7 @@ image_recruiter_info: /images/sara-bright-recruiter.png
 image_alt_recruiter_info: Sara Łęcka - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/saralecka/
 button: join our Bright team
-published: true
+published: false
 show_recruiter_info: false
 order: 1
 recruting_image2_title: interview (technical part & non-technical part)
