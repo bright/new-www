@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2024-08-05T08:50:01.979Z
 slug: signs-pos-legacy-needs-modernization
 title: 9 Signs Your POS Legacy Needs Modernization
 layout: post
-image: /images/pos_revamping_signs_blog_cover.png
+image: /images/pos_revamping_signs_blog_update.png
 hidden: false
 comments: true
 published: true
@@ -17,7 +17,7 @@ language: en
 ---
 **From risky cloud migration to the constant struggle of supporting various devices, 3rd party payments, and multiple food delivery platforms… Does your POS (Point of Sale) development team fight with any of these challenges? Perhaps it’s time for your POS legacy to be revamped. Answer these questions to find out!**
 
-<div className="image">![legacy POS revamping](/images/pos_revamping_signs_blog_cover.png "legacy POS revamping")</div>
+<div className="image">![legacy POS revamping](/images/pos_revamping_signs_blog_update.png "legacy POS revamping")</div>
 
 ## Do you face difficulties in integrating food delivery platforms with your POS?
 
@@ -61,4 +61,4 @@ Are you continuing to develop a system that's been decades in the making? **Is i
 
 How many times did you nod? If you feel that POS modernization is your fate but understandably are apprehensive about the process, **check out our approach to software revamping**. **Read [the story of 30-year-old legacy POS system](/projects/pos-legacy/) that our team revamped**.
 
-[![POS legacy modernization case study](/images/fb_preview_case_study_pos_revamp.png)](/projects/pos-legacy/) 
+[![POS legacy modernization case study](/images/fb_preview_case_study_pos_revamp.png)](/projects/pos-legacy/)
