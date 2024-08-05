@@ -7,7 +7,7 @@ tags:
 date: 2024-08-05T08:50:01.471Z
 meaningfullyUpdatedAt: 2024-08-05T08:50:01.979Z
 slug: signs-pos-legacy-needs-modernization
-title: 9 Signs Your POS Legacy Needs Modernization
+title: 9 Signs Your Restaurant POS Legacy Needs Modernization
 layout: post
 image: /images/pos_revamping_signs_blog_update.png
 hidden: false
