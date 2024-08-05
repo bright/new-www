@@ -15,7 +15,7 @@ comments: true
 published: true
 language: en
 ---
-**From risky cloud migration to the constant struggle of supporting various devices, 3rd party payments, and multiple food delivery platforms… Does your POS (Point of Sale) development team fight with any of these challenges? Perhaps it’s time for your POS legacy to be revamped. Answer these questions to find out!**
+**From risky cloud migration to the constant struggle of supporting various devices, 3rd party payments, and multiple food delivery platforms… Does your POS (Point of Sale) development team fight with any of these challenges? Perhaps it’s time for your restaurant POS legacy to be revamped. Answer these questions to find out!**
 
 <div className="image">![legacy POS revamping](/images/pos_revamping_signs_blog_update.png "legacy POS revamping")</div>
 
