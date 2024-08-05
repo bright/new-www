@@ -52,3 +52,27 @@ language: en
 <Gallery images='[{"src":"/images/react_stack_logo.svg","alt":"React"},{"src":"/images/case-study_typescript_stack-logo.svg","alt":"TypeScript"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Node.js"},{"src":"/images/swift_icon_stack.svg","alt":"React"},{"src":"/images/realm_stack_logo.svg","alt":"Realm"},{"src":"/images/aws_stack_logo.svg","alt":"AWS"}]' />
 
 **technology**: React, TypeScript, Kotlin, Spring Boot, Swift, Realm, AWS
+
+<TitleWithIcon sectionTitle="problem: connecting various devices with POS" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+
+What lies behind the bustling restaurant kitchen counter? You’ll find a medley of fresh ingredients and a blend of known and unknown flavors. The kitchen buzzes with a busy staff managing multiple orders simultaneously. However, there are also crucial elements you might not consider – **numerous retail devices as part of the point of sales system**.
+
+From printers and terminals to kitchen display systems and tablets, these devices are integral to restaurant operations. Yet, their sheer **number and complexity can add to the chaos for an already overwhelmed restaurant staff. Discover how our team integrated POS devices for Just Eat POS**, unifying various hardware into one system to manage orders faster.
+
+<TitleWithIcon sectionTitle="the solution: POS integration with multiple devices from different producers" titleIcon="/images/flag.png" titleIconAlt="the solution" />
+
+Just Eat POS is a point-of-sale (POS) system that we have been scaling for almost a decade, **evolving from the startup Practi to a global solution within the JustEat Takeaway portfolio**. One of the key advantages of the system is the seamless integration of POS devices.
+
+Firstly, the system we built supports devices from various producers, allowing restaurants to **easily connect their POS printers from manufacturers such as Epson, Star, and tablets with built-in printers like Citaq or Sunmi**.
+
+The POS system is also flexible in terms of the types of devices it supports. Restaurants and stores could **easily operate with equipment such as cash registers, electronic scales, barcode scanners, magnetic stripe readers, and kiosks**. These devices are mostly connected via Bluetooth and, in some cases, through WiFi, making Just Eat POS the central hub for all restaurant payment and order operations.
+
+Furthermore, we added crucial automation features to alleviate some responsibilities from the already burdened waitstaff. One such feature is the **automated order printout for the kitchen. After completing an order, a printer prints the kitchen receipt with only the essential information for the kitchen** (excluding prices, for example), ensuring that the kitchen staff receives the order promptly and can proceed with meal preparation. This automation means the waitstaff no longer has to worry about whether the kitchen receives the necessary information.
+
+<TitleWithIcon sectionTitle="challenges: maintaining a reliable connection with multiple printers" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
+
+A significant advantage of Just Eat POS is the variety of devices integrated into the system. The challenge was immense; **our software development team was in charge of unifying various devices with different Software Development Kits (SDKs) into one system**. Diving into different SDKs and hardware producers' requirements was a demanding process, but it enabled our team to greatly increase the number of devices Just Eat POS supports, giving restaurants a lot of freedom in terms of the devices they wanted to use.
+
+One of the challenges of printer integration was **maintaining a reliable connection with multiple printers simultaneously**. Restaurant employees often needed to print receipts for clients while also printing meal orders for the kitchen. Our team addressed this challenge by implementing an elaborate **logic mechanism that assigned different roles to various printers**.
+
+The system must remain reliable even if one of the printers turns off. In such cases, the mechanism designed by our team allows the system to reroute the receipt or kitchen order to another device. This assures waitstaff that, **regardless of any issues with printing devices, the system always finds an alternative way to print the document**. This is of utmost importance, especially when restaurant staff are taking orders from clients, as any printing malfunctions could negatively impact the customer experience and potentially result in poor reviews.
