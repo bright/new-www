@@ -1,7 +1,7 @@
 ---
 layout: job
 title: QA Manual Engineer
-subtitle: OPEN
+subtitle: CLOSED
 imagejob: /images/qa_brightteam.png
 image-alt-job: QA Team Bright Inventions
 hours: full-time
@@ -31,7 +31,7 @@ image_recruiter_info: /images/agata_recruiter.png
 image_alt_recruiter_info: Agata - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our Bright team
-published: true
+published: false
 show_recruiter_info: false
 order: 1
 recruting_image2_title: interview (technical part & non-technical part)
