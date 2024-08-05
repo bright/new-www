@@ -16,6 +16,8 @@ language: en
 ---
 **From risky cloud migration to the constant struggle of supporting various devices, 3rd party payments, and multiple food delivery platforms… Does your POS (Point of Sale) development team fight with any of these challenges? Perhaps it’s time for your POS legacy to be revamped. Answer these questions to find out!**
 
+<div className="image">![legacy POS revamping](/images/pos_revamping_signs_blog_cover.png "legacy POS revamping")</div>
+
 ## Do you face difficulties in integrating food delivery platforms with your POS?
 
 Multiple tablets for multiple food delivery platforms… That’s the nightmare of many restaurant staff. Integrating all external providers and unifying them into a system accessible on one device is possible! Yet is your POS capable of offering that?
@@ -31,6 +33,8 @@ Do you still manage servers on your own, at the same time considering a move to 
 ## Do you face the challenge of the rising number of payment terminals?
 
 The number of devices, especially payment terminals is growing and your legacy has limitations related to the number of terminals it can support. Do you constantly look for workarounds to deal with this challenge, feeling pressure from your clients?
+
+<div class='block-button'><h2>Is it possible to revamp 30-year-old POS? </h2><div>Read about the modernization of legacy POS systems with a UI from the '90s.</div><a href="/projects/pos-legacy/"><button>explore case study</button></a></div>
 
 ## Do you support various payment options, including loyalty cards?
 
