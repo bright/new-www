@@ -3,8 +3,9 @@ author: mateuszg
 secondAuthor: izabela
 tags:
   - business strategy
-date: 2024-08-05T08:33:49.341Z
-meaningfullyUpdatedAt: 2024-08-05T08:33:49.362Z
+  - POS
+date: 2024-08-05T08:50:01.471Z
+meaningfullyUpdatedAt: 2024-08-05T08:50:01.979Z
 slug: signs-pos-legacy-needs-modernization
 title: 9 Signs Your POS Legacy Needs Modernization
 layout: post
