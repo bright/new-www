@@ -78,3 +78,5 @@ One of the challenges of printer integration was **maintaining a reliable connec
 The system must remain reliable even if one of the printers turns off. In such cases, the mechanism designed by our team allows the system to reroute the receipt or kitchen order to another device. This assures waitstaff that, **regardless of any issues with printing devices, the system always finds an alternative way to print the document**. This is of utmost importance, especially when restaurant staff are taking orders from clients, as any printing malfunctions could negatively impact the customer experience and potentially result in poor reviews.
 
 <TitleWithIcon sectionTitle="the result: stable connection with retail devices" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
+
+As a result, Just Eat POS has become a system offering a stable connection to various retail devices. **It allows restaurants to choose the hardware they prefer while ensuring that, even if a printer malfunctions, the system will still manage the printing process**. This solution has been highly appreciated by restaurants and stores across Israel and the UK.
