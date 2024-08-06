@@ -21,7 +21,7 @@ Hero Image_alt: Just Eat device integrations
 social_media_previev: /images/fb_preview_case_study_pos_devices.png
 social_media_previev_alt: POS devices and printers integrations case study
 bar_achievements:
-  - number: 10+
+  - number: "10"
     label: Years of collaboration
   - number: 10+
     label: Typrs of devices the system supports
@@ -39,7 +39,7 @@ title_contact: book a free consultation in 48 hours
 description_contact: Tell us more about your mobile project or idea for an app.
   Fill out the form below and we'll get back to you in 48 hours.
 order: 99
-slug: device-integrations-pos
+slug: pos-devices-integrations
 show_team: true
 show_case_study: true
 show on homepage: false
@@ -74,6 +74,8 @@ Furthermore, we added crucial automation features to alleviate some responsibili
 A significant advantage of Just Eat POS is the variety of devices integrated into the system. The challenge was immense; **our software development team was in charge of unifying various devices with different Software Development Kits (SDKs) into one system**. Diving into different SDKs and hardware producers' requirements was a demanding process, but it enabled our team to greatly increase the number of devices Just Eat POS supports, giving restaurants a lot of freedom in terms of the devices they wanted to use.
 
 One of the challenges of printer integration was **maintaining a reliable connection with multiple printers simultaneously**. Restaurant employees often needed to print receipts for clients while also printing meal orders for the kitchen. Our team addressed this challenge by implementing an elaborate **logic mechanism that assigned different roles to various printers**.
+
+<div className="image">![kitchen order receipts](/images/printed_kitchen_receipts.png "kitchen order receipts")</div>
 
 The system must remain reliable even if one of the printers turns off. In such cases, the mechanism designed by our team allows the system to reroute the receipt or kitchen order to another device. This assures waitstaff that, **regardless of any issues with printing devices, the system always finds an alternative way to print the document**. This is of utmost importance, especially when restaurant staff are taking orders from clients, as any printing malfunctions could negatively impact the customer experience and potentially result in poor reviews.
 
