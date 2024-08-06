@@ -64,11 +64,11 @@ From printers and terminals to kitchen display systems and tablets, these device
 
 Just Eat POS is a point-of-sale (POS) system that we have been scaling for almost a decade, **evolving from the startup Practi to a global solution within the JustEat Takeaway portfolio**. One of the system's key advantages is the uninterrupted integration of POS devices.
 
-Firstly, the system we built supports devices from various producers, allowing restaurants to **easily connect their POS printers from manufacturers such as Epson, Star, and tablets with built-in printers like Citaq or Sunmi**.
+The system we built supports devices from various producers, allowing restaurants to **easily connect their POS printers from manufacturers such as Epson, Star, and tablets with built-in printers like Citaq or Sunmi**.
 
 The POS system is also flexible in terms of the types of devices it supports. Restaurants and stores could **easily operate with equipment such as cash registers, electronic scales, barcode scanners, magnetic stripe readers, and kiosks**. These devices are mostly connected via Bluetooth and, in some cases, through WiFi, making Just Eat POS the central hub for all restaurant payment and order operations.
 
-Furthermore, we added crucial automation features to alleviate some responsibilities from the already burdened waitstaff. One such feature is the **automated order printout for the kitchen. After completing an order, a printer prints the kitchen receipt with only the essential information for the kitchen** (excluding prices, for example), ensuring that the kitchen staff receives the order promptly and can proceed with meal preparation. This automation means the waitstaff no longer has to worry about whether the kitchen receives the necessary information.
+We added crucial automation features to alleviate some responsibilities from the already burdened waitstaff. One such feature is the **automated order printout for the kitchen. After completing an order, a printer prints the kitchen receipt with only the essential information for the kitchen** (excluding prices, for example), ensuring that the kitchen staff receives the order promptly and can proceed with meal preparation. This automation means the waitstaff no longer has to worry about whether the kitchen receives the necessary information.
 
 <TitleWithIcon sectionTitle="challenges: maintaining a reliable connection with multiple printers" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
 
