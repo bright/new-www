@@ -19,7 +19,7 @@ description: From label printers to kitchen thermal printers, payment terminals,
   Just Eat Takeaway portfolio.
 hero_image: /images/case_study_printers_devices_integrations_hero.png
 Hero Image_alt: Just Eat device integrations
-social_media_previev: /images/preview_case_study_pos_devices.png
+social_media_previev: /images/update_preview_case_study_pos_devices.png
 social_media_previev_alt: POS devices and printers integrations case study
 bar_achievements:
   - number: "10"
