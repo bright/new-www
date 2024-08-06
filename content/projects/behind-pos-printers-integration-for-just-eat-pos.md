@@ -39,12 +39,12 @@ title_case_study: explore our clients' stories
 title_contact: book a free consultation in 48 hours
 description_contact: Tell us more about your mobile project or idea for an app.
   Fill out the form below and we'll get back to you in 48 hours.
-order: 99
+order: 1
 slug: pos-devices-integration
 show_team: true
 show_case_study: true
 show on homepage: false
-published: false
+published: true
 work_in_progress: false
 language: en
 ---
