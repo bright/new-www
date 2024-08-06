@@ -43,7 +43,7 @@ slug: pos-devices-integration
 show_team: true
 show_case_study: true
 show on homepage: false
-published: true
+published: false
 work_in_progress: false
 language: en
 ---
@@ -61,7 +61,7 @@ From printers and terminals to kitchen display systems and tablets, these device
 
 <TitleWithIcon sectionTitle="the solution: POS integration with multiple devices from different producers" titleIcon="/images/flag.png" titleIconAlt="the solution" />
 
-Just Eat POS is a point-of-sale (POS) system that we have been scaling for almost a decade, **evolving from the startup Practi to a global solution within the JustEat Takeaway portfolio**. One of the key advantages of the system is the seamless integration of POS devices.
+Just Eat POS is a point-of-sale (POS) system that we have been scaling for almost a decade, **evolving from the startup Practi to a global solution within the JustEat Takeaway portfolio**. One of the system's key advantages is the uninterrupted integration of POS devices.
 
 Firstly, the system we built supports devices from various producers, allowing restaurants to **easily connect their POS printers from manufacturers such as Epson, Star, and tablets with built-in printers like Citaq or Sunmi**.
 
