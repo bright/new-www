@@ -25,7 +25,7 @@ bar_achievements:
   - number: "10"
     label: Years of collaboration
   - number: 10+
-    label: Typrs of devices the system supports
+    label: Types of devices the system supports
   - number: "2"
     label: Countries where systems operates
 tags:
