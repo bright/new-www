@@ -72,7 +72,7 @@ We added crucial automation features to alleviate some responsibilities from the
 
 <TitleWithIcon sectionTitle="challenges: maintaining a reliable connection with multiple printers" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
 
-A significant advantage of Just Eat POS is the variety of devices integrated into the system. The challenge was immense; **our software development team was in charge of unifying various devices with different Software Development Kits (SDKs) into one system**. Diving into different SDKs and hardware producers' requirements was a demanding process, but it enabled our team to greatly increase the number of devices Just Eat POS supports, giving restaurants a lot of freedom in terms of the devices they wanted to use.
+**Our software development team was in charge of unifying various devices with different Software Development Kits (SDKs) into one system**. Diving into different SDKs and hardware producers' requirements was a demanding process, but it enabled our team to greatly increase the number of devices Just Eat POS supports, giving restaurants a lot of freedom in terms of the devices they wanted to use.
 
 One of the challenges of printer integration was **maintaining a reliable connection with multiple printers simultaneously**. Restaurant employees often needed to print receipts for clients while also printing meal orders for the kitchen. Our team addressed this challenge by implementing an elaborate **logic mechanism that assigned different roles to various printers**.
 
