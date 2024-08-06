@@ -74,7 +74,7 @@ We added crucial automation features to alleviate some responsibilities from the
 
 **Our software development team was in charge of unifying various devices with different Software Development Kits (SDKs) into one system**. Diving into different SDKs and hardware producers' requirements was a demanding process, but it enabled our team to greatly increase the number of devices Just Eat POS supports, giving restaurants a lot of freedom in terms of the devices they wanted to use.
 
-One of the challenges of printer integration was **maintaining a reliable connection with multiple printers simultaneously**. Restaurant employees often needed to print receipts for clients while also printing meal orders for the kitchen. Our team addressed this challenge by implementing an elaborate **logic mechanism that assigned different roles to various printers**.
+One of the challenges of printer integration was **maintaining a reliable connection with multiple printers simultaneously**. Restaurant employees often needed to print receipts for clients while also printing meal orders for the kitchen. To tackle this, **our team developed an efficient simple system that assigned specific roles to each printer**, streamlining the process and ensuring smooth operations.
 
 <div className="image">![kitchen order receipts](/images/printed_kitchen_receipts.png "kitchen order receipts")</div>
 
