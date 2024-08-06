@@ -58,7 +58,7 @@ language: en
 
 What lies behind the bustling restaurant kitchen counter? You’ll find a medley of fresh ingredients and a blend of known and unknown flavors. The kitchen buzzes with a busy staff managing multiple orders simultaneously. However, there are also crucial elements you might not consider – **numerous retail devices as part of the point of sales system**.
 
-From printers and terminals to kitchen display systems and tablets, these devices are integral to restaurant operations. Yet, their sheer **number and complexity can add to the chaos for an already overwhelmed restaurant staff. Discover how our team integrated POS devices for Just Eat POS**, unifying various hardware into one system to manage orders faster.
+From printers and terminals to kitchen display systems and tablets, these devices are integral to restaurant operations. Yet, their sheer **number and complexity can add to the chaos for an already overwhelmed restaurant staff.**
 
 <TitleWithIcon sectionTitle="the solution: POS integration with multiple devices from different producers" titleIcon="/images/flag.png" titleIconAlt="the solution" />
 
