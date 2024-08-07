@@ -21,7 +21,7 @@ bar_achievements:
     label: Years of collaboration
   - number: "6"
     label: Bright team members
-  - number: Around
+  - number: Almost 10k
     label: Restaurants in the system
 tags:
   - customized software
