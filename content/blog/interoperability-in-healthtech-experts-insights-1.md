@@ -16,8 +16,7 @@ language: en
 
 <div className="image">![medical data interoperability](/images/image-9-.png "source: https://xkcd.com/")</div>
 
-*source: xkcd.com*\
-\
+*Source: xkcd.com*\
 \
 Interoperability, or the ability for health IT systems to talk to each other without needing a translator, is now recognized as **a crucial ingredient for the smooth operation of future healthcare systems**.\
 \
