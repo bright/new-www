@@ -3,6 +3,7 @@ team_members:
   - fjablonski
 our_service:
   - mobile app development
+  - Application modernization
 layout: project
 project_id: food-delivery-app
 title: "Food Delivery iOS App Modernization: SwiftUI & Modern Concurrency Migrations"
