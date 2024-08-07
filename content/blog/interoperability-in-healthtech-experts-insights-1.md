@@ -32,7 +32,7 @@ When EHR systems don’t communicate, it's like each department in a hospital us
 
 ## Benefits of seamless data sharing
 
-Seamless data sharing offers benefits that are as clear as a well-organized spreadsheet. **Dr Brown** further explains, "*Interoperability benefits patients by improving quality and reducing costs*," similar to catching a pricing error in your favor at checkout​. For patients, this means less time recounting their medical history and more time discussing f.e. their weekend plans.
+Seamless data sharing offers benefits that are as clear as a well-organized spreadsheet. **Dr Brown** further explains, "*Interoperability benefits patients by improving quality and reducing costs*," similar to catching a pricing error in your favor at checkout​. For patients, this means less time recounting their medical history and more time discussing e.g. their weekend plans.
 
 <EbookDynamic sectionTitle='explore other tech challenges HealthTech leaders are facing' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Almost 100 pages about scaling HealthTech solution. Get your copy.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
 
