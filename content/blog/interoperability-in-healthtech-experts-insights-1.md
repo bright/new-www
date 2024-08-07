@@ -20,7 +20,7 @@ language: en
 \
 Interoperability, or the ability for health IT systems to talk to each other without needing a translator, is now recognized as **a crucial ingredient for the smooth operation of future healthcare systems**.\
 \
-This article draws on some insights from the industry experts at the [2024 HLTH Europe Conference](https://europe.hlth.com/) and includes valuable perspectives from our team of specialists in telemedicine app development.
+This article draws on some insights from the industry experts at the [2024 HLTH Europe Conference](https://europe.hlth.com/) and includes valuable perspectives from our team of specialists in [telemedicine app development](/our-areas/healthcare-software-development/).
 
 ## The importance of interoperability in healthcare
 
