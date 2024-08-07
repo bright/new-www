@@ -12,7 +12,7 @@ comments: true
 published: true
 language: en
 ---
-Healthcare has long been entangled with inefficiencies, and much like a patient in a maze of endless hospital corridors, it often suffers from a lack of direction—specifically, the lack of interoperability among diverse [Electronic Health Record (EHR)](https://www.ama-assn.org/topics/electronic-health-records-ehr) systems. As more universal standards are introduced to resolve the issues of competing existing standards, the end result is often just an increase in the number of competing standards. **This cycle highlights the challenge of achieving true interoperability in healthcare, where the goal to streamline and unify data exchange across systems frequently leads to more complexity rather than less.** 
+**Healthcare has long been entangled with inefficiencies, and much like a patient in a maze of endless hospital corridors, it often suffers from a lack of direction—specifically, the lack of interoperability among diverse [Electronic Health Record (EHR)](https://www.ama-assn.org/topics/electronic-health-records-ehr) systems. As more universal standards are introduced to resolve the issues of competing existing standards, the end result is often just an increase in the number of competing standards.** **This cycle highlights the challenge of achieving true interoperability in healthcare, where the goal to streamline and unify data exchange across systems frequently leads to more complexity rather than less.** 
 
 <div className="image">![medical data interoperability](/images/image-9-.png "source: https://xkcd.com/")</div>
 
