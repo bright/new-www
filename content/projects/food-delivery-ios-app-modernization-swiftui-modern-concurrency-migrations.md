@@ -16,6 +16,13 @@ hero_image: /images/case_study_food_delivery_app_modernization.png
 Hero Image_alt: food delivery app
 social_media_previev: /images/fb_preview_case_study_food_delivery_app.png
 social_media_previev_alt: food delivery app
+bar_achievements:
+  - number: 2+
+    label: Years of collaboration
+  - number: "6"
+    label: Bright team members
+  - number: Around
+    label: Restaurants in the system
 tags:
   - customized software
   - mobile app
