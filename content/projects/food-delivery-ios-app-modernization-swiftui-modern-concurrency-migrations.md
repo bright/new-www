@@ -41,6 +41,8 @@ published: true
 work_in_progress: false
 language: en
 ---
-
-
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
+
+<Gallery images='[{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/firebase_logo_stack_new.svg","alt":"Firebase"},{"src":"/images/applepay.svg","alt":"Apple Pay"},{"src":"/images/sentry.svg","alt":"Sentry"}]' />
+
+**technologies**: Swift UI, Swift Concurrency, Firebase, Apple Pay
