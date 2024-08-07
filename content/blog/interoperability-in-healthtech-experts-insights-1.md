@@ -7,6 +7,7 @@ date: 2024-08-07T05:43:24.989Z
 meaningfullyUpdatedAt: 2024-08-07T05:43:25.017Z
 title: "Interoperability in HealthTech: Experts Insights"
 layout: post
+image: /images/interoperability-1-.png
 hidden: false
 comments: true
 published: true
