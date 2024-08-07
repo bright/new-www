@@ -34,6 +34,8 @@ When EHR systems don’t communicate, it's like each department in a hospital us
 
 Seamless data sharing offers benefits that are as clear as a well-organized spreadsheet. **Dr Brown** further explains, "*Interoperability benefits patients by improving quality and reducing costs*," similar to catching a pricing error in your favor at checkout​. For patients, this means less time recounting their medical history and more time discussing f.e. their weekend plans.
 
+<EbookDynamic sectionTitle='explore other tech challenges HealthTech leaders are facing' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Almost 100 pages about scaling HealthTech solution. Get your copy.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
+
 ## **General agreement on the necessity of interoperability**
 
 The necessity of interoperability is widely acknowledged across the healthcare industry. As stated in insights gathered from healthcare professionals, "*the technology breaks down a lot of \[administrative barriers] and presents a completely different way of thinking about healthcare,*" - says **Aahuti Rai, Strategic Advisor at Four Points Consulting**. The interest in interoperability is inspiring and fosters hope for the future.
