@@ -46,3 +46,11 @@ language: en
 <Gallery images='[{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/firebase_logo_stack_new.svg","alt":"Firebase"},{"src":"/images/applepay.svg","alt":"Apple Pay"},{"src":"/images/sentry.svg","alt":"Sentry"}]' />
 
 **technologies**: Swift UI, Swift Concurrency, Firebase, Apple Pay
+
+<TitleWithIcon sectionTitle="problem: finding a cohesive iOS development team" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+
+Our client, **a leading global online food delivery marketplace**, sought our expertise in iOS development to enhance their already popular food delivery app and benefit solution in Israel. **They required a highly skilled mobile development team with strong cohesion and experience working together for years**.
+
+Our iOS experts quickly took charge of the existing app and **swiftly familiarized themselves with the app's structure and underlying code**. That smooth transition allowed us to efficiently maintain the current solution while simultaneously planning and executing further modernizations and development.
+
+<TitleWithIcon sectionTitle="the solution: food delivery app serving two different groups" titleIcon="/images/flag.png" titleIconAlt="the solution" />
