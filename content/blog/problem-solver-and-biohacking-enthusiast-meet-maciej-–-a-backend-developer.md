@@ -17,3 +17,7 @@ language: en
 **Maciej loves to closely monitor the state of the applications he develops as much as the health of his body. Discover why he can’t imagine software development without telemetry and test-driven development. Read the career story of Maciej, Senior Backend Developer at Bright Inventions.**
 
 <div className="image">![Maciej - Backend Developer](/images/brightstorymaciekgrid.png "")</div>
+
+## Have you always felt that backend development is the ultimate programming path for you?
+
+Yes, I guess I never felt a strong connection with UI. I don't think I have that aesthetic sense in me. I was always **more interested in the logical and technical aspects of software development**.
