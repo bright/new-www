@@ -77,7 +77,7 @@ With Circles iOS or Android app, **users can easily join audio meetings led by m
 
 We also developed **numerous custom features to enhance the audio room experience, including user reactions, caller queuing, a call moderator panel, and an in-built chat**. Beyond group therapy sessions, Circles provides **continuous interaction with therapists** and a **personalized mental health plan** developed by its experts.
 
-<div className="image">![Client's review](../../static/images/case_study_circles_client_quote.png "undefined")</div>
+<div className="image">![Client's review](../../static/images/case_study_circles_client_quote.png "Client's review")</div>
 
 <TitleWithIcon sectionTitle="challenge: adapting to the rapid growth of the user base" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
 
