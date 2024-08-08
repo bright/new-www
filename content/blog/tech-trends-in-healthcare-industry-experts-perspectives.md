@@ -21,7 +21,7 @@ The digital transformation of healthcare continues to accelerate, driven by the 
 
 ## 2. The imperative of interoperability
 
-Interoperability remains a critical focus, with **Dr Adam Brown** from ABIG HEALTH pointing out its role in enhancing patient care through error reduction and efficient data exchange. Seamless connectivity between different health systems is essential for the next steps in healthcare evolution.
+[Interoperability](/blog/interoperability-in-healthtech-experts-insights/) remains a critical focus, with **Dr Adam Brown** from ABIG HEALTH pointing out its role in enhancing patient care through error reduction and efficient data exchange. Seamless connectivity between different health systems is essential for the next steps in healthcare evolution.
 
 <EbookDynamic sectionTitle='almost 100 pages about scaling HealthTech' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download the free pdf full of insights, case studies and tech solutions for healthtech and medtech leaders.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover guide' />
 
