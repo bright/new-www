@@ -17,12 +17,12 @@ faqs:
   - custom software development 6
   - custom software development 7
 project:
-  - finebite
   - relevo
-  - mobile-therapy-application
-  - motivo
   - HS-Baumappe
   - Practi JET POS
+  - kitchen-display-system
+  - food-delivery-app
+  - pos-devices-integration
 layout: our-service
 our_service_id: custom software development
 meta_title: Custom Software Development
