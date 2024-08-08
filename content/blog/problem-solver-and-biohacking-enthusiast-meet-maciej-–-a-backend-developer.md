@@ -3,8 +3,8 @@ author: maciej-n
 secondAuthor: izabela
 tags:
   - bright story
-date: 2024-08-08T07:03:29.151Z
-meaningfullyUpdatedAt: 2024-08-08T07:03:29.183Z
+date: 2024-08-08T07:59:40.075Z
+meaningfullyUpdatedAt: 2024-08-08T07:59:40.861Z
 slug: problem-solver-biohacking-maciej
 title: Problem-Solver and Biohacking Enthusiast. Meet Maciej – a Backend Developer
 layout: post
