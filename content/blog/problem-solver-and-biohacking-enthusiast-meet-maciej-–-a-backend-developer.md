@@ -49,3 +49,7 @@ First of all, our client is still a startup, so requirements are dynamic, and de
 Right now, one of the biggest challenges I face is **integrating with external medtech providers**. Our application integrates with, for example, an external clinic, and it’s our job to adjust our system to be able to receive and process data from external providers, even if their systems work completely differently. 
 
 The key aspect is **multilevel testing**, which enables me to quickly verify if any changes needed for a successful integration have affected some of the app’s functions. **Without test-driven development, I couldn't be sure if adjusting to external parties wouldn’t introduce regression**.
+
+## What used to be a challenge for you at work and now it’s not anymore?
+
+When I joined Bright Inventions, I had to catch up on a lot of technological aspects, and there was a lot of learning to do. Now, the tech aspects are no longer a struggle for me. **The challenges I face now are more communication-oriented**. For example, **I am still learning how to present technical aspects** to clients' representatives in a simple and straightforward manner or to **explain and justify architectural decisions to my team members**.
