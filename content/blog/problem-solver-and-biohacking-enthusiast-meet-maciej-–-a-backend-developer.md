@@ -81,3 +81,11 @@ That’s the problem-solving method that [Mateusz](/about-us/mateusz/) taught me
 I look for the most valuable skill I've learned at Bright Inventions – **problem-solving orientation**. A perfect match is when a candidate understands that our job is not just writing code and playing with technology. **Our real duty is solving clients' problems** so they can earn or save money. What matters is solving the issue on time, not how beautifully crafted our code is, especially if it ends up having no purpose and, therefore, no value for the client and their business.
 
 <div className="image">![Quote](/images/maciej_quote_solving_problems.png "Quote")</div>
+
+## You run, swim, go to the gym, and more. How does sports activity make you a better programmer?
+
+I also like snowboarding, windsurfing, and kitesurfing. :D My workouts are definitely **a way for my head to rest**. Sometimes, they also help me come up with ideas to solve issues I’m dealing with at work. **While running, I often listen to tech podcasts**, especially "[Better Software Design](https://open.spotify.com/show/0QCDOJNUWnJkaq73FasfkY)," which I highly recommend. Therefore, I have several irons in the fire, which I cherish a lot. Learning new sports is also a great way to restore humility, which I think some software developers could benefit from as well.
+
+<div className="image">![Yoga classes at Bright Inventions office.](/images/yoga_team_maciej.png "Yoga classes at Bright Inventions office.")</div>
+
+<center>Yoga classes at Bright Inventions office.</center>
