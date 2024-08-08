@@ -57,7 +57,9 @@ language: en
 
 <TitleWithIcon sectionTitle="problem: lack of access to mental health specialists in the USA" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
-**More than 1 in 5 U.S. adults, roughly 57.8 million people — a number close to the population of Italy — live with a mental illness**. However, not everyone has the means to access mental health experts and receive the necessary assistance. 
+According to the WHO, **280 million people worldwide suffer from depression**, a number nearly equal to Indonesia's population. Although depression is treatable, **more than 75% of those affected in low- and middle-income countries receive no treatment**.
+
+**In U.S. more than 1 in 5 adults live with a mental illness**. However, not everyone has the means to access mental health experts and receive the necessary assistance. 
 
 This grim reality of mental health in the U.S. calls for a solution that not only provides Americans with professional mental health expertise but also offers something uniquely valuable in distressing moments: guidance and perspective from individuals who are grappling with similar issues.
 
