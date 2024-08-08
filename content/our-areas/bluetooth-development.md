@@ -17,10 +17,10 @@ faqs:
 project:
   - Remote Patient Monitoring
   - MedKitDoc
-  - motivo
-  - Practi JET POS
+  - pos-devices-integration
   - Practi JET POS Mobile
-  - easytapp
+  - Practi JET POS
+  - motivo
   - smarthelp
 layout: our-service
 our_service_id: bluetooth development
