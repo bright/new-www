@@ -17,10 +17,9 @@ faqs:
     Modernization
 project:
   - MedKitDoc
-  - Practi JET POS
-  - relevo - instant app and app clip
-  - Practi JET POS Mobile
-  - circles
+  - food-delivery-app
+  - pos-devices-integration
+  - invoice-system
 layout: our-service
 our_service_id: Application modernization
 meta_title: Application modernization
