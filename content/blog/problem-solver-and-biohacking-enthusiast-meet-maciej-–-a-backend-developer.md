@@ -43,3 +43,9 @@ Read Maciej’s tutorials on app performance monitoring with OpenTelemetry and G
 - - -
 
 ## At Bright Inventions, you are part of the team developing a telemedicine solution. What are the challenges you faced?
+
+First of all, our client is still a startup, so requirements are dynamic, and deadlines are tight. One of the challenges is **delivering features effectively and quickly finding solutions to our client's problems**. To respond swiftly to the client’s needs, **I follow best practices like modularity, test-driven development, and domain-driven design**. These approaches may seem like catchy buzzwords, but they are helpful tools in my daily work.
+
+Right now, one of the biggest challenges I face is **integrating with external medtech providers**. Our application integrates with, for example, an external clinic, and it’s our job to adjust our system to be able to receive and process data from external providers, even if their systems work completely differently. 
+
+The key aspect is **multilevel testing**, which enables me to quickly verify if any changes needed for a successful integration have affected some of the app’s functions. **Without test-driven development, I couldn't be sure if adjusting to external parties wouldn’t introduce regression**.
