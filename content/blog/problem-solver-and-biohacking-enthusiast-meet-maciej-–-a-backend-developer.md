@@ -75,3 +75,9 @@ During my second recruitment process, I had an interview with [Piotr](/about-us/
 **I enjoy working in small teams and having a real influence on the software we develop**. I can approach problems holistically, sometimes even noticing the issue myself, then figuring out solutions and presenting my recommendations to the client, and finally solving the issue. 
 
 That’s the problem-solving method that [Mateusz](/about-us/mateusz/) taught me; he always shares with us the problem-solving pyramid “[Helpful Hierarchy](https://medium.com/helpful-com/how-to-be-an-effective-early-stage-employee-hint-be-helpful-e681b456a01f)”, which has been guiding me over the years.
+
+## You recently became a tech recruiter. What skills are you looking for in candidates?
+
+I look for the most valuable skill I've learned at Bright Inventions – **problem-solving orientation**. A perfect match is when a candidate understands that our job is not just writing code and playing with technology. **Our real duty is solving clients' problems** so they can earn or save money. What matters is solving the issue on time, not how beautifully crafted our code is, especially if it ends up having no purpose and, therefore, no value for the client and their business.
+
+<div className="image">![Quote](/images/maciej_quote_solving_problems.png "Quote")</div>
