@@ -21,25 +21,22 @@ The digital transformation of healthcare continues to accelerate, driven by the 
 
 ## 2. The imperative of interoperability
 
-Interoperability remains a critical focus, with **Dr Adam Brown** from ABIG HEALTH pointing out its role in enhancing patient care through error reduction and efficient data exchange. Seamless connectivity between different health systems is essential for the next steps in healthcare evolution.
+[Interoperability](/blog/interoperability-in-healthtech-experts-insights/) remains a critical focus, with **Dr Adam Brown** from ABIG HEALTH pointing out its role in enhancing patient care through error reduction and efficient data exchange. Seamless connectivity between different health systems is essential for the next steps in healthcare evolution.
 
 <EbookDynamic sectionTitle='almost 100 pages about scaling HealthTech' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download the free pdf full of insights, case studies and tech solutions for healthtech and medtech leaders.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover guide' />
 
-
 ## 3. Advancements in women’s health tech
 
-Attention to women's health tech is growing, filling gaps in historically under-served areas. **Dr** **Claudia Pastides** from FLO noted the increasing number of digital solutions aimed at improving women's health, a trend that promises better understanding and support for women’s health issues.
+Attention to women's health tech is growing, filling gaps in historically under-served areas. **Dr** **Claudia Pastides** from FLO [noted the increasing number of digital solutions aimed at improving women's health](/blog/interview-claudia-pastides-flo-health/), a trend that promises better understanding and support for women’s health issues.
 
 <div className="image">![women's health ](/images/baner_final-quote-claudia.png "")</div>
 
 ## 4. The rise of remote care
 
-\
 Remote care technologies are reshaping where and how care is delivered. **Łukasz Krasnopolski,** Founder and CEO at Higo Sense, explained how new devices are enabling comprehensive health assessments from the home, expanding access to healthcare services, especially in remote and underserved areas.
 
 ## 5. Innovations in pain management and diagnostic AI
 
-\
 **Guy Siman,** Co-Founder and COO at Sensars, discussed their approach to chronic pain management through neurostimulation, tailored for individual needs. Concurrently, AI's role in diagnostics is expanding, with **Bartosz Borucki,** CEO at Smarter Diagnostics, highlighting its use in detecting early signs of orthopedic conditions, signaling a shift towards proactive healthcare.
 
 ## 6. Prioritizing patient-centric experiences
