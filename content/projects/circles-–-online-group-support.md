@@ -59,7 +59,7 @@ language: en
 
 According to the WHO, **280 million people worldwide suffer from depression**, a number nearly equal to Indonesia's population. Although depression is treatable, **more than 75% of those affected in low- and middle-income countries receive no treatment**.
 
-**In the U.S. more than 1 in 5 adults live with a mental illness**. However, similarly not everyone has the means to access mental health experts and receive the necessary assistance. 
+**In the U.S. more than 1 in 5 adults live with a mental illness**. Similarly not everyone has the means to access mental health experts and receive the necessary assistance. 
 
 This grim reality of mental health in the U.S. calls for a solution that not only provides Americans with professional mental health expertise but also offers something uniquely valuable in distressing moments: guidance and perspective from individuals who are grappling with similar issues.
 
