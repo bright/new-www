@@ -57,11 +57,13 @@ language: en
 
 <TitleWithIcon sectionTitle="problem: lack of access to mental health specialists in the USA" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
-**More than 1 in 5 U.S. adults, roughly 57.8 million people — a number close to the population of Italy — live with a mental illness**. However, not everyone has the means to access mental health experts and receive the necessary assistance. 
+According to the WHO, **280 million people worldwide suffer from depression**, a number nearly equal to Indonesia's population. Although depression is treatable, **more than 75% of those affected in low- and middle-income countries receive no treatment**.
+
+**In the U.S. more than 1 in 5 adults live with a mental illness**. However, not everyone has the means to access mental health experts and receive the necessary assistance. 
 
 This grim reality of mental health in the U.S. calls for a solution that not only provides Americans with professional mental health expertise but also offers something uniquely valuable in distressing moments: guidance and perspective from individuals who are grappling with similar issues.
 
-<TitleWithIcon sectionTitle="the solution: online therapy platform for expert-guided group healing" titleIcon="/images/flag.png" titleIconAlt="the solution:" />
+<TitleWithIcon sectionTitle="the solution: online therapy platform for expert-guided group healing" titleIcon="/images/flag.png" titleIconAlt="the solution" />
 
 **[Circles](https://circlesup.com/), an Israeli startup, has launched a mental health tech application** designed for those dealing with grief, divorce, or simply seeking a safe space to express their emotions. 
 
@@ -75,7 +77,7 @@ With Circles iOS or Android app, **users can easily join audio meetings led by m
 
 We also developed **numerous custom features to enhance the audio room experience, including user reactions, caller queuing, a call moderator panel, and an in-built chat**. Beyond group therapy sessions, Circles provides **continuous interaction with therapists** and a **personalized mental health plan** developed by its experts.
 
-<div className="image">![Client's review](../../static/images/case_study_circles_client_quote.png "undefined")</div>
+<div className="image">![Client's review](../../static/images/case_study_circles_client_quote.png "Client's review")</div>
 
 <TitleWithIcon sectionTitle="challenge: adapting to the rapid growth of the user base" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
 
