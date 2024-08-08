@@ -19,9 +19,9 @@ project:
   - relevo
   - Practi JET POS Mobile
   - circles
+  - food-delivery-app
   - finebite
   - solution-parkinson
-  - smarthelp
 layout: our-service
 our_service_id: mobile app development
 meta_title: Mobile App Development
@@ -44,20 +44,6 @@ bullet_points:
   - assessment of your idea in 7 days
   - from idea to launch in up to 6 months
   - managing every aspect of the development process
-button: let's talk about mobile
-button2: let's talk about mobile
-published: true
-show_technology_stack: true
-title_team: meet our mobile app development team
-title_case_study: mobile applications that we delivered
-title_faqs: mobile app development FAQs
-image_alt_our_service_desktop: Mobile development company
-intro: Our team has broad experience in building applications for iOS and Android.
-show technology stack: true
-language: en
-image_alt_our_service_mobile: Mobile development company
-title_contact: book a free consultation in 48 hours
-show case study: true
 bar_stack:
   - iOS
   - Android
@@ -68,9 +54,27 @@ bar_stack:
   - GitHub
   - Firebase
   - Fastlane
+button: let's talk about mobile
+button2: let's talk about mobile
+published: true
 show_case_study: true
+show_technology_stack: true
+title_team: meet our mobile app development team
+title_case_study: mobile applications that we delivered
+title_faqs: mobile app development FAQs
+title_contact: book a free consultation in 48 hours
 description_contact: Tell us more about your mobile project or idea for an app.
   Fill out the form below and we'll get back to you in 48 hours.
+language: en
+blog_section_tags:
+  - business strategy
+blog_section_title: blog posts
+image_alt_our_service_desktop: Mobile development company
+blog_section: false
+intro: Our team has broad experience in building applications for iOS and Android.
+show technology stack: true
+image_alt_our_service_mobile: Mobile development company
+show case study: true
 description_mdx: >-
   At Bright Inventions, we live and breathe **native mobile app development for
   iOS and Android**. Our app development team has broad experience in building
