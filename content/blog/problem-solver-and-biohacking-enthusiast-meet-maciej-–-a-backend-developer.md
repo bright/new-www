@@ -89,3 +89,5 @@ I also like snowboarding, windsurfing, and kitesurfing. :D My workouts are defin
 <div className="image">![Yoga classes at Bright Inventions office.](/images/yoga_team_maciej.png "Yoga classes at Bright Inventions office.")</div>
 
 <center>Yoga classes at Bright Inventions office.</center>
+
+Although sports definitely help me at work, I look at it more holistically. **I am a biohacking fan and try to lead a healthy life**, with sports being just one part of it. I also pay attention to the food I eat, aim for regular and adequate sleep, and more. I appreciate that Bright Inventions motivates us to lead a healthy lifestyle by organizing workouts with a professional triathlete and yoga classes. Sports activities help me use my energy surplus and keep my body healthy, which is my ultimate goal – to stay healthy.
