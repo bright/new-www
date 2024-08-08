@@ -4,10 +4,10 @@ team_members:
   - szymek
   - kasia
   - mateusz
-  - janek
   - maja
   - agnieszka
   - robert
+  - joanna-c
 faqs:
   - web development 1
   - web development 2
