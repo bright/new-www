@@ -5,7 +5,7 @@ tags:
   - bright story
 date: 2024-08-08T07:03:29.151Z
 meaningfullyUpdatedAt: 2024-08-08T07:03:29.183Z
-slug: problem-solver-biohacking-enthusiast-maciej
+slug: problem-solver-biohacking-maciej
 title: Problem-Solver and Biohacking Enthusiast. Meet Maciej – a Backend Developer
 layout: post
 image: /images/brightstorymaciejn.png
