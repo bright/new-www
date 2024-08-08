@@ -17,12 +17,11 @@ faqs:
   - web development 6
   - web development 7
 project:
-  - vcare
   - bright-treasury
   - cryptoAtlas
   - digitized-questionnaires
   - relevo
-  - smarthelp
+  - invoice-system
 layout: our-service
 our_service_id: web development
 meta_title: Web Development Company
@@ -64,20 +63,24 @@ show_technology_stack: true
 title_team: meet our web development team
 title_case_study: web solutions that we have worked on
 title_faqs: web development services FAQs
-image_alt_our_service_desktop: web development company
-intro: If you are looking for a web development company, you’ve come to the
-  right place!
-image_alt_our_service_mobile: web development company
 title_contact: book a free consultation in 48 hours
 description_contact: Tell us more about your web project or idea for an app.
   Fill out the form below and we'll get back to you in 48 hours.
+blog_section_tags:
+  - business strategy
+blog_section_title: blog posts
+image_alt_our_service_desktop: web development company
+blog_section: false
+intro: If you are looking for a web development company, you’ve come to the
+  right place!
+language: en
+image_alt_our_service_mobile: web development company
 description_mdx: We provide a wide range of **custom full-stack web development
   services** for small, medium, and large businesses. Since 2012 we’ve gained
   experience in developing web apps, web services, and websites that are
   tailor-made to fit our clients’ goals. We’ve worked with clients from the UK,
   the USA, Germany, Netherlands and more.
 image_our_service: /images/picture.png
-language: en
 ---
 ## web development services
 
