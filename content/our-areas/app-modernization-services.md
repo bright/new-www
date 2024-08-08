@@ -16,6 +16,7 @@ faqs:
   - Do you provide maintenance and support throughout and after the project? |
     Modernization
 project:
+  - restaurant-pos-revamp
   - MedKitDoc
   - food-delivery-app
   - pos-devices-integration
