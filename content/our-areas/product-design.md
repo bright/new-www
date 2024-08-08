@@ -11,6 +11,7 @@ faqs:
   - What software is used in the product design?
   - How much does product design cost?
 project:
+  - restaurant-pos-revamp
   - bright-treasury
   - smarthelp
   - xpomaker
