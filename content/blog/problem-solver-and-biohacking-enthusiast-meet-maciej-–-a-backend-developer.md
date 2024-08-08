@@ -41,3 +41,5 @@ Read Maciej’s tutorials on app performance monitoring with OpenTelemetry and G
 [How to integrate a Spring Boot app with Grafana using OpenTelemetry standards](https://grafana.com/blog/2023/10/30/how-to-integrate-a-spring-boot-app-with-grafana-using-opentelemetry-standards/)
 
 - - -
+
+## At Bright Inventions, you are part of the team developing a telemedicine solution. What are the challenges you faced?
