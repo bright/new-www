@@ -21,3 +21,9 @@ language: en
 ## Have you always felt that backend development is the ultimate programming path for you?
 
 Yes, I guess I never felt a strong connection with UI. I don't think I have that aesthetic sense in me. I was always **more interested in the logical and technical aspects of software development**.
+
+## You are an observability and app performance monitoring enthusiast. Why do you recommend implementing telemetry in software projects?
+
+Nowadays, no one can imagine an application without logs – there's no debate here. **Telemetry is simply the new standard, a step up**. The boundaries are changing, and more and more software engineers cannot imagine a real-life application without implemented telemetry data monitoring.
+
+<div className="image">![quote](/images/maciej_quote_monitoring.png "")</div>
