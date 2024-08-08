@@ -53,3 +53,7 @@ The key aspect is **multilevel testing**, which enables me to quickly verify if 
 ## What used to be a challenge for you at work and now it’s not anymore?
 
 When I joined Bright Inventions, I had to catch up on a lot of technological aspects, and there was a lot of learning to do. Now, the tech aspects are no longer a struggle for me. **The challenges I face now are more communication-oriented**. For example, **I am still learning how to present technical aspects** to clients' representatives in a simple and straightforward manner or to **explain and justify architectural decisions to my team members**.
+
+<div className="image">![Running in New York City.](/images/maciej_ny.png "Running in New York City.")</div>
+
+<center>Running in New York City.</center>
