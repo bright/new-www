@@ -30,9 +30,9 @@ Nowadays, no one can imagine an application without logs – there's no debate h
 
 **It's our job as software engineers to constantly monitor the real state of the app, to see if it works properly and, if not, what isn't working as it should.** Gathering data exclusively from logs is simply not enough these days. I could not feel comfortable being responsible for an application running on a production environment, without having at least a basic set of metrics telling me about application health.
 
----
+- - -
 
-*Read Maciej’s tutorials on app performance monitoring with OpenTelemetry and Grafana:*
+Read Maciej’s tutorials on app performance monitoring with OpenTelemetry and Grafana:
 
 [How to Reduce Telemetry Data Produced by Your App](/blog/how-to-reduce-telemetry-data-produced-by-your-app/)
 
@@ -40,4 +40,4 @@ Nowadays, no one can imagine an application without logs – there's no debate h
 
 [How to integrate a Spring Boot app with Grafana using OpenTelemetry standards](https://grafana.com/blog/2023/10/30/how-to-integrate-a-spring-boot-app-with-grafana-using-opentelemetry-standards/)
 
----
+- - -
