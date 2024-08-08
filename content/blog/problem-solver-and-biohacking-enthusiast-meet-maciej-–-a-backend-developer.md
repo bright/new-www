@@ -65,3 +65,7 @@ When I joined Bright Inventions, I had to catch up on a lot of technological asp
 **That interview shifted my mindset**; I understood that I had a lot of learning to do and that my job shouldn’t be about closing tasks, but about solving problems. I changed jobs in the meantime and didn’t plan to look for another, but my friend Ola, who didn’t even work at Bright then, convinced me to apply. She knew [Maja](/about-us/maja/) from Bright Inventions and heard about the opening from her. A couple of years later, I recommended [Ola](/about-us/aleksandra-z/) to join Bright, and we work together now.
 
 During my second recruitment process, I had an interview with [Piotr](/about-us/piotr/), which was also very challenging. **Piotr showed me how much I still needed to learn, but fortunately, my knowledge was sufficient for a regular position**, so I was offered a job.
+
+<div className="image">![The bright team after a team retreat.](/images/team_retreat_maciej.png "The bright team after a team retreat.")</div>
+
+<center> The bright team after a team retreat. </center>
