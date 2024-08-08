@@ -57,3 +57,11 @@ When I joined Bright Inventions, I had to catch up on a lot of technological asp
 <div className="image">![Running in New York City.](/images/maciej_ny.png "Running in New York City.")</div>
 
 <center>Running in New York City.</center>
+
+## What’s your story behind joining Bright Inventions?
+
+**I actually made it on my second attempt**. My first recruitment process ended poorly. Back then, **I was solely focused on completing my tasks**, and the interview with [Michał](/about-us/michal/) made me realize how much I still didn’t know about software development. **I didn’t really understand what was happening behind the code I was writing**.
+
+**That interview shifted my mindset**; I understood that I had a lot of learning to do and that my job shouldn’t be about closing tasks, but about solving problems. I changed jobs in the meantime and didn’t plan to look for another, but my friend Ola, who didn’t even work at Bright then, convinced me to apply. She knew [Maja](/about-us/maja/) from Bright Inventions and heard about the opening from her. A couple of years later, I recommended [Ola](/about-us/aleksandra-z/) to join Bright, and we work together now.
+
+During my second recruitment process, I had an interview with [Piotr](/about-us/piotr/), which was also very challenging. **Piotr showed me how much I still needed to learn, but fortunately, my knowledge was sufficient for a regular position**, so I was offered a job.
