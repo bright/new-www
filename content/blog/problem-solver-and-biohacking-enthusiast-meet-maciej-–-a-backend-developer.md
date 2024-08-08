@@ -69,3 +69,9 @@ During my second recruitment process, I had an interview with [Piotr](/about-us/
 <div className="image">![The bright team after a team retreat.](/images/team_retreat_maciej.png "The bright team after a team retreat.")</div>
 
 <center> The bright team after a team retreat. </center>
+
+## You have worked at Bright Inventions since 2020. What do you particularly enjoy about the job here?
+
+**I enjoy working in small teams and having a real influence on the software we develop**. I can approach problems holistically, sometimes even noticing the issue myself, then figuring out solutions and presenting my recommendations to the client, and finally solving the issue. 
+
+That’s the problem-solving method that [Mateusz](/about-us/mateusz/) taught me; he always shares with us the problem-solving pyramid “[Helpful Hierarchy](https://medium.com/helpful-com/how-to-be-an-effective-early-stage-employee-hint-be-helpful-e681b456a01f)”, which has been guiding me over the years.
