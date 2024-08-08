@@ -63,7 +63,7 @@ According to the WHO, **280 million people worldwide suffer from depression**, a
 
 This grim reality of mental health in the U.S. calls for a solution that not only provides Americans with professional mental health expertise but also offers something uniquely valuable in distressing moments: guidance and perspective from individuals who are grappling with similar issues.
 
-<TitleWithIcon sectionTitle="the solution: online therapy platform for expert-guided group healing" titleIcon="/images/flag.png" titleIconAlt="the solution:" />
+<TitleWithIcon sectionTitle="the solution: online therapy platform for expert-guided group healing" titleIcon="/images/flag.png" titleIconAlt="the solution" />
 
 **[Circles](https://circlesup.com/), an Israeli startup, has launched a mental health tech application** designed for those dealing with grief, divorce, or simply seeking a safe space to express their emotions. 
 
