@@ -83,11 +83,19 @@ Faced with the challenge of ensuring optimal performance for MedKitDoc, **we imp
 
 We have also helped to address the challenges of comprehensive business and marketing analytics by maintaining **monitoring for crucial metrics like feature usage**, including successful appointment count, the number of messages exchanged between patient and doctor, and the number of shared documents. **The data serves as a valuable resource for the client's analytics team ensuring app optimizations are always based on solid and reliable data**. 
 
+<div className="image">![Client's review](/images/case_study_medkitdoc_client_quote.png "Client's review")</div>
+
 Securing healthcare solutions that store sensitive medical data, such as MedKitDoc, presents an additional challenge in **ensuring compliance with HIPAA, GDPR and being eligible for German TÜV certification**. To meet these requirements, it's essential to **follow best security practices such as data encryption, and managing user access with tools like AWS Cognito, among many others**.
 
 Part of addressing this challenge involves **software modernization**. While our core responsibility is to deliver new features, we also play a crucial role in **modernizing the current code and architecture**. This includes updating libraries to comply with security standards, and **ensuring that our solution remains secure and trustworthy for handling sensitive medical data**.
 
 <div className="image">![MedKitDoc](/images/medkitdoc_mockups_app.png "MedKitDoc")</div>
+
+<TitleWithIcon sectionTitle="MedKitDoc’ perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Client's perspective" />
+
+**Dorian Koch, the founder and former CEO of MedKitDoc**
+
+*Compared to everyone else, Bright Inventions doesn’t promise things they can’t deliver. They tell us what they can and can’t do. When I ask for an iOS or Android developer, they take their time to get a good one instead of assigning someone who has the bare minimum. The best thing about them is that I can count on their actions. They have skilled teammates who’ve gone through a vetting process.* 
 
 <TitleWithIcon sectionTitle="result: increased access to medical care in Germany" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
