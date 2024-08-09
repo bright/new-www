@@ -25,7 +25,7 @@ title_case_study: case studies
 title_contact: contact
 description_contact: Fill out the form below and we'll get back to you in 48 hours.
 order: 99
-slug: epos-and-retail-management-system/
+slug: epos-and-retail-management-system
 show_team: false
 show_case_study: false
 show on homepage: false
