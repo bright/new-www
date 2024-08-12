@@ -1,13 +1,13 @@
 ---
 layout: job
 title: "Senior iOS Developer "
-subtitle: CLOSED
+subtitle: OPENING SOON
 imagejob: /images/iosteam_job_offer.png
 image-alt-job: iOS Development Team Bright Inventions
 hours: full-time
-salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 21 600 PLN gross (UoP)
-salary_min: 20000
-salary_max: 26000
+salary: 135 - 162 PLN/hour + VAT (B2B) 16 600 - 19 920 PLN gross (UoP)
+salary_min: ""
+salary_max: ""
 working time: full time
 technology:
   - Swift
@@ -83,17 +83,19 @@ As a growing team with business focus, **we need strong engineers with diverse p
 * advanced level of communication in English
 * familiarity with Agile methodologies
 
-## perks and benfits 🙌
+## **what you will find in our Bright Team 🧡**
 
-* 20-26 paid days off + Polish bank holidays
-* mentoring programme
-* internal developers meetings
-* extra training budget together with professional books library
-* continuous feedback culture and 1:1 meetings
-* flexible working hours (we start between 7-10 a.m.)
-* MultiSport card and private medical package (PZU Zdrowie)
-* MacBook Pro and additional accessories
-* internal bright initiatives: regular sport classes with a professional coach, board games evenings, weekly lunch roulette
-* team retreats once a quarter
+* continuous feedback culture and 1:1 meetings 
+* clear career path
+* flexible working hours and remote work possibility
+* MultiSport card and private medical package (Compensa)
+* good equipment: we provide you with MacBook and additional accessories
+* internal workshops and dev's meetings 
+* extra budget for training and library with professional books
+* one extra day for non-project stuff each month
+* regular sports classes (running, biking, swimming) and yoga Fridays
+* board games evenings, weekly lunch initiative, team retreats once a quarter
+
+
 
 Sounds like a perfect job? Don't hesitate and apply!
