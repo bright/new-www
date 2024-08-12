@@ -60,7 +60,7 @@ From the moment you start planning POS modernization, **you should conduct resea
 
 ## Neglecting usability in POS redesign
 
-**Joanna Cieszyńska, Product Designer @ bright inventions**
+**Joanna Cieszyńska, Product Designer @ bright inventions:**
 
 POS systems are designed to help waitstaff manage orders within seconds, not to showcase intricate interaction designs or long animations. While it's important not to swing to the other extreme – animations that provide essential feedback, such as indicating that a payment is being processed, are still necessary – it’s crucial to **skip purely decorative animations**. Every extra second they add will slow the user down and complicate their already stressful work.
 
