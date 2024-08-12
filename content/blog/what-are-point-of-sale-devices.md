@@ -25,7 +25,7 @@ Point of Sale (POS) is the checkout for customers who purchase goods or services
 
 <div className="important-info"><h2>Electronic Point of Sale</h2><div>Modern ePOS (electronic Point of Sale) is a combination of hardware and software that enable transactions.</div></div>
 
-In this article, we focus on hardware solutions that are a part of modern ePOS for retail and restaurants.
+In this article, we focus on hardware solutions that are a part of modern ePOS for retail and restaurants. These are examples of retail hardware that we work with at Bright Inventions.
 
 ## What devices are part of the electronic Point of Sale System?
 
@@ -97,7 +97,5 @@ The label printer is often built-in electronic scales. When you weigh the produc
 ![thermal printer ePOS](../../static/images/printer.png)
 
 The device that prints receipts. Thermal printers emit light to the paper that is photosensitive so it leaves the “marks” that we know as the list of our groceries and all the costs.
-
-These are examples of retail hardware that we work with at Bright Inventions.
 
 <div class='block-button'><h2>solving problems with printer integrations</h2><div>Discover how our team integrated various devices (with printers at the forefront) into one point-of-sale (POS) system that has become a part of the Just Eat Takeaway portfolio.</div><a href="/projects/pos-devices-integration/"><button>read the story</button></a></div>
