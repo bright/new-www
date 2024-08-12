@@ -74,4 +74,4 @@ Choosing the payment method is a decision that should depend on your users' habi
 
 In some cases, users are extremely protective of their anonymity. For example, if you build a web therapy platform, your users may not be willing to share the information that they struggle with some mental issues. So they don't want the payment to visibly state that they use a web therapy platform. Especially when another family member has access to, for example, the credit card statement. That's why you need to decide what's the proper name for the payment statement for your solution.
 
-<div className="block-button"><h2>Book a free consultation in 48 hours</h2><div>Do you struggle with payment implementation? Contact us and book a free consultation with our software development team.</div><a href="/start-project/"><button>let's talk about your solution</button></a></div>
+<div className="block-button"><h2>do you struggle with payment implementation?</h2><div> Contact us and book a free consultation in 48 hours with our software development team.</div><a href="/start-project/"><button>let's talk about your solution</button></a></div>
