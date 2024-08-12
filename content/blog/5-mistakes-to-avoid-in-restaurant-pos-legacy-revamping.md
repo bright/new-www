@@ -47,3 +47,27 @@ As an example, let’s consider a highly appreciated feature by waitstaff: split
 Some POS providers aim to address specific restaurant problems by offering unique, tailored features. While this individual approach is praiseworthy, **it is crucial to build features that are flexible and adaptable for other restaurants as well**. The ideal scenario is to create features that can be enabled or disabled according to every restaurant's needs.
 
 **A great example is tailored prints for kitchen, accounting, or management**. Restaurants may have different needs regarding the type of receipts and fiscal documents they want to generate. It’s wise to keep this flexible so the **restaurant staff can adjust exactly what prints they need, rather than assuming everyone requires the same type of documents by default**.
+
+<div className="image">![quote](/images/quote_szymon_pos_revamping.png "")</div>
+
+## Forgetting to support older hardware
+
+**Szymon Gęsicki, Flutter Developer @ bright inventions:**
+
+I bet every software development team loves to create POS applications only for modern desktops, tablets, and smartphones. Unfortunately, in many cases, restaurants still operate on older hardware, making it more challenging to integrate new POS systems and ensure high performance for users. 
+
+From the moment you start planning POS modernization, **you should conduct research with your clients to determine what devices they use**. You can also **check your users' device parameters in analytics tools like Google Analytics 4** (assuming you have set up the analytics properly, which unfortunately is often neglected in legacy systems). Ensure that your system supports these devices or, if possible, provide them with modern hardware compatible with your software.
+
+## Neglecting usability in POS redesign
+
+**Joanna Cieszyńska, Product Designer @ bright inventions**
+
+POS systems are designed to help waitstaff manage orders within seconds, not to showcase intricate interaction designs or long animations. While it's important not to swing to the other extreme – animations that provide essential feedback, such as indicating that a payment is being processed, are still necessary – it’s crucial to **skip purely decorative animations**. Every extra second they add will slow the user down and complicate their already stressful work.
+
+Modernization is the perfect moment to **redesign the POS based on user feedback**. This involves addressing specific needs, such as the ability to quickly change the order flow (restaurant clients sometimes start with the main dish and then mention the appetizers and desserts). A UI that helps to easily modify the order of meals is crucial for waitstaff. Another important aspect is **eliminating pain points**, such as unclear color coding of meal categories or the lack of distinction between beverages in cans and bottles.
+
+As you can see, waitstaff needs can be very specific – these are just a couple of examples our team had to address during POS legacy modernization. **The goal is to create software that is truly usable, rather than just producing beautiful mockups appreciated on Behance or Dribbble**. Such designs are unlikely to stand a chance in the chaotic environment of a real restaurant.
+
+## Are you considering your POS upgrade?
+
+Check out our approach towards POS modernization. Read the story of [30 years old restaurant POS system](https://brightinventions.pl/projects/pos-legacy/) that our team revamped.
