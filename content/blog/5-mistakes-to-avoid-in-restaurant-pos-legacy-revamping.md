@@ -5,8 +5,8 @@ thirdAuthor: szymon-g
 tags:
   - business perspective
   - POS
-date: 2024-08-12T11:47:32.572Z
-meaningfullyUpdatedAt: 2024-08-12T11:47:32.595Z
+date: 2024-08-12T12:09:00.271Z
+meaningfullyUpdatedAt: 2024-08-12T12:09:00.831Z
 slug: restaurant-pos-legacy-revamping-mistakes
 title: 5 Mistakes to Avoid in Restaurant POS Legacy Revamping
 layout: post
