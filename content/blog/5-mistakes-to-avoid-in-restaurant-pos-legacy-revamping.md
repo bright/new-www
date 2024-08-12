@@ -58,6 +58,8 @@ I bet every software development team loves to create POS applications only for 
 
 From the moment you start planning POS modernization, **you should conduct research with your clients to determine what devices they use**. You can also **check your users' device parameters in analytics tools like Google Analytics 4** (assuming you have set up the analytics properly, which unfortunately is often neglected in legacy systems). Ensure that your system supports these devices or, if possible, provide them with modern hardware compatible with your software.
 
+<div className="image">![quote](/images/quote_joanna_pos_design.png "")</div>
+
 ## Neglecting usability in POS redesign
 
 **Joanna Cieszyńska, Product Designer @ bright inventions:**
