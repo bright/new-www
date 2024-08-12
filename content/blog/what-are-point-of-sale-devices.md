@@ -4,10 +4,9 @@ secondAuthor: fjablonski
 thirdAuthor: izabela
 tags:
   - business
-  - development
   - bluetooth
 date: 2022-08-04T07:23:33.938Z
-meaningfullyUpdatedAt: 2022-08-04T07:23:33.938Z
+meaningfullyUpdatedAt: 2024-08-11T07:59:10.929Z
 title: What Are Point of Sale Devices?
 layout: post
 image: /images/blog_post_cover_epos2.png
@@ -16,9 +15,9 @@ comments: true
 published: true
 language: en
 ---
-**Are you planning to build a Point of Sale system for retail and restaurant? This is the world where software constantly meets hardware. Before you start to develop your retail solution, learn about the types of equipment used in Points of Sale.**
+**In the Point of Sale (POS) world software constantly meets hardware. Learn about the types of equipment used in Points of Sale for restaurant and retail.**
 
-![ePOS equipment](../../static/images/blog_post_cover_epos.png "")
+![ePOS equipment](../../static/images/blog_post_cover_epos.png)
 
 ## What is an ePOS system?
 
@@ -26,13 +25,13 @@ Point of Sale (POS) is the checkout for customers who purchase goods or services
 
 <div className="important-info"><h2>Electronic Point of Sale</h2><div>Modern ePOS (electronic Point of Sale) is a combination of hardware and software that enable transactions.</div></div>
 
-In this article, we focus on hardware solutions that are a part of modern ePOS for retail and restaurants.
+In this article, we focus on hardware solutions that are a part of modern ePOS for retail and restaurants. These are examples of retail hardware that we work with at Bright Inventions.
 
 ## What devices are part of the electronic Point of Sale System?
 
 ### POS Desktops:
 
-![ePOS desktop](../../static/images/pos_desktop.png "")
+![ePOS desktop](../../static/images/pos_desktop.png)
 
 * The core of ePOS systems - **double screen devices enabling managing orders in restaurants**. One screen is facing the customer to display the order. Another one is used by the cash employee to optimize the order and finalize the transaction.
 * Displays are only a part of it. ePOS desktops have built-in printers, cameras (normal and face recognition cameras), speakers, and NFC&MSR card readers.
@@ -47,24 +46,28 @@ In this article, we focus on hardware solutions that are a part of modern ePOS f
 * KDS can have two modes: checker mode for admins where you can see every order. And location mode where the system displays orders matching specific sections of the kitchen. For example, if one section takes care solely of desserts, then their KDS displays only desserts from the whole order. 
 * KDS systems can as well display colors that emphasize how long it’s been since the order was listed. Usually, the color code states that new orders might be marked with blue and delayed orders with yellow or even orange.
 
+<div class='block-button'><h2>breaking status quo in restaurants with kitchen display system</h2><div>The Kitchen Display System developed for the Israeli startup Practi stands as a prime illustration of dependable and user-friendly software, instantly embraced by its end users.</div><a href="/projects/kitchen-display-system/"><button>explore case study</button></a></div>
+
 ### Payment terminal:
 
-![payment terminal ePOS](../../static/images/payment_terminal.png "")
+![payment terminal ePOS](../../static/images/payment_terminal.png)
 
 * That’s probably the retail device that every consumer knows.
 * **Terminals are integrated with ePOS devices to display the final price on the terminal** based on the order data from ePOS. Terminals can be connected locally, by Bluetooth, or via the internet (cloud).
 * The demand for cashless transactions is growing. For example, The European POS terminal market shipment accounted for 10.25 million units in 2020. [It is expected to reach 22.10 million by 2026](https://www.reportlinker.com/p06129760/Europe-POS-Terminal-Market-Growth-Trends-COVID-19-Impact-Forecasts.html). Therefore the market for cashless transaction tech is growing as well.
 
+<div class='block-button'><h2>turning smartphones into terminals with card payment app</h2><div>Learn more about the fintech iOS and Android application that allows businesses to charge credit cards without a payment terminal.</div><a href="/projects/credit-card-reader/"><button>dive into case study</button></a></div>
+
 ### Electronic scale:
 
-![electronic scale ePOS](../../static/images/electronic_scale.png "")
+![electronic scale ePOS](../../static/images/electronic_scale.png)
 
 * We know the drill here as well. Consumers choose the product that they’ve just weighted. The scale reports the weight of the product.
 * **Modern scales have Bluetooth connections or are connected to the router with an ethernet cable**. In the latter case, they connect with the dedicated app with User Datagram Protocol (UDP). UDP is a widely used protocol for live video streaming or online games. 
 
 ### Barcode scanner:
 
-![Barcode scanner ePOS](../../static/images/baarcode_scanner.png "")
+![Barcode scanner ePOS](../../static/images/baarcode_scanner.png)
 
 * Bluetooth wireless technology enables scanning barcodes on paper or screen.
 * Modern scanners make it possible to scan even damaged prints, and faulty or dirty codes.
@@ -91,12 +94,8 @@ The label printer is often built-in electronic scales. When you weigh the produc
 
 **2. Thermal printer**
 
-![thermal printer ePOS](../../static/images/printer.png "")
+![thermal printer ePOS](../../static/images/printer.png)
 
 The device that prints receipts. Thermal printers emit light to the paper that is photosensitive so it leaves the “marks” that we know as the list of our groceries and all the costs.
 
-**These are examples of retail hardware that we work with at Bright Inventions.**
-
-![ePOS software development company](../../static/images/backendteam.png "")
-
-<div className="block-button"><h2>Working on an ePOS app?</h2><div>If you are a startup owner looking for a software agency, let us know more about your project. Hardware is only part of success in retail. The key is to connect it with the custom-developed ePOS Android and iOS applications. And that is our specialty.</div><a href="/start-project"><button>Let's talk about your ePOS app</button></a></div>
+<div class='block-button'><h2>solving problems with printer integrations</h2><div>Discover how our team integrated various devices (with printers at the forefront) into one point-of-sale (POS) system that has become a part of the Just Eat Takeaway portfolio.</div><a href="/projects/pos-devices-integration/"><button>read the story</button></a></div>
