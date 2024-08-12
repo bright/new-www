@@ -25,6 +25,9 @@ Payment can enable you to monetize your solution. Or it can be an important feat
 
 If you need to implement payments for a specific country, it might be wise to seek a local provider that is well-versed in the market's nuances and regulations. However, if you need to facilitate international payments, your payment provider probably should be one of the top players, such as Stripe, PayPal, and Zettle by PayPal.
 
+<div class='block-button'><h2>turning smartphones into terminals with card payment app</h2><div>Learn more about the fintech iOS and Android application that allows businesses to charge credit cards without a payment terminal.</div><a href="/projects/credit-card-reader/"><button>dive into case study</button></a></div>
+
+
 ## 2. Do you need a small provider or a top player on the market?
 
 There is no ideal option for everyone, so you need to analyze the pros and cons from your business perspective. The final decision often relies on the size of your organization. Startups and SMEs will likely have different needs compared to large enterprises.
