@@ -40,6 +40,8 @@ Don't take this the wrong way – optimizing is always a key part of software de
 
 As an example, let’s consider a highly appreciated feature by waitstaff: split payment. If initial feedback after the launch confirms that the feature is easy to use, fast, and helps avoid mistakes even when restaurant clients use different payment methods, then we can gladly build on it and implement already proven best practices while developing other features.
 
+<div className="image">![quote](/images/quote_szymon_pos_features_flexibility.png "")</div>
+
 ## Lack of adaptable features
 
 **Szymon Gęsicki, Flutter Developer @ bright inventions:**
@@ -58,9 +60,11 @@ I bet every software development team loves to create POS applications only for 
 
 From the moment you start planning POS modernization, **you should conduct research with your clients to determine what devices they use**. You can also **check your users' device parameters in analytics tools like Google Analytics 4** (assuming you have set up the analytics properly, which unfortunately is often neglected in legacy systems). Ensure that your system supports these devices or, if possible, provide them with modern hardware compatible with your software.
 
+<div className="image">![quote](/images/quote_joanna_pos_design.png "")</div>
+
 ## Neglecting usability in POS redesign
 
-**Joanna Cieszyńska, Product Designer @ bright inventions**
+**Joanna Cieszyńska, Product Designer @ bright inventions:**
 
 POS systems are designed to help waitstaff manage orders within seconds, not to showcase intricate interaction designs or long animations. While it's important not to swing to the other extreme – animations that provide essential feedback, such as indicating that a payment is being processed, are still necessary – it’s crucial to **skip purely decorative animations**. Every extra second they add will slow the user down and complicate their already stressful work.
 
