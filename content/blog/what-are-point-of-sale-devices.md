@@ -18,7 +18,7 @@ language: en
 ---
 **Are you planning to build a Point of Sale system for retail and restaurant? This is the world where software constantly meets hardware. Before you start to develop your retail solution, learn about the types of equipment used in Points of Sale.**
 
-![ePOS equipment](../../static/images/blog_post_cover_epos.png "")
+![ePOS equipment](../../static/images/blog_post_cover_epos.png)
 
 ## What is an ePOS system?
 
@@ -32,7 +32,7 @@ In this article, we focus on hardware solutions that are a part of modern ePOS f
 
 ### POS Desktops:
 
-![ePOS desktop](../../static/images/pos_desktop.png "")
+![ePOS desktop](../../static/images/pos_desktop.png)
 
 * The core of ePOS systems - **double screen devices enabling managing orders in restaurants**. One screen is facing the customer to display the order. Another one is used by the cash employee to optimize the order and finalize the transaction.
 * Displays are only a part of it. ePOS desktops have built-in printers, cameras (normal and face recognition cameras), speakers, and NFC&MSR card readers.
@@ -49,7 +49,7 @@ In this article, we focus on hardware solutions that are a part of modern ePOS f
 
 ### Payment terminal:
 
-![payment terminal ePOS](../../static/images/payment_terminal.png "")
+![payment terminal ePOS](../../static/images/payment_terminal.png)
 
 * That’s probably the retail device that every consumer knows.
 * **Terminals are integrated with ePOS devices to display the final price on the terminal** based on the order data from ePOS. Terminals can be connected locally, by Bluetooth, or via the internet (cloud).
@@ -57,14 +57,14 @@ In this article, we focus on hardware solutions that are a part of modern ePOS f
 
 ### Electronic scale:
 
-![electronic scale ePOS](../../static/images/electronic_scale.png "")
+![electronic scale ePOS](../../static/images/electronic_scale.png)
 
 * We know the drill here as well. Consumers choose the product that they’ve just weighted. The scale reports the weight of the product.
 * **Modern scales have Bluetooth connections or are connected to the router with an ethernet cable**. In the latter case, they connect with the dedicated app with User Datagram Protocol (UDP). UDP is a widely used protocol for live video streaming or online games. 
 
 ### Barcode scanner:
 
-![Barcode scanner ePOS](../../static/images/baarcode_scanner.png "")
+![Barcode scanner ePOS](../../static/images/baarcode_scanner.png)
 
 * Bluetooth wireless technology enables scanning barcodes on paper or screen.
 * Modern scanners make it possible to scan even damaged prints, and faulty or dirty codes.
@@ -91,12 +91,10 @@ The label printer is often built-in electronic scales. When you weigh the produc
 
 **2. Thermal printer**
 
-![thermal printer ePOS](../../static/images/printer.png "")
+![thermal printer ePOS](../../static/images/printer.png)
 
 The device that prints receipts. Thermal printers emit light to the paper that is photosensitive so it leaves the “marks” that we know as the list of our groceries and all the costs.
 
-**These are examples of retail hardware that we work with at Bright Inventions.**
+These are examples of retail hardware that we work with at Bright Inventions.
 
-![ePOS software development company](../../static/images/backendteam.png "")
-
-<div className="block-button"><h2>Working on an ePOS app?</h2><div>If you are a startup owner looking for a software agency, let us know more about your project. Hardware is only part of success in retail. The key is to connect it with the custom-developed ePOS Android and iOS applications. And that is our specialty.</div><a href="/start-project"><button>Let's talk about your ePOS app</button></a></div>
+<div class='block-button'><h2>solving problems with printer integrations</h2><div>Discover how our team integrated various devices (with printers at the forefront) into one point-of-sale (POS) system that has become a part of the Just Eat Takeaway portfolio.</div><a href="/projects/pos-devices-integration/"><button>read the story</button></a></div>
