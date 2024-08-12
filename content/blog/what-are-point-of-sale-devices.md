@@ -4,10 +4,9 @@ secondAuthor: fjablonski
 thirdAuthor: izabela
 tags:
   - business
-  - development
   - bluetooth
 date: 2022-08-04T07:23:33.938Z
-meaningfullyUpdatedAt: 2022-08-04T07:23:33.938Z
+meaningfullyUpdatedAt: 2024-08-11T07:59:10.929Z
 title: What Are Point of Sale Devices?
 layout: post
 image: /images/blog_post_cover_epos2.png
@@ -16,7 +15,7 @@ comments: true
 published: true
 language: en
 ---
-**Are you planning to build a Point of Sale system for retail and restaurant? This is the world where software constantly meets hardware. Before you start to develop your retail solution, learn about the types of equipment used in Points of Sale.**
+**In the Point of Sale (POS) world software constantly meets hardware. Learn about the types of equipment used in Points of Sale for restaurant and retail.**
 
 ![ePOS equipment](../../static/images/blog_post_cover_epos.png)
 
@@ -46,6 +45,8 @@ In this article, we focus on hardware solutions that are a part of modern ePOS f
 * KDS might also display notes regarding particular orders so the chef is well aware of any meal modifications by the clients.
 * KDS can have two modes: checker mode for admins where you can see every order. And location mode where the system displays orders matching specific sections of the kitchen. For example, if one section takes care solely of desserts, then their KDS displays only desserts from the whole order. 
 * KDS systems can as well display colors that emphasize how long it’s been since the order was listed. Usually, the color code states that new orders might be marked with blue and delayed orders with yellow or even orange.
+
+<div class='block-button'><h2>breaking status quo in restaurants with kitchen display system</h2><div>The Kitchen Display System developed for the Israeli startup Practi stands as a prime illustration of dependable and user-friendly software, instantly embraced by its end users.</div><a href="/projects/kitchen-display-system/"><button>explore case study</button></a></div>
 
 ### Payment terminal:
 
