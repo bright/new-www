@@ -17,7 +17,7 @@ language: en
 
 <div className="image">![Payments](../../static/images/payments.png "Payments")</div>
 
-Payment can enable you to monetize your solution. Or it can be an important feature for your users. For example, if you offer a retail POS solution, payment is the heart of it. If there are any issues with it, your clients will lose money. **The success of payments doesn't solely depend on your development team's code but rather on the business decisions you make** before any programming lines are written.
+Payment can enable you to monetize your solution. Or it can be an important feature for your users. For example, if you offer a retail [POS solution](/projects/pos-legacy/), payment is the heart of it. If there are any issues with it, your clients will lose money. **The success of payments doesn't solely depend on your development team's code but rather on the business decisions you make** before any programming lines are written.
 
 **Things to consider before you add a payment feature to the software development team’s backlog:**
 
