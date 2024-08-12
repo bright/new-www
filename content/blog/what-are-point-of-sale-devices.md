@@ -56,6 +56,8 @@ In this article, we focus on hardware solutions that are a part of modern ePOS f
 * **Terminals are integrated with ePOS devices to display the final price on the terminal** based on the order data from ePOS. Terminals can be connected locally, by Bluetooth, or via the internet (cloud).
 * The demand for cashless transactions is growing. For example, The European POS terminal market shipment accounted for 10.25 million units in 2020. [It is expected to reach 22.10 million by 2026](https://www.reportlinker.com/p06129760/Europe-POS-Terminal-Market-Growth-Trends-COVID-19-Impact-Forecasts.html). Therefore the market for cashless transaction tech is growing as well.
 
+<div class='block-button'><h2>turning smartphones into terminals with card payment app</h2><div>Learn more about the fintech iOS and Android application that allows businesses to charge credit cards without a payment terminal.</div><a href="/projects/credit-card-reader/"><button>dive into case study</button></a></div>
+
 ### Electronic scale:
 
 ![electronic scale ePOS](../../static/images/electronic_scale.png)
