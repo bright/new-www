@@ -40,6 +40,8 @@ Don't take this the wrong way – optimizing is always a key part of software de
 
 As an example, let’s consider a highly appreciated feature by waitstaff: split payment. If initial feedback after the launch confirms that the feature is easy to use, fast, and helps avoid mistakes even when restaurant clients use different payment methods, then we can gladly build on it and implement already proven best practices while developing other features.
 
+<div className="image">![quote](/images/quote_szymon_pos_features_flexibility.png "")</div>
+
 ## Lack of adaptable features
 
 **Szymon Gęsicki, Flutter Developer @ bright inventions:**
