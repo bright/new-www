@@ -22,6 +22,8 @@ language: en
 
 ## Not prioritizing waitstaff feedback
 
-<blockquote><h2></h2><div>When developing a POS system for waitstaff, it is crucial to consider their perspective. You shouldn't base your modernization solely on your internal vision of how the product should look. Instead, **rely on actual product design research techniques such as field studies, user shadowing, and adaptive interviews.**</div><footer></footer></blockquote>
+*When developing a POS system for waitstaff, it is crucial to consider their perspective. You shouldn't base your modernization solely on your internal vision of how the product should look. Instead, **rely on actual product design research techniques such as field studies, user shadowing, and adaptive interviews**.*
 
-<blockquote><h2></h2><div>Waitstaff are a very specific group of tech users; they have their habits, workarounds, and might know your POS even better than you do, using it in ways you wouldn't imagine. **A notable example we discovered during adaptive interviews involved users who didn’t use table maps but instead added notes to distinguish clients**, such as “lady with a yellow umbrella.” As you can see, that's a very specific way to use POS software. Ensure that your modernization is based on such feedback, so the transition to the new POS will be smoother for your users.</div><footer>Joanna Cieszyńska, Product Designer @ bright inventions</footer></blockquote>
+*Waitstaff are a very specific group of tech users; they have their habits, workarounds, and might know your POS even better than you do, using it in ways you wouldn't imagine. **A notable example we discovered during adaptive interviews involved users who didn’t use table maps but instead added notes to distinguish clients**, such as “lady with a yellow umbrella.” As you can see, that's a very specific way to use POS software. Ensure that your modernization is based on such feedback, so the transition to the new POS will be smoother for your users.*
+
+**Joanna Cieszyńska, Product Designer @ bright inventions**
