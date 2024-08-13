@@ -53,8 +53,6 @@ type("development")
 app_identifier(["your.app.identifier"])
 ```
 
-
-
 1. Git url which we selected in previous step.
 2. The storage mode you selected during the initial step of Fastlane Match setup.
 3. Here, we specify the type of provisioning profile and certificate that Fastlane should manage, which can be: [appstore](https://developer.apple.com/help/account/manage-profiles/create-an-app-store-provisioning-profile/), [adhoc](https://developer.apple.com/help/account/manage-profiles/create-an-ad-hoc-provisioning-profile/) or [development](https://developer.apple.com/help/account/manage-profiles/create-a-development-provisioning-profile/). 
@@ -122,7 +120,7 @@ To make your CI/CD work you need to upload 5 things as GitHub Secrets. In bracke
 4. Match password (MATCH_PASSWORD)
 5. Match git private key (MATCH_GIT_PRIVATE_KEY)
 
-#### **AppStoreConnect Issuer ID, Key ID & Key Content**
+### **AppStoreConnect Issuer ID, Key ID & Key Content**
 
 To create an App Store Connect API key, log in to your account in App Store Connect, select the "Users and Access" tab, then select "Integrations" and then "App Store Connect Api" from the menu on the left. You should be able to create a new key by pressing the large blue + button
 
@@ -134,7 +132,7 @@ Provide its name and the access level you want to give it. The “developer” l
 
 <div className="image">![](/images/generate-api-key.png "")</div>
 
-#### **Match password & match git authentication**
+### **Match password & match git authentication**
 
 1. Match password - it’s a passphrase you entered as a first step after entering the “fastlane match” command.
 2. Match git authentication - private part of SSH key that build agent will use to authenticate on certificates repository. If you don’t have one already you need to create a new SSH key (you can read how to do it [here](https://docs.tritondatacenter.com/public-cloud/getting-started/ssh-keys/generating-an-ssh-key-manually/manually-generating-your-ssh-key-in-mac-os-x)).
@@ -168,7 +166,6 @@ jobs:
         with:
           ruby-version: 3.3
           bundler-cache: true
-
 ```
 
 This part was already described in a [previous article](https://brightinventions.pl/blog/ios-build-run-tests-github-actions/). Only the name of action has changed to “iOS build & upload” as it better describes what our pipeline will be doing.
