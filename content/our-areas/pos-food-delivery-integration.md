@@ -72,6 +72,8 @@ blog_section_tags:
   - business strategy
 blog_section_title: our team inisghts
 ---
+## food delivery platforms we integrate with
+
 <Gallery images='[{"src":"/images/jet.svg","alt":"Just Eat Takeaway.com"},{"src":"/images/uber_eats.svg","alt":"Uber Eats"},{"src":"/images/wolt.svg","alt":"Wolt"}]' />
 
 And more! Just let us know if you need an integration with other 3rd parties.
@@ -113,5 +115,3 @@ A custom-built solution can be designed with your specific security needs in min
 ### flexibility in maintenance
 
 Control the schedule and scope of maintenance, updates, and upgrades, ensuring minimal disruption to your clients.
-
-## food delivery platforms we integrate with
