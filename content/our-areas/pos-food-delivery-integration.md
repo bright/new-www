@@ -106,3 +106,9 @@ A custom-built solution can be designed with your specific security needs in min
 ### flexibility in maintenance
 
 Control the schedule and scope of maintenance, updates, and upgrades, ensuring minimal disruption to your clients.
+
+## food delivery platforms we integrate with
+
+<Gallery images='[]' />
+
+And more! Just let us know if you need an integration with other 3rd parties.
