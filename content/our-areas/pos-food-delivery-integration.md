@@ -9,7 +9,7 @@ team_members:
   - bartosz
   - klaudiusz
 faqs:
-  - agile workshop 1
+  - pos food delivery integration 1
 project:
   - pos-devices-integration
   - food-delivery-app
