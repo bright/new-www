@@ -6,7 +6,7 @@ slug: ios-testflight-github-actions-fastlane-match
 title: Upload iOS App to TestFlight with GitHub Actions and Fastlane Match –
   2024 Tutorial with Example
 layout: post
-image: /images/github4.png
+image: /images/github-testflight.jpg
 hidden: false
 comments: true
 published: true
