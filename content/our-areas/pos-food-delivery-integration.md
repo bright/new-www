@@ -10,6 +10,7 @@ team_members:
   - klaudiusz
 faqs:
   - pos food delivery integration 1
+  - pos food delivery integration 2
 project:
   - pos-devices-integration
   - Practi JET POS
@@ -91,8 +92,10 @@ While the initial cost of custom development can be higher, you avoid ongoing li
 
 ### data-driven integration
 
-Solution based on analytics insights about your users and their feedback.
-Adding non-standard features
+Solution based on analytics insights about your users and their feedback rather than generic assumptions.
+
+### adding non-standard features
+
 Unlike generic solutions, a custom integration includes specific functionalities that are most relevant to your operations.
 
 ### building for growth
@@ -106,3 +109,9 @@ A custom-built solution can be designed with your specific security needs in min
 ### flexibility in maintenance
 
 Control the schedule and scope of maintenance, updates, and upgrades, ensuring minimal disruption to your clients.
+
+## food delivery platforms we integrate with
+
+<Gallery images='[{"src":"/images/jet.svg","alt":"Just Eat Takeaway.com"},{"src":"/images/uber_eats.svg","alt":"Uber Eats"},{"src":"/images/wolt.svg","alt":"Wolt"}]' />
+
+And more! Just let us know if you need an integration with other 3rd parties.
