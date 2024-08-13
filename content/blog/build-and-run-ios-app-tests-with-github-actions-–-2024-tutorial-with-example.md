@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2024-07-18T11:14:12.960Z
 slug: ios-build-run-tests-github-actions
 title: Build and Run iOS App Tests with GitHub Actions – 2024 Tutorial with Example
 layout: post
-image: /images/background.jpg
+image: /images/github-testflight.jpg
 hidden: false
 comments: true
 published: true
