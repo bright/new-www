@@ -12,6 +12,7 @@ faqs:
   - pos food delivery integration 1
 project:
   - pos-devices-integration
+  - Practi JET POS
   - food-delivery-app
   - kitchen-display-system
   - Practi JET POS Mobile
