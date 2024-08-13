@@ -9,7 +9,7 @@ team_members:
   - bartosz
   - klaudiusz
 faqs:
-  - agile workshop 1
+  - pos food delivery integration 1
 project:
   - pos-devices-integration
   - food-delivery-app
@@ -71,3 +71,37 @@ blog_section_tags:
 blog_section_title: our team inisghts
 ---
 ## advantages of a custom food delivery integration
+
+### adjustable solution for new and legacy POS
+
+Smooth integration regardless of the size or age of your POS system.
+
+### supporting old and new restaurant devices
+
+Creating software supporting the restaurant's actual POS devices.
+
+### standing out from the competition
+
+A custom solution allows you to develop unique features that differentiate your service from competitors.
+
+### no ongoing licensing fees
+
+While the initial cost of custom development can be higher, you avoid ongoing licensing fees that are typical with third-party solutions, which can lead to cost savings over time.
+
+### data-driven integration
+
+Solution based on analytics insights about your users and their feedback.
+Adding non-standard features
+Unlike generic solutions, a custom integration includes specific functionalities that are most relevant to your operations.
+
+### building for growth
+
+Design the system to scale with your business limiting upfront the limitations imposed by third-party software.
+
+### ensuring compliance and security
+
+A custom-built solution can be designed with your specific security needs in mind and fully compliant with local regulations and tax law.
+
+### flexibility in maintenance
+
+Control the schedule and scope of maintenance, updates, and upgrades, ensuring minimal disruption to your clients.
