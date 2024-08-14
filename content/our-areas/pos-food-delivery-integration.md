@@ -61,7 +61,7 @@ published: false
 show_case_study: true
 show_technology_stack: true
 title_team: meet the bright team
-title_case_study: the clients we have supported in the tech journey
+title_case_study: explore our clients' stories
 title_faqs: integrating delivery apps FAQs
 title_contact: book a call to discuss your POS
 description_contact: Based on your needs we will prepare a demo of your solution
