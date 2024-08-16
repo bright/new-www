@@ -1,4 +1,4 @@
-import { IGatsbyImageData } from 'gatsby-plugin-image'
+import { IGatsbyImageData, ImageDataLike } from 'gatsby-plugin-image'
 import { string } from 'prop-types'
 
 export type Tag = string
@@ -71,4 +71,13 @@ export interface ServiceModel {
   layout: string
   short_description: string
   name: string
+}
+
+export interface TestimonialModel {
+  testimonials_quote: string
+  testimonials_author: string
+  testimonials_photo: IGatsbyImageData | null
+  testimonials_position: string
+  testimonials_company: string
+  testimonials_link: string
 }

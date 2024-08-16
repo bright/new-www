@@ -387,3 +387,14 @@ export const MobileOurServiceFlexWrapper = styled(FlexWrapper)`
     height: calc(100dvh - 90px);
   }
 `
+
+export const Testimonials = styled.div`
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    gap: 32px;
+
+    @media ${variables.device.mobile} {
+        grid-template-columns: 1fr;
+    }
+`;

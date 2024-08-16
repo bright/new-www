@@ -264,6 +264,18 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
                 }
               }
               blog_section_tags
+              testimonials {
+                testimonials_quote
+                testimonials_author
+                testimonials_photo {
+                  childImageSharp {
+                    gatsbyImageData
+                  }
+                }
+                testimonials_position
+                testimonials_company
+                testimonials_link
+              }
             }
             internal {
               contentFilePath

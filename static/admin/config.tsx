@@ -30,6 +30,45 @@ const blogSectionWidget = [
   }
 ]
 
+const testimonialsWidget = {
+  label: 'Testimonials',
+  name: 'testimonials',
+  widget: 'list',
+  fields: [
+    {
+      label: 'Quote',
+      name: 'testimonials_quote',
+      widget: 'string',
+    },
+    {
+      label: 'Author',
+      name: 'testimonials_author',
+      widget: 'string',
+    },
+    {
+      label: 'Photo',
+      name: 'testimonials_photo',
+      widget: 'image',
+      required: false,
+    },
+    {
+      label: 'Position',
+      name: 'testimonials_position',
+      widget: 'string',
+    },
+    {
+      label: 'Company',
+      name: 'testimonials_company',
+      widget: 'string',
+    },
+    {
+      label: 'Link',
+      name: 'testimonials_link',
+      widget: 'string',
+    },
+  ],
+}
+
 export const blogCollectionName = 'blog'
 const authorFieldName = 'author'
 const secondAuthorFieldName = 'secondAuthor'
@@ -835,6 +874,7 @@ const config = {
         },
         languageWidget,
         ...blogSectionWidget,
+        testimonialsWidget,
       ],
     },
     {
