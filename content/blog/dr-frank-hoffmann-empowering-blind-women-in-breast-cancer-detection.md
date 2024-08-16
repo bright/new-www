@@ -32,8 +32,6 @@ I had some experience with the sensory awareness programs that were very common 
 
 source: https://www.discovering-hands.de/
 
-
-
 ## **So it's a program to train blind women? Only women?**
 
 Yes, to be politically correct, blind people. But we haven't had any male candidates. I'm pretty sure that this is something women can offer to women. Even if most patients believe it would make a big difference if the MTE was male, I think the conversation would go another way. So, I'm a fan of something that can be offered from women to women.
@@ -72,7 +70,6 @@ We are in close contact with companies and foundations in Germany. However, we n
 
 Yes, and it's not easy. I hope to find some interested people here, but so far, I haven't made any contact.
 
-## \
 \
 **How many people do you have in your team?**
 
