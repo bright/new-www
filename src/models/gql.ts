@@ -82,3 +82,9 @@ export interface TestimonialModel {
   testimonials_position: string
   testimonials_company: string
 }
+
+export interface BoxesModel {
+  box_title: string
+  box_description: string
+  box_icon: IGatsbyImageData | null
+}

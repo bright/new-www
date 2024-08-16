@@ -1,4 +1,4 @@
-import React, { useRef, PropsWithChildren, useMemo } from 'react'
+import React, { useRef, PropsWithChildren } from 'react'
 import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Contact } from '../components/shared/Contact'
@@ -20,12 +20,11 @@ import {
   CloutchWrapper,
   MoreButtonOurServiceWrapper,
   CustomSectionOurServiceImage,
-  MobileOurServiceFlexWrapper,
-  OurServiceFlexWraper,
   Testimonials,
+  MobileOurServiceFlexWrapper, OurServiceFlexWraper, BoxesWrapper, Box, BoxImage, BoxTitle, BoxDescription
 } from './Service.styled'
 import { FaqStructuredData } from '../FaqStructuredData'
-import { ProjectModel, TestimonialModel } from '../models/gql'
+import { BoxesModel, ProjectModel, TestimonialModel } from '../models/gql'
 import { FlexWrapper } from '../components/shared'
 import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
 import { MoreButton } from '../components/shared'
@@ -82,6 +81,7 @@ export default function Template({
     blog_section,
     blog_section_title,
     testimonials,
+    boxes,
   } = page
 
   const titleArr = title.split(' ')
@@ -172,13 +172,43 @@ export default function Template({
         paddingTabletXL='0 0 6rem'
         paddingMobileProps='0 1.125rem 2rem'
         paddingTablet='0 2.25rem 0 '
-        paddingLaptop='0 6rem 6.5rem'
+        paddingLaptop='0 6rem 3.5rem'
       >
         <OurServiceSection>
           <CustomSectionInner>
             <Content className='content'>{children}</Content>
+          </CustomSectionInner>
+        </OurServiceSection>
+      </CustomSection>
 
-            <MoreButtonOurServiceWrapper>
+      {boxes && (
+        <CustomSection paddingProps='0 15rem 3rem' paddingTabletXL='3.5rem 6rem' paddingLaptop='3.5rem 6rem'>
+          <BoxesWrapper>
+            {boxes.map(({ box_icon, box_title, box_description }: BoxesModel) => (
+              <Box>
+                {box_icon && (
+                  <BoxImage>
+                    {box_icon && <GatsbyImage image={getImage(box_icon)!} alt={box_title} />}
+                  </BoxImage>
+                )}
+                <BoxTitle>{box_title}</BoxTitle>
+                <BoxDescription>{box_description}</BoxDescription>
+              </Box>
+            ))}
+          </BoxesWrapper>
+        </CustomSection>
+      )}
+
+      <CustomSection
+        paddingProps='0 15rem 6.5rem 15rem'
+        paddingTabletXL='0 0 6rem'
+        paddingMobileProps='0 1.125rem 2rem'
+        paddingTablet='0 2.25rem 0 '
+        paddingLaptop='0 6rem 6.5rem'
+      >
+        <OurServiceSection>
+          <CustomSectionInner>
+            <MoreButtonOurServiceWrapper marginTop='0'>
               <MoreButton href={'#contactForm'} isBlack marginTop='0'>
                 {button2}
               </MoreButton>
@@ -381,6 +411,15 @@ export const pageQuery = graphql`
           }
           testimonials_position
           testimonials_company
+        }
+        boxes {
+          box_title
+          box_description
+          box_icon {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
         }
       }
     }

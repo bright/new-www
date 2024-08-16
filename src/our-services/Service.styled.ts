@@ -398,3 +398,40 @@ export const Testimonials = styled.div`
         grid-template-columns: 1fr;
     }
 `;
+
+export const BoxesWrapper = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+`
+
+export const BoxImage = styled.div``;
+
+export const BoxTitle = styled.div`
+    font-size: 20px;
+    font-weight: bold;
+    padding: 32px 0;
+
+    @media ${variables.device.tablet} {
+        padding: 16px 0;
+    }
+`;
+
+export const Box = styled.div`
+    width: calc(50% - 40px);
+    min-height: 19.375rem;
+    border-radius: 16px;
+    border: 1px solid #d3d3d3;
+    padding: 40px;
+    text-align: center;
+
+    @media ${variables.device.tablet} {
+        padding: 20px;
+        width: 100%;
+    }
+`
+
+export const BoxDescription = styled.div`
+    font-size: 20px;
+`;

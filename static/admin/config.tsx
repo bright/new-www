@@ -38,7 +38,7 @@ const testimonialsWidget = {
     {
       label: 'Quote',
       name: 'testimonials_quote',
-      widget: 'string',
+      widget: 'markdown',
     },
     {
       label: 'Author',
@@ -59,11 +59,6 @@ const testimonialsWidget = {
     {
       label: 'Company',
       name: 'testimonials_company',
-      widget: 'string',
-    },
-    {
-      label: 'Link',
-      name: 'testimonials_link',
       widget: 'string',
     },
   ],
@@ -871,6 +866,25 @@ const config = {
           label: 'Description Contact',
           name: 'description_contact',
           widget: 'markdown',
+        },
+        {
+          label: 'Boxes',
+          name: 'boxes',
+          widget: 'list',
+          summary: '{{fields.box_title}}',
+          fields: [{
+            label: 'Title',
+            name: 'box_title',
+            widget: 'string',
+          },{
+            label: 'Description',
+            name: 'box_description',
+            widget: 'markdown',
+          },{
+            label: 'Icon',
+            name: 'box_icon',
+            widget: 'image',
+          }],
         },
         languageWidget,
         ...blogSectionWidget,

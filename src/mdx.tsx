@@ -24,7 +24,7 @@ export const mdxComponents: MDXComponents = {
   SliderText: SliderText,
   AppStore: AppStore,
   AnchorLink: AnchorLink,
-  GdanskPhotoSlider: GdanskPhotoSlider
+  GdanskPhotoSlider: GdanskPhotoSlider,
 }
 
 export const MDXComponentsWrapper = ({ children }: PropsWithChildren<any>) => (
