@@ -75,7 +75,7 @@ We are in close contact with companies and foundations in Germany. However, we n
 
 Yes, and it's not easy. I hope to find some interested people here, but so far, I haven't made any contact.
 
-\
+## \
 **How many people do you have in your team?**
 
 We have 15 people running these two companies, the non-profit organization and the Discovering Hands GmbH. We have 43 MTEs working with us; 33 are directly employed by the company, and the others work in medical offices independently. It's still a small number, but we had COVID-19, inflation, and many people unwilling to invest in additional medical care programs. We have overcome these problems, but we had difficulties.
