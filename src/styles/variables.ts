@@ -80,7 +80,7 @@ export default {
     border: '#d3d3d3',
     white: '#ffffff',
     black: '#000000',
-    heading: '#0A0A0A;',
+    heading: '#0A0A0A',
     borderInput: '#888888',
     darkerGrey: '#D3D3D3',
     lighterGrey: '#F5F5F5',

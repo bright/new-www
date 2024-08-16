@@ -1,4 +1,4 @@
-import React, { useRef, PropsWithChildren } from 'react'
+import React, { useRef, PropsWithChildren, useMemo } from 'react'
 import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Contact } from '../components/shared/Contact'
@@ -20,16 +20,19 @@ import {
   CloutchWrapper,
   MoreButtonOurServiceWrapper,
   CustomSectionOurServiceImage,
-  MobileOurServiceFlexWrapper, OurServiceFlexWraper
+  MobileOurServiceFlexWrapper,
+  OurServiceFlexWraper,
+  Testimonials,
 } from './Service.styled'
 import { FaqStructuredData } from '../FaqStructuredData'
-import { ProjectModel } from '../models/gql'
+import { ProjectModel, TestimonialModel } from '../models/gql'
 import { FlexWrapper } from '../components/shared'
 import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
 import { MoreButton } from '../components/shared'
 import FaqsDropdown from '../components/shared/FaqsDropdown'
 import { toBlogPost } from '../use-blog-posts/blog-post-frontmatter-query-result'
 import { useClient } from '../hooks/useClient'
+import { Testimonial } from '../components/testimonial/Testimonial'
 
 const PopularBlogPosts = React.lazy(() => import('../components/shared/PopularBlogPosts'))
 const TechnologyTags = React.lazy(() => import('../components/shared/TechnologyTags'))
@@ -78,6 +81,7 @@ export default function Template({
     slug,
     blog_section,
     blog_section_title,
+    testimonials,
   } = page
 
   const titleArr = title.split(' ')
@@ -182,6 +186,23 @@ export default function Template({
           </CustomSectionInner>
         </OurServiceSection>
       </CustomSection>
+
+      {testimonials && (
+        <CustomSection paddingLaptop='2rem 6rem 3rem 6rem' paddingProps='0 0 2rem' paddingMobileProps='0 1.125rem 1rem'>
+          <CustomSectionTitle tabletXLMargin='1rem 0 3.5rem' mobileMargin='1rem 0 3rem' margin='0 0 3.5rem' laptopMargin='0 0 3.5rem'>
+            what our clients say
+          </CustomSectionTitle>
+
+          <Testimonials>
+            {testimonials.map((testimonial: TestimonialModel) => (
+              <div>
+                <Testimonial testimonial={testimonial} />
+              </div>
+            ))}
+          </Testimonials>
+        </CustomSection>
+      )}
+
       <CustomSection paddingProps='0 0 2rem' paddingMobileProps='0 1.125rem 1rem'>
         <CustomSectionTitle mobileMargin='3rem 0 2.25rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
           {title_team}
@@ -348,6 +369,18 @@ export const pageQuery = graphql`
         }
         blog_section
         blog_section_title
+        testimonials {
+          testimonials_quote
+          testimonials_author
+          testimonials_photo {
+            childImageSharp {
+              gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE, webpOptions: { quality: 100 })
+            }
+          }
+          testimonials_position
+          testimonials_company
+          testimonials_link
+        }
       }
     }
   }

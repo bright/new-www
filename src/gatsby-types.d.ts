@@ -2465,8 +2465,6 @@ type MdxFrontmatter = {
   readonly recruting_image3_title: Maybe<Scalars['String']>;
   readonly redirect_from: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly salary: Maybe<Scalars['String']>;
-  readonly salary_max: Maybe<Scalars['Int']>;
-  readonly salary_min: Maybe<Scalars['Int']>;
   readonly secondAuthor: Maybe<Scalars['String']>;
   readonly short_description: Maybe<Scalars['String']>;
   readonly short_name: Maybe<Scalars['String']>;
@@ -2485,6 +2483,7 @@ type MdxFrontmatter = {
   readonly tags: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly team_members: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly technology: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
+  readonly testimonials: Maybe<ReadonlyArray<Maybe<MdxFrontmatterTestimonials>>>;
   readonly thirdAuthor: Maybe<Scalars['String']>;
   readonly title: Maybe<Scalars['String']>;
   readonly title_case_study: Maybe<Scalars['String']>;
@@ -2621,8 +2620,6 @@ type MdxFrontmatterFieldSelector = {
   readonly recruting_image3_title: InputMaybe<FieldSelectorEnum>;
   readonly redirect_from: InputMaybe<FieldSelectorEnum>;
   readonly salary: InputMaybe<FieldSelectorEnum>;
-  readonly salary_max: InputMaybe<FieldSelectorEnum>;
-  readonly salary_min: InputMaybe<FieldSelectorEnum>;
   readonly secondAuthor: InputMaybe<FieldSelectorEnum>;
   readonly short_description: InputMaybe<FieldSelectorEnum>;
   readonly short_name: InputMaybe<FieldSelectorEnum>;
@@ -2641,6 +2638,7 @@ type MdxFrontmatterFieldSelector = {
   readonly tags: InputMaybe<FieldSelectorEnum>;
   readonly team_members: InputMaybe<FieldSelectorEnum>;
   readonly technology: InputMaybe<FieldSelectorEnum>;
+  readonly testimonials: InputMaybe<MdxFrontmatterTestimonialsFieldSelector>;
   readonly thirdAuthor: InputMaybe<FieldSelectorEnum>;
   readonly title: InputMaybe<FieldSelectorEnum>;
   readonly title_case_study: InputMaybe<FieldSelectorEnum>;
@@ -2729,8 +2727,6 @@ type MdxFrontmatterFilterInput = {
   readonly recruting_image3_title: InputMaybe<StringQueryOperatorInput>;
   readonly redirect_from: InputMaybe<StringQueryOperatorInput>;
   readonly salary: InputMaybe<StringQueryOperatorInput>;
-  readonly salary_max: InputMaybe<IntQueryOperatorInput>;
-  readonly salary_min: InputMaybe<IntQueryOperatorInput>;
   readonly secondAuthor: InputMaybe<StringQueryOperatorInput>;
   readonly short_description: InputMaybe<StringQueryOperatorInput>;
   readonly short_name: InputMaybe<StringQueryOperatorInput>;
@@ -2749,6 +2745,7 @@ type MdxFrontmatterFilterInput = {
   readonly tags: InputMaybe<StringQueryOperatorInput>;
   readonly team_members: InputMaybe<StringQueryOperatorInput>;
   readonly technology: InputMaybe<StringQueryOperatorInput>;
+  readonly testimonials: InputMaybe<MdxFrontmatterTestimonialsFilterListInput>;
   readonly thirdAuthor: InputMaybe<StringQueryOperatorInput>;
   readonly title: InputMaybe<StringQueryOperatorInput>;
   readonly title_case_study: InputMaybe<StringQueryOperatorInput>;
@@ -2837,8 +2834,6 @@ type MdxFrontmatterSortInput = {
   readonly recruting_image3_title: InputMaybe<SortOrderEnum>;
   readonly redirect_from: InputMaybe<SortOrderEnum>;
   readonly salary: InputMaybe<SortOrderEnum>;
-  readonly salary_max: InputMaybe<SortOrderEnum>;
-  readonly salary_min: InputMaybe<SortOrderEnum>;
   readonly secondAuthor: InputMaybe<SortOrderEnum>;
   readonly short_description: InputMaybe<SortOrderEnum>;
   readonly short_name: InputMaybe<SortOrderEnum>;
@@ -2857,6 +2852,7 @@ type MdxFrontmatterSortInput = {
   readonly tags: InputMaybe<SortOrderEnum>;
   readonly team_members: InputMaybe<SortOrderEnum>;
   readonly technology: InputMaybe<SortOrderEnum>;
+  readonly testimonials: InputMaybe<MdxFrontmatterTestimonialsSortInput>;
   readonly thirdAuthor: InputMaybe<SortOrderEnum>;
   readonly title: InputMaybe<SortOrderEnum>;
   readonly title_case_study: InputMaybe<SortOrderEnum>;
@@ -2870,6 +2866,46 @@ type MdxFrontmatterSortInput = {
   readonly work_in_progress: InputMaybe<SortOrderEnum>;
   readonly working_time: InputMaybe<SortOrderEnum>;
   readonly workplace_recruiter: InputMaybe<SortOrderEnum>;
+};
+
+type MdxFrontmatterTestimonials = {
+  readonly testimonials_author: Maybe<Scalars['String']>;
+  readonly testimonials_company: Maybe<Scalars['String']>;
+  readonly testimonials_link: Maybe<Scalars['String']>;
+  readonly testimonials_photo: Maybe<File>;
+  readonly testimonials_position: Maybe<Scalars['String']>;
+  readonly testimonials_quote: Maybe<Scalars['String']>;
+};
+
+type MdxFrontmatterTestimonialsFieldSelector = {
+  readonly testimonials_author: InputMaybe<FieldSelectorEnum>;
+  readonly testimonials_company: InputMaybe<FieldSelectorEnum>;
+  readonly testimonials_link: InputMaybe<FieldSelectorEnum>;
+  readonly testimonials_photo: InputMaybe<FileFieldSelector>;
+  readonly testimonials_position: InputMaybe<FieldSelectorEnum>;
+  readonly testimonials_quote: InputMaybe<FieldSelectorEnum>;
+};
+
+type MdxFrontmatterTestimonialsFilterInput = {
+  readonly testimonials_author: InputMaybe<StringQueryOperatorInput>;
+  readonly testimonials_company: InputMaybe<StringQueryOperatorInput>;
+  readonly testimonials_link: InputMaybe<StringQueryOperatorInput>;
+  readonly testimonials_photo: InputMaybe<FileFilterInput>;
+  readonly testimonials_position: InputMaybe<StringQueryOperatorInput>;
+  readonly testimonials_quote: InputMaybe<StringQueryOperatorInput>;
+};
+
+type MdxFrontmatterTestimonialsFilterListInput = {
+  readonly elemMatch: InputMaybe<MdxFrontmatterTestimonialsFilterInput>;
+};
+
+type MdxFrontmatterTestimonialsSortInput = {
+  readonly testimonials_author: InputMaybe<SortOrderEnum>;
+  readonly testimonials_company: InputMaybe<SortOrderEnum>;
+  readonly testimonials_link: InputMaybe<SortOrderEnum>;
+  readonly testimonials_photo: InputMaybe<FileSortInput>;
+  readonly testimonials_position: InputMaybe<SortOrderEnum>;
+  readonly testimonials_quote: InputMaybe<SortOrderEnum>;
 };
 
 type MdxGroupConnection = {
@@ -3328,6 +3364,7 @@ type OurAreas = Node & {
   readonly show_technology_stack: Scalars['Boolean'];
   readonly slug: Scalars['String'];
   readonly team_members: ReadonlyArray<Maybe<Members>>;
+  readonly testimonials: Scalars['String'];
   readonly title: Scalars['String'];
   readonly title_case_study: Scalars['String'];
   readonly title_contact: Scalars['String'];
@@ -3420,6 +3457,7 @@ type OurAreasFieldSelector = {
   readonly show_technology_stack: InputMaybe<FieldSelectorEnum>;
   readonly slug: InputMaybe<FieldSelectorEnum>;
   readonly team_members: InputMaybe<MembersFieldSelector>;
+  readonly testimonials: InputMaybe<FieldSelectorEnum>;
   readonly title: InputMaybe<FieldSelectorEnum>;
   readonly title_case_study: InputMaybe<FieldSelectorEnum>;
   readonly title_contact: InputMaybe<FieldSelectorEnum>;
@@ -3467,6 +3505,7 @@ type OurAreasFilterInput = {
   readonly show_technology_stack: InputMaybe<BooleanQueryOperatorInput>;
   readonly slug: InputMaybe<StringQueryOperatorInput>;
   readonly team_members: InputMaybe<MembersFilterListInput>;
+  readonly testimonials: InputMaybe<StringQueryOperatorInput>;
   readonly title: InputMaybe<StringQueryOperatorInput>;
   readonly title_case_study: InputMaybe<StringQueryOperatorInput>;
   readonly title_contact: InputMaybe<StringQueryOperatorInput>;
@@ -3512,6 +3551,7 @@ type OurAreasFrontmatter = {
   readonly show_technology_stack: Scalars['Boolean'];
   readonly slug: Scalars['String'];
   readonly team_members: ReadonlyArray<Maybe<Members>>;
+  readonly testimonials: Scalars['String'];
   readonly title: Scalars['String'];
   readonly title_case_study: Scalars['String'];
   readonly title_contact: Scalars['String'];
@@ -3553,6 +3593,7 @@ type OurAreasFrontmatterFieldSelector = {
   readonly show_technology_stack: InputMaybe<FieldSelectorEnum>;
   readonly slug: InputMaybe<FieldSelectorEnum>;
   readonly team_members: InputMaybe<MembersFieldSelector>;
+  readonly testimonials: InputMaybe<FieldSelectorEnum>;
   readonly title: InputMaybe<FieldSelectorEnum>;
   readonly title_case_study: InputMaybe<FieldSelectorEnum>;
   readonly title_contact: InputMaybe<FieldSelectorEnum>;
@@ -3594,6 +3635,7 @@ type OurAreasFrontmatterFilterInput = {
   readonly show_technology_stack: InputMaybe<BooleanQueryOperatorInput>;
   readonly slug: InputMaybe<StringQueryOperatorInput>;
   readonly team_members: InputMaybe<MembersFilterListInput>;
+  readonly testimonials: InputMaybe<StringQueryOperatorInput>;
   readonly title: InputMaybe<StringQueryOperatorInput>;
   readonly title_case_study: InputMaybe<StringQueryOperatorInput>;
   readonly title_contact: InputMaybe<StringQueryOperatorInput>;
@@ -3635,6 +3677,7 @@ type OurAreasFrontmatterSortInput = {
   readonly show_technology_stack: InputMaybe<SortOrderEnum>;
   readonly slug: InputMaybe<SortOrderEnum>;
   readonly team_members: InputMaybe<MembersSortInput>;
+  readonly testimonials: InputMaybe<SortOrderEnum>;
   readonly title: InputMaybe<SortOrderEnum>;
   readonly title_case_study: InputMaybe<SortOrderEnum>;
   readonly title_contact: InputMaybe<SortOrderEnum>;
@@ -3723,6 +3766,7 @@ type OurAreasSortInput = {
   readonly show_technology_stack: InputMaybe<SortOrderEnum>;
   readonly slug: InputMaybe<SortOrderEnum>;
   readonly team_members: InputMaybe<MembersSortInput>;
+  readonly testimonials: InputMaybe<SortOrderEnum>;
   readonly title: InputMaybe<SortOrderEnum>;
   readonly title_case_study: InputMaybe<SortOrderEnum>;
   readonly title_contact: InputMaybe<SortOrderEnum>;
@@ -4561,6 +4605,7 @@ type Query_ourAreasArgs = {
   show_technology_stack: InputMaybe<BooleanQueryOperatorInput>;
   slug: InputMaybe<StringQueryOperatorInput>;
   team_members: InputMaybe<MembersFilterListInput>;
+  testimonials: InputMaybe<StringQueryOperatorInput>;
   title: InputMaybe<StringQueryOperatorInput>;
   title_case_study: InputMaybe<StringQueryOperatorInput>;
   title_contact: InputMaybe<StringQueryOperatorInput>;
@@ -5599,7 +5644,7 @@ type AuthorsOfBlogPostsQuery = { readonly author: { readonly edges: ReadonlyArra
 type ServicesQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-type ServicesQuery = { readonly allMdx: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly frontmatter: { readonly slug: string | null, readonly language: string | null, readonly blog_section_tags: ReadonlyArray<string | null> | null, readonly faqs: ReadonlyArray<{ readonly frontmatter: { readonly question: string | null, readonly slug: string | null, readonly language: string | null } | null } | null> | null } | null, readonly internal: { readonly contentFilePath: string | null } } }> } };
+type ServicesQuery = { readonly allMdx: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly frontmatter: { readonly slug: string | null, readonly language: string | null, readonly blog_section_tags: ReadonlyArray<string | null> | null, readonly faqs: ReadonlyArray<{ readonly frontmatter: { readonly question: string | null, readonly slug: string | null, readonly language: string | null } | null } | null> | null, readonly testimonials: ReadonlyArray<{ readonly testimonials_quote: string | null, readonly testimonials_author: string | null, readonly testimonials_position: string | null, readonly testimonials_company: string | null, readonly testimonials_link: string | null, readonly testimonials_photo: { readonly childImageSharp: { readonly gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData } | null } | null } | null> | null } | null, readonly internal: { readonly contentFilePath: string | null } } }> } };
 
 type CareerQueryVariables = Exact<{ [key: string]: never; }>;
 
