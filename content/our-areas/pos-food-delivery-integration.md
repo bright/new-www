@@ -72,6 +72,10 @@ blog_section_tags:
   - business strategy
 blog_section_title: our team inisghts
 ---
+## test
+
+<Boxes boxes='[{"title":"test title","description":"test description"}]' />
+
 ## food delivery platforms we integrate with
 
 <Gallery images='[{"src":"/images/jet_logo.svg","alt":"Just Eat Takeaway.com"},{"src":"/images/uber_eats.svg","alt":"Uber Eats"},{"src":"/images/wolt.svg","alt":"Wolt"},{"src":"/images/deliveroo.svg","alt":"deliveroo"}]' />
