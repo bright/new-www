@@ -1,6 +1,6 @@
-import React, { useRef, PropsWithChildren } from 'react'
+import React, { useRef, PropsWithChildren, useMemo } from 'react'
 import { graphql } from 'gatsby'
-import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+import { GatsbyImage, getImage, StaticImage } from 'gatsby-plugin-image'
 import { Contact } from '../components/shared/Contact'
 import { Page } from '../layout/Page'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
@@ -20,7 +20,9 @@ import {
   CloutchWrapper,
   MoreButtonOurServiceWrapper,
   CustomSectionOurServiceImage,
-  MobileOurServiceFlexWrapper, OurServiceFlexWraper
+  MobileOurServiceFlexWrapper,
+  OurServiceFlexWraper,
+  Testimonials,
 } from './Service.styled'
 import { FaqStructuredData } from '../FaqStructuredData'
 import { ProjectModel } from '../models/gql'
@@ -89,6 +91,49 @@ export default function Template({
       </span>
     )
   })
+
+  const testimonials = useMemo(() => {
+    return slug === 'food-delivery-pos-integration'
+      ? [
+          {
+            quote: `Compared to everyone else, bright inventions doesn’t promise things they can’t deliver. [...]. The best thing about them is that I can count on their actions`,
+            author: `Dorian Koch`,
+            position: `Co-Founder & Former CEO`,
+            company: `MedKitDoc`,
+            link: `https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c98c/293369`,
+          },
+          {
+            quote: `Their attention to detail and scrutiny when dealing with technical challenges is noteworthy`,
+            author: `Adam Pachucki`,
+            photo: (
+              <StaticImage
+                src='../../static/images/testimonials/adam_pachucki.jpeg'
+                alt='Adam Pachucki'
+                className='is-rounded'
+                imgClassName='image'
+              />
+            ),
+            position: `Head of Product`,
+            company: `Finebite`,
+            link: `https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c98c/83595`,
+          },
+          {
+            quote: `Working with Bright Inventions is always a pleasure. The people involved are friendly and to the point. They’re also pragmatic, constructive, and punctual`,
+            author: `Kira Nezu`,
+            position: `Project Manager`,
+            company: `AppAdvisors GmbH`,
+            link: `https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c98c/54300`,
+          },
+          {
+            quote: `Bright inventions and the whole team is always with full heart at the project, understands our logic and intention behind and respects our requests and demands`,
+            author: `Matthias Potthast`,
+            position: `Founder`,
+            company: `Relevo`,
+            link: `https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c98c/149237`,
+          },
+        ]
+      : undefined
+  }, [slug])
 
   return (
     <Page>
@@ -182,6 +227,30 @@ export default function Template({
           </CustomSectionInner>
         </OurServiceSection>
       </CustomSection>
+
+      {testimonials && (
+        <CustomSection>
+          <CustomSectionTitle mobileMargin='3rem 0 2.25rem' margin='0rem 0 3rem' laptopMargin='0 0 3.5rem'>
+            what our clients say
+          </CustomSectionTitle>
+
+          <Testimonials>
+            {testimonials.map(testimonial => (
+              <div>
+                <Testimonial
+                  quote={testimonial.quote}
+                  link={testimonial.link}
+                  company={testimonial.company}
+                  position={testimonial.position}
+                  author={testimonial.author}
+                  photo={testimonial.photo}
+                />
+              </div>
+            ))}
+          </Testimonials>
+        </CustomSection>
+      )}
+
       <CustomSection paddingProps='0 0 2rem' paddingMobileProps='0 1.125rem 1rem'>
         <CustomSectionTitle mobileMargin='3rem 0 2.25rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
           {title_team}
