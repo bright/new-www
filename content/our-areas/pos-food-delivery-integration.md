@@ -66,6 +66,43 @@ title_faqs: integrating delivery apps FAQs
 title_contact: book a call to discuss your POS
 description_contact: Based on your needs we will prepare a demo of your solution
   in 7 days. Fill out the form or drop us a line!
+boxes:
+  - box_title: adjustable solution for new and legacy POS
+    box_description: Smooth integration regardless of the size or age of your POS system.
+    box_icon: /images/1test.png
+  - box_title: supporting old and new restaurant devices
+    box_description: Creating software supporting the restaurant's actual POS devices.
+    box_icon: /images/1test.png
+  - box_title: standing out from the competition
+    box_description: A custom solution allows you to develop unique features that
+      differentiate your service from competitors.
+    box_icon: /images/1test.png
+  - box_title: no ongoing licensing fees
+    box_description: While the initial cost of custom development can be higher, you
+      avoid ongoing licensing fees that are typical with third-party solutions,
+      which can lead to cost savings over time.
+    box_icon: /images/1test.png
+  - box_title: data-driven integration
+    box_description: Solution based on analytics insights about your users and their
+      feedback rather than generic assumptions.
+    box_icon: /images/1test.png
+  - box_title: adding non-standard features
+    box_description: Unlike generic solutions, a custom integration includes
+      specific functionalities that are most relevant to your operations.
+    box_icon: /images/1test.png
+  - box_title: building for growth
+    box_description: Design the system to scale with your business limiting upfront
+      the limitations imposed by third-party software.
+    box_icon: /images/1test.png
+  - box_title: ensuring compliance and security
+    box_description: A custom-built solution can be designed with your specific
+      security needs in mind and fully compliant with local regulations and tax
+      law.
+    box_icon: /images/1test.png
+  - box_title: flexibility in maintenance
+    box_description: Control the schedule and scope of maintenance, updates, and
+      upgrades, ensuring minimal disruption to your clients.
+    box_icon: /images/1test.png
 language: en
 blog_section: false
 blog_section_tags:
