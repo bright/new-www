@@ -2,7 +2,6 @@
 team_members:
   - michal
   - piotr
-  - joanna-c
   - bartosz
   - klaudiusz
 faqs:
