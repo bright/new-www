@@ -3,9 +3,6 @@ team_members:
   - michal
   - piotr
   - joanna-c
-  - azabost
-  - fjablonski
-  - michal-d
   - bartosz
   - klaudiusz
 faqs:
