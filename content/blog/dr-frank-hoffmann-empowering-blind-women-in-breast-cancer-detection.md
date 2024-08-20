@@ -19,7 +19,7 @@ language: en
 \
 *The interview was conducted by Agata Bielówka with Dr Frank Hoffmann, during the HLTH Europe conference in Amsterdam.*
 
-<div className="image">![](/images/baner_final-quote-frank-4-.png "")</div>
+<div className="image">![quote](/images/baner_final-quote-frank-4-.png "")</div>
 
 ## **Can you briefly introduce yourself and your solution?**
 
@@ -53,6 +53,8 @@ No, partly the government and partly the Discovering Hands organization. They le
 
 The examination is only offline, but in our training program, we have integrated a virtual classroom, which was very helpful during the COVID-19 pandemic. We could offer the training partly inside the academy and partly online.
 
+<EbookDynamic sectionTitle='explore tech challenges HealthTech leaders are facing' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'From secure LLMs to app performance monitoring – dive into tech solutions that will help you scale your software for healthcare.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide cover' />
+
 ## **What challenges have you faced during your journey with Discovering Hands?**
 
 First of all, finding supporters among health insurances. They were not willing to pay for something they didn't know. Even if the women are completely convinced that this is a better type of diagnosis for them. It was always the women who were our strongest supporters. They convinced their insurances, and the insurances recognized that so many women are very content with this tactile exam. It takes 40 to 60 minutes in a very calming and smooth atmosphere. The MTEs do it very precisely using the orientation stripes we have developed. They can ask all the questions they sometimes don't feel comfortable asking doctors. MTEs are more on the same level as the patients.
@@ -61,7 +63,7 @@ First of all, finding supporters among health insurances. They were not willing 
 
 I think **it is necessary to find solutions based on technology because we don't have enough doctors and nurses.** On the other hand, **we need personal contact between a patient and a professional**. In this context, the completely underestimated workforce of blind people could be of great help, even if it's only covering part of breast cancer detection. If we only had mammary screening programs and nothing else, many women wouldn't undergo these programs because they associate them with dangerous radiation and painful scans. **In Germany, only about 54 to 57 percent of the women invited go to the screening**.
 
-<div className="image">![](/images/baner_final-quote-frank-5-.png "")</div>
+<div className="image">![quote](/images/baner_final-quote-frank-5-.png "")</div>
 
 ## **Do you plan to expand your solution to other countries in Europe?**
 
