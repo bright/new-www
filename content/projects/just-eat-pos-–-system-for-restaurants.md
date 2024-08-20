@@ -76,15 +76,7 @@ language: en
 
 <Gallery images='[{"src":"/images/react.png","alt":"React"},{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/firebase_logo_stack.png","alt":"Firebase"},{"src":"/images/realm_stack_logo.png","alt":"Realm"},{"src":"/images/fastlane_logo_stack.png","alt":"Fastlane"}]' />
 
-**Frontend**: React, TypeScript, React Query, Formik, Storybook, Nx, React Testing Library, Styled Components, Styled System, Mock Service Worker (MSW), Zustand.
-
-**Backend**: Kotlin, Spring Boot, AWS Aurora (MySQL), Redis, hosted on AWS ECS.
-
-**Android**: Kotlin, Coroutines, Android Architecture Components (LiveData, ViewModel, Room, Navigation, Paging), Firebase, Google Maps, Dagger 2, Robolectric and other Google APIs
-
-**iOS**: Realm, ReactiveSwift, PureLayout, MixPanel, Alamofire, Fastlane, Firebase
-
-**Data Analysis**: Redshift, Tabaloo
+**technologies:** React, TypeScript, Kotlin, Swift, Realm, Firebase, Fastlane
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
