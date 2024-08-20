@@ -19,7 +19,7 @@ language: en
 \
 *The interview was conducted by Agata Bielówka with Dr Frank Hoffmann, during the HLTH Europe conference in Amsterdam.*
 
-<div className="image">![](/images/baner_final-quote-frank-4-.png "")</div>
+<div className="image">![quote](/images/baner_final-quote-frank-4-.png "")</div>
 
 ## **Can you briefly introduce yourself and your solution?**
 
@@ -52,6 +52,8 @@ No, partly the government and partly the Discovering Hands organization. They le
 ## **Is part of the solution online, or is it just offline?**
 
 The examination is only offline, but in our training program, we have integrated a virtual classroom, which was very helpful during the COVID-19 pandemic. We could offer the training partly inside the academy and partly online.
+
+<EbookDynamic sectionTitle='explore tech challenges HealthTech leaders are facing' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'From secure LLMs to app performance monitoring – dive into tech solutions that will help you scale your software for healthcare.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide cover' />
 
 ## **What challenges have you faced during your journey with Discovering Hands?**
 
