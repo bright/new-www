@@ -63,7 +63,7 @@ First of all, finding supporters among health insurances. They were not willing 
 
 I think **it is necessary to find solutions based on technology because we don't have enough doctors and nurses.** On the other hand, **we need personal contact between a patient and a professional**. In this context, the completely underestimated workforce of blind people could be of great help, even if it's only covering part of breast cancer detection. If we only had mammary screening programs and nothing else, many women wouldn't undergo these programs because they associate them with dangerous radiation and painful scans. **In Germany, only about 54 to 57 percent of the women invited go to the screening**.
 
-<div className="image">![](/images/baner_final-quote-frank-5-.png "")</div>
+<div className="image">![quote](/images/baner_final-quote-frank-5-.png "")</div>
 
 ## **Do you plan to expand your solution to other countries in Europe?**
 
