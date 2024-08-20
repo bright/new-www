@@ -7,6 +7,10 @@ team_members:
 faqs:
   - pos food delivery integration 1
   - pos food delivery integration 2
+  - What is the typical timeline for completing a project? pos food delivery
+    integration 3
+  - What is your experience in developing solutions for the restaurant industry?
+    pos food delivery integration 4
 project:
   - pos-devices-integration
   - Practi JET POS
