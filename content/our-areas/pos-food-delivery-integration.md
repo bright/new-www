@@ -99,10 +99,6 @@ boxes:
       security needs in mind and fully compliant with local regulations and tax
       law.
     box_icon: /images/icon_pos_lp_compliance_security.png
-  - box_title: flexibility in maintenance
-    box_description: Control the schedule and scope of maintenance, updates, and
-      upgrades, ensuring minimal disruption to your clients.
-    box_icon: /images/1test.png
 language: en
 blog_section: false
 blog_section_tags:
