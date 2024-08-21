@@ -37,8 +37,6 @@ language: en
 
 **Healthcare is one of the most regulated industries. There are many legal regulations that health tech companies must follow, including obtaining approvals from relevant institutions and acquiring necessary certifications before entering the market.**
 
-
-
 * "Familiarize yourself with **FDA and CMS approvals** to ensure your product can be implemented and reimbursed in the U.S. market." — **Dr. Adam Brown**
 * "Be aware of regulatory differences across states and tailor your approach accordingly." — **Aahuti Rai**
 *  "The main challenge is ensuring **the clinical validation of our technology** since it's a medical device. This is the real challenge of what we do." - **Silvia Raga**
@@ -46,8 +44,6 @@ language: en
 ## Building Credibility and Trust
 
 **Trust is one of the most important things in healthcare. Your users need to know that the solution they are using is safe and based on legitimate knowledge.**
-
-
 
 * "Ensure **medical credibility** by involving practitioners and experts in your development process." — **Dr. Claudia Pastides,** Director of Medical Accuracy @ FLO Health 
 * "For digital health solutions, **establish trust** by ensuring data security and compliance with privacy regulations." — **Dr. Claudia Pastides**
@@ -83,7 +79,5 @@ language: en
 * "Be prepared for **slow decisions** and price-sensitive public sectors. Investors may push for speed, but high quality at low costs is crucial." — **Mohammad Al Ubaydli,** Founder & CEO @ PHIN
 * "Move fast and **focus on solving one problem at a time**. If possible, sell your solution outside of medical device categorization to start generating revenue and gather real-world evidence quickly." — **Michel Valstar,** Co-Founder & CSO @ BLUESKEYE AI
 * "Founding a company requires resilience, purpose, and willpower to persist through challenges. **Embrace failure as a step towards success**, solve problems rather than clinging to ideas, and build a strong team." **— Fernando Campos**
-
-
 
 These expert-driven insights outline the best practices for developing a health tech product, offering a simpler path through this complex industry. Although challenging, this path rewards those who skillfully manage innovation, regulatory compliance, and market dynamics.
