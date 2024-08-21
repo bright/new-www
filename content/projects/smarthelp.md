@@ -10,14 +10,14 @@ our_service:
   - product design
 layout: project
 project_id: smarthelp
-title: SmartHelp
+title: "SmartHelp: Instant Emergency Localization with a Single Click"
 image: /images/smarthelp_main.png
 description: An emergency service app that allows users to easily call for help
   and provide authorities with personal information, exact location, and
   incident details.
 hero_image: /images/case_study_emergency_app.png
 Hero Image_alt: Emergency app
-social_media_previev: /images/smarthelp_fb_preview.png
+social_media_previev: /images/fb_preview_case_study_smart_help_app.png
 social_media_previev_alt: SmartHelp case study
 bar_achievements:
   - number: "2"
