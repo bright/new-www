@@ -28,10 +28,15 @@ type Mdx implements Node {
  frontmatter: MdxFrontmatter
 }
 
+type Testimonials {
+  testimonials_quote: SimpleMdx
+}
+
 type MdxFrontmatter {
  links_more_about_us: SimpleMdx
  description_mdx: SimpleMdx
  answer: SimpleMdx
+ testimonials: [Testimonials]
 }
 `,
   ]

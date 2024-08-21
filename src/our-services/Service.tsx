@@ -370,7 +370,9 @@ export const pageQuery = graphql`
         blog_section
         blog_section_title
         testimonials {
-          testimonials_quote
+          testimonials_quote {
+            html
+          }
           testimonials_author
           testimonials_photo {
             childImageSharp {
@@ -379,7 +381,6 @@ export const pageQuery = graphql`
           }
           testimonials_position
           testimonials_company
-          testimonials_link
         }
       }
     }

@@ -74,10 +74,11 @@ export interface ServiceModel {
 }
 
 export interface TestimonialModel {
-  testimonials_quote: string
+  testimonials_quote: {
+    html: string
+  }
   testimonials_author: string
   testimonials_photo: IGatsbyImageData | null
   testimonials_position: string
   testimonials_company: string
-  testimonials_link: string
 }

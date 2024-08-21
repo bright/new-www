@@ -2406,6 +2406,7 @@ type MdxFrontmatter = {
   readonly blog_section: Maybe<Scalars['Boolean']>;
   readonly blog_section_tags: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly blog_section_title: Maybe<Scalars['String']>;
+  readonly boxes: Maybe<ReadonlyArray<Maybe<MdxFrontmatterBoxes>>>;
   readonly bullet_points: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly button: Maybe<Scalars['String']>;
   readonly button2: Maybe<Scalars['String']>;
@@ -2483,7 +2484,7 @@ type MdxFrontmatter = {
   readonly tags: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly team_members: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly technology: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
-  readonly testimonials: Maybe<ReadonlyArray<Maybe<MdxFrontmatterTestimonials>>>;
+  readonly testimonials: Maybe<ReadonlyArray<Maybe<Testimonials>>>;
   readonly thirdAuthor: Maybe<Scalars['String']>;
   readonly title: Maybe<Scalars['String']>;
   readonly title_case_study: Maybe<Scalars['String']>;
@@ -2547,6 +2548,34 @@ type MdxFrontmatterBar_achievementsSortInput = {
   readonly number: InputMaybe<SortOrderEnum>;
 };
 
+type MdxFrontmatterBoxes = {
+  readonly box_description: Maybe<Scalars['String']>;
+  readonly box_icon: Maybe<File>;
+  readonly box_title: Maybe<Scalars['String']>;
+};
+
+type MdxFrontmatterBoxesFieldSelector = {
+  readonly box_description: InputMaybe<FieldSelectorEnum>;
+  readonly box_icon: InputMaybe<FileFieldSelector>;
+  readonly box_title: InputMaybe<FieldSelectorEnum>;
+};
+
+type MdxFrontmatterBoxesFilterInput = {
+  readonly box_description: InputMaybe<StringQueryOperatorInput>;
+  readonly box_icon: InputMaybe<FileFilterInput>;
+  readonly box_title: InputMaybe<StringQueryOperatorInput>;
+};
+
+type MdxFrontmatterBoxesFilterListInput = {
+  readonly elemMatch: InputMaybe<MdxFrontmatterBoxesFilterInput>;
+};
+
+type MdxFrontmatterBoxesSortInput = {
+  readonly box_description: InputMaybe<SortOrderEnum>;
+  readonly box_icon: InputMaybe<FileSortInput>;
+  readonly box_title: InputMaybe<SortOrderEnum>;
+};
+
 type MdxFrontmatterFieldSelector = {
   readonly Hero_Image_alt: InputMaybe<FieldSelectorEnum>;
   readonly Show_recruiter_info: InputMaybe<FieldSelectorEnum>;
@@ -2561,6 +2590,7 @@ type MdxFrontmatterFieldSelector = {
   readonly blog_section: InputMaybe<FieldSelectorEnum>;
   readonly blog_section_tags: InputMaybe<FieldSelectorEnum>;
   readonly blog_section_title: InputMaybe<FieldSelectorEnum>;
+  readonly boxes: InputMaybe<MdxFrontmatterBoxesFieldSelector>;
   readonly bullet_points: InputMaybe<FieldSelectorEnum>;
   readonly button: InputMaybe<FieldSelectorEnum>;
   readonly button2: InputMaybe<FieldSelectorEnum>;
@@ -2638,7 +2668,7 @@ type MdxFrontmatterFieldSelector = {
   readonly tags: InputMaybe<FieldSelectorEnum>;
   readonly team_members: InputMaybe<FieldSelectorEnum>;
   readonly technology: InputMaybe<FieldSelectorEnum>;
-  readonly testimonials: InputMaybe<MdxFrontmatterTestimonialsFieldSelector>;
+  readonly testimonials: InputMaybe<TestimonialsFieldSelector>;
   readonly thirdAuthor: InputMaybe<FieldSelectorEnum>;
   readonly title: InputMaybe<FieldSelectorEnum>;
   readonly title_case_study: InputMaybe<FieldSelectorEnum>;
@@ -2668,6 +2698,7 @@ type MdxFrontmatterFilterInput = {
   readonly blog_section: InputMaybe<BooleanQueryOperatorInput>;
   readonly blog_section_tags: InputMaybe<StringQueryOperatorInput>;
   readonly blog_section_title: InputMaybe<StringQueryOperatorInput>;
+  readonly boxes: InputMaybe<MdxFrontmatterBoxesFilterListInput>;
   readonly bullet_points: InputMaybe<StringQueryOperatorInput>;
   readonly button: InputMaybe<StringQueryOperatorInput>;
   readonly button2: InputMaybe<StringQueryOperatorInput>;
@@ -2745,7 +2776,7 @@ type MdxFrontmatterFilterInput = {
   readonly tags: InputMaybe<StringQueryOperatorInput>;
   readonly team_members: InputMaybe<StringQueryOperatorInput>;
   readonly technology: InputMaybe<StringQueryOperatorInput>;
-  readonly testimonials: InputMaybe<MdxFrontmatterTestimonialsFilterListInput>;
+  readonly testimonials: InputMaybe<TestimonialsFilterListInput>;
   readonly thirdAuthor: InputMaybe<StringQueryOperatorInput>;
   readonly title: InputMaybe<StringQueryOperatorInput>;
   readonly title_case_study: InputMaybe<StringQueryOperatorInput>;
@@ -2775,6 +2806,7 @@ type MdxFrontmatterSortInput = {
   readonly blog_section: InputMaybe<SortOrderEnum>;
   readonly blog_section_tags: InputMaybe<SortOrderEnum>;
   readonly blog_section_title: InputMaybe<SortOrderEnum>;
+  readonly boxes: InputMaybe<MdxFrontmatterBoxesSortInput>;
   readonly bullet_points: InputMaybe<SortOrderEnum>;
   readonly button: InputMaybe<SortOrderEnum>;
   readonly button2: InputMaybe<SortOrderEnum>;
@@ -2852,7 +2884,7 @@ type MdxFrontmatterSortInput = {
   readonly tags: InputMaybe<SortOrderEnum>;
   readonly team_members: InputMaybe<SortOrderEnum>;
   readonly technology: InputMaybe<SortOrderEnum>;
-  readonly testimonials: InputMaybe<MdxFrontmatterTestimonialsSortInput>;
+  readonly testimonials: InputMaybe<TestimonialsSortInput>;
   readonly thirdAuthor: InputMaybe<SortOrderEnum>;
   readonly title: InputMaybe<SortOrderEnum>;
   readonly title_case_study: InputMaybe<SortOrderEnum>;
@@ -2866,46 +2898,6 @@ type MdxFrontmatterSortInput = {
   readonly work_in_progress: InputMaybe<SortOrderEnum>;
   readonly working_time: InputMaybe<SortOrderEnum>;
   readonly workplace_recruiter: InputMaybe<SortOrderEnum>;
-};
-
-type MdxFrontmatterTestimonials = {
-  readonly testimonials_author: Maybe<Scalars['String']>;
-  readonly testimonials_company: Maybe<Scalars['String']>;
-  readonly testimonials_link: Maybe<Scalars['String']>;
-  readonly testimonials_photo: Maybe<File>;
-  readonly testimonials_position: Maybe<Scalars['String']>;
-  readonly testimonials_quote: Maybe<Scalars['String']>;
-};
-
-type MdxFrontmatterTestimonialsFieldSelector = {
-  readonly testimonials_author: InputMaybe<FieldSelectorEnum>;
-  readonly testimonials_company: InputMaybe<FieldSelectorEnum>;
-  readonly testimonials_link: InputMaybe<FieldSelectorEnum>;
-  readonly testimonials_photo: InputMaybe<FileFieldSelector>;
-  readonly testimonials_position: InputMaybe<FieldSelectorEnum>;
-  readonly testimonials_quote: InputMaybe<FieldSelectorEnum>;
-};
-
-type MdxFrontmatterTestimonialsFilterInput = {
-  readonly testimonials_author: InputMaybe<StringQueryOperatorInput>;
-  readonly testimonials_company: InputMaybe<StringQueryOperatorInput>;
-  readonly testimonials_link: InputMaybe<StringQueryOperatorInput>;
-  readonly testimonials_photo: InputMaybe<FileFilterInput>;
-  readonly testimonials_position: InputMaybe<StringQueryOperatorInput>;
-  readonly testimonials_quote: InputMaybe<StringQueryOperatorInput>;
-};
-
-type MdxFrontmatterTestimonialsFilterListInput = {
-  readonly elemMatch: InputMaybe<MdxFrontmatterTestimonialsFilterInput>;
-};
-
-type MdxFrontmatterTestimonialsSortInput = {
-  readonly testimonials_author: InputMaybe<SortOrderEnum>;
-  readonly testimonials_company: InputMaybe<SortOrderEnum>;
-  readonly testimonials_link: InputMaybe<SortOrderEnum>;
-  readonly testimonials_photo: InputMaybe<FileSortInput>;
-  readonly testimonials_position: InputMaybe<SortOrderEnum>;
-  readonly testimonials_quote: InputMaybe<SortOrderEnum>;
 };
 
 type MdxGroupConnection = {
@@ -3330,6 +3322,7 @@ type OurAreas = Node & {
   readonly blog_section_tags: Scalars['String'];
   readonly blog_section_title: Scalars['String'];
   readonly body: Scalars['String'];
+  readonly boxes: Maybe<ReadonlyArray<Maybe<OurAreasBoxes>>>;
   readonly bullet_points: Scalars['String'];
   readonly button: Scalars['String'];
   readonly button2: Scalars['String'];
@@ -3370,6 +3363,34 @@ type OurAreas = Node & {
   readonly title_contact: Scalars['String'];
   readonly title_faqs: Scalars['String'];
   readonly title_team: Scalars['String'];
+};
+
+type OurAreasBoxes = {
+  readonly box_description: Maybe<Scalars['String']>;
+  readonly box_icon: Maybe<File>;
+  readonly box_title: Maybe<Scalars['String']>;
+};
+
+type OurAreasBoxesFieldSelector = {
+  readonly box_description: InputMaybe<FieldSelectorEnum>;
+  readonly box_icon: InputMaybe<FileFieldSelector>;
+  readonly box_title: InputMaybe<FieldSelectorEnum>;
+};
+
+type OurAreasBoxesFilterInput = {
+  readonly box_description: InputMaybe<StringQueryOperatorInput>;
+  readonly box_icon: InputMaybe<FileFilterInput>;
+  readonly box_title: InputMaybe<StringQueryOperatorInput>;
+};
+
+type OurAreasBoxesFilterListInput = {
+  readonly elemMatch: InputMaybe<OurAreasBoxesFilterInput>;
+};
+
+type OurAreasBoxesSortInput = {
+  readonly box_description: InputMaybe<SortOrderEnum>;
+  readonly box_icon: InputMaybe<FileSortInput>;
+  readonly box_title: InputMaybe<SortOrderEnum>;
 };
 
 type OurAreasConnection = {
@@ -3423,6 +3444,7 @@ type OurAreasFieldSelector = {
   readonly blog_section_tags: InputMaybe<FieldSelectorEnum>;
   readonly blog_section_title: InputMaybe<FieldSelectorEnum>;
   readonly body: InputMaybe<FieldSelectorEnum>;
+  readonly boxes: InputMaybe<OurAreasBoxesFieldSelector>;
   readonly bullet_points: InputMaybe<FieldSelectorEnum>;
   readonly button: InputMaybe<FieldSelectorEnum>;
   readonly button2: InputMaybe<FieldSelectorEnum>;
@@ -3471,6 +3493,7 @@ type OurAreasFilterInput = {
   readonly blog_section_tags: InputMaybe<StringQueryOperatorInput>;
   readonly blog_section_title: InputMaybe<StringQueryOperatorInput>;
   readonly body: InputMaybe<StringQueryOperatorInput>;
+  readonly boxes: InputMaybe<OurAreasBoxesFilterListInput>;
   readonly bullet_points: InputMaybe<StringQueryOperatorInput>;
   readonly button: InputMaybe<StringQueryOperatorInput>;
   readonly button2: InputMaybe<StringQueryOperatorInput>;
@@ -3522,6 +3545,7 @@ type OurAreasFrontmatter = {
   readonly blog_section: Scalars['Boolean'];
   readonly blog_section_tags: Scalars['String'];
   readonly blog_section_title: Scalars['String'];
+  readonly boxes: Maybe<ReadonlyArray<Maybe<OurAreasFrontmatterBoxes>>>;
   readonly bullet_points: Scalars['String'];
   readonly button: Scalars['String'];
   readonly button2: Scalars['String'];
@@ -3559,11 +3583,40 @@ type OurAreasFrontmatter = {
   readonly title_team: Scalars['String'];
 };
 
+type OurAreasFrontmatterBoxes = {
+  readonly box_description: Maybe<Scalars['String']>;
+  readonly box_icon: Maybe<File>;
+  readonly box_title: Maybe<Scalars['String']>;
+};
+
+type OurAreasFrontmatterBoxesFieldSelector = {
+  readonly box_description: InputMaybe<FieldSelectorEnum>;
+  readonly box_icon: InputMaybe<FileFieldSelector>;
+  readonly box_title: InputMaybe<FieldSelectorEnum>;
+};
+
+type OurAreasFrontmatterBoxesFilterInput = {
+  readonly box_description: InputMaybe<StringQueryOperatorInput>;
+  readonly box_icon: InputMaybe<FileFilterInput>;
+  readonly box_title: InputMaybe<StringQueryOperatorInput>;
+};
+
+type OurAreasFrontmatterBoxesFilterListInput = {
+  readonly elemMatch: InputMaybe<OurAreasFrontmatterBoxesFilterInput>;
+};
+
+type OurAreasFrontmatterBoxesSortInput = {
+  readonly box_description: InputMaybe<SortOrderEnum>;
+  readonly box_icon: InputMaybe<FileSortInput>;
+  readonly box_title: InputMaybe<SortOrderEnum>;
+};
+
 type OurAreasFrontmatterFieldSelector = {
   readonly bar_stack: InputMaybe<FieldSelectorEnum>;
   readonly blog_section: InputMaybe<FieldSelectorEnum>;
   readonly blog_section_tags: InputMaybe<FieldSelectorEnum>;
   readonly blog_section_title: InputMaybe<FieldSelectorEnum>;
+  readonly boxes: InputMaybe<OurAreasFrontmatterBoxesFieldSelector>;
   readonly bullet_points: InputMaybe<FieldSelectorEnum>;
   readonly button: InputMaybe<FieldSelectorEnum>;
   readonly button2: InputMaybe<FieldSelectorEnum>;
@@ -3606,6 +3659,7 @@ type OurAreasFrontmatterFilterInput = {
   readonly blog_section: InputMaybe<BooleanQueryOperatorInput>;
   readonly blog_section_tags: InputMaybe<StringQueryOperatorInput>;
   readonly blog_section_title: InputMaybe<StringQueryOperatorInput>;
+  readonly boxes: InputMaybe<OurAreasFrontmatterBoxesFilterListInput>;
   readonly bullet_points: InputMaybe<StringQueryOperatorInput>;
   readonly button: InputMaybe<StringQueryOperatorInput>;
   readonly button2: InputMaybe<StringQueryOperatorInput>;
@@ -3648,6 +3702,7 @@ type OurAreasFrontmatterSortInput = {
   readonly blog_section: InputMaybe<SortOrderEnum>;
   readonly blog_section_tags: InputMaybe<SortOrderEnum>;
   readonly blog_section_title: InputMaybe<SortOrderEnum>;
+  readonly boxes: InputMaybe<OurAreasFrontmatterBoxesSortInput>;
   readonly bullet_points: InputMaybe<SortOrderEnum>;
   readonly button: InputMaybe<SortOrderEnum>;
   readonly button2: InputMaybe<SortOrderEnum>;
@@ -3732,6 +3787,7 @@ type OurAreasSortInput = {
   readonly blog_section_tags: InputMaybe<SortOrderEnum>;
   readonly blog_section_title: InputMaybe<SortOrderEnum>;
   readonly body: InputMaybe<SortOrderEnum>;
+  readonly boxes: InputMaybe<OurAreasBoxesSortInput>;
   readonly bullet_points: InputMaybe<SortOrderEnum>;
   readonly button: InputMaybe<SortOrderEnum>;
   readonly button2: InputMaybe<SortOrderEnum>;
@@ -4571,6 +4627,7 @@ type Query_ourAreasArgs = {
   blog_section_tags: InputMaybe<StringQueryOperatorInput>;
   blog_section_title: InputMaybe<StringQueryOperatorInput>;
   body: InputMaybe<StringQueryOperatorInput>;
+  boxes: InputMaybe<OurAreasBoxesFilterListInput>;
   bullet_points: InputMaybe<StringQueryOperatorInput>;
   button: InputMaybe<StringQueryOperatorInput>;
   button2: InputMaybe<StringQueryOperatorInput>;
@@ -5576,6 +5633,42 @@ type StringQueryOperatorInput = {
   readonly regex: InputMaybe<Scalars['String']>;
 };
 
+type Testimonials = {
+  readonly testimonials_author: Maybe<Scalars['String']>;
+  readonly testimonials_company: Maybe<Scalars['String']>;
+  readonly testimonials_photo: Maybe<File>;
+  readonly testimonials_position: Maybe<Scalars['String']>;
+  readonly testimonials_quote: Maybe<SimpleMdx>;
+};
+
+type TestimonialsFieldSelector = {
+  readonly testimonials_author: InputMaybe<FieldSelectorEnum>;
+  readonly testimonials_company: InputMaybe<FieldSelectorEnum>;
+  readonly testimonials_photo: InputMaybe<FileFieldSelector>;
+  readonly testimonials_position: InputMaybe<FieldSelectorEnum>;
+  readonly testimonials_quote: InputMaybe<SimpleMdxFieldSelector>;
+};
+
+type TestimonialsFilterInput = {
+  readonly testimonials_author: InputMaybe<StringQueryOperatorInput>;
+  readonly testimonials_company: InputMaybe<StringQueryOperatorInput>;
+  readonly testimonials_photo: InputMaybe<FileFilterInput>;
+  readonly testimonials_position: InputMaybe<StringQueryOperatorInput>;
+  readonly testimonials_quote: InputMaybe<SimpleMdxFilterInput>;
+};
+
+type TestimonialsFilterListInput = {
+  readonly elemMatch: InputMaybe<TestimonialsFilterInput>;
+};
+
+type TestimonialsSortInput = {
+  readonly testimonials_author: InputMaybe<SortOrderEnum>;
+  readonly testimonials_company: InputMaybe<SortOrderEnum>;
+  readonly testimonials_photo: InputMaybe<FileSortInput>;
+  readonly testimonials_position: InputMaybe<SortOrderEnum>;
+  readonly testimonials_quote: InputMaybe<SimpleMdxSortInput>;
+};
+
 type TransformOptions = {
   readonly cropFocus: InputMaybe<ImageCropFocus>;
   readonly duotone: InputMaybe<DuotoneGradient>;
@@ -5623,7 +5716,6 @@ type GatsbyImageSharpFluid_withWebp_tracedSVGFragment = { readonly tracedSVG: st
 type GatsbyImageSharpFluidLimitPresentationSizeFragment = { readonly maxHeight: number, readonly maxWidth: number };
 
 type MyQueryQueryVariables = Exact<{
-  groupTags: ReadonlyArray<Scalars['String']> | Scalars['String'];
   skip: Scalars['Int'];
   limit: Scalars['Int'];
 }>;
@@ -5644,7 +5736,7 @@ type AuthorsOfBlogPostsQuery = { readonly author: { readonly edges: ReadonlyArra
 type ServicesQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-type ServicesQuery = { readonly allMdx: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly frontmatter: { readonly slug: string | null, readonly language: string | null, readonly blog_section_tags: ReadonlyArray<string | null> | null, readonly faqs: ReadonlyArray<{ readonly frontmatter: { readonly question: string | null, readonly slug: string | null, readonly language: string | null } | null } | null> | null, readonly testimonials: ReadonlyArray<{ readonly testimonials_quote: string | null, readonly testimonials_author: string | null, readonly testimonials_position: string | null, readonly testimonials_company: string | null, readonly testimonials_link: string | null, readonly testimonials_photo: { readonly childImageSharp: { readonly gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData } | null } | null } | null> | null } | null, readonly internal: { readonly contentFilePath: string | null } } }> } };
+type ServicesQuery = { readonly allMdx: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly frontmatter: { readonly slug: string | null, readonly language: string | null, readonly blog_section_tags: ReadonlyArray<string | null> | null, readonly faqs: ReadonlyArray<{ readonly frontmatter: { readonly question: string | null, readonly slug: string | null, readonly language: string | null } | null } | null> | null, readonly testimonials: ReadonlyArray<{ readonly testimonials_author: string | null, readonly testimonials_position: string | null, readonly testimonials_company: string | null, readonly testimonials_quote: { readonly html: string | null } | null } | null> | null } | null, readonly internal: { readonly contentFilePath: string | null } } }> } };
 
 type CareerQueryVariables = Exact<{ [key: string]: never; }>;
 

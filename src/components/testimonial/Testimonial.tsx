@@ -1,17 +1,13 @@
 import {
   Author,
   AuthorWrapper,
-  Dash,
-  LinkWrapper,
   Name,
   Photo,
   PositionAndCompany,
-  Quote,
   QuoteWrapper,
   Wrapper,
 } from './Testimonial.styled'
 import React from 'react'
-import { Link } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { TestimonialModel } from '../../models/gql'
 
@@ -25,7 +21,6 @@ export const Testimonial = ({ testimonial: {
   testimonials_photo,
   testimonials_position,
   testimonials_company,
-  testimonials_link,
 }}: TestimonialProps) => {
   const photo = getImage(testimonials_photo)
 
@@ -46,15 +41,7 @@ export const Testimonial = ({ testimonial: {
         </Author>
       </AuthorWrapper>
 
-      <QuoteWrapper>
-        <Quote>{testimonials_quote}</Quote>
-        <Dash>—</Dash>
-        <LinkWrapper>
-          <Link to={testimonials_link} target='_blank'>
-            see on Clutch
-          </Link>
-        </LinkWrapper>
-      </QuoteWrapper>
+      <QuoteWrapper dangerouslySetInnerHTML={{ __html: testimonials_quote?.html }} />
     </Wrapper>
   )
 }
