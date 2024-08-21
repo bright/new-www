@@ -111,7 +111,9 @@ blog_section_title: our team inisghts
 testimonials:
   - testimonials_quote: "*Compared to everyone else, bright inventions doesn’t
       promise things they can’t deliver. \\[...]. The best thing about them is
-      that I can count on their actions.* See on Clutch."
+      that I can count on their actions.* [See on
+      Clutch](https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c9\
+      8c/293369)."
     testimonials_author: Dorian Koch
     testimonials_position: Co-Founder & Former CEO
     testimonials_company: MedKitDoc
