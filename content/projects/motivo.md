@@ -6,14 +6,14 @@ our_service:
   - bluetooth development
 layout: project
 project_id: motivo
-title: Motivo
+title: Optimizing Cycling Training with App Integrated with Wahoo Fitness Devices
 image: /images/motivo_main.png
 description: Turbo Training and Indoor Cycling Workouts. The app is your own
   personal cycling coach. It offers Interactive training plans and workouts for
   indoor cycling.
 hero_image: /images/case_study_sports_app.png
 Hero Image_alt: Cycling app
-social_media_previev: /images/motivo_fb_preview.png
+social_media_previev: /images/fb_preview_case_study_pro_cycling_app.png
 social_media_previev_alt: Motivo case study
 bar_achievements:
   - number: "2013"
@@ -36,6 +36,7 @@ show_team: false
 show_case_study: true
 show on homepage: false
 published: true
+work_in_progress: false
 language: en
 ---
 <TitleWithIcon sectionTitle="main features" titleIcon="/images/main_features_icon.png" titleIconAlt="Main features" />
