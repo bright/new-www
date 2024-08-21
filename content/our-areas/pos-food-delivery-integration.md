@@ -66,6 +66,40 @@ title_faqs: integrating delivery apps FAQs
 title_contact: book a call to discuss your POS
 description_contact: Based on your needs we will prepare a demo of your solution
   in 7 days. Fill out the form or drop us a line!
+language: en
+blog_section: false
+blog_section_tags:
+  - business strategy
+blog_section_title: our team inisghts
+testimonials:
+  - testimonials_quote: Compared to everyone else, bright inventions doesn’t promise
+      things they can’t deliver. [...]. The best thing about them is that I can
+      count on their actions
+    testimonials_author: Dorian Koch
+    testimonials_position: Co-Founder & Former CEO
+    testimonials_company: MedKitDoc
+    testimonials_link: https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c98c/293369
+  - testimonials_quote: Their attention to detail and scrutiny when dealing with
+      technical challenges is noteworthy
+    testimonials_author: Adam Pachucki
+    testimonials_position: Head of Product
+    testimonials_company: Finebite
+    testimonials_link: https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c98c/83595
+    testimonials_photo: /images/adam_pachucki.jpeg
+  - testimonials_quote: Working with Bright Inventions is always a pleasure. The
+      people involved are friendly and to the point. They’re also pragmatic,
+      constructive, and punctual
+    testimonials_author: Kira Nezu
+    testimonials_position: Project Manager
+    testimonials_company: AppAdvisors GmbH
+    testimonials_link: https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c98c/54300
+  - testimonials_quote: Bright inventions and the whole team is always with full
+      heart at the project, understands our logic and intention behind and
+      respects our requests and demands
+    testimonials_author: Matthias Potthast
+    testimonials_position: Founder
+    testimonials_company: Relevo
+    testimonials_link: https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c98c/149237
 boxes:
   - box_title: adjustable solution for new and legacy POS
     box_description: Smooth integration regardless of the size or age of your POS system.
@@ -99,42 +133,6 @@ boxes:
       security needs in mind and fully compliant with local regulations and tax
       law.
     box_icon: /images/icon_pos_lp_compliance_security.png
-language: en
-blog_section: false
-blog_section_tags:
-  - business strategy
-blog_section_title: our team inisghts
-testimonials:
-  - testimonials_quote: "*Compared to everyone else, bright inventions doesn’t
-      promise things they can’t deliver. \\[...]. The best thing about them is
-      that I can count on their actions.* [See on
-      Clutch](https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c9\
-      8c/293369)."
-    testimonials_author: Dorian Koch
-    testimonials_position: Co-Founder & Former CEO
-    testimonials_company: MedKitDoc
-    testimonials_link: https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c98c/293369
-  - testimonials_quote: Their attention to detail and scrutiny when dealing with
-      technical challenges is noteworthy
-    testimonials_author: Adam Pachucki
-    testimonials_position: Head of Product
-    testimonials_company: Finebite
-    testimonials_link: https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c98c/83595
-    testimonials_photo: /images/adam_pachucki.jpeg
-  - testimonials_quote: Working with Bright Inventions is always a pleasure. The
-      people involved are friendly and to the point. They’re also pragmatic,
-      constructive, and punctual
-    testimonials_author: Kira Nezu
-    testimonials_position: Project Manager
-    testimonials_company: AppAdvisors GmbH
-    testimonials_link: https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c98c/54300
-  - testimonials_quote: Bright inventions and the whole team is always with full
-      heart at the project, understands our logic and intention behind and
-      respects our requests and demands
-    testimonials_author: Matthias Potthast
-    testimonials_position: Founder
-    testimonials_company: Relevo
-    testimonials_link: https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c98c/149237
 ---
 ## food delivery platforms we integrate with
 
