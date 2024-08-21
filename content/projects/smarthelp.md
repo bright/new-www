@@ -17,7 +17,7 @@ description: An emergency service app that allows users to easily call for help
   incident details.
 hero_image: /images/case_study_emergency_app.png
 Hero Image_alt: Emergency app
-social_media_previev: /images/smarthelp_fb_preview.png
+social_media_previev: /images/fb_preview_case_study_smart_help_app.png
 social_media_previev_alt: SmartHelp case study
 bar_achievements:
   - number: "2"
