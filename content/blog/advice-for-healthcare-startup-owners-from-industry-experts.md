@@ -9,6 +9,7 @@ date: 2024-08-20T12:44:48.876Z
 meaningfullyUpdatedAt: 2024-08-20T12:44:48.903Z
 title: Advice for Healthcare Startup Owners from Industry Experts
 layout: post
+image: /images/hlth-blogpost-cover-3-.png
 hidden: false
 comments: true
 published: true
