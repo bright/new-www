@@ -66,7 +66,7 @@ language: en
 * "The ability for different systems to communicate has a profound impact on patients getting the right care." - **Dr. Adam Brown**
 * "Highlight the benefits of your solution in reducing redundancies and improving patient care through seamless data sharing." — **Dr. Adam Brown**
 
-<div className="image">![Mohammad Al-Ubaydli](/images/baner_final-quote-mohamad-2-.png "")</div>
+<div className="image">![Mohammad Al-Ubaydli](/images/quote_mohamad.png "")</div>
 
 ## Strategic Adaptations and Mindsets for Success
 
