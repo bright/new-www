@@ -33,6 +33,8 @@ language: en
 
 * "I think that **now you have a unique opportunity in France to actually deploy your solution thanks to the reimbursement model that has been decided over the past two years**, especially in the remote monitoring field and now in the DTX field. And I think that France is investing in digital health solutions and is also trying to help healthcare professionals digitalize their practice by compensating the time they spend using those digital solutions. I think that digital solutions are going to become a must-have once healthcare professionals actually embrace those solutions. This is why I think that France is really in a unique position in Europe." - **Edouard Gasser,** Co-Founder & CEO @ Tilak Healthcare
 
+<EbookDynamic sectionTitle='explore more guidelines for HealthTech startup owners' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'From secure LLMs to app performance monitoring – dive into tech solutions that will help you scale your software for healthcare.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide' />
+
 ## Navigating Regulatory Challenges
 
 **Healthcare is one of the most regulated industries. There are many legal regulations that health tech companies must follow, including obtaining approvals from relevant institutions and acquiring necessary certifications before entering the market.**
@@ -48,7 +50,7 @@ language: en
 * "Ensure **medical credibility** by involving practitioners and experts in your development process." — **Dr. Claudia Pastides,** Director of Medical Accuracy @ FLO Health 
 * "For digital health solutions, **establish trust** by ensuring data security and compliance with privacy regulations." — **Dr. Claudia Pastides**
 
-<div className="image">![](/images/baner_final-quote-fernando-4-.png "")</div>
+<div className="image">![Quote](/images/baner_final-quote-fernando-4-.png "")</div>
 
 ## Adapting to Cultural and Mindset Shift
 
