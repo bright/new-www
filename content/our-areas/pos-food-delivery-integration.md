@@ -114,7 +114,8 @@ testimonials:
     testimonials_position: Co-Founder & Former CEO
     testimonials_company: MedKitDoc
   - testimonials_quote: Their attention to detail and scrutiny when dealing with
-      technical challenges is noteworthy
+      technical challenges is noteworthy. [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-83595).
     testimonials_author: Adam Pachucki
     testimonials_position: Head of Product
     testimonials_company: Finebite
