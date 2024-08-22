@@ -113,22 +113,24 @@ testimonials:
     testimonials_author: Dorian Koch
     testimonials_position: Co-Founder & Former CEO
     testimonials_company: MedKitDoc
-  - testimonials_quote: Their attention to detail and scrutiny when dealing with
-      technical challenges is noteworthy. [Read more on
-      Clutch](https://clutch.co/profile/bright-inventions#review-83595).
+  - testimonials_quote: "*Their attention to detail and scrutiny when dealing with
+      technical challenges is noteworthy.* [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-83595)."
     testimonials_author: Adam Pachucki
     testimonials_position: Head of Product
     testimonials_company: Finebite
     testimonials_photo: /images/adam_pachucki.jpeg
-  - testimonials_quote: Working with Bright Inventions is always a pleasure. The
+  - testimonials_quote: "*Working with Bright Inventions is always a pleasure. The
       people involved are friendly and to the point. They’re also pragmatic,
-      constructive, and punctual
+      constructive, and punctual*. [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-54300)."
     testimonials_author: Kira Nezu
     testimonials_position: Project Manager
     testimonials_company: AppAdvisors GmbH
-  - testimonials_quote: Bright inventions and the whole team is always with full
+  - testimonials_quote: "*Bright inventions and the whole team is always with full
       heart at the project, understands our logic and intention behind and
-      respects our requests and demands
+      respects our requests and demands*. [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-149237)."
     testimonials_author: Matthias Potthast
     testimonials_position: Founder
     testimonials_company: Relevo
