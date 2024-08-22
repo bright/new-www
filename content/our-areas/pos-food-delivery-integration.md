@@ -66,6 +66,39 @@ title_faqs: integrating delivery apps FAQs
 title_contact: book a call to discuss your POS
 description_contact: Based on your needs we will prepare a demo of your solution
   in 7 days. Fill out the form or drop us a line!
+boxes:
+  - box_title: adjustable solution for new and legacy POS
+    box_description: Smooth integration regardless of the size or age of your POS system.
+    box_icon: /images/icon_pos_lp_new_legacy.png
+  - box_title: supporting old and new restaurant devices
+    box_description: Creating software supporting the restaurant's actual POS devices.
+    box_icon: /images/1test.png
+  - box_title: standing out from the competition
+    box_description: A custom solution allows you to develop unique features that
+      differentiate your service from competitors.
+    box_icon: /images/icon_pos_lp_competition.png
+  - box_title: no ongoing licensing fees
+    box_description: While the initial cost of custom development can be higher, you
+      avoid ongoing licensing fees that are typical with third-party solutions,
+      which can lead to cost savings over time.
+    box_icon: /images/icon_pos_lp_no_fees.png
+  - box_title: data-driven integration
+    box_description: Solution based on analytics insights about your users and their
+      feedback rather than generic assumptions.
+    box_icon: /images/icon_pos_lp_data_driven_update.png
+  - box_title: adding non-standard features
+    box_description: Unlike generic solutions, a custom integration includes
+      specific functionalities that are most relevant to your operations.
+    box_icon: /images/icon_pos_features.png
+  - box_title: building for growth
+    box_description: Design the system to scale with your business limiting upfront
+      the limitations imposed by third-party software.
+    box_icon: /images/icon_pos_lp_growth.png
+  - box_title: ensuring compliance and security
+    box_description: A custom-built solution can be designed with your specific
+      security needs in mind and fully compliant with local regulations and tax
+      law.
+    box_icon: /images/icon_pos_lp_compliance_security.png
 language: en
 blog_section: false
 blog_section_tags:
@@ -73,7 +106,7 @@ blog_section_tags:
 blog_section_title: our team inisghts
 testimonials:
   - testimonials_quote: "*Compared to everyone else, bright inventions doesn’t
-      promise things they can’t deliver. \\[...]. The best thing about them is
+      promise things they can’t deliver. [...]. The best thing about them is
       that I can count on their actions.* [See on
       Clutch](https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c9\
       8c/293369)."
@@ -98,39 +131,6 @@ testimonials:
     testimonials_author: Matthias Potthast
     testimonials_position: Founder
     testimonials_company: Relevo
-boxes:
-  - box_title: adjustable solution for new and legacy POS
-    box_description: Smooth integration regardless of the size or age of your POS system.
-    box_icon: /images/icon_pos_lp_new_legacy.png
-  - box_title: supporting old and new restaurant devices
-    box_description: Creating software supporting the restaurant's actual POS devices.
-    box_icon: /images/1test.png
-  - box_title: standing out from the competition
-    box_description: A custom solution allows you to develop unique features that
-      differentiate your service from competitors.
-    box_icon: /images/icon_pos_lp_competition.png
-  - box_title: no ongoing licensing fees
-    box_description: While the initial cost of custom development can be higher, you
-      avoid ongoing licensing fees that are typical with third-party solutions,
-      which can lead to cost savings over time.
-    box_icon: /images/icon_pos_lp_no_fees.png
-  - box_title: data-driven integration
-    box_description: Solution based on analytics insights about your users and their
-      feedback rather than generic assumptions.
-    box_icon: /images/icon_pos_lp_data_driven.png
-  - box_title: adding non-standard features
-    box_description: Unlike generic solutions, a custom integration includes
-      specific functionalities that are most relevant to your operations.
-    box_icon: /images/icon_pos_features.png
-  - box_title: building for growth
-    box_description: Design the system to scale with your business limiting upfront
-      the limitations imposed by third-party software.
-    box_icon: /images/icon_pos_lp_growth.png
-  - box_title: ensuring compliance and security
-    box_description: A custom-built solution can be designed with your specific
-      security needs in mind and fully compliant with local regulations and tax
-      law.
-    box_icon: /images/icon_pos_lp_compliance_security.png
 ---
 ## food delivery platforms we integrate with
 
