@@ -29,7 +29,7 @@ language: en
 * "The U.S. healthcare system's complexity is pivotal to understand, as **different states have different regulations and market dynamics.**" — **Aahuti Rai**, Strategic Advisor and Venture Partner @ Four Points Consulting
 *  “The Spanish market is quite complicated. Everyone will ask you to start with a pilot study, which is important. My advice is to perform a paid pilot study, even if it's a small amount of money. This shows commitment and value. **Assess the results, demonstrate the technology's value, and then move to a contract**.” - **Silvia Raga,** CEO & Founder @ DyCare
 
-<div className="image">![Silvia Raga DyCare](/images/baner_final-quote-fernando-5-.png "")</div>
+<div className="image">![Silvia Raga DyCare](/images/quote_silvia.png "")</div>
 
 * "I think that **now you have a unique opportunity in France to actually deploy your solution thanks to the reimbursement model that has been decided over the past two years**, especially in the remote monitoring field and now in the DTX field. And I think that France is investing in digital health solutions and is also trying to help healthcare professionals digitalize their practice by compensating the time they spend using those digital solutions. I think that digital solutions are going to become a must-have once healthcare professionals actually embrace those solutions. This is why I think that France is really in a unique position in Europe." - **Edouard Gasser,** Co-Founder & CEO @ Tilak Healthcare
 
@@ -71,10 +71,6 @@ language: en
 ## Strategic Adaptations and Mindsets for Success
 
 **In the fast-paced startup world, strategic adaptation and the right mindset are crucial for success. Being able to make slow, deliberate decisions, demonstrating resilience, and maintaining consistency are essential qualities for business owners.**
-
-
-
-
 
 * "Be prepared for **slow decisions** and price-sensitive public sectors. Investors may push for speed, but high quality at low costs is crucial." — **Mohammad Al Ubaydli,** Founder & CEO @ PHIN
 * "Move fast and **focus on solving one problem at a time**. If possible, sell your solution outside of medical device categorization to start generating revenue and gather real-world evidence quickly." — **Michel Valstar,** Co-Founder & CSO @ BLUESKEYE AI
