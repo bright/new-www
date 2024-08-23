@@ -417,7 +417,7 @@ export const pageQuery = graphql`
           box_description
           box_icon {
             childImageSharp {
-              gatsbyImageData
+              gatsbyImageData(height: 170)
             }
           }
         }
