@@ -69,7 +69,7 @@ description_contact: Based on your needs we will prepare a demo of your solution
 boxes:
   - box_title: adjustable solution for new and legacy POS
     box_description: Smooth integration regardless of the size or age of your POS system.
-    box_icon: /images/icon_pos_lp_new_legacy.png
+    box_icon: /images/icon_pos_lp_new_legacyx2.png
   - box_title: supporting old and new restaurant devices
     box_description: Creating software supporting the restaurant's actual POS devices.
     box_icon: /images/1test.png
