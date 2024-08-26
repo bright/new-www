@@ -56,7 +56,7 @@ I recommend prompt engineering. Model training requires more expertise, which in
 
 It's not only about prompt engineering though. Building vector databases can also be more affordable than training models.
 
-<div className="image">![quote](/images/rafal_quote_prompt.png "quote")</div>
+<div className="image">![quote](/images/rafal_quote_prompt_update.png "quote")</div>
 
 ## What trends do you see in the implementation of generative AI?
 
