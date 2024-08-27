@@ -16,6 +16,12 @@ language: en
 
 Yes, so my name is Guy Siman. I'm a co-founder and Chief Operating Officer at a medical device company called Sensars, based in Switzerland. We set out to treat chronic neuropathic pain, particularly in the foot, which affects over 2 million people each year worldwide that are intractable to medication and other solutions. We're doing this through neurostimulation, but not just any ordinary neurostimulation. We're transforming the way neurostimulation works. Instead of placing a lead next to a nerve, we safely inject microelectrodes inside a peripheral nerve.
 
+
+
+<div className="image">![Guy Siman](/images/baner_final-quote-frank-6-.png "")</div>
+
+
+
 ## What inspired you to develop Sensars and focus on treating chronic pain?
 
 Chronic pain, especially distal pain like foot pain, affects a huge number of people worldwide and often goes untreated. One major cause is diabetic foot, which is personal to me because of my family's history with diabetes. This was a major incentive. It's a huge unmet need globally. While it's not my first company, it brings a lot of satisfaction to help people who have such needs.
