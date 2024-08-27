@@ -11,6 +11,8 @@ faqs:
     integration 3
   - What is your experience in developing solutions for the restaurant industry?
     pos food delivery integration 4
+  - Why your clients will love food delivery integration? pos food delivery
+    integration 5
 project:
   - pos-devices-integration
   - Practi JET POS
