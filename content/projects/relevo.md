@@ -45,11 +45,12 @@ show_team: true
 show_case_study: true
 show on homepage: false
 published: true
+work_in_progress: false
 language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="bright" />
 
-<Gallery images='[{"src":"/images/node.png","alt":"node"},{"src":"/images/nest.png","alt":"nest"},{"src":"/images/react.png","alt":"react"},{"src":"/images/MySQL.png","alt":"MySQL"},{"src":"/images/swift.png","alt":"swift"},{"src":"/images/kotlin.png","alt":"kotlin"},{"src":"/images/aws.png","alt":"aws"},{"src":"/images/ci_cd.png","alt":"ci_cd"}]' />
+<Gallery images='[{"src":"/images/node_stack_logo_update.svg","alt":"node"},{"src":"/images/nest.png","alt":"nest"},{"src":"/images/react_stack_logo_update.svg","alt":"react"},{"src":"/images/MySQL.png","alt":"MySQL"},{"src":"/images/swift.png","alt":"swift"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"kotlin"},{"src":"/images/aws.png","alt":"aws"},{"src":"/images/ci_cd.png","alt":"ci_cd"}]' />
 
 **technologies:** Node.js, NestJS, React, MySQL, SwiftUI, Kotlin, AWS
 

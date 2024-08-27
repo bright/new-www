@@ -139,7 +139,7 @@ testimonials:
 ---
 ## food delivery platforms we integrate with
 
-<Gallery images='[{"src":"/images/jet_logo.svg","alt":"Just Eat Takeaway.com"},{"src":"/images/uber_eats.svg","alt":"Uber Eats"},{"src":"/images/wolt.svg","alt":"Wolt"},{"src":"/images/deliveroo.svg","alt":"deliveroo"}]' />
+<Gallery images='[{"src":"/images/jet_logo.svg","alt":"Just Eat Takeaway.com"},{"src":"/images/uber_eats.svg","alt":"Uber Eats"},{"src":"/images/wolt.svg","alt":"Wolt"},{"src":"/images/deliveroo_update.svg","alt":"deliveroo"}]' />
 
 And more! Just let us know if you need an integration with other 3rd parties.
 

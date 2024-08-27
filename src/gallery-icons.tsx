@@ -7,6 +7,8 @@ import variables from './styles/variables';
 
 const GallerySection = styled.div`
     margin: 0 ${variables.pxToRem(-319)} ${variables.pxToRem(85)};
+    justify-content: space-around;
+    align-items: center;
     @media ${variables.device.laptop} {
         margin: 0 ${variables.pxToRem(-220)} ${variables.pxToRem(64)};
     }
@@ -18,10 +20,12 @@ const GallerySection = styled.div`
     }
 `
 const ImageWrapper = styled.div<{ length: number }>`
-flex-basis: ${({ length }) => length && `calc(100%/${length} - (90px - 90px/${length}))`};
-    & img{
+    flex-basis: ${({ length }) => length && `calc(100%/${length} - (90px - 90px/${length}))`};
+    max-width: 150px;
+    align-self: center;
+    & img {
         display: block;
-        
+        width: 100%;
     }
     @media ${variables.device.tabletXL} {
         flex-basis:${({ length }) => length && `calc(100% / (${length}/2) - (90px - 90px / 4))`};
@@ -51,16 +55,14 @@ export const Gallery = ({ images }: GalleryIconsProps) => {
     }
 
     return (
-        <GallerySection >
-            <FlexWrapper desktopItems='flex-end' desktopGap='90px' tabletXLWrap='wrap' mobileGap='74px'>
+        <GallerySection>
+            <FlexWrapper desktopItems='flex-end' desktopGap='90px' tabletXLWrap='wrap' mobileGap='74px' desktopContent='space-evenly'>
                 {parsedImages.map((image: { src: string | undefined; alt: string | undefined; }, index: React.Key | null | undefined) => {
-
                     return (
-                        < ImageWrapper key={index} length={parsedImages.length}>
+                        <ImageWrapper key={index} length={parsedImages.length}>
                             <img src={image.src} alt={image.alt} />
                         </ImageWrapper>
                     )
-
                 })
                 }
             </FlexWrapper >
