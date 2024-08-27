@@ -66,7 +66,7 @@ There are many, particularly in the field of neurostimulation. Interesting devel
 
 ## Do you have a favorite podcast or news site you regularly follow?
 
-Yes, I regularly follow a podcast led by Dr. Andrew Huberman as well as MedTech Talks & Device Talks, both centered around medical devices.
+Yes, I regularly follow a podcast led by [Dr. Andrew Huberman](https://www.hubermanlab.com/) as well as [MedTech Talks & Device Talks](https://medtechmvp.com/media/medtech-talk-podcast),  centered around medical devices.
 
 ## What do you do in your free time?
 
