@@ -7,8 +7,8 @@ tags:
   - development
 date: 2024-08-29T10:24:27.395Z
 meaningfullyUpdatedAt: 2024-08-29T10:24:27.407Z
-slug: ""
-title: "Exploring ESC/POS: A Guide for Point of Sale Printers Integration"
+slug: esc-pos-integrating-point-of-sale-printers
+title: "Exploring ESC/POS: Integrating Point of Sale Printers"
 layout: post
 image: /images/pos_printer_integrations_blog_cover.png
 hidden: false
