@@ -1,14 +1,16 @@
 ---
 author: szymon-g
 secondAuthor: mateuszg
-thirdAuthor: izabela
+thirdAuthor: null
 tags:
   - POS
   - development
 date: 2024-08-29T10:24:27.395Z
 meaningfullyUpdatedAt: 2024-08-29T10:24:27.407Z
+slug: ""
 title: "Exploring ESC/POS: A Guide for Point of Sale Printers Integration"
 layout: post
+image: /images/pos_printer_integrations_blog_cover.png
 hidden: false
 comments: true
 published: true
@@ -16,11 +18,13 @@ language: en
 ---
 **During the development of a point-of-sale solution for our client, we encountered several unexpected challenges with POS printers that weren't fully addressed by the manufacturer's documentation. From understanding the basics of ESC/POS commands to implementing advanced features like adding a 'buzzer' function on printers that seemingly don't support it, this tutorial shows how to overcome various hurdles while integrating thermal printers with a POS system.**
 
-### What is ESC/POS and what does it involve?
+<div className="image">![pos printer integrations](/images/pos_printer_integrations_blog_cover.png "")</div>
+
+## What is ESC/POS and what does it involve?
 
 ESC/POS (Epson Standard Code for Point of Sale) is a popularly used communication protocol designed by Epson. The main purpose is to improve the printing process of receipts. The protocol is based on sequences of commands that control the printer without the need for drivers or other configurations. This makes ESC/POS an efficient and flexible solution
 
-### Why use ESC/POS at all?
+## Why use ESC/POS at all?
 
 When developing a POS app, the decision to use esc/pos was immediate, we didn't even give it a second thought. Some pros of using esc/pos:
 
@@ -31,13 +35,13 @@ When developing a POS app, the decision to use esc/pos was immediate, we didn't 
 * **Technology-independent**\
   ESC/POS is based on sending data to a specific port and IP regardless of the technology. This ensures that whether you are using Kotlin, Swift, Flutter or another technology each supports sending network data so it supports sending ESC/POS commands.
 
-### ESC/POS documentation
+## ESC/POS documentation
 
-**What can we expect?**
+### **What can we expect?**
 
 ESC/POS defines a standard for printing but documentation may vary depending on who manufactures the printing hardware. Even when you decide which manufacturer you will use there still may be some differences between the models.
 
-**Documentations - Epson**
+### **Documentations - Epson**
 
 <div className="image">![quote](/images/blog_epson_docs.png "")</div>
 
@@ -45,13 +49,13 @@ As you may assume the best [documentation](https://download4.epson.biz/sec_pubs/
 
 <div className="image">![quote](/images/blog_applicable_printers.png "")</div>
 
-**Documentations - others**
+### **Documentations - others**
 
 Other manufacturers provide (or do not) documentation that isn’t as good as Epson’s. The printers that were used on our project didn’t have any documentation regarding ESCPOS commands. They were mainly used as printers connected via USB so the manufacturer driver took care of all the communication and configuration. In our case, we were communicating with sockets via the local network and we were using mobile devices as a source of printing so we were solely depending on the ESC/POS standard. One documentation worth mentioning is [this](https://escpos.readthedocs.io/en/latest/home.html) one. It’s nicely formatted and includes all the basic commands that are used in most cases.
 
-### ESC/POS commands
+## ESC/POS commands
 
-**Test printout**
+### **Test printout**
 
 This is a test printout that we have implemented in our app in order to check if defined fonts, margins, aligning work properly on a specific printer - it’s a must because of different device specifications and differences in ESC/POS interpretations that I’ve mentioned before. 
 
@@ -74,7 +78,7 @@ Let’s go through a couple of the first lines of bytes that are being sent to t
   * 27, 116, 49 - again setting code table
   * 70, 111, 110, 116, 83, 105, 122, 101, 46, 115, 109, 97, 108, 108, 10 - which converted to ASCII is “FontSize.small”
 
-**Fonts**
+### **Fonts**
 
 Every ESC/POS printer has a predefined set of [fonts](https://escpos.readthedocs.io/en/latest/font_cmds.html#select-character-font-1b-4d-rel-phx). This may be different based on the printer specification. 
 
@@ -82,7 +86,7 @@ In order to perfectly align your printouts you need to check your printer possib
 
 <div className="image">![](/images/blog_print_area_width.png "")</div>
 
-**What if we need functionality that is not in the documentation?**
+## What if we need functionality that is not in the documentation?
 
 During one recent implementation, we encountered such a problem. Our client, a restaurant POS provider,  asked for the 'buzzer' functionality that was available in the old software. This is a sound signal usually at the end of a printout to inform the kitchen about a new order. The problem was that there was no mention of this functionality in the documentation for our printer model, even though other models had it. An internet search was also unsuccessful. However, we knew that the old system, running on Windows, was able to do this, which prompted us to investigate.
 
