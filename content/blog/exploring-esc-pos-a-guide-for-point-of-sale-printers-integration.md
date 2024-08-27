@@ -24,8 +24,7 @@ ESC/POS (Epson Standard Code for Point of Sale) is a popularly used communicatio
 
 When developing a POS app, the decision to use esc/pos was immediate, we didn't even give it a second thought. Some pros of using esc/pos:
 
-* **Compatibility**
-
+* **Compatibility**\
   The ESC/POS protocol is supported by the majority of commercially available fiscal printers. Therefore, regardless of the manufacturer, most printers will be compatible with our system. 
 * **Ease of integration**\
   In legacy software, typically printers are connected to Windows via a cable and additional driver installation and management is required. In our new cloud-based approach, the mobile app can connect wirelessly directly to the printer by sending esc pos commands. This greatly simplifies the process of setting up and using printers.
@@ -40,7 +39,11 @@ ESC/POS defines a standard for printing but documentation may vary depending on 
 
 **Documentations - Epson**
 
+<div className="image">![quote](/images/blog_epson_docs.png "")</div>
+
 As you may assume the best [documentation](https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/index.html) is provided by the protocol creators - Epson. All commands are neatly provided in specific categories. You even have step-by-step receipt printout [examples](https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/receipt.html) which should cover most of the basic use cases. And last but not least - you have a [list](https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/applicables.html) of printers that support a specific method. So if you have to deal with Epson devices - lucky you : )
+
+<div className="image">![quote](/images/blog_applicable_printers.png "")</div>
 
 **Documentations - others**
 
@@ -51,6 +54,8 @@ Other manufacturers provide (or do not) documentation that isn’t as good as Ep
 **Test printout**
 
 This is a test printout that we have implemented in our app in order to check if defined fonts, margins, aligning work properly on a specific printer - it’s a must because of different device specifications and differences in ESC/POS interpretations that I’ve mentioned before. 
+
+<div className="image">![](/images/blog_receipt.png "")</div>
 
 Ok, so how does the printout look like in ESC/POS commands?\
 Let’s go through a couple of the first lines of bytes that are being sent to the printer:
@@ -75,15 +80,21 @@ Every ESC/POS printer has a predefined set of [fonts](https://escpos.readthedocs
 
 In order to perfectly align your printouts you need to check your printer possibilities when it comes to print area width, DPI (dots per inch) and font configuration. In our project, we calculate how many characters we can fit in a row based on the chosen font, line spacing (which also can be configured) and margin (some printers have predefined physical margins that can’t be changed!).
 
+<div className="image">![](/images/blog_print_area_width.png "")</div>
+
 **What if we need functionality that is not in the documentation?**
 
 During one recent implementation, we encountered such a problem. Our client, a restaurant POS provider,  asked for the 'buzzer' functionality that was available in the old software. This is a sound signal usually at the end of a printout to inform the kitchen about a new order. The problem was that there was no mention of this functionality in the documentation for our printer model, even though other models had it. An internet search was also unsuccessful. However, we knew that the old system, running on Windows, was able to do this, which prompted us to investigate.
 
 We decided to analyze what exactly Windows sends to the printer when the sound signal is activated. We configured the printer and connected it to the Windows PC using an Ethernet cable. We installed the drivers and configured the printer to sound at the beginning and end of each printout.
 
+<div className="image">![](/images/blog_end_document_operation.png "")</div>
+
 We used Wireshark to monitor our network traffic, setting filters to only see traffic going from our computer to the printer. To simplify things we printed blank documents.
 
 After several tests with different volume and sound length settings, we noticed that each printout generated five network events. Of these, only one contained the data (payload) we were interested in.
+
+<div className="image">![](/images/blog_network_events.png "")</div>
 
 This is what the data looked like in the right network package:
 
