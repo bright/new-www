@@ -83,3 +83,7 @@ Thank you. You too.
 \
 \
 [Sensars](https://www.sensars.com/) aims to offer a groundbreaking solution for millions suffering from chronic neuropathic pain. The potential impact on the medical field and patient care is immense. We are keeping our fingers crossed as Sensars progresses through clinical trials and moves toward market introduction.
+
+
+
+<EbookDynamic sectionTitle='explore more industry insights for HealthTech startup owners' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'From secure LLMs and app performance monitoring to business pivots – dive into solutions that will help you scale your software for healthcare.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='undefined' />
