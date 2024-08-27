@@ -1,8 +1,14 @@
 ---
 author: agata
+tags:
+  - business
+  - HealthTech
+  - inspiration
+  - business strategy
+  - business perspective
 date: 2024-08-26T11:29:59.990Z
 meaningfullyUpdatedAt: 2024-08-26T11:30:00.013Z
-title: Revolutionizing Pain Relief with AI. An Interview with Guy Siman of Sensars
+title: "Revolutionizing Pain Relief with AI: An Interview with Guy Siman of Sensars"
 layout: post
 image: /images/baner_final-5-.png
 hidden: false
@@ -12,15 +18,11 @@ language: en
 ---
 **Imagine a situation where physical pain could be turned off without any negative impact on the body. Sounds like something from a science fiction movie? It’s not; it’s actually beginning to happen, thanks to [Sensars](https://www.sensars.com/), a startup based in Switzerland that is taking neurostimulation to another level. They're revolutionizing the field by directly interacting with peripheral nerves. [Guy Siman](https://www.linkedin.com/in/guy-siman-66bb1b1/), a founder of Sensars, shares his journey and insights behind this innovative solution in an interview with Agata Bielówka, conducted at the HLTH Europe conference in Amsterdam in June 2024.**
 
-## Okay, so can you briefly introduce yourself and your solution?
+## Can you briefly introduce yourself and your solution?
 
 Yes, so my name is Guy Siman. I'm a co-founder and Chief Operating Officer at a medical device company called Sensars, based in Switzerland. We set out to treat chronic neuropathic pain, particularly in the foot, which affects over 2 million people each year worldwide that are intractable to medication and other solutions. We're doing this through neurostimulation, but not just any ordinary neurostimulation. We're transforming the way neurostimulation works. Instead of placing a lead next to a nerve, we safely inject microelectrodes inside a peripheral nerve.
 
-
-
 <div className="image">![Guy Siman](/images/baner_final-quote-frank-6-.png "")</div>
-
-
 
 ## What inspired you to develop Sensars and focus on treating chronic pain?
 
@@ -54,11 +56,7 @@ We have de-risked many technological challenges using our earlier prototype. Dev
 
 Making healthcare more accessible, especially through remote care, is a major trend. This was boosted during COVID-19 and is maintaining momentum. We, too, are going to facilitate remote access and monitoring to the patients’ progress of treatment.
 
-
-
 <div className="image">![Chronic Pain Treatment](/images/baner_final-quote-guy.png "Guy Siman Sensars")</div>
-
-
 
 ## Is there any medtech or e-health solution you follow and appreciate?
 
@@ -83,7 +81,5 @@ Thank you. You too.
 \
 \
 [Sensars](https://www.sensars.com/) aims to offer a groundbreaking solution for millions suffering from chronic neuropathic pain. The potential impact on the medical field and patient care is immense. We are keeping our fingers crossed as Sensars progresses through clinical trials and moves toward market introduction.
-
-
 
 <EbookDynamic sectionTitle='explore more industry insights for HealthTech startup owners' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'From secure LLMs and app performance monitoring to business pivots – dive into solutions that will help you scale your software for healthcare.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='undefined' />
