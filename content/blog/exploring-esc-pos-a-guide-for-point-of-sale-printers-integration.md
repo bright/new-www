@@ -43,11 +43,11 @@ ESC/POS defines a standard for printing but documentation may vary depending on 
 
 ### **Documentations - Epson**
 
-<div className="image">![quote](/images/blog_epson_docs.png "")</div>
+<div className="image">![Documentations - Epson](/images/blog_epson_docs.png "")</div>
 
 As you may assume the best [documentation](https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/index.html) is provided by the protocol creators - Epson. All commands are neatly provided in specific categories. You even have step-by-step receipt printout [examples](https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/receipt.html) which should cover most of the basic use cases. And last but not least - you have a [list](https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/applicables.html) of printers that support a specific method. So if you have to deal with Epson devices - lucky you : )
 
-<div className="image">![quote](/images/blog_applicable_printers.png "")</div>
+<div className="image">![applicable printers](/images/blog_applicable_printers.png "")</div>
 
 ### **Documentations - others**
 
@@ -59,7 +59,7 @@ Other manufacturers provide (or do not) documentation that isn’t as good as Ep
 
 This is a test printout that we have implemented in our app in order to check if defined fonts, margins, aligning work properly on a specific printer - it’s a must because of different device specifications and differences in ESC/POS interpretations that I’ve mentioned before. 
 
-<div className="image">![](/images/blog_receipt.png "")</div>
+<div className="image">![ESC-POS commands](/images/blog_receipt.png "")</div>
 
 Ok, so how does the printout look like in ESC/POS commands?\
 Let’s go through a couple of the first lines of bytes that are being sent to the printer:
@@ -84,7 +84,9 @@ Every ESC/POS printer has a predefined set of [fonts](https://escpos.readthedocs
 
 In order to perfectly align your printouts you need to check your printer possibilities when it comes to print area width, DPI (dots per inch) and font configuration. In our project, we calculate how many characters we can fit in a row based on the chosen font, line spacing (which also can be configured) and margin (some printers have predefined physical margins that can’t be changed!).
 
-<div className="image">![](/images/blog_print_area_width.png "")</div>
+<div className="image">![printable arena](/images/blog_print_area_width.png "")</div>
+
+Source: [Pyramid docs](https://escpos.readthedocs.io/en/latest/layout.html?highlight=width#print-area-width-1d-57-rel)
 
 ## What if we need functionality that is not in the documentation?
 
@@ -92,13 +94,13 @@ During one recent implementation, we encountered such a problem. Our client, a r
 
 We decided to analyze what exactly Windows sends to the printer when the sound signal is activated. We configured the printer and connected it to the Windows PC using an Ethernet cable. We installed the drivers and configured the printer to sound at the beginning and end of each printout.
 
-<div className="image">![](/images/blog_end_document_operation.png "")</div>
+<div className="image">![End Document Operation](/images/blog_end_document_operation.png "")</div>
 
 We used Wireshark to monitor our network traffic, setting filters to only see traffic going from our computer to the printer. To simplify things we printed blank documents.
 
 After several tests with different volume and sound length settings, we noticed that each printout generated five network events. Of these, only one contained the data (payload) we were interested in.
 
-<div className="image">![](/images/blog_network_events.png "")</div>
+<div className="image">![Network events](/images/blog_network_events.png "")</div>
 
 This is what the data looked like in the right network package:
 
