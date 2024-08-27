@@ -10,7 +10,7 @@ comments: true
 published: true
 language: en
 ---
-**Imagine a situation where physical pain could be turned off without any negative impact on the body. Sounds like something from a science fiction movie? It’s not; it’s actually beginning to happen, thanks to Sensars, a startup based in Switzerland that is taking neurostimulation to another level. They're revolutionizing the field by directly interacting with peripheral nerves. Guy Siman, a founder of Sensars, shares his journey and insights behind this innovative solution in an interview with Agata Bielówka, conducted at the HLTH Europe conference in Amsterdam in June 2024.**
+**Imagine a situation where physical pain could be turned off without any negative impact on the body. Sounds like something from a science fiction movie? It’s not; it’s actually beginning to happen, thanks to [Sensars](https://www.sensars.com/), a startup based in Switzerland that is taking neurostimulation to another level. They're revolutionizing the field by directly interacting with peripheral nerves. [Guy Siman](https://www.linkedin.com/in/guy-siman-66bb1b1/), a founder of Sensars, shares his journey and insights behind this innovative solution in an interview with Agata Bielówka, conducted at the HLTH Europe conference in Amsterdam in June 2024.**
 
 ## Okay, so can you briefly introduce yourself and your solution?
 
@@ -29,6 +29,10 @@ Chronic pain, especially distal pain like foot pain, affects a huge number of pe
 ## What makes your solution different from other similar solutions?
 
 The major difference is our approach to the nerve. Instead of stimulating from beside the nerve, we go inside the nerve with multiple microwires. This allows us to access the inside of almost any peripheral nerve. For treating pain, we target the sciatic nerve for the lower limb, but we can also target the vagus nerve for treating epilepsy, inflammation disorders, or obesity. This intimate access to the nerve allows us to selectively choose the fibers we want to stimulate, which is what differentiates us.
+
+<div className="image">![Sensars Pain Treatment](/images/sensars-graphic-1-.png "Sensars Pain Treatment")</div>
+
+source: https://www.sensars.com/
 
 ## Is it just hardware or a combination of hardware and software?
 
@@ -49,6 +53,12 @@ We have de-risked many technological challenges using our earlier prototype. Dev
 ## What trends do you see in health tech, apart from AI?
 
 Making healthcare more accessible, especially through remote care, is a major trend. This was boosted during COVID-19 and is maintaining momentum. We, too, are going to facilitate remote access and monitoring to the patients’ progress of treatment.
+
+
+
+<div className="image">![Chronic Pain Treatment](/images/baner_final-quote-guy.png "Guy Siman Sensars")</div>
+
+
 
 ## Is there any medtech or e-health solution you follow and appreciate?
 
@@ -72,4 +82,4 @@ Thank you. You too.
 
 \
 \
-Sensars aims to offer a groundbreaking solution for millions suffering from chronic neuropathic pain. The potential impact on the medical field and patient care is immense. We are keeping our fingers crossed as Sensars progresses through clinical trials and moves toward market introduction.
+[Sensars](https://www.sensars.com/) aims to offer a groundbreaking solution for millions suffering from chronic neuropathic pain. The potential impact on the medical field and patient care is immense. We are keeping our fingers crossed as Sensars progresses through clinical trials and moves toward market introduction.
