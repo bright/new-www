@@ -48,7 +48,7 @@ language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="bright" />
 
-<Gallery images='[{"src":"/images/swift.png","alt":"swift"},{"src":"/images/kotlin.png","alt":"kotlin"},{"src":"/images/android_stack_logo.svg","alt":"Android"}]' />
+<Gallery images='[{"src":"/images/swift_icon_stack.svg","alt":"swift"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"kotlin"},{"src":"/images/android_stack_logo.svg","alt":"Android"}]' />
 
 **technologies:** Swift, SwiftUI, Kotlin, App Clip, Instant Apps
 
