@@ -7,6 +7,9 @@ name: Why your clients will love food delivery integration? pos food delivery
 slug: why-your-clients-will-love-food-delivery-integration
 question: Why your clients will love food delivery integration?
 answer: >-
+  Restaurant staff will appreciate all the advantages including:
+
+
   * **Finally, all orders on 1 tablet**: putting an end to device clutter.
 
   * **Instant menu updates**: real-time automated menu synchronization.
