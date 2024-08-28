@@ -50,7 +50,7 @@ language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
-<Gallery images='[{"src":"/images/react_stack_logo.svg","alt":"React"},{"src":"/images/case-study_typescript_stack-logo.svg","alt":"TypeScript"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Node.js"},{"src":"/images/swift_icon_stack.svg","alt":"React"},{"src":"/images/realm_stack_logo.svg","alt":"Realm"},{"src":"/images/aws_stack_logo.svg","alt":"AWS"}]' />
+<Gallery images='[{"src":"/images/react_stack_logo_update.svg","alt":"React"},{"src":"/images/case-study_typescript_stack-logo.svg","alt":"TypeScript"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Node.js"},{"src":"/images/swift_icon_stack.svg","alt":"React"},{"src":"/images/realm_stack_logo.svg","alt":"Realm"},{"src":"/images/aws_stack_logo.svg","alt":"AWS"}]' />
 
 **technology**: React, TypeScript, Kotlin, Spring Boot, Swift, Realm, AWS
 
