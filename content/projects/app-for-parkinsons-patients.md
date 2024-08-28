@@ -42,7 +42,7 @@ language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
-<Gallery images='[{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/node_stack_logosvg.svg","alt":"Node.js"},{"src":"/images/case-study_typescript_stack-logo.svg","alt":"TypeScript"},{"src":"/images/aws_stack_logo.svg","alt":"AWS"}]' />
+<Gallery images='[{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/node_stack_logo_update.svg","alt":"Node.js"},{"src":"/images/case-study_typescript_stack-logo.svg","alt":"TypeScript"},{"src":"/images/aws_stack_logo.svg","alt":"AWS"}]' />
 
 **technologies**: Swift, Kotlin, Node.js, Typescript, AWS
 
