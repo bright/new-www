@@ -60,7 +60,7 @@ Imagine stepping into the **bureaucratic world of construction site personnel**,
 
 **What if all this paperwork were just one click away on a smartphone or tablet?** Critical documents would no longer be misplaced or damaged at construction sites, and access to sensitive information would be limited to individuals with the appropriate credentials.
 
-<div className="image">![construction site](../../static/images/constructions.png "construction site")</div>
+<div className="image">![A quote from the client](../../static/images/baumappe_quote_leon.png "Client's perspective")</div>
 
 <TitleWithIcon sectionTitle="solution: digital document sharing with a mobile app" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution" />
 
@@ -91,8 +91,6 @@ Internet access is typically unreliable at construction sites. Therefore from th
 *The collaboration with Bright Inventions started off very promising. Based on our business needs, **they gave great architectural advice, important technical information, and overall good guidance**, which allowed an ambitious start into the project.*
 
 *After months of smooth development and satisfying output, we were challenged with some very critical technical barriers, which collided with our business vision of the app. Due to great proactive efforts on Bright Inventions side, the Heinrich Schmid IT team, and the good communication towards our third-party backend developer team, we overcame this hurdle and managed to get the app behavior as envisioned and desired.* 
-
-<div className="image">![A quote from the client](../../static/images/baumappe_quote_leon.png "Client's perspective")</div>
 
 *With the currently ongoing MVP release, the only point of criticism our users raised is the following: “We want more features!”. Therefore, the **MVP release is a great success** so far and we envision a lot more features to come in the app, together with our partner Bright Inventions.*
 
