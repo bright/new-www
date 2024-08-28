@@ -45,7 +45,7 @@ language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
-<Gallery images='[{"src":"/images/pwa_stack_logo.svg","alt":"PWA"},{"src":"/images/aws_stack_logo.svg","alt":"AWS Lambda"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/react_stack_logo_update.svg","alt":"React"}]' />
+<Gallery images='[{"src":"/images/pwa_stack_logo.svg","alt":"PWA"},{"src":"/images/aws_stack_logo.svg","alt":"AWS Lambda"},{"src":"/images/node_stack_logo_update.svg","alt":"Node.js"},{"src":"/images/react_stack_logo_update.svg","alt":"React"}]' />
 
 technologies: PWA, AWS Lambda, Node.js, React.
 
