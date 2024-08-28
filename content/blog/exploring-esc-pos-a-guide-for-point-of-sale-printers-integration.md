@@ -5,13 +5,13 @@ thirdAuthor: null
 tags:
   - POS
   - development
-date: 2024-08-29T10:24:27.395Z
-meaningfullyUpdatedAt: 2024-08-29T10:24:27.407Z
+date: 2024-08-28T07:04:05.777Z
+meaningfullyUpdatedAt: 2024-08-28T07:04:06.287Z
 slug: esc-pos-integrating-point-of-sale-printers
 title: "Exploring ESC/POS: Integrating Point of Sale Printers"
 layout: post
 image: /images/pos_printer_integrations_blog_cover.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
