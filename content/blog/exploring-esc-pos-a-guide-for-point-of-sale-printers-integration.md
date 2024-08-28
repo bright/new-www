@@ -11,7 +11,7 @@ slug: esc-pos-integrating-point-of-sale-printers
 title: "Exploring ESC/POS: Integrating Point of Sale Printers"
 layout: post
 image: /images/pos_printer_integrations_blog_cover.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
