@@ -262,6 +262,7 @@ const Content = styled.div`
   }
 
   code {
+    line-break: anywhere;
     border-radius: 4px;
     padding: 4px 6px;
     margin: 0 1px;
