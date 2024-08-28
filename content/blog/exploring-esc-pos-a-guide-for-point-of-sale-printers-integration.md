@@ -16,7 +16,7 @@ comments: true
 published: true
 language: en
 ---
-**During the development of a point-of-sale solution for our client, we encountered several unexpected challenges with POS printers that weren't fully addressed by the manufacturer's documentation. From understanding the basics of ESC/POS commands to implementing advanced features like adding a 'buzzer' function on printers that seemingly don't support it, this tutorial shows how to overcome various hurdles while integrating thermal printers with a POS system.**
+**During the [development of a point-of-sale solution](/projects/pos-legacy/) for our client, we encountered several unexpected challenges with POS printers that weren't fully addressed by the manufacturer's documentation. From understanding the basics of ESC/POS commands to implementing advanced features like adding a 'buzzer' function on printers that seemingly don't support it, this tutorial shows how to overcome various hurdles while integrating thermal printers with a POS system.**
 
 <div className="image">![pos printer integrations](/images/pos_printer_integrations_blog_cover.png "")</div>
 
@@ -51,7 +51,7 @@ As you may assume the best [documentation](https://download4.epson.biz/sec_pubs/
 
 ### **Documentations - others**
 
-Other manufacturers provide (or do not) documentation that isn’t as good as Epson’s. The printers that were used on our project didn’t have any documentation regarding ESCPOS commands. They were mainly used as printers connected via USB so the manufacturer driver took care of all the communication and configuration. In our case, we were communicating with sockets via the local network and we were using mobile devices as a source of printing so we were solely depending on the ESC/POS standard. One documentation worth mentioning is [this](https://escpos.readthedocs.io/en/latest/home.html) one. It’s nicely formatted and includes all the basic commands that are used in most cases.
+Other manufacturers provide (or do not) documentation that isn’t as good as Epson’s. The printers that were used on our project didn’t have any documentation regarding ESC/POS commands. They were mainly used as printers connected via USB so the manufacturer driver took care of all the communication and configuration. In our case, we were communicating with sockets via the local network and we were using mobile devices as a source of printing so we were solely depending on the ESC/POS standard. One documentation worth mentioning is [this](https://escpos.readthedocs.io/en/latest/home.html) one. It’s nicely formatted and includes all the basic commands that are used in most cases.
 
 ## ESC/POS commands
 
