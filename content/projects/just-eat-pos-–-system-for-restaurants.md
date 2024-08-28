@@ -74,7 +74,7 @@ language: en
 
 <TitleWithIcon sectionTitle="Bright Inventions’ technology stack and skills:" titleIcon="/images/skills.svg" titleIconAlt="stack" />
 
-<Gallery images='[{"src":"/images/react.png","alt":"React"},{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/firebase_logo_stack.png","alt":"Firebase"},{"src":"/images/realm_stack_logo.png","alt":"Realm"},{"src":"/images/fastlane_logo_stack.png","alt":"Fastlane"}]' />
+<Gallery images='[{"src":"/images/react_stack_logo_update.svg","alt":"React"},{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/firebase_logo_stack.png","alt":"Firebase"},{"src":"/images/realm_stack_logo.png","alt":"Realm"},{"src":"/images/fastlane_logo_stack.png","alt":"Fastlane"}]' />
 
 **technologies:** React, TypeScript, Kotlin, Swift, Realm, Firebase, Fastlane
 
