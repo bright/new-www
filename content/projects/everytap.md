@@ -42,7 +42,7 @@ published: true
 work_in_progress: false
 language: en
 ---
-<TitleWithIcon sectionTitle="main Finebite tech elements:" titleIcon="/images/main_features_icon.png" titleIconAlt="Main features of BrightTreasury:" />
+<TitleWithIcon sectionTitle="main Finebite tech elements:" titleIcon="/images/main_features_icon.png" titleIconAlt="Main features:" />
 
 * Highly polished user interface
 * Integration with restaurants management systems
@@ -64,7 +64,7 @@ Since Everytap first launched in 2014, it has steadily transformed from a restau
 
 Bright Inventions has worked on the ideation and development of both platforms, as discussed below.
 
-![food app development](../../static/images/foodapp_spinach.png "")
+![food app development](../../static/images/foodapp_spinach.png)
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
@@ -86,7 +86,7 @@ Back in 2014, the founders have entrusted us with developing an app that would r
 
 With this idea in mind, the founders have asked for our assistance in verifying the concept against the market and building two native apps for iOS and Android. The app was to leverage users’ geolocalization to show personalized deals at nearby restaurants and allow them to collect loyalty points upon payment.
 
-![Restaurant reservation app](../../static/images/foodapp_trio2.png "")
+![Restaurant reservation app](../../static/images/foodapp_trio2.png)
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
@@ -128,7 +128,7 @@ From a technological standpoint, the key difference between both apps was that w
 
 From a user’s perspective, the app is now much more intuitive, features a cohesive design, and offers top-notch performance.
 
-![food app development](../../static/images/foodapp_pumpkin.png "")
+![food app development](../../static/images/foodapp_pumpkin.png)
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
