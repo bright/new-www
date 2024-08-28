@@ -51,7 +51,7 @@ As you may assume the best [documentation](https://download4.epson.biz/sec_pubs/
 
 ### **Documentations - others**
 
-Other manufacturers provide (or do not) documentation that isn’t as good as Epson’s. The printers that were used on our project didn’t have any documentation regarding ESCPOS commands. They were mainly used as printers connected via USB so the manufacturer driver took care of all the communication and configuration. In our case, we were communicating with sockets via the local network and we were using mobile devices as a source of printing so we were solely depending on the ESC/POS standard. One documentation worth mentioning is [this](https://escpos.readthedocs.io/en/latest/home.html) one. It’s nicely formatted and includes all the basic commands that are used in most cases.
+Other manufacturers provide (or do not) documentation that isn’t as good as Epson’s. The printers that were used on our project didn’t have any documentation regarding ESC/POS commands. They were mainly used as printers connected via USB so the manufacturer driver took care of all the communication and configuration. In our case, we were communicating with sockets via the local network and we were using mobile devices as a source of printing so we were solely depending on the ESC/POS standard. One documentation worth mentioning is [this](https://escpos.readthedocs.io/en/latest/home.html) one. It’s nicely formatted and includes all the basic commands that are used in most cases.
 
 ## ESC/POS commands
 
