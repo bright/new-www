@@ -48,8 +48,6 @@ published: true
 work_in_progress: false
 language: en
 ---
-<div className="image">![system for restaurants mockups](/images/pos_practi_jet_mockup.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")</div>
-
 <TitleWithIcon sectionTitle="main products developed for Just Eat POS:" titleIcon="/images/icon_title_products.svg" titleIconAlt="applications" />
 
 **Just Eat POS system took care of the whole process of managing restaurant orders: from ordering the meal, providing kitchen staff with details to delivering the order to the client’s table or home**. It also supported daily running of the restaurant by managing employees time, creating menus or providing tools to build their own restaurant website.
@@ -66,9 +64,7 @@ language: en
 
 <SliderText sliderElements='[{"title":"Food ordering management","description":"Taking care of the whole process from ordering the meal to delivering the order."},{"title":"Transactions processing","description":"Including implementing offline mode, integration with payment service providers and receipt printing."},{"title":"Integrations with external systems and providers","description":"Integration with payment service providers as well as online food delivery services."},{"title":"Integration with online food delivery services","description":"Easy management of orders from different platforms in one device. "},{"title":"Team management and tracking","description":"Employees time tracking, managing team roles e.g. cashier, manager etc. Delivery tracking."},{"title":"Supply management","description":"Inventory management and supply ordering."},{"title":"Analytics","description":"Business analytics platform reporting sales and financial information."}]' />
 
-<div className="image">![retail system case study](../../static/images/retail_system_case_study.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")</div>
-
-*It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
+<div className="image">![system for restaurants mockups](/images/pos_practi_jet_mockup.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")</div>
 
 <TitleWithIcon sectionTitle="Bright Inventions’ technology stack and skills:" titleIcon="/images/skills.svg" titleIconAlt="stack" />
 
