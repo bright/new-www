@@ -55,11 +55,9 @@ language: en
 
 <TitleWithIcon sectionTitle="stack" titleIcon="/images/skills.svg" titleIconAlt="bright" />
 
-<Gallery images='[{"src":"/images/react_stack_logo_update.svg","alt":"React"},{"src":"/images/typescript_logo.png","alt":"TypeScript"},{"src":"/images/node_stack_logo_update.svg","alt":"Node"},{"src":"/images/nest.png"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"}]' />
+<Gallery images='[{"src":"/images/react_stack_logo_update.svg","alt":"React"},{"src":"/images/typescript_logo.png","alt":"TypeScript"},{"src":"/images/node_stack_logo_update.svg","alt":"Node"},{"src":"/images/nest.png"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws_stack_logoupdate2.svg","alt":"AWS"}]' />
 
-**Frontend:** React, TypeScript
-
-**Backend:** Node.js, NestJS, TypeScript, PostgreSQL, AWS Services
+**technologies:** React, TypeScript, Node.js, NestJS, TypeScript, PostgreSQL, AWS Services
 
 <TitleWithIcon sectionTitle="about BrightTreasury" titleIcon="/images/three_flags.svg" titleIconAlt="about BrightTreasury" />
 
