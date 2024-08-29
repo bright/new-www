@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2023-01-30T07:53:07.012Z
 title: Frontend Developer with an Appetite for Backend. Meet Szymon
 layout: post
 image: /images/brightstoryszymon.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
