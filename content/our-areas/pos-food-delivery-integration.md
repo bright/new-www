@@ -129,6 +129,7 @@ testimonials:
     testimonials_author: Kira Nezu
     testimonials_position: Project Manager
     testimonials_company: AppAdvisors GmbH
+    testimonials_photo: /images/kira_nezu.jpeg
   - testimonials_quote: "*Bright inventions and the whole team is always with full
       heart at the project, understands our logic and intention behind and
       respects our requests and demands*. [Read more on
@@ -136,6 +137,7 @@ testimonials:
     testimonials_author: Matthias Potthast
     testimonials_position: Founder
     testimonials_company: Relevo
+    testimonials_photo: /images/matthias_potthast.png
 ---
 ## food delivery platforms we integrate with
 
