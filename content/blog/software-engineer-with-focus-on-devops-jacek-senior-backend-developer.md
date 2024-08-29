@@ -11,7 +11,7 @@ title: Software Engineer with a Focus on DevOps. Meet Jacek – a Senior Backend
   Developer
 layout: post
 image: /images/brightstoryjacek.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
