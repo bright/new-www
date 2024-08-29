@@ -51,7 +51,7 @@ language: en
 
 <TitleWithIcon sectionTitle="stack" titleIcon="/images/skills.svg" titleIconAlt="bright" />
 
-<Gallery images='[{"src":"/images/react_stack_logo_update.svg","alt":"React"},{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/nest.png","alt":"NestJS"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/docker_stack_logo.png","alt":"Docker"},{"src":"/images/aws.png","alt":"AWS"}]' />
+<Gallery images='[{"src":"/images/react_stack_logo_update.svg","alt":"React"},{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/nest.png","alt":"NestJS"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/docker_stack_logo.png","alt":"Docker"}]' />
 
 * FrontEnd: React + TypeScript
 * Backend: NestJS, TypeORM, PostgreSQL
