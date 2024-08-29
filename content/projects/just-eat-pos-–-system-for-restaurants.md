@@ -48,9 +48,7 @@ published: true
 work_in_progress: false
 language: en
 ---
-<div className="image">![system for restaurants mockups](../../static/images/retail_system_mockups.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")</div>
-
-*It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
+<div className="image">![system for restaurants mockups](/images/pos_practi_jet_mockup.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")</div>
 
 <TitleWithIcon sectionTitle="main products developed for Just Eat POS:" titleIcon="/images/icon_title_products.svg" titleIconAlt="applications" />
 
