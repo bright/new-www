@@ -15,7 +15,7 @@ description: >
   and organize all assets needed for industry events.
 hero_image: /images/case_study_event_management_fair_app.png
 Hero Image_alt: event manegement app
-social_media_previev: /images/xpomaker_fb_preview.png
+social_media_previev: /images/fb_preview_case_study_trade_fairs_software.png
 social_media_previev_alt: xpomaker case study
 bar_achievements:
   - number: "1"
