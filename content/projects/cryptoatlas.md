@@ -6,7 +6,7 @@ our_service:
   - MVP development
 layout: project
 project_id: cryptoAtlas
-title: User-Driven Development in the Cryptocurrency World
+title: "CryptoAtlas: User-Driven Development in the Cryptocurrency World"
 image: /images/cryptoportal2.png
 description: CryptoAtlas is a social platform connecting people passionate about
   cryptocurrency. The first and only place where you can find crypto news,
