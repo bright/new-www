@@ -3,23 +3,23 @@ team_members:
   - bartosz
   - jedrzej-s
   - malgorzata-z
-  - maciej-n
   - karol r
   - piotr
   - radek-l
   - bartek k
+  - tomasz-sch
 our_service:
   - MVP development
   - web development
 layout: project
 project_id: Practi JET POS
 title: "Just Eat POS: From Startup to Global ePOS Provider"
-image: /images/restaurant_system_cover.png
+image: /images/case_study_pos_jet_global.png
 description: Just Eat POS was a retail system used by restaurants in Israel and
   the UK. We worked on this project for almost a decade.
-hero_image: /images/case_study_pos_solution.png
+hero_image: /images/case_study_pos_solution_global.png
 Hero Image_alt: Just Eat POS
-social_media_previev: /images/fb_preview_just_eat_pos_case_study.png
+social_media_previev: /images/fb_preview_just_eat_pos_case_study_update.png
 social_media_previev_alt: Just Eat POS
 bar_achievements:
   - number: "9"
@@ -90,9 +90,7 @@ Therefore **scalability was the key**. Our teams took care of rebuilding some ap
 
 The increasing number of users also meant that **Bright Inventions’s team had to actively monitor services, especially metrics such as CPU usage, number of database connections and average response time**. The goal was to predict and solve any potential issues before they could affect clients.
 
-<div className="image">![retail system case study](../../static/images/retail_restaurant_system_case_study.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")</div>
-
-*It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
+<div className="image">![POS case study](/images/pos_practi_jet_mockup.png "")</div>
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
@@ -116,7 +114,7 @@ One of Bright Inventions Frontend team **priorities was the development of the J
   Inventory management.
 * Setting up basic restaurant configurations e.g. taxes, operating hours, delivery hours, delivery charge and more.
 
-<div className="image">![System for restaurant](../../static/images/restaurant_web_app.png "undefined")</div>
+<div className="image">![POS sales reports case study](/images/pos_reports_sales.png "")</div>
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
@@ -125,6 +123,8 @@ One of Bright Inventions Frontend team **priorities was the development of the J
 The Backoffice system had been on the market for around 10 years. Therefore one of the priorities of the frontend team was to **migrate the app to modern technology while delivering new features** to users who used this platform everyday at work. 
 
 Thanks to the trust of the client, **the team took part in the decision-making process regarding which libraries, tools and technologies to choose** to rewrite the platform. The migration didn't include only changing to newest technologies. The essential part of it was also implementation of new designs maintaining the best possible UX and UI experience.
+
+<div className="image">![POS payment options case study](/images/pos_payment_option.png "")</div>
 
 ### Backend team
 
@@ -136,11 +136,13 @@ Additionally, the **Backend team paid much attention to the performance**. Since
 
 Data we stored provided our client with significant insight into the behaviour of our customers. Feeding this data into the data lake gave the data science team a way to study the customers, and helped make more meaningful, data-driven features.
 
+<div className="image">![POS table management case study](/images/pos_table_management.png "")</div>
+
 ### Backend integrations team
 
 This team **took care of integrations with food delivery platforms and menu platforms**. Thanks to their work restaurants using Just Eat POS solution could change the menu in only one place and it would be automatically updated on every possible platform the restaurant used to display its menu.
 
-Another responsibility of this team was i**ntegrations with online food order and delivery providers like Just Eat or Takeaway.** The goal of backend integrations team was to enable management of orders from different platforms in one device. So restaurant employees didn't have to use different apps and devices to take care of orders from other platforms.
+Another responsibility of this team was **integrations with online food order and delivery providers like Just Eat or Takeaway.** The goal of backend integrations team was to enable management of orders from different platforms in one device. So restaurant employees didn't have to use different apps and devices to take care of orders from other platforms.
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
