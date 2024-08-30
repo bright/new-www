@@ -1,9 +1,9 @@
 ---
 team_members:
   - kasia
-  - robert
   - joanna-c
   - michal
+  - agnieszka
 our_service:
   - MVP development
   - web development
