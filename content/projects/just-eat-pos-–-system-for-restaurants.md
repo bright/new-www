@@ -14,7 +14,7 @@ our_service:
 layout: project
 project_id: Practi JET POS
 title: "Just Eat POS: From Startup to Global ePOS Provider"
-image: /images/restaurant_system_cover.png
+image: /images/case_study_pos_jet_global.png
 description: Just Eat POS was a retail system used by restaurants in Israel and
   the UK. We worked on this project for almost a decade.
 hero_image: /images/case_study_pos_solution_global.png
