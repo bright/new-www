@@ -2,12 +2,12 @@
 team_members:
   - agnieszka
   - rafal h
-  - robert
   - piotr_r
   - kasia
   - maja
   - joanna-c
   - lukasz
+  - daniel
 faqs:
   - blockchain 1
   - blockchain 2
