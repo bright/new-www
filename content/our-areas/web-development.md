@@ -6,8 +6,8 @@ team_members:
   - mateusz
   - maja
   - agnieszka
-  - robert
   - joanna-c
+  - adam-w
 faqs:
   - web development 1
   - web development 2
