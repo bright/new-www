@@ -25,8 +25,8 @@ project:
 layout: our-service
 our_service_id: POS food delivery platforms integration
 meta_title: Customized food delivery integration for your POS
-meta_description: POS integration with Uber Eats, Wolt, Just Eat Takaway and
-  more tailored to your point of sale system.
+meta_description: POS integration with Uber Eats, Wolt, Just Eat Takaway (and
+  more) tailored to your point of sale system.
 our_services_icon: /images/pos_food_delivery_integration.png
 name: POS food delivery integration
 slug: food-delivery-pos-integration
@@ -41,7 +41,7 @@ image_our_service_mobile: /images/pos_devlivery_platforms_mobile.png
 image_alt_our_service: food delivery platforms POS
 bullet_points:
   - 12 years of scaling POS systems
-  - EU-based company
+  - EU-based software studio
   - A part of Nordic Group Lyvia
 bar_stack:
   - iOS
