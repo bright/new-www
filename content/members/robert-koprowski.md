@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: robert
-ex: false
+ex: true
 slug: robert
 name: Robert Koprowski
 short_name: Robert
