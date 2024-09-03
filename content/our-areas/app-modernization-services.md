@@ -69,6 +69,7 @@ blog_section: false
 blog_section_tags:
   - business strategy
 blog_section_title: read more
+show_team: true
 ---
 Is your system older than some of the engineers who work on it?
 

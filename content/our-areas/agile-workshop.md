@@ -78,6 +78,7 @@ description_mdx: We live and breathe Agile. For almost a decade we have used
   experience to help you solve your project management and process problems. We
   offer face to face meetings (across Europe) and online workshops as well.
 image_our_service: /images/agile_workshops_small.png
+show_team: true
 ---
 
 ## who will benefit from an Agile workshop?

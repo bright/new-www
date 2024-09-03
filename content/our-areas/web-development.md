@@ -81,6 +81,7 @@ description_mdx: We provide a wide range of **custom full-stack web development
   tailor-made to fit our clients’ goals. We’ve worked with clients from the UK,
   the USA, Germany, Netherlands and more.
 image_our_service: /images/picture.png
+show_team: true
 ---
 ## web development services
 

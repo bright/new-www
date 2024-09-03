@@ -77,6 +77,7 @@ description_mdx: Join the serverless movement. Improve security and reduce costs
   assist you every step of the way. Since 2012 we have developed applications in
   the cloud for startups and mid-sized organisations.
 image_our_service: /images/cloudservices1.png
+show_team: true
 ---
 ## AWS cloud services
 

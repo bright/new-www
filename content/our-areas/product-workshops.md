@@ -79,6 +79,7 @@ description_mdx: >-
 
   Our workshop team will adapt the workshop just for your exclusive case and adjust the whole process for your individual needs. **Due to the global pandemic situation, we offer online workshops as well.**
 image_our_service: /images/productworkshops_small.png
+show_team: true
 ---
 ## when product workshops will be a good fit for you?
 

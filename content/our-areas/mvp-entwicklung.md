@@ -65,6 +65,7 @@ title_contact: in 48 Stunden eine kostenlose Beratung buchen
 description_contact: Erzählen Sie uns mehr über Ihr Projekt oder Ihre Idee für
   eine App. Füllen Sie das Formular aus.
 language: de
+show_team: true
 ---
 ## ist MVP das Richtige für Ihr Unternehmen?
 

@@ -78,6 +78,7 @@ description_mdx: We deliver Bluetooth-based solutions. We have developed
   solutions and iBeacon technology. We deliver customized mobile & web
   applications connected with hardware thanks to Bluetooth technology.
 image_our_service: /images/bluetooth_development_poland.png
+show_team: true
 ---
 ## what is Bluetooth and why you might need it?
 
