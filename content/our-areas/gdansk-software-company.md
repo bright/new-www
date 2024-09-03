@@ -68,6 +68,7 @@ blog_section: false
 blog_section_tags:
   - programming
 blog_section_title: blog posts
+show_team: true
 ---
 Welcome to Gdańsk, the city that embraces its 1000-year history while emerging as one of the most vibrant technological hubs in Poland. 
 
