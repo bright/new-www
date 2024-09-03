@@ -889,6 +889,12 @@ const config = {
         languageWidget,
         ...blogSectionWidget,
         testimonialsWidget,
+        {
+          label: 'Show team',
+          name: 'show_team',
+          widget: 'boolean',
+          default: true,
+        },
       ],
     },
     {

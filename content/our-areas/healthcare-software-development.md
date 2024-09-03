@@ -72,6 +72,7 @@ blog_section: false
 blog_section_tags:
   - HealthTech
 blog_section_title: our team’s insights into AI development
+show_team: true
 ---
 ## healthtech consulting
 
