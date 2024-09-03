@@ -12,6 +12,9 @@ import { DribbleIcon } from '../icons/Dribble.icon'
 import { useTranslation } from 'react-i18next'
 import { SuccessStoryBox } from './SuccessStoryBox'
 import { useBalanceHeights } from './use-balance-heights'
+import { useWindowSize } from '../utils/use-windowsize'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
 
 export const ProjectCustomSection = styled(CustomSection) <{ isFiltered?: boolean }>`
   & .success-story-wrapper {
@@ -307,6 +310,8 @@ export const Projects: React.FC<ProjectsProps> = ({
 }) => {
   const balancedListRef = useRef<HTMLDivElement>(null)
   let projects: Array<ProjectModel> = []
+  const { width } = useWindowSize()
+  const breakpointTablet = 992
 
   useBalanceHeights(balancedListRef)
 
@@ -334,7 +339,7 @@ export const Projects: React.FC<ProjectsProps> = ({
     <ProjectCustomSection paddingProps=' 0rem 15rem 4rem 15rem' isFiltered={isFiltered} >
       {isDefaultTitle && isFetchProject && <CustomSectionTitle>success stories</CustomSectionTitle>}
       <div ref={balancedListRef} className='is-clearfix success-story-wrapper'>
-        <BlockSmall className='is-pulled-right'>
+        <BlockSmall className='is-pulled-right is-hidden-mobile'>
           <span>{t('visit our online portfolio:')}</span>
           <a target='_blank' href='https://www.behance.net/BrightInventions/' aria-label='Behance'>
             Behance
@@ -346,7 +351,8 @@ export const Projects: React.FC<ProjectsProps> = ({
           </a>
         </BlockSmall>
 
-        {getFilteredProjectWithoutCurrent(projects).map((project, ix) => {
+
+        {width >= breakpointTablet && getFilteredProjectWithoutCurrent(projects).map((project, ix) => {
           const { title, image, slug, layout, published } = project
           const currentProject: ProjectModel = { title, image, slug, layout, published: published ? 'true' : 'false' }
 
@@ -354,6 +360,24 @@ export const Projects: React.FC<ProjectsProps> = ({
             <SuccessStoryBox key={ix} project={currentProject} className={`is-pulled-${ix % 2 ? 'right' : 'left'}`} />
           )
         })}
+
+        {width < breakpointTablet && <Swiper
+          slidesPerView={1.1}
+          spaceBetween={16}
+          loop={false}
+        >
+          {getFilteredProjectWithoutCurrent(projects).map((project, ix) => {
+            const { title, image, slug, layout, published } = project
+            const currentProject: ProjectModel = { title, image, slug, layout, published: published ? 'true' : 'false' }
+
+            return (
+              <SwiperSlide key={project.slug}>
+                <SuccessStoryBox key={ix} project={currentProject} className={`is-pulled-${ix % 2 ? 'right' : 'left'}`} />
+              </SwiperSlide>
+            )
+          })}
+        </Swiper>}
+
         {isSelectedTag && (
           <Confidential
             className={`${projects.length % 2 ? ' is-pulled-right confidential ' : ' is-pulled-left confidential   '}`}
