@@ -16,7 +16,7 @@ comments: true
 published: true
 language: en
 ---
-**Imagine a situation where physical pain could be turned off without any negative impact on the body. Sounds like something from a science fiction movie? It’s not; it’s actually beginning to happen, thanks to [Sensars](https://www.sensars.com/), a startup based in Switzerland that is taking neurostimulation to another level. They're revolutionizing the field by directly interacting with peripheral nerves. [Guy Siman](https://www.linkedin.com/in/guy-siman-66bb1b1/), a founder of Sensars, shares his journey and insights behind this innovative solution in an interview with Agata Bielówka, conducted at the HLTH Europe conference in Amsterdam in June 2024.**
+**Imagine a world where physical pain can be switched off in one medical procedure, without any side effects. Sounds like something from a science fiction movie? It’s not; it’s actually beginning to happen, thanks to [Sensars](https://www.sensars.com/), a startup based in Switzerland that is taking neurostimulation to another level. They're revolutionizing the field by directly interacting with peripheral nerves. [Guy Siman](https://www.linkedin.com/in/guy-siman-66bb1b1/), a founder of Sensars, shares his journey and insights behind this innovative solution in an interview with Agata Bielówka, conducted at the HLTH Europe conference in Amsterdam in June 2024.**
 
 ## Can you briefly introduce yourself and your solution?
 
