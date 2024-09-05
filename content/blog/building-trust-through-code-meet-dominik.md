@@ -48,7 +48,7 @@ Therefore, **I always propose an alternative – a simpler solution, achieving t
 
 <div className="image">![During the Ehab Tribe Summit with the Bright Inventions team in Sweden.](/images/team_dominik_sweden.png "")</div>
 
-*During the Ehab Tribe Summit with the Bright Inventions team in Sweden.*
+*<center>During the Ehab Tribe Summit with the Bright Inventions team in Sweden.</center>*
 
 ## You are a part of the team developing a mental health solution. How does this influence your daily programming work?
 
@@ -66,13 +66,15 @@ When I decided to make a career switch, I initially chose frontend development b
 
 However, after concentrating solely on frontend for three years, it started to feel tedious, and I wanted to understand the development process more holistically. **It's the best situation when I get to build a feature from start to finish as a fullstack developer**. So, I would definitely consider myself a fullstack developer now – I wouldn't want to choose just one. Fullstack development is much more stimulating and offers more learning opportunities.
 
+<div class='block-button'><h2>join Dominik</h2><div>We are seeking bright minds that value team work, responsibility and would like to create software solutions that matter. Check job openings!</div><a href="/career/"><button>see job offers</button></a></div>
+
 ## You joined Bright Inventions almost 3 years ago. Do you enjoy working here?
 
 I'm happy working here. So far, **I've met only fantastic coworkers**. It’s also clear that Ula and other managers genuinely care about the employees’ overall well-being, ensuring that we have opportunities to continue developing.
 
 <div className="image">![During office Christmas party.](/images/team_dominik_christmas.png "")</div>
 
-*During office Christmas party.*
+*<center>During office Christmas party.</center>*
 
 ## I know you are a bookworm. What book would you recommend to programmers that isn't about programming?
 
