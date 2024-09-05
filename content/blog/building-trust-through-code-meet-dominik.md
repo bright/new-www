@@ -45,3 +45,7 @@ Also, having close contact with clients in civil engineering has been beneficial
 It depends on the issue, but usually, I try to present the problem from a business perspective. In some cases, **clients desire overly complicated features, which might lead to more errors needing later fixes**, thus increasing the software development workload that could have been allocated to other features. 
 
 Therefore, **I always propose an alternative – a simpler solution, achieving the same goals, that will consume fewer resources and be less prone to bugs**. Highlighting the aspects of time and money helps non-technical stakeholders make informed decisions.
+
+<div className="image">![During the Ehab Tribe Summit with the Bright Inventions team in Sweden.](/images/team_dominik_sweden.png "")</div>
+
+*During the Ehab Tribe Summit with the Bright Inventions team in Sweden.*
