@@ -57,3 +57,5 @@ At first glance, code is just code to programmers, and it might not seem to matt
 When app users, who may be dealing with mental health issues like depression or anxiety, download the app, they need to trust it. They won't do this if the app is full of bugs, UI issues, and other problems. So, **everything we do either builds trust or risks destroying it**. This definitely distinguishes mental health solutions from other types of apps, like entertainment ones. 
 
 <div className="image">![quote](/images/dominik_quote_trust.png "")</div>
+
+Feeling this responsibility, I really appreciate being part of the product development process, where **we work closely with the client to come up with solutions** that not only help scale the product but also maintain our users' trust.
