@@ -59,3 +59,9 @@ When app users, who may be dealing with mental health issues like depression or 
 <div className="image">![quote](/images/dominik_quote_trust.png "")</div>
 
 Feeling this responsibility, I really appreciate being part of the product development process, where **we work closely with the client to come up with solutions** that not only help scale the product but also maintain our users' trust.
+
+## You joined Bright Inventions as a frontend developer, but you also have experience with the backend. Do you consider yourself a fullstack developer?
+
+When I decided to make a career switch, I initially chose frontend development because I had some experience in building websites. I understood HTML and CSS, which I thought would help me at the beginning. I also enjoyed the fact that with frontend development, you can quickly see the effects of your work. 
+
+However, after concentrating solely on frontend for three years, it started to feel tedious, and I wanted to understand the development process more holistically. **It's the best situation when I get to build a feature from start to finish as a fullstack developer**. So, I would definitely consider myself a fullstack developer now – I wouldn't want to choose just one. Fullstack development is much more stimulating and offers more learning opportunities.
