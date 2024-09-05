@@ -35,3 +35,5 @@ Not at all.
 ## Okay, but did this previous career help you in software development?
 
 Yes, in some sense the principles are the same – **both civil engineering and software development are about problem-solving**. The difference is that as your expertise grows in construction, you accumulate solutions for problems you face, and are ready to tackle most of them. **In software development, even with years of experience, you can still encounter issues that will keep you on your toes for days**.
+
+<div className="image">![quote](/images/dominik_quote_experience.png "")</div>
