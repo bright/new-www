@@ -49,3 +49,11 @@ Therefore, **I always propose an alternative – a simpler solution, achieving t
 <div className="image">![During the Ehab Tribe Summit with the Bright Inventions team in Sweden.](/images/team_dominik_sweden.png "")</div>
 
 *During the Ehab Tribe Summit with the Bright Inventions team in Sweden.*
+
+## You are a part of the team developing a mental health solution. How does this influence your daily programming work?
+
+At first glance, code is just code to programmers, and it might not seem to matter what industry the app represents. However, with healthcare, it’s not that simple. **We focus much more on subjects such as privacy and anonymity**. 
+
+When app users, who may be dealing with mental health issues like depression or anxiety, download the app, they need to trust it. They won't do this if the app is full of bugs, UI issues, and other problems. So, **everything we do either builds trust or risks destroying it**. This definitely distinguishes mental health solutions from other types of apps, like entertainment ones. 
+
+<div className="image">![quote](/images/dominik_quote_trust.png "")</div>
