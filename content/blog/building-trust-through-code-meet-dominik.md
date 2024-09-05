@@ -48,7 +48,7 @@ Therefore, **I always propose an alternative – a simpler solution, achieving t
 
 <div className="image">![During the Ehab Tribe Summit with the Bright Inventions team in Sweden.](/images/team_dominik_sweden.png "")</div>
 
-*During the Ehab Tribe Summit with the Bright Inventions team in Sweden.*
+*<center>During the Ehab Tribe Summit with the Bright Inventions team in Sweden.</center>*
 
 ## You are a part of the team developing a mental health solution. How does this influence your daily programming work?
 
@@ -74,7 +74,7 @@ I'm happy working here. So far, **I've met only fantastic coworkers**. It’s al
 
 <div className="image">![During office Christmas party.](/images/team_dominik_christmas.png "")</div>
 
-*During office Christmas party.*
+*<center>During office Christmas party.</center>*
 
 ## I know you are a bookworm. What book would you recommend to programmers that isn't about programming?
 
