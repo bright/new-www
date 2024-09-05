@@ -73,3 +73,7 @@ I'm happy working here. So far, **I've met only fantastic coworkers**. It’s al
 <div className="image">![During office Christmas party.](/images/team_dominik_christmas.png "")</div>
 
 *During office Christmas party.*
+
+## I know you are a bookworm. What book would you recommend to programmers that isn't about programming?
+
+I highly recommend “**Thinking, Fast and Slow**” by Daniel Kahneman, though I must warn you – it might leave you second-guessing yourself! It’s a fascinating read that can quickly give you a sense of imposter syndrome. Once you delve into it, you realize how "weak" our brains can be, making it challenging to hold firm opinions because you become aware of how easily you might be misleading yourself.
