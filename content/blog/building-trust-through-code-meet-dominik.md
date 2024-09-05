@@ -3,8 +3,8 @@ author: dominik-d
 secondAuthor: izabela
 tags:
   - bright story
-date: 2024-09-05T07:34:52.830Z
-meaningfullyUpdatedAt: 2024-09-05T07:34:52.851Z
+date: 2024-09-05T07:49:06.500Z
+meaningfullyUpdatedAt: 2024-09-05T07:49:07.314Z
 slug: building-trust-through-code-dominik
 title: Building Trust Through Code. Meet Dominik
 layout: post
