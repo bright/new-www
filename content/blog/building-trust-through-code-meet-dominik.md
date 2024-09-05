@@ -71,3 +71,5 @@ However, after concentrating solely on frontend for three years, it started to f
 I'm happy working here. So far, **I've met only fantastic coworkers**. It’s also clear that Ula and other managers genuinely care about the employees’ overall well-being, ensuring that we have opportunities to continue developing.
 
 <div className="image">![During office Christmas party.](/images/team_dominik_christmas.png "")</div>
+
+*During office Christmas party.*
