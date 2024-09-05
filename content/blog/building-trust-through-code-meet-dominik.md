@@ -37,3 +37,11 @@ Not at all.
 Yes, in some sense the principles are the same – **both civil engineering and software development are about problem-solving**. The difference is that as your expertise grows in construction, you accumulate solutions for problems you face, and are ready to tackle most of them. **In software development, even with years of experience, you can still encounter issues that will keep you on your toes for days**.
 
 <div className="image">![quote](/images/dominik_quote_experience.png "")</div>
+
+Also, having close contact with clients in civil engineering has been beneficial in software development, especially in terms of **negotiating skills** and **the ability to explain technical issues** to people without a technical background.
+
+## So what are your tips for explaining to people without technical knowledge which software solution will be better?
+
+It depends on the issue, but usually, I try to present the problem from a business perspective. In some cases, **clients desire overly complicated features, which might lead to more errors needing later fixes**, thus increasing the software development workload that could have been allocated to other features. 
+
+Therefore, **I always propose an alternative – a simpler solution, achieving the same goals, that will consume fewer resources and be less prone to bugs**. Highlighting the aspects of time and money helps non-technical stakeholders make informed decisions.
