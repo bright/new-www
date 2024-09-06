@@ -34,19 +34,19 @@ Many organizations today focus on women's health, including:
 
 ## Things to consider while developing a FemTech product
 
-**1. Importance of accurate medical information**
+### **1. Importance of accurate medical information**
 
 Accurate medical information is crucial in women's health, particularly when developing software products aimed at this demographic. Given the unique health challenges and conditions specific to women, such as menopause, reproductive health, and pregnancy, it's vital that the information provided through these platforms is precise, well-researched, and validated. This ensures that women can make informed decisions about their health and receive appropriate care and support. **Inaccuracies or generalizations can lead to misdiagnosis, inadequate treatment, and increased anxiety among users,** emphasizing the need for stringent accuracy in health-related software.
 
 <div className="image">![claudia pastides on medical accuracy at flo](/images/baner_final-quote-claudia-wh-1-.png "")</div>
 
-## 2. **Addressing taboo topics like menopause and reproductive health**
+### 2. **Addressing taboo topics like menopause and reproductive health**
 
 For years, discussions around these important life stages were avoided, yet they significantly impact women's health. Today, health tech is breaking these barriers by offering tools and platforms like [Flo](https://flo.health), [Clue](https://helloclue.com/), [Maven Clinic](https://www.mavenclinic.com), [Peppy Health](https://peppy.health), [Kindbody](https://kindbody.com) that empower women to manage their health proactively. These innovations provide accurate, personalized information and support, helping women make informed decisions about menopause, menstruation, and reproductive health without the constraints of past stigmas.
 
 This shift not only promotes better health outcomes but also **fosters a more inclusive dialogue about women's health needs.**
 
-**3. Patient engagement**
+### 3. Patient engagement
 
 Patient engagement is key in **FemTech** applications, where **consistent interaction is naturally supported by the cyclical nature of women's health issues** like menstruation and menopause. To meet the specific needs of women, especially during significant life stages such as pregnancy and postpartum, FemTech apps must offer highly personalized experiences. 
 
