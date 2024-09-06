@@ -32,9 +32,7 @@ Many organizations today focus on women's health, including:
 * [**Society for Women's Health Research** ](https://swhr.org)(SWHR): Improves women's health through research, advocacy, and education.
 * **[FemTech Focus](https://www.femtechfocus.com/)**: Advances global women's health through technology and startups.
 
-
-## **Things to consider while developing a FemTech product**
-
+## Things to consider while developing a FemTech product
 
 **1. Importance of accurate medical information**
 
@@ -48,7 +46,6 @@ For years, discussions around these important life stages were avoided, yet they
 
 This shift not only promotes better health outcomes but also **fosters a more inclusive dialogue about women's health needs.**
 
-##
 **3. Patient engagement**
 
 Patient engagement is key in **FemTech** applications, where **consistent interaction is naturally supported by the cyclical nature of women's health issues** like menstruation and menopause. To meet the specific needs of women, especially during significant life stages such as pregnancy and postpartum, FemTech apps must offer highly personalized experiences. 
