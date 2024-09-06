@@ -53,7 +53,7 @@ This shift not only promotes better health outcomes but also **fosters a more in
 
 Patient engagement is key in **FemTech** applications, where **consistent interaction is naturally supported by the cyclical nature of women's health issues** like menstruation and menopause. To meet the specific needs of women, especially during significant life stages such as pregnancy and postpartum, FemTech apps must offer highly personalized experiences. \
 
-Detailed **onboarding processes** can enhance this personalization, making users feel their unique health journeys are genuinely understood and catered to ([check out a story of a possible failure in an onboarding process in FemTech app](https://brightinventions.pl/blog/data-driven-development-femtech-app-onboarding/)). Moreover, **building trust** is essential, as women input sensitive and intimate data into these apps. \
+Detailed **onboarding processes** can enhance this personalization, making users feel their unique health journeys are genuinely understood and catered to ([check out a story of a possible failure in an onboarding process in FemTech app](https://brightinventions.pl/blog/data-driven-development-femtech-app-onboarding/)). Moreover, **building trust** is essential, as women input sensitive and intimate data into these apps.
 
 **<YouTubeEmbed url='**https://www.youtube.com/watch?v=ljeqnUbnrCg**' />**\
 
