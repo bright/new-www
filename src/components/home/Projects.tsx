@@ -310,7 +310,7 @@ export const Projects: React.FC<ProjectsProps> = ({
 }) => {
   const balancedListRef = useRef<HTMLDivElement>(null)
   let projects: Array<ProjectModel> = []
-  const { width } = useWindowSize()
+  const { width } = useWindowSize({ initialWidth: 992 })
   const breakpointTablet = 992
 
   useBalanceHeights(balancedListRef)
