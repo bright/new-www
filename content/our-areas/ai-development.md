@@ -53,7 +53,7 @@ published: true
 show_case_study: false
 show_technology_stack: true
 title_team: meet AI software development team
-title_case_study: case studies
+title_case_study: explore case studies
 title_faqs: AI development services FAQs
 title_contact: book a free consultation in 48 hours
 description_contact: Let’s discuss your AI project. Fill out the form below and
