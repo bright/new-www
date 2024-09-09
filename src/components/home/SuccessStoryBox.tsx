@@ -112,7 +112,7 @@ export const SuccessStoryBox: FC<SuccessStoryBoxProps> = ({ project, className }
         <Title>{project.title}</Title>
         <Image className='image'>
           <GatsbyImage
-            imgStyle={{ objectFit: 'contain', height: '100%', width: '100%' }}
+            imgStyle={{ objectFit: 'cover', height: '100%', width: '100%' }}
             image={getImage(project.image)!}
             alt={project.title}
           />
