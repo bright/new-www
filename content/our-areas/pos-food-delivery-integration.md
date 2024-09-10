@@ -33,7 +33,7 @@ slug: food-delivery-pos-integration
 short_description: "In search of something beyond ordinary food delivery
   integrations? Let’s combine our 12 years of scaling POS with your solution to
   offer your customers a bespoke food delivery integration. "
-order: 1
+order: 4
 title: upgrade your POS with customized food delivery integration
 highlighted_word: customized
 image_our_service_desktop: /images/pos_devlivery_platforms_web.png
@@ -59,7 +59,7 @@ bar_stack:
   - Nest
 button: book a free consultation
 button2: book a free consultation
-published: false
+published: true
 show_case_study: true
 show_technology_stack: true
 title_team: meet the bright team
