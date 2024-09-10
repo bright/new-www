@@ -81,7 +81,7 @@ const Achievements = () => {
     { number: new Date().getFullYear() - 2012, label: 'Years' },
     { number: 65, label: 'Projects' },
     { number: 48, label: 'Clients' },
-    { number: 81, label: 'People' },
+    { number: 85, label: 'Talented experts' },
     //{ number: authors.length, label: 'Team' }, --- @todo: should be uncommented after making all members
   ]
 
