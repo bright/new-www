@@ -59,7 +59,7 @@ bar_stack:
   - Nest
 button: book a free consultation
 button2: book a free consultation
-published: false
+published: true
 show_case_study: true
 show_technology_stack: true
 title_team: meet the bright team
