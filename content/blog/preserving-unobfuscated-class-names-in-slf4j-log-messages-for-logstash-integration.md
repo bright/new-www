@@ -1,10 +1,20 @@
 ---
 author: azabost
+tags:
+  - android
+  - kotlin
+  - logging
+  - slf4j
+  - proguard
+  - r8
+  - logstash
+  - kibana
 date: 2024-09-10T15:35:58.790Z
 meaningfullyUpdatedAt: 2024-09-10T15:35:58.827Z
 title: Preserving unobfuscated class names in SLF4J log messages for Logstash
   integration
 layout: post
+image: /images/skyfall-2012-q’s-ben-whishaw-hacking-scene.-youtube-2024-09-10-22-28-06.png
 hidden: false
 comments: true
 published: false
