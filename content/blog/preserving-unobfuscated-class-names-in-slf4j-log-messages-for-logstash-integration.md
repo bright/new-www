@@ -17,7 +17,7 @@ layout: post
 image: /images/skyfall-2012-q’s-ben-whishaw-hacking-scene.-youtube-2024-09-10-22-28-06.png
 hidden: true
 comments: true
-published: false
+published: true
 language: en
 ---
 **In this post, I'll share a problem I encountered while introducing the SLF4J library into an existing Kotlin project integrated with Logstash for remote logging. This setup was effective for monitoring and debugging, but the use of [code obfuscation](https://developer.android.com/build/shrink-code) tools like R8/ProGuard caused log messages to be hard to trace back to their source due to obfuscated class names. Here's how I solved this challenge and the trade-offs we considered.**
