@@ -15,7 +15,7 @@ title: Preserving unobfuscated class names in SLF4J log messages for Logstash
   integration
 layout: post
 image: /images/skyfall-2012-q’s-ben-whishaw-hacking-scene.-youtube-2024-09-10-22-28-06.png
-hidden: false
+hidden: true
 comments: true
 published: false
 language: en
