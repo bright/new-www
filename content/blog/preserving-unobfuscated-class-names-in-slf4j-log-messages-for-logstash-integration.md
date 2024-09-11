@@ -5,8 +5,8 @@ tags:
   - kotlin
   - logging
   - proguard
-date: 2024-09-10T15:35:58.790Z
-meaningfullyUpdatedAt: 2024-09-10T15:35:58.827Z
+date: 2024-09-11T09:38:22.222Z
+meaningfullyUpdatedAt: 2024-09-11T09:38:23.101Z
 slug: preserving-unobfuscated-class-names-in-slf4j-logs
 title: Preserving Unobfuscated Class Names in SLF4J Logs
 layout: post
