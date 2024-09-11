@@ -71,6 +71,7 @@ description_mdx: >-
 
   We have worked on design projects of all sizes – from simple mobile apps to scalable enterprise software systems. We’ll happily discuss how we can turn your idea or design brief into a polished final product, optimized for all devices and platforms.
 image_our_service: /images/productdesign_2.png
+show_team: true
 ---
 ## product design services that we offer
 

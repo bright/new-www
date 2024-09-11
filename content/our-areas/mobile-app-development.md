@@ -83,6 +83,7 @@ description_mdx: >-
 
   Not sure which technology to build your app in? No need to worry, as we’ll help you evaluate your project and choose the most suitable solution. All so you can achieve the best app performance and a robust user experience on all mobile devices!
 image_our_service: /images/mobile_app_development.png
+show_team: true
 ---
 ## mobile app development services
 

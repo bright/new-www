@@ -3354,6 +3354,7 @@ type OurAreas = Node & {
   readonly published: Scalars['Boolean'];
   readonly short_description: Scalars['String'];
   readonly show_case_study: Scalars['Boolean'];
+  readonly show_team: Scalars['Boolean'];
   readonly show_technology_stack: Scalars['Boolean'];
   readonly slug: Scalars['String'];
   readonly team_members: ReadonlyArray<Maybe<Members>>;
@@ -3448,6 +3449,7 @@ type OurAreasFieldSelector = {
   readonly published: InputMaybe<FieldSelectorEnum>;
   readonly short_description: InputMaybe<FieldSelectorEnum>;
   readonly show_case_study: InputMaybe<FieldSelectorEnum>;
+  readonly show_team: InputMaybe<FieldSelectorEnum>;
   readonly show_technology_stack: InputMaybe<FieldSelectorEnum>;
   readonly slug: InputMaybe<FieldSelectorEnum>;
   readonly team_members: InputMaybe<MembersFieldSelector>;
@@ -3497,6 +3499,7 @@ type OurAreasFilterInput = {
   readonly published: InputMaybe<BooleanQueryOperatorInput>;
   readonly short_description: InputMaybe<StringQueryOperatorInput>;
   readonly show_case_study: InputMaybe<BooleanQueryOperatorInput>;
+  readonly show_team: InputMaybe<BooleanQueryOperatorInput>;
   readonly show_technology_stack: InputMaybe<BooleanQueryOperatorInput>;
   readonly slug: InputMaybe<StringQueryOperatorInput>;
   readonly team_members: InputMaybe<MembersFilterListInput>;
@@ -3544,6 +3547,7 @@ type OurAreasFrontmatter = {
   readonly published: Scalars['Boolean'];
   readonly short_description: Scalars['String'];
   readonly show_case_study: Scalars['Boolean'];
+  readonly show_team: Scalars['Boolean'];
   readonly show_technology_stack: Scalars['Boolean'];
   readonly slug: Scalars['String'];
   readonly team_members: ReadonlyArray<Maybe<Members>>;
@@ -3587,6 +3591,7 @@ type OurAreasFrontmatterFieldSelector = {
   readonly published: InputMaybe<FieldSelectorEnum>;
   readonly short_description: InputMaybe<FieldSelectorEnum>;
   readonly show_case_study: InputMaybe<FieldSelectorEnum>;
+  readonly show_team: InputMaybe<FieldSelectorEnum>;
   readonly show_technology_stack: InputMaybe<FieldSelectorEnum>;
   readonly slug: InputMaybe<FieldSelectorEnum>;
   readonly team_members: InputMaybe<MembersFieldSelector>;
@@ -3630,6 +3635,7 @@ type OurAreasFrontmatterFilterInput = {
   readonly published: InputMaybe<BooleanQueryOperatorInput>;
   readonly short_description: InputMaybe<StringQueryOperatorInput>;
   readonly show_case_study: InputMaybe<BooleanQueryOperatorInput>;
+  readonly show_team: InputMaybe<BooleanQueryOperatorInput>;
   readonly show_technology_stack: InputMaybe<BooleanQueryOperatorInput>;
   readonly slug: InputMaybe<StringQueryOperatorInput>;
   readonly team_members: InputMaybe<MembersFilterListInput>;
@@ -3673,6 +3679,7 @@ type OurAreasFrontmatterSortInput = {
   readonly published: InputMaybe<SortOrderEnum>;
   readonly short_description: InputMaybe<SortOrderEnum>;
   readonly show_case_study: InputMaybe<SortOrderEnum>;
+  readonly show_team: InputMaybe<SortOrderEnum>;
   readonly show_technology_stack: InputMaybe<SortOrderEnum>;
   readonly slug: InputMaybe<SortOrderEnum>;
   readonly team_members: InputMaybe<MembersSortInput>;
@@ -3763,6 +3770,7 @@ type OurAreasSortInput = {
   readonly published: InputMaybe<SortOrderEnum>;
   readonly short_description: InputMaybe<SortOrderEnum>;
   readonly show_case_study: InputMaybe<SortOrderEnum>;
+  readonly show_team: InputMaybe<SortOrderEnum>;
   readonly show_technology_stack: InputMaybe<SortOrderEnum>;
   readonly slug: InputMaybe<SortOrderEnum>;
   readonly team_members: InputMaybe<MembersSortInput>;
@@ -4603,6 +4611,7 @@ type Query_ourAreasArgs = {
   published: InputMaybe<BooleanQueryOperatorInput>;
   short_description: InputMaybe<StringQueryOperatorInput>;
   show_case_study: InputMaybe<BooleanQueryOperatorInput>;
+  show_team: InputMaybe<BooleanQueryOperatorInput>;
   show_technology_stack: InputMaybe<BooleanQueryOperatorInput>;
   slug: InputMaybe<StringQueryOperatorInput>;
   team_members: InputMaybe<MembersFilterListInput>;

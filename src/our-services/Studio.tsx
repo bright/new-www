@@ -65,7 +65,8 @@ export default function Template({ data, pageContext, children }: PropsWithChild
     project: projects,
     slug,
     blog_section,
-    blog_section_title
+    blog_section_title,
+    show_team,
   } = page
 
   return (
@@ -154,7 +155,8 @@ export default function Template({ data, pageContext, children }: PropsWithChild
           </CustomSectionInner>
         </OurServiceSection>
       </CustomSection>
-      <CustomSection paddingProps='0 0 2rem' paddingMobileProps='0 1.125rem 1rem'>
+
+      {show_team && <CustomSection paddingProps='0 0 2rem' paddingMobileProps='0 1.125rem 1rem'>
         <CustomSectionTitle mobileMargin='3rem 0 2.25rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
           {title_team}
         </CustomSectionTitle>
@@ -162,7 +164,7 @@ export default function Template({ data, pageContext, children }: PropsWithChild
         <div>
           {width >= breakpointTablet && <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />}
         </div>
-      </CustomSection>
+      </CustomSection>}
 
       {show_technology_stack && <TechnologyTags tags={bar_stack} />}
 
@@ -183,8 +185,8 @@ export default function Template({ data, pageContext, children }: PropsWithChild
         <PopularBlogPosts posts={posts} title={blog_section_title} />
       </>}
 
-      <CustomSection paddingProps='2rem 15rem 2rem 15rem' paddingLaptop='5rem 6rem 0rem'
-                     paddingMobileProps='0 1.125rem 0'>
+      <CustomSection paddingProps='2rem 15rem 4rem 15rem' paddingLaptop='5rem 6rem 2rem'
+                     paddingMobileProps='0 1.125rem 2rem' paddingTabletXL='2rem 6rem 2rem' paddingTablet='2rem 2rem 2rem'>
         <CustomSectionInner>
           <a href='#faqs' style={{ display: 'block' }}>
             {show_case_study ? (
@@ -349,6 +351,7 @@ export const pageQuery = graphql`
         }
         blog_section
         blog_section_title
+        show_team
       }
     }
   }

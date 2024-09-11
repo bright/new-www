@@ -81,6 +81,7 @@ description_mdx: Do you want to build an MVP? You came to the right place. We
   have developed MVPs for startups, NGOs and consulting agencies from the USA,
   UK, Germany, Norway and more. Let’s work on your MVP.
 image_our_service: /images/mvp_development2.png
+show_team: true
 ---
 ## is MVP right for your business?
 

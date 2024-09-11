@@ -6,10 +6,11 @@ interface WindowSize {
   height?: number
 }
 
-export const useWindowSize = (): WindowSize => {
+export const useWindowSize = (options?: { initialWidth?: number }): WindowSize => {
   const isSSR = typeof window !== 'undefined'
+  const withValueFallback = options?.initialWidth || 500;
   const [windowSize, setWindowSize] = useState<WindowSize>({
-    width: isSSR ? window.innerWidth : 500,
+    width: isSSR ? window.innerWidth : withValueFallback,
     height: isSSR ? window.innerHeight : 500,
   })
 
