@@ -11,7 +11,7 @@ slug: preserving-unobfuscated-class-names-in-slf4j-logs
 title: Preserving Unobfuscated Class Names in SLF4J Logs
 layout: post
 image: /images/skyfall-2012-q’s-ben-whishaw-hacking-scene.-youtube-2024-09-10-22-28-06.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
