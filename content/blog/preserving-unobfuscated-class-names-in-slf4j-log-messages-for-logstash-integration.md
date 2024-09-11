@@ -7,6 +7,7 @@ tags:
   - proguard
 date: 2024-09-10T15:35:58.790Z
 meaningfullyUpdatedAt: 2024-09-10T15:35:58.827Z
+slug: preserving-unobfuscated-class-names-in-slf4j-log-messages
 title: Preserving Unobfuscated Class Names in SLF4J Log Messages
 layout: post
 image: /images/skyfall-2012-q’s-ben-whishaw-hacking-scene.-youtube-2024-09-10-22-28-06.png
@@ -17,13 +18,14 @@ language: en
 ---
 **In this post, I'll share a problem I encountered while introducing the [SLF4J](https://www.slf4j.org/) and [Logback](https://logback.qos.ch/) into an existing Android project integrated with Logstash for remote logging. This setup was effective for monitoring and debugging, but the use of [code obfuscation](https://developer.android.com/build/shrink-code) tools like R8/ProGuard caused log messages to be hard to trace back to their source due to obfuscated class names. Here's how I solved this challenge and the trade-offs we considered.**
 
-# Problem Overview
+## Problem Overview
 
 The project was integrated with [Logstash](https://www.elastic.co/logstash) using a custom solution that sent log messages for analysis in [Kibana](https://www.elastic.co/kibana).
 
 When we introduced SLF4J as a logging facade, a specific issue arose: the Logstash integration had no mechanism to de-obfuscate the class names used in SLF4J loggers which appeared obfuscated in the log messages visible in Kibana, making it challenging to understand where the logs originated from. This made the logs less useful for debugging and monitoring production issues.
 
-# Logging scenarios
+## Logging scenarios
+
 Since the project was entirely in Kotlin, we identified three main logging scenarios:
 
 1. Logger as a property of a class. This approach is used in singletons or other classes with relatively few instances. Here’s an example:
@@ -54,10 +56,10 @@ Since the project was entirely in Kotlin, we identified three main logging scena
     }
     ```
 
-# Alternative solutions considered
+## Alternative solutions considered
 To address the obfuscation issue, we considered two main approaches:
 
-**Preserving original class names using R8/ProGuard rules**
+### Preserving original class names using R8/ProGuard rules
    
 The primary solution was to use custom ProGuard rules to prevent the obfuscation of class names specifically for the classes containing SLF4J logger instances.
 
@@ -65,7 +67,7 @@ The primary solution was to use custom ProGuard rules to prevent the obfuscation
 
     * Cons: It does expose some class names, but only where logging is essential, which was deemed an acceptable trade-off in our context.
 
-**Hardcoding logger names**
+### Hardcoding logger names
 
 Alternatively, instead of passing a class to `LoggerFactory`, we could always hardcode the logger names.
 
@@ -75,7 +77,7 @@ Alternatively, instead of passing a class to `LoggerFactory`, we could always ha
 
 After discussing both approaches with the team, we decided on a general rule: to use custom ProGuard rules to preserve the original names only for classes with SLF4J loggers. However, we decided to deviate from this rule in the specific scenario of top-level functions, where we chose to hardcode the names if needed.
 
-# Custom ProGuard rules
+## Custom ProGuard rules
 Here’s how I implemented the chosen solution:
 
 ```proguard
@@ -95,7 +97,7 @@ After applying these rules, I rebuilt the project and verified that the log mess
 
 Additionally, I ran `dexdump` on the DEX files from the unzipped APK to confirm that everything else in the classes affected by the ProGuard rules remained properly obfuscated. I also compared the `mapping.txt` files generated before and after this addition to ensure there were no unwanted side effects from the new rules.
 
-# Outcome and Benefits
+## Outcome and Benefits
 
 By applying these custom ProGuard rules, we achieved the following:
 
@@ -105,6 +107,6 @@ By applying these custom ProGuard rules, we achieved the following:
 
 * Maintainability: This solution required fewer changes and was easier to maintain than hardcoding logger names.
 
-# Conclusion
+## Conclusion
 
-When integrating SLF4J into a Kotlin project with a custom Logstash setup, it's essential to balance readability, security, and maintainability. We found that preserving class names using ProGuard rules was the best solution for our needs, while hardcoding logger names for top-level functions was a suitable exception to our general approach. However, other teams might choose differently, depending on their project's specific requirements and constraints.
+When integrating SLF4J into an Android project with a remote logging setup (like Logstash), it's essential to balance readability, security, and maintainability. We found that preserving class names using ProGuard rules was the best solution for our needs, while hardcoding logger names for top-level functions was a suitable exception to our general approach. However, other teams might choose differently, depending on their project's specific requirements and constraints.
