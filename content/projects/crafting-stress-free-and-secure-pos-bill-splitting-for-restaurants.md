@@ -52,4 +52,18 @@ language: en
 
 <Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/firebase_logo_stack_new.svg","alt":"Firebase"},{"src":"/images/realm_stack_logo.svg","alt":"Realm"}]' />
 
-technologies: Kotlin, Swift, Firebase, Realm, MixPanel, Fastlane
+**technologies**: Kotlin, Swift, Firebase, Realm, MixPanel, Fastlane
+
+<TitleWithIcon sectionTitle="the problem: unsupporting bill splitting mechanism in POS systems" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+
+After enjoying a delicious three-course meal, clients are ready to settle the bill and free up the table. But then, the waitstaff hears those dreaded words: “Can we split the bill?” **While customers love the convenience of splitting bills, it might be a different story for the waitstaff**. Their frustration typically stems from a POS system that doesn’t truly support bill splitting, making the process stressful and prone to errors.
+
+<TitleWithIcon sectionTitle="the solution: bill splitting mechanism navigating waitstaff through the process" titleIcon="/images/flag.png" titleIconAlt="the solution" />
+
+For a decade of collaboration with POS provider Practi (later acquired by Just Eat Takeaway.com), **we developed numerous features and applications, including the bill splitting that supports restaurants across Israel and the United Kingdom**.
+
+Our bill-splitting solution allows the POS system to handle all possible scenarios, **enabling the division of any component of the bill – from individual courses to delivery fees and tips**. Customers can also split the payment by paying with a credit card, cash, or coupons.
+
+<div className="image">![The system divides the total costs into the specific payments.](/images/pos_bill_split.png "The system divides the total costs into the specific payments.")</div>
+
+*The system divides the total costs into the specific payments.*
