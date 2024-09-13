@@ -1,5 +1,5 @@
 ---
-meaningfullyUpdatedAt: 2018-11-18T23:00:00.000Z
+meaningfullyUpdatedAt: 2024-09-13T06:52:27.667Z
 excerpt: Procrastination can often make our lives miserable. It  steals our
   time, money, and first of all satisfaction. So, what can we do not to let this
   powerful thief steal the greatness of our life? One may think it is not a
@@ -20,19 +20,19 @@ hidden: false
 published: true
 language: en
 ---
-Josh Billings, or if you prefer - Henry Wheeler Shaw, said once that "the greatest thief this world has ever produced is procrastination, and he is still at large". I am rather a well-organised person and I try not to delay anything. To be honest, there are rarely moments that I put off things that I have to do. I just do not like the feeling when there are some open task floating around in my mind. But I also know that many of us do not posses this inner drive, or just lose it at some point of our life.  Procrastination can often make us miserable. It steals our time, money, and first of all satisfaction. 
+Josh Billings, or if you prefer - Henry Wheeler Shaw, said once that "the greatest thief this world has ever produced is procrastination, and he is still at large". I am rather a well-organised person and I try not to delay anything. To be honest, there are rarely moments that I put off things that I have to do. I just do not like the feeling when there are some open task floating around in my mind. But I also know that many of us do not posses this inner drive, or just lose it at some point of our life. [ Procrastination can often make us miserable. It steals our time, money, and first of all satisfaction. ](https://www.psychologicalscience.org/observer/why-wait-the-science-behind-procrastination)
 
 ## how does procrastination work?
 
 Procrastination stems from various thoughts and habits, mainly because we anticipate not enjoying a task or fear we won’t do it well. This avoidance is often fueled by confusion, distraction, or fatigue. **Psychologists link procrastination to factors like low self-confidence, anxiety, lack of structure, and difficulty motivating oneself to tackle unpleasant tasks. Research also connects procrastination with rumination, where people become stuck in negative thought patterns.**
 
-
-
-
-
 <div className="image">![procrastination](/images/1_9ce_8kqd8i60zfjwqqpnaa.gif "")</div>
 
 ###### source: https://medium.com/@rathinamala23/the-psychology-of-procrastination-insights-and-solutions
+
+Procrastination, while self-defeating, can serve a psychological purpose. For perfectionists, it shields them from fear of failure, judgment, and self-criticism. By focusing on less important tasks, like organizing or cleaning, procrastinators avoid the discomfort of unfinished work, though this often may lead to problems later. **Productive procrastination refers to engaging in other useful activities while intentionally delaying the main task at hand.**
+
+Why do we believe we'll follow through on tasks later? This is due to **affective forecasting,** where people often misjudge how they’ll feel in the future. **For instance, procrastinators might feel bad about not exercising today but convince themselves they’ll do it tomorrow, thereby avoiding immediate negative feelings while perpetuating the cycle.**
 
 **Always try to understand and explain to yourself why you do not want to accomplish a particular task. Understanding real reasons behind your behaviour will make it much easier to approach the whole problem.** Sometimes we can create many stories in our mind that are far from the truth. Maybe a project we are working on is not so bad and complex as we think. Maybe we have enough time to do everything, but we are poor at organising our time. We are great storytellers. Think why you really don’t want to do something. 
 
@@ -42,7 +42,7 @@ I usually have a schedule that I follow, sometimes I take advantage of a simple 
 
 ⭐️  I try to do firstly tasks that may be not so enjoyable, but they still have to be done. In that way things that I really want to do are done later and become a kind of reward for doing hard stuff first.
 
-⭐️ Let us eliminate all possible distractions because if you want to be distracted, you will be distracted. Helping your teammates, responding to emails, checking all possible push notifications - when a difficult or tedious task comes, everything seems to be more important than that. Do not let procrastination  pit-stops disturb your work. Switch them off and only after finishing a predetermined tasks check them out. 
+⭐️ **Let us eliminate all possible distractions because if you want to be distracted, you will be distracted.** Scrolling social media, ad hoc responding to emails, checking all possible push notifications - when a difficult or tedious task comes, everything seems to be more important than that. Do not let procrastination pit-stops disturb your work. Switch them off and only after finishing a predetermined tasks check them out. 
 
 ⭐️ Make sure you sleep well. Really! Fatigue and a lack of energy are the best friends of procrastination. How you can work on a demanding task as you have problems with getting up from a bed.
 
@@ -58,7 +58,7 @@ I usually have a schedule that I follow, sometimes I take advantage of a simple 
 
 ⭐️ Last but not least, it is just good to always have a to-do-list with deadlines when a particular task has to be finished. It helps to prioritise what we should accomplish in the beginning. Always try to place the most demanding things first in your list. I know that it does not sound great, but believe me it really pays off.
 
-Which rule helps the most? In my view - each and every, but crucial is your self-awareness. Procrastination is all about being conscious of our actions. Apprehending why we do not want to do something may change everything. It is not true that now it is not the best time for doing a task. We are making it "not the best time" because of hundreds of reasons. There will be never the best time to accomplish something. 
+Which rule helps the most? In my view - each and every, but crucial is your self-awareness. Procrastination is all about being conscious of our actions. Apprehending why we do not want to do something may change everything. **It is not true that now it is not the best time for doing a task. We are making it "not the best time" because of hundreds of reasons. There will be never the best time to accomplish something.** 
 
 Everything depends on our attitude. We can do whatever we want. We can also waste our time grumbling, hypothesising, idealising, strategising, but in the end it boils down to taking action. And if we do not take any action, nothing will happen. If you want to get something done, get grip on yourself, find the way and do it.
 
