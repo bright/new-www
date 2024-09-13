@@ -7,7 +7,7 @@ team_members:
   - marta
   - azabost
   - cezary
-  - lukasz-n
+  - arturs
 faqs:
   - mobile app development 1
   - mobile app development 2
