@@ -17,9 +17,9 @@ comments: true
 published: true
 language: en
 ---
-**Piotr is a bright team leader. Some would say that he is our tech dad, always ready to assist you. He asks and asks questions to test your approach and as a result brings the best possible solution out of you! The clients' dream is to clone him but probably he is the only one who could figure that out. Meet Piotr, a programmer with over 12 years of experience who always remembers that behind every line of code there's a human.**
+**Piotr is a bright team leader. Some would say that he is our tech dad, always ready to assist you. He asks and asks questions to test your approach and as a result brings the best possible solution out of you! The clients' dream is to clone him but probably he is the only one who could figure that out. Meet Piotr, a programmer with over 15 years of experience who always remembers that behind every line of code there's a human.**
 
-![Piotr Mionskowski – Team Leader at Bright Inventions](../../static/images/blogpost_brightstory_piotr_b3.png "")
+![Piotr Mionskowski – Team Leader at Bright Inventions](../../static/images/blogpost_brightstory_piotr_b3.png)
 
 ## From a junior to tech evangelist. How did it all begin?
 
@@ -37,11 +37,11 @@ Somewhere between my third and fourth year of studies I started to look for my f
 
 When I was starting not many people heard about test-driven development. Now it is common. First, I programmed in C# then I learned JavaScript, Ruby and Objective-C. It fastly became clear to me that **when you learn one paradygmat in programming then it is easy to use this knowledge to learn other languages in that paradygmat**. 
 
-**I tried not only to focus on learning programming but also to understand how our components take place in the system architecture**. Now we call it microservices then it was called service-oriented architecture (SOA). A
+**I tried not only to focus on learning programming but also to understand how our components take place in the system architecture**. Now we call it microservices then it was called service-oriented architecture (SOA). 
 
-fter a few years I felt that I needed a change. It was hard to have influence on things working in a corporation. And I could see how much can be achieved in small teams so I wanted to join a smaller company. And that is how I came to [Bright Inventions](/).
+After a few years I felt that I needed a change. It was hard to have influence on things working in a corporation. And I could see how much can be achieved in small teams so I wanted to join a smaller company. And that is how I came to [Bright Inventions](/).
 
-![Piotr Mionskowski – Technology Evangelist at Bright Inventions](../../static/images/blogpost_www_brightstory_piotr_b2.png "")
+![Piotr Mionskowski – Technology Evangelist at Bright Inventions](../../static/images/blogpost_www_brightstory_piotr_b2.png)
 
 ## You have around 35k total reputation on Stackoverflow. Only about 7k users are on your level. How did that happen?
 
@@ -61,7 +61,7 @@ Another strong trend is **moving to higher and higher levels of abstraction in t
 
 ## Why do we work with AWS at Bright Inventions? When should we choose AWS or Azure?
 
-There is not a great story behind it. We use AWS because we know it. :) It is like driving on the left side of the street in England or Australia. It is just how they learned so they do it that way. At Bright Inventions we started with AWS so we stuck to it. I do not think that it would make a great technical difference if we used Azure or other cloud services instead of AWS. Looking from a business perspective it does not matter as well. 
+There is not a great story behind it. We use AWS because we know it. **🙂** It is like driving on the left side of the street in England or Australia. It is just how they learned so they do it that way. At Bright Inventions we started with AWS so we stuck to it. I do not think that it would make a great technical difference if we used Azure or other cloud services instead of AWS. Looking from a business perspective it does not matter as well. 
 
 ## What best practices do you follow when writing a code?
 
@@ -71,7 +71,7 @@ It is definitely something very difficult for developers. **It often might be ha
 
 So, we often do not think if we could write it differently so our code would be better understood by humans. Thus if the next person comes and reads our code, they will understand what we wanted to do. Often we do not have time for that because the program works the way we wanted it to work so why should we bother? But in a longer perspective – we should care! You can see a value years from now. When someone new has to take a look at it after years to understand the reasons why this code was made, then we have an issue. Especially when we plan to develop our solution for years, then we have to write code for future readers.
 
-![Piotr Mionskowski – Technology Evangelist at Bright Inventions](../../static/images/blogpost_www_brightstory_piotr_q2.png "")
+![Piotr Mionskowski – Technology Evangelist at Bright Inventions](../../static/images/blogpost_www_brightstory_piotr_q2.png)
 
 ## Can everybody be a software developer?
 
@@ -81,13 +81,13 @@ Of course, you have to dedicate lots of your time to achieve your goals but I gu
 
 ## What projects you have worked on bring the best memories?
 
-**I always enjoyed projects that I truly believed in and felt that they solve real problems.** For example, when we were developing at Bright Inventions an app supporting taking medicine it was really interesting to understand older people's interaction with the phone. It gave me a unique perspective on our app users.
+**I always enjoyed projects that I truly believed in and felt that they solve real problems.** For example, when we were developing at Bright Inventions an [app supporting taking medicine](/projects/emar-healthcare-solution/) it was really interesting to understand older people's interaction with the phone. It gave me a unique perspective on our app users.
 
-![Piotr Mionskowski – Team Leader at Bright Inventions](../../static/images/blogpost_www_brightstory_piotr_q1.png "")
+![Piotr Mionskowski – Team Leader at Bright Inventions](../../static/images/blogpost_www_brightstory_piotr_q1.png)
 
 When we were working on a system gathering data about discounts at stores we could also learn more about human shopping behavior. That was also very interesting. 
 
-**Another interesting case is building an EPOS system for restaurants**. This is a software used for 8 hours a day by employees of restaurants. They completely rely on our work. It is not a lifestyle app that gives us pleasure but is necessary to do our work. In the case of ePOS systems, our priorities are stability and ensuring business processes even despite the obstacles like Internet connection disruptions. If Facebook does not work, we can go for a walk. **If the ePOS application does not work, we have a line of frustrated end users that cannot pay for their orders**. So, the level of stress is much higher. 
+**Another interesting case is building an [EPOS system for restaurants](/projects/system-for-restaurants/)**. This is a software used for 8 hours a day by employees of restaurants. They completely rely on our work. It is not a lifestyle app that gives us pleasure but is necessary to do our work. In the case of ePOS systems, our priorities are stability and ensuring business processes even despite the obstacles like Internet connection disruptions. If Facebook does not work, we can go for a walk. **If the ePOS application does not work, we have a line of frustrated end users that cannot pay for their orders**. So, the level of stress is much higher. 
 
 Also, we cannot do changes in the interface just like that. As I mentioned, our clients use it for 8 hours a day and have strong habits associated with the app like that. The user's memory is massive here. If you move one button, you can totally disturb their daily work. Every change on the product must be reasonable because it will affect your users. **Feeling the responsibility for users is a crucial part of our job as software developers**.
 
