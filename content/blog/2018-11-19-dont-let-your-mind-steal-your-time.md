@@ -71,3 +71,5 @@ I usually have a schedule that I follow, sometimes I take advantage of a simple 
 Which rule helps the most? In my view - each and every, but crucial is your self-awareness. Procrastination is all about being conscious of our actions. Apprehending why we do not want to do something may change everything. **It is not true that now it is not the best time for doing a task. We are making it "not the best time" because of hundreds of reasons. There will be never the best time to accomplish something.** 
 
 Everything depends on our attitude. We can do whatever we want. We can also waste our time grumbling, hypothesising, idealising, strategising, but in the end it boils down to taking action. And if we do not take any action, nothing will happen. If you want to get something done, get grip on yourself, find the way and do it.
+
+<div className="image">![funny procrastination](/images/447471994_989220133210240_2438864244480586667_n.jpg "")</div>
