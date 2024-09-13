@@ -2,11 +2,8 @@
 author: piotr
 secondAuthor: izabela
 tags:
-  - inspiration
-  - backend
-  - business
-  - Kotlin
   - bright story
+  - leadership
 date: 2021-11-03T08:44:02.443Z
 meaningfullyUpdatedAt: 2024-09-13T11:50:43.184Z
 title: A Man Dancing with Code. Meet Piotr
