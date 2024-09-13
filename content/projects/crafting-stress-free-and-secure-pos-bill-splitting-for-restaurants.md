@@ -47,3 +47,9 @@ work_in_progress: false
 language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
+
+
+
+<Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/firebase_logo_stack_new.svg","alt":"Firebase"},{"src":"/images/realm_stack_logo.svg","alt":"Realm"}]' />
+
+technologies: Kotlin, Swift, Firebase, Realm, MixPanel, Fastlane
