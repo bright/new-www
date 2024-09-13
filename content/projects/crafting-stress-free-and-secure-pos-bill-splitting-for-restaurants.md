@@ -7,7 +7,7 @@ team_members:
 our_service:
   - custom software development
 layout: project
-project_id: pos-bill-split
+project_id: pos-bill-splitting
 title: Crafting Stress-Free and Secure POS Bill Splitting for Restaurants
 image: /images/case_study_bill_split_mechanism_pos.png
 description: Bill splitting is a convenient way to share the cost for diners.
