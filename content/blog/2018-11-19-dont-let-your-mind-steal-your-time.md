@@ -32,9 +32,19 @@ Procrastination stems from various thoughts and habits, mainly because we antici
 
 Procrastination, while self-defeating, can serve a psychological purpose. For perfectionists, it shields them from fear of failure, judgment, and self-criticism. By focusing on less important tasks, like organizing or cleaning, procrastinators avoid the discomfort of unfinished work, though this often may lead to problems later. **Productive procrastination refers to engaging in other useful activities while intentionally delaying the main task at hand.**
 
-Why do we believe we'll follow through on tasks later? This is due to **affective forecasting,** where people often misjudge how they’ll feel in the future. **For instance, procrastinators might feel bad about not exercising today but convince themselves they’ll do it tomorrow, thereby avoiding immediate negative feelings while perpetuating the cycle.**
+Why do we believe we'll follow through on tasks later? This is due to **affective forecasting,** where people often misjudge how they’ll feel in the future. **For instance, procrastinators might feel bad about not exercising today but convince themselves they’ll do it tomorrow, thereby avoiding immediate negative feelings while perpetuating the cycle.**\
+\
+Another key factor in chronic procrastination is present bias, which involves favoring immediate rewards over long-term benefits. Procrastinators often dive into the pleasurable activities in the short term, even at the expense of delaying important tasks. **This tendency to seek immediate gratification can perpetuate a cycle of procrastination, where the immediate rewards of putting off tasks overshadow the long-term advantages of completing them on time.**\
+\
+[Procrastination is a complex behavior studied by psychologists and researchers. ](https://www.arc.unsw.edu.au/blitz/read/The-Science-Behind-Procrastination)Understanding the neurological processes behind procrastination can also help us grasp why we procrastinate and how to overcome it, ultimately enhancing our productivity and well-being.\
+\
+\
+\
+\
+\
+Dopamine, a brain neurotransmitter linked to the reward system, influences procrastination by driving motivation and reinforcement. Completing tasks triggers dopamine release, offering a sense of reward and satisfaction. Procrastinators often miss out on these immediate rewards by delaying tasks, leading to a cycle of seeking instant gratification from other activities that provide quicker dopamine boosts.
 
-**Always try to understand and explain to yourself why you do not want to accomplish a particular task. Understanding real reasons behind your behaviour will make it much easier to approach the whole problem.** Sometimes we can create many stories in our mind that are far from the truth. Maybe a project we are working on is not so bad and complex as we think. Maybe we have enough time to do everything, but we are poor at organising our time. We are great storytellers. Think why you really don’t want to do something. 
+**Always try to understand why you do not want to accomplish a particular task. Understanding real reasons behind your behaviour will make it much easier to approach the whole problem.** Sometimes we can create many stories in our mind that are far from the truth. Maybe a project we are working on is not so bad and complex as we think. Maybe we have enough time to do everything, but we are poor at organising our time. We are great storytellers. Think why you really don’t want to do something. 
 
 ## what can we do not to let this powerful thief steal the greatness of our life?
 
