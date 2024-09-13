@@ -67,3 +67,7 @@ Our bill-splitting solution allows the POS system to handle all possible scenari
 <div className="image">![The system divides the total costs into the specific payments.](/images/pos_bill_split.png "The system divides the total costs into the specific payments.")</div>
 
 *The system divides the total costs into the specific payments.*
+
+The system is designed to **fully support waitstaff by providing all necessary calculations through a user-friendly interface**, eliminating the need for manual calculations. Restaurant staff simply provides details about the number of splits, discounts, and chosen payment methods, and the system guides them through the entire process. **It not only calculates the correct amounts but also ensures that the appropriate taxes are applied after the split**.
+
+<div className="image">![POS bill split mechanism for restaurants](/images/pos_bill_split4.png "POS bill split mechanism for restaurants")</div>
