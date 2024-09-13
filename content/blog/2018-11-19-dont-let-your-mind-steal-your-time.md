@@ -32,16 +32,16 @@ Procrastination stems from various thoughts and habits, mainly because we antici
 
 Procrastination, while self-defeating, can serve a psychological purpose. For perfectionists, it shields them from fear of failure, judgment, and self-criticism. By focusing on less important tasks, like organizing or cleaning, procrastinators avoid the discomfort of unfinished work, though this often may lead to problems later. **Productive procrastination refers to engaging in other useful activities while intentionally delaying the main task at hand.**
 
-Why do we believe we'll follow through on tasks later? This is due to **affective forecasting,** where people often misjudge how they’ll feel in the future. **For instance, procrastinators might feel bad about not exercising today but convince themselves they’ll do it tomorrow, thereby avoiding immediate negative feelings while perpetuating the cycle.**\
-\
-Another key factor in chronic procrastination is present bias, which involves favoring immediate rewards over long-term benefits. Procrastinators often dive into the pleasurable activities in the short term, even at the expense of delaying important tasks. **This tendency to seek immediate gratification can perpetuate a cycle of procrastination, where the immediate rewards of putting off tasks overshadow the long-term advantages of completing them on time.**\
-\
-[Procrastination is a complex behavior studied by psychologists and researchers. ](https://www.arc.unsw.edu.au/blitz/read/The-Science-Behind-Procrastination)Understanding the neurological processes behind procrastination can also help us grasp why we procrastinate and how to overcome it, ultimately enhancing our productivity and well-being.\
-\
-\
-\
-\
-\
+Why do we believe we'll follow through on tasks later? This is due to **affective forecasting,** where people often misjudge how they’ll feel in the future. **For instance, procrastinators might feel bad about not exercising today but convince themselves they’ll do it tomorrow, thereby avoiding immediate negative feelings while perpetuating the cycle.**
+
+Another key factor in chronic procrastination is present bias, which involves favoring immediate rewards over long-term benefits. Procrastinators often dive into the pleasurable activities in the short term, even at the expense of delaying important tasks. **This tendency to seek immediate gratification can perpetuate a cycle of procrastination, where the immediate rewards of putting off tasks overshadow the long-term advantages of completing them on time.**
+
+[Procrastination is a complex behavior studied by psychologists and researchers. ](https://www.arc.unsw.edu.au/blitz/read/The-Science-Behind-Procrastination)Understanding the neurological processes behind procrastination can also help us grasp why we procrastinate and how to overcome it, ultimately enhancing our productivity and well-being.
+
+<div className="image">![procrastination dopamine](/images/procras_resum_en-768x446-1-e1649087572500.jpg "")</div>
+
+###### source: https://neuroquotient.com/en/procrastination-neuroscience-to-understand-and-overcome-it
+
 Dopamine, a brain neurotransmitter linked to the reward system, influences procrastination by driving motivation and reinforcement. Completing tasks triggers dopamine release, offering a sense of reward and satisfaction. Procrastinators often miss out on these immediate rewards by delaying tasks, leading to a cycle of seeking instant gratification from other activities that provide quicker dopamine boosts.
 
 **Always try to understand why you do not want to accomplish a particular task. Understanding real reasons behind your behaviour will make it much easier to approach the whole problem.** Sometimes we can create many stories in our mind that are far from the truth. Maybe a project we are working on is not so bad and complex as we think. Maybe we have enough time to do everything, but we are poor at organising our time. We are great storytellers. Think why you really don’t want to do something. 
@@ -71,5 +71,3 @@ I usually have a schedule that I follow, sometimes I take advantage of a simple 
 Which rule helps the most? In my view - each and every, but crucial is your self-awareness. Procrastination is all about being conscious of our actions. Apprehending why we do not want to do something may change everything. **It is not true that now it is not the best time for doing a task. We are making it "not the best time" because of hundreds of reasons. There will be never the best time to accomplish something.** 
 
 Everything depends on our attitude. We can do whatever we want. We can also waste our time grumbling, hypothesising, idealising, strategising, but in the end it boils down to taking action. And if we do not take any action, nothing will happen. If you want to get something done, get grip on yourself, find the way and do it.
-
-![do_it_now](../../static/images/do_it_now.jpg)
