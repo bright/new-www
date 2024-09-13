@@ -87,3 +87,7 @@ Why was it necessary to scrutinize the payment process so deeply? Because what m
 This led to another significant challenge: ensuring that sensitive data, such as names, surnames, or card numbers, was not collected. **In adherence to PCI DSS (Payment Card Industry Data Security Standard) Compliance, we implemented DataDog with data obfuscation techniques, retaining only the essential data** required to trace backend communication with the client and monitor the entire payment processing path. Beyond data obfuscation, we implemented other security practices, such as **two-fold protection of cardholder data, encryption** of transmitted data, and the creation and maintenance of **access logs**.
 
 <div className="image">![bill splitting UI](/images/pos_bill_split2.png "bill splitting UI")</div>
+
+<TitleWithIcon sectionTitle="the result: reliable and secure bill split for restaurants" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
+
+**The bill split not only meets security requirements but also complies with tax regulations** in the UK and Israel, providing a stress-free and secure experience for both customers and waitstaff. It became an essential feature of the point-of-sale system offered by Practi (later known as Just Eat POS).
