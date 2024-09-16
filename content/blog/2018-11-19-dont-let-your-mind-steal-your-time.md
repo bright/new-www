@@ -28,7 +28,7 @@ Procrastination stems from various thoughts and habits, mainly because we antici
 
 <div className="image">![procrastination](/images/1_9ce_8kqd8i60zfjwqqpnaa.gif "")</div>
 
-###### source: https://medium.com/@rathinamala23/the-psychology-of-procrastination-insights-and-solutions
+###### source: https://medium.com/@rathinamala23/the-psychology-of-procrastination-insights-and-solutions-806aa2e1250a
 
 Procrastination, while self-defeating, can serve a psychological purpose. For perfectionists, it shields them from fear of failure, judgment, and self-criticism. By focusing on less important tasks, like organizing or cleaning, procrastinators avoid the discomfort of unfinished work, though this often may lead to problems later. **Productive procrastination refers to engaging in other useful activities while intentionally delaying the main task at hand.**
 
