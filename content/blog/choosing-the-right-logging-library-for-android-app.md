@@ -4,12 +4,12 @@ tags:
   - android
   - kotlin
   - logging
-date: 2024-09-11T14:54:40.321Z
-meaningfullyUpdatedAt: 2024-09-11T14:54:40.344Z
+date: 2024-09-16T10:21:41.011Z
+meaningfullyUpdatedAt: 2024-09-16T10:21:41.647Z
 title: Choosing the Right Logging Library for Android App
 layout: post
 image: /images/all-your-logs.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
@@ -37,7 +37,7 @@ When selecting a logging solution for an Android app, several factors need to be
 
 6. **Runtime Configurability**: The framework should be configurable at runtime, allowing features such as logging destinations or logging level thresholds to be changed based on user choices, feature flags, or other dynamic conditions.
 
-7. **Proven and Stable**: Last but not least, it would be ideal to use a well-established, battle-tested solution that does not compromise the app's stability and maintainability.
+7. **Proven and Stable**: Last but not least, it would be ideal to use a well-established, battle-tested solution that does not compromise the app's stability or maintainability. Logging is crucial because if anything else in the app malfunctions, the logs are what I rely on to investigate the issue. If the logging system itself is unreliable, debugging other problems becomes significantly more difficult.
 
 Given these complex requirements, developing a custom logging solution seemed to be a huge maintenance burden so I decided to explore existing libraries.
 
@@ -49,7 +49,7 @@ _Actually, the same can be said about the vast majority of logging libraries I r
 
 ### Why Not Something New?
 
-I realize there are a lot of logging libraries out there. Some of them are multiplatform, which by definition means that I should be able to make them work in both Android and plain Kotlin modules. However, the solutions I found were not as well-established as I wished for. I hope to see Kotlin Multiplatform logging libraries receive more attention in the future.
+I realize there are a lot of logging libraries out there. Some of them are multiplatform, which by definition means that I should be able to make them work in both Android and plain Kotlin modules. However, the solutions I found were either not as well-established as I wished for or not flexible enough. I hope to see Kotlin Multiplatform logging libraries receive more attention in the future.
 
 ### Considering JUL (java.util.logging)
 
@@ -97,11 +97,9 @@ I also found an [Android-specific fork of Logback](https://github.com/tony19/log
 Eventually, I discovered from the [Logback documentation](https://logback.qos.ch/dependencies.html) that the older `1.3.x` branch of Logback is compatible with Java 8 and appears to be maintained. After switching to this version, I made a few necessary adjustments, such as adding ProGuard rules:
 
 ```proguard
-# There is no servlet-related code in Android so R8 complains
-about this class because it's used internally by Logback.
-# However, we don't need it in runtime so the warning can be
-# safely ignored and the referring code should be deleted from
-# the release APK anyway.
+# We don't use servlets in Android so R8 will erase that piece of
+# Logback from the release APK. We can safely ignore the warning
+# about a missing class.
 -dontwarn javax.servlet.ServletContainerInitializer
 
 # When Logback parses the log patterns such as "%msg" it looks
