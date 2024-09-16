@@ -13,7 +13,7 @@ comments: true
 published: true
 language: en
 ---
-**In my previous blog post, [Choosing the Right Logging Library for Android](/blog/choosing-the-right-logging-library-for-android-app/), I discussed how I arrived at the decision to use SLF4J alongside Logback for logging in Android apps. This post will take that foundation a step further by demonstrating how to configure Logback programmatically, ensuring that logs produced through the SLF4J API are properly sent to both Logcat and Firebase Crashlytics.**
+**In my previous blog post, [Choosing the Right Logging Library for Android](/blog/choosing-the-right-logging-library-for-android-app/), I discussed how I decided to use SLF4J alongside Logback for logging in Android apps. This post will take that foundation a step further by demonstrating how to configure Logback programmatically, ensuring that logs produced through the SLF4J API are properly sent to both Logcat and Firebase Crashlytics.**
 
 ## Why Not XML?
 
@@ -25,14 +25,16 @@ To keep this post short and digestible, I will show you a very basic setup that 
 
 <center><div className="image">![A diagram showing that all the code in the app using SLF4J API is forwarded to Logback, which in turn sends the logs to Logcat appender and Crashlytics appender](/images/logback-logcat-crashlytics.png "")</div></center>
 
-*If you're new to SLF4J and wonder how Logback is hidden behind SLF4J APIs, I recommend reading the [SLF4J manual](https://www.slf4j.org/manual.html) first.*
+*The Android robot is reproduced or modified from work created and shared by Google and used according to terms described in the [Creative Commons](https://creativecommons.org/licenses/by/3.0/) 3.0 Attribution License.*
+
+If you're new to SLF4J and wonder how Logback is hidden behind SLF4J APIs, I recommend reading the [SLF4J manual](https://www.slf4j.org/manual.html) first.
 
 ## First steps
 
 To configure Logback programmatically, you need to access the `LoggerContext` by casting SLF4J's `ILoggerFactory`. Since Logback may be initialized with some defaults, you should `stop()` it before changing the configuration:
 
 ```kotlin
-fun `configureLogback`() {
+fun configureLogback() {
     val loggerContext = LoggerFactory.getILoggerFactory() as LoggerContext
     loggerContext.stop()
 }
@@ -42,9 +44,9 @@ fun `configureLogback`() {
 
 To make Logback send logs to the actual destinations (like Logcat, Firebase, local files, you name it), you need Logback components called "appenders". There are a few appenders ready for reuse built into Logback, for example, a `FileAppender` can be used to write logs to local files. However, it should come as no surprise that Logback doesn't include the code necessary to send the logs to Android Logcat or to Firebase Crashlytics, because Logback is not an Android library and has no knowledge about Android APIs. (I assume you don't intend to use the Logback fork [logback-android](https://github.com/tony19/logback-android/) which I don't recommend for reasons mentioned in the [previous blog post](/blog/choosing-the-right-logging-library-for-android-app/).)
 
-Let's see how easily we can integrate Logcat and Crashlytics logging into Logback.
-
 *You can read more about appenders in [Logback documentation](https://logback.qos.ch/manual/appenders.html).*
+
+Let's see how easily we can integrate Logcat and Crashlytics logging into Logback.
 
 ### Logcat
 
@@ -160,7 +162,7 @@ class CrashlyticsAppender(
 }
 ```
 
-The example above has an additional feature of reporting ["non-fatal" exceptions](https://firebase.google.com/docs/crashlytics/customize-crash-reports?platform=android#log-excepts) to Crashlytics whenever there is throwable associated with a log event. You can delete the `logAllExceptions` flag and  `recordExceptionIfRequested` if you don't need it.
+The example above has an additional feature of reporting ["non-fatal" exceptions](https://firebase.google.com/docs/crashlytics/customize-crash-reports?platform=android#log-excepts) to Crashlytics whenever there is a throwable associated with a log event. You can delete the `logAllExceptions` flag and  `recordExceptionIfRequested` if you don't need it.
 
 Now, you can create the appender with the desired message pattern:
 
@@ -212,12 +214,10 @@ Here are a few screenshots from my demo app where I tested this setup:
 
 <center><div className="image">![A screenshot of Crashlytics showing the expected logs attached to a crash](/images/logback-crashlytics-logs-screenshot.png "")</div></center>
 
-You can find the complete code [here](https://github.com/azabost/android-logback-example/tree/basic-logcat-crashlytics) (I may add more examples in the future, so make sure to check out the `basic-logcat-crashlytics` branch that will contain the code related to this post only).
+You can find the complete code [here](https://github.com/azabost/android-logback-example/tree/basic-logcat-crashlytics).
+
+_I may add more examples to that repo in the future, so make sure to check out the `basic-logcat-crashlytics` branch that will contain the code related to this post only)._
 
 ## Addendum
 
-The appenders' code above is incompatible with Logback's XML configuration feature. For example, I'm pretty sure the appenders should have zero-arg constructors and public properties as shown in [this article](https://www.baeldung.com/custom-logback-appender). Since I don't intend to configure Logback via XML in Android apps, I decided not to dwell on that topic in this blog post to keep the code simpler. 
-
-- - -
-
-*The Android robot is reproduced or modified from work created and shared by Google and used according to terms described in the [Creative Commons](https://creativecommons.org/licenses/by/3.0/) 3.0 Attribution License.*
+The appenders' code above is incompatible with Logback's XML configuration feature. For example, I'm pretty sure the appenders should have no-argument constructors and public properties as shown in [this article](https://www.baeldung.com/custom-logback-appender). Since I don't intend to configure Logback via XML in Android apps, I decided not to dwell on that topic in this blog post to keep the code simpler.
