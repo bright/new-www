@@ -65,6 +65,8 @@ By the way, using SLF4J brings more benefits, such as the ability to process log
 
 _There are certainly more benefits to using SLF4J, but I'm not going to cover all of them in this post._
 
+<center><div className="image">![All your logs are belong to us](/images/all-your-logs.png "")</div></center>
+
 ### Log4j2: A Dead End for Android
 
 Log4j2 initially seemed promising, especially when I learned about its [Kotlin-friendly API](https://logging.apache.org/log4j/kotlin/index.html), but I quickly ran into compatibility issues with Android. When I added the dependency, the build failed with the following error:
