@@ -25,8 +25,6 @@ To keep this post short and digestible, I will show you a very basic setup that 
 
 <center><div className="image">![A diagram showing that all the code in the app using SLF4J API is forwarded to Logback, which in turn sends the logs to Logcat appender and Crashlytics appender](/images/logback-logcat-crashlytics.png "")</div></center>
 
-*The Android robot is reproduced or modified from work created and shared by Google and used according to terms described in the [Creative Commons](https://creativecommons.org/licenses/by/3.0/) 3.0 Attribution License.*
-
 If you're new to SLF4J and wonder how Logback is hidden behind SLF4J APIs, I recommend reading the [SLF4J manual](https://www.slf4j.org/manual.html) first.
 
 ## First steps
@@ -221,3 +219,9 @@ _I may add more examples to that repo in the future, so make sure to check out t
 ## Addendum
 
 The appenders' code above is incompatible with Logback's XML configuration feature. For example, I'm pretty sure the appenders should have no-argument constructors and public properties as shown in [this article](https://www.baeldung.com/custom-logback-appender). Since I don't intend to configure Logback via XML in Android apps, I decided not to dwell on that topic in this blog post to keep the code simpler.
+
+---
+
+*Copyright notice:*
+
+*The Android robot is reproduced or modified from work created and shared by Google and used according to terms described in the [Creative Commons](https://creativecommons.org/licenses/by/3.0/) 3.0 Attribution License.*
