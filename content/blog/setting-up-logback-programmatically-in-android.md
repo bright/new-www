@@ -8,6 +8,7 @@ date: 2024-09-16T19:08:06.975Z
 meaningfullyUpdatedAt: 2024-09-16T19:08:06.999Z
 title: Setting Up Logback Programmatically in Android
 layout: post
+image: /images/logback-android.png
 hidden: true
 comments: true
 published: true
