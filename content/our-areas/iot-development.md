@@ -118,12 +118,6 @@ description_mdx: We are Bright Inventions – a software development company
 image_our_service: /images/iot_development_1.png
 show_team: true
 ---
-## what is IoT and why you might need it?
-
-The Internet of Things (IoT) is easily described as a **network of various devices connected to the software**. As a result, users can control the devices and monitor the data provided by hardware.
-
-If you plan to sell or build devices connected with mobile applications, then consider hiring IoT experts who will create the right software for the devices.
-
 ## is the IoT development company a good fit for you?
 
 Internet of Things is an integral part of the software development process for many industries. You may need an IoT agency especially when:
