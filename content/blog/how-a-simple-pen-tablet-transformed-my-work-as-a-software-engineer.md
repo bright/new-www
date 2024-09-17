@@ -20,7 +20,7 @@ Explaining complex software concepts often involves diagrams or sketches, whethe
 
 The pen makes drawing feel more intuitive than using a mouse or touchpad, allowing me to express ideas quickly and naturally.
 
-
+\[add image here]
 
 ## Annotating Reviews With Ease
 
