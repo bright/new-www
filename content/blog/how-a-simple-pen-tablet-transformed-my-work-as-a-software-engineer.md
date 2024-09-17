@@ -36,7 +36,7 @@ What I love most is that this approach avoids the clunky back-and-forth that com
 
 ## Rediscovering the Joy of Drawing
 
-Perhaps the most unexpected benefit of using the tablet is the simple pleasure of drawing. Even though I’m no artist, the physical act of creating something by hand—whether it’s a messy diagram or a simple sketch—has been incredibly freeing. It’s a reminder that creativity isn’t always about the outcome, but the process.
+Perhaps the most unexpected benefit of using the tablet is the simple pleasure of drawing. Even though I’m no artist, the physical act of creating something by hand—whether it’s a messy diagram or a simple sketch—has been incredibly freeing and joyful. It’s a reminder that creativity isn’t always about the outcome, but the process.
 
 ## Conclusion
 
