@@ -69,7 +69,14 @@ title_case_study: IoT development that we’ve worked on
 title_faqs: IoT development FAQs
 title_contact: book free consultation in 48 hours
 description_contact: Fill out the form below and we'll get back to you in 48 hours. Let's talk!
-boxes: []
+boxes:
+  - box_description: As a retail business, you probably need **software compatible
+      with ePOS**. Our team has worked with dozens of ePOS devices developing
+      web as well as **[Android & iOS ePOS
+      applications](/projects/system-for-restaurants-mobile)** for retail and
+      online food delivery giant **Just Eat**.
+    box_title: test
+    box_icon: /images/1test.png
 language: en
 blog_section_tags:
   - programming
