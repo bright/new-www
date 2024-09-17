@@ -76,4 +76,4 @@ As you can see, waitstaff needs can be very specific – these are just a couple
 
 Check out our approach towards POS modernization. Read the story of [30 years old restaurant POS system](https://brightinventions.pl/projects/pos-legacy/) that our team revamped.
 
-[![POS legacy modernization case study](/images/preview_case_study_pos_revamp.png)](/projects/pos-legacy/)
+<YouTubeEmbed url='https://youtu.be/q5bMu2FnhOs' />
