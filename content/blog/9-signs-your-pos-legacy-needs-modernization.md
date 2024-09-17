@@ -61,4 +61,4 @@ Are you continuing to develop a system that's been decades in the making? **Is i
 
 How many times did you nod? If you feel that POS modernization is your fate but understandably are apprehensive about the process, **check out our approach to software revamping**. **Read [the story of 30-year-old legacy POS system](/projects/pos-legacy/) that our team revamped**.
 
-[![POS legacy modernization case study](/images/preview_case_study_pos_revamp.png)](/projects/pos-legacy/)
+<YouTubeEmbed url='https://youtu.be/q5bMu2FnhOs' />
