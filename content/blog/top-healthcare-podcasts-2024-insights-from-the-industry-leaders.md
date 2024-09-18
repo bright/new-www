@@ -10,7 +10,7 @@ comments: true
 published: true
 language: en
 ---
-Podcasts have become a key source of knowledge and inspiration for professionals in the healthtech space. From keeping up with the latest trends to going deep into niche topics, healthtech podcasts offer valuable insights for anyone interested in the intersection of healthcare and technology. In conversations with healthtech leaders at the [HLTH Europe Conference in Amsterdam](https://europe.hlth.com/), several podcasts were mentioned as their go-to resources.
+**Podcasts have become a key source of knowledge and inspiration for professionals in the healthtech space. From keeping up with the latest trends to going deep into niche topics, healthtech podcasts offer valuable insights for anyone interested in the intersection of healthcare and technology. In conversations with healthtech leaders at the [HLTH Europe Conference in Amsterdam](https://europe.hlth.com/), several podcasts were mentioned as their go-to resources.**
 
 ## **Podcasts recommended by HealthTech Experts**
 
@@ -31,13 +31,8 @@ During the conference, various experts shared their top picks for healthtech pod
 In addition to the expert-recommended podcasts, there are several others widely recognized for their insightful content and engaging discussions:
 
 * [Digital Health Today ](https://digitalhealthtoday.com/)features interviews with leaders and innovators in digital health, covering topics from **telehealth to AI and healthcare policy**. It’s a great resource for understanding the global digital health space.
-
 * [StartUp Health NOW](https://healthpodcastnetwork.com/show/startup-health-now-podcast/) shares conversations with entrepreneurs and thought leaders driving change in digital health. This podcast is known for its **focus on mission-driven startups** and their journeys to transform healthcare.
-
-
 * [Healthcare Rap](https://shiftforwardhealth.com/show/healthcare-rap/) offers a unique blend of healthcare marketing insights and digital innovation trends. It’s particularly engaging for those interested in **how digital health is transforming patient experiences** and healthcare delivery.
-
-
 * [Faces of Digital Health](https://www.facesofdigitalhealth.com/) explores global perspectives on **digital health innovation and implementation**, providing insights into how different countries are adopting digital health and the challenges they face. Tjasa Zajc, the podcast creator, brings a unique blend of IT industry knowledge and journalistic expertise.
 
 <div className="image">![](/images/1690350804443.jpeg "Tjasa Zajc")</div>
