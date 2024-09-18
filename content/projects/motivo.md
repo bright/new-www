@@ -7,7 +7,7 @@ our_service:
 layout: project
 project_id: motivo
 title: Optimizing Cycling Training with App Integrated with Wahoo Fitness Devices
-image: /images/motivo_main.png
+image: /images/motivo_cycling_app_case_study.png
 description: Turbo Training and Indoor Cycling Workouts. The app is your own
   personal cycling coach. It offers Interactive training plans and workouts for
   indoor cycling.
