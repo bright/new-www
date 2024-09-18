@@ -11,7 +11,7 @@ our_service:
 layout: project
 project_id: digitized-questionnaires
 title: Digitized Questionnaires
-image: /images/digitizing_mobile_reporting_main2.png
+image: /images/case_study_digitized_questionnaires_update.png
 description: A web application that enables digitizing mobile reporting. It
   helps you to build, with no code, the digitized surveys for end-users. A great
   tool for audits.
