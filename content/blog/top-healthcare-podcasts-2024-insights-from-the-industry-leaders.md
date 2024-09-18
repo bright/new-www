@@ -15,70 +15,35 @@ Podcasts have become a key source of knowledge and inspiration for professionals
 
 During the conference, various experts shared their top picks for healthtech podcasts:
 
-
-
 * [Hospitalogy](https://hospitalogy.com/) by Blake Madden and [Healthcare Huddle](https://www.healthcarehuddle.com/) by Jared Dashevsky were highly recommended by [Dr. Adam Brown](https://www.linkedin.com/in/adambrownmdmba/), an emergency physician and healthtech leader. He values these podcasts for their **comprehensive coverage of financials, market movements, and healthcare trends**. As he mentioned, “Encouraging business leaders to think empathically and recognize the health connections in their policies is key.”
-
-
-
 * [SomX Podcast by James Somauroo](https://www.jamessomauroo.com/) is a favorite of Claudia Pastides, Director of Medical Accuracy at [Flo Health.](https://flo.health/) She appreciates the podcast for its **insightful discussions on healthcare innovation**, where industry leaders go into the latest healthtech advancements and challenges.
 
 <div className="image">![](/images/baner_final-quote-claudia-podcast.png "Claudia Pastides on Healthcare Podcasts")</div>
 
 * [MedTech Talks and Device Talks](https://medtechmvp.com/media/medtech-talk-podcast) were mentioned by Guy Siman, co-founder of [Sensars](https://www.sensars.com/), as top resources for those interested in the medical device sector. Both podcasts provide **valuable perspectives on new technologies, regulatory hurdles, and market dynamics within the medtech field.**
-
-
-
 * [A podcast led by Dr. Andrew Huberman](https://www.hubermanlab.com/) was also highlighted by Guy Siman for its focus in neuroscience, health, and wellness. It’s particularly **appreciated for its scientific approach** and practical health advice.
-
-
 
 ## Other must-listen HealthTech podcasts
 
-
-
 In addition to the expert-recommended podcasts, there are several others widely recognized for their insightful content and engaging discussions:
 
+* [Digital Health Today ](https://digitalhealthtoday.com/)features interviews with leaders and innovators in digital health, covering topics from **telehealth to AI and healthcare policy**. It’s a great resource for understanding the global digital health space.
 
 
-* Digital Health Today features interviews with leaders and innovators in digital health, covering topics from telehealth to AI and healthcare policy. It’s a great resource for understanding the global digital health space.
+* [StartUp Health NOW](https://healthpodcastnetwork.com/show/startup-health-now-podcast/) shares conversations with entrepreneurs and thought leaders driving change in digital health. This podcast is known for its **focus on mission-driven startups** and their journeys to transform healthcare.
 
 
-
-* The Healthtech Podcast hosted by James Somauroo explores stories from healthtech startups, investors, and industry experts, focusing on innovation, entrepreneurship, and the impact of technology on healthcare.
-
+* [Healthcare Rap](https://shiftforwardhealth.com/show/healthcare-rap/) offers a unique blend of healthcare marketing insights and digital innovation trends. It’s particularly engaging for those interested in **how digital health is transforming patient experiences** and healthcare delivery.
 
 
-* StartUp Health NOW shares conversations with entrepreneurs and thought leaders driving change in digital health. This podcast is known for its focus on mission-driven startups and their journeys to transform healthcare.
-
-
-
-* Healthcare Rap offers a unique blend of healthcare marketing insights and digital innovation trends. It’s particularly engaging for those interested in how digital health is transforming patient experiences and healthcare delivery.
+* [Faces of Digital Health](https://www.facesofdigitalhealth.com/) explores global perspectives on **digital health innovation and implementation**, providing insights into how different countries are adopting digital health and the challenges they face. Tjasa Zajc, the podcast creator, brings a unique blend of IT industry knowledge and journalistic expertise.
 
 
 
-* Faces of Digital Health explores global perspectives on digital health innovation and implementation, providing insights into how different countries are adopting digital health and the challenges they face. Tjasa Zajc, the creator of the podcast, represents a unique blend of IT industry knowledge and journalist craft.
-
-
-
-* The #HCBiz Show! Its about the business side of healthcare, discussing innovation, policy changes, and the impact of digital health tools. It’s ideal for breaking down complex topics in an understandable way.
-
-
-
-* MedTech Talk Podcast focuses on the medtech industry, covering topics like medical device startups, regulatory changes, and investment strategies.
-
-
-
-* Data Book, produced by Inside Digital Health, centers around data analytics, health IT, cybersecurity, and the role of big data in healthcare.
-
-
-
-* The Outcomes Rocket features interviews with healthcare leaders, innovators, and entrepreneurs, discussing ways to improve healthcare outcomes and delivery.
-
-
-
-* Health Unchained focuses on the intersection of blockchain and healthcare, making it a must-listen for those interested in the future of decentralized healthcare systems.
-
-
+* [The #HCBiz Show](https://thehcbiz.com/)! Its about the business side of healthcare, discussing innovation, policy changes, and the impact of digital health tools. It’s ideal for **breaking down complex topics in an understandable way.**
+* [MedTech Talk Podcast](https://medtechmvp.com/media/medtech-talk-podcast) focuses on the **medtech industry**, covering topics like medical device startups, regulatory changes, and investment strategies.
+* [Data Book](https://podcasts.apple.com/us/podcast/data-book/id1365789336), produced by Inside Digital Health, centers around data analytics, health IT, cybersecurity, and **the role of big data in healthcare**.
+* [The Outcomes Rocket](https://outcomesrocket.health/) features interviews with healthcare leaders, innovators, and entrepreneurs, d**iscussing ways to improve healthcare outcomes and delivery**.
+* [Health Unchained](https://healthunchained.org/) focuses on **the intersection of blockchain and healthcare**, making it a must-listen for those interested in the future of decentralized healthcare systems.
 
 These podcasts cover a wide range of topics, from digital health innovations and healthcare policy to medtech advancements and data-driven healthcare. Whether you're a startup founder, healthcare provider, investor, or tech enthusiast, these podcasts provide valuable insights and perspectives to help go through the ever-evolving world of healthtech.
