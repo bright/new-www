@@ -11,7 +11,7 @@ our_service:
 layout: project
 project_id: smarthelp
 title: "SmartHelp: Instant Emergency Localization with a Single Click"
-image: /images/smarthelp_main.png
+image: /images/emergency_app_case_study.png
 description: An emergency service app that allows users to easily call for help
   and provide authorities with personal information, exact location, and
   incident details.
