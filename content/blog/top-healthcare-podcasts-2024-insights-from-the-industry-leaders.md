@@ -2,6 +2,7 @@
 author: agata
 date: 2024-09-18T10:40:49.455Z
 meaningfullyUpdatedAt: 2024-09-18T10:40:49.487Z
+slug: top-healthcare-podcasts
 title: "Top Healthcare Podcasts 2024: Insights from the industry leaders"
 layout: post
 hidden: false
@@ -30,7 +31,6 @@ During the conference, various experts shared their top picks for healthtech pod
 In addition to the expert-recommended podcasts, there are several others widely recognized for their insightful content and engaging discussions:
 
 * [Digital Health Today ](https://digitalhealthtoday.com/)features interviews with leaders and innovators in digital health, covering topics from **telehealth to AI and healthcare policy**. It’s a great resource for understanding the global digital health space.
-
 
 * [StartUp Health NOW](https://healthpodcastnetwork.com/show/startup-health-now-podcast/) shares conversations with entrepreneurs and thought leaders driving change in digital health. This podcast is known for its **focus on mission-driven startups** and their journeys to transform healthcare.
 
