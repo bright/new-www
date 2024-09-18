@@ -8,6 +8,7 @@ date: 2024-09-17T10:28:02.905Z
 meaningfullyUpdatedAt: 2024-09-17T10:28:02.937Z
 title: How a Simple Pen Tablet Transformed My Work as a Software Engineer
 layout: post
+image: /images/pen-tablet-featured.png
 hidden: true
 comments: true
 published: true
@@ -21,7 +22,10 @@ Explaining complex software concepts often involves diagrams or sketches, whethe
 
 The pen makes drawing feel more intuitive than using a mouse or touchpad, allowing me to express ideas quickly and naturally.
 
+<center>
 <div className="image">![A photo of keyboard, mouse and a pen tablet](/images/mouse-keyboard-pen-tablet-1366.jpg "")</div>
+_My current desk setup_
+</center>
 
 ## Annotating Reviews With Ease
 
