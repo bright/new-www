@@ -3,6 +3,7 @@ author: azabost
 tags:
   - software development
   - self-development
+  - programming
 date: 2024-09-17T10:28:02.905Z
 meaningfullyUpdatedAt: 2024-09-17T10:28:02.937Z
 title: How a Simple Pen Tablet Transformed My Work as a Software Engineer
