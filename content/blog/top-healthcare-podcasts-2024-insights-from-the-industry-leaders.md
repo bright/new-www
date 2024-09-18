@@ -12,7 +12,7 @@ language: en
 ---
 **Podcasts have become a key source of knowledge and inspiration for professionals in the healthtech space. From keeping up with the latest trends to going deep into niche topics, healthtech podcasts offer valuable insights for anyone interested in the intersection of healthcare and technology. In conversations with healthtech leaders at the [HLTH Europe Conference in Amsterdam](https://europe.hlth.com/), several podcasts were mentioned as their go-to resources.**
 
-## **Podcasts recommended by HealthTech Experts**
+## Podcasts recommended by HealthTech Experts
 
 During the conference, various experts shared their top picks for healthtech podcasts:
 
