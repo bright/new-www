@@ -24,8 +24,8 @@ bar_achievements:
     label: Years of collaboration
   - number: "2"
     label: iOS and Android apps for drivers
-  - label: months from the idea to the release on Android
-    number: "3"
+  - label: from the idea to the release on Android
+    number: 3 months
 tags:
   - customized software
   - mobile app
@@ -35,7 +35,7 @@ title_case_study: how we support our clients
 title_contact: book a free consultation in 48 hours
 description_contact: Tell us more about your mobile application. Fill out the
   form below and we'll get back to you in 48 hours.
-order: 99
+order: 1
 slug: delivery-drivers-app
 show_team: true
 show_case_study: true
@@ -46,7 +46,7 @@ language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
-<Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/swift_icon_stack.svg","alt":"Swift"}]' />
+<Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/android_stack_logo.svg","alt":"Android"},{"src":"/images/swift_icon_stack.svg","alt":"Swift"}]' />
 
 **technologies:** Kotlin, Swift
 
