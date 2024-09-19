@@ -9,7 +9,7 @@ our_service:
 layout: project
 project_id: restaurant-delivery-drivers-app
 title: "Breaking Free from High Fees: Restaurant Delivery Drivers App"
-image: /images/delivery_management_app__case_study.png
+image: /images/update_delivery_management_app__case_study.png
 description: While food delivery platforms offer convenience, they come with
   high commission fees for restaurant owners. What if there were a more
   affordable way for delivery? Discover the story of a courier delivery
