@@ -67,3 +67,15 @@ The delivery drivers app, available for iOS and Android, simplifies the collabor
 **The app then navigates couriers to the delivery destinations**, providing all necessary order details, including payment status (whether the order has been prepaid or requires payment upon delivery). Once the delivery is completed, **the driver updates the order status**, informing the waitstaff that the meal has been delivered and confirming the payment method chosen by the client.
 
 <div className="image">![UI app for delivery drivers](/images/case_study_mockup_app_for_delivery_drivers.png "app for delivery drivers mockups")</div>
+
+The app ensures that in-house drivers have all the essential information on their phones, eliminating time-consuming discussions with waitstaff. Since the app is integrated with Just Eat POS, **waitstaff can manage all online orders from a single device**, with real-time data transfer to drivers. This allows waitstaff to efficiently handle online orders while simultaneously managing other tasks on the same POS device. **Every online order is synchronized in real-time**, whether it originates from an external food delivery platform or is a phone order. Therefore drivers have instant access to new orders and can focus on quick order collection and delivery.
+
+<TitleWithIcon sectionTitle="challenges: simple and effective UI in stressful situations and immense responsibility" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
+
+One of the technical challenges was **implementing geolocation in a way that didn't excessively drain the phone's battery**. To optimize battery usage, we developed a solution that **sends location data at specific intervals when the app is active**. When the app runs in the background, location **updates are only sent when there is a significant change in the driver’s location**. This approach helps preserve the battery life of couriers' devices.
+
+<div className="image">![delivery drivers app mockups](/images/delivery_drivers_app_mockups.png "delivery drivers app mockups")</div>
+
+<TitleWithIcon sectionTitle="the results: restaurants less dependent on external food delivery providers" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
+
+The app became **a valuable asset for new and existing Just Eat POS users**. After its launch, it was especially appreciated by restaurants seeking to offer their customers in-house delivery services, free from the additional fees typically associated with popular food delivery platforms.
