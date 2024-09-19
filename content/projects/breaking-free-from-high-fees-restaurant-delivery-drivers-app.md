@@ -1,0 +1,51 @@
+---
+team_members:
+  - fjablonski
+  - radek
+  - michal
+  - piotr
+our_service:
+  - mobile app development
+layout: project
+project_id: restaurant-delivery-drivers-app
+title: "Breaking Free from High Fees: Restaurant Delivery Drivers App"
+image: /images/delivery_management_app__case_study.png
+description: While food delivery platforms offer convenience, they come with
+  high commission fees for restaurant owners. What if there were a more
+  affordable way for delivery? Discover the story of a courier delivery
+  application, empowering restaurants to manage their deliveries and reduce the
+  costs associated with partnering with popular food marketplaces.
+hero_image: /images/case_study_restaurant_delivery_drivers_app.png
+Hero Image_alt: Food Delivery Management App case study
+social_media_previev: /images/fb_preview_case_study_delivery_driver_app.png
+social_media_previev_alt: Delivery Drivers App case study
+bar_achievements:
+  - number: "10"
+    label: Years of collaboration
+  - number: "2"
+    label: iOS and Android apps for drivers
+  - label: months from the idea to the release on Android
+    number: "3"
+tags:
+  - customized software
+  - mobile app
+  - retail & restaurant
+title_team: meet the team behind the solution
+title_case_study: how we support our clients
+title_contact: book a free consultation in 48 hours
+description_contact: Tell us more about your mobile application. Fill out the
+  form below and we'll get back to you in 48 hours.
+order: 99
+slug: delivery-drivers-app
+show_team: true
+show_case_study: true
+show on homepage: false
+published: true
+work_in_progress: false
+language: en
+---
+<TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
+
+<Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/swift_icon_stack.svg","alt":"Swift"}]' />
+
+**technologies:** Kotlin, Swift
