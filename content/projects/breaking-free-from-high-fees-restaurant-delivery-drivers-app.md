@@ -59,3 +59,11 @@ One major concern for restaurant owners is the **high cost associated with partn
 Another restaurant owners’ concern is the **inability to manage all deliveries within a single app**. Typically, when they hire external delivery providers, waitstaff has to manage separate apps, such as Deligoo. **Restaurant owners seek an all-in-one solution**, allowing their staff to handle all deliveries directly through the POS application.
 
 Practi addressed these issues by **enhancing their multifunctional POS system with a delivery management app** that connects restaurants directly with their drivers. Our team developed this solution, along with many others, during our **10-year partnership with Practi (later acquired by Just Eat Takeaway.com)**.
+
+<TitleWithIcon sectionTitle="the solution: a delivery management system for internal restaurant use" titleIcon="/images/flag.png" titleIconAlt="the solution:" />
+
+The delivery drivers app, available for iOS and Android, simplifies the collaboration between restaurant couriers and waitstaff. **Waitstaff can easily assign orders to drivers, and drivers** also have the option to assign themselves to orders. 
+
+**The app then navigates couriers to the delivery destinations**, providing all necessary order details, including payment status (whether the order has been prepaid or requires payment upon delivery). Once the delivery is completed, **the driver updates the order status**, informing the waitstaff that the meal has been delivered and confirming the payment method chosen by the client.
+
+<div className="image">![UI app for delivery drivers](/images/case_study_mockup_app_for_delivery_drivers.png "app for delivery drivers mockups")</div>
