@@ -15,7 +15,7 @@ description: While food delivery platforms offer convenience, they come with
   affordable way for delivery? Discover the story of a courier delivery
   application, empowering restaurants to manage their deliveries and reduce the
   costs associated with partnering with popular food marketplaces.
-hero_image: /images/case_study_restaurant_delivery_drivers_app.png
+hero_image: /images/case_study_restaurant_delivery_drivers_app_update.png
 Hero Image_alt: Food Delivery Management App case study
 social_media_previev: /images/fb_preview_case_study_delivery_driver_app.png
 social_media_previev_alt: Delivery Drivers App case study
