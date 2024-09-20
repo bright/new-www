@@ -2,8 +2,6 @@
 author: agata
 tags:
   - HealthTech
-  - business
-  - inspiration
 date: 2024-08-16T10:54:56.863Z
 meaningfullyUpdatedAt: 2024-08-16T10:54:56.886Z
 slug: dr_frank_hoffmann
