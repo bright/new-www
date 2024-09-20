@@ -1,11 +1,7 @@
 ---
 author: agata
 tags:
-  - business
   - HealthTech
-  - inspiration
-  - business strategy
-  - business perspective
 date: 2024-08-26T11:29:59.990Z
 meaningfullyUpdatedAt: 2024-08-26T11:30:00.013Z
 title: "Revolutionizing Pain Relief with AI: An Interview with Guy Siman of Sensars"
