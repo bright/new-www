@@ -1,5 +1,7 @@
 ---
 author: agata
+tags:
+  - HealthTech
 date: 2024-07-30T10:46:38.619Z
 meaningfullyUpdatedAt: 2024-07-30T10:46:38.648Z
 title: "Interoperability in HealthTech: Experts Insights"
