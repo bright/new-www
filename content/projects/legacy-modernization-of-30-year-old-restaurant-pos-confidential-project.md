@@ -51,10 +51,6 @@ Every legacy system eventually reaches a point where its founder must face the u
 
 <YouTubeEmbed url='https://www.youtube.com/watch?v=q5bMu2FnhOs' />
 
-<iframe width="1777" height="805" src="https://www.youtube.com/embed/q5bMu2FnhOs" title="Is it possible to revamp nearly 30-year-old software?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<div className="image">![POS revamp](/images/pos_revamp.png "POS revamp")</div>
-
 <TitleWithIcon sectionTitle="solutions: POS with a modern UI, performance monitoring, and mobile applications" titleIcon="/images/two_flags.svg" titleIconAlt="solutions" />
 
 Based on over a decade of experience developing POS solutions for brands like [Just Eat POS](/projects/system-for-restaurants/), we began the work by **auditing the software for modernization**, allowing us to spot areas for significant improvement. 
