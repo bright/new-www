@@ -3,7 +3,6 @@ author: michal
 secondAuthor: mateusz
 thirdAuthor: izabela
 tags:
-  - update
   - startups
   - MVP
 date: 2023-07-04T07:38:32.701Z
