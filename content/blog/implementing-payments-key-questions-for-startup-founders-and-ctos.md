@@ -3,6 +3,7 @@ author: fjablonski
 secondAuthor: izabela
 tags:
   - business
+  - POS
 date: 2023-09-27T08:18:29.798Z
 meaningfullyUpdatedAt: 2023-09-27T08:18:30.349Z
 title: "Implementing Payments: Key Questions for Startup Founders and CTOs"
