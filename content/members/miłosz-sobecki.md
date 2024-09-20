@@ -3,9 +3,9 @@ layout: member
 author_id: milosz-s
 ex: false
 slug: milosz-s
-name: Miłosz Sobecki
+name: Miłosz Sobiecki
 short_name: Miłosz
-email: milosz.sobecki@brightinventions.pl
+email: milosz.sobiecki@brightinventions.pl
 bio: QA Engineer
 description: QA Engineer
 avatar: /images/brightdev_miłoszs-busi.png
