@@ -9,7 +9,7 @@ our_service:
 layout: project
 project_id: xpomaker
 title: Improving User Experience for xpomaker – Trade Fairs Management Software
-image: /images/xpomaker_dashboard.png
+image: /images/case_study_trade_fairs_management_software.png
 description: >
   A trade fair planning software that revolutionizes the way companies prepare
   and organize all assets needed for industry events.
