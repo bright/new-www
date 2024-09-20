@@ -4,6 +4,7 @@ secondAuthor: izabela
 tags:
   - business perspective
   - HealthTech
+  - POS
 date: 2023-03-09T14:30:26.285Z
 meaningfullyUpdatedAt: 2024-04-22T11:27:23.463Z
 title: Offline-First App Guide for Startups and App Owners (Case Studies Included)
