@@ -48,8 +48,6 @@ language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
-
-
 <Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/firebase_logo_stack_new.svg","alt":"Firebase"},{"src":"/images/realm_stack_logo.svg","alt":"Realm"}]' />
 
 **technologies**: Kotlin, Swift, Firebase, Realm, MixPanel, Fastlane
@@ -57,6 +55,8 @@ language: en
 <TitleWithIcon sectionTitle="the problem: unsupporting bill splitting mechanism in POS systems" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
 After enjoying a delicious three-course meal, clients are ready to settle the bill and free up the table. But then, the waitstaff hears those dreaded words: “Can we split the bill?” **While customers love the convenience of splitting bills, it might be a different story for the waitstaff**. Their frustration typically stems from a POS system that doesn’t truly support bill splitting, making the process stressful and prone to errors.
+
+<YouTubeEmbed url='https://www.youtube.com/watch?v=gwM0SnHACMs' />
 
 <TitleWithIcon sectionTitle="the solution: bill splitting mechanism navigating waitstaff through the process" titleIcon="/images/flag.png" titleIconAlt="the solution" />
 
