@@ -14,9 +14,9 @@ description: Meet a popular food delivery app and employee benefit in one. Our
   users. Take a bite of the story of the iOS app developed for a global food
   delivery marketplace.
 hero_image: /images/case_study_food_delivery_app_modernization.png
-Hero Image_alt: food delivery app
+Hero Image_alt: food delivery app development
 social_media_previev: /images/fb_preview_case_study_food_delivery_app.png
-social_media_previev_alt: food delivery app
+social_media_previev_alt: food delivery app development
 bar_achievements:
   - number: 2+
     label: Years of collaboration
@@ -78,7 +78,7 @@ Another challenge we faced was the **effective testing of screens with Hebrew UI
 
 **Our client deeply appreciated our approach to quality assurance, engaging a software tester from our team to be part of the mobile team developing the Android version of this application.**
 
-<div className="image">![](/images/food_delivery_case_study.png "")</div>
+<div className="image">![food delivery app case study](/images/food_delivery_case_study.png "")</div>
 
 <TitleWithIcon sectionTitle="the result: scaling leading food delivery solution" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
 
