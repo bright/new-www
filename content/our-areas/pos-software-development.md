@@ -143,7 +143,7 @@ testimonials:
     testimonials_position: Founder
     testimonials_company: Relevo
     testimonials_photo: /images/matthias_potthast.png
-show_team: true
+show_team: false
 ---
 ## what we offer as a POS development company with over 12 years of experience
 
