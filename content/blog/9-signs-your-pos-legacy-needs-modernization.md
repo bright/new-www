@@ -27,6 +27,8 @@ language: en
 
 Modern POS is often a **combined system of desktop and mobile handheld devices** e.g. tablet &  smartphone terminals, or portable card readers. Can a variety of devices be integrated into your POS?
 
+<YouTubeEmbed url='https://youtu.be/q5bMu2FnhOs' />
+
 ## Is your POS on-premise although you wish for cloud migration?
 
 Do you still manage servers on your own, at the same time considering a move to cloud-based services to reduce costs? **The age of your system can significantly complicate migration efforts**. Revamping your POS system could be a strategic move towards a more budget-friendly migration. By updating your technology, you can avoid compatibility issues with cloud platforms and legacy technologies, and minimize any downtime that could affect your customers.

@@ -28,7 +28,7 @@ meta_title: Customized food delivery integration for your POS
 meta_description: POS integration with Uber Eats, Wolt, Just Eat Takeaway (and
   more) tailored to your point of sale system.
 our_services_icon: /images/pos_food_delivery_integration.png
-name: POS food delivery integration
+name: POS & food delivery app integration
 slug: food-delivery-pos-integration
 short_description: 'In search of something beyond ordinary food delivery
   integrations? Let’s combine our 12 years of scaling POS with your solution to

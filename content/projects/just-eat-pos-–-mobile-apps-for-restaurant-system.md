@@ -50,17 +50,6 @@ Just Eat POS system took care of the whole process of managing restaurant orders
 
 Also, read another [Just Eat POS case study](/projects/system-for-restaurants) about other products built for this enormous system.
 
-<TitleWithIcon sectionTitle="main features developed by Bright Inventions:" titleIcon="/images/icons_features_svg.svg" titleIconAlt="main features" />
-
-* Transactions processing
-* Integration with payment service providers
-* Receipt printing
-* Delivery tracking
-* Employees time tracking
-* Inventory management
-* Supply ordering
-* Offline mode during transactions
-
 <TitleWithIcon sectionTitle="mobile apps integrated with restaurant and retail systems" titleIcon="/images/icon_title_products.svg" titleIconAlt="Apps" />
 
 * ePOS iOS and Android **applications used by restaurant staff** to take orders and manage payments.
@@ -74,9 +63,7 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 
 <Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/firebase_logo_stack.png","alt":"Firebase"},{"src":"/images/realm_stack_logo.png","alt":"Realm"},{"src":"/images/fastlane_logo_stack.png","alt":"Fastlane"}]' />
 
-**Android**: Kotlin, Coroutines, Android Architecture Components (LiveData, ViewModel, Room, Navigation, Paging), Firebase, Google Maps, Dagger 2, Robolectric and other Google APIs
-
-**iOS**: Realm, ReactiveSwift, PureLayout, MixPanel, Alamofire, Fastlane, Firebase
+**technologies:** Kotlin, Coroutines, Realm, ReactiveSwift, Firebase, Google Maps, Dagger 2, Fastlane
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
@@ -118,7 +105,7 @@ The app let you manage food orders made at restaurant, by phone or the website.
 
 <div className="image">![ePOS applications](../../static/images/blog_post_cover_epos.png "undefined")</div>
 
-A great part of working with Just Eat POS was **building iOS and Android applications integrated with Bluetooth retail and ePOS devices** including:
+A great part of working with Just Eat POS was **building [iOS and Android applications integrated with Bluetooth retail and ePOS devices](/projects/pos-devices-integration/)** including:
 
 * POS Desktops,
 * Payment terminals,

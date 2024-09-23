@@ -286,9 +286,11 @@ export default function Template({
       {isClient && blog_section && <PopularBlogPosts posts={posts} title={blog_section_title} />}
 
       <CustomSection
-        paddingProps='2rem 15rem 2rem 15rem'
-        paddingLaptop='5rem 6rem 0rem'
-        paddingMobileProps='0 1.125rem 0'
+        paddingProps='2rem 15rem 4rem 15rem'
+        paddingLaptop='5rem 6rem 2rem'
+        paddingMobileProps='0 1.125rem 2rem'
+        paddingTabletXL='2rem 6rem 2rem'
+        paddingTablet='2rem 2rem 2rem'
       >
         <CustomSectionInner>
           <a href='#faqs' style={{ display: 'block' }}>

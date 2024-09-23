@@ -1,6 +1,8 @@
 ---
 author: agata
 secondAuthor: mateusz
+tags:
+  - HealthTech
 date: 2024-07-02T08:48:15.879Z
 meaningfullyUpdatedAt: 2024-07-02T08:48:15.899Z
 slug: hlth-amsterdam-2024-summary

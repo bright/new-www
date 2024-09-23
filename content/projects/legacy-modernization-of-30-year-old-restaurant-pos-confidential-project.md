@@ -49,7 +49,7 @@ Every legacy system eventually reaches a point where its founder must face the u
 
 **Our client, a company offering digital solutions for the hospitality industry, was facing these challenges**. For over two decades, its system has been utilized by restaurants nationwide. However, the application required modernization to remain competitive in the POS market. The client reached out to us for a **complete POS system revamp**. They also **expressed interest in developing mobile applications** to expand its digital portfolio.
 
-<div className="image">![POS revamp](/images/pos_revamp.png "POS revamp")</div>
+<YouTubeEmbed url='https://www.youtube.com/watch?v=q5bMu2FnhOs' />
 
 <TitleWithIcon sectionTitle="solutions: POS with a modern UI, performance monitoring, and mobile applications" titleIcon="/images/two_flags.svg" titleIconAlt="solutions" />
 

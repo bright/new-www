@@ -69,13 +69,47 @@ title_case_study: IoT development that we’ve worked on
 title_faqs: IoT development FAQs
 title_contact: book free consultation in 48 hours
 description_contact: Fill out the form below and we'll get back to you in 48 hours. Let's talk!
+boxes: []
+language: en
 blog_section_tags:
   - programming
 blog_section_title: blog posts
 image_alt_our_service_desktop: IoT company
 blog_section: false
 intro: We develop IoT software for startups and larger organisations.
-language: en
+testimonials:
+  - testimonials_quote: "*Compared to everyone else, bright inventions doesn’t
+      promise things they can’t deliver. \\[...]. The best thing about them is
+      that I can count on their actions.* [Read more on
+      Clutch](https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c9\
+      8c/293369)."
+    testimonials_author: Dorian Koch
+    testimonials_photo: /images/dorian.jpeg
+    testimonials_position: Co-Founder & Former CEO
+    testimonials_company: MedKitDoc
+  - testimonials_quote: "*Their attention to detail and scrutiny when dealing with
+      technical challenges is noteworthy.* [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-83595)."
+    testimonials_author: Adam Pachucki
+    testimonials_position: ead of Product
+    testimonials_company: Finebite
+    testimonials_photo: /images/adam_pachucki.jpeg
+  - testimonials_quote: "*Working with Bright Inventions is always a pleasure. The
+      people involved are friendly and to the point. They’re also pragmatic,
+      constructive, and punctual*. [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-54300)."
+    testimonials_author: Kira Nezu
+    testimonials_position: Project Manager
+    testimonials_company: AppAdvisors GmbH
+    testimonials_photo: /images/kira_nezu.jpeg
+  - testimonials_quote: "*Bright inventions and the whole team is always with full
+      heart at the project, understands our logic and intention behind and
+      respects our requests and demands*. [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-149237)."
+    testimonials_author: Matthias Potthast
+    testimonials_position: Founder
+    testimonials_company: Relevo
+    testimonials_photo: /images/matthias_potthast.png
 image_alt_our_service_mobile: IoT company
 description_mdx: We are Bright Inventions – a software development company
   specializing in the Internet of Things solutions. We build IoT software for
@@ -85,12 +119,6 @@ description_mdx: We are Bright Inventions – a software development company
 image_our_service: /images/iot_development_1.png
 show_team: true
 ---
-## what is IoT and why you might need it?
-
-The Internet of Things (IoT) is easily described as a **network of various devices connected to the software**. As a result, users can control the devices and monitor the data provided by hardware.
-
-If you plan to sell or build devices connected with mobile applications, then consider hiring IoT experts who will create the right software for the devices.
-
 ## is the IoT development company a good fit for you?
 
 Internet of Things is an integral part of the software development process for many industries. You may need an IoT agency especially when:

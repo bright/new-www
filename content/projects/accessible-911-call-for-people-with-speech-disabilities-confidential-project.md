@@ -55,7 +55,7 @@ Have you ever made a phone call to 911? That is one of the most stressful situat
 
 Approximately **[11 million Americans](https://nationaldeafcenter.org/faq/how-many-deaf-people-live-in-the-united-states/) are deaf or have hearing difficulties, yet 911 call centers only accept phone call**s. People with speaking disabilities are not the only group excluded from the emergency response system. Consider i**ndividuals who need to call the police while hiding from the intruder**. The inability to silently send a text to 911 could potentially endanger their lives.
 
-<div className="image">![emergency dispatch system](/images/emergency_dispatch_solution_app.png "emergency dispatch system")</div>
+<YouTubeEmbed url='https://www.youtube.com/watch?v=GxnCUiBzriI' />
 
 <TitleWithIcon sectionTitle="the solution: non-verbal communication with dispatch centers" titleIcon="/images/flag.png" titleIconAlt="the solution:" />
 

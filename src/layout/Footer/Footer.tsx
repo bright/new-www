@@ -134,15 +134,6 @@ export const Footer = () => {
             </PartnerLink>
 
             <PartnerLink
-              href='https://www.zebra.com/pl/pl/partners/partner-application-locator/partner-details.html?id=0016S00003NQa9WQAT'
-              target='_blank'
-              rel='noopener noreferrer nofollow'
-              style={{ marginLeft: '8px', width: '100px' }}
-            >
-              <img src={'/images/isvPartner.png'} alt='Bright Inventions Registered ISV Partner' />
-            </PartnerLink>
-
-            <PartnerLink
               href='/blog/bright-inventions-recognized-in-forbes-diamonds-2024/'
               target='_blank'
               rel='noopener noreferrer nofollow'
