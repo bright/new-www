@@ -35,8 +35,8 @@ short_description: We build custom POS solutions for hospitality and retail,
 order: 99
 title: grow your business with custom POS software development
 highlighted_word: custom POS
-image_our_service_desktop: /images/case_study_food_delivery_app_modernization.png
-image_our_service_mobile: /images/epos_mobile_app.png
+image_our_service_desktop: /images/pos_software_development_web.png
+image_our_service_mobile: /images/pos_software_development_mobile.png
 image_alt_our_service: POS software development
 bullet_points:
   - integrations with retail devices and third-party systems
