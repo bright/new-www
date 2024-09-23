@@ -30,7 +30,8 @@ meta_description: Offering POS software development services since 2012.
 our_services_icon: /images/pos_development_icon_update.png
 name: POS software development
 slug: pos-software-development
-short_description: Revamping and scaling POS software since 2012.
+short_description: We build custom POS solutions for hospitality and retail,
+  successfully scaling POS systems from MVP to global solutions.
 order: 99
 title: grow your business with custom POS software development
 highlighted_word: custom POS
@@ -57,7 +58,7 @@ bar_stack:
   - Nest
 button: book a free consultation
 button2: book a free consultation
-published: true
+published: false
 show_case_study: true
 show_technology_stack: true
 title_team: POS development company – meet our team
@@ -113,6 +114,39 @@ blog_section: false
 blog_section_tags:
   - business strategy
 blog_section_title: our team insights
+testimonials:
+  - testimonials_quote: "*Compared to everyone else, bright inventions doesn’t
+      promise things they can’t deliver. \\[...]. The best thing about them is
+      that I can count on their actions.* [Read more on
+      Clutch](https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c9\
+      8c/293369)."
+    testimonials_author: Dorian Koch
+    testimonials_photo: /images/dorian.jpeg
+    testimonials_position: Co-Founder & Former CEO
+    testimonials_company: MedKitDoc
+  - testimonials_quote: "*Their attention to detail and scrutiny when dealing with
+      technical challenges is noteworthy.* [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-83595)."
+    testimonials_author: Adam Pachucki
+    testimonials_position: Head of Product
+    testimonials_company: Finebite
+    testimonials_photo: /images/adam_pachucki.jpeg
+  - testimonials_quote: "*Working with Bright Inventions is always a pleasure. The
+      people involved are friendly and to the point. They’re also pragmatic,
+      constructive, and punctual*. [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-54300)."
+    testimonials_author: Kira Nezu
+    testimonials_photo: /images/kira_nezu.jpeg
+    testimonials_position: Project Manager
+    testimonials_company: AppAdvisors GmbH
+  - testimonials_quote: "*Bright inventions and the whole team is always with full
+      heart at the project, understands our logic and intention behind and
+      respects our requests and demands*. [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-149237)."
+    testimonials_author: Matthias Potthast
+    testimonials_position: Founder
+    testimonials_company: Relevo
+    testimonials_photo: /images/matthias_potthast.png
 show_team: true
 ---
 ## what we offer as a POS development company with over 12 years of experience
