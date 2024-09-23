@@ -9,12 +9,12 @@ const languageWidget = {
 }
 
 const blogSectionWidgetTags = {
-    label: 'Blog section tags',
-    name: 'blog_section_tags',
-    widget: 'select',
-    multiple: true,
-    options: [] as string[],
-  };
+  label: 'Blog section tags',
+  name: 'blog_section_tags',
+  widget: 'select',
+  multiple: true,
+  options: [] as string[],
+}
 
 const blogSectionWidget = [
   {
@@ -27,7 +27,7 @@ const blogSectionWidget = [
     label: 'Blog section custom title',
     name: 'blog_section_title',
     widget: 'text',
-  }
+  },
 ]
 
 const testimonialsWidget = {
@@ -793,6 +793,11 @@ const config = {
           widget: 'string',
         },
         {
+          label: 'Video Url',
+          name: 'video_url',
+          widget: 'string',
+        },
+        {
           label: 'Bullet points',
           name: 'bullet_points',
           widget: 'list',
@@ -872,19 +877,23 @@ const config = {
           name: 'boxes',
           widget: 'list',
           summary: '{{fields.box_title}}',
-          fields: [{
-            label: 'Title',
-            name: 'box_title',
-            widget: 'string',
-          },{
-            label: 'Description',
-            name: 'box_description',
-            widget: 'markdown',
-          },{
-            label: 'Icon',
-            name: 'box_icon',
-            widget: 'image',
-          }],
+          fields: [
+            {
+              label: 'Title',
+              name: 'box_title',
+              widget: 'string',
+            },
+            {
+              label: 'Description',
+              name: 'box_description',
+              widget: 'markdown',
+            },
+            {
+              label: 'Icon',
+              name: 'box_icon',
+              widget: 'image',
+            },
+          ],
         },
         languageWidget,
         ...blogSectionWidget,
@@ -973,14 +982,14 @@ const getTags = async () => {
 }
 
 function isBlogSectionWidget(field: unknown): field is typeof blogSectionWidgetTags {
-  return (field as typeof blogSectionWidgetTags).name === 'blog_section_tags';
+  return (field as typeof blogSectionWidgetTags).name === 'blog_section_tags'
 }
 
 export default async () => {
-  const options = await getTags();
+  const options = await getTags()
 
-  config.collections.forEach((collection) => {
-    collection.fields.forEach((field) => {
+  config.collections.forEach(collection => {
+    collection.fields.forEach(field => {
       if (isBlogSectionWidget(field)) {
         field.options = options
       }
@@ -989,4 +998,3 @@ export default async () => {
 
   return config
 }
-
