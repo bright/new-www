@@ -89,7 +89,7 @@ boxes:
       solution, such as payment processing or food delivery integrations, or
       completely modernize your legacy, we will guide you through the entire
       journey.
-    box_icon: /images/custom_software_development_icon.png
+    box_icon: /images/icon_pos_lp_modernization.png
   - box_title: POS system design & product strategy
     box_description: We specialize in designing critical features like payments,
       bill splitting, and floor mapping. We will eliminate your users’ pain
@@ -104,7 +104,7 @@ boxes:
     box_description: From on-premise to cloud migration, we handle the entire
       process, ensuring your POS cloud migration helps you save resources and
       operate more efficiently.
-    box_icon: /images/cloud_services_icon.png
+    box_icon: /images/icon_pos_lp_cloud_pos.png
 language: en
 blog_section: false
 blog_section_tags:
