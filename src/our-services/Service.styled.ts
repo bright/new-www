@@ -100,7 +100,7 @@ export const Content = styled.div<{ textAlign?: string }>`
     margin: 4rem 0 2.25rem;
     line-height: ${variables.pxToRem(40)};
     text-align: center;
-      
+
     @media ${variables.device.tablet} {
       font-size: ${variables.pxToRem(34)};
       line-height: ${variables.pxToRem(27)};
@@ -291,13 +291,26 @@ export const MoreButtonOurServiceWrapper = styled.div<{
     margin-top: ${({ marginTopMobile }) => (marginTopMobile ? marginTopMobile : `${variables.pxToRem(64)}`)};
   }
 `
-export const ImageWrapper = styled.div`
-  && .about-img {
+export const MediaWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  && .about-media {
     display: block;
     margin: auto;
     max-width: 100%;
   }
+
+  && .video-wrapper {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `
+
 export const OurServiceHideTablet = styled(HideTablet)`
   @media ${variables.device.tablet} {
     display: none;
@@ -389,49 +402,49 @@ export const MobileOurServiceFlexWrapper = styled(FlexWrapper)`
 `
 
 export const Testimonials = styled.div`
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    flex-wrap: wrap;
-    gap: 32px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-wrap: wrap;
+  gap: 32px;
 
-    @media ${variables.device.mobile} {
-        grid-template-columns: 1fr;
-    }
-`;
-
-export const BoxesWrapper = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: center;
+  @media ${variables.device.mobile} {
+    grid-template-columns: 1fr;
+  }
 `
 
-export const BoxImage = styled.div``;
+export const BoxesWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+`
+
+export const BoxImage = styled.div``
 
 export const BoxTitle = styled.div`
-    font-size: 20px;
-    font-weight: bold;
-    padding: 32px 0;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 32px 0;
 
-    @media ${variables.device.tablet} {
-        padding: 16px 0;
-    }
-`;
+  @media ${variables.device.tablet} {
+    padding: 16px 0;
+  }
+`
 
 export const Box = styled.div`
-    width: calc(50% - 40px);
-    min-height: 19.375rem;
-    border-radius: 16px;
-    border: 1px solid #d3d3d3;
-    padding: 40px;
-    text-align: center;
+  width: calc(50% - 40px);
+  min-height: 19.375rem;
+  border-radius: 16px;
+  border: 1px solid #d3d3d3;
+  padding: 40px;
+  text-align: center;
 
-    @media ${variables.device.tablet} {
-        padding: 20px;
-        width: 100%;
-    }
+  @media ${variables.device.tablet} {
+    padding: 20px;
+    width: 100%;
+  }
 `
 
 export const BoxDescription = styled.div`
-    font-size: 20px;
-`;
+  font-size: 20px;
+`

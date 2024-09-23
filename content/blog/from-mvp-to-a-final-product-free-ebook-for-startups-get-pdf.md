@@ -3,9 +3,9 @@ author: michal
 secondAuthor: mateusz
 thirdAuthor: izabela
 tags:
-  - update
   - startups
   - MVP
+  - business strategy
 date: 2023-07-04T07:38:32.701Z
 meaningfullyUpdatedAt: 2023-07-04T07:38:33.285Z
 title: From MVP to a Final Product. Free Ebook for Startups [Get PDF]

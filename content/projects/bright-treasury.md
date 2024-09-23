@@ -11,7 +11,7 @@ our_service:
 layout: project
 project_id: bright-treasury
 title: Managing Substrate Treasury Proposals – Web3Foundation App Development
-image: /images/treasuryapp_www.png
+image: /images/case_study_bright_treasury_update.png
 description: "Bright Inventions’s original solution. A web app supporting
   Substrate Blockchain networks: Polkadot and Kusama in uploading proposals for
   Treasury grants."

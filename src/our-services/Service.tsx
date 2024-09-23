@@ -1,37 +1,43 @@
-import React, { useRef, PropsWithChildren } from 'react'
 import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+import React, { PropsWithChildren, useRef } from 'react'
+import { YouTubeEmbed } from 'react-social-media-embed/dist/components/embeds/YouTubeEmbed'
+import RatingClutch from '../assets/rating.svg'
+import { Projects } from '../components/home/Projects'
+import { FlexWrapper, MoreButton } from '../components/shared'
 import { Contact } from '../components/shared/Contact'
+import FaqsDropdown from '../components/shared/FaqsDropdown'
+import { CustomSection, CustomSectionInner, CustomSectionTitle, TextRegular } from '../components/shared/index.styled'
+import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
+import { Testimonial } from '../components/testimonial/Testimonial'
+import { useWindowSize } from '../components/utils/use-windowsize'
+import { routeLinks } from '../config/routing'
+import { FaqStructuredData } from '../FaqStructuredData'
+import { useClient } from '../hooks/useClient'
 import { Page } from '../layout/Page'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
-import RatingClutch from '../assets/rating.svg'
-import { useWindowSize } from '../components/utils/use-windowsize'
-import { CustomSectionInner, CustomSection, TextRegular, CustomSectionTitle } from '../components/shared/index.styled'
-import { Projects } from '../components/home/Projects'
-import { routeLinks } from '../config/routing'
+import { BoxesModel, ProjectModel, TestimonialModel } from '../models/gql'
+import { toBlogPost } from '../use-blog-posts/blog-post-frontmatter-query-result'
 import {
-  CustomSectionOurService,
-  ImageWrapper,
-  Content,
-  OurServicePageTitle,
-  OurServiceSection,
+  Box,
+  BoxDescription,
+  BoxesWrapper,
+  BoxImage,
+  BoxTitle,
   BulletList,
   BulletsList,
   CloutchWrapper,
-  MoreButtonOurServiceWrapper,
+  Content,
+  CustomSectionOurService,
   CustomSectionOurServiceImage,
+  MediaWrapper,
+  MobileOurServiceFlexWrapper,
+  MoreButtonOurServiceWrapper,
+  OurServiceFlexWraper,
+  OurServicePageTitle,
+  OurServiceSection,
   Testimonials,
-  MobileOurServiceFlexWrapper, OurServiceFlexWraper, BoxesWrapper, Box, BoxImage, BoxTitle, BoxDescription
 } from './Service.styled'
-import { FaqStructuredData } from '../FaqStructuredData'
-import { BoxesModel, ProjectModel, TestimonialModel } from '../models/gql'
-import { FlexWrapper } from '../components/shared'
-import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
-import { MoreButton } from '../components/shared'
-import FaqsDropdown from '../components/shared/FaqsDropdown'
-import { toBlogPost } from '../use-blog-posts/blog-post-frontmatter-query-result'
-import { useClient } from '../hooks/useClient'
-import { Testimonial } from '../components/testimonial/Testimonial'
 
 const PopularBlogPosts = React.lazy(() => import('../components/shared/PopularBlogPosts'))
 const TechnologyTags = React.lazy(() => import('../components/shared/TechnologyTags'))
@@ -42,7 +48,7 @@ export default function Template({
   pageContext,
   children,
 }: PropsWithChildren<{
-  data: { service: any, related: any }
+  data: { service: any; related: any }
   pageContext: { faqTitle: string; faqSlug: string; language: string }
 }>) {
   const { service, related } = data // data.mdx holds your post data
@@ -55,7 +61,7 @@ export default function Template({
   const myRef = useRef<HTMLDivElement>(null)
   const { faqSlug, language } = pageContext
   const de = language === 'de'
-  const isClient = useClient();
+  const isClient = useClient()
 
   const {
     faqs,
@@ -83,6 +89,7 @@ export default function Template({
     testimonials,
     boxes,
     show_team,
+    video_url,
   } = page
 
   const titleArr = title.split(' ')
@@ -151,20 +158,32 @@ export default function Template({
           paddingTablet='2rem 0 0 0'
           paddingMobileProps='2rem 0 0 0'
         >
-          <div>
-            {width >= breakpointTablet && typeof window !== 'undefined' && (
-              <ImageWrapper>
-                {desktopImage && <GatsbyImage image={desktopImage} alt={image_alt_our_service} className='about-img' />}
-              </ImageWrapper>
+          <MediaWrapper>
+            {video_url && (
+              <YouTubeEmbed
+                url={video_url}
+                className='video-wrapper'
+                youTubeProps={{
+                  opts: {
+                    playerVars: {
+                      rel: 0,
+                      // @ts-ignore - mute not typed in youtube-player library
+                      mute: 1,
+                      autoplay: 1,
+                      loop: 1,
+                    },
+                  },
+                  iframeClassName: 'about-media',
+                }}
+              />
             )}
-          </div>
-          <div>
-            {width < breakpointTablet && typeof window !== 'undefined' && (
-              <ImageWrapper>
-                {mobileImage && <GatsbyImage image={mobileImage} alt={image_alt_our_service} className='about-img' />}
-              </ImageWrapper>
+            {width >= breakpointTablet && typeof window !== 'undefined' && !video_url && desktopImage && (
+              <GatsbyImage image={desktopImage} alt={image_alt_our_service} className='about-media' />
             )}
-          </div>
+            {width < breakpointTablet && typeof window !== 'undefined' && !video_url && mobileImage && (
+              <GatsbyImage image={mobileImage} alt={image_alt_our_service} className='about-media' />
+            )}
+          </MediaWrapper>
         </CustomSectionOurServiceImage>
       </OurServiceFlexWraper>
 
@@ -188,9 +207,7 @@ export default function Template({
             {boxes.map(({ box_icon, box_title, box_description }: BoxesModel) => (
               <Box>
                 {box_icon && (
-                  <BoxImage>
-                    {box_icon && <GatsbyImage image={getImage(box_icon)!} alt={box_title} />}
-                  </BoxImage>
+                  <BoxImage>{box_icon && <GatsbyImage image={getImage(box_icon)!} alt={box_title} />}</BoxImage>
                 )}
                 <BoxTitle>{box_title}</BoxTitle>
                 <BoxDescription>{box_description}</BoxDescription>
@@ -220,7 +237,12 @@ export default function Template({
 
       {testimonials && (
         <CustomSection paddingLaptop='2rem 6rem 3rem 6rem' paddingProps='0 0 2rem' paddingMobileProps='0 1.125rem 1rem'>
-          <CustomSectionTitle tabletXLMargin='1rem 0 3.5rem' mobileMargin='1rem 0 3rem' margin='0 0 3.5rem' laptopMargin='0 0 3.5rem'>
+          <CustomSectionTitle
+            tabletXLMargin='1rem 0 3.5rem'
+            mobileMargin='1rem 0 3rem'
+            margin='0 0 3.5rem'
+            laptopMargin='0 0 3.5rem'
+          >
             what our clients say
           </CustomSectionTitle>
 
@@ -234,15 +256,17 @@ export default function Template({
         </CustomSection>
       )}
 
-      {show_team && <CustomSection paddingProps='0 0 2rem' paddingMobileProps='0 1.125rem 1rem'>
-        <CustomSectionTitle mobileMargin='3rem 0 2.25rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
-          {title_team}
-        </CustomSectionTitle>
-        <div>{width < breakpointTablet && <TeamMemebersSwiper authorIdsArray={team_members} />}</div>
-        <div>
-          {width >= breakpointTablet && <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />}
-        </div>
-      </CustomSection>}
+      {show_team && (
+        <CustomSection paddingProps='0 0 2rem' paddingMobileProps='0 1.125rem 1rem'>
+          <CustomSectionTitle mobileMargin='3rem 0 2.25rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
+            {title_team}
+          </CustomSectionTitle>
+          <div>{width < breakpointTablet && <TeamMemebersSwiper authorIdsArray={team_members} />}</div>
+          <div>
+            {width >= breakpointTablet && <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />}
+          </div>
+        </CustomSection>
+      )}
 
       {show_technology_stack && <TechnologyTags tags={bar_stack} />}
 
@@ -259,14 +283,17 @@ export default function Template({
         </div>
       )}
 
-      {isClient && blog_section && <>
-        <PopularBlogPosts posts={posts} title={blog_section_title} />
-      </>}
+      {isClient && blog_section && <PopularBlogPosts posts={posts} title={blog_section_title} />}
 
-      <CustomSection paddingProps='2rem 15rem 4rem 15rem' paddingLaptop='5rem 6rem 2rem'
-                     paddingMobileProps='0 1.125rem 2rem' paddingTabletXL='2rem 6rem 2rem' paddingTablet='2rem 2rem 2rem'>
+      <CustomSection
+        paddingProps='2rem 15rem 4rem 15rem'
+        paddingLaptop='5rem 6rem 2rem'
+        paddingMobileProps='0 1.125rem 2rem'
+        paddingTabletXL='2rem 6rem 2rem'
+        paddingTablet='2rem 2rem 2rem'
+      >
         <CustomSectionInner>
-          <a href='#faqs' style={{display: 'block'}}>
+          <a href='#faqs' style={{ display: 'block' }}>
             {show_case_study ? (
               <CustomSectionTitle
                 margin='0rem 0 6.5625rem '
@@ -316,14 +343,16 @@ export default function Template({
 export const pageQuery = graphql`
   query($id: String!, $blog_section_tags: [String!]) {
     related: allMdx(
-      filter: {frontmatter: {tags: {in: $blog_section_tags}}}
-      sort: { frontmatter: {meaningfullyUpdatedAt: DESC } }
+      filter: { frontmatter: { tags: { in: $blog_section_tags } } }
+      sort: { frontmatter: { meaningfullyUpdatedAt: DESC } }
       limit: 4
     ) {
       edges {
         node {
           id
-          internal {  contentFilePath  }
+          internal {
+            contentFilePath
+          }
           excerpt(pruneLength: 500)
           frontmatter {
             excerpt
@@ -341,8 +370,10 @@ export const pageQuery = graphql`
           }
           fields {
             slug
-            timeToRead { minutes }
-          }   
+            timeToRead {
+              minutes
+            }
+          }
         }
       }
     }
@@ -388,6 +419,7 @@ export const pageQuery = graphql`
         description_contact
         name
         language
+        video_url
         image_our_service_mobile {
           childImageSharp {
             gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE, webpOptions: { quality: 100 })

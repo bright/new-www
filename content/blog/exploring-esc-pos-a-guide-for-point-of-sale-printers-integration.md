@@ -35,6 +35,8 @@ When developing a POS app, the decision to use esc/pos was immediate, we didn't 
 * **Technology-independent**\
   ESC/POS is based on sending data to a specific port and IP regardless of the technology. This ensures that whether you are using Kotlin, Swift, Flutter or another technology each supports sending network data so it supports sending ESC/POS commands.
 
+<YouTubeEmbed url='https://www.youtube.com/watch?v=zmmCIaQulxI&t=2s' />
+
 ## ESC/POS documentation
 
 ### **What can we expect?**

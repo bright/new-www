@@ -2,12 +2,12 @@
 team_members:
   - mateusz
   - fjablonski
-  - kamil-b
   - szymek
   - tomasz-l
   - marta
   - azabost
   - cezary
+  - arturs
 faqs:
   - mobile app development 1
   - mobile app development 2

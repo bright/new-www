@@ -33,6 +33,8 @@ Powered by: Jared Dashevsky, MD, Founder of Healthcare Huddle newsletter
 
 Subscribe: [healthcarehuddle.com](https://www.healthcarehuddle.com/)
 
+<EbookDynamic sectionTitle='get more resources about digital health' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download our free guide about scaling software solutions for healthcare. Almost 100 pages about leveraging technology in digital health!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide cover' />
+
 ## Fierce Healthcare
 
 A comprehensive news source covering various aspects of the healthcare industry from healthcare legislation, EMR systems, HIPAA, interoperability to risk management, and more.
@@ -88,8 +90,6 @@ Another newsletter that presents all the technology in healthcare nuances, yet w
 Powered by: Kris Mulcahy, Director of Business Development and Innovation at Brightisle
 
 Subscribe: [linkedin.com/pulse/ai-healthcare-personalizing-patient-care-digital-age-kris-mulcahy](https://www.linkedin.com/pulse/ai-healthcare-personalizing-patient-care-digital-age-kris-mulcahy-iyr5e/?trackingId=%2FI5K%2FtuVTiaImPWXOV%2BvPQ%3D%3D)
-
-<EbookDynamic sectionTitle='get more resources about digital health' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download our free guide about scaling software solutions for healthcare. Almost 100 pages about leveraging technology in digital health!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide cover' />
 
 ## Out-Of-Pocket
 

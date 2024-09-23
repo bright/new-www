@@ -11,7 +11,7 @@ our_service:
 layout: project
 project_id: digitized-questionnaires
 title: Digitized Questionnaires
-image: /images/digitizing_mobile_reporting_main2.png
+image: /images/case_study_digitized_questionnaires_update3.png
 description: A web application that enables digitizing mobile reporting. It
   helps you to build, with no code, the digitized surveys for end-users. A great
   tool for audits.
@@ -43,6 +43,7 @@ show_team: true
 show_case_study: true
 show on homepage: false
 published: true
+work_in_progress: false
 language: en
 ---
 <TitleWithIcon sectionTitle="main features" titleIcon="/images/main_features_icon.png" titleIconAlt="main features" />
@@ -61,19 +62,15 @@ language: en
 
 <TitleWithIcon sectionTitle="skills" titleIcon="/images/skills.svg" titleIconAlt="bright" />
 
-<Gallery images='[{"src":"/images/react.png","alt":"React"},{"src":"/images/node.png","alt":"Node"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/azure_stack_logo.png","alt":"Azure"},{"src":"/images/docker_stack_logo.png","alt":"Docker"}]' />
+<Gallery images='[{"src":"/images/react_stack_logo_update.svg","alt":"React"},{"src":"/images/node_stack_logo_update.svg","alt":"Node"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/azure_stack_logo.png","alt":"Azure"},{"src":"/images/docker_stack_logo.png","alt":"Docker"}]' />
 
-**Frontend:** React
-
-**Backend:** Node.js
-
-**Database:** PostgreSQL + Azure and Docker containers
+**technologies:** React, Node.js, PostgreSQL + Azure and Docker containers
 
 <TitleWithIcon sectionTitle="about" titleIcon="/images/three_flags.svg" titleIconAlt="about" />
 
 This is a web solution that helps to digitize the company work. The app can be easily customised according to the user's business needs. It helps to create and share digital questionnaires, reports and surveys. It is a perfect tool for companies that provide inspections and audits. Also, this is the first dedicated app for the social care team.
 
-![web app development](../../static/images/digitizing_mobile_reporting_app.png "")
+![web app development](../../static/images/digitizing_mobile_reporting_app.png)
 
 <TitleWithIcon sectionTitle="goal" titleIcon="/images/goal_title_section.png" titleIconAlt="goal" />
 
@@ -90,7 +87,7 @@ One of the key aspects of the app is the need to operate offline without any int
 
 What is more, the web app needed to be responsive and work well both on desktop and mobile devices (phones and tablets) as most of the users are expected to work in the terrain. We used the media queries to adjust the styles depending on the screen resolution. 
 
-![web app development](../../static/images/digitizing_mobile_reporting.png "")
+![web app development](../../static/images/digitizing_mobile_reporting.png)
 
 <TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 

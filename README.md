@@ -5,7 +5,7 @@
 - Node.js
 - gatsby-cli (https://www.gatsbyjs.com/docs/tutorial/part-zero/#using-the-gatsby-cli)
 
-### 🚀 Enviroment setup
+### 🚀 Environment setup
 
 1. Run `yarn install`
 1. Run `yarn develop`
