@@ -4,12 +4,12 @@ tags:
   - android
   - kotlin
   - logging
-date: 2024-09-16T19:08:06.975Z
-meaningfullyUpdatedAt: 2024-09-16T19:08:06.999Z
+date: 2024-09-24T07:45:03.330Z
+meaningfullyUpdatedAt: 2024-09-24T07:45:04.648Z
 title: Setting Up Logback Programmatically in Android
 layout: post
 image: /images/logback-android.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
