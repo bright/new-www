@@ -38,6 +38,7 @@ highlighted_word: custom POS
 image_our_service_desktop: /images/pos_software_development_web.png
 image_our_service_mobile: /images/pos_software_development_mobile.png
 image_alt_our_service: POS software development
+video_url: https://www.youtube.com/watch?v=WSS7EgDths8
 bullet_points:
   - integrations with retail devices and third-party systems
   - secure contactless payments
