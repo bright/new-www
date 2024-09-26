@@ -65,3 +65,9 @@ A key aspect of this integration is menu synchronization. Any changes to the men
 However, if a restaurant wants to for example set different prices for various platforms, they can easily make those adjustments using the simple POS interface:
 
 <div className="image">![POS delivery integration UI](/images/pos_delivery_integration_ui.png "POS UI")</div>
+
+The true gem of this integration is **the real-time synchronization of every order on the Just Eat POS system**. Whether it's an online, on-site, or phone order, all information is automatically displayed on the primary POS device. This means the waitstaff can finally retire the multiple devices provided by third-party platforms. Now, **everything is accessible through the Just Eat POS device – the only one the restaurant needs**.
+
+This automation also eliminates the errors occurring when busy staff manually transfer online orders to the main POS device so they can be sent to the kitchen. Now, **orders are processed automatically, speeding up meal preparation and delivery**. What’s more, order statuses are available on the same device, **keeping the waitstaff informed** throughout the process – from order acceptance to delivery.
+
+<div className="image">![POS UI](/images/pos_delivery_integration.png "POS UI")</div>
