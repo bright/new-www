@@ -35,7 +35,7 @@ title_case_study: how we support our clients
 title_contact: book a free consultation in 48 hours
 description_contact: Tell us more about your POS system. Fill out the form below
   and we'll get back to you in 48 hours.
-order: 99
+order: 1
 slug: pos-third-party-delivery
 show_team: true
 show_case_study: true
@@ -73,6 +73,8 @@ This automation also eliminates the errors occurring when busy staff manually tr
 <div className="image">![POS UI](/images/pos_delivery_integration.png "POS UI")</div>
 
 Integration with food delivery platforms aligned perfectly with other parts of the multifunctional Just Eat POS. For example, **if a restaurant prefers to manage deliveries in-house, they can also use the [delivery drivers application](/projects/delivery-drivers-app/) offered by Just Eat POS**. Thanks to order synchronization, every order is available in the app, making it easy to coordinate deliveries. The app provides drivers with all the necessary information for a successful delivery, including the customer’s address, navigation with a map, and payment status.
+
+<AnchorLink href='#contactForm' text='contact us to discuss your POS'/>
 
 <TitleWithIcon sectionTitle="challenges: synchronization with unstable connection, achieving real-time updates" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
 
