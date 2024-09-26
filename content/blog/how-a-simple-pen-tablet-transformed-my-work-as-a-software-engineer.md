@@ -6,6 +6,7 @@ tags:
   - programming
 date: 2024-09-26T07:56:20.482Z
 meaningfullyUpdatedAt: 2024-09-26T07:56:21.321Z
+slug: how-pen-tablet-changed-software-engineers-work
 title: How a Simple Pen Tablet Transformed My Work as a Software Engineer
 layout: post
 image: /images/pen-tablet-featured.png
