@@ -801,7 +801,7 @@ const config = {
         {
           label: 'Video Placeholder Image',
           name: 'video_placeholder_image',
-          widget: 'string',
+          widget: 'image',
           required: false,
         },
         {
