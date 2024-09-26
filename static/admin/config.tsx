@@ -796,6 +796,13 @@ const config = {
           label: 'Video Url',
           name: 'video_url',
           widget: 'string',
+          required: false,
+        },
+        {
+          label: 'Video Placeholder Image',
+          name: 'video_placeholder_image',
+          widget: 'string',
+          required: false,
         },
         {
           label: 'Bullet points',

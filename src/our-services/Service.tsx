@@ -58,10 +58,13 @@ export default function Template({
   const breakpointTablet = 992
   const mobileImage = getImage(page.image_our_service_mobile)
   const desktopImage = getImage(page.image_our_service_desktop)
+  const videoPlaceholderImage = getImage(page.video_placeholder_image)
   const myRef = useRef<HTMLDivElement>(null)
   const { faqSlug, language } = pageContext
   const de = language === 'de'
   const isClient = useClient()
+
+  const displayedOnDesktop = width >= breakpointTablet
 
   const {
     faqs,
@@ -158,9 +161,14 @@ export default function Template({
           paddingTablet='2rem 0 0 0'
           paddingMobileProps='2rem 0 0 0'
         >
-          <MediaWrapper>
+          <MediaWrapper displayedOnDesktop={displayedOnDesktop}>
             {video_url && (
               <YouTubeEmbed
+                embedPlaceholder={
+                  videoPlaceholderImage && (
+                    <GatsbyImage className='video-placeholder-image rounded' image={videoPlaceholderImage} alt='' />
+                  )
+                }
                 url={video_url}
                 className='video-wrapper'
                 youTubeProps={{
@@ -173,7 +181,7 @@ export default function Template({
                       loop: 1,
                     },
                   },
-                  iframeClassName: 'about-media',
+                  iframeClassName: 'about-media rounded',
                 }}
               />
             )}
@@ -420,6 +428,11 @@ export const pageQuery = graphql`
         name
         language
         video_url
+        video_placeholder_image {
+          childImageSharp {
+            gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE, webpOptions: { quality: 100 })
+          }
+        }
         image_our_service_mobile {
           childImageSharp {
             gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE, webpOptions: { quality: 100 })
