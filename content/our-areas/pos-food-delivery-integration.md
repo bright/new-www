@@ -14,6 +14,7 @@ faqs:
   - Why your clients will love food delivery integration? pos food delivery
     integration 5
 project:
+  - delivery-integrations-pos
   - pos-devices-integration
   - Practi JET POS
   - food-delivery-app
@@ -21,7 +22,6 @@ project:
   - Practi JET POS Mobile
   - finebite
   - invoice-system
-  - relevo - instant app and app clip
 layout: our-service
 our_service_id: POS food delivery platforms integration
 meta_title: Customized food delivery integration for your POS
