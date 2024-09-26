@@ -304,8 +304,8 @@ export const MediaWrapper = styled.div<{ displayedOnDesktop: boolean }>`
   }
 
   && .video-placeholder-image {
-    max-width: 640px;
-    max-height: 360px;
+    width: 640px;
+    height: 360px;
   }
 
   && .video-wrapper {
