@@ -44,12 +44,24 @@ published: true
 work_in_progress: false
 language: en
 ---
-
-
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
-
-
 
 <Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/springboot_update.svg","alt":"Spring Boot"},{"src":"/images/aws_stack_logo_update.svg"},{"src":"/images/case-study_typescript_stack-logo.svg","alt":"TypeScript"}]' />
 
 **technologies**: Kotlin, SpringBoot, AWS, TypeScript
+
+<TitleWithIcon sectionTitle="the problem: handling online orders from various third-party delivery providers" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+
+Let’s step behind the restaurant counter and observe the waitstaff in action. In addition to serving in-house guests, they must **manage online orders from third-party food delivery platforms** like Wolt and Uber Eats. **Each platform provides its own device for managing orders**, adding to the growing number of devices that already overwhelm the busy staff (from a point-of-sale desktop to payment terminals, thermal printers, and more).
+
+But **what if all third-party, in-house, and phone orders were automatically integrated into a single device**? That was the goal of the food delivery providers integration we developed for the Practi POS provider (later known as **Just Eat POS**) for restaurants in Israel and the UK.
+
+<YouTubeEmbed url='https://www.youtube.com/watch?v=-pUtXXxpsFg' />
+
+<TitleWithIcon sectionTitle="the solution: all restaurant orders synchronized on one device" titleIcon="/images/flag.png" titleIconAlt="the solution:" />
+
+A key aspect of this integration is menu synchronization. Any changes to the menu – such as prices, unavailable items, or ingredients – are automatically updated across all food delivery platforms, eliminating the need for waitstaff to manually update each one. 
+
+However, if a restaurant wants to for example set different prices for various platforms, they can easily make those adjustments using the simple POS interface:
+
+<div className="image">![POS delivery integration UI](/images/pos_delivery_integration_ui.png "POS UI")</div>
