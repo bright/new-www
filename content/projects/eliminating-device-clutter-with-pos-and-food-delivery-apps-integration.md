@@ -60,7 +60,7 @@ But **what if all third-party, in-house, and phone orders were automatically int
 
 <TitleWithIcon sectionTitle="the solution: all restaurant orders synchronized on one device" titleIcon="/images/flag.png" titleIconAlt="the solution:" />
 
-A key aspect of this integration is menu synchronization. Any changes to the menu – such as prices, unavailable items, or ingredients – are automatically updated across all food delivery platforms, eliminating the need for waitstaff to manually update each one. 
+A key aspect of this integration is **menu synchronization**. Any changes to the menu – such as prices, unavailable items, or ingredients – are automatically updated across all food delivery platforms, eliminating the need for waitstaff to manually update each one. 
 
 However, if a restaurant wants to for example set different prices for various platforms, they can easily make those adjustments using the simple POS interface:
 
