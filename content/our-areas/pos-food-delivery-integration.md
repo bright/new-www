@@ -39,7 +39,7 @@ highlighted_word: customized
 image_our_service_desktop: /images/pos_devlivery_platforms_web.png
 image_our_service_mobile: /images/pos_devlivery_platforms_mobile.png
 image_alt_our_service: food delivery platforms POS
-video_url: https://www.youtube.com/watch?v=gwM0SnHACMs&ab_channel=BrightDevs
+video_url: ""
 video_placeholder_image: static/images/preview_wideo_pos.png
 bullet_points:
   - 12 years of scaling POS systems
