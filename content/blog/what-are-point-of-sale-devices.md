@@ -22,11 +22,7 @@ language: en
 
 ## What is an ePOS system?
 
-Point of Sale (POS) is the checkout for customers who purchase goods or services. It's the place to execute the payment.
-
-<div className="important-info"><h2>Electronic Point of Sale</h2><div>Modern ePOS (electronic Point of Sale) is a combination of hardware and software that enable transactions.</div></div>
-
-In this article, we focus on hardware solutions that are a part of modern ePOS for retail and restaurants. These are examples of retail hardware that we work with at Bright Inventions.
+Point of Sale (POS) is the checkout for customers who purchase goods or services. It's the place to execute the payment. In this article, we focus on hardware solutions that are a part of modern POS for retail and restaurants. These are examples of retail hardware that we integrate with POS at Bright Inventions.
 
 Discover common problems that POS developers face while [integrating hardware with point of sale systems](/projects/pos-devices-integration/).
 
