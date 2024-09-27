@@ -10,8 +10,7 @@ our_service:
   - cloud services
 layout: project
 project_id: circles
-title: Circles secures $16.5M in Series A Funding and Emerges as Premier Group
-  Support Platform
+title: Circles secures $16.5M in Series A Funding and Emerges as Top Mental Health App
 image: /images/case_study_cover_mental_health_app.png
 description: Circles is an online group therapy application connecting
   individuals seeking emotional support. As a mental health tech startup, it
@@ -21,7 +20,7 @@ description: Circles is an online group therapy application connecting
   to make mental health care much more accessible in the USA.
 hero_image: /images/case_study_online_therapy_woman.png
 Hero Image_alt: Circles - mental health app
-social_media_previev: /images/group_therapy_app_preview_some.png
+social_media_previev: /images/mental_health_app_preview_update.png
 social_media_previev_alt: Circles case study
 bar_achievements:
   - number: $16.5 M
@@ -57,11 +56,9 @@ language: en
 
 <TitleWithIcon sectionTitle="problem: lack of access to mental health specialists in the USA" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
-According to the WHO, **280 million people worldwide suffer from depression**, a number nearly equal to Indonesia's population. Although depression is treatable, **more than 75% of those affected in low- and middle-income countries receive no treatment**.
+More than 1 in 5 U.S. adults, roughly [57.8 million people](https://www.nimh.nih.gov/health/statistics/mental-illness) **— a number close to the population of Italy — live with a mental illness**. However, not everyone has the means to access mental health experts and receive the necessary assistance, especially when dealing with particularly unique issues.
 
-**In the U.S. more than 1 in 5 adults live with a mental illness**. Similarly not everyone has the means to access mental health experts and receive the necessary assistance. 
-
-This grim reality of mental health in the U.S. calls for a solution that not only provides Americans with professional mental health expertise but also offers something uniquely valuable in distressing moments: guidance and perspective from individuals who are grappling with similar issues.
+One such issue is **narcissistic personality disorder (NPD)**. In the USA, [approximately 1 in 200 people have this disorder](https://www.therecoveryvillage.com/mental-health/narcissistic-personality-disorder/npd-statistics/). Although it is less common than other mental disorders such as depression, it profoundly affects those in relationships with individuals suffering from NPD. Given that this mental health issue is still considered niche, finding expert help to manage the challenges of such difficult relationships can be problematic.
 
 <TitleWithIcon sectionTitle="the solution: online therapy platform for expert-guided group healing" titleIcon="/images/flag.png" titleIconAlt="the solution" />
 
