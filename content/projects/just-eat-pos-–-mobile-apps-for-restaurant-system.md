@@ -53,7 +53,7 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 <TitleWithIcon sectionTitle="mobile apps integrated with restaurant and retail systems" titleIcon="/images/icon_title_products.svg" titleIconAlt="Apps" />
 
 * ePOS iOS and Android **applications used by restaurant staff** to take orders and manage payments.
-* iOS and Android **driver application** which assists drivers in delivering orders.
+* iOS and Android **[courier delivery application](/projects/delivery-drivers-app/)** which assists drivers in delivering orders.
 
 <div className="image">![Mobile apps restaurant and retail](../../static/images/mobile_retail_app.png "It is not a real implemented design. It is a mockup example created for the purpose of a case study.")</div>
 
@@ -79,9 +79,11 @@ iOS products developed by our team were used in restaurants in Israel. Practi iO
 
 **The app was dedicated to restaurants which want to offer clients their own meal-ordering application**. “White label app” was the product that can be easily adjusted to clients brand visual identity and business needs. Therefore every restaurant can use this app but it looks differently for every business. The app allowed restaurant’s customers to order items from menu and get them delivered or collected on their own.
 
-### **Driver app** 
+### **Delivery drivers app** 
 
 Our team also developed an independent **product used by drivers who deliver the orders from a restaurant to customers**. The app not only showed the destination and navigates drivers but also kept them informed about the transaction details. Drivers knew whether the order was paid or it needed to be paid. The driver was well-aware about the payment method (by cash or card). Thanks to the app, drivers were provided with all necessary information and could focus on delivering the meals as soon as possible.
+
+Read more about [delivery drivers app](/projects/delivery-drivers-app/).
 
 <TitleWithIcon sectionTitle="Android development" titleIcon="/images/gearwheel.svg" titleIconAlt="Android development" />
 
