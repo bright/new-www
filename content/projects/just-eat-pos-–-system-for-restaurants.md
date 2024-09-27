@@ -56,8 +56,8 @@ language: en
 
 * **[ePOS iOS and Android applications](/projects/system-for-restaurants-mobile)** used by restaurant staff to take orders and manage payments.
 * **White label application for restaurants** to take orders via their own, dedicated website.
-* **iOS and Android driver applications** which assisted drivers in delivering orders.
-* A **website that enabled to display restaurant’s menu** and offered integrations with online delivery providers like JET or Wolt.
+* **iOS and Android [delivery drivers applications](/projects/delivery-drivers-app/)** which assisted couriers in delivering orders.
+* A **website that enabled to display restaurant’s menu** and offered [integrations with online food delivery providers](/projects/pos-third-party-delivery/) like JET or Wolt.
 * **Backoffice solutions** including managing integrations and API connections.
 
 <TitleWithIcon sectionTitle="main features developed by Bright Inventions:" titleIcon="/images/icons_features_svg.svg" titleIconAlt="features" />
@@ -80,7 +80,7 @@ In 2019 Practi was **acquired by Just Eat Takeaway**. **Bright Inventions had a 
 
 <TitleWithIcon sectionTitle="client’s expectations" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Client’s expectations" />
 
-The client expected us to actively take part in creating the whole system. We were not only “code suppliers”, **we were technical partners offering years of software development experience**. Our mobile and web knowledge, and the fact that we hadve been working on this system since 2013 enabled us to evaluate technical and business decisions. As a result, when needed, we gladly offered alternative solutions that would benefit the client and end-users.
+The client expected us to actively take part in creating the whole system. We were not only “code suppliers”, **we were technical partners offering years of software development experience**. Our mobile and web knowledge, and the fact that we have been working on this system since 2013 enabled us to evaluate technical and business decisions. As a result, when needed, we gladly offered alternative solutions that would benefit the client and end-users.
 
 <TitleWithIcon sectionTitle="challenges and goals" titleIcon="/images/icon_title_goal.svg" titleIconAlt="goal" />
 
