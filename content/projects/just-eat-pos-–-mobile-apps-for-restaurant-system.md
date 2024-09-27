@@ -73,7 +73,7 @@ iOS products developed by our team were used in restaurants in Israel. Practi iO
 
 ### **Reggie iOS ePOS application**
 
-**Reggie was “the mind” of the whole ePOS system at the restaurant**. It was a cash register itself. It was fully integrated with JustEat and a couple of other online food delivery companies. You could manage orders from clients in the restaurant as well as took care of all phone and internet orders. Also, the app enabled you to manage drivers if the restaurant hired them.
+**Reggie was “the mind” of the whole ePOS system at the restaurant**. It was a cash register itself. It was fully [integrated with JustEat and a couple of other online food delivery companies](/projects/pos-third-party-delivery/). You could manage orders from clients in the restaurant as well as took care of all phone and internet orders. Also, the app enabled you to manage drivers if the restaurant hired them.
 
 ### **Click & Collect – iOS white label application**
 
