@@ -16,7 +16,7 @@ comments: true
 published: true
 language: en
 ---
-**Integrations with retail devices is crucial part of every point-of-sale system. Learn about the types of equipment used in POS for restaurant and retail.**
+**Integrations with retail devices is crucial part of every point-of-sale system. Learn about the types of equipment used in POS for hospitality and retail.**
 
 ![ePOS equipment](../../static/images/blog_post_cover_epos.png)
 
