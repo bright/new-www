@@ -5,6 +5,7 @@ thirdAuthor: izabela
 tags:
   - business
   - bluetooth
+  - POS
 date: 2022-08-04T07:23:33.938Z
 meaningfullyUpdatedAt: 2024-08-11T07:59:10.929Z
 title: What Are Point of Sale Devices?
@@ -15,7 +16,7 @@ comments: true
 published: true
 language: en
 ---
-**In the Point of Sale (POS) world software constantly meets hardware. Learn about the types of equipment used in Points of Sale for restaurant and retail.**
+**Integrations with retail devices is crucial part of every point-of-sale system. Learn about the types of equipment used in Points of Sale for restaurant and retail.**
 
 ![ePOS equipment](../../static/images/blog_post_cover_epos.png)
 
@@ -26,6 +27,8 @@ Point of Sale (POS) is the checkout for customers who purchase goods or services
 <div className="important-info"><h2>Electronic Point of Sale</h2><div>Modern ePOS (electronic Point of Sale) is a combination of hardware and software that enable transactions.</div></div>
 
 In this article, we focus on hardware solutions that are a part of modern ePOS for retail and restaurants. These are examples of retail hardware that we work with at Bright Inventions.
+
+Discover common problems that POS developers face while [integrating hardware with point of sale systems](/projects/pos-devices-integration/).
 
 ## What devices are part of the electronic Point of Sale System?
 
@@ -46,7 +49,7 @@ In this article, we focus on hardware solutions that are a part of modern ePOS f
 * KDS can have two modes: checker mode for admins where you can see every order. And location mode where the system displays orders matching specific sections of the kitchen. For example, if one section takes care solely of desserts, then their KDS displays only desserts from the whole order. 
 * KDS systems can as well display colors that emphasize how long it’s been since the order was listed. Usually, the color code states that new orders might be marked with blue and delayed orders with yellow or even orange.
 
-<div class='block-button'><h2>breaking status quo in restaurants with kitchen display system</h2><div>The Kitchen Display System developed for the Israeli startup Practi stands as a prime illustration of dependable and user-friendly software, instantly embraced by its end users.</div><a href="/projects/kitchen-display-system/"><button>explore case study</button></a></div>
+Check how [kitchen display system development](/projects/kitchen-display-system/) changed daily operations in restaurants across UK and Israel.
 
 ### Payment terminal:
 
@@ -56,7 +59,7 @@ In this article, we focus on hardware solutions that are a part of modern ePOS f
 * **Terminals are integrated with ePOS devices to display the final price on the terminal** based on the order data from ePOS. Terminals can be connected locally, by Bluetooth, or via the internet (cloud).
 * The demand for cashless transactions is growing. For example, The European POS terminal market shipment accounted for 10.25 million units in 2020. [It is expected to reach 22.10 million by 2026](https://www.reportlinker.com/p06129760/Europe-POS-Terminal-Market-Growth-Trends-COVID-19-Impact-Forecasts.html). Therefore the market for cashless transaction tech is growing as well.
 
-<div class='block-button'><h2>turning smartphones into terminals with card payment app</h2><div>Learn more about the fintech iOS and Android application that allows businesses to charge credit cards without a payment terminal.</div><a href="/projects/credit-card-reader/"><button>dive into case study</button></a></div>
+Find out how we turned smartphones into terminals with [mobile payment app](/projects/credit-card-reader/).
 
 ### Electronic scale:
 
