@@ -24,7 +24,7 @@ language: en
 
 Point of Sale (POS) is the checkout for customers who purchase goods or services. It's the place to execute the payment. In this article, we focus on hardware solutions that are a part of modern POS for retail and restaurants. These are examples of retail hardware that we integrate with POS at Bright Inventions.
 
-Discover common problems that POS developers face while [integrating hardware with point of sale systems](/projects/pos-devices-integration/).
+**Discover common problems that POS developers face while [integrating hardware with point of sale systems](/projects/pos-devices-integration/).**
 
 ## What devices are part of the electronic Point of Sale System?
 
