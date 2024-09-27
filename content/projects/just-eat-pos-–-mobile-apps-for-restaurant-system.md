@@ -53,7 +53,7 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 <TitleWithIcon sectionTitle="mobile apps integrated with restaurant and retail systems" titleIcon="/images/icon_title_products.svg" titleIconAlt="Apps" />
 
 * ePOS iOS and Android **applications used by restaurant staff** to take orders and manage payments.
-* iOS and Android **driver application** which assists drivers in delivering orders.
+* iOS and Android **[courier delivery application](/projects/delivery-drivers-app/)** which assists drivers in delivering orders.
 
 <div className="image">![Mobile apps restaurant and retail](../../static/images/mobile_retail_app.png "It is not a real implemented design. It is a mockup example created for the purpose of a case study.")</div>
 
@@ -73,15 +73,17 @@ iOS products developed by our team were used in restaurants in Israel. Practi iO
 
 ### **Reggie iOS ePOS application**
 
-**Reggie was “the mind” of the whole ePOS system at the restaurant**. It was a cash register itself. It was fully integrated with JustEat and a couple of other online food delivery companies. You could manage orders from clients in the restaurant as well as took care of all phone and internet orders. Also, the app enabled you to manage drivers if the restaurant hired them.
+**Reggie was “the mind” of the whole ePOS system at the restaurant**. It was a cash register itself. It was fully [integrated with JustEat and a couple of other online food delivery companies](/projects/pos-third-party-delivery/). You could manage orders from clients in the restaurant as well as took care of all phone and internet orders. Also, the app enabled you to manage drivers if the restaurant hired them.
 
 ### **Click & Collect – iOS white label application**
 
 **The app was dedicated to restaurants which want to offer clients their own meal-ordering application**. “White label app” was the product that can be easily adjusted to clients brand visual identity and business needs. Therefore every restaurant can use this app but it looks differently for every business. The app allowed restaurant’s customers to order items from menu and get them delivered or collected on their own.
 
-### **Driver app** 
+### **Delivery drivers app** 
 
 Our team also developed an independent **product used by drivers who deliver the orders from a restaurant to customers**. The app not only showed the destination and navigates drivers but also kept them informed about the transaction details. Drivers knew whether the order was paid or it needed to be paid. The driver was well-aware about the payment method (by cash or card). Thanks to the app, drivers were provided with all necessary information and could focus on delivering the meals as soon as possible.
+
+Read more about [delivery drivers app](/projects/delivery-drivers-app/).
 
 <TitleWithIcon sectionTitle="Android development" titleIcon="/images/gearwheel.svg" titleIconAlt="Android development" />
 
@@ -93,7 +95,7 @@ The app let you manage food orders made at restaurant, by phone or the website.
 
 **Some of the features of the Android Just Eat POS application are:**
 
-* **Catalog** – the main screen of the app used to quickly set up orders taken at place (in person). The cashier or other stuff member had access to all menu items and could choose the ones a client wanted to order. They couldan also choose the delivery option if needed and enter client’s data. Then a cashier could proceed to the transaction.
+* **Catalog** – the main screen of the app used to quickly set up orders taken at place (in person). The cashier or other stuff member had access to all menu items and could choose the ones a client wanted to order. They could also choose the delivery option if needed and enter client’s data. Then a cashier could proceed to the transaction.
 * **Customer Orders** – the dashboard displaying all orders made externally – via a phone or online food delivery providers like Takeaway, Just Eat, etc. So these were orders that weren't made in person. The app user could quickly check the status of every order and assign a driver to deliver it to the customer.
 * **Reports** – the app displayed various data and statistics that showed your company revenue, number of orders and sold items, details about the inventory and more.
 * **Printing receipt** – the app enabled to print payment receipts as well as receipts printed in the kitchen with details about the order.
@@ -121,4 +123,4 @@ Our applications had been integrated mostly with **Sunmi Technology** – one of
 
 <TitleWithIcon sectionTitle="what is next for Just Eat Takeaway and Bright Inventions" titleIcon="/images/icon_result_svg.svg" titleIconAlt="result" />
 
-Just Eat POS (prev. Practi) and Bright Inventions have established a long-term business relationship and our team proudly collaborates with **Just Eat Takeaway on retail solutions**.
+Just Eat POS (prev. Practi) and Bright Inventions have established a long-term business relationship and our team proudly collaborates with **Just Eat Takeaway on various retail solutions**.
