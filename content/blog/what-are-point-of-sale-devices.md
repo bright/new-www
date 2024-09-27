@@ -7,7 +7,7 @@ tags:
   - bluetooth
   - POS
 date: 2022-08-04T07:23:33.938Z
-meaningfullyUpdatedAt: 2024-08-11T07:59:10.929Z
+meaningfullyUpdatedAt: 2024-09-27T10:59:00.856Z
 title: What Are Point of Sale Devices?
 layout: post
 image: /images/blog_post_cover_epos2.png
@@ -101,4 +101,4 @@ The label printer is often built-in electronic scales. When you weigh the produc
 
 The device that prints receipts. Thermal printers emit light to the paper that is photosensitive so it leaves the “marks” that we know as the list of our groceries and all the costs.
 
-<div class='block-button'><h2>solving problems with printer integrations</h2><div>Discover how our team integrated various devices (with printers at the forefront) into one point-of-sale (POS) system that has become a part of the Just Eat Takeaway portfolio.</div><a href="/projects/pos-devices-integration/"><button>read the story</button></a></div>
+<YouTubeEmbed url='https://youtu.be/Dhjok3uVW8c?si=p8hb1EZhUi4bfJVI' />
