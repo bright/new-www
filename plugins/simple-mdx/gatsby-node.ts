@@ -32,11 +32,16 @@ type Testimonials {
   testimonials_quote: SimpleMdx
 }
 
+type Boxes {
+  box_description: SimpleMdx
+}
+
 type MdxFrontmatter {
  links_more_about_us: SimpleMdx
  description_mdx: SimpleMdx
  answer: SimpleMdx
  testimonials: [Testimonials]
+ boxes: [Boxes]
 }
 `,
   ]
