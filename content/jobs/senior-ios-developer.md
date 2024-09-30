@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Senior iOS Developer "
-subtitle: OPENING SOON
+subtitle: OPEN
 imagejob: /images/iosteam_job_offer.png
 image-alt-job: iOS Development Team Bright Inventions
 hours: full-time
@@ -58,9 +58,7 @@ We believe in open communication and encourage team members to share their insig
 
 ## job description
 
-We are looking for **an experienced iOS Developer whose main goal will be supporting us in building the powerful high profile iOS application that will impact how Just Eat shapes the retail world.** The application is a delivery platform in which users can take orders, process secure payments and enjoy millions of special offers. 
-
-As a growing team with business focus, **we need strong engineers with diverse perspectives to help us enhance the app and introduce the deployment automation (CI/CD).** The team you will work in consists of six experienced and talented iOS developers as well as two dedicated QA engineers.
+We are looking for an **experienced iOS Developer** to join one of our projects for a client. We are working on developing a service management application — a comprehensive calendar with booking options, service predefinition, payment integration, and employee management.
 
 ## what you will do 👩🏻‍💻🧑🏻‍💻
 
@@ -95,7 +93,5 @@ As a growing team with business focus, **we need strong engineers with diverse p
 * one extra day for non-project stuff each month
 * regular sports classes (running, biking, swimming) and yoga Fridays
 * board games evenings, weekly lunch initiative, team retreats once a quarter
-
-
 
 Sounds like a perfect job? Don't hesitate and apply!
