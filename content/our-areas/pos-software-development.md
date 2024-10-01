@@ -74,7 +74,7 @@ boxes:
     box_icon: /images/pos_development_icon_update.png
   - box_title: POS device integrations
     box_description: We'll ensure stable connections with printers, terminals, and
-      other hardware integrated with your POS system. We [integrate retail
+      other hardware integrated with your POS system. [We integrate retail
       devices](/projects/pos-devices-integration/) from top producers including
       **Epson or Sunmi**. If one printer malfunctions, another will
       automatically take over to print receipts.
