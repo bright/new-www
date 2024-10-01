@@ -291,7 +291,7 @@ export const MoreButtonOurServiceWrapper = styled.div<{
     margin-top: ${({ marginTopMobile }) => (marginTopMobile ? marginTopMobile : `${variables.pxToRem(64)}`)};
   }
 `
-export const MediaWrapper = styled.div<{ displayedOnDesktop: boolean }>`
+export const MediaWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -301,23 +301,6 @@ export const MediaWrapper = styled.div<{ displayedOnDesktop: boolean }>`
     display: block;
     margin: auto;
     max-width: 100%;
-  }
-
-  && .video-placeholder-image {
-    max-width: 640px;
-    max-height: 360px;
-  }
-
-  && .video-wrapper {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  && .rounded {
-    border-radius: ${({ displayedOnDesktop }) => (displayedOnDesktop ? '20px' : 'unset')};
   }
 `
 

@@ -21,7 +21,7 @@ const enableHotjar = false //to enable hotjar globally set the value to true
 
 const facebookPixelId = isProduction ? '1256554391514599' : ''
 
-const linkedInPixelId = isProduction ? '6881457' : '';
+const linkedInPixelId = isProduction ? '6881457' : ''
 
 const googleTrackingIdsForEnv = googleTrackingIds(gatsbyActiveEnv)
 

@@ -1,7 +1,6 @@
 import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import React, { PropsWithChildren, useRef } from 'react'
-import { YouTubeEmbed } from 'react-social-media-embed/dist/components/embeds/YouTubeEmbed'
 import RatingClutch from '../assets/rating.svg'
 import { Projects } from '../components/home/Projects'
 import { FlexWrapper, MoreButton } from '../components/shared'
@@ -38,6 +37,7 @@ import {
   OurServiceSection,
   Testimonials,
 } from './Service.styled'
+import { ServiceVideo } from './ServiceVideo/ServiceVideo'
 
 const PopularBlogPosts = React.lazy(() => import('../components/shared/PopularBlogPosts'))
 const TechnologyTags = React.lazy(() => import('../components/shared/TechnologyTags'))
@@ -63,8 +63,6 @@ export default function Template({
   const { faqSlug, language } = pageContext
   const de = language === 'de'
   const isClient = useClient()
-
-  const displayedOnDesktop = width >= breakpointTablet
 
   const {
     faqs,
@@ -161,30 +159,8 @@ export default function Template({
           paddingTablet='2rem 0 0 0'
           paddingMobileProps='2rem 0 0 0'
         >
-          <MediaWrapper displayedOnDesktop={displayedOnDesktop}>
-            {video_url && (
-              <YouTubeEmbed
-                embedPlaceholder={
-                  videoPlaceholderImage && (
-                    <GatsbyImage className='video-placeholder-image rounded' image={videoPlaceholderImage} alt='' />
-                  )
-                }
-                url={video_url}
-                className='video-wrapper'
-                youTubeProps={{
-                  opts: {
-                    playerVars: {
-                      rel: 0,
-                      // @ts-ignore - mute not typed in youtube-player library
-                      mute: 1,
-                      autoplay: 1,
-                      loop: 1,
-                    },
-                  },
-                  iframeClassName: 'about-media rounded',
-                }}
-              />
-            )}
+          <MediaWrapper>
+            {video_url && <ServiceVideo videoUrl={video_url} videoPlaceholderImage={videoPlaceholderImage} />}
             {width >= breakpointTablet && typeof window !== 'undefined' && !video_url && desktopImage && (
               <GatsbyImage image={desktopImage} alt={image_alt_our_service} className='about-media' />
             )}
