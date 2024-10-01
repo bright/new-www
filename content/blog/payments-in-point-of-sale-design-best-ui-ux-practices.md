@@ -59,7 +59,7 @@ For example, **when it comes to tipping, don’t force waitstaff to manually inp
 
 Another great example of the Don’t Make Me Think principle is **the design of split payment** in POS systems. **The underlying mechanism should handle all the calculations** for the users, while the interface remains as simple as possible. **Waitstaff should only be required to input information like the number of splits and payment methods**.
 
-As demonstrated, the end user simply provides the number of splits and pament methods, and the POS system guides them through the entire process seamlessly.
+As demonstrated, the end user simply provides the number of splits and payment methods, and the POS system guides them through the entire process seamlessly.
 
 <div className="image">![Split payment design](/images/don’t-make-them-think-split-payment.png "Split payment design")</div>
 
