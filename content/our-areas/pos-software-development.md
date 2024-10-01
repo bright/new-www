@@ -38,7 +38,6 @@ highlighted_word: custom POS
 image_our_service_desktop: /images/pos_software_development_web.png
 image_our_service_mobile: /images/pos_software_development_mobile.png
 image_alt_our_service: POS software development
-video_url: https://www.youtube.com/watch?v=WSS7EgDths8
 bullet_points:
   - integrations with retail devices and third-party systems
   - secure contactless payments
@@ -86,24 +85,24 @@ boxes:
       local payment providers**, we’ll tailor your POS to suit your business
       needs.
   - box_title: POS system modernization
-    box_description: Whether you need to upgrade specific components of your
-      solution, such as payment processing or food delivery integrations, or
-      completely modernize your legacy, we will guide you through the entire
-      journey.
+    box_description: Whether you need to **upgrade specific components** of your
+      solution, such as payment processing or [food delivery
+      integrations](/our-areas/food-delivery-pos-integration/), or **completely
+      modernize your legacy**, we will guide you through the entire journey.
     box_icon: /images/icon_pos_lp_modernization.png
   - box_title: POS system design & product strategy
-    box_description: We specialize in designing critical features like payments,
-      bill splitting, and floor mapping. We will eliminate your users’ pain
+    box_description: We specialize in **designing critical features like payments,
+      bill splitting, and floor mapping**. We will eliminate your users’ pain
       points and focus on a design that accelerates actions and reduces errors.
     box_icon: /images/icon_pos_lp_data_driven_updatex2.png
   - box_title: retail and sales data dashboards
     box_description: Which product bundles drive the most profit? What seasonal dish
-      was the biggest hit? With advanced reports, businesses using your POS
-      system will gain insights into what drives their growth.
+      was the biggest hit? With **advanced reports**, businesses using your POS
+      system will gain **insights into what drives their growth**.
     box_icon: /images/icon_pos_lp_growthx2.png
   - box_title: cloud POS system
-    box_description: From on-premise to cloud migration, we handle the entire
-      process, ensuring your POS cloud migration helps you save resources and
+    box_description: From on-premise to cloud migration, **we handle the entire
+      process**, ensuring your POS cloud migration helps you save resources and
       operate more efficiently.
     box_icon: /images/icon_pos_lp_cloud_pos.png
 language: en
@@ -111,6 +110,7 @@ blog_section: false
 blog_section_tags:
   - business strategy
 blog_section_title: our team insights
+video_url: https://www.youtube.com/watch?v=WSS7EgDths8
 testimonials:
   - testimonials_quote: "*Compared to everyone else, bright inventions doesn’t
       promise things they can’t deliver. \\[...]. The best thing about them is
