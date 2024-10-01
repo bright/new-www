@@ -42,3 +42,9 @@ Emphasize the most frequently used buttons by making them larger and more promin
 On the order management screen below, you’ll find several clickable options. However, the most important action, “Continue,” is designed to stand out due to its distinctive color and size, ensuring smooth navigation through the ordering process.
 
 <div className="image">![Button hierarchy POS design](/images/establish-button-hierarchy.png "Button hierarchy POS design")</div>
+
+## Keep forms simple
+
+Some payment methods, like card payments, require filling out forms. To make this process intuitive, design fields in a way that simplifies data entry. **Best practices for form design include stacking fields vertically, placing labels directly above each field**. This layout aligns with the natural top-to-bottom way users scan information, whereas placing labels to the side forces them to shift their focus, slowing them down.
+
+<div className="image">![Keep forms simple - POS design](/images/keep-forms-simple.png "Keep forms simple - POS design")</div>
