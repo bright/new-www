@@ -48,3 +48,19 @@ On the order management screen below, you’ll find several clickable options. H
 Some payment methods, like card payments, require filling out forms. To make this process intuitive, design fields in a way that simplifies data entry. **Best practices for form design include stacking fields vertically, placing labels directly above each field**. This layout aligns with the natural top-to-bottom way users scan information, whereas placing labels to the side forces them to shift their focus, slowing them down.
 
 <div className="image">![Keep forms simple - POS design](/images/keep-forms-simple.png "Keep forms simple - POS design")</div>
+
+## Don’t make me think
+
+You might be familiar with the book “[Don’t Make Me Think](blog/5-web-development-rules-from-dont-make-me-think-book/)”, which highlights usability practices based on the principle that interfaces should be so intuitive that users can navigate them effortlessly. This is especially important in point-of-sale systems – you should offer users clear options without making them overthink their actions.
+
+For example, when it comes to tipping, don’t force waitstaff to manually input an amount. Instead, present them with popular tipping options while still allowing customization if needed.
+
+<div className="image">![Don’t make me think](/images/don’t-make-them-think.png "Don’t make me think")</div>
+
+Another great example of the Don’t Make Me Think principle is the design of split payment in POS systems. The underlying mechanism should handle all the calculations for the users, while the interface remains as simple as possible. Waitstaff should only be required to input information like the number of splits and payment methods.
+
+As demonstrated, the end user simply provides the number of splits, and the POS system guides them through the entire process seamlessly.
+
+<div className="image">![Split payment design](/images/don’t-make-them-think-split-payment.png "Split payment design")</div>
+
+What other design best practices would you list in this article? Let us know in the comments!
