@@ -1,8 +1,8 @@
 ---
 layout: job
 title: "Senior iOS Developer "
-subtitle: OPENING SOON
-imagejob: /images/iosteam_job_offer.png
+subtitle: OPEN
+imagejob: /images/team-job-offer-2-.png
 image-alt-job: iOS Development Team Bright Inventions
 hours: full-time
 salary: 135 - 162 PLN/hour + VAT (B2B) 16 600 - 19 920 PLN gross (UoP)
@@ -12,8 +12,6 @@ working time: full time
 technology:
   - Swift
   - iOS SDK
-  - Cocoa Touch
-  - Core Data
   - Swift UI
   - Combine
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
@@ -58,9 +56,9 @@ We believe in open communication and encourage team members to share their insig
 
 ## job description
 
-We are looking for **an experienced iOS Developer whose main goal will be supporting us in building the powerful high profile iOS application that will impact how Just Eat shapes the retail world.** The application is a delivery platform in which users can take orders, process secure payments and enjoy millions of special offers. 
+We are looking for an **experienced iOS Developer** to join one of our projects for a client. We are working on developing a service management application — a comprehensive calendar with booking options, service predefinition, payment integration, and employee management.
 
-As a growing team with business focus, **we need strong engineers with diverse perspectives to help us enhance the app and introduce the deployment automation (CI/CD).** The team you will work in consists of six experienced and talented iOS developers as well as two dedicated QA engineers.
+**This role requires strong technical as well as communication skills.** The person in this position will collaborate with an international team and maintain close contact with the business. One of the main tasks will be to work on the integration of two separate teams, each working on different parts of applications.
 
 ## what you will do 👩🏻‍💻🧑🏻‍💻
 
@@ -74,14 +72,14 @@ As a growing team with business focus, **we need strong engineers with diverse p
 ## preferred qualifications & skills ✅
 
 * at least 4 years of experience in iOS development
-* very good knowledge and deep understanding of Swift, iOS SDK, CocoaTouch
+* very good knowledge and deep understanding of Swift
 * very good understanding of the most popular Apple frameworks
 * experience with Core Data and Firebase Crashlytics
 * familiarity with Continuous Integration and other process automation tools
+* strong focus on product development and client orientation
 * desire for continuous self-improvement
 * excellent problem solving and analytical thinking skills
 * advanced level of communication in English
-* familiarity with Agile methodologies
 
 ## **what you will find in our Bright Team 🧡**
 
@@ -95,7 +93,5 @@ As a growing team with business focus, **we need strong engineers with diverse p
 * one extra day for non-project stuff each month
 * regular sports classes (running, biking, swimming) and yoga Fridays
 * board games evenings, weekly lunch initiative, team retreats once a quarter
-
-
 
 Sounds like a perfect job? Don't hesitate and apply!

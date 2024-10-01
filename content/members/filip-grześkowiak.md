@@ -6,8 +6,8 @@ slug: filip-g
 name: Filip Grześkowiak
 short_name: Filip
 email: filip.grzeskowiak@brightinventions.pl
-bio: Android Developer
-description: Android Developer
+bio: Senior Android Developer
+description: Seinor Android Developer
 avatar: /images/brightdev_filip-busine.png
 avatar_hover: /images/brightdev_filip-passio.png
 published: true

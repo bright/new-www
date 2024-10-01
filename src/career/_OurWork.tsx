@@ -21,6 +21,16 @@ const OurWork: React.FC = () => {
   const quotes = [
     {
       avatar_hover: (
+        <StaticImage src='../../static/images/dominikd_passion_team.png' alt='Dominik' className='quote-img' />
+      ),
+      short_name: 'Dominik',
+      bio: 'Senior Fullstack Developer',
+      slug: 'dominik-d',
+      quote:
+        `I'm happy working here. So far, I've met only fantastic coworkers. Our managers genuinely care about the employees’ overall well-being, ensuring that we have opportunities to continue developing.`,
+    },
+    {
+      avatar_hover: (
         <StaticImage src='../../static/images/michal_d_passion_team.png' alt='Michał' className='quote-img' />
       ),
       short_name: 'Michał',
@@ -68,16 +78,6 @@ const OurWork: React.FC = () => {
       slug: 'malgorzata-z',
       quote:
         'I’ve always enjoyed running, but never had someone to share this passion with until I joined the running workouts at Bright Inventions. Thanks to our trainer, Bartosz Banach, and his coaching, I was able to finish a marathon.',
-    },
-    {
-      avatar_hover: (
-        <StaticImage src='../../static/images/kamil_passion_2022.png' alt='Kamil' className='quote-img' />
-      ),
-      short_name: 'Kamil',
-      bio: 'Senior iOS Developer',
-      slug: 'kamil-b',
-      quote:
-        'People here are passionate about their work. I know it sounds cliche, but it’s true. When looking at tedious tasks – our first thought is how we can automate it. The second one is – how we can improve it.',
     },
     {
       avatar_hover: <StaticImage src='../../static/images/arturs_passion.png' alt='Artur' className='quote-img' />,

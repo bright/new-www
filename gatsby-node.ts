@@ -274,7 +274,9 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
               }
               boxes {
                 box_title
-                box_description
+                box_description {
+                  html
+                }
                 box_icon {
                   childImageSharp {
                     gatsbyImageData

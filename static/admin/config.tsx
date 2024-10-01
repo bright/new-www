@@ -801,7 +801,7 @@ const config = {
         {
           label: 'Video file',
           name: 'video_file',
-          widget: 'image',
+          widget: 'file',
           required: false,
         },
         {
@@ -904,7 +904,7 @@ const config = {
             {
               label: 'Icon',
               name: 'box_icon',
-              widget: 'image',
+              widget: 'string',
             },
           ],
         },

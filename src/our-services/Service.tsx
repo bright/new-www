@@ -194,7 +194,7 @@ export default function Template({
                   <BoxImage>{box_icon && <GatsbyImage image={getImage(box_icon)!} alt={box_title} />}</BoxImage>
                 )}
                 <BoxTitle>{box_title}</BoxTitle>
-                <BoxDescription>{box_description}</BoxDescription>
+                <BoxDescription dangerouslySetInnerHTML={{ __html: box_description.html }}/>
               </Box>
             ))}
           </BoxesWrapper>
@@ -436,7 +436,9 @@ export const pageQuery = graphql`
         }
         boxes {
           box_title
-          box_description
+          box_description {
+            html
+          }
           box_icon {
             childImageSharp {
               gatsbyImageData(height: 170)

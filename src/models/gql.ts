@@ -85,6 +85,8 @@ export interface TestimonialModel {
 
 export interface BoxesModel {
   box_title: string
-  box_description: string
+  box_description: {
+    html: string
+  }
   box_icon: IGatsbyImageData | null
 }

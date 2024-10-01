@@ -1032,6 +1032,8 @@ type MdxFrontmatter {
   working_time: String
   workplace_recruiter: String
   blog_section_tags: [String]
+  testimonials: [Testimonials]
+  boxes: [Boxes]
 }
 
 type MdxFrontmatterBar_achievements {
@@ -1204,6 +1206,19 @@ type OurAreasEdge {
   previous: OurAreas
 }
 
+type Testimonials {
+  testimonials_quote: SimpleMdx
+  testimonials_author: String
+  testimonials_position: String
+  testimonials_company: String
+}
+
+type Boxes {
+  box_title: String!
+  box_description: SimpleMdx
+  box_icon: File
+}
+
 type OurAreasFrontmatter {
   bar_stack: String!
   bullet_points: String!
@@ -1243,6 +1258,8 @@ type OurAreasFrontmatter {
   blog_section: Boolean!
   blog_section_tags: [String]
   blog_section_title: String
+  testimonials: [Testimonials]!
+  boxes: [Boxes]!
 }
 
 type OurAreasGroupConnection {

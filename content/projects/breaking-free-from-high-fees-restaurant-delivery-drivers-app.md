@@ -50,11 +50,11 @@ language: en
 
 **technologies:** Kotlin, Swift
 
-<TitleWithIcon sectionTitle="the problem: high costs associated with food delivery platform partnerships" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+<TitleWithIcon sectionTitle="the problem: high costs associated with third-party delivery services" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
 Practi, later known as Just Eat POS, has been digitalizing restaurant operations for years, helping restaurants and stores across Israel and the UK find savings through technology.
 
-One major concern for restaurant owners is the **high cost associated with partnerships with food delivery platforms**. By hiring their own drivers, restaurants can offer more affordable delivery options to their customers. However, **effective collaboration between couriers and waitstaff can only succeed with the right technology**, ensuring that in-house deliveries are just as competitive as those offered by specialized platforms.
+One major concern for restaurant owners is the **high cost associated with partnerships with third-party delivery providers**. By hiring their own drivers, restaurants can offer more affordable delivery options to their customers. However, **effective collaboration between couriers and waitstaff can only succeed with the right technology**, ensuring that in-house deliveries are just as competitive as those offered by specialized platforms.
 
 Another restaurant owners’ concern is the **inability to manage all deliveries within a single app**. Typically, when they hire external delivery providers, waitstaff has to manage separate apps, such as Deligoo. **Restaurant owners seek an all-in-one solution**, allowing their staff to handle all deliveries directly through the POS application.
 
