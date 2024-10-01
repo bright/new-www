@@ -10,7 +10,7 @@ slug: payment-point-of-sale-design-ui-ux
 title: "Payments in Point of Sale Design: Best UI/UX Practices"
 layout: post
 image: /images/pos_payment_design_blog_update.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
