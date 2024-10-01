@@ -4,8 +4,8 @@ secondAuthor: izabela
 tags:
   - POS
   - design
-date: 2024-10-01T08:38:12.247Z
-meaningfullyUpdatedAt: 2024-10-01T08:38:12.275Z
+date: 2024-10-01T09:09:50.523Z
+meaningfullyUpdatedAt: 2024-10-01T09:09:51.182Z
 slug: payment-point-of-sale-design-ui-ux
 title: "Payments in Point of Sale Design: Best UI/UX Practices"
 layout: post
