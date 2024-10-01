@@ -12,8 +12,6 @@ working time: full time
 technology:
   - Swift
   - iOS SDK
-  - Cocoa Touch
-  - Core Data
   - Swift UI
   - Combine
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
