@@ -34,3 +34,11 @@ Avoid purely decorative animations, as they can slow users down. Focus on includ
 When presenting multiple options, such as payment methods, it's crucial to include clear, intuitive icons to minimize errors. To ensure accessibility, pair these icons with labels, making their meaning unmistakable.
 
 <div className="image">![Point of sale design iconography](/images/include-easily-understandable-icons-with-labels.png "Point of sale design iconography")</div>
+
+## Establish button hierarchy
+
+Emphasize the most frequently used buttons by making them larger and more prominent, while less commonly used buttons should be smaller. This helps guide users toward the correct action efficiently.
+
+On the order management screen below, you’ll find several clickable options. However, the most important action, “Continue,” is designed to stand out due to its distinctive color and size, ensuring smooth navigation through the ordering process.
+
+<div className="image">![Button hierarchy POS design](/images/establish-button-hierarchy.png "Button hierarchy POS design")</div>
