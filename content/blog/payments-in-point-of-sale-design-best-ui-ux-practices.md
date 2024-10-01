@@ -65,6 +65,6 @@ As demonstrated, the end user simply provides the number of splits and payment m
 
 What other design best practices would you list in this article? Let us know in the comments!
 
-\-
+---
 
 The Point of Sale design was created by Aleksandra Zawisza, a Junior Product Designer at Bright Inventions.
