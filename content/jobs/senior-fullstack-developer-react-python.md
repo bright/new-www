@@ -11,6 +11,11 @@ salary_max: ""
 working time: full time
 technology:
   - React
+  - Python
+  - Material UI
+  - X Data Grid
+  - TanStack/React-Query
+  - ECharts
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
