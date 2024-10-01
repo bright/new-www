@@ -6,7 +6,7 @@ tags:
   - design
 date: 2024-10-01T08:38:12.247Z
 meaningfullyUpdatedAt: 2024-10-01T08:38:12.275Z
-slug: payments-point-of-sale-design-ui-ux
+slug: payment-point-of-sale-design-ui-ux
 title: "Payments in Point of Sale Design: Best UI/UX Practices"
 layout: post
 image: /images/pos_design_payment_blog_cover.png
