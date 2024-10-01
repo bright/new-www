@@ -19,9 +19,9 @@ language: en
 
 <div className="image">![POS design UX/UI practices](/images/establish-button-hierarchy.png "POS")</div>
 
-## Best practices for payment UI in POS design
+## Include these practices for payment UI
 
-Let’s remember that our **end users are waitstaff, shop assistants, and hotel receptionists**. They work under significant stress and time pressure, managing as many clients as possible to drive revenue for the business. **Technology should accelerate their processes**, not only improving efficiency but also enhancing customer satisfaction.
+Before we deep dive, let’s remember that our **end users are waitstaff, shop assistants, and hotel receptionists**. They work under significant stress and time pressure, managing as many clients as possible to drive revenue for the business. **Technology should accelerate their processes**, not only improving efficiency but also enhancing customer satisfaction.
 
 ## Use animations for information purposes only
 
