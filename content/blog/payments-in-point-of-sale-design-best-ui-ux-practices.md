@@ -31,15 +31,15 @@ Avoid purely decorative animations, as they can slow users down. Focus on includ
 
 ## Include easily understandable icons with labels
 
-When presenting multiple options, such as payment methods, it's crucial to include clear, intuitive icons to minimize errors. To ensure accessibility, pair these icons with labels, making their meaning unmistakable.
+When presenting multiple options, such as payment methods, it's crucial to **include clear, intuitive icons** to minimize errors. To ensure accessibility, **pair these icons with labels**, making their meaning unmistakable.
 
 <div className="image">![Point of sale design iconography](/images/include-easily-understandable-icons-with-labels.png "Point of sale design iconography")</div>
 
 ## Establish button hierarchy
 
-Emphasize the most frequently used buttons by making them larger and more prominent, while less commonly used buttons should be smaller. This helps guide users toward the correct action efficiently.
+**Emphasize the most frequently used buttons by making them larger and more prominent**, while less commonly used buttons should be smaller. This helps guide users toward the correct action efficiently.
 
-On the order management screen below, you’ll find several clickable options. However, the most important action, “Continue,” is designed to stand out due to its distinctive color and size, ensuring smooth navigation through the ordering process.
+On the order management screen below, you’ll find several clickable options. However, **the most important action, “Continue,” is designed to stand out** due to its distinctive color and size, ensuring smooth navigation through the ordering process.
 
 <div className="image">![Button hierarchy POS design](/images/establish-button-hierarchy.png "Button hierarchy POS design")</div>
 
@@ -51,15 +51,15 @@ Some payment methods, like card payments, require filling out forms. To make thi
 
 ## Don’t make me think
 
-You might be familiar with the book “[Don’t Make Me Think](blog/5-web-development-rules-from-dont-make-me-think-book/)”, which highlights usability practices based on the principle that interfaces should be so intuitive that users can navigate them effortlessly. This is especially important in point-of-sale systems – you should offer users clear options without making them overthink their actions.
+You might be familiar with the book “[Don’t Make Me Think](blog/5-web-development-rules-from-dont-make-me-think-book/)”, which highlights usability practices based on the principle that interfaces should be so intuitive that users can navigate them effortlessly. This is especially important in point-of-sale systems – you should **offer users clear options without making them overthink their actions**.
 
-For example, when it comes to tipping, don’t force waitstaff to manually input an amount. Instead, present them with popular tipping options while still allowing customization if needed.
+For example, **when it comes to tipping, don’t force waitstaff to manually input an amount**. Instead, present them with popular tipping options while still allowing customization if needed.
 
 <div className="image">![Don’t make me think](/images/don’t-make-them-think.png "Don’t make me think")</div>
 
-Another great example of the Don’t Make Me Think principle is the design of split payment in POS systems. The underlying mechanism should handle all the calculations for the users, while the interface remains as simple as possible. Waitstaff should only be required to input information like the number of splits and payment methods.
+Another great example of the Don’t Make Me Think principle is **the design of split payment** in POS systems. **The underlying mechanism should handle all the calculations** for the users, while the interface remains as simple as possible. **Waitstaff should only be required to input information like the number of splits and payment methods**.
 
-As demonstrated, the end user simply provides the number of splits, and the POS system guides them through the entire process seamlessly.
+As demonstrated, the end user simply provides the number of splits and pament methods, and the POS system guides them through the entire process seamlessly.
 
 <div className="image">![Split payment design](/images/don’t-make-them-think-split-payment.png "Split payment design")</div>
 
