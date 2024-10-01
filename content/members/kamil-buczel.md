@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: kamil-b
-ex: false
+ex: true
 slug: kamil-b
 name: Kamil Buczel
 short_name: "Kamil "
