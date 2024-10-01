@@ -799,6 +799,12 @@ const config = {
           required: false,
         },
         {
+          label: 'Video file',
+          name: 'video_file',
+          widget: 'image',
+          required: false,
+        },
+        {
           label: 'Video Placeholder Image',
           name: 'video_placeholder_image',
           widget: 'image',
