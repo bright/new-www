@@ -28,3 +28,9 @@ Let’s remember that our **end users are waitstaff, shop assistants, and hotel 
 Avoid purely decorative animations, as they can slow users down. Focus on including only informative animations that provide essential feedback, such as indicating when a payment is being processed.
 
 <div className="image">![Animations in point of sale design](/images/use-animations-for-information-purposes-only.png "Animations in point of sale design")</div>
+
+## Include easily understandable icons with labels
+
+When presenting multiple options, such as payment methods, it's crucial to include clear, intuitive icons to minimize errors. To ensure accessibility, pair these icons with labels, making their meaning unmistakable.
+
+<div className="image">![Point of sale design iconography](/images/include-easily-understandable-icons-with-labels.png "Point of sale design iconography")</div>
