@@ -51,7 +51,7 @@ We place a strong emphasis on accountability, and we value team members **who ta
 
 ## about the role 🧑🏻‍💻🧑🏻‍💻
 
-We are seeking an experienced Fullstack Developer to join our bright team. The ideal candidate will have **a strong understanding of both frontend and backend development**, along with the ability to work on a variety of projects, ranging from web applications to database design. 
+We are seeking an experienced Fullstack Developer to join our bright team. The candidate will have **a strong understanding of both frontend and backend development**, along with the ability to work on a variety of projects, ranging from web applications to database design. 
 
 A new person will join the application for managing and analyzing data from biological processes (such as experiments in bioreactors, etc.). The challenges we face in the project are: working with large amounts of data, data visualization, and improving the data analysis process.
 
