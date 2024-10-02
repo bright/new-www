@@ -18,7 +18,7 @@ description: A web application that enables digitizing mobile reporting. It
 hero_image: /images/case_study_digitized_workflow_web.png
 Hero Image_alt: Digitized Questionnaires
 social_media_previev: /images/fb_preview_case_study_digital_survey_solution.png
-social_media_previev_alt: Digitized Questionnaires case study
+social_media_previev_alt: Digital Survey Solution case study
 bar_achievements:
   - number: "1"
     label: web MVP
