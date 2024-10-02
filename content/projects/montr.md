@@ -10,15 +10,15 @@ our_service:
   - product design
 layout: project
 project_id: digitized-questionnaires
-title: Digitized Questionnaires
+title: Building Reliable Digital Survey Solution with Offline Mode
 image: /images/case_study_digitized_questionnaires_update3.png
 description: A web application that enables digitizing mobile reporting. It
   helps you to build, with no code, the digitized surveys for end-users. A great
   tool for audits.
 hero_image: /images/case_study_digitized_workflow_web.png
 Hero Image_alt: Digitized Questionnaires
-social_media_previev: /images/questionnaire_fb_preview.png
-social_media_previev_alt: Digitized Questionnaires case study
+social_media_previev: /images/fb_preview_case_study_digital_survey_solution.png
+social_media_previev_alt: Digital Survey Solution case study
 bar_achievements:
   - number: "1"
     label: web MVP
