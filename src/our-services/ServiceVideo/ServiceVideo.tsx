@@ -26,12 +26,16 @@ export const ServiceVideo: React.FC<ServiceVideoProps> = ({ videoUrl, videoPlace
   }, [videoUrl])
 
   return videoFile ? (
-    <video autoPlay loop muted controls>
-      <source src={'/images/prompt_pos_integration_story_new.mp4'} type='video/mp4' />
-    </video>
+    <VideoWrapper>
+      <video autoPlay loop muted controls>
+        <source src={'/images/prompt_pos_integration_story_new.mp4'} type='video/mp4' />
+      </video>
+    </VideoWrapper>
   ) : (
     <VideoWrapper>
-      {shouldDisplayVideoPlaceholder && <PlaceholderImage image={videoPlaceholderImage} alt='' />}
+      {shouldDisplayVideoPlaceholder && videoPlaceholderImage && (
+        <PlaceholderImage image={videoPlaceholderImage} alt='' />
+      )}
 
       <YouTubeEmbed
         placeholderDisabled

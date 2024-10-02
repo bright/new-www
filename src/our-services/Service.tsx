@@ -94,6 +94,8 @@ export default function Template({
     video_file,
   } = page
 
+  console.log(video_file)
+
   const titleArr = title.split(' ')
   const newTitle = titleArr.map((ta: string) => {
     const highlightedWordArr = highlighted_word?.split(' ')
@@ -407,7 +409,9 @@ export const pageQuery = graphql`
         name
         language
         video_url
-        video_file
+        video_file {
+          absolutePath
+        }
         video_placeholder_image {
           childImageSharp {
             gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE, webpOptions: { quality: 100 })
