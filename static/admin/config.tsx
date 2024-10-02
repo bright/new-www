@@ -75,7 +75,7 @@ const config = {
   backend: {
     name: 'github',
     repo: 'bright/new-www',
-    branch: 'gatsby',
+    branch: 'staging',
     base_url: 'https://github-auth.brightinventions.pl',
   },
   publish_mode: 'editorial_workflow',

@@ -113,7 +113,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   const members = memberResult.data!.allMembers.nodes
 
   await Promise.all(
-    members.map(async (member) => {
+    members.map(async member => {
       const result = await graphql<{
         author: allMdxData
         secondAuthor?: allMdxData
@@ -299,7 +299,9 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
 
     createPage({
       path: 'our-areas/' + service.node.frontmatter.slug,
-      component: `${__dirname}/src/our-services/${isLandingPage ? 'Studio': 'Service'}.tsx?__contentFilePath=${service.node.internal.contentFilePath}`,
+      component: `${__dirname}/src/our-services/${isLandingPage ? 'Studio' : 'Service'}.tsx?__contentFilePath=${
+        service.node.internal.contentFilePath
+      }`,
       context: {
         id: service.node.id,
         slug: service.node.frontmatter!!.slug,
@@ -512,7 +514,10 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   createRedirect({ fromPath: '/about-us/values', toPath: '/about-us/' })
   createRedirect({ fromPath: '/about-us/story', toPath: '/about-us/' })
   createRedirect({ fromPath: '/jobs/rust-developer-1', toPath: '/jobs/rust-developer/' })
-  createRedirect({ fromPath: '/blog/build-llm-application-with-rag-langchain-v0-1-0', toPath: '/blog/build-llm-application-with-rag-langchain' })
+  createRedirect({
+    fromPath: '/blog/build-llm-application-with-rag-langchain-v0-1-0',
+    toPath: '/blog/build-llm-application-with-rag-langchain',
+  })
   createRedirect({ fromPath: '/blog/inspiration', toPath: '/blog/' })
   createRedirect({ fromPath: '/projects/vCare/', toPath: 'projects/emar-healthcare-solution/', statusCode: 301 })
 }

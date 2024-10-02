@@ -8,11 +8,11 @@ import { PlaceholderImage, VideoWrapper } from './ServiceVideo.styled'
 type ServiceVideoProps = {
   videoUrl: string
   videoPlaceholderImage?: IGatsbyImageData | undefined
+  videoFile?: string
 }
 
-export const ServiceVideo: React.FC<ServiceVideoProps> = ({ videoUrl, videoPlaceholderImage }) => {
+export const ServiceVideo: React.FC<ServiceVideoProps> = ({ videoUrl, videoPlaceholderImage, videoFile }) => {
   const [shouldDisplayVideoPlaceholder, setShouldDisplayVideoPlaceholder] = useState(true)
-
   const handleVideoStart = (): void => {
     setShouldDisplayVideoPlaceholder(false)
   }
@@ -22,17 +22,18 @@ export const ServiceVideo: React.FC<ServiceVideoProps> = ({ videoUrl, videoPlace
     // id: "abcdefghijk"
     const regex = /(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=)|youtu\.be\/)([^&?\/\s]{11})/
     const match = videoUrl.match(regex)
-    console.log(match)
     return match ? match[1] : undefined
   }, [videoUrl])
 
-  return (
+  return videoFile ? (
+    <video autoPlay loop muted controls>
+      <source src={'/images/prompt_pos_integration_story_new.mp4'} type='video/mp4' />
+    </video>
+  ) : (
     <VideoWrapper>
-      {false && <PlaceholderImage image={videoPlaceholderImage} alt='' />}
-      <video autoPlay loop muted>
-        <source src='/videos/prompt-pos-integration-story-new-copy.mov' type='video/mp4' />
-      </video>
-      {/* <YouTubeEmbed
+      {shouldDisplayVideoPlaceholder && <PlaceholderImage image={videoPlaceholderImage} alt='' />}
+
+      <YouTubeEmbed
         placeholderDisabled
         url={videoUrl}
         youTubeProps={{
@@ -54,7 +55,7 @@ export const ServiceVideo: React.FC<ServiceVideoProps> = ({ videoUrl, videoPlace
           },
           iframeClassName: 'iframe',
         }}
-      /> */}
+      />
     </VideoWrapper>
   )
 }

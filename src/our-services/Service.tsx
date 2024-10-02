@@ -91,6 +91,7 @@ export default function Template({
     boxes,
     show_team,
     video_url,
+    video_file,
   } = page
 
   const titleArr = title.split(' ')
@@ -160,7 +161,9 @@ export default function Template({
           paddingMobileProps='2rem 0 0 0'
         >
           <MediaWrapper>
-            {video_url && <ServiceVideo videoUrl={video_url} videoPlaceholderImage={videoPlaceholderImage} />}
+            {(video_url || video_file) && (
+              <ServiceVideo videoUrl={video_url} videoFile={video_file} videoPlaceholderImage={videoPlaceholderImage} />
+            )}
             {width >= breakpointTablet && typeof window !== 'undefined' && !video_url && desktopImage && (
               <GatsbyImage image={desktopImage} alt={image_alt_our_service} className='about-media' />
             )}
@@ -194,7 +197,7 @@ export default function Template({
                   <BoxImage>{box_icon && <GatsbyImage image={getImage(box_icon)!} alt={box_title} />}</BoxImage>
                 )}
                 <BoxTitle>{box_title}</BoxTitle>
-                <BoxDescription dangerouslySetInnerHTML={{ __html: box_description.html }}/>
+                <BoxDescription dangerouslySetInnerHTML={{ __html: box_description.html }} />
               </Box>
             ))}
           </BoxesWrapper>
@@ -404,6 +407,7 @@ export const pageQuery = graphql`
         name
         language
         video_url
+        video_file
         video_placeholder_image {
           childImageSharp {
             gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE, webpOptions: { quality: 100 })

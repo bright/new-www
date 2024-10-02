@@ -1,6 +1,6 @@
 import remarkGfm from 'remark-gfm'
 const rehypePrism = require('@mapbox/rehype-prism')
-import type { PluginTuple} from 'unified'
+import type { PluginTuple } from 'unified'
 import remarkMath from 'remark-math'
 import rehypeMathJax from 'rehype-mathjax'
 import { BaseProcessorOptions } from '@mdx-js/mdx/lib/core'
@@ -9,14 +9,8 @@ import { GetAssetFunction } from './cms/mdx-preview'
 
 export type MdxOptions = Pick<BaseProcessorOptions, 'remarkPlugins' | 'rehypePlugins'>
 export const mdxOptions: MdxOptions = {
-  remarkPlugins: [
-    remarkGfm,
-    remarkMath
-  ],
-  rehypePlugins: [
-    [rehypePrism, { ignoreMissing: true }] as PluginTuple,
-    rehypeMathJax
-  ]
+  remarkPlugins: [remarkGfm, remarkMath],
+  rehypePlugins: [[rehypePrism, { ignoreMissing: true }] as PluginTuple, rehypeMathJax],
 }
 export const mdxOptionsForPreviewOnly = (getAsset: GetAssetFunction): MdxOptions => ({
   remarkPlugins: [
@@ -28,11 +22,9 @@ export const mdxOptionsForPreviewOnly = (getAsset: GetAssetFunction): MdxOptions
     // and the /static/image/... path doesn't load anything
     // so when in preview, we replace ../../static/image/something.png with /image/something.png
     [handleAssets, { getAsset }],
-    ...mdxOptions.remarkPlugins!
+    ...mdxOptions.remarkPlugins!,
   ],
-  rehypePlugins: [
-    ...mdxOptions.rehypePlugins!
-  ]
+  rehypePlugins: [...mdxOptions.rehypePlugins!],
 })
 
 export const gatsbyMdxOptions = {
@@ -40,16 +32,16 @@ export const gatsbyMdxOptions = {
   mdxOptions: mdxOptions,
   gatsbyRemarkPlugins: [
     {
-      resolve: 'gatsby-remark-responsive-iframe'
+      resolve: 'gatsby-remark-responsive-iframe',
     },
     {
-      resolve: `gatsby-remark-external-links`
+      resolve: `gatsby-remark-external-links`,
     },
     {
-        resolve: `gatsby-remark-mdx-relative-images`
+      resolve: `gatsby-remark-mdx-relative-images`,
     },
     {
-      resolve: `gatsby-remark-copy-linked-files`
+      resolve: `gatsby-remark-copy-linked-files`,
     },
     {
       resolve: `gatsby-remark-images`,
@@ -58,11 +50,11 @@ export const gatsbyMdxOptions = {
         // the content container as this plugin uses this as the
         // base for generating different widths of each image.
         maxWidth: 960,
-        linkImagesToOriginal: false
-      }
+        linkImagesToOriginal: false,
+      },
     },
     {
-      resolve: `gatsby-remark-autolink-headers`
-    }
-  ]
+      resolve: `gatsby-remark-autolink-headers`,
+    },
+  ],
 }

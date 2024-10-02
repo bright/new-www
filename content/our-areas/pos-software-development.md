@@ -68,9 +68,9 @@ title_contact: book a call to discuss your POS
 description_contact: Fill out the form or drop us a line!
 boxes:
   - box_title: POS food delivery platform integrations
-    box_description: "**Synchronize menus and orders** from various food delivery
+    box_description: '**Synchronize menus and orders** from various food delivery
       apps onto a single POS device. Integrate your POS with **Uber Eats, Wolt,
-      Just Eat, Deliveroo** and more!"
+      Just Eat, Deliveroo** and more!'
     box_icon: /images/pos_development_icon_update.png
   - box_title: POS device integrations
     box_description: We'll ensure stable connections with printers, terminals, and
@@ -122,31 +122,32 @@ testimonials:
     testimonials_photo: /images/dorian.jpeg
     testimonials_position: Co-Founder & Former CEO
     testimonials_company: MedKitDoc
-  - testimonials_quote: "*Their attention to detail and scrutiny when dealing with
+  - testimonials_quote: '*Their attention to detail and scrutiny when dealing with
       technical challenges is noteworthy.* [Read more on
-      Clutch](https://clutch.co/profile/bright-inventions#review-83595)."
+      Clutch](https://clutch.co/profile/bright-inventions#review-83595).'
     testimonials_author: Adam Pachucki
     testimonials_position: Head of Product
     testimonials_company: Finebite
     testimonials_photo: /images/adam_pachucki.jpeg
-  - testimonials_quote: "*Working with Bright Inventions is always a pleasure. The
+  - testimonials_quote: '*Working with Bright Inventions is always a pleasure. The
       people involved are friendly and to the point. They’re also pragmatic,
       constructive, and punctual*. [Read more on
-      Clutch](https://clutch.co/profile/bright-inventions#review-54300)."
+      Clutch](https://clutch.co/profile/bright-inventions#review-54300).'
     testimonials_author: Kira Nezu
     testimonials_photo: /images/kira_nezu.jpeg
     testimonials_position: Project Manager
     testimonials_company: AppAdvisors GmbH
-  - testimonials_quote: "*Bright inventions and the whole team is always with full
+  - testimonials_quote: '*Bright inventions and the whole team is always with full
       heart at the project, understands our logic and intention behind and
       respects our requests and demands*. [Read more on
-      Clutch](https://clutch.co/profile/bright-inventions#review-149237)."
+      Clutch](https://clutch.co/profile/bright-inventions#review-149237).'
     testimonials_author: Matthias Potthast
     testimonials_position: Founder
     testimonials_company: Relevo
     testimonials_photo: /images/matthias_potthast.png
 show_team: false
 ---
+
 ## what we offer as a POS development company with over 12 years of experience
 
 Since 2012, we have been designing and building custom point-of-sale (POS) systems for hospitality, particularly restaurants, as well as retail businesses. What can we do for you?
