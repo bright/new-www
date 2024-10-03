@@ -31,3 +31,11 @@ This necessity "forced" me to learn Kotlin, which opened up more opportunities t
 <div className="image">![quote](/images/adam_quote_cross_platform.png "quote")</div>
 
 I've encountered numerous hybrid applications that reached their efficiency limits, and turning to native tech was the only way to optimize certain features. So, **knowing both hybrid and native stacks is crucial, even if you specialize in cross-platform development**.
+
+## What future do you foresee for hybrid technologies?
+
+I can mainly speak about React Native, as that's where most of my experience lies. **React Native has essentially conquered the market**, even though there's still no stable 1.0 version released. Despite this, it has become so popular and widely used in many mobile products that **it’s something developers need to embrace rather than avoid**. 
+
+Meta does a good job developing it, typically releasing updates once a quarter. In recent years, there have been significant updates to the framework's architecture, making it easier to integrate hybrid with native modules.
+
+<div className="image">![quote on React Native](/images/adam_quote_react_native.png "quote on React Native")</div>
