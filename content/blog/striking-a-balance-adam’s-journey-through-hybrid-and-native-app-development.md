@@ -39,3 +39,25 @@ I can mainly speak about React Native, as that's where most of my experience lie
 Meta does a good job developing it, typically releasing updates once a quarter. In recent years, there have been significant updates to the framework's architecture, making it easier to integrate hybrid with native modules.
 
 <div className="image">![quote on React Native](/images/adam_quote_react_native.png "quote on React Native")</div>
+
+Another **interesting development is Expo, which adds another layer of abstraction**, making it even easier to build an app. However, this also introduces more limitations. Still, for someone looking to release an app with a small budget, Expo allows a single developer to do so efficiently.
+
+**I don't believe React Native will ever completely replace native development**, but it does provide small startups with a chance to quickly release an MVP in a cost-effective way. That said, I think it's crucial to educate startup owners that while choosing a hybrid solution might be cheaper initially, it could become costly in the long term when you need to rewrite the app or at least parts of it. 
+
+Unfortunately, not every software company is transparent about this with their clients. **It's important to be aware that hybrid mobile development might not be as cost-effective as it seems at first**. Once your MVP proves successful, you might need to "pay some debts" to scale effectively.
+
+## You work in a team developing a mental health application. How does this impact your daily work?
+
+Working on a mental health solution has changed the way I approach my work. I now see my role from a broader perspective, recognizing that the app I help build supports people dealing with serious mental health challenges like grief, depression, and anxiety. 
+
+For example, **we developed a feature that allows users to notify the appropriate organizations if they notice someone expressing suicidal thoughts during a chat conversation**. While the feature itself might not be technically groundbreaking, the potential to save lives makes it incredibly meaningful. Although my daily tasks haven’t changed – I still solve problems with code – I feel an added sense of purpose in what I do every day.
+
+## What convinced you to join Bright Inventions?
+
+I was **positively surprised by the recruitment process**. It was the most professional one I’ve ever participated in, and at the same time, the most challenging. From the first conversations with the recruiter, I could already sense that the work culture was at a high level. 
+
+During the technical interview, **I appreciated the emphasis on code quality**, which is also important to me. For someone like me who is passionate about programming writing high-quality code is crucial.
+
+Additionally, I was drawn to the idea of collaborating with a client from the Middle East. I’m interested in Middle Eastern and African cultures and I actually learn Arabic in my free time, so this opportunity aligned perfectly with my personal interests.
+
+I also appreciate that in our team, we have regular meetings where we discuss technical aspects, new trends and tools, and **make decisions about which features should be refactored and how**.
