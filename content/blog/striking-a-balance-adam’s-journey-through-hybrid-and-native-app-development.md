@@ -29,3 +29,5 @@ In my first job, I worked exclusively with React Native. However, after two year
 This necessity "forced" me to learn Kotlin, which opened up more opportunities to optimize our hybrid app. **Whenever we found that certain features couldn't be optimized with React Native alone, we turned to native technologies**, building those parts in Kotlin to achieve better results. I've also been learning Swift, though I haven't yet had the opportunity to work with it professionally. 
 
 <div className="image">![quote](/images/adam_quote_cross_platform.png "quote")</div>
+
+I've encountered numerous hybrid applications that reached their efficiency limits, and turning to native tech was the only way to optimize certain features. So, **knowing both hybrid and native stacks is crucial, even if you specialize in cross-platform development**.
