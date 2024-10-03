@@ -46,9 +46,11 @@ Another **interesting development is Expo, which adds another layer of abstracti
 
 Unfortunately, not every software company is transparent about this with their clients. **It's important to be aware that hybrid mobile development might not be as cost-effective as it seems at first**. Once your MVP proves successful, you might need to "pay some debts" to scale effectively.
 
+*Read more about [native app development vs cross-platform](/blog/native-app-development-vs-cross-platform/).*
+
 ## You work in a team developing a mental health application. How does this impact your daily work?
 
-Working on a mental health solution has changed the way I approach my work. I now see my role from a broader perspective, recognizing that the app I help build supports people dealing with serious mental health challenges like grief, depression, and anxiety. 
+Working on a [mental health solution](/projects/online-group-support/) has changed the way I approach my work. I now see my role from a broader perspective, recognizing that the app I help build supports people dealing with serious mental health challenges like grief, depression, and anxiety. 
 
 For example, **we developed a feature that allows users to notify the appropriate organizations if they notice someone expressing suicidal thoughts during a chat conversation**. While the feature itself might not be technically groundbreaking, the potential to save lives makes it incredibly meaningful. Although my daily tasks haven’t changed – I still solve problems with code – I feel an added sense of purpose in what I do every day.
 
