@@ -20,7 +20,7 @@ language: en
 
 ## Was your career focused on mobile development from the start?
 
-I started my career as a web developer, but at my first job, I unexpectedly joined a team that was working on a hybrid mobile application. My first tasks were related to mobile development, and **I quickly realized that I could build mobile apps using the web technologies** I was already familiar with. This experience really empowered me and got me hooked on mobile development, even though it had never crossed my mind before that I could build mobile apps.
+I started my career as a web developer, but at my first job, I unexpectedly joined a team that was working on a hybrid mobile application. My first tasks were related to [mobile development](/our-areas/mobile-app-development/), and **I quickly realized that I could build mobile apps using the web technologies** I was already familiar with. This experience really empowered me and got me hooked on mobile development, even though it had never crossed my mind before that I could build mobile apps.
 
 ## You specialize in React Native but also continue learning native technologies. Why is that?
 
@@ -36,13 +36,13 @@ I've encountered numerous hybrid applications that reached their efficiency limi
 
 I can mainly speak about React Native, as that's where most of my experience lies. **React Native has essentially conquered the market**, even though there's still no stable 1.0 version released. Despite this, it has become so popular and widely used in many mobile products that **it’s something developers need to embrace rather than avoid**. 
 
-Meta does a good job developing it, typically releasing updates once a quarter. In recent years, there have been significant updates to the framework's architecture, making it easier to integrate hybrid with native modules.
+Meta does a good job developing it, typically releasing updates once a quarter. In recent years, there have been **significant updates to the framework's architecture**, making it easier to integrate hybrid with native modules.
 
 <div className="image">![quote on React Native](/images/adam_quote_react_native.png "quote on React Native")</div>
 
 Another **interesting development is Expo, which adds another layer of abstraction**, making it even easier to build an app. However, this also introduces more limitations. Still, for someone looking to release an app with a small budget, Expo allows a single developer to do so efficiently.
 
-**I don't believe React Native will ever completely replace native development**, but it does provide small startups with a chance to quickly release an MVP in a cost-effective way. That said, I think it's crucial to educate startup owners that while choosing a hybrid solution might be cheaper initially, it could become costly in the long term when you need to rewrite the app or at least parts of it. 
+**I don't believe React Native will ever completely replace native development**, but it does provide small startups with a chance to quickly [release an MVP](/our-areas/mvp-development/) in a cost-effective way. That said, I think it's crucial to educate startup owners that while choosing a hybrid solution might be cheaper initially, it could become costly in the long term when you need to rewrite the app or at least parts of it. 
 
 Unfortunately, not every software company is transparent about this with their clients. **It's important to be aware that hybrid mobile development might not be as cost-effective as it seems at first**. Once your MVP proves successful, you might need to "pay some debts" to scale effectively.
 
@@ -60,7 +60,7 @@ I was **positively surprised by the recruitment process**. It was the most profe
 
 During the technical interview, **I appreciated the emphasis on code quality**, which is also important to me. For someone like me who is passionate about programming writing high-quality code is crucial.
 
-Additionally, I was drawn to the idea of collaborating with a client from the Middle East. I’m interested in Middle Eastern and African cultures and I actually learn Arabic in my free time, so this opportunity aligned perfectly with my personal interests.
+Additionally, **I was drawn to the idea of collaborating with a client from the Middle East**. I’m interested in Middle Eastern and African cultures and I actually learn Arabic in my free time, so this opportunity aligned perfectly with my personal interests.
 
 I also appreciate that in our team, we have regular meetings where we discuss technical aspects, new trends and tools, and **make decisions about which features should be refactored and how**.
 
