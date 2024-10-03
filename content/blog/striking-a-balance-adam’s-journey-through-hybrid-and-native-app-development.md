@@ -61,3 +61,21 @@ During the technical interview, **I appreciated the emphasis on code quality**, 
 Additionally, I was drawn to the idea of collaborating with a client from the Middle East. I’m interested in Middle Eastern and African cultures and I actually learn Arabic in my free time, so this opportunity aligned perfectly with my personal interests.
 
 I also appreciate that in our team, we have regular meetings where we discuss technical aspects, new trends and tools, and **make decisions about which features should be refactored and how**.
+
+<div className="image">![Team retreat](/images/michal_team_retreat_christmas.png "During Christmas office party.")</div>
+
+*<center>*During Christmas office party.*</center>*
+
+## What do you do after hours?
+
+**Apart from learning Arabic, I enjoy swimming**. I used to participate in swimming competitions at school, but now I swim just for fun. I also enjoy attending sauna ceremonies conducted by sauna masters.
+
+In addition to that, **I love visiting lesser-known places in Poland**, such as less popular mountain trails, parks, and other hidden gems.
+
+<div className="image">![A lake in Wielkopolska voivodeship. Adam’s private archive.](/images/wielkopolska_adam.png "A lake in Wielkopolska voivodeship. Adam’s private archive.")</div>
+
+<center>A lake in Wielkopolska voivodeship. Adam’s private archive.</center>
+
+## What underrated place in Poland can you recommend?
+
+I can recommend a place from my local area: **the highest peak in Wielkopolska, "Kobyla Góra"**. Although it's only about 200 meters above sea level, it's a great example of places in Wielkopolska that are close to nature. Even though this voivodeship isn't famous for tourist attractions such as mountains, parks, and castles, Wielkopolska remains an underrated gem worth exploring.
