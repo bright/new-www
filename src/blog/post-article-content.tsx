@@ -7,10 +7,12 @@ import Dot from '../components/icons/Dot.icon'
 import DateFormatter from '../components/subcomponents/Date'
 import { navigate } from 'gatsby'
 import { ArrowBackOrange } from '../components/icons/ArrowBackOrange.icon'
-import React, { PropsWithChildren } from 'react'
+import React, { PropsWithChildren, useEffect, useRef } from 'react'
 import styled from 'styled-components'
 import variables, { font, roundedCorners } from '../styles/variables'
 import { clampBuilder } from '../helpers/clampBuilder'
+import { useTracking } from '../../plugins/gatsby-remark-b2b-blog-component/useTracking'
+import { B2bBlogComponentStyles } from '../../plugins/gatsby-remark-b2b-blog-component/B2bBlogComponentStyles'
 
 const AuthorsSection = styled.article`
   padding: 3rem 1.5rem;
@@ -370,8 +372,12 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
     : null
   const showUpdatedAt =
     props.meaningfullyUpdatedAt && !isSameDay(toDate(props.meaningfullyUpdatedAt)!, toDate(props.date)!)
+
+  const sectionRef = useRef<HTMLAnchorElement | null>(null);
+  useTracking(sectionRef);
+
   return (
-    <AuthorsSection>
+    <AuthorsSection ref={sectionRef}>
       <AuthorsWrapper>
         <FlexWrapper
           mobileDirection='column'
@@ -411,12 +417,14 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
       </AuthorsWrapper>
 
       <Title>{props.title}</Title>
-      {props.contentView ? (
-        <Content className='content is-family-secondary'>{props.contentView()}</Content>
-      ) : (
-        <Content className='content is-family-secondary'>{props.children}</Content>
-      )}
 
+      <B2bBlogComponentStyles>
+        {props.contentView ? (
+          <Content className='content is-family-secondary'>{props.contentView()}</Content>
+        ) : (
+          <Content className='content is-family-secondary'>{props.children}</Content>
+        )}
+      </B2bBlogComponentStyles>
       <PreviousButton onClick={() => navigate(-1)}>
         <ArrowBackOrange />
         Previous
