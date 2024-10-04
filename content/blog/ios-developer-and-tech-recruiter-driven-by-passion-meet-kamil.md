@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2023-10-17T11:27:43.101Z
 title: iOS Developer and Tech Recruiter Driven by Passion. Meet Kamil
 layout: post
 image: /images/brightstorykamil.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
