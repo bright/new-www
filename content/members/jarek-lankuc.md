@@ -13,4 +13,6 @@ avatar_hover: /images/brightdev_passion_jarek.png
 published: true
 language: en
 ---
-Fascinated with computers since early childhood. Around ten years in the IT industry, full-time for six, mostly in operations-related roles. Two years ago, fell in love with the DevOps methodology and decided to follow its path. In free time, likes to grab a book or strum a chord. Join Jarek! [Check our career opportunities](https://brightinventions.pl/career).
+Fascinated with computers since early childhood. Around ten years in the IT industry, mostly in operations-related roles. Eventually, he fell in love with the DevOps methodology and decided to follow its path. In free time, likes to grab a book or strum a chord. 
+
+Join Jarek! [Check our career opportunities](https://brightinventions.pl/career).
