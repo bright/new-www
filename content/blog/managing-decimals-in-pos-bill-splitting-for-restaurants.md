@@ -16,7 +16,7 @@ language: en
 ---
 **You might think that bill splitting in restaurants is straightforward – you just need to divide the bill among all customers. So, what's the challenge? Well, it comes down to something we might overlook: decimals. Just try splitting 10 pounds among three people. That's when decimals really come into play.**
 
-<div className="image">![decimals bill splitting](/images/pos_payment_decimals_blog_cupdate.png "decimals bill splitting")</div>
+<YouTubeEmbed url='https://youtu.be/gwM0SnHACMs?si=1-utjZt6h4rE8O3S' />
 
 Let's explore a scenario depicted in a mockup of a [bill split system we implemented for Just Eat POS](/projects/pos-bill-splitting/).
 
