@@ -32,8 +32,6 @@ As you can see, decimals are important, in some cases, they can be a matter of l
 
 **So, what can we do about these “annoying” decimals in POS systems?**
 
-<YouTubeEmbed url='https://youtu.be/gwM0SnHACMs?si=1-utjZt6h4rE8O3S' />
-
 ## Rounding-up mechanism in bill splitting
 
 While developing a [bill-splitting feature for our UK-based point-of-sale (POS) system](/projects/pos-bill-splitting/), our team adheres to **specific rounding-up rules** when the total bill cannot be evenly divided. In cases like the one provided earlier (dividing £6.49 by three), **the last payment needs to include an extra penny**. This small adjustment ensures that the sum of the split payments matches the total amount of the bill.
@@ -73,3 +71,5 @@ Using types like `BigDecimal` or `Decimal` also gives software developers contro
 While building POS payment solutions for retail and hospitality you will deal with decimals. Ensure your solution covers a variety of mathematical scenarios related to features like bill splitting. 
 
 Do you struggle with implementing payment features? **We’ve been [scaling POS systems](/our-areas/pos-software-development/) for over a decade**, **contact us to discuss your solution**.
+
+<YouTubeEmbed url='https://youtu.be/gwM0SnHACMs?si=1-utjZt6h4rE8O3S' />
