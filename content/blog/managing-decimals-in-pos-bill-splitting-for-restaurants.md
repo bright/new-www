@@ -25,3 +25,15 @@ Let's explore a scenario depicted in a mockup of a [bill split system we impleme
 Imagine three people deciding to share one pizza (presumably, they have light appetites). The total bill is £6.49. Dividing £6.49 by three results in 2.16333333333... Rounding it down to £2.16 might seem fair since each payment is equal, but then the total collected doesn't match the bill – there's a penny missing!
 
 <div className="image">![Bill splitting UI](/images/split-payment_before.png "Bill splitting UI")</div>
+
+No business wants to lose these pennies on a larger scale. On the other hand, rounding each payment up to £2.17 isn't a perfect solution either, as it results in an overpayment of 2 pence.
+
+As you can see, decimals are important, in some cases, they can be a matter of life or death. Yet that’s another, rather [tragic story about 28 soldiers](https://www-users.cse.umn.edu/~arnold/disasters/patriot.html) who died because decimals were, let's say, “neglected”. 
+
+**So, what can we do about these “annoying” decimals in POS systems?**
+
+## Rounding-up mechanism in bill splitting
+
+While developing a [bill-splitting feature for our UK-based point-of-sale (POS) system](/projects/pos-bill-splitting/), our team adheres to **specific rounding-up rules** when the total bill cannot be evenly divided. In cases like the one provided earlier (dividing £6.49 by three), **the last payment needs to include an extra penny**. This small adjustment ensures that the sum of the split payments matches the total amount of the bill.
+
+<div className="image">![Bill splitting UI POS](/images/split-payment_pizza.png "Bill splitting UI POS")</div>
