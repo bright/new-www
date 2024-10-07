@@ -149,19 +149,3 @@ show_team: true
 ## is the IoT development company a good fit for you?
 
 Internet of Things is an integral part of the software development process for many industries. You may need an IoT agency especially when:
-
-### you represent the retail sector
-
-As a retail business, you probably need **software compatible with ePOS**. Our team has worked with dozens of ePOS devices developing web as well as **[Android & iOS ePOS applications](/projects/system-for-restaurants-mobile)** for retail and online food delivery giant **Just Eat**.
-
-### you represent the healthcare sector
-
-For a British startup we have developed software that enables **telemedicine.** Our team has built software connecting with such devices as Bluetooth thermometer, pulse oximeter and more.
-
-### you represent the fintech sector
-
-Do you want to develop an **app integrated with an external card reader**? Or need devices and software that are going to authorise the transactions? **We have worked with hardware for FinTech and we are ready to assist you with your fintech IoT project**. What is more, as blockchain experts we offer to develop your IoT solutions with blockchain technology.
-
-### you represent the industrial sector
-
-Do you plan to develop an **Industrial Internet of Things (IIoT)** system that will connect different devices in industrial settings? **Contact us to learn more about our expertise and experience with IIoT**.
