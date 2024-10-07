@@ -68,13 +68,13 @@ title_contact: book a call to discuss your POS
 description_contact: Fill out the form or drop us a line!
 boxes:
   - box_title: POS food delivery platform integrations
-    box_description: "**Synchronize menus and orders** from various food delivery
-      apps onto a single POS device. Integrate your POS with **Uber Eats, Wolt,
-      Just Eat, Deliveroo** and more!"
+    box_description: "[Synchronize menus and orders from food delivery apps onto a
+      single POS device](/our-areas/food-delivery-pos-integration/). Integrate
+      your POS with **Uber Eats, Wolt, Just Eat, Deliveroo** and more!"
     box_icon: /images/pos_development_icon_update.png
   - box_title: POS device integrations
-    box_description: We'll ensure stable connections with printers, terminals, and
-      other hardware integrated with your POS system. [We integrate retail
+    box_description: We'll ensure **stable connections with printers, terminals, and
+      other hardware** integrated with your POS system. [We integrate retail
       devices](/projects/pos-devices-integration/) from top producers including
       **Epson or Sunmi**. If one printer malfunctions, another will
       automatically take over to print receipts.
@@ -92,9 +92,10 @@ boxes:
       modernize your legacy**, we will guide you through the entire journey.
     box_icon: /images/icon_pos_lp_modernization.png
   - box_title: POS system design & product strategy
-    box_description: We specialize in **designing critical features like payments,
-      bill splitting, and floor mapping**. We will eliminate your users’ pain
-      points and focus on a design that accelerates actions and reduces errors.
+    box_description: We specialize in **designing critical features like payments,**
+      [bill splitting](/projects/pos-bill-splitting/)**, and floor mapping**. We
+      will eliminate your users’ pain points and focus on a design that
+      accelerates actions and reduces errors.
     box_icon: /images/icon_pos_lp_data_driven_updatex2.png
   - box_title: retail and sales data dashboards
     box_description: Which product bundles drive the most profit? What seasonal dish
