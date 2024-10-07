@@ -82,6 +82,20 @@ boxes:
       from the UK and Germany**.** Our team has [integrated healthcare
       applications](/projects/remote-patient-monitoring/) with devices as
       Bluetooth thermometer, pulse oximeter and more.
+    box_icon: /images/telemedicine_icon_update.png
+  - box_title: you represent the fintech sector
+    box_description: Do you want to develop an **app integrated with an external
+      card reader**? Or need devices and software that are going to authorize
+      the transactions? **We have worked with hardware for FinTech and we are
+      ready to assist you with your fintech IoT project**. What is more, as
+      blockchain experts we offer to develop your IoT solutions with blockchain
+      technology.
+    box_icon: /images/icon_pos_lp_no_feesx2.png
+  - box_title: you represent the industrial sector
+    box_description: Do you plan to develop an **Industrial Internet of Things
+      (IIoT)** system that will connect different devices in industrial
+      settings? **Contact us to learn more about our expertise and experience
+      with IIoT**.
     box_icon: /images/icon_pos_featuresx2.png
 language: en
 blog_section_tags:
