@@ -15,3 +15,5 @@ published: true
 language: en
 ---
 **You might think that bill splitting in restaurants is straightforward – you just need to divide the bill among all customers. So, what's the challenge? Well, it comes down to something we might overlook: decimals. Just try splitting 10 pounds among three people. That's when decimals really come into play.**
+
+<div className="image">![decimals bill splitting](/images/pos_payment_decimals_blog_cupdate.png "decimals bill splitting")</div>
