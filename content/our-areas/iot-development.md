@@ -72,15 +72,15 @@ description_contact: Fill out the form below and we'll get back to you in 48 hou
 boxes:
   - box_title: you represent the retail sector
     box_description: As a retail business, you might need **various integrations
-      with point-of-sale system**. Our team has integrated hardware for** [POS
+      with point-of-sale system**. Our team has integrated hardware for[POS
       applications for hospitality and
-      retail](/projects/system-for-restaurants-mobile)** scaled for online food
+      retail](/projects/system-for-restaurants-mobile) scaled for online food
       delivery giant **Just Eat Takeaway.com**.
     box_icon: /images/icon_pos_lp_new_old_devicesx2.png
   - box_title: you represent the healthcare sector
-    box_description: We have developed and scaled telemedicinesolutions for clients
-      from the UK and Germany**.** Our team has [integrated healthcare
-      applications](/projects/remote-patient-monitoring/) with devices as
+    box_description: We have developed and scaled **telemedicine solutions for
+      clients from the UK and Germany**. Our team has [integrated healthcare
+      applications with devices](/projects/remote-patient-monitoring/) as
       Bluetooth thermometer, pulse oximeter and more.
     box_icon: /images/telemedicine_icon_update.png
   - box_title: you represent the fintech sector
