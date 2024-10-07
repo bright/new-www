@@ -27,7 +27,7 @@ meta_title: POS Development Company
 meta_description: Offering POS software development services since 2012.
   Building POS solutions for hospitality and retail, scaling POS systems from
   MVP to global solutions.
-our_services_icon: /images/pos_development_icon_update.png
+our_services_icon: /images/pos_software_development_icon.png
 name: POS software development
 slug: pos-software-development
 short_description: We build custom POS solutions for hospitality and retail,
