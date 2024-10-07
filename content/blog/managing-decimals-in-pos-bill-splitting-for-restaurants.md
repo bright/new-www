@@ -66,7 +66,7 @@ Many programming languages offer data types that handle decimals with greater pr
 
 * **Control over rounding**
 
-Using types like `BigDecimal` or `Decimal` also gives developers control over rounding behaviors, which is crucial for restaurant operations where rounding must comply with legal and business standards.
+Using types like `BigDecimal` or `Decimal` also gives software developers control over rounding behaviors, which is crucial for restaurant operations where rounding must comply with legal and business standards.
 
 ## Does your bill split cover all these scenarios?
 
