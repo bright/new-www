@@ -62,11 +62,11 @@ A common alternative is to represent monetary values in cents (or the smallest u
 
 * **Use arbitrary precision types**
 
-Many programming languages offer data types that handle decimals with greater precision. In **Java**, for instance, `BigDecimal` is a highly recommended option for monetary calculations, as it provides control over rounding and allows exact calculations without floating-point errors. Similarly, **Python**'s decimal type offers a way to handle monetary values precisely.
+Many programming languages offer data types that handle decimals with greater precision. In **Java**, for instance, `BigDecimal` is a highly recommended option for monetary calculations, as it provides control over rounding and allows exact calculations without floating-point errors. Similarly, **Python**'s `Decimal` type offers a way to handle monetary values precisely.
 
 * **Control over rounding**
 
-Using types like `BigDecimal` or `Decimal` also gives developers control over rounding behaviors, which is crucial for restaurant operations where rounding must comply with legal and business standards.
+Using types like `BigDecimal` or `Decimal` also gives software developers control over rounding behaviors, which is crucial for restaurant operations where rounding must comply with legal and business standards.
 
 ## Does your bill split cover all these scenarios?
 
