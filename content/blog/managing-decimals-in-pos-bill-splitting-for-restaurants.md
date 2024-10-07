@@ -43,3 +43,31 @@ However, in some situations, **rounding may require adding more than one extra p
 <div className="image">![Bill splitting UI POS](/images/split-payment.png "Bill splitting UI POS")</div>
 
 That's the business logic behind it but what about the code?
+
+## How to represent decimals in payment software development
+
+When handling decimals in code for monetary values using **floating-point types** like `float` and `double` is highly discouraged due to their inherent imprecision. Here's why, and what alternatives should be used instead.
+
+### Problems with float and double
+
+`Float` and `double` are designed to handle a wide range of values by approximating them, which can introduce rounding errors – a critical issue when dealing with money. Due to the way floating-point arithmetic works, numbers cannot always be stored exactly, leading to inaccuracies. For example, performing a calculation with float might result in values like 0.999999999 instead of 1. This lack of precision makes float and double unsuitable for representing currency.
+
+### Recommended approaches for currency decimal coding
+
+* **Use integers**
+
+A common alternative is to represent monetary values in cents (or the smallest unit of the currency) using an integer type, such as `int` or `long`. For example, instead of representing $10.99 as 10.99 with a float, it can be stored as 1099 cents with an integer type. This avoids floating-point inaccuracies while still enabling exact arithmetic.
+
+* **Use arbitrary precision types**
+
+Many programming languages offer data types that handle decimals with greater precision. In **Java**, for instance, `BigDecimal` is a highly recommended option for monetary calculations, as it provides control over rounding and allows exact calculations without floating-point errors. Similarly, **Python**'s decimal type offers a way to handle monetary values precisely.
+
+* **Control over rounding**
+
+Using types like `BigDecimal` or `Decimal` also gives developers control over rounding behaviors, which is crucial for restaurant operations where rounding must comply with legal and business standards.
+
+## Does your bill split cover all these scenarios?
+
+While building POS payment solutions for retail and hospitality you will deal with decimals. Ensure your solution covers a variety of mathematical scenarios related to features like bill splitting. 
+
+Do you struggle with implementing payment features? **We’ve been [scaling POS systems](/our-areas/pos-software-development/) for over a decade**, **contact us to discuss your solution**.
