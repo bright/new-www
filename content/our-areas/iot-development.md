@@ -78,8 +78,8 @@ boxes:
       delivery giant **Just Eat Takeaway.com**.
     box_icon: /images/icon_pos_lp_new_old_devicesx2.png
   - box_title: you represent the healthcare sector
-    box_description: We have developed and scaled telemedicine solutions for clients
-      from the UK and Germany. Our team has [integrated healthcare
+    box_description: We have developed and scaled **telemedicine solutions for
+      clients from the UK and Germany**. Our team has [integrated healthcare
       applications](/projects/remote-patient-monitoring/) with devices as
       Bluetooth thermometer, pulse oximeter and more.
     box_icon: /images/telemedicine_icon_update.png
