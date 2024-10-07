@@ -37,3 +37,9 @@ As you can see, decimals are important, in some cases, they can be a matter of l
 While developing a [bill-splitting feature for our UK-based point-of-sale (POS) system](/projects/pos-bill-splitting/), our team adheres to **specific rounding-up rules** when the total bill cannot be evenly divided. In cases like the one provided earlier (dividing £6.49 by three), **the last payment needs to include an extra penny**. This small adjustment ensures that the sum of the split payments matches the total amount of the bill.
 
 <div className="image">![Bill splitting UI POS](/images/split-payment_pizza.png "Bill splitting UI POS")</div>
+
+However, in some situations, **rounding may require adding more than one extra penny**. For example, consider splitting £9.35 into 3 separate payments. The result is £3.116666... In this scenario, two of the payments need to be rounded up to ensure the total matches the original amount:
+
+<div className="image">![Bill splitting UI POS](/images/split-payment.png "Bill splitting UI POS")</div>
+
+That's the business logic behind it but what about the code?
