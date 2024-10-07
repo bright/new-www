@@ -16,7 +16,7 @@ language: en
 ---
 **You might think that bill splitting in restaurants is straightforward – you just need to divide the bill among all customers. So, what's the challenge? Well, it comes down to something we might overlook: decimals. Just try splitting 10 pounds among three people. That's when decimals really come into play.**
 
-<YouTubeEmbed url='https://youtu.be/gwM0SnHACMs?si=1-utjZt6h4rE8O3S' />
+<div className="image">![decimals payment programming](/images/pos_payment_decimals_blog_cupdate.png "decimals payment programming")</div>
 
 Let's explore a scenario depicted in a mockup of a [bill split system we implemented for Just Eat POS](/projects/pos-bill-splitting/).
 
@@ -31,6 +31,8 @@ No business wants to lose these pennies on a larger scale. On the other hand, ro
 As you can see, decimals are important, in some cases, they can be a matter of life or death. Yet that’s another, rather [tragic story about 28 soldiers](https://www-users.cse.umn.edu/~arnold/disasters/patriot.html) who died because decimals were, let's say, “neglected”. 
 
 **So, what can we do about these “annoying” decimals in POS systems?**
+
+<YouTubeEmbed url='https://youtu.be/gwM0SnHACMs?si=1-utjZt6h4rE8O3S' />
 
 ## Rounding-up mechanism in bill splitting
 
