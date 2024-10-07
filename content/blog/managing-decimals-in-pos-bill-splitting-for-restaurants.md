@@ -22,13 +22,13 @@ Let's explore a scenario depicted in a mockup of a [bill split system we impleme
 
 ## Decimals in restaurant bill split case study
 
-Imagine three people deciding to share one pizza (presumably, they have light appetites). The total bill is £6.49. Dividing £6.49 by three results in 2.16333333333... Rounding it down to £2.16 might seem fair since each payment is equal, but then the total collected doesn't match the bill – there's a penny missing!
+Imagine three people deciding to share one pizza (presumably, they have light appetites). The total bill is £6.49. **Dividing £6.49 by three results in 2.16333333333...** Rounding it down to £2.16 might seem fair since each payment is equal, but then the total collected doesn't match the bill – there's a penny missing!
 
 <div className="image">![Bill splitting UI](/images/split-payment_before.png "Bill splitting UI")</div>
 
 No business wants to lose these pennies on a larger scale. On the other hand, rounding each payment up to £2.17 isn't a perfect solution either, as it results in an overpayment of 2 pence.
 
-As you can see, decimals are important, in some cases, they can be a matter of life or death. Yet that’s another, rather [tragic story about 28 soldiers](https://www-users.cse.umn.edu/~arnold/disasters/patriot.html) who died because decimals were, let's say, “neglected”. 
+As you can see, **decimals are important, in some cases, they can be a matter of life or death**. Yet that’s another, rather [tragic story about 28 soldiers](https://www-users.cse.umn.edu/~arnold/disasters/patriot.html) who died because decimals were, let's say, “neglected”. 
 
 **So, what can we do about these “annoying” decimals in POS systems?**
 
@@ -50,13 +50,13 @@ When handling decimals in code for monetary values using **floating-point types*
 
 ### Problems with float and double
 
-`Float` and `double` are designed to handle a wide range of values by approximating them, which can introduce rounding errors – a critical issue when dealing with money. Due to the way floating-point arithmetic works, numbers cannot always be stored exactly, leading to inaccuracies. For example, performing a calculation with float might result in values like 0.999999999 instead of 1. This lack of precision makes float and double unsuitable for representing currency.
+`Float` and `double` are designed to handle a wide range of values by approximating them, which can introduce rounding errors – a critical issue when dealing with money. Due to the way floating-point arithmetic works, numbers cannot always be stored exactly, leading to inaccuracies. For example, performing a calculation with float might result in values like 0.999999999 instead of 1. **This lack of precision makes float and double unsuitable for representing currency**.
 
 ### Recommended approaches for currency decimal coding
 
 * **Use integers**
 
-A common alternative is to represent monetary values in cents (or the smallest unit of the currency) using an integer type, such as `int` or `long`. For example, instead of representing $10.99 as 10.99 with a float, it can be stored as 1099 cents with an integer type. This avoids floating-point inaccuracies while still enabling exact arithmetic.
+A common alternative is to represent monetary values in cents (or the smallest unit of the currency) using an integer type, such as `int` or `long`. For example, **instead of representing $10.99 as 10.99 with a float, it can be stored as 1099 cents with an integer type**. This avoids floating-point inaccuracies while still enabling exact arithmetic.
 
 * **Use arbitrary precision types**
 
