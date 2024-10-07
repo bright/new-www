@@ -6,8 +6,8 @@ slug: sebastian-r
 name: Sebastian Rodykow
 short_name: Sebastian
 email: sebastian.rodykow@brightinventions.pl
-bio: iOS Developer
-description: iOS Developer
+bio: Senior iOS Developer
+description: Senior iOS Developer
 avatar: /images/sebastian_team.png
 avatar_hover: /images/sebastian_passion.png
 published: true
