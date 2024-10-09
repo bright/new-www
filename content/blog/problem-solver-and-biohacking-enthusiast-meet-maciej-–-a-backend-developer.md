@@ -9,7 +9,7 @@ slug: problem-solver-biohacking-maciej
 title: Problem-Solver and Biohacking Enthusiast. Meet Maciej – a Backend Developer
 layout: post
 image: /images/brightstorymaciejn.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en

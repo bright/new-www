@@ -38,7 +38,7 @@ title: upgrade your POS with customized food delivery integration
 highlighted_word: customized
 image_our_service_desktop: /images/pos_devlivery_platforms_web.png
 image_our_service_mobile: /images/pos_devlivery_platforms_mobile.png
-image_alt_our_service: food delivery platforms POS integration
+image_alt_our_service: food delivery platforms POS
 bullet_points:
   - 12 years of scaling POS systems
   - EU-based software studio
@@ -59,15 +59,13 @@ bar_stack:
   - Nest
 button: book a free consultation
 button2: book a free consultation
-published: true
+published: false
 show_case_study: true
 show_technology_stack: true
 title_team: meet the bright team
 title_case_study: explore our clients' stories
 title_faqs: integrating delivery apps FAQs
 title_contact: book a call to discuss your POS
-description_contact: Based on your needs we will prepare a demo of your solution
-  in 7 days. Fill out the form or drop us a line!
 boxes:
   - box_title: adjustable solution for new and legacy POS
     box_description: Smooth integration regardless of the size or age of your POS system.
@@ -103,9 +101,11 @@ boxes:
     box_icon: /images/icon_pos_lp_compliance_securityx2.png
 language: en
 blog_section: false
+blog_section_title: our team inisghts
+description_contact: Based on your needs we will prepare a demo of your solution
+  in 7 days. Fill out the form or drop us a line!
 blog_section_tags:
   - business strategy
-blog_section_title: our team inisghts
 testimonials:
   - testimonials_quote: "*Compared to everyone else, bright inventions doesn’t
       promise things they can’t deliver. \\[...]. The best thing about them is
