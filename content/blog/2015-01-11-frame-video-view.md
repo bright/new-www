@@ -104,5 +104,3 @@ if(videoView.getImplType() == VIDEO_VIEW){
   <br />
 
   See this post on my [personal blog](http://mklimek.github.io/frame-video-view/).
-
-<div className="block-button"><h2>We are looking for iOS Developers</h2><div>Build with us the iOS application that will impact how Just Eat shapes the retail world. Or work for our other clients representing industries such as FinTech, Blockchain, HealthTech, and Logistics.</div><a href="/jobs/senior-ios-developer"><button>Apply and join our team</button></a></div>

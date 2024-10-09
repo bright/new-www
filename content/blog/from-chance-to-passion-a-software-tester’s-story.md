@@ -30,8 +30,6 @@ I was a bit surprised. Maybe back then, I wasn’t assertive enough, so I didn�
 
 At first, the fact that it even exists! I mean, I was aware of the role in software development, but I never really thought about its purpose in the whole process. **I was certainly surprised by the amount of repetitive work related to it**. While some might find it boring, I somehow enjoy it. Of course, QA is not the only role that involves repetitive tasks; other professions, including programmers, also have to deal with that challenge.
 
-<div class='block-button'><h2>join our team</h2><div> Check our job offers and join the best software development studio in Gdansk.</div><a href="/career/"><button>come to the bright side</button></a></div>
-
 ## Is manual testing a profession that’s about to become extinct?
 
 Absolutely not. **Both manual and automated testing have different responsibilities and complement each other**. Automated tests are mostly about regression tests and repetitive tasks, while manual testing focuses on new functionalities and exploratory testing.
@@ -65,8 +63,6 @@ Currently, **I am part of a team developing an IoT solution based on a network o
 **I seek people who truly understand what they say they do**. Sometimes, when you learn from a tutorial, you might grasp a framework like Cypress for test automation but not fully understand what automation is all about.
 
 I also look for **people who know how to work with software developers** because it can be quite challenging. That’s why soft skills are essential. I usually ask candidates about their experience with cooperation with developers **checking their proactivity, assertiveness, and empathy**.
-
-<div class='block-button'><h2>apply and join Michał</h2><div>Work with top bright minds! Create software that matters in the best software development studio in Gdansk.</div><a href="/career/"><button>check job openings</button></a></div>
 
 ## What is your after-hours hobby?
 

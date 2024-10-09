@@ -253,8 +253,6 @@ These gloves are engineered to stabilize hand movements for patients with Parkin
 
 Company: Various is in the development stages for this type of assistive technology.
 
-<div class='block-button'><h2>looking for device integration expert?</h2><div>We specialize in device integrations for healthcare. Discuss your IoT solution with our team.</div><a href="/our-areas/healthcare-software-development/"><button>book a free consultation in 48 hours</button></a></div>
-
 ## Healthcare assistance devices
 
 <center>

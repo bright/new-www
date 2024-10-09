@@ -14,8 +14,6 @@ language: en
 ---
 **Mark your calendars for a Domain-Driven Design session with Jakub Pilimon. We hope to see you in Gdańsk on June 15 at 6 PM.**
 
-<div className="block-button"><h2>No spots left but there is still a chance to join...</h2><div>The tickets have been claimed at a remarkable pace, but you can join waitlist!</div><a href="https://www.meetup.com/ddd-gda/events/294013722/"><button>join waitlist</button></a></div>
-
 ## Join the DDD-GDA meet-up and dive into the DDD world
 
 During the meeting, we will dive into the world of [Domain-Driven Design (DDD)](/blog/domain-driven-design-explained-by-a-senior-backend-developer/), exploring its foundations and practical applications. Jakub will guide us through a range of topics, including an introduction to DDD, abstract thinking, fighting cognitive bias and stereotypes, overcoming the fear of having many small classes, explaining cohesion to less experienced developers, and more.

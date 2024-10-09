@@ -230,5 +230,3 @@ On such a scale, developer experience provided by JavaScript-based tooling start
 - - -
 
 That's it. You know now why transpilers like Babel are needed and what exactly are they responsible for. Hopefully, this knowledge will help you debug issues related to code transformation, which usually are the worst nightmare. See you next time!
-
-<div className="block-button"><h2>Let's create software that matters</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>

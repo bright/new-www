@@ -67,5 +67,3 @@ However, **the success of MVP also depends on the designer-developer ability to 
 And particularly, do not get attached to already created solutions, be prepared to frequent changes, modifications and alterations. Trying to follow these tips may bring you and your team to a positive, friendly MVP working environment.
 
 Contact us if you are looking for [MVP development agency](/our-areas/mvp-development). [](/our-areas/mvp-development)We are ready to help!
-
-<div className="block-button"><h2>Are you looking for MVP partner?</h2><div>Since 2012 we have built MVPs for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let’s talk abut your MVP</button></a></div>

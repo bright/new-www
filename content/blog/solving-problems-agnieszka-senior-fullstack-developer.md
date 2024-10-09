@@ -42,8 +42,6 @@ In the meantime, Michał and Daniel started their company so I was thinking to j
 
 I knew their approach from our college times. **We shared the same values and strongly believed that good programmers are the ones who write good code and solve problems with it, no matter which technology they use**. So I knew that Daniel and Michał wouldn’t have problems with me taking the time to learn mobile from the scratch. 
 
-<div className="block-button"><h2>Do you want to join Agnieszka?</h2><div>Work with our fullstack team. Work on existing web therapy application where people join groups of support led by professional therapists.</div><a href="/jobs/fullstack-developer-nodejs-react"><button>Apply and join our team</button></a></div>
-
 I had a chance to learn a lot of new technologies here and I am grateful that Michał and Daniel always trusted me with new projects. Even if I had to learn some new stack for a new project they just let me do my thing. I guess I never let them down because I still work here. 😀
 
 ## You are one of the Bright Inventions team members with the longest seniority. How was it to watch the company’s growth over those years?
@@ -93,5 +91,3 @@ We talked with the Substrate community, represented by [Parity](https://www.pari
 <div className="image">![Agnieszka's passions](../../static/images/bouldering_passion.png "undefined")</div>
 
 Yes, **I actually have been climbing longer than working as a programmer**. That has been a passion of mine and my husband, [Paweł](/about-us/pawel-o/). I work out 3 times a week. Every family vacation includes bouldering. Our older daughter (age 6) has just started her first climbing. 🙂 My dream is to try Deep Water Solo in Majorca and experience climbing in the USA.
-
-<div className="block-button"><h2>Join Agnieszka</h2><div>We are looking for a Fullstack Developer who has already had experience with TypeScript and Node.js. Apply and work with one of our clients from Israel, Germany, or the UK.</div><a href="/jobs/fullstack-developer-nodejs-react"><button>Apply and join our team</button></a></div>

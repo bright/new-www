@@ -27,8 +27,6 @@ Anyway, during studies and after them I was translating texts from many differen
 
 After my first MA I started an internship at a PR agency and at the same time I also decided to begin my second MA studies – marketing ones. I really like the feeling that I know the ins and outs of the field I work in. I remember I did many great practical projects during my studies. There were interesting subjects like creating brand strategies, company’s missions, preparing business plans, merchandising models etc. Dozens of creative things. I just love the process of creation. After I graduated I started my job at Twitter. At that time I also discovered that what I really needed was one brand and people around it.
 
-<div className="block-button"><h2>Do you want to join Ula?</h2><div>We like people with bright minds! Check out our career opportunities.</div><a href="/career"><button>Apply and join Ula</button></a></div>
-
 ## How do you recall working closely with such a big organization as Twitter?
 
 I recall that as a great experience and a good lesson. I think it was a very important part of my professional development. I learned that there are different ways of managing people, micro-management ones and those based on freedom and responsibility that let you grow.
@@ -106,5 +104,3 @@ And I love the feeling after the ride. For me it is my healthy routine. It is go
 One may think it would sound sad, even really sad, but I like my job and it happens quite often that after hours I still do things connected with my development. I read psychology, marketing or management books, listen to podcasts or watch some webinars. But I also love nature. I **rest best in the forest, in the mountains or at my parent’s who live in the countryside** in Suwalszczyzna. I love taking pictures. Still as amateur, but it gives me a lot of fun. 
 
 I have also started learning Spanish recently just for myself as I needed something fresh and new. And there are also English classes that I run, so I think I have quite many things to focus on when I am not at Bright. 🙂
-
-<div className="block-button"><h2>Do you want to join Ula?</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>

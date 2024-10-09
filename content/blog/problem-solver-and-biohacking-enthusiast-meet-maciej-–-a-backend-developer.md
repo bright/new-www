@@ -50,8 +50,6 @@ Right now, one of the biggest challenges I face is **integrating with external m
 
 The key aspect is **multilevel testing**, which enables me to quickly verify if any changes needed for a successful integration have affected some of the app’s functions. **Without test-driven development, I couldn't be sure if adjusting to external parties wouldn’t introduce regression**.
 
-<div class='block-button'><h2>join Maciej and other bright minds</h2><div>Do you want to solve real problems and build software that really matters in today’s world? Apply to join the best software studio from Gdansk.</div><a href="/career/"><button>check our job openings</button></a></div>
-
 ## What used to be a challenge for you at work and now it’s not anymore?
 
 When I joined Bright Inventions, I had to catch up on a lot of technological aspects, and there was a lot of learning to do. Now, the tech aspects are no longer a struggle for me. **The challenges I face now are more communication-oriented**. For example, **I am still learning how to present technical aspects** to clients' representatives in a simple and straightforward manner or to **explain and justify architectural decisions to my team members**.

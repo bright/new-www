@@ -50,8 +50,6 @@ As stated in the [State of Health Tech 2023](https://www.bvp.com/atlas/state-of-
 
 Despite the financial struggles faced by the HealthTech sector, the enduring results of COVID-19's digital transformation in healthcare could not be slowed down. **The need for digitalization in healthcare has already been established within the industry and among patients, who feel empowered to use technology to manage their health daily.**
 
-<div class='block-button'><h2>Want to gain more insights into the evolving world of healthcare?</h2><div>Sign up for our newsletter and be one of the first people who will receive our brand-new HealthTech ebook. The ebook will be released in February, so subscribe and don’t miss it!</div><a href="https://bright-dev-newsletter.getresponsepages.com/"><button>Sign me in for a free ebook</button></a></div>
-
 ## Advanced implementations of Generative AI in healthcare
 
 It’s impossible to discuss innovations in healthcare without including Generative AI. It is a type of artificial intelligence that can produce new content, such as text, images, or data, by learning from existing examples and patterns. **So, what Generative Al use cases in HealthTech are we most likely to see in 2024?**

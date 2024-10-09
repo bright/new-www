@@ -249,5 +249,3 @@ Now, instead of using Console API directly, we instantiate a `Logger` instance, 
 ```
 
 Good enough!
-
-<div className="block-button"><h2>We are looking for backend developers (TS, Node.js)</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>

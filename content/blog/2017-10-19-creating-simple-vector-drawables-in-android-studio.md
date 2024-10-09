@@ -180,5 +180,3 @@ Now we can use the drawable. As you can see, it can be easily scaled by using th
 
 * [https://developer.android.com/training/material/drawables.html#VectorDrawables](https://developer.android.com/training/material/drawables.html#VectorDrawables)
 * [https://developer.android.com/reference/android/graphics/drawable/VectorDrawable.html](https://developer.android.com/reference/android/graphics/drawable/VectorDrawable.html)
-
-<div className="block-button"><h2>We are looking for Android developers</h2><div>Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/jobs/senior-android-developer"><button>Apply and join our team</button></a></div>

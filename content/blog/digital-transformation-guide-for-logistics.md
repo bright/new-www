@@ -140,5 +140,3 @@ The stack listed below is a typical group of tools and programming languages we 
 ## How much does it cost to hire a software agency to build MVP for logistics?
 
 There is no simple answer to this question. There are many aspects [MVP development agency](/our-areas/mvp-development/) has to consider before giving you a quote. The best way is to book a consultation and discuss your idea for a product, then you will receive the estimation.
-
-<div className="block-button"><h2>Book a free consultation in 48 hours</h2><div>Do you want to estimate a digital solution for your company? Contact us and we’ll get back to you in 48 hours. Let’s talk!</div><a href="/our-areas/mvp-development/"><button>contact us now</button></a></div>

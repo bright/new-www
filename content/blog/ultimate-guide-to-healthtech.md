@@ -228,5 +228,3 @@ Get inspired by te best experts, resources and speakers in HealthTech industry:
 [Top HealthTech Conferences to Attend in the USA in 2024](/blog/healthtech-conferences-usa/)
 
 [Top FemTech Conferences and Meetups in 2024](/blog/femtech-conferences-meetups/)
-
-<div class='block-button'><h2>discuss your HealthTech challenges with our team</h2><div>We have been developing software solutions since 2012 supporting clients representing healthcare, logistics, retail and other industries. Let's talk about your solution!</div><a href="/our-areas/healthcare-software-development/"><button>book a free consultation in 48 hours</button></a></div>

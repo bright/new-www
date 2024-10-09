@@ -31,8 +31,6 @@ The truth is **I started my career as a fullstack**. Then I had **a turn to fron
 
 I wouldn’t call myself a fullstack though. **I am more of a front-end developer with an interest in backend**. Yet, I am not afraid of backend, but the frontend is definitely closer to my heart. All in all, we shouldn’t limit ourselves to one and panic when someone asks us to do something on the other side. If you work in a fullstack team and you want to understand what other team members do, a holistic approach is essential.
 
-<div className="block-button"><h2>Join Szymon's webinar about TypeScript</h2><div>Szymon will conduct a webinar in Polish: ***Refleksja i TypeScript czyli spojrzenie w lustro***. The online webinar takes place on 16th February.</div><a href="https://webinar-typescript-refleksja.getresponsepages.com/"><button>join free webinar</button></a></div>
-
 ## I read in your bio, on our website, that you are in love with React. Why?
 
 I actually first worked with Angular quite some time. I started to learn React because at one of my previous jobs our client expected us to use it. So I started to discover React and realized that **it simplifies many aspects of my work better than Angular**. 

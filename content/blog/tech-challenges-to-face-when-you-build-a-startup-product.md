@@ -80,5 +80,3 @@ Well, **let's start off with the right tools**. **We need to constantly monitor 
 Taking care of creating bonds with the users, and making them feel safe, and secure will also work to our advantage. Then naturally **a couple of positive reviews will show up** which will help to continue building the product's credibility.
 
 Here are some of the major tech challenges we have faced while working on startup products. 
-
-<div className="block-button"><h2>Looking for software development agency?</h2><div>Hire an experienced team to work on your MVP or other solutions. We are in this business since 2012 working with over 40 clients around the world. </div><a href="/start-project"><button>Let's talk about your solution</button></a></div>

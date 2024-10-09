@@ -57,8 +57,6 @@ However, **the higher I climbed in the University hierarchy I felt the bigger ne
 
 At the same time, Bright Inventions was growing and the team combined dozens of programmers. They needed a Project Manager and were determined to find one. I decided to come on board. My PhD had just been submitted, plus one of my children went to the nursery and the other to preschool so I realised that the timing wouldn’t be better than that. It was over 3 years ago and since then I regret nothing. **I combine my job as an academic teacher with my work at Bright Inventions. I truly love that combo.**
 
-<div className="block-button"><h2>Join Kasia! 😎</h2><div>Join one of Kasia’s teams and work on mobile and web solutions we develop for our clients from Germany, UK or Israel.</div><a href="/career"><button>Check our career opportunities</button></a></div>
-
 ## How do your students approach your classes about project management? Probably most of them came to the university to touch on technical knowledge, not soft skills.
 
 At the beginning of my job as a lecturer, I could see that students weren’t so open to learning about Agile development. Mostly only students who had a goal to become project managers were truly focused during classes. However, now I can see the change in student’s attitudes. **There has been a rise in awareness of Agile and project management in general.** What is more, working at Bright Inventions gave me crucial insights and let me understand programmers’ perspectives. I can prepare them to face the specific challenges that they are likely to meet on their professional path.

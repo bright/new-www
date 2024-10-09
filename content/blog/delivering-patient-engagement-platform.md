@@ -97,5 +97,3 @@ Read the story about crafting a personal [digital diary for patients suffering f
 ## Why is digital engagement important
 
 The technological revolution in healthcare is built on several fundamental pillars, with both medical professionals and patients playing crucial roles. For it to be effective, both groups must actively participate. This is especially vital in the realm of chronic disease management where medics won't achieve anything without patients' engagement. Through technology, **patients are empowered to take control of their health. However, they must be willing to embrace the power that technology gives them**. Let’s build the technology that will be a patient engagement tool, not a burden!
-
-<div class='block-button'><h2>book a free consultation in 48 hours</h2><div>Are you facing the challenge of developing a patient engagement platform? Book a free consultation to discuss your solution!</div><a href="/our-areas/healthcare-software-development/"><button>let's talk</button></a></div>

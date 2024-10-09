@@ -326,5 +326,3 @@ was able to build the project successfully again 🎉
 [Luroka](https://pixabay.com/users/luroka-9240270/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3522487)
 from
 [Pixabay](https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3522487)*
-
-<div className="block-button"><h2>We are looking for Android Developers</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/jobs/senior-android-developer"><button>Apply and join our team</button></a></div>

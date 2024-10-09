@@ -361,5 +361,3 @@ Also, if you will configure Artifacts in build configuration, you can easily sen
 Hope you like the post. Feel free to comment and share :)
 
 This post was published also on my [personal blog](https://wysockikamil.com/teamcity-for-ios-project/) 
-
-<div className="block-button"><h2>We are looking for iOS Developers</h2><div>Build with us the iOS application that will impact how Just Eat shapes the retail world. Or work for our other clients representing industries such as FinTech, Blockchain, HealthTech, and Logistics.</div><a href="/jobs/senior-ios-developer"><button>Apply and join our team</button></a></div>

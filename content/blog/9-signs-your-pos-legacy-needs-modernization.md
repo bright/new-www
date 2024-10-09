@@ -37,8 +37,6 @@ Do you still manage servers on your own, at the same time considering a move to 
 
 The number of devices, especially payment terminals is growing and your legacy has limitations related to the number of terminals it can support. **Do you constantly look for workarounds to deal with this challenge, feeling pressure from your clients**?
 
-<div class='block-button'><h2>Is it possible to revamp 30-year-old POS? </h2><div>Read about the modernization of legacy POS systems with a UI from the '90s.</div><a href="/projects/pos-legacy/"><button>explore case study</button></a></div>
-
 ## Do you support various payment options, including loyalty cards?
 
 You might be operating in a market with a strong culture of loyalty programs, yet find that **your legacy POS system struggles to accommodate the evolving loyalty solutions** offered by various business partners.

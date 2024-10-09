@@ -32,8 +32,6 @@ Now, I work in a bigger team, and the daily challenges are different. Currently,
 
 So, my first challenge was to effectively manage work on my own. Nowadays, it is all about working effectively as a team.
 
-<div className="block-button"><h2>Join Artur's team</h2><div>We are looking for an experienced iOS Developer whose main goal will be supporting us in building the powerful high profile iOS application that will impact how Just Eat shapes the retail world.</div><a href="/jobs/senior-ios-developer/"><button>apply now</button></a></div>
-
 ## And how do you enjoy working with your current team?
 
 I am a part of an experienced and very competent team. It consists of only senior iOS developers who are highly engaged in what they do. We work on a food delivery app available on the Israeli market. I enjoy the fact that our client trusts us; therefore, we can choose the tech stack we use. 

@@ -79,5 +79,3 @@ If you want to know more, read another blog post on [Bluetooth devices for healt
 * Payment terminal,
 * Electronic scale,
 * Barcode scanner.
-
-<div className="block-button"><h2>Time for your Bluetooth solution!</h2><div>Are you looking for a Bluetooth development company based in Poland?</div><a href="/start-project"><button>Contact us to estimate your Bluetooth solution</button></a></div>

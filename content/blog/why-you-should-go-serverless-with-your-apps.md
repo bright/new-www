@@ -25,8 +25,6 @@ Serverless computing is a cloud-based computing model that eliminates the need t
 
 We listed the benefits of serverless separately for startups and larger companies. Some advantages apply to all-size businesses. However, we still should have in mind different perspectives of startups and corporations.
 
-<div className="block-button"><h2>Planning to go serverless with your app? </h2><div>As cloud computing experts we can help you go smoothly and efficiently through that process. Check our experience and contact us to establish the details.</div><a href="/our-areas/cloud-services"><button>estimate your serverless app</button></a></div>
-
 ## Benefits of serverless computing for startups
 
 Here are some of the benefits of [serverless computing](/our-areas/cloud-services/) for startups:
@@ -92,5 +90,3 @@ Serverless computing providers typically offer high availability and fault toler
 ### Seamless integration with other services
 
 Many serverless computing providers offer integrations with other cloud services, such as databases, storage, and messaging. This can make it easier for businesses to **build and deploy complex, multi-tier applications**.
-
-<div className="block-button"><h2>Is it time to go serverless? </h2><div>As cloud computing company we can help you go smoothly and efficiently through that process. Check our experience and contact us to establish the details.</div><a href="/our-areas/cloud-services"><button>estimate your serverless app</button></a></div>

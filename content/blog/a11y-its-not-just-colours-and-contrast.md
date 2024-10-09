@@ -41,8 +41,6 @@ There is also a business value to it and don’t get me wrong, I’m not trying 
 
 And if that does not convince anyone, there is also a legal aspect of it. You see, in the past few years **accessibility changed from a requirement to an obligation**. Almost all over the world. USA has [The Americans with Disabilities Act (ADA)](https://adata.org/learn-about-ada), Canada - [ACA](https://www.canada.ca/en/employment-social-development/programs/accessible-canada.html), Australia - [DDA](https://humanrights.gov.au/our-work/employers/disability-discrimination), Europe - directive on [the accessibility of the websites and mobile applications of public sector bodies](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX%3A32016L2102) and there are more to come. But it all can be summed up by saying that everyone deserves an equal chance getting information and actively **blocking someone’s access to civil rights is unethical**.
 
-<div className="block-button"><h2>Looking for a product design agency?</h2><div>Since 2012 we have built and designed software solutions for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/our-areas/product-design"><button>Let's talk about design</button></a></div>
-
 ## What can I do?
 
 ### Colour and contrast
@@ -79,5 +77,3 @@ Remember, **you’re not the user**. It’s best to test your solutions with act
 * https://www.nngroup.com/topic/accessibility/ - my source of knowledge when it comes to anything in ui/ux design
 * https://www.accessibility.uxdesign.cc/ - a very down to earth ebook on accessibility, which you can download for free
 * https://ukhomeoffice.github.io/accessibility-posters/ **\- Make sure to check out lovely posters with do’s and don’t in regards to ux/ui design, which inspired me to write this blog post. I mentioned some of them here, but they point out many more aspects!**
-
-<div className="block-button"><h2>Looking for a product design agency?</h2><div>Since 2012 we have built and designed software solutions for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/our-areas/product-design"><button>Let's talk about design</button></a></div>
