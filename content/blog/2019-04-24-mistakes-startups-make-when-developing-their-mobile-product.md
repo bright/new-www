@@ -8,9 +8,7 @@ extract: If you’ve ever worked at an early-stage startup, then I’m sure you 
 author: mateusz
 tags:
   - startups
-  - iOS
-  - Android
-  - MVP
+  - business strategy
 date: 2019-04-23T22:00:00.000Z
 meaningfullyUpdatedAt: 2023-07-28T06:23:18.264Z
 title: Mistakes Startups Make When Developing Their Mobile Product
