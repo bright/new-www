@@ -16,8 +16,6 @@ language: en
 ---
 **Smart migration to AWS, introduction to Serverless Framework, Disaster recovery & OpenTelemetry. These are the topic of the AWS Tricity meetup which will take place onsite in Gdańsk Entrepreneurship Incubator STARTER on April 13 at 5 PM. The event is free. Sign up and join!**
 
-<div className="block-button"><h2>Register to AWS Tricity Meetup</h2><div>We've got a limited number of free tickets. Register for free now!</div><a href="https://www.meetup.com/aws-tricity/events/292549246/"><button>sign up for AWS Tricity</button></a></div>
-
 ## AWS Tricity agenda:
 
 April 13, 2023, Gdańsk Entrepreneurship Incubator STARTER
@@ -110,5 +108,3 @@ More on his presentation:
 If you are from Tricity (Poland), join or [AWS Tricity Facebook group](https://www.facebook.com/groups/679812723195646). Get AWS insights, info about meetups and free [AWS workshops](https://www.facebook.com/events/1303096523786948/?ref=newsfeed) that we regularly organize.
 
 AWS meetup is powered by Bright Inventions, a software development agency based in Gdańsk. Bright Inventions gathers DevOps enthusiasts to share knowledge about AWS. The company is on its way to becoming AWS Partner (fingers crossed). 🙂
-
-<div className="block-button"><h2>Register to AWS Tricity Meetup</h2><div>We've got a limited number of free tickets. Register for free now!</div><a href="https://www.meetup.com/aws-tricity/events/292549246/"><button>sign up for AWS Tricity</button></a></div>

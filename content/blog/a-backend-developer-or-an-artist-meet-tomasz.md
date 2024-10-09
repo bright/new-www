@@ -76,8 +76,6 @@ A crucial part of the project is **maintaining backward compatibility** **for mo
 
 Another security aspect is proactive documentation. **Disaster recovery (DR) for application or data access if required in case the application is down**. Incidents like these can occur, so I strongly believe in being prepared for any scenario. This way, when something happens, we don't panic; we simply follow the established procedures and minimize downtime.
 
-<div class='block-button'><h2>join Tomasz</h2><div>Work with Tomasz and other bright minds! We are seeking skilled and experienced specialists who love to solve real problems and build software that really matters in today’s world. Check out our openings.</div><a href="/career/"><button>explore our job offers</button></a></div>
-
 ## How can a backend developer chart a path for self-growth to stay ahead in the field?
 
 The path to self-growth as a backend developer depends largely on what aspect of programming you're most passionate about. One option is **transitioning into fullstack development**. I considered this myself, but I don't have a strong design intuition, and I feel it wouldn't be as satisfying for me. However, the frontend does have the significant advantage of allowing you to quickly see the results of your work.

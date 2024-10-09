@@ -21,8 +21,6 @@ language: en
 
 The Polish software development industry, with almost €9bn in revenue, is [ranked 7th among all European Union countries](https://www.ibisworld.com/poland/industry-statistics/software-development/3595/). It has been in this position since 2017. Despite pandemic turbulences, the Polish software development industry remained strong in the top 10 of the European Union.
 
-<div className="block-button"><h2>Looking for a Polish backend company?</h2><div>You’ve come to the right place. Since 2012 we have built products for clients from Germany, Norway, Israel, UK and more. </div><a href="/start-project"><button>Let's talk about your product</button></a></div>
-
 ## Polish backend developers use modern stack and tools
 
 Polish software developers are well known for their impressive programming knowledge and skills which were established thanks to a [HackerRank study](https://blog.hackerrank.com/which-country-would-win-in-the-programming-olympics/). 
@@ -72,5 +70,3 @@ For example, the time difference between New York and Warsaw is 6 hours which ma
 ![Polish backend developers](../../static/images/blogpost_brightstory_piotr_b3.png "")
 
 Polish programmers are motivated to self-develop and follow best practices at work. As an example, you can dive into the [story of Piotr – a backend developer](/blog/piotr-team-leader-technology-evangelist) who has over 12 years of experience in software development.
-
-<div className="block-button"><h2>Looking for a Polish backend company?</h2><div>We offer custom software development for organizations of all shapes and sizes. Our clients come from multiple industries, including FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/start-project"><button>Let's talk about your product</button></a></div>

@@ -276,5 +276,3 @@ Pricing: 14.50 USD/ month/user
 * Personalize patient experiences with custom buttons, carousels, list pickers, and video.
 
 I hope you found something valuable in this article and the information shared can help you choose the video conferencing tool that is the right one for you and your organization. Also please keep in mind that we are neither favoring any mentioned tools nor trying to dissuade you from any other providers available on the market but not mentioned here. Thanks for reading!
-
-<div class='block-button'><h2>discuss your video conferencing provider with our team</h2><div>If you need more assistance or guidance on choosing the right provider, or you are unsure if the solution you would like to implement is fitting for your current architecture, do not hesitate to reach out to us directly. Our tech experts will happily guide you through the details.</div><a href="/our-areas/healthcare-software-development/"><button>book a free consultation</button></a></div>

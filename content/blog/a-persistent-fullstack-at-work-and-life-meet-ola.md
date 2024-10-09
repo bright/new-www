@@ -51,8 +51,6 @@ Great. I had a job interview with [Michał](/about-us/michal-k/) (mostly), [Piot
 
 Even if I didn’t know the answer to a question or hadn’t worked with some tools or frameworks, I felt that they didn’t take that against me. I would recommend anyone to attend the interview at Bright Inventions. 😊
 
-<div className="block-button"><h2>Do you want to join Ola?</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>
-
 ## You live and work almost 600 km from our office in Gdańsk. Do you feel that distance?
 
 Not at all. When I log in to work every morning, I join our Slack community. We’ve got various Slack channels and a lot is going on there. I can feel the friendly atmosphere even through the internet. **I don’t need to be at the office to feel like at the office**.
@@ -96,5 +94,3 @@ I just want to be a better programmer. I'm currently at a point where I feel a l
 ## An athlete and a musician… Are you a fullstack in life too? ;) Are you untalented in something?
 
 Nothing comes to my mind right now. 😀 When I decide to learn something, I do it. I think **talent is not the main factor, our character is**. With hard work, you can achieve anything you want.
-
-<div className="block-button"><h2>Join Ola!</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>

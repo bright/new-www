@@ -123,5 +123,3 @@ And I also really like Socrate's* The secret of happiness, you see, is not found
 That is the end for today. Stay tuned! 
 
 If you would like to ask Agata, Paulina, Sara or Ula any questions, leave a comment below. 
-
-<div className="block-button"><h2>Join Bright people</h2><div>Apply and talk with our Bright recruiters. Find out what we've got to offer.</div><a href="/career"><button>Check our current job offers</button></a></div>

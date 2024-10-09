@@ -66,8 +66,6 @@ When I decided to make a career switch, I initially chose frontend development b
 
 However, after concentrating solely on frontend for three years, it started to feel tedious, and I wanted to understand the development process more holistically. **It's the best situation when I get to build a feature from start to finish as a fullstack developer**. So, I would definitely consider myself a fullstack developer now – I wouldn't want to choose just one. Fullstack development is much more stimulating and offers more learning opportunities.
 
-<div class='block-button'><h2>join Dominik</h2><div>We are seeking bright minds that value team work, responsibility and would like to create software solutions that matter. Check job openings!</div><a href="/career/"><button>see job offers</button></a></div>
-
 ## You joined Bright Inventions almost 3 years ago. Do you enjoy working here?
 
 I'm happy working here. So far, **I've met only fantastic coworkers**. It’s also clear that Ula and other managers genuinely care about the employees’ overall well-being, ensuring that we have opportunities to continue developing.

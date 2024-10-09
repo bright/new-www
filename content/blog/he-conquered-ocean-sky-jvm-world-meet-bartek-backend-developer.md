@@ -28,8 +28,6 @@ I was pursuing that dream and got an internship to build a mobile app. When I jo
 
 Now **I am glad I pursued the backend path instead of mobile**. Maintaining backward compatibility in mobile isn’t appealing to me. The backend is more simple in that way. So I’ve never regretted how things turned out. I sometimes build mobile apps, but only for personal use.
 
-<div className="block-button"><h2>Work with Bartek</h2><div>We are looking for an experienced Backend Developer who understands Java/Kotlin & Spring really well and who would like to work with AWS on daily basis.</div><a href="/career/"><button>check our job offers</button></a></div>
-
 ## How did you land in Bright Inventions?
 
 I’ve known the company since college. **I met [Piotr](/about-us/piotr/) from Bright Inventions at a job fair** at the Gdańsk University of Technology. Back then I was writing my master's thesis on serverless so I **decided to visit every company’s stand to ask if they worked with serverless**. **Bright Inventions was the only one that did**. Then I had a great conversation about it with Piotr and I could immediately see how knowledgeable and experienced he was.
@@ -85,5 +83,3 @@ Not at all. Now I like the air even more and **I decided not only to jump out of
 ## From sailing to flying an airplane. How did that happen?
 
 There are people who inspired me to do this. As with many other things – people are a great inspiration. When it comes to flying, I met some pilots who are great people and I felt like this is something worth trying. 🙂
-
-<div className="block-button"><h2>Join our team</h2><div>Seeking passionate individuals to help us build a bright future. Apply today!</div><a href="/career"><button>check our job offers</button></a></div>

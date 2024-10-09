@@ -132,5 +132,3 @@ To sum it up with AOT build we are trading longer compile time and larger file s
 tradeoff makes perfect sense - it's the cloud! If you are running your code on the cloud then give it a try. Please keep in mind that to use GraalVM natively with 
 Spring Boot you need to upgrade to version 3.0 or higher. That could be a challenge in itself, especially since Spring Boot 3.0 is using 
 Java 17 as a baseline. Before the upgrade check the full [laundry list](https://spring.io/blog/2022/05/24/preparing-for-spring-boot-3-0).
-
-<div className="block-button"><h2>We are looking for backend developers (TS, Node.js)</h2><div>Work on projects such as the blockchain platform for a top global humanitarian agency, accounting software, or web therapy application. Remote work or hybrid (Gdańsk, Poland).</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>

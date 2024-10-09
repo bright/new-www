@@ -61,5 +61,3 @@ You see – through working with various companies, we get to meet both like-min
 ## Summary
 
 As you can see, building a first working version of an app is one of the most valuable, rewarding experiences for an [MVP development agency](/our-areas/mvp-development). Seeing how we help our customers succeed strengthens our sense of purpose and provides motivation for more to come.
-
-<div className="block-button"><h2>Are you looking for MVP partner?</h2><div>Since 2012 we have built MVPs for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk about your MVP</button></a></div>

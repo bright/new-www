@@ -91,5 +91,3 @@ You might think that having an idea for FoodTech is all you need. In fact, that�
 Then it’s time to **validate your idea** to ensure that it has a chance to stand on the market. An effective way to validate your idea is by organizing dedicated **[product workshops](/our-areas/product-workshops/)** with software developers and designers who have launched some similar products in FoodTech. They have market insights and data regarding users.
 
 If you validate your idea positively, **you can start to work on [MVP](/our-areas/mvp-development/)**. You don’t need a big budget to work on that. The idea behind MVP is to launch the product with key features to quickly attract the first users and then develop the product based on their needs. Having MVP can also help to attract investors. 
-
-<div className="block-button"><h2>Hire experienced FoodTech developers to build MVP</h2><div>We launched and scaled FoodTech products for startups and larger organizations. Contact us to estimate your solution.</div><a href="/start-project/"><button>estimate your solution now</button></a></div>

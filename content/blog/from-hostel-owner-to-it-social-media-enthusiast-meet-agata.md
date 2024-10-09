@@ -49,8 +49,6 @@ Some friends convinced me to open a restaurant in 2017. We tried many different 
 
 Lockdown forced me to move my restaurant business online. **I started an online shop with DIY pastrami sets that I was supposed to sell in my restaurant.** It worked out nicely and gave me access to customers within the whole country. I was still trying to manage the restaurant despite constant lockdowns but eventually I gave up on it and focused on my online business. Now I really appreciate free weekends. 😉
 
-<div className="block-button"><h2>Join Agata!</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>
-
 ## You moved from a restaurant to the social media marketing industry. What was the reason?
 
 As I mentioned before COVID-19 I had been working on rebranding for my restaurant and then I first started to be involved in marketing activities. I enjoyed it. The lockdown came and I knew that I had to go online with my business. 
@@ -80,5 +78,3 @@ On social media we show projects that we develop, devices that we use on a daily
 ## What is ahead of you?
 
 That is a very difficult question. I don’t know. I don’t see myself anymore in the restaurant industry. But maybe I will change my mind. I am not in the place to plan anything. I follow the rule “let it be” and trust the universe.
-
-<div className="block-button"><h2>Join Agata!</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>

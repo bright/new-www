@@ -38,8 +38,6 @@ Check out all the steps on the road to a successful app launch and maintenance.
 * This is a great moment to **establish first goals** that will help you to measure in the future if your app is a success. However, these goals might change. While you are getting to know the industry, you might better understand what you need to succeed.
 * Ideation is a significant time for product designers. During workshops with the client, designers can better understand the whole solution. This brings us to the Prototyping phase.
 
-<div className="block-button"><h2>Do you want to kick off your app development process?</h2><div>We have been developing mobile and web apps since 2012 for clients from the UK, Germany, Israel and more. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
-
 ## App Prototyping & Product design
 
 (1-4 weeks)
@@ -87,5 +85,3 @@ Check out all the steps on the road to a successful app launch and maintenance.
 * It’s a constant challenge of developing our product to give more and more satisfaction to the users. :)
 
 Now you know more about the most important app development stages. **Remember that the final flow always depends on the project**. Not every step is required. Nothing is set in stone in the app development world.
-
-<div className="block-button"><h2>Do you want to kick off your app development process?</h2><div>We have been developing mobile and web apps since 2012 for clients from the UK, Germany, Israel and more. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>

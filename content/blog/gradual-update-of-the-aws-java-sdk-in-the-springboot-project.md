@@ -61,5 +61,3 @@ Everything went well, so we could remove temporary annotations, 1.x implementati
 ## Summary
 
 Although we took a couple of extra steps, we were able to introduce an advanced update to our production-ready application without downtime or risk of introducing breaking changes. This way is much safer and allows us to avoid making mistakes that can affect our customers.
-
-<div className="block-button"><h2>We are looking for backend developers (TS, Node.js)</h2><div>Work on projects such as the blockchain platform for a top global humanitarian agency, accounting software, or web therapy application.</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>
