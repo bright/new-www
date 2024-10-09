@@ -793,21 +793,9 @@ const config = {
           widget: 'string',
         },
         {
-          label: 'Video Url',
-          name: 'video_url',
-          widget: 'string',
-          required: false,
-        },
-        {
           label: 'Video file',
           name: 'video_file',
           widget: 'file',
-          required: false,
-        },
-        {
-          label: 'Video Placeholder Image',
-          name: 'video_placeholder_image',
-          widget: 'image',
           required: false,
         },
         {
