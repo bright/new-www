@@ -58,7 +58,6 @@ export default function Template({
   const breakpointTablet = 992
   const mobileImage = getImage(page.image_our_service_mobile)
   const desktopImage = getImage(page.image_our_service_desktop)
-  const videoPlaceholderImage = getImage(page.video_placeholder_image)
   const myRef = useRef<HTMLDivElement>(null)
   const { faqSlug, language } = pageContext
   const de = language === 'de'
@@ -90,7 +89,6 @@ export default function Template({
     testimonials,
     boxes,
     show_team,
-    video_url,
     video_file,
   } = page
 
@@ -161,14 +159,17 @@ export default function Template({
           paddingMobileProps='2rem 0 0 0'
         >
           <MediaWrapper>
-            {(video_url || video_file) && (
-              <ServiceVideo videoUrl={video_url} videoFile={video_file} videoPlaceholderImage={videoPlaceholderImage} />
-            )}
-            {width >= breakpointTablet && typeof window !== 'undefined' && !video_url && desktopImage && (
-              <GatsbyImage image={desktopImage} alt={image_alt_our_service} className='about-media' />
-            )}
-            {width < breakpointTablet && typeof window !== 'undefined' && !video_url && mobileImage && (
-              <GatsbyImage image={mobileImage} alt={image_alt_our_service} className='about-media' />
+            {video_file ? (
+              <ServiceVideo videoFile={video_file} />
+            ) : (
+              <>
+                {width >= breakpointTablet && typeof window !== 'undefined' && desktopImage && (
+                  <GatsbyImage image={desktopImage} alt={image_alt_our_service} className='about-media' />
+                )}
+                {width < breakpointTablet && typeof window !== 'undefined' && mobileImage && (
+                  <GatsbyImage image={mobileImage} alt={image_alt_our_service} className='about-media' />
+                )}
+              </>
             )}
           </MediaWrapper>
         </CustomSectionOurServiceImage>
@@ -406,13 +407,7 @@ export const pageQuery = graphql`
         description_contact
         name
         language
-        video_url
         video_file
-        video_placeholder_image {
-          childImageSharp {
-            gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE, webpOptions: { quality: 100 })
-          }
-        }
         image_our_service_mobile {
           childImageSharp {
             gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE, webpOptions: { quality: 100 })

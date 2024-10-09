@@ -75,7 +75,7 @@ const config = {
   backend: {
     name: 'github',
     repo: 'bright/new-www',
-    branch: 'staging',
+    branch: 'gatsby',
     base_url: 'https://github-auth.brightinventions.pl',
   },
   publish_mode: 'editorial_workflow',
@@ -793,21 +793,9 @@ const config = {
           widget: 'string',
         },
         {
-          label: 'Video Url',
-          name: 'video_url',
-          widget: 'string',
-          required: false,
-        },
-        {
           label: 'Video file',
           name: 'video_file',
           widget: 'file',
-          required: false,
-        },
-        {
-          label: 'Video Placeholder Image',
-          name: 'video_placeholder_image',
-          widget: 'image',
           required: false,
         },
         {

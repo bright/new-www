@@ -36,8 +36,6 @@ short_description: 'In search of something beyond ordinary food delivery
 order: 4
 title: upgrade your POS with customized food delivery integration
 highlighted_word: customized
-video_url: https://www.youtube.com/watch?v=-pUtXXxpsFg
-video_placeholder_image: /images/preview_video_pos.png
 image_our_service_desktop: /images/pos_devlivery_platforms_web.png
 image_our_service_mobile: /images/pos_devlivery_platforms_mobile.png
 image_alt_our_service: food delivery platforms POS integration

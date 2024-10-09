@@ -7,10 +7,4 @@ export const VideoWrapper = styled.div`
   max-height: 360px;
   overflow: hidden;
   border-radius: 16px;
-
-  .iframe {
-    display: block;
-    margin: auto;
-    max-width: 100%;
-  }
 `
