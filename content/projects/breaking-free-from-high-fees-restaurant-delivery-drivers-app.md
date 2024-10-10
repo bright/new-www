@@ -60,6 +60,8 @@ Another restaurant owners’ concern is the **inability to manage all deliveries
 
 Practi addressed these issues by **enhancing their multifunctional POS system with a delivery management app** that connects restaurants directly with their drivers. Our team developed this solution, along with many others, during our **10-year partnership with Practi (later acquired by Just Eat Takeaway.com)**.
 
+<YouTubeEmbed url='https://youtu.be/L_Uki_5jh7A' />
+
 <TitleWithIcon sectionTitle="the solution: a delivery management system for internal restaurant use" titleIcon="/images/flag.png" titleIconAlt="the solution:" />
 
 The delivery drivers app, available for iOS and Android, simplifies the collaboration between restaurant couriers and waitstaff. **Waitstaff can easily assign orders to drivers, and drivers** also have the option to assign themselves to orders. 
