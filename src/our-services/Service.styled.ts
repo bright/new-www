@@ -291,19 +291,13 @@ export const MoreButtonOurServiceWrapper = styled.div<{
     margin-top: ${({ marginTopMobile }) => (marginTopMobile ? marginTopMobile : `${variables.pxToRem(64)}`)};
   }
 `
-export const MediaWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-
-  && .about-media {
+export const ImageWrapper = styled.div`
+  && .about-img {
     display: block;
     margin: auto;
     max-width: 100%;
   }
 `
-
 export const OurServiceHideTablet = styled(HideTablet)`
   @media ${variables.device.tablet} {
     display: none;
