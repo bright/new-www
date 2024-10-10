@@ -60,6 +60,8 @@ More than 1 in 5 U.S. adults, roughly [57.8 million people](https://www.nimh.nih
 
 One such issue is **narcissistic personality disorder (NPD)**. In the USA, [approximately 1 in 200 people have this disorder](https://www.therecoveryvillage.com/mental-health/narcissistic-personality-disorder/npd-statistics/). Although it is less common than other mental disorders such as depression, it profoundly affects those in relationships with individuals suffering from NPD. Given that this mental health issue is still considered niche, finding expert help to manage the challenges of such difficult relationships can be problematic.
 
+<YouTubeEmbed url='https://youtu.be/euH6S4DpGQU' />
+
 <TitleWithIcon sectionTitle="the solution: online therapy platform for expert-guided group healing" titleIcon="/images/flag.png" titleIconAlt="the solution" />
 
 **[Circles](https://circlesup.com/), an Israeli startup, has launched a mental health tech application** designed for those dealing with grief, divorce, or simply seeking a safe space to express their emotions. 
