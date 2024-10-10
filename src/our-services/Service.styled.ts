@@ -40,7 +40,7 @@ export const CustomSectionOurService = styled(CustomSection)`
     padding-top: ${variables.pxToRem(16)};
   }
 `
-export const CustomSectionOurServiceImage = styled(CustomSection)`
+export const CustomSectionOurServiceMedia = styled(CustomSection)`
   flex-basis: 52.5%;
   height: 100%;
   padding-top: ${clampBuilder(1542, 1920, 21, 56)};
@@ -372,10 +372,10 @@ export const BulletList = styled.li`
   }
 `
 export const BulletsList = styled.ul``
-export const CloutchWrapper = styled.div`
+export const ClutchWrapper = styled.div`
   padding-top: ${variables.pxToRem(16)};
 `
-export const OurServiceFlexWraper = styled(FlexWrapper)`
+export const OurServiceFlexWrapper = styled(FlexWrapper)`
   @media ${variables.device.tabletXL} {
     height: 100%;
   }

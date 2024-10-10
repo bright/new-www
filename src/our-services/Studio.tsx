@@ -12,7 +12,7 @@ import {
   OurServiceSection,
   BulletList,
   BulletsList,
-  CloutchWrapper,
+  ClutchWrapper,
   MoreButtonOurServiceWrapper, Content
 } from './Service.styled'
 import { FaqStructuredData } from '../FaqStructuredData'
@@ -114,12 +114,12 @@ export default function Template({ data, pageContext, children }: PropsWithChild
                 </MoreButton>
               </MoreButtonOurServiceWrapper>
 
-              <CloutchWrapper>
+              <ClutchWrapper>
                 <FlexWrapper desktopItems='center' desktopGap='18px' tabletContent='center' mobileContent='flex-start'>
                   <TextRegular>Clutch 4.9/5</TextRegular>
                   <RatingClutch />
                 </FlexWrapper>
-              </CloutchWrapper>
+              </ClutchWrapper>
             </FlexWrapper>
           </MobileOurServiceFlexWrapper>
         </CustomSectionOurService>

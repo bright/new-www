@@ -102,8 +102,6 @@ boxes:
 language: en
 blog_section: false
 blog_section_title: our team inisghts
-video_placeholder_image: static/images/preview_wideo_pos.png
-video_url: ""
 description_contact: Based on your needs we will prepare a demo of your solution
   in 7 days. Fill out the form or drop us a line!
 blog_section_tags:

@@ -793,6 +793,12 @@ const config = {
           widget: 'string',
         },
         {
+          label: 'Video file',
+          name: 'video_file',
+          widget: 'file',
+          required: false,
+        },
+        {
           label: 'Bullet points',
           name: 'bullet_points',
           widget: 'list',

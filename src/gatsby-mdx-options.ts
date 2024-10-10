@@ -46,7 +46,10 @@ export const gatsbyMdxOptions = {
       resolve: `gatsby-remark-external-links`
     },
     {
-        resolve: `gatsby-remark-mdx-relative-images`
+      resolve: `gatsby-remark-mdx-relative-images`,
+      options: {
+        exclude: ['video_file'],
+      }
     },
     {
       resolve: `gatsby-remark-copy-linked-files`
@@ -58,7 +61,7 @@ export const gatsbyMdxOptions = {
         // the content container as this plugin uses this as the
         // base for generating different widths of each image.
         maxWidth: 960,
-        linkImagesToOriginal: false
+        linkImagesToOriginal: false,
       }
     },
     {

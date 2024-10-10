@@ -17,11 +17,11 @@ import {
   OurServiceSection,
   BulletList,
   BulletsList,
-  CloutchWrapper,
+  ClutchWrapper,
   MoreButtonOurServiceWrapper,
-  CustomSectionOurServiceImage,
+  CustomSectionOurServiceMedia,
   Testimonials,
-  MobileOurServiceFlexWrapper, OurServiceFlexWraper, BoxesWrapper, Box, BoxImage, BoxTitle, BoxDescription
+  MobileOurServiceFlexWrapper, OurServiceFlexWrapper, BoxesWrapper, Box, BoxImage, BoxTitle, BoxDescription
 } from './Service.styled'
 import { FaqStructuredData } from '../FaqStructuredData'
 import { BoxesModel, ProjectModel, TestimonialModel } from '../models/gql'
@@ -32,6 +32,7 @@ import FaqsDropdown from '../components/shared/FaqsDropdown'
 import { toBlogPost } from '../use-blog-posts/blog-post-frontmatter-query-result'
 import { useClient } from '../hooks/useClient'
 import { Testimonial } from '../components/testimonial/Testimonial'
+import { ServiceVideo } from './ServiceVideo/ServiceVideo'
 
 const PopularBlogPosts = React.lazy(() => import('../components/shared/PopularBlogPosts'))
 const TechnologyTags = React.lazy(() => import('../components/shared/TechnologyTags'))
@@ -83,6 +84,7 @@ export default function Template({
     testimonials,
     boxes,
     show_team,
+    video_file
   } = page
 
   const titleArr = title.split(' ')
@@ -99,7 +101,7 @@ export default function Template({
     <Page>
       <HelmetMetaData title={meta_title} description={meta_description} />
 
-      <OurServiceFlexWraper desktopItems='center' tabletDirection='column'>
+      <OurServiceFlexWrapper desktopItems='center' tabletDirection='column'>
         <CustomSectionOurService
           paddingProps='3.4375rem 0 0 15rem '
           paddingLaptop='3.4375rem 0 0 6rem'
@@ -135,22 +137,26 @@ export default function Template({
                 </MoreButton>
               </MoreButtonOurServiceWrapper>
 
-              <CloutchWrapper>
+              <ClutchWrapper>
                 <FlexWrapper desktopItems='center' desktopGap='18px' tabletContent='center' mobileContent='flex-start'>
                   <TextRegular>Clutch 4.9/5</TextRegular>
                   <RatingClutch />
                 </FlexWrapper>
-              </CloutchWrapper>
+              </ClutchWrapper>
             </FlexWrapper>
           </MobileOurServiceFlexWrapper>
         </CustomSectionOurService>
-        <CustomSectionOurServiceImage
+        <CustomSectionOurServiceMedia
           paddingProps='3.5rem 15rem 0 0'
           paddingLaptop='3.5rem 6rem 0 0'
           paddingTabletXL='3.5rem 8.5625rem 0 0 '
           paddingTablet='2rem 0 0 0'
           paddingMobileProps='2rem 0 0 0'
         >
+        {video_file ? (
+          <ServiceVideo videoFile={video_file} />
+        ) : (
+        <>
           <div>
             {width >= breakpointTablet && typeof window !== 'undefined' && (
               <ImageWrapper>
@@ -165,8 +171,10 @@ export default function Template({
               </ImageWrapper>
             )}
           </div>
-        </CustomSectionOurServiceImage>
-      </OurServiceFlexWraper>
+        </>
+        )}
+      </CustomSectionOurServiceMedia>
+      </OurServiceFlexWrapper>
 
       <CustomSection
         paddingProps='0 15rem 6.5rem 15rem'
@@ -388,6 +396,7 @@ export const pageQuery = graphql`
         description_contact
         name
         language
+        video_file
         image_our_service_mobile {
           childImageSharp {
             gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE, webpOptions: { quality: 100 })
