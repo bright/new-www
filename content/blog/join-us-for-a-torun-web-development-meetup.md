@@ -16,8 +16,6 @@ language: en
 
 <div className="image">![Torun Web Development Meetup](../../static/images/blog_torun_meetup.png "Torun Web Development Meetup")</div>
 
-<div className="block-button"><h2>Join our Meetup Group and claim your spot now!</h2><div>Won't miss the first meeting.</div><a href="https://www.meetup.com/toru%C5%84-web-development/events/295971160/"><button>Claim your spot</button></a></div>
-
 ## What to Expect at Torun Web Development Meetup #1 \[Agenda]
 
 ### 📌 Registration and Networking | October 19, 6.00 PM – 6.15 PM

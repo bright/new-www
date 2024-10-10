@@ -38,8 +38,6 @@ If it comes about backend, we usually prefer **TypeScript with Node.js and NestJ
 \
 We also work with **Ethereum and Hyperledger as a Blockchain-based** app platform. And which IDE do we use? The one we feel is the best for us. Most of us choose IDE by JetBrains, but we have also experience with AppCode or Xcode if it comes about iOS development, or VS Code while programming in JavaScript/TypeScript. 
 
-<div className="block-button"><h2>Blockchain development</h2><div>We also work with Ethereum and Hyperledger as a Blockchain-based app platform. One of our solutions is a web app supporting Substrate Blockchain networks: Polkadot and Kusama in uploading proposals for Treasury grants.</div><a href="/projects/bright-treasury"><button>Find more about BrightTreasury</button></a></div>
-
 ### 2. Because of the atmosphere
 
 You will find here the work atmosphere that definitely stimulates personal growth. And I mean here not only qualified people around, but our general attitude to work. **We believe that everyone is different and may need different stimuli to improve their skills**. If you learn better by pair programming, you have an opportunity to do that. If you feel that you need to take part in some workshops, to speed up your career, you can. If you want to go on a conference and tell about your experience, we will support you. Everything depends on your needs. 

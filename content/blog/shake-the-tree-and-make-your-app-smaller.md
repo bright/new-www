@@ -109,5 +109,3 @@ There is a tool called Bundlephobia, which presents various information about th
 ## Is this enough to keep my application fit?
 
 All the information you’ve acquired while reading this article will limit the impact of external libraries on the weight of your application. However, no matter how optimized libraries you choose, the time will come to do something more to ensure it will load quickly. In such a case you should probably apply the lazy-loading pattern. This will split your bundle into several parts and load those only when necessary. I hope all knowledge you’ve acquired will help you make your apps better! Stay tuned for other entries about web app optimization, which will probably come soon.
-
-<div className="block-button"><h2>Let's create software that matters</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>

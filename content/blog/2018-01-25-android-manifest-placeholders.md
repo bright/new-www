@@ -193,5 +193,3 @@ buildTypes {
 But there are much more possibilities, e.g. I can think of an app that uses different launcher activities.
 
 Do you have any interesting experiences using the placeholders? Feel free to share with me in the comments :-)
-
-<div className="block-button"><h2>We are looking for Android developers</h2><div>Join our team and develop Android applications for our clients from Germany, Norway, Israel, USA and more.</div><a href="/jobs/senior-android-developer"><button>Apply and join our team</button></a></div>

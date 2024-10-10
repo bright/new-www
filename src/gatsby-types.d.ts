@@ -2522,7 +2522,7 @@ type MdxFrontmatter = {
   readonly title_recruiter_info: Maybe<Scalars['String']>;
   readonly title_team: Maybe<Scalars['String']>;
   readonly twitter: Maybe<Scalars['String']>;
-  readonly video_url: Maybe<Scalars['String']>;
+  readonly video_file: Maybe<Scalars['String']>;
   readonly web: Maybe<Scalars['String']>;
   readonly work_in_progress: Maybe<Scalars['Boolean']>;
   readonly working_time: Maybe<Scalars['String']>;
@@ -2679,7 +2679,7 @@ type MdxFrontmatterFieldSelector = {
   readonly title_recruiter_info: InputMaybe<FieldSelectorEnum>;
   readonly title_team: InputMaybe<FieldSelectorEnum>;
   readonly twitter: InputMaybe<FieldSelectorEnum>;
-  readonly video_url: InputMaybe<FieldSelectorEnum>;
+  readonly video_file: InputMaybe<FieldSelectorEnum>;
   readonly web: InputMaybe<FieldSelectorEnum>;
   readonly work_in_progress: InputMaybe<FieldSelectorEnum>;
   readonly working_time: InputMaybe<FieldSelectorEnum>;
@@ -2788,7 +2788,7 @@ type MdxFrontmatterFilterInput = {
   readonly title_recruiter_info: InputMaybe<StringQueryOperatorInput>;
   readonly title_team: InputMaybe<StringQueryOperatorInput>;
   readonly twitter: InputMaybe<StringQueryOperatorInput>;
-  readonly video_url: InputMaybe<StringQueryOperatorInput>;
+  readonly video_file: InputMaybe<StringQueryOperatorInput>;
   readonly web: InputMaybe<StringQueryOperatorInput>;
   readonly work_in_progress: InputMaybe<BooleanQueryOperatorInput>;
   readonly working_time: InputMaybe<StringQueryOperatorInput>;
@@ -2897,7 +2897,7 @@ type MdxFrontmatterSortInput = {
   readonly title_recruiter_info: InputMaybe<SortOrderEnum>;
   readonly title_team: InputMaybe<SortOrderEnum>;
   readonly twitter: InputMaybe<SortOrderEnum>;
-  readonly video_url: InputMaybe<SortOrderEnum>;
+  readonly video_file: InputMaybe<SortOrderEnum>;
   readonly web: InputMaybe<SortOrderEnum>;
   readonly work_in_progress: InputMaybe<SortOrderEnum>;
   readonly working_time: InputMaybe<SortOrderEnum>;
@@ -3369,7 +3369,6 @@ type OurAreas = Node & {
   readonly title_faqs: Scalars['String'];
   readonly title_team: Scalars['String'];
   readonly video_file: Maybe<Scalars['String']>;
-  readonly video_url: Maybe<Scalars['String']>;
 };
 
 type OurAreasConnection = {
@@ -3466,7 +3465,6 @@ type OurAreasFieldSelector = {
   readonly title_faqs: InputMaybe<FieldSelectorEnum>;
   readonly title_team: InputMaybe<FieldSelectorEnum>;
   readonly video_file: InputMaybe<FieldSelectorEnum>;
-  readonly video_url: InputMaybe<FieldSelectorEnum>;
 };
 
 type OurAreasFilterInput = {
@@ -3518,7 +3516,6 @@ type OurAreasFilterInput = {
   readonly title_faqs: InputMaybe<StringQueryOperatorInput>;
   readonly title_team: InputMaybe<StringQueryOperatorInput>;
   readonly video_file: InputMaybe<StringQueryOperatorInput>;
-  readonly video_url: InputMaybe<StringQueryOperatorInput>;
 };
 
 type OurAreasFilterListInput = {
@@ -3568,7 +3565,6 @@ type OurAreasFrontmatter = {
   readonly title_faqs: Scalars['String'];
   readonly title_team: Scalars['String'];
   readonly video_file: Maybe<Scalars['String']>;
-  readonly video_url: Maybe<Scalars['String']>;
 };
 
 type OurAreasFrontmatterFieldSelector = {
@@ -3614,7 +3610,6 @@ type OurAreasFrontmatterFieldSelector = {
   readonly title_faqs: InputMaybe<FieldSelectorEnum>;
   readonly title_team: InputMaybe<FieldSelectorEnum>;
   readonly video_file: InputMaybe<FieldSelectorEnum>;
-  readonly video_url: InputMaybe<FieldSelectorEnum>;
 };
 
 type OurAreasFrontmatterFilterInput = {
@@ -3660,7 +3655,6 @@ type OurAreasFrontmatterFilterInput = {
   readonly title_faqs: InputMaybe<StringQueryOperatorInput>;
   readonly title_team: InputMaybe<StringQueryOperatorInput>;
   readonly video_file: InputMaybe<StringQueryOperatorInput>;
-  readonly video_url: InputMaybe<StringQueryOperatorInput>;
 };
 
 type OurAreasFrontmatterSortInput = {
@@ -3706,7 +3700,6 @@ type OurAreasFrontmatterSortInput = {
   readonly title_faqs: InputMaybe<SortOrderEnum>;
   readonly title_team: InputMaybe<SortOrderEnum>;
   readonly video_file: InputMaybe<SortOrderEnum>;
-  readonly video_url: InputMaybe<SortOrderEnum>;
 };
 
 type OurAreasGroupConnection = {
@@ -3799,7 +3792,6 @@ type OurAreasSortInput = {
   readonly title_faqs: InputMaybe<SortOrderEnum>;
   readonly title_team: InputMaybe<SortOrderEnum>;
   readonly video_file: InputMaybe<SortOrderEnum>;
-  readonly video_url: InputMaybe<SortOrderEnum>;
 };
 
 type PNGOptions = {
@@ -4642,7 +4634,6 @@ type Query_ourAreasArgs = {
   title_faqs: InputMaybe<StringQueryOperatorInput>;
   title_team: InputMaybe<StringQueryOperatorInput>;
   video_file: InputMaybe<StringQueryOperatorInput>;
-  video_url: InputMaybe<StringQueryOperatorInput>;
 };
 
 

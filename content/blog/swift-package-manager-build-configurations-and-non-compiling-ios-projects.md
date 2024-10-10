@@ -26,8 +26,6 @@ When working on greenfield projects SPM in most cases is really a breeze to use.
 
 **\[Disclaimer]:** Described problems and their solutions were tested on Xcode 13.2.1 and 13.4.1. Behavior may change in future Xcode releases. [Here](https://github.com/TLizer/SPM-build-configurations) you can find a repository with an example project.
 
-<div className="block-button"><h2>We are looking for iOS Developers</h2><div>Build with us the iOS application that will impact how Just Eat shapes the retail world. Or work for our other clients representing industries such as FinTech, Blockchain, HealthTech, and Logistics.</div><a href="/jobs/senior-ios-developer"><button>Apply and join our team</button></a></div>
-
 ## The problem
 
 The other day I was trying to add Swift Package Manager to one of the projects I work on as my Team tends to move to SPM from other dependency managers.
@@ -86,5 +84,3 @@ As you may already suspect the solution here is totally opposite to what we just
 ## Conclusions
 
 Swift Package Manager is a great way of managing third party dependencies in iOS projects. With new releases of Xcode it is getting more useful and powerful. Unfortunately SPM is still a young addition to Xcode and lacks some functionalities. Also its ephemeral way of implementation brings issues like those I have faced. In this particular case we could benefit from explicit documentation telling about **build configuration name parsing logic** applied to our **Swift Packages**. If you ever find yourself in a similar situation I hope this article will help you in sorting it out :)
-
-<div className="block-button"><h2>We are looking for iOS Developers</h2><div>Build with us the iOS application that will impact how Just Eat shapes the retail world. Or work for our other clients representing industries such as FinTech, Blockchain, HealthTech, and Logistics.</div><a href="/jobs/senior-ios-developer"><button>Apply and join our team</button></a></div>

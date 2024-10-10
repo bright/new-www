@@ -53,5 +53,3 @@ Developing all the features that you have imagined for your app may not only be 
 Idea for a software solution is only the beginning. It needs to be verified and sometimes modified to succeed. That is why building MVPs takes a major role in creating the final and successful product. 
 
 Contact the experienced [MVP development agency](/our-areas/mvp-development) to discuss your solution.
-
-<div className="block-button"><h2>Do you want to build a MVP?</h2><div>Since 2012 we have built MVPs for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk about your MVP</button></a></div>

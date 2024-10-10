@@ -53,5 +53,3 @@ Again, code reviewing is important for every app development. However, when it c
 Health apps should be simple for users. Although simplicity is definitely a trend in product design during health app development it should be taken even into the next level. **When you create an app that is supposed to check a patient's blood pressure, your product should be simple**. In contrast to entertaining or lifestyle apps you don’t need many fancy designs that attract users. An app for blood pressure checking has to eliminate every distraction even if it means that it is not very attractive for the human eye.
 
 **Read our another blog post if want to explore the topic of [UX design for healthcare and medical apps](/blog/ux-design-healthcare-medical-apps-case-study/).**
-
-<div className="block-button"><h2>looking for a healthtech consulting?</h2><div>Since 2012 we have developed eHealth products for clients from Germany, Norway, Israel, UK and more. Book a free consultation in 48 hours.</div><a href="/our-areas/healthcare-software-development/"><button>let's talk about your solution</button></a></div>

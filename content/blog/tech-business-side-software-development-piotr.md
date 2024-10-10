@@ -41,8 +41,6 @@ I sold my business and chose to freelance for a while and work on my own apps. I
 
 I recall coming across a job offer from Bright Inventions on a job board, but I didn't apply at that time. Soon after that, **I heard wonderful things about Bright Inventions (and [Ula](/about-us/ula/) in particular)** from a friend, so I decided to submit my application. This happened over four years ago. 🙂 Now I cannot imagine another career path for me.
 
-<div className="block-button"><h2>Join Piotr!</h2><div>We are looking for an experienced Senior Android Developer who is open and not afraid of sharing views and ideas openly with the team and clients.</div><a href="/jobs/senior-android-developer/"><button>apply now</button></a></div>
-
 ## How would you sum up these 4 years at Bright Inventions?
 
 I can say that it has been a period of rapid and profound learning. I don't just mean technical knowledge, but I've also deeply dived into the business aspects of software development. 

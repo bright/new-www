@@ -67,8 +67,6 @@ My main advice is to **ask clients as many questions as needed**. It often turns
 
 Working with startups brings a lot of challenges; **I never do the same thing every day**. Now, I get to work with AI, which offers the opportunity to delve into new areas of software development. In a startup, every day can present a different 'fire to put out.' And I don’t mean a massive bug on production. **It often involves a spontaneous idea that we need to implement right now**. So, there's no space to be bored here.
 
-<div class='block-button'><h2>Join Sławek</h2><div>We are a software development company based in Gdańsk, Poland. Check our job openings and join Sławek!</div><a href="/career/"><button>check job offers</button></a></div>
-
 ## You’ve been a part of Bright Inventions for over 3 years. What do you like about the company?
 
 I appreciate that, despite working remotely, the atmosphere at the company is very friendly and welcoming. The managers are highly accessible, allowing me to ask questions at any time, and any problems are resolved promptly. **I also value transparency and the absence of workplace politics**. We focus solely on our tasks and project challenges, with no toxic mind games.

@@ -52,8 +52,6 @@ I work in a team that develops ePOS solutions for an international company from 
 
 As many developers would probably agree – you often work on software that you are not even sure if it is used and if it really offers something meaningful to users. You just deliver some code and are far away from the business side of it. Maybe sometimes while working on milestone number 3 you will finally get some feedback about the first milestone which will change absolutely nothing about your work. That is the case for many software development companies and I am glad that at Bright we do not work like that. **We are partners to our clients and bring something more to the table than lines of code.** We get to work on the solution, business expectations and we can choose technologies and frameworks. Here you really influence your project.
 
-<div className="block-button"><h2>Do you want to join Filip?</h2><div>We are looking for iOS developers. Work with Filip and develop iOS applications for our clients from Germany, Norway, Israel, USA and more.</div><a href="/jobs/senior-ios-developer"><button>Apply and join Filip</button></a></div>
-
 ## At Bright Inventions we develop native mobile apps, but you worked closely with React Native before. What is your opinion about native vs hybrid apps development?
 
 Both approaches have their pros. And cons of course. 😉 I would not strike hybrid out completely. **We work on native apps because we deliver customized solutions which involve implementing the best possible user experience practices.** Also, we develop lots of solutions based on Bluetooth and here native is a better option. Or frankly – the only one.
@@ -71,8 +69,6 @@ When it comes to iOS, I think **2022 will be the year when we finally see what A
 ## You are going to conduct iOS workshops for devs outside our Bright Team. What will they be about?
 
 I will conduct workshops about new iOS feature - Live Activity. The workshops are designed for experienced juniors and fresh regulars. They will be held in Polish. Feel free to join. 
-
-<div className="block-button"><h2>Join FIlip's workshops about Live Activity</h2><div>Live Activity is available in iOS 16. Do you want to learn more about it? Join our free online workshops for iOS developers (juniors and mid). **When: April 19, 2023 at 1 PM.** </div><a href="https://live-activity-ios-darmowe-warsztaty.getresponsepages.com/"><button>book your spot</button></a></div>
 
 ## Finally, what do you do after hours? 😎
 

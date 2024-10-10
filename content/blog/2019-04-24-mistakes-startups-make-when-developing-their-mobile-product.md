@@ -8,9 +8,7 @@ extract: If you’ve ever worked at an early-stage startup, then I’m sure you 
 author: mateusz
 tags:
   - startups
-  - iOS
-  - Android
-  - MVP
+  - business strategy
 date: 2019-04-23T22:00:00.000Z
 meaningfullyUpdatedAt: 2023-07-28T06:23:18.264Z
 title: Mistakes Startups Make When Developing Their Mobile Product
@@ -58,5 +56,3 @@ Once the app goes live, a lot of early-stage startups make the mistake of focusi
 ## **Summary**
 
 To summarize, learn from the experiences of others. With the above startup mistakes in mind, you’ll avoid many time-consuming obstacles. This, in turn, will let you focus all your efforts on working towards a successful app store launch. Good luck!
-
-<div className="block-button"><h2>Looking for experienced software development agency?</h2><div>Over 60 products built for clients from Germany, Norway, Israel, UK and more. We help to scale businesses from startups to global solutions. Contact us to book a free consultation.</div><a href="/start-project"><button>let's talk about your product</button></a></div>

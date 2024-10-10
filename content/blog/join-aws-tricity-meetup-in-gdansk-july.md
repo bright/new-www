@@ -16,8 +16,6 @@ language: en
 ---
 **Time to meet again to discuss all AWS has to offer (and much more). Mark your calendars for July 10th at 5.00 PM, as we invite you to join us at the Gdańsk Entrepreneurship Incubator STARTER.**
 
-<div className="block-button"><h2>Join AWS Meeting in Gdańsk</h2><div>Sign up via Meetup. It's free!</div><a href="https://www.meetup.com/aws-tricity/events/294224874"><button>claim your spot now</button></a></div>
-
 Join our speakers: **Paweł** **Piwosz** and **Maciej Nawrocki** to dive into AWS CDK, Terraform, and… we will see! 😀 During the event, **you’ll get to choose the presentation topic Paweł will uncover**. **Presentations will be held in Polish**.
 
 ## AWS Tricity Meetup agenda

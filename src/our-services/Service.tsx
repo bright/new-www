@@ -1,42 +1,37 @@
+import React, { useRef, PropsWithChildren } from 'react'
 import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-import React, { PropsWithChildren, useRef } from 'react'
-import RatingClutch from '../assets/rating.svg'
-import { Projects } from '../components/home/Projects'
-import { FlexWrapper, MoreButton } from '../components/shared'
 import { Contact } from '../components/shared/Contact'
-import FaqsDropdown from '../components/shared/FaqsDropdown'
-import { CustomSection, CustomSectionInner, CustomSectionTitle, TextRegular } from '../components/shared/index.styled'
-import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
-import { Testimonial } from '../components/testimonial/Testimonial'
-import { useWindowSize } from '../components/utils/use-windowsize'
-import { routeLinks } from '../config/routing'
-import { FaqStructuredData } from '../FaqStructuredData'
-import { useClient } from '../hooks/useClient'
 import { Page } from '../layout/Page'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
-import { BoxesModel, ProjectModel, TestimonialModel } from '../models/gql'
-import { toBlogPost } from '../use-blog-posts/blog-post-frontmatter-query-result'
+import RatingClutch from '../assets/rating.svg'
+import { useWindowSize } from '../components/utils/use-windowsize'
+import { CustomSectionInner, CustomSection, TextRegular, CustomSectionTitle } from '../components/shared/index.styled'
+import { Projects } from '../components/home/Projects'
+import { routeLinks } from '../config/routing'
 import {
-  Box,
-  BoxDescription,
-  BoxesWrapper,
-  BoxImage,
-  BoxTitle,
-  BulletList,
-  BulletsList,
-  CloutchWrapper,
-  Content,
   CustomSectionOurService,
-  CustomSectionOurServiceImage,
-  MediaWrapper,
-  MobileOurServiceFlexWrapper,
-  MoreButtonOurServiceWrapper,
-  OurServiceFlexWraper,
+  ImageWrapper,
+  Content,
   OurServicePageTitle,
   OurServiceSection,
+  BulletList,
+  BulletsList,
+  ClutchWrapper,
+  MoreButtonOurServiceWrapper,
+  CustomSectionOurServiceMedia,
   Testimonials,
+  MobileOurServiceFlexWrapper, OurServiceFlexWrapper, BoxesWrapper, Box, BoxImage, BoxTitle, BoxDescription
 } from './Service.styled'
+import { FaqStructuredData } from '../FaqStructuredData'
+import { BoxesModel, ProjectModel, TestimonialModel } from '../models/gql'
+import { FlexWrapper } from '../components/shared'
+import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
+import { MoreButton } from '../components/shared'
+import FaqsDropdown from '../components/shared/FaqsDropdown'
+import { toBlogPost } from '../use-blog-posts/blog-post-frontmatter-query-result'
+import { useClient } from '../hooks/useClient'
+import { Testimonial } from '../components/testimonial/Testimonial'
 import { ServiceVideo } from './ServiceVideo/ServiceVideo'
 
 const PopularBlogPosts = React.lazy(() => import('../components/shared/PopularBlogPosts'))
@@ -89,6 +84,7 @@ export default function Template({
     testimonials,
     boxes,
     show_team,
+    video_file
   } = page
 
   const titleArr = title.split(' ')
@@ -105,7 +101,7 @@ export default function Template({
     <Page>
       <HelmetMetaData title={meta_title} description={meta_description} />
 
-      <OurServiceFlexWraper desktopItems='center' tabletDirection='column'>
+      <OurServiceFlexWrapper desktopItems='center' tabletDirection='column'>
         <CustomSectionOurService
           paddingProps='3.4375rem 0 0 15rem '
           paddingLaptop='3.4375rem 0 0 6rem'
@@ -141,39 +137,44 @@ export default function Template({
                 </MoreButton>
               </MoreButtonOurServiceWrapper>
 
-              <CloutchWrapper>
+              <ClutchWrapper>
                 <FlexWrapper desktopItems='center' desktopGap='18px' tabletContent='center' mobileContent='flex-start'>
                   <TextRegular>Clutch 4.9/5</TextRegular>
                   <RatingClutch />
                 </FlexWrapper>
-              </CloutchWrapper>
+              </ClutchWrapper>
             </FlexWrapper>
           </MobileOurServiceFlexWrapper>
         </CustomSectionOurService>
-        <CustomSectionOurServiceImage
+        <CustomSectionOurServiceMedia
           paddingProps='3.5rem 15rem 0 0'
           paddingLaptop='3.5rem 6rem 0 0'
           paddingTabletXL='3.5rem 8.5625rem 0 0 '
           paddingTablet='2rem 0 0 0'
           paddingMobileProps='2rem 0 0 0'
         >
-          <MediaWrapper>
-            {false ? (
-              <></>
-            ) : (
-              // <ServiceVideo videoFile={video_file} />
-              <>
-                {width >= breakpointTablet && typeof window !== 'undefined' && desktopImage && (
-                  <GatsbyImage image={desktopImage} alt={image_alt_our_service} className='about-media' />
-                )}
-                {width < breakpointTablet && typeof window !== 'undefined' && mobileImage && (
-                  <GatsbyImage image={mobileImage} alt={image_alt_our_service} className='about-media' />
-                )}
-              </>
+        {video_file ? (
+          <ServiceVideo videoFile={video_file} />
+        ) : (
+        <>
+          <div>
+            {width >= breakpointTablet && typeof window !== 'undefined' && (
+              <ImageWrapper>
+                {desktopImage && <GatsbyImage image={desktopImage} alt={image_alt_our_service} className='about-img' />}
+              </ImageWrapper>
             )}
-          </MediaWrapper>
-        </CustomSectionOurServiceImage>
-      </OurServiceFlexWraper>
+          </div>
+          <div>
+            {width < breakpointTablet && typeof window !== 'undefined' && (
+              <ImageWrapper>
+                {mobileImage && <GatsbyImage image={mobileImage} alt={image_alt_our_service} className='about-img' />}
+              </ImageWrapper>
+            )}
+          </div>
+        </>
+        )}
+      </CustomSectionOurServiceMedia>
+      </OurServiceFlexWrapper>
 
       <CustomSection
         paddingProps='0 15rem 6.5rem 15rem'
@@ -407,6 +408,7 @@ export const pageQuery = graphql`
         description_contact
         name
         language
+        video_file
         image_our_service_mobile {
           childImageSharp {
             gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE, webpOptions: { quality: 100 })

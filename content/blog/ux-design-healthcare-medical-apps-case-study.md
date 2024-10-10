@@ -108,8 +108,6 @@ Clear communication about statuses is [the first of Jakob Nielsen’s ten heuris
 
 UX design in [healthcare software development](/our-areas/healthcare-software-development/) is all about managing the data. So users are able to... manage data as well. Sometimes these apps cannot be full of beautiful designs because this is simply not what users expect. Yet still, eHealth apps do their job and support medical staff actions. And these are the product design’s true colors. Good design exists only if it works. Isn’t that pure beauty indeed?
 
-<div className="block-button"><h2>book a free consultation</h2><div>Discuss your product design challenges with our experts. Booka meeting in 48 hours.</div><a href="/start-project"><button>let's talk about your solution</button></a></div>
-
 - - -
 
 Special thanks to [Alisa](https://www.linkedin.com/in/alisa-kashytska-a38417b1/) for her inspiration and contribution.

@@ -267,5 +267,3 @@ By following the instructions in this article, **you'll be able to easily set up
 
 ***All of the code (with working CI/CD for 2 environments) you can find here:***
 https://gitlab.com/adam.waniak11/ci-cd-demo-app
-
-<div className="block-button"><h2>We are looking for backend developers (TS, Node.js)</h2><div>Work on projects such as the blockchain platform for a top global humanitarian agency, accounting software, or web therapy application.</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>

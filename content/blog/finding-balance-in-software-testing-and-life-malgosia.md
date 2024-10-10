@@ -32,8 +32,6 @@ What drives me in my QA role is the unique set of challenges each project presen
 
 Throughout my career, I've encountered the mindset that 'we don’t have time to write automated tests,' but in reality, automation actually saves time. When we're not required to test everything manually, the quality of the product usually improves. Reaching this point in a project is incredibly satisfying. 🙂
 
-<div class='block-button'><h2>Join Małgosia</h2><div>We are looking for a business-oriented QA Engineer (regular exp.) to join one of our project teams responsible for building a Card Tracking System for one of the global humanitarian organisations.</div><a href="/jobs/qa-engineer/"><button>apply now</button></a></div>
-
 ## What is your recipe for successful cooperation with programmers?
 
 **It’s a continuous learning process because throughout your career, you work with various people, each with different personalities**. Everyone has their own priorities in projects, and sometimes it can be challenging to persuade someone to see things from your perspective and to focus on your priorities. 

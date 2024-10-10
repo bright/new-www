@@ -81,5 +81,3 @@ When it comes to a physical meeting with domain experts and facilitating on-site
 I will go first with the most obvious choice which is **“Domain-Driven Design: Tackling Complexity in the Heart of Software” by Eric Evans**. He is the author of DDD and the book contains his huge experience standardized and written down. I wouldn’t recommend it for very beginners though. The language used by Evans is quite sophisticated and those 500+ pages might be overwhelming for newbies. 
 
 I would start with some blog posts and presentations as an introduction to DDD to get the basics, then move to some implementation examples in Your favorite technology and finally go to the Bible.
-
-<div className="block-button"><h2>We are looking for backend developers (TS, Node.js)</h2><div>Join our team and create better code with DDD. Check out our offer.</div><a href="/jobs/senior-backend-developer-typescript/"><button>Apply and join our team</button></a></div>

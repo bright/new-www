@@ -69,5 +69,3 @@ You **pay only for the real time spent on the project and the resources** (mater
 * During the maintenance phase the client can pay for some amount of hours when a software development team is available if something has to be fixed or changed. Even if nothing happens during those hours the client is secured in case some problems occur. It is less expensive than waiting for availability of a software development company after you deal with issues in production that affect your users.
 
 What is the best pricing model for you? Let us know in the comments!
-
-<div className="block-button"><h2>Looking for a software development company?</h2><div>Let's make your solution bright! Book a free consultation to discuss your product or idea. Contact us and we will get back to you within 48 hours.</div><a href="/start-project/"><button>book a free consultation</button></a></div>

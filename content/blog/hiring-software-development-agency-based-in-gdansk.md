@@ -123,5 +123,3 @@ Gdansk is a great city to experience beach sunsets, sailing, historical sightsee
 ## See you in Gdańsk? 😉
 
 We hope that you have unlocked the potential Gdańsk has. If you are looking for a software agency based in Gdansk, reach out to our team.
-
-<div className="block-button"><h2>meet best software development studio in Gdańsk</h2><div>Contact us to discuss your idea or software solution. We have been developing digital products since 2012 for clients from Norway, Israel, Germany, the UK, Israel, the USA, and more.</div><a href="/our-areas/gdansk-software-company/"><button>meet for a coffee</button></a></div>

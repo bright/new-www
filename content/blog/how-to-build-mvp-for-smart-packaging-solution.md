@@ -213,5 +213,3 @@ Whether you decide to build native or hybrid applications (one app for both Goog
 **Project management & documentation**: Jira, Figma, Github, Notion, Miro, GitHub Actions
 
 **Product design**: Figma, Adobe, Miro
-
-<div className="block-button"><h2>Ready to take your solution to the next level?</h2><div>Schedule a free consultation with our team. We'll provide expert insights within 48 hours.</div><a href="https://brightinventions.pl/start-project/"><button>let's talk about your product</button></a></div>

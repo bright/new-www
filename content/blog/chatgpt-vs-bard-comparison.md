@@ -22,8 +22,6 @@ language: en
 
 It’s not something new to include AI in software development. However, products like ChatGPT moved AI to the mainstream and showed globally its potential. If you think about implementing AI chats in your software products, first **check out the main differences between the two best-known AI chats** at the moment.
 
-<div className="block-button"><h2>Do you want to use AI in your software?</h2><div>Contact us if you want to enhance your software with AI to shorten development time and stay ahead of your competition.</div><a href="/start-project"><button>let's talk about your product</button></a></div>
-
 ## Finally, Bard AI is here (if you are in the US or UK)
 
 March 2023 is full of more exciting updates about ChatGPT and Bard AI:
@@ -96,5 +94,3 @@ When it comes to Bard not many people had the opportunity to test its “truthfu
 ## Using AI in software development
 
 We will **continue to observe the development of ChatGPT as well as the beginnings of Bard**. We will let you know how you could implement it for your business. **If you want to know more about using AI in your software products, just [contact us](/start-project/) and book a free consultation**.
-
-<div className="block-button"><h2>Looking for AI software experts?</h2><div>Let's talk about AI in your business. Contact us and we will get back to you in 48 hours.</div><a href="/start-project"><button>let's talk about AI</button></a></div>

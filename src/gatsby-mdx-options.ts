@@ -39,6 +39,9 @@ export const gatsbyMdxOptions = {
     },
     {
       resolve: `gatsby-remark-mdx-relative-images`,
+      options: {
+        exclude: ['video_file'],
+      }
     },
     {
       resolve: `gatsby-remark-copy-linked-files`,
@@ -51,10 +54,10 @@ export const gatsbyMdxOptions = {
         // base for generating different widths of each image.
         maxWidth: 960,
         linkImagesToOriginal: false,
-      },
+      }
     },
     {
-      resolve: `gatsby-remark-autolink-headers`,
+      resolve: `gatsby-remark-autolink-headers`
     },
-  ],
+  ]
 }

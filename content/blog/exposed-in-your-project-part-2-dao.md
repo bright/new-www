@@ -244,5 +244,3 @@ In this article, we've learned how to refactor DSL to DAO approach in JetBrains/
 You can find the complete code [over GitHub.](https://github.com/bright/kotlin-exposed-dao-example)
 
 **In the next part of this tutorial you'll learn [how to implement JSON support in our JetBrains/Exposed app](/blog/exposed-in-your-project-json-support/).** Read it!
-
-<div className="block-button"><h2>Help us paint a bright future. Backend devs wanted! </h2><div>We are looking for an experienced Backend Developer who understands Java/Kotlin & Spring really well and who would like to work with AWS on a daily basis.</div><a href="/jobs/senior-backend-developer/"><button>apply now</button></a></div>

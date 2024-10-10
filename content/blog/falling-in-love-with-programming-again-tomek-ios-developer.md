@@ -29,8 +29,6 @@ So I decided to study **Nuclear Power Engineering** at Warsaw University of Tech
 
 At my first full-time job, **I had a chance to build a power plant simulator**. I felt so limited because **I didn’t have access to the source code**. It was a constant struggle to work with logic blocks when you didn’t have access to the underlying algorithm. I tried to manage on my own, looking for reasons for problems. In the end, finding solutions felt super satisfying. I even **wrote my first commercial application to improve power plant simulations**. I was going deeper and deeper into programming.
 
-<div className="block-button"><h2>Do you want to join Tomek?</h2><div>We are looking for iOS developers. Work with Tomek and develop iOS applications for global FoodTech company.</div><a href="/jobs/senior-ios-developer/"><button>apply and join our team</button></a></div>
-
 What’s more, my two friends were programming in iOS. So I started to learn with them. We even **developed an app for Warsaw University**. At that time the entry threshold to iOS development was high because you had to buy expensive Apple devices. So more people chose Android development because they already had a computer with Windows or Linux to work on. That’s why **we felt it might be easier to establish ourselves in iOS development because the competition would be lower**. 
 
 Finally, I decided to focus completely on programming. I moved to Northern Poland to work as an iOS developer in a local company.
@@ -94,5 +92,3 @@ My wife planned a **surprise birthday trip** for me. We went to **Wrocław**. An
 Also, we’ve just come back from **Vietnam**. We spent three weeks there. It was a **totally new experience for me**. It’s a very wild and friendly country at the same time. 
 
 We will see what other adventures this year brings…
-
-<div className="block-button"><h2>Ready to join Tomek?</h2><div>Check out our openings. Build solutions for startup from Israel, USA or Germany.</div><a href="/career/"><button>check career opportunities</button></a></div>

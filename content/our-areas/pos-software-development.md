@@ -37,7 +37,7 @@ title: grow your business with custom POS software development
 highlighted_word: custom POS
 image_our_service_desktop: /images/pos_software_development_web.png
 image_our_service_mobile: /images/pos_software_development_mobile.png
-video_file: /images/pos_software_development_mobile.png
+video_file: /images/prompt_pos_integration_story_new.mp4
 image_alt_our_service: POS software development
 bullet_points:
   - integrations with retail devices and third-party systems
@@ -113,7 +113,6 @@ blog_section: false
 blog_section_tags:
   - business strategy
 blog_section_title: our team insights
-video_url: https://www.youtube.com/watch?v=WSS7EgDths8
 testimonials:
   - testimonials_quote: "*Compared to everyone else, bright inventions doesn’t
       promise things they can’t deliver. \\[...]. The best thing about them is
