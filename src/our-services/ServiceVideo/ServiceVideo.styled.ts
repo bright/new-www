@@ -9,9 +9,7 @@ export const VideoWrapper = styled.div`
 
   video {
     width: 100%;
-    height: 100%;
-    max-width: 640px;
-    max-height: 360px;
+    max-width: 960px;
   }
 
   @media ${variables.deviceWidthMin.tablet} {
