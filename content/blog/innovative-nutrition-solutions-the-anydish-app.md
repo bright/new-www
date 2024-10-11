@@ -13,13 +13,13 @@ comments: true
 published: true
 language: en
 ---
-At [the HLTH Conference in Amsterdam](https://europe.hlth.com/) this June, Agata Bielówka spoke with [Michal Kahan](https://www.linkedin.com/in/michal-kahan-a4735559/), founder of [Anydish](https://www.anydish.me/), about their innovative solution for health practitioners. Michal explained how the Anydish app simplifies the use of disease-specific nutritional protocols, offering customizable, time-saving tools for healthcare professionals.
+At [the HLTH Conference in Amsterdam](https://europe.hlth.com/) this June, Agata Bielówka spoke with [Michal Kahan](https://www.linkedin.com/in/michal-kahan-a4735559/), founder of [anydish](https://www.anydish.me/), about their innovative solution for health practitioners. Michal explained how the anydish app simplifies the use of disease-specific nutritional protocols, offering customizable, time-saving tools for healthcare professionals.
 
 A recent update to the platform includes a protocol tailored for patients on weight loss medications like Ozempic and Wegovy, addressing side effects such as unintended loss of lean body mass and essential vitamins. Kahan also shared insights into their technology, the challenges they face, and the trends driving personalized nutrition in healthcare.
 
 ## Can you briefly describe yourself and your solution?
 
-Our solution is for health providers. Health providers could be physicians, functional medicine practitioners, dieticians, or nutritional doctors or therapists. **When they see a patient and get diagnostic test results, especially those with complex medical situations, they often don't know what to do with them. Neither the patients nor the practitioners.**
+Our solution is for health providers. Health providers could be physicians, functional medicine practitioners, dieticians, or nutritional doctors or therapists. When they see a patient, review diagnostic test results, and consider complex medical situations, it becomes difficult to provide a truly personalized solution, especially when it comes to recipes and nutrition plans.
 
 **Our solution helps both the health practitioner and the patient.**
 
@@ -33,15 +33,15 @@ source: [https://anydish.me/](anydish.me)
 
 ## **Are your users mostly individuals, but payers are practitioners?**
 
-Yes, we sell to health providers who offer it to their patients. They have a dashboard to build a nutritional prescription for each patient, and the patient adds their own preferences through the app. Practitioners often bundle the Anydish cost into their service and up-sell it.
+Yes, we sell to health providers who offer it to their patients. They have a dashboard to build a nutritional prescription for each patient, and the patient adds their own preferences through the app. Practitioners often bundle the anydish cost into their service and up-sell it.
 
 ## **Where did the idea come from?**
 
-My wife’s business partner’s daughter was diagnosed with type 1 diabetes at a late age, which was a big change for their family. She found that existing diabetes-friendly recipes were chaotic and often incorrect. That's how we realized there was a problem to solve. **Our entire company believes in food as medicine.**
+My business partner’s daughter was diagnosed with type 1 diabetes at a late age, which was a big change for their family. She found that existing diabetes-friendly recipes were chaotic and often incorrect. That's how we realized there was a problem to solve. **Our entire company believes in food as medicine.**
 
 ## **What are the top tech challenges you faced?**
 
-Language is a big challenge. **We use AI and NLP technology, so we can't just use Google Translate**. We're working on adding language models (LLM) that will help support translation to other languages, among other improvements. We also face challenges with making our solution accessible and integrating it with diagnostic tests.
+Supporting additional languages is a challenge. **We use AI and NLP technology, so we can't just use Google Translate**. We're working on adding language models (LLM) that will help support translation to other languages, among other improvements. We also are making our solution accessible and integrating it with diagnostic tests.
 
 ## **What markets are you in right now?**
 
@@ -49,7 +49,7 @@ We're in the UK, the US, and other English-speaking countries. We're planning to
 
 ## **How does your company ensure medical credibility and accuracy?**
 
-We don't make our own recommendations. Practitioners sign off on the prescriptions based on diagnostic tests or their own knowledge. We translate this into actionable, real food options using our technology.
+We don't make our own recommendations. Practitioners sign off on the patient’s profile based on diagnostic tests or their own knowledge. We translate this into actionable, real food options using our technology.
 
 <div className="image">![nutrition solution](/images/baner_final-quote-anydish.png "anydish")</div>
 
@@ -59,7 +59,7 @@ We always look for websites about wellness. Our company nutritionist sorts them 
 
 ## **What do you do in your free time?**
 
-I like sports. I swim, jog, do Pilates, and yoga. I also do ceramics once a week.
+I like sports. I swim, jog, do pilates, and yoga. I also do ceramics once a week.
 
 ## **What trends do you see in the health industry?**
 
