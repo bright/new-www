@@ -5,7 +5,7 @@ tags:
 date: 2024-10-11T07:58:28.150Z
 meaningfullyUpdatedAt: 2024-10-11T07:58:28.178Z
 slug: nutrition-solution-anydish
-title: "Innovative Nutrition Solutions: The Anydish App"
+title: "Tailored Nutrition Solutions: The Anydish App"
 layout: post
 hidden: false
 comments: true
@@ -25,6 +25,10 @@ Our solution is for health providers. Health providers could be physicians, func
 ## **How does it work?**
 
 We have an AI that takes any online recipe from websites about healthy lifestyle, analyzes it, and indexes it by nutritional values and other criteria. Health practitioners use our web tool to build a nutritional prescription for their patients based on diagnostic test results or their own knowledge. Patients then download an app that provides them with personalized recipes matching their profile.
+
+<div className="image">![anydish](/images/screenshot-2024-10-11-at-13.27.46.png "nutrition solution")</div>
+
+source: [https://anydish.me/](anydish.me)
 
 ## **Are your users mostly individuals, but payers are practitioners?**
 
@@ -46,9 +50,11 @@ We're in the UK, the US, and other English-speaking countries. We're planning to
 
 We don't make our own recommendations. Practitioners sign off on the prescriptions based on diagnostic tests or their own knowledge. We translate this into actionable, real food options using our technology.
 
+<div className="image">![nutrition solution](/images/baner_final-quote-anydish.png "anydish")</div>
+
 ## **Do you have any inspirational podcasts or news sites you follow?**
 
-We always look for healthy websites. Our company nutritionist sorts them before we analyze them. We follow trends like GLP-1 usage for diabetes and weight loss and build solutions for those cases.
+We always look for websites about wellness. Our company nutritionist sorts them before we analyze them. We follow trends like GLP-1 usage for diabetes and weight loss and build solutions for those cases.
 
 ## **What do you do in your free time?**
 
