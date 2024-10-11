@@ -72,6 +72,39 @@ blog_section: false
 blog_section_tags:
   - HealthTech
 blog_section_title: our team’s insights into AI development
+testimonials:
+  - testimonials_quote: "*Compared to everyone else, bright inventions doesn’t
+      promise things they can’t deliver. \\[...]. The best thing about them is
+      that I can count on their actions.* [Read more on
+      Clutch](https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c9\
+      8c/293369)."
+    testimonials_author: Dorian Koch
+    testimonials_photo: /images/dorian.jpeg
+    testimonials_position: Co-Founder & Former CEO
+    testimonials_company: MedKitDoc
+  - testimonials_quote: "*Their attention to detail and scrutiny when dealing with
+      technical challenges is noteworthy.* [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-83595)."
+    testimonials_author: Adam Pachucki
+    testimonials_position: Head of Product
+    testimonials_company: Finebite
+    testimonials_photo: /images/adam_pachucki.jpeg
+  - testimonials_quote: "*Working with Bright Inventions is always a pleasure. The
+      people involved are friendly and to the point. They’re also pragmatic,
+      constructive, and punctual*. [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-54300)."
+    testimonials_author: Kira Nezu
+    testimonials_position: Project Manager
+    testimonials_company: AppAdvisors GmbH
+    testimonials_photo: /images/kira_nezu.jpeg
+  - testimonials_quote: "*Bright inventions and the whole team is always with full
+      heart at the project, understands our logic and intention behind and
+      respects our requests and demands*. [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-149237)."
+    testimonials_author: Matthias Potthast
+    testimonials_position: Founder
+    testimonials_company: Relevo
+    testimonials_photo: /images/matthias_potthast.png
 show_team: true
 ---
 ## healthtech consulting
