@@ -97,6 +97,14 @@ testimonials:
     testimonials_position: Project Manager
     testimonials_company: AppAdvisors GmbH
     testimonials_photo: /images/kira_nezu.jpeg
+  - testimonials_quote: "*Bright inventions and the whole team is always with full
+      heart at the project, understands our logic and intention behind and
+      respects our requests and demands*. [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-149237)."
+    testimonials_author: Matthias Potthast
+    testimonials_position: Founder
+    testimonials_company: Relevo
+    testimonials_photo: /images/matthias_potthast.png
 show_team: true
 ---
 ## healthtech consulting
