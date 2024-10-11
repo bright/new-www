@@ -8,7 +8,7 @@ slug: nutrition-solution-anydish
 title: "Tailored Nutrition Solutions: The Anydish App"
 layout: post
 image: /images/baner_final-6-.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
