@@ -16,8 +16,7 @@ At [the HLTH Conference in Amsterdam](https://europe.hlth.com/) this June, Agata
 
 A recent update to the platform includes a protocol tailored for patients on weight loss medications like Ozempic and Wegovy, addressing side effects such as unintended loss of lean body mass and essential vitamins. Kahan also shared insights into their technology, the challenges they face, and the trends driving personalized nutrition in healthcare.
 
-## 
-**Can you briefly describe yourself and your solution?**
+## Can you briefly describe yourself and your solution?
 
 Our solution is for health providers. Health providers could be physicians, functional medicine practitioners, dieticians, or nutritional doctors or therapists. **When they see a patient and get diagnostic test results, especially those with complex medical situations, they often don't know what to do with them. Neither the patients nor the practitioners.**
 
@@ -62,4 +61,5 @@ GLP-1 usage and the increase in people with multiple diseases. A proper diet com
 We're also seeing a rise in personalized medicine, tailoring treatments to individual needs. Preventative care is gaining importance, including the crucial role of personalized nutrition in overall health. One specific trend I find interesting is the increasing use of **GLP-1 medications** for managing chronic diseases. However, managing multiple chronic conditions (multimorbidity) is another growing concern. This is where personalized nutrition can be a valuable tool. By ensuring patients receive dietary plans that complement medication and address specific needs, we can potentially enhance overall health outcomes.
 
 ## **I appreciate your solution. Looking forward to seeing it in Poland. Thank you for your time.**
+
 Thank you.
