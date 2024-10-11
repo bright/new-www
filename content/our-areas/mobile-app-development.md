@@ -72,6 +72,39 @@ blog_section_title: blog posts
 image_alt_our_service_desktop: Mobile development company
 blog_section: false
 intro: Our team has broad experience in building applications for iOS and Android.
+testimonials:
+  - testimonials_quote: "*Compared to everyone else, bright inventions doesn’t
+      promise things they can’t deliver. \\[...]. The best thing about them is
+      that I can count on their actions.* [Read more on
+      Clutch](https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c9\
+      8c/293369)."
+    testimonials_author: Dorian Koch
+    testimonials_photo: /images/dorian.jpeg
+    testimonials_position: Co-Founder & Former CEO
+    testimonials_company: MedKitDoc
+  - testimonials_quote: "*Their attention to detail and scrutiny when dealing with
+      technical challenges is noteworthy.* [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-83595)."
+    testimonials_author: Adam Pachucki
+    testimonials_photo: /images/adam_pachucki.jpeg
+    testimonials_position: Head of Product
+    testimonials_company: Finebite
+  - testimonials_quote: "*Working with Bright Inventions is always a pleasure. The
+      people involved are friendly and to the point. They’re also pragmatic,
+      constructive, and punctual*. [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-54300)."
+    testimonials_author: Kira Nezu
+    testimonials_position: Project Manager
+    testimonials_company: AppAdvisors GmbH
+    testimonials_photo: /images/kira_nezu.jpeg
+  - testimonials_quote: "*Bright inventions and the whole team is always with full
+      heart at the project, understands our logic and intention behind and
+      respects our requests and demands*. [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-149237)."
+    testimonials_author: Matthias Potthast
+    testimonials_position: Founder
+    testimonials_company: Relevo
+    testimonials_photo: /images/matthias_potthast.png
 show technology stack: true
 image_alt_our_service_mobile: Mobile development company
 show case study: true
@@ -87,16 +120,16 @@ show_team: true
 ---
 ## mobile app development services
 
-As a mobile app development company, we specialise in iOS and Android software development.
+As a mobile app development company, we specialize in iOS and Android software development.
 
 ### iOS app development & maintenance
 
-If you want to create a native iOS app for Apple users, then you’re in great hands. Throughout the years, we’ve worked on iOS projects of all levels of complexity – from simple projects for startups and mid-sized companies to complex apps for well-established, global brands.
+If you want to create a **native iOS app for Apple users**, then you’re in great hands. Throughout the years, we’ve worked on iOS projects of all levels of complexity – **from simple projects for startups and mid-sized companies to complex apps** for well-established, global brands.
 
 Regardless of whether you’re looking to develop your app from scratch, or searching for a team to take over an existing app’s maintenance and further development – reach out. We might just be the perfect match!
 
 ### Android app development & maintenance
 
-Our mobile app developers will help you build an impressive presence among Android device users. We’ve worked on building native apps at all stages of development – from ideation and app design to launching and maintaining your app on Google Play store.
+Our mobile app developers will help you build an impressive presence among Android device users. We’ve worked on building n**ative apps at all stages of development** – from ideation and app design to launching and maintaining your app on Google Play store.
 
 You can count on our expert Android developers to help choose the very best technology stack for your project. Reach out to learn more!
