@@ -20,7 +20,7 @@ This article draws on some insights from the industry experts at the 2024 HLTH E
 
 <div className="image">![interoperability medical standards](/images/image-9-.png "source: https://xkcd.com/")</div>
 
-source: https://xkcd.com/\
+source: https://xkcd.com/ \
 \
 **The importance of interoperability in healthcare**
 
