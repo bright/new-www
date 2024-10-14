@@ -98,7 +98,7 @@ For backend, our developers chose Ruby-on-Rails – specifically, they worked wi
 
 <div className="image">![Finebite app designs](/images/in_text_finebite_mockups.png "Finebite app designs")</div>
 
-<sub> Mockup examples designed by Finebite's Product Design Team. <sub>
+<center><sub> Mockup examples designed by Finebite's Product Design Team. </sub></center>
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
