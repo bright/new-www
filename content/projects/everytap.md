@@ -96,6 +96,10 @@ We decided to turn to iBeacon – a Bluetooth-based technology. For this purpose
 
 For backend, our developers chose Ruby-on-Rails – specifically, they worked with MongoDB and Heroku. The product design team was also engaged in the process – we equipped the app with plenty of custom animations and UI effects, designed to help navigate the app.
 
+<div className="image">![Finebite app designs](/images/in_text_finebite_mockups.png "Finebite app designs")</div>
+
+<sub> Mockup examples designed by Finebite's Product Design Team. <sub>
+
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 <TitleWithIcon sectionTitle="launch" titleIcon="/images/gearwheel.svg" titleIconAlt="launch" />
