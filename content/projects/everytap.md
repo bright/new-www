@@ -11,10 +11,10 @@ layout: project
 project_id: finebite
 title: "Finebite’s Successful Pivot Story: Loyalty App Hits 500K Users with New
   Reservation Feature"
-image: /images/foodapp_ingredients.png
+image: /images/case_study_cover_finebite.png
 description: Finebite app helps to discover the best restaurants in the biggest
   Polish cities. Finebite originated from a very popular loyalty app – Everytap.
-hero_image: /images/case_study_dining_booking_app.png
+hero_image: /images/case_study_app_finebite.png
 Hero Image_alt: "Finebite (Everytap) "
 social_media_previev: /images/fb_preview_case_study_finebite.png
 social_media_previev_alt: Finebite (Everytap) case study
@@ -64,10 +64,6 @@ Since Everytap first launched in 2014, it has steadily transformed from a restau
 
 Bright Inventions has worked on the ideation and development of both platforms, as discussed below.
 
-![food app development](../../static/images/foodapp_spinach.png)
-
-<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
-
 As of late 2019, the service is present in 3 countries – 7 biggest cities in Poland, as well as Berlin and Lviv, and features over 400 partner restaurants.
 
 Apart from an online reservation feature, Finebite also currently offers a truly unbeatable perk – 50% off the entire menu in return for an online review or filling in a restaurant survey. This, in turn, lets restaurants acquire more guests during off-peak hours, receive more reviews, and collect feedback privately.
@@ -85,10 +81,6 @@ Bright Inventions has been a partner of Everytap and Finebite from the company�
 Back in 2014, the founders have entrusted us with developing an app that would revolutionize the way restaurant visitors participate in loyalty programs, and encourage them to dine out more frequently. Initially known as Everytap, the service was to substitute physical discount cards with a more visually-appealing, interactive alternative that would let them collect points/stamps in the app.
 
 With this idea in mind, the founders have asked for our assistance in verifying the concept against the market and building two native apps for iOS and Android. The app was to leverage users’ geolocalization to show personalized deals at nearby restaurants and allow them to collect loyalty points upon payment.
-
-![Restaurant reservation app](../../static/images/foodapp_trio2.png)
-
-<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
@@ -127,10 +119,6 @@ And so, our teams have once again joined forces to bring Finebite to the market.
 From a technological standpoint, the key difference between both apps was that we chose not to reuse the same technologies. And so, for Finebite we decided to drop Java in favor of Kotlin (Android) and substituted Objective-C with Swift (iOS).
 
 From a user’s perspective, the app is now much more intuitive, features a cohesive design, and offers top-notch performance.
-
-![food app development](../../static/images/foodapp_pumpkin.png)
-
-<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
 <TitleWithIcon sectionTitle="client’s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="client’s perspective" />
 
