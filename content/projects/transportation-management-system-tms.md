@@ -4,10 +4,10 @@ team_members:
   - kasia
   - joanna-c
   - radek
-  - wojciech
   - maciej-s
   - katarzyna-b
   - wojciech-k
+  - michal-ku
 our_service:
   - MVP development
   - product design
