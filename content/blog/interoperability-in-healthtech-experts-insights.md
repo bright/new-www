@@ -18,9 +18,7 @@ This cycle highlights **the challenge of achieving true interoperability in heal
 \
 This article draws on some insights from the industry experts at the 2024 HLTH Europe Conference and includes valuable perspectives from our team of specialists in telemedicine app development.
 
-<div className="image">![interoperability medical standards](/images/image-9-.png "source: https://xkcd.com/")</div>
-
-source: https://xkcd.com/ \
+\
 \
 **The importance of interoperability in healthcare**
 
