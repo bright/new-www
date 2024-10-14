@@ -1,9 +1,9 @@
 ---
 team_members:
   - kasia
-  - wojciech
   - rafal h
   - klaudiusz
+  - michal
 our_service:
   - web development
   - MVP development
