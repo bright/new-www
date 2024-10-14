@@ -20,7 +20,9 @@ This article draws on some insights from the industry experts at the 2024 HLTH E
 
 <div className="image">![interoperability medical standards](/images/image-9-.png "source: https://xkcd.com/")</div>
 
-## **The importance of interoperability in healthcare**
+source: https://xkcd.com/\
+\
+**The importance of interoperability in healthcare**
 
 Interoperability in healthcare is like having a universal remote for every gadget in your home. Dr. Adam Brown from ABIG Health highlights its necessity, stating, "The ability for different systems to communicate has a profound impact on patients getting the right care," emphasizing that interoperability is as crucial as having a good WiFi signal during a Netflix watch.
 
