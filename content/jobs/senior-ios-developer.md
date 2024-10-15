@@ -6,8 +6,8 @@ imagejob: /images/team-job-offer-2-.png
 image-alt-job: iOS Development Team Bright Inventions
 hours: full-time
 salary: 135 - 162 PLN/hour + VAT (B2B) 16 600 - 19 920 PLN gross (UoP)
-salary_min: ""
-salary_max: ""
+salary_min: 135
+salary_max: 19920
 working time: full time
 technology:
   - Swift
