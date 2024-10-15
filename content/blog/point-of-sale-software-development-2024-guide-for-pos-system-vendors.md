@@ -150,7 +150,7 @@ When developing a POS system, it's critical to ensure [GDPR](https://gdpr-info.e
 
 ### Compliance with PCI DSS for payment processing
 
-To protect sensitive payment information, your POS system must comply with PCI DSS standards. This involves implementing data obfuscation techniques, two-fold protection of cardholder data, encryption of transmitted data, and the creation and maintenance of access logs.
+To protect sensitive payment information, your POS system must comply with the [PCI Data Security Standard (PCI DSS)](https://www.pcisecuritystandards.org/standards/pci-dss/). This involves implementing data obfuscation techniques, two-fold protection of cardholder data, encryption of transmitted data, and the creation and maintenance of access logs.
 
 Check how to get access to POS data to optimize your payment solutions at the same adhering to security regulations. Our POS application development team faced that challenge while building the [bill split feature](/projects/pos-bill-splitting/).
 
