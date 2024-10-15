@@ -156,6 +156,8 @@ To protect sensitive payment information, your POS system must comply with the 
 
 Check **how to get access to POS data to optimize your payment solutions at the same adhering to security regulations**. Our POS application development team **faced that challenge while building the [bill split feature](/projects/pos-bill-splitting/)**.
 
+<YouTubeEmbed url='https://youtu.be/gwM0SnHACMs' />
+
 ### Adherence to local tax law
 
 Your POS system must integrate with local tax rules, including **calculating the correct sales tax and generating tax-compliant receipts**. This may involve adapting the software to meet region-specific tax regulations, such as VAT or GST, and keeping up with changes in local tax laws to ensure ongoing compliance.
