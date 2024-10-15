@@ -47,8 +47,14 @@ POS systems are versatile solutions that **consist of dozens of features, additi
 * **Splitting the Bill**: Divide the bill between guests.
 * **Kitchen Display System**: Digital kitchen orders.
 * **Kiosk Integration**: Self-service options.
-* **Offline Mode**: Operate without internet.
+* **Offline Mode**: Operate without internet and sync the POS system's data as soon as the internet connection is restored.
 * **Cloud-Based POS**: Access from anywhere.
 * **Delivery Management**: Manage deliveries efficiently.
 * **Order Sync with Marketplace**s: Integrate with delivery platforms.
 * **Caller ID**: Recognize repeat customers.
+
+## Developing a POS: Cloud POS or On-premise POS
+
+Cloud POS and on-premise POS systems differ in their infrastructure and setup. A cloud POS operates through the internet, offering flexibility, remote access, and automatic updates. It's easier to scale but requires a reliable internet connection which can be an issue in restaurant or hotel environments. On the other hand, traditional POS involves hosting software and hardware locally, which gives businesses more control but requires regular maintenance and higher upfront costs.
+
+When you build a POS system, consider business needs: cloud POS excels in flexibility and lower initial costs, while on-premise POS offers better control and offline POS capabilities.
