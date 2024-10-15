@@ -108,6 +108,6 @@ Additionally, **having a POS with an integrated [delivery drivers app](/projects
 
 ### Integration with printers (and other POS hardware)
 
-Issues with printers are one of the most frustrating tech problems for POS end users – busy waitstaff or hotel staff can't afford delays caused by printers that fail to print receipts or invoices. Therefore, POS development teams often face many challenges in ensuring smooth and reliable printer integration. 
+**Issues with printers are one of the most frustrating tech problems for POS end users** – busy waitstaff or hotel staff can't afford delays caused by printers that fail to print receipts or invoices. Therefore, POS development teams often face many challenges in ensuring smooth and reliable printer integration. 
 
 Explore the various challenges our POS development team encountered while [integrating printers with a POS](/projects/pos-devices-integration/) system to provide seamless operations.
