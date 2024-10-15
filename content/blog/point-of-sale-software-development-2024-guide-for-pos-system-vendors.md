@@ -97,3 +97,7 @@ Restaurant owners are aware of the **pros and cons of food delivery integration
 **Tech solution**: A custom point of sale that offers a **white-label solution enables restaurants to build their own digital ordering website**, reducing the high costs associated with third-party delivery platforms. 
 
 Additionally, **having a POS with an integrated [delivery drivers app](/projects/delivery-drivers-app/)** allows restaurant owners to manage their food delivery in-house if they choose to, offering greater control and cost savings over outsourced delivery services.
+
+* too many devices for staff to manage;
+
+**Tech solution**: custom [POS and food delivery providers integration](/projects/pos-third-party-delivery/) transferring orders from external providers into one POS device.
