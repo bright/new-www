@@ -132,6 +132,8 @@ While many establishments still rely on old-fashioned paper methods, KDS offers 
 
 Building a custom point of sale allows all orders, whether from in-house dining, phone orders, delivery apps, or a white-label application, to be transferred into a single POS system. This means waitstaff can view and manage all orders on one device, simplifying operations and reducing the need for multiple systems. By centralizing order management, restaurants, hotels, and stores can minimize clutter, aligning with the growing trend in POS implementation aimed at eliminating the unnecessary POS devices often provided by third-party systems such as Just Eat, Uber Eats or Deliveroo.
 
+Check out an actual [case study of Kitchen Display System](/projects/kitchen-display-system/) and how it changed restaurant operations in the UK and Israel.
+
 ### Using AI for analytics and inventory management
 
 With AI, restaurants can track customer preferences, predict demand, and optimize stock levels to reduce waste. AI-powered analytics allow businesses to make data-driven decisions about menu offerings, pricing, loyalty programs, and staffing, improving overall efficiency and customer experience. In inventory management, AI helps monitor stock in real-time, quickly informing about the need for ingredients reorder.
