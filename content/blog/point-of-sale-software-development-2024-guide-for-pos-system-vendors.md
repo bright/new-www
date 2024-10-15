@@ -139,3 +139,23 @@ The fact that modern point-of-sale software is connected to many devices is both
 ### Using AI for analytics and inventory management
 
 With AI, restaurants can **track customer preferences, predict demand, and optimize stock levels to reduce waste**. AI-powered analytics allow businesses to make data-driven decisions about menu offerings, pricing, loyalty programs, and staffing, improving overall efficiency and customer experience. In inventory management, **AI helps monitor stock in real-time, quickly informing about the need for ingredients reorder**.
+
+## How to Build a POS System that Complies with Local and International Regulations
+
+As a POS vendor, your POS functions have to be adjusted to local regulations and tax rules. Here are a couple of compliance issues your software engineering team has to be aware of.
+
+### Compliance with GDPR in custom POS development
+
+When developing a POS system, it's critical to ensure GDPR compliance, particularly in how customer data is collected, stored, and processed. This includes securing consent for data collection, ensuring data encryption, and providing customers with the ability to request data deletion.
+
+### Compliance with PCI DSS for payment processing
+
+To protect sensitive payment information, your POS system must comply with PCI DSS standards. This involves implementing data obfuscation techniques, two-fold protection of cardholder data, encryption of transmitted data, and the creation and maintenance of access logs.
+
+Check how to get access to POS data to optimize your payment solutions at the same adhering to security regulations. Our POS application development team faced that challenge while building the [bill split feature](/projects/pos-bill-splitting/).
+
+### Adherence to local tax law
+
+Your POS system must integrate with local tax rules, including calculating the correct sales tax and generating tax-compliant receipts. This may involve adapting the software to meet region-specific tax regulations, such as VAT or GST, and keeping up with changes in local tax laws to ensure ongoing compliance.
+
+One example of adapting to tax rule changes is when our team implemented an amendment to the VAT law in Israel, which directly impacted invoice generation. We adjusted the restaurant invoice generation software to comply with these updates by modifying the information included in the invoices. Check out the case study to learn more about it!
