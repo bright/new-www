@@ -100,4 +100,8 @@ Additionally, **having a POS with an integrated [delivery drivers app](/projects
 
 * too many devices for staff to manage;
 
-**Tech solution**: custom [POS and food delivery providers integration](/projects/pos-third-party-delivery/) transferring orders from external providers into one POS device.
+**Tech solution**: custom [POS and food delivery providers integration](/our-areas/food-delivery-pos-integration/) transferring orders from external providers into one POS device.
+
+* restaurant menu discrepancies across platforms.
+
+**Tech solution**: a proper [integration with food delivery apps](/projects/pos-third-party-delivery/) can sync changes from the main POS to all platforms, reducing errors and saving time.
