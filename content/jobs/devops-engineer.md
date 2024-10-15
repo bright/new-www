@@ -1,15 +1,15 @@
 ---
 imagejob: /images/qa_brightteam.png
-workplace_recruiter: Junior Recruiting Specialist
+workplace_recruiter: Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: "DevOps Engineer "
-subtitle: CLOSED
+subtitle: OPEN
 image-alt-job: Bright Inventions team
 hours: Full-time
-salary: 20 000 - 25 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
-salary_min: 16600
-salary_max: 25000
+salary: 135 - 162 PLN/hour + VAT (B2B) 16 600 - 19 920 PLN gross (UoP)
+salary_min: 135
+salary_max: 19920
 working time: full time
 technology:
   - Jenkins
@@ -30,10 +30,10 @@ links_more_about_us: >-
 title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
 name_recruiter: Agata
 image_recruiter_info: /images/agata_recruiter.png
-image_alt_recruiter_info: Agata Mietlińska - a Recruiter at Bright Inventions
+image_alt_recruiter_info: Agata Dankowska - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our Bright team
-published: false
+published: true
 show_recruiter_info: true
 order: 3
 recruting_image2_title: interview (technical part & non-technical part)
@@ -51,7 +51,7 @@ We support and share responsibility with the members of our team. We also active
 The role is dedicated to an experienced DevOps Engineer who would like to build software delivery pipelines, deploy and monitor services, and learn from incidents. **Apart from technical skills what counts are your positive mindset, solution-oriented attitude as well as communication skills.**\
 At the beginning of our cooperation you might be engaged in the project described below, however, depending on your availability and business priorities, they may also alter. Please use it only as a starting point of reference. We focus on a long-term cooperation and you have to keep in mind that the projects you are involved in will be changing in the future.\
 \
-**Project:** We are working on a system that combines many technologies (frontend in React, Android & iOS, and backend in Scala, ) which is used to design the security layer for the client's application while using a graphical interface with blocks. We design individual steps such as logging in, checking the correctness of data, sending inquiries to the external services. The application is both on-premises and cloud based (AWS and GCP). Currently, we are responsible mostly for technical challenges regarding the on-premises part of the system.
+**Project:** The application is **a new next generation passwordless authentication service that is used by millions of users worldwide, on a daily basis.** We are working on cross-channel identity platform that  integrates and control authentication, fraud detection, and access controls.
 
 ## what you will do **🚀🚀🚀**
 
@@ -82,12 +82,10 @@ At the beginning of our cooperation you might be engaged in the project describe
 * continuous **feedback culture**
 * **mentoring programme** and regular 1:1 meetings
 * **flexible working hours** (we start between 7.00 -10.00 a.m.) 
-* **20-26 paid days off** + extra days for Polish public holidays 
 * **individual training budget** and office library 
 * **MultiSport** card and **private medical** package
-* good equipment: **MacBook**, one/ two screens and additional accessories
 * Bright Day once a month for non-project stuff
-* **free English** classes in small groups with a native speaker 
+* **free English** classes in small groups  
 * weekly **running, swimming and cycling classes** with a professional coach
 * quarter team buildings events
 * board games evenings, Friday yoga and lunch roulette initiative
