@@ -122,7 +122,7 @@ QR code ordering supports busy staff by allowing customers to place orders and p
 
 Although **QR codes shouldn’t replace staff initially** - clients should still be able to discuss the order with waitstaff, **using QR codes for payment can alleviate pressure on staff during peak hours**, improving overall efficiency and customer experience.
 
-<div className="image">![](/images/qr_code_restaurant_ordering.png "")</div>
+<div className="image">![QR code ordering](/images/qr_code_restaurant_ordering.png "QR code ordering")</div>
 
 ### Transiting from paper kitchen receipts to Kitchen Display Systems (KDS)
 
