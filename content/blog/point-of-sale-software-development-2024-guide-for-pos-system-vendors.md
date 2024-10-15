@@ -159,3 +159,15 @@ Check **how to get access to POS data to optimize your payment solutions at the 
 Your POS system must integrate with local tax rules, including **calculating the correct sales tax and generating tax-compliant receipts**. This may involve adapting the software to meet region-specific tax regulations, such as VAT or GST, and keeping up with changes in local tax laws to ensure ongoing compliance.
 
 One example of adapting to tax rule changes is when **our team implemented an amendment to the VAT law in Israel, which directly impacted invoice generation**. **We adjusted the [restaurant invoice generation software](/projects/invoice-generation-system/) to comply with these updates** by modifying the information included in the invoices. Check out the case study to learn more about it!
+
+## The Role of UX/UI in Building Intuitive custom POS Software
+
+From understanding the specific needs of POS system users to integrating UI/UX solutions that address their pain points, product design teams must follow this path when working on point-of-sale systems.
+
+One critical feature requiring extra attention is payment processing. To ensure a smooth experience, it's essential to implement must-have UX/UI practices, such as:
+
+* informative animations;
+* iconography with labels;
+* button hierarchy.
+
+Read more about [designing payment in POS](/blog/payment-point-of-sale-design-ui-ux/) and check the designs for inspiration!
