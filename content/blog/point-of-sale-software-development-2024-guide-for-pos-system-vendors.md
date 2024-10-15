@@ -60,3 +60,21 @@ Cloud POS and on-premise POS systems differ in their infrastructure and setup. *
 On the other hand, **traditional POS involves hosting software and hardware locally**, which gives businesses more control but requires regular maintenance and **higher costs**.
 
 When you build a POS system, consider business needs: cloud POS excels in flexibility and usually lower costs, while on-premise POS offers better control and offline POS capabilities.
+
+## Types of integrations with point of sale software
+
+A key aspect of a Point of Sale (POS) system is its ability to reliably integrate with various devices and multiple third-party providers. Let’s dive into the types of POS integrations:
+
+### POS solution and hardware integrations
+
+Check out the [examples of retail devices that are part of a POS system](/blog/what-are-point-of-sale-devices/), ranging from POS desktops, terminals, and kiosks to printers. Printers, in particular, can often present the most technical challenges. 
+
+Modern POS systems should integrate with printers wirelessly and reliably. This means that if one printer fails to print a receipt, the POS system should automatically switch to a backup printer. Be aware of common technical challenges when [integrating POS systems with retail devices, especially printers](/projects/pos-devices-integration/).
+
+### POS and payment provider integrations
+
+From choosing the right providers to handling the payment process, and managing daily communication with payment partners, POS providers face many challenges.
+
+If you are at the stage of choosing a payment provider, consider answering these [key questions which will help you build a well-thought-out payment solution](/blog/implementing-payments-key-questions-for-startup-founders-and-ctos/) offering a high number of payment methods.
+
+The most popular payment global providers are **Stripe, Square, and Adyen**.
