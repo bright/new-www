@@ -78,3 +78,22 @@ From choosing the right providers to handling the payment process, and managing 
 If you are at the stage of choosing a payment provider, consider answering these [key questions which will help you build a well-thought-out payment solution](/blog/implementing-payments-key-questions-for-startup-founders-and-ctos/) offering a high number of payment methods.
 
 The most popular payment global providers are **Stripe, Square, and Adyen**.
+
+### POS and food delivery applications integration
+
+The most popular third-party food delivery providers include **Uber Eats, Wolt, Just Eat (or local representatives like Lieferando) or Deliveroo**.
+
+Restaurant owners are aware of the **pros and cons of food delivery integrations**. Technology can help minimize the drawbacks more than you might think:
+
+**Pros:**
+
+* a vital client acquisition channel;
+* support for delivery if the restaurant lacks in-house drivers.
+
+**Cons:**
+
+* high fees associated with client acquisition and delivery services;
+
+**Tech solution**: A custom point of sale that offers a **white-label solution enables restaurants to build their own digital ordering website**, reducing the high costs associated with third-party delivery platforms. 
+
+Additionally, **having a POS with an integrated [delivery drivers app](/projects/delivery-drivers-app/)** allows restaurant owners to manage their food delivery in-house if they choose to, offering greater control and cost savings over outsourced delivery services.
