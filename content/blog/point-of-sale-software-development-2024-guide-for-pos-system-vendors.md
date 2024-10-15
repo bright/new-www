@@ -180,6 +180,8 @@ One critical feature requiring extra attention is payment processing. To ensure 
 
 Read more about [designing payment in POS](/blog/payment-point-of-sale-design-ui-ux/) and check the designs for inspiration!
 
+<YouTubeEmbed url='https://youtube.com/shorts/IGoHRRoGBCU?feature=share' />
+
 ## Do you want to build your own POS system?
 
 As a [POS software development company](/our-areas/pos-software-development/) we have been creating cutting-edge POS solutions for over a decade. [Contact our POS developers](/our-areas/pos-software-development/#contactForm) team to discuss cost-effective POS.
