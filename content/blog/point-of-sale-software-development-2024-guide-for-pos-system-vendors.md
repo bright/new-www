@@ -24,3 +24,19 @@ A P**oint-of-Sale (POS) system is a combination of hardware and software** that 
 **POS system development can be tailored to meet specific needs** such as supporting old desktop hardware which may be still used by end users, especially in hospitality. Point-of-sale software's main functionality is ensuring **a smooth connection between hardware and software components**.
 
 ## Key features to include in modern POS software development
+
+POS systems are versatile solutions that **consist of dozens of features, additional applications, and POS hardware**, forming the technological backbone for managing client orders in restaurants, hotels, and retail settings.
+
+### Examples of must-have features in a POS System
+
+* **Inventory Management**: Track stock levels, reduce waste, and reorder automatically.
+* **Integrations**: Connect with POS hardware (printers, card readers) and third-party services.
+* **Z-Report and X-Report**: Essential for daily financial summaries and cash register audits.
+* **Check-in/Check-out**: Manage employee time tracking efficiently.
+* **Payment Processing**: Accept various payment types.
+* **Order Management**: Handle bundles, variants, and customizations.
+* **Table Management**: Organize seating with a visual floor plan.
+* **Digital Ordering**: Enable online orders.
+* **Payment Split**: Allow customers to split payments.
+* **Notes for Kitchen**: Special instructions for orders.
+* **Reporting & Analytics**: Real-time data for business insights.
