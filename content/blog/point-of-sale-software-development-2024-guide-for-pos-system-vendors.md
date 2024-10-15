@@ -22,3 +22,5 @@ language: en
 A P**oint-of-Sale (POS) system is a combination of hardware and software** that facilitates sales transactions and manages business operations in **retail, hospitality**, and other industries. It includes **devices like thermal printers, POS terminals, desktop and mobile POS systems**, enabling businesses to process payments, track inventory, and manage orders.
 
 **POS system development can be tailored to meet specific needs** such as supporting old desktop hardware which may be still used by end users, especially in hospitality. Point-of-sale software's main functionality is ensuring **a smooth connection between hardware and software components**.
+
+## Key features to include in modern POS software development
