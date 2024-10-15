@@ -40,3 +40,15 @@ POS systems are versatile solutions that **consist of dozens of features, additi
 * **Payment Split**: Allow customers to split payments.
 * **Notes for Kitchen**: Special instructions for orders.
 * **Reporting & Analytics**: Real-time data for business insights.
+
+### Extra POS solution Features for POS application Differentiation
+
+* **Dark Kitchen:** Support for off-site kitchens.
+* **Splitting the Bill**: Divide the bill between guests.
+* **Kitchen Display System**: Digital kitchen orders.
+* **Kiosk Integration**: Self-service options.
+* **Offline Mode**: Operate without internet.
+* **Cloud-Based POS**: Access from anywhere.
+* **Delivery Management**: Manage deliveries efficiently.
+* **Order Sync with Marketplace**s: Integrate with delivery platforms.
+* **Caller ID**: Recognize repeat customers.
