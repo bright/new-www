@@ -1,5 +1,6 @@
 ---
-author: izabela
+author: piotr
+secondAuthor: izabela
 tags:
   - POS
 date: 2024-10-15T12:05:27.906Z
