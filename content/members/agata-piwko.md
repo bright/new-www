@@ -6,8 +6,8 @@ slug: agata
 name: Agata Bielówka
 short_name: Agata
 email: agata.bielowka@brightinventions.pl
-bio: Social Media Specialist
-description: Social Media Specialist
+bio: Business Relations Specialist
+description: Business Relations Specialist
 avatar: /images/agata_small.png
 avatar_hover: /images/agata_passion_small.png
 published: true
