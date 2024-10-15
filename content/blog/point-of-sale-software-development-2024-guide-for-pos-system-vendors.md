@@ -173,6 +173,8 @@ One example of adapting to tax rule changes is when **our team implemented an am
 
 From understanding the specific needs of POS system users to integrating UI/UX solutions that address their pain points, product design teams must follow this path when working on point-of-sale systems.
 
+<div className="image">![UX/UI for POS](/images/establish-button-hierarchy.png "UX/UI for POS")</div>
+
 One critical feature requiring extra attention is payment processing. To ensure a smooth experience, it's essential to implement must-have UX/UI practices, such as:
 
 * informative animations;
