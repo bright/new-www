@@ -23,7 +23,7 @@ project:
   - card-reader
 layout: our-service
 our_service_id: POS development
-meta_title: POS Development Company
+meta_title: POS Software Development Company
 meta_description: Offering POS software development services since 2012.
   Building POS solutions for hospitality and retail, scaling POS systems from
   MVP to global solutions.
