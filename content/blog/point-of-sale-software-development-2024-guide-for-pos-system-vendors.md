@@ -158,4 +158,4 @@ Check how to get access to POS data to optimize your payment solutions at the sa
 
 Your POS system must integrate with local tax rules, including calculating the correct sales tax and generating tax-compliant receipts. This may involve adapting the software to meet region-specific tax regulations, such as VAT or GST, and keeping up with changes in local tax laws to ensure ongoing compliance.
 
-One example of adapting to tax rule changes is when our team implemented an amendment to the VAT law in Israel, which directly impacted invoice generation. We adjusted the restaurant invoice generation software to comply with these updates by modifying the information included in the invoices. Check out the case study to learn more about it!
+One example of adapting to tax rule changes is when our team implemented an amendment to the VAT law in Israel, which directly impacted invoice generation. We adjusted the [restaurant invoice generation software](/projects/invoice-generation-system/) to comply with these updates by modifying the information included in the invoices. Check out the case study to learn more about it!
