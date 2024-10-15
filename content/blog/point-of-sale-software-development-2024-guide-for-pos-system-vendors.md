@@ -118,9 +118,11 @@ Explore POS solution development trends.
 
 ### The continuous rise of QR code ordering as a response to restaurant staff shortages
 
-While it can't entirely replace waitstaff, QR code ordering supports busy staff by allowing customers to place orders and pay directly, which reduces wait times. 
+QR code ordering supports busy staff by allowing customers to place orders and pay directly, which reduces wait times. 
 
-Although QR codes shouldn’t replace staff initially - clients should still be able to discuss the order with waitstaff, using QR codes for payment can alleviate pressure on staff during peak hours, improving overall efficiency and customer satisfaction.
+Although **QR codes shouldn’t replace staff initially** - clients should still be able to discuss the order with waitstaff, **using QR codes for payment can alleviate pressure on staff during peak hours**, improving overall efficiency and customer experience.
+
+
 
 ### Transiting from paper kitchen receipts to Kitchen Display Systems (KDS)
 
