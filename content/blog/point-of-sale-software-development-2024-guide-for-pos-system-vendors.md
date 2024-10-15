@@ -138,4 +138,4 @@ The fact that modern point-of-sale software is connected to many devices is both
 
 ### Using AI for analytics and inventory management
 
-With AI, restaurants can track customer preferences, predict demand, and optimize stock levels to reduce waste. AI-powered analytics allow businesses to make data-driven decisions about menu offerings, pricing, loyalty programs, and staffing, improving overall efficiency and customer experience. In inventory management, AI helps monitor stock in real-time, quickly informing about the need for ingredients reorder.
+With AI, restaurants can **track customer preferences, predict demand, and optimize stock levels to reduce waste**. AI-powered analytics allow businesses to make data-driven decisions about menu offerings, pricing, loyalty programs, and staffing, improving overall efficiency and customer experience. In inventory management, **AI helps monitor stock in real-time, quickly informing about the need for ingredients reorder**.
