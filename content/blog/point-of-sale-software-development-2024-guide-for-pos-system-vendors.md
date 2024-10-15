@@ -146,7 +146,7 @@ As a POS vendor, your POS functions have to be adjusted to local regulations and
 
 ### Compliance with GDPR in custom POS development
 
-When developing a POS system, it's critical to ensure GDPR compliance, particularly in how customer data is collected, stored, and processed. This includes securing consent for data collection, ensuring data encryption, and providing customers with the ability to request data deletion.
+When developing a POS system, it's critical to ensure [GDPR](https://gdpr-info.eu/) compliance, particularly in how customer data is collected, stored, and processed. This includes securing consent for data collection, ensuring data encryption, and providing customers with the ability to request data deletion.
 
 ### Compliance with PCI DSS for payment processing
 
