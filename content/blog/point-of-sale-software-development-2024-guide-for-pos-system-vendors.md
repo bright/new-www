@@ -50,7 +50,7 @@ POS systems are versatile solutions that **consist of dozens of features, additi
 * **Offline Mode**: Operate without internet and sync the POS system's data as soon as the internet connection is restored.
 * **Cloud-Based POS**: Access from anywhere.
 * **Delivery Management**: Manage deliveries efficiently.
-* **Order Sync with Marketplaces**: Integrate with delivery platforms.
+* **Order Sync with Marketplaces**: Orders from delivery platforms are available on a single POS device.
 * **Caller ID**: Recognize repeat customers.
 
 ## Developing a POS: Cloud POS or On-premise POS
