@@ -111,3 +111,25 @@ Additionally, **having a POS with an integrated [delivery drivers app](/projects
 **Issues with printers are one of the most frustrating tech problems for POS end users** – busy waitstaff or hotel staff can't afford delays caused by printers that fail to print receipts or invoices. Therefore, POS development teams often face many challenges in ensuring smooth and reliable printer integration. 
 
 Explore the various challenges our POS development team encountered while [integrating printers with a POS](/projects/pos-devices-integration/) system to provide seamless operations.
+
+## Emerging Trends in POS Application Development: What to Expect in 2025 and Beyond
+
+Explore POS solution development trends.
+
+### The continuous rise of QR code ordering as a response to restaurant staff shortages
+
+While it can't entirely replace waitstaff, QR code ordering supports busy staff by allowing customers to place orders and pay directly, which reduces wait times. 
+
+Although QR codes shouldn’t replace staff initially - clients should still be able to discuss the order with waitstaff, using QR codes for payment can alleviate pressure on staff during peak hours, improving overall efficiency and customer satisfaction.
+
+### Transiting from paper kitchen receipts to Kitchen Display Systems (KDS)
+
+While many establishments still rely on old-fashioned paper methods, KDS offers a more efficient, modern solution. It streamlines order management, reducing mistakes and speeding up service. Orders can be tracked and modified in real-time, improving communication between the kitchen and front-of-house staff. This shift not only cuts down on paper waste but also enhances overall workflow and accuracy in busy kitchens.
+
+### Managing all orders in one system and on a single device
+
+Building a custom point of sale allows all orders, whether from in-house dining, phone orders, delivery apps, or a white-label application, to be transferred into a single POS system. This means waitstaff can view and manage all orders on one device, simplifying operations and reducing the need for multiple systems. By centralizing order management, restaurants, hotels, and stores can minimize clutter, aligning with the growing trend in POS implementation aimed at eliminating the unnecessary POS devices often provided by third-party systems such as Just Eat, Uber Eats or Deliveroo.
+
+### Using AI for analytics and inventory management
+
+With AI, restaurants can track customer preferences, predict demand, and optimize stock levels to reduce waste. AI-powered analytics allow businesses to make data-driven decisions about menu offerings, pricing, loyalty programs, and staffing, improving overall efficiency and customer experience. In inventory management, AI helps monitor stock in real-time, quickly informing about the need for ingredients reorder.
