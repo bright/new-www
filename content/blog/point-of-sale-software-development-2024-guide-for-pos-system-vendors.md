@@ -126,7 +126,7 @@ Although **QR codes shouldn’t replace staff initially** - clients should still
 
 ### Transiting from paper kitchen receipts to Kitchen Display Systems (KDS)
 
-While many establishments still rely on old-fashioned paper methods, KDS offers a more efficient, modern solution. It streamlines order management, reducing mistakes and speeding up service. Orders can be tracked and modified in real-time, improving communication between the kitchen and front-of-house staff. This shift not only cuts down on paper waste but also enhances overall workflow and accuracy in busy kitchens.
+While many establishments still rely on old-fashioned paper methods, KDS offers a more efficient, modern solution. It streamlines order management, reducing mistakes and speeding up service. **Orders can be tracked and modified in real-time, improving communication between the kitchen and front-of-house staff.** This shift not only cuts down on paper waste but also enhances overall workflow and accuracy in busy kitchens, optimizing food delivery time.
 
 ### Managing all orders in one system and on a single device
 
