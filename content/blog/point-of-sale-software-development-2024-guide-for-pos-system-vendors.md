@@ -15,4 +15,4 @@ language: en
 ---
 **Dive into the technical world of the Point of Sale (POS) development process. Discover key features of POS, top challenges, trends, and real case studies to draw inspiration from. Explore the guide about custom POS development based on our over a decade of experience in building, scaling, and modernizing POS systems for hospitality and retail.**
 
-<div className="image">![POS software development](/images/pos_development_guide_blog_cover.png "POS software development")</div>
+<div className="image">![POS development](/images/pos_development_guide_blog_cover.png "POS development")</div>
