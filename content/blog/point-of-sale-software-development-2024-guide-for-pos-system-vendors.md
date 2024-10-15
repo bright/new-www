@@ -114,6 +114,8 @@ Additionally, **having a POS with an integrated [delivery drivers app](/projects
 
 Explore the various challenges our POS development team encountered while [integrating printers with a POS](/projects/pos-devices-integration/) system to provide seamless operations.
 
+<YouTubeEmbed url='https://youtu.be/zmmCIaQulxI' />
+
 ## Emerging Trends in POS Application Development: What to Expect in 2025 and Beyond
 
 Explore POS solution development trends.
