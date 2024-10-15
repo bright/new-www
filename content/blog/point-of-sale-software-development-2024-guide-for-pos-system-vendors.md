@@ -171,3 +171,5 @@ One critical feature requiring extra attention is payment processing. To ensure 
 * button hierarchy.
 
 Read more about [designing payment in POS](/blog/payment-point-of-sale-design-ui-ux/) and check the designs for inspiration!
+
+## Do you want to build your own POS system?
