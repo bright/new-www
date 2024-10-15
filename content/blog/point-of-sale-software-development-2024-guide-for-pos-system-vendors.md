@@ -83,6 +83,8 @@ The most popular payment global providers are **Stripe, Square, and Adyen**.
 
 The most popular third-party food delivery providers include **Uber Eats, Wolt, Just Eat (or local representatives like Lieferando) or Deliveroo**.
 
+<div className="image">![POS food delivery apps integration](/images/food_delivery_photo_case_study.png "POS food delivery apps integration")</div>
+
 Restaurant owners are aware of the **pros and cons of food delivery integrations**. Technology can help minimize the drawbacks more than you might think:
 
 **Pros:**
