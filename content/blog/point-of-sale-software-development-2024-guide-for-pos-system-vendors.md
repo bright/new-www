@@ -9,7 +9,7 @@ slug: pos-software-development-guide
 title: "Point-of-Sale Software Development: 2024 Guide for POS System Vendors"
 layout: post
 image: /images/pos_development_guide_blog_cover.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
