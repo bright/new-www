@@ -4,7 +4,7 @@ workplace_recruiter: Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: Senior Backend Developer (Java/Kotlin)
-subtitle: OPEN
+subtitle: CLOSED
 image-alt-job: backend development team
 hours: full-time
 salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
@@ -40,7 +40,7 @@ button: join our backend team
 published: true
 show_recruiter_info: true
 hidden: false
-order: 5
+order: 7
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
