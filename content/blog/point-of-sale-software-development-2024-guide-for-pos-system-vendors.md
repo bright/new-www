@@ -20,7 +20,7 @@ language: en
 
 ## Point of sale system definition
 
-A P**oint-of-Sale (POS) system is a combination of hardware and software** that facilitates sales transactions and manages business operations in **retail, hospitality**, and other industries. It includes **devices like thermal printers, POS terminals, desktop and mobile POS systems**, enabling businesses to process payments, track inventory, and manage orders.
+A **Point-of-Sale (POS) system is a combination of hardware and software** that facilitates sales transactions and manages business operations in **retail, hospitality**, and other industries. It includes **devices like thermal printers, POS terminals, desktop and mobile POS systems**, enabling businesses to process payments, track inventory, and manage orders.
 
 **POS system development can be tailored to meet specific needs** such as supporting old desktop hardware which may be still used by end users, especially in hospitality. Point-of-sale software's main functionality is ensuring **a smooth connection between hardware and software components**.
 
@@ -42,7 +42,7 @@ POS systems are versatile solutions that **consist of dozens of features, additi
 * **Notes for Kitchen**: Special instructions for orders.
 * **Reporting & Analytics**: Real-time data for business insights.
 
-### Extra POS solution Features for POS application Differentiation
+### Extra POS solution features for POS application differentiation
 
 * **Dark Kitchen:** Support for off-site kitchens.
 * **Splitting the Bill**: Divide the bill between guests.
@@ -54,7 +54,7 @@ POS systems are versatile solutions that **consist of dozens of features, additi
 * **Order Sync with Marketplaces**: Orders from delivery platforms are available on a single POS device.
 * **Caller ID**: Recognize repeat customers.
 
-## Developing a POS: Cloud POS or On-premise POS
+## Developing a POS: cloud POS or On-premise POS
 
 Cloud POS and on-premise POS systems differ in their infrastructure and setup. **A cloud POS operates through the internet, offering flexibility, remote access, and automatic updates**. It's easier to scale but **requires a reliable internet connection which can be an issue in restaurant or hotel environments**. 
 
@@ -88,24 +88,24 @@ The most popular third-party food delivery providers include **Uber Eats, Wolt, 
 
 Restaurant owners are aware of the **pros and cons of food delivery integrations**. Technology can help minimize the drawbacks more than you might think:
 
-**Pros:**
+#### Pros:
 
-* a vital client acquisition channel;
-* support for delivery if the restaurant lacks in-house drivers.
+1. **A vital client acquisition channel.**
+2. **Support for delivery if the restaurant lacks in-house drivers.**
 
-**Cons:**
+#### Cons:
 
-* high fees associated with client acquisition and delivery services;
+1. **High fees associated with client acquisition and delivery services.**
 
 **Tech solution**: A custom point of sale that offers a **white-label solution enables restaurants to build their own digital ordering website**, reducing the high costs associated with third-party delivery platforms. 
 
 Additionally, **having a POS with an integrated [delivery drivers app](/projects/delivery-drivers-app/)** allows restaurant owners to manage their food delivery in-house if they choose to, offering greater control and cost savings over outsourced delivery services.
 
-* too many devices for staff to manage;
+2. **Too many devices for staff to manage.**
 
 **Tech solution**: custom [POS and food delivery providers integration](/our-areas/food-delivery-pos-integration/) transferring orders from external providers into one POS device.
 
-* restaurant menu discrepancies across platforms.
+3. **Restaurant menu discrepancies across platforms.**
 
 **Tech solution**: a proper [integration with food delivery apps](/projects/pos-third-party-delivery/) can sync changes from the main POS to all platforms, reducing errors and saving time.
 
@@ -117,7 +117,7 @@ Explore the various challenges our POS development team encountered while [integ
 
 <YouTubeEmbed url='https://youtu.be/zmmCIaQulxI' />
 
-## Emerging Trends in POS Application Development: What to Expect in 2025 and Beyond
+## Emerging trends in POS application development: what to expect in 2025 and beyond
 
 Explore POS solution development trends.
 
@@ -147,7 +147,7 @@ The fact that modern point-of-sale software is connected to many devices is both
 
 With AI, restaurants can **track customer preferences, predict demand, and optimize stock levels to reduce waste**. AI-powered analytics allow businesses to make data-driven decisions about menu offerings, pricing, loyalty programs, and staffing, improving overall efficiency and customer experience. In inventory management, **AI helps monitor stock in real-time, quickly informing about the need for ingredients reorder**.
 
-## How to Build a POS System that Complies with Local and International Regulations
+## How to build a POS System that complies with local and international regulations
 
 As a POS vendor, your POS functions have to be adjusted to local regulations and tax rules. Here are a couple of compliance issues your software engineering team has to be aware of.
 
@@ -169,7 +169,7 @@ Your POS system must integrate with local tax rules, including **calculating the
 
 One example of adapting to tax rule changes is when **our team implemented an amendment to the VAT law in Israel, which directly impacted invoice generation**. **We adjusted the [restaurant invoice generation software](/projects/invoice-generation-system/) to comply with these updates** by modifying the information included in the invoices. Check out the case study to learn more about it!
 
-## The Role of UX/UI in Building Intuitive custom POS Software
+## The role of UX/UI in building intuitive custom POS Software
 
 From understanding the specific needs of POS system users to integrating UI/UX solutions that address their pain points, product design teams must follow this path when working on point-of-sale systems.
 
