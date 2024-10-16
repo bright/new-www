@@ -37,7 +37,7 @@ Remote care technologies are reshaping where and how care is delivered. **Łukas
 
 ## 5. Innovations in pain management and diagnostic AI
 
-**Guy Siman,** Co-Founder and COO at Sensars, discussed their approach to chronic pain management through neurostimulation, tailored for individual needs. Concurrently, AI's role in diagnostics is expanding, with **Bartosz Borucki,** CEO at Smarter Diagnostics, highlighting its use in detecting early signs of orthopedic conditions, signaling a shift towards proactive healthcare.
+**Guy Siman,** Co-Founder and COO at Sensars, [discussed their approach to chronic pain management through neurostimulation](/blog/revolutionizing-pain-relief-with-ai-an-interview-with-guy-siman-of-sensars/), tailored for individual needs. Concurrently, AI's role in diagnostics is expanding, with **Bartosz Borucki,** CEO at Smarter Diagnostics, highlighting its use in detecting early signs of orthopedic conditions, signaling a shift towards proactive healthcare.
 
 ## 6. Prioritizing patient-centric experiences
 
