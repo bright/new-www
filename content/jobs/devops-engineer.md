@@ -7,16 +7,12 @@ title: "DevOps Engineer "
 subtitle: OPEN
 image-alt-job: Bright Inventions team
 hours: Full-time
-salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
-salary_min: 135
-salary_max: 19920
+salary: 149 - 183 PLN/hour + VAT (B2B) or 18 260 - 22 410 PLN gross (UoP)
+salary_min: 149
+salary_max: 22410
 working time: full time
 technology:
-  - Jenkins
-  - Kubernetes
-  - Terraform
-  - PostgreSQL
-  - Docker
+  - AWS
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -35,7 +31,7 @@ button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our Bright team
 published: true
 show_recruiter_info: true
-order: 3
+order: 1
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: DevOps task
 language: en
@@ -48,8 +44,10 @@ We support and share responsibility with the members of our team. We also active
 
 ## about the role and project **🧑🏻‍💻👩🏻‍💻**
 
-The role is dedicated to an experienced DevOps Engineer who would like to build software delivery pipelines, deploy and monitor services, and learn from incidents. **Apart from technical skills what counts are your positive mindset, solution-oriented attitude as well as communication skills.**\
-At the beginning of our cooperation you might be engaged in the project described below, however, depending on your availability and business priorities, they may also alter. Please use it only as a starting point of reference. We focus on a long-term cooperation and you have to keep in mind that the projects you are involved in will be changing in the future.\
+The role is dedicated to an experienced DevOps Engineer who would like to build software delivery pipelines, deploy and monitor services, and learn from incidents. **Apart from technical skills what counts are your positive mindset, solution-oriented attitude as well as communication skills.**
+
+\
+At the start of our collaboration, you might be involved in the project outlined below, but this could change based on your availability and priorities. **Consider it a starting point, knowing that projects will evolve as we focus on a long-term partnership.** \
 \
 **Project:** The application is **a new next generation passwordless authentication service that is used by millions of users worldwide, on a daily basis.** We are working on cross-channel identity platform that  integrates and control authentication, fraud detection, and access controls.
 
@@ -63,18 +61,20 @@ At the beginning of our cooperation you might be engaged in the project describe
 
 ## **preferred skills and qualifications  ✅**
 
-* good knowledge and experience with CI/CD
-* experience with reliable multi-region architectures
+* experience with cloud providers like AWS, Azure, or Google Cloud
+* proficiency with tools like Terraform, AWS CloudFormation, or Ansible to automate infrastructure deployment and management
+* Hands-on experience with Continuous Integration and Continuous Deployment (CI/CD) tools like Jenkins, GitLab CI, CircleCI, or Bamboo
 * experience with managing Docker in production
-* experience in building continuous delivery pipelines
 * good scripting skills
+* experience with reliable multi-region architectures
 * the ability to work independently as well as in a team
 * very good communication skills in English and Polish(both written and spoken)
 
 ## nice-to-haves
 
 * knowledge of TypeScript or Java/Kotlin
-* experience with Kubernetes, Terraform or AWS 
+* experience with Kubernetes
+* knowledge about security
 
 ## what you will find in our Bright Team 🧡
 
