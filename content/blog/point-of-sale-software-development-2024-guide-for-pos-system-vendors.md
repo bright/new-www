@@ -3,8 +3,8 @@ author: piotr
 secondAuthor: izabela
 tags:
   - POS
-date: 2024-10-15T12:05:27.906Z
-meaningfullyUpdatedAt: 2024-10-15T12:05:27.949Z
+date: 2024-10-16T07:06:46.573Z
+meaningfullyUpdatedAt: 2024-10-16T07:06:48.312Z
 slug: pos-software-development-guide
 title: "Point-of-Sale Software Development: 2024 Guide for POS System Vendors"
 layout: post
