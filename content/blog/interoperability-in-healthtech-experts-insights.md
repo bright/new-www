@@ -1,5 +1,6 @@
 ---
 author: agata
+secondAuthor: maciej-n
 tags:
   - HealthTech
 date: 2024-07-30T10:46:38.619Z
