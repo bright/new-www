@@ -18,6 +18,28 @@ language: en
 
 <div className="image">![POS development](/images/pos_development_guide_blog_cover.png "POS development")</div>
 
+- - -
+
+## Table of contents
+
+[Point of sale system definition](/blog/pos-software-development-guide/#point-of-sale-system-definition)
+
+[Key features to include in modern POS software development](/blog/pos-software-development-guide/#key-features-to-include-in-modern-pos-software-development)
+
+[Developing a POS: cloud POS or On-premise POS](/blog/pos-software-development-guide/#developing-a-pos-cloud-pos-or-on-premise-pos)
+
+[Types of integrations with point of sale software](/blog/pos-software-development-guide/#types-of-integrations-with-point-of-sale-software)
+
+[Emerging trends in POS application development: what to expect in 2025 and beyond](/blog/pos-software-development-guide/#emerging-trends-in-pos-application-development-what-to-expect-in-2025-and-beyond)
+
+[How to build a POS System that complies with local and international regulations](/blog/pos-software-development-guide/#how-to-build-a-pos-system-that-complies-with-local-and-international-regulations)
+
+[The role of UX/UI in building intuitive custom POS software](/blog/pos-software-development-guide/#the-role-of-uxui-in-building-intuitive-custom-pos-software)
+
+[Do you want to build your own POS system?](/blog/pos-software-development-guide/#do-you-want-to-build-your-own-pos-system)
+
+- - -
+
 ## Point of sale system definition
 
 A **Point-of-Sale (POS) system is a combination of hardware and software** that facilitates sales transactions and manages business operations in **retail, hospitality**, and other industries. It includes **devices like thermal printers, POS terminals, desktop and mobile POS systems**, enabling businesses to process payments, track inventory, and manage orders.
@@ -169,7 +191,7 @@ Your POS system must integrate with local tax rules, including **calculating the
 
 One example of adapting to tax rule changes is when **our team implemented an amendment to the VAT law in Israel, which directly impacted invoice generation**. **We adjusted the [restaurant invoice generation software](/projects/invoice-generation-system/) to comply with these updates** by modifying the information included in the invoices. Check out the case study to learn more about it!
 
-## The role of UX/UI in building intuitive custom POS Software
+## The role of UX/UI in building intuitive custom POS software
 
 From understanding the specific needs of POS system users to integrating UI/UX solutions that address their pain points, product design teams must follow this path when working on point-of-sale systems.
 
