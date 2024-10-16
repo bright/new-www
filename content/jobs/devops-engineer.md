@@ -7,7 +7,7 @@ title: "DevOps Engineer "
 subtitle: OPEN
 image-alt-job: Bright Inventions team
 hours: Full-time
-salary: 135 - 162 PLN/hour + VAT (B2B) 16 600 - 19 920 PLN gross (UoP)
+salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
 salary_min: 135
 salary_max: 19920
 working time: full time
