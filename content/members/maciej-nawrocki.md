@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: maciej-n
-ex: false
+ex: true
 slug: maciej-n
 name: "Maciej Nawrocki "
 short_name: Maciej
