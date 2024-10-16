@@ -88,24 +88,24 @@ The most popular third-party food delivery providers include **Uber Eats, Wolt, 
 
 Restaurant owners are aware of the **pros and cons of food delivery integrations**. Technology can help minimize the drawbacks more than you might think:
 
-**Pros:**
+#### Pros:
 
-* a vital client acquisition channel;
-* support for delivery if the restaurant lacks in-house drivers.
+1. **A vital client acquisition channel.**
+2. **Support for delivery if the restaurant lacks in-house drivers.**
 
-**Cons:**
+#### Cons:
 
-* high fees associated with client acquisition and delivery services;
+1. **High fees associated with client acquisition and delivery services.**
 
 **Tech solution**: A custom point of sale that offers a **white-label solution enables restaurants to build their own digital ordering website**, reducing the high costs associated with third-party delivery platforms. 
 
 Additionally, **having a POS with an integrated [delivery drivers app](/projects/delivery-drivers-app/)** allows restaurant owners to manage their food delivery in-house if they choose to, offering greater control and cost savings over outsourced delivery services.
 
-* too many devices for staff to manage;
+2. **Too many devices for staff to manage.**
 
 **Tech solution**: custom [POS and food delivery providers integration](/our-areas/food-delivery-pos-integration/) transferring orders from external providers into one POS device.
 
-* restaurant menu discrepancies across platforms.
+3. **Restaurant menu discrepancies across platforms.**
 
 **Tech solution**: a proper [integration with food delivery apps](/projects/pos-third-party-delivery/) can sync changes from the main POS to all platforms, reducing errors and saving time.
 
