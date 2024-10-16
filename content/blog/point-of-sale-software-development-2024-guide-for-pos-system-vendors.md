@@ -18,6 +18,28 @@ language: en
 
 <div className="image">![POS development](/images/pos_development_guide_blog_cover.png "POS development")</div>
 
+---
+
+## Table of contents
+
+Point of sale system definition
+
+Key features to include in modern POS software development
+
+Developing a POS: cloud POS or On-premise POS
+
+Types of integrations with point of sale software
+
+Emerging trends in POS application development: what to expect in 2025 and beyond
+
+How to build a POS System that complies with local and international regulations
+
+The role of UX/UI in building intuitive custom POS Software
+
+Do you want to build your own POS system?
+
+---
+
 ## Point of sale system definition
 
 A **Point-of-Sale (POS) system is a combination of hardware and software** that facilitates sales transactions and manages business operations in **retail, hospitality**, and other industries. It includes **devices like thermal printers, POS terminals, desktop and mobile POS systems**, enabling businesses to process payments, track inventory, and manage orders.
