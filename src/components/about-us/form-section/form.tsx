@@ -31,7 +31,7 @@ export const FormComponent: React.FC<Props> = props => {
     className,
     title = (
       <>
-        want to be part of a bright a story? drop us a line or check{' '}
+        want to be part of a bright story? drop us a line or check{' '}
         <Link to={routeLinks.career()}>
           <span>open positions</span>
         </Link>
@@ -41,7 +41,7 @@ export const FormComponent: React.FC<Props> = props => {
       <>
         Our recruitment demand is constantly changing. Drop us a line at{' '}
         <a href='mailto:jobs@bright.dev'>jobs@bright.dev</a>
-        , or submit your CV and we will contact you when a position inline with your competences becomes available.
+        , or submit your CV and we will contact you when a position in line with your competences becomes available.
       </>
     ),
     ...formProps
