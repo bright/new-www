@@ -37,6 +37,7 @@ highlighted_word: Gdańsk
 image_our_service_desktop: /images/gdansk_desktoplp.png
 image_our_service_mobile: /images/gdansk_lp_mobile_update.png
 image_alt_our_service: software house gdansk
+video_file: /images/developers-gdansk-www-version.mp4
 bullet_points:
   - EU-based company
   - Established in 2012
