@@ -41,6 +41,8 @@ We're still in the education phase. When talking to managing directors of hospit
 
 Yes, currently we're only in Brazil. Brazil is a large market with about 50,000 healthcare units. We're connected to 1,000, so there's a lot of room for growth. Attending HLTH Europe allows us to benchmark and explore opportunities in Europe and Latin America.
 
+<EbookDynamic sectionTitle='explore more insights for HealthTech startup owners' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'From secure LLMs to app performance monitoring – dive into tech solutions that will help you scale your software for healthcare.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide' />
+
 ## **How old is your solution?**
 
 We started back in 2012 with our first product, B2B online scheduling integrated with EMRs. By 2018, we developed what we called the patient's digital journey. In 2019, we launched the integration and interoperability platform. Last year, we rebranded the company, launched more modules, and our patient digital journey evolved into a patient engagement solution. Our integration platform has become a more robust interoperability and data exchange solution.
