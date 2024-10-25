@@ -6,8 +6,8 @@ slug: patryk-s
 name: Patryk Sienkiewicz
 short_name: Patryk
 email: patryk.sienkiewicz@brightinventions.pl
-bio: Backend Developer
-description: Backend Developer
+bio: Senior Backend Developer
+description: Senior Backend Developer
 avatar: /images/patryks_team.png
 avatar_hover: /images/patryks_passion_team.png
 published: true
