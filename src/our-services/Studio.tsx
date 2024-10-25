@@ -13,7 +13,8 @@ import {
   BulletList,
   BulletsList,
   ClutchWrapper,
-  MoreButtonOurServiceWrapper, Content
+  MoreButtonOurServiceWrapper,
+  Content,
 } from './Service.styled'
 import { FaqStructuredData } from '../FaqStructuredData'
 import { ProjectModel } from '../models/gql'
@@ -26,17 +27,27 @@ import { useClient } from '../hooks/useClient'
 import {
   MobileOurServiceFlexWrapper,
   OurStudioPageTitle,
-  ImageWrapper, HeroWrapper, CustomSectionOurService, CustomSectionOurServiceImage, FormHeading, RoundedImage
+  ImageWrapper,
+  HeroWrapper,
+  CustomSectionOurService,
+  CustomSectionOurServiceMedia,
+  FormHeading,
+  RoundedImage,
 } from './Studio.styled'
 import StartProjectContact from '../components/start-project/StartProjectContact'
 import { deviceSize } from '../styles/variables'
+import { ServiceVideo } from './ServiceVideo/ServiceVideo'
 
 const PopularBlogPosts = React.lazy(() => import('../components/shared/PopularBlogPosts'))
 const TechnologyTags = React.lazy(() => import('../components/shared/TechnologyTags'))
 const TeamMembers = React.lazy(() => import('../components/subcomponents/TeamMembers'))
 
-export default function Template({ data, pageContext, children }: PropsWithChildren<{
-  data: { service: any, related: any }
+export default function Template({
+  data,
+  pageContext,
+  children,
+}: PropsWithChildren<{
+  data: { service: any; related: any }
   pageContext: { faqTitle: string; faqSlug: string; language: string }
 }>) {
   const { service, related } = data
@@ -67,6 +78,7 @@ export default function Template({ data, pageContext, children }: PropsWithChild
     blog_section,
     blog_section_title,
     show_team,
+    video_file,
   } = page
 
   return (
@@ -123,17 +135,21 @@ export default function Template({ data, pageContext, children }: PropsWithChild
             </FlexWrapper>
           </MobileOurServiceFlexWrapper>
         </CustomSectionOurService>
-        <CustomSectionOurServiceImage
+        <CustomSectionOurServiceMedia
           paddingProps='3.5rem 15rem 0 0'
           paddingLaptop='3.5rem 6rem 0 0'
           paddingTabletXL='3.5rem 8.5625rem 0 0 '
           paddingTablet='2rem 0 0 0'
           paddingMobileProps='2rem 0 0 0'
         >
-          <ImageWrapper>
-            <StaticImage src='../../static/images/gdansk/gdansk_studio.jpg' alt='Meet us in Gdańsk' />
-          </ImageWrapper>
-        </CustomSectionOurServiceImage>
+          {video_file ? (
+            <ServiceVideo videoFile={video_file} />
+          ) : (
+            <ImageWrapper>
+              <StaticImage src='../../static/images/gdansk/gdansk_studio.jpg' alt='Meet us in Gdańsk' />
+            </ImageWrapper>
+          )}
+        </CustomSectionOurServiceMedia>
       </HeroWrapper>
 
       <CustomSection
@@ -156,15 +172,17 @@ export default function Template({ data, pageContext, children }: PropsWithChild
         </OurServiceSection>
       </CustomSection>
 
-      {show_team && <CustomSection paddingProps='0 0 2rem' paddingMobileProps='0 1.125rem 1rem'>
-        <CustomSectionTitle mobileMargin='3rem 0 2.25rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
-          {title_team}
-        </CustomSectionTitle>
-        <div>{width < breakpointTablet && <TeamMemebersSwiper authorIdsArray={team_members} />}</div>
-        <div>
-          {width >= breakpointTablet && <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />}
-        </div>
-      </CustomSection>}
+      {show_team && (
+        <CustomSection paddingProps='0 0 2rem' paddingMobileProps='0 1.125rem 1rem'>
+          <CustomSectionTitle mobileMargin='3rem 0 2.25rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
+            {title_team}
+          </CustomSectionTitle>
+          <div>{width < breakpointTablet && <TeamMemebersSwiper authorIdsArray={team_members} />}</div>
+          <div>
+            {width >= breakpointTablet && <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />}
+          </div>
+        </CustomSection>
+      )}
 
       {show_technology_stack && <TechnologyTags tags={bar_stack} />}
 
@@ -181,12 +199,19 @@ export default function Template({ data, pageContext, children }: PropsWithChild
         </div>
       )}
 
-      {isClient && blog_section && <>
-        <PopularBlogPosts posts={posts} title={blog_section_title} />
-      </>}
+      {isClient && blog_section && (
+        <>
+          <PopularBlogPosts posts={posts} title={blog_section_title} />
+        </>
+      )}
 
-      <CustomSection paddingProps='2rem 15rem 4rem 15rem' paddingLaptop='5rem 6rem 2rem'
-                     paddingMobileProps='0 1.125rem 2rem' paddingTabletXL='2rem 6rem 2rem' paddingTablet='2rem 2rem 2rem'>
+      <CustomSection
+        paddingProps='2rem 15rem 4rem 15rem'
+        paddingLaptop='5rem 6rem 2rem'
+        paddingMobileProps='0 1.125rem 2rem'
+        paddingTabletXL='2rem 6rem 2rem'
+        paddingTablet='2rem 2rem 2rem'
+      >
         <CustomSectionInner>
           <a href='#faqs' style={{ display: 'block' }}>
             {show_case_study ? (
@@ -212,7 +237,7 @@ export default function Template({ data, pageContext, children }: PropsWithChild
               generateLink={args =>
                 routeLinks.ourAreas({
                   service: args.basePath,
-                  faqSlug: args.faqSlug
+                  faqSlug: args.faqSlug,
                 })
               }
               ref={myRef}
@@ -231,50 +256,57 @@ export default function Template({ data, pageContext, children }: PropsWithChild
         paddingLaptop='1rem 137px 2.25rem'
       >
         <FormHeading>
-          <CustomSectionTitle margin='0'
-                              mobileMargin='3.5rem 0 2.25rem'
-                              laptopMargin='3.5rem 0 2.25rem'
-                              tabletMargin='3.5rem 0 2.25rem'
-                              tabletXLMargin='3.5rem 0 2.25rem'>
+          <CustomSectionTitle
+            margin='0'
+            mobileMargin='3.5rem 0 2.25rem'
+            laptopMargin='3.5rem 0 2.25rem'
+            tabletMargin='3.5rem 0 2.25rem'
+            tabletXLMargin='3.5rem 0 2.25rem'
+          >
             let's chat and meet for a coffee
           </CustomSectionTitle>
-          <TextRegular id='contactForm'>Once you've completed the form, let's catch up over coffee during your stay in
-            Gdańsk.</TextRegular>
+          <TextRegular id='contactForm'>
+            Once you've completed the form, let's catch up over coffee during your stay in Gdańsk.
+          </TextRegular>
         </FormHeading>
 
         <FlexWrapper desktopGap='64px' desktopDirection='row' tabletDirection='column'>
-          {width >= deviceSize.mobile && <FlexWrapper desktopDirection='column' desktopBasis='48%' desktopGap='48px'>
-            <RoundedImage>
-              <StaticImage src='../../static/images/gdansk/gdansk_contact.jpg' alt='Contact in Gdańsk' />
-            </RoundedImage>
-          </FlexWrapper>}
+          {width >= deviceSize.mobile && (
+            <FlexWrapper desktopDirection='column' desktopBasis='48%' desktopGap='48px'>
+              <RoundedImage>
+                <StaticImage src='../../static/images/gdansk/gdansk_contact.jpg' alt='Contact in Gdańsk' />
+              </RoundedImage>
+            </FlexWrapper>
+          )}
           <StartProjectContact
             formButton='Business Contact Form Button'
             actionFormButton='Click Submit Business Form'
           />
         </FlexWrapper>
       </CustomSection>
-      {width < deviceSize.mobile && <FlexWrapper desktopDirection='column' desktopBasis='48%' desktopGap='48px'>
+      {width < deviceSize.mobile && (
+        <FlexWrapper desktopDirection='column' desktopBasis='48%' desktopGap='48px'>
           <StaticImage src='../../static/images/gdansk/gdansk_contact.jpg' alt='Contact in Gdańsk' />
-      </FlexWrapper>}
+        </FlexWrapper>
+      )}
       <FaqStructuredData faqs={faqs} />
     </Page>
   )
 }
 
-
-
 export const pageQuery = graphql`
   query($id: String!, $blog_section_tags: [String!]) {
     related: allMdx(
-      filter: {frontmatter: {tags: {in: $blog_section_tags}}}
-      sort: { frontmatter: {meaningfullyUpdatedAt: DESC } }
+      filter: { frontmatter: { tags: { in: $blog_section_tags } } }
+      sort: { frontmatter: { meaningfullyUpdatedAt: DESC } }
       limit: 4
     ) {
       edges {
         node {
           id
-          internal {  contentFilePath  }
+          internal {
+            contentFilePath
+          }
           excerpt(pruneLength: 500)
           frontmatter {
             excerpt
@@ -292,7 +324,9 @@ export const pageQuery = graphql`
           }
           fields {
             slug
-            timeToRead { minutes }
+            timeToRead {
+              minutes
+            }
           }
         }
       }
@@ -339,6 +373,7 @@ export const pageQuery = graphql`
         description_contact
         name
         language
+        video_file
         image_our_service_mobile {
           childImageSharp {
             gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE, webpOptions: { quality: 100 })

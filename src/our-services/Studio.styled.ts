@@ -45,10 +45,10 @@ export const OurStudioPageTitle = styled(CustomPageTitle)`
   text-align: left;
   letter-spacing: -0.04em;
   & .highlighted-word {
-      color: ${variables.color.primary};
+    color: ${variables.color.primary};
   }
   & span {
-      color: ${variables.color.text};
+    color: ${variables.color.text};
   }
   @media ${variables.device.laptop} {
     font-size: ${clampBuilder(1281, 1542, 45, 57)};
@@ -166,17 +166,17 @@ export const SliderSection = styled(CustomSection)`
 export const ImageWrapper = styled.div`
   @media ${variables.deviceWidthMin.tablet} {
     filter: drop-shadow(0 1rem 1rem #d4d4d4);
-    
+
     && img {
-        display: block;
-        max-width: 100%;
-        border-radius: 16px;
+      display: block;
+      max-width: 100%;
+      border-radius: 16px;
     }
   }
 
   @media ${variables.device.tablet} {
     filter: none;
-      
+
     && img {
       border-radius: 0;
     }
@@ -196,34 +196,36 @@ export const HeroWrapper = styled.div`
   }
 `
 
-export const CustomSectionOurServiceImage = styled(CustomSection)`
+export const CustomSectionOurServiceMedia = styled(CustomSection)`
   flex-basis: 52.5%;
+  display: flex;
+  align-items: center;
   height: 100%;
 `
 
 export const RoundedImage = styled.div<{
   off?: boolean
 }>`
-    & img {
-        border-radius: ${({off}) => off ? 'none' : '16px'};
-    }
+  & img {
+    border-radius: ${({ off }) => (off ? 'none' : '16px')};
+  }
 `
 
 export const FormHeading = styled.div`
-    max-width: 800px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: auto;
-    margin-bottom: 3rem;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 3rem;
 
-    @media ${variables.device.laptop} {
-        max-width: 800px;
-    }
-    @media ${variables.device.tabletXL} {
-        max-width: 824px;
-    }
-    @media ${variables.device.tablet} {
-        max-width: 100%;
-    }
+  @media ${variables.device.laptop} {
+    max-width: 800px;
+  }
+  @media ${variables.device.tabletXL} {
+    max-width: 824px;
+  }
+  @media ${variables.device.tablet} {
+    max-width: 100%;
+  }
 `
