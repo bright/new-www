@@ -90,7 +90,7 @@ At the start of our collaboration, you might be involved in the project outlined
 * **flexible working hours** (we start between 7.00 -10.00 a.m.) 
 * **individual training budget** and office library 
 * **MultiSport** card and **private medical** package
-* Bright Day once a month for non-project stuff
+* 12 days per year dedicated to professional development
 * **free English** classes in small groups  
 * weekly **running, swimming and cycling classes** with a professional coach
 * quarter team buildings events
