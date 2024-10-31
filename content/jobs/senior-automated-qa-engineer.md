@@ -89,7 +89,7 @@ You would join the team as the most experienced person in testing, closely colla
 * MultiSport and private medical package
 * company library with an extra budget for professional books
 * good equipment: MacBook and additional accessories
-* Bright Day once a month for non-project stuff
+* 12 days per year dedicated to professional development
 * weekly sport classes and in-house yoga time
 * office in Gdańsk Wrzeszcz with a parking space nearby
 * team retreats once a quarter and lunch roulette initiative
