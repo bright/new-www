@@ -72,6 +72,6 @@ We are looking for a business-oriented senior backend developer to join one of o
 * good equipment: we provide you with MacBook and additional accessories
 * internal workshops and dev's meetings 
 * extra budget for training and library with professional books
-* one extra day for non-project stuff each month
+* 12 days per year dedicated to professional development
 * regular sports classes (running, biking, swimming) and yoga Fridays
 * board games evenings, weekly lunch initiative, team retreats once a quarter
