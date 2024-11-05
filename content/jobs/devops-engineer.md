@@ -68,6 +68,7 @@ At the start of our collaboration, you might be involved in the project outlined
 ## **preferred skills and qualifications  ✅**
 
 * experience with cloud providers like AWS, Azure, or Google Cloud
+* very good knowledge of Python
 * proficiency with tools like AWS CloudFormation, or Ansible to automate infrastructure deployment and management
 * Hands-on experience with Continuous Integration and Continuous Deployment (CI/CD) tools like Jenkins, GitLab CI, CircleCI, or Bamboo
 * experience with managing Docker in production
