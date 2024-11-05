@@ -68,7 +68,7 @@ At the start of our collaboration, you might be involved in the project outlined
 ## **preferred skills and qualifications  ✅**
 
 * experience with cloud providers like AWS, Azure, or Google Cloud
-* proficiency with tools like Terraform, AWS CloudFormation, or Ansible to automate infrastructure deployment and management
+* proficiency with tools like AWS CloudFormation, or Ansible to automate infrastructure deployment and management
 * Hands-on experience with Continuous Integration and Continuous Deployment (CI/CD) tools like Jenkins, GitLab CI, CircleCI, or Bamboo
 * experience with managing Docker in production
 * good scripting skills
@@ -79,7 +79,7 @@ At the start of our collaboration, you might be involved in the project outlined
 ## nice-to-haves
 
 * knowledge of TypeScript or Java/Kotlin
-* experience with Kubernetes
+* experience with Kubernetes and Terraform
 * knowledge about security
 
 ## what you will find in our Bright Team 🧡
