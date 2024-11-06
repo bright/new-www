@@ -1,8 +1,8 @@
 ---
 layout: member
-author_id: ola-zaw
+author_id: aleksandra-zaw
 ex: false
-slug: ola-zaw
+slug: aleksandra-zaw
 name: "Aleksandra Zawisza "
 short_name: Aleksandra
 email: aleksandra.zawisza@brightinventions.pl
