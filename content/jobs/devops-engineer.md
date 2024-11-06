@@ -13,11 +13,11 @@ salary_max: 22410
 working time: full time
 technology:
   - AWS
-  - Python
+  - GCP
   - Jenkins
+  - Terraform
   - Github + Github actions
   - CI/CD
-  - Kubernetes
   - Docker
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
@@ -67,7 +67,7 @@ At the start of our collaboration, you might be involved in the project outlined
 
 ## **preferred skills and qualifications  ✅**
 
-* experience with cloud providers like AWS, Azure, or Google Cloud
+* experience with cloud providers like AWS
 * very good knowledge of Python
 * proficiency with tools like AWS CloudFormation, or Ansible to automate infrastructure deployment and management
 * Hands-on experience with Continuous Integration and Continuous Deployment (CI/CD) tools like Jenkins, GitLab CI, CircleCI, or Bamboo
@@ -77,14 +77,13 @@ At the start of our collaboration, you might be involved in the project outlined
 * the ability to work independently as well as in a team
 * very good communication skills in English and Polish(both written and spoken)
 
-## nice-to-haves
+## nice-to-havesnice-to-haves
 
+* experience with cloud providers like Azure, or Google Cloud
 * knowledge of TypeScript or Java/Kotlin
-* experience with Kubernetes and Terraform
+* experience with Kubernetes
 * knowledge about security
-
-## what you will find in our Bright Team 🧡
-
+* ## what you will find in our Bright Team 🧡
 * real impact on the implemented solutions and project growth
 * continuous **feedback culture**
 * **mentoring programme** and regular 1:1 meetings
