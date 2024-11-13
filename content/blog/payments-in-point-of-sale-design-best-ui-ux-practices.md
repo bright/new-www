@@ -1,6 +1,7 @@
 ---
 author: joanna-c
 secondAuthor: izabela
+thirdAuthor: aleksandra-zaw
 tags:
   - POS
   - design
