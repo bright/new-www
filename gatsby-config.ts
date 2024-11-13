@@ -142,12 +142,6 @@ const gatsbyConfig: GatsbyConfig = {
       },
     },
     {
-      resolve: `gatsby-plugin-disqus`,
-      options: {
-        shortname: `brightinventions`,
-      },
-    },
-    {
       resolve: 'gatsby-plugin-react-svg',
       options: {
         rule: {
