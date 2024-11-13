@@ -173,8 +173,8 @@ const config = {
         {
           label: 'Comments',
           name: 'comments',
-          widget: 'boolean',
-          default: true,
+          widget: 'hidden',
+          default: false,
         },
         {
           label: 'Published',
