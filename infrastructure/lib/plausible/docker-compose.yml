@@ -7,17 +7,17 @@ services:
 
   plausible_db:
     # supported versions are 12, 13, and 14
-    image: postgres:14-alpine
+    image: postgres:16-alpine
     restart: always
     volumes:
-      - db-data:/var/lib/postgresql/data
+      - db-data-v16:/var/lib/postgresql/data
     env_file:
       - plausible_db.env
     environment:
       - POSTGRES_PASSWORD=postgres
 
   plausible_events_db:
-    image: clickhouse/clickhouse-server:23.9.5.29-alpine
+    image: clickhouse/clickhouse-server:24.3.3.102-alpine
     restart: always
     volumes:
       - event-data:/var/lib/clickhouse
@@ -30,7 +30,7 @@ services:
         hard: 262144
 
   plausible:
-    image: plausible/analytics:v2.0
+    image: ghcr.io/plausible/community-edition:v2.1.1
     restart: always
     command: sh -c "sleep 10 && /entrypoint.sh db createdb && /entrypoint.sh db migrate && /entrypoint.sh run"
     depends_on:
@@ -53,6 +53,8 @@ services:
     restart: always
 volumes:
   db-data:
+    driver: local
+  db-data-v16:
     driver: local
   event-data:
     driver: local

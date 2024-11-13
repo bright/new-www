@@ -7,6 +7,8 @@ interface DisqusCommentsProps {
 }
 
 const DisqusComments: React.FC<DisqusCommentsProps> = ({ id, title }) => {
+  // Disqus requires a paid account
+  return null
   if (typeof window === "undefined") {
     return null
   }
