@@ -27,3 +27,7 @@ Still driven by my urge to create, I started a band in high school, though it di
 ## You and Swift – was it love at first sight?
 
 Yes, absolutely. I first encountered Swift in college. **Having prior experience with C++ and Java, where the code often felt unclear and complicated, Swift was a breath of fresh air**. Its syntax was simple yet powerful, and it felt almost like writing a story. The ease and clarity of Swift really stood out to me, and I immediately enjoyed working with it.
+
+## What used to be a challenge for you at work and isn’t anymore?
+
+I would say sharing my ideas. **I used to hold myself back, assuming that my suggestions might be silly** or that others had more knowledge on the subject. **Now, sharing ideas has become a natural part of my work**, and it's something I truly value.
