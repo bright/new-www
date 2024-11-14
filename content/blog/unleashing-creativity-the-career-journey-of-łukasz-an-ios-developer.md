@@ -48,7 +48,7 @@ We started by writing one feature in SwiftUI, and the entire team was excited by
 
 ## Do you enjoy your cooperation with the client?
 
-Absolutely. I really appreciate our open communication and strong feedback culture. The client is very receptive to feedback and also provides their own, which creates many opportunities for us to share different perspectives and grow as professionals. For example, the product designer on the client’s side is very open to our input regarding design, allowing us to share our developer’s perspective. This kind of collaborative relationship with product designers isn’t always common in software development, so I especially value it.
+Absolutely. I really appreciate our open communication and strong feedback culture. The client is very receptive to feedback and also provides their own, which **creates many opportunities for us to share different perspectives and grow as professionals**. For example, the product designer on the client’s side is very open to our input regarding design, allowing us to share our developer’s perspective. This kind of collaborative relationship with product designers isn’t always common in software development, so I especially value it.
 
 ## You’ve been working at Bright Inventions for almost 3 years. How do you assess this time?
 
