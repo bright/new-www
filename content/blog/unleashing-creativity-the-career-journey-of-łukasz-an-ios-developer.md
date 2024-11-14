@@ -31,3 +31,5 @@ Yes, absolutely. I first encountered Swift in college. **Having prior experience
 ## What used to be a challenge for you at work and isn’t anymore?
 
 I would say sharing my ideas. **I used to hold myself back, assuming that my suggestions might be silly** or that others had more knowledge on the subject. **Now, sharing ideas has become a natural part of my work**, and it's something I truly value.
+
+<div className="image">![quote on sharing ideas](/images/lukasz_quote_sharing_ideas.png "quote on sharing ideas")</div>
