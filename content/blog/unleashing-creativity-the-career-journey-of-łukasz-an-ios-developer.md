@@ -33,3 +33,11 @@ Yes, absolutely. I first encountered Swift in college. **Having prior experience
 I would say sharing my ideas. **I used to hold myself back, assuming that my suggestions might be silly** or that others had more knowledge on the subject. **Now, sharing ideas has become a natural part of my work**, and it's something I truly value.
 
 <div className="image">![quote on sharing ideas](/images/lukasz_quote_sharing_ideas.png "quote on sharing ideas")</div>
+
+## How do you recall switching to SwiftUI?
+
+The switch wasn’t too challenging for me because, in college, I had classes on the QT framework, which introduced me to the declarative approach to building views. At the time, I struggled with it, but I eventually got the hang of it. That experience paid off later when I started learning SwiftUI, as I was already familiar with the paradigm.
+
+## Are you in the process of switching from UIKit to SwiftUI in the project you're part of?
+
+Yes, I’m part of a team developing a [mobile app for a company in the construction industry](/projects/document-management-apps-construction/). The app was initially written using UIKit because, at the time, SwiftUI wasn’t production-ready. We waited about a year, and after seeing significant progress in SwiftUI’s development, we began modernizing the app.
