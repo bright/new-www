@@ -40,4 +40,6 @@ The switch wasn’t too challenging for me because, in college, I had classes on
 
 ## Are you in the process of switching from UIKit to SwiftUI in the project you're part of?
 
-Yes, I’m part of a team developing a [mobile app for a company in the construction industry](/projects/document-management-apps-construction/). The app was initially written using UIKit because, at the time, SwiftUI wasn’t production-ready. We waited about a year, and after seeing significant progress in SwiftUI’s development, we began modernizing the app.
+Yes, I’m part of a team developing a [mobile app for a company in the construction industry](/projects/document-management-apps-construction/). The app was initially written using UIKit because, at the time, SwiftUI wasn’t production-ready. We waited about a year, and after seeing significant progress in SwiftUI’s development, we began modernizing the app. 
+
+<div className="image">![quote on Swift UI](/images/lukasz_quote_swiftui.png "quote on Swift UI")</div>
