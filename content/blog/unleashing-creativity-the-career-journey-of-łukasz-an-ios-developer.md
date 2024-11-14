@@ -44,7 +44,7 @@ Yes, I’m part of a team developing a [mobile app for a company in the construc
 
 <div className="image">![quote on Swift UI](/images/lukasz_quote_swiftui.png "quote on Swift UI")</div>
 
-We started by writing one feature in SwiftUI, and the entire team was excited by the results, especially how much faster it was to build views. Adding new modules with the same complexity took half the time compared to using UIKit. While this improvement isn’t solely due to SwiftUI, I’d say it contributed about 50% to the increased efficiency. Now, it’s hard to imagine using UIKit for view-building, so we develop all new views in SwiftUI and gradually rewrite the older ones.
+We started by writing one feature in SwiftUI, and the entire team was excited by the results, especially how much faster it was to build views. **Adding new modules with the same complexity took half the time compared to using UIKit**. While this improvement isn’t solely due to SwiftUI, I’d say it contributed about 50% to the increased efficiency. **Now, it’s hard to imagine using UIKit for view-building**, so we develop all new views in SwiftUI and gradually rewrite the older ones.
 
 ## Do you enjoy your cooperation with the client?
 
