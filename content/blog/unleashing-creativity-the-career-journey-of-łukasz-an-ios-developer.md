@@ -66,8 +66,8 @@ Whenever I’m going on a longer trip, **I make sure to wash the car before I le
 
 ## I know you love cooking Italian. What’s your secret recipe for pizza dough?
 
-I thrive on chaos in the kitchen! While most cooks carefully measure ingredients and follow exact proportions, I like to experiment with different ratios and rising times. So, my secret ingredient is chaos.
+I thrive on chaos in the kitchen! While most cooks carefully measure ingredients and follow exact proportions, I like to experiment with different ratios and rising times. So, **my secret ingredient is chaos**.
 
-So you can’t replicate your dough, even if it turns out perfect?
+## So you can’t replicate your dough, even if it turns out perfect?
 
-Yes, that’s the downside! But it also adds an extra fun factor because I get to keep experimenting and surprising myself with the results.
+Yes, that’s the downside! But it also adds an extra fun factor because **I get to keep experimenting and surprising myself** with the results.
