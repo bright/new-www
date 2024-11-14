@@ -3,8 +3,8 @@ author: lukasz-n
 secondAuthor: izabela
 tags:
   - bright story
-date: 2024-11-14T10:39:11.229Z
-meaningfullyUpdatedAt: 2024-11-14T10:39:11.271Z
+date: 2024-11-14T12:23:55.592Z
+meaningfullyUpdatedAt: 2024-11-14T12:23:56.343Z
 slug: lukasz-ios-developer-story
 title: "Unleashing Creativity: The Career Journey of Łukasz, an iOS Developer"
 layout: post
