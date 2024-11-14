@@ -43,3 +43,15 @@ The switch wasn’t too challenging for me because, in college, I had classes on
 Yes, I’m part of a team developing a [mobile app for a company in the construction industry](/projects/document-management-apps-construction/). The app was initially written using UIKit because, at the time, SwiftUI wasn’t production-ready. We waited about a year, and after seeing significant progress in SwiftUI’s development, we began modernizing the app. 
 
 <div className="image">![quote on Swift UI](/images/lukasz_quote_swiftui.png "quote on Swift UI")</div>
+
+We started by writing one feature in SwiftUI, and the entire team was excited by the results, especially how much faster it was to build views. Adding new modules with the same complexity took half the time compared to using UIKit. While this improvement isn’t solely due to SwiftUI, I’d say it contributed about 50% to the increased efficiency. Now, it’s hard to imagine using UIKit for view-building, so we develop all new views in SwiftUI and gradually rewrite the older ones.
+
+## Do you enjoy your cooperation with the client?
+
+Absolutely. I really appreciate our open communication and strong feedback culture. The client is very receptive to feedback and also provides their own, which creates many opportunities for us to share different perspectives and grow as professionals. For example, the product designer on the client’s side is very open to our input regarding design, allowing us to share our developer’s perspective. This kind of collaborative relationship with product designers isn’t always common in software development, so I especially value it.
+
+## You’ve been working at Bright Inventions for almost 3 years. How do you assess this time?
+
+It's been great! Even during my job interview with Ula and Mateusz, I felt we had a great connection. The conversation flowed so well that we could have talked even longer, despite it already lasting about two hours!
+
+What I appreciate most about Bright Inventions is the company’s strong sports culture, which I quickly got into. Since joining, I’ve started running more regularly and going to the gym. Besides that, I’ve taken up climbing and finally started learning how to swim, something I’d wanted to do for years. I’m still not the best swimmer, but I’m making steady progress.
