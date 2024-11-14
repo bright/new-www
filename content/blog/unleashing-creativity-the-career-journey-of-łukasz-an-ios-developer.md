@@ -60,7 +60,7 @@ What I appreciate most about Bright Inventions is the **company’s strong sport
 
 Also, I really appreciate that at Bright Inventions, **I can simply focus on doing my work without having to deal with any office politics or mind games**. There’s none of that here, any communication is clear, honest, and drama-free.
 
-## Okay, it's time to be serious. How often do you wash your car? ;)
+## Okay, it's time to be serious. How often do you wash your car? 
 
 Whenever I’m going on a longer trip, **I make sure to wash the car before I leave and then again right before I arrive** at my destination to clean off any dirt or dead insects. But to be honest, I don’t drive that often – I prefer walking around the city. **Poznań, where I live, is perfect for walking**. Aside from regular visits to the car wash, I also take my car to professionals about once a month for a thorough inside-and-out cleaning.
 
