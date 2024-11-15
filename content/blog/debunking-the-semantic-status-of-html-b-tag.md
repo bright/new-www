@@ -14,7 +14,7 @@ In this article, I delve into the subtle differences between the `<b>` and `<str
 
 ## Understanding semantic tag
 
-What is that “**semantic tag**” from the title? Semantic tags in HTML serve a specific purpose by encapsulating meaningful information about the content or structure of an element. They significantly boost **accessibility** (A11y) and search engine optimization (**SEO**), all while enhancing the readability of your code.
+What is that “**semantic tag**” from the title? Semantic tags in **HTML** serve a specific purpose by encapsulating **meaningful information** about the content or structure of an element. They significantly boost **accessibility** (A11y) and search engine optimization (**SEO**), all while enhancing the readability of your code.
 
 ## The myth: `<b>` Is Not About Meaning
 
