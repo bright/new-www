@@ -2,6 +2,7 @@
 author: rafal h
 date: 2024-11-15T07:19:24.034Z
 meaningfullyUpdatedAt: 2024-11-15T07:19:24.057Z
+slug: debunking-semantic-status-of-html-b-tag
 title: Debunking the Semantic Status of HTML <b> Tag
 layout: post
 image: ""
@@ -32,7 +33,7 @@ There’s a misconception that `<b>` lacks semantic significance, while `<strong
 
 It’s fascinating that if you inquire with ChatGPT about the differences between `<b>` and `<strong>` tags, you’ll encounter the myth I’m referring to:
 
-<div className="image">![](/images/b-vs-strong.png "")</div>
+<div className="image">![ChatGPT description about differences between b and strong tags](/images/b-vs-strong.png "")</div>
 
 Myths like this one often had some truth in the past. For instance, `<b>` was indeed linked with “bold” styling without conveying any specific meaning. Even the HTML4 specification categorized it under “**Font style elements**” \[1], explicitly stating its rendering as bold text style:
 
