@@ -52,7 +52,7 @@ We have de-risked many technological challenges using our earlier prototype. Dev
 
 Making healthcare more accessible, especially through remote care, is a major trend. This was boosted during COVID-19 and is maintaining momentum. We, too, are going to facilitate remote access and monitoring to the patients’ progress of treatment.
 
-<div className="image">![Chronic Pain Treatment](/images/baner_final-quote-guy.png "Guy Siman Sensars")</div>
+<div className="image">![Chronic Pain Treatment](/images/baner_guy_quote_proof_of_concept.png "Guy Siman Sensars")</div>
 
 ## Is there any medtech or e-health solution you follow and appreciate?
 
