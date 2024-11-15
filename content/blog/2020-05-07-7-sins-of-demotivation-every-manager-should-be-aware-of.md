@@ -8,7 +8,7 @@ date: 2020-05-07T07:21:03.566Z
 meaningfullyUpdatedAt: 2024-11-15T09:00:03.566Z
 title: "7 sins of demotivation every manager & leader should be aware of "
 layout: post
-image: /images/ula_7sinsdemotivation.png
+image: /images/wrong_way_blog_cover.png
 hidden: false
 comments: true
 published: true
