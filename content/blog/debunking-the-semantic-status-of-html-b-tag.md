@@ -16,7 +16,7 @@ In this article, I delve into the subtle differences between the `<b>` and `<str
 
 What is that “**semantic tag**” from the title? Semantic tags in **HTML** serve a specific purpose by encapsulating **meaningful information** about the content or structure of an element. They significantly boost **accessibility** (A11y) and search engine optimization (**SEO**), all while enhancing the readability of your code.
 
-## The myth: `<b>` Is Not About Meaning
+## The myth: 'b' Is Not About Meaning
 
 The myth revolves around the distinction between the `<b>` tag, primarily used for styling text to be bold, and the `<strong>` tag, which conveys semantic meaning by indicating important content.
 
@@ -40,7 +40,7 @@ Myths like this one often had some truth in the past. For instance, `<b>` was in
 
 This association with mere visual styling persisted until the HTML5 standard was introduced, bringing changes to these interpretations.
 
-## The truth behind `<b>` versus `<strong>`
+## The truth behind 'b' versus 'strong'
 
 The evolution of HTML standards is fascinating. In the current HTML5 documentation, the `<b>` tag resides within the “**Text level semantics**” section \[2], marking a significant shift from its previous association in HTML4. Similar to its HTML4 counterpart, browsers still apply additional styles to the `<b>` element, rendering text bold as specified. However, in HTML5, `<b>` carries a semantic meaning, emphasizing its intended usage for specific purposes rather than simply applying font weight \[3]. Even on MDN’s specification for the `<b>` element, it’s referred to as “The Bring Attention To” element, \[4] highlighting its evolved role.
 
