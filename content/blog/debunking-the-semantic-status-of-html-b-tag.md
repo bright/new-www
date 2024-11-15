@@ -13,7 +13,7 @@ comments: false
 published: true
 language: en
 ---
-In this article, I delve into the subtle differences between the `<b>` and `<strong>` HTML tags. I highlight their shared ability to visually emphasize text while also underscoring their unique semantic implications. Despite their apparent visual resemblance, these tags diverge significantly in their semantic roles, which in turn affects **accessibility**, **SEO**, and best practices in web markup.
+**In this article, I delve into the subtle differences between the `<b>` and `<strong>` HTML tags. I highlight their shared ability to visually emphasize text while also underscoring their unique semantic implications. Despite their apparent visual resemblance, these tags diverge significantly in their semantic roles, which in turn affects accessibility, SEO, and best practices in web markup.**
 
 ## Understanding semantic tag
 
