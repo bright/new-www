@@ -42,7 +42,7 @@ This association with mere visual styling persisted until the HTML5 standard was
 
 ## The truth behind 'b' versus 'strong'
 
-The evolution of HTML standards is fascinating. In the current HTML5 documentation, the `<b>` tag resides within the “**Text level semantics**” section \[2], marking a significant shift from its previous association in HTML4. Similar to its HTML4 counterpart, browsers still apply additional styles to the `<b>` element, rendering text bold as specified. However, in HTML5, `<b>` carries a semantic meaning, emphasizing its intended usage for specific purposes rather than simply applying font weight \[3]. Even on MDN’s specification for the `<b>` element, it’s referred to as “The Bring Attention To” element, \[4] highlighting its evolved role.
+The evolution of HTML standards is fascinating. In the current HTML5 documentation, the `<b>` tag resides within the “**Text level semantics**” section \[2], marking a significant shift from its previous association in HTML4. Similar to its HTML4 counterpart, browsers still apply additional styles to the `<b>` element, rendering text bold as specified. However, in HTML5, `<b>` carries a semantic meaning, emphasizing its intended usage for specific purposes rather than simply applying font weight \[3]. Even on MDN’s specification for the `<b>` element, it’s referred to as “**The Bring Attention To**” element, \[4] highlighting its evolved role.
 
 It’s intriguing: both `<b>` and `<strong>` can make the text bolder visually (but should not be used just to make text bold), yet they each carry distinct semantic meanings. At first impression, they may seem alike, but their semantics differ subtly, shaping their intended use in distinct ways.
 
