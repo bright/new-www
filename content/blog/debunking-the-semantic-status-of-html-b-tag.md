@@ -62,7 +62,7 @@ On the contrary, `<strong>` emphasizes the **significance**, **gravity**, or **u
 
 ## Impact on accessibility 
 
-As noted earlier, semantic tags are generally intended to improve **accessibility** (A11y), but the practical difference between `<b>` and `<strong>` tags in this area is less significant than one might expect. While these tags have distinct semantic meanings - support for their unique purposes is not consistently implemented across all screen readers. As a result, in many cases, they behave exactly the same \[6] (just like a common text tag).
+As noted earlier, semantic tags are generally intended to improve **accessibility** (A11y), but the practical difference between `<b>` and `<strong>` tags in this area is less significant than one might expect. While these tags have distinct semantic meanings - support for their unique purposes is not consistently implemented across all screen readers. As a result, in many cases, their behavior is identical \[6], functioning just like a standard text tag.
 
 To observe this firsthand, you can enable VoiceOver on your computer or install a screen reader extension in your browser to test how these tags are interpreted. This discrepancy between specification and real-world implementation reveals a gap that still exists in how accessibility tools handle semantic tags.
 
