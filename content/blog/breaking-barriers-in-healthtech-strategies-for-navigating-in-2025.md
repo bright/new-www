@@ -71,7 +71,7 @@ Even the most innovative Healthtech solutions can falter if they fail to gain ac
 \
 The technology breaks down a lot of that and presents a completely different way of thinking about healthcare. However, the majority of healthcare stakeholders are not quite ready to embrace it en masse. Aahuti Rai
 
-Factors Contributing to Adoption Barriers:
+### Factors Contributing to Adoption Barriers:
 
 \- Complexity of Technology: Steep learning curves can deter busy healthcare professionals.
 
@@ -91,9 +91,9 @@ Approaches to Enhance Adoption:
 
 The lack of seamless communication between different health systems hinders the effective use of Healthtech solutions. Interoperability is crucial for ensuring that patient data flows efficiently across various platforms and care settings.
 
+<div className="image">![fernando campos soares_interoperability](/images/baner_fernando-failure-2-.png "nuria_interoperability")</div>
 
-
-Problems Arising from Interoperability Gaps:
+### **Problems Arising from Interoperability Gaps:**
 
 \- Data Silos: Fragmented data can lead to incomplete patient records.
 
@@ -101,7 +101,7 @@ Problems Arising from Interoperability Gaps:
 
 \- Patient Safety Risks: Incomplete information can result in medical errors.
 
-Solutions for Improved Interoperability:
+### **Solutions for Improved Interoperability:**
 
 \-Adopt Standards: Utilize common data standards like HL7 and FHIR.
 
