@@ -73,13 +73,19 @@ The rapid evolution of standards and specifications in various frontend technolo
 ### References
 
 **\[1] HTML4 `<b>` spec**\
-[](https://www.w3.org/TR/html401/present/graphics.html#edef-B)[[https://www.w3.org/TR/html401/present/graphics.html#edef-](https://www.w3.org/TR/html401/present/graphics.html#edef-B)B](<https://www.w3.org/TR/html401/present/graphics.html#edef-B>)\
+https://www.w3.org/TR/html401/present/graphics.html#edef-B
+
 **\[2] HTML5 `<b>` spec**\
-[[[https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-elemen](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-element)](<https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-element>)](<https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-element>](<https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-element>)[](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-element)**\[3] Using `<b>` and `<i>` elements**\
-<https://www.w3.org/International/questions/qa-b-and-i-tags>\
+https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-element
+
+[](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-element)**\[3] Using `<b>` and `<i>` elements**\
+https://www.w3.org/International/questions/qa-b-and-i-tags
+
 **\[4] `<b>`: The Bring Attention To element**\
-[[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b)b](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b)\
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b[](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b)
+
 **\[5] HTML5 `<strong>` spec**\
-<https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-strong-element>\
+https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-strong-element
+
 **\[6] Screen Readers support for text level HTML semantics**\
-<https://www.tpgi.com/screen-readers-support-for-text-level-html-semantics/>
+https://www.tpgi.com/screen-readers-support-for-text-level-html-semantics/
