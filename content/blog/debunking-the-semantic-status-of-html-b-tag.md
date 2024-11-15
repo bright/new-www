@@ -1,5 +1,7 @@
 ---
 author: rafal h
+tags:
+  - frontend
 date: 2024-11-15T07:19:24.034Z
 meaningfullyUpdatedAt: 2024-11-15T07:19:24.057Z
 slug: debunking-semantic-status-of-html-b-tag
