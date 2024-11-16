@@ -13,7 +13,7 @@ language: en
 ---
 **Following our discussion on JavaScript gotchas let’s delve into another intricate behavior: hoisting. I’ll be shedding light on a prevalent myth surrounding this mechanism, particularly associated with the “let” and “const” keywords.**
 
-## **The myth: var and const are not hoisted**
+## **The myth: let and const are not hoisted**
 
 > **Hoisting** is a mechanism that relocates **variables declarations** (those declared using the “**var**” keyword) and **function declarations** to the top of their respective scope within the code. 
 
