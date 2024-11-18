@@ -4,7 +4,7 @@ workplace_recruiter: Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: "DevOps Engineer "
-subtitle: OPEN
+subtitle: FINAL STAGE
 image-alt-job: Bright Inventions team
 hours: Full-time
 salary: 149 - 183 PLN/hour + VAT (B2B) or 18 260 - 22 410 PLN gross (UoP)
