@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Senior iOS Developer "
-subtitle: OPEN
+subtitle: CLOSED
 imagejob: /images/team-job-offer-2-.png
 image-alt-job: iOS Development Team Bright Inventions
 hours: full-time
@@ -40,7 +40,7 @@ button_linkedin: https://www.linkedin.com/in/saralecka81680085/
 button: join our bright iOS team
 published: true
 show_recruiter_info: true
-order: 2
+order: 6
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
