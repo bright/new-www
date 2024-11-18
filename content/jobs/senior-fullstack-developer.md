@@ -41,7 +41,7 @@ hidden: false
 name_recruiter: Agata
 image_alt_recruiter_info: Agata Dankowska - A Recruiter at Bright Inventions
 button: join our bright team
-order: 5
+order: 2
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
