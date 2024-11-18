@@ -1,10 +1,10 @@
 ---
 author: izabela
 tags:
-  - update
-date: 2024-11-14T15:12:09.060Z
-meaningfullyUpdatedAt: 2024-11-14T15:12:09.103Z
-slug: delivery-partners-program
+  - bright insights
+date: 2024-11-18T10:29:45.484Z
+meaningfullyUpdatedAt: 2024-11-18T10:29:45.991Z
+slug: polkadot-delivery-partners
 title: Bright Inventions Named a Trusted Engineering Partner in Polkadot’s Ecosystem
 layout: post
 image: /images/blockchain_cover.png
