@@ -37,7 +37,7 @@ button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our Bright team
 published: true
 show_recruiter_info: true
-order: 1
+order: 2
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: DevOps task
 language: en
