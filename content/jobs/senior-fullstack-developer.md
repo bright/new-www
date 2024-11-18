@@ -61,16 +61,16 @@ We are seeking an experienced Fullstack Developer to join our bright team. The i
 
 As a Fullstack Developer, you will collaborate with cross-functional teams to design, develop, and maintain software solutions that meet our clients' needs.  **You will feel great in our team if you are a team player who approach challenges and complexities with a problem-solving mindset and openness to feedback.** 
 
-## \
+##
 about the project 🧑🏻‍💻🧑🏻‍💻
 
-We are looking for candidates to join two of our projects.\
-\
+We are looking for candidates to join two of our projects.
+
 The first project is a system that serves as a next-generation passwordless authentication service, used daily by millions of users worldwide. It focuses on identity protection by leveraging the latest trends in biometric technology, enabling users to access their accounts with a single touch. The system itself consists of several distinct products/applications.
 
 The second project is an online group therapy application that connects individuals seeking emotional support. You can read more about it here: <https://brightinventions.pl/projects/online-group-support/>
 
-## \
+##
 what you will do 🤝
 
 * collaborate with the product manager/owner to understand project requirements and translate them into technical specifications
