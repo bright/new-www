@@ -17,17 +17,17 @@ technology:
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
-  [How to Start Working at Bright Inventions - A Quick Guide for Candidates
-   ](https://brightinventions.pl/blog/how-to-start-working-at-bright-inventions-a-quick-guide-for-candidates/)
+  [How to Start Working at Bright Inventions - A Quick Guide for
+  Candidates](https://brightinventions.pl/blog/how-to-start-working-at-bright-inventions-a-quick-guide-for-candidates/)
 
 
-   [Screening - How to Get Prepared ](https://brightinventions.pl/blog/recruitment-screening-what-is-it-for/)
+   [Screening - How to Get Prepared](https://brightinventions.pl/blog/recruitment-screening-what-is-it-for/)
 
 
    [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
 
 
-   [No Time for Bullsh\*\*. Feedback Culture](/blog/no-time-for-bullshit-feedback-culture/)
+   [No Time for Bullsh**. Feedback Culture](/blog/no-time-for-bullshit-feedback-culture/)
 
 
    [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
@@ -61,16 +61,16 @@ We are seeking an experienced Fullstack Developer to join our bright team. The i
 
 As a Fullstack Developer, you will collaborate with cross-functional teams to design, develop, and maintain software solutions that meet our clients' needs.  **You will feel great in our team if you are a team player who approach challenges and complexities with a problem-solving mindset and openness to feedback.** 
 
-## \
+##
 about the project 🧑🏻‍💻🧑🏻‍💻
 
-We are looking for candidates to join two of our projects.\
-\
+We are looking for candidates to join two of our projects.
+
 The first project is a system that serves as a next-generation passwordless authentication service, used daily by millions of users worldwide. It focuses on identity protection by leveraging the latest trends in biometric technology, enabling users to access their accounts with a single touch. The system itself consists of several distinct products/applications.
 
 The second project is an online group therapy application that connects individuals seeking emotional support. You can read more about it here: <https://brightinventions.pl/projects/online-group-support/>
 
-## \
+##
 what you will do 🤝
 
 * collaborate with the product manager/owner to understand project requirements and translate them into technical specifications
