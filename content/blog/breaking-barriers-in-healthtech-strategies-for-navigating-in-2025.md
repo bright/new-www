@@ -99,51 +99,38 @@ The lack of seamless communication between different health systems hinders the 
 * APIs and Integrations: Develop application programming interfaces that enable system compatibility.
 * Collaborative Efforts: Participate in industry consortiums focused on interoperability.
 
-5. Funding and Investment: Securing Financial Support
+## **Funding and Investment: Securing Financial Support**
 
 Access to capital is a significant barrier, especially for start-ups aiming to disrupt the Healthtech space. Investors may be wary due to the high risks associated with regulatory hurdles and market adoption challenges.
 
-\
-Technically, building a good team and securing funding for a data science or ML team is challenging. Bartosz Borucki
+### Investment Challenges:
 
-Investment Challenges:
+* High Development Costs: R&D in Healthtech can be expensive and time-consuming.
+* Uncertain ROI: The path to profitability may not be clear-cut.
+* Market Competition: A saturated market can deter investment.
 
-\- High Development Costs: R&D in Healthtech can be expensive and time-consuming.
+### Strategies to Attract Funding:
 
-\- Uncertain ROI: The path to profitability may not be clear-cut.
+* Clear Value Proposition: Articulate how the technology addresses unmet needs.
+* Pilot Programs: Demonstrate success through small-scale implementations.
+* Strategic Partnerships: Collaborate with established healthcare entities to bolster credibility.
 
-\- Market Competition: A saturated market can deter investment.
-
-Strategies to Attract Funding:
-
-\- Clear Value Proposition: Articulate how the technology addresses unmet needs.
-
-\- Pilot Programs: Demonstrate success through small-scale implementations.
-
-\- Strategic Partnerships: Collaborate with established healthcare entities to bolster credibility.
-
-6. Cultural Resistance: Overcoming Traditional Mindsets
+## Cultural Resistance: Overcoming Traditional Mindsets
 
 Healthcare is a field deeply rooted in tradition and established practices. Introducing new technologies often requires a cultural shift among providers and patients alike.
 
-\
-ng about healthcare. However, the majority of healthcare stakeholders are not quite ready to embrace it en masse. We're making progress, especially enabled by COVID and the funding that followed, but culture change doesn't happen overnight. The pace of innovation is faster than the pace at which we can change mindsets and engage hearts and minds. Aahuti Rai
-
+### \
 Aspects of Cultural Resistance:
 
-\- Trust in Human Judgment: Preference for human expertise over algorithms or AI.
+* Trust in Human Judgment: Preference for human expertise over algorithms or AI.
+* Fear of Job Loss: Concerns that automation may replace human roles.
+* Patient Reluctance: Discomfort with virtual consultations or digital monitoring.
 
-\- Fear of Job Loss: Concerns that automation may replace human roles.
+### Overcoming Cultural Barriers:
 
-\- Patient Reluctance: Discomfort with virtual consultations or digital monitoring.
-
-Overcoming Cultural Barriers:
-
-\- Stakeholder Engagement: Involve healthcare professionals in the development process.
-
-\- Transparent Communication: Explain the benefits and limitations of technologies openly.
-
-\- Gradual Implementation: Introduce changes incrementally to allow time for adaptation.
+* Stakeholder Engagement: Involve healthcare professionals in the development process.
+* Transparent Communication: Explain the benefits and limitations of technologies openly.
+* Gradual Implementation: Introduce changes incrementally to allow time for adaptation.
 
 Conclusion
 
