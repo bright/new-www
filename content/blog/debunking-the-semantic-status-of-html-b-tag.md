@@ -4,8 +4,8 @@ tags:
   - frontend
 date: 2024-11-15T07:19:24.034Z
 meaningfullyUpdatedAt: 2024-11-15T07:19:24.057Z
-slug: debunking-semantic-status-of-html-b-tag
-title: Debunking the Semantic Status of HTML <b> Tag
+slug: semantic-status-of-html-b-tag
+title: "To <b> or Not to <b>: the Semantic Status of HTML <b> Tag"
 layout: post
 image: ""
 hidden: false
