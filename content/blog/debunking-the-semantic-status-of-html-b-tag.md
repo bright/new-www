@@ -5,7 +5,7 @@ tags:
 date: 2024-11-19T12:44:03.135Z
 meaningfullyUpdatedAt: 2024-11-19T12:44:03.840Z
 slug: semantic-status-of-html-b-tag
-title: "To <b> or Not to <b>: the Semantic Status of HTML <b> Tag"
+title: "To 'b' or Not to 'b': the Semantic Status of HTML 'b' Tag"
 layout: post
 image: /images/blogpost_rafal_html.png
 hidden: false
