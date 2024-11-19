@@ -1,5 +1,5 @@
 ---
-author: rafal h
+author: rafal-op
 tags:
   - frontend
 date: 2024-11-15T07:19:24.034Z
@@ -7,7 +7,7 @@ meaningfullyUpdatedAt: 2024-11-15T07:19:24.057Z
 slug: semantic-status-of-html-b-tag
 title: "To <b> or Not to <b>: the Semantic Status of HTML <b> Tag"
 layout: post
-image: ""
+image: /images/blogpost_rafal_html.png
 hidden: false
 comments: false
 published: true
