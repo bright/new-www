@@ -2,8 +2,8 @@
 author: agata
 tags:
   - HealthTech
-date: 2024-11-12T09:44:07.891Z
-meaningfullyUpdatedAt: 2024-11-12T09:44:07.918Z
+date: 2024-11-18T09:00:30.645Z
+meaningfullyUpdatedAt: 2024-11-18T09:00:31.538Z
 slug: healthtech-strategies
 title: "Breaking Barriers in Healthtech: Strategies for Navigating in 2025"
 layout: post
