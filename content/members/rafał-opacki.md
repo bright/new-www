@@ -8,8 +8,8 @@ short_name: Rafał
 email: rafal.opacki@brightinventions.pl
 bio: Senior Fullstack Developer
 description: Senior Fullstack Developer
-avatar: /images/os_001.jpg
-avatar_hover: /images/os_005.jpg
+avatar: /images/brightdev_rafal_businessrafal-busine.png
+avatar_hover: /images/brightdev_rafal-passionrafal-busine.png
 published: true
 language: en
 ---
