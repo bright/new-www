@@ -40,7 +40,7 @@ bar_stack:
   - Substrate
 button: let's meet in 48 hours
 button2: book a free consultation
-published: true
+published: false
 show_case_study: true
 show_technology_stack: true
 title_team: team
