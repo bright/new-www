@@ -65,42 +65,23 @@ Learn from the leaders at the forefront of today’s digital transformation tren
 
 Details: [www.himss.org/event-himss-europe](https://www.himss.org/event-himss-europe)
 
-## health.tech
-
-**Date**: 05-06 June 2024
-
-**City**: Munich
-
-**Ticket pricing**: from €499 to €1,999 (early birds)
-
-**Number of attendees**: 4,000+
-
-**Keynote speakers**: 
-
-* Hema Purohit - CTO & Director Healthcare, 
-* EMEA Microsoft; Avi Mehra - Associate Partner & CSO IBM.
-
-Network with over 4,000 attendees, investors, and executives from over 60 countries. Follow 6 digital health tracks and explore subjects such as the patient-centric journey or future visions of AI.
-
-Details: [www.bitsandpretzels.com/healthtech](https://www.bitsandpretzels.com/healthtech)
-
 ## HLTH Europe
 
-**Date**: 17-20 June 2024
+**Date**: 16-19 June 2025
 
 **City**: Amsterdam
 
-**Ticket pricing**: from €750 to €1,745 (early birds)
+**Ticket pricing**: from €750 to €1,745
 
-**Number of attendees**: 3,500+
+**Number of attendees**: 5,000+
 
 **Keynote speakers**: 
 
-* Alex Hurd - VP Health, Walmart Canada,
-* Alison Darcy - Founder and President Woebot Health,
-* Caitlin Donovan - Global Head of Uber Health, Uber.
+* Andy Hardy - CEO of University Hospitals Coventry & Warwickshire NHS Trust,
+* Anjali Bhagra -  Medical Director of Intelligent Automation, Mayo Clinic,
+* Anke Diehl - Chief Transformation Officer at University Medicine Essen.
 
-Connect with key decision-makers in HealthTech from over 50 countries. Over 3,000 meetings were held at 2023 edition between payers and heathcare providers.
+HLTH Europe is where global expertise meets local insight to address Europe's unique healthcare challenges and opportunities.
 
 Details: [https://europe.hlth.com](https://europe.hlth.com/)
 
