@@ -2,9 +2,9 @@
 author: izabela
 tags:
   - HealthTech
-date: 2024-02-07T10:04:20.149Z
-meaningfullyUpdatedAt: 2024-04-19T06:34:45.393Z
-title: Top HealthTech Conferences to Attend in Europe in 2024
+date: 2024-11-20T10:19:57.464Z
+meaningfullyUpdatedAt: 2024-11-20T10:19:58.185Z
+title: Top HealthTech Conferences to Attend in Europe in 2025
 layout: post
 image: /images/blog_conference.png
 hidden: false
@@ -12,11 +12,27 @@ comments: true
 published: true
 language: en
 ---
-**Looking for on-site digital health conferences to attend in 2024? We’ve got you covered. Check exciting HealthTech European events that will take place in upcoming months.**
+**Looking for on-site digital health conferences to attend in 2025? We’ve got you covered. Check exciting HealthTech European events that will take place in upcoming months.**
 
 <div className="image">![conference](../../static/images/blog_conference.png "conference")</div>
 
-## The MedTech Forum
+## DMEA 2024 - Connecting Digital Health
+
+**Date**: 8-10 April 2025
+
+**City**: Berlin
+
+**Ticket pricing**: from EUR 29.00 incl. VAT to EUR 359.00 incl. VAT.
+
+**Number of attendees**: 19,000
+
+**Key speakers**: Matthias Mieves, Spokesperson for e-Health | Deutscher Bundestag; Dr. Sibylle Steiner, Member of the Board | Kassenärztliche Bundesvereinigung KdöR
+
+Europe’s leading event for Digital Health. More than 800 exhibitors, over 19,000 visitors, and almost 300 speakers in one place.
+
+Details: [https://www.dmea.de/](https://www.dmea.de/en/about/dmea/)
+
+The MedTech Forum
 
 **Date**: 22-24 May 2024
 
