@@ -32,13 +32,13 @@ Europe’s leading event for Digital Health. More than 800 exhibitors, over 19,0
 
 Details: [https://www.dmea.de/](https://www.dmea.de/en/about/dmea/)
 
-The MedTech Forum
+## The MedTech Forum
 
-**Date**: 22-24 May 2024
+**Date**: 13-15 May, 2025
 
-**City**: Vienna
+**City**: Lisbon
 
-**Ticket pricing**: €390,00 - €1 590,00 (early birds)
+**Ticket pricing**: to be revealed
 
 **Number of attendees**: around 1000
 
