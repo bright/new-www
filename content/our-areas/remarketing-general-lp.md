@@ -27,8 +27,8 @@ image_our_service_mobile: /images/gdansk_studio_mobile_new.png
 image_alt_our_service: software development studio
 bullet_points:
   - we are EU-based company
-  - Established in 2012
-  - A part of Nordic Group Lyvia
+  - established in 2012
+  - a part of Nordic Group Lyvia
 bar_stack:
   - Generative AI
   - Bluetooth Low Energy
