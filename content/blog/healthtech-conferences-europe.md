@@ -26,7 +26,10 @@ language: en
 
 **Number of attendees**: 19,000
 
-**Key speakers**: Matthias Mieves, Spokesperson for e-Health | Deutscher Bundestag; Dr. Sibylle Steiner, Member of the Board | Kassenärztliche Bundesvereinigung KdöR
+**Key speakers**: 
+
+* Matthias Mieves, Spokesperson for e-Health | Deutscher Bundestag,
+* Dr. Sibylle Steiner, Member of the Board | Kassenärztliche Bundesvereinigung KdöR.
 
 Europe’s leading event for Digital Health. More than 800 exhibitors, over 19,000 visitors, and almost 300 speakers in one place.
 
@@ -50,11 +53,11 @@ Details: [www.themedtechforum.eu](https://www.themedtechforum.eu/)
 
 ## European Health Conference & Exhibition
 
-**Date**: 29-31 May 2024
+**Date**: 10-12 June, 2025
 
-**City**: Rome
+**City**: Paris
 
-**Ticket pricing**: from €120 to €1,379 (early birds)
+**Ticket pricing**: to be revealed
 
 **Number of attendees**: the exact number is not specified on the website.
 
