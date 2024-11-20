@@ -48,6 +48,34 @@ title_case_study: the clients we have supported in the tech journey
 title_faqs: FAQs
 title_contact: let's meet in 48 hours
 description_contact: Fill out the form below and we'll get back to you in 48 hours.
+boxes:
+  - box_title: software audit
+    box_description: We conduct comprehensive software audits to evaluate everything
+      from code quality to system performance and security.
+    box_icon: /images/icon_pos_features.png
+  - box_title: app modernization
+    box_description: Whether it’s revamping a legacy system or modernizing smaller
+      components, we make applications more reliable and secure.
+    box_icon: /images/app_modernization_icon.png
+  - box_title: turning ideas into MVPs
+    box_description: Bring your idea to life in as little as six months. We’ve
+      developed dozens of MVPs for startups around the globe, helping
+      entrepreneurs validate their ideas quickly and cost-effectively.
+    box_icon: /images/icon_pos_lp_competitionx2.png
+  - box_title: transforming businesses with IoT
+    box_description: >
+      We integrate software with a diverse range of devices, from healthcare
+      equipment to POS printers and payment terminals.
+    box_icon: /images/iot_development2.png
+  - box_title: building secure e-health apps
+    box_description: We develop healthcare solutions that track data in real-time,
+      enable telemedicine, ensure regulatory compliance, and foster trust among
+      users.
+    box_icon: /images/ai_development_icon_update.png
+  - box_title: scaling point-of-sale solutions
+    box_description: From concept to a global POS solution, we’ve been there every
+      step of the way, helping our clients develop, scale, and succeed.
+    box_icon: /images/pos_development_icon_update.png
 language: en
 blog_section: false
 blog_section_tags:
