@@ -85,24 +85,6 @@ HLTH Europe is where global expertise meets local insight to address Europe's un
 
 Details: [https://europe.hlth.com](https://europe.hlth.com/)
 
-## The Healthcare Innovation and Technology North Conference and Exhibition 2024
-
-**Date**: 22 October 2024
-
-**City**: Manchester
-
-**Ticket pricing**: from £249.00+VAT to £599.00+VAT
-
-**Number of attendees**: 300+
-
-**Keynote speaker**: 
-
-* Lorraine Foley - Chief Executive Officer at Professional Record Standards Body (PRSB)
-
-Discuss digital health with healthcare leaders representing top British hospitals.
-
-Details: [igpp.org.uk/event/](https://igpp.org.uk/event/Healthcare-Innovation-and-Technology-North-Conference-and-Exhibition-2024/)
-
 - - -
 
 Do you recommend other eHealth conferences held in Europe? Let us know in the comments and we might include them!
