@@ -85,8 +85,6 @@ HLTH Europe is where global expertise meets local insight to address Europe's un
 
 Details: [https://europe.hlth.com](https://europe.hlth.com/)
 
-[Save €150 on your ticket with our code!](/blog/hlth-europe-conference/)
-
 ## The Healthcare Innovation and Technology North Conference and Exhibition 2024
 
 **Date**: 22 October 2024
