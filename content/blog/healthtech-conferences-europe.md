@@ -6,7 +6,7 @@ date: 2024-02-07T10:27:48.521Z
 meaningfullyUpdatedAt: 2024-11-20T10:27:49.323Z
 title: Top HealthTech Conferences to Attend in Europe in 2025
 layout: post
-image: /images/blog_conference.png
+image: /images/healthcare_conference.png
 hidden: false
 comments: true
 published: true
@@ -14,7 +14,7 @@ language: en
 ---
 **Looking for on-site digital health conferences to attend in 2025? We’ve got you covered. Check exciting HealthTech European events that will take place in upcoming months.**
 
-<div className="image">![conference](../../static/images/blog_conference.png "conference")</div>
+<div className="image">![conference](/images/healthcare_conference.png "conference")</div>
 
 ## DMEA 2024 - Connecting Digital Health
 
