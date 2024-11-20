@@ -59,9 +59,9 @@ boxes:
       components, we make applications more reliable and secure.
     box_icon: /images/app_modernization_icon.png
   - box_title: turning ideas into MVPs
-    box_description: Bring your idea to life in as little as six months. We’ve
-      developed dozens of MVPs for startups around the globe, helping
-      entrepreneurs validate their ideas quickly and cost-effectively.
+    box_description: Bring your idea to life in less than 6 months. We’ve developed
+      dozens of MVPs, helping entrepreneurs validate their ideas quickly and
+      cost-effectively.
     box_icon: /images/icon_pos_lp_competitionx2.png
   - box_title: transforming businesses with IoT
     box_description: >
