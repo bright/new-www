@@ -22,8 +22,8 @@ short_description: Check out how we can help you solve technical hurdles!
 order: 99
 title: great to see you again
 highlighted_word: see you
-image_our_service_desktop: /images/ai_development_desktop.png
-image_our_service_mobile: /images/healthtech_consulting_agency_mobile.png
+image_our_service_desktop: /images/gdansk_studio_desktop.png
+image_our_service_mobile: /images/gdansk_studio_mobile_new.png
 image_alt_our_service: software development studio
 bullet_points:
   - we are EU-based company
