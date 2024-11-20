@@ -12,7 +12,7 @@ project:
   - invoice-system
 layout: our-service
 our_service_id: Remarketing general LP
-meta_title: We Will Solve Your Tech Headaches
+meta_title: Your app deserves the best
 meta_description: From HealthTech, IoT, POS, and Fintech – we turn ideas into
   robust digital solutions.
 our_services_icon: /images/bluetooth_development_icon.png
@@ -26,9 +26,10 @@ image_our_service_desktop: /images/welcome_back_desktop.png
 image_our_service_mobile: /images/gdansk_studio_mobile_new.png
 image_alt_our_service: software development studio
 bullet_points:
-  - we are EU-based company
-  - established in 2012
+  - scaling tech solutions for over a decade
+  - turning ideas into MVPs in up to 6 months
   - a part of Nordic Group Lyvia
+  - auditing & modernizing applications
 bar_stack:
   - Generative AI
   - Bluetooth Low Energy
@@ -46,7 +47,7 @@ show_technology_stack: true
 title_team: team
 title_case_study: the clients we have supported in the tech journey
 title_faqs: FAQs
-title_contact: let's meet in 48 hours
+title_contact: schedule a free consultation within 48 hours
 description_contact: Fill out the form below and we'll get back to you in 48 hours.
 boxes:
   - box_title: software audit
