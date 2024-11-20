@@ -28,7 +28,6 @@ image_alt_our_service: software development studio
 bullet_points:
   - scaling tech solutions for over a decade
   - turning ideas into MVPs in up to 6 months
-  - a part of Nordic Group Lyvia
   - auditing & modernizing applications
 bar_stack:
   - Generative AI
