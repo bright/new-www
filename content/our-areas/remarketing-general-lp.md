@@ -12,7 +12,7 @@ project:
   - invoice-system
 layout: our-service
 our_service_id: Remarketing general LP
-meta_title: We Will Solve Your Tech Headaches.
+meta_title: We Will Solve Your Tech Headaches
 meta_description: From HealthTech, IoT, POS, and Fintech – we turn ideas into
   robust digital solutions.
 our_services_icon: /images/bluetooth_development_icon.png
