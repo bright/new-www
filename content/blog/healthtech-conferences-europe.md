@@ -61,12 +61,7 @@ Details: [www.themedtechforum.eu](https://www.themedtechforum.eu/)
 
 **Number of attendees**: the exact number is not specified on the website.
 
-**Keynote speakers**: 
-
-* Hal Wolf III - President, CEO, HIMSS,
-* Helen Caton-Peters - Technical Officer, WHO Europe.
-
-The conference gives network opportunities to attendees from over 70 countries representing the global health ecosystem.
+Learn from the leaders at the forefront of today’s digital transformation trends and insights.
 
 Details: [www.himss.org/event-himss-europe](https://www.himss.org/event-himss-europe)
 
