@@ -2,7 +2,7 @@
 author: izabela
 tags:
   - HealthTech
-date: 2024-11-20T10:27:48.521Z
+date: 2024-02-07T10:27:48.521Z
 meaningfullyUpdatedAt: 2024-11-20T10:27:49.323Z
 title: Top HealthTech Conferences to Attend in Europe in 2025
 layout: post
