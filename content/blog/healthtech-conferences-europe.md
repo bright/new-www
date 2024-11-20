@@ -16,7 +16,7 @@ language: en
 
 <div className="image">![conference](/images/healthcare_conference.png "conference")</div>
 
-## DMEA 2024 - Connecting Digital Health
+## DMEA
 
 **Date**: 8-10 April 2025
 
