@@ -81,7 +81,7 @@ Details: [www.himss.org/event-himss-europe](https://www.himss.org/event-himss-eu
 * Anjali Bhagra -  Medical Director of Intelligent Automation, Mayo Clinic,
 * Anke Diehl - Chief Transformation Officer at University Medicine Essen.
 
-HLTH Europe is where global expertise meets local insight to address Europe's unique healthcare challenges and opportunities.
+HLTH Europe is where global expertise meets local insight to address Europe's unique healthcare challenges and opportunities. [Read our review of HLTH Europe 2024](/blog/hlth-amsterdam-2024-summary/).
 
 Details: [https://europe.hlth.com](https://europe.hlth.com/)
 
