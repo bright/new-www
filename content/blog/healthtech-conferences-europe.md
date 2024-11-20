@@ -2,9 +2,9 @@
 author: izabela
 tags:
   - HealthTech
-date: 2024-02-07T10:04:20.149Z
-meaningfullyUpdatedAt: 2024-04-19T06:34:45.393Z
-title: Top HealthTech Conferences to Attend in Europe in 2024
+date: 2024-11-20T10:27:48.521Z
+meaningfullyUpdatedAt: 2024-11-20T10:27:49.323Z
+title: Top HealthTech Conferences to Attend in Europe in 2025
 layout: post
 image: /images/blog_conference.png
 hidden: false
@@ -12,17 +12,36 @@ comments: true
 published: true
 language: en
 ---
-**Looking for on-site digital health conferences to attend in 2024? We’ve got you covered. Check exciting HealthTech European events that will take place in upcoming months.**
+**Looking for on-site digital health conferences to attend in 2025? We’ve got you covered. Check exciting HealthTech European events that will take place in upcoming months.**
 
 <div className="image">![conference](../../static/images/blog_conference.png "conference")</div>
 
+## DMEA 2024 - Connecting Digital Health
+
+**Date**: 8-10 April 2025
+
+**City**: Berlin
+
+**Ticket pricing**: from EUR 29.00 incl. VAT to EUR 359.00 incl. VAT.
+
+**Number of attendees**: 19,000
+
+**Key speakers**: 
+
+* Matthias Mieves, Spokesperson for e-Health | Deutscher Bundestag,
+* Dr. Sibylle Steiner, Member of the Board | Kassenärztliche Bundesvereinigung KdöR.
+
+Europe’s leading event for Digital Health. More than 800 exhibitors, over 19,000 visitors, and almost 300 speakers in one place.
+
+Details: [https://www.dmea.de/](https://www.dmea.de/en/about/dmea/)
+
 ## The MedTech Forum
 
-**Date**: 22-24 May 2024
+**Date**: 13-15 May, 2025
 
-**City**: Vienna
+**City**: Lisbon
 
-**Ticket pricing**: €390,00 - €1 590,00 (early birds)
+**Ticket pricing**: to be revealed
 
 **Number of attendees**: around 1000
 
@@ -34,81 +53,37 @@ Details: [www.themedtechforum.eu](https://www.themedtechforum.eu/)
 
 ## European Health Conference & Exhibition
 
-**Date**: 29-31 May 2024
+**Date**: 10-12 June, 2025
 
-**City**: Rome
+**City**: Paris
 
-**Ticket pricing**: from €120 to €1,379 (early birds)
+**Ticket pricing**: to be revealed
 
 **Number of attendees**: the exact number is not specified on the website.
 
-**Keynote speakers**: 
-
-* Hal Wolf III - President, CEO, HIMSS,
-* Helen Caton-Peters - Technical Officer, WHO Europe.
-
-The conference gives network opportunities to attendees from over 70 countries representing the global health ecosystem.
+Learn from the leaders at the forefront of today’s digital transformation trends and insights.
 
 Details: [www.himss.org/event-himss-europe](https://www.himss.org/event-himss-europe)
 
-## health.tech
-
-**Date**: 05-06 June 2024
-
-**City**: Munich
-
-**Ticket pricing**: from €499 to €1,999 (early birds)
-
-**Number of attendees**: 4,000+
-
-**Keynote speakers**: 
-
-* Hema Purohit - CTO & Director Healthcare, 
-* EMEA Microsoft; Avi Mehra - Associate Partner & CSO IBM.
-
-Network with over 4,000 attendees, investors, and executives from over 60 countries. Follow 6 digital health tracks and explore subjects such as the patient-centric journey or future visions of AI.
-
-Details: [www.bitsandpretzels.com/healthtech](https://www.bitsandpretzels.com/healthtech)
-
 ## HLTH Europe
 
-**Date**: 17-20 June 2024
+**Date**: 16-19 June 2025
 
 **City**: Amsterdam
 
-**Ticket pricing**: from €750 to €1,745 (early birds)
+**Ticket pricing**: from €750 to €1,745
 
-**Number of attendees**: 3,500+
+**Number of attendees**: 5,000+
 
 **Keynote speakers**: 
 
-* Alex Hurd - VP Health, Walmart Canada,
-* Alison Darcy - Founder and President Woebot Health,
-* Caitlin Donovan - Global Head of Uber Health, Uber.
+* Andy Hardy - CEO of University Hospitals Coventry & Warwickshire NHS Trust,
+* Anjali Bhagra -  Medical Director of Intelligent Automation, Mayo Clinic,
+* Anke Diehl - Chief Transformation Officer at University Medicine Essen.
 
-Connect with key decision-makers in HealthTech from over 50 countries. Over 3,000 meetings were held at 2023 edition between payers and heathcare providers.
+HLTH Europe is where global expertise meets local insight to address Europe's unique healthcare challenges and opportunities. [Read our review of HLTH Europe 2024](/blog/hlth-amsterdam-2024-summary/).
 
 Details: [https://europe.hlth.com](https://europe.hlth.com/)
-
-[Save €150 on your ticket with our code!](/blog/hlth-europe-conference/)
-
-## The Healthcare Innovation and Technology North Conference and Exhibition 2024
-
-**Date**: 22 October 2024
-
-**City**: Manchester
-
-**Ticket pricing**: from £249.00+VAT to £599.00+VAT
-
-**Number of attendees**: 300+
-
-**Keynote speaker**: 
-
-* Lorraine Foley - Chief Executive Officer at Professional Record Standards Body (PRSB)
-
-Discuss digital health with healthcare leaders representing top British hospitals.
-
-Details: [igpp.org.uk/event/](https://igpp.org.uk/event/Healthcare-Innovation-and-Technology-North-Conference-and-Exhibition-2024/)
 
 - - -
 
