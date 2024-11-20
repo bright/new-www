@@ -6,8 +6,8 @@ slug: sara-l
 name: Sara Łęcka
 short_name: Sara
 email: sara.lecka@brightinventions.pl
-bio: Junior Recruitment Specialist
-description: Junior Recruitment Specialist
+bio: Recruitment Specialist
+description: Recruitment Specialist
 avatar: /images/brightpeople_sara_business.png
 avatar_hover: /images/brightpeople_sara_passion.png
 published: true
