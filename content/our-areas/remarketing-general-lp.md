@@ -2,7 +2,7 @@
 team_members:
   - agata
 faqs:
-  - agile workshop 1
+  - remarketing general 1 What areas do you specialize in?
 project:
   - pos-devices-integration
   - circles
