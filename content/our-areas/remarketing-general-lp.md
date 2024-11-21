@@ -12,7 +12,7 @@ project:
   - invoice-system
 layout: our-service
 our_service_id: Remarketing general LP
-meta_title: Your app deserves the best
+meta_title: Your App Deserves the Best
 meta_description: From HealthTech, IoT, POS, and Fintech – we turn ideas into
   robust digital solutions.
 our_services_icon: /images/bluetooth_development_icon.png
@@ -38,7 +38,7 @@ bar_stack:
   - AWS
   - TypeScript
   - Substrate
-button: let's meet in 48 hours
+button: book a meeting in 48 hours
 button2: book a free consultation
 published: false
 show_case_study: true
