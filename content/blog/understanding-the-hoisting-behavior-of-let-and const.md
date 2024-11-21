@@ -1,5 +1,5 @@
 ---
-author: izabela
+author: rafal-op
 tags:
   - frontend
 date: 2024-11-16T15:51:42.276Z
