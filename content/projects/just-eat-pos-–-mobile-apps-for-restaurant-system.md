@@ -105,8 +105,6 @@ The app let you manage food orders made at restaurant, by phone or the website.
 
 <TitleWithIcon sectionTitle="customized applications for Bluetooth devices" titleIcon="/images/gearwheel.svg" titleIconAlt="delivering customized applications for Bluetooth devices" />
 
-<div className="image">![quote](/images/just_eat_quote.png "quote")</div>
-
 A great part of working with Just Eat POS was **building [iOS and Android applications integrated with Bluetooth retail and ePOS devices](/projects/pos-devices-integration/)** including:
 
 * POS Desktops,
@@ -120,6 +118,8 @@ A great part of working with Just Eat POS was **building [iOS and Android applic
 * Kiosks.
 
 Our applications had been integrated mostly with **Sunmi Technology** – one of the top global hardware providers.
+
+<div className="image">![quote](/images/just_eat_quote.png "quote")</div>
 
 <TitleWithIcon sectionTitle="what is next for Just Eat Takeaway and Bright Inventions" titleIcon="/images/icon_result_svg.svg" titleIconAlt="result" />
 
