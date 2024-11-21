@@ -8,7 +8,7 @@ project:
   - circles
   - tms
   - HS-Baumappe
-  - pos-bill-splitting
+  - Card Tracking System
   - food-delivery-app
 layout: our-service
 our_service_id: Remarketing general LP
