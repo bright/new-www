@@ -4,6 +4,7 @@ tags:
   - frontend
 date: 2024-11-16T15:51:42.276Z
 meaningfullyUpdatedAt: 2024-11-16T15:51:42.284Z
+slug: hoisting-behavior-of-let-and-const
 title: Understanding the Hoisting Behavior of let and const
 layout: post
 hidden: false
