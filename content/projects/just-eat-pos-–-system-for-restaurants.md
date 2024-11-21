@@ -100,6 +100,8 @@ All Bright Inventions’ developers worked closely with the business side. Brigh
 
 Read about iOS and Android development teams's products in a [Just Eat POS mobile applications case study](/projects/system-for-restaurants-mobile).
 
+<div className="image">![quote](/images/just_eat_quote.png "quote")</div>
+
 ### Frontend team
 
 One of Bright Inventions Frontend team **priorities was the development of the Just Eat POS Backoffice**. This was a web application that enabled managing business daily activities and gave access to financial reports. 
