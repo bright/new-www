@@ -66,6 +66,8 @@ Just Eat POS is a point-of-sale (POS) system that we have been scaling for almos
 
 The system we built supports devices from various producers, allowing restaurants to **easily connect their POS printers from manufacturers such as Epson, Star, and tablets with built-in printers like Citaq or Sunmi**.
 
+<div className="image">![quote](/images/just_eat_quote.png "quote")</div>
+
 The POS system is also flexible in terms of the types of devices it supports. Restaurants and stores could **easily operate with equipment such as cash registers, electronic scales, barcode scanners, magnetic stripe readers, and kiosks**. These devices are mostly connected via Bluetooth and, in some cases, through WiFi, making Just Eat POS the central hub for all restaurant payment and order operations.
 
 We added crucial automation features to alleviate some responsibilities from the already burdened waitstaff. One such feature is the **automated order printout for the kitchen. After completing an order, a printer prints the kitchen receipt with only the essential information for the kitchen** (excluding prices, for example), ensuring that the kitchen staff receives the order promptly and can proceed with meal preparation. This automation means the waitstaff no longer has to worry about whether the kitchen receives the necessary information.
