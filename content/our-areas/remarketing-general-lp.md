@@ -6,10 +6,10 @@ faqs:
 project:
   - pos-devices-integration
   - circles
-  - kitchen-display-system
+  - tms
+  - HS-Baumappe
   - pos-bill-splitting
   - food-delivery-app
-  - invoice-system
 layout: our-service
 our_service_id: Remarketing general LP
 meta_title: Your App Deserves the Best
