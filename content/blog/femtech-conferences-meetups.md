@@ -36,6 +36,26 @@ This summit focuses on addressing challenges women face in the workplace, offeri
 
 Details: [women.risehealth.org](https://www.women.risehealth.org/)
 
+## FemHealth Integrates 2025
+
+**Date**: March 18, 2025
+
+**City**: Manchester, the UK
+
+**Ticket pricing**: from £345 +VAT to £495 +VAT
+
+**Number of attendees**: Information not provided
+
+**Key panellists:**
+
+* Dace Dimza-Jones, National Life Sciences Inward Investment Specialist at Department for Business and Trade;
+* Jess Jackson, Investment Manager at Praetura Ventures;
+* Sahana Nayak, Director at Samata Science.
+
+FemHealth Integrates is a unique event addressing the gender gap in healthcare – both in health outcomes and within the health industry workforce.
+
+Details: [](https://www.eventbrite.com/e/femtech-forward-2024-transforming-womens-health-with-tech-tickets-859434811657?aff=oddtdtcreator)[https://lifescienceintegrates.com/event/](https://lifescienceintegrates.com/event/femhealth-integrates-2025/)
+
 ## Women in Medicine Summit
 
 **Date**: September 13-14, 2024
@@ -95,22 +115,3 @@ The summit connects stakeholders at the convergence of healthcare and consumer i
 Details: [femtechconsumerinnovation.com](https://www.femtechconsumerinnovation.com/events/femtechconsumerinnovation)
 
 <EbookDynamic sectionTitle='get more resources about digital health' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download our free guide about scaling software solutions for healthcare. Almost 100 pages about leveraging technology in digital health!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide cover' />
-
-### FemTech Forward 2024: Transforming Women’s Health With Tech
-
-**Date**: May 10, 2024
-
-**City**: Oxford, UK
-
-**Ticket pricing**: £18.00
-
-**Number of attendees**: 300+
-
-**Speakers**: 
-
-* Dr Helen O’Neill, BSc (hons), MSc, PhD - CEO, Founder of Hertility; 
-* Elisa Sai, VP in Analytics and AI, Capgemini Invent.
-
-FemTech Forward 2024 aims to catalyze nuanced discussions on the potential benefits and pitfalls of applying technology to longstanding gaps in women's health.
-
-Details: [eventbrite.com/femtech-forward](https://www.eventbrite.com/e/femtech-forward-2024-transforming-womens-health-with-tech-tickets-859434811657?aff=oddtdtcreator)
