@@ -62,17 +62,17 @@ Details: [](https://www.eventbrite.com/e/femtech-forward-2024-transforming-women
 
 **City**: Zurich, Switzerland
 
-**Ticket pricing**: from €649 to €2,699
+**Ticket pricing**: from €499.00 to €749.00
 
-**Number of attendees**: 350+
+**Number of attendees**: 75,000+
 
 **Key speakers**: 
 
-* Abbie Strabala, Investment Associate at True Wealth VC; 
-* Anna Lee, Co-Founder & CEO at Lioness; 
-* Dr Lyndsey Harper MD, FACOG IF, Founder & CEO Rosy Wellness.
+* Dr Rabea Tamm, Senior Director Diversity, Equity, Inclusion & Belonging at commercetools; 
+* Filomena Cardoso, Product / User Experience Designer at Mercedes Benz iO; 
+* Maureen Josephine, Software Engineer and Google Developer Expert @ Circus Group.
 
-
+Join FemTechConf in Zurich for two days of learning and networking with diverse professionals, leaders, executives, and change makers from the STEM industry in EMEA.
 
 ## Women in Medicine Summit
 
