@@ -92,4 +92,4 @@ Details: [www.femtechconf.com](https://www.femtechconf.com/)
 
 The summit features industry leaders, networking opportunities, and sessions to drive the women's health sector forward. The organizer's mission is to mission to revolutionize the women’s health industry by uniting stakeholders from across the industry to drive innovation and partnership and improve access to and the quality of women's health care.
 
-Details: [](https://www.kisacoresearch.com/events/womens-health-innovation-summit-2024)[https://womenshealthinnovationusa.com/events](https://womenshealthinnovationusa.com/events/womens-health-innovation-summit-2025)
+Details: [](https://www.kisacoresearch.com/events/womens-health-innovation-summit-2024)[womenshealthinnovationusa.com/events](https://womenshealthinnovationusa.com/events/womens-health-innovation-summit-2025)
