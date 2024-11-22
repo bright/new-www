@@ -3,7 +3,7 @@ author: izabela
 tags:
   - HealthTech
 date: 2024-04-05T10:56:44.214Z
-meaningfullyUpdatedAt: 2024-11-22T14:42:36.908Z
+meaningfullyUpdatedAt: 2024-11-22T14:59:16.830Z
 title: Top FemTech Conferences and Meetups 2024 & 2025
 layout: post
 image: /images/meetup_femtech.png
