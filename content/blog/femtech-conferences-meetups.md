@@ -56,9 +56,9 @@ Details: [women.risehealth.org](https://www.women.risehealth.org/)
 
 FemHealth Integrates is a unique event addressing the gender gap in healthcare – both in health outcomes and within the health industry workforce.
 
-Details: [](https://www.eventbrite.com/e/femtech-forward-2024-transforming-womens-health-with-tech-tickets-859434811657?aff=oddtdtcreator)[https://lifescienceintegrates.com/event/](https://lifescienceintegrates.com/event/femhealth-integrates-2025/)
+Details: [](https://www.eventbrite.com/e/femtech-forward-2024-transforming-womens-health-with-tech-tickets-859434811657?aff=oddtdtcreator)[lifescienceintegrates.com/event/](https://lifescienceintegrates.com/event/femhealth-integrates-2025/)
 
-## FemTech & Consumer Innovation Summit 2024
+## FemTechConf
 
 **Date**: June 15-16, 2025
 
@@ -75,6 +75,8 @@ Details: [](https://www.eventbrite.com/e/femtech-forward-2024-transforming-women
 * Maureen Josephine, Software Engineer and Google Developer Expert @ Circus Group.
 
 Join FemTechConf in Zurich for two days of learning and networking with diverse professionals, leaders, executives, and change makers from the STEM industry in EMEA.
+
+Details: [www.femtechconf.com](https://www.femtechconf.com/)
 
 ## Women's Health Innovation Summit
 
