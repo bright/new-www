@@ -114,5 +114,3 @@ Details: [femtechconsumerinnovation.com](https://www.femtechconsumerinnovation.c
 FemTech Forward 2024 aims to catalyze nuanced discussions on the potential benefits and pitfalls of applying technology to longstanding gaps in women's health.
 
 Details: [eventbrite.com/femtech-forward](https://www.eventbrite.com/e/femtech-forward-2024-transforming-womens-health-with-tech-tickets-859434811657?aff=oddtdtcreator)
-
-Do you recommend other FemTech conferences? Let us know in the comments and we might include them!
