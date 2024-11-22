@@ -76,23 +76,7 @@ Details: [](https://www.eventbrite.com/e/femtech-forward-2024-transforming-women
 
 Join FemTechConf in Zurich for two days of learning and networking with diverse professionals, leaders, executives, and change makers from the STEM industry in EMEA.
 
-## Women in Medicine Summit
-
-**Date**: September 13-14, 2024
-
-**City**: Chicago, Illinois, USA
-
-**Ticket pricing**: Information not provided
-
-**Number of attendees**: Information not provided
-
-**Key speakers**: Information to be announced
-
-This event is designed to empower women in medicine, offering leadership development, negotiation skills, and strategies for career growth.
-
-Details: [womeninmedicinesummit.org](https://www.womeninmedicinesummit.org/)
-
-## Women's Health Innovation Summit 2024
+## Women's Health Innovation Summit
 
 **Date**: September 23-25, 2024
 
@@ -111,25 +95,3 @@ Details: [womeninmedicinesummit.org](https://www.womeninmedicinesummit.org/)
 The summit features industry leaders, networking opportunities, and sessions to drive the women's health sector forward. The organizer's mission is to mission to revolutionize the women’s health industry by uniting stakeholders from across the industry to drive innovation and partnership and improve access to and the quality of women's health care.
 
 Details: [kisacoresearch.com/events](https://www.kisacoresearch.com/events/womens-health-innovation-summit-2024)
-
-## **Events that already have taken place in 2024**
-
-### FemTech & Consumer Innovation Summit 2024
-
-**Date**: Aril 16-17, 2024
-
-**City**: Basel, Switzerland
-
-**Ticket pricing**: from €649 to €2,699
-
-**Number of attendees**: 350+
-
-**Key speakers**: 
-
-* Abbie Strabala, Investment Associate at True Wealth VC; 
-* Anna Lee, Co-Founder & CEO at Lioness; 
-* Dr Lyndsey Harper MD, FACOG IF, Founder & CEO Rosy Wellness.
-
-The summit connects stakeholders at the convergence of healthcare and consumer innovation to drive investment, enhance solutions and forge partnerships to unlock industry growth.
-
-Details: [femtechconsumerinnovation.com](https://www.femtechconsumerinnovation.com/events/femtechconsumerinnovation)
