@@ -78,20 +78,16 @@ Join FemTechConf in Zurich for two days of learning and networking with diverse 
 
 ## Women's Health Innovation Summit
 
-**Date**: September 23-25, 2024
+**Date**: September 22-24, 2025
 
 **City**: Boston, MA, USA
 
-**Ticket pricing**: from USD 799 to USD 2,899
+**Ticket pricing**: Information not provided
 
 **Number of attendees**: Information not provided
 
 **Key speakers**:
 
-* Trish Costello, Founder & CEO, Portfolia; 
-* Jennifer Schneiders, President Diagnostic Solutions, Hologic;
-* Shefali Goyal MS, MSc, Vice President, Head of Global RA Strategy and US Regulatory Affairs Organon.
-
 The summit features industry leaders, networking opportunities, and sessions to drive the women's health sector forward. The organizer's mission is to mission to revolutionize the women’s health industry by uniting stakeholders from across the industry to drive innovation and partnership and improve access to and the quality of women's health care.
 
-Details: [kisacoresearch.com/events](https://www.kisacoresearch.com/events/womens-health-innovation-summit-2024)
+Details: [](https://www.kisacoresearch.com/events/womens-health-innovation-summit-2024)[https://womenshealthinnovationusa.com/events](https://womenshealthinnovationusa.com/events/womens-health-innovation-summit-2025)
