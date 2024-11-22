@@ -56,6 +56,24 @@ FemHealth Integrates is a unique event addressing the gender gap in healthcare �
 
 Details: [](https://www.eventbrite.com/e/femtech-forward-2024-transforming-womens-health-with-tech-tickets-859434811657?aff=oddtdtcreator)[https://lifescienceintegrates.com/event/](https://lifescienceintegrates.com/event/femhealth-integrates-2025/)
 
+## FemTech & Consumer Innovation Summit 2024
+
+**Date**: June 15-16, 2025
+
+**City**: Zurich, Switzerland
+
+**Ticket pricing**: from €649 to €2,699
+
+**Number of attendees**: 350+
+
+**Key speakers**: 
+
+* Abbie Strabala, Investment Associate at True Wealth VC; 
+* Anna Lee, Co-Founder & CEO at Lioness; 
+* Dr Lyndsey Harper MD, FACOG IF, Founder & CEO Rosy Wellness.
+
+
+
 ## Women in Medicine Summit
 
 **Date**: September 13-14, 2024
