@@ -64,7 +64,7 @@ boxes:
     box_description: Bring your idea to life in less than 6 months. We’ve developed
       dozens of MVPs, helping entrepreneurs validate their ideas quickly and
       cost-effectively.
-    box_icon: /images/mvp_icon.png
+    box_icon: /images/mvp_development_icon.png
   - box_title: transforming businesses with IoT
     box_description: >
       We integrate software with a diverse range of devices, from healthcare
