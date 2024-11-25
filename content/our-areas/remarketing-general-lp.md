@@ -55,26 +55,26 @@ boxes:
   - box_title: software audit
     box_description: We conduct comprehensive software audits to evaluate everything
       from code quality to system performance and security.
-    box_icon: /images/icon_pos_features.png
+    box_icon: /images/software_audit.png
   - box_title: app modernization
     box_description: Whether it’s revamping a legacy system or modernizing smaller
       components, we make applications more reliable and secure.
-    box_icon: /images/app_modernization_icon.png
+    box_icon: /images/modernization_icon.png
   - box_title: turning ideas into MVPs
     box_description: Bring your idea to life in less than 6 months. We’ve developed
       dozens of MVPs, helping entrepreneurs validate their ideas quickly and
       cost-effectively.
-    box_icon: /images/icon_pos_lp_competitionx2.png
+    box_icon: /images/mvp_development_icon.png
   - box_title: transforming businesses with IoT
     box_description: >
       We integrate software with a diverse range of devices, from healthcare
       equipment to POS printers and payment terminals.
-    box_icon: /images/iot_development2.png
+    box_icon: /images/secure_iot.png
   - box_title: building secure e-health apps
     box_description: We develop healthcare solutions that track data in real-time,
       enable telemedicine, ensure regulatory compliance, and foster trust among
       users.
-    box_icon: /images/secure_ehealth.svg
+    box_icon: /images/secure_ehealth_new.png
   - box_title: scaling point-of-sale solutions
     box_description: From concept to a global POS solution, we’ve been there every
       step of the way, helping our clients develop, scale, and succeed.
