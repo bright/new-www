@@ -51,3 +51,8 @@ language: en
 **technologies:** Kotlin, Swift
 
 <TitleWithIcon sectionTitle="the problem: time-consuming restaurant phone order processing " titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+
+Imagine managing hundreds of restaurant orders coming from different channels: 
+online, in-house, and by phone. **Handling phone orders, in particular, can be especially time-consuming and error-prone**. Waitstaff must ensure that the details, from the order itself to the customer’s address and phone number, are accurately recorded. **This manual process consumes time and increases the risk of mistakes**, such as incorrect orders or deliveries to the wrong address.
+
+When scaling the point-of-sale solution for Practi, a company later acquired by Just Eat Takeaway.com, we recognized the need to speed up the phone ordering process.
