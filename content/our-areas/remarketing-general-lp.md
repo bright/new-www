@@ -78,7 +78,7 @@ boxes:
   - box_title: scaling point-of-sale solutions
     box_description: From concept to a global POS solution, we’ve been there every
       step of the way, helping our clients develop, scale, and succeed.
-    box_icon: /images/pos_development_icon_update.png
+    box_icon: /images/pos_update.svg
 language: en
 blog_section: false
 blog_section_tags:
