@@ -3,6 +3,9 @@ team_members:
   - agata
 faqs:
   - remarketing general 1 What areas do you specialize in?
+  - How much will software development services cost me? Remarketing LP 2
+  - Do you provide maintenance and support throughout and after the project?
+    Remarketing LP 3
 project:
   - pos-devices-integration
   - circles
