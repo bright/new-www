@@ -74,7 +74,7 @@ boxes:
     box_description: We develop healthcare solutions that track data in real-time,
       enable telemedicine, ensure regulatory compliance, and foster trust among
       users.
-    box_icon: /images/ai_development_icon_update.png
+    box_icon: /images/secure_ehealth.svg
   - box_title: scaling point-of-sale solutions
     box_description: From concept to a global POS solution, we’ve been there every
       step of the way, helping our clients develop, scale, and succeed.
