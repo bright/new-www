@@ -44,12 +44,10 @@ published: true
 work_in_progress: false
 language: en
 ---
-
-
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
-
-
 
 <Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/android_stack_logo.svg","alt":"Android"},{"src":"/images/swift_icon_stack.svg","alt":"Swift"}]' />
 
 **technologies:** Kotlin, Swift
+
+<TitleWithIcon sectionTitle="the problem: time-consuming restaurant phone order processing " titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
