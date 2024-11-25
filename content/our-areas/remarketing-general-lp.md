@@ -69,7 +69,7 @@ boxes:
     box_description: >
       We integrate software with a diverse range of devices, from healthcare
       equipment to POS printers and payment terminals.
-    box_icon: /images/secure_iot.png
+    box_icon: /images/secure_iot_update.png
   - box_title: building secure e-health apps
     box_description: We develop healthcare solutions that track data in real-time,
       enable telemedicine, ensure regulatory compliance, and foster trust among
