@@ -6,6 +6,9 @@ faqs:
   - How much will software development services cost me? Remarketing LP 2
   - Do you provide maintenance and support throughout and after the project?
     Remarketing LP 3
+  - How long does it usually take to complete a project? LP remarketing 4
+  - How do you manage communication and updates during a project? LP remarketing
+    5
 project:
   - pos-devices-integration
   - circles
