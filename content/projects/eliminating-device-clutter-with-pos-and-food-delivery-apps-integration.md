@@ -35,7 +35,7 @@ title_case_study: how we support our clients
 title_contact: book a free consultation in 48 hours
 description_contact: Tell us more about your POS system. Fill out the form below
   and we'll get back to you in 48 hours.
-order: 1
+order: 5
 slug: pos-third-party-delivery
 show_team: true
 show_case_study: true
