@@ -5,7 +5,7 @@ team_members:
   - piotr
   - szymek
 our_service:
-  - custom software development
+  - POS development
 layout: project
 project_id: pos-bill-splitting
 title: Crafting Stress-Free and Secure POS Bill Splitting for Restaurants
