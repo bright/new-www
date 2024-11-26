@@ -2,8 +2,8 @@
 author: rafal-op
 tags:
   - frontend
-date: 2024-11-26T11:14:14.669Z
-meaningfullyUpdatedAt: 2024-11-26T11:14:15.404Z
+date: 2024-11-26T11:17:14.821Z
+meaningfullyUpdatedAt: 2024-11-26T11:17:15.550Z
 slug: let-const-hoisting
 title: Understanding the Hoisting Behavior of let and const
 layout: post
@@ -21,11 +21,11 @@ language: en
 
 > **Hoisting** is a mechanism that relocates **variables declarations** (those declared using the “**var**” keyword) and **function declarations** to the top of their respective scope within the code. 
 
-The traditional definition of **hoisting** often focuses on variables declared with the **var** keyword and **[functions declarations](https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-HoistableDeclaration)**, leaving out the behavior of variables/constants declared using **let** and **const** (alongside various other JavaScript features like **classes**, although we’ll concentrate on variables/constants for clarity). This omission can lead to a misconception about hoisting. While it’s true that the hoisting mechanism isn’t experienced in the same way with **let** and **const** it doesn’t imply that it doesn’t exist for them. There’s a *grain of truth* behind this myth, highlighting a nuanced aspect of hoisting for these declarations. 
+The traditional definition of **hoisting** often focuses on variables declared with the **var** keyword and **[functions declarations](https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-HoistableDeclaration)** (entire function, including its body, is hoisted), leaving out the behavior of variables/constants declared using **let** and **const** (alongside various other JavaScript features like **classes**, although we’ll concentrate on variables/constants for clarity). This omission can lead to a misconception about hoisting. While it’s true that the hoisting mechanism isn’t experienced in the same way with **let** and **const** it doesn’t imply that it doesn’t exist for them. There’s a *grain of truth* behind this myth, highlighting a nuanced aspect of hoisting for these declarations.
 
 ### Is hoisting even real?
 
-It's important to emphasize that this **relocation** isn't a literal process. Instead, it acts as a mental model that helps us grasp how the **JavaScript engine** operates **before code execution**, particularly regarding variable and function declarations and their **memory allocation**. An intriguing aspect of hoisting is that it allows you to call a function before its definition appears in the code, as the entire function declaration, including its body, is lifted to the top of its scope.
+It's important to emphasize that this **relocation** isn't a literal process. Instead, it acts as a mental model that helps us grasp how the **JavaScript engine** operates **before code execution**, particularly regarding variable and function declarations and their **memory allocation**.
 
 ## The truth behind hosting of let and const
 
