@@ -2,8 +2,8 @@
 author: rafal-op
 tags:
   - frontend
-date: 2024-11-26T10:52:00.028Z
-meaningfullyUpdatedAt: 2024-11-26T10:52:00.693Z
+date: 2024-11-26T11:14:14.669Z
+meaningfullyUpdatedAt: 2024-11-26T11:14:15.404Z
 slug: let-const-hoisting
 title: Understanding the Hoisting Behavior of let and const
 layout: post
