@@ -100,7 +100,7 @@ As mentioned earlier, both **let** and **const** declarations are **hoisted** in
 
 Given your understanding of the distinction between **declaration** and **initialization**, **hoisting** primarily involves shifting the **declaration** to the top of the **variable’s scope**. However, the error message often refers to “**initialization**”. To expand on the concept, it’s essential to note that both **var** and **let** variables are **implicitly initialized** with the **undefined** value, albeit unintentionally. Nevertheless, when attempting to access a **let** variable before its definition, this initialization mechanism doesn't occur, [ECMAScript docs](https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-let-and-const-declarations) describes it as:
 
-> let and const declarations define variables that are scoped to the running execution context's LexicalEnvironment. The variables are created when their containing Environment Record is instantiated but may not be accessed in any way until the variable's LexicalBinding is evaluated \[3]
+> let and const declarations define variables that are scoped to the running execution context's LexicalEnvironment. The variables are created when their containing Environment Record is instantiated but may not be accessed in any way until the variable's LexicalBinding is evaluated
 
  As highlighted earlier in the article, only **var** variables are initialized with the undefined value after the **hoisting** phase.
 
