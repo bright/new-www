@@ -18,13 +18,13 @@ language: en
 
 > **Hoisting** is a mechanism that relocates **variables declarations** (those declared using the “**var**” keyword) and **function declarations** to the top of their respective scope within the code. 
 
-The traditional definition of **hoisting** often focuses on variables declared with the **var** keyword and **[functions declarations](<* https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-HoistableDeclaration>)**, leaving out the behavior of variables/constants declared using **let** and **const** (alongside various other JavaScript features like **classes**, although we’ll concentrate on variables/constants for clarity). This omission can lead to a misconception about hoisting. While it’s true that the hoisting mechanism isn’t experienced in the same way with **let** and **const** it doesn’t imply that it doesn’t exist for them. There’s a *grain of truth* behind this myth, highlighting a nuanced aspect of hoisting for these declarations. It's important to emphasize that **relocation** isn't a literal process. Instead, it acts as a mental model that helps us grasp how the **JavaScript engine** operates **before code execution**, particularly regarding variable and function declarations and their **memory allocation**. An intriguing aspect of hoisting is that it allows you to call a function before its definition appears in the code, as the entire function declaration, including its body, is lifted to the top of its scope.
+The traditional definition of **hoisting** often focuses on variables declared with the **var** keyword and **[functions declarations](https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-HoistableDeclaration)**, leaving out the behavior of variables/constants declared using **let** and **const** (alongside various other JavaScript features like **classes**, although we’ll concentrate on variables/constants for clarity). This omission can lead to a misconception about hoisting. While it’s true that the hoisting mechanism isn’t experienced in the same way with **let** and **const** it doesn’t imply that it doesn’t exist for them. There’s a *grain of truth* behind this myth, highlighting a nuanced aspect of hoisting for these declarations. It's important to emphasize that **relocation** isn't a literal process. Instead, it acts as a mental model that helps us grasp how the **JavaScript engine** operates **before code execution**, particularly regarding variable and function declarations and their **memory allocation**. An intriguing aspect of hoisting is that it allows you to call a function before its definition appears in the code, as the entire function declaration, including its body, is lifted to the top of its scope.
 
 ## The truth behind hosting of let and const
 
-Within JavaScript, in tandem with variable hoisting, an auxiliary mechanism comes into play when a variable is declared using **var**. This mechanism, in adherence to hoisting principles, **initializes** the variable with an **undefined** value:
+Within JavaScript, in tandem with variable hoisting, an auxiliary mechanism comes into play when a variable is declared using **var**. This mechanism, according to [ECMAScript docs](https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-variable-statement), in adherence to hoisting principles, **initializes** the variable with an **undefined** value:
 
-> A var statement declares variables that are scoped to the running execution context's VariableEnvironment. Var variables are created when their containing Environment Record is instantiated and are initialized to undefined when created \[2]
+> A var statement declares variables that are scoped to the running execution context's VariableEnvironment. Var variables are created when their containing Environment Record is instantiated and are initialized to undefined when created
 
 Consequently, this initialization permits the utilization of the variable without triggering any errors.
 
@@ -96,7 +96,7 @@ const b = "abc"
 
 As mentioned earlier, both **let** and **const** declarations are **hoisted** in JavaScript. However, attempting to access variables declared with these keywords before their initialization results in a **ReferenceError** (the same type as in the example above). The error message, “**Cannot access 'a' before initialization”** (or **“Cannot access ‘b’ before initialization”** for **const**), distinguishes this scenario from trying to access an entirely non-existent (**not defined**) variable.
 
-Given your understanding of the distinction between **declaration** and **initialization**, **hoisting** primarily involves shifting the **declaration** to the top of the **variable’s scope**. However, the error message often refers to “**initialization**”. To expand on the concept, it’s essential to note that both **var** and **let** variables are **implicitly initialized** with the **undefined** value, albeit unintentionally. Nevertheless, when attempting to access a **let** variable before its definition, this initialization mechanism doesn't occur:
+Given your understanding of the distinction between **declaration** and **initialization**, **hoisting** primarily involves shifting the **declaration** to the top of the **variable’s scope**. However, the error message often refers to “**initialization**”. To expand on the concept, it’s essential to note that both **var** and **let** variables are **implicitly initialized** with the **undefined** value, albeit unintentionally. Nevertheless, when attempting to access a **let** variable before its definition, this initialization mechanism doesn't occur, [ECMAScript docs](https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-let-and-const-declarations) describes it as:
 
 > let and const declarations define variables that are scoped to the running execution context's LexicalEnvironment. The variables are created when their containing Environment Record is instantiated but may not be accessed in any way until the variable's LexicalBinding is evaluated \[3]
 
@@ -113,13 +113,6 @@ This behavior introduces what we refer to as the “**Temporal Dead Zone**”. I
 The discussion on **hoisting** often revolves around **var** variables, often overlooking the nuanced behavior of **let** and **const**. Unlike **var** variables, which are **hoisted** and **initialized** with **undefined**, **let** and **const** variables/constants undergo **hoisting without initialization**. This leads to the **Temporal Dead Zone**, a crucial concept that underlies the myth that **let** and **const** are not hoisted.
 
 Claiming that **let** and **const** are not hoisted is a simplification  -  it’s a mental shortcut. In reality, we cannot use these variables/constants before their **declarations** not because they are not hoisted, but because they **lack initialization**. This is evident in the **ReferenceError** message: “**Cannot access ‘a’ before initialization**”. The **Temporal Dead Zone** is the key to understanding this behavior.
-
-### References
-
-* **\[2] ECMAScript spec for Variable Statement**\
-  https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-variable-statement
-* **\[3] ECMAScript spec for Let and Const Declarations**\
-  https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-let-and-const-declarations
 
 - - -
 
