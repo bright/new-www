@@ -76,17 +76,17 @@ Details: [events.reutersevents.com/healthcare/digital-health-usa](https://events
 
 ## Digital Healthcare Innovation Summit (DHIS) East
 
-**Date**: October 20-23, 2024
+**Date**: May 19-20, 2025
 
-**City**: Las Vegas
+**City**: Boston, MA
 
-**Ticket pricing**: registration coming soon
+**Ticket pricing**: up to $1,599
 
-**Number of attendees**: 10,000+
+**Number of attendees**: Information not provided 
 
-A Las Vegas conference that covers the latest in healthcare innovation and solutions. Speakers will be announced soon.
+A conference for investors, startups & emerging companies, tech companies, payers, providers, veteran advisors, and more.
 
-Details: [www.hlth.com/2024event](https://www.hlth.com/2024event)
+Details: [events.reutersevents.com/](https://events.reutersevents.com/healthcare/digital-health-usa)
 
 ## HLTH 2024
 
