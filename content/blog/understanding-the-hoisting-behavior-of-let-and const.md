@@ -4,7 +4,7 @@ tags:
   - frontend
 date: 2024-11-16T15:51:42.276Z
 meaningfullyUpdatedAt: 2024-11-16T15:51:42.284Z
-slug: hoisting-behavior-of-let-and-const
+slug: let-const-hoisting
 title: Understanding the Hoisting Behavior of let and const
 layout: post
 hidden: false
@@ -13,6 +13,8 @@ published: true
 language: en
 ---
 **Following our discussion on JavaScript gotchas let’s delve into another intricate behavior: hoisting. I’ll be shedding light on a prevalent myth surrounding this mechanism, particularly associated with the “let” and “const” keywords.**
+
+<div className="image">![](/images/blogpost_let_const_hoisting.png "")</div>
 
 ## **The myth: let and const are not hoisted**
 
