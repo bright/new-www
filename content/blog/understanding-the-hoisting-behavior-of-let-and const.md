@@ -13,7 +13,7 @@ comments: false
 published: true
 language: en
 ---
-**[Following our discussion on Frontend gotchas](https://brightinventions.pl/blog/semantic-status-of-html-b-tag/) let’s delve into another intricate behavior: hoisting. I’ll be shedding light on a prevalent myth surrounding this mechanism, particularly associated with the “let” and “const” keywords.**
+**[Following our discussion on Frontend gotchas](https://brightinventions.pl/blog/semantic-status-of-html-b-tag/) let’s delve into JavaScript's intricate behavior: hoisting. I’ll be shedding light on a prevalent myth surrounding this mechanism, particularly associated with the “let” and “const” keywords.**
 
 <div className="image">![Understanding the Hoisting Behavior of let and const blogpost banner](/images/blogpost_let_const_hoisting.png "")</div>
 
