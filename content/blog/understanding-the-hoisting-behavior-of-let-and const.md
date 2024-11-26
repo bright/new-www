@@ -118,4 +118,4 @@ Claiming that **let** and **const** are not hoisted is a simplification  -  
 
 ##### Take a look at our earlier blog post debunking frontend myths:
 
-1. [To 'b' or Not to 'b': The Semantic Status of HTML 'b' Tag](https://brightinventions.pl/blog/semantic-status-of-html-b-tag/)
+1. [To 'b' or Not to 'b': The Semantic Status of HTML 'b' Tag](/blog/semantic-status-of-html-b-tag/)
