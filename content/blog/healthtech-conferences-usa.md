@@ -60,23 +60,17 @@ The Health 2.0 Conference deliberates on ways to boost the global healthcare eco
 
 **Details**: [www.health2conf.com/usa-2025](https://www.health2conf.com/usa-2025)
 
-## Digital Health 2024
+## Digital Health 2025
 
-**Date**: May 14-15, 2024
+**Date**: May 12-13, 2025
 
-**City**: San Diego
+**City**: Nashville, TN
 
-**Ticket pricing**: from $$2,199.00 to $2,999.00
+**Ticket pricing**: up to $1,595
 
 **Number of attendees**: 300+
 
-**Keynote speakers**: 
-
-* Eve Cunningham - Chief of Virtual Care & Digital Health Providence; 
-* Dan Shoenthal - Chief Innovation Officer MD Anderson Cancer Center; 
-* Taylor McPartland - CEO ScaleHealth.
-
-Digital Health 2924 is rather a small event, yet bringing top HealthTech leaders.
+Digital Health is an interactive and decision-maker-driven event helping to forge meaningful connections with key decision-makers.
 
 Details: [events.reutersevents.com/healthcare/digital-health-usa](https://events.reutersevents.com/healthcare/digital-health-usa)
 
