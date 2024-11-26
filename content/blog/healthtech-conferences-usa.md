@@ -3,7 +3,7 @@ author: izabela
 tags:
   - HealthTech
 date: 2024-02-08T08:00:38.509Z
-meaningfullyUpdatedAt: 2024-04-19T06:54:34.479Z
+meaningfullyUpdatedAt: 2024-11-26T14:06:18.117Z
 title: Top HealthTech Conferences to Attend in the USA in 2024
 layout: post
 image: /images/us_healthtech_conferences.png
@@ -16,25 +16,19 @@ language: en
 
 <div className="image">![Digital Health Conferences USA](../../static/images/us_healthtech_conferences.png "Digital Health Conferences USA")</div>
 
-## American Telemedicine Association ATA Nexus 2024
+## ViVE
 
-**Date**: May 5-7, 2024
+**Date**: February 16-19, 2025
 
-**City**: Phoenix
+**City**: Nashville, TN
 
-**Ticket pricing**: from $625 to $1,595
+**Ticket pricing**: up to $2,395
 
-**Number of attendees**: not available
+**Number of attendees**: 9,000+
 
-**Keynote speakers**: 
+ViVE is the premier, curated event experience for digital health decision makers focusing on the business of healthcare.
 
-* Ardy Arianpour - CEO and Co-Founder at SEQSTER;
-* K.R. PrabhaVP - Strategy, Growth and Innovation at Optum;
-* Patrick J. Kennedy - Former U.S. Representative (D-RI) and Founder of The Kennedy Forum.
-
-Over 80 oral and poster research presentations offering CME opportunities will keep attendees at the forefront of the latest innovations and findings.
-
-Details: [ata-nexus.org](https://ata-nexus.org/)
+Details: [www.viveevent.com](https://www.viveevent.com/)
 
 <EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
 
