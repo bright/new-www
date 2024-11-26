@@ -74,6 +74,20 @@ Digital Health is an interactive and decision-maker-driven event helping to forg
 
 Details: [events.reutersevents.com/healthcare/digital-health-usa](https://events.reutersevents.com/healthcare/digital-health-usa)
 
+## Digital Healthcare Innovation Summit (DHIS) East
+
+**Date**: October 20-23, 2024
+
+**City**: Las Vegas
+
+**Ticket pricing**: registration coming soon
+
+**Number of attendees**: 10,000+
+
+A Las Vegas conference that covers the latest in healthcare innovation and solutions. Speakers will be announced soon.
+
+Details: [www.hlth.com/2024event](https://www.hlth.com/2024event)
+
 ## HLTH 2024
 
 **Date**: October 20-23, 2024
