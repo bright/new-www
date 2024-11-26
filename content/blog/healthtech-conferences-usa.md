@@ -100,4 +100,4 @@ Details: [events.reutersevents.com/](https://events.reutersevents.com/healthcare
 
 A Las Vegas conference covers the latest in healthcare innovation and solutions.
 
-Details: [www.hlth.com/2024event](https://www.hlth.com/2024event)
+Details: [www.hlth.com/](https://www.hlth.com/2024event)
