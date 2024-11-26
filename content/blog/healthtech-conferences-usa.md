@@ -46,6 +46,16 @@ A 4-day event with an exhibition offering many opportunities to network with oth
 
 **Details**: [himssconference.com](https://www.himssconference.com/en/homepage.html)
 
+## Health 2.0
+
+**Date**: March 4–6, 2025
+
+**City**: Las Vegas, NV
+
+**Ticket pricing**: up to $3000
+
+**Number of attendees**: Information not provided
+
 ## Digital Health 2024
 
 **Date**: May 14-15, 2024
