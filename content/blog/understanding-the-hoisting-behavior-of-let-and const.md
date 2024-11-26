@@ -14,7 +14,7 @@ language: en
 ---
 **Following our discussion on JavaScript gotchas let’s delve into another intricate behavior: hoisting. I’ll be shedding light on a prevalent myth surrounding this mechanism, particularly associated with the “let” and “const” keywords.**
 
-<div className="image">![](/images/blogpost_let_const_hoisting.png "")</div>
+<div className="image">![Understanding the Hoisting Behavior of let and const blogpost banner](/images/blogpost_let_const_hoisting.png "")</div>
 
 ## **The myth: let and const are not hoisted**
 
