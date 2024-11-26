@@ -32,6 +32,20 @@ Details: [www.viveevent.com](https://www.viveevent.com/)
 
 <EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
 
+## HIMSS
+
+**Date**: March 3-6, 2025
+
+**City**: Las Vegas, NV
+
+**Ticket pricing**: up to $1645
+
+**Number of attendees**: 35,000+
+
+A 4-day event with an exhibition offering many opportunities to network with other digital health leaders.
+
+**Details**: [himssconference.com](https://www.himssconference.com/en/homepage.html)
+
 ## Digital Health 2024
 
 **Date**: May 14-15, 2024
