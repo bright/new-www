@@ -36,7 +36,7 @@ var a = "abc";
 // Console: undefined
 ```
 
-## Declaration and initialization
+### Declaration and initialization
 
 Before we unravel the truth behind a common myth, let’s lay down definitions for two crucial operations: “**declaration**” and “**initialization**.”
 
@@ -120,5 +120,12 @@ Claiming that **let** and **const** are not hoisted is a simplification  -  
   https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-HoistableDeclaration
 * **\[2] ECMAScript spec for Variable Statement**\
   https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-variable-statement
-* **\[3] ECMAScript spec for Let and Const Declarations**\
-  https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-let-and-const-declarations
+
+  * **\[3] ECMAScript spec for Let and Const Declarations**\
+    https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-let-and-const-declarations
+
+- - -
+
+##### Take a look at our earlier blog post debunking frontend myths:
+
+1. [To 'b' or Not to 'b': The Semantic Status of HTML 'b' Tag](https://brightinventions.pl/blog/semantic-status-of-html-b-tag/)
