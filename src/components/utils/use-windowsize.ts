@@ -19,6 +19,8 @@ export const useWindowSize = (options?: { initialWidth?: number }): WindowSize =
   }
 
   useEffect(() => {
+    changeWindowSize();
+
     window.addEventListener('resize', changeWindowSize)
 
     return () => {
