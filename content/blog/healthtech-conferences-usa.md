@@ -56,6 +56,10 @@ A 4-day event with an exhibition offering many opportunities to network with oth
 
 **Number of attendees**: Information not provided
 
+The Health 2.0 Conference deliberates on ways to boost the global healthcare ecosystem by bringing the brightest minds in healthcare and wellness under one roof.
+
+**Details**: [www.health2conf.com/usa-2025](https://www.health2conf.com/usa-2025)
+
 ## Digital Health 2024
 
 **Date**: May 14-15, 2024
