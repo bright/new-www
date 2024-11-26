@@ -88,16 +88,16 @@ A conference for investors, startups & emerging companies, tech companies, payer
 
 Details: [events.reutersevents.com/](https://events.reutersevents.com/healthcare/digital-health-usa)
 
-## HLTH 2024
+## HLTH
 
-**Date**: October 20-23, 2024
+**Date**: October 19-22, 2025
 
-**City**: Las Vegas
+**City**: Las Vegas, NV
 
-**Ticket pricing**: registration coming soon
+**Ticket pricing**: up to $2,395
 
-**Number of attendees**: 10,000+
+**Number of attendees**: 12,000+
 
-A Las Vegas conference that covers the latest in healthcare innovation and solutions. Speakers will be announced soon.
+A Las Vegas conference covers the latest in healthcare innovation and solutions.
 
 Details: [www.hlth.com/2024event](https://www.hlth.com/2024event)
