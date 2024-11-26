@@ -7,6 +7,7 @@ meaningfullyUpdatedAt: 2024-11-26T10:14:19.722Z
 slug: let-const-hoisting
 title: Understanding the Hoisting Behavior of let and const
 layout: post
+image: /images/blogpost_let_const_hoisting.png
 hidden: false
 comments: false
 published: true
