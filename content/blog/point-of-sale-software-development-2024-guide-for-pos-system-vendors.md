@@ -139,6 +139,12 @@ Explore the various challenges our POS development team encountered while [integ
 
 <YouTubeEmbed url='https://youtu.be/zmmCIaQulxI' />
 
+## POS and Caller ID integration
+
+Caller ID is a device that provides information about incoming phone numbers. With the right integration with the POS, **when a staff member answers the phone, they can instantly see on-screen details if a regular customer is calling**. This includes all the necessary information to efficiently process the order, such as the delivery address and phone number. This feature streamlines phone ordering and enhances the customer experience with a more personalized touch.
+
+Check how our team took care of the [POS and Caller ID integration](/projects/restaurant-pos-caller-id/) and learn about challenges our engineers faced. 
+
 ## Emerging trends in POS application development: what to expect in 2025 and beyond
 
 Explore POS solution development trends.
