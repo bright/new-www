@@ -30,8 +30,6 @@ ViVE is the premier, curated event experience for digital health decision makers
 
 Details: [www.viveevent.com](https://www.viveevent.com/)
 
-<EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
-
 ## HIMSS
 
 **Date**: March 3-6, 2025
@@ -73,6 +71,8 @@ The Health 2.0 Conference deliberates on ways to boost the global healthcare eco
 Digital Health is an interactive and decision-maker-driven event helping to forge meaningful connections with key decision-makers.
 
 Details: [events.reutersevents.com/healthcare/digital-health-usa](https://events.reutersevents.com/healthcare/digital-health-usa)
+
+<EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
 
 ## Digital Healthcare Innovation Summit (DHIS) East
 
