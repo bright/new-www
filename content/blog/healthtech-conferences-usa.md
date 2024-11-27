@@ -3,8 +3,8 @@ author: izabela
 tags:
   - HealthTech
 date: 2024-02-08T08:00:38.509Z
-meaningfullyUpdatedAt: 2024-11-26T14:06:18.117Z
-title: Top HealthTech Conferences to Attend in the USA in 2024
+meaningfullyUpdatedAt: 2024-11-27T07:37:48.001Z
+title: Top HealthTech Conferences to Attend in the USA in 2025
 layout: post
 image: /images/us_healthtech_conferences.png
 hidden: false
