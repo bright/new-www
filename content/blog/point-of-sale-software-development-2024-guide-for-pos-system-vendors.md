@@ -94,6 +94,8 @@ Check out the [examples of retail devices that are part of a POS system](/blog/w
 
 Modern POS systems should integrate with printers wirelessly and reliably. This means that if one printer fails to print a receipt, the POS system should automatically switch to a backup printer. Be aware of common technical challenges when [integrating POS systems with retail devices, especially printers](/projects/pos-devices-integration/).
 
+<YouTubeEmbed url='https://youtu.be/zmmCIaQulxI' />
+
 ### POS and payment provider integrations
 
 From choosing the right providers to handling the payment process, and managing daily communication with payment partners, POS providers face many challenges.
@@ -130,14 +132,6 @@ Additionally, **having a POS with an integrated [delivery drivers app](/projects
 3. **Restaurant menu discrepancies across platforms.**
 
 **Tech solution**: a proper [integration with food delivery apps](/projects/pos-third-party-delivery/) can sync changes from the main POS to all platforms, reducing errors and saving time.
-
-### Integration with printers (and other POS hardware)
-
-**Issues with printers are one of the most frustrating tech problems for POS end users** – busy waitstaff or hotel staff can't afford delays caused by printers that fail to print receipts or invoices. Therefore, POS development teams often face many challenges in ensuring smooth and reliable printer integration. 
-
-Explore the various challenges our POS development team encountered while [integrating printers with a POS](/projects/pos-devices-integration/) system to provide seamless operations.
-
-<YouTubeEmbed url='https://youtu.be/zmmCIaQulxI' />
 
 ## POS and Caller ID integration
 
