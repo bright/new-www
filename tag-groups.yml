@@ -24,6 +24,7 @@ groups:
         # /blog/topics/development/Frontend
         tags:
           - Frontend
+          - frontend
           - Typescript
           - TypeScript
           - typescript
