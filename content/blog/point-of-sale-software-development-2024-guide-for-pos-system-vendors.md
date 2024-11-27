@@ -74,7 +74,7 @@ POS systems are versatile solutions that **consist of dozens of features, additi
 * **Cloud-Based POS**: Access from anywhere.
 * **Delivery Management**: Manage deliveries efficiently.
 * **Order Sync with Marketplaces**: Orders from delivery platforms are available on a single POS device.
-* **Caller ID**: Recognize repeat customers.
+* **[Caller ID](/projects/restaurant-pos-caller-id/)**: Recognize regular customers during phone ordering.
 
 ## Developing a POS: cloud POS or On-premise POS
 
