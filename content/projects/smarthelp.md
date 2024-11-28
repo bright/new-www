@@ -58,7 +58,7 @@ SmartHelp is a holistic solution offering emergency services to anyone who’s f
 
 The first step (“where are you?”) is done by streamlining the user’s location to a map-centric emergency call center. Secondly, the user answers the “what is it?” question by clicking on the symbol that depicts the type of emergency (fire, police, or medical assistance). Next, he/she is connected to the rescue center via call or chat. The third question (“who are you?”) is automatically answered with pre-defined personal information such as name, address, and existing medical conditions. All this allows the emergency call handler to share the user’s details with the rescue team.
 
-The app also covers situations, when the user is in no condition to communicate with the emergency center back and forth. This is done with the use of one of the app’s flag features – **SmartButton**.
+The app also covers situations, when the user is in no condition to communicate with the emergency center back and forth. This is done using a key device integrated with the app – **SmartButton**.
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
