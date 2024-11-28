@@ -5,7 +5,7 @@ tags:
 date: 2024-10-11T07:58:28.150Z
 meaningfullyUpdatedAt: 2024-10-11T07:58:28.178Z
 slug: nutrition-solution-anydish
-title: "Tailored Nutrition Solutions: The Anydish App"
+title: "Tailored Nutrition Solutions: The Anydish Healthcare App"
 layout: post
 image: /images/baner_final-6-.png
 hidden: false
