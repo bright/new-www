@@ -5,7 +5,8 @@ tags:
 date: 2024-08-16T10:54:56.863Z
 meaningfullyUpdatedAt: 2024-08-16T10:54:56.886Z
 slug: dr_frank_hoffmann
-title: "Dr. Frank Hoffmann: Empowering Blind Women in Breast Cancer Detection"
+title: "Dr. Frank Hoffmann: Empowering Blind Women in Breast Cancer Detection |
+  Healthcare"
 layout: post
 image: /images/baner_final-4-.png
 hidden: false
