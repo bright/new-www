@@ -6,8 +6,8 @@ tags:
   - HealthTech
 date: 2024-03-21T07:32:31.365Z
 meaningfullyUpdatedAt: 2024-03-21T07:32:32.319Z
-title: "What You Can’t See Still Hurts: Crafting Tech for Patients with
-  Invisible Diseases"
+title: "What You Can’t See Still Hurts: Crafting Healthcare Tech for Patients
+  with Invisible Diseases"
 layout: post
 image: /images/invisible_diseases_blog.png
 hidden: false
