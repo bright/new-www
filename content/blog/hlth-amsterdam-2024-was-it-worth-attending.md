@@ -6,7 +6,7 @@ tags:
 date: 2024-07-02T08:48:15.879Z
 meaningfullyUpdatedAt: 2024-07-02T08:48:15.899Z
 slug: hlth-amsterdam-2024-summary
-title: HLTH Amsterdam 2024 - Was it Worth Attending?
+title: HLTH Amsterdam 2024 - Was it Worth Attending the eHealth Event?
 layout: post
 image: /images/hlth-blogpost-cover.png
 hidden: false
