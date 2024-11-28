@@ -4,7 +4,7 @@ tags:
   - HealthTech
 date: 2024-02-14T11:46:56.874Z
 meaningfullyUpdatedAt: 2024-02-14T11:46:56.946Z
-title: The Intriguing Tale of Decorte Future Industries
+title: The Intriguing Tale of Decorte Future Industries | HealthTech story
 layout: post
 image: /images/pivot_healthcare_blog.png
 hidden: false
