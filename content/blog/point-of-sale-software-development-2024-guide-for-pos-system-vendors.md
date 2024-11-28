@@ -4,7 +4,7 @@ secondAuthor: izabela
 tags:
   - POS
 date: 2024-10-16T07:06:46.573Z
-meaningfullyUpdatedAt: 2024-10-16T07:06:48.312Z
+meaningfullyUpdatedAt: 2024-11-28T07:10:00.105Z
 slug: pos-software-development-guide
 title: "Point-of-Sale Software Development: 2024 Guide for POS System Vendors"
 layout: post
@@ -74,7 +74,7 @@ POS systems are versatile solutions that **consist of dozens of features, additi
 * **Cloud-Based POS**: Access from anywhere.
 * **Delivery Management**: Manage deliveries efficiently.
 * **Order Sync with Marketplaces**: Orders from delivery platforms are available on a single POS device.
-* **[Caller ID](/projects/restaurant-pos-caller-id/)**: Recognize regular customers during phone ordering.
+* **Caller ID**: Recognize regular customers during phone ordering.
 
 ## Developing a POS: cloud POS or On-premise POS
 
@@ -133,11 +133,13 @@ Additionally, **having a POS with an integrated [delivery drivers app](/projects
 
 **Tech solution**: a proper [integration with food delivery apps](/projects/pos-third-party-delivery/) can sync changes from the main POS to all platforms, reducing errors and saving time.
 
-## POS and Caller ID integration
+### POS and Caller ID integration
 
 Caller ID is a device that provides information about incoming phone numbers. With the right integration with the POS, **when a staff member answers the phone, they can instantly see on-screen details if a regular customer is calling**. This includes all the necessary information to efficiently process the order, such as the delivery address and phone number. This feature streamlines phone ordering and enhances the customer experience with a more personalized touch.
 
 Check how our team took care of the [POS and Caller ID integration](/projects/restaurant-pos-caller-id/) and learn about challenges our engineers faced. 
+
+<div className="image">![Caller ID and POS](/images/pos_caller_id_case_study.png "")</div>
 
 ## Emerging trends in POS application development: what to expect in 2025 and beyond
 
