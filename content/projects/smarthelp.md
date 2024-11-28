@@ -64,7 +64,7 @@ The app also covers situations, when the user is in no condition to communicate 
 
 ![An emergency service app ](../../static/images/smarthelp_screens1and2.png)
 
-The single-click emergency button allows the user to instantly streamline his location not only to rescuers, but also family, friends, or even his/her security company – anyone whose details were added to the app.
+The single-click emergency button allows the user to instantly streamline they location not only to rescuers, but also family, friends, or even their security company – anyone whose details were added to the app.
 
 Importantly, once the SmartButton is pressed, all of the notified sides keep receiving live updates on the status of the rescue request (for ex., if the user exchanged any chat communication with the emergency team, it also gets shared with the other parties).
 
