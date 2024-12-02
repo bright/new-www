@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: ariane-h
-ex: false
+ex: true
 slug: ariane-h
 name: Ariane Hinz
 short_name: Ariane
