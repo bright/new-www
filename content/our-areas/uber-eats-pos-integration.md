@@ -5,7 +5,7 @@ team_members:
   - fjablonski
   - tomasz-sch
 faqs:
-  - agile workshop 1
+  - How long will it take to prepare POS integration with Uber Eats? | Uber Eats
 project:
   - delivery-integrations-pos
   - restaurant-delivery-drivers-app
