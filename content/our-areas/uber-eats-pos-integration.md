@@ -12,11 +12,11 @@ project:
   - pos-devices-integration
   - food-delivery-app
 layout: our-service
-our_service_id: Uber eats POS integration
+our_service_id: Uber Eats POS integration
 meta_title: connect Uber Eats with your POS on your terms
 meta_description: Uber Eats and POS (Point-of-Sale) Integration for hospitality.
 our_services_icon: /images/1test.png
-name: Uber eats POS integration
+name: Uber Eats POS integration
 slug: uber-eats-pos-integration
 short_description: Uber Eats and POS (Point-of-Sale) Integration for hospitality.
 order: 1
