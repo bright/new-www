@@ -65,3 +65,7 @@ During that time, **I was earning money as a tourist guide in Porto**, and I'll 
 ## What is it like to work for a Polish company while living in Porto? How often do you visit the office in Gdańsk?
 
 **I try to visit the office every three months when we have a team retreat**. As soon as the event dates are announced, I immediately book my plane tickets. I enjoy working remotely, but at the same time, I value in-person interaction with my coworkers. I’ve noticed that at Bright Inventions, people often meet up after work, and I’d love to join those gatherings more often.
+
+<div className="image">![Bright Inventions’ office](/images/ola_team_office.png "At the Bright Inventions’ office in Gdansk.")</div>
+
+<center>At the Bright Inventions’ office in Gdansk.</center>
