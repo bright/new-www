@@ -51,7 +51,7 @@ button2: book a free consultation
 published: false
 show_case_study: true
 show_technology_stack: true
-title_team: team
+title_team: POS and Uber Eats integration team
 title_case_study: dive into our POS software experience
 title_faqs: POS and Uber Eats integration FAQs
 title_contact: let's set up a meeting in 48 hours
