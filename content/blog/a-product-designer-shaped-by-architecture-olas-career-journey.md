@@ -49,3 +49,5 @@ Then **I thought that product design was connected to my current experience**, a
 ## Is architecture similar to product design in some regard?
 
 Some might think it's a stretch, but I believe that architecture and product design have a lot in common. **The systematic aspects of my profession and the fact that you always have to consider the people who will live in the buildings you design** – their comfort and needs – seem very similar to product design, where **users are also at the center**.
+
+<div className="image">![Quote](/images/ola_quote_architecture.png "Quote")</div>
