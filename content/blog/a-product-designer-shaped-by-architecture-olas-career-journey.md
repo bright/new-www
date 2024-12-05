@@ -5,7 +5,7 @@ tags:
   - bright insights
 date: 2024-12-05T18:51:54.528Z
 meaningfullyUpdatedAt: 2024-12-05T18:51:54.549Z
-slug: product-designer-ola-career-story
+slug: architect-product-designer-career-story
 title: "A Product Designer Shaped by Architecture: Ola's Career Journey"
 layout: post
 image: /images/brightstoryolaza.png
