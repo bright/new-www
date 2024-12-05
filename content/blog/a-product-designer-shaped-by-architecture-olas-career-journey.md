@@ -30,12 +30,12 @@ As I mentioned, I love the views and the fact that Porto has a lot of greenery, 
 
 <div className="image">![Strolling around Porto.](/images/ola_porto.png "Strolling around Porto.")</div>
 
-*<center>*Strolling around Porto.*</center>*
+<center>Strolling around Porto.</center>
 
 What I don’t like is the winter here. For people from Poland, it’s hard to understand how cold it can be. Even though the temperature might seem mild – around 15 degrees Celsius – it’s the same temperature inside the buildings because there’s no central heating. In Poland, we go from the cold outdoors to warm, heated apartments. Here, it feels very cold indoors, but thankfully the winter only lasts about three months.
 
-Is there a particular Polish dish you miss the most?
+## Is there a particular Polish dish you miss the most?
 
-The first thing that comes to mind is pierogies, though I’m not sure why – there’s actually a Slavic store nearby where I can buy them. But there’s one dish I really miss, and it’s Hungarian potato pancake with goulash. It's something I always eat when I'm back home in Poland. Despite the name, it’s actually a very popular Polish dish.
+The first thing that comes to mind is **pierogies**, though I’m not sure why – there’s actually a Slavic store nearby where I can buy them. But there’s one dish I really miss, and it’s **Hungarian potato pancake with goulash**. It's something I always eat when I'm back home in Poland. Despite the name, it’s actually a very popular Polish dish.
 
-Oh, and I also miss chicken soup! The chicken soup I’ve found in Porto doesn’t even come close to Polish chicken soup, which is really disappointing – especially when I want something comforting while I’m sick.
+Oh, and I also miss **chicken soup**! The chicken soup I’ve found in Porto doesn’t even come close to Polish chicken soup, which is really disappointing – especially when I want something comforting while I’m sick.
