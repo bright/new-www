@@ -30,7 +30,7 @@ video_file: /images/food-delivery-pos-integration-web.mov
 bullet_points:
   - 12 years of scaling POS systems
   - Integrating global and local food delivery 3rd parties
-  - Custom Uber integrations
+  - Custom Uber Eats integrations
 bar_stack:
   - iOS
   - Android
