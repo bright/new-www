@@ -69,3 +69,9 @@ During that time, **I was earning money as a tourist guide in Porto**, and I'll 
 <div className="image">![Bright Inventions’ office](/images/ola_team_office.png "At the Bright Inventions’ office in Gdansk.")</div>
 
 <center>At the Bright Inventions’ office in Gdansk.</center>
+
+## You’ve been working on an application redesign for one of our clients. Can you tell us a little about the process?
+
+The plan wasn’t just to redesign the application but to **completely refresh the image of this particular startup**. The goal was to update the branding to align with current trends while **prioritizing a simpler and more intuitive experience for users**. The aesthetic aspect was secondary to usability.
+
+I started by creating a comprehensive brand guide with a holistic approach. This included **everything from the color palette and fonts to the entire visual identity of the brand**. Once that was established, I could shift my focus to **updating the app screens**.
