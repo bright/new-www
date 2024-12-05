@@ -45,3 +45,7 @@ Oh, and I also miss **chicken soup**! The chicken soup I’ve found in Porto doe
 After graduating with my Master's degree, **I went to Porto for an architecture internship, which turned into a full-time job**. I spent two years there. **After some time I felt that I needed a change**. One of the reasons was that I wanted a job that would give me the opportunity for hybrid work, but as an architect, that wasn't possible – you spend lots of time in the office and at construction sites. 
 
 Then **I thought that product design was connected to my current experience**, and it could give me a chance to work from home. I was so happy to have a clear purpose. I meet many people who talk about changing industries but don't have any clue what they would like to do.
+
+## Is architecture similar to product design in some regard?
+
+Some might think it's a stretch, but I believe that architecture and product design have a lot in common. **The systematic aspects of my profession and the fact that you always have to consider the people who will live in the buildings you design** – their comfort and needs – seem very similar to product design, where **users are also at the center**.
