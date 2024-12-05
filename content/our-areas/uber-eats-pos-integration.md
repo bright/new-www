@@ -7,6 +7,7 @@ team_members:
 faqs:
   - How long does it take to build POS integration with Uber Eats? | POS Uber
     Eats 1
+  - How much does POS and Uber Eats integration cost? | Uber Eats
 project:
   - delivery-integrations-pos
   - restaurant-delivery-drivers-app
