@@ -29,3 +29,5 @@ I love Porto! Even though I’ve been living here for over three years, **I stil
 As I mentioned, I love the views and the fact that Porto has a lot of greenery, even in the city center where I live. **I grew up in a small town where my house was surrounded by forests and greenery, so Porto seems familiar and comforting**. Even though Porto is a relatively big city, it still feels like a small town.
 
 <div className="image">![Strolling around Porto.](/images/ola_porto.png "Strolling around Porto.")</div>
+
+*<center>Strolling around Porto.</center>*
