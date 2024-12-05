@@ -51,3 +51,11 @@ Then **I thought that product design was connected to my current experience**, a
 Some might think it's a stretch, but I believe that architecture and product design have a lot in common. **The systematic aspects of my profession and the fact that you always have to consider the people who will live in the buildings you design** – their comfort and needs – seem very similar to product design, where **users are also at the center**.
 
 <div className="image">![Quote](/images/ola_quote_architecture.png "Quote")</div>
+
+This connection was another reason for my career pivot. **I decided to leave my architecture job to dedicate my time to learning and taking courses**, and after a year, I secured a position in product design.
+
+During that time, **I was earning money as a tourist guide in Porto**, and I'll tell you that I earned more from tips than from my architecture job. It's not the best-paying industry, unfortunately.
+
+<div className="image">![Free walking tour](/images/ola_tourist_guide.png "Ola, while guiding a free walking tour.")</div>
+
+<center>Ola, while guiding a free walking tour.</center>
