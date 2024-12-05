@@ -59,3 +59,9 @@ During that time, **I was earning money as a tourist guide in Porto**, and I'll 
 <div className="image">![Free walking tour](/images/ola_tourist_guide.png "Ola, while guiding a free walking tour.")</div>
 
 <center>Ola, while guiding a free walking tour.</center>
+
+**Being a guide helped me overcome a huge fear of mine: public speaking**. I was always terrified whenever I had to give a presentation. Exploring Porto with strangers and telling them about the city's architecture finally helped me overcome that fear.
+
+## What is it like to work for a Polish company while living in Porto? How often do you visit the office in Gdańsk?
+
+**I try to visit the office every three months when we have a team retreat**. As soon as the event dates are announced, I immediately book my plane tickets. I enjoy working remotely, but at the same time, I value in-person interaction with my coworkers. I’ve noticed that at Bright Inventions, people often meet up after work, and I’d love to join those gatherings more often.
