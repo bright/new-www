@@ -30,8 +30,8 @@ image_alt_our_service: Uber Eats and POS
 video_file: /images/uber-eats-pos-integration.mp4
 bullet_points:
   - 12 years of scaling POS systems
-  - Integrating global and local food delivery 3rd parties
-  - Custom Uber Eats integrations
+  - integrating global and local food delivery 3rd parties
+  - custom Uber Eats integrations
 bar_stack:
   - iOS
   - Android
