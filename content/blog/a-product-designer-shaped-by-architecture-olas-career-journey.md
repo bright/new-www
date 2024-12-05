@@ -32,10 +32,16 @@ As I mentioned, I love the views and the fact that Porto has a lot of greenery, 
 
 <center>Strolling around Porto.</center>
 
-What I don’t like is the winter here. For people from Poland, it’s hard to understand how cold it can be. Even though the temperature might seem mild – around 15 degrees Celsius – it’s the same temperature inside the buildings because there’s no central heating. In Poland, we go from the cold outdoors to warm, heated apartments. Here, it feels very cold indoors, but thankfully the winter only lasts about three months.
+What I don’t like is the winter here. For people from Poland, it’s hard to understand how cold it can be. **Even though the temperature might seem mild – around 15 degrees Celsius – it’s the same temperature inside the buildings because there’s no central heating**. In Poland, we go from the cold outdoors to warm, heated apartments. Here, it feels very cold indoors, but thankfully the winter only lasts about three months.
 
 ## Is there a particular Polish dish you miss the most?
 
 The first thing that comes to mind is **pierogies**, though I’m not sure why – there’s actually a Slavic store nearby where I can buy them. But there’s one dish I really miss, and it’s **Hungarian potato pancake with goulash**. It's something I always eat when I'm back home in Poland. Despite the name, it’s actually a very popular Polish dish.
 
 Oh, and I also miss **chicken soup**! The chicken soup I’ve found in Porto doesn’t even come close to Polish chicken soup, which is really disappointing – especially when I want something comforting while I’m sick.
+
+## You made a pivot from architecture to product design. Tell us more about it.
+
+After graduating with my Master's degree, **I went to Porto for an architecture internship, which turned into a full-time job**. I spent two years there. **After some time I felt that I needed a change**. One of the reasons was that I wanted a job that would give me the opportunity for hybrid work, but as an architect, that wasn't possible – you spend lots of time in the office and at construction sites. 
+
+Then **I thought that product design was connected to my current experience**, and it could give me a chance to work from home. I was so happy to have a clear purpose. I meet many people who talk about changing industries but don't have any clue what they would like to do.
