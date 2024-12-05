@@ -27,7 +27,7 @@ highlighted_word: Uber Eats
 image_our_service_desktop: /images/food_delivery_photo_case_study.png
 image_our_service_mobile: /images/case_study_food_delivery_app_modernization.png
 image_alt_our_service: Uber Eats and POS
-video_file: /images/food-delivery-pos-integration-web.mov
+video_file: /images/uber-eats-pos-integration.mp4
 bullet_points:
   - 12 years of scaling POS systems
   - Integrating global and local food delivery 3rd parties
@@ -58,6 +58,11 @@ title_contact: let's set up a meeting in 48 hours
 description_contact: Based on your needs we will prepare a demo of your solution
   in 7 days. Fill out the form or drop us a line!
 boxes:
+  - box_title: menu and orders synchronization
+    box_description: We synchronize menus and orders, so your clients won’t have to
+      update them on various food delivery platforms and use tablets provided by
+      third-parties.
+    box_icon: /images/icon_pos_features.png
   - box_title: standing out from the competition
     box_description: A custom solution means providing features that address your
       clients' pain points, e.g. managing the complexities of hardware provided
@@ -79,11 +84,6 @@ boxes:
       hardware the waitstaff really uses.
     box_title: data-driven third-party integration
     box_icon: /images/icon_pos_lp_data_driven_updatex2.png
-  - box_title: menu and orders synchronization
-    box_description: We synchronize menus and orders, so your clients won’t have to
-      update them on various food delivery platforms and use tablets provided by
-      third-parties.
-    box_icon: /images/icon_pos_features.png
 language: en
 blog_section: false
 blog_section_tags:
