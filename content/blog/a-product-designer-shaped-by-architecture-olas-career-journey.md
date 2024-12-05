@@ -75,3 +75,5 @@ During that time, **I was earning money as a tourist guide in Porto**, and I'll 
 The plan wasn’t just to redesign the application but to **completely refresh the image of this particular startup**. The goal was to update the branding to align with current trends while **prioritizing a simpler and more intuitive experience for users**. The aesthetic aspect was secondary to usability.
 
 I started by creating a comprehensive brand guide with a holistic approach. This included **everything from the color palette and fonts to the entire visual identity of the brand**. Once that was established, I could shift my focus to **updating the app screens**.
+
+<div className="image">![Quote on gamification](/images/ola_quote_gamification.png "Quote on gamification")</div>
