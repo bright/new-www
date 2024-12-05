@@ -5,7 +5,8 @@ team_members:
   - fjablonski
   - tomasz-sch
 faqs:
-  - How long will it take to prepare POS integration with Uber Eats? | Uber Eats
+  - How long does it take to build POS integration with Uber Eats? | POS Uber
+    Eats 1
 project:
   - delivery-integrations-pos
   - restaurant-delivery-drivers-app
