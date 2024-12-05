@@ -77,3 +77,15 @@ The plan wasn’t just to redesign the application but to **completely refresh t
 I started by creating a comprehensive brand guide with a holistic approach. This included **everything from the color palette and fonts to the entire visual identity of the brand**. Once that was established, I could shift my focus to **updating the app screens**.
 
 <div className="image">![Quote on gamification](/images/ola_quote_gamification.png "Quote on gamification")</div>
+
+One of the most interesting challenges was **incorporating gamification into the app**. Gamification is usually associated with fitness or educational apps, but this app falls outside of those categories. It was exciting to build a gamification system for an industry that doesn’t have many benchmarks for this kind of feature.
+
+The programmers will soon begin implementing the new design, and **I’m excited for users to experience not just the updated app but the refreshed brand as a whole**.
+
+## What do you do after hours?
+
+**My hobby is trying new hobbies**! I make it a point to try something new at least once a month. Right now, I’m into **aerial yoga**. I always thought yoga might be too calm for me, but aerial yoga takes things to a whole new level – literally and metaphorically. You have to work on pivots and turnovers, so there’s no time for boredom.
+
+Apart from that, I **go to the gym** five times a week. I also love cooking, but that doesn’t necessarily mean I enjoy making everyday dinners. **I love experimenting and exploring in the kitchen**.
+
+And of course, **I love traveling** – though I guess that’s a common passion! I’m about to go on a trip of a lifetime to Asia, where I’ll visit India, Thailand, and Indonesia. I’m really looking forward to it!
