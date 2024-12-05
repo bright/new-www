@@ -51,7 +51,7 @@ button2: book a free consultation
 published: false
 show_case_study: true
 show_technology_stack: true
-title_team: team
+title_team: POS and Uber Eats integration team
 title_case_study: dive into our POS software experience
 title_faqs: POS and Uber Eats integration FAQs
 title_contact: let's set up a meeting in 48 hours
@@ -91,10 +91,6 @@ blog_section_tags:
 blog_section_title: blog
 show_team: true
 ---
-## other food delivery platforms we integrate with
-
-<Gallery images='[{"src":"/images/jet_logo.svg","alt":"Just Eat Takeaway.com"},{"src":"/images/lieferando_logo.svg","alt":"Lieferando"},{"src":"/images/wolt.svg","alt":"Wolt"},{"src":"/images/deliveroo_update.svg","alt":"deliveroo"}]' />
-
 ## why a custom Uber Eats and POS integration is right for your business
 
 You might try to connect your POS with Uber Eats just like everyone else does, or you might opt for a custom Uber Eats-POS integration to deliver features tailored to your users. Discover the advantages of a custom Uber Eats and POS integration:
