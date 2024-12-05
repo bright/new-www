@@ -17,3 +17,9 @@ language: en
 **Ola decided it was time for a career change and made the pivot from architecture to product design. Explore her career journey, her decision to live in Porto, and her holistic approach to application redesign.**
 
 <div className="image">![Career story product designer](/images/brightstoryolagrid.png "Career story product designer")</div>
+
+## How did you come to live in Porto?
+
+I spent some time in Spain during college and really enjoyed their relaxed attitude towards life. After graduating, **I had the opportunity to do an internship abroad through the Erasmus program, so I decided to explore Portugal this time**.
+
+I love Porto! Even though I’ve been living here for over three years, **I still discover new and interesting spots**. I never get bored – every day, I’m amazed by something new I find.
