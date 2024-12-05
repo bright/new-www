@@ -15,7 +15,7 @@ project:
   - food-delivery-app
 layout: our-service
 our_service_id: Uber Eats POS integration
-meta_title: connect Uber Eats with your POS on your terms
+meta_title: Custom Uber Eats and POS Integrations
 meta_description: Uber Eats and POS (Point-of-Sale) Integration for hospitality.
 our_services_icon: /images/1test.png
 name: Uber Eats POS integration
@@ -27,11 +27,11 @@ highlighted_word: Uber Eats
 image_our_service_desktop: /images/food_delivery_photo_case_study.png
 image_our_service_mobile: /images/case_study_food_delivery_app_modernization.png
 image_alt_our_service: Uber Eats and POS
-video_file: /images/food-delivery-pos-integration-web.mov
+video_file: /images/uber-eats-pos-integration.mp4
 bullet_points:
   - 12 years of scaling POS systems
-  - Integrating global and local food delivery 3rd parties
-  - Custom Uber Eats integrations
+  - integrating global and local food delivery 3rd parties
+  - custom Uber Eats integrations
 bar_stack:
   - iOS
   - Android
@@ -58,6 +58,11 @@ title_contact: let's set up a meeting in 48 hours
 description_contact: Based on your needs we will prepare a demo of your solution
   in 7 days. Fill out the form or drop us a line!
 boxes:
+  - box_title: menu and orders synchronization
+    box_description: We synchronize menus and orders, so your clients won’t have to
+      update them on various food delivery platforms and use tablets provided by
+      third-parties.
+    box_icon: /images/icon_pos_features.png
   - box_title: standing out from the competition
     box_description: A custom solution means providing features that address your
       clients' pain points, e.g. managing the complexities of hardware provided
@@ -79,16 +84,44 @@ boxes:
       hardware the waitstaff really uses.
     box_title: data-driven third-party integration
     box_icon: /images/icon_pos_lp_data_driven_updatex2.png
-  - box_title: menu and orders synchronization
-    box_description: We synchronize menus and orders, so your clients won’t have to
-      update them on various food delivery platforms and use tablets provided by
-      third-parties.
-    box_icon: /images/icon_pos_features.png
 language: en
 blog_section: false
 blog_section_tags:
   - HealthTech
 blog_section_title: blog
+testimonials:
+  - testimonials_quote: "*Their attention to detail and scrutiny when dealing with
+      technical challenges is noteworthy.* [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-83595)."
+    testimonials_author: Adam Pachucki
+    testimonials_position: Head of Product
+    testimonials_company: Finebite
+    testimonials_photo: /images/adam_pachucki.jpeg
+  - testimonials_quote: "*Compared to everyone else, bright inventions doesn’t
+      promise things they can’t deliver. \\[...]. The best thing about them is
+      that I can count on their actions.* [Read more on
+      Clutch](https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c9\
+      8c/293369)."
+    testimonials_author: Dorian Koch
+    testimonials_photo: /images/dorian.jpeg
+    testimonials_position: Co-Founder & Former CEO
+    testimonials_company: MedKitDoc
+  - testimonials_quote: "*Working with Bright Inventions is always a pleasure. The
+      people involved are friendly and to the point. They’re also pragmatic,
+      constructive, and punctual*. [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-54300)."
+    testimonials_author: Kira Nezu
+    testimonials_photo: /images/kira_nezu.jpeg
+    testimonials_position: Project Manager
+    testimonials_company: AppAdvisors GmbH
+  - testimonials_quote: "*Bright inventions and the whole team is always with full
+      heart at the project, understands our logic and intention behind and
+      respects our requests and demands*. [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-149237)."
+    testimonials_author: Matthias Potthast
+    testimonials_position: Founder
+    testimonials_company: Relevo
+    testimonials_photo: /images/matthias_potthast.png
 show_team: true
 ---
 ## why a custom Uber Eats and POS integration is right for your business
