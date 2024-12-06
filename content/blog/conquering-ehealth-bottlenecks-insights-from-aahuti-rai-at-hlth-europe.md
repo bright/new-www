@@ -22,6 +22,12 @@ My background spans over 20 years across 14 industry sectors, including healthca
 
 The decision wasn’t easy, but I’m glad I made it. There are significant bottlenecks and challenges in healthcare, but being part of solving those problems—building the road as we go—is deeply gratifying.
 
+
+
+<div className="image">![aahuti_rai](/images/baner_aahuti-1-.png "")</div>
+
+
+
 ## **What are the biggest tech challenges in digital health today?**
 
 The challenges aren’t so much in the technology itself; there’s been an incredible convergence of advancements. **The issue lies in healthcare’s readiness to adopt and implement these technologies.**
@@ -37,6 +43,8 @@ I’m less excited about specific technologies and more about their potential im
 For instance, at this conference, someone showcased a[ device for rape prevention, providing immediate evidence of assault](https://www.linkedin.com/company/myenough/). It’s groundbreaking work that no large company or government is prioritizing.
 
 I’m also passionate about leveraging digital health and AI to close gaps in healthcare access and understanding. Startups excel at addressing these areas without immediate financial incentives, and that’s where the real innovation happens.
+
+<div className="image">![hlth_conference](/images/frame-2608395-3-.png "")</div>
 
 ## What are your impressions of the HLTH Europe Conference?
 
