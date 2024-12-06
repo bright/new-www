@@ -66,6 +66,12 @@ const gatsbyConfig: GatsbyConfig = {
         sv: enableHotjar && isProduction ? '6' : '',
       },
     },
+    {
+      resolve: 'lead-forensics',
+      options: {
+        enabled: isProduction,
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-plugin-image',

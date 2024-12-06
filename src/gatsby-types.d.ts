@@ -42,7 +42,7 @@ type Blog = Node & {
   readonly canonicalUrl: Maybe<Scalars['String']>;
   readonly categories: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly children: ReadonlyArray<Node>;
-  readonly comments: Scalars['Boolean'];
+  readonly comments: Scalars['String'];
   readonly date: Scalars['Date'];
   readonly excerpt: Maybe<Scalars['String']>;
   readonly extract: Maybe<Scalars['String']>;
@@ -151,7 +151,7 @@ type BlogFilterInput = {
   readonly canonicalUrl: InputMaybe<StringQueryOperatorInput>;
   readonly categories: InputMaybe<StringQueryOperatorInput>;
   readonly children: InputMaybe<NodeFilterListInput>;
-  readonly comments: InputMaybe<BooleanQueryOperatorInput>;
+  readonly comments: InputMaybe<StringQueryOperatorInput>;
   readonly date: InputMaybe<DateQueryOperatorInput>;
   readonly excerpt: InputMaybe<StringQueryOperatorInput>;
   readonly extract: InputMaybe<StringQueryOperatorInput>;
@@ -181,7 +181,7 @@ type BlogFrontmatter = {
   readonly author: Members;
   readonly canonicalUrl: Maybe<Scalars['String']>;
   readonly categories: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
-  readonly comments: Scalars['Boolean'];
+  readonly comments: Scalars['String'];
   readonly date: Scalars['Date'];
   readonly excerpt: Maybe<Scalars['String']>;
   readonly extract: Maybe<Scalars['String']>;
@@ -233,7 +233,7 @@ type BlogFrontmatterFilterInput = {
   readonly author: InputMaybe<MembersFilterInput>;
   readonly canonicalUrl: InputMaybe<StringQueryOperatorInput>;
   readonly categories: InputMaybe<StringQueryOperatorInput>;
-  readonly comments: InputMaybe<BooleanQueryOperatorInput>;
+  readonly comments: InputMaybe<StringQueryOperatorInput>;
   readonly date: InputMaybe<DateQueryOperatorInput>;
   readonly excerpt: InputMaybe<StringQueryOperatorInput>;
   readonly extract: InputMaybe<StringQueryOperatorInput>;
@@ -4343,7 +4343,7 @@ type Query_blogArgs = {
   canonicalUrl: InputMaybe<StringQueryOperatorInput>;
   categories: InputMaybe<StringQueryOperatorInput>;
   children: InputMaybe<NodeFilterListInput>;
-  comments: InputMaybe<BooleanQueryOperatorInput>;
+  comments: InputMaybe<StringQueryOperatorInput>;
   date: InputMaybe<DateQueryOperatorInput>;
   excerpt: InputMaybe<StringQueryOperatorInput>;
   extract: InputMaybe<StringQueryOperatorInput>;
