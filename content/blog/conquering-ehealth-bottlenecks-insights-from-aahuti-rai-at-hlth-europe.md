@@ -4,6 +4,7 @@ tags:
   - HealthTech
 date: 2024-12-04T16:17:50.070Z
 meaningfullyUpdatedAt: 2024-12-04T16:17:50.080Z
+slug: ehealth-bottlenecks-interview-aahuti-rai
 title: "Conquering eHealth Bottlenecks: Insights from Aahuti Rai at HLTH Europe"
 layout: post
 image: /images/baner_final-9-.png
