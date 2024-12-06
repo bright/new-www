@@ -13,6 +13,10 @@ language: en
 ---
 **The HLTH Europe Conference in Amsterdam brought together some of the most innovative minds in digital health. Among them was [Aahuti Rai](https://www.linkedin.com/in/aahutirai/) - an inspiring figure working at the intersection of technology and healthcare transformation. Below is an insightful interview exploring their journey, insights, and perspectives on the state and future of digital health.**
 
+<div className="image">![Aahuti Rai](/images/screenshot-2024-12-06-at-11.14.26.png "Aahuti Rai at the HLTH conference")</div>
+
+*[source: Aahuti Rai LI page](https://www.linkedin.com/posts/aahutirai_photos-from-hlth-europe-24-activity-7209819934971858944-jRr6?utm_source=share&utm_medium=member_desktop)*
+
 ## **Could you briefly describe yourself and your role?**
 
 I'm based in the UK but work across Europe. **I would describe my role as a connector in the digital health space.** Tangibly, I do advisory work, act as a venture partner with an impact fund, and hold several advisory roles in the ecosystem. I focus on supporting important collaborations and projects. For example, last year, I was part of a women’s health community in Basel, contributing to ideation and concept work. My daily work involves advising startups and scale-ups on commercialization, patient engagement, clinical acceptance, and adoption, alongside my investment activities.
