@@ -13,7 +13,7 @@ comments: false
 published: true
 language: en
 ---
-**The HLTH Europe Conference in Amsterdam brought together some of the most innovative minds in digital health. Among them was [Aahuti Rai](https://www.linkedin.com/in/aahutirai/) - an inspiring figure working at the intersection of technology and healthcare transformation. Below is an insightful interview exploring their journey, insights, and perspectives on the state and future of digital health.**
+**The HLTH Europe Conference in Amsterdam brought together some of the most innovative minds in digital health. Among them was [Aahuti Rai](https://www.linkedin.com/in/aahutirai/) - an inspiring figure working at the intersection of technology and healthcare transformation. Check out the interview exploring her journey, insights, and perspectives on the state and future of digital health.**
 
 <div className="image">![Aahuti Rai](/images/screenshot-2024-12-06-at-11.14.26.png "Aahuti Rai at the HLTH conference")</div>
 
@@ -30,11 +30,7 @@ My background spans over 20 years across 14 industry sectors, including healthca
 
 The decision wasn’t easy, but I’m glad I made it. There are significant bottlenecks and challenges in healthcare, but being part of solving those problems—building the road as we go—is deeply gratifying.
 
-
-
 <div className="image">![aahuti_rai](/images/baner_aahuti-1-.png "")</div>
-
-
 
 ## **What are the biggest tech challenges in digital health today?**
 
