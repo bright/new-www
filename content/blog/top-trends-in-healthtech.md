@@ -38,15 +38,13 @@ Source: [The Digital Health 50](https://www.cbinsights.com/research/report/digit
 
 ## 2025 will show how AI can be implemented wider
 
-It's true that in 2024, everyone wanted to appear trendy and boasted about implementing AI in their solutions, even if it was a stretch at best. However, amidst the flood of news about incorporating AI, we could genuinely find companies that successfully implemented it, allowing users to experience it firsthand, especially in the chatbot area. Here is an example of an interesting AI chatbot implementation:
+It's true that **in 2024, everyone wanted to appear trendy and boasted about implementing AI** in their solutions, even if it was a stretch at best. However, amidst the flood of news about incorporating AI, we could genuinely find companies that successfully implemented it, **allowing users to experience it firsthand, especially in the chatbot area**. Here is an example of an interesting AI chatbot implementation:
 
 [AI chatbot Ebb introduced by Headspace](https://www.headspace.com/ai-mental-health-companion)
 
 Ebb is an empathetic AI companion integrated into its app to assist users in navigating life's challenges. Ebb facilitates self-reflection and emotional processing, offering personalized recommendations from Headspace's extensive library of meditations and mindfulness exercises.
 
-<YouTubeEmbed url='https://www.youtube.com/watch?v=ldvDbS0JGsE&t=239s' />
-
-This year will be a time for other AI implementations to shine even brighter, particularly in areas like workflow optimization, and medical documentation recording.
+<YouTubeEmbed url='https://www.youtube.com/watch?v=ldvDbS0JGsE&t=239s' /> 
 
 <EbookDynamic sectionTitle='scale your solution with our free guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide healthcare software cover' />
 
