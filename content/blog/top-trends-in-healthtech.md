@@ -86,13 +86,13 @@ The global healthcare interoperability solutions market contributes around [49.6
 
 Interoperability is poised to be an even more prominent topic than in previous years. According to Google Trends data from the past five years, interest in this term has been steadily increasing. 
 
-<div className="image">![Interoperability google trends](/images/interoperability_google_trends.png "Interoperability google trends")</div>
+<div className="image">![Interoperability Google trends](/images/interoperability_google_trends.png "Interoperability Google trends")</div>
 
 The year 2025 is expected to be a pivotal moment for healthcare companies to implement interoperability solutions effectively. In another article, we've delved into [interoperability for healthcare](https://brightinventions.pl/blog/interoperability-in-healthtech-experts-insights/). ​
 
 ## 2025 will help to determine what healthcare devices we really need
 
-As we predicted, 2024 was a standout year for the creation of smart devices and wearables in healthcare. From robotic pets for seniors and socks that prevent falls to gloves designed to reduce hand tremors in Parkinson's patients, these innovations have certainly captured attention. We have listed a long list of smart healthcare devices that are currently available or under development.
+As we predicted, 2024 was a standout year for the creation of smart devices and wearables in healthcare. **From robotic pets for seniors and socks that prevent falls to gloves designed to reduce hand tremors in Parkinson's patients, these innovations have certainly captured attention**. We have released a long [list of smart healthcare devices](/blog/bluetooth-devices-that-change-healthcare/) that are currently available or under development.
 
 The question for 2025 is whether the healthcare community can determine the true necessity of these diverse devices. It will likely be a demanding year for healthcare device producers as they work to finalize prototypes, secure funding, and somehow commercialize their fascinating ideas. But can these smart devices go beyond being merely intriguing to become integral parts of our daily lives? That question is soon to be answered.
 
