@@ -112,13 +112,13 @@ In many cases, **chronic diseases are also considered invisible diseases**, as t
 
 ## Hybrid apps as investor magnets
 
-2025 will reveal which companies can truly endure in the highly competitive digital health market, a space heavily reliant on investor funding. Examples like Olive AI and Babylon Health, once poised to drive innovation in digital health, serve as cautionary tales for startups.
+2025 will reveal which companies can truly endure in the highly competitive digital health market, a space heavily reliant on investor funding. **What lessons can healthcare startup founders take away from these challenging years**? 
 
-What lessons can healthcare startup founders take away? Start small, low-cost, and validate your idea quickly. Building an MVP is essential, but the choice of technology is just as critical. Hybrid technologies, while not perfect, can be the best option for startups to validate their ideas and secure the funding necessary for scaling. 
+**If possible, start small, low-cost, and validate your idea quickly**. Building an MVP is essential, but the choice of technology is just as critical. Hybrid technologies including React Native and Flutter, while not perfect, can be the best option for startups to validate their ideas and secure the funding necessary for scaling. 
 
-However, it’s important to note that this is not a one-size-fits-all approach, and not every startup founder should blindly follow this trend. If you’re planning to build a complex solution that operates extensively in the background or relies heavily on Bluetooth communication, then native development is the only viable path.
+However, it’s not a one-size-fits-all approach, and **not every startup founder should blindly follow this trend**. If you’re planning to build a complex solution that operates extensively in the background or relies heavily on Bluetooth communication, then native development is the only viable path.
 
-Also, some MVPs simply cannot be low-cost due to the complexity of the technology or the requirements of the healthcare domain. Additionally, many startups have to rely on bootstrapping or securing initial funding before they can even begin thinking about market validation. Hybryd app cannot be a investor-magnet in cases like that.
+Also, **some MVPs simply cannot be low-cost** due to the complexity of the technology or the requirements of the healthcare domain. Additionally, many startups have to rely on bootstrapping or securing initial funding before they can even begin thinking about market validation. Hybryd app cannot be a investor-magnet in cases like that.
 
 ## Feeling excited about 2025 in HealthTech?
 
