@@ -36,63 +36,15 @@ CB Insights' annual list of the most promising digital health startups, "[The Di
 
 Source: [The Digital Health 50](https://www.cbinsights.com/research/report/digital-health-startups-redefining-healthcare-2024/)
 
-## Advanced implementations of Generative AI in healthcare
-
-It’s impossible to discuss innovations in healthcare without including Generative AI. It is a type of artificial intelligence that can produce new content, such as text, images, or data, by learning from existing examples and patterns. **So, what Generative Al use cases in HealthTech are we most likely to see in 2024?**
-
-### Medical Imaging - one of the healthcare areas quickly to be transformed by AI
-
-Medical imaging is a method used to create images of the inside of the body for medical diagnosis and treatment. It includes techniques like X-rays, MRI, CT scans, and ultrasound.
-
-<YouTubeEmbed url='https://www.youtube.com/watch?v=dCDuMyzWS8Q' />
-
-**Generative AI models are used to enhance medical imaging, following:**
-
-* **Generating high-resolution images** from low-resolution inputs and reconstructing 3D images from 2D scans,
-* **Complete time-consuming work** like tracing tumors, tracing structures,
-  measuring the amount of fat and muscle in the body,
-* **Data augmentation**: generating synthetic medical data, including images, text, or patient records or training machine learning models, especially when real data is limited or privacy concerns exist.
-* **Natural Language Processing (NLP)**: generating human-like text, making them useful for tasks like medical transcription, generating clinical notes, and assisting with healthcare documentation.
-* **Radiology Report Generation**: AI-driven models can automatically generate radiology reports based on medical images, helping radiologists save time and maintain consistency in their reporting.
-
-Examples of Medical Imaging AI companies to watch: [ContextVision](https://www.contextvision.com/), [Enlitic](https://enlitic.com/).
-
-### Embracing AI in disease diagnostics
-
-<YouTubeEmbed url='https://www.youtube.com/watch?v=3EV6ryG2j7E' />
-
-AI can assist in diagnosing a variety of diseases, including:
-
-* **Cancer**: AI algorithms can analyze medical images like X-rays, MRIs, and CT scans to detect tumors and other cancerous growths.
-  Diabetes: Through pattern recognition in patient data, AI can help identify early signs of diabetes.
-* **Heart Disease**: AI can analyze ECG patterns to detect heart conditions such as arrhythmias as well as identify other crucial factors such as atherosclerosis.
-* **Neurological Disorders**: AI can help in diagnosing conditions like Alzheimer's and Parkinson's disease by analyzing patient data and brain imaging.
-* **Skin Conditions**: AI-driven image analysis tools can aid in diagnosing skin cancers and other dermatological conditions.
-* **Eye Diseases**: AI algorithms can analyze retinal scans to detect diseases like diabetic retinopathy and age-related macular degeneration.
-
-Examples of AI in disease diagnostics companies to watch: [iCAD](https://www.icadmed.com/), [Emory University](https://medicalxpress.com/news/2023-08-ai-enables-earlier-diabetes-chest.html), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTech](https://www.ainnovatech.com/), [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/), [SkinVision.](https://www.skinvision.com/pl/)
-
-### Healthcare AI Chatbots – evolving from streamlining processes to actively assisting patients
-
-While most current healthcare chatbots (also called virtual healthcare assistants) are utilized to streamline processes like appointment scheduling, **the focus for 2024 should be on exploring their potential as tools that also actively solve patient issues, for example in the mental health area**. 
-
 <blockquote><h2></h2><div>It is very difficult for people with mental health disorders to actually talk about these things and to tell people 'I don't feel well.' So if this person feels very stigmatized and feels like it's not easy to talk about these things, to open up to this machine and say 'Well, I feel really, really bad today' and to hear something that seems like essentially what works is that they don't feel it's a person. The only reason they can open up is because they know it's not a person. It could also be that they don't have the person in front of them, so this kind of distance is what gives them the ability to actually talk about these issues.</div><footer>Dr Laura Martinengo, Research Fellow at Lee Kong Chian School of Medicine at NTU</footer></blockquote>
 
 <YouTubeEmbed url='https://www.youtube.com/watch?v=lLhTdV47Y8E' />
 
 The year 2024 could provide answers to crucial questions: **Is it feasible and ethically acceptable to use chatbots, integrating tools from cognitive behavioral therapy and psychology, to assist users?** Or is there a line that needs to be drawn regarding their use in mental health technology?
 
-## Greater focus on preventive healthcare with AI
+## 2025 will show how AI can be implemented wider
 
-[Virtue Market Research](https://virtuemarketresearch.com/report/aI-preventive-care-market) predicts the rapid growth of AI in preventive care. In 2022, the market was valued at USD 7 billion and is projected to reach USD 161.14 billion by 2030
-
-<div className="image">![AI in preventive care](../../static/images/ai_in_preventive_care.png "Source: Virtue Market Research")</div>
-
-Source: [Virtue Market Research](https://virtuemarketresearch.com/report/aI-preventive-care-market)
-
-In 2024, **AI diagnostic applications in HealthTech should shift their focus from merely detecting diseases to also preventing** them. For example, wearable medical devices, combined with AI applications, can monitor a patient's health. If the app detects high blood pressure, which increases the risk of heart attack or stroke, and the patient is not undergoing treatment for these conditions, it can alert either the patient or a designated doctor. 
-
-This allows for early intervention and treatment, potentially **preventing more serious health issues such as cardiovascular diseases which are a leading cause of death globally**. In 2015, [17.7 million people died from cardiovascular diseases worldwide](https://www.bayer.com/en/pharma/economic-and-societal-impact-cardiovascular-disease). By the year 2030, this number is projected to rise to 22 million. Can we fight these predictions without AI? 
+It's true that in 2024, everyone wanted to appear trendy and boasted about implementing AI in their solutions, even if it was a stretch at best. However, amidst the flood of news about incorporating AI, we could genuinely find companies that successfully implemented it, allowing users to experience it firsthand, especially in the chatbot area. Here is an example of an interesting AI chatbot implementation:
 
 ## IoT and wearables for (truly) continuous remote patient monitoring and biohacking
 
