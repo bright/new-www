@@ -6,9 +6,9 @@ tags:
   - AI
 date: 2024-01-17T12:47:29.514Z
 meaningfullyUpdatedAt: 2024-01-17T12:47:30.332Z
-title: 7 Trends in HealthTech to Watch in 2025
+title: 8 Trends in HealthTech to Watch in 2025
 layout: post
-image: /images/healthtech2024trends_blog.png
+image: /images/healthtech_trends_blog_post.png
 hidden: false
 comments: true
 published: true
@@ -16,7 +16,7 @@ language: en
 ---
 **The year 2025 will help healthcare software companies move past the industry's struggles of recent years and might provide some crucial answers. What will the direction of healthcare software growth be? Which smart healthcare devices will prove truly essential? What will be the X factor for investors? Are you ready for the answers 2025 has to offer?**
 
-<div className="image">![Tech trends in healthcare 2025](../../static/images/healthtech2024trends_blog.png "Tech trends in healthcare 2025")</div>
+<div className="image">![Tech trends in healthcare 2025](/images/healthtech_trends_blog_post.png "Tech trends in healthcare 2025")</div>
 
 ## HealthTech will transition into the post-recovery phase with AI bringing investors
 
@@ -52,7 +52,7 @@ Ebb is an empathetic AI companion integrated into its app to assist users in nav
 
 Various companies are leveraging artificial intelligence (AI) to optimize healthcare workflows across multiple domains:
 
-#### Administrative task automation 
+#### Administrative task automation
 
 Automating administrative tasks in healthcare has become a priority for many companies aiming to improve efficiency and reduce clerical burdens. Examples include [Notable Health](https://www.notablehealth.com/), [Qventus](https://www.qventus.com/) and [UiPath](https://www.uipath.com/).
 
@@ -60,7 +60,7 @@ Automating administrative tasks in healthcare has become a priority for many com
 
 Creating personalized treatment plans using AI and data analytics is transforming patient care. Examples include [Tempus](https://www.tempus.com/), and [Flatiron](https://flatiron.com/).
 
-#### Enhancing patient interaction 
+#### Enhancing patient interaction
 
 Enhancing patient interaction through conversational AI and virtual assistants. Examples include [Ada](https://ada.com/), and [Talkie](https://talkie.ai/appointment-management/).
 
