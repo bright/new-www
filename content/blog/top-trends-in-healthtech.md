@@ -32,6 +32,10 @@ What's more, investors have their own type. 😉 And yes, AI is a key factor for
 
 CB Insights' annual list of the most promising digital health startups, "[The Digital Health 50](https://www.cbinsights.com/research/report/digital-health-startups-redefining-healthcare-2024/)", also indicates the direction HealthTech is heading. Notably, 33 out of the 50 companies are developing AI-augmented solutions.
 
+<div className="image">![Digital Health 50](/images/digitalhealth-50-2024.png "Digital Health 50")</div>
+
+Source: [The Digital Health 50](https://www.cbinsights.com/research/report/digital-health-startups-redefining-healthcare-2024/)
+
 ## Advanced implementations of Generative AI in healthcare
 
 It’s impossible to discuss innovations in healthcare without including Generative AI. It is a type of artificial intelligence that can produce new content, such as text, images, or data, by learning from existing examples and patterns. **So, what Generative Al use cases in HealthTech are we most likely to see in 2024?**
