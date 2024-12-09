@@ -17,7 +17,7 @@ language: en
 
 ## 1. Digital transformation as a catalyst
 
-The digital transformation of healthcare continues to accelerate, driven by the need for more integrated systems. **Aahuti Rai,** Strategic Advisor and Venture Partner at Four Points Consulting, emphasized that the challenge lies not in the capabilities of technology but in our readiness to adopt and integrate these advancements effectively into daily healthcare practices.
+The digital transformation of healthcare continues to accelerate, driven by the need for more integrated systems. **Aahuti Rai,** Strategic Advisor and Venture Partner at Four Points Consulting, [emphasized that the challenge lies not in the capabilities of technology but in our readiness to adopt](/blog/ehealth-bottlenecks-interview-aahuti-rai/) and integrate these advancements effectively into daily healthcare practices.
 
 ## 2. The imperative of interoperability
 
