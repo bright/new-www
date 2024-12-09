@@ -28,9 +28,9 @@ Source: [State of Health Tech 2024](https://www.bvp.com/atlas/state-of-health-te
 
 What's more, investors have their own type. 😉 And yes, AI is a key factor for investors, as we can read on [rockhealth.com](https://rockhealth.com/insights/h1-2024-digital-health-funding-resilience-leads-to-brilliance/):
 
-<blockquote><h2></h2><div>For early-stage startups using AI (38% of digital health companies that raised A rounds in H1 2024 were AI-enabled), big Series A rounds can help support AI upstart costs like training models or acquiring datasets.</div><footer></footer></blockquote>
+<blockquote><h2></h2><div>For early-stage startups using AI (38% of digital health companies that raised A rounds in H1 2024 were AI-enabled), big Series A rounds can help support AI upstart costs like training models or acquiring datasets.</div><footer>rockhealth.com</footer></blockquote>
 
-Despite the financial struggles faced by the HealthTech sector, the enduring results of COVID-19's digital transformation in healthcare could not be slowed down. **The need for digitalization in healthcare has already been established within the industry and among patients, who feel empowered to use technology to manage their health daily.**
+CB Insights' annual list of the most promising digital health startups, "[The Digital Health 50](https://www.cbinsights.com/research/report/digital-health-startups-redefining-healthcare-2024/)", also indicates the direction HealthTech is heading. Notably, 33 out of the 50 companies are developing AI-augmented solutions.
 
 ## Advanced implementations of Generative AI in healthcare
 
