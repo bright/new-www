@@ -95,13 +95,7 @@ Interoperability is poised to be an even more prominent topic than in previous y
 
 <div className="image">![Interoperability google trends](/images/interoperability_google_trends.png "Interoperability google trends")</div>
 
-**AI-Powered Chatbots for Mental Health**: as mentioned earlier in the article chatbots using AI can provide immediate, 24/7 support for individuals seeking mental health assistance. [Companies worth watching: [Weabot Health](https://woebothealth.com/), [Limbic](https://limbic.ai/)]
-
-**Mindfulness and Relaxation Apps**: tech offering guided mindfulness and relaxation exercises, which can be beneficial for reducing symptoms of stress, anxiety, and depression. [Companies worth watching: [HeadSpace](https://www.headspace.com/), [Calm](https://www.calm.com/), [Buddhify](https://buddhify.com/), [Aura](https://www.aurahealth.io/)]
-
-**Apps for Crisis Intervention**: apps providing immediate assistance to individuals experiencing a mental health crisis, offering resources such as crisis hotlines, safety planning, and immediate coping strategies. [Companies worth watching: [Suicide Safe](https://play.google.com/store/apps/details?id=gov.hhs.samhsa.app.spa&hl=en&gl=US), [Weabot Health](https://woebothealth.com/)]
-
-**Digital Detox Apps**: applications helping users manage and limit their use of digital devices. [Companies worth watching: [ForestApp](https://www.forestapp.cc/), [Flipd](https://www.flipdapp.co/)]
+The year 2025 is expected to be a pivotal moment for healthcare companies to implement interoperability solutions effectively. In another article, we've delved into [interoperability for healthcare](https://brightinventions.pl/blog/interoperability-in-healthtech-experts-insights/). ​
 
 ## Feeling excited about 2024 in HealthTech?
 
