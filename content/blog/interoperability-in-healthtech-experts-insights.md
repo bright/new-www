@@ -29,7 +29,7 @@ Interoperability in healthcare is like having a universal remote for every gadge
 
 When EHR systems don’t communicate, it's like each department in a hospital using a different dialect of a language. The lack of seamless communication can lead to redundant tests and medical errors—because nothing says 'inefficiency' like having three different radiologists give you three different opinions on the same Xray.
 
-<div className="image">![](/images/baner_final-quote-fernando-6-.png "")</div>
+<div className="image">![interoperability](/images/baner_fernando_trends_interoperability.png "")</div>
 
 ## **Benefits of seamless data sharing**
 
