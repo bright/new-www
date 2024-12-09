@@ -43,7 +43,7 @@ Remote care technologies are reshaping where and how care is delivered. **Łukas
 
 The digital journey of patients is becoming a core focus, enhancing how they engage with healthcare systems. **Fernando Campos Soares** from Nuria, [shared how his platform is making health data management more accessible and patient-friendly](/blog/nuria-advancing-healthcare-interoperability-and-patient-engagement/), emphasizing patient autonomy over their health records.
 
-<div className="image">![enhancing the entire patient journey](/images/baner_final-quote-fernando-2-.png "")</div>
+<div className="image">![enhancing the entire patient journey](/images/baner_fernando_trends_interoperability.png "")</div>
 
 ## 7. Ethical data management
 
