@@ -78,35 +78,17 @@ Improving data management for better clinical decision-making is a focus for sev
 
 #### Medical records transcription
 
-Recording and transcribing doctor-patient communication for medical record documentation is an area that quite a few companies have been actively working on. Examples include DeepScribe, Abridge, Lyrebird Health, Tali AI, Deepgram, and Dorascribe.
+Recording and transcribing doctor-patient communication for medical record documentation is an area that quite a few companies have been actively working on. Examples include [DeepScribe](https://www.deepscribe.ai/), [Abridge](https://www.abridge.com/), [Lyrebird Health](https://www.lyrebirdhealth.com/), [Tali AI](https://tali.ai/), [Deepgram](https://deepgram.com/solutions/medical-transcription?), and [Dorascribe](https://www.dorascribe.ai/).
 
-## Making telemedicine even more accessible
 
-Telemedicine gained significant popularity during the pandemic, evidenced by **the sharp increase in telehealth visits among [Medicare recipients](https://www.gao.gov/products/gao-22-104454) from about 5 million to over 53 million** in the early stages. Cost savings are a crucial factor in telemedicine growth. [A study conducted among nonelderly patients with cancer](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2800164) using telehealth shows that **the average cost savings per telemedicine visit for patients range from 147 to 186 dollars**. That means lower costs for patients as well as public or private healthcare insurance providers.
 
-<div className="image">![TeleHealth](../../static/images/telemedicine.png "TeleHealth")</div>
 
-**Moving into 2024, the focus should shift towards developing systematic solutions that enhance telemedicine accessibility for groups in dire need, such as seniors and chronic disease patients.** 
 
-Telehealth companies that will design software solutions addressing challenges like limited internet access, and technological unfamiliarity of end users have the potential to lead the way in telemedicine in the following years.
 
-Examples of TeleHealth companies to watch: [Camascope](https://www.camascope.com/), [MedKitDoc](https://medkitdoc.de/en), [Maven](https://www.mavenclinic.com/).
 
-## Unlocking the potential of patient engagement apps for chronic disease patients
 
-The Patient Engagement Apps market is predicted to continually grow over the next few years. As stated on [Expert Market Research](https://www.expertmarketresearch.com/reports/patient-engagement-solutions-market):
 
-<blockquote><h2></h2><div>The global patient engagement solutions market size attained a value of approximately USD 22.74 billion in 2023. The market is further expected to grow in the forecast period of 2024-2032 at a CAGR of 17.10%, reaching about USD 94.17 billion by 2032.</div><footer>Expert Market Research</footer></blockquote>
 
-An important aspect of this market is related to managing chronic diseases, which are still not fully covered by HealthTech. 
-
-As of 2024, the chronic disease situation in the United States is a significant health and economic concern. **Patients with chronic diseases incur average direct healthcare costs of about 6,032 dollars annually, which is approximately [five times higher than those without a chronic disease](https://www.americanactionforum.org/research/chronic-disease-in-the-united-states-a-worsening-health-and-economic-crisis/)**. The costs are mainly due to more frequent hospitalizations, emergency room visits, and greater prescription drug use. Notably, about 60% of all emergency room visits are associated with people with chronic conditions, costing around $8.3 billion in 2017.
-
-Patient Engagement Apps are the perfect solutions to monitor, support, and prevent rising costs of hospitalizations and treatment of patients with chronic diseases. 
-
-Get inspired by the story behind the [app for Parkinson’s patients](/projects/solution-for-parkinsons-patients/) built to engage users to monitor their symptoms better.
-
-<div className="image">![App for Parkinson patients mockups](../../static/images/app_for_parkinson_patients2.png "App for Parkinson patients mockups")</div>
 
 ## The continuing rise of Mental HealthTech
 
