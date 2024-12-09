@@ -87,20 +87,13 @@ We'll see if 2025 will be a true breakthrough for AI companies working on diagno
 
 Here are examples of companies and organizations working on implementing AI in disease diagnostics that are worth watching in 2025: [SkinVision](https://www.skinvision.com/pl/), [iCAD](https://www.icadmed.com/), [Emory University](https://medicalxpress.com/news/2023-08-ai-enables-earlier-diabetes-chest.html), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTech](https://www.ainnovatech.com/), [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/).
 
+## This is the last moment to catch up on interoperability
 
+The global healthcare interoperability solutions market contributes around [49.6%](https://www.futuremarketinsights.com/reports/healthcare-interoperability-solutions-market) to the global healthcare services market value at about USD 7.5 Billion in 2022.
 
-## The continuing rise of Mental HealthTech
+Interoperability is poised to be an even more prominent topic than in previous years. According to Google Trends data from the past five years, interest in this term has been steadily increasing. 
 
-In 2019-2020, 20.78% of adults were experiencing a mental illness, equivalent to [over 50 million Americans](https://www.mhanational.org/issues/state-mental-health-america). Additionally, 10.8% of adults with a mental illness are uninsured, and over half (54.7%) do not receive treatment​​. Therefore, **mental HealthTech in 2024 should continue to focus on increasing access to mental support**.
-
-**Explore the most promising use cases of mental HealthTech:**
-
-**TeleTherapy Platforms**: platforms enabling remote therapy sessions between mental health professionals and clients through video calls, audio calls, or messaging. [Companies worth watching: [BetterHealth](https://www.betterhelp.com/), [TeenConsulting](https://www.teencounseling.com/), [Ritual](https://www.heyritual.com/).]
-
-**Online Support Groups**: platforms where individuals can find peer support. 
-[Check the success story of the startup [Circles](/projects/online-group-support/) which emerges as a premier online support platform.]
-
-<div className="image">![Group therapy platform mockups](../../static/images/group_therapy_app_mockups.png "Group therapy platform mockups")</div>
+<div className="image">![Group therapy platform mockups](/images/interoperability_google_trends.png "Group therapy platform mockups")</div>
 
 **AI-Powered Chatbots for Mental Health**: as mentioned earlier in the article chatbots using AI can provide immediate, 24/7 support for individuals seeking mental health assistance. [Companies worth watching: [Weabot Health](https://woebothealth.com/), [Limbic](https://limbic.ai/)]
 
