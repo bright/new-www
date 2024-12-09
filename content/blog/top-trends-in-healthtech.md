@@ -89,7 +89,9 @@ Here are examples of companies and organizations working on implementing AI in d
 
 ## This is the last moment to catch up on interoperability
 
-The global healthcare interoperability solutions market contributes around [49.6%](https://www.futuremarketinsights.com/reports/healthcare-interoperability-solutions-market) to the global healthcare services market value at about USD 7.5 Billion in 2022.
+The global healthcare interoperability solutions market contributes around [49.6%](https://www.futuremarketinsights.com/reports/healthcare-interoperability-solutions-market) to the global healthcare services market value at about USD 7.5 Billion in 2022. As one of HealthTech leader said during the [interview we conducted during HLTH Europe 2024](https://brightinventions.pl/blog/nuria-advancing-healthcare-interoperability-and-patient-engagement/):
+
+<blockquote><h2></h2><div>The trend should be about integrating solutions that enhance the entire patient journey, not just isolated digital parts.</div><footer>Fernando Campos Soares, Founder & CEO @ Nuria</footer></blockquote>
 
 Interoperability is poised to be an even more prominent topic than in previous years. According to Google Trends data from the past five years, interest in this term has been steadily increasing. 
 
