@@ -22,15 +22,13 @@ language: en
 
 The past few years have been challenging for the HealthTech sector as it grappled with the aftermath of the COVID-19 pandemic. However, 2024 has emerged as a year of recovery and renewed momentum for the industry. The State of Health Tech 2024 highlights growth, particularly in **biotech taking the lead**.
 
-<div className="image">![HealthTech state after the pandemic](../../static/images/healthtech_post_covid.png "State of Health Tech 2023")</div>
+<div className="image">![State of Health Tech 2024](/images/healthtech_sector.png "State of Health Tech 2024")</div>
 
-Source: [State of Health Tech 2023](https://www.bvp.com/atlas/state-of-health-tech-2023)
+Source: [State of Health Tech 2024](https://www.bvp.com/atlas/state-of-health-tech-2024)
 
-However, 2023 offered renewed optimism, marked by significant acquisitions that signal a promising outlook for 2024.
+What's more, investors have their own type. 😉 And yes, AI is a key factor for investors, as we can read on [rockhealth.com](https://rockhealth.com/insights/h1-2024-digital-health-funding-resilience-leads-to-brilliance/):
 
-As stated in the [State of Health Tech 2023](https://www.bvp.com/atlas/state-of-health-tech-2023) report:
-
-<blockquote><h2></h2><div>\$The health tech cohort gains during summer of 2022 and January 2023 were mainly driven by announcements of relatively large acquisitions in the health tech sector, including Amazon’s \$3.9 billion acquisition of One Medical, CVS Health’s 8 billion dollars acquisition of Signify Health, and CVS Health’s 10.6 billion dollars acquisition of Oak Street Health.</div><footer></footer></blockquote>
+<blockquote><h2></h2><div>For early-stage startups using AI (38% of digital health companies that raised A rounds in H1 2024 were AI-enabled), big Series A rounds can help support AI upstart costs like training models or acquiring datasets.</div><footer></footer></blockquote>
 
 Despite the financial struggles faced by the HealthTech sector, the enduring results of COVID-19's digital transformation in healthcare could not be slowed down. **The need for digitalization in healthcare has already been established within the industry and among patients, who feel empowered to use technology to manage their health daily.**
 
