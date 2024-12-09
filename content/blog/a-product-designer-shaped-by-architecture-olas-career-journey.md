@@ -3,8 +3,8 @@ author: aleksandra-zaw
 secondAuthor: izabela
 tags:
   - bright insights
-date: 2024-12-05T18:51:54.528Z
-meaningfullyUpdatedAt: 2024-12-05T18:51:54.549Z
+date: 2024-12-09T07:30:40.915Z
+meaningfullyUpdatedAt: 2024-12-09T07:30:41.487Z
 slug: architect-product-designer-career-story
 title: "A Product Designer Shaped by Architecture: Ola's Career Journey"
 layout: post
