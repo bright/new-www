@@ -108,6 +108,8 @@ The significant issue that technology must address is not only the rising number
 
 A notable example is [ulcerative colitis (UC)](https://www.yalemedicine.org/conditions/pediatric-ulcerative-colitis), a type of inflammatory bowel disease, that is increasingly being diagnosed in children and adolescents. While it traditionally affects individuals in their late 20s, recent trends indicate a rise in pediatric cases.
 
+In many cases, chronic diseases are also invisible diseases, meaning that we cannot see any symptoms in patients. However, this does not mean that the people around us don’t require regular healthcare. In another article, we delved into the subject of [developing technology for patients with invisible diseases](https://brightinventions.pl/blog/technology-for-invisible-diseases/).
+
 ## Hybrid apps as investor magnets
 
 2025 will reveal which companies can truly endure in the highly competitive digital health market, a space heavily reliant on investor funding. Examples like Olive AI and Babylon Health, once poised to drive innovation in digital health, serve as cautionary tales for startups.
