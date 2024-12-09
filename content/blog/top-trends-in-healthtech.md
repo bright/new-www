@@ -120,7 +120,7 @@ However, it’s not a one-size-fits-all approach, and **not every startup founde
 
 Also, **some MVPs simply cannot be low-cost** due to the complexity of the technology or the requirements of the healthcare domain. Additionally, many startups have to rely on bootstrapping or securing initial funding before they can even begin thinking about market validation. Hybryd app cannot be a investor-magnet in cases like that.
 
-Read our blog post to  explore the [differences between native and hybrid app development](/blog/native-app-development-vs-cross-platform/).
+Read our blog post to explore the [differences between native and hybrid app development](/blog/native-app-development-vs-cross-platform/).
 
 ## Feeling excited about 2025 in HealthTech?
 
