@@ -6,7 +6,7 @@ tags:
   - AI
 date: 2024-01-17T12:47:29.514Z
 meaningfullyUpdatedAt: 2024-01-17T12:47:30.332Z
-title: 8 Trends in HealthTech to Watch in 2025
+title: 7 Trends in HealthTech to Watch in 2025
 layout: post
 image: /images/healthtech2024trends_blog.png
 hidden: false
