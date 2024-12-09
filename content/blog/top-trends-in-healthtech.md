@@ -36,12 +36,6 @@ CB Insights' annual list of the most promising digital health startups, "[The Di
 
 Source: [The Digital Health 50](https://www.cbinsights.com/research/report/digital-health-startups-redefining-healthcare-2024/)
 
-<blockquote><h2></h2><div>It is very difficult for people with mental health disorders to actually talk about these things and to tell people 'I don't feel well.' So if this person feels very stigmatized and feels like it's not easy to talk about these things, to open up to this machine and say 'Well, I feel really, really bad today' and to hear something that seems like essentially what works is that they don't feel it's a person. The only reason they can open up is because they know it's not a person. It could also be that they don't have the person in front of them, so this kind of distance is what gives them the ability to actually talk about these issues.</div><footer>Dr Laura Martinengo, Research Fellow at Lee Kong Chian School of Medicine at NTU</footer></blockquote>
-
-<YouTubeEmbed url='https://www.youtube.com/watch?v=lLhTdV47Y8E' />
-
-The year 2024 could provide answers to crucial questions: **Is it feasible and ethically acceptable to use chatbots, integrating tools from cognitive behavioral therapy and psychology, to assist users?** Or is there a line that needs to be drawn regarding their use in mental health technology?
-
 ## 2025 will show how AI can be implemented wider
 
 It's true that in 2024, everyone wanted to appear trendy and boasted about implementing AI in their solutions, even if it was a stretch at best. However, amidst the flood of news about incorporating AI, we could genuinely find companies that successfully implemented it, allowing users to experience it firsthand, especially in the chatbot area. Here is an example of an interesting AI chatbot implementation:
