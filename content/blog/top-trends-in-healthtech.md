@@ -80,13 +80,12 @@ Improving data management for better clinical decision-making is a focus for sev
 
 Recording and transcribing doctor-patient communication for medical record documentation is an area that quite a few companies have been actively working on. Examples include [DeepScribe](https://www.deepscribe.ai/), [Abridge](https://www.abridge.com/), [Lyrebird Health](https://www.lyrebirdhealth.com/), [Tali AI](https://tali.ai/), [Deepgram](https://deepgram.com/solutions/medical-transcription?), and [Dorascribe](https://www.dorascribe.ai/).
 
+## 2025 might not bring a breakthrough in AI for diagnostics
 
+Although in 2024, there was widespread discussion about AI's potential in diagnostics, visible implementations in this field remain limited, despite many companies actively working on it. 
+We'll see if 2025 will be a true breakthrough for AI companies working on diagnostics.
 
-
-
-
-
-
+Here are examples of companies and organizations working on implementing AI in disease diagnostics that are worth watching in 2025: [SkinVision](https://www.skinvision.com/pl/), [iCAD](https://www.icadmed.com/), [Emory University](https://medicalxpress.com/news/2023-08-ai-enables-earlier-diabetes-chest.html), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTech](https://www.ainnovatech.com/), [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/).
 
 
 
