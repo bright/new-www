@@ -56,7 +56,7 @@ Various companies are leveraging artificial intelligence (AI) to optimize health
 
 Automating administrative tasks in healthcare has become a priority for many companies aiming to improve efficiency and reduce clerical burdens. Examples include [Notable Health](https://www.notablehealth.com/), [Qventus](https://www.qventus.com/) and [UiPath](https://www.uipath.com/).
 
-#### Personalized treatmentpPlans (precision medicine)
+#### Personalized treatment plans (precision medicine)
 
 Creating personalized treatment plans using AI and data analytics is transforming patient care. Examples include [Tempus](https://www.tempus.com/), and [Flatiron](https://flatiron.com/).
 
