@@ -94,11 +94,11 @@ The year 2025 is expected to be a pivotal moment for healthcare companies to imp
 
 As we predicted, 2024 was a standout year for the creation of smart devices and wearables in healthcare. **From robotic pets for seniors and socks that prevent falls to gloves designed to reduce hand tremors in Parkinson's patients, these innovations have certainly captured attention**. We have released a long [list of smart healthcare devices](/blog/bluetooth-devices-that-change-healthcare/) that are currently available or under development.
 
-The question for 2025 is whether the healthcare community can determine the true necessity of these diverse devices. It will likely be a demanding year for healthcare device producers as they work to finalize prototypes, secure funding, and somehow commercialize their fascinating ideas. But can these smart devices go beyond being merely intriguing to become integral parts of our daily lives? That question is soon to be answered.
+**The question for 2025 is whether the healthcare community can determine the true necessity of these diverse devices**. It will likely be a demanding year for healthcare device producers as they work to finalize prototypes, secure funding, and somehow commercialize their fascinating ideas. But **can these smart devices go beyond being merely intriguing to become integral parts of our daily lives**? That question is soon to be answered.
 
 <YouTubeEmbed url='https://www.youtube.com/watch?v=W2hs1ar_lvE' />
 
-This challenging situation presents an excellent opportunity for another trend to gain momentum, as recently highlighted by [Medical Futurists](https://medicalfuturist.com/headphones-as-health-and-medical-devices/): repurposing everyday devices we already use (like headphones) for healthcare and medical purposes. This could be the pivotal shift healthcare innovators embrace in 2025.
+This challenging situation presents an excellent opportunity for another trend to gain momentum, as recently highlighted by [Medical Futurists](https://medicalfuturist.com/headphones-as-health-and-medical-devices/): **repurposing everyday devices we already use (like headphones)** for healthcare and medical purposes. This could be the pivotal shift healthcare innovators embrace in 2025.
 
 ## Chronic diseases will continue to drive healthcare software development
 
