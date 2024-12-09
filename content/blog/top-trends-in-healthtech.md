@@ -93,7 +93,7 @@ The global healthcare interoperability solutions market contributes around [49.6
 
 Interoperability is poised to be an even more prominent topic than in previous years. According to Google Trends data from the past five years, interest in this term has been steadily increasing. 
 
-<div className="image">![Group therapy platform mockups](/images/interoperability_google_trends.png "Group therapy platform mockups")</div>
+<div className="image">![Interoperability google trends](/images/interoperability_google_trends.png "Interoperability google trends")</div>
 
 **AI-Powered Chatbots for Mental Health**: as mentioned earlier in the article chatbots using AI can provide immediate, 24/7 support for individuals seeking mental health assistance. [Companies worth watching: [Weabot Health](https://woebothealth.com/), [Limbic](https://limbic.ai/)]
 
