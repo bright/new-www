@@ -74,7 +74,7 @@ Recording and transcribing doctor-patient communication for medical record docum
 
 ## 2025 might bring a breakthrough in AI for diagnostics
 
-Although in 2024, there was **widespread discussion about AI's potential in diagnostics**, available implementations in this field remain limited, despite many companies actively working on it. We'll see if 2025 will be a true breakthrough for AI companies working on diagnostics.
+Although in 2024, there was **widespread discussion about AI's potential in diagnostics**, actual implementations in this field remain limited, despite many companies actively working on it. We'll see if 2025 will be a true breakthrough for AI companies working on diagnostics with patients actively gaining from AI-powered solutions.
 
 Here are examples of companies and organizations working on implementing AI in disease diagnostics that are worth watching in 2025: [SkinVision](https://www.skinvision.com/pl/), [iCAD](https://www.icadmed.com/), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTech](https://www.ainnovatech.com/), [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/).
 
