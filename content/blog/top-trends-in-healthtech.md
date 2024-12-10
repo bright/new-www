@@ -103,7 +103,7 @@ This challenging situation presents an excellent opportunity for another trend t
 
 **Chronic diseases account for approximately 74% of all deaths globally** according to [WHO](https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases). This includes **cardiovascular diseases**, which are the leading cause of death worldwide, responsible for about 17.9 million deaths annually, followed by **cancers** (9.3 million), **chronic respiratory diseases** (4.1 million), and **diabetes** (2.0 million). 
 
-The significant issue that technology must address is not only the rising number of patients with chronic diseases but also the fact that **these conditions are starting to affect people much earlier than in previous generations**.
+The significant issue that many health system providers must address is not only the rising number of patients with chronic diseases but also the fact that **these conditions are starting to affect people much earlier than in previous generations**.
 
 A notable example is [ulcerative colitis (UC)](https://www.yalemedicine.org/conditions/pediatric-ulcerative-colitis), a type of inflammatory bowel disease, that is increasingly being diagnosed in children and adolescents. While it traditionally affects individuals in their late 20s, recent trends indicate a rise in pediatric cases.
 
