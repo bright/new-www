@@ -13,7 +13,7 @@ comments: true
 published: true
 language: en
 ---
-**The year 2025 will help healthcare software companies move past the industry's struggles of recent years and might provide some crucial answers. What will the direction of healthcare software growth be? Which smart healthcare devices will prove truly essential? What will be the X factor for investors? Are you ready for the answers 2025 has to offer?**
+**The year 2025 will help healthcare software companies move past the industry's struggles of recent years and might provide some crucial answers. What will the direction of healthcare software growth be? Which smart healthcare devices will prove truly essential? What will be the X factor for investors? Are you ready for 2025 HealthTech trends?**
 
 <div className="image">![Tech trends in healthcare 2025](/images/healthtech_trends_blog_post.png "Tech trends in healthcare 2025")</div>
 
