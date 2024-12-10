@@ -99,7 +99,7 @@ As we predicted, 2024 was a standout year for the creation of wearables, health 
 
 This challenging situation presents an excellent opportunity for another trend to gain momentum, as recently highlighted by [Medical Futurists](https://medicalfuturist.com/headphones-as-health-and-medical-devices/): **repurposing everyday devices we already use (like headphones)** for healthcare and medical purposes. This could be the pivotal shift healthcare innovators embrace in 2025.
 
-## Chronic diseases will continue to drive healthcare software development
+## Chronic diseases will continue to drive the future of healthcare technology
 
 **Chronic diseases account for approximately 74% of all deaths globally** according to [WHO](https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases). This includes **cardiovascular diseases**, which are the leading cause of death worldwide, responsible for about 17.9 million deaths annually, followed by **cancers** (9.3 million), **chronic respiratory diseases** (4.1 million), and **diabetes** (2.0 million). 
 
