@@ -72,7 +72,7 @@ Recording and transcribing doctor-patient communication for medical record docum
 
 <EbookDynamic sectionTitle='scale your solution with our free guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide healthcare software cover' />
 
-## 2025 might not bring a breakthrough in AI for diagnostics
+## 2025 might bring a breakthrough in AI for diagnostics
 
 Although in 2024, there was **widespread discussion about AI's potential in diagnostics**, visible implementations in this field remain limited, despite many companies actively working on it. We'll see if 2025 will be a true breakthrough for AI companies working on diagnostics.
 
