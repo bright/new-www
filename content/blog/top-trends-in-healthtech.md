@@ -35,9 +35,9 @@ CB Insights' annual list of the most promising digital health startups, "[The Di
 
 Source: [The Digital Health 50](https://www.cbinsights.com/research/report/digital-health-startups-redefining-healthcare-2024/)
 
-## 2025 will show how AI can be implemented wider
+## 2025 will show how AI can be implemented wider in digital health
 
-It's true that **in 2024, everyone wanted to appear trendy and boasted about implementing AI** in their solutions, even if it was a stretch at best. However, amidst the flood of news about incorporating AI, we could genuinely find companies that successfully implemented it, **allowing users to experience it firsthand, especially in the chatbot area**. Here is an example of an interesting AI chatbot implementation:
+It's true that **in 2024, some healthcare professionals wanted to appear trendy and boasted about revolutionizing healthcare with their AI-powered solutions**, even if it was a stretch at best. However, amidst the flood of news about incorporating AI, we could genuinely find companies that successfully implemented it, **allowing users to experience it firsthand, especially in the chatbot area**. Here is an example of an interesting AI chatbot implementation:
 
 [AI chatbot Ebb introduced by Headspace](https://www.headspace.com/ai-mental-health-companion)
 
