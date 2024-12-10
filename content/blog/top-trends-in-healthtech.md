@@ -47,7 +47,7 @@ Ebb is an empathetic AI companion integrated into its app to assist users in nav
 
 ### AI for healthcare workflow optimization
 
-Various companies are leveraging artificial intelligence (AI) to optimize healthcare workflows across multiple domains:
+Various companies are leveraging artificial intelligence to optimize healthcare workflows across multiple domains:
 
 #### Administrative task automation
 
