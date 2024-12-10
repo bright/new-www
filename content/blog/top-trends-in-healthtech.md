@@ -65,7 +65,7 @@ Enhancing patient interaction through conversational AI and virtual assistants. 
 
 Improving health data management for better clinical decision-making is a focus for several companies. Examples include [Innovaccer](https://innovaccer.com/), [Datavant](https://www.datavant.com/), and [Redox](https://redoxengine.com/).
 
-#### Medical records transcription
+#### Medical & health records transcription
 
 Recording and transcribing doctor-patient communication for medical record documentation is an area that quite a few companies have been actively working on. Examples include [DeepScribe](https://www.deepscribe.ai/), [Abridge](https://www.abridge.com/), [Lyrebird Health](https://www.lyrebirdhealth.com/), [Tali AI](https://tali.ai/), [Deepgram](https://deepgram.com/solutions/medical-transcription?), and [Dorascribe](https://www.dorascribe.ai/).
 
