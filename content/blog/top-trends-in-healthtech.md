@@ -29,7 +29,7 @@ What's more, investors have their own type. 😉 And yes, AI is a key factor for
 
 <blockquote><h2></h2><div>For early-stage startups using AI (38% of digital health companies that raised A rounds in H1 2024 were AI-enabled), big Series A rounds can help support AI upstart costs like training models or acquiring datasets.</div><footer>rockhealth.com</footer></blockquote>
 
-CB Insights' annual list of the most promising digital health startups, "[The Digital Health 50](https://www.cbinsights.com/research/report/digital-health-startups-redefining-healthcare-2024/)", also indicates the direction HealthTech is heading. Notably, 33 out of the 50 companies are developing AI-augmented solutions.
+CB Insights' annual list of the most promising digital health startups, "[The Digital Health 50](https://www.cbinsights.com/research/report/digital-health-startups-redefining-healthcare-2024/)", also indicates the direction HealthTech is heading. Notably, **33 out of the 50 companies are developing AI-augmented solutions**.
 
 <div className="image">![Digital Health 50](/images/digitalhealth-50-2024.png "Digital Health 50")</div>
 
