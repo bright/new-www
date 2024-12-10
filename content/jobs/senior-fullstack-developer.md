@@ -63,7 +63,7 @@ As a Fullstack Developer, you will collaborate with cross-functional teams to de
 
 ## about the project 🧑🏻‍💻🧑🏻‍💻
 
-The project is an online group therapy application that connects individuals seeking emotional support. You can read more about it here: [](https://brightinventions.pl/projects/online-group-support/)<https://brightinventions.pl/projects/online-group-support/>
+The project is an online group therapy application that connects individuals seeking emotional support. You can read more about it here: [](https://brightinventions.pl/projects/online-group-support/)[https://brightinventions.pl/projects/online-group-support/](/projects/online-group-support/)
 
 ## what you will do 🤝
 
