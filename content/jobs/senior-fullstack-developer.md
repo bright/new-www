@@ -13,8 +13,7 @@ technology:
   - TypeScript
   - Node.js
   - React
-  - React Native
-  - AWS
+  - NestJS
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -64,11 +63,7 @@ As a Fullstack Developer, you will collaborate with cross-functional teams to de
 
 ## about the project 🧑🏻‍💻🧑🏻‍💻
 
-We are looking for candidates to join two of our projects.
-
-The first project is a system that serves as a next-generation passwordless authentication service, used daily by millions of users worldwide. It focuses on identity protection by leveraging the latest trends in biometric technology, enabling users to access their accounts with a single touch. The system itself consists of several distinct products/applications.
-
-The second project is an online group therapy application that connects individuals seeking emotional support. You can read more about it here: [https://brightinventions.pl/projects/online-group-support/](https://brightinventions.pl/projects/online-group-support/)
+The project is an online group therapy application that connects individuals seeking emotional support. You can read more about it here: <https://brightinventions.pl/projects/online-group-support/>
 
 ## what you will do 🤝
 
@@ -83,10 +78,10 @@ The second project is an online group therapy application that connects individu
 
 * at least 4 years of commercial programming experience as a fullstack developer or similar role 
 * solid understanding of TypeScript/JavaScript
-* deep working experience with Node.js, NestJS and React
+* deep working experience with Node.js, React and React Native
 * a solution-oriented mindset 
 * positive approach and flexibility to work on new challenges  
-* advanced level of English (written and spoken)
+* advanced level of English and Polish (written and spoken)
 
 ## we would also appreciate if you have 🙌
 
