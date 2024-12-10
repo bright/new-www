@@ -26,7 +26,7 @@ language: en
 
 [2025 might bring a breakthrough in AI for diagnostics](/blog/top-trends-in-healthtech/#2025-might-bring-a-breakthrough-in-ai-for-diagnostics)
 
-[It's the last moment to catch up on interoperability in the healthcare system](/blog/top-trends-in-healthtech/#the-last-moment-to-catch-up-on-interoperability-in-the-healthcare-system)
+It's the last moment to catch up on interoperability in the healthcare system
 
 [2025 will help to determine what healthcare devices we really need](/blog/top-trends-in-healthtech/#2025-will-help-to-determine-what-healthcare-devices-we-really-need)
 
