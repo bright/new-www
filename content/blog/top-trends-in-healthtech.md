@@ -5,178 +5,123 @@ tags:
   - HealthTech
   - AI
 date: 2024-01-17T12:47:29.514Z
-meaningfullyUpdatedAt: 2024-01-17T12:47:30.332Z
-title: Top 7 Trends in HealthTech to Watch in 2024
+meaningfullyUpdatedAt: 2024-12-10T09:30:48.092Z
+title: 7 Trends in HealthTech to Watch in 2025
 layout: post
-image: /images/healthtech2024trends_blog.png
-hidden: false
+image: /images/healthtech_trends_blog_post.png
+hidden: true
 comments: true
 published: true
 language: en
 ---
-**The year 2024 comes with a promise of significant growth for HealthTech, following a period of stagnation. This growth will likely be fueled by innovations brought by Generative AI, IoT, wearables, mental HealthTech, and more. What can we expect from the MedTech sector? Read our technology trends in healthcare for 2024.**
+**The year 2025 will help healthcare software companies move past the industry's struggles of recent years and might provide some crucial answers. What will the direction of healthcare software growth be? Which smart healthcare devices will prove truly essential? What will be the X factor for investors? Are you ready for the answers 2025 has to offer?**
 
-<div className="image">![Tech trends in healthcare 2024](../../static/images/healthtech2024trends_blog.png "Tech trends in healthcare 2024")</div>
+<div className="image">![Tech trends in healthcare 2025](/images/healthtech_trends_blog_post.png "Tech trends in healthcare 2025")</div>
 
-## Table of contents
+## HealthTech will transition into the post-recovery phase with AI bringing investors
 
-[HealthTech will finally shake off the post-COVID-19 hurdle](/blog/top-trends-in-healthtech/#healthtech-will-finally-shake-off-the-post-covid-19-hurdle)
+The past few years have been challenging for the HealthTech sector as it grappled with the aftermath of the COVID-19 pandemic. However, 2024 has emerged as a year of recovery and renewed momentum for the industry. The State of Health Tech 2024 highlights growth, particularly in **biotech taking the lead**.
 
-[Advanced implementations of Generative AI in healthcare](/blog/top-trends-in-healthtech/#advanced-implementations-of-generative-ai-in-healthcare)
+<div className="image">![State of Health Tech 2024](/images/healthtech_sector.png "State of Health Tech 2024")</div>
 
-[Greater focus on preventive healthcare with AI](/blog/top-trends-in-healthtech/#greater-focus-on-preventive-healthcare-with-ai)
+Source: [State of Health Tech 2024](https://www.bvp.com/atlas/state-of-health-tech-2024)
 
-[IoT and wearables for (truly) continuous remote patient monitoring and biohacking](/blog/top-trends-in-healthtech/#iot-and-wearables-for-truly-continuous-remote-patient-monitoring-and-biohacking)
+What's more, investors have their own type. 😉 And yes, AI is a key factor for investors, as we can read on [rockhealth.com](https://rockhealth.com/insights/h1-2024-digital-health-funding-resilience-leads-to-brilliance/):
 
-[Making telemedicine even more accessible](/blog/top-trends-in-healthtech/#making-telemedicine-even-more-accessible)
+<blockquote><h2></h2><div>For early-stage startups using AI (38% of digital health companies that raised A rounds in H1 2024 were AI-enabled), big Series A rounds can help support AI upstart costs like training models or acquiring datasets.</div><footer>rockhealth.com</footer></blockquote>
 
-[Unlocking the potential of patient engagement apps for chronic disease patients](/blog/top-trends-in-healthtech/#unlocking-the-potential-of-patient-engagement-apps-for-chronic-disease-patients)
+CB Insights' annual list of the most promising digital health startups, "[The Digital Health 50](https://www.cbinsights.com/research/report/digital-health-startups-redefining-healthcare-2024/)", also indicates the direction HealthTech is heading. Notably, 33 out of the 50 companies are developing AI-augmented solutions.
 
-[The continuing rise of Mental HealthTech](/blog/top-trends-in-healthtech/#the-continuing-rise-of-mental-healthtech)
+<div className="image">![Digital Health 50](/images/digitalhealth-50-2024.png "Digital Health 50")</div>
 
-## HealthTech will finally shake off the post-COVID-19 hurdle
+Source: [The Digital Health 50](https://www.cbinsights.com/research/report/digital-health-startups-redefining-healthcare-2024/)
 
-While HealthTech was anticipated to flourish in the aftermath of COVID-19, it sadly became one of the most impacted sectors. Since 2021, this industry has witnessed a noticeable downturn, evident in the decline of stock values. 
+## 2025 will show how AI can be implemented wider
 
-<div className="image">![HealthTech state after the pandemic](../../static/images/healthtech_post_covid.png "State of Health Tech 2023")</div>
+It's true that **in 2024, everyone wanted to appear trendy and boasted about implementing AI** in their solutions, even if it was a stretch at best. However, amidst the flood of news about incorporating AI, we could genuinely find companies that successfully implemented it, **allowing users to experience it firsthand, especially in the chatbot area**. Here is an example of an interesting AI chatbot implementation:
 
-Source: [State of Health Tech 2023](https://www.bvp.com/atlas/state-of-health-tech-2023)
+[AI chatbot Ebb introduced by Headspace](https://www.headspace.com/ai-mental-health-companion)
 
-However, 2023 offered renewed optimism, marked by significant acquisitions that signal a promising outlook for 2024.
+Ebb is an empathetic AI companion integrated into its app to assist users in navigating life's challenges. Ebb facilitates self-reflection and emotional processing, offering personalized recommendations from Headspace's extensive library of meditations and mindfulness exercises.
 
-As stated in the [State of Health Tech 2023](https://www.bvp.com/atlas/state-of-health-tech-2023) report:
-
-<blockquote><h2></h2><div>\$The health tech cohort gains during summer of 2022 and January 2023 were mainly driven by announcements of relatively large acquisitions in the health tech sector, including Amazon’s \$3.9 billion acquisition of One Medical, CVS Health’s 8 billion dollars acquisition of Signify Health, and CVS Health’s 10.6 billion dollars acquisition of Oak Street Health.</div><footer></footer></blockquote>
-
-Despite the financial struggles faced by the HealthTech sector, the enduring results of COVID-19's digital transformation in healthcare could not be slowed down. **The need for digitalization in healthcare has already been established within the industry and among patients, who feel empowered to use technology to manage their health daily.**
-
-## Advanced implementations of Generative AI in healthcare
-
-It’s impossible to discuss innovations in healthcare without including Generative AI. It is a type of artificial intelligence that can produce new content, such as text, images, or data, by learning from existing examples and patterns. **So, what Generative Al use cases in HealthTech are we most likely to see in 2024?**
-
-### Medical Imaging - one of the healthcare areas quickly to be transformed by AI
-
-Medical imaging is a method used to create images of the inside of the body for medical diagnosis and treatment. It includes techniques like X-rays, MRI, CT scans, and ultrasound.
-
-<YouTubeEmbed url='https://www.youtube.com/watch?v=dCDuMyzWS8Q' />
-
-**Generative AI models are used to enhance medical imaging, following:**
-
-* **Generating high-resolution images** from low-resolution inputs and reconstructing 3D images from 2D scans,
-* **Complete time-consuming work** like tracing tumors, tracing structures,
-  measuring the amount of fat and muscle in the body,
-* **Data augmentation**: generating synthetic medical data, including images, text, or patient records or training machine learning models, especially when real data is limited or privacy concerns exist.
-* **Natural Language Processing (NLP)**: generating human-like text, making them useful for tasks like medical transcription, generating clinical notes, and assisting with healthcare documentation.
-* **Radiology Report Generation**: AI-driven models can automatically generate radiology reports based on medical images, helping radiologists save time and maintain consistency in their reporting.
-
-Examples of Medical Imaging AI companies to watch: [ContextVision](https://www.contextvision.com/), [Enlitic](https://enlitic.com/).
-
-### Embracing AI in disease diagnostics
-
-<YouTubeEmbed url='https://www.youtube.com/watch?v=3EV6ryG2j7E' />
-
-AI can assist in diagnosing a variety of diseases, including:
-
-* **Cancer**: AI algorithms can analyze medical images like X-rays, MRIs, and CT scans to detect tumors and other cancerous growths.
-  Diabetes: Through pattern recognition in patient data, AI can help identify early signs of diabetes.
-* **Heart Disease**: AI can analyze ECG patterns to detect heart conditions such as arrhythmias as well as identify other crucial factors such as atherosclerosis.
-* **Neurological Disorders**: AI can help in diagnosing conditions like Alzheimer's and Parkinson's disease by analyzing patient data and brain imaging.
-* **Skin Conditions**: AI-driven image analysis tools can aid in diagnosing skin cancers and other dermatological conditions.
-* **Eye Diseases**: AI algorithms can analyze retinal scans to detect diseases like diabetic retinopathy and age-related macular degeneration.
-
-Examples of AI in disease diagnostics companies to watch: [iCAD](https://www.icadmed.com/), [Emory University](https://medicalxpress.com/news/2023-08-ai-enables-earlier-diabetes-chest.html), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTech](https://www.ainnovatech.com/), [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/), [SkinVision.](https://www.skinvision.com/pl/)
-
-### Healthcare AI Chatbots – evolving from streamlining processes to actively assisting patients
-
-While most current healthcare chatbots (also called virtual healthcare assistants) are utilized to streamline processes like appointment scheduling, **the focus for 2024 should be on exploring their potential as tools that also actively solve patient issues, for example in the mental health area**. 
-
-<blockquote><h2></h2><div>It is very difficult for people with mental health disorders to actually talk about these things and to tell people 'I don't feel well.' So if this person feels very stigmatized and feels like it's not easy to talk about these things, to open up to this machine and say 'Well, I feel really, really bad today' and to hear something that seems like essentially what works is that they don't feel it's a person. The only reason they can open up is because they know it's not a person. It could also be that they don't have the person in front of them, so this kind of distance is what gives them the ability to actually talk about these issues.</div><footer>Dr Laura Martinengo, Research Fellow at Lee Kong Chian School of Medicine at NTU</footer></blockquote>
-
-<YouTubeEmbed url='https://www.youtube.com/watch?v=lLhTdV47Y8E' />
-
-The year 2024 could provide answers to crucial questions: **Is it feasible and ethically acceptable to use chatbots, integrating tools from cognitive behavioral therapy and psychology, to assist users?** Or is there a line that needs to be drawn regarding their use in mental health technology?
-
-## Greater focus on preventive healthcare with AI
-
-[Virtue Market Research](https://virtuemarketresearch.com/report/aI-preventive-care-market) predicts the rapid growth of AI in preventive care. In 2022, the market was valued at USD 7 billion and is projected to reach USD 161.14 billion by 2030
-
-<div className="image">![AI in preventive care](../../static/images/ai_in_preventive_care.png "Source: Virtue Market Research")</div>
-
-Source: [Virtue Market Research](https://virtuemarketresearch.com/report/aI-preventive-care-market)
-
-In 2024, **AI diagnostic applications in HealthTech should shift their focus from merely detecting diseases to also preventing** them. For example, wearable medical devices, combined with AI applications, can monitor a patient's health. If the app detects high blood pressure, which increases the risk of heart attack or stroke, and the patient is not undergoing treatment for these conditions, it can alert either the patient or a designated doctor. 
-
-This allows for early intervention and treatment, potentially **preventing more serious health issues such as cardiovascular diseases which are a leading cause of death globally**. In 2015, [17.7 million people died from cardiovascular diseases worldwide](https://www.bayer.com/en/pharma/economic-and-societal-impact-cardiovascular-disease). By the year 2030, this number is projected to rise to 22 million. Can we fight these predictions without AI? 
-
-## IoT and wearables for (truly) continuous remote patient monitoring and biohacking
-
-IoT and wearables in healthcare are nothing new, but their potential has not yet been fully realized. **The focus for 2024 should be on wearable health monitoring devices that can track patients' vital signs 24 hours a day** and on implementing these technologies more broadly.
-
-As an example check the actual [remote patient monitoring solution Camascope](/projects/remote-patient-monitoring/). This system can monitor patients' vital signs in the care home sector in the UK, alerting doctors and nurses if the vitals suggest a life-threatening condition of their patients.
-
-Particularly interesting to follow in 2024 is the work on [battery-free wearables for MedTech](https://www.advancedsciencenews.com/powering-wearable-health-monitoring-devices-without-batteries/) powered by… humans.
-
-<blockquote><h2></h2><div>Using a thermoelectric generator, or TEG, to harvest the plentiful and continuously available heat or thermal energy generated by the human body and convert it into electricity, the research team from the Department of Biomedical Engineering at Zhejiang University in collaboration with the Institute of Flexible Electronics Technology of THU successfully created a self-powered, wireless wearable to monitor heart rate, sweat composition, and body motion in real-time.</div><footer>Advance Science News</footer></blockquote>
-
-**Another interesting trend to watch in 2024 is smart rings**. The smart rings market size is expected to increase significantly. **By 2027, it's forecasted to grow by approximately [USD 34.40 billion](https://www.technavio.com/report/smart-rings-market-industry-analysis)**.
-
-<YouTubeEmbed url='https://www.youtube.com/watch?v=rIJjBcsJB6U' />
-
-Smart rings are wearable devices that are becoming smaller and more convenient alternatives to smartwatches. **Similarly to smartwatches, smart rings offer a wide range of healthcare and fitness functions, from vital signs monitoring and sleep recording to activity tracking**. The market for smart ring producers is growing, with Big Tech close to joining. Will 2024 be the year when Apple and Samsung release their first smart rings? We're about to find out! :)
-
-MedTech wearables are growing in popularity, aligning with another trend known as **biohacking**. This movement **empowers individuals to improve their body's functionality and enhance physical and cognitive performance**. Central to biohacking is the accessibility of technology, including smart devices, that enable people to take a more active role in managing their health. These devices facilitate self-care allowing people to monitor various aspects of health, such as the effects of their diet, physical activities, medication, and more.
+<YouTubeEmbed url='https://www.youtube.com/watch?v=ldvDbS0JGsE&t=239s' /> 
 
 <EbookDynamic sectionTitle='scale your solution with our free guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide healthcare software cover' />
 
-## Making telemedicine even more accessible
+### AI for healthcare workflow optimization
 
-Telemedicine gained significant popularity during the pandemic, evidenced by **the sharp increase in telehealth visits among [Medicare recipients](https://www.gao.gov/products/gao-22-104454) from about 5 million to over 53 million** in the early stages. Cost savings are a crucial factor in telemedicine growth. [A study conducted among nonelderly patients with cancer](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2800164) using telehealth shows that **the average cost savings per telemedicine visit for patients range from 147 to 186 dollars**. That means lower costs for patients as well as public or private healthcare insurance providers.
+Various companies are leveraging artificial intelligence (AI) to optimize healthcare workflows across multiple domains:
 
-<div className="image">![TeleHealth](../../static/images/telemedicine.png "TeleHealth")</div>
+#### Administrative task automation
 
-**Moving into 2024, the focus should shift towards developing systematic solutions that enhance telemedicine accessibility for groups in dire need, such as seniors and chronic disease patients.** 
+Automating administrative tasks in healthcare has become a priority for many companies aiming to improve efficiency and reduce clerical burdens. Examples include [Notable Health](https://www.notablehealth.com/), [Qventus](https://www.qventus.com/) and [UiPath](https://www.uipath.com/).
 
-Telehealth companies that will design software solutions addressing challenges like limited internet access, and technological unfamiliarity of end users have the potential to lead the way in telemedicine in the following years.
+#### Personalized treatment plans (precision medicine)
 
-Examples of TeleHealth companies to watch: [Camascope](https://www.camascope.com/), [MedKitDoc](https://medkitdoc.de/en), [Maven](https://www.mavenclinic.com/).
+Creating personalized treatment plans using AI and data analytics is transforming patient care. Examples include [Tempus](https://www.tempus.com/), and [Flatiron](https://flatiron.com/).
 
-## Unlocking the potential of patient engagement apps for chronic disease patients
+#### Enhancing patient interaction
 
-The Patient Engagement Apps market is predicted to continually grow over the next few years. As stated on [Expert Market Research](https://www.expertmarketresearch.com/reports/patient-engagement-solutions-market):
+Enhancing patient interaction through conversational AI and virtual assistants. Examples include [Ada](https://ada.com/), and [Talkie](https://talkie.ai/appointment-management/).
 
-<blockquote><h2></h2><div>The global patient engagement solutions market size attained a value of approximately USD 22.74 billion in 2023. The market is further expected to grow in the forecast period of 2024-2032 at a CAGR of 17.10%, reaching about USD 94.17 billion by 2032.</div><footer>Expert Market Research</footer></blockquote>
+#### Data management
 
-An important aspect of this market is related to managing chronic diseases, which are still not fully covered by HealthTech. 
+Improving data management for better clinical decision-making is a focus for several companies. Examples include [Innovaccer](https://innovaccer.com/), [Datavant](https://www.datavant.com/), and [Redox](https://redoxengine.com/).
 
-As of 2024, the chronic disease situation in the United States is a significant health and economic concern. **Patients with chronic diseases incur average direct healthcare costs of about 6,032 dollars annually, which is approximately [five times higher than those without a chronic disease](https://www.americanactionforum.org/research/chronic-disease-in-the-united-states-a-worsening-health-and-economic-crisis/)**. The costs are mainly due to more frequent hospitalizations, emergency room visits, and greater prescription drug use. Notably, about 60% of all emergency room visits are associated with people with chronic conditions, costing around $8.3 billion in 2017.
+#### Medical records transcription
 
-Patient Engagement Apps are the perfect solutions to monitor, support, and prevent rising costs of hospitalizations and treatment of patients with chronic diseases. 
+Recording and transcribing doctor-patient communication for medical record documentation is an area that quite a few companies have been actively working on. Examples include [DeepScribe](https://www.deepscribe.ai/), [Abridge](https://www.abridge.com/), [Lyrebird Health](https://www.lyrebirdhealth.com/), [Tali AI](https://tali.ai/), [Deepgram](https://deepgram.com/solutions/medical-transcription?), and [Dorascribe](https://www.dorascribe.ai/).
 
-Get inspired by the story behind the [app for Parkinson’s patients](/projects/solution-for-parkinsons-patients/) built to engage users to monitor their symptoms better.
+## 2025 might not bring a breakthrough in AI for diagnostics
 
-<div className="image">![App for Parkinson patients mockups](../../static/images/app_for_parkinson_patients2.png "App for Parkinson patients mockups")</div>
+Although in 2024, there was **widespread discussion about AI's potential in diagnostics**, visible implementations in this field remain limited, despite many companies actively working on it. We'll see if 2025 will be a true breakthrough for AI companies working on diagnostics.
 
-## The continuing rise of Mental HealthTech
+Here are examples of companies and organizations working on implementing AI in disease diagnostics that are worth watching in 2025: [SkinVision](https://www.skinvision.com/pl/), [iCAD](https://www.icadmed.com/), [Emory University](https://medicalxpress.com/news/2023-08-ai-enables-earlier-diabetes-chest.html), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTech](https://www.ainnovatech.com/), [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/).
 
-In 2019-2020, 20.78% of adults were experiencing a mental illness, equivalent to [over 50 million Americans](https://www.mhanational.org/issues/state-mental-health-america). Additionally, 10.8% of adults with a mental illness are uninsured, and over half (54.7%) do not receive treatment​​. Therefore, **mental HealthTech in 2024 should continue to focus on increasing access to mental support**.
+## This is the last moment to catch up on interoperability
 
-**Explore the most promising use cases of mental HealthTech:**
+The global healthcare interoperability solutions market contributes around [49.6%](https://www.futuremarketinsights.com/reports/healthcare-interoperability-solutions-market) to the global healthcare services market value at about USD 7.5 Billion in 2022. As one HealthTech leader stated during [the interview we conducted at HLTH Europe 2024](l/blog/nuria-advancing-healthcare-interoperability-and-patient-engagement/):
 
-**TeleTherapy Platforms**: platforms enabling remote therapy sessions between mental health professionals and clients through video calls, audio calls, or messaging. [Companies worth watching: [BetterHealth](https://www.betterhelp.com/), [TeenConsulting](https://www.teencounseling.com/), [Ritual](https://www.heyritual.com/).]
+<blockquote><h2></h2><div>The trend should be about integrating solutions that enhance the entire patient journey, not just isolated digital parts.</div><footer>Fernando Campos Soares, Founder & CEO @ Nuria</footer></blockquote>
 
-**Online Support Groups**: platforms where individuals can find peer support. 
-[Check the success story of the startup [Circles](/projects/online-group-support/) which emerges as a premier online support platform.]
+Interoperability is poised to be an even more prominent topic than in previous years. According to Google Trends data from the past five years, interest in this term has been steadily increasing. 
 
-<div className="image">![Group therapy platform mockups](../../static/images/group_therapy_app_mockups.png "Group therapy platform mockups")</div>
+<div className="image">![Interoperability Google trends](/images/interoperability_google_trends.png "Interoperability Google trends")</div>
 
-**AI-Powered Chatbots for Mental Health**: as mentioned earlier in the article chatbots using AI can provide immediate, 24/7 support for individuals seeking mental health assistance. [Companies worth watching: [Weabot Health](https://woebothealth.com/), [Limbic](https://limbic.ai/)]
+The year 2025 is expected to be a pivotal moment for healthcare companies to implement interoperability solutions effectively. In another article, we've delved into [interoperability for healthcare](https://brightinventions.pl/blog/interoperability-in-healthtech-experts-insights/). ​
 
-**Mindfulness and Relaxation Apps**: tech offering guided mindfulness and relaxation exercises, which can be beneficial for reducing symptoms of stress, anxiety, and depression. [Companies worth watching: [HeadSpace](https://www.headspace.com/), [Calm](https://www.calm.com/), [Buddhify](https://buddhify.com/), [Aura](https://www.aurahealth.io/)]
+## 2025 will help to determine what healthcare devices we really need
 
-**Apps for Crisis Intervention**: apps providing immediate assistance to individuals experiencing a mental health crisis, offering resources such as crisis hotlines, safety planning, and immediate coping strategies. [Companies worth watching: [Suicide Safe](https://play.google.com/store/apps/details?id=gov.hhs.samhsa.app.spa&hl=en&gl=US), [Weabot Health](https://woebothealth.com/)]
+As we predicted, 2024 was a standout year for the creation of smart devices and wearables in healthcare. **From robotic pets for seniors and socks that prevent falls to gloves designed to reduce hand tremors in Parkinson's patients, these innovations have certainly captured attention**. We have released a long [list of smart healthcare devices](/blog/bluetooth-devices-that-change-healthcare/) that are currently available or under development.
 
-**Digital Detox Apps**: applications helping users manage and limit their use of digital devices. [Companies worth watching: [ForestApp](https://www.forestapp.cc/), [Flipd](https://www.flipdapp.co/)]
+**The question for 2025 is whether the healthcare community can determine the true necessity of these diverse devices**. It will likely be a demanding year for healthcare device producers as they work to finalize prototypes, secure funding, and somehow commercialize their fascinating ideas. But **can these smart devices go beyond being merely intriguing to become integral parts of our daily lives**? That question is soon to be answered.
 
-## Feeling excited about 2024 in HealthTech?
+<YouTubeEmbed url='https://www.youtube.com/watch?v=W2hs1ar_lvE' />
 
-We are! Let us know in the comment what other predictions you have.
+This challenging situation presents an excellent opportunity for another trend to gain momentum, as recently highlighted by [Medical Futurists](https://medicalfuturist.com/headphones-as-health-and-medical-devices/): **repurposing everyday devices we already use (like headphones)** for healthcare and medical purposes. This could be the pivotal shift healthcare innovators embrace in 2025.
+
+## Chronic diseases will continue to drive healthcare software development
+
+**Chronic diseases account for approximately 74% of all deaths globally** according to [WHO](https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases). This includes **cardiovascular diseases**, which are the leading cause of death worldwide, responsible for about 17.9 million deaths annually, followed by **cancers** (9.3 million), **chronic respiratory diseases** (4.1 million), and **diabetes** (2.0 million). 
+
+The significant issue that technology must address is not only the rising number of patients with chronic diseases but also the fact that **these conditions are starting to affect people much earlier than in previous generations**.
+
+A notable example is [ulcerative colitis (UC)](https://www.yalemedicine.org/conditions/pediatric-ulcerative-colitis), a type of inflammatory bowel disease, that is increasingly being diagnosed in children and adolescents. While it traditionally affects individuals in their late 20s, recent trends indicate a rise in pediatric cases.
+
+In many cases, **chronic diseases are also considered invisible diseases**, as they often present **no visible symptoms in those suffering from them**. However, this does not mean that the people around us don’t require regular healthcare. In another article, we delved into the subject of [developing technology for patients with invisible diseases](https://brightinventions.pl/blog/technology-for-invisible-diseases/).
+
+## Hybrid apps as investor magnets
+
+2025 will reveal which companies can truly endure in the highly competitive digital health market, a space heavily reliant on investor funding. **What lessons can healthcare startup founders take away from these challenging years**? 
+
+**If possible, start small, low-cost, and validate your idea quickly**. Building an MVP is essential, but the choice of technology is just as critical. Hybrid technologies including React Native and Flutter, while not perfect, can be the best option for startups to validate their ideas and secure the funding necessary for scaling. 
+
+However, it’s not a one-size-fits-all approach, and **not every startup founder should blindly follow this trend**. If you’re planning to build a complex solution that operates extensively in the background or relies heavily on Bluetooth communication, then native development is the only viable path.
+
+Also, **some MVPs simply cannot be low-cost** due to the complexity of the technology or the requirements of the healthcare domain. Additionally, many startups have to rely on bootstrapping or securing initial funding before they can even begin thinking about market validation. Hybryd app cannot be a investor-magnet in cases like that.
+
+Read our blog post to explore the [differences between native and hybrid app development](/blog/native-app-development-vs-cross-platform/).
+
+## Feeling excited about 2025 in HealthTech?
+
+2025, we are ready for you!
