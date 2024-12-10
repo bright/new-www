@@ -61,9 +61,9 @@ Creating personalized treatment plans using AI and data analytics is transformin
 
 Enhancing patient interaction through conversational AI and virtual assistants. Examples include [Ada](https://ada.com/), and [Talkie](https://talkie.ai/appointment-management/).
 
-#### Data management
+#### Health data management
 
-Improving data management for better clinical decision-making is a focus for several companies. Examples include [Innovaccer](https://innovaccer.com/), [Datavant](https://www.datavant.com/), and [Redox](https://redoxengine.com/).
+Improving health data management for better clinical decision-making is a focus for several companies. Examples include [Innovaccer](https://innovaccer.com/), [Datavant](https://www.datavant.com/), and [Redox](https://redoxengine.com/).
 
 #### Medical records transcription
 
