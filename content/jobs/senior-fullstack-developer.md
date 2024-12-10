@@ -21,7 +21,7 @@ links_more_about_us: >-
   Candidates](/blog/how-to-start-working-at-bright-inventions-a-quick-guide-for-candidates/)
 
 
-   [Screening - How to Get Prepared](https://brightinventions.pl/blog/recruitment-screening-what-is-it-for/)
+   [Screening - How to Get Prepared](/blog/recruitment-screening-what-is-it-for/)
 
 
    [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
