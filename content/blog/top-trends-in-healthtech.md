@@ -1,5 +1,6 @@
 ---
 author: izabela
+secondAuthor: mateusz
 tags:
   - HealthTech
   - AI
