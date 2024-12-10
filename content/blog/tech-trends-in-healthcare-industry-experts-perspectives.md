@@ -3,7 +3,7 @@ author: agata
 tags:
   - HealthTech
 date: 2024-07-23T08:59:10.715Z
-meaningfullyUpdatedAt: 2024-12-10T09:28:17.085Z
+meaningfullyUpdatedAt: 2024-07-23T08:59:00.000Z
 slug: tech-trends-in-healthcare-experts-perspectives
 title: "Tech Trends in Healthcare: Industry Experts' Perspectives"
 layout: post
