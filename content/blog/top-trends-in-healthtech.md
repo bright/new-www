@@ -109,7 +109,7 @@ A notable example is [ulcerative colitis (UC)](https://www.yalemedicine.org/cond
 
 In many cases, **chronic diseases are also considered invisible diseases**, as they often present **no visible symptoms in those suffering from them**. However, this does not mean that the people around us don’t require regular healthcare. In another article, we delved into the subject of [developing technology for patients with invisible diseases](https://brightinventions.pl/blog/technology-for-invisible-diseases/).
 
-## Hybrid apps as investor magnets
+## Hybrid apps as investor magnets in the healthcare industry
 
 2025 will reveal which companies can truly endure in the highly competitive digital health market, a space heavily reliant on investor funding. **What lessons can healthcare startup founders take away from these challenging years**? 
 
