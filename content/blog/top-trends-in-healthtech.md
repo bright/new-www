@@ -24,13 +24,15 @@ language: en
 
 [2025 will show how AI can be implemented wider in digital health](/blog/top-trends-in-healthtech/#2025-will-show-how-ai-can-be-implemented-wider-in-digital-health)
 
-2025 might bring a breakthrough in AI for diagnostics
+[2025 might bring a breakthrough in AI for diagnostics](/blog/top-trends-in-healthtech/#2025-might-bring-a-breakthrough-in-ai-for-diagnostics)
 
-It's the last moment to catch up on interoperability in the healthcare system
+[It's the last moment to catch up on interoperability in the healthcare system](/blog/top-trends-in-healthtech/#the-last-moment-to-catch-up-on-interoperability-in-the-healthcare-system)
 
-2025 will help to determine what healthcare devices we really need
+[2025 will help to determine what healthcare devices we really need](/blog/top-trends-in-healthtech/#2025-will-help-to-determine-what-healthcare-devices-we-really-need)
 
-Hybrid apps as investor magnets in the healthcare industry
+[Chronic diseases will continue to drive the future of healthcare technology](/blog/top-trends-in-healthtech/#chronic-diseases-will-continue-to-drive-the-future-of-healthcare-technology)
+
+[Hybrid apps as investor magnets in the healthcare industry](/blog/top-trends-in-healthtech/#hybrid-apps-as-investor-magnets-in-the-healthcare-industry)
 
 ## HealthTech will transition into the post-recovery phase with AI bringing investors
 
