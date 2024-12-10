@@ -18,6 +18,22 @@ language: en
 
 <div className="image">![Tech trends in healthcare 2025](/images/healthtech_trends_blog_post_update.png "Tech trends in healthcare 2025")</div>
 
+## Contents:
+
+[HealthTech will transition into the post-recovery phase with AI bringing investors](/blog/top-trends-in-healthtech/#healthtech-will-transition-into-the-post-recovery-phase-with-ai-bringing-investors)
+
+[2025 will show how AI can be implemented wider in digital health](/blog/top-trends-in-healthtech/#2025-will-show-how-ai-can-be-implemented-wider-in-digital-health)
+
+[2025 might bring a breakthrough in AI for diagnostics](/blog/top-trends-in-healthtech/#2025-might-bring-a-breakthrough-in-ai-for-diagnostics)
+
+It's the last moment to catch up on interoperability in the healthcare system
+
+[2025 will help to determine what healthcare devices we really need](/blog/top-trends-in-healthtech/#2025-will-help-to-determine-what-healthcare-devices-we-really-need)
+
+[Chronic diseases will continue to drive the future of healthcare technology](/blog/top-trends-in-healthtech/#chronic-diseases-will-continue-to-drive-the-future-of-healthcare-technology)
+
+[Hybrid apps as investor magnets in the healthcare industry](/blog/top-trends-in-healthtech/#hybrid-apps-as-investor-magnets-in-the-healthcare-industry)
+
 ## HealthTech will transition into the post-recovery phase with AI bringing investors
 
 The past few years have been challenging for the healthcare providers as it grappled with the aftermath of the COVID-19 pandemic. However, 2024 has emerged as a year of recovery and renewed momentum for the industry. The State of Health Tech 2024 highlights growth, particularly in **biotech taking the lead**.
@@ -78,7 +94,7 @@ Although in 2024, there was **widespread discussion about AI's potential in diag
 
 Here are examples of companies and organizations working on implementing AI in disease diagnostics that are worth watching in 2025: [SkinVision](https://www.skinvision.com/pl/), [iCAD](https://www.icadmed.com/), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTech](https://www.ainnovatech.com/), [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/).
 
-## The last moment to catch up on interoperability in the healthcare system
+## It's the last moment to catch up on interoperability in the healthcare system
 
 The global healthcare interoperability solutions market contributes around [49.6%](https://www.futuremarketinsights.com/reports/healthcare-interoperability-solutions-market) to the global healthcare services market value at about USD 7.5 Billion in 2022. As one HealthTech leader stated during [the interview we conducted at HLTH Europe 2024](l/blog/nuria-advancing-healthcare-interoperability-and-patient-engagement/):
 
