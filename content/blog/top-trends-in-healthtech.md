@@ -93,7 +93,7 @@ The year 2025 is expected to be a pivotal moment for healthcare companies to imp
 
 As we predicted, 2024 was a standout year for the creation of wearables, health & medical devices in healthcare. **From robotic pets for seniors and socks that prevent falls to gloves designed to reduce hand tremors in Parkinson's patients, these innovations have certainly captured attention**.   They are also essential for remote monitoring, which for years have been one of crucial tech trends. We have released a long [list of smart healthcare devices](/blog/bluetooth-devices-that-change-healthcare/) that are currently available or under development.
 
-**The question for 2025 is whether the healthcare community can determine the true necessity of these diverse devices**. It will likely be a demanding year for healthcare device producers as they work to finalize prototypes, secure funding, and somehow commercialize their fascinating ideas. But **can these smart devices go beyond being merely intriguing to become integral parts of our daily lives**? That question is soon to be answered.
+**The question for 2025 is whether the healthcare community can determine the true necessity of these diverse devices that in some cases create and [Internet of Medical Things](/blog/guide-to-iot-in-healthcare/)**. It will likely be a demanding year for healthcare device producers as they work to finalize prototypes, secure funding, and somehow commercialize their fascinating ideas. But **can these smart devices go beyond being merely intriguing to become integral parts of our daily lives**? That question is soon to be answered.
 
 <YouTubeEmbed url='https://www.youtube.com/watch?v=W2hs1ar_lvE' />
 
