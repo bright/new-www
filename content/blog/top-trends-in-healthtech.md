@@ -1,6 +1,6 @@
 ---
-author: izabela
-secondAuthor: mateusz
+author: mateusz
+secondAuthor: izabela
 tags:
   - HealthTech
   - AI
@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2024-12-10T09:30:48.092Z
 title: 7 Trends in HealthTech to Watch in 2025
 layout: post
 image: /images/healthtech_trends_blog_post_update.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
@@ -26,7 +26,7 @@ language: en
 
 [2025 might bring a breakthrough in AI for diagnostics](/blog/top-trends-in-healthtech/#2025-might-bring-a-breakthrough-in-ai-for-diagnostics)
 
-It's the last moment to catch up on interoperability in the healthcare system
+[It's the last moment to catch up on interoperability in the healthcare system](/blog/top-trends-in-healthtech/#its-the-last-moment-to-catch-up-on-interoperability-in-the-healthcare-system)
 
 [2025 will help to determine what healthcare devices we really need](/blog/top-trends-in-healthtech/#2025-will-help-to-determine-what-healthcare-devices-we-really-need)
 
