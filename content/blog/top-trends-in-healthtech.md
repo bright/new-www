@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2024-12-10T09:30:48.092Z
 title: 7 Trends in HealthTech to Watch in 2025
 layout: post
 image: /images/healthtech_trends_blog_post.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
