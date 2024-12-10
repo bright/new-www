@@ -13,7 +13,8 @@ technology:
   - TypeScript
   - Node.js
   - React
-  - NestJS
+  - React Native
+  - AWS
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
