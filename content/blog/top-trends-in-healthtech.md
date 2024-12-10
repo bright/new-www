@@ -49,7 +49,7 @@ Ebb is an empathetic AI companion integrated into its app to assist users in nav
 
 Various companies are leveraging artificial intelligence to optimize healthcare workflows across multiple domains:
 
-#### Administrative task automation
+#### Administrative task automation for healthcare providers
 
 Automating administrative tasks in healthcare has become a priority for many companies aiming to improve efficiency and reduce clerical burdens. Examples include [Notable Health](https://www.notablehealth.com/), [Qventus](https://www.qventus.com/) and [UiPath](https://www.uipath.com/).
 
