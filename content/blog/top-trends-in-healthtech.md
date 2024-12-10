@@ -24,13 +24,13 @@ language: en
 
 [2025 will show how AI can be implemented wider in digital health](/blog/top-trends-in-healthtech/#2025-will-show-how-ai-can-be-implemented-wider-in-digital-health)
 
+2025 might bring a breakthrough in AI for diagnostics
 
+It's the last moment to catch up on interoperability in the healthcare system
 
+2025 will help to determine what healthcare devices we really need
 
-
-
-
-
+Hybrid apps as investor magnets in the healthcare industry
 
 ## HealthTech will transition into the post-recovery phase with AI bringing investors
 
@@ -92,7 +92,7 @@ Although in 2024, there was **widespread discussion about AI's potential in diag
 
 Here are examples of companies and organizations working on implementing AI in disease diagnostics that are worth watching in 2025: [SkinVision](https://www.skinvision.com/pl/), [iCAD](https://www.icadmed.com/), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTech](https://www.ainnovatech.com/), [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/).
 
-## The last moment to catch up on interoperability in the healthcare system
+## It's the last moment to catch up on interoperability in the healthcare system
 
 The global healthcare interoperability solutions market contributes around [49.6%](https://www.futuremarketinsights.com/reports/healthcare-interoperability-solutions-market) to the global healthcare services market value at about USD 7.5 Billion in 2022. As one HealthTech leader stated during [the interview we conducted at HLTH Europe 2024](l/blog/nuria-advancing-healthcare-interoperability-and-patient-engagement/):
 
