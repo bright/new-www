@@ -121,6 +121,6 @@ Also, **some MVPs simply cannot be low-cost** due to the complexity of the techn
 
 Read our blog post to explore the [differences between native and hybrid app development](/blog/native-app-development-vs-cross-platform/).
 
-## Feeling excited about 2025 in HealthTech?
+## Feeling excited about any particular trend in healthcare software?
 
-2025, we are ready for you!
+These are top healthcare technology trends that might shape the future of HealthTech. 2025, we are ready for you!
