@@ -8,7 +8,7 @@ date: 2024-01-17T12:47:29.514Z
 meaningfullyUpdatedAt: 2024-12-10T09:30:48.092Z
 title: 7 Trends in HealthTech to Watch in 2025
 layout: post
-image: /images/healthtech_trends_blog_post.png
+image: /images/healthtech_trends_blog_post_update.png
 hidden: true
 comments: true
 published: true
@@ -16,7 +16,7 @@ language: en
 ---
 **The year 2025 will help healthcare software companies move past the industry's struggles of recent years and might provide some crucial answers. What will the direction of healthcare software growth be? Which smart healthcare devices will prove truly essential? What will be the X factor for investors? Are you ready for 2025 HealthTech trends?**
 
-<div className="image">![Tech trends in healthcare 2025](/images/healthtech_trends_blog_post.png "Tech trends in healthcare 2025")</div>
+<div className="image">![Tech trends in healthcare 2025](/images/healthtech_trends_blog_post_update.png "Tech trends in healthcare 2025")</div>
 
 ## HealthTech will transition into the post-recovery phase with AI bringing investors
 
