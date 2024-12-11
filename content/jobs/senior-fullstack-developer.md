@@ -55,13 +55,13 @@ At Bright Inventions you'll be an important part of [a group of talented, ambit
 
 We place a strong emphasis on accountability, and we value team members **who take ownership of their work and are willing to make improvements based on regular and open feedback.** Positive attitude, flexibility and teamwork are elemental parts of our success. Instead of focusing on problems, we empower our team members to identify issues, propose solutions, and contribute to continuous growth. 
 
-## about the role 🧑🏻‍💻🧑🏻‍💻
+## about the role 🧑🏻‍💻
 
 We are seeking an experienced Fullstack Developer to join our bright team. The ideal candidate will have **a strong understanding of both web and mobile development**, along with the ability to work on a variety of projects, ranging from web applications to database design. 
 
 As a Fullstack Developer, you will collaborate with cross-functional teams to design, develop, and maintain software solutions that meet our clients' needs.  **You will feel great in our team if you are a team player who approach challenges and complexities with a problem-solving mindset and openness to feedback.** 
 
-## about the project 🧑🏻‍💻🧑🏻‍💻
+## about the project 🚀
 
 [The project](/projects/online-group-support/) is an online group therapy application that connects individuals seeking emotional support. [](https://brightinventions.pl/projects/online-group-support/)
 
