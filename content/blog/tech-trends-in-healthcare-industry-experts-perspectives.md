@@ -29,7 +29,7 @@ The digital transformation of healthcare continues to accelerate, driven by the 
 
 Attention to women's health tech is growing, filling gaps in historically under-served areas. **Dr** **Claudia Pastides** from FLO [noted the increasing number of digital solutions aimed at improving women's health](/blog/interview-claudia-pastides-flo-health/), a trend that promises better understanding and support for women’s health issues.
 
-<div className="image">![women's health ](/images/baner_final-quote-claudia.png "")</div>
+<div className="image">![women's health ](/images/baner_claudia_femtech.png "")</div>
 
 ## 4. The rise of remote care
 
