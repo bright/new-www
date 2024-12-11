@@ -36,7 +36,7 @@ language: en
 
 ## HealthTech will transition into the post-recovery phase with AI bringing investors
 
-The past few years have been challenging for the healthcare providers as it grappled with the aftermath of the COVID-19 pandemic. However, 2024 has emerged as a year of recovery and renewed momentum for the industry. The State of Health Tech 2024 highlights growth, particularly in **biotech taking the lead**.
+The past few years have been challenging for the healthcare providers as they grappled with the aftermath of the COVID-19 pandemic. However, 2024 has emerged as a year of recovery and renewed momentum for the industry. The State of Health Tech 2024 highlights growth, particularly in **biotech taking the lead**.
 
 <div className="image">![State of Health Tech 2024](/images/healthtech_sector.png "State of Health Tech 2024")</div>
 
