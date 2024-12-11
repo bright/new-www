@@ -5,8 +5,8 @@ tags:
   - design
   - AI
 date: 2024-02-01T10:58:36.300Z
-meaningfullyUpdatedAt: 2024-04-12T11:43:56.270Z
-title: The Ultimate Guide to HealthTech in 2024
+meaningfullyUpdatedAt: 2024-12-11T16:01:52.900Z
+title: The Ultimate Guide to HealthTech in 2025
 layout: post
 image: /images/healthtech-guide.png
 hidden: false
@@ -147,7 +147,7 @@ How IoT enhances healthcare:
 * provides analytics for disease prevention;
 * seamless data sharing among healthcare providers.
 
-Read an actual story of Camascope startup offering remote patient monitoring with the [IoT system combined with certified bluetooth devices](/projects/remote-patient-monitoring/).
+Read an actual story of British startup offering remote patient monitoring with the [IoT system combined with certified bluetooth devices](/projects/remote-patient-monitoring/).
 
 ### Medical devices and wearables
 
@@ -207,15 +207,15 @@ If you want to look closely at some companies that are changing healthcare, we l
 
 **Online Support and Web Therapy Platforms**: [Circles](https://brightinventions.pl/projects/online-group-support/), [BetterHealth](https://www.betterhelp.com/), [TeenConsulting](https://www.teencounseling.com/), [Ritual](https://www.heyritual.com/).
 
-**AI-Powered Chatbots for Mental Health**: [Weabot Health](https://woebothealth.com/), [Limbic](https://limbic.ai/)
+**AI-Powered Chatbots for Mental Health**: [Weabot Health](https://woebothealth.com/), [Limbic](https://limbic.ai/), [Ebb by Headspace.](https://www.headspace.com/ai-mental-health-companion)
 
 **AI in disease diagnostics companies to watch**: [Decorte Future Industries](https://decorte.co.uk/), [iCAD](https://www.icadmed.com/), [Emory University](https://medicalxpress.com/news/2023-08-ai-enables-earlier-diabetes-chest.html), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTech](https://www.ainnovatech.com/), [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/), [SkinVision.](https://www.skinvision.com/pl/)
 
-**Mindfulness and Relaxation Apps**: [HeadSpace](https://www.headspace.com/), [Calm](https://www.calm.com/), [Buddhify](https://buddhify.com/), [Aura](https://www.aurahealth.io/)
+**Mindfulness and Relaxation Apps**: [HeadSpace](https://www.headspace.com/), [Calm](https://www.calm.com/), [Buddhify](https://buddhify.com/), [Aura.](https://www.aurahealth.io/)
 
-**Apps for Crisis Intervention**: [Suicide Safe](https://play.google.com/store/apps/details?id=gov.hhs.samhsa.app.spa&hl=en&gl=US), [Weabot Health](https://woebothealth.com/)
+**Apps for Crisis Intervention**: [Suicide Safe](https://play.google.com/store/apps/details?id=gov.hhs.samhsa.app.spa&hl=en&gl=US), [Weabot Health.](https://woebothealth.com/)
 
-**Digital Detox Apps**: [ForestApp](https://www.forestapp.cc/), [Flipd](https://www.flipdapp.co/)
+**Digital Detox Apps**: [ForestApp](https://www.forestapp.cc/), [Flipd.](https://www.flipdapp.co/)
 
 ## Fancy more HealthTech content?
 
@@ -223,8 +223,8 @@ Get inspired by te best experts, resources and speakers in HealthTech industry:
 
 [Top Newsletters about Digital Health](/blog/top-newsletters-digital-health-healthtech/)
 
-[Top HealthTech Conferences to Attend in Europe in 2024](/blog/healthtech-conferences-europe/)
+[Top HealthTech Conferences to Attend in Europe in 2025](/blog/healthtech-conferences-europe/)
 
-[Top HealthTech Conferences to Attend in the USA in 2024](/blog/healthtech-conferences-usa/)
+[Top HealthTech Conferences to Attend in the USA in 2025](/blog/healthtech-conferences-usa/)
 
-[Top FemTech Conferences and Meetups in 2024](/blog/femtech-conferences-meetups/)
+[Top FemTech Conferences and Meetups in 2025](/blog/femtech-conferences-meetups/)
