@@ -12,6 +12,7 @@ working time: full time
 technology:
   - TypeScript
   - Node.js
+  - NestJS
   - React
   - AWS
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
