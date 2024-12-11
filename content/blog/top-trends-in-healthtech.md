@@ -130,7 +130,7 @@ In many cases, **chronic diseases are also considered invisible diseases**, as t
 
 2025 will reveal which companies can truly endure in the highly competitive digital health market, a space heavily reliant on investor funding. **What lessons can healthcare startup founders take away from these challenging years**? 
 
-**If possible, start small, low-cost, and validate your idea quickly**. Building an MVP is essential, but the choice of technology is just as critical. Hybrid technologies including React Native and Flutter, while not perfect, can be the best option for startups to validate their ideas and secure the funding necessary for scaling. 
+**If possible, start small, low-cost, and validate your idea quickly**. [Building an MVP](/our-areas/mvp-development/) is essential, but the choice of technology is just as critical. Hybrid technologies including React Native and Flutter, while not perfect, can be the best option for startups to validate their ideas and secure the funding necessary for scaling. 
 
 However, it’s not a one-size-fits-all approach, and **not every startup founder should blindly follow this trend**. If you’re planning to build a complex solution that operates extensively in the background or relies heavily on Bluetooth communication, then native development is the only viable path.
 
