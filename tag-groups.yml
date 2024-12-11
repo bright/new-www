@@ -70,6 +70,8 @@ groups:
           - cryptocurrency
     tags:
       - development
+      - frontend
+      - Frontend
       - software development
       - Kotlin
       - kotlin
