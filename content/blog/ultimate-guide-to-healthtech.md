@@ -5,7 +5,7 @@ tags:
   - design
   - AI
 date: 2024-02-01T10:58:36.300Z
-meaningfullyUpdatedAt: 2024-04-12T11:43:56.270Z
+meaningfullyUpdatedAt: 2024-12-11T16:01:52.900Z
 title: The Ultimate Guide to HealthTech in 2025
 layout: post
 image: /images/healthtech-guide.png
