@@ -49,7 +49,7 @@ The digital journey of patients is becoming a core focus, enhancing how they eng
 
 **Mohammad Al-Ubaydli,** Founder and CEO at PHIN, stressed the ethical management of health data, ensuring patients retain ownership and control over their personal health information. This practice not only supports patient autonomy but also builds trust by making health data management transparent and consent-based.
 
-<div className="image">![private healthcare information network](/images/baner_final-quote-mohamad.png "")</div>
+<div className="image">![private healthcare information network](/images/baner_mohammad_medical_data_records.png "")</div>
 
 ## 8. Predictive analytics and personalized medicine
 
