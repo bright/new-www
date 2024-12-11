@@ -3,7 +3,7 @@ author: agata
 tags:
   - HealthTech
 date: 2024-07-23T08:59:10.715Z
-meaningfullyUpdatedAt: 2024-07-23T12:52:54.921Z
+meaningfullyUpdatedAt: 2024-07-23T08:59:00.000Z
 slug: tech-trends-in-healthcare-experts-perspectives
 title: "Tech Trends in Healthcare: Industry Experts' Perspectives"
 layout: post
@@ -17,7 +17,7 @@ language: en
 
 ## 1. Digital transformation as a catalyst
 
-The digital transformation of healthcare continues to accelerate, driven by the need for more integrated systems. **Aahuti Rai,** Strategic Advisor and Venture Partner at Four Points Consulting, emphasized that the challenge lies not in the capabilities of technology but in our readiness to adopt and integrate these advancements effectively into daily healthcare practices.
+The digital transformation of healthcare continues to accelerate, driven by the need for more integrated systems. **Aahuti Rai,** Strategic Advisor and Venture Partner at Four Points Consulting, [emphasized that the challenge lies not in the capabilities of technology but in our readiness to adopt](/blog/ehealth-bottlenecks-interview-aahuti-rai/) and integrate these advancements effectively into daily healthcare practices.
 
 ## 2. The imperative of interoperability
 
@@ -29,7 +29,7 @@ The digital transformation of healthcare continues to accelerate, driven by the 
 
 Attention to women's health tech is growing, filling gaps in historically under-served areas. **Dr** **Claudia Pastides** from FLO [noted the increasing number of digital solutions aimed at improving women's health](/blog/interview-claudia-pastides-flo-health/), a trend that promises better understanding and support for women’s health issues.
 
-<div className="image">![women's health ](/images/baner_final-quote-claudia.png "")</div>
+<div className="image">![women's health ](/images/baner_claudia_femtech.png "")</div>
 
 ## 4. The rise of remote care
 
@@ -43,13 +43,13 @@ Remote care technologies are reshaping where and how care is delivered. **Łukas
 
 The digital journey of patients is becoming a core focus, enhancing how they engage with healthcare systems. **Fernando Campos Soares** from Nuria, [shared how his platform is making health data management more accessible and patient-friendly](/blog/nuria-advancing-healthcare-interoperability-and-patient-engagement/), emphasizing patient autonomy over their health records.
 
-<div className="image">![enhancing the entire patient journey](/images/baner_final-quote-fernando-2-.png "")</div>
+<div className="image">![enhancing the entire patient journey](/images/baner_fernando_trends_interoperability.png "")</div>
 
 ## 7. Ethical data management
 
 **Mohammad Al-Ubaydli,** Founder and CEO at PHIN, stressed the ethical management of health data, ensuring patients retain ownership and control over their personal health information. This practice not only supports patient autonomy but also builds trust by making health data management transparent and consent-based.
 
-<div className="image">![private healthcare information network](/images/baner_final-quote-mohamad.png "")</div>
+<div className="image">![private healthcare information network](/images/baner_mohammad_medical_data_records.png "")</div>
 
 ## 8. Predictive analytics and personalized medicine
 
