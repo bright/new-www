@@ -147,7 +147,7 @@ How IoT enhances healthcare:
 * provides analytics for disease prevention;
 * seamless data sharing among healthcare providers.
 
-Read an actual story of Camascope startup offering remote patient monitoring with the [IoT system combined with certified bluetooth devices](/projects/remote-patient-monitoring/).
+Read an actual story of British startup offering remote patient monitoring with the [IoT system combined with certified bluetooth devices](/projects/remote-patient-monitoring/).
 
 ### Medical devices and wearables
 
