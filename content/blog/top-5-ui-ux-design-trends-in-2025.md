@@ -59,7 +59,7 @@ Keep in mind, though, that this UX trend isn’t for every UX designer. **Only e
 
 [Simmonds Ltd, an art direction studio](https://www.simmondsltd.com/)
 
-<div className="image">![Simmonds](/images/simmonds.png "Simmonds")</div>
+<div className="image">![Simmonds](/images/simmonds_update.png "Simmonds")</div>
 
 [Church, film editors congregation](https://edit.church/)
 
@@ -110,7 +110,7 @@ AI is set to play a pivotal role in crafting copy for user interfaces. While sti
 
 User engagement through **gamification is well-known, especially in industries like sports and fitness technology or educational platforms**. Duolingo is a prime example. But what about other industries? Should they incorporate gamification into their design processes? Absolutely — product designers will need to do it! Gamification is a powerful tool to **personalize user experiences** and shape them in ways that build long-lasting bonds with users.
 
-## Examples of apps boldly embracing gamification:
+**Examples of apps boldly embracing gamification:**
 
 [Plant Nanny](https://play.google.com/store/apps/details?id=com.fourdesire.plantnanny2&hl=en)
 
