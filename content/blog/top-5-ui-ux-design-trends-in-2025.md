@@ -29,4 +29,8 @@ In 2025, **minimalism will reach new extremes, with typography taking center sta
 
 [Festival Figuré.e #4](https://www.edition4.figure-e.com/)
 
-<div className="image">![UX trend: typography](/images/festival_figure.png "UX trend: typography")</div>
+<div className="image">![Festival Figuré](/images/festival_figure.png "UX trend: typography")</div>
+
+[Motto branding agency](https://wearemotto.com/?ref=godly)
+
+<div className="image">![Motto branding agency](/images/motto.png "Motto branding agency")</div>
