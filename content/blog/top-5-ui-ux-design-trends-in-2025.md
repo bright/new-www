@@ -62,3 +62,13 @@ Keep in mind, though, that this UX trend isn’t for every UX designer. **Only e
 <div className="image">![Simmonds](/images/simmonds.png "Simmonds")</div>
 
 [Church, film editors congregation](https://edit.church/)
+
+<div className="image">![Church, film editors congregation](/images/church.png "Church, film editors congregation")</div>
+
+## AI-Powered workflow management
+
+Naturally, there’s no escaping AI. Product designers will increasingly rely on artificial intelligence to support their daily work. This means the natural growth of AI plugins, and AI features in design tools.
+
+### Figma AI plugins
+
+Plugins have always been a collaborative powerhouse in Figma, so we want to showcase some examples of plugins that are becoming essential in the daily workflow of product designers.
