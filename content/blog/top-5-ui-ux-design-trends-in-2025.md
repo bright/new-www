@@ -4,8 +4,8 @@ secondAuthor: joanna-c
 thirdAuthor: izabela
 tags:
   - design
-date: 2024-12-12T09:54:05.175Z
-meaningfullyUpdatedAt: 2024-12-12T09:54:05.197Z
+date: 2024-12-12T12:31:23.484Z
+meaningfullyUpdatedAt: 2024-12-12T12:31:24.018Z
 slug: ui-ux-design-trends
 title: Top 5 UI & UX Design Trends in 2025
 layout: post
@@ -104,4 +104,24 @@ Beyond plugins, Figma offers built-in AI-powered features that streamline workfl
 
 How often do you find yourself ready to dive into design, only to be stuck waiting for the copy? Soon, that frustration might be a thing of the past.
 
-AI is set to play a pivotal role in crafting copy for user interfaces. While still supervised by UX writers, it can generate text for multiple screens of applications or websites, ensuring consistency across the board.
+AI is set to play a pivotal role in crafting copy for user interfaces. While still supervised by UX writers, it can generate text for multiple screens of applications or websites, ensuring consistency across the board. 
+
+## Gamification: an even bigger UX trend in 2025
+
+User engagement through **gamification is well-known, especially in industries like sports and fitness technology or educational platforms**. Duolingo is a prime example. But what about other industries? Should they incorporate gamification into their design processes? Absolutely — product designers will need to do it! Gamification is a powerful tool to **personalize user experiences** and shape them in ways that build long-lasting bonds with users.
+
+## Examples of apps boldly embracing gamification:
+
+[Plant Nanny](https://play.google.com/store/apps/details?id=com.fourdesire.plantnanny2&hl=en)
+
+A unique app that encourages users to stay hydrated by combining health tracking with gamification. Every glass of water you drink helps nurture and grow a virtual plant in the app. The plants thrive as you meet your hydration goals, offering a fun and visual incentive to maintain healthy habits.
+
+<YouTubeEmbed url='https://www.youtube.com/watch?v=mgBcFk9wdZU' />
+
+[Fortune City](https://sparkful.app/fortune-city)
+
+A creative finance management app that uses gamification to make budgeting fun and engaging. As you track your expenses, the app builds a thriving virtual city based on your financial habits.
+
+## Are you excited about 2025 predictions?
+
+We are! 2025, don’t you dare bore us. 😎
