@@ -2,7 +2,7 @@
 layout: job
 title: Senior Fullstack Developer (React Native)
 subtitle: OPEN
-imagejob: /images/team-job-offer-2-.png
+imagejob: /images/fullstack-team-job-offer-4-copy-2.png
 image-alt-job: Fullstack Team Bright Inventions
 hours: full-time
 salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
@@ -57,7 +57,8 @@ We place a strong emphasis on accountability, and we value team members **who ta
 
 ## about the role 🧑🏻‍💻
 
-We are seeking an experienced Fullstack Developer to join our bright team. The ideal candidate will have **a strong understanding of both web and mobile development**, with the ability to work on a variety of projects, ranging from building cross-platform applications to designing robust databases.\
+We are seeking an experienced Fullstack Developer to join our bright team. The ideal candidate will have **a strong understanding of both web and mobile development**, with the ability to work on a variety of projects, from building cross-platform applications to developing backend solutions like database design and creating intuitive user interfaces.
+
 \
 As a Fullstack Developer, you will collaborate with cross-functional teams to design, develop, and maintain software solutions that meet our clients' needs.  **You will feel great in our team if you are a team player who approach challenges and complexities with a problem-solving mindset and openness to feedback.** 
 
@@ -68,6 +69,7 @@ Circles is a mental health tech startup leading the way in digitalized emotional
 ## what you will do 🤝
 
 * collaborate with the product manager/owner to understand project requirements and translate them into technical specifications
+* build and maintain cross-platform mobile application using React Native, ensuring seamless user experiences across devices
 * develop responsive and user-friendly frontend applications using modern web technologies
 * design and implement server-side logic, APIs, and database structures for backend applications
 * participate in code reviews to maintain code quality and ensure best practices
