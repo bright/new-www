@@ -84,8 +84,10 @@ Plugins have always been a collaborative powerhouse in Figma, so we want to show
 
 ### AI-powered wireframes
 
-At this moment, AI is not yet capable of generating fully functional wireframes from scratch, but that could change in the coming months. Additionally, copyright laws still need to catch up to clarify whether AI-generated wireframes can be used commercially without legal concerns.
+At this moment, **AI is not yet capable of generating fully functional wireframes from scratch, but that could change in the coming months**. Additionally, copyright laws still need to catch up to clarify whether AI-generated wireframes can be used commercially without legal concerns.
 
-Despite these limitations, AI-generated wireframes offer several benefits. They can help overcome the fear of a blank page, providing product designers with a starting template to build upon. These wireframes also serve as valuable tools for early-stage product testing, making the creation of initial designs more cost-effective and efficient.
+Despite these limitations, **AI-generated wireframes offer several benefits**. They can help **overcome the fear of a blank page**, providing product designers with a starting template to build upon. These wireframes also serve as **valuable tools for early-stage product testing**, making the creation of initial designs more cost-effective and efficient.
 
 **Check out an example of an AI-powered wireframe of a live sports score application:**
+
+<div className="image">![AI-powered wireframe Figma](/images/ai_wireframe.png "AI-powered wireframe Figma")</div>
