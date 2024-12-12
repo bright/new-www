@@ -28,3 +28,5 @@ In 2025, **minimalism will reach new extremes, with typography taking center sta
 **Check out examples of brands that are not afraid to put typography in the center:**
 
 [Festival Figuré.e #4](https://www.edition4.figure-e.com/)
+
+<div className="image">![UX trend: typography](/images/festival_figure.png "UX trend: typography")</div>
