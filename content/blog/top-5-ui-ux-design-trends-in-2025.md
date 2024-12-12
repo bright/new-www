@@ -91,3 +91,17 @@ Despite these limitations, **AI-generated wireframes offer several benefits**. T
 **Check out an example of an AI-powered wireframe of a live sports score application:**
 
 <div className="image">![AI-powered wireframe Figma](/images/ai_wireframe.png "AI-powered wireframe Figma")</div>
+
+AI wireframes definitely have potential, but it’s still hard to say if we should be excited about that. Why? **AI-powered wireframes often tend to look too similar**. Do we really want all our websites and software products to share the same generic UI? We would still put our money on personalization.
+
+### Figma's AI Features
+
+Beyond plugins, Figma offers built-in AI-powered features that streamline workflows. These tools help you save time and effort in various ways. **You can generate images, search for similar components across all your Figma pages, translate content, and more**. As we move into 2025, Figma is likely to introduce even more of these small yet powerful enhancements, making design faster than ever.
+
+<div className="image">![Figma AI features](/images/figma_features.png "Figma AI features")</div>
+
+### AI for UX writing
+
+How often do you find yourself ready to dive into design, only to be stuck waiting for the copy? Soon, that frustration might be a thing of the past.
+
+AI is set to play a pivotal role in crafting copy for user interfaces. While still supervised by UX writers, it can generate text for multiple screens of applications or websites, ensuring consistency across the board.
