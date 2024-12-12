@@ -24,3 +24,7 @@ language: en
 In 2025, **minimalism will reach new extremes, with typography taking center stage**. Expect even more white space and creative typography: combining various fonts and basing the entire UI around the text. In some cases, typography might even overshadow illustrations, photos, and videos. 
 
 **Typography is becoming self-sufficient content**. It's no longer just about providing information — now it's in charge of the entire storytelling process.
+
+**Check out examples of brands that are not afraid to put typography in the center:**
+
+[Festival Figuré.e #4](https://www.edition4.figure-e.com/)
