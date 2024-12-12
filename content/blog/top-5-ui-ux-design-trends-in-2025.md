@@ -40,3 +40,9 @@ In 2025, **minimalism will reach new extremes, with typography taking center sta
 Don’t expect a crazy UX rollercoaster on the UI front. Yes, there will be an even bigger push for motion and dynamic elements on websites and applications, but it means that **even more “conservative” brands will adopt motion** to show that their websites are breathing with full lungs (virtually, at least). 
 
 **Microinteractions** **are at the center of this trend** — those little tweaks, jumps, and other design elements that help create a user-centered experience. What’s fascinating about it is **how perfectly it aligns with minimalism**. Just check it out for yourself!
+
+**Get inspired to design in motion with these websites:**
+
+[Mitchell Eaton, purposeful motion designer](https://mitchelleaton.com/)
+
+<div className="image">![](undefined "")</div>
