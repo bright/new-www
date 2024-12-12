@@ -1,6 +1,6 @@
 ---
 layout: job
-title: "Senior Fullstack Developer "
+title: Senior Fullstack Developer (React Native)
 subtitle: OPEN
 imagejob: /images/team-job-offer-2-.png
 image-alt-job: Fullstack Team Bright Inventions
