@@ -63,7 +63,7 @@ As a Fullstack Developer, you will collaborate with cross-functional teams to de
 
 ## about the project 🚀
 
-[The project](/projects/online-group-support/) is an online group therapy application that connects individuals seeking emotional support. [](https://brightinventions.pl/projects/online-group-support/)
+Circles is a mental health tech startup leading the way in digitalized emotional support. Their online group therapy app connects individuals seeking guidance—not only from professionals but also from others navigating similar life challenges. To learn more about Circles, [click here](/projects/online-group-support/).[](https://brightinventions.pl/projects/online-group-support/)
 
 ## what you will do 🤝
 
