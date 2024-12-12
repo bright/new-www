@@ -2,6 +2,8 @@
 author: aleksandra-zaw
 secondAuthor: joanna-c
 thirdAuthor: izabela
+tags:
+  - design
 date: 2024-12-12T09:54:05.175Z
 meaningfullyUpdatedAt: 2024-12-12T09:54:05.197Z
 slug: ui-ux-design-trends
