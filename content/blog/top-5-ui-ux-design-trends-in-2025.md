@@ -45,4 +45,4 @@ Don’t expect a crazy UX rollercoaster on the UI front. Yes, there will be an e
 
 [Mitchell Eaton, purposeful motion designer](https://mitchelleaton.com/)
 
-<div className="image">![](undefined "")</div>
+<div className="image">![Mitchell Eaton](/images/mitchell_eaton.png "Mitchell Eaton")</div>
