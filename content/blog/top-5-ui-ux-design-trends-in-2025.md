@@ -50,3 +50,9 @@ Don’t expect a crazy UX rollercoaster on the UI front. Yes, there will be an e
 [Superpower healthcare platform](https://superpower.com/)
 
 <div className="image">![Superpower](/images/superpower.png "Superpower")</div>
+
+## Throwing away top UX conventions
+
+Some websites will embrace this trend, primarily those representing artistic brands that dare to venture into more extreme UI territories. UX/UI designers working with these brands will officially toss aside the “Don’t make me think” rules, focusing on one goal: surprising the user. Forget template interfaces, UX best practices, and past design trends — every means to an end is allowed, even if that “end” results in a user interface that isn’t entirely clear. 
+
+Keep in mind, though, that this UX trend isn’t for every UX designer. Only edgy, artistic brands can afford to have fun with UI and play a dangerous game with their users like that. The late months of 2025 will reveal whether these design decisions truly pay off.
