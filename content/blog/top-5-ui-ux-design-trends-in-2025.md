@@ -56,3 +56,5 @@ Don’t expect a crazy UX rollercoaster on the UI front. Yes, there will be an e
 Some websites will embrace this trend, primarily **those representing artistic brands that dare to venture into more extreme UI territories**. UX/UI designers working with these brands will officially toss aside the [“Don’t Make Me Think”](https://brightinventions.pl/blog/5-web-development-rules-from-dont-make-me-think-book/) rules, f**ocusing on one goal: surprising the user**. Forget template interfaces, UX best practices, and past design trends — **every means to an end is allowed**, even if that “end” results in a user interface that isn’t entirely clear. 
 
 Keep in mind, though, that this UX trend isn’t for every UX designer. **Only edgy, artistic brands can afford to have fun with UI** and play a dangerous game with their users like that. The late months of 2025 will reveal whether these design decisions truly pay off.
+
+[Simmonds Ltd, an art direction studio](https://www.simmondsltd.com/)
