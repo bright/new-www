@@ -58,3 +58,7 @@ Some websites will embrace this trend, primarily **those representing artistic b
 Keep in mind, though, that this UX trend isn’t for every UX designer. **Only edgy, artistic brands can afford to have fun with UI** and play a dangerous game with their users like that. The late months of 2025 will reveal whether these design decisions truly pay off.
 
 [Simmonds Ltd, an art direction studio](https://www.simmondsltd.com/)
+
+<div className="image">![Simmonds](/images/simmonds.png "Simmonds")</div>
+
+[Church, film editors congregation](https://edit.church/)
