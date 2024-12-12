@@ -57,8 +57,8 @@ We place a strong emphasis on accountability, and we value team members **who ta
 
 ## about the role 🧑🏻‍💻
 
-We are seeking an experienced Fullstack Developer to join our bright team. The ideal candidate will have **a strong understanding of both web and mobile development**, along with the ability to work on a variety of projects, ranging from web applications to database design. 
-
+We are seeking an experienced Fullstack Developer to join our bright team. The ideal candidate will have **a strong understanding of both web and mobile development**, with the ability to work on a variety of projects, ranging from building cross-platform applications to designing robust databases.\
+\
 As a Fullstack Developer, you will collaborate with cross-functional teams to design, develop, and maintain software solutions that meet our clients' needs.  **You will feel great in our team if you are a team player who approach challenges and complexities with a problem-solving mindset and openness to feedback.** 
 
 ## about the project 🚀
