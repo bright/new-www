@@ -72,3 +72,20 @@ Naturally, there’s no escaping AI. Product designers will increasingly rely on
 ### Figma AI plugins
 
 Plugins have always been a collaborative powerhouse in Figma, so we want to showcase some examples of plugins that are becoming essential in the daily workflow of product designers.
+
+**Examples of Figma AI plugging worth trying:**
+
+* **[Content Reel](https://www.figma.com/community/plugin/731627216655469013/content-reel)**
+
+  Content Reel streamlines your design workflow by providing dynamic placeholder content. It allows you to quickly insert text, avatars, icons, and other elements directly into your designs. With customizable options and a simple interface, Content Reel helps designers maintain realistic mockups without spending time searching for filler content.
+* [Batch Styler](https://www.figma.com/community/plugin/818203235789864127/batch-styler)
+
+  It allows you to apply and manage styles in bulk across your design projects. Whether you're working with text, colors, or effects, Batch Styler simplifies the process by letting you update multiple elements simultaneously.
+
+### AI-powered wireframes
+
+At this moment, AI is not yet capable of generating fully functional wireframes from scratch, but that could change in the coming months. Additionally, copyright laws still need to catch up to clarify whether AI-generated wireframes can be used commercially without legal concerns.
+
+Despite these limitations, AI-generated wireframes offer several benefits. They can help overcome the fear of a blank page, providing product designers with a starting template to build upon. These wireframes also serve as valuable tools for early-stage product testing, making the creation of initial designs more cost-effective and efficient.
+
+**Check out an example of an AI-powered wireframe of a live sports score application:**
