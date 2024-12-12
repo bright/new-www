@@ -53,7 +53,7 @@ As a Fullstack Developer, you will collaborate with cross-functional teams to de
 
 ## about the project 🚀
 
-The project you will be involved in is a cross-channel identity platform that integrates and control authentication, fraud detection, and access controls**.** The system is used by millions of users worldwide on a daily basis. The role will primarily focus on backend tasks, while also involving frontend tasks at times.
+The project you will be involved in is a cross-channel identity platform that integrates and control authentication, fraud detection, and access controls. The system is used by millions of users worldwide on a daily basis. The role will primarily focus on backend tasks, while also involving frontend tasks at times.
 
 ## preferred skills and qualifications ✅
 
