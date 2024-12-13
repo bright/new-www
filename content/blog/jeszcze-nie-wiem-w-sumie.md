@@ -27,7 +27,7 @@ JavaScript comprises two distinct types: [primitive types and object types](http
 
 ### Primitive Types
 
-Among these, there exist seven primitive types: **string**, **number**, **boolean**, **null**, **undefined**, **symbol**, and **bigint**. It’s crucial to note that none of these are object types, contrary to the myth. However operator **typeof** for null value returns **object** because, in JavaScript's early design, [null was assigned the same internal tag as objects](https://dl.acm.org/doi/pdf/10.1145/3386327). This behavior originates from the very first implementation of JavaScript (called **Mocha**) and has remained unchanged since then to maintain compatibility with older code.
+Among these, there exist seven primitive types: **string**, **number**, **boolean**, **null**, **undefined**, **symbol**, and **bigint**. It’s crucial to note that none of these are object types, contrary to the myth. However operator **typeof** for null value returns **object** because, in JavaScript's early design, [null was assigned the same internal tag as objects (p.13)](https://dl.acm.org/doi/pdf/10.1145/3386327). This behavior originates from the very first implementation of JavaScript (called **Mocha**) and has remained unchanged since then to maintain compatibility with older code.
 
 #### Immutability
 
@@ -66,7 +66,7 @@ console.log(num) // 40
 console.log(secondNum) // 50
 ```
 
-When you use a variable to assign it to another variable, you create a **copy of the value** held by that variable. Both variables, even if they appear connected, do not reference each other. The value stored in the “num” variable is copied when assigned to the “secondNum” variable. Consequently, any changes made to “num” or “secondNum” will not affect any other variable.
+When assign one variable to another, a **copy of the value**. Both variables, even if they appear connected, do not reference each other. The value stored in the “num” variable is copied when assigned to the “secondNum” variable. Consequently, any changes made to “num” or “secondNum” will not affect any other variable.
 
 #### No properties / methods
 
