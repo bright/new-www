@@ -27,7 +27,11 @@ JavaScript comprises two distinct types: [primitive types and object types](http
 
 ### Primitive Types
 
-Among these, there exist seven primitive types: **string**, **number**, **boolean**, **null**, **undefined**, **symbol**, and **bigint**. It’s crucial to note that none of these are object types, contrary to the myth. Primitive types possess unique characteristics such as **immutability**; once assigned, their values cannot be changed directly, although a new value can be assigned to the variable (using **var** or **let** keyword).
+Among these, there exist seven primitive types: **string**, **number**, **boolean**, **null**, **undefined**, **symbol**, and **bigint**. It’s crucial to note that none of these are object types, contrary to the myth. However operator **typeof** for null value returns **object** because, in JavaScript's early design, [null was assigned the same internal tag as objects](https://dl.acm.org/doi/pdf/10.1145/3386327). This behavior originates from the very first implementation of JavaScript (called **Mocha**) and has remained unchanged since then to maintain compatibility with older code.
+
+#### Immutability
+
+Primitive types possess unique characteristics such as **immutability**; once assigned, their values cannot be changed directly, although a new value can be assigned to the variable (using **var** or **let** keyword). 
 
 ```
 let age = 30; 
@@ -42,6 +46,8 @@ name[2] = "e"
 
 console.log(name) // John
 ```
+
+#### Passed by value
 
 Another characteristic of primitive data types is that they are **passed by value**. What does this mean? Let’s examine the snippet below. 
 
@@ -62,6 +68,8 @@ console.log(secondNum) // 50
 
 When you use a variable to assign it to another variable, you create a **copy of the value** held by that variable. Both variables, even if they appear connected, do not reference each other. The value stored in the “num” variable is copied when assigned to the “secondNum” variable. Consequently, any changes made to “num” or “secondNum” will not affect any other variable.
 
+#### No properties / methods
+
 Moreover, it’s important to note that primitive type values **lack methods (functions) and properties**, which can be puzzling. Attempting to access properties like “length” in the snippet below might seem perplexing. We’ll delve deeper into this concept shortly. However, for now, trust me, this code is absolutely correct:
 
 ```
@@ -72,7 +80,11 @@ console.log(name.length) // ???
 
 ### Object Type
 
-The simplest way to define object types is as “**anything that is not a primitive type**”. Arrays and functions are also considered object types. Objects are complex structures that contain **properties and methods**, defined as key-value pairs. We can access these properties using e.g. dot notation (object.property), as demonstrated below:
+The simplest way to define object types is as “**anything that is not a primitive type**”. Arrays and functions are also considered object types. 
+
+#### Contains properties / methods
+
+Objects are complex structures that contain **properties and methods**, defined as key-value pairs. We can access these properties using e.g. dot notation (object.property), as demonstrated below:
 
 ```
 const person = {
@@ -91,6 +103,8 @@ person.sayHi() // "Hi!"
 
 Previously, I mentioned that a **string** is a primitive type, yet I also attempted to use it as an object (by accessing the length property with *name.length*). Rest assured, everything will soon become clear.
 
+#### Mutability
+
 The next characteristic of object values is **mutability**, in contrast to primitive types, which are immutable. This means that we can modify the property values of our objects:
 
 ```
@@ -102,6 +116,8 @@ person.age = 31
 
 console.log(person.age) // 31
 ```
+
+#### Passed by reference
 
 Another crucial aspect of object types is that values assigned to variables as objects are **passed by reference**, not by value (copy) as with primitive data types. This mechanism can be a bit tricky to grasp. When you create a variable that holds an object, you’re actually storing a **reference** to that object, rather than the object itself. Think of this reference as a sticky note containing the coordinates in memory where the object is located. This reference concept doesn’t apply to primitive types.
 
