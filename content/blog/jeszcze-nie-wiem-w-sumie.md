@@ -4,7 +4,7 @@ tags:
   - frontend
 date: 2024-12-13T11:48:40.319Z
 meaningfullyUpdatedAt: 2024-12-13T11:48:40.346Z
-title: Jeszcze nie wiem w sumie
+title: JS types De-Objectified
 layout: post
 hidden: false
 comments: false
