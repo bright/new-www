@@ -122,7 +122,7 @@ console.log(mySistersCar.isBroken) // true, oops
 
 ## Boxing
 
-Now that we have a basic understanding of objects and primitive types, let’s revisit the Boxing mechanism I mentioned earlier. This mechanism explains why I attempted to access a property of a string, even though primitive types don’t have properties. The snippet is correct:
+Now that we have a basic understanding of **objects** and **primitive types**, let’s revisit the **Boxing** mechanism I mentioned earlier. This mechanism explains why I attempted to access a property of a string, even though primitive types don’t have properties. The snippet is correct:
 
 ```
 let name = "John"
@@ -143,3 +143,10 @@ name.length; // Here new object will be created
 ## Summary
 
 JavaScript’s types are a fundamental aspect of the language and entail complex mechanisms. While this can be confusing for individuals accustomed to statically-typed languages, it’s these intricacies that make JavaScript an incredibly dynamic language. Understanding the distinction between primitive and object types, as well as how they operate under the hood, is crucial for ensuring code predictability and functionality.
+
+- - -
+
+##### Take a look at our earlier blog post debunking frontend myths:
+
+1. [To 'b' or Not to 'b': The Semantic Status of HTML 'b' Tag](/blog/semantic-status-of-html-b-tag/)
+2. [Understanding the Hoisting Behavior of let and const](/blog/let-const-hoisting/)
