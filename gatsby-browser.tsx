@@ -17,6 +17,7 @@ import { setupTrackingConsentInLinkedIn } from './plugins/linkedin-pixel/trackin
 import { setupTrackingConsentInLeadForensics } from './plugins/lead-forensics/tracking-consent'
 import { CookieConsentContextWrapper } from './src/analytics/contextual-cookie-consent'
 import { i18nForPageContext, i18nResources, withI18next } from './src/i18n'
+import { setupTrackingConsentClarity } from './plugins/clarity/tracking-consent'
 
 let nextRoute = ''
 
@@ -67,6 +68,10 @@ export const onClientEntry: GatsbyBrowser['onClientEntry'] = () => {
   }).catch(console.error)
 
   setupTrackingConsentInLeadForensics({
+    consentDecisionLoader: loadConsentDecision,
+  }).catch(console.error)
+
+  setupTrackingConsentClarity({
     consentDecisionLoader: loadConsentDecision,
   }).catch(console.error)
 }
