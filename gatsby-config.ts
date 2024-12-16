@@ -72,6 +72,12 @@ const gatsbyConfig: GatsbyConfig = {
         enabled: isProduction,
       },
     },
+    {
+      resolve: 'clarity',
+      options: {
+        enabled: isProduction,
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-plugin-image',
