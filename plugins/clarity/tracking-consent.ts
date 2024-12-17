@@ -5,7 +5,7 @@ export async function setupTrackingConsentClarity({
 }) {
   const decision = consentDecisionLoader()
 
-  if (decision?.analytics) {
+  if (decision?.analytics && decision?.marketing) {
     window.initClarity()
   }
 }
