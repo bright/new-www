@@ -2,8 +2,9 @@
 author: rafal-op
 tags:
   - frontend
-date: 2024-12-13T11:48:40.319Z
-meaningfullyUpdatedAt: 2024-12-13T11:48:40.346Z
+date: 2024-12-17T20:03:51.085Z
+meaningfullyUpdatedAt: 2024-12-17T20:03:50.502Z
+slug: js-types-debjectified
 title: JS Types De-Objectified
 layout: post
 hidden: false
