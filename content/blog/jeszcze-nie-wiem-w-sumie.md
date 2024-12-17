@@ -11,13 +11,13 @@ comments: false
 published: true
 language: en
 ---
-Some individuals mockingly claim that JavaScript lacks types. While it’s true that we don’t explicitly define types in our code, this doesn’t negate their existence. JavaScript operates as a **dynamically typed language**, where types are tied to values rather than variables, and are determined at runtime. Within our JavaScript applications, we work with various types of values. This dynamic nature of types often sparks one of the most popular myths in the frontend environment.
+**Some individuals mockingly claim that JavaScript lacks types. While it’s true that we don’t explicitly define types in our code, this doesn’t negate their existence. JavaScript operates as a dynamically typed language, where types are tied to values rather than variables, and are determined at runtime. Within our JavaScript applications, we work with various types of values. This dynamic nature of types often sparks one of the most popular myths in the frontend environment.**
 
 ## The Myth of Everything as an Object
 
 While learning JavaScript, I’ve encountered at least once the phrase:
 
-> In JavaScript, everything is an object
+> In JavaScript, everything is an object.
 
 I understand why people might say that, but unfortunately, it’s a misleading statement. In the following section of this article, I will provide a comprehensive explanation of this topic. We’ll delve into mechanisms like **Boxing** and explore why some individuals tend to perceive everything as an object.
 
