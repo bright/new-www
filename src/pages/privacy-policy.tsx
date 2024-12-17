@@ -510,21 +510,12 @@ const PrivacyPolicy = () => {
                 </a>
               </p>
               <p>
-                7. We use Hotjar in order to better understand our users’ needs and to optimize this service and
-                experience. Hotjar is a technology service that helps us better understand our users’ experience (e.g.
-                how much time they spend on which pages, which links they choose to click, what users do and don’t like,
-                etc.) and this enables us to build and maintain our service with user feedback. Hotjar uses cookies and
-                other technologies to collect data on our users’ behavior and their devices. This includes a device's IP
-                address (processed during your session and stored in a de-identified form), device screen size, device
-                type (unique device identifiers), browser information, geographic location (country only), and the
-                preferred language used to display our website. Hotjar stores this information on our behalf in a
-                pseudonymized user profile. Hotjar is contractually forbidden to sell any of the data collected on our
-                behalf.
+                7. We partner with Microsoft Clarity and Microsoft Advertising to capture how you use and interact with our website through behavioral metrics, heatmaps, and session replay to improve and market our products/services. Website usage data is captured using first and third-party cookies and other tracking technologies to determine the popularity of products/services and online activity. Additionally, we use this information for site optimization, fraud/security purposes, and advertising.
               </p>
               <p>
-                For further details, please see the ‘about Hotjar’ section of{' '}
-                <a href='https://help.hotjar.com/hc/en-us/categories/115001323967-About-Hotjar'>
-                  Hotjar’s support site
+                For more information about how Microsoft collects and uses your data, visit the{' '}
+                <a href='https://www.microsoft.com/en-us/privacy/privacystatement'>
+                  Microsoft Privacy Statement
                 </a>
                 .
               </p>
