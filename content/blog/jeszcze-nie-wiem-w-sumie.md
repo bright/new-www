@@ -4,8 +4,8 @@ tags:
   - frontend
 date: 2024-12-17T20:03:51.085Z
 meaningfullyUpdatedAt: 2024-12-17T20:03:50.502Z
-slug: js-types-debjectified
-title: JS Types De-Objectified
+slug: javascript-types-de-objectified
+title: JavaScript Types De-Objectified
 layout: post
 hidden: false
 comments: false
