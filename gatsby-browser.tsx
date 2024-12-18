@@ -16,8 +16,9 @@ import { setupTrackingConsentInHotjar } from './plugins/hotjar/tracking-consent'
 import { setupTrackingConsentInLinkedIn } from './plugins/linkedin-pixel/tracking-consent'
 import { setupTrackingConsentInLeadForensics } from './plugins/lead-forensics/tracking-consent'
 import { CookieConsentContextWrapper } from './src/analytics/contextual-cookie-consent'
-import { i18nForPageContext, i18nResources, withI18next } from './src/i18n'
+import { i18nForPageContext, withI18next } from './src/i18n'
 import { setupTrackingConsentClarity } from './plugins/clarity/tracking-consent'
+import { setupTrackingConsentMicrosoftAds } from './plugins/microsoft-ads/tracking-consent'
 
 let nextRoute = ''
 
@@ -72,6 +73,10 @@ export const onClientEntry: GatsbyBrowser['onClientEntry'] = () => {
   }).catch(console.error)
 
   setupTrackingConsentClarity({
+    consentDecisionLoader: loadConsentDecision,
+  }).catch(console.error)
+
+  setupTrackingConsentMicrosoftAds({
     consentDecisionLoader: loadConsentDecision,
   }).catch(console.error)
 }

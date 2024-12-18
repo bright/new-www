@@ -78,6 +78,12 @@ const gatsbyConfig: GatsbyConfig = {
         enabled: isProduction,
       },
     },
+    {
+      resolve: 'microsoft-ads',
+      options: {
+        enabled: isProduction,
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-plugin-image',
