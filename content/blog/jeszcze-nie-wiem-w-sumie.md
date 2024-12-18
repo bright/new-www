@@ -2,8 +2,8 @@
 author: rafal-op
 tags:
   - frontend
-date: 2024-12-18T10:13:52.685Z
-meaningfullyUpdatedAt: 2024-12-18T10:13:53.519Z
+date: 2024-12-18T10:21:25.389Z
+meaningfullyUpdatedAt: 2024-12-18T10:21:26.251Z
 slug: javascript-types-deobjectified
 title: JavaScript Types De-Objectified
 layout: post
