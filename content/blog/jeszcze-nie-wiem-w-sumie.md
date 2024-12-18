@@ -7,6 +7,7 @@ meaningfullyUpdatedAt: 2024-12-18T07:36:31.126Z
 slug: javascript-types-deobjectified
 title: JavaScript Types De-Objectified
 layout: post
+image: /images/blogpost_js_types.png
 hidden: false
 comments: false
 published: true
