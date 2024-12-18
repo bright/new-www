@@ -2,8 +2,8 @@
 author: rafal-op
 tags:
   - frontend
-date: 2024-12-18T10:07:01.990Z
-meaningfullyUpdatedAt: 2024-12-18T10:07:02.557Z
+date: 2024-12-18T10:13:52.685Z
+meaningfullyUpdatedAt: 2024-12-18T10:13:53.519Z
 slug: javascript-types-deobjectified
 title: JavaScript Types De-Objectified
 layout: post
@@ -14,6 +14,8 @@ published: true
 language: en
 ---
 **Some individuals mockingly claim that JavaScript lacks types. While it’s true that we don’t explicitly define types in our code, this doesn’t negate their existence. JavaScript operates as a dynamically typed language, where types are tied to values rather than variables, and are determined at runtime. Within our JavaScript applications, we work with various types of values. This dynamic nature of types often sparks one of the most popular myths in the frontend environment.**
+
+<div className="image">![js types de-objectified](/images/blogpost_js_types.png "")</div>
 
 ## The Myth of Everything as an Object
 
