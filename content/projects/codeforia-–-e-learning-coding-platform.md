@@ -6,14 +6,18 @@ our_service:
   - custom software development
 layout: project
 project_id: codeforia
-title: Codeforia – Learning Coding Platform
+title: "Codeforia: Empowering the Next Generation of Coders with Gamified Learning"
 image: /images/codeforia_cover.png
-description: Codeforia is a platform offering online programming courses for
-  developers-to-be, schools, and educational organizations.
+description: >
+  We all know how crucial programming skills are for this generation and the
+  future. Yet, public school systems still lack effective tools to engage
+  students in developing digital skills. Codeforia, an edtech platform, is
+  changing this narrative by inspiring young people to fall in love with
+  programming.
 hero_image: /images/case_study_edu_tech.png
-Hero Image_alt: Edutech
+Hero Image_alt: Edtech
 social_media_previev: /images/fb_preview_edutech.png
-social_media_previev_alt: Edutech
+social_media_previev_alt: Edtech
 bar_achievements:
   - number: "6"
     label: Months till the launch
@@ -35,13 +39,10 @@ show_team: false
 show_case_study: true
 show on homepage: false
 published: false
+work_in_progress: false
 language: en
 ---
-<TitleWithIcon sectionTitle="main features developed by Bright Inventions:" titleIcon="/images/icons_features_svg.svg" titleIconAlt="main features" />
-
-<SliderText sliderElements='[{"title":"Panel displaying the offering","description":"Panel offering a variety of online programming courses with a buy option."},{"title":"Users panel","description":"Users panel with available courses and lessons progress."},{"title":"Customized and UX-friendly forms","description":"Logging and registration form."},{"title":"Lesson panel with coding tasks","description":"Code editor with black and dark mode options and change history. A debugger that shows the errors."},{"title":"Code running and testing options","description":"The code is tested with the pre-designed test cases."},{"title":"Gamification festures","description":"Animations showing the code solution, tasks progress bar and more."}]' />
-
-<TitleWithIcon sectionTitle="skills" titleIcon="/images/skills.svg" titleIconAlt="skills" />
+<TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
 **Frontend development:** Next.js, React
 
