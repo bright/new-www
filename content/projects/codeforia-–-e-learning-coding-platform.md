@@ -64,7 +64,9 @@ The client’s goal was to rapidly develop an e-learning platform that would exp
 
 The client enlisted our assistance for frontend development. While we were primarily responsible for implementing the client’s design mockups, our role went beyond execution. We proactively **provided guidance and shared best UX practices, ensuring a polished and user-friendly final product**.
 
-Now Codeforia offers 15 comprehensive Python lessons and over 200 programming tasks designed to engage learners in hands-on coding practice. **What sets Codeforia apart is its automated code testing feature**, which enables users to instantly check and validate their solutions through test cases.
+Now Codeforia offers 15 comprehensive Python lessons and over 200 programming tasks designed to engage learners in hands-on coding practice. The platform includes a **user-friendly code editor** with both light and dark mode options, adhering to common UI standards. It also features a **built-in debugger** and a crucial tool for tracking progress: **code submission history**, ensuring no modifications are ever lost.
+
+What truly sets Codeforia apart is its automated code testing feature, allowing users to instantly check and validate their solutions through pre-designed test cases.
 
 <TitleWithIcon sectionTitle="challenge: engaging students to improve course completion rates" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
 
