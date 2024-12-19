@@ -48,34 +48,34 @@ language: en
 
 technologies: Next.js, React
 
-<TitleWithIcon sectionTitle="about Codeforia" titleIcon="/images/icon_title_about.svg" titleIconAlt="about" />
+<TitleWithIcon sectionTitle="problem: the lack of programming courses in public schools" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
-[Codeforia](https://www.codeforia.com/) is a platform launched by a [programming school](https://www.jacektomasiewicz.pl/) established in 2015. Based on their experience in conducting effective programming courses, they decided to launch a customized web platform to offer a variety of paid online programming courses.
+In today's world, programming skills are as essential as learning a foreign language. Yet, **public education systems struggle to engage young people in programming courses**, leaving a significant skills gap unaddressed. For instance, over [40%](https://op.europa.eu/en/publication-detail/-/publication/59721dc6-a0aa-11ef-85f0-01aa75ed71a1) of eighth-grade students across 22 EU education systems have not attained basic digital skills. Similarly, in the USA, only [60%](https://www.eschoolnews.com/steam/2024/11/26/computer-science-education-more-investment-access-gaps/) of public high schools offer foundational computer science courses.
 
-At Codeforia.com you will find over 200 programming challenges. The platform also enables you to automatically check your code and run it through test cases.
+To address this challenge, our client – an [established programming school](https://www.jacektomasiewicz.pl/) – set out to develop an edtech platform dedicated to programming education. Leveraging their extensive experience in delivering effective programming courses, they decided to launch a customized web platform offering a diverse range of paid online programming courses.
 
 <div className="image">![Codeforia](../../static/images/codeforia_mockup_tasks.png "It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.")</div>
 
 *It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.*
 
-<TitleWithIcon sectionTitle="goal" titleIcon="/images/icon_title_goal.svg" titleIconAlt="goal" />
+<TitleWithIcon sectionTitle="the solution: e-learning coding platform with automated code tests" titleIcon="/images/flag.png" titleIconAlt="the solution" />
 
-Our client’s goal was to quickly build an e-learning platform that would enrich their educational offering and enable them to acquire clients within the education sector such as schools and universities. 
+The client’s goal was to rapidly develop an e-learning platform that would expand their educational offerings and **attract clients from the education sector, including schools and universities**.
 
-Codeforia helps students start their journey to become software developers. It allows course participants to deepen their theoretical knowledge. Each topic is enriched with lists of programming tasks that can be solved directly within the application. Solved tasks are automatically evaluated thanks to automated test cases. This solution enables students to solidify their knowledge at their own pace. Furthermore, the platform allows group supervisors to closely monitor the progress of their students.
+The client enlisted our assistance for frontend development. While we were primarily responsible for implementing the client’s design mockups, our role went beyond execution. We proactively **provided guidance and shared best UX practices, ensuring a polished and user-friendly final product**.
 
-<TitleWithIcon sectionTitle="Codeforia development process" titleIcon="/images/gearwheel.svg" titleIconAlt="Codeforia Development Process" />
+Now Codeforia offers 15 comprehensive Python lessons and over 200 programming tasks designed to engage learners in hands-on coding practice. **What sets Codeforia apart is its automated code testing feature**, which enables users to instantly check and validate their solutions through test cases.
 
-We started the collaboration in the Autumn of 2022 taking care of the frontend development while backend was developed by the client’s internal team. We worked in the Scrum methodology, conducting weekly meetings with the client, as well as sprint demos, retrospectives and planning.
+<TitleWithIcon sectionTitle="challenge: engaging students to improve course completion rates" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
 
-Although we were responsible for the frontend we didn’t just implement the clients' design mockups. We proactively offered our guidance and shared best UX practices to enhance the end result. **On our recommendation, the client implemented various gamification features** including tracking learning progress, information about skills you already mastered and the ones yet to be discovered. **All in a bid to ensure better user engagement and a higher online course completion rate**. 
+One of the key challenges was **building an app that would actively engage students in course participation** while encouraging them to complete new tasks. Based on our recommendation, the client implemented **various gamification features, including progress tracking, insights into mastered skills, and information on skills yet to be acquired**. These enhancements were designed to boost user engagement and increase online course completion rates.
 
-<div className="image">![Mockups edutech](../../static/images/codeforia_mockup_laptop.png "It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.")</div>
+<div className="image">![Mockups edtech](../../static/images/codeforia_mockup_laptop.png "It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.")</div>
 
 *It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.*
 
-<TitleWithIcon sectionTitle="outcome" titleIcon="/images/icon_result_svg.svg" titleIconAlt="outcome" />
+<TitleWithIcon sectionTitle="the results: successful launch of the edtech platform" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
 
-The beta version of the platform was launched in January 2023. We remained in the development cycle during the first crucial months after launch. Finally, the project was fully handed over to the client’s internal team, in April 2023, following on from a successful launch.
+The beta version of the platform was launched in 2023. We have continued to support the development cycle during the critical months post-launch.
 
-We were thrilled to be involved in the development process and launch of the platform. We hope that many young people will discover their passion for programming with Codeforia!
+Today, **Codeforia empowers individuals, organizations, and schools in developing essential digital skills**. We are confident that Codeforia will inspire countless young people to discover their passion for programming!
