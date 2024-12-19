@@ -51,27 +51,6 @@ name[2] = "e"
 console.log(name) // John
 ```
 
-#### Passed by value
-
-Another characteristic of primitive data types is that they are **passed by value**. What does this mean? Let’s examine the snippet below. 
-
-```
-let num = 30;
-let secondNum = num; // 30, copy of a value from "num" variable is made
-
-num = 40;
-
-console.log(num) // 40
-console.log(secondNum) // 30
-
-secondNum = 50;
-
-console.log(num) // 40
-console.log(secondNum) // 50
-```
-
-When assign one variable to another, a **copy of the value** is created. Both variables, even if they appear connected, do not reference each other. The value stored in the “num” variable is copied when assigned to the “secondNum” variable. Consequently, any changes made to “num” or “secondNum” will not affect any other variable.
-
 #### No properties / methods
 
 Moreover, it’s important to note that primitive type values **lack methods (functions) and properties**, which can be puzzling. Attempting to access properties like “length” in the snippet below might seem perplexing. We’ll delve deeper into this concept shortly. However, for now, trust me, this code is absolutely correct:
@@ -119,25 +98,6 @@ const person = {
 person.age = 31
 
 console.log(person.age) // 31
-```
-
-#### Passed by reference
-
-Another crucial aspect of object types is that values assigned to variables as objects are **passed by reference**, not by value (copy) as with primitive data types. This mechanism can be a bit tricky to grasp. When you create a variable that holds an object, you’re actually storing a **reference** to that object, rather than the object itself. Think of this reference as a sticky note containing the coordinates in memory where the object is located. This reference concept doesn’t apply to primitive types.
-
-How does this affect your code? Let’s consider an analogy. Suppose your sister owns a car and lends it to you. Unfortunately, you accidentally scratch it. Now, the car isn’t just yours; it’s also your sister’s, and the scratch affects both of you. You didn’t make a copy of her car. Similarly, when you use a reference to an object and modify it, every variable that references that object will be affected. The object mutates, and all references to it point to the mutated object.
-
-```
-const mySistersCar = {
-  name: "Honda",
-  isBroken: false
-}
-
-const myCar = mySistersCar;
-
-myCar.isBroken = true;
-
-console.log(mySistersCar.isBroken) // true, oops
 ```
 
 ## Boxing
