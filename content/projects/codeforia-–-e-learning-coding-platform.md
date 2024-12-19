@@ -46,7 +46,7 @@ language: en
 
 <Gallery images='[{"src":"/images/nestjs_stack_logo2.svg","alt":"NestJS"},{"src":"/images/react_stack_logo_update.svg","alt":"React"}]' />
 
-**technologies:** Next.js, React
+technologies: Next.js, React
 
 <TitleWithIcon sectionTitle="about Codeforia" titleIcon="/images/icon_title_about.svg" titleIconAlt="about" />
 
