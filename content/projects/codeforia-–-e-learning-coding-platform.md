@@ -21,10 +21,10 @@ social_media_previev_alt: Edtech
 bar_achievements:
   - number: "6"
     label: Months till the launch
-  - number: "1"
-    label: Bright developer on the project
+  - number: "15"
+    label: Coding lessons
   - number: "200"
-    label: Coding tasks on the platform
+    label: tasks on the platform
 tags:
   - web app
   - customized software
