@@ -14,7 +14,7 @@ description: >
   students in developing digital skills. Codeforia, an edtech platform, is
   changing this narrative by inspiring young people to fall in love with
   programming.
-hero_image: /images/case_study_edu_tech.png
+hero_image: /images/case_study_codeforia_main.png
 Hero Image_alt: Edtech
 social_media_previev: /images/fb_preview_edutech.png
 social_media_previev_alt: Edtech
@@ -54,15 +54,15 @@ In today's world, programming skills are as essential as learning a foreign lang
 
 To address this challenge, our client – an [established programming school](https://www.jacektomasiewicz.pl/) – set out to develop an edtech platform dedicated to programming education. Leveraging their extensive experience in delivering effective programming courses, they decided to launch a customized web platform offering a diverse range of paid online programming courses.
 
-<div className="image">![Codeforia](../../static/images/codeforia_mockup_tasks.png "It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.")</div>
-
-*It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.*
-
 <TitleWithIcon sectionTitle="the solution: e-learning coding platform with automated code tests" titleIcon="/images/flag.png" titleIconAlt="the solution" />
 
 The client’s goal was to rapidly develop an e-learning platform that would expand their educational offerings and **attract clients from the education sector, including schools and universities**.
 
 The client enlisted our assistance for frontend development. While we were primarily responsible for implementing the client’s design mockups, our role went beyond execution. We proactively **provided guidance and shared best UX practices, ensuring a polished and user-friendly final product**.
+
+<div className="image">![Codeforia](/images/codeforia_task.png "It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.")</div>
+
+*It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.*
 
 Now Codeforia offers 15 comprehensive Python lessons and over 200 programming tasks designed to engage learners in hands-on coding practice. The platform includes a **user-friendly code editor** with both light and dark mode options, adhering to common UI standards. It also features a **built-in debugger** and a crucial tool for tracking progress: **code submission history**, ensuring no modifications are ever lost.
 
@@ -72,7 +72,7 @@ What truly sets Codeforia apart is its automated code testing feature, allowing 
 
 One of the key challenges was **building an app that would actively engage students in course participation** while encouraging them to complete new tasks. Based on our recommendation, the client implemented **various gamification features, including progress tracking, insights into mastered skills, and information on skills yet to be acquired**. These enhancements were designed to boost user engagement and increase online course completion rates.
 
-<div className="image">![Mockups edtech](../../static/images/codeforia_mockup_laptop.png "It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.")</div>
+<div className="image">![Mockups edtech](/images/codeforia_progress.png "It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.")</div>
 
 *It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.*
 
