@@ -16,7 +16,7 @@ description: >
   programming.
 hero_image: /images/case_study_codeforia_main.png
 Hero Image_alt: Edtech
-social_media_previev: /images/fb_preview_edutech.png
+social_media_previev: /images/fb_preview_edutech_codeforia.png
 social_media_previev_alt: Edtech
 bar_achievements:
   - number: "6"
