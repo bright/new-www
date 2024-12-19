@@ -70,7 +70,7 @@ console.log(num) // 40
 console.log(secondNum) // 50
 ```
 
-When assign one variable to another, a **copy of the value**. Both variables, even if they appear connected, do not reference each other. The value stored in the “num” variable is copied when assigned to the “secondNum” variable. Consequently, any changes made to “num” or “secondNum” will not affect any other variable.
+When assign one variable to another, a **copy of the value** is created. Both variables, even if they appear connected, do not reference each other. The value stored in the “num” variable is copied when assigned to the “secondNum” variable. Consequently, any changes made to “num” or “secondNum” will not affect any other variable.
 
 #### No properties / methods
 
