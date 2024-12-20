@@ -528,6 +528,17 @@ const PrivacyPolicy = () => {
                 <a href='https://policies.google.com/privacy'>Google Privacy Policy</a>. You can control{' '}
                 <a href='https://adssettings.google.com'>Ad personalization</a> settings.
               </p>
+              <p>
+                9. We use Microsoft Ads cookies to monitor the results of the advertisement, including remarketing
+                campaigns. We use only Microsoft tools to conduct these campaigns.
+              </p>
+              <p>
+                For more information about how Microsoft collects and uses your data, visit the{' '}
+                <a href='https://www.microsoft.com/en-us/privacy/privacystatement'>
+                  Microsoft Privacy Statement
+                </a>
+                .
+              </p>
             </div>
           </article>
         </div>
