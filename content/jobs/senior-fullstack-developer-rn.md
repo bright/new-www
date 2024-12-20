@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Senior Fullstack Developer "
-subtitle: OPEN
+subtitle: OPENING SOON
 imagejob: /images/android-team.png
 image-alt-job: Devs Team Bright Inventions
 hours: full-time
