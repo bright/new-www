@@ -86,6 +86,8 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
       sent_to: 'AW-10942749476/AYShCMDh58sDEKS29OEo',
     }).then(() => console.log('Business contact form conversion sent'))
 
+    uet_report_conversion()
+
     trackCustomEvent({
       category: formButton,
       eventName: actionFormButton,
