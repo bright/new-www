@@ -4,8 +4,8 @@ secondAuthor: mateusz
 tags:
   - HealthTech
 date: 2024-04-10T06:27:51.766Z
-meaningfullyUpdatedAt: 2024-04-10T06:27:52.484Z
-title: "Building MVP for FemTech in 2024: Timeline, Stack, Security and More"
+meaningfullyUpdatedAt: 2024-12-19T13:07:21.840Z
+title: "Building MVP for FemTech in 2025: Timeline, Stack, Security and More"
 layout: post
 image: /images/femtech_mvp.png
 hidden: false
