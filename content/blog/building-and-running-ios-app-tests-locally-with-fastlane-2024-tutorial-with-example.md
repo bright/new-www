@@ -7,7 +7,7 @@ tags:
 date: 2024-07-11T12:06:31.279Z
 meaningfullyUpdatedAt: 2024-12-21T07:08:35.299Z
 slug: building-running-ios-app-test-locally-fastlane
-title: Build and Run iOS App Tests Locally with Fastlane - 2024 Tutorial with Example
+title: Build and Run iOS App Tests Locally with Fastlane - 2025 Tutorial with Example
 layout: post
 image: /images/ios_fastlane_cover.png
 hidden: false
@@ -15,7 +15,7 @@ comments: true
 published: true
 language: en
 ---
-**Quick and reliable iOS application delivery is crucial and properly configured CI/CD pipelines can significantly aid in this process. Learn how to start your journey by building your app and running tests locally with Fastlane in 2024. Enjoy the part 1 of the step-by-step iOS CI/CD tutorial. More to come soon!**
+**Quick and reliable iOS application delivery is crucial and properly configured CI/CD pipelines can significantly aid in this process. Learn how to start your journey by building your app and running tests locally with Fastlane in 2025. Enjoy the part 1 of the step-by-step iOS CI/CD tutorial. More to come soon!**
 
 <div className="image">![fastlane + ios](/images/ios_fastlane_in_text_update.png "")</div>
 
