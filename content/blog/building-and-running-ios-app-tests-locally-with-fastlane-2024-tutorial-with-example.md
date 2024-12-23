@@ -5,7 +5,7 @@ tags:
   - Fastlane
   - ci/cd
 date: 2024-07-11T12:06:31.279Z
-meaningfullyUpdatedAt: 2024-07-11T12:06:32.268Z
+meaningfullyUpdatedAt: 2024-12-21T07:08:35.299Z
 slug: building-running-ios-app-test-locally-fastlane
 title: Build and Run iOS App Tests Locally with Fastlane - 2024 Tutorial with Example
 layout: post
