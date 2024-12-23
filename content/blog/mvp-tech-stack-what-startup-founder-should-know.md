@@ -107,7 +107,7 @@ If you opt for hybrid development, then you should decide between **React Native
 
 **Amazon Web Services (AWS) / Microsoft Azure / Google Cloud**
 
-These are the top 3 cloud providers in the cloud market right now. Choose the one that is best known by your development team or the MVP agency plan to hire. That’s probably going to be AWS because it is the most popular provider based on the StackOverflow Survey. [Over 50% of professional developers use AWS](https://survey.stackoverflow.co/2023/?utm_source=so-owned&utm_medium=blog&utm_campaign=dev-survey-results-2023&utm_content=survey-results#section-most-popular-technologies-cloud-platforms).
+These are the top 3 cloud providers in the cloud market right now. Choose the one that is best known by your development team or the MVP agency plan to hire. That’s probably going to be AWS because it is the most popular provider based on the StackOverflow Survey. [Nearly 50% of professional developers use AWS](https://survey.stackoverflow.co/2024/technology#worked-with-vs-want-to-work-with-webframe-worked-want-prof).
 
 **Node.js, NestJS**
 
