@@ -6,9 +6,9 @@ tags:
   - github actions
   - fastlane
 date: 2024-07-18T11:14:12.143Z
-meaningfullyUpdatedAt: 2024-07-18T11:14:12.960Z
+meaningfullyUpdatedAt: 2024-12-23T07:12:06.059Z
 slug: ios-build-run-tests-github-actions
-title: Build and Run iOS App Tests with GitHub Actions – 2024 Tutorial with Example
+title: Build and Run iOS App Tests with GitHub Actions – 2025 Tutorial with Example
 layout: post
 image: /images/background.jpg
 hidden: false
