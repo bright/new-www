@@ -92,7 +92,7 @@ We took into account many factors influencing decision-making. Now it’s time t
 
 Nowadays, JavaScript is your first-to-go language. If your development team or agency uses **TypeScript**, that’s even better because it optimizes the coding process. However, JS and TS will be nothing without the framework.
 
-There are a few frameworks to consider: **React, Angular, or Vue.js**. In our opinion, React is the number one option. According to the StackOverflow 2023 Survey React is the most popular framework by professional developers. [Over 40% of professional developers use React at work](https://survey.stackoverflow.co/2023).
+There are several frameworks to consider: **React, Node.js, Angular** and more. **React has traditionally been a primary choice** for professional developers and remains a favorite. However, **Node.js has gained significant ground in 2024**. According to the [Stack Overflow 2024 Survey](https://survey.stackoverflow.co/2024/technology#most-popular-technologies-webframe-prof), almost 42% of developers have recently worked with React, while nearly 41% have worked with Node.js, narrowing the gap considerably.
 
 ### Mobile development stack for MVP
 
