@@ -3,10 +3,10 @@ author: arturs
 tags:
   - ios
 date: 2024-08-13T10:53:56.037Z
-meaningfullyUpdatedAt: 2024-08-13T10:53:56.051Z
+meaningfullyUpdatedAt: 2024-12-22T07:11:08.851Z
 slug: ios-testflight-github-actions-fastlane-match
 title: Upload iOS App to TestFlight with GitHub Actions and Fastlane Match –
-  2024 Tutorial with Example
+  2025 Tutorial with Example
 layout: post
 image: /images/github-testflight.jpg
 hidden: false
