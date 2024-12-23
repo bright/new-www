@@ -5,7 +5,7 @@ tags:
   - startup
   - MVP
 date: 2023-09-19T09:24:53.652Z
-meaningfullyUpdatedAt: 2024-01-03T08:43:17.586Z
+meaningfullyUpdatedAt: 2024-12-16T10:33:21.356Z
 title: Choosing MVP Tech Stack in 2025. What Startup Founder & CTO Should Know
 layout: post
 image: /images/blog_mvp_tech_stack_cover.png
