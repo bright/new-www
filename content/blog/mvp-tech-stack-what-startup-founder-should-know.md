@@ -6,7 +6,7 @@ tags:
   - MVP
 date: 2023-09-19T09:24:53.652Z
 meaningfullyUpdatedAt: 2024-01-03T08:43:17.586Z
-title: Choosing MVP Tech Stack in 2024. What Startup Founder & CTO Should Know
+title: Choosing MVP Tech Stack in 2025. What Startup Founder & CTO Should Know
 layout: post
 image: /images/blog_mvp_tech_stack_cover.png
 hidden: false
@@ -14,7 +14,7 @@ comments: true
 published: true
 language: en
 ---
-**Selecting a tech stack for your MVP should be a well-thought-out process. Every software product is different, so there isn’t one MVP stack cheat sheet for all of them. Let’s go through the most common decision-making factors while choosing technologies and languages for your digital product. Ultimately, check out the list of a typical tech stack for MVP in 2024.**
+**Selecting a tech stack for your MVP should be a well-thought-out process. Every software product is different, so there isn’t one MVP stack cheat sheet for all of them. Let’s go through the most common decision-making factors while choosing technologies and languages for your digital product. Ultimately, check out the list of a typical tech stack for MVP in 2025.**
 
 <EbookDynamic sectionTitle='More free MVP insights just for you' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Download our free ebook about MVP development. Get your copy now!' ebookImage='/images/mvp_ebook_cover.png' ebookAlt='MVP ebook cover' />
 
@@ -30,7 +30,7 @@ language: en
 
 [Last but not least – mobile or Progressive Web App (PWA)?](/blog/mvp-tech-stack-what-startup-founder-should-know/#last-but-not-least--mobile-or-progressive-web-app-pwa)
 
-[MVP development stack 2024](/blog/mvp-tech-stack-what-startup-founder-should-know/#mvp-development-stack-2023)
+[MVP development stack 2025](/blog/mvp-tech-stack-what-startup-founder-should-know/#mvp-development-stack-2025)
 
 [Choose MVP stack wisely – book a free consultation](/blog/mvp-tech-stack-what-startup-founder-should-know/#choose-mvp-stack-wisely)
 
@@ -56,7 +56,7 @@ You should **take developers' voices into account**. They will be working with t
 
 When you build an MVP from scratch, there is a **huge temptation to use new trendy solutions**. For example, Apple’s SwiftUI. It is a framework that simplifies work for iOS developers. Yet it cannot be used in every situation as [explains Tomek Lizer](/blog/falling-in-love-with-programming-again-tomek-ios-developer/#if-you-had-to-start-an-ios-project-from-scratch-with-no-technological-debt-what-tools-would-you-use), a Senior iOS Developer at Bright Inventions:
 
-<blockquote><div>If it is a solution for a large group of users with a spectrum of Apple devices, then you can’t choose only Swift UI. No matter how trendy it is right now. Yet if the product targets a smaller group of tech-savvy users I would base it on Swift UI. Having in mind that it is still a young technology, you cannot cross off good old UIKit completely.</div><footer>Tomasz Lizer, Senior iOS Developer</footer></blockquote>
+<blockquote><h2></h2><div>If it is a solution for a large group of users with a spectrum of Apple devices, then you can’t choose only Swift UI. No matter how trendy it is right now. Yet if the product targets a smaller group of tech-savvy users I would base it on Swift UI. Having in mind that it is still a young technology, you cannot cross off good old UIKit completely.</div><footer>Tomasz Lizer, Senior iOS Developer</footer></blockquote>
 
 So remember to adjust trendy tools to your product and target group.
 
@@ -80,11 +80,11 @@ Maybe you don’t need to start with a mobile app. **There is a chance that at t
 
 Although **some features will be limited compared to mobile apps** (e.g. Bluetooth, less accurate GSP, and no running in the background), PWA might be an option to consider. Especially for startup founders who want to build a simple solution accessible on many devices to quickly verify the idea’s potential.
 
-## MVP development stack 2024
+## MVP development stack 2025
 
-We took into account many factors influencing decision-making. Now it’s time to list the most typical MVP stack in 2024.
+We took into account many factors influencing decision-making. Now it’s time to list the most typical MVP stack in 2025.
 
-<div className="image">![MVP tech stack in 2024](../../static/images/blog_post_tech_stack_mvp.png "MVP tech stack in 2024")</div>
+<div className="image">![MVP tech stack in 2025](../../static/images/blog_post_tech_stack_mvp.png "MVP tech stack in 2025")</div>
 
 ### Web Development Stack for your MVP
 
