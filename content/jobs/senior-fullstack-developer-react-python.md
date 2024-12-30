@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Senior Fullstack Developer (React + Python)
-subtitle: CLOSED
+subtitle: OPENING SOON
 imagejob: /images/fullstack-team-job-offer-4-copy-2.png
 image-alt-job: Fullstack Team Bright Inventions
 hours: full-time
@@ -36,7 +36,7 @@ image_recruiter_info: /images/agata_recruiter.png
 image_alt_recruiter_info: Agata Dankowska - A Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our bright team
-published: false
+published: true
 show_recruiter_info: true
 order: 1
 recruting_image2_title: interview (technical part & non-technical part)
@@ -52,10 +52,6 @@ We place a strong emphasis on accountability, and we value team members **who ta
 ## about the role 🧑🏻‍💻🧑🏻‍💻
 
 We are seeking an experienced Fullstack Developer to join our bright team. The candidate will have **a strong understanding of both frontend and backend development**, along with the ability to work on a variety of projects, ranging from web applications to database design. 
-
-A new person will join the application for managing and analyzing data from biological processes (such as experiments in bioreactors, etc.). The challenges we face in the project are: working with large amounts of data, data visualization, and improving the data analysis process.
-
-While the primary focus of this role will be on frontend development, occasional backend tasks in Python may also arise. We value candidates with prior experience in Python.
 
 ## what you will do 🤝
 
