@@ -1,11 +1,11 @@
 ---
 layout: job
 title: Senior Fullstack Developer (React + Python)
-subtitle: OPEN
+subtitle: CLOSED
 imagejob: /images/fullstack-team-job-offer-4-copy-2.png
 image-alt-job: Fullstack Team Bright Inventions
 hours: full-time
-salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
+salary: 135 - 190 PLN/hour + VAT (B2B) or 16 600 - 23 240 PLN gross (UoP)
 salary_min: ""
 salary_max: ""
 working time: full time
@@ -55,6 +55,8 @@ We are seeking an experienced Fullstack Developer to join our bright team. The c
 
 A new person will join the application for managing and analyzing data from biological processes (such as experiments in bioreactors, etc.). The challenges we face in the project are: working with large amounts of data, data visualization, and improving the data analysis process.
 
+While the primary focus of this role will be on frontend development, occasional backend tasks in Python may also arise. We value candidates with prior experience in Python.
+
 ## what you will do 🤝
 
 * collaborate with the product manager/owner to understand project requirements and translate them into technical specifications
@@ -66,17 +68,16 @@ A new person will join the application for managing and analyzing data from biol
 
 ## what we would like to see ✅
 
-* at least 4 years of commercial programming experience as a fullstack developer or similar role 
-* solid understanding of **Python**
+* at least 4 years of commercial programming experience as a developer 
+* experience with TypeScript/JavaScript 
 * deep working experience with **React,** Material UI + X Data Grid
-* knowledge of TanStack/React-Query and ECharts
-* a solution-oriented mindset 
+* prior experience in **Python**
+* knowledge of TanStack/React-Query and EChartsa solution-oriented mindset 
 * positive approach and flexibility to work on new challenges  
 * advanced level of English (written and spoken)
 
 ## we would also appreciate if you have 🙌
 
-* experience with TypeScript/JavaScript 
 * familiarity with cloud platforms and deployment processes
 * experience with working on startup projects 
 
