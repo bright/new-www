@@ -35,7 +35,7 @@ title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
 workplace_recruiter: Recruiting Specialist
 image_recruiter_info: /images/agata_recruiter.png
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
-published: true
+published: false
 show_recruiter_info: true
 hidden: false
 name_recruiter: Agata
