@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Senior Fullstack Developer "
-subtitle: OPENING SOON
+subtitle: OPEN
 imagejob: /images/android-team.png
 image-alt-job: Devs Team Bright Inventions
 hours: full-time
@@ -33,8 +33,8 @@ image_alt_recruiter_info: Sara Łęcka - Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/saralecka/
 button: "join our Bright team "
 published: true
-show_recruiter_info: false
-order: 5
+show_recruiter_info: true
+order: 1
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
