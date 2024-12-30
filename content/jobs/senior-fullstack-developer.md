@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Senior Fullstack Developer (React Native)
-subtitle: OPEN
+subtitle: CLOSED
 imagejob: /images/fullstack-team-job-offer-4-copy-2.png
 image-alt-job: Fullstack Team Bright Inventions
 hours: full-time
