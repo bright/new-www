@@ -10,7 +10,9 @@ salary_min: 122
 salary_max: 19090
 working time: full time
 technology:
-  - Android
+  - Jira
+  - Confluence
+  - Agile/Kanban
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
