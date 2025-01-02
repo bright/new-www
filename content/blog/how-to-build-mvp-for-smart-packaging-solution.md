@@ -7,7 +7,7 @@ tags:
   - startup
 date: 2023-05-09T10:33:41.568Z
 meaningfullyUpdatedAt: 2024-01-04T07:24:16.834Z
-title: How to Build MVP for Smart Packaging Solution in 2024
+title: How to Build MVP for Smart Packaging Solution in 2025
 layout: post
 image: /images/smart_packaging_blog_cover.png
 hidden: false
@@ -191,9 +191,9 @@ This technology uses the camera on a smartphone or tablet to overlay digital inf
 
 This technology involves printing electronic components onto packaging materials, allowing for more advanced features such as temperature monitoring and product authentication.
 
-## What stack to use for smart packaging solution in 2024?
+## What stack to use for smart packaging solution in 2025?
 
-Based on our experience in developing software since 2012 we listed the stack your software team should work with in 2024. 
+Based on our experience in developing software since 2012 we listed the stack your software team should work with in 2025. 
 
 ### Web development:
 
