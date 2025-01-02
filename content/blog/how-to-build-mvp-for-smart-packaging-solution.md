@@ -6,7 +6,7 @@ tags:
   - development
   - startup
 date: 2023-05-09T10:33:41.568Z
-meaningfullyUpdatedAt: 2024-01-04T07:24:16.834Z
+meaningfullyUpdatedAt: 2025-01-02T08:49:19.163Z
 title: How to Build MVP for Smart Packaging Solution in 2025
 layout: post
 image: /images/smart_packaging_blog_cover.png
@@ -37,7 +37,7 @@ language: en
 
 [Examples of technologies to implement in a smart packaging product](/blog/how-to-build-mvp-for-smart-packaging-solution/#examples-of-technologies-to-implement-in-a-smart-packaging-product)
 
-[What stack to use for smart packaging solution in 2024?](/blog/how-to-build-mvp-for-smart-packaging-solution/#what-stack-to-use-for-smart-packaging-solution-in-2023)
+[What stack to use for smart packaging solution in 2025?](/blog/how-to-build-mvp-for-smart-packaging-solution/#what-stack-to-use-for-smart-packaging-solution-in-2025)
 
 - - -
 
