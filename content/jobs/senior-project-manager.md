@@ -2,7 +2,7 @@
 layout: job
 title: Senior Project Manager
 subtitle: OPEN
-imagejob: /images/join_bright_team-5-.png
+imagejob: /images/fullstack-team-job-offer-4-.png
 image-alt-job: job for Project Manager
 hours: full-time
 salary: 122 - 156 PLN/hour + VAT (B2B) or 14 950 - 19 090 PLN gross (UoP)
@@ -65,7 +65,7 @@ We are looking for an experienced project manager who is not afraid of solving b
 * solid knowledge of managing budgets, timelines, and resources effectively while continuously improving processes
 * **strong written and verbal communication both in English and Polish**, with the ability to simplify complex ideas for diverse audiences
 * proactive problem-solving attitude with the ability to deliver practical, scalable solutions with a keen eye on the bigger picture
-* practical knowledge of agile methodologies and everyday PM’s tools such as Jira/Confluene
+* practical knowledge of agile methodologies and everyday PM’s tools such as Jira/Confluence
 
 ## **what you will find at Bright Inventions**  **🧡**
 
