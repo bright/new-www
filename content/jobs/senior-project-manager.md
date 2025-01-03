@@ -59,7 +59,7 @@ We are looking for an experienced project manager who is not afraid of solving b
 ## **preferred skills and qualifications**
 
 * **at least 5-7 years of experience managing software development projects**, ideally in a fast-paced, dynamic environment
-* **a degree in Computer Science or a related field with a specialization in project management** and a deep understanding of software development processes (e.g., Agile, Waterfall, or hybrid models)
+* **a degree in Computer Science (preferably field with a specialization in project management_** and a deep understanding of software development processes (e.g., Agile, Waterfall, or hybrid models)
 * proven track record in leading multiple teams and successfully managing complex projects with competing priorities
 * strong client focus with the ability to guide discussions, navigate challenges, and provide high-level strategic advice
 * solid knowledge of managing budgets, timelines, and resources effectively while continuously improving processes
@@ -71,7 +71,7 @@ We are looking for an experienced project manager who is not afraid of solving b
 
 * continuous feedback culture 
 * mentoring programme and regular 1:1 meetings
-* flexible working hours and hybrid work possibility
+* flexible working hours 
 * MultiSport card and private medical package (Compensa) 
 * training budget and company library  
 * extra time once a month for non-project development  
