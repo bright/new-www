@@ -1,6 +1,5 @@
 ---
 author: izabela
-secondAuthor: blazej-d
 tags:
   - HealthTech
   - business
