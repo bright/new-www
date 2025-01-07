@@ -77,9 +77,9 @@ With artificial intelligence in point of sale software, restaurants can **track 
 
 ## Personalized coupon marketing based on POS system data
 
-By leveraging POS data linked to loyalty programs, businesses can offer truly customized receipts. These programs, which often connect a customer’s shopping history to their phone number or account, allow for personalized offers tailored to the customer’s preferences. For example, using POS data analytics, you can present targeted discounts on items a customer is likely to purchase at the optimal time.
+By leveraging POS data linked to loyalty programs, **businesses can offer truly customized receipts**. These programs, which often connect a customer’s shopping history to their phone number or account, allow for personalized offers tailored to the customer’s preferences. For example, **using POS data analytics, you can present targeted discounts on items a customer is likely to purchase at the optimal time**.
 
-The key lies in delivering the right message at the right time. Similarly, loyalty apps can go beyond offering general discounts to present personalized deals that resonate with individual shoppers, thereby enhancing engagement and driving repeat purchases.
+The key lies in delivering the right message at the right time. Similarly, **loyalty apps can go beyond offering general discounts** to present personalized deals that resonate with individual shoppers, thereby enhancing engagement and driving repeat purchases.
 
 ## Scan & go with your device
 
