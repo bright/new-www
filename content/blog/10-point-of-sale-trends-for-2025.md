@@ -49,9 +49,9 @@ Get inspired by the global POS system that implemented the [Kitchen Display Syst
 
 ## POS Hardware decluttering of restaurant, retail, and hotel counters
 
-The fact that modern point-of-sale software is connected to many devices is both a benefit and a challenge. For example, taking care of multiple devices provided by different food delivery parties brings more responsibility to already busy waitstaff.
+The fact that modern point-of-sale software is connected to many devices is both a benefit and a challenge. For example, **taking care of multiple devices provided by different food delivery parties brings more responsibility to already busy waitstaff**.
 
-Building a custom point of sale allows all orders, whether from in-house dining, phone orders, delivery apps, or a white-label application, to be transferred into a single POS system. This means waitstaff can view and manage all orders on one device, aligning with the growing trend in POS implementation aimed at eliminating the unnecessary POS devices often provided by third-party systems such as Just Eat, Uber Eats or Deliveroo.
+Building a custom point of sale allows all orders, whether from in-house dining, phone orders, delivery apps, or a white-label application, to be transferred into a single POS system. This means **waitstaff can view and manage all orders on one device**, aligning with the growing trend in POS implementation aimed at eliminating the unnecessary POS devices often provided by third-party systems such as Just Eat, Uber Eats or Deliveroo.
 
 Check the example of [POS and food delivery apps integration](/projects/pos-third-party-delivery/) which helped eliminate device declutter in restaurants.
 
