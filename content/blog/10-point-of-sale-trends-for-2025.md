@@ -95,10 +95,12 @@ Take [MishiPay](https://mishipay.com/) as an example – a company that might ch
 
 While on-premise systems continue to dominate the restaurant POS market, cloud-based systems are the fastest-growing segment, with a projected compound annual growth rate (CAGR) of [9.2% through 2030](https://www.b2breviews.com/pos-statistics/). The global cloud POS market is expected to exceed $30 billion by 2031, reflecting nearly 25% growth since 2022.
 
-For POS vendors yet to offer cloud functionality, migrating to the cloud should be a top priority in 2025.
+For POS vendors yet to offer cloud functionality, **migrating to the cloud should be a top priority in 2025**.
 
 Get inspired by a revamping story of a 30-year old [legacy restaurant POS](/projects/pos-legacy/).
 
 ## Which POS technology trends will change the restaurant industry, hospitality and retail?
 
-2025 is expected to provide some clarity about the POS industry. Will cloud-based POS systems dominate the majority of the market? These systems offer unparalleled flexibility, allowing businesses to adapt quickly to changing market demands and customer expectations. Will mobile payment systems become even faster and more user-friendly, incorporating features like self-bill-splitting? We can't wait to see all of these POS software trends in action!
+2025 is expected to provide some clarity about the POS industry. Will cloud-based POS systems dominate the majority of the market? These systems offer unparalleled flexibility, allowing businesses to adapt quickly to changing market demands and customer expectations. 
+
+Will mobile payment systems become even faster and more user-friendly, incorporating features like self-bill-splitting? **We can't wait to see all of these POS software trends in action**!
