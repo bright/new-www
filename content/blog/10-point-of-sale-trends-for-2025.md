@@ -21,9 +21,9 @@ language: en
 
 QR codes became popular in restaurants during the pandemic, initially serving primarily to present menus in a digital format. Years have come by and in 2024 many [restaurants still mostly use it to display the menu](https://www.uniqode.com/blog/qr-code-insights/restaurant-qr-code-usage-study). 
 
-Looking ahead, 2025 might mark a significant shift as the hospitality industry begins to explore the broader potential of QR codes. One notable application is self-ordering. Customers can scan a QR code with their mobile device, leading them to a mobile-friendly website where they can place orders.
+Looking ahead, 2025 might mark a significant shift as the **hospitality industry begins to** **explore the broader potential of QR codes**. One notable application is **self-ordering**. Customers can scan a QR code with their mobile device, leading them to a mobile-friendly website where they can place orders.
 
-However, QR codes shouldn’t completely replace staff interaction. Customers still value a personalized touch and may expect to discuss their orders with waitstaff rather than being greeted solely by a QR code on the table.
+However, **QR codes shouldn’t completely replace staff interaction**. Customers still value a personalized touch and may expect to discuss their orders with waitstaff rather than being greeted solely by a QR code on the table.
 
 A [survey by investment bank William Blair](https://digitalcxo.com/article/consumers-tired-of-ordering-food-with-qr-codes/) highlights mixed opinions on QR code ordering. Over half of respondents indicated they enjoy using QR codes for ordering and payment at dining establishments:
 
@@ -35,9 +35,9 @@ Older users, in particular, are less receptive to the technology. The survey fou
 
 It's been a POS trend growing up for years, widely seen also in 2024. Yet there is still a potential for bill split to grow. And we're not talking about separate mobile app enabling diners to share the bill, POS solution vendors should incorporate this option into their POS system.
 
-Therefore, in addition to QR code ordering, restaurants can offer customers the ability to split their bills independently. For instance, customers can scan a dedicated QR code to access their bill and divide costs among themselves. The split information is then sent directly to the POS system, enabling waitstaff to finalize mobile payment without manual calculations.
+Therefore, in addition to QR code ordering, **restaurants can offer customers the ability to split their bills independently**. For instance, customers can scan a dedicated QR code to access their bill and divide costs among themselves. The split information is then sent directly to the POS system, enabling waitstaff to finalize mobile payment without manual calculations.
 
-This feature (and one of the key sales trends) simplifies bill splitting, significantly reducing the workload on already busy staff. Customers have full control over how they want to divide the bill, while the POS system handles the calculations, ensuring accurate amounts. The waitstaff’s role is streamlined to simply collecting the split payments.
+This feature (and one of the key sales trends) simplifies bill splitting, significantly reducing the workload on already busy staff. Customers have full control over how they want to divide the bill, while the POS system handles the calculations, ensuring accurate amounts. **The waitstaff’s role is streamlined to simply collecting the split payments**.
 
 ## Changing waitstaff and kitchen communication with the POS Kitchen Display System
 
