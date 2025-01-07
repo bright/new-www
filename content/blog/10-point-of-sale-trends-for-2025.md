@@ -28,17 +28,17 @@ language: en
 
 [POS Hardware decluttering of restaurant, retail, and hotel counters](blog/point-of-sale-trends/#pos-hardware-decluttering-of-restaurant-retail-and-hotel-counters)
 
-Managing devices integrated with POS using MDM (Mobile Device Management)
+[Managing devices integrated with POS using MDM (Mobile Device Management)](/blog/point-of-sale-trends/#managing-devices-integrated-with-pos-using-mdm-mobile-device-management)
 
-Adding work management features to the POS system
+[Adding work management features to the POS system](/blog/point-of-sale-trends/#adding-work-management-features-to-the-pos-system)
 
-AI-powered POS: Using AI for analytics and inventory
+[AI-powered POS: Using AI for analytics and inventory](/blog/point-of-sale-trends/#ai-powered-pos-using-ai-for-analytics-and-inventory)
 
-Personalized coupon marketing based on POS system data
+[Personalized coupon marketing based on POS system data](/blog/point-of-sale-trends/#personalized-coupon-marketing-based-on-pos-system-data)
 
-Scan & go with your device
+[Scan & go with your device](/blog/point-of-sale-trends/#scan--go-with-your-device)
 
-The continuous rise of cloud-based Point of Sale systems
+[The continuous rise of cloud-based Point of Sale systems](blog/point-of-sale-trends/#the-continuous-rise-of-cloud-based-point-of-sale-systems)
 
 ## The continuous rise of QR code ordering as a response to restaurant staff shortages
 
