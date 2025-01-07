@@ -84,3 +84,11 @@ The trend continues to evolve, with self-checkout systems becoming increasingly 
 Take [MishiPay](https://mishipay.com/) as an example – a company that might change the retail industry by developing self-checkout solutions that are accessible directly on users' mobile devices.
 
 <YouTubeEmbed url='https://www.youtube.com/shorts/cRLhlt3GlKI' />
+
+## The continuous rise of cloud-based Point of Sale systems
+
+While on-premise systems continue to dominate the restaurant POS market, cloud-based systems are the fastest-growing segment, with a projected compound annual growth rate (CAGR) of 9.2% through 2030. The global cloud POS market is expected to exceed $30 billion by 2031, reflecting nearly 25% growth since 2022.
+
+For POS vendors yet to offer cloud functionality, migrating to the cloud should be a top priority in 2025.
+
+Get inspired by a revamping story of a 30-year old [legacy restaurant POS](/projects/pos-legacy/).
