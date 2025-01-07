@@ -62,3 +62,7 @@ Even if all food delivery orders are synced to a single device (especially in mo
 2025 should be the year to simplify device management and therefore streamline business operations. One solution is for POS vendors to develop custom MDM platforms. These allow managers to ensure mobile POS devices are running the latest software, maintain secure connections, and even block unauthorized websites. MDM protects devices from threats, streamlines updates and configurations, and ensures devices are used strictly for their intended purposes, making business operations more efficient and secure for small businesses and enterprises.
 
 ## Adding work management features to the POS system
+
+While it might seem like a simple to-do list, this tool is designed to help manage the busy tasks of waitstaff more effectively. Modern POS systems should empower managers to create and assign critical tasks to specific employees. For example, scheduling routine duties like cleaning fridge number 2 every Monday, ordering new packaging every Friday, or simple daily checks such as ensuring the bathrooms are clean every hour. These tasks should be visible on waitstaff mobile devices, allowing them to quickly mark tasks as completed. This keeps managers informed about progress in real-time.
+
+## AI-powered POS: Using AI for analytics and inventory
