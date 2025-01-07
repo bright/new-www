@@ -69,6 +69,8 @@ While it might seem like a simple to-do list, this tool is designed to help mana
 
 For example, scheduling routine duties like cleaning fridge number 2 every Monday, ordering new packaging every Friday, or simple daily checks such as ensuring the bathrooms are clean every hour. **These tasks should be visible on waitstaff mobile devices**, allowing them to quickly mark tasks as completed. This keeps managers informed about progress in real-time.
 
+<div className="image">![restaurant mobile devices](/images/restaurant_phone.jpg "restaurant mobile devices")</div>
+
 ## AI-powered POS: Using AI for analytics and inventory
 
 With artificial intelligence in point of sale software, restaurants can track customer preferences, predict demand, and optimize stock levels to reduce waste. AI-powered analytics allow businesses to make data-driven decisions about menu offerings, pricing, loyalty programs, and staffing, improving overall efficiency and customer experience. In inventory management, AI-driven POS systems help monitor stock in real-time, quickly informing about the need for ingredients reorder.
