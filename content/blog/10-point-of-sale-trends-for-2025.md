@@ -93,7 +93,7 @@ Take [MishiPay](https://mishipay.com/) as an example – a company that might ch
 
 ## The continuous rise of cloud-based Point of Sale systems
 
-While on-premise systems continue to dominate the restaurant POS market, cloud-based systems are the fastest-growing segment, with a projected compound annual growth rate (CAGR) of 9.2% through 2030. The global cloud POS market is expected to exceed $30 billion by 2031, reflecting nearly 25% growth since 2022.
+While on-premise systems continue to dominate the restaurant POS market, cloud-based systems are the fastest-growing segment, with a projected compound annual growth rate (CAGR) of [9.2% through 2030](https://www.b2breviews.com/pos-statistics/). The global cloud POS market is expected to exceed $30 billion by 2031, reflecting nearly 25% growth since 2022.
 
 For POS vendors yet to offer cloud functionality, migrating to the cloud should be a top priority in 2025.
 
