@@ -57,6 +57,8 @@ Check the example of [POS and food delivery apps integration](/projects/pos-thir
 
 ## Managing devices integrated with POS using MDM (Mobile Device Management)
 
-Even if all food delivery orders are synced to a single device, businesses still face the challenge of managing multiple hardware components, from tablets, terminals and printers to kiosks and even electronic scales in some cases.
+Even if all food delivery orders are synced to a single device (especially in mobile POS systems), businesses still face the challenge of managing multiple hardware components, from tablets, terminals and printers to kiosks and even electronic scales in some cases.
 
-2025 should be the year to simplify device management. One solution is for POS vendors to develop custom MDM platforms. These allow managers to ensure devices are running the latest software, maintain secure connections, and even block unauthorized websites. MDM protects devices from threats, streamlines updates and configurations, and ensures devices are used strictly for their intended purposes, making operations more efficient and secure.
+2025 should be the year to simplify device management and therefore streamline business operations. One solution is for POS vendors to develop custom MDM platforms. These allow managers to ensure mobile POS devices are running the latest software, maintain secure connections, and even block unauthorized websites. MDM protects devices from threats, streamlines updates and configurations, and ensures devices are used strictly for their intended purposes, making business operations more efficient and secure for small businesses and enterprises.
+
+## Adding work management features to the POS system
