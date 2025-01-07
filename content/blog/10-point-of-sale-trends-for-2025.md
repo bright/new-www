@@ -32,3 +32,17 @@ A [survey by investment bank William Blair](https://digitalcxo.com/article/consu
 Older users, in particular, are less receptive to the technology. The survey found that 65% of individuals over the age of 60 reported discomfort with QR codes.
 
 ## Bill splitting in clients' hands during payment
+
+It's been a POS trend growing up for years, widely seen also in 2024. Yet there is still a potential for bill split to grow. And we're not talking about separate mobile app enabling diners to share the bill, POS solution vendors should incorporate this option into their POS system.
+
+Therefore, in addition to QR code ordering, restaurants can offer customers the ability to split their bills independently. For instance, customers can scan a dedicated QR code to access their bill and divide costs among themselves. The split information is then sent directly to the POS system, enabling waitstaff to finalize mobile payment without manual calculations.
+
+This feature (and one of the key sales trends) simplifies bill splitting, significantly reducing the workload on already busy staff. Customers have full control over how they want to divide the bill, while the POS system handles the calculations, ensuring accurate amounts. The waitstaff’s role is streamlined to simply collecting the split payments.
+
+## Changing waitstaff and kitchen communication with the POS Kitchen Display System
+
+Imagine a POS software centered around a screen in the kitchen that instantly displays a new order as soon as it's processed by the waitstaff, accompanied by a clear sound signal to notify busy kitchen staff. With just a swipe, kitchen staff can adjust the order or update its status, for example, from "In Preparation" to "Ready to Serve." This is the technology that should be a part of any advanced POS.
+
+Although this technology isn't new, many restaurants still rely on a traditional POS with printed kitchen receipts. KDS doesn't have to fully replace these receipts; in fact, they can still be invaluable in certain situations. For example, when the kitchen prepares multiple similar orders for different tables, printed kitchen receipts can still accompany the dishes, helping waitstaff quickly identify and deliver the correct meals.
+
+Get inspired by the global POS system that implemented the [Kitchen Display System](/projects/kitchen-display-system/) as one of its features.
