@@ -1,5 +1,6 @@
 ---
-author: izabela
+author: szymon-g
+secondAuthor: izabela
 tags:
   - business
 date: 2025-01-07T07:59:10.813Z
