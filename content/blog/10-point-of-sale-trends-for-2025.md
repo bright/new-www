@@ -2,8 +2,8 @@
 author: izabela
 tags:
   - business
-date: 2025-01-07T07:27:56.269Z
-meaningfullyUpdatedAt: 2025-01-07T07:27:56.304Z
+date: 2025-01-07T07:59:10.813Z
+meaningfullyUpdatedAt: 2025-01-07T07:59:11.470Z
 slug: point-of-sale-trends
 title: 10 Point-of-Sale Trends for 2025
 layout: post
