@@ -81,4 +81,6 @@ Self-checkout kiosks have been one of the latest POS trends, growing for several
 
 The trend continues to evolve, with self-checkout systems becoming increasingly independent. The latest innovation might even remove the need for dedicated self-checkout kiosks in stores or restaurants. Instead, customers can now use their own mobile devices to scan items and complete payments directly.
 
-Take MishiPay as an example – a company that might change the retail industry by developing self-checkout solutions that are accessible directly on users' mobile devices.
+Take [MishiPay](https://mishipay.com/) as an example – a company that might change the retail industry by developing self-checkout solutions that are accessible directly on users' mobile devices.
+
+<YouTubeEmbed url='https://www.youtube.com/shorts/cRLhlt3GlKI' />
