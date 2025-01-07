@@ -83,11 +83,11 @@ The key lies in delivering the right message at the right time. Similarly, **loy
 
 ## Scan & go with your device
 
-Self-checkout kiosks have been one of the latest POS trends, growing for several years. According to [RBR Data Services](https://datos-insights.com/press-release/global-demand-for-self-ordering-kiosks-continues-to-soar/), nearly 700,000 kiosks are expected to be installed worldwide by 2028. McDonald's alone has already deployed more than 130,000 units.
+Self-checkout kiosks have been one of the latest POS trends, growing for several years. According to [RBR Data Services](https://datos-insights.com/press-release/global-demand-for-self-ordering-kiosks-continues-to-soar/), **nearly 700,000 kiosks are expected to be installed worldwide by 2028**. McDonald's alone has already deployed more than 130,000 units.
 
-The trend continues to evolve, with self-checkout systems becoming increasingly independent. The latest innovation might even remove the need for dedicated self-checkout kiosks in stores or restaurants. Instead, customers can now use their own mobile devices to scan items and complete payments directly.
+The trend continues to evolve, with **self-checkout systems becoming increasingly independent**. The latest innovation might even remove the need for dedicated self-checkout kiosks in stores or restaurants. Instead, customers can now use their own mobile devices to scan items and complete payments directly.
 
-Take [MishiPay](https://mishipay.com/) as an example – a company that might change the retail industry by developing self-checkout solutions that are accessible directly on users' mobile devices.
+Take [MishiPay](https://mishipay.com/) as an example – a company that might change the retail industry by developing **self-checkout solutions that are accessible directly on users' mobile devices**.
 
 <YouTubeEmbed url='https://www.youtube.com/shorts/cRLhlt3GlKI' />
 
