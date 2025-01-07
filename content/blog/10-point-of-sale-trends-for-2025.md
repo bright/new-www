@@ -24,9 +24,9 @@ language: en
 
 [Bill splitting in clients' hands during payment](/blog/point-of-sale-trends/#bill-splitting-in-clients-hands-during-payment)
 
-[Changing waitstaff and kitchen communication with the POS Kitchen Display System](blog/point-of-sale-trends/#changing-waitstaff-and-kitchen-communication-with-the-pos-kitchen-display-system)
+[Changing waitstaff and kitchen communication with the POS Kitchen Display System](/blog/point-of-sale-trends/#changing-waitstaff-and-kitchen-communication-with-the-pos-kitchen-display-system)
 
-[POS Hardware decluttering of restaurant, retail, and hotel counters](blog/point-of-sale-trends/#pos-hardware-decluttering-of-restaurant-retail-and-hotel-counters)
+[POS Hardware decluttering of restaurant, retail, and hotel counters](/blog/point-of-sale-trends/#pos-hardware-decluttering-of-restaurant-retail-and-hotel-counters)
 
 [Managing devices integrated with POS using MDM (Mobile Device Management)](/blog/point-of-sale-trends/#managing-devices-integrated-with-pos-using-mdm-mobile-device-management)
 
@@ -38,7 +38,7 @@ language: en
 
 [Scan & go with your device](/blog/point-of-sale-trends/#scan--go-with-your-device)
 
-[The continuous rise of cloud-based Point of Sale systems](blog/point-of-sale-trends/#the-continuous-rise-of-cloud-based-point-of-sale-systems)
+[The continuous rise of cloud-based Point of Sale systems](/point-of-sale-trends/#the-continuous-rise-of-cloud-based-point-of-sale-systems)
 
 ## The continuous rise of QR code ordering as a response to restaurant staff shortages
 
