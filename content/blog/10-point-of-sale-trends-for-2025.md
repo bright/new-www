@@ -66,3 +66,19 @@ Even if all food delivery orders are synced to a single device (especially in mo
 While it might seem like a simple to-do list, this tool is designed to help manage the busy tasks of waitstaff more effectively. Modern POS systems should empower managers to create and assign critical tasks to specific employees. For example, scheduling routine duties like cleaning fridge number 2 every Monday, ordering new packaging every Friday, or simple daily checks such as ensuring the bathrooms are clean every hour. These tasks should be visible on waitstaff mobile devices, allowing them to quickly mark tasks as completed. This keeps managers informed about progress in real-time.
 
 ## AI-powered POS: Using AI for analytics and inventory
+
+With artificial intelligence in point of sale software, restaurants can track customer preferences, predict demand, and optimize stock levels to reduce waste. AI-powered analytics allow businesses to make data-driven decisions about menu offerings, pricing, loyalty programs, and staffing, improving overall efficiency and customer experience. In inventory management, AI-driven POS systems help monitor stock in real-time, quickly informing about the need for ingredients reorder.
+
+## Personalized coupon marketing based on POS system data
+
+By leveraging POS data linked to loyalty programs, businesses can offer truly customized receipts. These programs, which often connect a customer’s shopping history to their phone number or account, allow for personalized offers tailored to the customer’s preferences. For example, using POS data analytics, you can present targeted discounts on items a customer is likely to purchase at the optimal time.
+
+The key lies in delivering the right message at the right time. Similarly, loyalty apps can go beyond offering general discounts to present personalized deals that resonate with individual shoppers, thereby enhancing engagement and driving repeat purchases.
+
+## Scan & go with your device
+
+Self-checkout kiosks have been one of the latest POS trends, growing for several years. According to RBR Data Services, nearly 700,000 kiosks are expected to be installed worldwide by 2028. McDonald's alone has already deployed more than 130,000 units.
+
+The trend continues to evolve, with self-checkout systems becoming increasingly independent. The latest innovation might even remove the need for dedicated self-checkout kiosks in stores or restaurants. Instead, customers can now use their own mobile devices to scan items and complete payments directly.
+
+Take MishiPay as an example – a company that might change the retail industry by developing self-checkout solutions that are accessible directly on users' mobile devices.
