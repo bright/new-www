@@ -41,9 +41,9 @@ This feature (and one of the key sales trends) simplifies bill splitting, signi
 
 ## Changing waitstaff and kitchen communication with the POS Kitchen Display System
 
-Imagine a POS software centered around a screen in the kitchen that instantly displays a new order as soon as it's processed by the waitstaff, accompanied by a clear sound signal to notify busy kitchen staff. With just a swipe, kitchen staff can adjust the order or update its status, for example, from "In Preparation" to "Ready to Serve." This is the technology that should be a part of any advanced POS.
+Imagine a POS software centered around a **screen in the kitchen that instantly displays a new order** as soon as it's processed by the waitstaff, accompanied by a clear sound signal to notify busy kitchen staff. With just a swipe, kitchen staff can adjust the order or update its status, for example, from "In Preparation" to "Ready to Serve." This is the technology that should be a part of any advanced POS.
 
-Although this technology isn't new, many restaurants still rely on a traditional POS with printed kitchen receipts. KDS doesn't have to fully replace these receipts; in fact, they can still be invaluable in certain situations. For example, when the kitchen prepares multiple similar orders for different tables, printed kitchen receipts can still accompany the dishes, helping waitstaff quickly identify and deliver the correct meals.
+Although this technology isn't new, many restaurants still rely on a traditional POS with printed kitchen receipts. **KDS doesn't have to fully replace these receipts**; in fact, they can still be invaluable in certain situations. For example, when the kitchen prepares multiple similar orders for different tables, printed kitchen receipts can still accompany the dishes, helping waitstaff quickly identify and deliver the correct meals.
 
 Get inspired by the global POS system that implemented the [Kitchen Display System](/projects/kitchen-display-system/) as one of its features.
 
