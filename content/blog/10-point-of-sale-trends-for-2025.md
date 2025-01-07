@@ -18,6 +18,28 @@ language: en
 
 <div className="image">![POS trends 2025](/images/pos_development_trends_blog_cover.png "POS trends 2025")</div>
 
+## Contents (POS software trends):
+
+[The continuous rise of QR code ordering as a response to restaurant staff shortages](/blog/point-of-sale-trends/#the-continuous-rise-of-qr-code-ordering-as-a-response-to-restaurant-staff-shortages)
+
+[Bill splitting in clients' hands during payment](/blog/point-of-sale-trends/#bill-splitting-in-clients-hands-during-payment)
+
+[Changing waitstaff and kitchen communication with the POS Kitchen Display System](blog/point-of-sale-trends/#changing-waitstaff-and-kitchen-communication-with-the-pos-kitchen-display-system)
+
+[POS Hardware decluttering of restaurant, retail, and hotel counters](blog/point-of-sale-trends/#pos-hardware-decluttering-of-restaurant-retail-and-hotel-counters)
+
+Managing devices integrated with POS using MDM (Mobile Device Management)
+
+Adding work management features to the POS system
+
+AI-powered POS: Using AI for analytics and inventory
+
+Personalized coupon marketing based on POS system data
+
+Scan & go with your device
+
+The continuous rise of cloud-based Point of Sale systems
+
 ## The continuous rise of QR code ordering as a response to restaurant staff shortages
 
 QR codes became popular in restaurants during the pandemic, initially serving primarily to present menus in a digital format. Years have come by and in 2024 many [restaurants still mostly use it to display the menu](https://www.uniqode.com/blog/qr-code-insights/restaurant-qr-code-usage-study). 
