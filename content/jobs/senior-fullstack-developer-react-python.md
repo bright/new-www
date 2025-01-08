@@ -88,7 +88,6 @@ We are seeking an experienced Fullstack Developer to join our bright team. The c
 * MultiSport and private medical package 
 * company library with an extra budget for professional books 
 * good equipment: MacBook and additional accessories
-* 12 days per year dedicated to professional development
 * weekly sport classes and in-house yoga time  
 * office in Gdańsk Wrzeszcz with a parking space nearby 
 * team retreats once a quarter and lunch roulette initiative 
