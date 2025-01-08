@@ -74,7 +74,6 @@ We are looking for an experienced project manager who is not afraid of solving b
 * flexible working hours 
 * MultiSport card and private medical package (Compensa) 
 * training budget and company library  
-* extra time once a month for non-project development  
 * good equipment: MacBook and additional accessories
 * board games evenings
 * team retreats once a quarter
