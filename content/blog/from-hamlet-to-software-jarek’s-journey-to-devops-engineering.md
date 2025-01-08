@@ -29,3 +29,9 @@ Actually, no. I was studying computer science at Wroclaw University of Technolog
 That said, I recommend studying acting. During my classes, there was a **strong focus on psychology, empathy, and understanding what people go through every day**. However, the profession itself is extremely demanding. Like every aspiring actor, **I tried performing Hamlet. After just a week of immersing myself in the role, I started to resent women**, which is far from my usual emotions toward them. The role consumed me too much.
 
 I know we often think of actors as wealthy, successful people, but the reality is quite different. Most actors have low-paying, highly demanding jobs in theatres if they’re lucky.
+
+## So you came back to college?
+
+I didn’t finish my studies because I was pursuing acting. I regret that now, but at the time, I felt this pressure to completely focus on acting. **All I kept hearing was that at 22, I was already too old, too "molded" to start in this profession**. If I could go back to those times, I’d tell myself: **“Hey, idiot, finish college first and then pursue this dream”**.
+
+## Nevertheless, you ended up in software development. How did that happen?
