@@ -229,8 +229,6 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
       trackConversion({
         sent_to: 'AW-10942749476/L-INCLP4yOQDEKS29OEo',
       }).then(() => console.log('Job contact form conversion sent'))
-
-      uet_report_conversion()
     },
     [selectedAttachment]
   )
