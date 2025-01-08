@@ -75,3 +75,7 @@ Guitar has always felt like a kind of fate for me. **Back in college, a friend p
 <div className="image">![At Madame Tussauds.](/images/jarek_guitar.png "At Madame Tussauds with Jimi Hendrix.")</div>
 
 *At Madame Tussauds with Jimi Hendrix.* 😉
+
+Recently, though, **I realized I’d been learning the wrong way for years. I wasn’t really playing – I was just reproducing songs**, without any understanding of what was happening underneath. Eventually, I hit a wall with songs that required more technical skills. I didn’t have any theoretical music knowledge, so now I’m trying to catch up, and I’m already starting to see results.
+
+I’d say that the basics are crucial – perhaps even the most important part. **Only when you have a strong foundation can you truly understand more advanced concepts. It’s similar to software development**, really. It’s also like learning a Spanish poem by heart – you might be able to recite it fluently, but that doesn’t mean you actually speak Spanish.
