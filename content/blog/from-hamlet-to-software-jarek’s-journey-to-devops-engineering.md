@@ -47,3 +47,11 @@ That’s when I thought, "This might be it." I had learned some basics in colleg
 I got my first job as a DevOps engineer in a team that lacked sufficient know-how. It was hard to learn from others there. While you can learn a lot on your own, **no certificate or course can replace mentoring from an experienced colleague**. That was what I lacked in that role, but eventually, I found it here at Bright Inventions.
 
 <div className="image">![quote on mentoring](/images/jarek_quote_mentoring.png "quote on mentoring")</div>
+
+## With your corporate experience, how do you find yourself at Bright Inventions?
+
+It’s great! **I really admire the pace at which things are managed here**. For example, I wanted to share information about a charity fund with the whole team, so I asked Ula if that was possible. She gave me approval in just two minutes. In the corporate world, I probably wouldn’t have received approval until after the fund’s deadline had passed.
+
+In terms of the technical aspect of my work, **the number of great experts here is truly impressive**. For me, as a relatively inexperienced DevOps specialist, it feels like being promoted to the top league. **I’m surrounded by people I can always approach to discuss technical matters, get another opinion, and receive valuable suggestions**.
+
+I also must say that the team retreats at Bright Inventions are the best I’ve ever experienced!
