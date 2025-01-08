@@ -79,6 +79,5 @@ The project you will be involved in is a cross-channel identity platform that i
 * good equipment: we provide you with MacBook and additional accessories
 * internal workshops and dev's meetings 
 * extra budget for training and library with professional books
-* one extra day for non-project stuff each month
 * regular sports classes (running, biking, swimming) and yoga Fridays
 * board games evenings, weekly lunch initiative, team retreats once a quarter
