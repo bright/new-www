@@ -58,7 +58,7 @@ I also must say that the team retreats at Bright Inventions are the best I’ve 
 
 <div className="image">![team retreat](/images/jarek_team_retreat.png "Jarek celebrating with the winning team during a laser tag tournament at Bright Inventions’ retreat.")</div>
 
-*Jarek celebrating with the winning team during a laser tag tournament at Bright Inventions’ retreat.*
+<center>Jarek celebrating with the winning team during a laser tag tournament at Bright Inventions’ retreat.</center>
 
 ## What were your biggest challenges as a DevOps Engineer?
 
@@ -74,7 +74,7 @@ Guitar has always felt like a kind of fate for me. **Back in college, a friend p
 
 <div className="image">![At Madame Tussauds.](/images/jarek_guitar.png "At Madame Tussauds with Jimi Hendrix.")</div>
 
-*At Madame Tussauds with Jimi Hendrix.* 😉
+<center> At Madame Tussauds with Jimi Hendrix. 😉 </center>
 
 Recently, though, **I realized I’d been learning the wrong way for years. I wasn’t really playing – I was just reproducing songs**, without any understanding of what was happening underneath. Eventually, I hit a wall with songs that required more technical skills. I didn’t have any theoretical music knowledge, so now I’m trying to catch up, and I’m already starting to see results.
 
