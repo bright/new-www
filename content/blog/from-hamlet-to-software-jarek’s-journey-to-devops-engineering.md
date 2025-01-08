@@ -3,8 +3,8 @@ author: jarek
 secondAuthor: izabela
 tags:
   - bright insights
-date: 2025-01-08T12:40:51.112Z
-meaningfullyUpdatedAt: 2025-01-08T12:40:51.145Z
+date: 2025-01-08T13:02:30.874Z
+meaningfullyUpdatedAt: 2025-01-08T13:02:31.503Z
 slug: career-journey-to-devops-engineering
 title: "From Hamlet to Software: Jarek’s Journey to DevOps Engineering"
 layout: post
