@@ -41,3 +41,7 @@ Since I was 18, I worked at a bank between my college semesters. That’s how **
 Later, I worked at another corporation in a shift-based job focused on backups. It was tough and not very exciting because no one expected us to solve anything; **it was just a ticket-driven job**. Then I moved to another corporation to work as an application administrator. Most of the tasks there were manual, and we couldn’t automate them. To be honest, **I’m a rather lazy person, and I don’t like repetitive work unless it’s absolutely necessary**.
 
 <div className="image">![quote on programming](/images/jarek_quote_programming.png "quote on programming")</div>
+
+That’s when I thought, "This might be it." I had learned some basics in college, had some experience, and really loved automation, so I decided to give DevOps a try. **I don’t think I have the patience to write code all day, but I enjoy scripting** – that’s enough for me. Sometimes, it allows me to escape the abstraction and focus on a screen with white numbers, which has helped me build patience. **When I was younger, I definitely wasn’t ready to become a programmer, but now, as a DevOps Engineer, I’m learning more and more in this field**.
+
+I got my first job as a DevOps engineer in a team that lacked sufficient know-how. It was hard to learn from others there. While you can learn a lot on your own, **no certificate or course can replace mentoring from an experienced colleague**. That was what I lacked in that role, but eventually, I found it here at Bright Inventions.
