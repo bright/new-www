@@ -35,3 +35,7 @@ I know we often think of actors as wealthy, successful people, but the reality i
 I didn’t finish my studies because I was pursuing acting. I regret that now, but at the time, I felt this pressure to completely focus on acting. **All I kept hearing was that at 22, I was already too old, too "molded" to start in this profession**. If I could go back to those times, I’d tell myself: **“Hey, idiot, finish college first and then pursue this dream”**.
 
 ## Nevertheless, you ended up in software development. How did that happen?
+
+Since I was 18, I worked at a bank between my college semesters. That’s how **I landed a job as a company IT specialist, and it marked my first steps into the corporate world**. It gave me a lot of valuable experience – I learned how to collaborate with accountants, consultants, and other departments. **After I let go of my dream of acting, I was welcomed back there**.
+
+Later, I worked at another corporation in a shift-based job focused on backups. It was tough and not very exciting because no one expected us to solve anything; **it was just a ticket-driven job**. Then I moved to another corporation to work as an application administrator. Most of the tasks there were manual, and we couldn’t automate them. To be honest, **I’m a rather lazy person, and I don’t like repetitive work unless it’s absolutely necessary**.
