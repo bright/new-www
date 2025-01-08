@@ -67,3 +67,11 @@ One of the challenges is **the need to constantly switch between technologies**.
 <div className="image">![quote on new technologies](/images/jarek_quote_new_technologies.png "quote on new technologies")</div>
 
 As long as you don’t rest on your laurels or focus solely on maintenance, you’ll encounter plenty of challenges. **Adjusting to different conditions and learning new skills keeps the role exciting** for me.
+
+## I know you play guitar. How’s that going?
+
+Guitar has always felt like a kind of fate for me. **Back in college, a friend played and gave me a guitar to try out**. I felt really good about it at the beginning and wanted to see how far I could take it.
+
+<div className="image">![At Madame Tussauds.](/images/jarek_guitar.png "At Madame Tussauds with Jimi Hendrix.")</div>
+
+*At Madame Tussauds with Jimi Hendrix.* 😉
