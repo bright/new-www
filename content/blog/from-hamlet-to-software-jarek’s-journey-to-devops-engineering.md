@@ -55,3 +55,7 @@ It’s great! **I really admire the pace at which things are managed here**. For
 In terms of the technical aspect of my work, **the number of great experts here is truly impressive**. For me, as a relatively inexperienced DevOps specialist, it feels like being promoted to the top league. **I’m surrounded by people I can always approach to discuss technical matters, get another opinion, and receive valuable suggestions**.
 
 I also must say that the team retreats at Bright Inventions are the best I’ve ever experienced!
+
+<div className="image">![team retreat](/images/jarek_team_retreat.png "Jarek celebrating with the winning team during a laser tag tournament at Bright Inventions’ retreat.")</div>
+
+*Jarek celebrating with the winning team during a laser tag tournament at Bright Inventions’ retreat.*
