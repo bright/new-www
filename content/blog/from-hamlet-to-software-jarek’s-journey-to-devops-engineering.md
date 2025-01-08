@@ -59,3 +59,7 @@ I also must say that the team retreats at Bright Inventions are the best I’ve 
 <div className="image">![team retreat](/images/jarek_team_retreat.png "Jarek celebrating with the winning team during a laser tag tournament at Bright Inventions’ retreat.")</div>
 
 *Jarek celebrating with the winning team during a laser tag tournament at Bright Inventions’ retreat.*
+
+## What were your biggest challenges as a DevOps Engineer?
+
+One of the challenges is **the need to constantly switch between technologies**. For example, do you need to know SQL as a DevOps engineer? Not usually – until you suddenly have to know everything about it! In this profession, **you have to quickly catch up on new technologies to effectively communicate with the people who use them daily**.
