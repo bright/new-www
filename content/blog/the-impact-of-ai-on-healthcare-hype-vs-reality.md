@@ -7,6 +7,7 @@ date: 2025-01-10T10:57:49.780Z
 meaningfullyUpdatedAt: 2025-01-10T10:57:49.797Z
 title: "The Impact of AI on Healthcare: Hype vs. Reality"
 layout: post
+image: /images/ai_in_healthcare.png
 hidden: false
 comments: false
 published: true
