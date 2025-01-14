@@ -5,7 +5,7 @@ tags:
   - iOS
   - growth
 date: 2022-05-05T11:39:04.015Z
-meaningfullyUpdatedAt: 2024-01-05T06:53:43.891Z
+meaningfullyUpdatedAt: 2025-01-14T10:29:36.616Z
 title: Top Podcasts for 2025 from iOS Developer's Perspective
 layout: post
 image: /images/top-podcast-for-2022-from-ios-developer-perspective-cover.png
