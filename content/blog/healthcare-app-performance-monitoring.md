@@ -33,7 +33,7 @@ Ideally, you should establish basic performance monitoring before launching your
 
 By this point, **it might be too late to restore trust among your end-users who might have been frustrated by the app’s performance issues**. Starting early with performance monitoring can help you prevent such situations by identifying and addressing potential issues before they impact the user experience.
 
-<EbookDynamic sectionTitle='Facing scalability issues? Download our free guide!' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Almost 100 pages about scaling HealthTech solution. Don’t miss the chance to get your copy.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
+<EbookDynamic sectionTitle='Facing scalability issues? Download our free guide!' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Almost 100 pages about scaling HealthTech solution. Don’t miss the chance to get your copy.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='cover' />
 
 ## Powerful advantages of application performance monitoring
 
