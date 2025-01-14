@@ -5,8 +5,8 @@ tags:
   - iOS
   - growth
 date: 2022-05-05T11:39:04.015Z
-meaningfullyUpdatedAt: 2024-01-05T06:53:43.891Z
-title: Top Podcasts for 2024 from iOS Developer's Perspective
+meaningfullyUpdatedAt: 2025-01-14T10:29:36.616Z
+title: Top Podcasts for 2025 from iOS Developer's Perspective
 layout: post
 image: /images/top-podcast-for-2022-from-ios-developer-perspective-cover.png
 hidden: false
@@ -14,11 +14,11 @@ comments: true
 published: true
 language: en
 ---
-**Are you an iOS developer, or maybe a technology maniac with a bias for apple? Do you listen to podcasts (if not, then start 😉)? Here are my top picks for iOS and general tech related podcasts to listen to in 2024.**
+**Are you an iOS developer, or maybe a technology maniac with a bias for apple? Do you listen to podcasts (if not, then start 😉)? Here are my top picks for iOS and general tech related podcasts to listen to in 2025.**
 
-![top iOS development podcasts](../../static/images/top-podcasts-from-ios-developer-perspective-cover.png "")
+![top iOS development podcasts](../../static/images/top-podcasts-from-ios-developer-perspective-cover.png)
 
-## Best iOS development podcasts in 2024
+## Best iOS development podcasts in 2025
 
 Let me start with iOS focused ones. Those are high quality podcasts that vary in focus and topics from quite technical to totally informal.
 
@@ -30,11 +30,11 @@ My favorite podcast in this list. Marco Arment, Casey Liss and John Siracusa mak
 
 If you really love this podcast like me, you could support ATP by becoming a [member](https://atp.fm/join).
 
-*ATP* is released weekly, there is also members only content released irregularly.
+*ATP* is released weekly, with additional members only content released ~monthly.
 
 * [Under the Radar](https://podcasts.apple.com/pl/podcast/under-the-radar/id1055685246) 
 
-Podcast hosted by two indie developers: Marco Arment and David Smith. It is \~never\~ usually not longer than 30 minutes and in this period a variety of topics connected to independent dev life are covered. You can hear about challenges during bigger refactors, supporting large numbers of customers, marketing your own products and many more. If you ever thought about going indie and starting your own project or are just curious then this is a must have!
+Podcast hosted by two indie developers: Marco Arment and David Smith. It is ~never~ usually not longer than 30 minutes and in this period a variety of topics connected to independent dev life are covered. You can hear about challenges during bigger refactors, supporting large numbers of customers, marketing your own products and many more. If you ever thought about going indie and starting your own project or are just curious then this is a must have!
 
 *Under the radar* is released bi-weekly.
 
@@ -42,7 +42,7 @@ Podcast hosted by two indie developers: Marco Arment and David Smith. It is \~ne
 
  Hosted by John Sundell and Gui Rambo it is an informal podcast about life and technology from their perspective. It is rather a casual podcast but loose personal topics are intertwined with deeper insights into apple development.
 
-*Stacktrace* is released twice a month.
+*Stacktrace* is released irregularly since 2024.
 
 * [App Stories](https://podcasts.apple.com/pl/podcast/appstories/id1227872143)
 
@@ -58,7 +58,7 @@ For quite some time this was only my first pick for podcast for iOS developer. I
 
 *Swift by Sundell* was released weekly till the end of 2022.
 
-## Top tech podcasts in 2024
+## Top tech podcasts in 2025
 
 Of course you cannot live just on iOS podcasts, we need to have a richer diet in order to be healthy ;) This part is more about technology and business in a broader spectrum.
 
@@ -66,13 +66,13 @@ Of course you cannot live just on iOS podcasts, we need to have a richer diet in
 
 You have probably heard about The Verge and this is their flagship podcast. It is hosted by its Editor-in-Chief Nilay Patel joined by Verge team members. They discuss tech news from the previous week in a light and very informal way. This will be the source of all the fresh stuff that happened in the tech industry, from new device releases to big court cases.
 
-*The Vergecast* is released twice a week.
+*The Vergecast* is released twice a week with additional mini-series appearing irregularly.
 
 * [Decoder with Nilay Patel](https://podcasts.apple.com/pl/podcast/decoder-with-nilay-patel/id1011668648)
 
 Another production from The Verge. Nilay Patel talks about big ideas related to technology. Maybe listening to interviews with fat cats of the tech industry may sound boring but don’t get fooled by that. Every interview Nilay conducts is incredibly interesting and thoughtful. Tune in to get to know decision making frameworks and stories of various people in the tech industry.
 
-*Decoder* is released weekly.
+*Decoder* episodes can be expected at least once a week.
 
 * [Hard Fork](https://podcasts.apple.com/us/podcast/hard-fork/id1528594034)
 
@@ -84,7 +84,7 @@ New York Times production hosted by Kevin Roose and Casey Newton. It is a sho
 
 This one is a little bit different than others. It is produced by Vox and contains multiple seasons of mini series about tech giants. If you want to know the stories behind Apple or Netflix, then this is a very nice and convenient way to dive in. I totally encourage anyone in the tech industry to listen to those.
 
-There are currently 8 seasons covering tech giants like: Amazon, Netflix, Google, Apple, Facebook or Tesla.
+There are currently 10 seasons covering tech giants like: Amazon, Netflix, Google, Apple, Facebook, Tesla or Disney.
 
 *Land of the Giants* episodes are released weekly for each of the seasons.
 
@@ -94,6 +94,6 @@ Courtland Allen interviews Indie Hackers that got out of their comfort zones to 
 
 Mid 2022 Indie Hackers changed their format and Courtland is now joined by new host: his twin brother Channing.﻿
 
-*Indie Hackers* is released weekly.
+*Indie Hackers* was released weekly till mid of 2023.
 
 Do you have other tech podcasts that you love? Please share with me too!
