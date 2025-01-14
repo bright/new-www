@@ -13,7 +13,7 @@ language: en
 ---
 **[In one of my earlier articles](/blog/semantic-status-of-html-b-tag/), I discussed a common misconception about HTML, focusing on the true purpose of the `<b>` tag. In this article, I’ll dive into another myth in the frontend development world, one that’s closely related to that previous discussion.**
 
-## The myth
+## The myth surrounding 'i' and semantics
 
 Similar to the misconceptions about the `<b>` tag, there’s also a common misunderstanding surrounding the `<i>` tag, which goes like this:
 
@@ -27,7 +27,7 @@ and it is group under “Font style elements” (same as 'b' from one of the pre
 
 The `<i>` tag is often compared to `<em>`, which is regarded as "`<i>` with semantic meaning”. This comparison, while popular, isn’t entirely accurate.
 
-## The Truth
+## The truth of 'i's semantic role
 
 Nowadays, the `<i>` tag has gained additional semantic meaning beyond its default styling behavior. According to the [current HTML specification](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-i-element), the `<i>` element is intended to represent a span of text that is in an alternate voice or mood, or otherwise set apart from the surrounding content in a way that indicates a different quality of text. This could include taxonomic designations, technical terms, idiomatic phrases in another language or transliterations. Here’s how the specification defines the `<i>` element:
 
