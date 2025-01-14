@@ -29,7 +29,7 @@ The `<i>` tag is often compared to `<em>`, which is regarded as "`<i>` with sema
 
 ## The truth of 'i's semantic role
 
-Nowadays, the `<i>` tag has gained additional semantic meaning beyond its default styling behavior. According to the [current HTML specification](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-i-element), the `<i>` element is intended to represent a span of text that is in an alternate voice or mood, or otherwise set apart from the surrounding content in a way that indicates a different quality of text. This could include taxonomic designations, technical terms, idiomatic phrases in another language or transliterations. Here’s how the specification defines the `<i>` element:
+Nowadays, the `<i>` tag has gained additional semantic meaning beyond its default styling behavior. According to the [current HTML specification](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-i-element), the `<i>` element represents text in an alternate voice or mood, or set apart to indicate a different quality, such as taxonomic names, technical terms, idioms, or transliterations. Here’s how the specification defines the `<i>` element:
 
 > The `<i>` element represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose in a manner indicating a different quality of text, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, transliteration, a thought, or a ship name in Western texts.
 
