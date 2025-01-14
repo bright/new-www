@@ -67,12 +67,6 @@ const gatsbyConfig: GatsbyConfig = {
       },
     },
     {
-      resolve: 'lead-forensics',
-      options: {
-        enabled: isProduction,
-      },
-    },
-    {
       resolve: 'clarity',
       options: {
         enabled: isProduction,
