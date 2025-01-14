@@ -51,7 +51,7 @@ Unfortunately, despite carrying semantic meaning, the `<i>` element is still tre
 
 ## Summary
 
-
+The `<i>` tag, which was initially designed to apply italic styling, now serves a semantic purpose in modern HTML. It is used to mark text that has a different tone or context, such as technical terms, jargon, or idiomatic expressions. This differs from the `<em>` tag, which is meant to indicate emphasis. However, assistive technologies often interpret the `<i>` tag as regular text, reducing its semantic value. Understanding this difference is important for improving web development and accessibility practices.
 
 - - -
 
