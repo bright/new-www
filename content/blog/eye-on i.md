@@ -11,7 +11,7 @@ comments: false
 published: true
 language: en
 ---
-**[In one of my earlier articles](/blog/semantic-status-of-html-b-tag/), I discussed a common misconception about HTML, focusing on the true purpose of the ‘b’ tag. In this article, I’ll dive into another myth in the frontend development world, one that’s closely related to that previous discussion.**
+**[In one of my earlier articles](/blog/semantic-status-of-html-b-tag/), I discussed a common misconception about HTML, focusing on the true purpose of the `<b>` tag. In this article, I’ll dive into another myth in the frontend development world, one that’s closely related to that previous discussion.**
 
 ## The myth
 
@@ -29,10 +29,18 @@ The `<i>` tag is often compared to `<em>`, which is regarded as "`<i>` with sema
 
 ## The Truth
 
-Nowadays, `<i>` has additional semantic meaning coupled with the default styles behavior. Current HTML specification, which describes `<i>` tag as the one responsible for fragment of text with alternate voice or for term which is for example technical definition, taxonomy name or idiom:
+Nowadays, the `<i>` tag has gained additional semantic meaning beyond its default styling behavior. According to the [current HTML specification](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-i-element), the `<i>` element is intended to represent a span of text that is in an alternate voice or mood, or otherwise set apart from the surrounding content in a way that indicates a different quality of text. This could include taxonomic designations, technical terms, idiomatic phrases in another language or transliterations. Here’s how the specification defines the `<i>` element:
 
-> The i element represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose in a manner indicating a different quality of text, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, transliteration, a thought, or a ship name in Western texts
+> The `<i>` element represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose in a manner indicating a different quality of text, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, transliteration, a thought, or a ship name in Western texts.
 
-In contrary, em tag — which also will be displayed by default as a italic text — is responsible for marking stress emphasis of the content
+In contrast, the `<em>` tag—which is also displayed as italicized text by default—conveys stress or emphasis on the content, for example:\
+`<p>Do it <em>now</em></p>`\
+This indicates that "now" should be read with added emphasis.
 
-<p>Do it <em>now</em>!</p>
+## Impact on accessibility
+
+Unfortunately, despite carrying semantic meaning, the `<i>` element is still treated as plain text by many [popular accessibility tools](https://www.tpgi.com/screen-readers-support-for-text-level-html-semantics/). For instance, while Chrome DevTools identifies the `<em>` element and labels it as "emphasis," it categorizes the `<i>` element as "static text," placing it in the same category as a standard `<p>` element or a `<b>` element.
+
+
+
+<div className="image">![Difference between i and em tag in chrome dev tools](/images/i-tag-a11y.png "")</div>
