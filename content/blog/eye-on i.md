@@ -23,7 +23,7 @@ As with many myths, there’s a kernel of truth here. By default, the `<i>` tag 
 
 > Renders as italic text style
 
-and it is group under “Font style elements” (same as 'b' from one of the previous myths)
+and it is group under “Font style elements” (same as 'b' from one of the previous myths).
 
 The `<i>` tag is often compared to `<em>`, which is regarded as "`<i>` with semantic meaning”. This comparison, while popular, isn’t entirely accurate.
 
@@ -33,7 +33,7 @@ Nowadays, the `<i>` tag has gained additional semantic meaning beyond its defaul
 
 > The `<i>` element represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose in a manner indicating a different quality of text, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, transliteration, a thought, or a ship name in Western texts.
 
-In contrast, the `<em>` tag—which is also displayed as italicized text by default—conveys stress or emphasis on the content, for example:\
+In contrast, the `<em>` tag—which is also displayed as italicized text by default - [conveys stress or emphasis on the content](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-em-element), for example:\
 `<p>Do it <em>now</em></p>`\
 This indicates that "now" should be read with added emphasis.
 
@@ -44,3 +44,5 @@ Unfortunately, despite carrying semantic meaning, the `<i>` element is still tre
 
 
 <div className="image">![Difference between i and em tag in chrome dev tools](/images/i-tag-a11y.png "")</div>
+
+## Summary
