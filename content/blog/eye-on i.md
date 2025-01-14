@@ -7,6 +7,7 @@ meaningfullyUpdatedAt: 2025-01-14T11:10:43.665Z
 slug: understanding-i-as-semantic-element
 title: Eye on 'i' - Understanding 'i' as a Semantic Element"
 layout: post
+image: /images/blogpost_blog__i_tag.png
 hidden: false
 comments: false
 published: true
