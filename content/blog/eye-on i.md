@@ -14,6 +14,8 @@ language: en
 ---
 **[In one of my earlier articles](/blog/semantic-status-of-html-b-tag/), I discussed a common misconception about HTML, focusing on the true purpose of the `<b>` tag. In this article, I’ll dive into another myth in the frontend development world, one that’s closely related to that previous discussion.**
 
+<div className="image">![](/images/blogpost_blog__i_tag.png "")</div>
+
 ## The myth surrounding 'i' and semantics
 
 Similar to the misconceptions about the `<b>` tag, there’s also a common misunderstanding surrounding the `<i>` tag, which goes like this:
