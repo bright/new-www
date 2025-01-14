@@ -46,3 +46,13 @@ Unfortunately, despite carrying semantic meaning, the `<i>` element is still tre
 <div className="image">![Difference between i and em tag in chrome dev tools](/images/i-tag-a11y.png "")</div>
 
 ## Summary
+
+
+
+- - -
+
+##### [](https://brightinventions.pl/blog/javascript-types-deobjectified/#take-a-look-at-our-earlier-blog-post-debunking-frontend-myths)Take a look at our earlier blog post debunking frontend myths:
+
+1. [To 'b' or Not to 'b': The Semantic Status of HTML 'b' Tag](/blog/semantic-status-of-html-b-tag/)
+2. [Understanding the Hoisting Behavior of let and const](/blog/let-const-hoisting/)
+3. [JavaScript Types De-Objectified](/blog/javascript-types-deobjectified/)
