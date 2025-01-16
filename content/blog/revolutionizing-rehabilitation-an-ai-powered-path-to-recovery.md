@@ -18,6 +18,10 @@ language: en
 
 At **[Dyker](https://www.linkedin.com/company/dycare/)**, we are reshaping the patient recovery path in rehabilitation with an AI-guided solution. We have developed Rehab, a digital rehabilitation platform for hospitals, insurance companies, and rehabilitation centers that delivers effective and personalized home rehabilitation. With our technology, professionals can design and prescribe personalized exercises using advanced monitoring tools. We utilize computer vision technology and artificial intelligence algorithms to ensure patients perform exercises correctly, monitoring their range of motion, speed, and other parameters to guarantee safety and effectiveness.
 
+<div className="image">![](/images/baner_silviahlth.png "")</div>
+
+
+
 ### Do you use Bluetooth devices?
 
 No, we only require the activation of the camera on a smartphone, PC, or tablet, combined with artificial intelligence.
@@ -54,6 +58,10 @@ The primary challenge is ensuring clinical validation, as our technology is clas
 
 AI, combined with computer vision, enables real-time feedback for patients. We refer to this as real-time intelligent detection of movement. AI solutions allow us to track progress and provide professionals with alerts and indicators to better manage patient care.
 
+<div className="image">![dycare](/images/screenshot-2025-01-10-at-12.29.02.png "dycare")</div>
+
+*source: https://www.dycare.com/en*
+
 ### What inspired you to develop this solution?
 
 It stemmed from a personal experience. Following an ankle injury, I attended 10 physiotherapy sessions but saw little improvement. When I asked the physiotherapist why, there was no objective data to measure my progress. This lack of data inspired me and my co-founder to create a solution to fill that gap.
@@ -65,6 +73,10 @@ AI is a key trend, but adoption is the next critical step. Lowering barriers to 
 ### What advice would you give to startups or scale-ups entering the Spanish market?
 
 The Spanish market can be complex, with a strong emphasis on pilot studies. My advice is to ensure these are paid pilot studies, even if the amount is small. This demonstrates commitment and value, helping you move toward a contract after proving the results.
+
+<EbookDynamic sectionTitle='want to know more about AI in healthtech?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/cover_healthtech_guide_home.png' ebookAlt='undefined' />
+
+
 
 ### Are you planning to enter the Polish market?
 
