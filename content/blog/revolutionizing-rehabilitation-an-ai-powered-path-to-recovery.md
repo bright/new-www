@@ -6,6 +6,7 @@ date: 2025-01-16T12:13:03.199Z
 meaningfullyUpdatedAt: 2025-01-16T12:13:03.230Z
 title: "Revolutionizing Rehabilitation: An AI-Powered Path to Recovery"
 layout: post
+image: /images/baner_final-10-.png
 hidden: false
 comments: false
 published: true
