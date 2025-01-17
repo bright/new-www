@@ -18,7 +18,7 @@ language: en
 
 At **[Dyker](https://www.linkedin.com/company/dycare/)**, we are reshaping the patient recovery path in rehabilitation with an AI-guided solution. We have developed Rehab, a digital rehabilitation platform for hospitals, insurance companies, and rehabilitation centers that delivers effective and personalized home rehabilitation. With our technology, professionals can design and prescribe personalized exercises using advanced monitoring tools. We utilize computer vision technology and artificial intelligence algorithms to ensure patients perform exercises correctly, monitoring their range of motion, speed, and other parameters to guarantee safety and effectiveness.
 
-<div className="image">![](/images/baner_silviahlth.png "")</div>
+<div className="image">![Silvia Raga Dycare](/images/baner_silviahlth.png "Silvia Raga Dycare")</div>
 
 ### Do you use Bluetooth devices?
 
@@ -72,7 +72,7 @@ AI is a key trend, but adoption is the next critical step. Lowering barriers to 
 
 The Spanish market can be complex, with a strong emphasis on pilot studies. My advice is to ensure these are paid pilot studies, even if the amount is small. This demonstrates commitment and value, helping you move toward a contract after proving the results.
 
-<EbookDynamic sectionTitle='want to know more about AI in healthtech?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/cover_healthtech_guide_home.png' ebookAlt='undefined' />
+<EbookDynamic sectionTitle='want to know more about AI in healthtech?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='' ebookAlt='undefined' />
 
 ### Are you planning to enter the Polish market?
 
