@@ -80,15 +80,17 @@ We are seeking an experienced Fullstack Developer to join our bright team. The c
 ## what you will find in our Bright Team 🚀
 
 * culture of responsibility, flexibility, teamwork and positivity
+* real impact on the implemented solutions and project growth
 * business value over technical perfection 
-* flat structure and a great impact on the key project decisions 
-* flexible schedule and remote work possibility 
+* flexible working hours (we start between 7.00 -10.00 a.m.) and remote work possibility 
 * mentoring program and regular 1:1 meetings 
 * continuous feedback and open communication
-* MultiSport and private medical package 
-* company library with an extra budget for professional books 
+* individual training budget and office library 
+* free English classes in small groups 
 * good equipment: MacBook and additional accessories
-* weekly sport classes and in-house yoga time  
+* MultiSport and private medical package (Compensa)
 * office in Gdańsk Wrzeszcz with a parking space nearby 
-* team retreats once a quarter and lunch roulette initiative 
-* board games evenings
+* quarter team buildings events
+* Friday yoga, weekly running, swimming and cycling classes with a professional coach
+
+In case you have any questions, drop us a line at [jobs@bright.dev](mailto:jobs@bright.dev).
