@@ -72,12 +72,19 @@ The project you will be involved in is a cross-channel identity platform that i
 
 ## what you will find in our Bright Team 🧡
 
-* continuous feedback culture and 1:1 meetings 
-* clear career path with transparent expectations considering both technical knowledge and interpersonal/business skills
-* flexible working hours and remote work possibility 
-* MultiSport card and private medical package (Compensa)
-* good equipment: we provide you with MacBook and additional accessories
-* internal workshops and dev's meetings 
-* extra budget for training and library with professional books
-* regular sports classes (running, biking, swimming) and yoga Fridays
-* board games evenings, weekly lunch initiative, team retreats once a quarter
+* culture of responsibility, flexibility, teamwork and positivity
+* real impact on the implemented solutions and project growth
+* business value over technical perfection 
+* flexible working hours (we start between 7.00 -10.00 a.m.) and remote work possibility 
+* internal workshops and dev's meetings
+* mentoring program and regular 1:1 meetings 
+* continuous feedback and open communication
+* individual training budget and office library 
+* free English classes in small groups 
+* good equipment: MacBook and additional accessories
+* MultiSport and private medical package (Compensa)
+* office in Gdańsk Wrzeszcz with a parking space nearby 
+* quarter team buildings events
+* Friday yoga, weekly running, swimming and cycling classes with a professional coach
+
+In case you have any questions, drop us a line at [jobs@bright.dev](mailto:jobs@bright.dev).
