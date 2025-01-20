@@ -83,6 +83,7 @@ We are seeking an experienced Fullstack Developer to join our bright team. The c
 * real impact on the implemented solutions and project growth
 * business value over technical perfection 
 * flexible working hours (we start between 7.00 -10.00 a.m.) and remote work possibility 
+* internal workshops and dev's meetings
 * mentoring program and regular 1:1 meetings 
 * continuous feedback and open communication
 * individual training budget and office library 
