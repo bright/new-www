@@ -69,14 +69,19 @@ We are looking for an experienced project manager who is not afraid of solving b
 
 ## **what you will find at Bright Inventions**  **🧡**
 
-* continuous feedback culture 
-* mentoring programme and regular 1:1 meetings
-* flexible working hours 
-* MultiSport card and private medical package (Compensa) 
-* training budget and company library  
+* culture of responsibility, flexibility, teamwork and positivity
+* real impact on the implemented solutions and project growth
+* business value over technical perfection 
+* internal workshops and knowledge-sharing sessions
+* flexible working hours (we start between 7.00 -10.00 a.m.) and remote work possibility 
+* mentoring program and regular 1:1 meetings 
+* continuous feedback and open communication
+* individual training budget and office library 
+* free English classes in small groups 
 * good equipment: MacBook and additional accessories
-* board games evenings
-* team retreats once a quarter
-* regular sport classes (running, biking, swimming) + yoga Fridays at the office 
+* MultiSport and private medical package (Compensa)
+* office in Gdańsk Wrzeszcz with a parking space nearby 
+* quarter team buildings events
+* Friday yoga, weekly running, swimming and cycling classes with a professional coach
 
 In case you have any questions, drop us a line at [jobs@bright.dev](mailto:jobs@bright.dev).
