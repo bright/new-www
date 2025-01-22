@@ -4,7 +4,7 @@ tags:
   - HealthTech
 date: 2025-01-16T12:13:03.199Z
 meaningfullyUpdatedAt: 2025-01-16T12:13:03.230Z
-title: "Revolutionizing Rehabilitation: An AI-Powered Path to Recovery"
+title: "Revolutionizing Patient Rehabilitation: An AI-Powered Path to Recovery"
 layout: post
 image: /images/baner_final-10-.png
 hidden: false
@@ -72,7 +72,7 @@ AI is a key trend, but adoption is the next critical step. Lowering barriers to 
 
 The Spanish market can be complex, with a strong emphasis on pilot studies. My advice is to ensure these are paid pilot studies, even if the amount is small. This demonstrates commitment and value, helping you move toward a contract after proving the results.
 
-<EbookDynamic sectionTitle='want to know more about AI in healthtech?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='' ebookAlt='undefined' />
+<EbookDynamic sectionTitle='want to know more about AI in healthtech?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='cover' />
 
 ### Are you planning to enter the Polish market?
 
