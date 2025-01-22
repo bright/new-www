@@ -16,7 +16,7 @@ language: en
 
 ### Could you briefly introduce yourself and describe your solution?
 
-At **[Dyker](https://www.linkedin.com/company/dycare/)**, we are reshaping the patient recovery path in rehabilitation with an AI-guided solution. We have developed Rehab, a digital rehabilitation platform for hospitals, insurance companies, and rehabilitation centers that delivers effective and personalized home rehabilitation. With our technology, professionals can design and prescribe personalized exercises using advanced monitoring tools. We utilize computer vision technology and artificial intelligence algorithms to ensure patients perform exercises correctly, monitoring their range of motion, speed, and other parameters to guarantee safety and effectiveness.
+At **[DyCare](https://www.linkedin.com/company/dycare/)**, we are reshaping the patient recovery path in rehabilitation with an AI-guided solution. We have developed Rehab, a digital rehabilitation platform for hospitals, insurance companies, and rehabilitation centers that delivers effective and personalized home rehabilitation. With our technology, professionals can design and prescribe personalized exercises using advanced monitoring tools. We utilize computer vision technology and artificial intelligence algorithms to ensure patients perform exercises correctly, monitoring their range of motion, speed, and other parameters to guarantee safety and effectiveness.
 
 <div className="image">![Silvia Raga Dycare](/images/baner_silviahlth.png "Silvia Raga Dycare")</div>
 
