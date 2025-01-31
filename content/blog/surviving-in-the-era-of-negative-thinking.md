@@ -7,7 +7,7 @@ date: 2025-01-31T19:53:22.591Z
 meaningfullyUpdatedAt: 2025-01-31T19:53:22.602Z
 title: Surviving in the Era of Negative Thinking
 layout: post
-image: /images/andrej-lisakov-vf7nirqtlxe-unsplash.jpg
+image: /images/screenshot-2025-01-31-at-21.50.05.png
 hidden: false
 comments: false
 published: true
