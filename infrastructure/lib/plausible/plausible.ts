@@ -34,7 +34,7 @@ export class Plausible extends Stack {
         ? 'https://plausible.brightinventions.pl'
         : `https://plausible-${deployEnv()}.brightinventions.pl`
 
-    const blogSesSmtp = new User(this, 'ses-smtp')
+    const blogSesSmtp = new User(this, 'ses-smtp-v2')
 
     const availabilityZone = props.vpc.availabilityZones[0]
 
@@ -52,7 +52,7 @@ export class Plausible extends Stack {
 
     blogSesSmtp.addToPolicy(allowSendingEmail)
 
-    const smtpCredentials = new SesSmtpCredentials(this, 'ses-smtp-credentials', {
+    const smtpCredentials = new SesSmtpCredentials(this, 'ses-smtp-credentials-v2', {
       user: blogSesSmtp,
     })
 
