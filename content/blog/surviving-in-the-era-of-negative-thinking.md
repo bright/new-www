@@ -35,13 +35,17 @@ There is no shortage of negative news in our daily consumption, and we all know 
 
 Prevent your mind from staying in alert mode all the time. In the workplace, negativity can easily spread among team members, affecting morale and productivity. If you use social media, treat negative posts as red flags, a kind of warning. If you catch yourself in endless scrolling through critical comments, complaints, or negativity in your workplace chats or online—recognize how it impacts your mood, energy levels, and overall mindset. These are often reflections of someone feeling angry, disappointed, or frustrated, and they might be seeking attention or validation.
 
-Engaging in or absorbing this negativity can cloud your judgment, weaken teamwork, and lead to burnout. Instead of shifting your focus away from tasks or objectives that are meaningful, don’t allow the emotions of anonymous individuals or toxic work conversations to derail you. **As [David J. Polly’s “Law of the Garbage Truck”](https://www.davidpollay.com/the_law_of_the_garbage_truck.html) suggests, we can protect our professional lives by choosing not to absorb the anger, resentment, or frustrations of others.** In any workplace, it’s essential to avoid hostile or harmful dialogues that can damage your mental and physical health, as well as affect team collaboration and overall harmony.
+Engaging in or absorbing this negativity can cloud your judgment, weaken teamwork, and lead to burnout. Instead of shifting your focus away from tasks or objectives that are meaningful, don’t allow the emotions of anonymous individuals or toxic work conversations to derail you. **As [David J. Polly’s “Law of the Garbage Truck”](https://academictips.org/blogs/the-law-of-the-garbage-truck/) suggests, we can protect our professional lives by choosing not to absorb the anger, resentment, or frustrations of others.** In any workplace, it’s essential to avoid hostile or harmful dialogues that can damage your mental and physical health, as well as affect team collaboration and overall harmony.
 
 ## **practice gratitude selectively**
 
 **Start counting your blessings in life—but don’t force yourself to feel grateful for everything.**
 
 In the workplace, [gratitude can boost morale, increase motivation, and create a positive atmosphere](https://www.forbes.com/sites/tracybrower/2021/01/03/gratitude-is-good-why-its-important-and-how-to-cultivate-it/?sh=49fe180e2a0f) within teams. However, **it’s important that this gratitude is genuine—when it feels obligatory or insincere, it may create more pressure than positivity, even leading to feelings of guilt.** If you find it difficult to express gratitude, don’t pressure yourself. Start small: reflect on what good happened to you on a specific workday. Maybe it was a meaningful conversation with a colleague or a small task you accomplished. These little victories can help shift your focus to the positive, allowing you to notice the good things in your daily routine.
+
+<div className="image">![gratitude](/images/gratitude.png "gratitude")</div>
+
+###### Source: https://positivepsychology.com/neuroscience-of-gratitude/
 
 In the professional setting, it's especially important to recognize why and how gratitude can enhance not just your emotional wellbeing, but your performance as well. The research from Sonja Lyubomirsky, a professor of psychology and expert in positive psychology, [reveals that gratitude contributes to both mental and physical health](https://grateful.org/resource/eight-ways/). **Expressing thanks at work—whether toward a colleague, manager, or team—can strengthen relationships, reduce stress, and foster a culture of collaboration.** Gratitude becomes a powerful tool in creating not just a more pleasant environment, but one that’s more productive and supportive, enhancing both [personal and professional growth](https://www.tandfonline.com/doi/full/10.1080/15358593.2017.1293836).
 
@@ -74,6 +78,10 @@ At the same time, it’s important to recognize that having negative thoughts is
 Learning to deal with intense negative emotions is a skill worth cultivating. Dr. Daniel Siegel offers a helpful technique called [“name it to tame it”](https://heartmindonline.org/resources/strong-emotions-name-it-to-tame-it) which is as simple as it is effective. When negative thoughts arise, naming them—calling out the story your mind is telling—can create distance and reduce their hold on you. This awareness enables you to step back and observe without being consumed.
 
 So, the next time negativity strikes, remember that developing positive thinking takes practice, and your brain is always ready for a workout. 
+
+<div className="image">![](/images/sorryforthedelayedresponse.png "positive thinking ")</div>
+
+###### **Source:** https://www.instagram.com/lizandmollie/
 
 ## **summary**
 
