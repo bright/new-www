@@ -12,7 +12,7 @@ comments: false
 published: true
 language: en
 ---
-This interview took place during the last **[HLTH Conference Europe](https://europe.hlth.com/)**, where industry leaders gathered to discuss the future of healthcare and digital health innovations. In this conversation, Mohammad Al-Ubaydli, the CEO of a leading medical record software company shares insights on their solution, the ethical considerations of digital health, and the inspiration behind their work. We also delve into the technical and regulatory challenges faced in this rapidly evolving field, as well as the exciting trends that are shaping the future of medtech and health tech.
+This interview took place during the last **[HLTH Conference Europe](https://europe.hlth.com/)**, where industry leaders gathered to discuss the future of healthcare and digital health innovations. In this conversation, Mohammad Al-Ubaydli, the CEO of a leading medical record software company - Patients Know Best - shares insights on their solution, the ethical considerations of digital health, and the inspiration behind their work. We also delve into the technical and regulatory challenges faced in this rapidly evolving field, as well as the exciting trends that are shaping the future of medtech and health tech.
 
 ## **Can you briefly introduce yourself and your solution?**
 
