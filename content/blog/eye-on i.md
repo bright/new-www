@@ -2,8 +2,8 @@
 author: rafal-op
 tags:
   - frontend
-date: 2025-01-14T11:10:43.651Z
-meaningfullyUpdatedAt: 2025-01-14T11:10:43.665Z
+date: 2025-02-12T09:49:16.846Z
+meaningfullyUpdatedAt: 2025-02-12T09:49:17.407Z
 slug: understanding-i-as-semantic-element
 title: Eye on 'i' - Understanding 'i' as a Semantic Element"
 layout: post
