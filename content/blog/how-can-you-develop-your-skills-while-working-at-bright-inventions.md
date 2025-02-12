@@ -28,9 +28,7 @@ Each of us can order a book we would like to read - the book related to our furt
 
 ## Bright development time 
 
-This is 8 hours per month that we can spend on things outside the project, but still related to our professional development. This time may be spent on trainings, going to conferences or creating/testing new solutions. 
-
-What is more, Bright development time can be combined with our training budget, eg. you find a course -> the organisation supports you financially > you take bright development time to attend the course -> you create and share with the team a concise summary what you have learnt. 
+Once a month, we can spend 8 hours to implementing ideas that benefit both: us and the company. It's a great opportunity to develop our skills by improving company products, creating libraries, optimizing business and project processes, or conducting workshops for teams. This allows us to expand our knowledge, gain valuable experience, and contribute to increasing the company's efficiency.
 
 ## Pair programming
 
@@ -61,8 +59,6 @@ We have the opportunity to participate in free English classes with a profession
 ## Feedback 1:1s
 
 Apart from the above we have also regular feedback 1:1 meetings with our managers or team leaders, which are a great occasion to exchange ideas and learn. Depending on the needs the frequency of meetings may change. The main goal is to talk through current issue and plan further steps of development. 
-
-
 
 As you can see, there are quite a lot of learning initiatives and self-development opportunities in our organisation. Knowledge sharing is just a part of our Bright DNA. We have many opportunities to be able to grow and it depends on our which one we choose. 
 
