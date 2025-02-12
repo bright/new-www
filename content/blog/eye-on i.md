@@ -2,8 +2,8 @@
 author: rafal-op
 tags:
   - frontend
-date: 2025-02-12T09:49:16.846Z
-meaningfullyUpdatedAt: 2025-02-12T09:49:17.407Z
+date: 2025-02-12T10:13:40.481Z
+meaningfullyUpdatedAt: 2025-02-12T10:13:41.782Z
 slug: understanding-i-as-semantic-element
 title: Eye on 'i' - Understanding 'i' as a Semantic Element"
 layout: post
@@ -46,9 +46,9 @@ This indicates that "now" should be read with added emphasis.
 Unfortunately, despite carrying semantic meaning, the `<i>` element is still treated as plain text by many [popular accessibility tools](https://www.tpgi.com/screen-readers-support-for-text-level-html-semantics/). For instance, while Chrome DevTools identifies the `<em>` element and labels it as "emphasis," it categorizes the `<i>` element as "static text," placing it in the same category as a standard `<p>` element or a `<b>` element.
 
 
-
+<center>
 <div className="image">![Difference between i and em tag in chrome dev tools](/images/i-tag-a11y.png "")</div>
-
+</center>
 ## Summary
 
 The `<i>` tag, originally used for italic styling, now carries semantic meaning in modern HTML, indicating text in an alternate voice or mood, such as technical terms or idioms. While it differs from the `<em>` tag, which denotes emphasis, accessibility tools still often treat `<i>` as regular text, limiting its semantic impact. Understanding this distinction is crucial for better web development and accessibility practices.
