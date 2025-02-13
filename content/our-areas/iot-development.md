@@ -38,7 +38,7 @@ slug: iot-development
 short_description: We specialise in the Internet of Things solutions. We build
   IoT software for restaurants, retail, eHealth and fintech industries.
 order: 9
-title: discover the impact of IoT solutions
+title: discover the impact of IoT solutions company
 highlighted_word: IoT
 image_our_service_desktop: /images/iot_development_company_desktop_big.png
 image_our_service_mobile: /images/iot_ehealth_mobile.png
