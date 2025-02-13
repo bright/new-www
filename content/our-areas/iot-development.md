@@ -95,10 +95,11 @@ boxes:
       project.
     box_icon: /images/icon_pos_lp_no_feesx2.png
   - box_title: you represent the industrial sector
-    box_description: Do you plan to develop an **Industrial Internet of Things
-      (IIoT)** system that will connect different devices in industrial
-      settings? **Contact us to learn more about our expertise and experience
-      with IIoT**.
+    box_description: Looking to build an **Industrial Internet of Things (IIoT)**
+      system that connects devices in manufacturing or logistics? Our IoT
+      consulting services and IoT system integration services ensure optimal
+      efficiency, scalability, and **real-time data insights**. Contact us to
+      explore our experience in industrial IoT development.
     box_icon: /images/icon_pos_featuresx2.png
 language: en
 blog_section_tags:
