@@ -79,10 +79,12 @@ boxes:
       industry leaders like **Just Eat Takeaway.com**.
     box_icon: /images/icon_pos_lp_new_old_devicesx2.png
   - box_title: you represent the healthcare sector
-    box_description: We have developed and scaled **telemedicine solutions for
-      clients from the UK and Germany**. Our team has [integrated healthcare
-      applications with devices](/projects/remote-patient-monitoring/) as
-      Bluetooth thermometer, pulse oximeter and more.
+    box_description: We specialize in IoT healthcare solutions, having developed and
+      scaled **telemedicine applications for clients in the UK and Germany**.
+      Our expertise includes [IoT device
+      integration](/projects/remote-patient-monitoring/), such as Bluetooth
+      thermometers and pulse oximeters, ensuring secure IoT device monitoring
+      and real-time health data tracking.
     box_icon: /images/telemedicine_icon_update.png
   - box_title: you represent the fintech sector
     box_description: Do you want to develop an **app integrated with an external
