@@ -31,3 +31,9 @@ It was completely random. I wasn’t looking for a programming job – I was act
 ## You struck me as someone who enjoys diving into clients’ business domains. Why is that important to you?
 
 Perhaps it’s because software development was never my original career path, and the technical side of it has never been my primary focus. **What truly fascinates me is understanding how different industries operate** – often even more than the technical implementation itself.
+
+<div className="image">![Quote](/images/maciej_quote_tech_skills.png "")</div>
+
+Why? Because I see it as our mission as programmers. **No matter how advanced my technical skills are, they’re useless unless they solve real problems**. Code needs to have a purpose. Crafting code isn’t the main priority; delivering value through my work is. It also has to be simple to read so that my team members can easily work with it as well.
+
+**I’ve always been intrigued by the industries I’ve built software for** – how they function, how they use our tools, and whether our work truly makes their jobs easier. Do they actually need what we’re building? When you understand their domain, you can answer that difficult question.
