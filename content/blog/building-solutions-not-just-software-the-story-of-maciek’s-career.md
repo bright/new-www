@@ -58,4 +58,14 @@ I think I’m on the opposite side – I don’t find starting from scratch part
 
 There are so many “toys” on the market, and there’s always the temptation to try something new, but that can lead to poor outcomes. Naturally, when it comes to side projects, experimenting is fun and exciting. But when building a product for a client, **the real challenge is making crucial decisions without excessive delays**. Otherwise, there’s a risk of programmers getting caught up in endless debates about tech stacks while the client is still waiting for tangible results.
 
-For me, it’s easier to join an existing project that already has a structure – where some architectural and stack decisions have been made. They don’t have to be perfect; what matters is that I can focus more on the business domain and less on the technical aspects.
+For me, it’s easier to join an existing project that already has a structure – where some architectural and stack decisions have been made. **They don’t have to be perfect**; what matters is that I can focus more on the business domain and less on the technical aspects.
+
+## You are part of the team building a solution for the shipping industry. What are the challenges and specific aspects of building software for logistics?
+
+What strikes me the most is finding the right **balance between strict rules and regulations and the flexibility** that this industry still requires within those constraints.
+
+For example, a client might expect all transportation details to be entered before a driver starts the journey. However, in reality, there are cases where this isn’t possible, and our system must be flexible enough to accommodate missing information that will be provided later. This kind of flexibility isn’t easy to maintain within a rigid set of rules in the code. Yet, **the challenge is to design software that can handle both structured compliance requirements and the dynamic, ever-changing nature of logistics**.
+
+<div className="image">![During one of the team running workouts.](/images/maciej_team.png "During one of the team running workouts.")</div>
+
+<center> During one of the team running workouts.</center>
