@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: michal-wa
-ex: false
+ex: true
 slug: michal-wa
 name: Michał Walasiak
 short_name: Michał
