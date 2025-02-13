@@ -78,7 +78,7 @@ It’s a huge challenge because this type of race can go on for days, with very 
 
 This race is also part of my preparation for **my ultimate goal in 2025 – running a 100 km mountain race**. Unlike Backyard Ultra, that will be a more traditional race with a defined start, finish line, and direct competition with others.
 
-<div className="image">![After crossing the finish line Ultra Way in 2023 💪](/images/maciej_finish_line.png "After crossing the finish line Ultra Way in 2023 💪")</div>
+<div className="image">![After crossing the finish line Ultra Way in 2023. 💪](/images/maciej_finish_line.png "After crossing the finish line Ultra Way in 2023. 💪")</div>
 
 <center> After crossing the finish line Ultra-way in 2023 💪 </center>
 
