@@ -89,9 +89,9 @@ boxes:
   - box_title: you represent the fintech sector
     box_description: Need an app integrated with an **external card reader** or IoT
       security services for t**ransaction authorization**? We provide IoT
-      software development services for FinTech, including **IoT blockchain
-      solutions** for enhanced security. With extensive experience in IoT
-      product development services, we are ready to assist with your FinTech IoT
+      software development services for FinTech, including IoT blockchain
+      solutions for enhanced security. With extensive experience in IoT product
+      development services, we are ready to assist with your FinTech IoT
       project.
     box_icon: /images/icon_pos_lp_no_feesx2.png
   - box_title: you represent the industrial sector
