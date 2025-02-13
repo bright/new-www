@@ -59,7 +59,7 @@ bar_stack:
   - AWS
   - Figma
   - Miro
-button: let's talk about IoT
+button: explore IoT services
 button2: let's talk about IoT
 published: true
 show_case_study: true
