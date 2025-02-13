@@ -69,3 +69,15 @@ For example, a client might expect all transportation details to be entered befo
 <div className="image">![During one of the team running workouts.](/images/maciej_team.png "During one of the team running workouts.")</div>
 
 <center> During one of the team running workouts.</center>
+
+## As one of the top Bright runners, share with us your running goals for 2025.
+
+This year, I am planning to participate in the **Backyard Ultra** for the first time. It’s a unique competition where all runners must complete a loop of nearly 7 km in under an hour – and then do it again, and again, **until only one person remains**. Essentially, it’s a race where you are mostly competing with yourself, and you never know how long it will last. The world record is over 100 loops! My personal goal is to complete at least 10 loops.
+
+It’s a huge challenge because this type of race can go on for days, with very few supporters. Unlike traditional races where you feel the energy of the crowd, in Backyard Ultra, you run day and night, often alone. Mentally adjusting to these conditions is tough and very different from other races.
+
+This race is also part of my preparation for **my ultimate goal in 2025 – running a 100 km mountain race**. Unlike Backyard Ultra, that will be a more traditional race with a defined start, finish line, and direct competition with others.
+
+<div className="image">![After crossing the finish line Ultra-way in 2023 💪](/images/maciej_finish_line.png "After crossing the finish line Ultra-way in 2023 💪")</div>
+
+<center> After crossing the finish line Ultra-way in 2023 💪 </center>
