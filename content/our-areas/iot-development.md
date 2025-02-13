@@ -71,11 +71,17 @@ title_contact: book free consultation in 48 hours
 description_contact: Fill out the form below and we'll get back to you in 48 hours. Let's talk!
 boxes:
   - box_title: you represent the retail sector
-    box_description: As a retail business, you might need **various integrations
-      with point-of-sale system**. Our team has integrated hardware for[POS
+    box_description: >-
+      As a retail business, you might need **various integrations with
+      point-of-sale system**. Our team has integrated hardware for [POS
       applications for hospitality and
-      retail](/projects/system-for-restaurants-mobile) scaled for online food
+      retail](/projects/system-for-restaurants-mobile/) scaled for online food
       delivery giant **Just Eat Takeaway.com**.
+
+
+
+
+      Retail businesses benefit from IoT integration services that connect various systems, including point-of-sale (POS) systems. Our team has successfully integrated IoT hardware development services into POS applications for hospitality and retail, scaling solutions for industry leaders like Just Eat Takeaway.com.
     box_icon: /images/icon_pos_lp_new_old_devicesx2.png
   - box_title: you represent the healthcare sector
     box_description: We have developed and scaled **telemedicine solutions for
