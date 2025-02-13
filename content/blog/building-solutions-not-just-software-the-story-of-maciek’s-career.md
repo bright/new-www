@@ -49,3 +49,13 @@ If you’re passionate about something, you’ll find a way to learn more about 
 <div className="image">![At the Bright Inventions team retreat.](/images/maciej_team_retreat.png "At the Bright Inventions team retreat.")</div>
 
 <center> At the Bright Inventions team retreat. </center>
+
+## I’ve heard from some colleagues that starting a software product from scratch has many benefits. What is your take on that?
+
+I think I’m on the opposite side – I don’t find starting from scratch particularly appealing. At the beginning of a project, **there are so many possibilities and directions** to take that it can feel paralyzing. You’re unsure which technology to choose, and you need to go through a well-thought-out decision-making process. At the same time, you need a **high level of self-discipline to avoid getting lost in endless deliberations**.
+
+<div className="image">![Quote](/images/maciek_quote_new_project.png "")</div>
+
+There are so many “toys” on the market, and there’s always the temptation to try something new, but that can lead to poor outcomes. Naturally, when it comes to side projects, experimenting is fun and exciting. But when building a product for a client, **the real challenge is making crucial decisions without excessive delays**. Otherwise, there’s a risk of programmers getting caught up in endless debates about tech stacks while the client is still waiting for tangible results.
+
+For me, it’s easier to join an existing project that already has a structure – where some architectural and stack decisions have been made. They don’t have to be perfect; what matters is that I can focus more on the business domain and less on the technical aspects.
