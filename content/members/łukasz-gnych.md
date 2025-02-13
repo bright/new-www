@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: lukasz-gn
-ex: false
+ex: true
 slug: lukasz-gn
 name: Łukasz Gnych
 short_name: Łukasz
