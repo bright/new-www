@@ -3,11 +3,11 @@ team_members:
   - fjablonski
   - piotr_r
   - kasia
-  - wojciech
   - rafal h
   - mateusz
   - lukasz
   - michal-d
+  - cezary
 faqs:
   - "What does IoT mean? "
   - What are IoT devices?
