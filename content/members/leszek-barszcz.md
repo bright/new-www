@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: leszek-b
-ex: false
+ex: true
 slug: leszek-b
 name: Leszek Barszcz
 short_name: Leszek
