@@ -81,3 +81,11 @@ This race is also part of my preparation for **my ultimate goal in 2025 – runn
 <div className="image">![After crossing the finish line Ultra-way in 2023 💪](/images/maciej_finish_line.png "After crossing the finish line Ultra-way in 2023 💪")</div>
 
 <center> After crossing the finish line Ultra-way in 2023 💪 </center>
+
+## Do you see any similarities between long-distance running and software development?
+
+Oh yes! In both, so many things can happen – **you experience moments of euphoria when everything runs smoothly, and then there are tough crises**. But if you push through those difficult moments, you somehow find extra strength, just like your legs do in a long race.
+
+I think it's **similar when working on a long-term project**. There are always dull periods, and that's when some people start looking for other projects. Not everyone wants to go through the boring or challenging phases. We often justify it by saying we need a change for self-development, and while that might be a rationalization, sometimes we’re simply **chasing the excitement of something new**.
+
+I believe that if you push through these tough moments, something rewarding and exciting will eventually come – and with it, a deep sense of satisfaction.
