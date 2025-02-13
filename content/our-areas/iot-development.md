@@ -87,12 +87,12 @@ boxes:
       and real-time health data tracking.
     box_icon: /images/telemedicine_icon_update.png
   - box_title: you represent the fintech sector
-    box_description: Do you want to develop an **app integrated with an external
-      card reader**? Or need devices and software that are going to authorize
-      the transactions? **We have worked with hardware for FinTech and we are
-      ready to assist you with your fintech IoT project**. What is more, as
-      blockchain experts we offer to develop your IoT solutions with blockchain
-      technology.
+    box_description: Need an app integrated with an **external card reader** or IoT
+      security services for t**ransaction authorization**? We provide IoT
+      software development services for FinTech, including **IoT blockchain
+      solutions** for enhanced security. With extensive experience in IoT
+      product development services, we are ready to assist with your FinTech IoT
+      project.
     box_icon: /images/icon_pos_lp_no_feesx2.png
   - box_title: you represent the industrial sector
     box_description: Do you plan to develop an **Industrial Internet of Things
