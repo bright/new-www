@@ -3,8 +3,8 @@ author: maciej-s
 secondAuthor: izabela
 tags:
   - bright insights
-date: 2025-02-13T09:05:09.158Z
-meaningfullyUpdatedAt: 2025-02-13T09:05:09.191Z
+date: 2025-02-13T10:03:32.250Z
+meaningfullyUpdatedAt: 2025-02-13T10:03:33.010Z
 slug: building-solutions-not-software-career-story
 title: "Building Solutions, Not Just Software: The Story of Maciek’s Career"
 layout: post
