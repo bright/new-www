@@ -42,11 +42,11 @@ title: discover the impact of IoT solutions company
 highlighted_word: IoT
 image_our_service_desktop: /images/iot_development_company_desktop_big.png
 image_our_service_mobile: /images/iot_ehealth_mobile.png
-image_alt_our_service: IoT company
+image_alt_our_service: Internet of Things service provider
 bullet_points:
-  - scaling your business from MVP to global solution
-  - combining smart devices into a unified system
-  - aligning your business goals with the right tech
+  - scale your solution with IoT development services
+  - unify smart devices with IoT integration services
+  - meet strategic goals with IoT consulting
 bar_stack:
   - Bluetooth LE
   - iBeacon
