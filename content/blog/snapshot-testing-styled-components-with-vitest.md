@@ -19,6 +19,8 @@ When testing styled-components in Vitest, you might find the following limitatio
 
 When the styles change, the diff will show only a different hash value, without an indication of what actually changed. Moreover, these hashed class names are unstable and can change even when the component wasn't modified, simply because something else in the file has changed - for instance the position of the component in the file.
 
+## Example of the issue
+
 For instance, let's use this styled component:
 
 ```tsx
