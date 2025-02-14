@@ -100,17 +100,8 @@ export class Website extends cdk.Stack {
         {
           pathPattern: '/ebooks/*', // this prefix must match ebooks s3 bucket content
         },
-      ],
-    }
-
-    const slideshowDownloadOrigin: SourceConfiguration = {
-      s3OriginSource: {
-        s3BucketSource: props.ebooksBucket,
-        originAccessIdentity: props.ebooksOriginAccessIdentity,
-      },
-      behaviors: [
         {
-          pathPattern: '/slideshow/*',
+          pathPattern: '/slideshow/*', // this prefix must match ebooks s3 bucket content
         },
       ],
     }
@@ -175,7 +166,6 @@ export class Website extends cdk.Stack {
       priceClass: PriceClass.PRICE_CLASS_ALL,
       originConfigs: [
         ebooksDownloadOrigin,
-        slideshowDownloadOrigin,
         apiOrigin,
         {
           // we don't use s3 origin as gatsby-s3-deploy features will not work
@@ -201,7 +191,6 @@ export class Website extends cdk.Stack {
       priceClass: PriceClass.PRICE_CLASS_ALL,
       originConfigs: [
         ebooksDownloadOrigin,
-        slideshowDownloadOrigin,
         apiOrigin,
         {
           // we don't use s3 origin as gatsby-s3-deploy features will not work
