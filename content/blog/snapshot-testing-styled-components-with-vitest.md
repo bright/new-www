@@ -31,7 +31,7 @@ const Container = styled.div`
 
 Vitest generates a snapshot that has no information about the style rules:
 
-```
+```jsx
 exports[`Container > should match snapshot 1`] = `
 <div>
   <div
@@ -43,7 +43,7 @@ exports[`Container > should match snapshot 1`] = `
 
 When the styles change, you'll get the following error:
 
-```
+```jsx
 - class="sc-KXCwU cThALf"
 + class="sc-KXCwU eyGbxi"
 ```
@@ -52,7 +52,7 @@ When the styles change, you'll get the following error:
 
 The Jest community identified this issue and solved it with the `jest-styled-components` library. This library extends snapshots with the actual CSS rules. For example:
 
-```
+```jsx
 exports[`Container > should match snapshot 1`] = `
 .c0 {
   background-color: red;
@@ -68,7 +68,7 @@ exports[`Container > should match snapshot 1`] = `
 
 When something change, you'll see the details in the output. The tests are stable now and will not fail due to a different hash value.
 
-```
+```jsx
   - Expected  - 1
   + Received  + 1
 
@@ -110,7 +110,7 @@ export default defineConfig({
 
 Now, when you run the tests, the snapshot will contain the actual CSS rules:
 
-```
+```jsx
 exports[`Container > should match snapshot 1`] = `
 .c0 {
   background-color: red;
