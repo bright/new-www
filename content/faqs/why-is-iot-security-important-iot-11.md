@@ -2,7 +2,7 @@
 layout: faqs
 faqs_id: Why is IoT security important? IoT 11
 name: Why is IoT security important? IoT 11
-slug: iot-security-importance
+slug: why-is-iot-security-important
 question: Why is IoT security important?
 answer: With increasing connectivity, **IoT security solutions providers** help
   businesses safeguard their networks against cyber risks. Secure **IoT cloud
