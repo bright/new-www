@@ -9,6 +9,7 @@ date: 2025-02-14T07:12:34.731Z
 meaningfullyUpdatedAt: 2025-02-14T07:12:34.757Z
 title: Snapshot testing styled-components with Vitest
 layout: post
+image: /images/snapshot-testing-background.jpg
 hidden: false
 comments: false
 published: true
