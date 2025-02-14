@@ -1,7 +1,7 @@
 ---
 layout: faqs
-faqs_id: Who provides IoT hardware development? IoT 12
-name: Who provides IoT hardware development? IoT 12
+faqs_id: Who provides IoT hardware development? IoT 13
+name: Who provides IoT hardware development? IoT 13
 slug: who-provides-iot-hardware-development
 question: Who provides IoT hardware development?
 answer: Businesses looking for **IoT device development services** collaborate
