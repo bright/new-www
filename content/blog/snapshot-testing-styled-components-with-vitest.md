@@ -84,7 +84,7 @@ While I couldn't find a similar library for Vitest, I came with the idea of usin
 
 To use it, add `jest-styled-components` to the dev dependencies. Then, configure `expect` to use the serializer:
 
-```ts
+```typescript
 import { expect } from "vitest"
 import { styleSheetSerializer } from "jest-styled-components/serializer"
 
@@ -98,7 +98,7 @@ There are two places where you can add this code:
 1. In the test file, before the tests are run.
 2. In the global setup for the tests. To do this, you need to create a `vitest.config.ts` file in the root of the project and configure it to run the setup file before tests:
 
-```ts
+```typescript
 export default defineConfig({
   test: {
     setupFiles: './src/setupTests.ts',
