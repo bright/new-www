@@ -76,7 +76,7 @@ When something change, you'll see the details in the output. The tests are stabl
     }
 ```
 
-Usin
+## Using Jest's serializer in Vitest
 
 While I couldn't find a similar library for Vitest, I came with the idea of using the serializer from `jest-styled-components` in Vitest. This way, we may achieve the same result.
 
@@ -88,6 +88,8 @@ import { styleSheetSerializer } from "jest-styled-components/serializer"
 
 expect.addSnapshotSerializer(styleSheetSerializer)
 ```
+
+## Where to add the configuration
 
 There are two places where you can add this code:
 
@@ -101,6 +103,8 @@ export default defineConfig({
   },
 })
 ```
+
+## Final snapshot output
 
 Now, when you run the tests, the snapshot will contain the actual CSS rules:
 
