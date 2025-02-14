@@ -35,6 +35,7 @@ groups:
           - xss
           - javascript
           - JavaScript
+          - React
       - name: iOS
         # /blog/topics/development/iOS
         tags:
