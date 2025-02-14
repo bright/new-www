@@ -46,6 +46,8 @@ When the styles change, you'll get the following error:
 + class="sc-KXCwU eyGbxi"
 ```
 
+## How Jest solved this problem
+
 The Jest community identified this issue and solved it with the `jest-styled-components` library. This library extends snapshots with the actual CSS rules. For example:
 
 ```
@@ -73,6 +75,8 @@ When something change, you'll see the details in the output. The tests are stabl
   +   background-color: blue;
     }
 ```
+
+Usin
 
 While I couldn't find a similar library for Vitest, I came with the idea of using the serializer from `jest-styled-components` in Vitest. This way, we may achieve the same result.
 
