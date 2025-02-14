@@ -1,17 +1,18 @@
 import * as cdk from 'aws-cdk-lib'
 import { Arn, CfnOutput, Duration, RemovalPolicy } from 'aws-cdk-lib'
 import { Bucket, IBucket } from 'aws-cdk-lib/aws-s3'
-import cloudfront, {
+import {
   Behavior,
   CloudFrontAllowedMethods,
-  CloudFrontWebDistribution, FunctionCode,
+  CloudFrontWebDistribution,
+  Function as CloudfrontFunction,
+  FunctionCode,
   FunctionEventType,
   OriginAccessIdentity,
   OriginProtocolPolicy,
+  PriceClass,
   SourceConfiguration,
-  ViewerCertificate,
-  Function as CloudfrontFunction,
-  PriceClass
+  ViewerCertificate
 } from 'aws-cdk-lib/aws-cloudfront'
 import { Effect, PolicyStatement, User } from 'aws-cdk-lib/aws-iam'
 import { productionDomainNames, stagingDomainNames } from './domain-names'
@@ -102,6 +103,18 @@ export class Website extends cdk.Stack {
       ],
     }
 
+    const slideshowDownloadOrigin: SourceConfiguration = {
+      s3OriginSource: {
+        s3BucketSource: props.ebooksBucket,
+        originAccessIdentity: props.ebooksOriginAccessIdentity,
+      },
+      behaviors: [
+        {
+          pathPattern: '/slideshow/*',
+        },
+      ],
+    }
+
     const apiOrigin: SourceConfiguration = {
       customOriginSource: {
         domainName: apiEndPointDomainName,
@@ -138,7 +151,10 @@ export class Website extends cdk.Stack {
       outfile: pathWithExt(preserveUriParametersOnRedirectPath, '.js'),
       platform: 'node',
     })
-    const preserveUriParametersOnRedirectCompiled = fs.readFileSync(pathWithExt(preserveUriParametersOnRedirectPath, '.js'), 'utf-8')
+    const preserveUriParametersOnRedirectCompiled = fs.readFileSync(
+      pathWithExt(preserveUriParametersOnRedirectPath, '.js'),
+      'utf-8'
+    )
 
     const staticContentBehavior: Behavior = {
       isDefaultBehavior: true,
@@ -151,14 +167,15 @@ export class Website extends cdk.Stack {
           function: new CloudfrontFunction(this, 'preserve-uri-parameters-on-redirect', {
             code: FunctionCode.fromInline(preserveUriParametersOnRedirectCompiled),
           }),
-        }
-      ]
+        },
+      ],
     }
 
     const productionWebDistribution = new CloudFrontWebDistribution(this, 'distribution', {
       priceClass: PriceClass.PRICE_CLASS_ALL,
       originConfigs: [
         ebooksDownloadOrigin,
+        slideshowDownloadOrigin,
         apiOrigin,
         {
           // we don't use s3 origin as gatsby-s3-deploy features will not work
@@ -184,6 +201,7 @@ export class Website extends cdk.Stack {
       priceClass: PriceClass.PRICE_CLASS_ALL,
       originConfigs: [
         ebooksDownloadOrigin,
+        slideshowDownloadOrigin,
         apiOrigin,
         {
           // we don't use s3 origin as gatsby-s3-deploy features will not work
@@ -193,9 +211,7 @@ export class Website extends cdk.Stack {
             domainName: stagingBucket.bucketWebsiteDomainName,
             originProtocolPolicy: OriginProtocolPolicy.HTTP_ONLY,
           },
-          behaviors: [
-            staticContentBehavior,
-          ],
+          behaviors: [staticContentBehavior],
         },
       ],
       viewerCertificate: ViewerCertificate.fromAcmCertificate(certificate, {
@@ -286,6 +302,6 @@ export class Website extends cdk.Stack {
   }
 }
 
-function pathWithExt(filePath: string, ext: string ) {
+function pathWithExt(filePath: string, ext: string) {
   return path.format({ ...path.parse(filePath), base: '', ext })
 }
