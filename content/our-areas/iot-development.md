@@ -19,6 +19,12 @@ faqs:
   - Do you provide AWS IoT services?
   - Are you an IoT product design company?
   - What are IoT security services and do you provide them?
+  - What are IoT cloud services? IoT 12
+  - Why is IoT security important? IoT 11
+  - What is IoT analytics? IoT 14
+  - What is IoT integration? IoT
+  - Who provides IoT consulting services? IoT
+  - Who provides IoT hardware development? IoT 13
 project:
   - Remote Patient Monitoring
   - MedKitDoc
