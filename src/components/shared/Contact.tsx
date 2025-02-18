@@ -1,5 +1,6 @@
 import React, { useState, FC, useRef } from 'react'
 import { routeLinks } from '../../config/routing'
+import { FormType, sendMail } from '../../helpers/mail'
 import { deviceSize } from '../../styles/variables'
 import { JobApplicationModal } from '../forms/job-application/job-application-modal'
 import {
@@ -14,6 +15,7 @@ import {
   FormHeader, FormErrorMessage
 } from './contact/styles'
 import { CustomSectionTitle, MoreButton } from './index'
+import { trackConversion, trackCustomEvent } from '../../analytics/track-custom-event'
 import { TickIcon } from '../icons/Tick.icon'
 import { useTranslation } from 'react-i18next'
 import { RoundedImage } from '../../our-services/Studio.styled'
@@ -49,85 +51,59 @@ export const Contact: FC<ContactProps> = ({
   const { width } = useWindowSize()
   const isClient = useClient()
 
-  const reCaptchaElement: any = useRef<any>(null);
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
 
   const checkValid = (): boolean => {
     return checkedRules && name && email ? true : false
+  }
+
+  const isReCaptchaValid = async (): Promise<boolean> => {
+    const token = await recaptchaRef!.current!.executeAsync();
+    // TODO Regenerate OpenAPI and use new verifyCaptcha endpoint
+    return false; //TODO Return true if score from response is >= 0.5
   }
 
   const onFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     setIsSending(true)
 
     e.preventDefault()
-    // if (!checkValid()) {
-    //   return
-    // }
-
-    if (!reCaptchaElement.current) {
-      console.error("reCAPTCHA nie jest gotowa");
-      return;
+    if (!checkValid() || !await isReCaptchaValid()) {
+      return
     }
 
-
-    try {
-      const token = await reCaptchaElement.current.executeAsync();
-      console.log("Token reCAPTCHA:", token);
-
-      if (!token) {
-        alert("Błąd reCAPTCHA");
-        return;
-      }
-
-      const response = await fetch("/api/verifyRecaptcha", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ token }),
-      });
-
-      const result = await response.json();
-      console.log("Google reCAPTCHA wynik:", result);
-
-      if (result.success) {
-        alert("Formularz wysłan");
-      } else {
-        alert("Nie udało się zweryfikować reCAPTCHA.");
-      }
-    } catch (error) {
-      console.error("Błąd reCAPTCHA:", error);
-    }
     setIsSending(true)
 
-    // sendMail(
-    //   {
-    //     name: name,
-    //     email: email,
-    //     message: message,
-    //   },
-    //   FormType.contact
-    // )
-    //   .then(() => {
-    //     setError(false)
-    //     setSuccess(true)
-    //     setIsSending(false)
-    //   })
-    //   .catch(err => {
-    //     console.error(err)
-    //     setError(true)
-    //     setSuccess(false)
-    //     setIsSending(false)
-    //   })
+    sendMail(
+      {
+        name: name,
+        email: email,
+        message: message,
+      },
+      FormType.contact
+    )
+      .then(() => {
+        setError(false)
+        setSuccess(true)
+        setIsSending(false)
+      })
+      .catch(err => {
+        console.error(err)
+        setError(true)
+        setSuccess(false)
+        setIsSending(false)
+      })
 
-    // trackConversion({
-    //   sent_to: 'AW-10942749476/AYShCMDh58sDEKS29OEo',
-    // }).then(() => console.log('Business contact form conversion sent'))
+    trackConversion({
+      sent_to: 'AW-10942749476/AYShCMDh58sDEKS29OEo',
+    }).then(() => console.log('Business contact form conversion sent'))
 
-    // uet_report_conversion()
-    //
-    // trackCustomEvent({
-    //   category: formButton,
-    //   eventName: actionFormButton,
-    //   label: window.location.href,
-    // })
+    uet_report_conversion()
+
+    trackCustomEvent({
+      category: formButton,
+      eventName: actionFormButton,
+      label: window.location.href,
+    })
   }
 
   const closeModal = () => {
@@ -218,8 +194,8 @@ export const Contact: FC<ContactProps> = ({
             </PrivacyPolicyCheckboxContainer>
 
             <ReCAPTCHA
-              ref={reCaptchaElement}
-              sitekey='6LeW6NMqAAAAACnLB-LKRUHBkTva5oc7uJtEomYx'
+              ref={recaptchaRef}
+              sitekey='6Lf80doqAAAAAJa2ReybrabGvMunSubWjVLE3vIg'
               size='invisible'
             />
 
