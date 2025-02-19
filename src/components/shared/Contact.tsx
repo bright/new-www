@@ -23,8 +23,8 @@ import { StaticImage } from 'gatsby-plugin-image'
 import { useWindowSize } from '../utils/use-windowsize'
 import { useClient } from '../../hooks/useClient'
 import ReCAPTCHA from 'react-google-recaptcha'
-import { VerifyRecaptchaOperationRequest, VerifyRecaptchaRequest } from '../../../api-client'
-import { apiClient } from '../../../api-client/client'
+import ReCaptcha from '../recaptcha/ReCaptcha'
+import { isReCaptchaValid } from '../recaptcha/recaptcha-verification'
 
 export interface ContactProps {
   title?: string
@@ -59,24 +59,18 @@ export const Contact: FC<ContactProps> = ({
     return checkedRules && name && email ? true : false
   }
 
-  const isReCaptchaValid = async (): Promise<boolean> => {
-    const token = await recaptchaRef!.current!.executeAsync();
-    const verifyRecaptchaRequest: VerifyRecaptchaRequest = {
-      token: token!
-    }
-    const verifyRecaptchaOperationRequest: VerifyRecaptchaOperationRequest = {
-      verifyRecaptchaRequest: verifyRecaptchaRequest
-    }
-    const response = await apiClient.verifyRecaptcha(verifyRecaptchaOperationRequest)
-    const score: number = Number(response.score)
-    return score >= 0.5;
-  }
-
   const onFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     setIsSending(true)
 
     e.preventDefault()
-    if (!checkValid() || !await isReCaptchaValid()) {
+    if (!checkValid()) {
+      return
+    }
+
+    if (!await isReCaptchaValid(recaptchaRef)) {
+      setError(true)
+      setSuccess(false)
+      setIsSending(false)
       return
     }
 
@@ -202,12 +196,6 @@ export const Contact: FC<ContactProps> = ({
                 {t('and agree to receive communications from Bright Inventions.', { ns: 'other copy' })}</span>
             </PrivacyPolicyCheckboxContainer>
 
-            <ReCAPTCHA
-              ref={recaptchaRef}
-              sitekey='6Lf80doqAAAAAJa2ReybrabGvMunSubWjVLE3vIg'
-              size='invisible'
-            />
-
             {isSending ? (
               <Loader className='loader'></Loader>
             ) : (
@@ -221,6 +209,9 @@ export const Contact: FC<ContactProps> = ({
                 <a href='mailto:info@bright.dev?subject=bright%20mail'>info@bright.dev</a>
               </ContactTextRegular>
             </div>
+
+            <ReCaptcha recaptchaRef={recaptchaRef} />
+
           </Form>
           {success && (
             <JobApplicationModal
