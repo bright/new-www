@@ -23,6 +23,8 @@ import { StaticImage } from 'gatsby-plugin-image'
 import { useWindowSize } from '../utils/use-windowsize'
 import { useClient } from '../../hooks/useClient'
 import ReCAPTCHA from 'react-google-recaptcha'
+import { VerifyRecaptchaOperationRequest, VerifyRecaptchaRequest } from '../../../api-client'
+import { apiClient } from '../../../api-client/client'
 
 export interface ContactProps {
   title?: string
@@ -59,8 +61,15 @@ export const Contact: FC<ContactProps> = ({
 
   const isReCaptchaValid = async (): Promise<boolean> => {
     const token = await recaptchaRef!.current!.executeAsync();
-    // TODO Regenerate OpenAPI and use new verifyCaptcha endpoint
-    return false; //TODO Return true if score from response is >= 0.5
+    const verifyRecaptchaRequest: VerifyRecaptchaRequest = {
+      token: token!
+    }
+    const verifyRecaptchaOperationRequest: VerifyRecaptchaOperationRequest = {
+      verifyRecaptchaRequest: verifyRecaptchaRequest
+    }
+    const response = await apiClient.verifyRecaptcha(verifyRecaptchaOperationRequest)
+    const score: number = Number(response.score)
+    return score >= 0.5;
   }
 
   const onFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
