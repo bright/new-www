@@ -26,40 +26,36 @@ The nice thing about emergency medicine is that you don't have patients that fol
 
 ## **That should be my next question. What's your mission?**
 
-My mission is very simple. It's to impact the health of as many people as possible. While I'm in the emergency department, I may see 20 to 30 patients a day. But if I can help with a policy decision or work with a company impacting people's lives, then I'm now impacting lots of lives. For example, during the COVID pandemic, I was the National COVID Task Force Leader at my old company, doing television shows, radio interviews, and op-eds about how to protect people and keep them safe. Being able to have that platform had the potential impact of millions. I wanted to take that experience and translate it into other forms of impact.
+My mission is very simple. It's to impact the health of as many people as possible. While I'm in the emergency department, I may see 20 to 30 patients a day. But if I can help with a policy decision or work with a company impacting people's lives, then I'm now impacting lots of lives. For example, during the COVID pandemic, I was the National COVID Task Force Leader at my old company, doing television shows, radio interviews, and op-eds about how to protect people and keep them safe. **Being able to have that platform had the potential impact of millions. I wanted to take that experience and translate it into other forms of impact.**
 
-It seems quite difficult. How do you stay motivated?
+## **It seems quite difficult. How do you stay motivated?**
 
-Seeing success and the effort of your work. One of the things that drives me is seeing that the work I've done has had a positive impact. Whether it's hearing from someone who's read my op-eds or doctors who say, "That resonates with me," or talking with my former and current students who say, "Dr. Brown, that was an amazing class." We have to remember that our jobs and roles as leaders likely have more impact on healthcare than physicians. The environment we create, the system we build, the benefits we use at our place of employment, and the policies we advocate for have a real impact on people's day-in and day-out lives. Encouraging business leaders to think empathically and recognize the health connections in their policies is key. It's encouraging to see former students say, "I took your course, learned from it, and now we're implementing it at my job.”
+Seeing success and the effort of your work. One of the things that drives me is seeing that the work I've done has had a positive impact. Whether it's hearing from someone who's read my op-eds or doctors who say, "That resonates with me," or talking with my former and current students who say, "Dr. Brown, that was an amazing class." **We have to remember that our jobs and roles as leaders likely have more impact on healthcare than physicians.** The environment we create, the system we build, the benefits we use at our place of employment, and the policies we advocate for have a real impact on people's day-in and day-out lives. Encouraging business leaders to think empathically and recognize the health connections in their policies is key. It's encouraging to see former students say, "I took your course, learned from it, and now we're implementing it at my job.”
 
-Can you say something about the Research Triangle?
+## **Can you say something about the Research Triangle?**
 
-Sure. In North Carolina, the Research Triangle is made up of three anchor universities: North Carolina State University, the University of North Carolina at Chapel Hill, and Duke University. The area is surrounded by these strong universities with excellent talent, research capabilities, and funding, making it a hub of innovation in the United States and abroad, especially in biotech and pharmaceuticals. At UNC, we started the Center for the Business of Health, where I'm the co-lead. We bring together physicians, nurses, public health practitioners, pharmacy practitioners, and business students and professors to solve healthcare problems. The ability to pull together different stakeholders from various industries with a common goal of improving health is a significant strength. We're tackling issues like the price of innovation, the implications of price on the healthcare workforce, and the future of the healthcare workforce.
+Sure. In North Carolina, the Research Triangle is made up of three anchor universities: North Carolina State University, the University of North Carolina at Chapel Hill, and Duke University. The area is surrounded by these strong universities with excellent talent, research capabilities, and funding, making it a hub of innovation in the United States and abroad, especially in biotech and pharmaceuticals. At UNC, we started the Center for the Business of Health, where I'm the co-lead. We bring together physicians, nurses, public health practitioners, pharmacy practitioners, and business students and professors to solve healthcare problems. **The ability to pull together different stakeholders from various industries with a common goal of improving health is a significant strength**. We're tackling issues like the price of innovation, the implications of price on the healthcare workforce, and the future of the healthcare workforce.
 
-I saw that you often mention interoperability. Why is it crucial in the e-health sector?
+## **I saw that you often mention interoperability. Why is it crucial in the e-health sector?**
 
-Very simply, the ability for different systems to communicate has a profound impact on patients getting the right care. One of the biggest challenges in the US is our disparate electronic healthcare systems (EHRs). Every hospital has a different system. Even though there are major EHR vendors with large market portions, communication between vendors can be challenging. This can lead to problems like patients getting the wrong medications or duplicative studies. Interoperability benefits patients by improving quality and reducing costs. However, some people have no operability at all—they lack access to digital platforms. There are huge disparities in healthcare in the US, often tied to education and financial ability, but there's also a digital component. Without broadband, phone, or computer access, integrating into healthcare systems is impossible.
+**Very simply, the ability for different systems to communicate has a profound impact on patients getting the right care.** One of the biggest challenges in the US is our disparate electronic healthcare systems (EHRs). Every hospital has a different system. Even though there are major EHR vendors with large market portions, communication between vendors can be challenging. This can lead to problems like patients getting the wrong medications or duplicative studies. Interoperability benefits patients by improving quality and reducing costs. However, some people have no operability at all—they lack access to digital platforms. There are huge disparities in healthcare in the US, often tied to education and financial ability, but there's also a digital component. Without broadband, phone, or computer access, integrating into healthcare systems is impossible.
 
-What is your most important advice for a startup or scale-up owner entering the US market?
+## **What is your most important advice for a startup or scale-up owner entering the US market?**
 
 First, understand the market. It sounds simple, but the buyers can be confusing. For example, some companies want to work with a healthcare system but need to be selling to a payer. Or they aim to work with physicians, not recognizing that about 80% of physician groups are employed by hospital systems or payers. Understanding the buyer and payer dynamics is crucial. The regulatory space is another challenge. Having FDA approval is not enough—you also need CMS and Medicaid approval to pay for your product or device. Without this, your product or service won't be implemented or used in the US.
 
-And what about your free time? Apart from skiing in Austria, I suppose.
+## **And what about your free time? Apart from skiing in Austria, I suppose.**
 
 I work out every day. I'm a weightlifter and I also teach a spin class.
 
-Spin class? So like SoulCycle?
+## **Spin class? So like SoulCycle?**
 
 Spinning. Exactly. I teach one class a week.
 
-Oh my God, a lot of different tasks!
+## **Oh my God, a lot of different tasks!**
 
 I'm very involved in politics as well. I work for political candidates as part of my impact efforts. I have a Great Dane, a big, massive 175-pound dog, who takes up a lot of my time. And I travel a lot too. The nice thing about digital platforms now, and what the pandemic has taught us, is that we can be more mobile in our meeting times. I've been able to have clients from all over the world and conduct meetings in different time zones. So that allows me to have time to cycle, teach spin classes, ski, and of course, continue being a doctor.
 
-That's really impressive.
+## **That's really impressive. Thank you for your time.**
 
-Well, thank you.
-
-Thank you for your time.
-
-Of course, it was a pleasure.
+Well, thank you, it was a pleasure.
