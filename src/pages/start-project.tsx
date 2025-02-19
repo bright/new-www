@@ -107,7 +107,7 @@ const StartProjectPage: React.FC = () => {
               , as an integral part of our company, not only to deliver in the right quality, but be proactive,
               contribute from their to help us shape the company’s R&D and product.
             </QuoteTextRegular>
-            <SignatureQuote>Kobi Avriel - VP R&D at Circles</SignatureQuote>
+            <SignatureQuote>Kobi Avriel - Former VP R&D at Circles</SignatureQuote>
           </FlexWrapper>
           <StartProjectContact
             formButton='Business Contact Form Button'
