@@ -76,7 +76,7 @@ With Circles iOS or Android app, **users can easily join audio meetings led by m
 
 We also developed **numerous custom features to enhance the audio room experience, including user reactions, caller queuing, a call moderator panel, and an in-built chat**. Beyond group therapy sessions, Circles provides **continuous interaction with therapists** and a **personalized mental health plan** developed by its experts.
 
-<div className="image">![Client's review](../../static/images/case_study_circles_client_quote.png "Client's review")</div>
+<div className="image">![Client's review](/images/case_study_circles_client_quote_update.png "Client's review")</div>
 
 <TitleWithIcon sectionTitle="challenge: adapting to the rapid growth of the user base" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
 
@@ -88,7 +88,7 @@ We also developed **numerous custom features to enhance the audio room experienc
 
 <TitleWithIcon sectionTitle="Circles’ perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Circles’ perspective" />
 
-**Kobi Avriel – VP R&D at Circles**
+**Kobi Avriel – Former VP R&D at Circles**
 
 *We have found Bright Inventions to be a professional group of people that we feel we can trust, as an integral part of our company, not only to deliver in the right quality, but be proactive, contributing from their experience to help us shape the company’s R&D and product. Their ability to source experts has been exceptional.*   
 
