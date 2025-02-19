@@ -22,3 +22,18 @@ language: en
 * How to use Hazard Stories and Risk Backlogs to identify and track risks.
 * The difference between low, medium, and high-risk apps—and what each requires.
 * Practical strategies to balance agility, compliance, and security in HealthTech.
+
+## The author
+
+**Kasia Łukasiewicz, Ph.D.,**
+Senior Project Manager at Bright Inventions
+
+A business analyst, project manager, and Agile expert with over a decade of experiencein software consulting and mentoring. She holds a Ph.D. for developing AgileSafe, a method for integrating Agile practices into safety-critical software development. A lecturer at Gdańsk University of Technology and active contributor to the Agile community. 
+
+## Guest authors
+
+**Aahuti Rai**
+Healthcare Innovation, NED & Advisor, Venture Partner & Connector
+
+**Adam Brown, MD MBA**
+Founder @ABIG Health
