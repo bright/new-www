@@ -16,7 +16,7 @@ language: en
 ---
 **With so many sign-in authentication methods, it might be difficult to choose the right one for your solution. Making a bad decision can decrease your users' experience and eventually harm your business. Download the ebook and discover all sign-in options. Finally, follow the decision tree to choose the ultimate authentication method for your application. Get this free ebook now!**
 
-<EbookDynamic sectionTitle='Download the free ebook now' ebookName='Optimise-Sign-In-Experience.pdf' ebookDescription='If you are a product owner, head of product or CTOs this might be a must-have read for you. Explore top authentication methods and choose the best ones for your solution with this ebook.' ebookImage='/images/cover-sign-in-ebook.png' ebookAlt='ebook sign-in cover' />
+<EbookDynamic sectionTitle='Download the free ebook now' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription='If you are a product owner, head of product or CTOs this might be a must-have read for you. Explore top authentication methods and choose the best ones for your solution with this ebook.' ebookImage='/images/cover-sign-in-ebook.png' ebookAlt='ebook sign-in cover' />
 
 ## What’s inside the sign-in experience ebook?
 
