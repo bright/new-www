@@ -3,8 +3,8 @@ author: kasia
 secondAuthor: izabela
 tags:
   - HealthTech
-date: 2025-02-19T13:58:50.403Z
-meaningfullyUpdatedAt: 2025-02-19T13:58:50.424Z
+date: 2025-02-20T08:51:11.129Z
+meaningfullyUpdatedAt: 2025-02-20T08:51:11.750Z
 slug: healthcare-risk-management-ebook
 title: Risk Management in Healthcare [PDF]. Download Free Ebook
 layout: post
@@ -16,9 +16,7 @@ language: en
 ---
 **Ignoring risk doesn’t make it disappear—it only increases the chances of security breaches, compliance failures, and costly delays. That’s why I created "Risk Management in eHealth – The Agile Way", a free guide that helps healthcare software teams stay agile while maintaining safety and compliance.**
 
-
 <EbookDynamic sectionTitle='get free ebook' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription='Must have ebook for devs and app owners written by Rafał Hofman, a software developer and security expert. All tools listed in the e-book are open-source or offer free plans.'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
-
 
 ## What You’ll Learn About Risk Management in Healthcare:
 
