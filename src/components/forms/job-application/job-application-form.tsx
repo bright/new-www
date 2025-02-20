@@ -223,7 +223,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
         }, 5000)
         return
       } else if (!await isReCaptchaValid(recaptchaRef)) {
-        setErrorMsgValidation('Your application wasn’t submitted. Please try again.')
+        setErrorMsgValidation('Failed to verify reCAPTCHA. Please try again.')
         setTimeout(() => {
           setErrorMsgValidation('')
         }, 5000)
