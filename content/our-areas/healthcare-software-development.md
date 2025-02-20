@@ -39,9 +39,9 @@ image_our_service_desktop: /images/healthtech_consulting_desktop_update.png
 image_our_service_mobile: /images/healthtech_consulting_mobile_update.png
 image_alt_our_service: healthcare technology consulting
 bullet_points:
-  - scaling from MVP to a global solution
-  - support at every stage of development
-  - choosing the right tech for business goals
+  - from MVP to a global solution with **custom healthcare software development**
+  - "**full-cycle support** from a trusted **healthcare IT company**"
+  - achieving business goals with expert **healthcare IT consulting**
 bar_stack:
   - IoT
   - Bluetooth
