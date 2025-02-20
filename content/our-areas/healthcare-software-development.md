@@ -62,12 +62,12 @@ button2: book a free consultation
 published: true
 show_case_study: true
 show_technology_stack: true
-title_team: meet the healthcare software development team
-title_case_study: custom healthcare software that we delivered
+title_team: meet the healthcare technology consulting team
+title_case_study: the power of healthcare app development – read our client's stories
 title_faqs: healthcare software development services FAQs
 title_contact: book free consultation in 48 hours
-description_contact: Let’s discuss your HealthTech project. Fill out the form
-  below and we'll get back to you in 48 hours.
+description_contact: Let’s discuss **healthcare technology consulting** for your
+  solution. Fill out the form below and we'll get back to you in 48 hours.
 language: en
 blog_section: false
 blog_section_tags:
