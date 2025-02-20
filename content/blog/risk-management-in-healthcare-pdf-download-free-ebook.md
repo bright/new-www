@@ -28,17 +28,17 @@ language: en
 
 ## The author
 
-**Kasia Łukasiewicz, Ph.D.,**
+**[Kasia Łukasiewicz](https://www.linkedin.com/in/katarzyna-lukasiewicz/), Ph.D.,**
 Senior Project Manager at Bright Inventions
 
 A business analyst, project manager, and Agile expert with over a decade of experiencein software consulting and mentoring. She holds a Ph.D. for developing AgileSafe, a method for integrating Agile practices into safety-critical software development. A lecturer at Gdańsk University of Technology and active contributor to the Agile community. 
 
 ## Guest authors
 
-**Aahuti Rai**
+**[Aahuti Rai](https://www.linkedin.com/in/aahutirai/)**
 Healthcare Innovation, NED & Advisor, Venture Partner & Connector
 
-**Adam Brown, MD MBA**
+**[Adam Brown, MD MBA](https://www.linkedin.com/in/adambrownmdmba/)**
 Founder @ABIG Health
 
 <EbookDynamic sectionTitle='get free ebook now' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'Must have ebook for healthcare software development leaders.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='ebook cover' />
