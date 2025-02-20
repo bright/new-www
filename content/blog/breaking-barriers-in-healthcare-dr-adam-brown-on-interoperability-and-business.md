@@ -2,6 +2,7 @@
 author: agata
 date: 2025-02-19T13:22:38.435Z
 meaningfullyUpdatedAt: 2025-02-19T13:22:38.447Z
+slug: adam-brown-on-healthcare-interoperability
 title: "Breaking Barriers in Healthcare: Dr. Adam Brown on Interoperability and
   Business"
 layout: post
