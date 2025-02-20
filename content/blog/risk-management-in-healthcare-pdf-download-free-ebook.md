@@ -16,7 +16,7 @@ language: en
 ---
 **Ignoring risk doesn’t make it disappear—it only increases the chances of security breaches, compliance failures, and costly delays. That’s why I created "Risk Management in eHealth – The Agile Way", a free guide that helps healthcare software teams stay agile while maintaining safety and compliance.**
 
-<EbookDynamic sectionTitle='get free ebook' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription='Must have ebook for devs and app owners written by Rafał Hofman, a software developer and security expert. All tools listed in the e-book are open-source or offer free plans.'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
+<EbookDynamic sectionTitle='get free ebook now' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'Must have ebook for healthcare software development leaders.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='ebook cover' />
 
 ## What You’ll Learn About Risk Management in Healthcare:
 
@@ -40,3 +40,5 @@ Healthcare Innovation, NED & Advisor, Venture Partner & Connector
 
 **Adam Brown, MD MBA**
 Founder @ABIG Health
+
+<EbookDynamic sectionTitle='get free ebook now' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'Must have ebook for healthcare software development leaders.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='ebook cover' />
