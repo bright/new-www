@@ -23,6 +23,9 @@ export const RecaptchaContainer = styled(TextRegular)`
       color: ${variables.color.text};
     }
   }
+  .grecaptcha-badge {
+      visibility: hidden;
+  }
 `
 
 const ReCaptcha = ({ recaptchaRef }: ReCaptchaProps<any>) => {
