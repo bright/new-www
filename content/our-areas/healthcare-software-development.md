@@ -22,8 +22,8 @@ project:
   - Remote Patient Monitoring
   - eMAR
 layout: our-service
-our_service_id: healthcare software development
-meta_title: Healthcare Software Development
+our_service_id: healthcare technology company
+meta_title: Healthcare Technology Company
 meta_description: Since 2012 we have developed HealthTech solutions for clients
   from the UK, Germany, Israel and more. Contact us!
 our_services_icon: /images/healthcare_software_development.png
@@ -32,8 +32,8 @@ slug: healthcare-software-development
 short_description: Over the course of a decade, we have partnered with numerous
   startups and SMEs representing the healthcare industry.
 order: 1
-title: scale trustworthy HealthTech solutions
-highlighted_word: trustworthy HealthTech
+title: scale trustworthy solutions with healthcare technology company
+highlighted_word: trustworthy
 image_our_service_desktop: /images/healthtech_consulting_desktop_update.png
 image_our_service_mobile: /images/healthtech_consulting_mobile_update.png
 image_alt_our_service: HealthTech consulting
