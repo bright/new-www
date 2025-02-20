@@ -77,6 +77,7 @@ export default {
     primary: '#fe6b00', //brightOrange
     text: '#0A0A0A',
     text2: '#0A0A0A',
+    text3: '#a1a1a1',
     border: '#d3d3d3',
     white: '#ffffff',
     black: '#000000',

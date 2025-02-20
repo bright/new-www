@@ -1,4 +1,4 @@
-import React, { ChangeEvent, SyntheticEvent, useCallback, useEffect, useState } from 'react'
+import React, { ChangeEvent, SyntheticEvent, useCallback, useEffect, useRef, useState } from 'react'
 import styled from 'styled-components'
 import { TextField } from '../fields/text-field'
 import { Form } from './job-application-form.styled'
@@ -15,6 +15,9 @@ import variables from '../../../styles/variables'
 import { trackConversion, trackCustomEvent } from '../../../analytics/track-custom-event'
 import { FlexWrapper } from '../../shared'
 import { JobFormData } from '../../../helpers/mail'
+import ReCaptcha from '../../recaptcha/ReCaptcha'
+import ReCAPTCHA from 'react-google-recaptcha'
+import { isReCaptchaValid } from '../../recaptcha/recaptcha-verification'
 
 export interface FormProps {
   nameLabel?: string
@@ -136,6 +139,8 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
   const [errorMsgValidation, setErrorMsgValidation] = useState<string>('')
   const [selectedAttachment, setSelectedAttachment] = useState<string>('cv')
 
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
+
   const { nameLabel, namePlaceholder, mailLabel, mailPlaceholder, uploadLabel, onSubmit } = props
 
   useEffect(() => {
@@ -192,7 +197,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
   }
 
   const submit = useCallback(
-    (event: React.FormEvent<HTMLFormElement>, data: JobFormData) => {
+    async (event: React.FormEvent<HTMLFormElement>, data: JobFormData) => {
       const isValidLinkedin =
         (data.message ?? '').startsWith('https://www.linkedin.com/') ||
         (data.message ?? '').startsWith('http://www.linkedin.com/') ||
@@ -213,6 +218,12 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
         return
       } else if (selectedAttachment === 'linkedin' && data.message && !isValidLinkedin) {
         setErrorMsgValidation('Please submit the  valid link to your LinkedIn profile.')
+        setTimeout(() => {
+          setErrorMsgValidation('')
+        }, 5000)
+        return
+      } else if (!await isReCaptchaValid(recaptchaRef)) {
+        setErrorMsgValidation('Failed to verify reCAPTCHA. Please try again.')
         setTimeout(() => {
           setErrorMsgValidation('')
         }, 5000)
@@ -344,6 +355,9 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
             <p>Your application wasn’t submitted. Please try again.</p>
           </ErrorMessage>
         )}
+
+        <ReCaptcha recaptchaRef={recaptchaRef}/>
+
       </Form>
 
       {value.isSubmitted && (
