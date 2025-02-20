@@ -151,3 +151,5 @@ Medication distribution is a critical yet error-prone healthcare process. As an 
 ### mental health technology
 
 Respond effectively to critical mental healthcare challenges with our solution. Whether it's depression, anxiety, or other mental disorders, we are committed to helping you scale solutions with a primary focus on and respect for your users. **Proudly supporting the growth of the [online group therapy platform](/projects/online-group-support/) based in the US, we draw upon our experience to navigate the sensitive realm of digital mental health with care and expertise**.
+
+Addressing **mental health software development** needs with care and expertise, we build solutions that support **online therapy, mood tracking, and AI-driven mental health assessments**. **Our healthcare software development services** include HIPAA-compliant mental health solutions, ensuring security and privacy for sensitive patient data.
