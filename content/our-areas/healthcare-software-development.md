@@ -130,7 +130,7 @@ By integrating **Bluetooth devices and IoT networks**, we enable continuous **re
 
 ### remote patient monitoring solutions
 
-**Our healthcare software development company** uses advanced **cloud computing** to develop **EHR software solutions** that enable secure, real-time access to patient records. Our systems are designed to comply with HIPAA and GDPR, ensuring secure and efficient management of health information. Additionally, we provide the capability to access data even when offline, enhancing accessibility and reliability
+**Our healthcare software development company** uses advanced **cloud computing** to develop **EHR software solutions** that enable secure, real-time access to patient records. As **healthcare technology company** we design systems  to comply with HIPAA and GDPR, ensuring secure and efficient management of health information and patient data. Additionally, we provide the capability to access data even when offline, enhancing accessibility and reliability
 
 ### EHR (Electronic health record) solutions
 
@@ -138,7 +138,7 @@ By integrating **Bluetooth devices and IoT networks**, we enable continuous **re
 
 ### patient engagement apps
 
-Empowering patients to manage their health conditions is a crucial step in the digital revolution of healthcare, especially in the management of chronic diseases. **Our team has experience in developing applications, for example, for [Parkinson's patients](/projects/solution-for-parkinsons-patients/), with a strong focus on patient engagement**. 
+Empowering patients through **patient engagement apps** is at the heart of **healthcare IT services**. Our team has extensive experience in **healthcare mobile application development**, including[**solutions tailored for** chronic disease management](/projects/solution-for-parkinsons-patients/)and neurological disorders like Parkinson’s.
 
 ### FemTech solutions
 
