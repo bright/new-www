@@ -24,8 +24,9 @@ project:
 layout: our-service
 our_service_id: healthcare technology company
 meta_title: Healthcare Technology Company
-meta_description: Since 2012 we have developed HealthTech solutions for clients
-  from the UK, Germany, Israel and more. Contact us!
+meta_description: Since 2012, we’ve built cutting-edge HealthTech solutions for
+  clients in the UK, Germany, Israel & beyond. Get expert healthcare software
+  development today!
 our_services_icon: /images/healthcare_software_development.png
 name: healthcare software development
 slug: healthcare-software-development
@@ -36,7 +37,7 @@ title: scale trustworthy solutions with healthcare technology company
 highlighted_word: trustworthy
 image_our_service_desktop: /images/healthtech_consulting_desktop_update.png
 image_our_service_mobile: /images/healthtech_consulting_mobile_update.png
-image_alt_our_service: HealthTech consulting
+image_alt_our_service: healthcare technology consulting
 bullet_points:
   - scaling from MVP to a global solution
   - support at every stage of development
