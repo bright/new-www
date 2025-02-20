@@ -1,6 +1,6 @@
 ---
 author: kasia
-secondAuthor: izabela
+secondAuthor: null
 tags:
   - HealthTech
 date: 2025-02-20T08:51:11.129Z
