@@ -34,7 +34,7 @@ project:
   - Practi JET POS
 layout: our-service
 our_service_id: IoT development
-meta_title: IoT Development Company
+meta_title: IoT Solutions Company
 meta_description: We are a leading IoT solutions company, offering IoT
   application development and IoT integration services in the UK and the USA.
   Contact us today!
