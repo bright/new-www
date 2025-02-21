@@ -8,7 +8,7 @@ meaningfullyUpdatedAt: 2025-02-20T08:51:11.750Z
 slug: healthcare-risk-management-ebook
 title: Risk Management in Healthcare [PDF]. Download Free Ebook
 layout: post
-image: /images/blog-cover-ebook-risk-management-healthcare.png
+image: /images/risk_management_healthcare_ebook_blog_cover.png
 hidden: false
 comments: false
 published: true
