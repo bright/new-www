@@ -22,6 +22,7 @@ faqs:
   - What is digital health? | Healthcare LP
   - What is eHealth? | Healthcare LP
   - What is data protection in health and social care? | Healthcare LP
+  - What is mHealth? | Healthcare LP
 project:
   - circles
   - MedKitDoc
