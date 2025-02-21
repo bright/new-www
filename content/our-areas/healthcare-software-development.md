@@ -49,9 +49,9 @@ image_our_service_desktop: /images/healthtech_consulting_desktop_update.png
 image_our_service_mobile: /images/healthtech_consulting_mobile_update.png
 image_alt_our_service: healthcare technology consulting
 bullet_points:
-  - from MVP to a global solution with **custom healthcare software development**
-  - "**full-cycle support** from a trusted **healthcare IT company**"
-  - achieving business goals with expert **healthcare IT consulting**
+  - from MVP to a global solution with custom healthcare software development
+  - full-cycle support from a trusted healthcare IT company
+  - achieving business goals with expert healthcare IT consulting
 bar_stack:
   - IoT
   - Bluetooth
@@ -76,7 +76,7 @@ title_team: meet the healthcare technology consulting team
 title_case_study: the power of healthcare app development – read our client's stories
 title_faqs: healthcare software development services FAQs
 title_contact: book free consultation in 48 hours
-description_contact: Let’s discuss **healthcare technology consulting** for your
+description_contact: Let’s discuss healthcare technology consulting for your
   solution. Fill out the form below and we'll get back to you in 48 hours.
 language: en
 blog_section: false
