@@ -77,35 +77,35 @@ title_contact: book free consultation in 48 hours
 description_contact: Fill out the form below and we'll get back to you in 48 hours. Let's talk!
 boxes:
   - box_title: you represent the retail sector
-    box_description: Retail businesses benefit from IoT integration services that
-      connect various systems, including point-of-sale (POS) systems. Our team
-      has successfully integrated IoT hardware development services into [POS
-      applications for hospitality and
+    box_description: Retail businesses benefit from **IoT integration services**
+      that connect various systems, including point-of-sale (POS) systems. Our
+      team has successfully integrated **IoT hardware development services**
+      into [POS applications for hospitality and
       retail](/projects/system-for-restaurants-mobile/), scaling solutions for
       industry leaders like **Just Eat Takeaway.com**.
     box_icon: /images/icon_pos_lp_new_old_devicesx2.png
   - box_title: you represent the healthcare sector
-    box_description: We specialize in IoT healthcare solutions, having developed and
-      scaled **telemedicine applications for clients in the UK and Germany**.
-      Our expertise includes [IoT device
-      integration](/projects/remote-patient-monitoring/), such as Bluetooth
-      thermometers and pulse oximeters, ensuring secure IoT device monitoring
-      and real-time health data tracking.
+    box_description: We specialize in **IoT healthcare solutions**, having developed
+      and scaled **telemedicine applications for clients in the UK and
+      Germany**. Our expertise includes **[IoT device
+      integration](/projects/remote-patient-monitoring/)**, such as Bluetooth
+      thermometers and pulse oximeters, ensuring secure **IoT device
+      monitoring** and real-time health data tracking.
     box_icon: /images/telemedicine_icon_update.png
   - box_title: you represent the fintech sector
-    box_description: Need an app integrated with an **external card reader** or IoT
-      security services for t**ransaction authorization**? We provide IoT
-      software development services for FinTech, including IoT blockchain
-      solutions for enhanced security. With extensive experience in IoT product
-      development services, we are ready to assist with your FinTech IoT
-      project.
+    box_description: Need an app integrated with an external card reader or I**oT
+      security services** for transaction authorization? We provide **IoT
+      software development services** for FinTech, including **IoT blockchain
+      solutions** for enhanced security. With extensive experience in **IoT
+      product development services**, we are ready to assist with your FinTech
+      IoT project.
     box_icon: /images/icon_pos_lp_no_feesx2.png
   - box_title: you represent the industrial sector
     box_description: Looking to build an **Industrial Internet of Things (IIoT)**
-      system that connects devices in manufacturing or logistics? Our IoT
-      consulting services and IoT system integration services ensure optimal
-      efficiency, scalability, and **real-time data insights**. Contact us to
-      explore our experience in industrial IoT development.
+      system that connects devices in manufacturing or logistics? Our **IoT
+      consulting services** and **IoT system integration services** ensure
+      optimal efficiency, scalability, and **real-time data insights**. Contact
+      us to explore our experience in **industrial IoT development**.
     box_icon: /images/icon_pos_featuresx2.png
 language: en
 blog_section_tags:
