@@ -22,7 +22,7 @@ project:
   - Remote Patient Monitoring
   - eMAR
 layout: our-service
-our_service_id: healthcare technology company
+our_service_id: healthcare software development
 meta_title: Healthcare Technology Company
 meta_description: Since 2012, we’ve built cutting-edge HealthTech solutions for
   clients in the UK, Germany, Israel & beyond. Get expert healthcare software
