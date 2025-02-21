@@ -6,6 +6,7 @@ slug: adam-brown-on-healthcare-interoperability
 title: "Breaking Barriers in Healthcare: Dr. Adam Brown on Interoperability and
   Business"
 layout: post
+image: /images/baner_final-1-.png
 hidden: false
 comments: false
 published: true
