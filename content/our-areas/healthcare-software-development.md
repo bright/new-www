@@ -12,6 +12,16 @@ faqs:
   - healthcare software development 1
   - healthcare software development 2
   - healthcare software development 3
+  - What is healthcare software development? | Healthcare LP
+  - Why is custom healthcare software development important? | Healthcare LP
+  - What is healthcare IT consulting? | Healthcare LP
+  - What is a healthcare asset tracking system? | Healthcare LP
+  - What is telemedicine? | Healthcare LP
+  - What is the difference between telehealth and telemedicine? | Healthcare LP
+  - What is health tech? | Healthcare LP
+  - What is digital health? | Healthcare LP
+  - What is eHealth? | Healthcare LP
+  - What is data protection in health and social care? | Healthcare LP
 project:
   - circles
   - MedKitDoc
