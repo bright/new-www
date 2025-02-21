@@ -22,6 +22,7 @@ faqs:
   - What is digital health? | Healthcare LP
   - What is eHealth? | Healthcare LP
   - What is data protection in health and social care? | Healthcare LP
+  - What is mHealth? | Healthcare LP
 project:
   - circles
   - MedKitDoc
@@ -49,9 +50,9 @@ image_our_service_desktop: /images/healthtech_consulting_desktop_update.png
 image_our_service_mobile: /images/healthtech_consulting_mobile_update.png
 image_alt_our_service: healthcare technology consulting
 bullet_points:
-  - from MVP to a global solution with custom healthcare software development
+  - successful scaling with secure healthcare development
   - full-cycle support from a trusted healthcare IT company
-  - achieving business goals with expert healthcare IT consulting
+  - achieving business goals with expert healthcare technology consulting
 bar_stack:
   - IoT
   - Bluetooth
