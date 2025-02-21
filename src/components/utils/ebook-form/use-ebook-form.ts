@@ -1,9 +1,11 @@
-import React, { useCallback, useState, useEffect } from 'react'
+import React, { useCallback, useState, useEffect, RefObject } from 'react'
 import { apiClient } from '../../../../api-client/client'
 import { EbookSignUp200Response, EbookSignUpOperationRequest, EbookSignUpRequest } from '../../../../api-client'
 import { useLocalStorageState } from '../use-local-storage-state'
 import { EbookSignUp200ResponseEbook } from '../../../../api-client'
 import { trackCustomEvent } from '../../../analytics/track-custom-event'
+import { isReCaptchaValid } from '../../recaptcha/recaptcha-verification'
+import ReCAPTCHA from 'react-google-recaptcha'
 
 export interface EbookFormValue {
   name: string
@@ -16,7 +18,7 @@ export interface EbookFormValue {
   ebookResponse: EbookSignUp200Response
 }
 
-export function useEbookForm(ebookName: string) {
+export function useEbookForm(ebookName: string, recaptchaRef: RefObject<ReCAPTCHA>) {
   const [sendedEbooks, setSendedEbooks] = useLocalStorageState('sendedEbooks')
   const [value, setValue] = useState<EbookFormValue>({
     name: '',
@@ -84,7 +86,7 @@ export function useEbookForm(ebookName: string) {
   }
 
   const handleSubmit = useCallback(
-    (event: React.FormEvent) => {
+    async (event: React.FormEvent) => {
       setValue(state => ({
         ...state,
         isSending: true,
@@ -101,6 +103,16 @@ export function useEbookForm(ebookName: string) {
       }
 
       if (!isValidValue()) return
+
+      if (!await isReCaptchaValid(recaptchaRef)) {
+        setValue(state => ({
+          ...state,
+          errorMsg: 'Failed to verify reCAPTCHA. Please try again.',
+          isError: true,
+          isSending: false,
+        }))
+        return
+      }
 
       trackCustomEvent({
         eventName: 'Click Submit Ebook Form',
