@@ -49,11 +49,11 @@ We place a strong emphasis on accountability, and we value team members **who ta
 
 We are seeking an experienced Fullstack Developer to join our bright team. The ideal candidate will have **a strong understanding of both frontend and backend development**, along with the ability to work on a variety of projects, ranging from web applications to database design. 
 
-As a Fullstack Developer, you will collaborate with cross-functional teams to design, develop, and maintain software solutions that meet our clients' needs.  **You will feel great in our team if you are a team player who approach challenges and complexities with a problem-solving mindset and openness to feedback.** 
+As a Fullstack Developer, you will collaborate with cross-functional teams to design, develop, and maintain software solutions that meet our clients' needs. **You will feel great in our team if you are a team player who approach challenges and complexities with a problem-solving mindset and openness to feedback.** 
 
 ## about the project 🚀
 
-The project you will be involved in is a cross-channel identity platform that integrates and control authentication, fraud detection, and access controls. The system is used by millions of users worldwide on a daily basis. The role will primarily focus on backend tasks, while also involving frontend tasks at times.
+We take on a variety of exciting projects, from [transportation](https://brightinventions.pl/projects/transportation-management-system/) and [healthtech](https://brightinventions.pl/projects/online-group-support/) to [gastronomy](https://brightinventions.pl/projects/pos-devices-integration/) and others. Every project is a new challenge that we approach with flexibility and dedication – and we value the same mindset in our team. If you’re open to exploring different industries and project types, we’d love to have you on board!
 
 ## preferred skills and qualifications ✅
 
