@@ -33,6 +33,8 @@ export const ImagesBase = styled.div`
 export const ImagesHorizontal = styled(ImagesBase)`
   flex-direction: row;
   height: 55rem;
+  max-width: 1650px;
+  margin: auto;
   @media ${variables.device.laptop} {
     height: calc(41.625rem + var(--gap));
   }
