@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { CustomSectionTitle, FlexWrapper, MoreButton } from './components/shared'
 import styled from 'styled-components'
 import variables from './styles/variables'
@@ -8,6 +8,8 @@ import { EbookThankYouPage } from './ebook-dynamic-thank-you-page'
 import { ErrorMessage } from './components/shared/contact/styles'
 import EbookArrow from '../src/assets/ebook_arrow.svg'
 import { clampBuilder } from './helpers/clampBuilder'
+import ReCaptcha from './components/recaptcha/ReCaptcha'
+import ReCAPTCHA from 'react-google-recaptcha'
 
 const EbookSection = styled.section`
   margin: ${variables.pxToRem(48)} 0;
@@ -86,7 +88,8 @@ export const EbookDynamic: (props: EbookDynamicProps) => React.JSX.Element = ({
   ebookAlt,
   ebookDescription,
 }) => {
-  const { value, setPolicy, handleSubmit, setEmail, setName } = useEbookForm(ebookName)
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
+  const { value, setPolicy, handleSubmit, setEmail, setName } = useEbookForm(ebookName, recaptchaRef)
   const formRef = React.useRef<HTMLFormElement>(null)
 
   return (
@@ -137,6 +140,7 @@ export const EbookDynamic: (props: EbookDynamicProps) => React.JSX.Element = ({
           </a>
         )}
       </MoreButtonWrapper>
+      <ReCaptcha recaptchaRef={recaptchaRef}/>
     </EbookSection>
   )
 }
