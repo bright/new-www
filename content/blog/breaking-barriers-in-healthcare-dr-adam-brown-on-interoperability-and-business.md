@@ -1,5 +1,7 @@
 ---
 author: agata
+tags:
+  - HealthTech
 date: 2025-02-19T13:22:38.435Z
 meaningfullyUpdatedAt: 2025-02-19T13:22:38.447Z
 slug: adam-brown-on-healthcare-interoperability
