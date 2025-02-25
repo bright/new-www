@@ -40,7 +40,7 @@ The startup sector is often at the cutting edge, but healthcare remains entrench
 
 COVID accelerated progress and funding, but the pace of technological innovation often outstrips the ability to shift mindsets, reconfigure care models, and engage stakeholders. For example, in systems like the NHS, managing resources and transforming care delivery is a massive challenge.
 
-  <EbookDynamic sectionTitle='explore guidelines for HealthTech startup owners' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'From secure LLMs to app performance monitoring – dive into tech solutions that will help you scale your software for healthcare.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='healthtech guide' />
+<EbookDynamic sectionTitle='explore guidelines for HealthTech startup owners' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'From secure LLMs to app performance monitoring – dive into tech solutions that will help you scale your software for healthcare.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='healthtech guide' />
 
 ## What trends in digital health excite you the most?
 
