@@ -9,23 +9,26 @@ interface ReCaptchaProps<T> {
 }
 
 export const RecaptchaContainer = styled(TextRegular)`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: ${variables.pxToRem(16)};
-  & span {
-    font-size: 14px;
-    color: ${variables.color.text3};
-    line-height: 1.5rem;
-    font-family: Lato;
-    & a {
-      text-decoration: underline;
-      color: ${variables.color.text};
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: ${variables.pxToRem(16)};
+
+    & span {
+        font-size: 14px;
+        color: ${variables.color.text3};
+        line-height: 1.5rem;
+        font-family: Lato;
+
+        & a {
+            text-decoration: underline;
+            color: ${variables.color.text};
+        }
     }
-  }
-  .grecaptcha-badge {
-      visibility: hidden;
-  }
+
+    .grecaptcha-badge {
+        visibility: hidden;
+    }
 `
 
 const ReCaptcha = ({ recaptchaRef }: ReCaptchaProps<any>) => {
@@ -36,7 +39,16 @@ const ReCaptcha = ({ recaptchaRef }: ReCaptchaProps<any>) => {
         sitekey='6Lf80doqAAAAAJa2ReybrabGvMunSubWjVLE3vIg'
         size='invisible'
       />
-      <span>This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</span>
+      <span>
+        <span>This site is protected by reCAPTCHA and the Google </span>
+        <a href='https://policies.google.com/privacy' target='_blank'
+           rel='nofollow noopener noreferrer'>Privacy Policy</a>
+        <span> and </span>
+        <a href='https://policies.google.com/terms' target='_blank'
+           rel='nofollow noopener noreferrer'>Terms of Service</a>
+        <span> apply.</span>
+      </span>
+
 
     </RecaptchaContainer>
 
