@@ -91,7 +91,7 @@ The lack of seamless communication between different health systems hinders the 
 
 Access to capital is a significant barrier, especially for start-ups aiming to disrupt the Healthtech space. Investors may be wary due to the high risks associated with regulatory hurdles and market adoption challenges.
 
-<EbookDynamic sectionTitle='scale your healthtech solution' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Check out HealthTech experts\' advice on creating a successful project.'} ebookImage='/images/cover_healthtech_guide_home.png' ebookAlt='undefined' />
+<EbookDynamic sectionTitle='scale your healthtech solution' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Check out HealthTech experts\' advice on creating a successful project.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='undefined' />
 
 ### Investment Challenges:
 
