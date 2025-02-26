@@ -21,7 +21,7 @@ language: en
 In the old days, there were many more web browsers competing in the market and each was supporting a different subset of JavaScript features. What's even worse, some of them weren't really focused on implementing the missing ones, therefore we were greatly limited by them. Internet Explorer is an inglorious example coming from this group. It was obsolete but really popular at the same time. The worst nightmare of a web developer wanting to use modern JavaScript.
 Normally, we would have to be aware of exactly what isn't present in a browser we would like to support and simply not use it. It sounds easy, but in reality, it's not. That's when transpilers come into play. **They are able to understand the code we write and transform it**. Moreover, they also enable some non-obvious features, we use every day. Intrigued? Keep reading then!
 
-# Why do we need transpilers like Babel?
+## Why do we need transpilers like Babel?
 
 Imagine you have to write a code, that's supported by all the browsers on the market with at least 0.5% popularity. What's even worse, your code should make use of modern APIs when possible to provide the best performance possible. In such a case you would have to dig deep into many pages of technical documentation in order to establish a baseline of what you can use and what should you not.
 
@@ -116,7 +116,7 @@ React.createElement('div', {
 
 So, in order to make it understandable by a JavaScript engine, transpilers convert JSX into a nested tree of React.createElement (or equivalent) calls. They also enable some advanced features of CSS-in-JS libraries like server-side rendering or cherry-pick only required functions from lodash. Pretty neat, right? Let's dig in and learn more about the transformation process.
 
-# Code analysis 101
+## Code analysis 101
 
 Source code is just a sequence of characters, which don't really mean anything to the interpreter running it. Well, it's the same for humans. We have to **understand the context in order to tell what some magical word means**. The same applies to the machine, but this analysis happens in a more organized way. There are three steps involved in the process, which we will cover shortly.
 
@@ -217,7 +217,7 @@ const Visitor = {
 
 This time there are two visitors defined. The UpdateParamNameVisitor is used by the Visitor to traverse the function body subtree. This way we will only update the identifiers wrapped by the brackets of the function.
 
-# Next generation compilers
+## Next generation compilers
 
 The so-called 'next generation compilers' have been gaining more and more momentum recently. The revolution started with the Go language powering [ESBuild](https://esbuild.github.io/) and now it's mainly focused on Rust and tools like [SWC](https://swc.rs/). What's the point?  - one may ask. Well, back in the past, JavaScript was used to build small or medium-sized web pages. However, this changed years ago and **there are huge applications composed of hundreds of views and thousands of files** available on the market.
 
