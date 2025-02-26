@@ -1,19 +1,19 @@
 ---
-layout: post
-title: Use ShouldKO for better assertion messages
+crosspost: true
 author: piotr
-hidden: false
 tags:
   - junit
   - hamcreset
   - kotlin
   - assertion
   - tests
-comments: true
-crosspost: true
-image: /images/shouldko-1/search.jpg
 date: 2018-01-16T23:00:00.000Z
 meaningfullyUpdatedAt: 2018-01-16T23:00:00.000Z
+title: Use ShouldKO for better assertion messages
+layout: post
+image: /images/shouldko-1/search.jpg
+hidden: false
+comments: true
 published: true
 language: en
 ---
@@ -21,7 +21,7 @@ language: en
 
 Most of us write tests these days. Whether they are unit, integration, end-to-end or performance tests once written we often do not go back to them until they fail. It is thus vital to have a clear assertion message when a test fails.
 
-![search](../../static/images/shouldko-1/search.jpg "")
+![Search](../../static/images/shouldko-1/search.jpg "Search Functionality")
 
 # Hamcrest 
 
