@@ -1,4 +1,4 @@
-import React, { useState, FC } from 'react'
+import React, { useState, FC, useRef } from 'react'
 import { routeLinks } from '../../config/routing'
 import { FormType, sendMail } from '../../helpers/mail'
 import { deviceSize } from '../../styles/variables'
@@ -22,6 +22,9 @@ import { RoundedImage } from '../../our-services/Studio.styled'
 import { StaticImage } from 'gatsby-plugin-image'
 import { useWindowSize } from '../utils/use-windowsize'
 import { useClient } from '../../hooks/useClient'
+import ReCAPTCHA from 'react-google-recaptcha'
+import ReCaptcha from '../recaptcha/ReCaptcha'
+import { isReCaptchaValid } from '../recaptcha/recaptcha-verification'
 
 export interface ContactProps {
   title?: string
@@ -50,16 +53,24 @@ export const Contact: FC<ContactProps> = ({
   const { width } = useWindowSize()
   const isClient = useClient()
 
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
+
   const checkValid = (): boolean => {
     return checkedRules && name && email ? true : false
   }
 
-  const onFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const onFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     setIsSending(true)
 
     e.preventDefault()
-
     if (!checkValid()) {
+      return
+    }
+
+    if (!await isReCaptchaValid(recaptchaRef)) {
+      setError(true)
+      setSuccess(false)
+      setIsSending(false)
       return
     }
 
@@ -198,6 +209,9 @@ export const Contact: FC<ContactProps> = ({
                 <a href='mailto:info@bright.dev?subject=bright%20mail'>info@bright.dev</a>
               </ContactTextRegular>
             </div>
+
+            <ReCaptcha recaptchaRef={recaptchaRef} />
+
           </Form>
           {success && (
             <JobApplicationModal

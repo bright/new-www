@@ -17,17 +17,27 @@ import * as runtime from '../runtime';
 import type {
   EbookSignUp200Response,
   EbookSignUpRequest,
+  VerifyRecaptcha200Response,
+  VerifyRecaptchaRequest,
 } from '../models';
 import {
     EbookSignUp200ResponseFromJSON,
     EbookSignUp200ResponseToJSON,
     EbookSignUpRequestFromJSON,
     EbookSignUpRequestToJSON,
+    VerifyRecaptcha200ResponseFromJSON,
+    VerifyRecaptcha200ResponseToJSON,
+    VerifyRecaptchaRequestFromJSON,
+    VerifyRecaptchaRequestToJSON,
 } from '../models';
 
 export interface EbookSignUpOperationRequest {
     ebookName: string;
     ebookSignUpRequest: EbookSignUpRequest;
+}
+
+export interface VerifyRecaptchaOperationRequest {
+    verifyRecaptchaRequest: VerifyRecaptchaRequest;
 }
 
 /**
@@ -71,6 +81,41 @@ export class DefaultApi extends runtime.BaseAPI {
      */
     async ebookSignUp(requestParameters: EbookSignUpOperationRequest, initOverrides?: RequestInit | runtime.InitOverrideFunction): Promise<EbookSignUp200Response> {
         const response = await this.ebookSignUpRaw(requestParameters, initOverrides);
+        return await response.value();
+    }
+
+    /**
+     * Validates a reCAPTCHA token and returns the risk analysis score.
+     * Verify Google reCAPTCHA token
+     */
+    async verifyRecaptchaRaw(requestParameters: VerifyRecaptchaOperationRequest, initOverrides?: RequestInit | runtime.InitOverrideFunction): Promise<runtime.ApiResponse<VerifyRecaptcha200Response>> {
+        if (requestParameters.verifyRecaptchaRequest === null || requestParameters.verifyRecaptchaRequest === undefined) {
+            throw new runtime.RequiredError('verifyRecaptchaRequest','Required parameter requestParameters.verifyRecaptchaRequest was null or undefined when calling verifyRecaptcha.');
+        }
+
+        const queryParameters: any = {};
+
+        const headerParameters: runtime.HTTPHeaders = {};
+
+        headerParameters['Content-Type'] = 'application/json';
+
+        const response = await this.request({
+            path: `/verify-recaptcha`,
+            method: 'POST',
+            headers: headerParameters,
+            query: queryParameters,
+            body: VerifyRecaptchaRequestToJSON(requestParameters.verifyRecaptchaRequest),
+        }, initOverrides);
+
+        return new runtime.JSONApiResponse(response, (jsonValue) => VerifyRecaptcha200ResponseFromJSON(jsonValue));
+    }
+
+    /**
+     * Validates a reCAPTCHA token and returns the risk analysis score.
+     * Verify Google reCAPTCHA token
+     */
+    async verifyRecaptcha(requestParameters: VerifyRecaptchaOperationRequest, initOverrides?: RequestInit | runtime.InitOverrideFunction): Promise<VerifyRecaptcha200Response> {
+        const response = await this.verifyRecaptchaRaw(requestParameters, initOverrides);
         return await response.value();
     }
 

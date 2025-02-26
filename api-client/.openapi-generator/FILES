@@ -4,5 +4,7 @@ index.ts
 models/EbookSignUp200Response.ts
 models/EbookSignUp200ResponseEbook.ts
 models/EbookSignUpRequest.ts
+models/VerifyRecaptcha200Response.ts
+models/VerifyRecaptchaRequest.ts
 models/index.ts
 runtime.ts

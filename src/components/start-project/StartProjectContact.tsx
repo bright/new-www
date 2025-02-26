@@ -1,4 +1,4 @@
-import React, { useState, FC } from 'react'
+import React, { useState, FC, useRef } from 'react'
 
 import { routeLinks } from '../../config/routing'
 
@@ -30,6 +30,9 @@ import { TickIcon } from '../icons/Tick.icon'
 import { JobApplicationModal } from '../forms/job-application/job-application-modal'
 import { MoreButton } from './../shared/index'
 import { Link } from 'gatsby'
+import ReCAPTCHA from 'react-google-recaptcha'
+import { isReCaptchaValid } from '../recaptcha/recaptcha-verification'
+import ReCaptcha from '../recaptcha/ReCaptcha'
 
 export interface StartProjectContactProps {
   formButton: string
@@ -49,16 +52,18 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
 
   const [error, setError] = useState(false)
 
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
+
   const checkValid = (): boolean => {
     return checkedRules && name && email ? true : false
   }
 
-  const onFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const onFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     setIsSending(true)
 
     e.preventDefault()
 
-    if (!checkValid()) {
+    if (!checkValid() || !await isReCaptchaValid(recaptchaRef)) {
       return
     }
     setIsSending(true)
@@ -179,6 +184,7 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
               <a href='mailto:info@bright.dev?subject=bright%20mail'>info@bright.dev</a>
             </ContactTextRegular>
           </div>
+          <ReCaptcha recaptchaRef={recaptchaRef} />
         </Form>
         {success && (
           <JobApplicationModal
