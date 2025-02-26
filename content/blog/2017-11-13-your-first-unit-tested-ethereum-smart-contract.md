@@ -20,11 +20,11 @@ language: en
 ---
 The goal of that blog post is to provide you with the exact steps how to start creating your first unit tested smart contract. 
 
-# My toolbox
+## My toolbox
 
 While writing this article I was using Parity 1.7.8-stable (Parity/v1.7.8-stable-d5fcf3b-20171025/x86_64-macos/rustc1.21.0) as a Ethereum client. You can find an installation guide on this site: [Parity - fast, light, and robust Ethereum client](https://github.com/paritytech/parity) or if you are on macOSX or Debian based Linux, please follow instructions described in the next paragraphs. 
 
-# Installing parity on macOSX
+## Installing parity on macOSX
 
 If you don't have a `homebrew` package manager installed yet, please execute:
 
@@ -39,7 +39,7 @@ brew tap paritytech/paritytech
 brew install parity --stable
 ```
 
-# Installing parity on Linux
+## Installing parity on Linux
 
 Almost all parity packages you can find here: `https://github.com/paritytech/parity/releases`. To install on Debian based Linux you will need wget and dpkg. Below as an example installation of parity 1.7.9-stable:
 
@@ -48,7 +48,7 @@ wget https://parity-downloads-mirror.parity.io/v1.7.9/x86_64-unknown-linux-gnu/p
 sudo dpkg -i parity_1.7.9_amd64.deb
 ```
 
-# Starting parity
+## Starting parity
 
 For the purpose of that article we will start parity with:    
 
@@ -65,13 +65,13 @@ parity --chain=dev --jsonrpc-apis web3,rpc,personal,parity_accounts,eth,net,pari
 ```
 
 Now we do need an account with some ether amount to be able to perform transactions. Parity development chain allows you to create an account with almost unlimited ether amount but only on a development chain. You will not find creating such an account as an regular UI option, it's available as a hack. Please first open a link to parity UI (`http://0.0.0.0:8180/`) and open ACCOUNTS and then RESTORE,you should see: 
-![Restore super account 1](../../static/images/smart-contract-create-test-and-deploy/parity-restore-super-account-1.jpg "")
+![Restore super account 1](../../static/images/smart-contract-create-test-and-deploy/parity-restore-super-account-1.jpg)
 
 The trick is to restore an account with an empty recovery phrase. Please fill in the account name, password hint, passwords and click IMPORT on the right bottom corner:
-![Restore super account 2](../../static/images/smart-contract-create-test-and-deploy/parity-restore-super-account-2.jpg "")
+![Restore super account 2](../../static/images/smart-contract-create-test-and-deploy/parity-restore-super-account-2.jpg)
 
 Once the account is created, you should see:
-![Restore super account 3](../../static/images/smart-contract-create-test-and-deploy/parity-restore-super-account-3.jpg "")
+![Restore super account 3](../../static/images/smart-contract-create-test-and-deploy/parity-restore-super-account-3.jpg)
 
  Next step is to run parity node with unlocked account on which we will execute all test transactions, so you will not need to sign every test transaction via Signer available via parity UI. To do that please first kill already started parity process and run that process with two additional parameters:    
 
@@ -83,11 +83,11 @@ parity --chain=dev --jsonrpc-apis web3,rpc,personal,parity_accounts,eth,net,pari
 ```
 
 Which should result in something like this: 
-![Parity in terminal](../../static/images/smart-contract-create-test-and-deploy/running-parity.jpg "")
+![Parity in terminal](../../static/images/smart-contract-create-test-and-deploy/running-parity.jpg)
 
 Parity node is ready! :) 
 
-# Creating and testing Smart Contract - Truffle
+## Creating and testing Smart Contract - Truffle
 
 The fastest and the simplest way I know to create, test and build smart contract is by using [truffle](https://trufflesuite.com/) tool. You can install truffle using npm (node version 6.11.4) package manager:\
 `npm install -g truffle@4.0.1`     
