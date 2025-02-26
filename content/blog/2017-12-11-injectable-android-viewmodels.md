@@ -1,10 +1,6 @@
 ---
-layout: post
-title: Injectable Android ViewModels
-image: /images/injectable-android-viewmodels/syringe-1884758_1920.jpg
-author: azabost
 crosspost: true
-hidden: false
+author: azabost
 tags:
   - android
   - kotlin
@@ -13,15 +9,18 @@ tags:
   - mvvm
 date: 2017-12-10T23:00:00.000Z
 meaningfullyUpdatedAt: 2017-12-10T23:00:00.000Z
+title: Injectable Android ViewModels
+layout: post
+image: /images/injectable-android-viewmodels/syringe-1884758_1920.jpg
+hidden: false
 published: true
 language: en
 ---
-
 In the following post I'm going to show a simple (almost boilerplate-free) yet powerful implementation of the view models dependency injection on Android using Dagger.
 
 If you haven't read about the latest [Android Architecture Components libraries](https://developer.android.com/topic/libraries/architecture/.html), the MVVM pattern and the [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel.html) class yet, please read it first as I don't explain it here.
 
-# The Android weaknesses #
+## The Android weaknesses
 
 I think the fact that Google has decided to help developers by creating their own library for supporting the MVVM pattern on the Android platform was a really good move.
 
@@ -33,17 +32,17 @@ But on Android you start with an activity component and you can't prepare the vi
 
 The Google's `ViewModel` was designed to help with such issues. Unfortunately, it still needs to be created during the activity lifecycle but with several Dagger tweaks you can easily inject any view model's dependencies to it.
 
-![Injection](../../static/images/injectable-android-viewmodels/syringe-1884758_1920.jpg "")
+![Injection](../../static/images/injectable-android-viewmodels/syringe-1884758_1920.jpg)
 
-# Injectable ViewModels #
+## Injectable ViewModels
 
-Before we begin to play with the code I wanted to add that I have googled other people's approaches to view model injections and I didn't like them too much because of the significant amount of the boilerplate code (e.g. writing a separate view model factory per view model). The ~~best one~~ _(not any more - read the note below)_, which my example is based on, comes from the [Google's samples repository](https://github.com/googlesamples/android-architecture-components/tree/master/GithubBrowserSample). I have simplified some parts of it and rewritten it in Kotlin.
+Before we begin to play with the code I wanted to add that I have googled other people's approaches to view model injections and I didn't like them too much because of the significant amount of the boilerplate code (e.g. writing a separate view model factory per view model). The ~~best one~~ *(not any more - read the note below)*, which my example is based on, comes from the [Google's samples repository](https://github.com/googlesamples/android-architecture-components/tree/master/GithubBrowserSample). I have simplified some parts of it and rewritten it in Kotlin.
 
-_Note: you can access the whole code used in this example [on GitHub](https://github.com/azabost/simple-mvvm-example/tree/7b051fd7a16853e3d9655767a887d9a830133d2d)._
+*Note: you can access the whole code used in this example [on GitHub](https://github.com/azabost/simple-mvvm-example/tree/7b051fd7a16853e3d9655767a887d9a830133d2d).*
 
-_Another note: if you would like to read about a newer solution for injecting ViewModels which I find better, [click here](/blog/android-viewmodel-injections-revisited/)._
+*Another note: if you would like to read about a newer solution for injecting ViewModels which I find better, [click here](/blog/android-viewmodel-injections-revisited/).*
 
-## Simple factory ##
+### Simple factory
 
 The default library's factory instantiates view models using empty constructors. Of course, we can't use it as we are going to create the view models with non-empty constructors, passing the dependencies obtained from Dagger.
 
@@ -58,7 +57,7 @@ As you can see, it takes the class of a view model and it must return its instan
 
 In order to use a single simple and universal factory (which is the main point of this post) for all the view models we need to create a map of `Provider`s for every view model class. While I was analysing the mentioned Google's sample I didn't know how the map generation works and it wasn't very easy to understand so I'm going to exaplain it a little more here to save you the trouble.
 
-### Generating the map ###
+#### Generating the map
 
 If you have already used Dagger, you might have also noticed the code it generates. Most of that code are the `Component`s, `Provider`s, `Factory`s etc. The `Provider` is an object which *provides* the instances of some class (`Factory` is also a `Provider`).
 
@@ -70,13 +69,13 @@ which can be translated to Kotlin as:
 
 `Map<Class<out ViewModel>, @JvmSuppressWildcards Provider<ViewModel>>`
 
-_Note: Dagger generates Java sources and that's why we must remember about the variance differences between Java and Kotlin ([generics docs](https://kotlinlang.org/docs/reference/generics.html), [Java to Kotlin interoperability docs](https://kotlinlang.org/docs/reference/java-to-kotlin-interop.html)) which could be troublesome if you don't use the `@JvmSuppressWildcards` annotation, resulting in this error:_
+*Note: Dagger generates Java sources and that's why we must remember about the variance differences between Java and Kotlin ([generics docs](https://kotlinlang.org/docs/reference/generics.html), [Java to Kotlin interoperability docs](https://kotlinlang.org/docs/reference/java-to-kotlin-interop.html)) which could be troublesome if you don't use the `@JvmSuppressWildcards` annotation, resulting in this error:*
 
 > `error: [dagger.android.AndroidInjector.inject(T)] java.util.Map<java.lang.Class<? extends android.arch.lifecycle.ViewModel>,? extends javax.inject.Provider<android.arch.lifecycle.ViewModel>>` cannot be provided without an @Provides-annotated method.
 
 This map's entries consist of a key - a class of any view model and a value - a `Provider` of any view model. Obviously, we must feed the map with the corresponding `Provider`s for every view model, e.g. `ViewModelA -> Provider<ViewModelA>`. With such a map the factory will be able to easily return an instance of any view model with all its dependencies fulfilled by Dagger.
 
-In order to generate the map we need two elements: a map key definition and a module with view model _bindings_.
+In order to generate the map we need two elements: a map key definition and a module with view model *bindings*.
 
 The map key definition is an annotation type which has a single member whose type is the map key type. It may look like this:
 
@@ -113,9 +112,9 @@ abstract class ViewModelModule {
 
 `@Binds` methods are a drop-in replacement for `@Provides` methods that simply return an injected parameter. Combining it with `@IntoMap` and our key (`@ViewModelKey`) will put a provider of the returned object into the map under the key specified by the key annotation's parameter. In this case the `Provider<MainViewModel>` instance will be put under the `MainViewModel::class` key. Kotlin will also translate the `KClass` into `Class` for Java compatibility.
 
-_Note: you may want to read the `Binds` [docs](https://google.github.io/dagger/api/2.13/dagger/Binds.html), `IntoMap` [docs](https://google.github.io/dagger/api/2.13/dagger/multibindings/IntoMap.html) and multibindings [docs](https://google.github.io/dagger/multibindings.html)._
+*Note: you may want to read the `Binds` [docs](https://google.github.io/dagger/api/2.13/dagger/Binds.html), `IntoMap` [docs](https://google.github.io/dagger/api/2.13/dagger/multibindings/IntoMap.html) and multibindings [docs](https://google.github.io/dagger/multibindings.html).*
 
-### Using the map in the factory ###
+#### Using the map in the factory
 
 The view model factory which uses the generated map will be as simple as this:
 
@@ -164,7 +163,7 @@ abstract class ViewModelModule {
 }
 ```
 
-## Obtaining view models ##
+### Obtaining view models
 
 In the activity you can now inject the factory:
 
@@ -191,4 +190,4 @@ class MainViewModel @Inject constructor(
 
 If it seems too complicated to you, please take a look at the diagram below. It may help you to see the big picture.
 
-![Diagram](../../static/images/injectable-android-viewmodels/diagram.png "")
+![Diagram](../../static/images/injectable-android-viewmodels/diagram.png)
