@@ -25,7 +25,7 @@ Please do not mistake this post with a "React Native - The things that should di
 
 ### 1. The "Do-It-Yourself" approach
 
-![Tools](../../static/images/react-native-the-things-that-you-shoud-be-aware-of-before-coming-onboard/tools.jpeg)
+![Tools](../../static/images/react-native-the-things-that-you-shoud-be-aware-of-before-coming-onboard/tools.jpeg "React Native Tools")
 
 If you are a native developer since forever, then coming into React Native will be something completely new to you.
 You have to keep in mind, that there will be many times where there won't be an existing solution for your usecase and the only way to push the project will be to write the whole solution yourself, adapt existing open-source project to your needs or simply fix a bug in a library. Well... This wouldn't be a surprising thing for a native developer, however keep in mind that react-native itself is also a dependency that may require fixes at times. You probably didn't have to fix things in UIKit before ;) Coming to React Native from native will probably make you much more of an open-source person than you have been before ;)
@@ -82,7 +82,7 @@ Take a look at [TypeScript](https://www.typescriptlang.org/) and [Flow](https://
 
 ### 12. You don't have to setup your project from the ground
 
-![Building](../../static/images/react-native-the-things-that-you-shoud-be-aware-of-before-coming-onboard/building.jpeg)
+![Building](../../static/images/react-native-the-things-that-you-shoud-be-aware-of-before-coming-onboard/building.jpeg "React Native Development")
 
 Setting up a React Native project can be a daunting thing... It would be really time consuming to handle all these dependencies by yourself. But don't worry! There is a great tool that will help you with a setup of a project - [Create React Native App](https://github.com/react-community/create-react-native-app). It will allow you to directly jump into writing the code instead of dancing around with configs and dependencies. It's surely important to know how your project is built, but if it's your first time in "JS environment", then you will already have a lot of things to wrap your head around.
 
