@@ -1,9 +1,4 @@
 ---
-layout: post
-title: Mastering LED with BASIC wirelessly
-date: 2017-10-28T22:00:00.000Z
-meaningfullyUpdatedAt: 2017-10-28T22:00:00.000Z
-image: /images/startup-espbasic.jpg
 author: pawel
 tags:
   - BASIC
@@ -11,33 +6,38 @@ tags:
   - esp-12
   - LED
   - electronics
+date: 2017-10-28T22:00:00.000Z
+meaningfullyUpdatedAt: 2017-10-28T22:00:00.000Z
+title: Mastering LED with BASIC wirelessly
+layout: post
+image: /images/startup-espbasic.jpg
 hidden: false
 comments: true
 published: true
 language: en
 ---
-
 As a DIY fan I love to browse internet in search of ideas and inspirations. So I've found a pretty nice project, called [ESPBASIC](https://www.esp8266basic.com/). I heard about BASIC, but I had  never had a chance neither to learn it nor to use it, so I thought it was 's time to meet BASIC (although it's just an interpreter). I have few ESP-12F chips in my drawer, few cables and LEDs scattered around and a free breadboard, and that will be enough for the first encounter with BASIC. My idea is simple and typical for electronics - I have decided to make `hello world` of DIY world - blinking LED.
 
-# Burning chips
+## Burning chips
 
 There are a few steps:
+
 1. Connect uC to any UART controller (I'm using pl2303)
 2. Download a flashing tool from the [official website](https://www.esp8266basic.com/download.html)
 3. Select a port and flash firmware
 
 I had only one problem there - drivers. Windows 10 is a bit too strict about drivers, so I had to download old version of my pl2303 driver and everything goes fine. Except that I think it's one of easiest firmwares to install.
 
-# Connecting
+## Connecting
 
 On your WiFi AP list should appear one more network called like `ESP AA:BB:CC:DD:EE:FF`. Just connect to it, discover device's IP (it should be `192.168.4.1`) and put it into the browser.
 Your eyes should see something like this:
 
-![Screen 1](../../static/images/mastering-led-with-basic-wirelessly/screen1.png "")
+![Screen 1](../../static/images/mastering-led-with-basic-wirelessly/screen1.png)
 
 In `SETTINGS` tab you can configure ESP to connect to your home wifi, setup OTA url (eg. url to BASIC file hosted on GitHub)
 
-# Hello world
+## Hello world
 
 ESPBASIC has nearly a plaintext, one-paged documentation:
 https://docs.google.com/document/d/1EiYugfu12X2_pmfmu2O19CcLX0ALgLM4r2YxKYyJon8/pub
@@ -49,11 +49,11 @@ print "Hello World"
 
 Then `Save` file and `[RUN]` the code.
 
-![Screen 2](../../static/images/mastering-led-with-basic-wirelessly/screen2.png "")
+![Screen 2](../../static/images/mastering-led-with-basic-wirelessly/screen2.png)
 
 Yeah! It was easy. But if you want to put one more `print`, you will see garbage (`<hr>` tag) above your text. Quickly look into documentation and you should find out there also `wprint` function, that put text on screen without any additional code.
 
-# Going blinky
+## Going blinky
 
 I've connected LED to ESP-12's GPIO15 pin. Firstly I will try to just light my light up.
 
@@ -98,7 +98,7 @@ Next x
 
 This code lasts after 60 seconds. Let's make it infinite!
 
-![Blinky](../../static/images/mastering-led-with-basic-wirelessly/blink.gif "")
+![Blinky](../../static/images/mastering-led-with-basic-wirelessly/blink.gif)
 
 ```shell
 variable = 0
@@ -124,4 +124,3 @@ wait
 ```
 
 Timer takes CPU time only every about 500ms, so it's possible to edit code and keep it running in the background.
-
