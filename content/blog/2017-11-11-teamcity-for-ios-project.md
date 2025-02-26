@@ -1,4 +1,5 @@
 ---
+meaningfullyUpdatedAt: 2017-11-10T23:00:00.000Z
 excerpt: Hi! Today's topic will be about TeamCity and how to provide continuous
   integration in your iOS project.
 author: kwysocki
@@ -9,7 +10,6 @@ tags:
   - TeamCity
   - continuous integration
 date: 2017-11-10T23:00:00.000Z
-meaningfullyUpdatedAt: 2017-11-10T23:00:00.000Z
 title: TeamCity for iOS project
 layout: post
 image: /images/teamcity-for-ios-project/title_image.jpg
@@ -20,9 +20,9 @@ language: en
 ---
 Hi! Today's topic will be about [TeamCity](https://www.jetbrains.com/teamcity/) and how to provide continuous integration in your iOS project.
 
-![title image](../../static/images/teamcity-for-ios-project/title_image.jpg "")
+![title image](../../static/images/teamcity-for-ios-project/title_image.jpg)
 
-# Motivation
+## Motivation
 
 I have configured a TeamCity many times and for many projects. There are many advantages of using Continuous Integration system in your project development process. Also, there is a lot of alternatives to TeamCity like [CircleCI](https://circleci.com/), [TravisCI](https://travis-ci.org/) and many more. But in this post I want to share with you TeamCity experience that I have gained at  [Bright Inventions](https://brightinventions.pl).
 
@@ -32,20 +32,20 @@ This post will be more like a tutorial that will guide you through all basic and
 
 Hope you will like it!
 
-# Step 1: Create a root project
+## Step 1: Create a root project
 
 Firstly, you need to go to a page where your TeamCity is hosted. After loging-in, go to the Administration Page, click `Projects` tab in `Project-related Settings` section and click `Create project`
 
-![project settings](../../static/images/teamcity-for-ios-project/create_project_step1.png "")
+![project settings](../../static/images/teamcity-for-ios-project/create_project_step1.png)
 
 after that you should a see configuration screen for Version Control that is used in your project.
 
-![create project version control](../../static/images/teamcity-for-ios-project/create_project.png "")
+![create project version control](../../static/images/teamcity-for-ios-project/create_project.png)
 
 I prefer a way in which I will configure everything manually, but of course you can go with predefined sections like : `From GitHub`. `From Bitbucket Cloud` etc.
 All you need to do in this step is to provide a Name of your project and then tap `Create`
 
-# Step 2: Add VCS root
+## Step 2: Add VCS root
 
 Of course, in order to build our project we need to provide sources to build.
 Our TeamCity service should be able to fetch changes from the repository. If you're using a GitHub, BitBucket or platforms similar to these, you have two ways:
@@ -75,12 +75,12 @@ The public one will be used in your repository on github/bitbucket. The private 
 
 Go to an already created project, settings page and click `VCS SSH Keys` tab.
 
-![ssh section in TeamCity](../../static/images/teamcity-for-ios-project/ssh_section.png "")
+![ssh section in TeamCity](../../static/images/teamcity-for-ios-project/ssh_section.png)
 
 Click on `Upload SSH Key`. After that you should see a pop-up window which allows you to upload the previously created SSH Key.
 *Please keep in mind that you should upload a private part of your key, without `pub` extension*. If you choose correctly, click save and you should see a screen like this:
 
-![uploaded ssh key](../../static/images/teamcity-for-ios-project/ssh_uploaded_key.png "")
+![uploaded ssh key](../../static/images/teamcity-for-ios-project/ssh_uploaded_key.png)
 
 As you can see in `Usage` tab, the key is not used in the configuration yet.
 In order to use it - you have to go through the next steps...
@@ -89,13 +89,13 @@ In order to use it - you have to go through the next steps...
 
 Go to the already created project’s settings page. As you can notice in `SSH Keys` tab - appeared number '1' - it means that we have one SSH key uploaded which is ready to use.
 
-![create project version control](../../static/images/teamcity-for-ios-project/vcs_root_section.png "")
+![create project version control](../../static/images/teamcity-for-ios-project/vcs_root_section.png)
 
 Click on `VCS Roots` tab, and then `Create VC Root`.
 
 In our case, in `Type of VCS` select `Git`
 
-![type of vcs](../../static/images/teamcity-for-ios-project/type_of_vcs.png "")
+![type of vcs](../../static/images/teamcity-for-ios-project/type_of_vcs.png)
 
 In `VCS root name` provide a name which will be:
 
@@ -103,17 +103,17 @@ In `VCS root name` provide a name which will be:
 
 Next, in `Fetch URL` paste a link to your repository. *Please remember to paste here a SSH link type e.g `git@github.com:yournickname/yourrepositoryname.git`*
 
-![fetch url in vcs config](../../static/images/teamcity-for-ios-project/fetch_url.png "")
+![fetch url in vcs config](../../static/images/teamcity-for-ios-project/fetch_url.png)
 
 Next, the most important thing, in `Authentication method` select `Uploaded Key` and choose a previously uploaded private ssh key for you repository.
 
-![fetch url in vcs config](../../static/images/teamcity-for-ios-project/ssh_choose_uploaded_key.png "")
+![fetch url in vcs config](../../static/images/teamcity-for-ios-project/ssh_choose_uploaded_key.png)
 
 Almost done. Now go to the end of the page and click `Test Connection`.
 
 If you see screen like this:
 
-![fetch url in vcs config](../../static/images/teamcity-for-ios-project/connection_failed.png "")
+![fetch url in vcs config](../../static/images/teamcity-for-ios-project/connection_failed.png)
 
 it means that our public part of generated SSH key is not used in the repository, and that's why you get `Auth failed` error. So, all you need to do is to add a public part of SSH Key in `Access keys` or `Deploy keys` in your repository.
 
@@ -125,30 +125,30 @@ Here you have links for Bitbucket and GitHub instructions how to do that:
 
 If you have successfully uploaded public part of SSH Key, click `Test Connection` again, and I hope you will be able to see `Connection successful` alert. It means that TeamCity has an access to read your repository.
 
-![fetch url in vcs config](../../static/images/teamcity-for-ios-project/connection_successful.png "")
+![fetch url in vcs config](../../static/images/teamcity-for-ios-project/connection_successful.png)
 
-# Step 3: Create build configuration
+## Step 3: Create build configuration
 
 Ok, our VCS is configured. Now it's time to create build configuration in TeamCity project. Build configuration is a kind of lane which specifies what type of build you provide in this lane.
 It could be a lane for: compile your project and run unit tests or just compile a project or compile a project then create .ipa files and send it to iTunesConnect or even a separate lane for running UI tests.
 
 Go to `General Settings` in you already created project and click `Create build configuration`
 
-![build configuration step 1](../../static/images/teamcity-for-ios-project/create_build_configuration.png "")
+![build configuration step 1](../../static/images/teamcity-for-ios-project/create_build_configuration.png)
 
 In next screen, once again, choose `Manually` option and name your new build configuration. In our case let's name it `[Develop] Build & Test`. The name is meaningful and means that our lane will build iOS project with develop configuration - `Develop` and also, provides an short information what this lane will do - `Build & Test` which means that we compile our project and run unit tests.
 
-![build configuration step 2](../../static/images/teamcity-for-ios-project/build_configuration_name.png "")
+![build configuration step 2](../../static/images/teamcity-for-ios-project/build_configuration_name.png)
 
 Click `Create` and after that you should see:
 
-![build configuration step 2](../../static/images/teamcity-for-ios-project/attach_vcs_root.png "")
+![build configuration step 2](../../static/images/teamcity-for-ios-project/attach_vcs_root.png)
 
 Here, select a previously created `VCS Root` and click `Attach`.
 
 All done, our build configuration is connected with VCS.
 
-# Step 4: Configure build steps for configuration
+## Step 4: Configure build steps for configuration
 
 Now it's time to define  steps in our build configuration. What are the build steps? They are a sequence of instructions which TeamCity will run on our agent machine. Put it simply, it could be something like:
 
@@ -160,7 +160,7 @@ Now it's time to define  steps in our build configuration. What are the build st
 
 In order to create build steps go to `Build configuration Settings` and tap `Build Steps`
 
-![build configuration step 2](../../static/images/teamcity-for-ios-project/build_steps_1.png "")
+![build configuration step 2](../../static/images/teamcity-for-ios-project/build_steps_1.png)
 
 Click on `Add build step`, and on the next screen select a `Command line` runner type.
 In `Step name` name your build step(in my case it will be `Install Dependencies`). In `Custom script` type a script that will be executed in this build step. Again, in my case it will be
@@ -169,7 +169,7 @@ In `Step name` name your build step(in my case it will be `Install Dependencies`
 bundle install
 ```
 
-![build configuration step 2](../../static/images/teamcity-for-ios-project/command_line_build_step_configuration.png "")
+![build configuration step 2](../../static/images/teamcity-for-ios-project/command_line_build_step_configuration.png)
 
 click `Save` and your first step is ready!
 
@@ -183,9 +183,9 @@ bundle exec fastlane build_and_test
 
 So, now we have all build steps created.
 
-![build steps created](../../static/images/teamcity-for-ios-project/build_steps_final.png "")
+![build steps created](../../static/images/teamcity-for-ios-project/build_steps_final.png)
 
-# Step 5: Triggers
+## Step 5: Triggers
 
 Have you ever wondered how TeamCity knows when to fetch new changes from the repository and build it? Triggers is an answer.
 
@@ -196,17 +196,17 @@ The latter trigger, is called `Schedule Trigger`. It is a simple trigger which c
 
 Go to `Triggers` section in Build Configuration main page. Click `Add new trigger` and select `VCS Trigger` and simply click `Save`
 
-![vcs trigger](../../static/images/teamcity-for-ios-project/vcs_trigger.png "")
+![vcs trigger](../../static/images/teamcity-for-ios-project/vcs_trigger.png)
 
 `VCS Trigger` configured successfully, easy right?.
 
 Next, do the same, `Add new trigger` -> `Schedule Trigger` and choose options that will meet your requirements (in my case it is a daily trigger at 04:00 AM) and click `Save`.
 
-![time trigger](../../static/images/teamcity-for-ios-project/time_trigger.png "")
+![time trigger](../../static/images/teamcity-for-ios-project/time_trigger.png)
 
 All triggers created!
 
-# Step 6: Add Build Features
+## Step 6: Add Build Features
 
 Build features are cool stuff. For example, while using build features you can create a condition that checks which version of Ruby is installed, or you can create a condition that will check if there is some available space on your machine. It is super useful if you want to produce `.ipa` files and you know that you need at least 100MB free space. In this post I will show you how to configure two build features - one is `XML report processing` and the second one `Ruby environment configurator`.
 
@@ -215,7 +215,7 @@ Build features are cool stuff. For example, while using build features you can c
 Go to `Build Features` section in the build configuration main page, and click `Add build feature`. Choose `XML report processing`, select `Ant JUnit` and in `Monitoring rules` paste a path for `report.junit` file which is generated by Fastlane after `scan` action.
 In `report.junit` you can find out how many tests have been run, how many tests failed, how many tests have been completed successfully.
 
-![xml reporting](../../static/images/teamcity-for-ios-project/xml_reporting.png "")
+![xml reporting](../../static/images/teamcity-for-ios-project/xml_reporting.png)
 
 * `Ruby environment configurator`
 
@@ -223,9 +223,9 @@ This time select `Ruby environment configurator` in `Add build feature` window. 
 
 This feature will check if this version of ruby is available on the agent machine and if not it will not start build configuration. It is an optional step, but sometimes it is incredibly useful - especially, if you use multiple ruby versions or someone else could change a global version of ruby on agent machine.
 
-![xml reporting](../../static/images/teamcity-for-ios-project/ruby_feature.png "")
+![xml reporting](../../static/images/teamcity-for-ios-project/ruby_feature.png)
 
-# Step 7: Parameters
+## Step 7: Parameters
 
 There are 3 types of parameters for build configuration or even root project.
 
@@ -243,19 +243,19 @@ which means - select XCode from a path that you can find under `ENV["XCODE_PATH"
 
 On the build configuration main page select `Parameters` and click `Add new parameter`. In `Name` type `env.XCODE_PATH`, TeamCity should automatically change Kind to `Environment variable` and in the value provide a path to XCode.app on your agent machine.
 
-![xcode path](../../static/images/teamcity-for-ios-project/xcode_path.png "")
+![xcode path](../../static/images/teamcity-for-ios-project/xcode_path.png)
 
 By using parameters you can pass many useful values such as your build number or the name of scheme that should be built and many more. I encourage you to check it out :)
 
-# Step 8: Failure Conditions
+## Step 8: Failure Conditions
 
 Failure conditions should be used in a situation when you want to force your build to fail. A great example of that is a timeout. Let's imagine that something bad happens on your agent machine and your build is hanging over 2 hours, when normally it takes a few minutes. Failure conditions come with help! You can set up here that if build lasts above `n` minutes then it should fail.
 
 In the main page of build configuration go to `Failure Conditions` and on line `if runs longer than specified limit in minutes` put a value(in minutes). In my case it will be 60 minutes.
 
-![failuire condition](../../static/images/teamcity-for-ios-project/failuire_condition.png "")
+![failuire condition](../../static/images/teamcity-for-ios-project/failuire_condition.png)
 
-# Step 9: Agent machine
+## Step 9: Agent machine
 
 As you have probably noticed, I often mention `agent machine`. Agent, **in iOS case**, it is a computer(Macbook, MacMini, etc) with macOS system. Agent is connected via script to your TeamCity page. TeamCity can communicate with agent in order to use it to execute build steps from build configuration. The important thing is that your agent should be turned ON all the time to provide continuous integration.
 
@@ -263,11 +263,11 @@ Ok, but how to configure an Agent?
 
 Go to `Agents` tab in TeamCity page. You can find it at the top.
 
-![agent tab](../../static/images/teamcity-for-ios-project/agents.png "")
+![agent tab](../../static/images/teamcity-for-ios-project/agents.png)
 
 In a newly created TeamCity there are no available agents yet. Let's click on `Install Build Agents`.
 
-![failure condition](../../static/images/teamcity-for-ios-project/install_build_agent.png "")
+![failure condition](../../static/images/teamcity-for-ios-project/install_build_agent.png)
 
 I prefer a way of installing it via `Zip file distribution`. After you click on that your web browser will download all the files that are necessary to run agent.
 
@@ -299,9 +299,9 @@ pathToDownloadedUnzippedBuildAgentFiles\bin\agent.sh start
 
 The next thing to do  is to go to TeamCity page on `Agents` tab again. You will have to wait a bit, and after some time you should see one agent available under `Unauthorized` tab. Only thing to do is to `Authorize` agent. After this you will see you agent under `Connected` tab.
 
-![agent connected](../../static/images/teamcity-for-ios-project/agent_connected.png "")
+![agent connected](../../static/images/teamcity-for-ios-project/agent_connected.png)
 
-# Step 10: Setup Agent requirements for build configuration
+## Step 10: Setup Agent requirements for build configuration
 
 The last thing...You need to specify now which agent should build your configuration. If  your TeamCity contains a projects for iOS and Android, probably it will have two agents - one for Android, and the second one for iOS. Of course, we don't want to start our **iOS build configuration** on computer for Android project which probably will not have XCode, or even macOS. So, in order to provide a proper agent for you project you need to use `Agent requirements` for build configuration.
 
@@ -313,46 +313,46 @@ In the main page of build configuration go to `Agent requirements` tab and then:
 * In `Value` select  `Mac OS X`
 * Save
 
-![agent connected](../../static/images/teamcity-for-ios-project/agent_requirements.png "")
+![agent connected](../../static/images/teamcity-for-ios-project/agent_requirements.png)
 
 The requirement which we have already created means that agent OS name should be Mac OS X because we configure a project for iOS.
 
-# Step 11: Ready for build - RUN! 🎉
+## Step 11: Ready for build - RUN! 🎉
 
 All configured, you're ready to start your build via TeamCity. Go to main TeamCity page and tap `Run` on your freshly created build configuration.
 
-![start build](../../static/images/teamcity-for-ios-project/run_build.png "")
+![start build](../../static/images/teamcity-for-ios-project/run_build.png)
 
 After that, you will be able to see build progress:
 
-![build running](../../static/images/teamcity-for-ios-project/build_running.png "")
+![build running](../../static/images/teamcity-for-ios-project/build_running.png)
 
 If you want to see the progress in a current build, just click on `Running` label and go to the `Build log` section. It is very useful if some errors occurred while compiling.
 
-![build running](../../static/images/teamcity-for-ios-project/build_log.png "")
+![build running](../../static/images/teamcity-for-ios-project/build_log.png)
 
 Finally, after all build steps you will be able to see:
 
-![build success](../../static/images/teamcity-for-ios-project/build_success.png "")
+![build success](../../static/images/teamcity-for-ios-project/build_success.png)
 
 As you can see, `XML Processing Report` Build Feature provides a cool output about unit tests: `Test passed: 24`.
 
-# Step 12: Artifacts!
+## Step 12: Artifacts!
 
 Last optional step. I can imagine that you can find many cases that you want to compile a project, create a `.ipa` file and send it to the client. Artifacts are made for it.
 To do this: Go to build configuration settings by clicking `Edit Settings`:
 
-![build configuration settings](../../static/images/teamcity-for-ios-project/edit_settings.png "")
+![build configuration settings](../../static/images/teamcity-for-ios-project/edit_settings.png)
 
 in `General Settings` under `Artifacts paths` type a path to `.ipa` file which will be generated by your build scripts. I recommend using Fastlane again. Fastlane action called `gym` will build your project and create `.ipa` file in the output directory. More about `gym` you can [read here](https://docs.fastlane.tools/actions/gym/).
 
-![artifacts path](../../static/images/teamcity-for-ios-project/artifacts_path.png "")
+![artifacts path](../../static/images/teamcity-for-ios-project/artifacts_path.png)
 
 If you do this, after next build you will be able to download `.ipa` via `Artifacts` page on TeamCity.
 
-![artifacts published](../../static/images/teamcity-for-ios-project/artifacts.png "")
+![artifacts published](../../static/images/teamcity-for-ios-project/artifacts.png)
 
-# Conclusion
+## Conclusion
 
 TeamCity is a great platform to provide Continuous Integration in your project. In combination with Fastlane it saves you many hours of manual deploying, testing and compiling.
 
@@ -360,4 +360,4 @@ Also, if you will configure Artifacts in build configuration, you can easily sen
 
 Hope you like the post. Feel free to comment and share :)
 
-This post was published also on my [personal blog](https://wysockikamil.com/teamcity-for-ios-project/) 
+This post was published also on my [personal blog](https://wysockikamil.com/teamcity-for-ios-project/)
