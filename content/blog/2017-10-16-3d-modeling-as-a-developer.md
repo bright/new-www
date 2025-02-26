@@ -201,6 +201,6 @@ OpenSCAD has a lot of popular mathematical functions and transformations.
 It also allows us to create 2d models and extrude it to 3d models with `linear_extrude` or `rotate_extrude`. You can look for details [here](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/2D_to_3D_Extrusion).
 Documentation is very easy to use so I believe this doesn't need any further explaining.
 
-# Last words
+## Last words
 
 OpenSCAD is a very powerful tool if we know how to use it. I was able to create useable models in a few hours after reading the manual. If you are a developer and prefer writing a code to drawing, I think it will be perfect for you.
