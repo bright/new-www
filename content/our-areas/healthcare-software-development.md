@@ -50,9 +50,9 @@ image_our_service_desktop: /images/healthtech_consulting_desktop_update.png
 image_our_service_mobile: /images/healthtech_consulting_mobile_update.png
 image_alt_our_service: healthcare technology consulting
 bullet_points:
-  - successful scaling with secure healthcare development
-  - full-cycle support from a trusted healthcare IT company
-  - achieving business goals with expert healthcare technology consulting
+  - navigate successful scaling with secure healthtech development
+  - receive full-cycle support from a trusted healthcare IT company
+  - achieve business goals with on of the top healthcare software companies
 bar_stack:
   - IoT
   - Bluetooth
