@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Senior Project Manager
-subtitle: OPEN
+subtitle: CLOSED
 imagejob: /images/fullstack-team-job-offer-4-.png
 image-alt-job: job for Project Manager
 hours: full-time
