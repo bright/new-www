@@ -23,11 +23,11 @@ https://grafana.com/blog/2023/10/30/how-to-integrate-a-spring-boot-app-with-graf
 
 While observability and monitoring are crucial throughout the lifecycle of a production application, budget constraints at the beginning of a project often prevent us from affording additional costs for monitoring tool subscriptions. In such cases, focusing on storing only essential data is vital. Fortunately, Grafana Cloud offers a free plan for small teams. However, when sending all telemetry data gathered by OpenTelemetry auto-instrumentation, we can quickly reach the free tier limit, especially with metrics.
 
-# So what can we do about it?
+## So what can we do about it?
 
 In this article, we will discuss several methods to reduce the amount of telemetry data produced by your application.
 
-## Identify unnecessary metrics
+### Identify unnecessary metrics
 
 The first step is to review all metrics produced by your application and determine if you are using them (or plan to use them in the future).
 
@@ -50,7 +50,7 @@ The first metric is provided by Spring Boot, and the second one by OpenTelemetry
        - http.server.requests
 ```
 
-## Identify unnecessary labels
+### Identify unnecessary labels
 
 If you need to retain the rest of your metrics but their series count is too high, Grafana suggests removing some labels to reduce cardinality. The second part of the Cardinality Management dashboard lists the “Top labels by value count”.
 
@@ -67,7 +67,7 @@ metricstransform/aggregate_http_server_request_duration_labels:
          aggregation_type: sum
 ```
 
-## Histogram view customization
+### Histogram view customization
 
 Even after aggregating the labels, the http.server.request.duration metric continued to produce an excessive number of active series, primarily due to the buckets used for grouping request duration times.
 
@@ -108,7 +108,7 @@ const sdk = new opentelemetry.NodeSDK({
 })
 ```
 
-## Reduce the number of traces
+### Reduce the number of traces
 
 Even before your application’s traffic becomes significant, it may produce many traces. To reduce the number of traces sent to storage, you can apply the [tail_sampling processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/tailsamplingprocessor):
 
@@ -288,7 +288,7 @@ By following these steps, you can effectively reduce the telemetry data produced
 
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfa-36n8nMvYawaI31ExVkK5Ekcew8HvIP4F0MwcFkBuoKB-YiOPyaedkCCGLuv7AqEhHbpl3NVOgypMqdz4KVUBJqo6I8GW9J5F7CUKZFCFcNXioZNB_RZoVHg9sl8rA-8ALA-rd8oXb8Sd2cP67pyyy8z?key=SAsVSNF7tYs-3QAXxC5B1w)
 
-### Summary
+## Summary
 
 This article outlines various methods to reduce the amount of telemetry data produced by your application, focusing on essential metrics, eliminating unnecessary labels, customizing histogram views, and reducing the number of traces. By implementing these strategies, you can optimize your telemetry data and make efficient use of Grafana Cloud's resources without incurring additional costs.
 
