@@ -17,13 +17,11 @@ comments: true
 published: true
 language: en
 ---
-
-
 Most of us write tests these days. Whether they are unit, integration, end-to-end or performance tests once written we often do not go back to them until they fail. It is thus vital to have a clear assertion message when a test fails.
 
 ![Search](../../static/images/shouldko-1/search.jpg "Search Functionality")
 
-# Hamcrest 
+## Hamcrest
 
 I think [Hamcrest](http://hamcrest.org/) is the most popular assertion library available in Java and Kotlin ecosystem. Let us look at an oversimplified example of [`Money`](https://martinfowler.com/bliki/ValueObject.html) class:
 
@@ -70,7 +68,7 @@ Expected: <150>
 
 Let's see how we can improve on that.
 
-# ShouldKO: better assertion messages for Kotlin
+## ShouldKO: better assertion messages for Kotlin
 
 [ShouldKO](https://github.com/miensol/shouldko) is a simple library I've come up with that improves the assertion messages. Its idea is based on assertion libraries available in .NET e.g. [Shouldly](https://github.com/shouldly/shouldly). Let us see how the tests looks like using [ShouldKO](https://github.com/miensol/shouldko):
 
@@ -98,7 +96,7 @@ Expected: <150>
 
 [ShouldKO](https://github.com/miensol/shouldko) incorporates a source code line with the assertion into the assertion message itself. This comes really handy when we have multiple lines with assertions that form one logical condition. This is a small thing, but can greatly improve debugging test issues especially when all we have is a log file produced by a test run.
 
-## Installation of ShouldKO
+### Installation of ShouldKO
 
 [ShouldKO](https://github.com/miensol/shouldko) is currently available on [Jitpack](https://jitpack.io/). You need to first add Jitpack to your repositories:
 
