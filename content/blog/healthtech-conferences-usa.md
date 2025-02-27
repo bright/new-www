@@ -72,7 +72,7 @@ Digital Health is an interactive and decision-maker-driven event helping to forg
 
 Details: [events.reutersevents.com/healthcare/digital-health-usa](https://events.reutersevents.com/healthcare/digital-health-usa)
 
-<EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
+<EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='cover' />
 
 ## Digital Healthcare Innovation Summit (DHIS) East
 

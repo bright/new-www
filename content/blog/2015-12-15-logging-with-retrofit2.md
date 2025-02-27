@@ -1,30 +1,32 @@
 ---
-layout: post
-title: Logging with Retrofit 2
+author: mateuszklimek
 tags:
   - android
-comments: true
-author: mateuszklimek
 date: 2015-12-14T23:00:00.000Z
 meaningfullyUpdatedAt: 2015-12-14T23:00:00.000Z
+title: Logging with Retrofit 2
+layout: post
 image: /images/desktop-android-unit-test.jpg
+comments: true
 published: true
 language: en
 ---
-
 Retrofit has been updated to 2.0 version.
 
 It's a major change in the one of the most popular library for Android platform.
 
 A lot of things have been changed out there but in this blog post I want to cover how to setup logging properly.
 
-# Retrofit 1.x - old way
+## Retrofit 1.x - old way
+
 In Retrofit 1.x we just call:
+
 ```java
 	adapter.setLogLevel(RestAdapter.LogLevel.FULL)
 ```
 
-# Retrofit 2.x - new way
+## Retrofit 2.x - new way
+
 In Retrofit 2 you should use [HttpLoggingInterceptor](https://github.com/square/okhttp/blob/master/okhttp-logging-interceptor/src/main/java/com/squareup/okhttp/logging/HttpLoggingInterceptor.java).
 
 Add dependency to `build.gradle`:
@@ -64,6 +66,3 @@ It should print logs similar to the old ones from Retrofit 1.x.
 Hope it helps you :)
 
 See this post on my [personal blog](http://mklimek.github.io/logging-with-retrofit2/).
-
-
-

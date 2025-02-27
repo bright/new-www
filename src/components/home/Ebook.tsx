@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { CustomSection, CustomSectionTitle, CustomTextTitle, FlexWrapper, TextRegular } from '../shared'
 import { ContactEbook } from './ebook/ContactEbook'
 
@@ -8,6 +8,8 @@ import styled from 'styled-components'
 import variables from '../../styles/variables'
 import { ebookNames } from '../../ebook-names'
 import { StaticImage } from 'gatsby-plugin-image'
+import ReCaptcha from '../recaptcha/ReCaptcha'
+import ReCAPTCHA from 'react-google-recaptcha'
 
 const EbbokSection = styled(CustomSection)`
   @media ${variables.device.mobile} {
@@ -19,7 +21,8 @@ const EbbokSection = styled(CustomSection)`
 `
 
 const Ebook = () => {
-  const { value, setPolicy, handleSubmit, setEmail, setName } = useEbookForm(ebookNames[3])
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
+  const { value, setPolicy, handleSubmit, setEmail, setName } = useEbookForm(ebookNames[3], recaptchaRef)
 
   return (
     <EbbokSection
@@ -55,6 +58,7 @@ const Ebook = () => {
               handleSubmit={handleSubmit}
               value={value}
             />
+            <ReCaptcha recaptchaRef={recaptchaRef}/>
           </FlexWrapper>
         ) : (
             <HomeEbookThankYouPage url={value.ebookResponse.ebook.url} />

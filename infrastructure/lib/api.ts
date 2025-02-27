@@ -18,6 +18,7 @@ import { Topic } from 'aws-cdk-lib/aws-sns'
 import { Queue } from 'aws-cdk-lib/aws-sqs'
 import { SqsSubscription } from 'aws-cdk-lib/aws-sns-subscriptions'
 import { SqsEventSource } from 'aws-cdk-lib/aws-lambda-event-sources'
+import { recaptchaApiKeyParamName } from './recaptcha-api-key-param-name'
 
 interface ApiProps {
   visitorsTable: Table
@@ -117,6 +118,25 @@ export class Api extends Stack {
         }
       ),
     })
+
+    const verifyRecaptcha = new NodejsFunction(this, 'verify-recaptcha', {
+      entry: './lib/verify-recaptcha.ts',
+      runtime: Runtime.NODEJS_18_X,
+      memorySize: 1024
+    })
+
+    const recaptchaApiKey = StringParameter.fromSecureStringParameterAttributes(this, 'recaptcha api key', {
+      parameterName: recaptchaApiKeyParamName,
+    })
+
+    recaptchaApiKey.grantRead(verifyRecaptcha)
+
+    this.httpApi.addRoutes({
+      methods: [HttpMethod.POST],
+      path: '/api/verify-recaptcha',
+      integration: new HttpLambdaIntegration('verify-recaptcha', verifyRecaptcha),
+    })
+
 
     new CfnOutput(this, 'apiUrl', {
       value: this.httpApi.apiEndpoint,

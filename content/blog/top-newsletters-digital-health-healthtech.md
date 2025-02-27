@@ -33,7 +33,7 @@ Powered by: Jared Dashevsky, MD, Founder of Healthcare Huddle newsletter
 
 Subscribe: [healthcarehuddle.com](https://www.healthcarehuddle.com/)
 
-<EbookDynamic sectionTitle='get more resources about digital health' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download our free guide about scaling software solutions for healthcare. Almost 100 pages about leveraging technology in digital health!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide cover' />
+<EbookDynamic sectionTitle='get more resources about digital health' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download our free guide about scaling software solutions for healthcare. Almost 100 pages about leveraging technology in digital health!'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='guide cover' />
 
 ## Fierce Healthcare
 

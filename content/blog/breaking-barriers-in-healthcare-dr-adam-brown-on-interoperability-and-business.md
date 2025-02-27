@@ -1,5 +1,7 @@
 ---
 author: agata
+tags:
+  - HealthTech
 date: 2025-02-19T13:22:38.435Z
 meaningfullyUpdatedAt: 2025-02-19T13:22:38.447Z
 slug: adam-brown-on-healthcare-interoperability
@@ -22,8 +24,6 @@ Sure. My name is Dr. Adam Brown. I'm a practicing physician, an emergency physic
 
 *source: Adam's LinkedIn page*
 
-
-
 ## **Okay, impressive. What are some of the most significant challenges you faced during your journey from physician to business founder?**
 
 That's such a great question because it's hard for people to grasp that I would be a doctor and something else. They think that sometimes when I say I'm a physician, that's where their brain stops. And they only see me as seeing patients. **But what started happening is over time, I started getting more involved in the business aspect of healthcare because healthcare in the United States is 20% of our economy. And so you have to have people that understand healthcare and healthcare business.** And so I started proving that I understood business, operations, and strategy. The proof became the reality for people that, okay, Dr. Brown can be a physician but also a business person. It was a challenge. It took longer than expected. And still to this day, I have to continue to remind people that, yes, I'm a doctor, but I also have an MBA, and I'm a business school professor, not a medical school professor. So it's still a constant challenge.
@@ -40,11 +40,7 @@ My mission is very simple. It's to impact the health of as many people as possib
 
 Seeing success and the effort of your work. One of the things that drives me is seeing that the work I've done has had a positive impact. Whether it's hearing from someone who's read my op-eds or doctors who say, "That resonates with me," or talking with my former and current students who say, "Dr. Brown, that was an amazing class." **We have to remember that our jobs and roles as leaders likely have more impact on healthcare than physicians.** The environment we create, the system we build, the benefits we use at our place of employment, and the policies we advocate for have a real impact on people's day-in and day-out lives. Encouraging business leaders to think empathically and recognize the health connections in their policies is key. It's encouraging to see former students say, "I took your course, learned from it, and now we're implementing it at my job.”
 
-
-
-<EbookDynamic sectionTitle='want to know more about interoperability in healthtech?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/cover_healthtech_guide_home.png' ebookAlt='undefined' />
-
-
+<EbookDynamic sectionTitle='want to know more about interoperability in healthtech?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='undefined' />
 
 ## **Can you say something about the Research Triangle?**
 
@@ -54,19 +50,13 @@ Sure. In North Carolina, the Research Triangle is made up of three anchor univer
 
 **Very simply, the ability for different systems to communicate has a profound impact on patients getting the right care.** One of the biggest challenges in the US is our disparate electronic healthcare systems (EHRs). Every hospital has a different system. Even though there are major EHR vendors with large market portions, communication between vendors can be challenging. This can lead to problems like patients getting the wrong medications or duplicative studies. Interoperability benefits patients by improving quality and reducing costs. However, some people have no operability at all—they lack access to digital platforms. There are huge disparities in healthcare in the US, often tied to education and financial ability, but there's also a digital component. Without broadband, phone, or computer access, integrating into healthcare systems is impossible.
 
-
-
 <div className="image">![](/images/baner-adam.png "")</div>
-
-
 
 ## **What is your most important advice for a startup or scale-up owner entering the US market?**
 
 First, understand the market. It sounds simple, but the buyers can be confusing. For example, some companies want to work with a healthcare system but need to be selling to a payer. Or they aim to work with physicians, not recognizing that about 80% of physician groups are employed by hospital systems or payers. Understanding the buyer and payer dynamics is crucial. The regulatory space is another challenge. Having FDA approval is not enough—you also need CMS and Medicaid approval to pay for your product or device. Without this, your product or service won't be implemented or used in the US.
 
 <div className="image">![](/images/baner-adam-1-.png "")</div>
-
-
 
 ## **And what about your free time? Apart from skiing in Austria, I suppose.**
 

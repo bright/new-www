@@ -34,7 +34,7 @@ project:
   - eMAR
 layout: our-service
 our_service_id: healthcare software development
-meta_title: Healthcare Technology Company
+meta_title: Healthcare Technology Consulting
 meta_description: Since 2012, we’ve built cutting-edge HealthTech solutions for
   clients in the UK, Germany, Israel & beyond. Get expert healthcare software
   development today!
@@ -44,15 +44,15 @@ slug: healthcare-software-development
 short_description: Over the course of a decade, we have partnered with numerous
   startups and SMEs representing the healthcare industry.
 order: 1
-title: scale trustworthy solutions with healthcare technology company
-highlighted_word: trustworthy
+title: scale trusted solutions with healthcare technology consulting
+highlighted_word: healthcare
 image_our_service_desktop: /images/healthtech_consulting_desktop_update.png
 image_our_service_mobile: /images/healthtech_consulting_mobile_update.png
 image_alt_our_service: healthcare technology consulting
 bullet_points:
-  - successful scaling with secure healthcare development
-  - full-cycle support from a trusted healthcare IT company
-  - achieving business goals with expert healthcare technology consulting
+  - navigate successful scaling with secure healthtech development
+  - receive full-cycle support from a trusted healthcare IT company
+  - achieve business goals with one of the top healthcare software companies
 bar_stack:
   - IoT
   - Bluetooth
@@ -163,4 +163,4 @@ Medication distribution is a critical yet error-prone healthcare process. As an 
 
 Respond effectively to critical mental healthcare challenges with our solution. Whether it's depression, anxiety, or other mental disorders, we are committed to helping you scale solutions with a primary focus on and respect for your users. **Proudly supporting the growth of the [online group therapy platform](/projects/online-group-support/) based in the US, we draw upon our experience to navigate the sensitive realm of digital mental health with care and expertise**.
 
-Addressing **mental health software development** needs with care and expertise, we build solutions that support **online therapy, mood tracking, and AI-driven mental health assessments**. **Our healthcare software development services** include HIPAA-compliant mental health solutions, ensuring security and privacy for sensitive patient data.
+Addressing **mental health software development** needs with care and expertise, as an experienced **healthcare technology company** we build solutions that support **online therapy, mood tracking, and AI-driven mental health assessments**. **Our healthcare software development services** include HIPAA-compliant mental health solutions, ensuring security and privacy for sensitive patient data.

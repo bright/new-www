@@ -10,6 +10,37 @@ servers:
     description: Staging API
 
 paths:
+  /verify-recaptcha:
+    post:
+      operationId: verifyRecaptcha
+      summary: Verify Google reCAPTCHA token
+      description: Validates a reCAPTCHA token and returns the risk analysis score.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [ token ]
+              properties:
+                token:
+                  type: string
+                  description: Google reCAPTCHA token
+                  example: "03AFcWeA6L..."
+      responses:
+        '400':
+          description: Bad request
+        '200':
+          description: reCAPTCHA verification score
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [ score ]
+                properties:
+                  score:
+                    type: string
+                    example: "0.9"
   /ebooks/{ebookName}/sign-up:
     post:
       operationId: ebookSignUp
