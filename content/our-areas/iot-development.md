@@ -76,36 +76,27 @@ title_faqs: IoT development FAQs
 title_contact: book free consultation in 48 hours
 description_contact: Fill out the form below and we'll get back to you in 48 hours. Let's talk!
 boxes:
-  - box_title: you represent the retail sector
-    box_description: Retail businesses benefit from **IoT integration services**
-      that connect various systems, including point-of-sale (POS) systems. Our
-      team has successfully integrated **IoT hardware development services**
-      into [POS applications for hospitality and
-      retail](/projects/system-for-restaurants-mobile/), scaling solutions for
-      industry leaders like **Just Eat Takeaway.com**.
+  - box_title: IoT device monitoring
+    box_description: Our **IoT device monitoring** services provide real-time
+      wireless asset tracking crucial for **inventory management** for
+      warehouse, retail or restaurants.
     box_icon: /images/icon_pos_lp_new_old_devicesx2.png
-  - box_title: you represent the healthcare sector
-    box_description: We specialize in **IoT healthcare solutions**, having developed
-      and scaled **telemedicine applications for clients in the UK and
-      Germany**. Our expertise includes **[IoT device
-      integration](/projects/remote-patient-monitoring/)**, such as Bluetooth
-      thermometers and pulse oximeters, ensuring secure **IoT device
-      monitoring** and real-time health data tracking.
-    box_icon: /images/telemedicine_icon_update.png
-  - box_title: you represent the fintech sector
-    box_description: Need an app integrated with an external card reader or I**oT
-      security services** for transaction authorization? We provide **IoT
-      software development services** for FinTech, including **IoT blockchain
-      solutions** for enhanced security. With extensive experience in **IoT
-      product development services**, we are ready to assist with your FinTech
-      IoT project.
-    box_icon: /images/icon_pos_lp_no_feesx2.png
-  - box_title: you represent the industrial sector
-    box_description: Looking to build an **Industrial Internet of Things (IIoT)**
-      system that connects devices in manufacturing or logistics? Our **IoT
-      consulting services** and **IoT system integration services** ensure
-      optimal efficiency, scalability, and **real-time data insights**. Contact
-      us to explore our experience in **industrial IoT development**.
+  - box_title: IoT security services
+    box_description: Security is a priority in our **IoT security services**. We
+      implement encryption, authentication protocols, and threat detection
+      mechanisms to protect your IoT network from cyber threats and
+      vulnerabilities.
+    box_icon: /images/icon_pos_lp_compliance_securityx2.png
+  - box_title: IoT analytics services
+    box_description: Our **IoT analytics services** transform raw data into
+      actionable insights. We leverage real-time analytics, predictive
+      maintenance, and AI-driven models to help businesses make data-driven
+      decisions.
+    box_icon: /images/icon_pos_lp_growthx2.png
+  - box_title: IoT cloud services
+    box_description: With our **IoT cloud services**, businesses can efficiently
+      store, process, and manage IoT data. We design scalable cloud
+      architectures that ensure seamless data flow and high availability.
     box_icon: /images/icon_pos_featuresx2.png
 language: en
 blog_section_tags:
@@ -156,6 +147,8 @@ description_mdx: We are Bright Inventions – a software development company
 image_our_service: /images/iot_development_1.png
 show_team: true
 ---
-## is an  IoT development company the right fit for you?
+## comprehensive IoT Services
 
-The Internet of Things (IoT) is a key component in modern software development across various industries. Partnering with an **IoT solutions company** or an I**oT agency** ensures seamless device integration, connectivity, and scalability. You may need an **IoT services provider** if:
+The **Internet of Things (IoT) solutions** support software product scaling across various industries, including healthcare, fleet management, **industrial IoT**, retail, and fintech. Partnering with an experienced **IoT solutions company** or a **IoT agency** ensures **secure device integration**, real-time **IoT monitoring**, and scalable infrastructure.
+
+At Bright Inventions, we specialize in **IoT services**. Below are some of the **IoT solutions services** we provide:
