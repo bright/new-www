@@ -44,7 +44,7 @@ slug: healthcare-software-development
 short_description: Over the course of a decade, we have partnered with numerous
   startups and SMEs representing the healthcare industry.
 order: 1
-title: scale trusted solutions with expert healthcare technology consulting
+title: scale trusted solutions with healthcare technology consulting
 highlighted_word: healthcare
 image_our_service_desktop: /images/healthtech_consulting_desktop_update.png
 image_our_service_mobile: /images/healthtech_consulting_mobile_update.png
@@ -52,7 +52,7 @@ image_alt_our_service: healthcare technology consulting
 bullet_points:
   - navigate successful scaling with secure healthtech development
   - receive full-cycle support from a trusted healthcare IT company
-  - achieve business goals with on of the top healthcare software companies
+  - achieve business goals with one of the top healthcare software companies
 bar_stack:
   - IoT
   - Bluetooth
