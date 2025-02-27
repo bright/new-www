@@ -66,7 +66,7 @@ bar_stack:
   - Figma
   - Miro
 button: explore IoT services
-button2: let's talk about IoT
+button2: let's talk about IoT services
 published: true
 show_case_study: true
 show_technology_stack: true
