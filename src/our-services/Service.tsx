@@ -88,11 +88,13 @@ export default function Template({
   } = page
 
   const titleArr = title.split(' ')
-  const newTitle = titleArr.map((ta: string) => {
+  const newTitle = titleArr.map((ta: string, index: number) => {
     const highlightedWordArr = highlighted_word?.split(' ')
+    const isLastElement = index === titleArr.length - 1
+    
     return (
       <span key={ta} className={highlightedWordArr?.includes(ta) ? 'highlighted-word' : ''}>
-        {ta}
+        {isLastElement ? ta : `${ta}\u0020`}
       </span>
     )
   })
@@ -118,7 +120,7 @@ export default function Template({
                 paddingTablet='0 0 16px'
                 paddingMobileProps='0 0 32px'
               >
-                <OurServicePageTitle language={de}>{newTitle}</OurServicePageTitle>
+                <OurServicePageTitle language={de}><span>{newTitle}</span></OurServicePageTitle>
               </CustomSection>
               <BulletsList>
                 {bullet_points && bullet_points.map((point: string) => <BulletList key={point}>{point}</BulletList>)}

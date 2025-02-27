@@ -317,10 +317,6 @@ export const OurServicePageTitle = styled(CustomPageTitle)<{ language: boolean }
   }
   & span {
     color: ${variables.color.text2};
-    padding-right: ${variables.pxToRem(10)};
-    &:last-child {
-      padding-right: 0;
-    }
   }
   @media ${variables.device.laptop} {
     font-size: ${clampBuilder(1281, 1542, 45, 57)};
@@ -408,7 +404,7 @@ export const BoxesWrapper = styled.div`
 
 export const BoxImage = styled.div``;
 
-export const BoxTitle = styled.div`
+export const BoxTitle = styled.h3`
     font-size: 20px;
     font-weight: bold;
     padding: 32px 0;
