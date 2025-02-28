@@ -41,7 +41,7 @@ image_alt_our_service: POS software development company
 video_file: ""
 bullet_points:
   - integrations with retail devices and third-party systems
-  - secure contactless payments
+  - secure contactless point of sale payments
   - scaling from MVP to a global solution
 bar_stack:
   - iOS
