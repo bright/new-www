@@ -23,10 +23,10 @@ project:
   - card-reader
 layout: our-service
 our_service_id: POS development
-meta_title: POS Development Company
+meta_title: POS Software Development Company
 meta_description: Offering POS software development services since 2012.
-  Building POS solutions for hospitality and retail, scaling POS systems from
-  MVP to global solutions.
+  Building, scaling and modernizing custom point of sale for hospitality and
+  retail.
 our_services_icon: /images/pos_software_development_icon.png
 name: POS software development
 slug: pos-software-development
@@ -41,8 +41,8 @@ image_alt_our_service: POS software development company
 video_file: ""
 bullet_points:
   - integrations with retail devices and third-party systems
-  - secure contactless payments
-  - scaling from MVP to a global solution
+  - secure contactless point of sale payments
+  - scaling from MVP to a global **custom POS system**
 bar_stack:
   - iOS
   - Android
@@ -62,11 +62,12 @@ button2: book a free consultation
 published: true
 show_case_study: true
 show_technology_stack: true
-title_team: POS development company – meet our team
-title_case_study: how we support our clients
-title_faqs: POS software development services – FAQs
-title_contact: book a call to discuss your POS
-description_contact: Fill out the form or drop us a line!
+title_team: POS software development company – our team
+title_case_study: POS development – our clients' stories
+title_faqs: custom POS software development – FAQs
+title_contact: book a call to discuss your custom POS system
+description_contact: Fill out the form or drop us a line! Let's talk about the
+  challenges you face during point of sale software development.
 boxes:
   - box_title: POS food delivery platform integrations
     box_description: "[Synchronize menus and orders from food delivery apps onto a
@@ -74,39 +75,47 @@ boxes:
       your POS with **Uber Eats, Wolt, Just Eat, Deliveroo** and more!"
     box_icon: /images/pos_development_icon_update.png
   - box_title: POS device integrations
-    box_description: We'll ensure **stable connections with printers, terminals, and
-      other hardware** integrated with your POS system. [We integrate retail
-      devices](/projects/pos-devices-integration/) from top producers including
-      **Epson or Sunmi**. If one printer malfunctions, another will
-      automatically take over to print receipts.
+    box_description: Ensure stable connections with printers, terminals, and other
+      hardware integrated with your **custom POS system**. We [integrate retail
+      devices](/projects/pos-devices-integration/) from top producers, including
+      **Epson** and **Sunmi**. Our robust **POS application development**
+      ensures that if one printer malfunctions, another will automatically take
+      over to print receipts or other critical documents.
     box_icon: /images/1test.png
   - box_title: secure contactless payments
     box_icon: /images/icon_pos_lp_no_feesx2.png
-    box_description: We build payment solutions that offer various payment methods
-      and secure transactions. Whether you need **integration with global or
-      local payment providers**, we’ll tailor your POS to suit your business
-      needs.
+    box_description: We build flexible payment solutions that offer various payment
+      methods and secure transactions. Whether you need **integration with
+      global or local payment providers**, we’ll tailor your **custom POS
+      system** to suit your business needs.
   - box_title: POS system modernization
-    box_description: Whether you need to **upgrade specific components** of your
-      solution, such as payment processing or [food delivery
-      integrations](/our-areas/food-delivery-pos-integration/), or **completely
-      modernize your legacy**, we will guide you through the entire journey.
+    box_description: Whether you need to upgrade specific components, such as
+      payment processing or [food delivery
+      integrations](/our-areas/food-delivery-pos-integration/), or completely
+      modernize your legacy system, our **POS development company** will guide
+      you through the entire journey.
     box_icon: /images/icon_pos_lp_modernization.png
   - box_title: POS system design & product strategy
-    box_description: We specialize in **designing critical features like payments,**
-      [bill splitting](/projects/pos-bill-splitting/)**, and floor mapping**. We
-      will eliminate your users’ pain points and focus on a design that
-      accelerates actions and reduces errors.
+    box_description: We specialize in designing critical features like **payments**,
+      [bill splitting](/projects/pos-bill-splitting/), and **floor mapping**.
+      Through expert **point of sale software development**, we eliminate user
+      pain points and optimize [POS
+      design](/blog/payment-point-of-sale-design-ui-ux/) for fast, error-free
+      actions—without unnecessary animations that slow down your operations.
     box_icon: /images/icon_pos_lp_data_driven_updatex2.png
-  - box_title: retail and sales data dashboards
+  - box_title: retail and sales data dashboards & reporting
     box_description: Which product bundles drive the most profit? What seasonal dish
-      was the biggest hit? With **advanced reports**, businesses using your POS
-      system will gain **insights into what drives their growth**.
+      was the biggest hit? Attract and retain clients by harnessing the power of
+      data. Our **POS development** services provide advanced analytics, giving
+      businesses using your **custom point of sale** valuable insights into what
+      drives their growth and success.
     box_icon: /images/icon_pos_lp_growthx2.png
   - box_title: cloud POS system
-    box_description: From on-premise to cloud migration, **we handle the entire
-      process**, ensuring your POS cloud migration helps you save resources and
-      operate more efficiently.
+    box_description: From on-premise to cloud migration, we handle the entire
+      process, ensuring your **POS system development** enhances efficiency and
+      helps you save resources. Our expertise in **point of sale programming**
+      ensures a smooth transition to the cloud without disrupting your
+      operations.
     box_icon: /images/icon_pos_lp_cloud_pos.png
 language: en
 blog_section: false
@@ -148,7 +157,6 @@ testimonials:
     testimonials_photo: /images/matthias_potthast.png
 show_team: false
 ---
+## what we offer as a leading POS development company
 
-## what we offer as a POS development company with over 12 years of experience
-
-Since 2012, we have been designing and building custom point-of-sale (POS) systems for hospitality, particularly restaurants, as well as retail businesses. What can we do for you?
+For over 12 years, we have been designing and building **custom POS systems** for hospitality, particularly restaurants, as well as retail businesses. As an experienced **POS software development company**, we specialize in **custom POS software development** to meet your unique business needs. What can we do for you?
