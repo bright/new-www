@@ -13,6 +13,13 @@ faqs:
   - How can you help scale my POS? POS development 2
   - How much does POS development cost? POS development 3
   - What does cooperation with your company look like? POS development 4
+  - What Is Point of Sale? | POS development 5
+  - What Does Point of Sale Mean? | POS development 6
+  - How do point of sale systems work? | POS development 6
+  - What is a point of sale transaction? | POS development 7
+  - What is a point of sale terminal? | POS development 8
+  - What Is a Point of Sale Purchase? | POS development 9
+  - What is a cloud-based POS system? | POS development 9
 project:
   - pos-devices-integration
   - pos-bill-splitting
