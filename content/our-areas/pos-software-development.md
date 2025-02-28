@@ -96,10 +96,12 @@ boxes:
       you through the entire journey.
     box_icon: /images/icon_pos_lp_modernization.png
   - box_title: POS system design & product strategy
-    box_description: We specialize in **designing critical features like payments,**
-      [bill splitting](/projects/pos-bill-splitting/)**, and floor mapping**. We
-      will eliminate your users’ pain points and focus on a design that
-      accelerates actions and reduces errors.
+    box_description: We specialize in designing critical features like **payments**,
+      [bill splitting](/projects/pos-bill-splitting/), and **floor mapping**.
+      Through expert **point of sale software development**, we eliminate user
+      pain points and optimize [POS
+      design](/blog/payment-point-of-sale-design-ui-ux/) for fast, error-free
+      actions—without unnecessary animations that slow down your operations.
     box_icon: /images/icon_pos_lp_data_driven_updatex2.png
   - box_title: retail and sales data dashboards
     box_description: Which product bundles drive the most profit? What seasonal dish
