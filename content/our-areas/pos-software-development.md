@@ -89,10 +89,11 @@ boxes:
       global or local payment providers**, we’ll tailor your **custom POS
       system** to suit your business needs.
   - box_title: POS system modernization
-    box_description: Whether you need to **upgrade specific components** of your
-      solution, such as payment processing or [food delivery
-      integrations](/our-areas/food-delivery-pos-integration/), or **completely
-      modernize your legacy**, we will guide you through the entire journey.
+    box_description: Whether you need to upgrade specific components, such as
+      payment processing or [food delivery
+      integrations](/our-areas/food-delivery-pos-integration/), or completely
+      modernize your legacy system, our **POS development company** will guide
+      you through the entire journey.
     box_icon: /images/icon_pos_lp_modernization.png
   - box_title: POS system design & product strategy
     box_description: We specialize in **designing critical features like payments,**
