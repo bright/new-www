@@ -32,4 +32,4 @@ language: en
 
 ## Subscribe on YouTube
 
-<YouTubeEmbed url='https://www.youtube.com/watch?v=HWdczeJEgRg&list=PLXQKLMVoAz1SvqLYMEtcWKMFwt6N6gqwT&ab_channel=BrightDevs'   />
+<YouTubeEmbed url='https://youtu.be/cYn7S35pjUM?si=YDl-Q0yFsQT9sUXO' />
