@@ -26,10 +26,14 @@ language: en
 
 <center>
 
-<iframe src="https://embed.podcasts.apple.com/us/podcast/brightdevtalks/id1625829267?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=dark" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay \\\\\*; encrypted-media \\\\\*; clipboard-write" style={{width: "100%", maxWidth: "660px", overflow: "hidden", borderRadius: "10px", background: "transparent"}}></iframe>
+<iframe src="https://embed.podcasts.apple.com/us/podcast/brightdevtalks/id1625829267?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=dark" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay \\\\\\*; encrypted-media \\\\\\*; clipboard-write" style={{width: "100%", maxWidth: "660px", overflow: "hidden", borderRadius: "10px", background: "transparent"}}></iframe>
 
 </center>
 
 ## Subscribe on YouTube
 
-<YouTubeEmbed url='https://youtu.be/cYn7S35pjUM?si=YDl-Q0yFsQT9sUXO' />
+<center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=aERcikCVm83WR_ef&amp;list=PLXQKLMVoAz1SvGXh8hwJpOiowNqN1S-eg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</center>
