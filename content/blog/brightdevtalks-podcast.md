@@ -16,9 +16,7 @@ comments: true
 published: true
 language: en
 ---
-<div className="image">![Podcast cover](/images/update_podcast_blog_bright_dev_talks.png "Podcast cover")</div>
-
-Our team at Bright Inventions loves to share their knowledge. What’s a better way to discuss hot software development topics than by starting a podcast? BrightDevTalks is a platform to address the business, tech, and communication challenges that all members of the software development world have to face. Our hosts, first [Patryk Szlagowski](/about-us/patryk-sz/) and now [Ula Stankiewicz](/about-us/ula/), invite a variety of guests. Hop on this train and listen to BrightDevTalks. The podcast is done in Polish.
+**Our team at Bright Inventions loves to share their knowledge. What’s a better way to discuss hot software development topics than by starting a podcast? BrightDevTalks is a platform to address the business, tech, and communication challenges that all members of the software development world have to face. Our hosts, first [Patryk Szlagowski](/about-us/patryk-sz/) and now [Ula Stankiewicz](/about-us/ula/), invite a variety of guests. Hop on this train and listen to BrightDevTalks. The podcast is done in Polish.**
 
 ## Follow on Spotify
 
@@ -28,7 +26,7 @@ Our team at Bright Inventions loves to share their knowledge. What’s a better 
 
 <center>
 
-<iframe src="https://embed.podcasts.apple.com/us/podcast/brightdevtalks/id1625829267?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=dark" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay \\\\*; encrypted-media \\\\*; clipboard-write" style={{width: "100%", maxWidth: "660px", overflow: "hidden", borderRadius: "10px", background: "transparent"}}></iframe>
+<iframe src="https://embed.podcasts.apple.com/us/podcast/brightdevtalks/id1625829267?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=dark" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay \\\\\*; encrypted-media \\\\\*; clipboard-write" style={{width: "100%", maxWidth: "660px", overflow: "hidden", borderRadius: "10px", background: "transparent"}}></iframe>
 
 </center>
 
