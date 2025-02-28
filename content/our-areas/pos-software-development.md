@@ -33,7 +33,7 @@ slug: pos-software-development
 short_description: We build custom POS solutions for hospitality and retail,
   successfully scaling POS systems from MVP to global solutions.
 order: 3
-title: grow your business with experienced POS development company
+title: scale your business with experienced POS development company
 highlighted_word: POS
 image_our_service_desktop: /images/pos_software_development_web.png
 image_our_service_mobile: /images/pos_software_development_mobile.png
@@ -42,7 +42,7 @@ video_file: ""
 bullet_points:
   - integrations with retail devices and third-party systems
   - secure contactless point of sale payments
-  - scaling from MVP to a global **custom POS system**
+  - scaling from MVP to a global custom POS system
 bar_stack:
   - iOS
   - Android
@@ -70,9 +70,12 @@ description_contact: Fill out the form or drop us a line! Let's talk about the
   challenges you face during point of sale software development.
 boxes:
   - box_title: POS food delivery platform integrations
-    box_description: "[Synchronize menus and orders from food delivery apps onto a
-      single POS device](/our-areas/food-delivery-pos-integration/). Integrate
-      your POS with **Uber Eats, Wolt, Just Eat, Deliveroo** and more!"
+    box_description: "[Synchronize menus and
+      orders](/our-areas/food-delivery-pos-integration/) from various food
+      delivery apps onto a single POS device. Your clients will appreciate the
+      convenience, and we can make it possible for your business. Our **POS
+      system development** services allow integration with **Uber Eats, Wolt,
+      Just Eat, Deliveroo**, and more!"
     box_icon: /images/pos_development_icon_update.png
   - box_title: POS device integrations
     box_description: Ensure stable connections with printers, terminals, and other
