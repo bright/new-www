@@ -68,4 +68,4 @@ What other design best practices would you list in this article? Let us know in 
 
 - - -
 
-The Point of Sale design was created by Aleksandra Zawisza, a Junior Product Designer at Bright Inventions.
+The Point of Sale design was created by Aleksandra Zawisza, a Junior Product Designer at Bright Inventions, a [POS software development company](/our-areas/pos-software-development/).
