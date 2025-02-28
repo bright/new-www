@@ -13,12 +13,7 @@ answer: >-
   and optimize their systems.
 
 
-
-
-  as well as developing other retail applications such as a [food delivery app](/projects/leading-food-delivery-app/), a [kitchen display system](/projects/kitchen-display-system/), an [invoice generation systems for restaurants](/projects/invoice-generation-system/), and more.
-
-
-  Beyond **custom POS system** development, we have also worked on various retail applications, including food delivery apps, kitchen display systems, invoice generation systems for restaurants, and more. As a trusted POS software development company, we specialize in delivering custom POS software development that aligns with your business needs.
+  Beyond **custom POS system** development, we have also worked on various retail applications, including a [food delivery apps](/projects/leading-food-delivery-app/), [kitchen display systems](/projects/kitchen-display-system/), [invoice generation systems for restaurants](/projects/invoice-generation-system/), and more. As a trusted **POS software development company**, we specialize in delivering **custom POS software development** that aligns with your business needs.
 published: true
 show_on_career: false
 order: 1
