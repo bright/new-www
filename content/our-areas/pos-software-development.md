@@ -111,9 +111,11 @@ boxes:
       drives their growth and success.
     box_icon: /images/icon_pos_lp_growthx2.png
   - box_title: cloud POS system
-    box_description: From on-premise to cloud migration, **we handle the entire
-      process**, ensuring your POS cloud migration helps you save resources and
-      operate more efficiently.
+    box_description: From on-premise to cloud migration, we handle the entire
+      process, ensuring your **POS system development** enhances efficiency and
+      helps you save resources. Our expertise in **point of sale programming**
+      ensures a smooth transition to the cloud without disrupting your
+      operations.
     box_icon: /images/icon_pos_lp_cloud_pos.png
 language: en
 blog_section: false
