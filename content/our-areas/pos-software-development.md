@@ -70,9 +70,12 @@ description_contact: Fill out the form or drop us a line! Let's talk about the
   challenges you face during point of sale software development.
 boxes:
   - box_title: POS food delivery platform integrations
-    box_description: "[Synchronize menus and orders from food delivery apps onto a
-      single POS device](/our-areas/food-delivery-pos-integration/). Integrate
-      your POS with **Uber Eats, Wolt, Just Eat, Deliveroo** and more!"
+    box_description: "[Synchronize menus and
+      orders](/our-areas/food-delivery-pos-integration/) from various food
+      delivery apps onto a single POS device. Your clients will appreciate the
+      convenience, and we can make it possible for your business. Our **POS
+      system development** services allow integration with **Uber Eats, Wolt,
+      Just Eat, Deliveroo**, and more!"
     box_icon: /images/pos_development_icon_update.png
   - box_title: POS device integrations
     box_description: Ensure stable connections with printers, terminals, and other
