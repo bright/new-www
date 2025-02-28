@@ -42,7 +42,7 @@ video_file: ""
 bullet_points:
   - integrations with retail devices and third-party systems
   - secure contactless point of sale payments
-  - scaling from MVP to a global **custom POS system**
+  - scaling from MVP to a global custom POS system
 bar_stack:
   - iOS
   - Android
