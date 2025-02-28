@@ -3,7 +3,7 @@ layout: faqs
 faqs_id: What does cooperation with your company look like? POS development 4
 name: What does cooperation with your company look like? POS development 4
 slug: what-does-cooperation-with-your-company-look-like
-question: What does cooperation with your company look like?
+question: What does cooperation with your POS software development company look like?
 answer: >-
   Our collaboration begins with **kickoff workshops** where you will meet the
   POS development team. Together, we will **establish communication channels and
