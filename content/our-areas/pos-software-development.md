@@ -149,7 +149,6 @@ testimonials:
     testimonials_photo: /images/matthias_potthast.png
 show_team: false
 ---
+## what we offer as a leading POS development company
 
-## what we offer as a POS development company with over 12 years of experience
-
-Since 2012, we have been designing and building custom point-of-sale (POS) systems for hospitality, particularly restaurants, as well as retail businesses. What can we do for you?
+For over 12 years, we have been designing and building **custom POS systems** for hospitality, particularly restaurants, as well as retail businesses. As an experienced **POS software development company**, we specialize in **custom POS software development** to meet your unique business needs. What can we do for you?
