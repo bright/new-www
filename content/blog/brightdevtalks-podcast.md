@@ -10,7 +10,7 @@ date: 2022-05-24T08:59:17.508Z
 meaningfullyUpdatedAt: 2023-11-03T13:04:26.106Z
 title: Listen to BrightDevTalks Podcast
 layout: post
-image: /images/blog_cover-_podcast.png
+image: /images/blog_cover_podcast_update.png
 hidden: false
 comments: true
 published: true
