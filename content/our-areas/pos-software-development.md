@@ -75,11 +75,12 @@ boxes:
       your POS with **Uber Eats, Wolt, Just Eat, Deliveroo** and more!"
     box_icon: /images/pos_development_icon_update.png
   - box_title: POS device integrations
-    box_description: We'll ensure **stable connections with printers, terminals, and
-      other hardware** integrated with your POS system. [We integrate retail
-      devices](/projects/pos-devices-integration/) from top producers including
-      **Epson or Sunmi**. If one printer malfunctions, another will
-      automatically take over to print receipts.
+    box_description: Ensure stable connections with printers, terminals, and other
+      hardware integrated with your **custom POS system**. We [integrate retail
+      devices](/projects/pos-devices-integration/) from top producers, including
+      **Epson** and **Sunmi**. Our robust **POS application development**
+      ensures that if one printer malfunctions, another will automatically take
+      over to print receipts or other critical documents.
     box_icon: /images/1test.png
   - box_title: secure contactless payments
     box_icon: /images/icon_pos_lp_no_feesx2.png
