@@ -3,7 +3,7 @@ layout: faqs
 faqs_id: What is your experience as a POS development company? POS development 1
 name: What is your experience as a POS development company? POS development 1
 slug: your-experience-as-pos-development-company
-question: What is your experience as a POS development company?
+question: What is your experience as a POS software development company?
 answer: >-
   Since 2012, we have collaborated with [POS provider
   Practi](/projects/system-for-restaurants/), assisting them in their scaling
