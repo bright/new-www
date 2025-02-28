@@ -65,7 +65,7 @@ show_technology_stack: true
 title_team: POS software development company – meet our team
 title_case_study: POS development – our clients' stories
 title_faqs: custom POS software development – FAQs
-title_contact: book a call to discuss your POS
+title_contact: book a call to discuss your custom POS system
 description_contact: Fill out the form or drop us a line!
 boxes:
   - box_title: POS food delivery platform integrations
