@@ -103,10 +103,12 @@ boxes:
       design](/blog/payment-point-of-sale-design-ui-ux/) for fast, error-free
       actions—without unnecessary animations that slow down your operations.
     box_icon: /images/icon_pos_lp_data_driven_updatex2.png
-  - box_title: retail and sales data dashboards
+  - box_title: retail and sales data dashboards & reporting
     box_description: Which product bundles drive the most profit? What seasonal dish
-      was the biggest hit? With **advanced reports**, businesses using your POS
-      system will gain **insights into what drives their growth**.
+      was the biggest hit? Attract and retain clients by harnessing the power of
+      data. Our **POS development** services provide advanced analytics, giving
+      businesses using your **custom point of sale** valuable insights into what
+      drives their growth and success.
     box_icon: /images/icon_pos_lp_growthx2.png
   - box_title: cloud POS system
     box_description: From on-premise to cloud migration, **we handle the entire
