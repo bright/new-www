@@ -84,10 +84,15 @@ boxes:
     box_icon: /images/1test.png
   - box_title: secure contactless payments
     box_icon: /images/icon_pos_lp_no_feesx2.png
-    box_description: We build payment solutions that offer various payment methods
-      and secure transactions. Whether you need **integration with global or
-      local payment providers**, we’ll tailor your POS to suit your business
-      needs.
+    box_description: >-
+      We build payment solutions that offer various payment methods and secure
+      transactions. Whether you need **integration with global or local payment
+      providers**, we’ll tailor your POS to suit your business needs.
+
+
+
+
+      We build flexible payment solutions that offer various payment methods and secure transactions. Whether you need **integration with global or local payment providers**, we’ll tailor your POS through our **point of sale customization** services to suit your business needs.
   - box_title: POS system modernization
     box_description: Whether you need to **upgrade specific components** of your
       solution, such as payment processing or [food delivery
