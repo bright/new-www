@@ -157,9 +157,9 @@ difference() {
 
 Feel free to try other operations and transformations.
 
-# Another basic useful stuff
+## Another basic useful stuff
 
-## Conditional rendering
+### Conditional rendering
 
 Sometimes we want to render something only in certain cases. OpenSCAD allows us to use `if` and it has a similar syntax to javascript etc.
 
@@ -170,7 +170,7 @@ if (a > 0) {
 }
 ```
 
-## For loop
+### For loop
 
 Syntax:
 `for(variable = [start : increment : end]) {}`
@@ -193,7 +193,7 @@ difference() {
 
 ![Screen 9](../../static/images/3d-modeling-as-a-developer/screen9.png)
 
-## And others...
+### And others...
 
 `echo` is useful for debugging.
 I often use also `import` for importing external `stl` files to the project.
