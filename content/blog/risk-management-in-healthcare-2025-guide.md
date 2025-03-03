@@ -1,6 +1,6 @@
 ---
 author: kasia
-secondAuthor: izabela
+secondAuthor: null
 tags:
   - HealthTech
 date: 2025-03-03T12:43:56.765Z
@@ -14,10 +14,6 @@ comments: false
 published: true
 language: en
 ---
-
-
-
-
 **In 2025, risk management in healthcare is more critical than ever. With the increasing reliance on digital health solutions, AI-driven diagnostics, and remote patient monitoring, the risks associated with healthcare software and operations have never been higher.**
 
 But what is risk management in healthcare? And how can healthcare organizations implement effective risk strategies to mitigate risks while staying agile? This guide explores the risk management definition in healthcare, risk analysis, key principles, and real-world examples of how healthcare facilities can enhance patient care, ensure **safety and compliance**, regulatory compliance, and data security.
@@ -87,6 +83,14 @@ Examples of low-risk apps include:
 * Habit tracking apps.
 
 These apps do not handle sensitive patient data or impact critical healthcare decisions. A malfunction in these apps might cause annoyance or inconvenience, but it won’t lead to harmful consequences for recipients of healthcare.
- 
+
 For low-risk apps, basic security measures like data encryption, access control, and regular software updates are usually enough. However, developers should still follow best practices for secure coding and usability testing.
 
+### Medium and High-Risk Apps (Managing risks is essential part of their development)
+
+* Medium-risk apps involve patient health data and complex payments (e.g., telemedicine platforms, appointment scheduling software).
+* High-risk apps include life-critical software, such as medical devices, AI-driven diagnostics, and surgical assistance tools.
+
+For these applications, risk assessment must be integrated into Agile workflows, with continuous monitoring, regulatory compliance, and security testing.
+
+**Risk management strategies** should align with the **organization’s risk culture**, ensuring **strategies can result** in improved compliance and efficiency.
