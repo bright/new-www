@@ -16,7 +16,7 @@ language: en
 ---
 **In 2025, risk management in healthcare is more critical than ever. With the increasing reliance on digital health solutions, AI-driven diagnostics, and remote patient monitoring, the risks associated with healthcare software and operations have never been higher.**
 
-<EbookDynamic sectionTitle='Download a free ebook about risk assessment in healthcare' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription={'Agile methodologies have proven successful in risk management. Implement Agile risk management practices with our ebook.'} ebookImage='/images/risk_management_healthcare_ebook_blog_cover.png' ebookAlt='undefined' />
+<EbookDynamic sectionTitle='Download a free ebook about risk assessment in healthcare' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription={'Implement Agile risk management practices with our ebook.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='undefined' />
 
 But what is risk management in healthcare? And how can healthcare organizations implement effective risk strategies to mitigate risks while staying agile? This guide explores the risk management definition in healthcare, risk analysis, key principles, and real-world examples of how healthcare facilities can enhance patient care, ensure **safety and compliance**, regulatory compliance, and data security.
 
