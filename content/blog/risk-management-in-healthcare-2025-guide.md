@@ -16,7 +16,7 @@ language: en
 ---
 **In 2025, risk management in healthcare is more critical than ever. With the increasing reliance on digital health solutions, AI-driven diagnostics, and remote patient monitoring, the risks associated with healthcare software and operations have never been higher.**
 
-<EbookDynamic sectionTitle='Download a free ebook about risk assessment in healthcare' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'Implement Agile risk management practices with our ebook.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='undefined' />
+<EbookDynamic sectionTitle='Download a free ebook about risk assessment in healthcare' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'Implement Agile risk management practices with our ebook.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='ebook cover' />
 
 But what is risk management in healthcare? And how can healthcare organizations implement effective risk strategies to mitigate risks while staying agile? This guide explores the risk management definition in healthcare, risk analysis, key principles, and real-world examples of how healthcare facilities can enhance patient care, ensure **safety and compliance**, regulatory compliance, and data security.
 
@@ -97,7 +97,7 @@ For these applications, risk assessment must be integrated into Agile workflows,
 
 **Risk management strategies** should align with the **organization’s risk culture**, ensuring **strategies can result** in improved compliance and efficiency.
 
-<EbookDynamic sectionTitle='Learn more about risk management in healthcare software' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'Implement Agile risk management practices with our ebook.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='undefined' />
+<EbookDynamic sectionTitle='Learn more about risk management in healthcare software' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'Implement Agile risk management practices with our ebook.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='ebook cover' />
 
 ## Final Thoughts: The Future of Risk Management in Healthcare
 
