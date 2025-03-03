@@ -2,8 +2,9 @@
 author: rafal-op
 tags:
   - frontend
-date: 2025-02-12T10:55:39.062Z
-meaningfullyUpdatedAt: 2025-02-12T10:55:39.085Z
+date: 2025-03-03T06:32:40.433Z
+meaningfullyUpdatedAt: 2025-03-03T06:32:40.929Z
+slug: breaking-down-alt-attribute
 title: Breaking Down the "alt" Attribute Myth in <img> Tag Best Practices
 layout: post
 hidden: false
@@ -13,11 +14,11 @@ language: en
 ---
 **As frontend engineers, embracing Accessibility (A11y) is our commitment to ensuring that our websites are welcoming to individuals with various disabilities. In this article, I will delve into a crucial aspect of A11y — the utilization of techniques that facilitate a seamless experience for visually impaired users.**
 
-### Introduction
+## Introduction
 
 One widely discussed practice is employing the **alt** attribute for all **`<img>`** tags, a simple yet impactful method to enhance the accessibility score of our pages. However, as we explore this approach, we’ll uncover nuances and consider scenarios where this practice may not only be unnecessary but potentially disruptive for users relying on screen readers.
 
-### The alt attribute
+## The alt attribute
 
 The **alt** attribute, a fundamental element in web development, serves a dual purpose. It acts as a fallback description in scenarios where an image fails to download or display correctly, and, crucially, contributes to **Accessibility** by providing screen readers with valuable descriptive content.
 
@@ -29,11 +30,11 @@ Commonly, discussions about the **alt** attribute carry an additional assertion:
 
 In the attached image, the effective utilization of the **alt** attribute is clearly evident, providing a descriptive and helpful description for an image that, for various reasons, may not be visually displayed. As we delve deeper into the subsequent section of this article, our focus will shift toward **Accessibility**. Here, we'll examine scenarios where the improper use of the alt attribute may pose challenges for users navigating the page, underscoring the significance of thoughtful and considerate implementation to enhance the overall user experience.
 
-### When to Embrace and When to Pause?
+## When to Embrace and When to Pause?
 
 While the **alt** attribute generally enhances our webpage by providing a description of images, it’s important to acknowledge that its use isn’t universal. There are instances where caution is advised. Specifically, when featuring images that complement the content, employing the **alt** attribute becomes crucial for delivering a meaningful description. This practice not only aligns with the right approach in web development but also ensures accessibility for users across various platforms, including web browsers and screen readers.
 
-#### Navigating Alt Attribute Omissions
+## Navigating Alt Attribute Omissions
 
 Conversely, there are instances where refraining from using the **alt** attribute is advisable, mainly to avoid potential disruptions. One such scenario involves images that serve as mere embellishments rather than integral components of the page’s content. In essence, if an image is purely decorative and doesn’t contribute to a comprehensive understanding of the main content, omitting the **alt** attribute is a considered choice.
 
@@ -49,7 +50,7 @@ Exploring the DOM representation of Mozilla VPN, an intriguing observation is ma
 
 <div className="image">![Mozilla's menu item - missing alt attribute value](/images/mozilla-menu-html.png "")</div>
 
-#### Alt Attribute Dilemma
+## Alt Attribute Dilemma
 
 How should we approach the absence of the **alt** attribute? Is it advisable to omit it entirely or include an empty string? Remarkably, these two scenarios yield disparate outcomes.
 
@@ -67,7 +68,7 @@ Presented below is a table that highlights and summarizes the distinctions betwe
 
 In conclusion, when addressing scenarios where the alt attribute is deemed unnecessary and potentially disruptive, opting for an empty string as the value proves to be the most advantageous choice. This decision benefits both the web browser by eliminating the broken image icon and any additional text, and screen readers seamlessly bypass the image without registering its presence.
 
-#### Hands-On Exploration: Experience it Yourself!
+## Hands-On Exploration: Experience it Yourself!
 
 Curious to witness the examples described earlier in action? Our focus will be creating a setup that allows us to experience these distinctions using a screen reader. To explore these differences, we’ll use the code snippet provided above
 
@@ -98,6 +99,6 @@ To simulate a screen reader experience, we can utilize the “Screen Reader” G
 
 Now, simply open the HTML file in your browser and activate the extension. Once enabled, you’ll notice an orange border highlighting the currently focused element. In the backdrop, you’ll find the document’s title, “Alt Attribute Presentation”. The first focused element will be “Cat Photo”, where, due to a broken image path, the alt attribute will be read aloud. To navigate to the next element, use the shortcut Ctrl + Cmd + Arrow Down (on Mac), and you’ll hear the path for the image (“path-to-image”). Significantly, attempting to advance reveals that the scenario involving an empty string as the alt attribute value is not considered, a choice that proves beneficial in certain cases, as demonstrated earlier.
 
-### Summary
+## Summary
 
 While incorporating the **alt** attribute is generally considered a best practice and is highly recommended, it’s crucial to engage in thoughtful consideration. We need to ask ourselves if the additional description truly enhances the accessibility (**A11y**) of our page. In certain scenarios, this extra information might prove troublesome for both screen readers and web browsers. Occasionally, it becomes essential to challenge the norm and prioritize the best possible experience for our visitors. Furthermore, mastering the ability to discern between various approaches to define the alt attribute allows us to choose the most fitting one for our specific case.
