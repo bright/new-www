@@ -1,10 +1,5 @@
 ---
 crosspost: true
-layout: post
-title: Testing Android ViewModels
-date: 2018-01-02T23:00:00.000Z
-meaningfullyUpdatedAt: 2018-01-02T23:00:00.000Z
-image: /images/testing-android-viewmodels/stethoscope.jpg
 author: azabost
 tags:
   - android
@@ -12,6 +7,11 @@ tags:
   - viewmodel
   - mvvm
   - unit tests
+date: 2018-01-02T23:00:00.000Z
+meaningfullyUpdatedAt: 2018-01-02T23:00:00.000Z
+title: Testing Android ViewModels
+layout: post
+image: /images/testing-android-viewmodels/stethoscope.jpg
 hidden: false
 comments: true
 published: true
@@ -19,9 +19,9 @@ language: en
 ---
 In my [previous post](/blog/injectable-android-viewmodels/) I described how to implement injectable Android view models using Dagger and [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel.html) library from [Android Architecture Components](https://developer.android.com/topic/libraries/architecture/.html). In this post I will show a simple way to unit test the view model created then. You can find the full code in the same repository as previously [on GitHub](https://github.com/azabost/simple-mvvm-example/tree/7b051fd7a16853e3d9655767a887d9a830133d2d).
 
-# The structure
+## The structure
 
-![Structure](../../static/images/structure2.png "")
+![Structure](../../static/images/structure2.png)
 
 The `MainViewModel` view model exposes three [RxJava](https://github.com/ReactiveX/RxJava) `Observable`s which Activity (`MainActivity`) subscribes to in order to receive notifications, e.g. to display an error message. There is also the `getRepo` function that triggers fetching some data from the GitHub API and the `data` variable that stores the fetched data.
 
@@ -33,11 +33,11 @@ It's also worth noting that the Activity and the Fragments use the same instance
 
 `ViewModelProviders.of(activity, vmFactory).get(...)`
 
-![Stethoscope](../../static/images/testing-android-viewmodels/stethoscope.jpg "")
+![Stethoscope](../../static/images/testing-android-viewmodels/stethoscope.jpg)
 
-# Testing
+## Testing
 
-## Prepare dependencies
+### Prepare dependencies
 
 Normally `MainViewModel` uses a `GitHubClient` implementation that calls the GitHub API using [Retrofit](https://github.com/square/retrofit) HTTP client. In tests you would probably prefer to either mock the server (e.g. with [MockWebServer](https://github.com/square/okhttp/tree/master/mockwebserver)) or just the `GitHubClient` implementation so that it won't make the calls at all. In this example I'm going to use the latter approach (but testing the calls to a mocked server is also a good idea and you can do it separately).
 
@@ -160,6 +160,6 @@ fun getRepoShouldShowProgress() {
 }
 ```
 
-# Conclusion
+## Conclusion
 
 As you can see, using `ViewModel`s and RxJava `Observable`s gives a very simple way to write unit tests for your code. I believe this great possibility will also encourage you to extract the business logic from the Android application components like Activities so that it can be tested without using instrumented tests or mocking the platform (e.g. with Robolectric).
