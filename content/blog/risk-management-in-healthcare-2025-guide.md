@@ -8,7 +8,7 @@ meaningfullyUpdatedAt: 2025-03-03T13:30:43.875Z
 slug: risk-management-in-healthcare
 title: "Risk Management in Healthcare: 2025 Guide"
 layout: post
-image: /images/blog-cover-ebook-risk-management-healthcare.png
+image: /images/risk_management_in_healthcare_guide.png
 hidden: false
 comments: false
 published: true
