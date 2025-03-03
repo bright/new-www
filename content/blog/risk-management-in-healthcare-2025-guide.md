@@ -3,8 +3,8 @@ author: kasia
 secondAuthor: null
 tags:
   - HealthTech
-date: 2025-03-03T12:43:56.765Z
-meaningfullyUpdatedAt: 2025-03-03T12:43:56.800Z
+date: 2025-03-03T13:30:43.232Z
+meaningfullyUpdatedAt: 2025-03-03T13:30:43.875Z
 slug: risk-management-in-healthcare
 title: "Risk Management in Healthcare: 2025 Guide"
 layout: post
