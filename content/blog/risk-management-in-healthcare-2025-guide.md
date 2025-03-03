@@ -58,7 +58,7 @@ To understand how risk management healthcare strategies work in practice, let’
 
 **Challenge**: A hospital using an eHealth system noticed delays in updating drug distribution statuses prescription orders, leading to incorrect drug administration.
 
-**Solution**: By creating a Risk Backlog, the healthcare software development team tracked the root cause, implemented real-time alerts for delayed prescriptions, and reduced medication errors.
+**Solution**: By creating a Risk Backlog, the [healthcare software development](/our-areas/healthcare-software-development/) team tracked the root cause, implemented real-time alerts for delayed prescriptions, and reduced medication errors.
 
 2. ### Securing Healthcare Data Against Cyber Threats
 
