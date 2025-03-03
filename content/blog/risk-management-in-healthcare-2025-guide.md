@@ -22,10 +22,11 @@ But what is risk management in healthcare? And how can healthcare organizations 
 
 At its core, risk management in healthcare refers to the process of identifying, assessing, and mitigating potential risks that could negatively impact patient care, healthcare providers, and organizations. **Enterprise risk management in healthcare** ensures that **risk management activities are conducted** systematically to prevent harm to patients, protect **recipients of healthcare**, and improve efficiency.
 
-A well-structured enterprise risk management model includes processes to identify risks, analyze their impact, and implement action plans for mitigation. Healthcare risk management is essential for protecting patients out of the hospital, minimizing hospital-acquired conditions, and addressing operational risks occur in medical settings.
+A well-structured enterprise **risk management model** includes **processes to identify risks**, analyze their impact, and implement **action plans** for mitigation. **Healthcare risk management** is essential for protecting **patients out of the hospital**, minimizing **hospital-acquired conditions**, and addressing **operational risks occur** in medical settings.
 
-📌 Key elements of risk management healthcare organizations must consider:\
-✔ Regulatory Compliance: Adhering to ISO 31000, HIPAA, GDPR, and FDA requirements.\
-✔ Patient Safety: Reducing medical errors, misdiagnoses, and adverse events.\
-✔ Cybersecurity: Protecting electronic health records (EHRs) from data breaches. Implementing a data backup system and encryption protocols.
-✔ Operational Risks: Addressing lack of training, staffing shortages, and capital equipment costs and interest rates.
+### Key elements of risk management healthcare organizations must consider:
+
+* Regulatory Compliance: Adhering to ISO 31000, HIPAA, GDPR, and FDA requirements.\
+* Patient Safety: Reducing medical errors, misdiagnoses, and adverse events.\
+* Cybersecurity: Protecting electronic health records (EHRs) from data breaches. * Implementing a data backup system and encryption protocols.
+* Operational Risks: Addressing lack of training, staffing shortages, and capital equipment costs and interest rates.
