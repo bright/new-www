@@ -15,11 +15,11 @@ comments: true
 published: true
 language: en
 ---
-# What are they?
+## What are they?
 
 [Android Manifest placeholders](https://developer.android.com/studio/build/manifest-build-variables.html) allow you to put variables into the Manifest that is otherwise completely static. Why would you need such functionality? Actually, it depends on your projects. It's probably most useful when you have multiple [build variants](https://developer.android.com/studio/build/build-variants.html) with different Manifest configurations.
 
-# Multiple Manifests
+## Multiple Manifests
 
 Of course, the easiest way to configure Manifest per build variant is to place a separate `AndroidManifest.xml` file in the variant-specific source directory. For example let's say we have an `app` module with [flavor dimension](https://developer.android.com/studio/build/build-variants.html#flavor-dimensions) called `features` with two flavors: `paid` and `free`. In Gradle file it could look like this:
 
@@ -67,9 +67,9 @@ While using multiple Manifest files gives the best flexibility (you can change l
 * changing anything requires editing every file,
 * comparing multiple files and finding differences is not convenient.
 
-![Placeholder](../../static/images/android-manifest-placeholders/placeholder.png "")
+![Placeholder](../../static/images/android-manifest-placeholders/placeholder.png)
 
-# Using placeholders
+## Using placeholders
 
 So instead of using multiple files I always strive to use some variables. In order to use a variable in the Manifest we must specify it in the `manifestPlaceholders` property in Gradle. We can do this in several places, e.g.:
 
@@ -131,7 +131,7 @@ Then we can use the variables in the Manifest simply by putting the variable nam
     android:screenOrientation="${screenOrientation}" />
 ```
 
-# Applications
+## Applications
 
 I've come across a few common usages of the placeholders, e.g.:
 
