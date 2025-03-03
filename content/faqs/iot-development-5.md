@@ -1,9 +1,9 @@
 ---
 layout: faqs
 faqs_id: Do you provide AWS IoT services?
-name: iot development 6
+name: Do you provide AWS IoT Services as an IoT solutions company? iot development 6
 slug: do-you-provide-aws-iot-services
-question: Do you provide AWS IoT services?
+question: Do you provide AWS IoT Services as an IoT solutions company?
 answer: Yes! As an **Internet of Things service provider**, we have extensive
   experience developing IoT projects on **AWS IoT cloud services**. Our
   expertise includes **IoT device development**, **IoT integration services**,
