@@ -22,7 +22,7 @@ One widely discussed practice is employing the **alt** attribute for all **`<img
 
 The **alt** attribute, a fundamental element in web development, serves a dual purpose. It acts as a fallback description in scenarios where an image fails to download or display correctly, and, crucially, contributes to **Accessibility** by providing screen readers with valuable descriptive content.
 
-Commonly, discussions about the **alt** attribute carry an additional assertion: that it is a required attribute (and should always contain a description). While the **alt** attribute undeniably enhances web accessibility, we’ll delve into scenarios where its insistence may be misconstrued, challenging preconceived notions and fostering a nuanced understanding of its role in crafting an inclusive online experience. Our myth can be succinctly defined as follows:
+Commonly, discussions about the **alt** attribute carry an additional assertion: that it is a required attribute (and should always contain a description). While the **alt** attribute undeniably enhances web **accessibility**, we'll explore situations where its insistence might be misunderstood, challenging existing beliefs and helping create a more balanced view of its role in building an inclusive online experience. Our myth can be succinctly defined as follows:
 
 > The ‘alt’ attribute is required for the HTML `<img>` tag
 
@@ -38,7 +38,7 @@ While the **alt** attribute generally enhances our webpage by providing a descri
 
 Conversely, there are instances where refraining from using the **alt** attribute is advisable, mainly to avoid potential disruptions. One such scenario involves images that serve as mere embellishments rather than integral components of the page’s content. In essence, if an image is purely decorative and doesn’t contribute to a comprehensive understanding of the main content, omitting the **alt** attribute is a considered choice.
 
-Consider [MDN](https://developer.mozilla.org/) as an example. In the background, there’s a decorative image (specifically an `<svg>`, but it could be an `<img>`). This image is non-essential for comprehending the presented content, rather, it serves as a visual addition. If any issues arise with displaying this image, there’s no imperative to provide a description such as “decorative image” or “mandala”. Importantly, users relying on screen readers will seamlessly bypass this non-essential image without any disruption to their exploration of the page, as the main content remains unaffected by its absence.
+Consider [MDN](https://developer.mozilla.org/) as an example. In the background, there’s a decorative image (specifically an `<svg>`, but it could be an `<img>`). This image is non-essential for comprehending the presented content, rather, it serves as a visual addition. If any issues arise with displaying this image, there’s no imperative to provide a description such as “*decorative image*” or “*mandala*”. Importantly, users relying on screen readers will seamlessly bypass this non-essential image without any disruption to their exploration of the page, as the main content remains unaffected by its absence.
 
 <div className="image">![MDN Homepage with mandala pattern in the background](/images/mdn.png "")</div>
 
@@ -46,7 +46,7 @@ Similarly, another scenario where using the **alt** attribute is discouraged inv
 
 <div className="image">![Mozilla careers menu](/images/mozilla-careers.png "")</div>
 
-Exploring the DOM representation of Mozilla VPN, an intriguing observation is made regarding the **alt** attribute. It exists in the markup, yet its value is absent — neither assigned nor an empty string. In the upcoming comparison, we’ll delve into the distinctions between various approaches to handling a “missing alt attribute”.
+Exploring the DOM representation of Mozilla VPN, an intriguing observation is made regarding the **alt** attribute. It exists in the markup, yet its value is absent — neither assigned nor an empty string. In the upcoming comparison, we’ll delve into the distinctions between various approaches to handling a “*missing alt attribute*”.
 
 <div className="image">![Mozilla's menu item - missing alt attribute value](/images/mozilla-menu-html.png "")</div>
 
@@ -54,7 +54,7 @@ Exploring the DOM representation of Mozilla VPN, an intriguing observation is ma
 
 How should we approach the absence of the **alt** attribute? Is it advisable to omit it entirely or include an empty string? Remarkably, these two scenarios yield disparate outcomes.
 
-The recommended approach involves providing a meaningful alt attribute for instances where a fallback message is desired. In this case, screen readers will articulate the assigned value, and the browser will display the placeholder icon, contributing to an optimal accessibility experience.
+The recommended approach involves providing a meaningful **alt** attribute for instances where a fallback message is desired. In this case, screen readers will articulate the assigned value, and the browser will display the placeholder icon, contributing to an optimal accessibility experience.
 
 When the alt attribute is absent, a fallback is automatically provided in the form of a placeholder icon, ensuring visibility for broken images and the screen reader reading the **src** attribute as a fallback. 
 
@@ -93,11 +93,11 @@ Curious to witness the examples described earlier in action? Our focus will be c
 </html>
 ```
 
-To simulate a screen reader experience, we can utilize the “Screen Reader” Google Chrome extension (as well as built-in OS Voice Over), accessible [here](https://chromewebstore.google.com/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=pl&utm_source=ext_sidebar).
+To simulate a screen reader experience, we can utilize the “**Screen Reader**” Google Chrome extension (as well as built-in OS Voice Over), accessible [here](https://chromewebstore.google.com/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=pl&utm_source=ext_sidebar).
 
 <div className="image">![Screen Reader Google Chrome extension logo](/images/screen-reader-logo.png "")</div>
 
-Now, simply open the HTML file in your browser and activate the extension. Once enabled, you’ll notice an orange border highlighting the currently focused element. In the backdrop, you’ll find the document’s title, “Alt Attribute Presentation”. The first focused element will be “Cat Photo”, where, due to a broken image path, the alt attribute will be read aloud. To navigate to the next element, use the shortcut Ctrl + Cmd + Arrow Down (on Mac), and you’ll hear the path for the image (“path-to-image”). Significantly, attempting to advance reveals that the scenario involving an empty string as the alt attribute value is not considered, a choice that proves beneficial in certain cases, as demonstrated earlier.
+Now, simply open the HTML file in your browser and activate the extension. Once enabled, you’ll notice an orange border highlighting the currently focused element. In the backdrop, you’ll find the document’s title, “*Alt Attribute Presentation*”. The first focused element will be “*Cat Photo*”, where, due to a broken image path, the alt attribute will be read aloud. To navigate to the next element, use the shortcut `Ctrl + Cmd + Arrow Down` (on Mac), and you’ll hear the path for the image (“*path-to-image*”). Significantly, attempting to advance reveals that the scenario involving an empty string as the alt attribute value is not considered, a choice that proves beneficial in certain cases, as demonstrated earlier.
 
 ## Summary
 
