@@ -73,3 +73,7 @@ In the end, this pilgrimage showed me that **I actually missed my work**. Even t
 <div className="image">![Santiago de Compostela](/images/santiago_de_compostela.png "Arriving in Santiago de Compostela after walking 850km.")</div>
 
 <center>Arriving in Santiago de Compostela after walking 850km.</center>
+
+## What do you like to do after work?
+
+Sports. For as long as I can remember, I’ve always loved **racket sports** – tennis is my number one. I’m also passionate about **cooking**, which used to feel like a curse to me, but now I truly enjoy it. I **play the guitar**, and honestly, it’s something I can’t imagine my life without.
