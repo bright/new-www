@@ -102,3 +102,12 @@ Now, simply open the HTML file in your browser and activate the extension. Once 
 ## Summary
 
 While incorporating the **alt** attribute is generally considered a best practice and is highly recommended, it’s crucial to engage in thoughtful consideration. We need to ask ourselves if the additional description truly enhances the accessibility (**A11y**) of our page. In certain scenarios, this extra information might prove troublesome for both screen readers and web browsers. Occasionally, it becomes essential to challenge the norm and prioritize the best possible experience for our visitors. Furthermore, mastering the ability to discern between various approaches to define the alt attribute allows us to choose the most fitting one for our specific case.
+
+- - -
+
+##### [](https://brightinventions.pl/blog/javascript-types-deobjectified/#take-a-look-at-our-earlier-blog-post-debunking-frontend-myths)Take a look at our earlier blog post debunking frontend myths:
+
+1. [To 'b' or Not to 'b': The Semantic Status of HTML 'b' Tag](/blog/semantic-status-of-html-b-tag/)
+2. [Understanding the Hoisting Behavior of let and const](/blog/let-const-hoisting/)
+3. [JavaScript Types De-Objectified](/blog/javascript-types-deobjectified/)
+4. [Eye on 'i' - Understanding 'i' as a Semantic Element](/blog/understanding-i-as-semantic-element/)
