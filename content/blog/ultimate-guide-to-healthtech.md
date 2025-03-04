@@ -159,7 +159,7 @@ Delve into [bluetooth devices that have the power to change healthcare](/blog/bl
 
 ## Compliance and certifications
 
-Managing medical data requires adherence to various local regulations. Here are examples of local laws to follow if you launch a product in that area or store patient data in that region/country.
+Managing medical data requires adherence to various local regulations. Here are examples of local laws to follow if you launch a product in that area or store patient data in that region/country. Compliance with legal and security standards is a crucial aspect of [risk management in healthcare](/blog/risk-management-in-healthcare/). Read our latest blog post to learn more.
 
 ### GDPR (EU)
 
@@ -182,8 +182,6 @@ The Personal Information Protection and Electronic Documents Act (PIPEDA) is a C
 Similar to the EU GDPR, the UK GDPR regulates the processing of personal data. It mandates data protection principles like data minimization, accuracy, and security. It also requires obtaining explicit consent for processing personal data and implementing data protection measures, including data encryption and breach notification.
 
 Read more about [security in healthcare](/blog/cyber-security-in-healthcare/), which is a crucial aspect of compliance with local laws.
-
-Compliance with legal and security standards is a crucial aspect of [risk management in healthcare](/blog/risk-management-in-healthcare/). Read our latest blog post to learn more.
 
 <EbookDynamic sectionTitle='Explore risk management in healthcare with our ebook' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'Learn how Agile might help your software development teams assess risk and manage it while building HealthTech.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='ebook cover' />
 
