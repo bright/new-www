@@ -54,4 +54,6 @@ I’m glad to be surrounded by a large number of specialists. Compared to my pre
 
 I also appreciate that **we are trusted with a lot of freedom, but it comes with responsibility**. I think that’s the ultimate combination.
 
-<div className="image">![Laser tag team building.](/images/teambuilding_laser_tag.png "Laser tag team building.")</div>
+<div className="image">![Laser tag team building.](/images/teambuilding_laser_tag.png "Michał at a laser tag team-building event.")</div>
+
+<center>Michał at a laser tag team-building event.</center>
