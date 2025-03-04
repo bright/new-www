@@ -45,3 +45,13 @@ The first thing I assess is whether a candidate truly understands a given topic 
 Another crucial aspect for me is **whether a candidate can admit when they don’t know something**. Often, this is followed by a strong deduction process, where they actually work their way to the right answer. This is in contrast to someone who claims to know but then just talks without providing meaningful insight.
 
 <div className="image">![Quote on candidate interview](/images/maciek_quote_candidate.png "Quote on candidate interview")</div>
+
+I also appreciate when candidates **refer to their own experience** and provide real-life examples from their work. If they have a different opinion on a subject, that’s even better – it shows that they are capable of questioning things, which often comes from deeper experience and a broader perspective on the topic.
+
+## How do you find yourself at Bright Inventions?
+
+I’m glad to be surrounded by a large number of specialists. Compared to my previous workplaces, where there was a wider variety of team members with different levels of experience and knowledge, **here the average level of experience is really high**. This gives me plenty of opportunities to learn from others and develop innovative ideas.
+
+I also appreciate that **we are trusted with a lot of freedom, but it comes with responsibility**. I think that’s the ultimate combination.
+
+<div className="image">![Laser tag team building.](/images/teambuilding_laser_tag.png "Laser tag team building.")</div>
