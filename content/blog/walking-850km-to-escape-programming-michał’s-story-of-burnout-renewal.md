@@ -57,3 +57,19 @@ I also appreciate that **we are trusted with a lot of freedom, but it comes with
 <div className="image">![Laser tag team building.](/images/teambuilding_laser_tag.png "Michał at a laser tag team-building event.")</div>
 
 <center>Michał at a laser tag team-building event.</center>
+
+## I heard that you had a solo pilgrimage to Santiago de Compostela. How did this experience affect you?
+
+I had taken part in **Camino the Santiago** pilgrimage before, but always in a larger group with my family and friends. This time, I decided to do it alone. Naturally, **I met many people along the way**, giving me multiple opportunities to interact with others, hear their stories, and understand their perspectives and values.
+
+I think that’s the best part of this experience – the chance to **connect with people from all over the world** and see how they perceive life. It allows you to gain a much-needed **fresh perspective**.
+
+## Why did you decide to take this solo walk?
+
+I had just left my job at the time, so I finally had the opportunity to do it. When I left, **I was exhausted** – I needed space and time to breathe, to gain some distance. **I had been working too much** and giving a lot, but I realized that there are more important things in life and that I couldn’t continue like that.
+
+In the end, this pilgrimage showed me that **I actually missed my work**. Even though my initial goal was to escape from it, the further I walked, the more I realized how much I missed it. I just needed to come back in a different way – **establishing boundaries for myself** to maintain a healthy balance between work and life.
+
+<div className="image">![Santiago de Compostela](/images/santiago_de_compostela.png "Arriving in Santiago de Compostela after walking 850km.")</div>
+
+<center>Arriving in Santiago de Compostela after walking 850km.</center>
