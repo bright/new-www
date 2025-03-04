@@ -2,8 +2,8 @@
 author: rafal-op
 tags:
   - frontend
-date: 2025-03-03T06:45:54.142Z
-meaningfullyUpdatedAt: 2025-03-03T06:45:53.660Z
+date: 2025-03-04T13:31:05.021Z
+meaningfullyUpdatedAt: 2025-03-04T13:31:05.584Z
 slug: breaking-down-alt-attribute
 title: Breaking Down the "alt" Attribute Myth in <img> Tag Best Practices
 layout: post
@@ -56,7 +56,7 @@ How should we approach the absence of the **alt** attribute? Is it advisable to 
 
 The recommended approach involves providing a meaningful **alt** attribute for instances where a fallback message is desired. In this case, screen readers will articulate the assigned value, and the browser will display the placeholder icon, contributing to an optimal accessibility experience.
 
-When the alt attribute is absent, a fallback is automatically provided in the form of a placeholder icon, ensuring visibility for broken images and the screen reader reading the **src** attribute as a fallback. 
+When the **alt** attribute is absent, a fallback is automatically provided in the form of a placeholder icon, ensuring visibility for broken images and the screen reader reading the **src** attribute as a fallback. 
 
 Conversely, employing an empty **alt** attribute (*alt=””, which will be interpreted by Chrome dev tools as a just ‘alt’*) results in a `<img>` tag with 0x0 dimensions, the absence of the placeholder icon, and no acknowledgment by the screen reader, effectively concealing the image’s existence. 
 
@@ -66,7 +66,7 @@ Presented below is a table that highlights and summarizes the distinctions betwe
 
 <div className="image">![Table that highlights distinctions in the usage of the alt attribute in various cases](/images/alt-summary.png "")</div>
 
-In conclusion, when addressing scenarios where the alt attribute is deemed unnecessary and potentially disruptive, opting for an empty string as the value proves to be the most advantageous choice. This decision benefits both the web browser by eliminating the broken image icon and any additional text, and screen readers seamlessly bypass the image without registering its presence.
+In conclusion, when addressing scenarios where the **alt** attribute is deemed unnecessary and potentially disruptive, opting for an empty string as the value proves to be the most advantageous choice. This decision benefits both the web browser by eliminating the broken image icon and any additional text, and screen readers seamlessly bypass the image without registering its presence.
 
 ## Hands-On Exploration: Experience it Yourself!
 
@@ -97,11 +97,11 @@ To simulate a screen reader experience, we can utilize the “**Screen Reader**�
 
 <div className="image">![Screen Reader Google Chrome extension logo](/images/screen-reader-logo.png "")</div>
 
-Now, simply open the HTML file in your browser and activate the extension. Once enabled, you’ll notice an orange border highlighting the currently focused element. In the backdrop, you’ll find the document’s title, “*Alt Attribute Presentation*”. The first focused element will be “*Cat Photo*”, where, due to a broken image path, the alt attribute will be read aloud. To navigate to the next element, use the shortcut `Ctrl + Cmd + Arrow Down` (on Mac), and you’ll hear the path for the image (“*path-to-image*”). Significantly, attempting to advance reveals that the scenario involving an empty string as the alt attribute value is not considered, a choice that proves beneficial in certain cases, as demonstrated earlier.
+Now, simply open the HTML file in your browser and activate the extension. Once enabled, you’ll notice an orange border highlighting the currently focused element. In the backdrop, you’ll find the document’s title, “*Alt Attribute Presentation*”. The first focused element will be “*Cat Photo*”, where, due to a broken image path, the **alt** attribute will be read aloud. To navigate to the next element, use the shortcut `Ctrl + Cmd + Arrow Down` (on Mac), and you’ll hear the path for the image (“*path-to-image*”). Significantly, attempting to advance reveals that the scenario involving an empty string as the **alt** attribute value is not considered, a choice that proves beneficial in certain cases, as demonstrated earlier.
 
 ## Summary
 
-While incorporating the **alt** attribute is generally considered a best practice and is highly recommended, it’s crucial to engage in thoughtful consideration. We need to ask ourselves if the additional description truly enhances the accessibility (**A11y**) of our page. In certain scenarios, this extra information might prove troublesome for both screen readers and web browsers. Occasionally, it becomes essential to challenge the norm and prioritize the best possible experience for our visitors. Furthermore, mastering the ability to discern between various approaches to define the alt attribute allows us to choose the most fitting one for our specific case.
+While incorporating the **alt** attribute is generally considered a best practice and is highly recommended, it’s crucial to engage in thoughtful consideration. We need to ask ourselves if the additional description truly enhances the accessibility (**A11y**) of our page. In certain scenarios, this extra information might prove troublesome for both screen readers and web browsers. Occasionally, it becomes essential to challenge the norm and prioritize the best possible experience for our visitors. Furthermore, mastering the ability to discern between various approaches to define the **alt** attribute allows us to choose the most fitting one for our specific case.
 
 - - -
 
