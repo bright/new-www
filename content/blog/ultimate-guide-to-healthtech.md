@@ -159,7 +159,7 @@ Delve into [bluetooth devices that have the power to change healthcare](/blog/bl
 
 ## Compliance and certifications
 
-Managing medical data requires adherence to various local regulations. Here are examples of local laws to follow if you launch a product in that area or store patient data in that region/country. Compliance with legal and security standards is a crucial aspect of [risk management in healthcare](/blog/risk-management-in-healthcare/). Read our latest blog post to learn more.
+Managing medical data requires adherence to various local regulations. Compliance with legal and security standards is a crucial aspect of [risk management in healthcare](/blog/risk-management-in-healthcare/). Read our latest blog post to learn more. Here are examples of local laws to follow if you launch a product in that area or store patient data in that region/country.
 
 ### GDPR (EU)
 
