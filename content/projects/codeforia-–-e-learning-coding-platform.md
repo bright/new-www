@@ -7,7 +7,7 @@ our_service:
 layout: project
 project_id: codeforia
 title: "Codeforia: Empowering the Next Generation of Coders with Gamified Learning"
-image: /images/codeforia_cover.png
+image: /images/codeforia_cover_update.png
 description: >
   We all know how crucial programming skills are for this generation and the
   future. Yet, public school systems still lack effective tools to engage
