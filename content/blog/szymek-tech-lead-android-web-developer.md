@@ -18,7 +18,7 @@ language: en
 ---
 **Android, iOS, web – Szymek tried it all and still wants to learn more. One day he was a team member and on another a leader of that team. Was it a difficult transition? Why Android development is so satisfying to him? What is the best way to convince a Java dev to switch to Kotlin? Find answers to all these questions. This is the story of Szymek – a Tech Lead of the Android Team at Bright Inventions.**
 
-![Szymek - Android Tech Lead Bright Inventions](../../static/images/brightstoryszymon_collage.png "")
+![Szymek - Android Tech Lead Bright Inventions](../../static/images/brightstoryszymon_collage.png)
 
 ## You are an Android & Web Developer. How did that happen?
 
@@ -44,7 +44,7 @@ It was a great challenge to work on an AI project as a junior. Although there we
 
 [Łukasz](/about-us/lukasz/), who works at Bright, is my friend from college. He recommended me this place. After graduation, he went straight to Bright and I had a job somewhere else. Łukasz was talking all the time about how great it was at Bright so I eventually applied in 2018.
 
-![Bright Inventions team](../../static/images/brightstory_team.png "")
+![Bright Inventions team](../../static/images/brightstory_team.png)
 
 **When I first came to the office for an interview I instantly felt this warm, cozy atmosphere**. I knew it was something I desired. I got that job and started my work here by programming with React. Then I joined the Android team, but in the meantime, I tried Swift and Node.js. At this moment **Android gives me the best satisfaction**.
 
@@ -60,7 +60,7 @@ Since the beginning of my career, I had a chance to learn many different technol
 
 So I couldn't say ‘no’ when the opportunity to become a tech lead came up. Before that, we had worked as a team without a tech lead but then the structure changed and we needed a tech leader. I figured I wanted to grow and find new things to learn so **becoming a tech lead could give me a new perspective on programming from the management side**.
 
-![Bright Inventions team retreats](../../static/images/brightstory_team_szymek.png "")
+![Bright Inventions team retreats](../../static/images/brightstory_team_szymek.png)
 
 ## One day you were a team member, another a tech lead. Was it challenging to establish yourself in the new role?
 
@@ -74,7 +74,7 @@ I spend some time coding and overlooking new features being released. Yet apart 
 
 An important part of my job is to **establish the right duties for every developer within the team**. So they feel responsible for specific areas. **As a tech lead, I really need to know my team members well enough to get which areas of [mobile development](/our-areas/mobile-app-development) are their things, and which tasks will be of value to them and to the whole project**. I mean all of us in the team have to develop our Android skills holistically. Yet in the end, everyone has some areas that are simply closer to their heart. Some enjoy UI test automation, another would rather focus on databases. So my job as a tech lead is to work out with every developer the best possible tasks for them. And if some task could be a challenge we might go for pair programming so two people could together work out some issues. 
 
-![Szymek's quote on being a tech lead](../../static/images/szymek_story_quote_tech_lead.png "")
+![Szymek's quote on being a tech lead](../../static/images/szymek_story_quote_tech_lead.png)
 
 ## How does your team respond to that?
 
@@ -88,7 +88,7 @@ Moreover, as a tech lead, **I have to create an environment for devs that guaran
 
 I make sure that their workflow isn’t disturbed a lot. Business representatives know that in order to make the work smooth for everyone they should contact me and then I can work out any issue with developers in a way I don’t interfere with their other duties. Micromanagement is not our style. We are responsible human beings. Therefore **we trust each other and don’t interfere with anyone’s way of work**. 
 
-![Szymek's story](../../static/images/brightstoryszymek.jpg "")
+![Szymek's story](../../static/images/brightstoryszymek.jpg)
 
 ## How many people are on your Android team?
 
@@ -164,7 +164,7 @@ Can you see a difference? 😉
 
 ## Your team works on the JET POS project. What product do you build?
 
-We develop an **Android Point of Sale system for the well-known Just Eat Takeaway.com brand**. Our software is used by restaurant staff who interact with customers. We help cashiers, bartenders, waiters, and chefs every day with managing every aspect of the restaurant order: from taking it and securing the payment, through preparation to the delivery. Thanks to our software everything is automated so the cashier doesn’t have to worry about any aspect of the transaction, the system guides them through the whole process. 
+We develop an **Android [custom Point of Sale](/our-areas/pos-software-development/) system for the well-known Just Eat Takeaway.com brand**. Our software is used by restaurant staff who interact with customers. We help cashiers, bartenders, waiters, and chefs every day with managing every aspect of the restaurant order: from taking it and securing the payment, through preparation to the delivery. Thanks to our software everything is automated so the cashier doesn’t have to worry about any aspect of the transaction, the system guides them through the whole process. 
 
 Our system is based on an **Android application that is connected to devices such as tablets, payment terminals, and receipt printers. Our app has been used across Europe** by restaurants in Great Britain, and the Netherlands. Working on JET POS is really rewarding and fulfilling.
 
@@ -190,7 +190,7 @@ It is crucial to **be up to date**. Kotlin and other Android tools are developin
 
 During an interview, I can sometimes see that some programmers write code but don’t understand what this code really does. They can write what is expected because they are able to find it in some tutorials. I believe you should do more than copy and paste. You should dive into, and explore it to understand how it works. **Our job is to understand code, not only write it**. 
 
-![Szymek's quote](../../static/images/szymek_story_quote.png "")
+![Szymek's quote](../../static/images/szymek_story_quote.png)
 
 I have met developers with even a decade of experience on paper and all this time they were using the same libraries, and they were writing the same scripts all over again. Despite being in the industry for so many years, they didn’t know how their code worked. They just wrote it. And they didn’t have this hunger to evolve and grow along with the technologies. **Spending time on learning is gonna save you more time in the future**.
 
@@ -200,7 +200,7 @@ Yes, as it turns out, years of experience aren’t crucial. **More important is 
 
 I want to reassure you that **our interviews aren’t exams**. It is a conversation. As a Junior, I had a chance to experience these types of interviews where someone told me to write a pseudocode for a doubly linked list in front of everyone. That was a stressful experience. It might be considered basic knowledge, but frankly, this wasn't mandatory for work. It shows something about you indeed, but in my opinion, it does not reflect your developer capabilities. I'd rather hear how you'd encounter daily challenges than see how many complex algorithms you already know. **You don't need to know everything as long as you're eager to learn and digest new things at a reasonable time**. 😉
 
-![Szymek's quote](../../static/images/szymek_story_quote_android_development3.png "")
+![Szymek's quote](../../static/images/szymek_story_quote_android_development3.png)
 
 **I treat interviews like a conversation**. I ask about candidates’ experience and ways of handling some issues. Also, I want to know how they would approach some subjects according to the knowledge and tools they know and use. You don’t need to have the answers to everything but it’s nice if you can show us what would you do to get those answers.
 
@@ -208,6 +208,6 @@ I want to reassure you that **our interviews aren’t exams**. It is a conversat
 
 I love to play badminton, basketball, and tennis. I also enjoy running and going to the gym. I used to train minigolf a lot. I was even Polish champion twice. However, now I deal with an injury and all I can do is count the days before I go back to these workouts. 
 
-![Szymek's passions](../../static/images/brightstory_hobby.png "")
+![Szymek's passions](../../static/images/brightstory_hobby.png)
 
 Apart from sports I really love traveling, especially by hitchhiking. I hope that in post-pandemic times we will get opportunities for traveling this way again. I traveled over 15k kilometers across the Czech Republic, Slovakia, Austria, Hungary, Croatia, Montenegro, Serbia, Bulgaria, and Italy. Hope to experience this again.
