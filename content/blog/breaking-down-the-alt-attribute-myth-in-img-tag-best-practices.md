@@ -7,12 +7,15 @@ meaningfullyUpdatedAt: 2025-03-04T13:31:05.584Z
 slug: breaking-down-alt-attribute
 title: Breaking Down the "alt" Attribute Myth in <img> Tag Best Practices
 layout: post
+image: /images/blogpost_blog__alt_image.png
 hidden: false
 comments: false
 published: true
 language: en
 ---
 **As frontend engineers, embracing Accessibility (A11y) is our commitment to ensuring that our websites are welcoming to individuals with various disabilities. In this article, I will delve into a crucial aspect of A11y — the utilization of techniques that facilitate a seamless experience for visually impaired users.**
+
+<div className="image">![](/images/blogpost_blog__alt_image.png "")</div>
 
 ## Introduction
 
