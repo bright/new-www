@@ -183,6 +183,8 @@ Similar to the EU GDPR, the UK GDPR regulates the processing of personal data. I
 
 Read more about [security in healthcare](/blog/cyber-security-in-healthcare/), which is a crucial aspect of compliance with local laws.
 
+Compliance with legal and security standards is a crucial aspect of [risk management in healthcare](/blog/risk-management-in-healthcare/). Read our latest blog post to learn more.
+
 <EbookDynamic sectionTitle='Explore risk management in healthcare with our ebook' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'Learn how Agile might help your software development teams assess risk and manage it while building HealthTech.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='ebook cover' />
 
 ## UX Design in HealthTech
