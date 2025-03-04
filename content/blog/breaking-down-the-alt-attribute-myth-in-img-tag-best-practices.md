@@ -37,7 +37,7 @@ In the attached image, the effective utilization of the **alt** attribute is cle
 
 While the **alt** attribute generally enhances our webpage by providing a description of images, it’s important to acknowledge that its use isn’t universal. There are instances where caution is advised. Specifically, when featuring images that complement the content, employing the **alt** attribute becomes crucial for delivering a meaningful description. This practice not only aligns with the right approach in web development but also ensures accessibility for users across various platforms, including web browsers and screen readers.
 
-## Navigating Alt Attribute Omissions
+### Navigating Alt Attribute Omissions
 
 Conversely, there are instances where refraining from using the **alt** attribute is advisable, mainly to avoid potential disruptions. One such scenario involves images that serve as mere embellishments rather than integral components of the page’s content. In essence, if an image is purely decorative and doesn’t contribute to a comprehensive understanding of the main content, omitting the **alt** attribute is a considered choice.
 
@@ -53,7 +53,7 @@ Exploring the DOM representation of Mozilla VPN, an intriguing observation is ma
 
 <div className="image">![Mozilla's menu item - missing alt attribute value](/images/mozilla-menu-html.png "")</div>
 
-## Alt Attribute Dilemma
+### Alt Attribute Dilemma
 
 How should we approach the absence of the **alt** attribute? Is it advisable to omit it entirely or include an empty string? Remarkably, these two scenarios yield disparate outcomes.
 
