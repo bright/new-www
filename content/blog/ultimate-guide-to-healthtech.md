@@ -183,6 +183,8 @@ Similar to the EU GDPR, the UK GDPR regulates the processing of personal data. I
 
 Read more about [security in healthcare](/blog/cyber-security-in-healthcare/), which is a crucial aspect of compliance with local laws.
 
+<EbookDynamic sectionTitle='Explore risk management in healthcare with our ebook' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'Learn how Agile might help your software development teams assess risk and manage it while building HealthTech.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='ebook cover' />
+
 ## UX Design in HealthTech
 
 HealthTech and MedTech applications are usually comprehensive, massive systems dealing with tons of information. Patient's health history, prescribed medicine, vital sign metrics – all of this data is important for healthcare providers and must be well-designed in any system aiming to help them care for patients. That's why there are a few best practices for designing apps for healthcare:
