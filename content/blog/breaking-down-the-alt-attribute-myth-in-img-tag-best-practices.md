@@ -61,7 +61,7 @@ The recommended approach involves providing a meaningful **alt** attribute for i
 
 When the **alt** attribute is absent, a fallback is automatically provided in the form of a placeholder icon, ensuring visibility for broken images and the screen reader reading the **src** attribute as a fallback. 
 
-Conversely, employing an empty **alt** attribute (*alt=””, which will be interpreted by Chrome dev tools as a just ‘alt’*) results in a `<img>` tag with 0x0 dimensions, the absence of the placeholder icon, and no acknowledgment by the screen reader, effectively concealing the image’s existence. 
+Conversely, employing an empty **alt** attribute (*alt=””,* which will be interpreted by Chrome dev tools as a just *‘alt’*) results in a `<img>` tag with 0x0 dimensions, the absence of the placeholder icon, and no acknowledgment by the screen reader, effectively concealing the image’s existence. 
 
 <div className="image">![Code snippet that highlights distinctions in the usage of the alt attribute in various cases](/images/code-snippet-alt.png "")</div>
 
