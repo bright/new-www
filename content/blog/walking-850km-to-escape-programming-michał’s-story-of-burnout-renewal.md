@@ -43,3 +43,5 @@ I planned around seven sections to discuss, and on paper, it made sense – I th
 The first thing I assess is whether a candidate truly understands a given topic or is simply repeating memorized definitions. This is easy to verify by the way they describe it – **whether they explain it naturally or just recite predefined phrases**. I also like to discuss specific scenarios and ask when they would use certain abstractions to see if they can truly engage with the concept.
 
 Another crucial aspect for me is **whether a candidate can admit when they don’t know something**. Often, this is followed by a strong deduction process, where they actually work their way to the right answer. This is in contrast to someone who claims to know but then just talks without providing meaningful insight.
+
+<div className="image">![Quote on candidate interview](/images/maciek_quote_candidate.png "Quote on candidate interview")</div>
