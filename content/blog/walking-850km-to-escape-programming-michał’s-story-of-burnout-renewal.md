@@ -39,3 +39,7 @@ My first impression is that I need to optimize my time slots because **it’s di
 I planned around seven sections to discuss, and on paper, it made sense – I thought I would manage within the established time. However, the reality was different. Even though I have specific questions, **it’s easy to dive into discussions that go beyond the main points**. I have to control myself and ensure that I don’t extend the interview unnecessarily.
 
 ## What do you take into account while assessing a candidate?
+
+The first thing I assess is whether a candidate truly understands a given topic or is simply repeating memorized definitions. This is easy to verify by the way they describe it – **whether they explain it naturally or just recite predefined phrases**. I also like to discuss specific scenarios and ask when they would use certain abstractions to see if they can truly engage with the concept.
+
+Another crucial aspect for me is **whether a candidate can admit when they don’t know something**. Often, this is followed by a strong deduction process, where they actually work their way to the right answer. This is in contrast to someone who claims to know but then just talks without providing meaningful insight.
