@@ -33,12 +33,12 @@ title_case_study: more success stories
 title_contact: let's talk about your product
 description_contact: Tell us more about your mobile project or idea for an app.
   Fill out the form below and we'll get back to you in 48 hours.
-order: 99
+order: 7
 slug: e-learning-coding-platform
 show_team: false
 show_case_study: true
 show on homepage: false
-published: false
+published: true
 work_in_progress: false
 language: en
 ---
