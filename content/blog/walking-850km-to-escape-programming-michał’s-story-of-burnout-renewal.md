@@ -19,3 +19,9 @@ language: en
 <div className="image">![Fullstack developer career story](/images/brightstorymichalbgrid.png "Fullstack developer career story")</div>
 
 ## Without giving it any thought, what’s closer to your heart: backend or frontend?
+
+It's hard to say, but if I had to choose, I’d go with the **backend**. But right now, I mostly work on frontend in my current project, so **my focus shifts from time to time**. I believe my responsibilities in backend will continue to grow.
+
+Nevertheless, I see software development as a whole – a holistic solution. I believe you can make better decisions on the frontend when you understand the backend.
+
+<div className="image">![Quote on fullstack development](/images/michal_quote_fullstack.png "Quote on fullstack development")</div>
