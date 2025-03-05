@@ -201,7 +201,7 @@ Fancy going deeper into product design for healthcare? Explore [UX design best p
 
 ## eHealth companies worth watching
 
-If you want to look closely at some companies that are changing healthcare, we listed some startups and larger organizations that are worth watching!
+If you want to look closely at some companies that are changing custom [healthcare software development](/our-areas/healthcare-software-development/), we listed some startups and larger organizations that are worth watching!
 
 **TeleHealth companies to watch**: [Camascope](https://www.camascope.com/), [MedKitDoc](https://medkitdoc.de/en), [Maven](https://www.mavenclinic.com/).
 
