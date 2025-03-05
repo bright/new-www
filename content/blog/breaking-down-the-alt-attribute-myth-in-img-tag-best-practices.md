@@ -53,10 +53,6 @@ Similarly, another scenario where using the **alt** attribute is discouraged inv
 
 <div className="image">![Mozilla careers menu](/images/mozilla-careers.png "")</div>
 
-Exploring the DOM representation of Mozilla VPN, an intriguing observation is made regarding the **alt** attribute. It exists in the markup, yet its value is absent — neither assigned nor an empty string. In the upcoming comparison, we’ll delve into the distinctions between various approaches to handling a “*missing alt attribute*”.
-
-<div className="image">![Mozilla's menu item - missing alt attribute value](/images/mozilla-menu-html.png "")</div>
-
 #### Images with text, associated with corresponding text
 
 In more complex scenarios, such as when an image contains text (rather than being a simple icon), it may be possible to omit the alt attribute. This can be the case when the text is presented adjacent to the image in a way that screen readers can easily read, or when the text is purely decorative. See the example below for clarification:
@@ -76,6 +72,10 @@ How should we approach the absence of the **alt** attribute? Is it advisable to 
 The recommended approach involves providing a meaningful **alt** attribute for instances where a fallback message is desired. In this case, screen readers will articulate the assigned value, and the browser will display the placeholder icon, contributing to an optimal accessibility experience.
 
 When the **alt** attribute is absent, a fallback is automatically provided in the form of a placeholder icon, ensuring visibility for broken images and the screen reader reading the **src** attribute as a fallback. 
+
+Exploring the DOM representation of Mozilla VPN, an intriguing observation is made regarding the **alt** attribute. It exists in the markup, yet its value is absent — neither assigned nor an empty string. In the upcoming comparison, we’ll delve into the distinctions between various approaches to handling a “*missing alt attribute*”.
+
+<div className="image">![Mozilla's menu item - missing alt attribute value](/images/mozilla-menu-html.png "")</div>
 
 Conversely, employing an empty **alt** attribute (*alt=””,* which will be interpreted by Chrome dev tools as a just *‘alt’*) results in a `<img>` tag with 0x0 dimensions, the absence of the placeholder icon, and no acknowledgment by the screen reader, effectively concealing the image’s existence. 
 
