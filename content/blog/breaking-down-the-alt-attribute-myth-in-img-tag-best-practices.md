@@ -2,8 +2,8 @@
 author: rafal-op
 tags:
   - frontend
-date: 2025-03-05T07:47:58.433Z
-meaningfullyUpdatedAt: 2025-03-05T07:47:59.239Z
+date: 2025-03-05T08:47:36.730Z
+meaningfullyUpdatedAt: 2025-03-05T08:47:37.736Z
 slug: breaking-down-alt-attribute
 title: Breaking Down the "alt" Attribute Myth in <img> Tag Best Practices
 layout: post
