@@ -54,7 +54,7 @@ The company started in 2008. Last year, we rewrote the whole system to meet mode
 
 Regulation is an ongoing challenge. We operate in multiple countries, and each has its own requirements. For newer companies, it can be especially tough. We help others behind the scenes because their job today is harder than ours was two years ago.
 
-<EbookDynamic sectionTitle='want to know more about integrations in healthtech?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/cover_healthtech_guide_home.png' ebookAlt='undefined' />
+<EbookDynamic sectionTitle='want to know more about integrations in healthtech?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='undefined' />
 
 ## What is your most important advice for new startups?
 
