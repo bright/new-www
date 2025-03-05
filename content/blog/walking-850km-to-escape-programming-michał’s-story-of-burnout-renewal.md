@@ -3,8 +3,8 @@ author: michal-be
 secondAuthor: izabela
 tags:
   - bright insights
-date: 2025-03-04T14:34:54.652Z
-meaningfullyUpdatedAt: 2025-03-04T14:34:54.674Z
+date: 2025-03-05T08:50:24.691Z
+meaningfullyUpdatedAt: 2025-03-05T08:50:25.358Z
 slug: software-developer-career-story-burnout-renewal
 title: "Walking 850km to Escape Programming: Michał’s Story of Burnout & Renewal"
 layout: post
