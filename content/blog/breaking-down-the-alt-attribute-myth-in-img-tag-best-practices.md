@@ -39,11 +39,15 @@ While the **alt** attribute generally enhances our webpage by providing a descri
 
 ### Navigating Alt Attribute Omissions
 
-Conversely, there are instances where refraining from using the **alt** attribute is advisable, mainly to avoid potential disruptions. One such scenario involves images that serve as mere embellishments rather than integral components of the page’s content. In essence, if an image is purely decorative and doesn’t contribute to a comprehensive understanding of the main content, omitting the **alt** attribute is a considered choice.
+Conversely, there are instances where refraining from using the **alt** attribute is advisable, mainly to avoid potential disruptions. 
 
-Consider [MDN](https://developer.mozilla.org/) as an example. In the background, there’s a decorative image (specifically an `<svg>`, but it could be an `<img>`). This image is non-essential for comprehending the presented content, rather, it serves as a visual addition. If any issues arise with displaying this image, there’s no imperative to provide a description such as “*decorative image*” or “*mandala*”. Importantly, users relying on screen readers will seamlessly bypass this non-essential image without any disruption to their exploration of the page, as the main content remains unaffected by its absence.
+#### Decorative images
+
+One such scenario involves images that serve as mere embellishments rather than integral components of the page’s content. In essence, if an image is purely decorative and doesn’t contribute to a comprehensive understanding of the main content, omitting the **alt** attribute is a considered choice. Consider [MDN](https://developer.mozilla.org/) as an example. In the background, there’s a decorative image (specifically an `<svg>`, but it could be an `<img>`). This image is non-essential for comprehending the presented content, rather, it serves as a visual addition. If any issues arise with displaying this image, there’s no imperative to provide a description such as “*decorative image*” or “*mandala*”. Importantly, users relying on screen readers will seamlessly bypass this non-essential image without any disruption to their exploration of the page, as the main content remains unaffected by its absence.
 
 <div className="image">![MDN Homepage with mandala pattern in the background](/images/mdn.png "")</div>
+
+#### Images associated with corresponding text
 
 Similarly, another scenario where using the **alt** attribute is discouraged involves images already associated with corresponding text. Taking a closer look at [Mozilla's page](https://www.mozilla.org/en-US/careers/listings/), specifically the **Products** menu with product/service options, each image (in this case, an `<img>` tag) is accompanied by the respective product/service name. In such cases, providing an **alt** attribute for a potentially malfunctioning image becomes redundant. The adjacent text carries enough information, ensuring that even if the image fails to load, the content’s understanding remains intact. If the product icon is displayed without accompanying text, it is essential to provide an alt attribute for accessibility.
 
@@ -53,11 +57,17 @@ Exploring the DOM representation of Mozilla VPN, an intriguing observation is ma
 
 <div className="image">![Mozilla's menu item - missing alt attribute value](/images/mozilla-menu-html.png "")</div>
 
+#### Images with text, associated with corresponding text
+
 In more complex scenarios, such as when an image contains text (rather than being a simple icon), it may be possible to omit the alt attribute. This can be the case when the text is presented adjacent to the image in a way that screen readers can easily read, or when the text is purely decorative. See the example below for clarification:
 
 <div className="image">![Image that shows example of image that doesn't require alt attribute](/images/firefox-question.png "")</div>
 
 The text under the image matches the text on the image, making it easy to follow along without needing an extra alt attribute — no redundancy, just smooth and accessible.
+
+#### Summary
+
+To sum up, you can skip the alt attribute in a few cases. First, for purely decorative images that add no meaningful content. Second, when images contain text that’s either decorative or already presented nearby. Third, you can also avoid it for redundant images, such as an icon next to a text that says the same thing.
 
 ### Alt Attribute Dilemma
 
