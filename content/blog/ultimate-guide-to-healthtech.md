@@ -24,7 +24,7 @@ MedTech and Health Tech aren’t synonyms. This guide will focus mostly on Healt
 
 ### HealthTech definition
 
-HealthTech (known as eHealth as well) is **the implementation of technology to improve healthcare delivery and patient engagement**. It includes telemedicine, wearable health devices, and electronic health records, aiming to make healthcare more accessible and personalized.
+HealthTech (known as eHealth as well) is **the implementation of technology to improve healthcare delivery and [patient engagement](/blog/delivering-patient-engagement-platform/)**. It includes telemedicine, wearable health devices, and electronic health records, aiming to make healthcare more accessible and personalized.
 
 ### MedTech definition
 
