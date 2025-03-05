@@ -15,7 +15,7 @@ comments: true
 published: true
 language: en
 ---
-**Heavy data, simplicity, clarity. Can we include all of these in healthcare app designs? Are you planning to hire a software development company to design and build your healthcare or medical solution? Check out the UX design challenges that you might face developing eHealth applications. Eventually, find out how to design medical data in a UX-friendly way.**
+**Heavy data, simplicity, clarity. Can we include all of these in healthcare app designs? Are you planning to hire a [healthcare software development company](/our-areas/healthcare-software-development/) to design and build your healthcare or medical solution? Check out the UX design challenges that you might face developing eHealth applications. Eventually, find out how to design medical data in a UX-friendly way.**
 
 <div className="image">![UX design for healthcare app](../../static/images/cover.png "UX design for healthcare app")</div>
 
@@ -25,7 +25,7 @@ In some cases, healthcare apps have to provide users with lots of information. A
 
 **In the case of healthcare apps, there is usually a lot of information that has to be designed in a way that is visible and accessible within a few taps or clicks.**
 
-<EbookDynamic sectionTitle='transform your HealthTech startup or SME with our expert guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Facing scalability challenges in your HealthTech business? Our guide offers nearly 100 pages of insights and solutions. '} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
+<EbookDynamic sectionTitle='transform your HealthTech startup or SME with our expert guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Facing scalability challenges in your HealthTech business? Our guide offers nearly 100 pages of insights and solutions. '} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='cover' />
 
 ## Challenges for healthcare UX design
 
