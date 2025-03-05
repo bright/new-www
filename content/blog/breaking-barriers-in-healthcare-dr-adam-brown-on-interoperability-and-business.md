@@ -14,7 +14,7 @@ comments: false
 published: true
 language: en
 ---
-**[Dr. Adam Brown](https://www.linkedin.com/in/adambrownmdmba/)**, an emergency physician and entrepreneur, shares insights on his journey from medicine to business, emphasizing the importance of healthcare innovation and policy impact. In this interview, he discusses challenges in bridging the gap between clinical practice and business, the significance of [interoperability in e-health](/blog/interoperability-in-healthtech-experts-insights/), and the future of [AI in healthcare](/blog/the-impact-of-ai-on-healthcare-hype-vs-reality/). He also offers advice for startups entering the US market and highlights key trends in the industry.
+**[Dr. Adam Brown](https://www.linkedin.com/in/adambrownmdmba/)**, an emergency physician and entrepreneur, shares insights on his journey from medicine to business, emphasizing the importance of [healthcare software development](/our-areas/healthcare-software-development/) and policy impact. In this interview, he discusses challenges in bridging the gap between clinical practice and business, the significance of [interoperability in e-health](/blog/interoperability-in-healthtech-experts-insights/), and the future of [AI in healthcare](/blog/the-impact-of-ai-on-healthcare-hype-vs-reality/). He also offers advice for startups entering the US market and highlights key trends in the industry.
 
 ## **Can you briefly introduce yourself and your current role?**
 
