@@ -53,6 +53,12 @@ Exploring the DOM representation of Mozilla VPN, an intriguing observation is ma
 
 <div className="image">![Mozilla's menu item - missing alt attribute value](/images/mozilla-menu-html.png "")</div>
 
+In more complex scenarios, such as when an image contains text (rather than being a simple icon), it may be possible to omit the alt attribute. This can be the case when the text is presented adjacent to the image in a way that screen readers can easily read, or when the text is purely decorative. See the example below for clarification:
+
+<div className="image">![Image that shows example of image that doesn't require alt attribute](/images/firefox-question.png "")</div>
+
+The text under the image matches the text on the image, making it easy to follow along without needing an extra alt attribute — no redundancy, just smooth and accessible.
+
 ### Alt Attribute Dilemma
 
 How should we approach the absence of the **alt** attribute? Is it advisable to omit it entirely or include an empty string? Remarkably, these two scenarios yield disparate outcomes.
