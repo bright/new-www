@@ -86,7 +86,7 @@ Improving health data management for better clinical decision-making is a focus 
 
 Recording and transcribing doctor-patient communication for medical record documentation is an area that quite a few companies have been actively working on. Examples include [DeepScribe](https://www.deepscribe.ai/), [Abridge](https://www.abridge.com/), [Lyrebird Health](https://www.lyrebirdhealth.com/), [Tali AI](https://tali.ai/), [Deepgram](https://deepgram.com/solutions/medical-transcription?), and [Dorascribe](https://www.dorascribe.ai/).
 
-<EbookDynamic sectionTitle='scale your solution with our free guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide healthcare software cover' />
+<EbookDynamic sectionTitle='scale your solution with our free guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='guide healthcare software cover' />
 
 ## 2025 might bring a breakthrough in AI for diagnostics
 
