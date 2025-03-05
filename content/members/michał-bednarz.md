@@ -6,8 +6,8 @@ slug: michal-be
 name: Michał Bednarz
 short_name: Michał
 email: michal.bednarz@brightinventions.pl
-bio: Web Developer
-description: Web Developer
+bio: Fullstack Developer
+description: Fullstack Developer
 avatar: /images/brightdev_business_michalb.png
 avatar_hover: /images/brightdev_passion_michalb.png
 published: true
