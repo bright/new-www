@@ -41,15 +41,11 @@ While the **alt** attribute generally enhances our webpage by providing a descri
 
 Conversely, there are instances where refraining from using the **alt** attribute is advisable, mainly to avoid potential disruptions. One such scenario involves images that serve as mere embellishments rather than integral components of the page’s content. In essence, if an image is purely decorative and doesn’t contribute to a comprehensive understanding of the main content, omitting the **alt** attribute is a considered choice.
 
-#### Decorative images
-
 Consider [MDN](https://developer.mozilla.org/) as an example. In the background, there’s a decorative image (specifically an `<svg>`, but it could be an `<img>`). This image is non-essential for comprehending the presented content, rather, it serves as a visual addition. If any issues arise with displaying this image, there’s no imperative to provide a description such as “*decorative image*” or “*mandala*”. Importantly, users relying on screen readers will seamlessly bypass this non-essential image without any disruption to their exploration of the page, as the main content remains unaffected by its absence.
 
 <div className="image">![MDN Homepage with mandala pattern in the background](/images/mdn.png "")</div>
 
-#### Images with corresponding text
-
-Similarly, another scenario where using the **alt** attribute is discouraged involves images already associated with corresponding text. Taking a closer look at [MDN’s career page](https://www.mozilla.org/en-US/careers/listings/), specifically the **Products** menu with product/service options, each image (in this case, an `<img>` tag) is accompanied by the respective product/service name. In such cases, providing an **alt** attribute for a potentially malfunctioning image becomes redundant. The adjacent text carries enough information, ensuring that even if the image fails to load, the content’s understanding remains intact. If the product icon is displayed without accompanying text, it is essential to provide an alt attribute for accessibility. For more complex scenarios, I recommend referring to the [W3C Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/), which offers detailed guidance on handling various image-related situations.
+Similarly, another scenario where using the **alt** attribute is discouraged involves images already associated with corresponding text. Taking a closer look at [MDN’s career page](https://www.mozilla.org/en-US/careers/listings/), specifically the **Products** menu with product/service options, each image (in this case, an `<img>` tag) is accompanied by the respective product/service name. In such cases, providing an **alt** attribute for a potentially malfunctioning image becomes redundant. The adjacent text carries enough information, ensuring that even if the image fails to load, the content’s understanding remains intact. If the product icon is displayed without accompanying text, it is essential to provide an alt attribute for accessibility.
 
 <div className="image">![Mozilla careers menu](/images/mozilla-careers.png "")</div>
 
