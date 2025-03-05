@@ -25,7 +25,7 @@ One widely discussed practice is employing the **alt** attribute for all **`<img
 
 The **alt** attribute, a fundamental element in web development, serves a dual purpose. It acts as a fallback description in scenarios where an image fails to download or display correctly, and, crucially, contributes to **Accessibility** by providing screen readers with valuable descriptive content.
 
-Commonly, discussions about the **alt** attribute carry an additional assertion: that it is a required attribute (and should always contain a description). While the **alt** attribute undeniably enhances web **accessibility**, we'll explore situations where its insistence might be misunderstood, challenging existing beliefs and helping create a more balanced view of its role in building an inclusive online experience. Our myth can be succinctly defined as follows:
+Commonly, discussions about the **alt** attribute carry an additional assertion: that it is a required attribute (and should always contain a description). While the **alt** attribute definitely helps with web **accessibility**, we'll explore situations where its insistence might be misunderstood, challenging existing beliefs and helping create a more balanced view of its role in building an inclusive online experience. Our myth can be defined as follows:
 
 > The ‘alt’ attribute is required for the HTML `<img>` tag
 
