@@ -23,7 +23,7 @@ One widely discussed practice is employing the **alt** attribute for all **`<img
 
 ## The alt attribute
 
-The **alt** attribute, a fundamental element in web development, serves a dual purpose. It acts as a fallback description in scenarios where an image fails to download or display correctly, and, crucially, contributes to **Accessibility** by providing screen readers with valuable descriptive content.
+The **alt** attribute serves a dual purpose. It acts as a fallback description in scenarios where an image fails to download or display correctly, and, crucially, contributes to **Accessibility** by providing screen readers with valuable descriptive content.
 
 Commonly, discussions about the **alt** attribute carry an additional assertion: that it is a required attribute (and should always contain a description). While the **alt** attribute definitely helps with web **accessibility**, we'll explore situations where its insistence might be misunderstood, challenging existing beliefs and helping create a more balanced view of its role in building an inclusive online experience. Our myth can be defined as follows:
 
@@ -59,7 +59,7 @@ In more complex scenarios, such as when an image contains text (rather than bein
 
 <div className="image">![Image that shows example of image that doesn't require alt attribute](/images/firefox-question.png "")</div>
 
-The text under the image matches the text on the image, making it easy to follow along without needing an extra alt attribute — no redundancy, just smooth and accessible.
+The text under the image matches the text on the image, making it easy to follow along without needing an extra alt attribute — no redundancy.
 
 #### Summary
 
