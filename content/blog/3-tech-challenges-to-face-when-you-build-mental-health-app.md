@@ -16,7 +16,7 @@ language: en
 ---
 **Building a mental health app differs from other software products. Are you planning to hire a software agency to develop your app for emotional support? Make sure that you know the technical challenges you and your team will likely face.**
 
-<EbookDynamic sectionTitle='open to dive into HealthTech?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download our free guide on scaling healthcare software! Nearly 100 pages packed with market insights, tech strategies, and case studies.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
+<EbookDynamic sectionTitle='open to dive into HealthTech?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download our free guide on scaling healthcare software! Nearly 100 pages packed with market insights, tech strategies, and case studies.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='cover' />
 
 Numbers aren’t optimistic. [WHO](https://www.who.int/news-room/fact-sheets/detail/depression) estimated that **280 million people around the world suffer from depression**. Putting that in perspective – it’s around 80% of the population of the USA. Moreover, at least **[25% of people](https://www2.deloitte.com/content/dam/insights/us/articles/glob114104_future-of-behavioral-health/GLOB114104_Future-of-behavioral-health.pdf) will experience behavioral illness**. 
 
