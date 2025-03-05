@@ -24,13 +24,13 @@ MedTech and Health Tech aren’t synonyms. This guide will focus mostly on Healt
 
 ### HealthTech definition
 
-HealthTech (known as eHealth as well) is **the implementation of technology to improve healthcare delivery and patient engagement**. It includes telemedicine, wearable health devices, and electronic health records, aiming to make healthcare more accessible and personalized.
+HealthTech (known as eHealth as well) is **the implementation of technology to improve healthcare delivery and [patient engagement](/blog/delivering-patient-engagement-platform/)**. It includes telemedicine, wearable health devices, and electronic health records, aiming to make healthcare more accessible and personalized.
 
 ### MedTech definition
 
 MedTech relates more to **medical devices** and diagnostic equipment used in healthcare. This includes pacemakers, MRI machines, and surgical tools, focusing on enhancing the quality of medical treatments and diagnostics. **MedTech companies must comply with various standards, such as ISO 13485**, which specifies requirements for a quality management system specific to the medical device industry.
 
-<EbookDynamic sectionTitle='ready for even more HealthTech insights?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download the free guide about scaling the software solution for healthcare.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide cover ehealth' />
+<EbookDynamic sectionTitle='ready for even more HealthTech insights?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download the free guide about scaling the software solution for healthcare.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='guide cover ehealth' />
 
 ## Areas of HealthTech with examples
 
@@ -117,7 +117,7 @@ An emerging field at the intersection of technology and biology, focusing on usi
 
 Technology has the power to change the daily lives of patients and medical staff in countless ways. We've listed the technologies that every HealthTech startup and enterprise should (at least) consider implementing.
 
-If you want to know what’s especially hot in tech for healthcare in 2024, read [Top 7 Trends in HealthTech to Watch in 2024](/blog/top-trends-in-healthtech/)!
+If you want to know what’s especially hot in tech for healthcare, read [Top Trends in HealthTech to Watch in 2025](/blog/top-trends-in-healthtech/)!
 
 ### Generative AI & Large Language Models
 
@@ -201,7 +201,7 @@ Fancy going deeper into product design for healthcare? Explore [UX design best p
 
 ## eHealth companies worth watching
 
-If you want to look closely at some companies that are changing healthcare, we listed some startups and larger organizations that are worth watching!
+If you want to look closely at some companies that are changing custom [healthcare software development](/our-areas/healthcare-software-development/), we listed some startups and larger organizations that are worth watching!
 
 **TeleHealth companies to watch**: [Camascope](https://www.camascope.com/), [MedKitDoc](https://medkitdoc.de/en), [Maven](https://www.mavenclinic.com/).
 
