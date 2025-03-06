@@ -56,7 +56,7 @@ Join FemTechConf in Zurich for two days of learning and networking with diverse 
 
 Details: [www.femtechconf.com](https://www.femtechconf.com/)
 
-<EbookDynamic sectionTitle='get more resources about digital health' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download our free guide about scaling software solutions for healthcare. Almost 100 pages about leveraging technology in digital health!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide cover' />
+<EbookDynamic sectionTitle='get more resources about digital health' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download our free guide about scaling software solutions for healthcare. Almost 100 pages about leveraging technology in digital health!'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='guide cover' />
 
 ## Women's Health Innovation Summit
 
