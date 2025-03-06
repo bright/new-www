@@ -123,7 +123,7 @@ export const Header = () => {
         </HeroWrapper>
         <MoreButtonEstimateWrapper className='buttons is-hidden-tablet'>
           <MoreButton href={routeLinks.startProject} className='button-estimate' isPrimary marginTop='0'>
-            estimate project
+            hire us
           </MoreButton>
         </MoreButtonEstimateWrapper>
       </HeroBody>
