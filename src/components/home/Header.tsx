@@ -94,8 +94,8 @@ const HeroBody = styled.div`
     width:100% ;
   }
 `
-const MoreButtonEstimateWrapper = styled.div`
-  & .button-estimate {
+const ActionButtonWrapper = styled.div`
+  & .action-button {
     margin: 6em 0;
   }
 `
@@ -121,11 +121,11 @@ export const Header = () => {
             </h1>
           </div>
         </HeroWrapper>
-        <MoreButtonEstimateWrapper className='buttons is-hidden-tablet'>
-          <MoreButton href={routeLinks.startProject} className='button-estimate' isPrimary marginTop='0'>
+        <ActionButtonWrapper className='buttons is-hidden-tablet'>
+          <MoreButton href={routeLinks.startProject} className='action-button' isPrimary marginTop='0'>
             hire us
           </MoreButton>
-        </MoreButtonEstimateWrapper>
+        </ActionButtonWrapper>
       </HeroBody>
     </CustomSection>
   )
