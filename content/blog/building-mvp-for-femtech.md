@@ -29,7 +29,7 @@ Even with thorough user research and product workshops, pre-launch stages are mo
 
 ### Less financial risk
 
-Launching the first version of your solution cost-effectively—an MVP includes only essential features that offer unique value. This allows for a smaller investment and minimizes the potential financial risks associated with every MVP development.
+Launching the first version of your solution cost-effectively—an MVP includes only essential features that offer unique value. This allows for a smaller investment and minimizes the potential financial risks associated with every [MVP development](/our-areas/mvp-development/).
 
 ### A first step towards scaling
 
