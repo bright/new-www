@@ -54,7 +54,7 @@ This shift not only promotes better health outcomes but also **fosters a more in
 
 Detailed **onboarding processes** can enhance this personalization, making users feel their unique health journeys are genuinely understood and catered to ([check out a story of a possible failure in an onboarding process in FemTech app](https://brightinventions.pl/blog/data-driven-development-femtech-app-onboarding/)). Moreover, **building trust** is essential, as women input sensitive and intimate data into these apps.
 
-**<YouTubeEmbed url='**https://www.youtube.com/watch?v=ljeqnUbnrCg**' />**
+<YouTubeEmbed url='https://www.youtube.com/watch?v=ljeqnUbnrCg' />
 
 **[FemTech wearables](https://news.abplive.com/technology/gadgets/femtech-how-innovation-in-wearables-is-shaping-future-of-female-health-wellness-garmin-1715208)** also play a critical role, offering daily support through devices that monitor menstrual cycles, fertility, and other health parameters. These devices not only foster daily interaction but also empower women to manage their health proactively, ensuring they receive the most accurate and relevant health information.
 
