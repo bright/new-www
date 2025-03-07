@@ -104,7 +104,7 @@ Interoperability is poised to be an even more prominent topic than in previous y
 
 <div className="image">![Interoperability Google trends](/images/interoperability_google_trends.png "Interoperability Google trends")</div>
 
-The year 2025 is expected to be a pivotal moment for healthcare companies to implement interoperability solutions effectively. In another article, we've delved into [interoperability for healthcare](https://brightinventions.pl/blog/interoperability-in-healthtech-experts-insights/). ​
+The year 2025 is expected to be a pivotal moment for healthcare companies to implement interoperability solutions effectively. In another article, we've delved into [interoperability for healthcare](/blog/interoperability-in-healthtech-experts-insights/). ​
 
 ## 2025 will help to determine what healthcare devices we really need
 
