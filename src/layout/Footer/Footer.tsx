@@ -76,6 +76,9 @@ export const Footer = () => {
             <li>
               <Link to={routeLinks.agencyGdansk}>software development studio in Gdansk</Link>
             </li>
+            <li>
+              <Link to={routeLinks.posDevelopmentBlog}>POS development</Link>
+            </li>
           </List>
         </DesktopOnlyBox>
 
