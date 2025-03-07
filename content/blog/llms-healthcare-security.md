@@ -34,7 +34,7 @@ LLMs are trained on vast amounts of text data, enabling them to learn language p
 
 Source: Viz.ai webpage
 
-## Securing medical data when using LLMs
+## Securing medical data when using LLMs (**HIPAA** compliant LLM)
 
 Is using one of the most popular LLM providers – OpenAI – secure? You should always consult with a legal professional since every situation is unique. However, generally speaking, **OpenAI API is eligible for GDPR and HIPAA compliance**.
 
