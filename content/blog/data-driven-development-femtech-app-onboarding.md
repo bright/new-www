@@ -33,7 +33,7 @@ The pregnancy app in question had, at that time, an **onboarding process contain
 
 Although **the onboarding conversion rate was 80%, our client – a Germany-based FemTech startup – questioned whether the detailed onboarding process might deter users from signing up**. We jointly decided to validate this hypothesis.
 
-<EbookDynamic sectionTitle='dive into HealthTech' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Facing scalability challenges in your HealthTech business? Read our free guide full of insights and tech solutions.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide cover' />
+<EbookDynamic sectionTitle='dive into HealthTech' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Facing scalability challenges in your HealthTech business? Read our free guide full of insights and tech solutions.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='guide cover' />
 
 ## The validation: confronting assumptions with data
 
