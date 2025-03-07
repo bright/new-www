@@ -96,7 +96,7 @@ Here are examples of companies and organizations working on implementing AI in d
 
 ## It's the last moment to catch up on interoperability in the healthcare system
 
-The global healthcare interoperability solutions market contributes around [49.6%](https://www.futuremarketinsights.com/reports/healthcare-interoperability-solutions-market) to the global healthcare services market value at about USD 7.5 Billion in 2022. As one HealthTech leader stated during [the interview we conducted at HLTH Europe 2024](l/blog/nuria-advancing-healthcare-interoperability-and-patient-engagement/):
+The global healthcare interoperability solutions market contributes around [49.6%](https://www.futuremarketinsights.com/reports/healthcare-interoperability-solutions-market) to the global healthcare services market value at about USD 7.5 Billion in 2022. As one HealthTech leader stated during [the interview we conducted at HLTH Europe 2024](/blog/nuria-advancing-healthcare-interoperability-and-patient-engagement/):
 
 <blockquote><h2></h2><div>The trend should be about integrating solutions that enhance the entire patient journey, not just isolated digital parts.</div><footer>Fernando Campos Soares, Founder & CEO @ Nuria</footer></blockquote>
 
@@ -104,7 +104,7 @@ Interoperability is poised to be an even more prominent topic than in previous y
 
 <div className="image">![Interoperability Google trends](/images/interoperability_google_trends.png "Interoperability Google trends")</div>
 
-The year 2025 is expected to be a pivotal moment for healthcare companies to implement interoperability solutions effectively. In another article, we've delved into [interoperability for healthcare](https://brightinventions.pl/blog/interoperability-in-healthtech-experts-insights/). ​
+The year 2025 is expected to be a pivotal moment for healthcare companies to implement interoperability solutions effectively. In another article, we've delved into [interoperability for healthcare](/blog/interoperability-in-healthtech-experts-insights/). ​
 
 ## 2025 will help to determine what healthcare devices we really need
 
