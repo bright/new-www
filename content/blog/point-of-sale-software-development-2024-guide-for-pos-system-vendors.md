@@ -139,11 +139,11 @@ Caller ID is a device that provides information about incoming phone numbers. Wi
 
 Check how our team took care of the [POS and Caller ID integration](/projects/restaurant-pos-caller-id/) and learn about challenges our engineers faced. 
 
-<div className="image">![Caller ID and POS](/images/pos_caller_id_case_study.png "")</div>
+<div className="image">![Caller ID and POS](/images/pos_caller_id_case_study.png "Caller ID and POS")</div>
 
 ## Emerging trends in POS application development: what to expect in 2025 and beyond
 
-Explore POS solution development trends.
+Explore **POS development** trends.
 
 ### The continuous rise of QR code ordering as a response to restaurant staff shortages
 
