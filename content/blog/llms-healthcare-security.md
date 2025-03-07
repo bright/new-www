@@ -36,7 +36,7 @@ Source: Viz.ai webpage
 
 ## Securing medical data when using LLMs (**HIPAA** compliant LLM)
 
-Is using one of the most popular LLM providers – OpenAI – secure? You should always consult with a legal professional since every situation is unique. However, generally speaking, **OpenAI API is eligible for GDPR and HIPAA compliance**.
+Is using one of the most popular LLM providers – OpenAI – secure? You should always consult with a legal professional since every situation is unique. However, generally speaking, OpenAI API is eligible for GDPR and offers **HIPAA compliant LLM**.
 
 What does this actually mean? You can use OpenAI to build LLMs that learn from medical data. However, you need to be aware of the following aspects:
 
