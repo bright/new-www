@@ -12,7 +12,7 @@ comments: true
 published: true
 language: en
 ---
-**Smart earrings, tattoos, smart socks, robot pets, and more... Discover the types of smart healthcare devices transforming patient care with the Internet of Things (IoT). Also, meet HealthTech companies that are behind these devices. The list is continuously updated.**
+**Smart earrings, tattoos, smart socks, robot pets, and more... Discover the types of smart healthcare devices transforming patient care with the Internet of Things (IoT). Also, meet [healthcare software development companies](/our-areas/healthcare-software-development/) that are behind these devices. The list is continuously updated.**
 
 <div className="image">![smart devices healthcare](../../static/images/smart_devices_healthcare.png "smart devices healthcare")</div>
 
@@ -342,7 +342,3 @@ Companies: Elvie, Willow and Freemie offer smart breast pumps.
 A piece of smart jewelry that automatically tracks hot flashes for women experiencing menopause, offering relief by triggering cooling at the onset of a flush.
 
 Companies: Grace is the manufacturer developing bracelets for women with menopause.
-
-- - -
-
-Let us know in the comments about other healthcare smart devices we should include.
