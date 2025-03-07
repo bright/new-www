@@ -50,4 +50,5 @@ export const routeLinks = {
          mvpdDevelopment: '/our-areas/mvp-development/',
          healthcareDevelopment: '/our-areas/healthcare-software-development/',
          agencyGdansk: '/our-areas/gdansk-software-company/',
+         posDevelopmentBlog: '/blog/pos-software-development-guide/',
        }
