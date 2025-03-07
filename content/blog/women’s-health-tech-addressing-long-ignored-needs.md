@@ -30,7 +30,7 @@ Many organizations today focus on women's health, including:
 * **[Planned Parenthood](https://www.plannedparenthood.org)**: Provides reproductive health care and education in the U.S. and worldwide.
 * **[National Women's Health Network](<https://nwhn.org › about-us>)** (NWHN): Advocates for women's health policy and provides reliable health information.
 * [**Society for Women's Health Research** ](https://swhr.org)(SWHR): Improves women's health through research, advocacy, and education.
-* **[FemTech Focus](https://www.femtechfocus.com/)**: Advances global women's health through technology and startups.
+* **FemTech Focus**: Advances global women's health through technology and startups.
 
 ## Things to consider while developing a FemTech product
 
