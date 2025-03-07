@@ -6,7 +6,7 @@ tags:
   - AI
 date: 2024-02-29T07:11:34.152Z
 meaningfullyUpdatedAt: 2024-02-29T07:11:34.810Z
-title: "HIPAA-Compliant LLM for Healthcare: Is It Secure?"
+title: "HIPAA Compliant LLM for Healthcare: Is It Secure?"
 layout: post
 image: /images/llms_healthcare.png
 hidden: false
