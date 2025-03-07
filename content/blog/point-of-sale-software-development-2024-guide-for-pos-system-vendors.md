@@ -187,7 +187,7 @@ Check **how to get access to POS data to optimize your payment solutions at the 
 
 <YouTubeEmbed url='https://youtu.be/gwM0SnHACMs' />
 
-### Adherence to local tax law
+### Adherence to local tax law during POS development
 
 Your POS system must integrate with local tax rules, including **calculating the correct sales tax and generating tax-compliant receipts**. This may involve adapting the software to meet region-specific tax regulations, such as VAT or GST, and keeping up with changes in local tax laws to ensure ongoing compliance.
 
