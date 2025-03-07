@@ -14,7 +14,7 @@ comments: true
 published: true
 language: en
 ---
-**LLMs are at the forefront of the AI revolution in healthcare. However, there are ongoing concerns about the security of medical data used to generate content with LLMs. Discover what steps you need to take to ensure your HIPAA-compliant LLM solution is secure and compliant with GDPR, especially if you use OpenAI solutions.**
+**LLMs are at the forefront of the AI revolution in healthcare. However, there are ongoing concerns about the security of medical data used to generate content with LLMs. Discover what steps you need to take to ensure your HIPAA compliant LLM solution is secure and compliant with GDPR, especially if you use OpenAI solutions.**
 
 <div className="image">![LLMs healthcare](../../static/images/llms_healthcare.png "LLMs healthcare")</div>
 
