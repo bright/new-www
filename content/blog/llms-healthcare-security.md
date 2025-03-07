@@ -5,8 +5,8 @@ tags:
   - HealthTech
   - AI
 date: 2024-02-29T07:11:34.152Z
-meaningfullyUpdatedAt: 2024-02-29T07:11:34.810Z
-title: Large Language Models (LLMs) for Healthcare. Are They Secure?
+meaningfullyUpdatedAt: 2025-03-07T13:52:29.650Z
+title: "HIPAA Compliant LLM for Healthcare: Is It Secure?"
 layout: post
 image: /images/llms_healthcare.png
 hidden: false
@@ -14,7 +14,7 @@ comments: true
 published: true
 language: en
 ---
-**LLMs are at the forefront of the AI revolution in healthcare. However, there are ongoing concerns about the security of medical data used to generate content with LLMs. Discover what steps you need to take to ensure your LLM solution is secure and compliant with HIPAA or GDPR, in case you use OpenAI solutions.**
+**LLMs are at the forefront of the AI revolution in healthcare. However, there are ongoing concerns about the security of medical data used to generate content with LLMs. Discover what steps you need to take to ensure your HIPAA compliant LLM solution is secure and compliant with GDPR, especially if you use OpenAI solutions.**
 
 <div className="image">![LLMs healthcare](../../static/images/llms_healthcare.png "LLMs healthcare")</div>
 
@@ -34,9 +34,9 @@ LLMs are trained on vast amounts of text data, enabling them to learn language p
 
 Source: Viz.ai webpage
 
-## Securing medical data when using LLMs
+## Securing medical data when using LLMs (**HIPAA** compliant LLM)
 
-Is using one of the most popular LLM providers – OpenAI – secure? You should always consult with a legal professional since every situation is unique. However, generally speaking, **OpenAI API is eligible for GDPR and HIPAA compliance**.
+Is using one of the most popular LLM providers – OpenAI – secure? You should always consult with a legal professional since every situation is unique. However, generally speaking, OpenAI API is eligible for GDPR and offers **HIPAA compliant LLM**.
 
 What does this actually mean? You can use OpenAI to build LLMs that learn from medical data. However, you need to be aware of the following aspects:
 
