@@ -46,7 +46,7 @@ For years, discussions around these important life stages were avoided, yet they
 
 This shift not only promotes better health outcomes but also **fosters a more inclusive dialogue about women's health needs.**
 
-<EbookDynamic sectionTitle='explore more guidelines for HealthTech startup owners' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'From secure LLMs to app performance monitoring – dive into tech solutions that will help you scale your software for healthcare.'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='guide' />
+<EbookDynamic sectionTitle='explore more guidelines for HealthTech startup owners' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'From secure LLMs to app performance monitoring – dive into tech solutions that will help you scale your software for healthcare.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='guide' />
 
 ### 3. Patient engagement
 
