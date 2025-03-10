@@ -24,7 +24,7 @@ links_more_about_us: >-
 title_recruiter_info: Do you have any questions? Ask Sara from our Bright team!
 name_recruiter: Sara
 workplace_recruiter: Recruiting Specialist
-image_recruiter_info: /images/brightpeople_sara_business.png
+image_recruiter_info: /images/sara-bright-recruiter.png
 image_alt_recruiter_info: Sara Łęcka - Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/saralecka/
 button: "join our Bright team "
