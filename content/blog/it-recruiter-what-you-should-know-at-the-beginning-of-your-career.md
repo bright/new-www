@@ -70,6 +70,8 @@ There will be a lot of people you are communicating with at the same time, each 
 
 <div className="image">![planning](../../static/images/plan.jpg "undefined")</div>
 
+###### Source: pixabay.com
+
 ### How do I deal with it?
 
 Setting priorities helps me the most in the daily organization of my work so **I start my day with an e-mail inbox** to check and respond to candidates' messages. Then I create a **to-do list,** where at the top I write down the most urgent things and from those things I start work. 🙂 I think it is also important to **keep the tables and files in order.** I update all our files, and recruitment tables on a regular basis, so as not to miss or confuse any candidate status. 🙂
