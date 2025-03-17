@@ -7,7 +7,7 @@ meaningfullyUpdatedAt: 2025-03-11T12:18:57.562Z
 title: "Watch BrightDevTips: Bite-Sized Technical Knowledge in 60 Seconds"
 layout: post
 image: https://youtube.com/playlist?list=PLXQKLMVoAz1TGkvgMLu86iEekp5rSQAlZ&si=AkvJyFihcw5P9Z5l
-hidden: false
+hidden: true
 comments: false
 published: true
 language: en
