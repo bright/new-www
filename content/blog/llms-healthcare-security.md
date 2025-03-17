@@ -5,7 +5,7 @@ tags:
   - HealthTech
   - AI
 date: 2024-02-29T07:11:34.152Z
-meaningfullyUpdatedAt: 2025-03-07T13:52:29.650Z
+meaningfullyUpdatedAt: 2024-02-29T07:11:00.000Z
 title: "HIPAA Compliant LLM for Healthcare: Is It Secure?"
 layout: post
 image: /images/llms_healthcare.png
