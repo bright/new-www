@@ -1,5 +1,7 @@
 ---
 author: sara-l
+tags:
+  - programming
 date: 2025-03-11T12:18:57.542Z
 meaningfullyUpdatedAt: 2025-03-11T12:18:57.562Z
 title: "Watch BrightDevTips: Bite-Sized Technical Knowledge in 60 Seconds"
