@@ -10,7 +10,7 @@ date: 2017-10-12T22:00:00.000Z
 meaningfullyUpdatedAt: 2017-10-12T22:00:00.000Z
 title: Engagement is not an act, but a habit
 layout: post
-image: ""
+image: /images/team_meeting_office.png
 hidden: false
 published: true
 language: en
@@ -18,8 +18,6 @@ language: en
 
 
 Disengaged and burned out employees cost companies every year billions of dollars and can highly affect the success of the business or even result in its failure. **Every employer knows that motivated and committed team values nowadays more than ever.** Yet engagement does not equal to employees' satisfaction or their happiness since someone can come to work every day with a big grin on their face, yet it does not have to mean they work productively on the behalf of the organisation. Someone can be also satisfied with their job, but coming across another offer, will quit it as quickly as one-day notice takes. So engagement is definitely something more than enthusiasm or satisfaction. 
-
-![engagement](../../static/images/engagement/engagement.jpg "")
 
 Engagement is an emotional commitment to our work. **If we are engaged, we feel that we are an integral part of the organisation and we believe that the company’s goals are our goals.** Understanding our vital role in the growth and development of company is in fact the half of success. When we are engaged, we are willing to make an extra effort without being asked. We are convinced that our job makes a difference and we can go this extra mile for a better company’s performance or reputation. 
 
