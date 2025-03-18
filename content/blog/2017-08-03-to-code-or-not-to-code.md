@@ -9,7 +9,7 @@ date: 2017-08-02T22:00:00.000Z
 meaningfullyUpdatedAt: 2017-08-02T22:00:00.000Z
 title: To code or not to code
 layout: post
-image: /images/yes_or_no.png
+image: /images/planet-volumes-aevtbplzfo4-unsplash.jpg
 comments: true
 published: true
 language: en
