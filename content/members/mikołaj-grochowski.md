@@ -8,8 +8,8 @@ short_name: Mikołaj
 email: mikolaj.grochowski@brightinventions.pl
 bio: Senior Fullstack Developer
 description: Senior Fullstack Developer
-avatar: /images/dsc_0008xdg-1-.png
-avatar_hover: /images/dsc_0010cv-1-.png
+avatar: ""
+avatar_hover: ""
 published: false
 language: en
 ---
