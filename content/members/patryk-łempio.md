@@ -10,7 +10,7 @@ bio: Backend Developer
 description: Backend Developer
 avatar: /images/casual_bright.png
 avatar_hover: /images/hobby_bright.png
-published: true
+published: false
 language: en
 ---
 Professionally, software developer that is passionate about systems design and fearless about new technologies. Can spend hours talking about how software works under the hood.
