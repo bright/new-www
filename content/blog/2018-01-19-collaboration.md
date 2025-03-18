@@ -1,9 +1,5 @@
 ---
-layout: post
-title: Collaboration
 author: ula
-hidden: false
-image: /images/collaboration.png
 tags:
   - collaboration
   - success
@@ -11,6 +7,10 @@ tags:
   - cooperation
 date: 2018-01-18T23:00:00.000Z
 meaningfullyUpdatedAt: 2018-01-18T23:00:00.000Z
+title: Collaboration
+layout: post
+image: /images/ula-blog-post-titles.png
+hidden: false
 published: true
 language: en
 ---
