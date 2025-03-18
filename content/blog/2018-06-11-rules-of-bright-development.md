@@ -1,4 +1,5 @@
 ---
+meaningfullyUpdatedAt: 2018-06-10T22:00:00.000Z
 excerpt: Every year we work at Bright on many mobile and web development
   projects. It is a challenge to build a good quality software in an agile way
   and at the same time solve all potential problems and keep your workflow under
@@ -13,10 +14,9 @@ tags:
   - web
   - software
 date: 2018-06-10T22:00:00.000Z
-meaningfullyUpdatedAt: 2018-06-10T22:00:00.000Z
 title: Rules of Bright Development
 layout: post
-image: /images/blog_post_bright_development_rules.png
+image: /images/screenshot-2025-03-18-at-13.45.40.png
 hidden: false
 published: true
 language: en
@@ -57,7 +57,5 @@ To track the time and current workflow we use Mite. It is important for us to kn
 
 Fluent and transparent communication is something that we value and take care of in every phase of a project. It is extremely important that our clients know how the development process is evolving. To successfully manage the workflow and keep our clients informed we send them daily or weekly updates to let them know what we accomplish each iteration and what is planned to do next.
 A long-distance between us and our clients is not a problem. We communicate via phone, Slack, Skype or email and it is a standard part of our job. We also have dedicated Slack channels integrated with Jira, Trello, Github, Hangouts or others.
-
-![software development](../../static/images/bright_rules.jpg "")
 
 Creating a set of rules that everybody in our team is following has a great impact on our daily workflow, but first of all it significantly improves our development process. Applying each and every rule we are able to avoid many errors and misunderstandings. We spend our time effectively and make the most of it. **At Bright Inventions we believe that it is worth taking the time to write quality code and build the things right. And that is the kind of service we always want to provide to our clients.**
