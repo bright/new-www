@@ -8,9 +8,9 @@ short_name: Patryk
 email: patryk.lempio@brightinventions.pl
 bio: Backend Developer
 description: Backend Developer
-avatar: /images/casual_bright.png
-avatar_hover: /images/hobby_bright.png
-published: false
+avatar: /images/brightdev_patryk_business.png
+avatar_hover: /images/brightdev_patryk_passion.png
+published: true
 language: en
 ---
 Professionally, software developer that is passionate about systems design and fearless about new technologies. Can spend hours talking about how software works under the hood.
