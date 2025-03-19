@@ -8,7 +8,7 @@ date: 2018-02-15T23:00:00.000Z
 meaningfullyUpdatedAt: 2018-02-15T23:00:00.000Z
 title: What would Paulo Coelho say
 layout: post
-image: /images/thank_you.jpg
+image: /images/ula-blog-post-titles.png
 hidden: false
 published: true
 language: en
