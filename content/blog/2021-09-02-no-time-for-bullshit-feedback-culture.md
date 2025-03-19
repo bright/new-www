@@ -7,9 +7,9 @@ tags:
   - communication
 date: 2021-09-02T00:00:00.000Z
 meaningfullyUpdatedAt: 2021-09-02T00:00:00.000Z
-title: No Time for Bullsh**. Feedback Culture.
+title: No Time for Bullsh** - A few Words about Feedback Culture
 layout: post
-image: /images/blog_feedback_culture.png
+image: /images/screenshot-2025-03-19-at-07.36.01.png
 hidden: false
 comments: true
 published: true
@@ -35,8 +35,6 @@ At the end of the day there will be always things that need some improvement. Bu
 
 It is a continuous process. We do not want to wait till the end of the year to talk about how we are doing, what we are feeling and what our plans are. We do that on daily basis and I believe that is the way to bond the team itself since we we can express ourselves anytime we need. Every moment is good to voice an opinion, share what causes your frustration or just praise someone for what they did.  
 
-![](../../static/images/communicate_positive_and_negative.jpg "")
-
 ## Acts Speak Louder Than Words 
 
 **It is not enough to talk with people. We really have to DO something about how they feel and what they say.** I always analyse any suggestion I get from someone in my team. If an idea cannot be implemented, an explanation should follow the manager’s decision. If we have the team who cares and who actually wants something to change for better, our duty is to take all the steps to implement their ideas. Every employee’s opinion matters. 
@@ -52,8 +50,6 @@ Griping just to gripe probably has not taken anyone anywhere. **We should voice 
 Feedback is a way to strengthen the ideas, it is **a sign that we take care of each other and we want to improve as the team.** We should listen, analyse and respond to the input. Even if my opinion is something you may not like, you should not take it as a disapproval or condemnation. 
 
 When I can see that someone is making mistakes I am telling this person about that - it only means that I am caring about them, about the team and about the company. It means that I feel responsible not only for myself but also for people I work with and the job we do together. I know that it might be scary at first, especially if you have to share some negative feedback. But in order to foster our own team, we have to share feedback honestly, openly and regularly. If we are missing a deadline, it needs to be discussed immediately. If someone in our team messed up, we have to talk, analyse what went wrong and put it right. If someone did a great job, let us show our appreciation and gratitude immediately. **Don’t wait for any special occasion. Giving feedback is a process, not an unusual event.**  
-
-![](../../static/images/caring.jpg "")
 
 ## It is not about you or me
 
