@@ -9,7 +9,7 @@ date: 2021-09-02T00:00:00.000Z
 meaningfullyUpdatedAt: 2021-09-02T00:00:00.000Z
 title: No Time for Bullsh** - A few Words about Feedback Culture
 layout: post
-image: /images/screenshot-2025-03-19-at-07.36.01.png
+image: /images/jon-tyson-vvsleeypsgy-unsplash.jpg
 hidden: false
 comments: true
 published: true
