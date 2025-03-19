@@ -1,15 +1,15 @@
 ---
-layout: post
-title: Four thieves of your productivity
-date: 2020-11-03T13:24:40.469Z
-meaningfullyUpdatedAt: 2020-11-03T13:24:40.469Z
-image: /images/more_productivity.jpeg
 author: ula
 tags:
   - motivation
   - work
   - time management
   - productivity
+date: 2020-11-03T13:24:40.469Z
+meaningfullyUpdatedAt: 2020-11-03T13:24:40.469Z
+title: Four thieves of your productivity
+layout: post
+image: /images/kris-n9u9zeoh2ym-unsplash.jpg
 hidden: false
 comments: true
 published: true
