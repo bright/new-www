@@ -14,7 +14,7 @@ tags:
 date: 2017-10-26T22:00:00.000Z
 title: Make the Most of It
 layout: post
-image: /images/tomatoes/table-meetings.jpg
+image: /images/piotr_adam_office.png
 hidden: false
 published: true
 language: en
