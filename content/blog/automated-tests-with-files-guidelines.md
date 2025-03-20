@@ -7,7 +7,7 @@ date: 2025-03-20T13:20:37.387Z
 meaningfullyUpdatedAt: 2025-03-20T13:20:38.002Z
 title: Automated tests with files - guidelines
 layout: post
-hidden: false
+hidden: true
 comments: false
 published: true
 language: en
