@@ -52,7 +52,7 @@ Some payment methods, like card payments, require filling out forms. To make thi
 
 ## Don’t make me think
 
-You might be familiar with the book “[Don’t Make Me Think](blog/5-web-development-rules-from-dont-make-me-think-book/)”, which highlights usability practices based on the principle that interfaces should be so intuitive that users can navigate them effortlessly. This is especially important in point-of-sale systems – you should **offer users clear options without making them overthink their actions**.
+You might be familiar with the book “[Don’t Make Me Think](/blog/5-web-development-rules-from-dont-make-me-think-book/)”, which highlights usability practices based on the principle that interfaces should be so intuitive that users can navigate them effortlessly. This is especially important in point-of-sale systems – you should **offer users clear options without making them overthink their actions**.
 
 For example, **when it comes to tipping, don’t force waitstaff to manually input an amount**. Instead, present them with popular tipping options while still allowing customization if needed.
 
