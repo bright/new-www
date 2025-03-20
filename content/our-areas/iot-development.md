@@ -61,7 +61,7 @@ bar_stack:
   - AWS
   - Figma
   - Miro
-button: explore IoT services
+button: hire us
 button2: let's talk about IoT services
 published: true
 show_case_study: true
@@ -95,12 +95,10 @@ boxes:
       architectures that ensure seamless data flow and high availability.
     box_icon: /images/icon_pos_lp_cloud_pos.png
   - box_title: IoT integration services
-    box_description: We specialize in **IoT integration services**, enabling
-      seamless communication between IoT devices, cloud platforms, and
-      enterprise applications to streamline workflows and enhance efficiency.
-      Our team has successfully integrated retail devices into point-of-sale
-      applications for hospitality and retail, scaling solutions for industry
-      leaders like **Just Eat Takeaway.com**.
+    box_description: >
+      We specialize in **IoT integration services**, ensuring communication
+      between IoT devices, cloud platforms, and apps, scaling solutions for
+      industry leaders like **Just Eat Takeaway.com**.  
     box_icon: /images/mvp_icon.png
   - box_title: industrial IoT development
     box_description: Our **Industrial IoT development** solutions focus on smart,
@@ -158,6 +156,6 @@ show_team: true
 ---
 ## comprehensive IoT Services
 
-The **Internet of Things (IoT) solutions** support software product scaling across various industries, including healthcare, fleet management, **industrial IoT**, retail, and fintech. Partnering with an experienced **IoT solutions company** or a **IoT agency** ensures **secure device integration**, real-time **IoT monitoring**, and scalable infrastructure.
+Our **IoT solutions** scale software across industries like healthcare, fleet management, **industrial IoT**, retail, and fintech. Partnering with a **IoT solutions company** or **IoT agency** ensures **secure device integration** and real-time **IoT monitoring**.  
 
-At Bright Inventions, we specialize in **IoT services**. Below are some of the **IoT solutions services** we provide:
+At Bright Inventions, we specialize in **IoT services**:  
