@@ -22,7 +22,7 @@ One of the best ways to help is by donating money through trusted charities and
 
 Currently, humanitarian assistance on the territory of Poland is provided under the Polish government coordination mechanism: [www.pomagamukrainie.gov.pl](https://www.pomagamukrainie.gov.pl/). 
 
-![Pomagam Ukrainie](../../static/images/pomagamy_ukrainie.png "")
+![Pomagam Ukrainie](../../static/images/pomagamy_ukrainie.png)
 
 One of the main priorities for the provision of assistance is its effectiveness in reaching the largest possible group of people in need and meeting their specific needs as efficiently as possible, taking into account the dynamics of the conflict itself and the situation of the people affected.
 
@@ -40,32 +40,13 @@ One of the main priorities for the provision of assistance is its effectiveness 
 
 You can check [what to bring and what not to bring to the collection point](https://www.pomagamukrainie.gov.pl/#section5).  
 
-![Pomagam Ukrainie list of products and resources](../../static/images/material_support.png "")
-
-**List of provincial collection points**
-
-* dolnośląskie [https://duw.pl/pl/wolnytekst/18151,Pomagamy-Ukrainie.html](https://duw.pl/pl/wolnytekst/18151,Pomagamy-Ukrainie.html)
-* kujawsko-pomorskie [https://www.gov.pl/web/uw-kujawsko-pomorski/lista-adresow-punktow-zbiorek-darow-dla-uchodzcow-z-ukrainy](https://www.gov.pl/web/uw-kujawsko-pomorski/lista-adresow-punktow-zbiorek-darow-dla-uchodzcow-z-ukrainy)
-* lubelskie [https://www.lublin.uw.gov.pl/pomoc_humanitarna_na_Ukrainie](https://www.lublin.uw.gov.pl/pomoc_humanitarna_na_Ukrainie)
-* lubuskie [https://www.gov.pl/web/uw-lubuski/pomagamukrainie](https://www.gov.pl/web/uw-lubuski/pomagamukrainie)
-* łódzkie [https://www.gov.pl/web/uw-lodzki/pomagamukrainie2](https://www.gov.pl/web/uw-lodzki/pomagamukrainie2)
-* małopolskie [https://malopolska.uw.gov.pl/pomagamukrainie](https://malopolska.uw.gov.pl/pomagamukrainie)
-* mazowieckie [https://www.gov.pl/web/uw-mazowiecki/pomagamyukrainie/](https://www.gov.pl/web/uw-mazowiecki/pomagamyukrainie/)
-* opolskie [https://www.gov.pl/web/uw-opolski/pomagamukrainie](https://www.gov.pl/web/uw-opolski/pomagamukrainie)
-* podkarpackie [https://rzeszow.uw.gov.pl/pomagamukrainie/punkty-zbiorek-darow/](https://rzeszow.uw.gov.pl/pomagamukrainie/punkty-zbiorek-darow/)
-* podlaskie [https://www.gov.pl/web/uw-podlaski/pomagamukrainie](https://www.gov.pl/web/uw-podlaski/pomagamukrainie)
-* pomorskie [https://www.gdansk.uw.gov.pl/pomagamy-ukrainie](https://www.gdansk.uw.gov.pl/pomagamy-ukrainie)
-* śląskie [https://www.katowice.uw.gov.pl/pomagamukrainie](https://www.katowice.uw.gov.pl/pomagamukrainie)
-* świętokrzyskie [https://www.kielce.uw.gov.pl/pl/wojewodztwo/pomagam-ukrainie/21162,Wykaz-zbiorek-pomocy-humanitarnej-dla-Ukrainy-w-powiatach-wojewodztwa-swietokrzy.html](https://www.kielce.uw.gov.pl/pl/wojewodztwo/pomagam-ukrainie/21162,Wykaz-zbiorek-pomocy-humanitarnej-dla-Ukrainy-w-powiatach-wojewodztwa-swietokrzy.html)
-* warmińsko-mazurskie [https://www.gov.pl/web/uw-warminsko-mazurski/pomagam-ukrainie](https://www.gov.pl/web/uw-warminsko-mazurski/pomagam-ukrainie)
-* wielkopolskie [https://www.poznan.uw.gov.pl/pomagamukrainie](https://www.poznan.uw.gov.pl/pomagamukrainie)
-* zachodniopomorskie [https://www.szczecin.uw.gov.pl/?type=article&action=view&id=15190](https://www.szczecin.uw.gov.pl/?type=article&action=view&id=15190)
+![Pomagam Ukrainie list of products and resources](../../static/images/material_support.png)
 
 ## **[\#TechForUkraine ](https://www.techtotherescue.org/tech/tech-for-ukraine)**
 
 NGOs are at the heart of civil society in Ukraine. While the age of digitization has dawned, charities are still far behind private businesses and state institutions. Weak security systems, outdated software and a lack of user-friendly UI and UX make it difficult for them to operate. 
 
-![humanitarian aid Ukraine](../../static/images/techforukraine.png "")
+![humanitarian aid Ukraine](../../static/images/techforukraine.png)
 
 **We have joined the initiative and so can you. How you can help?**
 
@@ -77,7 +58,7 @@ NGOs are at the heart of civil society in Ukraine. While the age of digitization
 
 On [Pomeranian Voivodeship Office website](https://www.gdansk.uw.gov.pl/pomagamy-ukrainie) you can find all the information about our local Tricity support.  
 
-![Gdańsk Ukraine help](../../static/images/gransk_support.png "")
+![Gdańsk Ukraine help](../../static/images/gransk_support.png)
 
 On Facebook page "[Gdańsk Pomaga Ukrainie](https://www.facebook.com/donate/486031106489144)” there is a special donation you can take part in.
 
@@ -94,7 +75,7 @@ Below you can also find the list of several main international charities support
 7. **The World Health Organization Foundation** is raising funds for [WHO’s Health Emergency Appeal](https://www.ukraine.who.foundation/) for Ukraine. You can donate [here](https://www.ukraine.who.foundation/). 
 8. **Direct Relief**  is working directly with Ukraine’s Ministry of Health and other on-the-ground partners to provide urgently needed medical aid, including emergency response packs intended for first responders, oxygen concentrators, critical care medicines, and much more. [Donate here](https://www.directrelief.org/place/ukraine/). 
 
-![Stand with Ukraine](../../static/images/standwithukraine2.png "")
+![Stand with Ukraine](../../static/images/standwithukraine2.png)
 
 ## **Fight misinformation** 
 
