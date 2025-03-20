@@ -79,20 +79,18 @@ boxes:
     box_icon: /images/icon_pos_lp_new_old_devicesx2.png
   - box_title: IoT security services
     box_description: Security is a priority in our **IoT security services**. We
-      implement encryption, authentication protocols, and threat detection
-      mechanisms to protect your IoT network from cyber threats and
-      vulnerabilities.
+      implement threat detection mechanisms to protect your IoT network from
+      cyber threats and vulnerabilities.
     box_icon: /images/icon_pos_lp_compliance_securityx2.png
   - box_title: IoT analytics services
     box_description: Our **IoT analytics services** transform raw data into
-      actionable insights. We leverage real-time analytics, predictive
-      maintenance, and AI-driven models to help businesses make data-driven
-      decisions.
+      actionable insights. We leverage real-time analytics, and AI-driven models
+      to help make data-driven decisions.
     box_icon: /images/icon_pos_lp_growthx2.png
   - box_title: IoT cloud services
     box_description: With our **IoT cloud services**, businesses can efficiently
       store, process, and manage IoT data. We design scalable cloud
-      architectures that ensure seamless data flow and high availability.
+      architectures that ensure data flow.
     box_icon: /images/icon_pos_lp_cloud_pos.png
   - box_title: IoT integration services
     box_description: >
@@ -101,9 +99,9 @@ boxes:
       industry leaders like **Just Eat Takeaway.com**.  
     box_icon: /images/mvp_icon.png
   - box_title: industrial IoT development
-    box_description: Our **Industrial IoT development** solutions focus on smart,
-      connected applications for manufacturing, logistics, and automation,
-      helping businesses optimize operations and reduce downtime.
+    box_description: Our **Industrial IoT development** solutions focus on
+      applications for manufacturing, logistics, helping optimize operations and
+      reduce downtime.
     box_icon: /images/icon_pos_featuresx2.png
 language: en
 blog_section_tags:
@@ -156,6 +154,4 @@ show_team: true
 ---
 ## comprehensive IoT services
 
-Our **IoT solutions** scale software across industries like healthcare, fleet management, **industrial IoT**, retail, and fintech. Partnering with a **IoT solutions company** or **IoT agency** ensures **secure device integration** and real-time **IoT monitoring**.  
-
-At Bright Inventions, we specialize in **IoT services**:  
+Our **IoT solutions** scale software across industries like healthcare, fleet management, **industrial IoT**, retail, and fintech. Partnering with a **IoT solutions company** or **IoT agency** ensures **secure device integration** and real-time **IoT monitoring**. At Bright Inventions, we specialize in **IoT services**:
