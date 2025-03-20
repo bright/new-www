@@ -95,12 +95,10 @@ boxes:
       architectures that ensure seamless data flow and high availability.
     box_icon: /images/icon_pos_lp_cloud_pos.png
   - box_title: IoT integration services
-    box_description: We specialize in **IoT integration services**, enabling
-      seamless communication between IoT devices, cloud platforms, and
-      enterprise applications to streamline workflows and enhance efficiency.
-      Our team has successfully integrated retail devices into point-of-sale
-      applications for hospitality and retail, scaling solutions for industry
-      leaders like **Just Eat Takeaway.com**.
+    box_description: >
+      We specialize in **IoT integration services**, ensuring communication
+      between IoT devices, cloud platforms, and apps, scaling solutions for
+      industry leaders like **Just Eat Takeaway.com**.  
     box_icon: /images/mvp_icon.png
   - box_title: industrial IoT development
     box_description: Our **Industrial IoT development** solutions focus on smart,
