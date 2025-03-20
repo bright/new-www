@@ -156,6 +156,4 @@ show_team: true
 ---
 ## comprehensive IoT services
 
-Our **IoT solutions** scale software across industries like healthcare, fleet management, **industrial IoT**, retail, and fintech. Partnering with a **IoT solutions company** or **IoT agency** ensures **secure device integration** and real-time **IoT monitoring**.  
-
-At Bright Inventions, we specialize in **IoT services**:  
+Our **IoT solutions** scale software across industries like healthcare, fleet management, **industrial IoT**, retail, and fintech. Partnering with a **IoT solutions company** or **IoT agency** ensures **secure device integration** and real-time **IoT monitoring**. At Bright Inventions, we specialize in **IoT services**:
