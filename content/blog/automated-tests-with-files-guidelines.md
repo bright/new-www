@@ -3,9 +3,10 @@ author: radek-l
 tags:
   - unit tests
   - automation testing
+  - QA
 date: 2025-03-20T13:20:37.387Z
 meaningfullyUpdatedAt: 2025-03-20T13:20:38.002Z
-title: "# File-Based Test Automation: Best Practices and Guidelines"
+title: "File-Based Test Automation: Best Practices and Guidelines"
 layout: post
 image: /images/blog-automated-tests-with-files-guidelines.png
 hidden: true
@@ -14,6 +15,8 @@ published: true
 language: en
 ---
 **Test automation is a crucial aspect of modern software development, ensuring the reliability and stability of applications. For systems that rely heavily on file processing, adopting best practices for file-based test automation is essential. In this article, we will explore guidelines for effectively managing test automation with both static and dynamically generated file inputs.**
+
+<div className="image">![File-Based Test Automation](/images/blog-automated-tests-with-files-guidelines.png "File-Based Test Automation")</div>
 
 ## Balancing Static and Dynamic File Inputs
 
