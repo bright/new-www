@@ -99,9 +99,9 @@ boxes:
       industry leaders like **Just Eat Takeaway.com**.  
     box_icon: /images/mvp_icon.png
   - box_title: industrial IoT development
-    box_description: Our **Industrial IoT development** solutions focus on smart,
-      connected applications for manufacturing, logistics, and automation,
-      helping businesses optimize operations and reduce downtime.
+    box_description: Our **Industrial IoT development** solutions focus on
+      applications for manufacturing, logistics, helping optimize operations and
+      reduce downtime.
     box_icon: /images/icon_pos_featuresx2.png
 language: en
 blog_section_tags:
