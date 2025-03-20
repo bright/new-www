@@ -79,9 +79,8 @@ boxes:
     box_icon: /images/icon_pos_lp_new_old_devicesx2.png
   - box_title: IoT security services
     box_description: Security is a priority in our **IoT security services**. We
-      implement encryption, authentication protocols, and threat detection
-      mechanisms to protect your IoT network from cyber threats and
-      vulnerabilities.
+      implement threat detection mechanisms to protect your IoT network from
+      cyber threats and vulnerabilities.
     box_icon: /images/icon_pos_lp_compliance_securityx2.png
   - box_title: IoT analytics services
     box_description: Our **IoT analytics services** transform raw data into
