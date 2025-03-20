@@ -53,14 +53,11 @@ bar_stack:
   - Bluetooth LE
   - iBeacon
   - iOS
-  - Swift
   - Android
-  - Kotlin
   - TeamCity
   - Fastlane
   - AWS
   - Figma
-  - Miro
 button: hire us
 button2: let's talk about IoT services
 published: true
