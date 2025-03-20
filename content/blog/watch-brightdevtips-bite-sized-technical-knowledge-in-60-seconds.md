@@ -6,7 +6,7 @@ date: 2025-03-11T12:18:57.542Z
 meaningfullyUpdatedAt: 2025-03-11T12:18:57.562Z
 title: "Watch BrightDevTips: Bite-Sized Technical Knowledge in 60 Seconds"
 layout: post
-image: /images/update_podcast_blog_bright_dev_talks.png
+image: /images/shorts-10.png
 hidden: false
 comments: false
 published: true
