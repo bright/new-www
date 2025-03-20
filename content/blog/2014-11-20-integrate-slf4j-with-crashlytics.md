@@ -15,7 +15,7 @@ language: en
 
 ## Crashlytics
 
-Error reporting providers are getting more and more popular. There are plenty of options to choose from: [Raygun](https://raygun.io/)and [Airbrake](https://airbrake.io/) are just few examples. At [Bright Inventions](/) we use the last one and are more and more pleased with it. Setting it up is really easy - if you don't mind installing an IDE plugin it provides. Frankly I would prefer being able to configure a project with a simple command line tool but I understand a motivation behind it which is making the installation as seamless as possible.
+Error reporting providers are getting more and more popular. There are plenty of options to choose from: [Raygun ](https://raygun.io/)and [Airbrake](https://airbrake.io/) are just few examples. At [Bright Inventions](/) we use the last one and are more and more pleased with it. Setting it up is really easy - if you don't mind installing an IDE plugin it provides. Frankly I would prefer being able to configure a project with a simple command line tool but I understand a motivation behind it which is making the installation as seamless as possible.
 
 Crashlytics let's you not only report [uncaught exceptions](http://developer.android.com/reference/java/lang/Thread.html#setDefaultUncaughtExceptionHandler(java.lang.Thread.UncaughtExceptionHandler)) but also handled errors with additional information provided by log entries:
 
@@ -32,7 +32,7 @@ This will print messages to logcat as well as well as well as make them availabl
 
 ## Using [slf4j](https://github.com/bright/slf4android) with Crashlytics
 
-I've already explained why [I don't like this approach to logging](/introducing-slf4android/). Thankfully with [slf4android](https://github.com/bright/slf4android) it's really easy to replace a default logcat appender with a `CrashlyticsLoggerHandler`:
+I've already explained why [I don't like this approach to logging](/blog/introducing-slf4android/). Thankfully with [slf4android](https://github.com/bright/slf4android) it's really easy to replace a default logcat appender with a `CrashlyticsLoggerHandler`:
 
 ```java
 public class CrashlyticsLoggerHandler extends Handler {
