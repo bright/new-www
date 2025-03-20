@@ -6,7 +6,7 @@ tags:
   - HealthTech
   - POS
 date: 2023-03-09T14:30:26.285Z
-meaningfullyUpdatedAt: 2024-04-22T11:27:23.463Z
+meaningfullyUpdatedAt: 2023-03-09T14:30:00.000Z
 title: Offline-First App Guide for Startups and App Owners (Case Studies Included)
 layout: post
 image: /images/offline-mode-app-cover-blog.png
@@ -85,7 +85,7 @@ As an example let’s think of an app that enables storing pictures from the con
 
 Applications enabling communication between forwarders and drivers should give access to crucial features even offline. **Drivers cannot focus on accessing a strong internet connection, so apps have to meet their needs**. Transportation apps with offline mode still can, for example, share a vehicle localization offline.
 
-**Check out an actual case study – the [Transport Management System](projects/transportation-management-system) with an offline-first application that we are building for a freight company.**
+**Check out an actual case study – the [Transport Management System](/projects/transportation-management-system) with an offline-first application that we are building for a freight company.**
 
 <div className="image">![Transport Management System with offline mode](../../static/images/tms_social_preview.png "Transport Management System")</div>
 
