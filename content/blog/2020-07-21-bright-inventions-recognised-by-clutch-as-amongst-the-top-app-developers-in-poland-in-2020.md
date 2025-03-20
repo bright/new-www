@@ -27,7 +27,7 @@ Clutch is the world’s preeminent ratings and reviews platform for providers of
 
 That is why we’re honored to show off our stellar 4.9-star rating average on Clutch and its sister site The Manifest, [a business ranking platform](https://themanifest.com/app-development/companies/eastern-europe#bright-inventions)! We’ve received glowing reviews from clients from around the world, including a perfect 5.0-star review from Adam Pachucki, the head of product at Finebite!
 
-In his review, he praised the [POS development](/blog/pos-software-development-guide/) services we built for his restaurant solutions platform. We built both an iOS and Android version of the app, and have provided ongoing maintenance and updates.
+In his review, he praised the full-cycle development services we built for his restaurant solutions platform. We built both an iOS and Android version of the app, and have provided ongoing maintenance and updates.
 
 "We were pleased with their proactive approach and their genuine desire to see the success of the platform. They were constantly looking for ways to improve, and ensured that we had proper tracking tools and no potential scalability issues.” – Adam Pachucki
 
