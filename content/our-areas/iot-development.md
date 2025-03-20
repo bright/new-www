@@ -154,7 +154,7 @@ description_mdx: We are Bright Inventions – a software development company
 image_our_service: /images/iot_development_1.png
 show_team: true
 ---
-## comprehensive IoT Services
+## comprehensive IoT services
 
 Our **IoT solutions** scale software across industries like healthcare, fleet management, **industrial IoT**, retail, and fintech. Partnering with a **IoT solutions company** or **IoT agency** ensures **secure device integration** and real-time **IoT monitoring**.  
 
