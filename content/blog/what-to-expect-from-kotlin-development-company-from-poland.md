@@ -15,7 +15,7 @@ language: en
 ---
 **Everything you should know about working with Kotlin development software house from Poland.**
 
-![Kotlin development company from Poland](../../static/images/android_development_company.png "")
+![Kotlin development company from Poland](../../static/images/android_development_company.png)
 
 ## What does the Kotlin development company do?
 
@@ -35,7 +35,7 @@ It is a well-known fact for years. In 2016 [Hackerrank](https://blog.hackerrank.
 
 <center>
 
-![Polish software developers HackerRank](../../static/images/hackerrank_polish_developers.png "")
+![Polish software developers HackerRank](../../static/images/hackerrank_polish_developers.png)
 
 </center>
 
@@ -45,7 +45,7 @@ Polish developers speak fluently in English on daily basis. In the [EF English P
 
 ### 3. Poland has one of the biggest numbers of female software developers
 
-It is still not enough. Yet, [compared to the rest of the world](https://blog.hackerrank.com/which-countries-have-the-most-skilled-female-developers/) that is an impressive number. Moreover, [half of the Polish scientists are women](https://www.thefirstnews.com/article/breaking-the-glass-ceiling-when-it-comes-to-science-polish-women-are-on-the-up-10422).
+It is still not enough. Yet, [compared to the rest of the world](https://blog.hackerrank.com/which-countries-have-the-most-skilled-female-developers/) that is an impressive number. Moreover, half of the Polish scientists are women.
 
 ### 4. Workable time difference between Polish Kotlin developers and the rest of the world
 
