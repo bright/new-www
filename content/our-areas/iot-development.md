@@ -84,9 +84,8 @@ boxes:
     box_icon: /images/icon_pos_lp_compliance_securityx2.png
   - box_title: IoT analytics services
     box_description: Our **IoT analytics services** transform raw data into
-      actionable insights. We leverage real-time analytics, predictive
-      maintenance, and AI-driven models to help businesses make data-driven
-      decisions.
+      actionable insights. We leverage real-time analytics, and AI-driven models
+      to help make data-driven decisions.
     box_icon: /images/icon_pos_lp_growthx2.png
   - box_title: IoT cloud services
     box_description: With our **IoT cloud services**, businesses can efficiently
