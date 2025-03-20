@@ -90,7 +90,7 @@ boxes:
   - box_title: IoT cloud services
     box_description: With our **IoT cloud services**, businesses can efficiently
       store, process, and manage IoT data. We design scalable cloud
-      architectures that ensure seamless data flow and high availability.
+      architectures that ensure data flow.
     box_icon: /images/icon_pos_lp_cloud_pos.png
   - box_title: IoT integration services
     box_description: >
