@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2025-03-20T13:20:38.002Z
 title: "File-Based Test Automation: Best Practices and Guidelines"
 layout: post
 image: /images/blog-automated-tests-with-files-guidelines.png
-hidden: true
+hidden: false
 comments: false
 published: true
 language: en
