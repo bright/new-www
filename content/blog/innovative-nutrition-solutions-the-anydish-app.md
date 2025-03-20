@@ -29,7 +29,7 @@ We have an AI that takes any online recipe from websites about healthy lifestyle
 
 <div className="image">![anydish](/images/screenshot-2024-10-11-at-13.27.46.png "nutrition solution")</div>
 
-source: [https://anydish.me/](anydish.me)
+source: [anydish.me](https://www.anydish.me/)
 
 ## **Are your users mostly individuals, but payers are practitioners?**
 
