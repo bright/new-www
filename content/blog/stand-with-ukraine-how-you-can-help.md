@@ -28,7 +28,7 @@ One of the main priorities for the provision of assistance is its effectiveness 
 
 ## **Financial support (main Polish fund-raisers)**
 
-[Polish Humanitarian Action](https://www.pah.org.pl/en/pah-sos-club/)
+[Polish Humanitarian Action](https://www.pah.org.pl/en/)
 
 [Polish Center for International Aid (PCPM)](https://pcpm.org.pl/) 
 
