@@ -130,7 +130,7 @@ GDPR: Yes
 HIPAA: Yes
 
 Pricing starts from 35 USD (free plan available)
-[doxy.me/en/pricing/](< https://doxy.me/en/pricing/>)
+[doxy.me/en/pricing/](https://doxy.me/en/pricing/)
 
 **Worth mentioning:**
 
