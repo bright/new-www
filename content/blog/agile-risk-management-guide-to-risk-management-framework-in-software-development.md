@@ -66,3 +66,33 @@ Best Practices for Managing the Risk Backlog:
 * Assign a Risk Owner to each identified risk.
 * Regularly review and update the Risk Backlog as new hazards emerge.
 * Keep discussions open and transparent—risk management should be a shared responsibility.
+
+## Evaluating and Mitigating Risks with Risk Matrix and ALARP
+
+## **Evaluating and Mitigating Risks with Risk Matrix and ALARP**
+
+Once risks are logged, they must be **analyzed and prioritized**. This is usually done using a **Risk Matrix**, which evaluates risks based on **likelihood and impact**.
+
+Once risks are logged, they must be **analyzed and prioritized**. This is usually done using a **Risk Matrix and the ALARP principle**, which evaluates risks based on **likelihood and impact**.
+
+### **🔹 What is a Risk Matrix?**
+
+A **Risk Matrix** is a visual tool used to **assess and prioritize risks** by mapping them based on their **probability (likelihood of occurrence)** and **impact (severity of consequences)**. It helps teams focus on the most critical risks that require immediate attention while deprioritizing lower-impact ones.
+
+For example:
+
+* **High Probability + High Impact** → Critical risk requiring urgent action.  
+* **Medium Probability + Medium Impact** → Tolerable risk that should be mitigated.  
+* **Low Probability + Low Impact** → Low-priority risk that can be monitored.
+
+By using a Risk Matrix, teams can **quickly assess the severity of different risks** and make informed decisions on mitigation strategies.
+
+### **🔹 The ALARP Meaning**
+
+A practical approach is to follow the **ALARP (As Low As Reasonably Practicable) principle**, which ensures that risks are reduced **without overburdening the team**.
+
+* **Unacceptable risks** (High probability + High impact) should be eliminated or significantly reduced.  
+* **Tolerable risks** (Medium probability + Medium impact) should be mitigated.  
+* **Broadly Accepablr Risk** (Low probability + Low impact) should be monitored but not necessarily acted upon immediately.
+
+By using ALARP, teams **avoid unnecessary over-engineering** while still addressing critical risks.
