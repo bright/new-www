@@ -76,7 +76,7 @@ Priority: High
 
 Strategy: Add sync retry logic and display last update timestamp
 
-Owner: Backend Team
+Owner: DevOps & Backend Team
 
 Product Backlog Task: #SYNC-42 — Sync Error Handling
 
