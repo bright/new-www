@@ -29,4 +29,14 @@ By embedding risk management into Agile workflows, teams can proactively address
 
 Risk management starts with **identifying potential hazards**. In Agile projects, this can be done in a **Risk Identification Meeting**, ideally **after the first version of the backlog** has been created. This ensures that teams have a clear idea of the product's functionality and domain **before major architectural decisions are made**.
 
-Risk management starts with identifying potential hazards. In Agile projects, this can be done in a Risk Identification Meeting, ideally after the first version of the backlog has been created. This ensures that teams have a clear idea of the product's functionality and domain before major architectural decisions are made.
+### Hazard Stories: Capturing Risks Like User Stories
+
+One of the most effective Agile risk management techniques is **Hazard Stories**. These are structured similarly to User Stories but focus on identifying risks.
+
+#### Format of a Hazard Story:
+
+As a result of *definite cause*, *uncertain event* may occur, which would lead to *effect on objectives*.
+
+For example:
+
+<blockquote><h2></h2><div>As a result of a server outage, prescription data may not sync, which would lead to patients missing critical medication reminders.</div><footer></footer></blockquote>
