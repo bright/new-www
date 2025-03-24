@@ -89,7 +89,7 @@ By using a Risk Matrix, teams can **quickly assess the severity of different ris
 
 ### The ALARP Meaning
 
-A practical approach is to follow the **ALARP (As Low As Reasonably Practicable) principle**, which ensures that risks are reduced **without overburdening the team**.
+A practical approach is to follow the **[ALARP](https://risktec.tuv.com/knowledge-bank/debunking-the-alarp-principle-four-myths-and-realities/) (As Low As Reasonably Practicable) principle**, which ensures that risks are reduced **without overburdening the team**.
 
 * **Unacceptable risks** (High probability + High impact) should be eliminated or significantly reduced.  
 * **Tolerable risks** (Medium probability + Medium impact) should be mitigated.  
