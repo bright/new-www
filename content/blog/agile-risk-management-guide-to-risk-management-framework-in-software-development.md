@@ -95,6 +95,6 @@ A practical approach is to follow the **[ALARP](https://risktec.tuv.com/knowledg
 
 * **Unacceptable risks** (High probability + High impact) should be eliminated or significantly reduced.  
 * **Tolerable risks** (Medium probability + Medium impact) should be mitigated.  
-* **Broadly Accepable Risk** (Low probability + Low impact) should be monitored but not necessarily acted upon immediately.
+* **Broadly Acceptable Risk** (Low probability + Low impact) should be monitored but not necessarily acted upon immediately.
 
 By using ALARP, teams **avoid unnecessary over-engineering** while still addressing critical risks.
