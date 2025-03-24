@@ -53,16 +53,50 @@ Once risks are identified, they need to be **tracked and managed**. This is wher
 
 Example Risk Backlog Table for an eHealth App (Drug Dispensation Use Case)
 
-### Example Risk Backlog Table for an eHealth App (Drug Dispensation Use Case)
+A Risk Backlog typically includes sections as:
+* Hazard Story
+* Risk Probability
+* Priority
+* Strategy
+* Owner
+* Product Backlog Task
+* State
 
-| Id  | Hazard Story                                                                                                           | Risk Probability | Priority | Strategy                                   | Owner             | Product Backlog Task               | State       |
-| --- | ---------------------------------------------------------------------------------------------------------------------- | ---------------- | -------- | ------------------------------------------ | ----------------- | ---------------------------------- | ----------- |
-| 1   | **Unauthorized access to patient data**. Private info may be exposed, leading to **GDPR violation and loss of trust**. | Low              | High     | End-to-end encryption and 2FA              | Security Engineer | `#SEC-78` — Implement 2FA          | To Do       |
-| 2   | **Sync failure with backend**. Outdated plans may display, causing **incorrect dosages**.                              | High             | High     | Retry sync logic and show last update time | Backend Team      | `#SYNC-42` — Sync Error Handling   | In Progress |
-| 3   | **Unclear UI design**. Patients may misread schedules, resulting in **wrong drug administration**.                     | Medium           | Medium   | Redesign UI and run usability tests        | UX Designer       | `#UX-21` — Schedule Redesign       | In Review   |
-| 4   | **Server downtime**. Users may miss reminders, causing **treatment interruptions**.                                    | Medium           | Medium   | Add fallback local notifications           | DevOps            | `#INFRA-33` — Local Fallback Logic | To Do       |
+### Example 1
 
-Best Practices for Managing the Risk Backlog:
+Hazard Story:
+As a result of failure to sync with backend, outdated medication plans may be shown, which would lead to patients taking incorrect dosages.
+
+Risk Probability: High
+
+Priority: High
+
+Strategy: Add sync retry logic and display last update timestamp
+
+Owner: Backend Team
+
+Product Backlog Task: #SYNC-42 — Sync Error Handling
+
+State: In Progress
+
+### Example 2
+
+Hazard Story:
+As a result of unclear UI design, patients may misinterpret medication schedules, which would lead to incorrect administration of drugs.
+
+Risk Probability: Medium
+
+Priority: Medium
+
+Strategy: Redesign UI for clarity and run usability tests
+
+Owner: UX Designer
+
+Product Backlog Task: #UX-21 — Schedule Redesign
+
+State: In Review
+
+### Best Practices for Managing the Risk Backlog:
 
 * Store the backlog in the same tool as your issue tracker (e.g., JIRA) for visibility.
 * Assign a Risk Owner to each identified risk.
