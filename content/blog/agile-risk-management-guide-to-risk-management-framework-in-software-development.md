@@ -42,3 +42,9 @@ For example:
 <blockquote><h2></h2><div>As a result of a server outage, prescription data may not sync, which would lead to patients missing critical medication reminders.</div><footer></footer></blockquote>
 
 By writing hazard stories, teams can **clearly articulate risks**, making them easy to discuss, prioritize, and mitigate.
+
+## Building a Risk Backlog: Structure and Ownership
+
+Once risks are identified, they need to be **tracked and managed**. This is where a **Risk Backlog** comes into play. Think of it as a lightweight **Risk Register**, tailored for Agile teams.
+
+### What Goes Into a Risk Backlog?
