@@ -2,8 +2,8 @@
 author: kasia
 tags:
   - HealthTech
-date: 2025-03-21T10:43:38.568Z
-meaningfullyUpdatedAt: 2025-03-21T10:43:38.598Z
+date: 2025-03-24T08:44:19.056Z
+meaningfullyUpdatedAt: 2025-03-24T08:44:19.762Z
 slug: agile-risk-management
 title: "Agile Risk Management: Risk Management Framework In Software Development"
 layout: post
