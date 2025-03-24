@@ -48,3 +48,14 @@ By writing hazard stories, teams can **clearly articulate risks**, making them e
 Once risks are identified, they need to be **tracked and managed**. This is where a **Risk Backlog** comes into play. Think of it as a lightweight **Risk Register**, tailored for Agile teams.
 
 ### What Goes Into a Risk Backlog?
+
+Example Risk Backlog Table for an eHealth App (Drug Dispensation Use Case)
+
+| Id | Hazard Story | Risk Probability | Priority | Strategy | Owner | Product Backlog Task | State |
+|----|--------------|------------------|----------|----------|--------|------------------------|--------|
+| 1 | **As a result of unauthorized access to patient data**, private health info may be exposed, which would lead to **violation of GDPR and loss of trust** | Low | High | Apply end-to-end encryption and 2FA | Security Engineer | `#SEC-78` Implement 2FA | To Do |
+| 2 | **As a result of failure to sync with backend**, outdated medication plans may be shown, which would lead to **patients taking incorrect dosages** | High | High | Add sync retry logic and display last update timestamp | Backend Team | `#SYNC-42` Sync Error Handling | In Progress |
+| 3 | **As a result of unclear UI design**, patients may misinterpret medication schedules, which would lead to **incorrect administration of drugs** | Medium | Medium | Redesign UI for clarity and run usability tests | UX Designer | `#UX-21` Schedule Redesign | In Review |
+| 4 | **As a result of server downtime**, users may not receive critical drug reminders, which would lead to **treatment interruptions** | Medium | Medium | Set up fallback local notifications | DevOps | `#INFRA-33` Add Local Fallback Logic | To Do |
+
+
