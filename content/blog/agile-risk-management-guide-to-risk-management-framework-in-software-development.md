@@ -54,6 +54,7 @@ Once risks are identified, they need to be **tracked and managed**. This is wher
 Example Risk Backlog Table for an eHealth App (Drug Dispensation Use Case)
 
 A Risk Backlog typically includes sections as:
+
 * Hazard Story
 * Risk Probability
 * Priority
@@ -61,6 +62,8 @@ A Risk Backlog typically includes sections as:
 * Owner
 * Product Backlog Task
 * State
+
+<div className="image">![](/images/risk_hazard_backlog_example.png "")</div>
 
 ### Example 1
 
@@ -90,7 +93,7 @@ Priority: Medium
 
 Strategy: Redesign UI for clarity and run usability tests
 
-Owner: UX Designer
+Owner: UX Team
 
 Product Backlog Task: #UX-21 — Schedule Redesign
 
