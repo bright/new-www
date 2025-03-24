@@ -77,7 +77,7 @@ Once risks are logged, they must be **analyzed and prioritized**. This is usuall
 
 ### What is a Risk Matrix?
 
-A **Risk Matrix** is a visual tool used to **assess and prioritize risks** by mapping them based on their **probability (likelihood of occurrence)** and **impact (severity of consequences)**. It helps teams focus on the most critical risks that require immediate attention while deprioritizing lower-impact ones.
+A **[Risk Matrix](https://en.wikipedia.org/wiki/Risk_matrix#:~:text=A%20risk%20matrix%20is%20a,the%20category%20of%20consequence%20severity.)** is a visual tool used to **assess and prioritize risks** by mapping them based on their **probability (likelihood of occurrence)** and **impact (severity of consequences)**. It helps teams focus on the most critical risks that require immediate attention while deprioritizing lower-impact ones.
 
 For example:
 
