@@ -17,6 +17,8 @@ language: en
 
 In this guide, I’ll walk you through an Agile approach to risk management, using Hazard Stories and a structured Risk Backlog, ensuring that risks are identified, tracked, and mitigated effectively.
 
+<EbookDynamic sectionTitle='Learn more about Agile risk management' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'Download my ebook where I delve into risk management in software development.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='risk management ebook' />
+
 ## Establishing the Context: Why Agile Risk Management Matters
 
 Agile frameworks like Scrum and Kanban focus on **iterative development**, which means new features are added continuously. However, this also means that **new risks emerge throughout development**.
@@ -58,16 +60,12 @@ Example Risk Backlog Table for an eHealth App (Drug Dispensation Use Case)
 | 3   | **As a result of unclear UI design**, patients may misinterpret medication schedules, which would lead to **incorrect administration of drugs**         | Medium           | Medium   | Redesign UI for clarity and run usability tests        | UX Designer       | `#UX-21` Schedule Redesign           | In Review   |
 | 4   | **As a result of server downtime**, users may not receive critical drug reminders, which would lead to **treatment interruptions**                      | Medium           | Medium   | Set up fallback local notifications                    | DevOps            | `#INFRA-33` Add Local Fallback Logic | To Do       |
 
-
-
 Best Practices for Managing the Risk Backlog:
 
 * Store the backlog in the same tool as your issue tracker (e.g., JIRA) for visibility.
 * Assign a Risk Owner to each identified risk.
 * Regularly review and update the Risk Backlog as new hazards emerge.
 * Keep discussions open and transparent—risk management should be a shared responsibility.
-
-## Evaluating and Mitigating Risks with Risk Matrix and ALARP
 
 ## **Evaluating and Mitigating Risks with Risk Matrix and ALARP**
 
@@ -96,3 +94,5 @@ A practical approach is to follow the **ALARP (As Low As Reasonably Practicable)
 * **Broadly Accepablr Risk** (Low probability + Low impact) should be monitored but not necessarily acted upon immediately.
 
 By using ALARP, teams **avoid unnecessary over-engineering** while still addressing critical risks.
+
+<EbookDynamic sectionTitle='Learn more about Agile risk management' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'Download my ebook where I delve into risk management in software development.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='risk management ebook' />
