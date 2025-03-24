@@ -40,3 +40,5 @@ As a result of *definite cause*, *uncertain event* may occur, which would lead t
 For example:
 
 <blockquote><h2></h2><div>As a result of a server outage, prescription data may not sync, which would lead to patients missing critical medication reminders.</div><footer></footer></blockquote>
+
+By writing hazard stories, teams can **clearly articulate risks**, making them easy to discuss, prioritize, and mitigate.
