@@ -56,7 +56,7 @@ What we can promise is that at Bright Inventions you will be an important part o
 
 * at least **4 years of commercial programming** experience in mobile development
 * very good practical knowledge of Flutter 
-* working experience with libraries used in Flutter development (e.g. flutter_bloc, bloc_concurrency, dartz, rxdart, dio, retrofit, injectable) 
+* working experience with libraries used in Flutter development (e.g. flutter_bloc, bloc_concurrency, dartz, RxDart, Dio, Retrofit, injectable) 
 * familiarity with app publishing on App Store/ Google Play
 * empathy, open mind and positive approach to new challenges
 * advanced level of English and Polish (written and spoken)
