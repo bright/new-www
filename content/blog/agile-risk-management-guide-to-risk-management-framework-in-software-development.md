@@ -63,7 +63,7 @@ A Risk Backlog typically includes sections as:
 * Product Backlog Task
 * State
 
-<div className="image">![](/images/risk_backlog_template_example.png "")</div>
+<div className="image">![](/images/risk_backlog_orange.png "")</div>
 
 ### Example 1
 
