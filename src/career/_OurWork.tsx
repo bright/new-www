@@ -21,6 +21,16 @@ const OurWork: React.FC = () => {
   const quotes = [
     {
       avatar_hover: (
+        <StaticImage src='../../static/images/brightdev_passion_michalb.png' alt='Michał' className='quote-img' />
+      ),
+      short_name: 'Michał',
+      bio: 'Fullstack Developer',
+      slug: 'michal-be',
+      quote:
+        `Compared to my previous workplaces, where there was a wider variety of team members with different levels of experience and knowledge, here the average level of experience is really high.`,
+    },
+    {
+      avatar_hover: (
         <StaticImage src='../../static/images/dominikd_passion_team.png' alt='Dominik' className='quote-img' />
       ),
       short_name: 'Dominik',
