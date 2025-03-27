@@ -11,7 +11,7 @@ comments: false
 published: false
 language: en
 ---
-When doing automated testing on system that process structured data, such as CSV files, developers must decide whether to use static files stored in the repository or generate them dynamically during test execution. Each approach has its advantages and disadvantages. Let's explore both methods in detail.
+[In the previous article](https://brightinventions.pl/blog/automated-tests-with-files-guidelines/) we've covered basic guidelines of working with files in test automation. Today let's go deeper. At some point developers must decide whether to use static files stored in the repository or generate them dynamically during test execution. Each approach has its advantages and disadvantages. Let's explore both methods in detail.
 
 ## Static Files Stored in Repository
 
@@ -69,7 +69,7 @@ const rows = [
 const missingDataFile = createCSV('missing-data.csv', header, rows);
 ```
 
-***HeaderType** is also used in production code which ensures compilation time safety of the files*
+**\*HeaderType** is also used in production code which ensures compilation time safety of the files*
 
 ### Advantages of Dynamically Generated Files
 
