@@ -23,7 +23,7 @@ Static files are pre-created and stored in the repository, ie:
 
 ### Advantages of Static Files
 
-1. **100% Compliant with Production Usage** – Ensures files match real-world scenarios exactly.
+1. **100% Compliant with Production Usage** – Users upload files through Web interface and you use the same files in your code - full match.
 2. **Proper Domain Entity Representation** – Files are easily understandable by both technical and business stakeholders.
 3. **Serves as Documentation** – Provides clear examples of supported file formats.
 4. **Usable in Manual Testing and Demos** – Testers and demo users can easily use these files.
