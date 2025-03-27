@@ -12,7 +12,7 @@ comments: false
 published: false
 language: en
 ---
-In the previous article we've covered [basic guidelines of working with files in test automation](/blog/automated-tests-with-files-guidelines/). Today let's go deeper. At some point developers must decide whether to use static files stored in the repository or generate them dynamically during test execution. Each approach has its advantages and disadvantages. Let's explore both methods in detail.
+**In the previous article we've covered [basic guidelines of working with files in test automation](/blog/automated-tests-with-files-guidelines/). Today let's go deeper. At some point developers must decide whether to use static files stored in the repository or generate them dynamically during test execution. Each approach has its advantages and disadvantages. Let's explore both methods in detail.**
 
 ## Static Files Stored in Repository
 
