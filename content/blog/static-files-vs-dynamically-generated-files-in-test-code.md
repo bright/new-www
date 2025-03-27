@@ -9,7 +9,7 @@ layout: post
 image: /images/files_test_code.png
 hidden: false
 comments: false
-published: false
+published: true
 language: en
 ---
 **In the previous article we've covered [basic guidelines of working with files in test automation](/blog/automated-tests-with-files-guidelines/). Today let's go deeper. At some point developers must decide whether to use static files stored in the repository or generate them dynamically during test execution. Each approach has its advantages and disadvantages. Let's explore both methods in detail.**
