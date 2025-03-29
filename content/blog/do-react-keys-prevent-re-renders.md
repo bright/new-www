@@ -46,10 +46,35 @@ What happens to the existing *n* elements in the collection after adding a new i
 Keys helps us identifies specific elements. They indeed plays non-directly role in performance optimization but not by avoiding re-renders. Let’s try it on a simple example ([also available on the playground](https://reactplayground.vercel.app/#N4IgLgziBcBmCGAbCBTANCAbrK1QEsA7AExQA8A6AK1xHwFsAHAewCcwACAQUcY9lbN6HAOQUA9D0bUIZEQB1CDFuw4AlFPADGnAUNGtNOhUqZtOwDlsPwwKNc2acAvv0HCRNnQFpiQ8VqI+CiEYCaKWsyEEJyRofBEKKwcALwcfloArvQhYBQA5ihgAKKIKDmhAEIAngCSxAAUno5hAJQRUTEcgk6pVjZ2Dk4NcWAJhEnthD15hiRJDYoc6kZ51pp2peW5i4TLyxraeQDKYKz4OgCyzKRoS-uEmYiId3v7hzoU67YoWxVgDSkU2WU1aIAwUhkZBgdDMqg+YDQHEsmVQpx+HFcemE8hAXjAuIA3IoOtFOFI+g1WqkAHzI+6GMCZVh7AA8ABl8F1xDTiYRnHzSV1OV00lTafS3nEugBtfB2egQJGoMC1BUQAC6fVRKHRdgaMvuy0s+GI0A4l1sAAsKKx4CQhOLnK99siOKbzZawDa7Q76E6XRwNa1BVLOpx4MRiGrypTqSk6cAjVZwxwJgB3GPCNIms0W622+1+f3UgXJlVZiANEbMuaq9XxukyigtrKsOuVpEZrPBvnLMuEBlFZl7Xau1nEfCYGnJ5asgBGmTAYCiHCiAGEgloANYpYCR6MK5w0rhR90K1niRfLqIzt6u4Dy8oQCj0eCMatP+iNyWu12MkcOA5Ll61jbcUGqPcvwoU1XC-KCjw4Hk+z-ZxWmcZNL0nad7hDRQByFTgRVA7MOAaE0FUxH8kzDaJmDKChEGYfJFjoSi5lIVhcSRaDTTwwc3gAlkgMYGlHwVGDiGcS9RL5AiJjIFROFIBAnnJXg+RAZxnCAA))
 
 ```
+import React, { useState } from "react";
 
+const List = () => {
+  const [items, setItems] = useState([
+    { id: Math.random() },
+    { id: Math.random() },
+  ]);
+
+  const addItem = () => {
+    const newItem = { id: Math.random() };
+    setItems((currentItems) => […currentItems, newItem]);
+   };
+  
+  return (
+    <div>
+      <button onClick={addItem}>Add item</button>
+      {items.map((item) => <ListItem key={item.id} item={item} />)}
+    </div>
+  );
+};
+
+const ListItem = ({ item }) => {
+  console.log("item render", item.id);
+
+  return <p>{item.id}</p>;
+};
 ```
 
-Our setup contains 2 components — List which handles state changes and Item, which is representation of a single element from the collection. On initial render we will see in console something similar to:
+Our setup contains 2 components  -  List which handles state changes and Item, which is representation of a single element from the collection. On initial render we will see in console something similar to:
 
 ```
 
