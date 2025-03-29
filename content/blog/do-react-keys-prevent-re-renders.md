@@ -114,7 +114,7 @@ Now, let’s add a new item. As you might notice, there's a slight blink that hi
 
 ............screen here
 
-In the console, you'll see logs showing the re-rendering of all items (each item’s `id` is printed). However, when it comes to actual DOM mutations, only **one mutation** is detected — the insertion of the newly added item. This distinction between React re-renders and real DOM changes is exactly what this example demonstrates.
+In the console, you'll see logs showing the re-rendering of all items (each item’s id is printed). However, when it comes to actual DOM mutations, only **one mutation** is detected — the insertion of the newly added item. This distinction between React re-renders and real DOM changes is exactly what this example demonstrates.
 
 Is it possible to modify this default behavior and make only the newly added items re-render? The short answer is yes — there are techniques to achieve that. However, let's save those for another time.
 
