@@ -109,7 +109,7 @@ So, how does React handle all these changes? As mentioned earlier, every state c
 
 However, there’s a grain of truth in the idea: **keys help React efficiently manage updates to the real DOM**. **By identifying which items have changed, keys ensure only the new elements are added or updated in the DOM, leaving unchanged elements intact**. Let’s try it, this time focusing on DOM updates, not components re-renders. Open dev tools of your browser and find the structure which represents List component. The initial markup looks like this:
 
-![](https://cdn-images-1.medium.com/max/1600/1*goRlm_M7t93brExNvwXX7Q.png)
+............
 
 Now, let’s add a new item:
 
@@ -117,7 +117,7 @@ As you can see — there will be a blink which shows you what changes are ap
 
 ## **Summary**
 
-React keys are a powerful tool for improving app performance, particularly in dynamic lists, by helping React minimize unnecessary DOM operations and optimize the reconciliation process. However, while keys are important, it’s crucial to **understand their actual role** in the re-rendering process. They do **not prevent re-renders**; instead, they ensure that React can efficiently update and track changes to list items.
+React keys play a crucial role when working with dynamic lists by helping React accurately identify which items have changed, been added, or removed. This allows React to update the UI correctly during the **reconciliation** process. However, it's important to understand their true purpose: **keys do not prevent re-renders**. Instead, they help React maintain consistency and efficiently match elements between renders.
 
 - - -
 
