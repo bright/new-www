@@ -19,7 +19,7 @@ Every React component undergoes a series of lifecycle steps. To simplify, these 
 
 ### **Trigger step**
 
-The trigger phase is the starting point for any re-render in React. It occurs whenever an update is necessary, such as when a **component’s state changes**, a **parent component re-renders**, or **context updates**. These actions signal React to check if any part of the component tree needs to be updated, prompting the process to move into the render step.
+The trigger phase is the starting point for any re-render in React. It occurs whenever an update is necessary, such as when a **component’s state changes**, a **parent component re-renders**, or a **subscribed context value updates**. These actions signal React to check if any part of the component tree needs to be updated, prompting the process to move into the render step.
 
 ### **Render step**
 
@@ -75,9 +75,11 @@ As you can see — there will be a blink which shows you what changes are ap
 
 ## **Summary**
 
-React keys are a **powerful tool** for improving app performance, particularly in dynamic lists, by helping React minimize unnecessary DOM operations and optimize the reconciliation process. However, while keys are important, it’s crucial to **understand their actual role** in the re-rendering process. They do **not prevent re-renders**; instead, they ensure that React can efficiently update and track changes to list items.
+React keys are a powerful tool for improving app performance, particularly in dynamic lists, by helping React minimize unnecessary DOM operations and optimize the reconciliation process. However, while keys are important, it’s crucial to **understand their actual role** in the re-rendering process. They do **not prevent re-renders**; instead, they ensure that React can efficiently update and track changes to list items.
 
-Take a look at our earlier blog post debunking frontend myths:
+- - -
+
+##### Take a look at our earlier blog post debunking frontend myths:
 
 1. [To ‘b’ or Not to ‘b’: The Semantic Status of HTML ‘b’ Tag](/blog/semantic-status-of-html-b-tag/)
 2. [Understanding the Hoisting Behavior of let and const](/blog/let-const-hoisting/)
