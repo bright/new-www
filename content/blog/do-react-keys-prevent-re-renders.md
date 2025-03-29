@@ -92,11 +92,11 @@ item render 0.9720048278427091
 That seems pretty straightforward, right? Now, let's add a new item by clicking the **Add Item** button. According to the common belief, we should see just one additional log in the console. To make it clearer, let's first clear the console. Ready? Let’s give it a try:
 
 ```
-// 1st render
+// 1st (initial) render
 item render 0.9271951880982141
 item render 0.9720048278427091
 
-// 2nd render
+// 2nd render (re-render)
 item render 0.9271951880982141
 item render 0.9720048278427091
 item render 0.738685209572542
