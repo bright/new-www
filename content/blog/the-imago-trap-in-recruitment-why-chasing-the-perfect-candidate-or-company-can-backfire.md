@@ -9,6 +9,7 @@ meaningfullyUpdatedAt: 2025-03-30T09:08:03.893Z
 title: The Imago Trap in Recruitment - Why Chasing the Perfect Candidate or
   Company Can Backfire
 layout: post
+image: /images/screenshot-2025-03-30-at-12.09.04.png
 hidden: false
 comments: false
 published: true
