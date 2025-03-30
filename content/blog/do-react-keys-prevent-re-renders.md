@@ -108,15 +108,11 @@ So, how does React handle all these changes? As mentioned earlier, every state c
 
 However, there’s a grain of truth in the idea: **keys help React efficiently manage updates to the real DOM**. **By identifying which items have changed, keys ensure only the new elements are added or updated in the DOM, leaving unchanged elements intact**. Let’s try it, this time focusing on DOM updates, not components re-renders. Open dev tools of your browser and find the structure which represents List component. The initial markup looks like this:
 
-<center>
 <div className="image">![](/images/zrzut-ekranu-2025-03-30-o-18.46.17.png "")</div>
-</center>
 
 Now, let’s add a new item. As you might notice, there's a slight blink that highlights the changes applied to the DOM — but only the newly added item gets highlighted. I've prepared a [playground](https://reactplayground.vercel.app/#N4IgLgziBcBmCGAbCBTANCAbrK1QEsA7AExQA8A6AK1xHwFsAHAewCcwACAQUcY9lbN6HAOQUA9D0bUIZEQB1CDFuw4AlFPADGnAUNGtNOhUqZtOwDlsPwwKNc2acAvv0HCRNnQFpiQ8VqI+CiEYCaKWsyEEJyRofBEKKwcALwcfloArvQhYBQA5ihgAKKIKDmhAEIAngCSxAAUno5hAJQRUTEcgk6pVjZ2Dk4NcWAJhEnthD15hiRJDYoc6kZ51pp2peW5i4TLyxraeQDKYKz4OgCyzKRoS-uEmYiId3v7hzoU67YoWxVgDSkU2WU1aIAwUhkZBgdDMqg+YDQHEsmVQpx+SNRv1gsBQOkxqA0sA4rj0wnkIC8YApAG5FB1opwpH0Gq1UgA+ZH3QxgTKsPYAHgAMvguuJ2XTCM5JQyuiKumlWRyuW84l0ANr4Oz0CBI1BgWraiAAXT6WPRdga6vuy0s+GI0A4l1sAAsKKx4CQhErnK99siOPbHc6wG6PV76D6-Rxja0ZarOpwgjEiWbCShYA1Hs84-SE4yOPBiMRDeUWWyUpzgDarImOBMAO6l4RpO0Op2u92evyRtnSmv65sQBojPlzA1Giuc9UUWdZVjjodIxvN2OS5b9wj3LHFHF4gFKysq-1qzjMABGqFYmCSfUbTsyYzA+CiAHlL0kb6wR-RH7YX9EU7Hv6HC-k+AEQBQsBsMU2guj+f7PlEQHVm8IG1tEzBlBQiDMPkiwgAAIq+lwPuBUTpEU+4oA6FJImB-7IeuIHOLmaEkmxNb4MSDTJmARJfGOuRsqh6EXleX4UOJn4oLxor8RmgkLrkSKiehVguvgiDEPKYCOmcmToDWG5sf6zh5v6PJ8nsh5VsZHDSdeSQUMQopxBMOissxG7Mb6HDqmuFndEU1kcLs-oCq5mDsvZArno+YAUVEADCQRaAA1ikwBFiW2rOOyXDFoG2oCuI8VgIlhAxexywCk8wWwFlfFEvl9m2lq5SQfQ8CMCOHX0EB4XqbVunNhw6UoNUWX9RQ9quP1015Rw4ptRwrStOZNUcKVTzVRF4hRXta2SpusqcKN2osnal2scqalqlhKA4XhBH9cF8ysHRxXlLNxCcW8Vn8ttQTssAM1zaVIMnfG5AqJwpAIE8TK8DSIDOM4QA) with an additional **[MutationObserver](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)** to help visualize this behavior more clearly.
 
-<center>
 <div className="image">![](/images/zrzut-ekranu-2025-03-30-o-18.47.15.png "")</div>
-</center>
 
 In the console, you'll see logs showing the re-rendering of all items (each item’s id is printed). However, when it comes to actual DOM mutations, only **one mutation** is detected — the insertion of the newly added item. This distinction between React re-renders and real DOM changes is exactly what this example demonstrates.
 
