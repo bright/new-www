@@ -4,7 +4,7 @@ tags:
   - frontend
 date: 2025-03-29T20:05:57.271Z
 meaningfullyUpdatedAt: 2025-03-29T20:05:57.287Z
-title: Do React Keys Prevent Re-Renders?
+title: The Truth About Keys and Re-Renders
 layout: post
 hidden: false
 comments: false
