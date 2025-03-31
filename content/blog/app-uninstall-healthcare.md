@@ -88,7 +88,7 @@ Patients don't want to be your guinea pigs. It’s your responsibility to ensure
 
 Performance monitoring in healthcare offers numerous opportunities to identify potential issues in your solution before they frustrate your users:
 
-<div className="image">![mhealth app performance monitoring metrics](/images/app_performance_monitoring_metrics_update_blog.png "mhealth app performance monitoring metrics")</div>
+<div className="image">![health app performance monitoring metrics](/images/app_performance_monitoring_metrics_update_blog.png "health app performance monitoring metrics")</div>
 
 ## 6. Patient engagement and gamification for better motivation
 
