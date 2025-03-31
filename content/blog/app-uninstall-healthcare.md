@@ -16,7 +16,7 @@ language: en
 
 <div className="image">![healthare app uninstallation](/images/mhealth_app_uninstallation.png "healthare app uninstallation")</div>
 
-App downloads are definitely one of the key success metrics to track when developing a mobile health (mHealth) application. However, app downloads don’t provide the full picture. They should be complemented with the uninstallation rate.
+App downloads are definitely one of the key success metrics to track when [developing a mobile health  application](/our-areas/healthcare-software-development/) (mHealth). However, app downloads don’t provide the full picture. They should be complemented with the uninstallation rate.
 
 A [survey](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8872344/) from 2022 shows that around half of the users of a healthcare mobile app will uninstall it within the next 30 days.
 
