@@ -108,7 +108,7 @@ item render 0.738685209572542
 
 That’s odd — we see **three** new logs (five in total if we count the initial two). But surprisingly, this is actually the expected behavior.
 
-So, how does React handle all these changes? As mentioned earlier, every state change triggers a re-render of the component that owns the state, along with all of its child components — in this case, both the **List** and all its **Item** components. Notice that even using keys doesn't prevent this.
+So, how does React handle all these changes? As mentioned earlier, every state change triggers a re-render of the component that owns the state, along with all of its child components - in this case, both the **List** and all its **Item** components. Notice that even using keys doesn't prevent this.
 
 However, there’s a grain of truth in the idea: **keys help React efficiently manage updates to the real DOM**. **By identifying which items have changed, keys ensure only the new elements are added or updated in the DOM, leaving unchanged elements intact**. Let’s try it, this time focusing on DOM updates, not components re-renders. Open dev tools of your browser and find the structure which represents List component. The initial markup looks like this:
 
