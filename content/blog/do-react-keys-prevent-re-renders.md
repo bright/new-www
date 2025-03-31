@@ -22,15 +22,15 @@ Every React component undergoes a series of lifecycle steps. To simplify, these 
 
 ### **Trigger step**
 
-The trigger phase is the starting point for any re-render in React. It occurs whenever an update is necessary, such as when a **component’s state changes**, a **parent component re-renders**, or a **subscribed context value updates**. These actions signal React to check if any part of the component tree needs to be updated, prompting the process to move into the render step.
+The trigger step is the starting point for any re-render in React. It occurs whenever an update is necessary, such as when a **component’s state changes**, a **parent component re-renders**, or a **subscribed context value updates**. These actions signal React to check if any part of the component tree needs to be updated, prompting the process to move into the render step.
 
 ### **Render step**
 
-The render phase marks the next step in React’s component lifecycle. It occurs during the initial mount and whenever updates are triggered (in the trigger phase). During this phase, React performs **reconciliation**, a process driven by a **diffing algorithm** that utilizes both the **Virtual DOM** and the **React Fiber** architecture. Based on the comparison of the previous and updated representations of the component tree, React determines the component’s output, which is essentially the UI. For child components, React recursively invokes their render functions (or component logic in functional components) and those of their descendants to ensure the entire component tree is re-evaluated.
+The render step marks the next step in React’s component lifecycle. It occurs during the initial mount and whenever updates are triggered (in the trigger phase). During this phase, React performs **reconciliation**, a process driven by a **diffing algorithm** that utilizes both the **Virtual DOM** and the **React Fiber** architecture. Based on the comparison of the previous and updated representations of the component tree, React determines the component’s output, which is essentially the UI. For child components, React recursively invokes their render functions (or component logic in functional components) and those of their descendants to ensure the entire component tree is re-evaluated.
 
 ### **Commit step**
 
-Based on the diffing process, React updates only the necessary parts of the real DOM during the commit phase. It’s important to note that just because a component’s render function is called, it doesn’t guarantee a DOM update for that component, as **rendering and DOM updates are separate processes**. Understanding this distinction is crucial for addressing a common myth, which I’ll explain in the next section.
+Based on the diffing process, React updates only the necessary parts of the real DOM during the commit step. It’s important to note that just because a component’s render function is called, it doesn’t guarantee a DOM update for that component, as **rendering and DOM updates are separate processes**. Understanding this distinction is crucial for addressing a common myth, which I’ll explain in the next section.
 
 ## **Does keys prevent re-renders?**
 
