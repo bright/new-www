@@ -55,11 +55,12 @@ Having an ideal image while looking for new cooperation opportunities is not onl
 
 ### **What can you do if you are a candidate?**
 
-* Prioritise core values that are most important to you. These might include company culture, work life balance, growth opportunities, or specific job responsibilities.
+* Prioritise core values that are most important to you. These might include company culture, work life balance, growth opportunities, or specific job responsibilities. Not everything is equally important. Decide what is your priority. 
 * Be open to exploring opportunities with a range of companies including these that may not perfectly match your imago. Sometimes unexpected experiences can lead to rewarding career paths.
 * Conduct thorough research on potential employers to ensure they align with your core values and career goals. This can help you make informed decisions during the job search.
-* When you receive a job offer, think strategically. Focus on the aspects that are most important to you while keeping focus on the important aspects your future employer expect. **The collaboration will make sense only when two sides understand each other’s expectations.**
-* Don't let fear of imperfection stop you from pursuing opportunities. Focus on presenting your strengths, learning from feedback, and seeking roles where you can contribute and grow. It iv s about aligning your skills and aspirations with a role, not being the “perfect” fit from the outset.
+* When you receive a job offer, think strategically. Focus on the aspects that are crucial to you while keeping focus on the expectations of your future employer. **The collaboration will make sense only when two sides understand each other’s expectations.**
+* Think of your work as a journey filled with ups, downs, and everything in between. Along the way you will come across different people, face unexpected challenges, and celebrate small (and big) wins. What truly matters is what you take from each experience and how you choose to see it. **You can focus on what went wrong or you can recognise the lessons, growth, and opportunities that came with it. In the end the glass is as full as you decide it to be.**
+* Don't let fear of imperfection stop you from pursuing opportunities. Focus on presenting your strengths, learning from feedback, and seeking roles where you can contribute and grow. It is about aligning your skills and aspirations with a role, not being the “perfect” fit from the outset.
 
 # **the costs of unrealistic imago** 
 
