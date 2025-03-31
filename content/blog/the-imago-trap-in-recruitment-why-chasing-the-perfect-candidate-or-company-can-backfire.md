@@ -55,11 +55,12 @@ Having an ideal image while looking for new cooperation opportunities is not onl
 
 ### **What can you do if you are a candidate?**
 
-* Prioritise core values that are most important to you. These might include company culture, work life balance, growth opportunities, or specific job responsibilities.
+* Prioritise core values that are most important to you. These might include company culture, work life balance, growth opportunities, or specific job responsibilities. Not everything is equally important. Decide what is your priority. 
 * Be open to exploring opportunities with a range of companies including these that may not perfectly match your imago. Sometimes unexpected experiences can lead to rewarding career paths.
 * Conduct thorough research on potential employers to ensure they align with your core values and career goals. This can help you make informed decisions during the job search.
-* When you receive a job offer, think strategically. Focus on the aspects that are most important to you while keeping focus on the important aspects your future employer expect. **The collaboration will make sense only when two sides understand each other’s expectations.**
-* Don't let fear of imperfection stop you from pursuing opportunities. Focus on presenting your strengths, learning from feedback, and seeking roles where you can contribute and grow. It iv s about aligning your skills and aspirations with a role, not being the “perfect” fit from the outset.
+* When you receive a job offer, think strategically. Focus on the aspects that are crucial to you while keeping focus on the expectations of your future employer. **The collaboration will make sense only when two sides understand each other’s expectations.**
+* Think of your work as a journey filled with ups, downs, and everything in between. Along the way you will come across different people, face unexpected challenges, and celebrate small (and big) wins. What truly matters is what you take from each experience and how you choose to see it. **You can focus on what went wrong or you can recognise the lessons, growth, and opportunities that came with it. In the end the glass is as full as you decide it to be.**
+* Don't let fear of imperfection stop you from pursuing opportunities. Focus on presenting your strengths, learning from feedback, and seeking roles where you can contribute and grow. It is about aligning your skills and aspirations with a role, not being the “perfect” fit from the outset.
 
 # **the costs of unrealistic imago** 
 
@@ -77,13 +78,13 @@ To address the imago mismatch, it is essential for both employers and job seeker
 
 **1. Transparent job descriptions** - provide a detailed description of job roles and responsibilities, be specific about the skills and experience required, and include information about the company culture and team dynamics.
 
-**2. Showcase real employee stories** - share testimonials from current employees about their experiences e.g. a typical day at work, or show career path stories to highlight career progress within the company.
+**2. Showcase real employee stories** - share testimonials from current employees about their experiences e.g. a typical day at work, or show career path stories to highlight career progress within the company. Don’t sugarcoat it. Show your company as it really is, with all its ups and downs. Every workplace has its challenges, just like it has its wins. Authenticity builds trust, and people appreciate the real story, not a polished illusion.
 
-**3. Authentic visual content** - use real photos and videos from your workplace rather than stock images, share behind-the-scenes content to give potential candidates a glimpse of the work environment.
+**3. Authentic visual content** - use real photos and videos from your workplace rather than stock images, share behind the scenes content to give potential candidates a glimpse of the work environment.
 
-**4. Take care of candidate’s experience** -  ask for feedback from candidates about the role and hiring process itself. Keep transparent communication throughout the whole process.
+**4. Take care of candidate’s experience** - keep transparent communication throughout the whole process. Keep candidates informed at every stage, set clear expectations, and most importantly, ask for their feedback. Understanding how they perceive the process helps you refine it and shows that you value their time and effort, even if they don’t end up joining your team. A well-managed hiring process is not about creating a perfect career page and filling roles, it is about building relationships. 
 
-**5. Realistic expectations** - be honest about the challenges of the job as well as the rewards, provide a realistic view of work-life balance at your company.
+**5. Realistic expectations** - be honest about the challenges of the job as well as the rewards, provide a realistic view of work-life balance at your company. One of the biggest mistakes recruiters make is overselling the role, painting an idealised picture that does not match reality. If the job comes with tight deadlines or a steep learning curve, say so. If work-life balance varies by season or project, be clear about it. **Candidates appreciate honesty. It is better to have someone excited about the real job than someone disappointed by a broken promise.**
 
 **6. Engage with current employees** - regularly ask employees for feedback and implement changes in the job descriptions or recruitment proces based on their input.
 
