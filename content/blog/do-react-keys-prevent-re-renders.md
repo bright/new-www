@@ -123,16 +123,16 @@ I've prepared a [playground](https://reactplayground.vercel.app/#N4IgLgziBcBmCGA
 ```
 DOM Mutation detected: 
   Mutation Record {
-  addedNodes: NodeList [li]
-  attributeName: null
-  attributeNamespace: null
-  nextSibling: null
-  oldValue: null
-  previousSibling: li
-  removedNodes: NodeList []
-  target: ul
-  type: "childList"
-  [[Prototype]]: MutationRecord
+    addedNodes: NodeList [li]
+    attributeName: null
+    attributeNamespace: null
+    nextSibling: null
+    oldValue: null
+    previousSibling: li
+    removedNodes: NodeList []
+    target: ul
+    type: "childList"
+    [[Prototype]]: MutationRecord
   }
 
 ```
