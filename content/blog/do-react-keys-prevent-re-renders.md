@@ -2,8 +2,8 @@
 author: rafal-op
 tags:
   - frontend
-date: 2025-03-31T08:31:58.713Z
-meaningfullyUpdatedAt: 2025-03-31T08:31:59.310Z
+date: 2025-03-31T09:08:20.521Z
+meaningfullyUpdatedAt: 2025-03-31T09:08:21.688Z
 slug: keys-and-re-renders-in-react
 title: The Truth About Keys and Re-Renders in React
 layout: post
