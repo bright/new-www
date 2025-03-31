@@ -2,8 +2,8 @@
 author: rafal-op
 tags:
   - frontend
-date: 2025-03-29T20:05:57.271Z
-meaningfullyUpdatedAt: 2025-03-29T20:05:57.287Z
+date: 2025-03-31T05:46:06.681Z
+meaningfullyUpdatedAt: 2025-03-31T05:46:07.382Z
 title: The Truth About Keys and Re-Renders
 layout: post
 hidden: false
