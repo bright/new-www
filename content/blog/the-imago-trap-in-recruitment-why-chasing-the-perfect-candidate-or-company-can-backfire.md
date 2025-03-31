@@ -78,13 +78,13 @@ To address the imago mismatch, it is essential for both employers and job seeker
 
 **1. Transparent job descriptions** - provide a detailed description of job roles and responsibilities, be specific about the skills and experience required, and include information about the company culture and team dynamics.
 
-**2. Showcase real employee stories** - share testimonials from current employees about their experiences e.g. a typical day at work, or show career path stories to highlight career progress within the company.
+**2. Showcase real employee stories** - share testimonials from current employees about their experiences e.g. a typical day at work, or show career path stories to highlight career progress within the company. Don’t sugarcoat it. Show your company as it really is, with all its ups and downs. Every workplace has its challenges, just like it has its wins. Authenticity builds trust, and people appreciate the real story, not a polished illusion.
 
-**3. Authentic visual content** - use real photos and videos from your workplace rather than stock images, share behind-the-scenes content to give potential candidates a glimpse of the work environment.
+**3. Authentic visual content** - use real photos and videos from your workplace rather than stock images, share behind the scenes content to give potential candidates a glimpse of the work environment.
 
-**4. Take care of candidate’s experience** -  ask for feedback from candidates about the role and hiring process itself. Keep transparent communication throughout the whole process.
+**4. Take care of candidate’s experience** - keep transparent communication throughout the whole process. Keep candidates informed at every stage, set clear expectations, and most importantly, ask for their feedback. Understanding how they perceive the process helps you refine it and shows that you value their time and effort, even if they don’t end up joining your team. A well-managed hiring process is not about creating a perfect career page and filling roles, it is about building relationships. 
 
-**5. Realistic expectations** - be honest about the challenges of the job as well as the rewards, provide a realistic view of work-life balance at your company.
+**5. Realistic expectations** - be honest about the challenges of the job as well as the rewards, provide a realistic view of work-life balance at your company. One of the biggest mistakes recruiters make is overselling the role, painting an idealised picture that does not match reality. If the job comes with tight deadlines or a steep learning curve, say so. If work-life balance varies by season or project, be clear about it. **Candidates appreciate honesty. It is better to have someone excited about the real job than someone disappointed by a broken promise.**
 
 **6. Engage with current employees** - regularly ask employees for feedback and implement changes in the job descriptions or recruitment proces based on their input.
 
