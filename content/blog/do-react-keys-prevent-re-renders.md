@@ -4,7 +4,7 @@ tags:
   - frontend
 date: 2025-03-31T08:11:07.342Z
 meaningfullyUpdatedAt: 2025-03-31T08:11:06.561Z
-slug: truth-about-keys-and-re-renders-in-react
+slug: keys-and-re-renders-in-react
 title: The Truth About Keys and Re-Renders in React
 layout: post
 image: /images/react_keys_re-renders.png
@@ -41,7 +41,7 @@ A common myth surrounding keys is the belief that:
 
 Keys play a crucial role in helping React efficiently match elements between renders. While their function extends beyond this, we’ll focus on their role in DOM updates for simplicity. However, it’s important to note that **keys alone do not prevent re-renders**. React’s default behavior is to re-render all items in a collection whenever the parent component updates, even if the individual items remain unchanged  -  unless specific optimization techniques are applied.
 
-Let’s explore this with an example involving a **List** component and an Item component. When the List component’s state is updated (e.g. a new item is added), the **render** phase is **triggered**. During this phase, React determines what changes need to be applied to the real DOM. It does this by iterating through the List and its child components, invoking their render methods/component’s function execution.
+Let’s explore this with an example involving a **List** component and an **ListItem** component. When the List component’s state is updated (e.g. a new item is added), the **render** phase is **triggered**. During this phase, React determines what changes need to be applied to the real DOM. It does this by iterating through the List and its child components, invoking their render methods/component’s function execution.
 
 What happens to the existing *n* elements in the collection after adding a new item? According to the myth, they shouldn’t be re-rendered — but is that really true? Not quite.
 
