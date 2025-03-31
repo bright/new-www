@@ -32,7 +32,7 @@ Although these numbers might alarm app owners, it's useful to consider some benc
 
 Source: [AppsFlyer](https://www.appsflyer.com/resources/reports/app-uninstall-benchmarks/)
 
-<EbookDynamic sectionTitle='download the free guide on scaling HealthTech' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Get your pdf with reports, insights, case studies and tech recommendation. Nearly 100 pages just for you!'} ebookImage='/images/healthtech_guide_cover.png' ebookAlt='cover' />
+<EbookDynamic sectionTitle='download the free guide on scaling HealthTech' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Get your pdf with reports, insights, case studies and tech recommendation. Nearly 100 pages just for you!'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='cover' />
 
 **So, is there anything we can do to reduce the user abandonment rate? Let’s explore the top solutions to prevent users from uninstalling your app.**
 
