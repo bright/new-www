@@ -26,7 +26,7 @@ The trigger step is the starting point for any re-render in React. It occurs whe
 
 ### **Render step**
 
-The render step marks the next step in React’s component lifecycle. It occurs during the initial mount and whenever updates are triggered (in the trigger phase). During this phase, React performs **reconciliation**, a process driven by a **diffing algorithm** that utilizes both the **Virtual DOM** and the **React Fiber** architecture. Based on the comparison of the previous and updated representations of the component tree, React determines the component’s output, which is essentially the UI. For child components, React recursively invokes their render functions (or component logic in functional components) and those of their descendants to ensure the entire component tree is re-evaluated.
+The render step marks the next step in React’s component lifecycle. It occurs during the initial mount and whenever updates are triggered (in the trigger step). During this phase, React performs **reconciliation**, a process driven by a **diffing algorithm** that utilizes both the **Virtual DOM** and the **React Fiber** architecture. Based on the comparison of the previous and updated representations of the component tree, React determines the component’s output, which is essentially the UI. For child components, React recursively invokes their render functions (or component logic in functional components) and those of their descendants to ensure the entire component tree is re-evaluated.
 
 ### **Commit step**
 
