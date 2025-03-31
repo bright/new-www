@@ -38,7 +38,7 @@ A common myth surrounding keys is the belief that:
 
 > Keys prevent re-renders of unchanged components
 
-Keys play a crucial role in helping React efficiently match elements between renders. While their function extends beyond this, we’ll focus on their role in DOM updates for simplicity. However, it’s important to note that **keys alone do not prevent re-renders**. React’s default behavior is to re-render all items in a collection whenever the parent component updates, even if the individual items remain unchanged — unless specific optimization techniques are applied.
+Keys play a crucial role in helping React efficiently match elements between renders. While their function extends beyond this, we’ll focus on their role in DOM updates for simplicity. However, it’s important to note that **keys alone do not prevent re-renders**. React’s default behavior is to re-render all items in a collection whenever the parent component updates, even if the individual items remain unchanged  -  unless specific optimization techniques are applied.
 
 Let’s explore this with an example involving a **List** component and an Item component. When the List component’s state is updated (e.g. a new item is added), the **render** phase is **triggered**. During this phase, React determines what changes need to be applied to the real DOM. It does this by iterating through the List and its child components, invoking their render methods/component’s function execution.
 
