@@ -94,7 +94,7 @@ Internet access is typically unreliable at construction sites. Therefore from th
 
 *With the currently ongoing MVP release, the only point of criticism our users raised is the following: “We want more features!”. Therefore, the **MVP release is a great success** so far and we envision a lot more features to come in the app, together with our partner Bright Inventions.*
 
-**Leon Seiz, Product Owner at Heinrich Schmid**
+**Leon Seiz, Former Product Owner at Heinrich Schmid**
 
 <TitleWithIcon sectionTitle="the result of the partnership" titleIcon="/images/icon_result_svg.svg" titleIconAlt="result" />
 
