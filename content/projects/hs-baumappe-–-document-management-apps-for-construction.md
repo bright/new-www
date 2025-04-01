@@ -60,7 +60,7 @@ Imagine stepping into the **bureaucratic world of construction site personnel**,
 
 **What if all this paperwork were just one click away on a smartphone or tablet?** Critical documents would no longer be misplaced or damaged at construction sites, and access to sensitive information would be limited to individuals with the appropriate credentials.
 
-<div className="image">![A quote from the client](../../static/images/baumappe_quote_leon.png "Client's perspective")</div>
+<div className="image">![A quote from the client](/images/baumappe_quote_update.png "Client's perspective")</div>
 
 <TitleWithIcon sectionTitle="solution: digital document sharing with a mobile app" titleIcon="/images/gearwheel.svg" titleIconAlt="the solution" />
 
