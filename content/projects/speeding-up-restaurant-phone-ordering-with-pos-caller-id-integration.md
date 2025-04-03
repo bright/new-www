@@ -59,7 +59,7 @@ When scaling the point-of-sale solution for Practi, a company later acquired by 
 
 <TitleWithIcon sectionTitle="the solution: custom POS system integration with Caller ID" titleIcon="/images/flag.png" titleIconAlt="the solution" />
 
-Our POS development team recommended integrating the Practi POS system with a Caller ID to transform the phone ordering. So, what’s special about this integration? The Caller ID is a device that automatically transfers information about the incoming phone number to the restaurant's POS system. Yet it goes beyond just displaying a phone number. By **combining the Caller ID data with the POS system, the waitstaff instantly identifies the caller**, checks if they are a regular customer, and accesses their previous order history and delivery address.
+Our [POS development](/blog/pos-software-development-guide/) team recommended integrating the Practi POS system with a Caller ID to transform the phone ordering. So, what’s special about this integration? The Caller ID is a device that automatically transfers information about the incoming phone number to the restaurant's POS system. Yet it goes beyond just displaying a phone number. By **combining the Caller ID data with the POS system, the waitstaff instantly identifies the caller**, checks if they are a regular customer, and accesses their previous order history and delivery address.
 
 <div className="image">![Caller ID and POS](/images/pos_caller_id_case_study.png "")</div>
 
