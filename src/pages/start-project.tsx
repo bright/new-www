@@ -7,15 +7,15 @@
 
 import React from 'react'
 
+import styled from 'styled-components'
+import image from '../../static/images/inverted-commas.svg'
+import { CustomSection, CustomSectionTitle, FlexWrapper, TextRegular } from '../components/shared'
+import StartProjectContact from '../components/start-project/StartProjectContact'
+import { useWindowSize } from '../components/utils/use-windowsize'
 import { Page } from '../layout/Page'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
-import { CustomSection, CustomSectionTitle, FlexWrapper, TextRegular } from '../components/shared'
-import styled from 'styled-components'
-import variables from '../styles/variables'
+import variables, { deviceSize } from '../styles/variables'
 import { CustomPageTitle } from './../components/shared/index'
-import StartProjectContact from '../components/start-project/StartProjectContact'
-import { clampBuilder } from '../helpers/clampBuilder'
-import image from '../../static/images/inverted-commas.svg'
 
 const QuoteTextRegular = styled(TextRegular)`
   font-weight: 400;
@@ -59,6 +59,9 @@ const SignatureQuote = styled(TextRegular)`
 `
 
 const StartProjectPage: React.FC = () => {
+  const { width } = useWindowSize()
+  const isMobile = width <= deviceSize.mobile
+
   return (
     <Page>
       <HelmetMetaData
@@ -91,24 +94,27 @@ const StartProjectPage: React.FC = () => {
         </CustomSection>
 
         <FlexWrapper desktopGap='64px' mobileDirection='column' desktopDirection='row' tabletDirection='column'>
-          <FlexWrapper desktopDirection='column' desktopBasis='48%' desktopGap='48px'>
-            <CustomSectionTitle
-              margin='0'
-              laptopMargin='0'
-              tabletXLMargin='0'
-              tabletMargin='0'
-              mobileMargin='0 '
-              style={{ textAlign: 'left', textTransform: 'lowercase' }}
-            >
-              What our clients say
-            </CustomSectionTitle>
-            <QuoteTextRegular>
-              We have found Bright Inventions to be <span>a professional group of people, that we feel we can trust</span>
-              , as an integral part of our company, not only to deliver in the right quality, but be proactive,
-              contribute from their to help us shape the company’s R&D and product.
-            </QuoteTextRegular>
-            <SignatureQuote>Kobi Avriel - Former VP R&D at Circles</SignatureQuote>
-          </FlexWrapper>
+          {!isMobile && (
+            <FlexWrapper desktopDirection='column' desktopBasis='48%' desktopGap='48px'>
+              <CustomSectionTitle
+                margin='0'
+                laptopMargin='0'
+                tabletXLMargin='0'
+                tabletMargin='0'
+                mobileMargin='0 '
+                style={{ textAlign: 'left', textTransform: 'lowercase' }}
+              >
+                What our clients say
+              </CustomSectionTitle>
+              <QuoteTextRegular>
+                We have found Bright Inventions to be{' '}
+                <span>a professional group of people, that we feel we can trust</span>, as an integral part of our
+                company, not only to deliver in the right quality, but be proactive, contribute from their to help us
+                shape the company’s R&D and product.
+              </QuoteTextRegular>
+              <SignatureQuote>Kobi Avriel - Former VP R&D at Circles</SignatureQuote>
+            </FlexWrapper>
+          )}
           <StartProjectContact
             formButton='Business Contact Form Button'
             actionFormButton='Click Submit Business Form'
