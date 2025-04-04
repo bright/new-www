@@ -17,7 +17,7 @@ language: en
 
 In this guide, I’ll walk you through an Agile approach to risk management, using Hazard Stories and a structured Risk Backlog, ensuring that risks are identified, tracked, and mitigated effectively.
 
-<EbookDynamic sectionTitle='Get to Know Agile Risk Management' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'This blog post is just the beginning. If you’re ready to dive deeper into Agile Risk Management—complete with practical frameworks, real-world examples, and actionable strategies—download our free eBook.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='risk management ebook' />
+<EbookDynamic sectionTitle='Get to Know Agile Risk Management' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'This blog post is just the beginning. If you’re ready to dive deeper into Agile Risk Management, download our free ebook.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='risk management ebook' />
 
 ## Establishing the Context: Why Agile Risk Management Matters
 
