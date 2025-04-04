@@ -4,8 +4,7 @@ tags:
   - risk management
   - agile
   - project management
-  - ISO
-  - ALARP
+  - leadership
 date: 2020-08-05T12:34:37.084Z
 meaningfullyUpdatedAt: 2020-08-05T12:34:37.084Z
 title: "No Risk, No Fun or: How I Learned to Stop Worrying and Love the Risk
