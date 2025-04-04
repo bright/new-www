@@ -3,8 +3,8 @@ author: sebastian-r
 secondAuthor: izabela
 tags:
   - bright insights
-date: 2025-04-04T09:29:31.911Z
-meaningfullyUpdatedAt: 2025-04-04T09:29:31.933Z
+date: 2025-04-04T09:51:28.344Z
+meaningfullyUpdatedAt: 2025-04-04T09:51:29.268Z
 slug: ios-developer-career-story-sebastian
 title: "Completing the Void: Finding What's Missing in a Software Engineering Career"
 layout: post
@@ -96,7 +96,9 @@ We got in touch with a company in Poland that organized everything, we also comp
 
 <div className="image">![Visiting Zion National Park in the USA.](/images/us_trip.png "Visiting Zion National Park in the USA.")</div>
 
-<center>Visiting Zion National Park in the USA.
+<center>
+
+Visiting Zion National Park in the USA.
 
 </center>
 
