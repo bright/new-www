@@ -4,24 +4,27 @@ tags:
   - risk management
   - agile
   - project management
-  - ISO
-  - ALARP
+  - leadership
 date: 2020-08-05T12:34:37.084Z
-meaningfullyUpdatedAt: 2020-08-05T12:34:37.084Z
-title: "No risk, no fun or: How I learned to stop worrying and love the risk
-  management"
+meaningfullyUpdatedAt: 2025-04-04T14:07:56.268Z
+title: "No Risk, No Fun or: How I Learned to Stop Worrying and Love the Risk
+  Management"
 layout: post
-image: /images/blog_post_risk_management.png
+image: /images/risk_management.png
 hidden: false
 comments: true
 published: true
 language: en
 ---
-I’ve been researching and writing about the agile approach to risk management for quite a few years now but mostly in relation to safety-critical software (for example [here](https://dl.acm.org/doi/10.1145/3234152.3234174) , [here](https://link.springer.com/chapter/10.1007%2F978-3-030-37534-8_4) and [here](https://journals.agh.edu.pl/csci/article/view/51) ). This time I wanted to address other types of projects, how it can work in practice and why the risk is not necessarily a bad thing. 
+**I’ve been researching and writing about the [agile risk management](/blog/agile-risk-management/) for quite a few years now but mostly in relation to safety-critical software (for example [here](https://dl.acm.org/doi/10.1145/3234152.3234174) , [here](https://link.springer.com/chapter/10.1007%2F978-3-030-37534-8_4) and [here](https://journals.agh.edu.pl/csci/article/view/51) ). This time I wanted to address other types of projects, how it can work in practice and why the risk is not necessarily a bad thing.** 
 
-![risk management IT](../../static/images/blog_post_risk_management.png)
+<div className="image">![agile risk management](/images/risk_management.png "agile risk management")</div>
 
-I started to write this blog post back in March, I already had the title and some notes. And then something unexpected ([but apparently still predictable](https://www.youtube.com/watch?v=6Af6b_wyiwI)) happened - a global pandemic. Suddenly, writing that if there’s no risk, then there’s no fun seemed inappropriate. Going out, ignoring the risks, was simply foolish and arrogant. We were all stuck in our homes, not sure about the actual threats, following the numbers, untangling expert advice from the conspiracy theories, trying to predict whether we’d make it to the summer at all. With live footage of human tragedies unfolding in different parts of the world, we looked out the window to see the trees in bloom and birds chirping, like nothing was happening. Was it really that dangerous? While it felt awkward to write candidly about the idea of risk a few months ago, I think now the timing couldn’t be better. Because now that we debate the risk at personal level, almost every day since March, maybe considering it also on a professional level would feel more natural. Because there’s always risk. Sometimes it’s unavoidable, sometimes, manageable, but it’s there. Pretending we don’t see it (or indeed, not seeing it at all) is a dangerous strategy. **But acknowledging the risk, making informed decisions and sometimes doing things anyway is where the fun begins.**
+I started to write this blog post back in March, I already had the title and some notes. And then something unexpected ([but apparently still predictable](https://www.youtube.com/watch?v=6Af6b_wyiwI)) happened - a global pandemic. Suddenly, writing that if there’s no risk, then there’s no fun seemed inappropriate. Going out, ignoring the risks, was simply foolish and arrogant. We were all stuck in our homes, not sure about the actual threats, following the numbers, untangling expert advice from the conspiracy theories, trying to predict whether we’d make it to the summer at all. With live footage of human tragedies unfolding in different parts of the world, we looked out the window to see the trees in bloom and birds chirping, like nothing was happening. Was it really that dangerous? 
+
+While it felt awkward to write candidly about the idea of risk a few months ago, I think now the timing couldn’t be better. Because now that we debate the risk at personal level, almost every day since March, maybe considering it also on a professional level would feel more natural. Because there’s always risk. Sometimes it’s unavoidable, sometimes, manageable, but it’s there. Pretending we don’t see it (or indeed, not seeing it at all) is a dangerous strategy. **But acknowledging the risk, making informed decisions and sometimes doing things anyway is where the fun begins.**
+
+<EbookDynamic sectionTitle='Ready to manage risk in an agile way?' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'This blog post is just the beginning. If you’re ready to dive deeper into Agile Risk Management with practical frameworks, real-world examples, and actionable strategies, download our free eBook.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='risk management ebook' />
 
 ## Risk management
 
@@ -39,11 +42,19 @@ As you can imagine, there’s a lot of processes, templates, guidelines and requ
 
 ## Context
 
-While not all of us work with safety-critical software, it doesn’t mean there are no threats associated. **Not every system needs a systematic, high brow risk policy but all would benefit from thinking about potential threats early on and monitoring them along the way.** Your team develops an app integrated with a payment system? Or maybe your system helps to plan drug administration to the care home residents? Depending on the domain you can choose how much attention should be devoted to risk management. In general
+While not all of us work with safety-critical software, it doesn’t mean there are no threats associated. **Not every system needs a systematic, high brow risk policy but all would benefit from thinking about potential threats early on and monitoring them along the way.** Your team develops an app integrated with a payment system? Or maybe your system helps to [plan drug administration to the care home residents](/projects/emar-healthcare-solution/)? Depending on the domain you can choose how much attention should be devoted to risk management. In general
 
-* Low risk apps. Examples are loyalty programs, tourist guides, simple games or weather reports. The apps that in case of malfunction will cause discomfort and users might be annoyed, but that’s it. If you work on such apps, there’s a high chance that you haven’t really put too much thought into the potential threats. And to be honest, there’s not much more work that should be done here. Focus on security, make checklists, write tests. Good advice can be found [here](https://owaspsamm.org/assessment/). 
-* Medium risk apps. These are the apps where you store some more delicate data, connected to health or privacy of the users or handling complex payments. The system that in case of malfunction can cause some serious financial problems or influence user’s wellbeing and health.
-* High risk apps. The systems that take people to the moon or at least to the stratosphere and the ones that will save your life if you need a complicated surgery. The safety-critical creme de la creme. If you work in such an industry, a blog post would never be enough to cover all the issues so I won’t even try. Nevertheless, [here](https://www.springer.com/gp/book/9783319702643) and [here](https://arrow.tudublin.ie/cgi/viewcontent.cgi?article=1127&context=scschcomcon) you can find some interesting ideas.
+* **Low risk apps**
+
+Examples are loyalty programs, tourist guides, simple games or weather reports. The apps that in case of malfunction will cause discomfort and users might be annoyed, but that’s it. If you work on such apps, there’s a high chance that you haven’t really put too much thought into the potential threats. And to be honest, there’s not much more work that should be done here. Focus on security, make checklists, write tests. Good advice can be found [here](https://owaspsamm.org/assessment/). 
+
+* **Medium risk apps**
+
+These are the apps where you store some more delicate data, connected to health or privacy of the users or handling complex payments. The system that in case of malfunction can cause some serious financial problems or influence user’s wellbeing and health.
+
+* **High risk apps** 
+
+The systems that take people to the moon or at least to the stratosphere and the ones that will save your life if you need a complicated surgery. The safety-critical creme de la creme. If you work in such an industry, a blog post would never be enough to cover all the issues so I won’t even try. Nevertheless, [here](https://www.springer.com/gp/book/9783319702643) and [here](https://arrow.tudublin.ie/cgi/viewcontent.cgi?article=1127&context=scschcomcon) you can find some interesting ideas.
 
 All that follows concerns these medium risk apps in an agile environment. Where it feels that filling in a risk matrix and xls spreadsheets will be awkward but still some degree of risk awareness is needed. You can use all of the suggested practices or just one, depending on the project’s needs.
 
@@ -79,11 +90,13 @@ Another thing to consider is how these risks are introduced in the system. No on
 
 ## Risk treatment & monitoring
 
-There’s little value to a list of hazards if you’ll never look at it again. Treat the risk items as a part of your backlog, just with different purposes than the regular tasks. Think about them when planning sprints, check the connected hazards before moving a development task to Done. Adding “Check connected hazards” as a step to the[ Definition of Done](/blog/definition-of-done/) is a good way to remind everyone about it and turn it into a habit.
+There’s little value to a list of hazards if you’ll never look at it again. Treat the risk items as a part of your backlog, just with different purposes than the regular tasks. Think about them when planning sprints, check the connected hazards before moving a development task to Done. Adding “Check connected hazards” as a step to the [Definition of Done](/blog/definition-of-done/) is a good way to remind everyone about it and turn it into a habit.
 
 As I mentioned before, you can assign some development tasks to counteract the harm presented by the risk items. Sometimes you just need to add 2-Factor Authentication or handle an [offline mode](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/) to stay confident. Sometimes though, you look at a hazard and can do only as much as to stretch your arms helplessly and say “Yes, this can happen indeed”.
 
-There is an approach to reducing the risk called ALARP - As Low As Reasonably Practicable. Sometimes it would be too costly to do anything about a particular threat, or there are few options left anyway. It’s like with leaving your house these days - you can hide in the bunker and order all your groceries online, washing every product with 70% alcohol, risking insanity (and getting drunk from the fumes) or go out, wear a mask, sanitise your hands and accept the residual risk.
+<EbookDynamic sectionTitle='Explore risk manageemnt with our free ebook' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'Dive deeper into Agile Risk Management with practical frameworks, good practice examples, and actionable strategies.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='risk management ebook' />
+
+There is an approach to reducing the risk called **ALARP - As Low As Reasonably Practicable**. Sometimes it would be too costly to do anything about a particular threat, or there are few options left anyway. It’s like with leaving your house these days - you can hide in the bunker and order all your groceries online, washing every product with 70% alcohol, risking insanity (and getting drunk from the fumes) or go out, wear a mask, sanitise your hands and accept the residual risk.
 
 The crucial part is to be honest with yourself and your team about the risks. Team members should feel comfortable to mention any concerns - only then you can manage the risk in a meaningful way and feel collectively responsible for the final result.
 
