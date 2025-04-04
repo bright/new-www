@@ -94,6 +94,12 @@ Oh yes! I always wanted to visit the USA, but of course, you need money for that
 
 We got in touch with a company in Poland that organized everything, we also completed the **American lifeguard course**, and eventually went to the US for 4 months during my fourth year of college. We worked for 3 months and then traveled across the States for a month. I have great memories from that time and still keep in touch with some of the people I met there.
 
+<div className="image">![Visiting Zion National Park in the USA.](/images/us_trip.png "Visiting Zion National Park in the USA.")</div>
+
+<center>Visiting Zion National Park in the USA.
+
+</center>
+
 ## I heard that you like walking in the woods in the evening. What are you looking for there? 😉
 
 Some adventures for me and my dog, Admin. 😄
