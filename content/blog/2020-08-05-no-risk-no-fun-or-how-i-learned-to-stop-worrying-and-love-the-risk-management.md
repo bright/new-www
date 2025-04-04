@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2020-08-05T12:34:37.084Z
 title: "No Risk, No Fun or: How I Learned to Stop Worrying and Love the Risk
   Management"
 layout: post
-image: /images/blog_post_risk_management.png
+image: /images/risk_management.png
 hidden: false
 comments: true
 published: true
