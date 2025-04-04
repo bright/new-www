@@ -24,7 +24,7 @@ I started to write this blog post back in March, I already had the title and som
 
 While it felt awkward to write candidly about the idea of risk a few months ago, I think now the timing couldn’t be better. Because now that we debate the risk at personal level, almost every day since March, maybe considering it also on a professional level would feel more natural. Because there’s always risk. Sometimes it’s unavoidable, sometimes, manageable, but it’s there. Pretending we don’t see it (or indeed, not seeing it at all) is a dangerous strategy. **But acknowledging the risk, making informed decisions and sometimes doing things anyway is where the fun begins.**
 
-<EbookDynamic sectionTitle='Ready to manage risk in an agile way??' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'This blog post is just the beginning. If you’re ready to dive deeper into Agile Risk Management—complete with practical frameworks, real-world examples, and actionable strategies—download our free eBook.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='risk management ebook' />
+<EbookDynamic sectionTitle='Ready to manage risk in an agile way?' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'This blog post is just the beginning. If you’re ready to dive deeper into Agile Risk Management—complete with practical frameworks, real-world examples, and actionable strategies—download our free eBook.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='risk management ebook' />
 
 ## Risk management
 
@@ -93,6 +93,8 @@ Another thing to consider is how these risks are introduced in the system. No on
 There’s little value to a list of hazards if you’ll never look at it again. Treat the risk items as a part of your backlog, just with different purposes than the regular tasks. Think about them when planning sprints, check the connected hazards before moving a development task to Done. Adding “Check connected hazards” as a step to the [Definition of Done](/blog/definition-of-done/) is a good way to remind everyone about it and turn it into a habit.
 
 As I mentioned before, you can assign some development tasks to counteract the harm presented by the risk items. Sometimes you just need to add 2-Factor Authentication or handle an [offline mode](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/) to stay confident. Sometimes though, you look at a hazard and can do only as much as to stretch your arms helplessly and say “Yes, this can happen indeed”.
+
+<EbookDynamic sectionTitle='Explore rsk manageemnt with our free ebook' ebookName='Risk-Management-in-eHealth-The-Agile-Way.pdf' ebookDescription={'This blog post is just the beginning. If you’re ready to dive deeper into Agile Risk Management—complete with practical frameworks, real-world examples, and actionable strategies—download our free eBook.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='risk management ebook' />
 
 There is an approach to reducing the risk called **ALARP - As Low As Reasonably Practicable**. Sometimes it would be too costly to do anything about a particular threat, or there are few options left anyway. It’s like with leaving your house these days - you can hide in the bunker and order all your groceries online, washing every product with 70% alcohol, risking insanity (and getting drunk from the fumes) or go out, wear a mask, sanitise your hands and accept the residual risk.
 
