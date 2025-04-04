@@ -6,7 +6,7 @@ tags:
   - project management
   - leadership
 date: 2020-08-05T12:34:37.084Z
-meaningfullyUpdatedAt: 2025-04-04T14:03:12.059Z
+meaningfullyUpdatedAt: 2025-04-04T14:07:56.268Z
 title: "No Risk, No Fun or: How I Learned to Stop Worrying and Love the Risk
   Management"
 layout: post
