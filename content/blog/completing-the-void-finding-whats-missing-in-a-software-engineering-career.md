@@ -48,6 +48,8 @@ I mostly work with **ChatGPT o3-mini-high** and experiment with **Apple Intellig
 
 <div className="image">![Christmas party vibes.](/images/christmas_party_sebastian.png "Christmas party vibes.")</div>
 
+Christmas party vibes.
+
 </center>
 
 ## What are your responsibilities right now?
@@ -77,6 +79,14 @@ I think here in Poland, we should also try to look for more reasons to **appreci
 ## You’ve been a part of Bright Inventions for nearly 3 years. Any thoughts on these past years?
 
 I really enjoy working here. I appreciate the support I get from my colleagues and managers – they **encourage me to grow**. I also love the fact that I can truly influence the project I’m working on. It gives me the opportunity to look at it not only from a technical perspective but also from a **business point of view**. That’s a great aspect of my work, and it’s something that can’t be taken for granted as a programmer.
+
+<div className="image">![teambuilding](/images/teambuilding_sailing.png "teambuilding")</div>
+
+<center> 
+
+At our team-building sailing retreat.
+
+</center>
 
 ## Is it true that you worked as a lifeguard in the USA?
 
