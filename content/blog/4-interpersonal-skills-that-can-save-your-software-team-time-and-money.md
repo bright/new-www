@@ -47,9 +47,7 @@ finding solutions that satisfy all parties involved. Some disagreements can as w
 process. Conflict resolution is an integral part of the [software development process](/blog/what-are-the-stages-of-app-development/), primarily because software
 development projects often involve teams with diverse perspectives, backgrounds, and roles. Conflicts can arise due to
 differences in opinions, goals, priorities, and approaches to
-problem-solving.<div className="image">![conflict resolution](../../static/images/healthyconflict.png "undefined")</div>
-
-Source: https://www.fosslien.com/images
+problem-solving.
 
 Addressing conflicts effectively is essential for fostering collaboration and ensuring project success. Regular design
 reviews and brainstorming sessions can provide a platform to identify and resolve potential conflicts early in the
