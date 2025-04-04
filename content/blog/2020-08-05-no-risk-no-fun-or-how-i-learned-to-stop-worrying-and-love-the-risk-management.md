@@ -42,7 +42,7 @@ As you can imagine, there’s a lot of processes, templates, guidelines and requ
 
 ## Context
 
-While not all of us work with safety-critical software, it doesn’t mean there are no threats associated. **Not every system needs a systematic, high brow risk policy but all would benefit from thinking about potential threats early on and monitoring them along the way.** Your team develops an app integrated with a payment system? Or maybe your system helps to plan drug administration to the care home residents? Depending on the domain you can choose how much attention should be devoted to risk management. In general
+While not all of us work with safety-critical software, it doesn’t mean there are no threats associated. **Not every system needs a systematic, high brow risk policy but all would benefit from thinking about potential threats early on and monitoring them along the way.** Your team develops an app integrated with a payment system? Or maybe your system helps to [plan drug administration to the care home residents](/projects/emar-healthcare-solution/)? Depending on the domain you can choose how much attention should be devoted to risk management. In general
 
 * **Low risk apps**
 
