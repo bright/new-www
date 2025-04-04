@@ -8,8 +8,8 @@ tags:
   - ALARP
 date: 2020-08-05T12:34:37.084Z
 meaningfullyUpdatedAt: 2020-08-05T12:34:37.084Z
-title: "No risk, no fun or: How I learned to stop worrying and love the risk
-  management"
+title: "No Risk, No Fun or: How I Learned to Stop Worrying and Love the Risk
+  Management"
 layout: post
 image: /images/blog_post_risk_management.png
 hidden: false
