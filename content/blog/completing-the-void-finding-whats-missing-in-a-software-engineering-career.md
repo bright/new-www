@@ -20,7 +20,7 @@ language: en
 
 **Was your career always related to iOS development?**
 
-No, my career started in frontend and then backend development, but I didn’t really enjoy that. Afterward, **I worked for 4–5 years on hybrid application**s and eventually decided to learn Android development, before **finally switching to iOS**.
+No, my career started in frontend and then backend development, but I didn’t really enjoy that. Afterward, **I worked for 4–5 years on hybrid applications** and eventually decided to learn Android development, before **finally switching to iOS**.
 
 **Why did you have all these changes in your career direction?**
 
@@ -52,7 +52,7 @@ The client is very open to testing new solutions, which is great, but it’s als
 
 **What is your advice for successful app modernization?**
 
-It’s better to plan modernization with a clear **understanding of the broader business context** of the solution we’re about to rewrite. If we don’t have that perspective, we need to ask questions on the client’s side to better understand what exactly we’re changing. It goes far beyond just the code – **any software modernization can impact the entire digital business**.
+It’s better to plan [app modernization](/our-areas/app-modernization/) with a clear **understanding of the broader business context** of the solution we’re about to rewrite. If we don’t have that perspective, we need to ask questions on the client’s side to better understand what exactly we’re changing. It goes far beyond just the code – **any software modernization can impact the entire digital business**.
 
 **You work with clients from across the globe. What is it like to work in multinational teams?**
 
@@ -76,4 +76,4 @@ We got in touch with a company in Poland that organized everything, we also comp
 
 **I heard that you like walking in the woods in the evening. What are you looking for there? 😉**
 
-Some adventures for me and my dog, Admin. 😄  
+Some adventures for me and my dog, Admin. 😄
