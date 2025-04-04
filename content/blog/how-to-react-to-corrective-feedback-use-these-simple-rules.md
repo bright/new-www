@@ -40,8 +40,6 @@ The so called S.T.A.R method can help you react in a calm and peaceful way to th
 
 **REVIEW** - check the consequences of the chosen option. Has it changed anything?
 
-<div className="image">![feedback star method](../../static/images/feedback-star-method.png "undefined")</div>
-
 ## **Don’t become an offended recluse**
 
 [The research](https://hbr.org/2016/09/research-we-drop-people-who-give-us-critical-feedback) by Francesca Gino, Paul Green, and Brad Staats shows that we tend to avoid people after they give us negative feedback. And while it can certainly feel easier to see ourselves as a martyr - **avoiding people who tell us (usually) the truth is a big mistake. In fact, we should see it as opportunity to reset one’s relationships. With the proper approach, our biggest “critics” can become our greatest supporters.** Remember that it is really simple to say you like someone’s idea, take a high five and live happily ever after. Much harder it is to find the courage to tell someone you see some things to improve in their behaviour. Appreciate the fact that you have among your colleagues or friends people who would tell you bluntly when you fuc* something up. 😉
