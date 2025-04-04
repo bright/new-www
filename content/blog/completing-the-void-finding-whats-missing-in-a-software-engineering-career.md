@@ -60,6 +60,8 @@ The client is very open to testing new solutions, which is great, but it’s als
 
 It’s better to plan [app modernization](/our-areas/app-modernization/) with a clear **understanding of the broader business context** of the solution we’re about to rewrite. If we don’t have that perspective, we need to ask questions on the client’s side to better understand what exactly we’re changing. It goes far beyond just the code – **any software modernization can impact the entire digital business**.
 
+<div className="image">![quote on app modernization](/images/sebastian_quote_modernization.png "quote on app modernization")</div>
+
 ## You work with clients from across the globe. What is it like to work in multinational teams?
 
 **I enjoy working in inclusive teams** because each country brings a different perspective. I get the chance to learn more about other people’s habits, cultures, and even work techniques. Also, I don’t mind working with people in different time zones – for example, syncing with US time doesn’t bother me at all, although I understand why it can be challenging for some people.
@@ -67,6 +69,8 @@ It’s better to plan [app modernization](/our-areas/app-modernization/) with a 
 ## What differences between the Polish perspective and other countries have you noticed?
 
 I think one clear difference is our tendency in Poland to avoid speaking openly and proudly about what we've achieved at work. For many of us, once something is done, it feels obvious and not worth mentioning. But I’ve noticed, for example in American culture, that **they celebrate every step forward** – what we might see as a minor milestone can be seen as a significant success.
+
+<div className="image">![quote on work culture](/images/sebastian_quote_work_culture.png "quote on work culture")</div>
 
 I think here in Poland, we should also try to look for more reasons to **appreciate what we do** – to recognize our own value and better appreciate our contributions to the project’s success.
 
