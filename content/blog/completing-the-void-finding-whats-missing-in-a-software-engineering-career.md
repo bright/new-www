@@ -34,6 +34,14 @@ That’s right – I chose **Automatics and Robotics** for my Bachelor’s studi
 
 In the end, programming spoke to me the most. I was **always drawn to coding**, even though the languages used in robotics were a bit outdated. I started exploring more modern programming languages in my free time, and that’s when I realized that software development was the direction I really wanted to follow.
 
+<center>
+
+<div className="image">![Christmas party vibes.](/images/christmas_party_sebastian.png "Christmas party vibes.")</div>
+
+Christmas party vibes.
+
+</center>
+
 ## What are the biggest challenges for iOS developers right now?
 
 One is, naturally, the rapidly developing cross-platform solutions that are becoming more and more competitive, and it’s **getting harder to convince a client to invest in native development**.
@@ -43,14 +51,6 @@ Another challenge, common for all programmers, is **learning how AI may support 
 ## What AI tools do you use on a daily basis apart from Microsoft Copilot?
 
 I mostly work with **ChatGPT o3-mini-high** and experiment with **Apple Intelligence**.
-
-<center>
-
-<div className="image">![Christmas party vibes.](/images/christmas_party_sebastian.png "Christmas party vibes.")</div>
-
-Christmas party vibes.
-
-</center>
 
 ## What are your responsibilities right now?
 
