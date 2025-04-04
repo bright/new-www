@@ -26,9 +26,6 @@ Feedback can become your team’s reality if you just implement a few simple ste
 
 **You can also use a simple method *[START, STOP, CONTINUE](https://www.superbeings.ai/blog/how-to-use-start-stop-continue-feedback).*** In the end each team member is reading aloud the answers they got.
 
-<div className="image">![undefined](../../static/images/start-stop-continue.png "undefined")</div>
-
-
 
 ![:pushpin:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f4cc@2x.png)**What to remember?** If you are a manager/mentor, try to identify behaviours that have a positive impact on your team’s cooperation and those which hamper the work. Describe to your team the observations you have and help your feedbackee to introduce new patterns of behaviours. If you are a team member, don’t cross personal or social boundaries. Remember that the aim here is to learn and improve teamwork and communication among you and your colleagues. 
 
@@ -104,8 +101,6 @@ The first element should be an example of positive behaviour or work content bas
 **The second element depends on either we deal with less or more experienced person.** In case of less experienced person we can propose some instruction, manual with action points or best practices which can be implemented by someone at their work. In case of more experienced people we can use some inspirational or mentoring questions which are the first two for further auto reflection or analysis that lets for discovering some hidden potential. 
 
 ![:pushpin:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f4cc@2x.png)**What to remember?** Green feedback is a great model to show what you love about someone’s performance or behaviours (even if it is a small part of their work) and at the same time it gives space to say why the behaviour pattern should be kept and how to expand it in the future. 
-
-<div className="image">![feedback bitter or better ](../../static/images/bitter-better-feedback.jpeg "undefined")</div>
 
 ## **Five models but one goal** 
 
