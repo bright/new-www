@@ -68,3 +68,5 @@ And a bit more self-exploratory xml version
 And that's all, folks! Read through each explanation carefully (even though it's written in a difficult legal language), and choose the one that best describes your usage.
 
 If you have more questions, feel free to contact me :).
+
+If you want to get automated reports regarding your app compliance, you should try **[compliance management software](https://myappmonitor.com/features/app-store-compliance)**.
