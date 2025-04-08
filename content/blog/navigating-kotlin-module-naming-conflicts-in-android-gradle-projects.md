@@ -9,6 +9,7 @@ meaningfullyUpdatedAt: 2025-04-08T10:33:40.028Z
 slug: kotlin-module-naming-conflicts
 title: Navigating Kotlin Module Naming Conflicts
 layout: post
+image: /images/conflicted-lego.jpg
 hidden: false
 comments: false
 published: true
