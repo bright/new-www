@@ -7,14 +7,14 @@ tags:
 date: 2025-04-08T10:33:40.018Z
 meaningfullyUpdatedAt: 2025-04-08T10:33:40.028Z
 slug: kotlin-module-naming-conflicts
-title: Navigating Kotlin Module Naming Conflicts in Android Gradle Projects
+title: Navigating Kotlin Module Naming Conflicts
 layout: post
 hidden: false
 comments: false
 published: true
 language: en
 ---
-**TL;DR:** Structuring multi-module Android projects often leads to wanting identical sub-directory names (like `feature/navigation`). Historically, this caused build failures due to `.kotlin_module` file collisions. A common workaround was prefixing module names (e.g., `feature/featureNavigation`), but this hurts readability and can cause issues with Windows' maximum path length. This post explains that the Android Gradle Plugin (AGP) *currently* mitigates this collision by default, making prefixing less necessary *for now*. We discuss why we've decided to stop prefixing, embracing cleaner names, and detail our contingency plan using `settings.gradle` mapping if the problem ever returns.
+**Structuring multi-module projects often leads to wanting identical sub-directory names (like `feature1/foo` and `feature2/foo`). Historically, this caused build failures ([1](https://discuss.kotlinlang.org/t/dealing-with-kotlin-module-conflict-when-building-apk-for-project-with-non-unique-project-names/11247), [2](https://stackoverflow.com/questions/45232350/disable-meta-inf-generation-in-gradle-android-library-kotlin-project/45235642)) due to `.kotlin_module` file collisions. A common workaround was prefixing module names (e.g., `feature1/feature1Foo`), but this hurts readability and can cause issues with Windows' maximum path length. This post explains that the Android Gradle Plugin (AGP) *currently* mitigates this collision by default, making prefixing less necessary *for now*. We discuss why we've decided to stop prefixing, embracing cleaner names, and detail our contingency plans if the problem ever returns.**
 
 ## Setting the Scene: The Initial Challenge
 
@@ -23,10 +23,10 @@ A few years ago, while structuring our multi-module Android project, we encounte
 ```
 project-root/
   - catalog/
-    - navigation/ # Desired Gradle module: :catalog:navigation
+    - navigation/ # Gradle module name: :catalog:navigation
     - ... other modules related to "catalog" feature ...
   - payments/
-    - navigation/ # Desired Gradle module: :payments:navigation
+    - navigation/ # Gradle module name: :payments:navigation
     - ... other modules related to "payments" feature ...
 ```
 
@@ -34,7 +34,7 @@ However, this seemingly logical structure hit a snag.
 
 ## The `.kotlin_module` File Collision Problem
 
-The Kotlin Gradle plugin generates metadata files for each module, typically named `<module_name>_debug.kotlin_module` or `<module_name>_release.kotlin_module`. The problem was that the `<module_name>` part only used the *simple* name of the module's directory (`navigation` in both cases above), ignoring the parent path (`catalog` or `payments`).
+The Kotlin Gradle plugin generates metadata files for each module, typically named `<module_name>_debug.kotlin_module` or `<module_name>_release.kotlin_module`. The problem was that the `<module_name>` part only used the *last section* of the module's path (`navigation` in both cases above), ignoring the parent path (`catalog` or `payments`).
 
 This meant both modules generated files with the *exact same names* (e.g., `navigation_debug.kotlin_module`). When the Android Gradle Plugin (AGP) tried to package these files into the final APK, it resulted in a file collision error.
 
@@ -56,7 +56,7 @@ project-root/
     - paymentsNavigation/ # Gradle module: :payments:paymentsNavigation
 ```
 
-This ensured unique simple module names (`catalogNavigation`, `paymentsNavigation`), leading to unique `.kotlin_module` file names (e.g., `catalogNavigation_debug.kotlin_module`, `paymentsNavigation_debug.kotlin_module`) and resolving the packaging conflict.
+This ensured unique module names (`catalogNavigation`, `paymentsNavigation`), leading to unique `.kotlin_module` file names (e.g., `catalogNavigation_debug.kotlin_module`, `paymentsNavigation_debug.kotlin_module`) and resolving the packaging conflict.
 
 **However, this prefixing approach had notable downsides:**
 
@@ -65,9 +65,9 @@ This ensured unique simple module names (`catalogNavigation`, `paymentsNavigatio
 
 ## Fast Forward: New Information Emerges
 
-Recently, through [discussions on relevant issue trackers](https://youtrack.jetbrains.com/issue/KT-9770/Allow-to-exclude-.kotlinclass-.kotlinmodule-other-.kotlin-files-from-packaging-to-android-APK) involving folks from Google and JetBrains, we learned something crucial: **the Android Gradle Plugin (AGP) now defaults to excluding `.kotlin_module` files during APK packaging.**
+Recently, through [discussions on relevant issue trackers](https://youtrack.jetbrains.com/issue/KT-9770/Allow-to-exclude-.kotlinclass-.kotlinmodule-other-.kotlin-files-from-packaging-to-android-APK) involving folks from Google and JetBrains, we learned something crucial: **the Android Gradle Plugin (AGP) now defaults to excluding `.kotlin_module` files during packaging.**
 
-The rationale seems to be that Kotlin isn't currently utilizing these files in the Android context, and their future necessity is uncertain. This effectively means the original naming collision problem *doesn't currently exist* for APK builds.
+The rationale seems to be that Kotlin isn't currently utilizing these files in the Android context, and their future necessity is uncertain. This effectively means the original naming collision problem *doesn't currently exist*.
 
 However, there's a catch: if Kotlin *does* start relying on these files in the future, and AGP consequently stops excluding them, the original collision problem could reappear for everyone who isn't prefixing their modules.
 
@@ -108,22 +108,18 @@ project(":catalog:catalogNavigation").projectDir = file("catalog/navigation")
 * Requires updating dependency declarations in `build.gradle(.kts)` files (e.g., change `implementation(project(":catalog:navigation")`) to `implementation(project(":catalog:catalogNavigation"))`).
 * Requires remembering the logical module path (`:catalog:catalogNavigation`) when running specific Gradle tasks (e.g., `./gradlew :catalog:catalogNavigation:assemble`)
 
-### Plan B: Using the -module-name Kotlin Compiler Option
+### Plan B: Setting Kotlin's Module Name
 
-Alternatively, we can keep the Gradle module names consistent with the directory structure (`:catalog:navigation`) and directly control the name used for the `.kotlin_module` file via [compiler arguments](https://kotlinlang.org/docs/compiler-reference.html#module-name-name-jvm) in each affected module's `build.gradle(.kts)`:
+Alternatively, we can keep the Gradle module names consistent with the directory structure (`:catalog:navigation`) and directly control the name used for the `.kotlin_module` file via [compiler option](https://kotlinlang.org/api/kotlin-gradle-plugin/kotlin-gradle-plugin-api/org.jetbrains.kotlin.gradle.dsl/-kotlin-jvm-compiler-options/#130663460%2FProperties%2F1690289358) or [compiler argument](https://kotlinlang.org/docs/compiler-reference.html#module-name-name-jvm) in each affected module's `build.gradle(.kts)`:
 
 ```kotlin
 // In catalog/navigation/build.gradle.kts
 android {
     kotlinOptions {
-        freeCompilerArgs += listOf("-module-name", "catalog_navigation")
-        // Groovy: freeCompilerArgs += ["-module-name", "catalog_navigation"]
+        moduleName = "com.example.catalog.navigation"
+        // or
+        freeCompilerArgs += listOf("-module-name", "com.example.catalog.navigation")
     }
-
-    // or
-    // compileOptions {
-    //     kotlinOptions.freeCompilerArgs += ...
-    // }
 }
 ```
 
@@ -141,4 +137,4 @@ We find the trade-offs of either plan acceptable. The potential future migration
 
 ## Conclusion
 
-While the `.kotlin_module` file collision was a genuine issue in the past, changes in AGP's default behavior have currently mitigated it for Android development. We've opted for cleaner, non-prefixed module names. We accept the small risk that we might need to implement one of our contingency strategies (`settings.gradle` mapping or `-module-name` flag) in the future if the underlying conditions change. For now, we benefit from a more readable, logical, and friendly project structure.
+While the `.kotlin_module` file collision was a genuine issue in the past, changes in AGP's default behavior have currently mitigated it for Android development. We've opted for cleaner, non-prefixed module names. We accept the small risk that we might need to implement one of our contingency strategies in the future if the underlying conditions change. For now, we benefit from a more readable, logical, and friendly project structure.
