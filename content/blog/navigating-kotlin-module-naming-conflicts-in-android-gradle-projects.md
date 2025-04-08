@@ -13,8 +13,6 @@ comments: false
 published: true
 language: en
 ---
-# Navigating Kotlin Module Naming Conflicts in Android Gradle Projects
-
 **TL;DR:** Structuring multi-module Android projects often leads to wanting identical sub-directory names (like `feature/navigation`). Historically, this caused build failures due to `.kotlin_module` file collisions. A common workaround was prefixing module names (e.g., `feature/featureNavigation`), but this hurts readability and can cause issues with Windows' maximum path length. This post explains that the Android Gradle Plugin (AGP) *currently* mitigates this collision by default, making prefixing less necessary *for now*. We discuss why we've decided to stop prefixing, embracing cleaner names, and detail our contingency plan using `settings.gradle` mapping if the problem ever returns.
 
 ## Setting the Scene: The Initial Challenge
@@ -61,8 +59,8 @@ This ensured unique simple module names (`catalogNavigation`, `paymentsNavigatio
 
 **However, this prefixing approach had notable downsides:**
 
-1.  **Reduced Readability:** Module names like `catalogNavigation` are longer and arguably less intuitive than a simple `navigation` within the context of its parent `catalog` directory. This repetition can make the project structure feel slightly more cumbersome.
-2.  **Windows Path Length Limit Issues:** In deeply nested projects, combining long parent directory paths with these prefixed module directory names could easily exceed the default `MAX_PATH` (260 characters) [limit on Windows](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation). This often prevented developers using Windows from successfully cloning the repository or building the project without manually enabling long path support in the Windows Registry or via Group Policy – a potentially annoying hurdle for contributors.
+1. **Reduced Readability:** Module names like `catalogNavigation` are longer and arguably less intuitive than a simple `navigation` within the context of its parent `catalog` directory. This repetition can make the project structure feel slightly more cumbersome.
+2. **Windows Path Length Limit Issues:** In deeply nested projects, combining long parent directory paths with these prefixed module directory names could easily exceed the default `MAX_PATH` (260 characters) [limit on Windows](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation). This often prevented developers using Windows from successfully cloning the repository or building the project without manually enabling long path support in the Windows Registry or via Group Policy – a potentially annoying hurdle for contributors.
 
 ## Fast Forward: New Information Emerges
 
@@ -76,8 +74,8 @@ However, there's a catch: if Kotlin *does* start relying on these files in the f
 
 This new information, combined with the known drawbacks of prefixing (readability and Windows path limits), presented us with a choice:
 
-1.  **Continue Prefixing:** Stick with our `catalogNavigation`, `paymentsNavigation` convention. It's safe against potential future issues but suffers from reduced readability and potential Windows path length problems.
-2.  **Stop Prefixing:** Revert to the more intuitive `navigation` module name within both `catalog` and `payments` directories. This improves readability and avoids path length issues but relies on Google and JetBrains finding a permanent solution *before* the problem potentially resurfaces.
+1. **Continue Prefixing:** Stick with our `catalogNavigation`, `paymentsNavigation` convention. It's safe against potential future issues but suffers from reduced readability and potential Windows path length problems.
+2. **Stop Prefixing:** Revert to the more intuitive `navigation` module name within both `catalog` and `payments` directories. This improves readability and avoids path length issues but relies on Google and JetBrains finding a permanent solution *before* the problem potentially resurfaces.
 
 ## Our Decision and Contingency Plans
 
@@ -101,11 +99,13 @@ project(":catalog:catalogNavigation").projectDir = file("catalog/navigation")
 ```
 
 **Pros:**
-- Keeps file system structure clean (`catalog/navigation`) and avoids Windows path limits.
+
+* Keeps file system structure clean (`catalog/navigation`) and avoids Windows path limits.
 
 **Cons:**
-- Requires updating dependency declarations in `build.gradle(.kts)` files (e.g., change `implementation(project(":catalog:navigation")`) to `implementation(project(":catalog:catalogNavigation"))`).
-- Requires remembering the logical module path (`:catalog:catalogNavigation`) when running specific Gradle tasks (e.g., `./gradlew :catalog:catalogNavigation:assemble`)
+
+* Requires updating dependency declarations in `build.gradle(.kts)` files (e.g., change `implementation(project(":catalog:navigation")`) to `implementation(project(":catalog:catalogNavigation"))`).
+* Requires remembering the logical module path (`:catalog:catalogNavigation`) when running specific Gradle tasks (e.g., `./gradlew :catalog:catalogNavigation:assemble`)
 
 ### Plan B: Using the -module-name Kotlin Compiler Option
 
@@ -128,16 +128,15 @@ android {
 
 **Pros:**
 
-- Keeps file system structure clean (`catalog/navigation`) and avoids Windows path limits.
-- Keeps Gradle module paths (`:catalog:navigation`) and dependency declarations (`implementation(project(":catalog:navigation"))`) intuitive and unchanged.
-- Gradle task invocation remains straightforward (`./gradlew :catalog:navigation:assemble`).
+* Keeps file system structure clean (`catalog/navigation`) and avoids Windows path limits.
+* Keeps Gradle module paths (`:catalog:navigation`) and dependency declarations (`implementation(project(":catalog:navigation"))`) intuitive and unchanged.
+* Gradle task invocation remains straightforward (`./gradlew :catalog:navigation:assemble`).
 
 **Cons:**
-- Requires adding specific `kotlinOptions` configuration to each module that could potentially conflict. Less centralized than the `settings.gradle` approach.
 
+* Requires adding specific `kotlinOptions` configuration to each module that could potentially conflict. Less centralized than the `settings.gradle` approach.
 
 We find the trade-offs of either plan acceptable. The potential future migration seems less disruptive than maintaining prefixed names indefinitely, especially since the need for this migration might never arise.
-
 
 ## Conclusion
 
