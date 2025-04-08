@@ -6,6 +6,7 @@ tags:
   - gradle
 date: 2025-04-08T10:33:40.018Z
 meaningfullyUpdatedAt: 2025-04-08T10:33:40.028Z
+slug: kotlin-module-naming-conflicts
 title: Navigating Kotlin Module Naming Conflicts in Android Gradle Projects
 layout: post
 hidden: false
