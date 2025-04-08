@@ -68,7 +68,7 @@ This ensured unique module names (`catalogNavigation`, `paymentsNavigation`), le
 
 Recently, through [discussions on relevant issue trackers](https://youtrack.jetbrains.com/issue/KT-9770/Allow-to-exclude-.kotlinclass-.kotlinmodule-other-.kotlin-files-from-packaging-to-android-APK) involving folks from Google and JetBrains, we learned something crucial: **the Android Gradle Plugin (AGP) now defaults to excluding `.kotlin_module` files during packaging.**
 
-The rationale seems to be that Kotlin isn't currently utilizing these files in the Android context, and their future necessity is uncertain. This effectively means the original naming collision problem *doesn't currently exist*.
+The rationale seems to be that Kotlin isn't currently utilizing these files, and their future necessity is uncertain. This effectively means the original naming collision problem *doesn't currently exist*.
 
 However, there's a catch: if Kotlin *does* start relying on these files in the future, and AGP consequently stops excluding them, the original collision problem could reappear for everyone who isn't prefixing their modules.
 
