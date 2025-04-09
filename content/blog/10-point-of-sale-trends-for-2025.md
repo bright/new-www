@@ -38,7 +38,7 @@ language: en
 
 [Scan & go with your device](/blog/point-of-sale-trends/#scan--go-with-your-device)
 
-[The continuous rise of cloud-based Point of Sale systems](/point-of-sale-trends/#the-continuous-rise-of-cloud-based-point-of-sale-systems)
+[The continuous rise of cloud-based Point of Sale systems](/blog/point-of-sale-trends/#the-continuous-rise-of-cloud-based-point-of-sale-systems)
 
 ## The continuous rise of QR code ordering as a response to restaurant staff shortages
 
