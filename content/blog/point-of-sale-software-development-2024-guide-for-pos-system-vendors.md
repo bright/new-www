@@ -6,7 +6,7 @@ tags:
 date: 2024-10-16T07:06:46.573Z
 meaningfullyUpdatedAt: 2024-11-28T07:10:00.105Z
 slug: pos-software-development-guide
-title: "POS Software Development: 2025 Guide for Point of Sale System Vendors"
+title: "POS Software Development: 2025 Guide for Custom Point of Sale System"
 layout: post
 image: /images/pos_development_guide_blog_cover.png
 hidden: false
