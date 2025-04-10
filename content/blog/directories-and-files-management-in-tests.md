@@ -7,7 +7,7 @@ tags:
   - typescript
 date: 2025-04-10T10:44:02.111Z
 meaningfullyUpdatedAt: 2025-04-10T10:44:02.122Z
-title: Directories and files management in tests
+title: Directories and Files Management in Tests
 layout: post
 image: /images/directories_files_test.png
 hidden: false
