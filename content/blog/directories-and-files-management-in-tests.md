@@ -22,6 +22,8 @@ language: en
 3. Add `/**/runtime-test-files` to `.gitignore`
 4. Write tests using the classes following examples below
 
+<div className="image">![test management](/images/directories_files_test.png "test management")</div>
+
 ## Intro
 
 When working with file-based tests in Node.js, things can get messy fast—especially if there’s no consistency in how test files are handled. You might start off by manually setting up folders or sprinkling file operations throughout `beforeEach` and `afterAll` blocks. Eventually, though, this becomes hard to maintain, prone to errors, and cluttered.
