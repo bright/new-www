@@ -9,25 +9,24 @@ date: 2025-04-10T10:44:02.111Z
 meaningfullyUpdatedAt: 2025-04-10T10:44:02.122Z
 title: Directories and files management in tests
 layout: post
+image: /images/directories_files_test.png
 hidden: false
 comments: false
 published: true
 language: en
 ---
-# TL;DR
+## TL;DR
 
 1. Create class `StaticTestFilesDirectory` with content provided below
 2. Create class `RuntimeTestFilesDirectory`
 3. Add `/**/runtime-test-files` to `.gitignore`
 4. Write tests using the classes following examples below
 
-# Intro
+## Intro
 
 When working with file-based tests in Node.js, things can get messy fast—especially if there’s no consistency in how test files are handled. You might start off by manually setting up folders or sprinkling file operations throughout `beforeEach` and `afterAll` blocks. Eventually, though, this becomes hard to maintain, prone to errors, and cluttered.
 
 Let’s fix that by introducing a standardized approach to managing test files and directories in your Node.js project using simple wrappers around the native `fs` and `path` modules.
-
-
 
 ## 🔍 Why It Matters
 
@@ -39,8 +38,6 @@ In test suites that work with files—whether reading static assets or generatin
 * ❌ Confusion between static inputs and generated outputs
 
 Let’s solve these with two small utility classes.
-
-
 
 ## ✅ The Conventions
 
@@ -95,10 +92,7 @@ describe('Static test file usage', () => {
         expect(content).toBe('Static test file.');
     });
 });
-
 ```
-
-
 
 ## 🛠️ RuntimeTestFilesDirectory
 
@@ -140,10 +134,7 @@ export class RuntimeTestFilesDirectory {
         return path.resolve(this.directory, filePath);
     }
 }
-
 ```
-
-
 
 ### Example test
 
@@ -171,10 +162,7 @@ describe('Runtime-generated test files', () => {
         expect(content).toEqual('Name,LastName,Age\nRadek,Landowski,22');
     });
 });
-
 ```
-
-
 
 ## 🧼 Final Thoughts
 
