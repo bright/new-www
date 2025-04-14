@@ -32,8 +32,6 @@ interface WebsiteProps {
   certificateArn: string
   ebooksBucket: IBucket
   ebooksOriginAccessIdentity: OriginAccessIdentity
-  resourcesBucket: IBucket
-  resourcesOriginAccessIdentity: OriginAccessIdentity
   prefix?: string
   apiUrl: string
 }
@@ -102,24 +100,14 @@ export class Website extends cdk.Stack {
         {
           pathPattern: '/ebooks/*', // this prefix must match ebooks s3 bucket content
         },
-      ],
-    }
-
-    const resourcesDownloadOrigin: SourceConfiguration = {
-      s3OriginSource: {
-        s3BucketSource: props.resourcesBucket,
-        originAccessIdentity: props.resourcesOriginAccessIdentity,
-      },
-      behaviors: [
         {
-          pathPattern: '/resources/*', // this prefix must match resources s3 bucket content
+          pathPattern: '/resources/*', // this prefix must match ebooks s3 bucket content
         },
         {
           pathPattern: '/slideshow/*', // this prefix must match ebooks s3 bucket content
         },
       ],
     }
-
     const apiOrigin: SourceConfiguration = {
       customOriginSource: {
         domainName: apiEndPointDomainName,
@@ -180,7 +168,6 @@ export class Website extends cdk.Stack {
       priceClass: PriceClass.PRICE_CLASS_ALL,
       originConfigs: [
         ebooksDownloadOrigin,
-        resourcesDownloadOrigin,
         apiOrigin,
         {
           // we don't use s3 origin as gatsby-s3-deploy features will not work
@@ -206,7 +193,6 @@ export class Website extends cdk.Stack {
       priceClass: PriceClass.PRICE_CLASS_ALL,
       originConfigs: [
         ebooksDownloadOrigin,
-        resourcesDownloadOrigin,
         apiOrigin,
         {
           // we don't use s3 origin as gatsby-s3-deploy features will not work

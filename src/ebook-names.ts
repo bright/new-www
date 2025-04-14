@@ -4,4 +4,6 @@ export const ebookNames = [
   'Optimise-Sign-In-Experience.pdf',
   'Scale-Your-Healthtech-Solution-Successfully.pdf',
   'Risk-Management-in-eHealth-The-Agile-Way.pdf',
+  'User-Persona-For-Point-Of-Sale.pdf',
+  'Redefine-Your-POS.pdf',
 ]

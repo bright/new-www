@@ -126,7 +126,7 @@ export const handler: APIGatewayProxyHandlerV2 = async (event, context) => {
     body: {
       ebook: {
         name: ebookName,
-        url: `https://brightinventions.pl/ebooks/${ebookToDownload.name}`,
+        url: `https://brightinventions.pl/${ebookToDownload.key}`,
       },
     },
   })
