@@ -5,6 +5,7 @@ import { HttpLambdaIntegration } from '@aws-cdk/aws-apigatewayv2-integrations-al
 import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs'
 import { Bucket } from 'aws-cdk-lib/aws-s3'
 import { ebooksBucketName } from './ebooks-bucket-name'
+import { resourcesBucketName } from './resources-bucket-name'
 import { Table } from 'aws-cdk-lib/aws-dynamodb'
 import { deployEnv, envSpecificName } from './deploy-env'
 import { OriginAccessIdentity } from 'aws-cdk-lib/aws-cloudfront'
@@ -32,6 +33,8 @@ export class Api extends Stack {
   private httpApi: HttpApi
   readonly ebooks: Bucket
   readonly ebooksOriginAccessIdentity: OriginAccessIdentity
+  readonly resources: Bucket
+  readonly resourcesOriginAccessIdentity: OriginAccessIdentity
   private ebookSignUps: Topic
 
   constructor(scope: Construct, id: string, props: ApiProps) {
@@ -55,6 +58,15 @@ export class Api extends Stack {
       bucketName: ebooksBucketName(),
     })
     this.ebooks.grantRead(this.ebooksOriginAccessIdentity)
+
+    this.resourcesOriginAccessIdentity = new OriginAccessIdentity(this, 'resources cf oai', {
+      comment: 'Resources S3 access is restricted',
+    })
+
+    this.resources = new Bucket(this, 'resources-storage', {
+      bucketName: resourcesBucketName(),
+    })
+    this.resources.grantRead(this.resourcesOriginAccessIdentity)
 
     this.ebookSignUps = new Topic(this, 'ebook-signups', {
       topicName: ebookSignUpsTopicName(),
