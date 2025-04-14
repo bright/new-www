@@ -3,4 +3,5 @@ export const ebookNames = [
   'From-MVP-to-a-Final-Product.pdf',
   'Optimise-Sign-In-Experience.pdf',
   'Scale-Your-Healthtech-Solution-Successfully.pdf',
+  'Risk-Management-in-eHealth-The-Agile-Way.pdf',
 ]
