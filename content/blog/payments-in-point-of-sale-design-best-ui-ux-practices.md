@@ -18,7 +18,7 @@ language: en
 ---
 **If you develop a [point of sale system for the hospitality](/projects/system-for-restaurants/) and retail industries, you're aware that your end users are busy. Whether they're waitstaff or shop assistants, they need to complete payment processes quickly. Every additional screen or unnecessary animation will slow them down, potentially leading to lost revenue for these businesses. Follow best POS UI design practices when designing payment features for hospitality and retail.**
 
-<EbookDynamic sectionTitle='Think you know your POS user persona?' ebookName='User-Persona-For-Point-Of-Sale.pdf' ebookDescription={'Download our UX research on the Point-of-Sale persona. Discover her habits, frustrations, and the goals she wants to achieve with POS software.'} ebookImage='/images/cover_user_persona.png' ebookAlt='user persona cover' />
+<EbookDynamic sectionTitle='Think you know your POS user persona?' ebookName='User-Persona-For-Point-Of-Sale.pdf' ebookDescription={'Download our UX research on the Point-of-Sale persona. Discover their habits, frustrations, and the goals they want to achieve with POS software.'} ebookImage='/images/cover_user_persona.png' ebookAlt='user persona cover' />
 
 ## Include these practices for payment UI
 
@@ -63,8 +63,6 @@ Another great example of the Don’t Make Me Think principle is **the design of 
 As demonstrated, the end user simply provides the number of splits and payment methods, and the POS system guides them through the entire process seamlessly.
 
 <div className="image">![Split payment design](/images/don’t-make-them-think-split-payment.png "Split payment design")</div>
-
-
 
 - - -
 
