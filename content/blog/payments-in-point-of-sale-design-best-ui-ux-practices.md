@@ -6,7 +6,7 @@ tags:
   - POS
   - design
 date: 2024-10-01T09:09:50.523Z
-meaningfullyUpdatedAt: 2024-10-01T09:09:51.182Z
+meaningfullyUpdatedAt: 2025-04-14T13:35:21.984Z
 slug: payment-point-of-sale-design-ui-ux
 title: "Payment in POS Design: UI/UX Best Practices and Inspirations"
 layout: post
@@ -18,7 +18,7 @@ language: en
 ---
 **If you develop a [point of sale system for the hospitality](/projects/system-for-restaurants/) and retail industries, you're aware that your end users are busy. Whether they're waitstaff or shop assistants, they need to complete payment processes quickly. Every additional screen or unnecessary animation will slow them down, potentially leading to lost revenue for these businesses. Follow best POS UI design practices when designing payment features for hospitality and retail.**
 
-<div className="image">![POS design UX/UI practices](/images/establish-button-hierarchy.png "POS")</div>
+<EbookDynamic sectionTitle='Think you know your POS user persona?' ebookName='User-Persona-For-Point-Of-Sale.pdf' ebookDescription={'Download our UX research on the Point-of-Sale persona. Discover her habits, frustrations, and the goals she wants to achieve with POS software.'} ebookImage='/images/cover_user_persona.png' ebookAlt='user persona cover' />
 
 ## Include these practices for payment UI
 
@@ -64,7 +64,7 @@ As demonstrated, the end user simply provides the number of splits and payment m
 
 <div className="image">![Split payment design](/images/don’t-make-them-think-split-payment.png "Split payment design")</div>
 
-What other design best practices would you list in this article? Let us know in the comments!
+
 
 - - -
 
