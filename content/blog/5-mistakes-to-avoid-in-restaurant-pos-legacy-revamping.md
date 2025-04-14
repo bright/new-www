@@ -77,3 +77,5 @@ As you can see, waitstaff needs can be very specific – these are just a couple
 Check out our approach towards POS modernization. Read the story of [30 years old restaurant POS system](https://brightinventions.pl/projects/pos-legacy/) that our team revamped.
 
 <YouTubeEmbed url='https://youtu.be/q5bMu2FnhOs' />
+
+<EbookDynamic sectionTitle='Eager to know more about POS user persona?' ebookName='User-Persona-For-Point-Of-Sale.pdf' ebookDescription={'Download the results of our UX research for free. This PDF is just a few clicks away!'} ebookImage='/images/cover_user_persona.png' ebookAlt='user persona pdf' />
