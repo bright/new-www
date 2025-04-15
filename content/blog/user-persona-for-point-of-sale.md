@@ -6,7 +6,7 @@ tags:
   - design
 date: 2025-04-15T08:45:59.216Z
 meaningfullyUpdatedAt: 2025-04-15T08:45:59.231Z
-title: User Persona for Point of Sale
+title: Who is Jennifer? User Persona for Point of Sale
 layout: post
 image: /images/cover_blog_post_pos_user_persona.png
 hidden: false
