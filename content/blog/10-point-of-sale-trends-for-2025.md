@@ -78,6 +78,8 @@ Building a custom point of sale allows all orders, whether from in-house dining,
 
 Check the example of [POS and food delivery apps integration](/projects/pos-third-party-delivery/) which helped eliminate device declutter in restaurants.
 
+<EbookDynamic sectionTitle='Struggling to understand your POS users?' ebookName='User-Persona-For-Point-Of-Sale.pdf' ebookDescription={'Meet Jennifer—the frontline staff persona crafted from 13+ years of POS experience.'} ebookImage='/images/cover_user_persona.png' ebookAlt='user persona cover' />
+
 ## Managing devices integrated with POS using MDM (Mobile Device Management)
 
 Even if all food delivery orders are synced to a single device (especially in mobile POS systems), businesses still face the challenge of managing multiple hardware components, from tablets, terminals and printers to kiosks and even electronic scales in some cases.
