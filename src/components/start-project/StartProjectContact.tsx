@@ -144,7 +144,7 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
             value={message}
             onChange={e => setMessage(e.target.value)}
             maxLength={5000}
-            placeholder='Tell us more about what you need help with'
+            placeholder='Let us know what you need help with'
             className={message ? 'isSelected' : ''}
           />
 
