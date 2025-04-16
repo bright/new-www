@@ -117,7 +117,7 @@ testimonials:
     testimonials_position: Founder
     testimonials_company: Relevo
     testimonials_photo: /images/matthias_potthast.png
-show_team: true
+show_team: false
 ---
 ## healthcare technology consulting
 
