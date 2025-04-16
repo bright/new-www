@@ -138,13 +138,13 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
             </DoubleInputsRowEntry>
           </DoubleInputsRow>
 
-          <Label>Your Idea</Label>
+          <Label>Message</Label>
           <IdeaTextArea
             name='message'
             value={message}
             onChange={e => setMessage(e.target.value)}
             maxLength={5000}
-            placeholder='Describe your project'
+            placeholder='Tell us more about what you need help with'
             className={message ? 'isSelected' : ''}
           />
 
@@ -175,7 +175,7 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
             <Loader className='loader'></Loader>
           ) : (
               <MoreButton isSubmit isBlack marginTop='32px'>
-              let’s talk
+              send
             </MoreButton>
           )}
           <div>
@@ -201,7 +201,7 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
         )}
         {error && (
           <ErrorMessage>
-            <p>Your application wasn’t submitted. Please try again.</p>
+            <p>Your form wasn’t submitted. Please try again.</p>
           </ErrorMessage>
         )}
       </Container>
