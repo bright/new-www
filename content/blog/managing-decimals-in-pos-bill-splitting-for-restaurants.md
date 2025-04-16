@@ -52,6 +52,8 @@ When handling decimals in code for monetary values using **floating-point types*
 
 `Float` and `double` are designed to handle a wide range of values by approximating them, which can introduce rounding errors – a critical issue when dealing with money. Due to the way floating-point arithmetic works, numbers cannot always be stored exactly, leading to inaccuracies. For example, performing a calculation with float might result in values like 0.999999999 instead of 1. **This lack of precision makes float and double unsuitable for representing currency**.
 
+<EbookDynamic sectionTitle='Developing POS for real people starts with real stories' ebookName='User-Persona-For-Point-Of-Sale.pdf' ebookDescription={'Discover Jennifer’s daily challenges and goals to build POS systems that truly serve.'} ebookImage='/images/cover_user_persona.png' ebookAlt='cover user persona' />
+
 ### Recommended approaches for currency decimal coding
 
 * **Use integers**
