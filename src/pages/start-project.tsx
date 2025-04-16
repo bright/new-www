@@ -65,8 +65,8 @@ const StartProjectPage: React.FC = () => {
   return (
     <Page>
       <HelmetMetaData
-        title='Estimate a project'
-        description='Estimate your project based on a description and technologies'
+        title='Let’s talk about your digital product'
+        description='Describe your tech challenges, and we’ll show you how we can help solve them'
       />
       <CustomSection
         paddingProps='0 240px 124px'
@@ -89,7 +89,7 @@ const StartProjectPage: React.FC = () => {
             laptopFontSize='44px'
             fontSize='48px'
           >
-            let’s talk about your product idea
+            let’s talk about your digital product
           </CustomPageTitle>
         </CustomSection>
 
