@@ -147,7 +147,7 @@ description_mdx: We are Bright Inventions – a software development company
   developed software for more than 40 clients from the USA, the UK, Norway,
   Israel and more.
 image_our_service: /images/iot_development_1.png
-show_team: true
+show_team: false
 ---
 ## comprehensive IoT services
 
