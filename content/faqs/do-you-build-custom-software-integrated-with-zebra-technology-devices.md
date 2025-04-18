@@ -1,9 +1,9 @@
 ---
 layout: faqs
-faqs_id: Do you build custom software integrated with Zebra Technology devices?
-name: Do you build custom software integrated with Zebra Technology devices?
+faqs_id: Do you build custom software integrated with Zebra Technologies devices?
+name: Do you build custom software integrated with Zebra Technologies devices?
 slug: do-you-build-custom-software-integrated-with-zebra-technologies
-question: Do you build custom software integrated with Zebra Technology devices?
+question: Do you build custom software integrated with Zebra Technologies devices?
 answer: >-
   Yes — we build exclusively custom solutions for companies that want to get
   more out of the Zebra devices they already own or plan to purchase.
