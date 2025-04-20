@@ -1,5 +1,5 @@
 import * as cdk from 'aws-cdk-lib'
-import { Arn, CfnOutput, Duration, RemovalPolicy } from 'aws-cdk-lib'
+import { Arn, CfnOutput, RemovalPolicy } from 'aws-cdk-lib'
 import { Bucket, IBucket } from 'aws-cdk-lib/aws-s3'
 import {
   Behavior,
@@ -17,10 +17,6 @@ import {
 import { Effect, PolicyStatement, User } from 'aws-cdk-lib/aws-iam'
 import { productionDomainNames, stagingDomainNames } from './domain-names'
 import { Certificate } from 'aws-cdk-lib/aws-certificatemanager'
-import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs'
-import { Runtime } from 'aws-cdk-lib/aws-lambda'
-import { Rule, Schedule } from 'aws-cdk-lib/aws-events'
-import { LambdaFunction } from 'aws-cdk-lib/aws-events-targets'
 import { Construct } from 'constructs'
 import { ENV_SPECIFIC_BASE } from './deploy-env'
 import { EsbuildProvider } from '@mrgrain/cdk-esbuild'
@@ -212,41 +208,6 @@ export class Website extends cdk.Stack {
         bucket: accessLogs,
         prefix: cloudfrontAccessLogPrefix,
       },
-    })
-
-    const scheduleRate = Duration.days(1)
-
-    const notifyOn404 = new NodejsFunction(this, 'notify-on-404', {
-      runtime: Runtime.NODEJS_14_X,
-      entry: path.join(__dirname, 'notify-on-404.ts'),
-      handler: 'find404InS3OnSchedule',
-      timeout: Duration.minutes(1),
-      environment: {
-        BUCKET_NAME: accessLogs.bucketName,
-        BUCKET_KEYS_PREFIX: `${cloudfrontAccessLogPrefix}/${productionWebDistribution.distributionId}.`,
-        SCHEDULE_RATE_MINUTES: scheduleRate.toMinutes().toString(),
-      },
-    })
-
-    notifyOn404.addToRolePolicy(
-      new PolicyStatement({
-        effect: Effect.ALLOW,
-        actions: ['ses:SendEmail'],
-        resources: ['*'],
-      })
-    )
-
-    accessLogs.grantRead(notifyOn404)
-
-    // we could use s3 notification
-    // but the logs files are created very often
-    // and we'd need to pay more than if we parse the logs on schedule
-    // accessLogs.addObjectCreatedNotification(new LambdaDestination(notifyOn404), {
-    //       prefix: cloudfrontAccessLogPrefix,
-    //     })
-    new Rule(this, 'Parse Access Logs', {
-      schedule: Schedule.rate(scheduleRate),
-      targets: [new LambdaFunction(notifyOn404)],
     })
 
     user.addToPolicy(
