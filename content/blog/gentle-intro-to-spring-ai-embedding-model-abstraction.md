@@ -1,0 +1,183 @@
+---
+author: piotr
+tags:
+  - spring
+  - ai
+  - vector
+date: 2025-04-20T10:00:00.000Z
+meaningfullyUpdatedAt: 2025-04-20T10:00:00.000Z
+slug: gentle-intro-to-spring-ai-embedding-model-abstraction
+title: A Gentle Introduction to Spring AI's Embedding Model Abstraction
+layout: post
+image: /images/spring-ai-gentle-intro-embed.png
+hidden: false
+comments: false
+published: true
+language: en
+---
+
+**In this article, we'll present a simple example of using embedding models to perform semantic search via pgvector.
+Learn how Spring AI's Embedding Model abstraction makes it easy to implement powerful semantic search capabilities in
+your Spring Boot applications.**
+
+## Introduction to Embedding Models
+
+Embedding models transform text into numerical vector representations, capturing semantic meaning in a way that machines
+can understand. These vectors enable powerful semantic search capabilities, allowing us to find content based on meaning
+rather than just keyword matching.
+
+Spring AI provides a clean abstraction for working with embedding models through its `EmbeddingModel` interface, making
+it straightforward to integrate these capabilities into your Spring Boot applications.
+
+## The Support Assistant Demo Project
+
+To demonstrate the power of embedding models, we've created a simple support assistant application that uses AI to
+provide support responses based on previous support tickets. The application:
+
+1. Converts customer messages into vector embeddings
+2. Finds semantically similar previous support tickets using vector search
+3. Uses these similar tickets as context for generating a response
+
+Let's explore the key components of this system.
+
+## The Embedding Model API
+
+At the heart of our application is Spring AI's [
+`EmbeddingModel`](https://docs.spring.io/spring-ai/reference/api/embeddings.html) interface. Here's how we use it in our
+service:
+
+```kotlin
+@Service
+class ResponseSuggestionService(
+    private val embeddingModel: EmbeddingModel,
+    private val supportTicketRepository: SupportTicketRepository,
+    // ...
+) {
+    fun suggestResponse(customerMessage: String, limit: Int = 5): String {
+        // Generate embedding for the customer message
+        val embedding = embeddingModel.embed(customerMessage)
+
+        // Find similar tickets
+        val similarTickets = supportTicketRepository.findSimilarTickets(embedding, limit)
+
+        // ...
+    }
+}
+```
+
+The `embeddingModel.embed()` method converts text into a vector representation, which we can then use to find
+semantically similar content.
+
+## Vector Search with pgvector
+
+Once we have our text converted to vectors, we need a way to efficiently search for similar vectors. This is where
+PostgreSQL's pgvector extension comes in.
+
+### The Repository Query
+
+The heart of our semantic search is the `findSimilarTickets` method in our repository:
+
+```kotlin
+@Query(
+    value = """
+    SELECT * FROM support_tickets
+    WHERE embedding <=> (:embedding)::vector < :threshold
+    ORDER BY embedding <=> (:embedding)::vector
+    LIMIT :limit
+""",
+    nativeQuery = true
+)
+fun findSimilarTickets(
+    @Param("embedding") embedding: FloatArray,
+    @Param("limit") limit: Int,
+    @Param("threshold") threshold: Float = 0.5f, // 0 perfect matches, 1 different concept, 2 opposite
+): List<SupportTicket>
+```
+
+Let's break down this query:
+
+1. `embedding <=> (:embedding)::vector` - This calculates the cosine distance between the stored embedding and our query
+   embedding
+2. `WHERE ... < :threshold` - We filter results to only include those with a distance less than our threshold
+3. `ORDER BY embedding <=> (:embedding)::vector` - We order results by distance, with closest matches first
+4. `LIMIT :limit` - We limit the number of results returned
+
+The `<=>` operator is pgvector's cosine distance operator, which measures the dissimilarity between vectors.
+
+## Cosine Distance vs. Cosine Similarity
+
+It's important to understand the difference between cosine distance and cosine similarity:
+
+- **Cosine Similarity**: Ranges from -1 to 1
+    - 1: Vectors are identical
+    - 0: Vectors are orthogonal (unrelated)
+    - -1: Vectors are opposite
+- **Cosine Distance**: Defined as 1 - cosine similarity, ranges from 0 to 2
+    - 0: Identical vectors
+    - 1: Unrelated vectors
+    - 2: Opposite vectors
+
+In our application, we use cosine distance with a threshold of 0.5, meaning we only consider tickets with a reasonable
+semantic similarity to our query.
+
+## Using Ollama for Embeddings
+
+For our embedding model, we're using Ollama with two specific models:
+
+- **mistral** - The default model for generating responses
+- **mxbai-embed-large** - A specialized model for generating embeddings
+
+Ollama provides a lightweight way to run these models locally, making it perfect for development and testing.
+
+## Setting Up Vector Storage
+
+To use vector embeddings with PostgreSQL and Hibernate, we need a few key components:
+
+### SQL Migration
+
+First, we need to set up our database with the pgvector extension:
+
+```sql
+CREATE
+EXTENSION IF NOT EXISTS vector;
+
+CREATE TABLE support_tickets
+(
+    -- other columns...
+    embedding vector(1024)
+);
+
+CREATE INDEX ON support_tickets USING ivfflat (embedding vector_cosine_ops) WITH (lists = 100);
+```
+
+The key points here are:
+
+- We create a vector column with 1024 dimensions
+- We create an index using the IVF algorithm optimized for cosine distance operations
+
+### Hibernate Configuration
+
+On the Java side, we need the Hibernate Vector extension:
+
+```kotlin
+dependencies {
+    implementation("org.hibernate.orm:hibernate-vector:6.6.11.Final")
+    implementation("org.springframework.ai:spring-ai-pgvector-store-spring-boot-starter")
+    // ...
+}
+```
+
+This extension allows Hibernate to work with PostgreSQL's vector type, mapping between Java's `FloatArray` and
+PostgreSQL's `vector`.
+
+## Conclusion
+
+Spring AI's Embedding Model abstraction provides a clean, simple way to work with vector embeddings in your Spring Boot
+applications. Combined with PostgreSQL's pgvector extension, it enables powerful semantic search capabilities with
+minimal code.
+
+In our next blog post, we'll explore how to use Spring AI's `VectorStore` abstraction to simplify vector storage and
+retrieval even further, eliminating the need for custom repository methods.
+
+The full source code for this example is available
+in [GitHub](https://github.com/miensol/spring-ai-gentle-intro/tree/70dc3dc394d32995aadc80f220932254a5658b01).
