@@ -11,16 +11,15 @@ our_service_id: zebra-technologies-integrations
 meta_title: Building Software Aligned with Zebra Technologies
 meta_description: See Everything with Custom Software Aligned to Zebra Technologies
 our_services_icon: /images/modernization_icon.png
-name: Zebra Technologies Integrations
+name: Zebra Technologies integrations
 slug: zebra-technologies-integrations
 short_description: Stop losing track — we build custom software that powers your
   Zebra Technologies devices.
 order: 99
-title: Lost Assets Cost You — We Build Zebra Technologies-Aligned Software to
-  Change That
+title: tailored software that powers your Zebra Technologies devices
 highlighted_word: Zebra Technologies
 image_our_service_desktop: /images/zebra_integrations_desktop.png
-image_our_service_mobile: /images/zebra_integrations_mobile_update.png
+image_our_service_mobile: /images/zebra_integrations_mobile_update2.png
 image_alt_our_service: Zebra devices
 bullet_points:
   - Custom asset tracking software built exclusively for you
@@ -39,7 +38,7 @@ show_technology_stack: true
 title_team: team
 title_case_study: dive deeper into our portfolio
 title_faqs: Zebra Technologies FAQs
-title_contact: let's talk
+title_contact: let's talk how we can empower your Zebra devices
 description_contact: Tell us more about your tech challenges and we'll find
   solution! Fill out the form below and we'll get back to you in 48 hours.
 language: en
@@ -67,27 +66,27 @@ testimonials:
     testimonials_company: AppAdvisors GmbH
 show_team: false
 ---
-## If it’s missing, it’s not managed — hire a team that builds software around your needs
+## Hire a team that builds software around your needs — fully integrated with Zebra devices
 
-Out-of-the-box doesn’t fit everyone. With 13+ years of experience, we build what actually works — custom software for your business.
+If off-the-shelf worked, you wouldn’t be here. With 13+ years of experience, we build what actually works.
 
-**Get every feature you need to grow**  
-If off-the-shelf worked, you wouldn’t be here — we build what they don’t offer.
+**Get every feature you need to grow**\
+We build what out-of-the-box doesn’t offer. 
 
-**Track every asset in real time**  
+**Track every asset in real time**\
 Always know the location and status of your devices, tools, and inventory.
 
-**Do more with Zebra devices you already own**  
-Turn your devices into trackers — no extra hardware, no extra costs with custom built applications delivered exclusively for your business.
+**Do more with Zebra devices you already own**\
+Turn your devices into trackers — no extra hardware costs.
 
-**Transform printers into powerful retail tools**  
-From labeling and inventory to point-of-sale support — unlock the full potential of Zebra printers with custom integrations built for your workflow.
+**Transform Zebra printers into powerful retail tools**\
+From labeling to point-of-sale support — unlock the full potential of Zebra printers.
 
-**Track what others can’t**  
-Even in hard-to-reach places — through concrete walls, high-traffic zones, or when monitoring unique conditions like water quality.
+**Track what others can’t**\
+Even through concrete walls, high-traffic zones, or when monitoring unique conditions like water quality.
 
-**Speed up any production**  
+**Speed up any production**\
 Pinpoint delays by tracking how long parts sit at each station.
 
-**Know exactly where your shipments are**  
+**Know exactly where your shipments are**\
 No more guessing. Just accurate, real-time delivery insights.
