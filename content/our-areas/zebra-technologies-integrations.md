@@ -31,6 +31,7 @@ bar_stack:
   - Android
   - Bluetooth Low Energy
   - iBeacon
+  - AWS
 button: hire us
 button2: hire us now
 published: true
