@@ -68,7 +68,7 @@ testimonials:
     testimonials_company: AppAdvisors GmbH
 show_team: false
 ---
-## Hire a team that builds software around your needs — fully integrated with Zebra devices
+## hire a team that builds software around your needs — fully integrated with Zebra devices
 
 If off-the-shelf worked, you wouldn’t be here. With 13+ years of experience, we build what actually works.
 
