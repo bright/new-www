@@ -23,8 +23,8 @@ bar_achievements:
     label: Custom IoT System
   - number: "2"
     label: Continents
-  - number: 1000+
-    label: Fish crates tracked
+  - number: "2"
+    label: "Mobile platforms: iOS & Android"
 tags:
   - IoT
   - mobile app
@@ -45,7 +45,7 @@ language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
-<Gallery images='[{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/android_stack_logo.svg","alt":"Node.js"},{"src":"/images/bluetooth_stack_logo.svg","alt":"React"},{"src":"/images/zebra_technologies_stack_update_logo.svg","alt":"Zebra Technologies"}]' />
+<Gallery images='[{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/android_stack_logo.svg","alt":"Node.js"},{"src":"/images/bluetooth_stack_logo.svg","alt":"React"},{"src":"/images/zebra_technologies_stack_logo_bigger.svg","alt":"Zebra Technologies"}]' />
 
 technologies: Swift, Android, Bluetooth Low Energy, Zebra Technologies
 
