@@ -23,8 +23,8 @@ bar_achievements:
     label: Custom IoT System
   - number: "2"
     label: Continents
-  - number: 1000+
-    label: Fish crates tracked
+  - number: "2"
+    label: "Mobile platforms: iOS & Android"
 tags:
   - IoT
   - mobile app
