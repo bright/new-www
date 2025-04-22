@@ -66,27 +66,27 @@ testimonials:
     testimonials_company: AppAdvisors GmbH
 show_team: false
 ---
-## If it’s missing, it’s not managed — hire a team that builds software around your needs
+## Hire a team that builds software around your needs — fully integrated with Zebra devices
 
-Out-of-the-box doesn’t fit everyone. With 13+ years of experience, we build what actually works — custom software for your business.
+Out-of-the-box doesn’t fit everyone. With 13+ years of experience, we build what actually works.
 
-**Get every feature you need to grow**  
+**Get every feature you need to grow**\
 If off-the-shelf worked, you wouldn’t be here — we build what they don’t offer.
 
-**Track every asset in real time**  
+**Track every asset in real time**\
 Always know the location and status of your devices, tools, and inventory.
 
-**Do more with Zebra devices you already own**  
-Turn your devices into trackers — no extra hardware, no extra costs with custom built applications delivered exclusively for your business.
+**Do more with Zebra devices you already own**\
+Turn your devices into trackers — no extra hardware costs.
 
-**Transform printers into powerful retail tools**  
-From labeling and inventory to point-of-sale support — unlock the full potential of Zebra printers with custom integrations built for your workflow.
+**Transform Zebra printers into powerful retail tools**\
+From labeling to point-of-sale support — unlock the full potential of Zebra printers.
 
-**Track what others can’t**  
-Even in hard-to-reach places — through concrete walls, high-traffic zones, or when monitoring unique conditions like water quality.
+**Track what others can’t**\
+Even through concrete walls, high-traffic zones, or when monitoring unique conditions like water quality.
 
-**Speed up any production**  
+**Speed up any production**\
 Pinpoint delays by tracking how long parts sit at each station.
 
-**Know exactly where your shipments are**  
+**Know exactly where your shipments are**\
 No more guessing. Just accurate, real-time delivery insights.
