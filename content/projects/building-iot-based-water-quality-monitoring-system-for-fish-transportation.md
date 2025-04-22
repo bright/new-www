@@ -48,3 +48,9 @@ language: en
 <Gallery images='[{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/android_stack_logo.svg","alt":"Node.js"},{"src":"/images/bluetooth_stack_logo.svg","alt":"React"},{"src":"/images/aws_stack_logo_update.svg"}]' />
 
 technologies: Swift, Android, Bluetooth Low Energy, Zebra Technologies
+
+<TitleWithIcon sectionTitle="problem: unreliable water monitoring for temperature-sensitive foods" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+
+In the food industry, precise temperature control during transportation is essential — fish transportation highlights the issue. As one of the most temperature-sensitive foods, **fish must stay between 0°C and 4°C (32°F to 39°F)**. Even small deviations can lead to contamination.
+
+Yet maintaining this precision is difficult. One of the key problems we aimed to solve for a **global fisheries export company** is the ability to monitor the temperature inside each individual fish crate, ensuring freshness is maintained at every stage of the journey — not just the overall container.
