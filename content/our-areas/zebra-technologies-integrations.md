@@ -62,6 +62,9 @@ Always know the location and status of your devices, tools, and inventory.
 **Do more with Zebra devices you already own**  
 Turn your devices into trackers — no extra hardware, no extra costs with custom built applications delivered exclusively for your business.
 
+**Transform printers into powerful retail tools**  
+From labeling and inventory to point-of-sale support — unlock the full potential of Zebra printers with custom integrations built for your workflow.
+
 **Track what others can’t**  
 Even in hard-to-reach places — through concrete walls, high-traffic zones, or when monitoring unique conditions like water quality.
 
