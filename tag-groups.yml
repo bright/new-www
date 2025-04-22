@@ -151,6 +151,7 @@ groups:
   - name: AI
     tags:
       - AI
+      - ai
   - name: HealthTech
     tags:
       - healthtech
