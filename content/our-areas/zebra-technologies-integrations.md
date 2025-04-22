@@ -47,6 +47,24 @@ blog_section: false
 blog_section_tags:
   - iOS
 blog_section_title: blog
+testimonials:
+  - testimonials_quote: "*Compared to everyone else, bright inventions doesn’t
+      promise things they can’t deliver. [...]. The best thing about them is
+      that I can count on their actions.* [Read more on
+      Clutch](https://clutch.co/go-to-review/042b9956-b165-41cd-80bb-a3e75a50c9\
+      8c/293369)."
+    testimonials_author: Dorian Koch
+    testimonials_photo: /images/dorian.jpeg
+    testimonials_position: Co-Founder & Former CEO
+    testimonials_company: MedKitDoc
+  - testimonials_quote: "*Working with Bright Inventions is always a pleasure. The
+      people involved are friendly and to the point. They’re also pragmatic,
+      constructive, and punctual*. [Read more on
+      Clutch](https://clutch.co/profile/bright-inventions#review-54300)."
+    testimonials_author: Kira Nezu
+    testimonials_photo: /images/kira_nezu.jpeg
+    testimonials_position: Project Manager
+    testimonials_company: AppAdvisors GmbH
 show_team: false
 ---
 ## If it’s missing, it’s not managed — hire a team that builds software around your needs
