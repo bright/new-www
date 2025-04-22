@@ -56,3 +56,29 @@ In the food industry, precise temperature control during transportation is essen
 Yet maintaining this precision is difficult. One of the key problems we aimed to solve for a **global fisheries export company** is the ability to monitor the temperature inside each individual fish crate, ensuring freshness is maintained at every stage of the journey — not just the overall container.
 
 <TitleWithIcon sectionTitle="the solution: IoT water management with real-time water monitoring" titleIcon="/images/flag.png" titleIconAlt="the solution" />
+
+To address these challenges, we set out to build a custom IoT network specifically designed for food transportation and water management — **a system that monitors critical water conditions in real time, 24/7**.
+
+We developed an integration with trackers capable of monitoring water parameters — including internal container temperature — directly inside fish crates. These trackers, paired with our custom-built software, allow the staff to **detect issues like overheating** **due to a lid left open or poor sealing**, helping maintain the ideal temperature range for maximum freshness.
+
+Now, the staff can monitor water conditions live and access detailed graphs showing temperature at every step of the journey — from packaging to delivery. The platform **works across both Android and iOS devices**, giving teams the flexibility to use the tools they already have.
+
+While this is a major operational benefit, supporting such a wide range of mobile environments introduces its own set of technical challenges — especially when it comes to **ensuring stable, efficient background tracking**.
+
+<TitleWithIcon sectionTitle="challenges: supporting a wide variety of mobile devices and ensuring continuous background operation" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
+
+One major challenge was the **fragmentation of Android devices**. Each manufacturer — from Samsung through Xiaomi to Zebra Technologies — customizes the Android operating system. As a result, critical functionality like continuous background scanning for nearby trackers might work perfectly on one device, while not functioning at all on another.
+
+To address this, we conducted extensive **device-level testing**, especially on models used by the fisheries export company’s team. Internally, we **test across multiple brands** to replicate edge cases and catch compatibility issues early.
+
+We also **designed a comprehensive onboarding process** during the app’s first launch to ensure all necessary permissions are granted such as access to Bluetooth and precise GPS location. This helps to ensure the app performs reliably across different environments and system versions.
+
+On **iOS devices**, development was more streamlined due to the smaller number of models, but maintaining background operations still required careful tuning. Apple’s strict resource management policies meant our app needed additional optimization to function consistently in passive mode.
+
+A key part of our approach is also **optimizing battery efficiency**. Since our solution relies on continuous Bluetooth scanning, we implemented **Bluetooth Low Energy (BLE)** and optimized the data flow. Instead of sending data immediately to the backend, we batch and sync messages every 40 seconds, which keeps energy usage low without compromising data accuracy.
+
+<TitleWithIcon sectionTitle="the results: reducing product waste and financial loss through reliable water monitoring" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
+
+Thanks to the implementation of our custom IoT solution for water management, a leading seafood export company has significantly **reduced the risk of compliance issues** and brand damage related to fish freshness.
+
+With continuous, real-time monitoring, the team can respond more quickly to negative conditions — helping **reduce product waste and, in turn, financial losses**.
