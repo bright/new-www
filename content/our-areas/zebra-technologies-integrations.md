@@ -5,18 +5,17 @@ faqs:
   - Do you build custom software integrated with Zebra Technologies devices?
 project:
   - water-quality-monitoring
-  - relevo - instant app and app clip
+  - pos-devices-integration
 layout: our-service
 our_service_id: zebra-technologies-integrations
 meta_title: Building Software Aligned with Zebra Technologies
-meta_description: Custom Software Aligned With Zebra Technologies — Because Your
-  Business Isn’t Generic.
+meta_description: Lost Assets Cost You. Track Them With Zebra Technologies & Custom Software
 our_services_icon: /images/modernization_icon.png
 name: Zebra Technologies Integrations
 slug: zebra-technologies-integrations
 short_description: Stop losing track — we build custom software that powers your
   Zebra Technologies devices
-order: 1
+order: 99
 title: Lost Assets Cost You — We Build Zebra Technologies-Aligned Software to
   Change That
 highlighted_word: Zebra Technologies
