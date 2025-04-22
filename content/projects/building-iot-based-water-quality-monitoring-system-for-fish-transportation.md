@@ -45,7 +45,7 @@ language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
-<Gallery images='[{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/android_stack_logo.svg","alt":"Node.js"},{"src":"/images/bluetooth_stack_logo.svg","alt":"React"},{"src":"/images/zebra_technologies_stack_logo.svg","alt":"Zebra Technologies"}]' />
+<Gallery images='[{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/android_stack_logo.svg","alt":"Node.js"},{"src":"/images/bluetooth_stack_logo.svg","alt":"React"},{"src":"/images/zebra_technologies_stack_update_logo.svg","alt":"Zebra Technologies"}]' />
 
 technologies: Swift, Android, Bluetooth Low Energy, Zebra Technologies
 
@@ -60,6 +60,8 @@ Yet maintaining this precision is difficult. One of the key problems we aimed to
 To address these challenges, we set out to build a custom IoT network specifically designed for food transportation and water management — **a system that monitors critical water conditions in real time, 24/7**.
 
 We developed an integration with trackers capable of monitoring water parameters — including internal container temperature — directly inside fish crates. These trackers, paired with our custom-built software, allow the staff to **detect issues like overheating** **due to a lid left open or poor sealing**, helping maintain the ideal temperature range for maximum freshness.
+
+<div className="image">![fish transportation water monitoring](/images/water_monitoring_case_study.png "fish transportation water monitoring")</div>
 
 Now, the staff can monitor water conditions live and access detailed graphs showing temperature at every step of the journey — from packaging to delivery. The platform **works across both Android and iOS devices**, giving teams the flexibility to use the tools they already have.
 
