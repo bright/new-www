@@ -73,6 +73,8 @@ One major challenge was the **fragmentation of Android devices**. Each manufactu
 
 To address this, we conducted extensive **device-level testing**, especially on models used by the fisheries export company’s team. Internally, we **test across multiple brands** to replicate edge cases and catch compatibility issues early.
 
+<div className="image">![Fish export](/images/water_monitoring_case_study_fish_transport.png "Fish export")</div>
+
 We also **designed a comprehensive onboarding process** during the app’s first launch to ensure all necessary permissions are granted such as access to Bluetooth and precise GPS location. This helps to ensure the app performs reliably across different environments and system versions.
 
 On **iOS devices**, development was more streamlined due to the smaller number of models, but maintaining background operations still required careful tuning. Apple’s strict resource management policies meant our app needed additional optimization to function consistently in passive mode.
