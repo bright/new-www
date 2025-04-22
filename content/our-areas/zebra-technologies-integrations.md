@@ -22,9 +22,9 @@ image_our_service_desktop: /images/zebra_integrations_desktop.png
 image_our_service_mobile: /images/zebra_integrations_mobile_update2.png
 image_alt_our_service: Zebra devices
 bullet_points:
-  - Custom asset tracking software built exclusively for you
-  - Solving what off-the-shelf solutions can’t
-  - Powered by a certified Zebra Technologies Partner
+  - custom asset tracking software built exclusively for you
+  - solving what off-the-shelf solutions can’t
+  - powered by a certified Zebra Technologies Partner
 bar_stack:
   - Zebra Technologies
   - iOS
