@@ -11,13 +11,12 @@ our_service_id: zebra-technologies-integrations
 meta_title: Building Software Aligned with Zebra Technologies
 meta_description: See Everything with Custom Software Aligned to Zebra Technologies
 our_services_icon: /images/modernization_icon.png
-name: Zebra Technologies Integrations
+name: Zebra Technologies integrations
 slug: zebra-technologies-integrations
 short_description: Stop losing track — we build custom software that powers your
   Zebra Technologies devices.
 order: 99
-title: Lost Assets Cost You — We Build Zebra Technologies-Aligned Software to
-  Change That
+title: tailored software that powers your Zebra Technologies devices
 highlighted_word: Zebra Technologies
 image_our_service_desktop: /images/zebra_integrations_desktop.png
 image_our_service_mobile: /images/zebra_integrations_mobile_update.png
