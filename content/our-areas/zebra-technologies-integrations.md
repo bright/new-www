@@ -9,7 +9,7 @@ project:
 layout: our-service
 our_service_id: zebra-technologies-integrations
 meta_title: Building Software Aligned with Zebra Technologies
-meta_description: See Everything with Custom Software Aligned to Zebra Technologies
+meta_description: Track Everything with Custom Software Aligned to Zebra Technologies
 our_services_icon: /images/modernization_icon.png
 name: Zebra Technologies integrations
 slug: zebra-technologies-integrations
@@ -71,7 +71,7 @@ show_team: false
 If off-the-shelf worked, you wouldn’t be here. With 13+ years of experience, we build what actually works.
 
 **Get every feature you need to grow**\
-We build what out-of-the-box doesn’t offer. 
+Access what out-of-the-box solutions can't deliver.
 
 **Track every asset in real time**\
 Always know the location and status of your devices, tools, and inventory.
