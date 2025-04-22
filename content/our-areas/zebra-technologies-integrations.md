@@ -68,10 +68,10 @@ show_team: false
 ---
 ## Hire a team that builds software around your needs — fully integrated with Zebra devices
 
-Out-of-the-box doesn’t fit everyone. With 13+ years of experience, we build what actually works.
+If off-the-shelf worked, you wouldn’t be here. With 13+ years of experience, we build what actually works.
 
 **Get every feature you need to grow**\
-If off-the-shelf worked, you wouldn’t be here — we build what they don’t offer.
+We build what out-of-the-box doesn’t offer. 
 
 **Track every asset in real time**\
 Always know the location and status of your devices, tools, and inventory.
