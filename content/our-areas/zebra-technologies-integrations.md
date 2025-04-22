@@ -19,7 +19,7 @@ order: 99
 title: tailored software that powers your Zebra Technologies devices
 highlighted_word: Zebra Technologies
 image_our_service_desktop: /images/zebra_integrations_desktop.png
-image_our_service_mobile: /images/zebra_integrations_mobile_update.png
+image_our_service_mobile: /images/zebra_integrations_mobile_update2.png
 image_alt_our_service: Zebra devices
 bullet_points:
   - Custom asset tracking software built exclusively for you
