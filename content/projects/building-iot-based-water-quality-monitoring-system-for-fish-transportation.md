@@ -18,6 +18,13 @@ hero_image: /images/case_study_fish_transport.png
 Hero Image_alt: water quality monitoring for fish transport
 social_media_previev: /images/fb_preview_case_study_water_monitoring.png
 social_media_previev_alt: water monitoring
+bar_achievements:
+  - number: "1"
+    label: Custom IoT System
+  - number: "2"
+    label: Continents
+  - number: 1000+
+    label: Fish crates tracked
 tags:
   - IoT
   - mobile app
