@@ -30,6 +30,7 @@ bar_stack:
   - iOS
   - Android
   - Bluetooth Low Energy
+  - iBeacon
 button: hire us
 button2: hire us now
 published: true
