@@ -9,7 +9,7 @@ project:
 layout: our-service
 our_service_id: zebra-technologies-integrations
 meta_title: Building Software Aligned with Zebra Technologies
-meta_description: See Everything with Custom Software Aligned to Zebra Technologies
+meta_description: Track Everything with Custom Software Aligned to Zebra Technologies
 our_services_icon: /images/modernization_icon.png
 name: Zebra Technologies integrations
 slug: zebra-technologies-integrations
@@ -22,14 +22,16 @@ image_our_service_desktop: /images/zebra_integrations_desktop.png
 image_our_service_mobile: /images/zebra_integrations_mobile_update2.png
 image_alt_our_service: Zebra devices
 bullet_points:
-  - Custom asset tracking software built exclusively for you
-  - Solving what off-the-shelf solutions can’t
-  - Powered by a certified Zebra Technologies Partner
+  - custom asset tracking software built exclusively for you
+  - solving what off-the-shelf solutions can’t
+  - powered by a certified Zebra Technologies Partner
 bar_stack:
   - Zebra Technologies
   - iOS
   - Android
   - Bluetooth Low Energy
+  - iBeacon
+  - AWS
 button: hire us
 button2: hire us now
 published: true
@@ -66,12 +68,12 @@ testimonials:
     testimonials_company: AppAdvisors GmbH
 show_team: false
 ---
-## Hire a team that builds software around your needs — fully integrated with Zebra devices
+## hire a team that builds software around your needs — fully integrated with Zebra devices
 
 If off-the-shelf worked, you wouldn’t be here. With 13+ years of experience, we build what actually works.
 
 **Get every feature you need to grow**\
-We build what out-of-the-box doesn’t offer. 
+Access what out-of-the-box solutions can't deliver.
 
 **Track every asset in real time**\
 Always know the location and status of your devices, tools, and inventory.
