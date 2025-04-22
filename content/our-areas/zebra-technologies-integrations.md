@@ -3,6 +3,8 @@ team_members:
   - agata
 faqs:
   - Do you build custom software integrated with Zebra Technologies devices?
+  - What industries do you support with your custom software aligned with Zebra
+    Technologies?
 project:
   - water-quality-monitoring
   - pos-devices-integration
@@ -18,8 +20,8 @@ short_description: Stop losing track — we build custom software that powers yo
 order: 99
 title: tailored software that powers your Zebra Technologies devices
 highlighted_word: Zebra Technologies
-image_our_service_desktop: /images/zebra_integrations_desktop.png
-image_our_service_mobile: /images/zebra_integrations_mobile_update2.png
+image_our_service_desktop: /images/zebra_integrations_desktop_partner_logo.png
+image_our_service_mobile: /images/zebra_integrations_mobile_update_partner_logo.png
 image_alt_our_service: Zebra devices
 bullet_points:
   - custom asset tracking software built exclusively for you
