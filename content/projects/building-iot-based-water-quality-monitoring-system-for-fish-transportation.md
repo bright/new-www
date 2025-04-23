@@ -34,7 +34,7 @@ title_case_study: dive deeper into our portfolio
 title_contact: hire us to build your unique monitoring system
 description_contact: Tell us more about your tech challenges and we'll look for
   solutions! Fill out the form below and we'll get back to you in 48 hours.
-order: 99
+order: 1
 slug: water-quality-monitoring
 show_team: false
 show_case_study: true
@@ -79,7 +79,9 @@ We also **designed a comprehensive onboarding process** during the app’s first
 
 On **iOS devices**, development was more streamlined due to the smaller number of models, but maintaining background operations still required careful tuning. Apple’s strict resource management policies meant our app needed additional optimization to function consistently in passive mode.
 
-A key part of our approach is also **optimizing battery efficiency**. Since our solution relies on continuous Bluetooth scanning, we implemented **Bluetooth Low Energy (BLE)** and optimized the data flow. Instead of sending data immediately to the backend, we batch and sync messages every 40 seconds, which keeps energy usage low without compromising data accuracy.
+A key part of our approach is also **optimizing battery efficiency**. Since our solution relies on continuous Bluetooth scanning, we based it on **Bluetooth Low Energy (BLE)** and optimized the data flow.
+
+Instead of sending data immediately to the backend, we batch and sync messages every 40 seconds, which keeps energy usage low without compromising data accuracy.
 
 <TitleWithIcon sectionTitle="the results: reducing product waste and financial loss through reliable water monitoring" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
 
