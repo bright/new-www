@@ -79,6 +79,16 @@ class VectorStoreConfig {
 }
 ```
 
+You can also let Spring Boot initialise the database schema on startup by setting the following property in your `application.yml` file:
+
+```yaml
+spring:
+  ai:
+    vectorstore:
+      pgvector:
+        initialize-schema: true
+```
+
 And our service now uses the VectorStore for similarity search:
 
 ```kotlin
@@ -96,6 +106,19 @@ fun suggestResponse(customerMessage: String, limit: Int = 5): String {
 }
 ```
 
+Let's take a closer look at the `similarityThreshold` method used in the `SearchRequest.Builder`:
+
+The `similarityThreshold` method filters search results based on their similarity score:
+
+- It accepts a value between 0.0 and 1.0
+- Only documents with a similarity score equal to or greater than this threshold will be returned
+- A threshold of 0.0 (the default) means any similarity is accepted (no filtering)
+- A threshold of 1.0 means only exact matches are returned
+- Higher values (like 0.7 or 0.8) return only highly relevant results
+- Lower values (like 0.3 or 0.4) return more results, including less relevant ones
+
+This is particularly useful when you want to ensure that only truly relevant documents are included in your search results, avoiding false positives.
+
 ## The Document Abstraction
 
 At the heart of VectorStore is the `Document` class, which represents a piece of content with associated metadata. This
@@ -110,7 +133,7 @@ val ticketDocument = Document.builder()
     .metadata(
         mapOf(
             "type" to "ticket",
-            "ticketId" to (savedTicket.id ?: 0),
+            "ticketId" to savedTicket.id!!,
             "title" to savedTicket.title,
             "customerMessage" to savedTicket.customerMessage,
             "agentResponse" to savedTicket.agentResponse,
