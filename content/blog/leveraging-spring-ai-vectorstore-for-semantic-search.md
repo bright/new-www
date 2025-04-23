@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2025-04-22T10:00:00.000Z
 slug: leveraging-spring-ai-vectorstore-for-semantic-search
 title: Leveraging Spring AI's VectorStore for Enhanced Semantic Search
 layout: post
-image: /images/spring-ai-vectorstore.jpg
+image: /images/spring_ai_vectorstore_blog.png
 hidden: false
 comments: false
 published: true
