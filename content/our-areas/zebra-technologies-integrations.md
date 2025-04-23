@@ -26,7 +26,7 @@ image_alt_our_service: Zebra devices
 bullet_points:
   - custom asset tracking software built exclusively for you
   - solving what off-the-shelf solutions can’t
-  - powered by a certified Zebra Technologies Partner
+  - powered by registered Zebra Technologies Partner
 bar_stack:
   - Zebra Technologies
   - iOS
