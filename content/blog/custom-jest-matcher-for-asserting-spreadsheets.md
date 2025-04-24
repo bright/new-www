@@ -112,4 +112,4 @@ When the test fails, you'll see a colorful inline diff in your terminal. Mismatc
 
 We've implemented a custom Jest matcher `toEqualTable` for asserting tabular data like spreadsheets. It visually highlights mismatches using `ascii-table3` and `chalk` directly in the terminal, making failed tests easier to debug. The matcher supports both raw matrix inputs and structured objects. Ideal for testing CSV-like data or tables with precision and readability. You can consider writing your own renderers and show differences by creating an XLSX file with colorful formatting.
 
-What helpers and utils do you implement to make it easier to work with your tests? Let us know in the comments!
+What helpers and utils do you implement to make it easier to work with your tests?
