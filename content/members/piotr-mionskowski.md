@@ -9,8 +9,8 @@ slug: piotr
 name: Piotr Mionskowski
 short_name: Piotr
 email: piotr.mionskowski@brightinventions.pl
-bio: Head of Technology & Partner
-description: Head of Technology & Partner
+bio: Head of Technology & POS Expert
+description: Head of Technology & POS Expert
 web: https://miensol.pl
 avatar: /images/piotrm2022.png
 avatar_hover: /images/piotrm_passion.png
