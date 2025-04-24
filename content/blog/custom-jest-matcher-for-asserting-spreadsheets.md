@@ -105,7 +105,7 @@ describe('(THESE TESTS ARE SUPPOSED TO FAIL SO YOU CAN SEE THE DIFF IN TERMINAL)
 
 When the test fails, you'll see a colorful inline diff in your terminal. Mismatches are rendered in colours:
 
-<div className="image">![](/images/screenshot-2025-04-24-at-13.22.56.png "Test output highlighting the incorrect and expected values")</div>
+<div className="image">![Test output highlighting the incorrect and expected values](/images/screenshot-2025-04-24-at-13.22.56.png "Test output highlighting the incorrect and expected values")</div>
 
 ## Summary
 
