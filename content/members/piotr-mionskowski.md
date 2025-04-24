@@ -24,6 +24,8 @@ published: true
 title: Piotr
 language: en
 ---
+Piotr specializes in [custom POS solutions](/our-areas/pos-software-development/), with expertise in POS integrations, delivery platform integrations (Wolt, Uber Eats), and payment provider integrations. Since 2012, he has been developing and scaling POS software, optimizing security, performance, and costs for both small projects and large-scale systems like Just Eat Takeaway. 
+
 TDD fan eager to learn new things. A Man Dancing with the Code. Piotr is a real full stack developer with over 15 years of professional experience. Backend APIs, distributed systems, infrastructure, databases are only some among his main fields of interest. Always up-to-date. Always focused. Always asking "Why?".
 
 AWS evangelist sharing his cloud computing knowledge at workshops organized for the [Polish AWS community](https://www.facebook.com/groups/679812723195646). A speaker at IT conferences.
