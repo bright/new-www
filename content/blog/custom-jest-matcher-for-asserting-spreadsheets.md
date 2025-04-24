@@ -1,17 +1,17 @@
 ---
 author: radek-l
+tags:
+  - QA
 date: 2025-04-24T11:13:39.650Z
 meaningfullyUpdatedAt: 2025-04-24T11:13:39.660Z
-title: Custom Jest matcher for asserting spreadsheets
+title: Custom Jest Matcher for Asserting Spreadsheets
 layout: post
 hidden: false
 comments: false
 published: true
 language: en
 ---
-## Intro
-
-When working with matrix-like data in tests — think CSVs, XLSX, reports, or table-based API responses — comparing nested arrays or tabular structures can be a pain. Figuring what bit of data was faulty can be tricky, especially in big files. Let's fix that by implementing a custom matcher which visually prints the differences in the terminal in an eye-friendly and intuitive way.
+**When working with matrix-like data in tests — think CSVs, XLSX, reports, or table-based API responses — comparing nested arrays or tabular structures can be a pain. Figuring what bit of data was faulty can be tricky, especially in big files. Let's fix that by implementing a custom matcher which visually prints the differences in the terminal in an eye-friendly and intuitive way.**
 
 ## The Matcher code
 
@@ -107,12 +107,8 @@ When the test fails, you'll see a colorful inline diff in your terminal. Mismatc
 
 <div className="image">![](/images/screenshot-2025-04-24-at-13.22.56.png "Test output highlighting the incorrect and expected values")</div>
 
-
-
 ## Summary
 
 We've implemented a custom Jest matcher `toEqualTable` for asserting tabular data like spreadsheets. It visually highlights mismatches using `ascii-table3` and `chalk` directly in the terminal, making failed tests easier to debug. The matcher supports both raw matrix inputs and structured objects. Ideal for testing CSV-like data or tables with precision and readability. You can consider writing your own renderers and show differences by creating an XLSX file with colorful formatting.
-
-
 
 What helpers and utils do you implement to make it easier to work with your tests? Let us know in the comments!
