@@ -6,6 +6,7 @@ date: 2025-04-24T11:13:39.650Z
 meaningfullyUpdatedAt: 2025-04-24T11:13:39.660Z
 title: Custom Jest Matcher for Asserting Spreadsheets
 layout: post
+image: /images/custom_jest_matcher.png
 hidden: false
 comments: false
 published: true
