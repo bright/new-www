@@ -23,9 +23,9 @@ language: en
 
 [Introduction to JReleaser and Maven Central](/blog/publishing-to-maven-central-with-jreleaser/#introduction-to-jreleaser-and-maven-central)
 
-[Configuring JReleaserExtension in build.gradle.kts](/blog/publishing-to-maven-central-with-jreleaser/#configuring-jreleaserextension-in-buildgradlekts)
-
 [Setting up PublishingExtension and the staging-deploy directory](/blog/publishing-to-maven-central-with-jreleaser/#setting-up-publishingextension-and-the-staging-deploy-directory)
+
+[Configuring JReleaserExtension in build.gradle.kts](/blog/publishing-to-maven-central-with-jreleaser/#configuring-jreleaserextension-in-buildgradlekts)
 
 [Maven Central's special requirements](/blog/publishing-to-maven-central-with-jreleaser/#maven-centrals-special-requirements)
 
@@ -42,6 +42,63 @@ language: en
 [JReleaser](https://jreleaser.org/) is a release automation tool that simplifies the process of releasing and publishing Java projects. It handles various tasks including creating GitHub releases, generating changelogs, and publishing artifacts to Maven Central. When combined with GitHub Actions, it creates a powerful, automated release pipeline.
 
 Maven Central is the primary repository for Java libraries, making your artifacts easily accessible to developers worldwide through Maven, Gradle, or other build tools. Publishing to Maven Central requires meeting specific requirements and following a particular process, which JReleaser helps streamline.
+
+## Setting up PublishingExtension and the staging-deploy directory
+
+Before JReleaser can publish your artifacts to Maven Central, you need to publish them to a local staging directory. This is done using Gradle's PublishingExtension:
+
+```kotlin
+subprojects {
+    // Apply necessary plugins
+    apply(plugin = "maven-publish")
+
+    // Configure Java for source and javadoc jars
+    java {
+        withJavadocJar()
+        withSourcesJar()
+    }
+
+    // Configure publishing
+    configure<PublishingExtension> {
+        publications {
+            register<MavenPublication>("maven") {
+                from(components["java"])
+                pom {
+                    name.set(project.name)
+                    description.set(project.description ?: project.name)
+                    url.set("https://github.com/your-org/your-repo")
+                    licenses {
+                        license {
+                            name.set("MIT")
+                            url.set("https://github.com/your-org/your-repo/blob/main/LICENSE")
+                        }
+                    }
+                    developers {
+                        developer {
+                            id.set("your-org")
+                            name.set("Your Organization")
+                            email.set("info@yourorganization.com")
+                        }
+                    }
+                    scm {
+                        connection.set("scm:git:git://github.com/your-org/your-repo.git")
+                        developerConnection.set("scm:git:ssh://github.com:your-org/your-repo.git")
+                        url.set("https://github.com/your-org/your-repo")
+                    }
+                }
+            }
+        }
+
+        repositories {
+            maven {
+                url = layout.buildDirectory.dir("staging-deploy").get().asFile.toURI()
+            }
+        }
+    }
+}
+```
+
+The `staging-deploy` directory serves as a temporary storage location for your artifacts before JReleaser picks them up for publishing to Maven Central. This two-step process allows for validation and preparation of artifacts before the final publishing step.
 
 ## Configuring JReleaserExtension in build.gradle.kts
 
@@ -109,62 +166,6 @@ This configuration:
 
 The `gitRootSearch = true` setting is particularly important for multi-module projects as it tells JReleaser to search for the Git root directory, ensuring proper version detection.
 
-## Setting up PublishingExtension and the staging-deploy directory
-
-Before JReleaser can publish your artifacts to Maven Central, you need to publish them to a local staging directory. This is done using Gradle's PublishingExtension:
-
-```kotlin
-subprojects {
-    // Apply necessary plugins
-    apply(plugin = "maven-publish")
-
-    // Configure Java for source and javadoc jars
-    java {
-        withJavadocJar()
-        withSourcesJar()
-    }
-
-    // Configure publishing
-    configure<PublishingExtension> {
-        publications {
-            register<MavenPublication>("maven") {
-                from(components["java"])
-                pom {
-                    name.set(project.name)
-                    description.set(project.description ?: project.name)
-                    url.set("https://github.com/your-org/your-repo")
-                    licenses {
-                        license {
-                            name.set("MIT")
-                            url.set("https://github.com/your-org/your-repo/blob/main/LICENSE")
-                        }
-                    }
-                    developers {
-                        developer {
-                            id.set("your-org")
-                            name.set("Your Organization")
-                            email.set("info@yourorganization.com")
-                        }
-                    }
-                    scm {
-                        connection.set("scm:git:git://github.com/your-org/your-repo.git")
-                        developerConnection.set("scm:git:ssh://github.com:your-org/your-repo.git")
-                        url.set("https://github.com/your-org/your-repo")
-                    }
-                }
-            }
-        }
-
-        repositories {
-            maven {
-                url = layout.buildDirectory.dir("staging-deploy").get().asFile.toURI()
-            }
-        }
-    }
-}
-```
-
-The `staging-deploy` directory serves as a temporary storage location for your artifacts before JReleaser picks them up for publishing to Maven Central. This two-step process allows for validation and preparation of artifacts before the final publishing step.
 
 ## Maven Central's special requirements
 
