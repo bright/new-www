@@ -10,10 +10,10 @@ image: /images/case_study_navigation_driver_app.png
 description: Drivers are the lifeblood of any road logistics network. So, when
   digitalizing operations for a freight forwarding company, we knew a key piece
   of the puzzle would be a driver mobile app. It needed to do more than just
-  display jobs or share documents—it had to guide drivers across borders through
-  accurate navigation. In this story, we share how we tackled the integration
-  with the external navigation system - Sygic, and the decision process behind
-  choosing the navigation provider.
+  display jobs or share documents – it had to guide drivers across borders
+  through accurate navigation. In this story, we share how we tackled the
+  integration with the external navigation system – Sygic, and the decision
+  process behind choosing the navigation provider.
 hero_image: /images/case_study_navigation.png
 Hero Image_alt: Implementing Sygic GPS Navigation
 social_media_previev: /images/fb_preview_case_study_navigation_drivers_app.png
@@ -51,7 +51,7 @@ technologies: Android, Kotlin, Figma.
 
 <TitleWithIcon sectionTitle="problem: unprecise mileage estimation and tracking" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
-Our client, a transportation services provider, wanted to introduce a new process where **dispatchers create predefined routes that drivers must strictly follow**. This ensures precise mileage tracking, making it **easier to accurately settle payments with drivers** based on kilometers traveled. To achieve this, the system required seamless integration with a navigation solution that would ensure couriers adhere to the exact routes designed by freight forwarders.
+Our client, a [transportation services provider](/projects/transportation-management-system/), wanted to introduce a new process where **dispatchers create predefined routes that drivers must strictly follow**. This ensures precise mileage tracking, making it **easier to accurately settle payments with drivers** based on kilometers traveled. To achieve this, the system required seamless integration with a navigation solution that would ensure couriers adhere to the exact routes designed by freight forwarders.
 
 While we had the freedom to choose the right navigation system, the client emphasized one critical requirement: **the predefined route must remain unchanged**, helping drivers stay on the exact route planned by the dispatcher.
 
@@ -59,14 +59,14 @@ While we had the freedom to choose the right navigation system, the client empha
 
 After careful research, the best option seemed to be **Sygic navigation** because it was the only solution we found at that moment providing the crucial functionality our client required. Sygic allowed routing based on a **fully predefined path**, with **no limits on the number of waypoints** and without displaying them on the map during navigation.
 
-Most available popular navigation systems offered navigation based on specific coordinates, but they had limitations. Some displayed coordinates on the map during navigation, while others restricted the number of waypoints (typically around **150**), which would be problematic and inaccurate for long-haul routes—such as from Estonia to Portugal.
+Most available popular navigation systems offered navigation based on specific coordinates, but they had limitations. Some displayed coordinates on the map during navigation, while others restricted the number of waypoints (typically around **150**), which would be problematic and inaccurate for long-haul routes – such as from Estonia to Portugal.
 
 To enhance usability, **Sygic navigation should be embedded directly into our application** rather than redirecting users to an external app. While both approaches have pros and cons, we prioritized usability:
 
 * **Drivers don’t have to install an additional app**, which would have been a major obstacle given their limited time.  
 * **We maintain better control over the navigation experience**, whereas relying on an external app would leave us with no influence over its behavior or potential updates.
 
-What’s more, based on the details of a given route, the app would display map download recommendations. Most drivers turn off mobile data when traveling through Switzerland due to high roaming costs, so if a route included Swiss territory, the app would notify the driver before the journey began—prompting them to download the necessary maps in advance and ensuring they were fully prepared for the trip.
+What’s more, based on the details of a given route, the app would display map download recommendations. Most drivers turn off mobile data when traveling through Switzerland due to high roaming costs, so if a route included Swiss territory, the app would notify the driver before the journey began – prompting them to download the necessary maps in advance and ensuring they were fully prepared for the trip.
 
 <div className="image">![UI navigation](/images/ui_navigation_case_study.png "UI navigation")</div>
 
