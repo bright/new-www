@@ -55,7 +55,7 @@ Our client, a [transportation services provider](/projects/transportation-manage
 
 While we had the freedom to choose the right navigation system, the client emphasized one critical requirement: **the predefined route must remain unchanged**, helping drivers stay on the exact route planned by the dispatcher.
 
-<TitleWithIcon sectionTitle="the solution: non-verbal communication with dispatch centers" titleIcon="/images/flag.png" titleIconAlt="the solution:" />
+<TitleWithIcon sectionTitle="the solution: custom integration with navigation system Sygic" titleIcon="/images/flag.png" titleIconAlt="the solution:" />
 
 After careful research, the best option seemed to be **Sygic navigation** because it was the only solution we found at that moment providing the crucial functionality our client required. Sygic allowed routing based on a **fully predefined path**, with **no limits on the number of waypoints** and without displaying them on the map during navigation.
 
