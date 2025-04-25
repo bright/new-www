@@ -25,6 +25,10 @@ bar_achievements:
     label: Countries
   - number: 1000+
     label: vehicles
+tags:
+  - mobile app
+  - customized software
+  - product design
 title_team: team
 title_case_study: dive deeper into our portfolio
 title_contact: hire us to scale your transport management system
