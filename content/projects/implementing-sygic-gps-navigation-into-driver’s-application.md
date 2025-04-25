@@ -24,7 +24,7 @@ bar_achievements:
   - number: "42"
     label: Countries
   - number: 1000+
-    label: vehicles
+    label: Vehicles
 tags:
   - mobile app
   - customized software
