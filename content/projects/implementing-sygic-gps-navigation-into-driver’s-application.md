@@ -51,7 +51,7 @@ technologies: Android, Kotlin, Figma.
 
 <TitleWithIcon sectionTitle="problem: unprecise mileage estimation and tracking" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
-Our client, a transportation services provider, wanted to introduce a new process where **dispatchers create predefined routes that drivers must strictly follow**. This ensures precise mileage tracking, making it **easier to accurately settle payments with drivers** based on kilometers traveled. To achieve this, the system required seamless integration with a navigation solution that would ensure couriers adhere to the exact routes designed by freight forwarders.
+Our client, a [transportation services provider](/projects/transportation-management-system/), wanted to introduce a new process where **dispatchers create predefined routes that drivers must strictly follow**. This ensures precise mileage tracking, making it **easier to accurately settle payments with drivers** based on kilometers traveled. To achieve this, the system required seamless integration with a navigation solution that would ensure couriers adhere to the exact routes designed by freight forwarders.
 
 While we had the freedom to choose the right navigation system, the client emphasized one critical requirement: **the predefined route must remain unchanged**, helping drivers stay on the exact route planned by the dispatcher.
 
