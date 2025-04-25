@@ -67,3 +67,18 @@ To enhance usability, **Sygic navigation should be embedded directly into our ap
 * **We maintain better control over the navigation experience**, whereas relying on an external app would leave us with no influence over its behavior or potential updates.
 
 What’s more, based on the details of a given route, the app would display map download recommendations. Most drivers turn off mobile data when traveling through Switzerland due to high roaming costs, so if a route included Swiss territory, the app would notify the driver before the journey began—prompting them to download the necessary maps in advance and ensuring they were fully prepared for the trip.
+
+<TitleWithIcon sectionTitle="challenges: finding the right navigation solution, licensing design" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
+
+The research phase was definitely a challenge, as the client had very specific requirements.\
+As part of our research, **we held discussions with various navigation providers** to assess their capabilities.
+
+Developing this **Proof of Concept (POC)** also proved to be complex. During the testing phase with Sygic, we submitted numerous requests for adjustments to their SDK to better align with our requirements.
+
+Another key challenge we faced was **licensing design**. Sygic’s licensing model is based on either a per-device or per-unique-ID approach, so we had to carefully develop an optimal licensing strategy within our Transportation Management System (TMS) to keep costs under control.
+
+We designed the **licensing system to be per vehicle**, as staff rotation is more frequent than changes to the fleet. When a driver is assigned a specific vehicle for a given time period, they receive a corresponding license. Once their assignment ends and they switch to another vehicle, they are issued a different license.
+
+<TitleWithIcon sectionTitle="the results: Proof of Concept ready to add value to client’s system" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
+
+We have developed a **fully functional Proof of Concept**, which is currently undergoing testing by the client’s staff, particularly freight forwarders and drivers. The implemented navigation system includes all necessary features to ensure accurate route estimation and maintain proper payment settlement, helping to avoid inconsistencies caused by incorrect routing.
