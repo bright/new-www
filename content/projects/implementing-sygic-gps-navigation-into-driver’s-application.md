@@ -19,8 +19,8 @@ Hero Image_alt: Implementing Sygic GPS Navigation
 social_media_previev: /images/fb_preview_case_study_navigation_drivers_app.png
 social_media_previev_alt: Sygic navigation implementation
 bar_achievements:
-  - number: "1"
-    label: Android application
+  - number: "150"
+    label: Waypoints
   - number: "42"
     label: Countries
   - number: 1000+
@@ -67,6 +67,8 @@ To enhance usability, **Sygic navigation should be embedded directly into our ap
 * **We maintain better control over the navigation experience**, whereas relying on an external app would leave us with no influence over its behavior or potential updates.
 
 What’s more, based on the details of a given route, the app would display map download recommendations. Most drivers turn off mobile data when traveling through Switzerland due to high roaming costs, so if a route included Swiss territory, the app would notify the driver before the journey began—prompting them to download the necessary maps in advance and ensuring they were fully prepared for the trip.
+
+<div className="image">![UI navigation](/images/ui_navigation_case_study.png "UI navigation")</div>
 
 <TitleWithIcon sectionTitle="challenges: finding the right navigation solution, licensing design" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
 
