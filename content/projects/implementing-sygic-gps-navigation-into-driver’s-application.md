@@ -34,7 +34,7 @@ title_case_study: dive deeper into our portfolio
 title_contact: hire us to scale your transport management system
 description_contact: Tell us more about your tech challenges. Fill out the form
   below and we'll get back to you in 48 hours.
-order: 99
+order: 2
 slug: navigation-driver-app-integration
 show_team: false
 show_case_study: true
