@@ -48,9 +48,9 @@ Here’s the prompt I used for the assistant’s behavior:
 
 ```
 When I ask you to run a test, find the matching .spec. file in the backend directory. Run it with:
-nvm use && DEPLOY-ENV=test-local yarn test --runInBand "pathToFile" --testNamePattern="testName" --json
+nvm use && cd backend && DEPLOY_ENV=test-local yarn test --runInBand "pathToFile" --testNamePattern="testName" --json
 You may use either pathToFile, testNamePattern, or both — choose what’s best for the context.
-Return only the test result in a clean, colorful, human-readable format.
+Return only the test result in a clean, colorful, human-readable format
 ```
 
 Paste this into the “Custom instructions” field during setup. For more details, refer to the official Cursor documentation: [Custom Modes](https://docs.cursor.com/chat/custom-modes).
