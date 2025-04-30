@@ -53,7 +53,7 @@ Good communication and empathy are key. We focus on solutions, not blame. We sup
 
 ## **about the project 🚀**
 
-We are working on an innovative Agentic AI platform designed for AppSec teams, effectively integrating with modern software development processes. By leveraging intelligent agents, deep contextual knowledge, and orchestration through MCP, the application transforms security from a blocker into an innovation accelerator.
+We are working on an innovative Agentic AI platform designed for AppSec teams, effectively integrating with modern software development processes. By using intelligent agents, deep contextual knowledge, and orchestration through MCP, the application transforms security from a blocker into an innovation accelerator.
 
 ## **preferred skills and qualifications 👩‍💻🧑‍💻**
 
