@@ -42,7 +42,7 @@ At Bright Inventions we value people who take ownership, show initiative, and ca
 
 Being flexible is important to us. We use technology as a tool to bring value, and we appreciate people who are open to learning and using new tools when needed.
 
-Good communication and empathy are key. We focus on solutions, not blame. We support each other, share knowledge, and approach challenges with a positive mindset.
+We expect effective communication skills, including the ability to both give and receive constructive feedback with empathy.We focus on solutions, not blame. We support each other, share knowledge, and approach challenges with a positive mindset.
 
 ## **about the project 🚀**
 
