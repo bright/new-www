@@ -3,19 +3,20 @@ author: patryk-s
 tags:
   - TypeScript
   - cursor
-  - work-optimization
   - testing
   - unit-testing
 date: 2025-04-29T13:19:34.847Z
 meaningfullyUpdatedAt: 2025-04-29T13:19:34.861Z
 title: Supercharged Test Running with Custom Modes in Cursor IDE
 layout: post
-image: /images/cover-cursor-unit-tests.png
+image: /images/cursor_tests.png
 hidden: false
 comments: false
 published: true
 language: en
 ---
+<div className="image">![Test with cursor](/images/cover-cursor-unit-tests.png "test-with-cursor-image")</div>
+
 ## The Problem with Running Tests in Cursor
 
 If you're using Cursor as your primary IDE, you've probably already experienced how powerful it can be—especially when combined with AI-assisted workflows. But when it comes to running tests, things get a bit tricky. Cursor doesn’t support running tests out of the box, so you're forced to rely on plugins. Unfortunately, these plugins often fall short when working on real-world projects. 
