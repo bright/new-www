@@ -53,7 +53,7 @@ Good communication and empathy are key. We focus on solutions, not blame. We sup
 
 ## **about the project 🚀**
 
-We work on a diverse range of projects, from transportation and healthtech to gastronomy and beyond. Each one brings a new challenge, and we meet it with curiosity, care, and dedication. If you’re open to exploring different industries and building meaningful digital products, we’d love to have you on board.
+We are working on an innovative Agentic AI platform designed for AppSec teams, effectively integrating with modern software development processes. By leveraging intelligent agents, deep contextual knowledge, and orchestration through MCP, the application transforms security from a blocker into an innovation accelerator.
 
 ## **preferred skills and qualifications 👩‍💻🧑‍💻**
 
