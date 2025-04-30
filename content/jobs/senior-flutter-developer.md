@@ -90,7 +90,7 @@ We work on a diverse range of projects, from transportation and healthtech to ga
 
 ✔️ office in Gdańsk Wrzeszcz 
 
-✔️good equipment: MacBook and testing devices 
+✔️ good equipment: MacBook and testing devices 
 
 ✔️ individual training budget and office library
 
