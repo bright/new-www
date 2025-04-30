@@ -61,7 +61,7 @@ Good communication and empathy are key. We focus on solutions, not blame. We sup
 
 [Circles](https://brightinventions.pl/projects/online-group-support/) is a mental health tech startup leading the way in digitalized emotional support. Their online group therapy app connects individuals seeking guidance - not only from professionals but also from others navigating similar life challenges.
 
-## preferred skills and qualifications 👩‍💻🧑‍💻
+## **preferred skills and qualifications** 👩‍💻🧑‍💻
 
 👉 at least 4 years of commercial programming experience in web/mobile development
 
