@@ -119,3 +119,5 @@ We work on a diverse range of projects, from transportation and healthtech to ga
 If this mindset doesn’t resonate with you, you might find a better fit elsewhere. We’re  creating a team where every member shares these core values.
 
 If you thrive in an environment that values accountability, adaptability, teamwork, and proactive problem-solving in a friendly atmosphere, we'd love to welcome you to our team. 🧡
+
+In case you have any questions, drop us a line at [jobs@bright.dev](mailto:jobs@bright.dev).
