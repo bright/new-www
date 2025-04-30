@@ -1,13 +1,13 @@
 ---
 layout: job
 title: Senior Fullstack Developer (React Native)
-subtitle: CLOSED
+subtitle: OPEN
 imagejob: /images/fullstack-team-job-offer-4-copy-2.png
-image-alt-job: Fullstack Team Bright Inventions
+image-alt-job: Bright Team
 hours: full-time
 salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
 salary_min: 16000
-salary_max: 24000
+salary_max: 19922
 working time: full time
 technology:
   - TypeScript
@@ -35,13 +35,13 @@ title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
 workplace_recruiter: Recruiting Specialist
 image_recruiter_info: /images/agata_recruiter.png
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
-published: false
+published: true
 show_recruiter_info: true
 hidden: false
 name_recruiter: Agata
 image_alt_recruiter_info: Agata Dankowska - A Recruiter at Bright Inventions
 button: join our bright team
-order: 2
+order: 4
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
@@ -49,60 +49,84 @@ description: We are looking now for a Full Stack Developer who has already had
   experience with web development and knows how to build Cloud Platform
   projects.
 ---
-## bright culture 🧡
+## **about bright people 🧡**
 
-At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
+At Bright Inventions we value people who take ownership, show initiative, and care about what they build. We work as partners to our clients, so we look for team members who actively suggest improvements, solve problems, and take responsibility for their work and growth.
 
-We place a strong emphasis on accountability, and we value team members **who take ownership of their work and are willing to make improvements based on regular and open feedback.** Positive attitude, flexibility and teamwork are elemental parts of our success. Instead of focusing on problems, we empower our team members to identify issues, propose solutions, and contribute to continuous growth. 
+Being flexible is important to us. We use technology as a tool to bring value, and we appreciate people who are open to learning and using new tools when needed.
 
-## about the role 🧑🏻‍💻
+Good communication and empathy are key. We focus on solutions, not blame. We support each other, share knowledge, and approach challenges with a positive mindset.
 
-We are seeking an experienced Fullstack Developer to join our bright team. The ideal candidate will have **a strong understanding of both web and mobile development**, with the ability to work on a variety of projects, from building cross-platform applications to developing backend solutions like database design and creating intuitive user interfaces.
+## **about the project 🚀**
 
-\
-As a Fullstack Developer, you will collaborate with cross-functional teams to design, develop, and maintain software solutions that meet our clients' needs.  **You will feel great in our team if you are a team player who approach challenges and complexities with a problem-solving mindset and openness to feedback.** 
+[Circles](https://brightinventions.pl/projects/online-group-support/) is a mental health tech startup leading the way in digitalized emotional support. Their online group therapy app connects individuals seeking guidance - not only from professionals but also from others navigating similar life challenges.
 
-## about the project 🚀
+## preferred skills and qualifications 👩‍💻🧑‍💻
 
-Circles is a mental health tech startup leading the way in digitalized emotional support. Their online group therapy app connects individuals seeking guidance—not only from professionals but also from others navigating similar life challenges. To learn more about Circles, [click here](/projects/online-group-support/).[](https://brightinventions.pl/projects/online-group-support/)
+👉 at least 4 years of commercial programming experience in web/mobile development
 
-## what you will do 🤝
+👉 solid understanding of TypeScript/JavaScript and **React Native**
 
-* collaborate with the product manager/owner to understand project requirements and translate them into technical specifications
-* build and maintain cross-platform mobile application using React Native, ensuring seamless user experiences across devices
-* develop responsive and user-friendly frontend applications using modern web technologies
-* design and implement server-side logic, APIs, and database structures for backend applications
-* participate in code reviews to maintain code quality and ensure best practices
-* provide constructive feedback to team members as well as to the clients
-* share knowledge with the rest of the team (outside and inside the organisation) 
+👉 deep working experience with **Node.js** and **React**
 
-## what we would like to see ✅
+👉 working experience with libraries used in React Native development
 
-* at least 4 years of commercial programming experience as a fullstack developer or similar role 
-* solid understanding of TypeScript/JavaScript
-* deep working experience with Node.js, React and React Native
-* a solution-oriented mindset 
-* positive approach and flexibility to work on new challenges  
-* advanced level of English and Polish (written and spoken)
+👉 solid knowledge of databases (both SQL and NoSQL solutions)
 
-## we would also appreciate if you have 🙌
+👉 strong understanding of HTTP protocol, REST APIs, and web communication patterns
 
-* familiarity with cloud platforms and deployment processes 
-* experience with working on startup projects 
+👉 proficiency with HTML and CSS for creating responsive and accessible user interfaces
 
-## what you will find in our Bright Team 🚀
+👉 knowledge of testing strategies and experience with frontend and backend testing frameworks
 
-* culture of responsibility, flexibility, teamwork and positivity
-* business value over technical perfection 
-* flat structure and a great impact on the key project decisions 
-* flexible schedule and remote work possibility 
-* mentoring program and regular 1:1 meetings 
-* continuous feedback and open communication
-* MultiSport and private medical package 
-* company library with an extra budget for professional books 
-* good equipment: MacBook and additional accessories
-* 12 days per year dedicated to professional development
-* weekly sport classes and in-house yoga time  
-* office in Gdańsk Wrzeszcz with a parking space nearby 
-* team retreats once a quarter and lunch roulette initiative 
-* board games evenings
+👉 familiarity with app publishing on App Store/ Google Play
+
+👉 very good level of English and Polish (both written and spoken)
+
+## **what you will find in our Bright Team** 💡
+
+✔️ real impact on the implemented solutions and project growth
+
+✔️ business value over technical perfection
+
+✔️ continuous feedback and open communication
+
+✔️ mentoring program and 1:1 meetings
+
+✔️ internal workshops and dev's meetings
+
+✔️ flexible working hours (we start between 7.00 -10.00 a.m.) and remote work possibility
+
+✔️ office in Gdańsk Wrzeszcz 
+
+✔️ good equipment: MacBook and testing devices 
+
+✔️ individual training budget and office library
+
+✔️ free English classes in small groups
+
+✔️ MultiSport and private medical package (Compensa)
+
+✔️ team buildings events
+
+✔️ Friday yoga, weekly running, swimming and cycling classes with a professional coach
+
+## **we’re building a team where every member:**
+
+✅ Takes initiative and full ownership in collaboration with both teammates and clients.
+
+✅ Proactively spots opportunities for improvement and suggests solutions.
+
+✅ Is adaptable and open to stepping outside of their core expertise, whether it's learning new technologies, adjusting to changing project needs, or taking on responsibilities beyond their usual role.
+
+✅ Values teamwork, communicates openly, and shares constructive feedback
+
+✅ Faces challenges with a positive, solution-focused attitude.
+
+✅ Treats client products like their own, acting as a true business partner, not just a developer.
+
+If this mindset doesn’t resonate with you, you might find a better fit elsewhere. We’re  creating a team where every member shares these core values.
+
+If you thrive in an environment that values accountability, adaptability, teamwork, and proactive problem-solving in a friendly atmosphere, we'd love to welcome you to our team. 🧡
+
+In case you have any questions, drop us a line at [jobs@bright.dev](mailto:jobs@bright.dev).
