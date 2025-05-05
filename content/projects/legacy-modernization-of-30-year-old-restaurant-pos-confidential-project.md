@@ -5,7 +5,7 @@ our_service:
   - Application modernization
 layout: project
 project_id: restaurant-pos-revamp
-title: Legacy Modernization of 30-Year-Old Restaurant POS [Confidential Project]
+title: Legacy Modernization of 30-Year-Old Restaurant POS
 image: /images/case_study_pos_legacy.png
 description: Is it possible to revamp nearly 30-year-old software? Discover how
   our engineering team redesigned and modernized a restaurant Point-of-Sale
