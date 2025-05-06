@@ -114,6 +114,8 @@ That’s why the best approach is to combine:
 
 This hybrid approach helps us build better, faster, more intuitive custom POS software – rooted in how people really use it on the floor.
 
+
+
 ### \
 **Final Thought** 
 
