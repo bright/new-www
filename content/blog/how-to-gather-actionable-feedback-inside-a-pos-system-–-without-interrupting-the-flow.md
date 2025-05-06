@@ -81,7 +81,9 @@ We use Firebase for in-app event tracking and connect it with Grafana for visual
 * Detection of bottlenecks (e.g. if many payments fail or are delayed)
 * Early warning signs of bugs or usability issues
 
-#### screen z FB
+<div className="image">![firebase analytics](/images/screenshot-2025-05-06-at-15.02.06.png "Firebase POS Analytics")</div>
+
+
 
 **Funnels & Flows: Where Are Users Struggling?**
 
