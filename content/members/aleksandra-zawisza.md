@@ -6,8 +6,8 @@ slug: aleksandra-zaw
 name: "Aleksandra Zawisza "
 short_name: Aleksandra
 email: aleksandra.zawisza@brightinventions.pl
-bio: Junior Product Designer
-description: Junior Product Designer
+bio: Product Designer
+description: Product Designer
 avatar: /images/white-01.png
 avatar_hover: /images/white-02.png
 published: true
