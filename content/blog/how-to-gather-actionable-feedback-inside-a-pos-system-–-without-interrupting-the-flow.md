@@ -103,7 +103,7 @@ This lets us:
 * Prioritise improvements
 * A/B test new solutions based on real data
 
-### **3. Combining Both Worlds: Data + Human Insight**
+# **3. Combining Both Worlds: Data + Human Insight**
 
 Data can show us what is happening, but users tell us why.
 
