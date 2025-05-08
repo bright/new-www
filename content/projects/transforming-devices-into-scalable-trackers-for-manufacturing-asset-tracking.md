@@ -33,7 +33,7 @@ title_case_study: explore more clients' stories
 title_contact: hire us to build your unique asset tracking system
 description_contact: Tell us more about your tech problems and we will help you
   find solutions! Fill out the form below and we'll get back to you in 48 hours.
-order: 99
+order: 1
 slug: manufacturing-asset-tracking
 show_team: false
 show_case_study: true
@@ -66,9 +66,11 @@ Here’s how it works: if a device is lost, it can be marked as "missing" in the
 
 What’s more, the app logs when and where the missing item was last detected and by whom, creating a real-time trail of activity. This **transforms every employee’s pocket into a tool for tracking and recovery** – no extra hardware required.
 
-<TitleWithIcon sectionTitle="challenges: adjusting to various devices and environmental factors blocking the signal
-" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
+<TitleWithIcon sectionTitle="challenges: adjusting to various devices and environmental factors blocking the signal" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
+
 One of the biggest challenges was the **fragmentation in the Android ecosystem**. Every manufacturer tends to modify the Android operating system, which affects background behavior and Bluetooth scanning. A feature like continuous BLE scanning – essential for our solution – works flawlessly on one device but may be completely blocked on another. We had to ensure stability across a wide array of devices, from Zebra scanners to Samsung or Apple smartphones, each with their own quirks.
+
+<div className="image">![device tracking](/images/manufacturing_asset_tracking_photo.png "device tracking")</div>
 
 **Maintaining consistent background operation was critical** – and difficult. Both Android and iOS limit what apps can do in the background, especially when it comes to Bluetooth activity. The **manufacturing asset tracking** app has to remain active at all times without significant drain of the battery. We optimized power consumption by batching network messages and reducing how often we processed Bluetooth events, without sacrificing responsiveness.
 
