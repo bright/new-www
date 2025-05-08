@@ -45,11 +45,11 @@ language: en
 ---
 ## **about bright people 🧡**
 
-At Bright Inventions we value people who take ownership, show initiative, and care about what they build. We work as partners to our clients, so we look for team members who actively suggest improvements, solve problems, and take responsibility for their work and growth.
+At Bright Inventions we value people who take **ownership, show initiative, and care about what they build**. We work as partners to our clients, so we look for team members who **actively suggest improvements, solve problems, and take responsibility** for their work and growth.
 
-Being flexible is important to us. We use technology as a tool to bring value, and we appreciate people who are open to learning and using new tools when needed.
+Being flexible is important to us. We use technology as a tool to bring value, and we appreciate people who are **open to learning and using new tools** when needed.
 
-We expect effective communication skills, including the ability to both give and receive constructive feedback with empathy.We focus on solutions, not blame. We support each other, share knowledge, and approach challenges with a positive mindset.
+We expect effective communication skills, including the **ability to both give and receive constructive feedback with empathy**. We focus on solutions, not blame. We support each other, share knowledge, and approach challenges with a positive mindset.
 
 ## **about the project 🚀**
 
@@ -103,7 +103,7 @@ We are working on an innovative Agentic AI platform designed for AppSec teams, e
 
 ✔️ Friday yoga, weekly running, swimming and cycling classes with a professional coach
 
-## **we’re building a team where every member:**
+## **we’re building a team where every member**
 
 ✅ Takes initiative and full ownership in collaboration with both teammates and clients.
 
@@ -117,8 +117,6 @@ We are working on an innovative Agentic AI platform designed for AppSec teams, e
 
 ✅ Treats client products like their own, acting as a true business partner, not just a developer.
 
-If this mindset doesn’t resonate with you, you might find a better fit elsewhere. We’re creating a team where every member shares these core values.
-
-If you thrive in an environment that values accountability, adaptability, teamwork, and proactive problem-solving in a friendly atmosphere, we'd love to welcome you to our team. 🧡
+If you thrive in an environment that values accountability, adaptability, teamwork, and proactive problem-solving in a friendly atmosphere, we'd love to welcome you to our team. If this mindset doesn’t resonate with you, you might find a better fit elsewhere. 
 
 In case you have any questions, drop us a line at [jobs@bright.dev](mailto:jobs@bright.dev).
