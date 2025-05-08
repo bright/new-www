@@ -65,3 +65,19 @@ Using **Bluetooth Low Energy (BLE)**, each mobile device can act either as a tra
 Here’s how it works: if a device is lost, it can be marked as "missing" in the system. The next time another employee carrying a phone with our app passes nearby, their device picks up the BLE signal and sends a command to the lost asset. That command triggers **the lost device to vibrate and emit a loud sound, making it easy to locate** – even if it’s out of sight.
 
 What’s more, the app logs when and where the missing item was last detected and by whom, creating a real-time trail of activity. This **transforms every employee’s pocket into a tool for tracking and recovery** – no extra hardware required.
+
+<TitleWithIcon sectionTitle="challenges: adjusting to various devices and environmental factors blocking the signal
+" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
+One of the biggest challenges was the **fragmentation in the Android ecosystem**. Every manufacturer tends to modify the Android operating system, which affects background behavior and Bluetooth scanning. A feature like continuous BLE scanning – essential for our solution – works flawlessly on one device but may be completely blocked on another. We had to ensure stability across a wide array of devices, from Zebra scanners to Samsung or Apple smartphones, each with their own quirks.
+
+**Maintaining consistent background operation was critical** – and difficult. Both Android and iOS limit what apps can do in the background, especially when it comes to Bluetooth activity. The **manufacturing asset tracking** app has to remain active at all times without significant drain of the battery. We optimized power consumption by batching network messages and reducing how often we processed Bluetooth events, without sacrificing responsiveness.
+
+**Environmental factors** added another layer: solid concrete walls (common in Europe) versus thin drywall (typical in the US) significantly altered signal strength. Even human bodies – being mostly water – can block BLE signals when a device is held in hand.
+
+Therefore **testing this system was a monumental task**. Our QA team became deeply familiar with countless edge cases – from interrupted data packets to the physical realities of the factory itself, including its layout, construction materials, and how they impacted signal behavior. 
+
+All that effort paid off: by reproducing even the most specific and obscure conditions, we were able to **reduce unexpected bugs in the production environment** and deliver a more reliable product.
+
+<TitleWithIcon sectionTitle="the results: safeguarding assets with real-time tracking" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
+
+Every company-owned device is now **tracked in real time, 24/7** – reducing the risk of asset misplacement or misuse. Globally, businesses lose an estimated [5%](https://www.smallbizgenius.net/by-the-numbers/employee-theft-statistics/?utm_source=chatgpt.com) of their revenue annually to occupational fraud. By implementing a software-based tracking system that requires no additional hardware, a leading company in the manufacturing sector took a major step toward safeguarding their assets.
