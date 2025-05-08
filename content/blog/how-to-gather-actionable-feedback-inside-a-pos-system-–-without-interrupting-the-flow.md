@@ -102,8 +102,6 @@ That’s why the best approach is to combine:
 
 This hybrid approach helps us build better, faster, more intuitive custom POS software – rooted in how people really use it on the floor.
 
-### \
-
 **Final Thought** 
 
 Your POS app isn't just software – it's part of someone’s workday. The smoother and smarter you make it, the better their day goes.
