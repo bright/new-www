@@ -19,7 +19,7 @@ Understanding your users is key to building a Point of Sale (POS) system that no
 
 ### **So how can you gather meaningful insights from inside the POS app, without slowing anyone down?**
 
-As a POS software development company that builds custom systems for a variety of vendors, here’s how we approach it.
+As a [POS software development company](/our-areas/pos-software-development/) that builds custom systems for a variety of vendors, here’s how we approach it.
 
 ## **1.  In-App Questionnaire – But Only When It Makes Sense**
 
@@ -27,11 +27,7 @@ Let’s start with the obvious: asking the users directly.
 
 Instead of constant pop-ups or annoying reminders, we allow users to trigger the questionnaire themselves — for example, through a subtle button in the side menu labeled “Give Feedback”.
 
-
-
 <div className="image">![feedback reporting inside a POS system](/images/pos-feedback-mockup.png "feedback reporting inside a POS system")</div>
-
-
 
 ### **This way:**
 
@@ -48,13 +44,7 @@ In Point of Sale survey 
 
 **Pro tip:** Keep it short. 3–5 questions max, ideally with a text field at the end for open feedback.
 
-
-
 ANKIETA IMG
-
-
-
-
 
 ## 2.  Passive Feedback Through Analytics – Data Tells a Story
 
@@ -82,8 +72,6 @@ We use Firebase for in-app event tracking and connect it with Grafana for visual
 * Early warning signs of bugs or usability issues
 
 <div className="image">![firebase analytics](/images/screenshot-2025-05-06-at-15.02.06.png "Firebase POS Analytics")</div>
-
-
 
 **Funnels & Flows: Where Are Users Struggling?**
 
@@ -114,9 +102,8 @@ That’s why the best approach is to combine:
 
 This hybrid approach helps us build better, faster, more intuitive custom POS software – rooted in how people really use it on the floor.
 
-
-
 ### \
+
 **Final Thought** 
 
 Your POS app isn't just software – it's part of someone’s workday. The smoother and smarter you make it, the better their day goes.
