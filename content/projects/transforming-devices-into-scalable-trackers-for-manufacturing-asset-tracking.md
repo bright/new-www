@@ -58,7 +58,6 @@ One of our clients in the manufacturing sector faced this exact dilemma. They ha
 
 <TitleWithIcon sectionTitle="the solution: real-time manufacturing asset tracking system built on already owned devices" titleIcon="/images/flag.png" titleIconAlt="the solution" />
 
-  
 To address this challenge, we developed a scalable, software-based asset tracking network inspired by the principles behind **Apple’s iBeacon technology**. Our custom solution **leverages devices the company already owns** by transforming them into active participants in a decentralized tracking system.
 
 Using **Bluetooth Low Energy (BLE)**, each mobile device can act either as a tracker or as a detector. By simply installing the application we built for the company, any iOS or Android device becomes capable of simulating a beacon signal. This means **the devices can both emit their presence and listen for signals from nearby assets** – essentially turning the entire mobile fleet into a dynamic, location-aware network.
