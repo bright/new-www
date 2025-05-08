@@ -7,6 +7,7 @@ faqs:
     Technologies?
 project:
   - water-quality-monitoring
+  - manufacturing-asset-tracking
   - pos-devices-integration
 layout: our-service
 our_service_id: zebra-technologies-integrations
