@@ -65,6 +65,8 @@ We are working on an innovative Agentic AI platform designed for AppSec teams, e
 
 👉 experience with **AWS**
 
+👉 experience with AI tools for coding, testing, and documentation, and helping teammates in resolving common technical issues
+
 👉 solid knowledge of databases (both SQL and NoSQL solutions)
 
 👉 strong understanding of HTTP protocol, REST APIs, and web communication patterns
