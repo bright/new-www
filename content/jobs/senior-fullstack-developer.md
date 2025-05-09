@@ -71,6 +71,8 @@ We expect effective communication skills, including the **ability to both give a
 
 👉 working experience with libraries used in React Native development
 
+👉 experience with AI tools for coding, testing, and documentation, and helping teammates in resolving common technical issues
+
 👉 solid knowledge of databases (both SQL and NoSQL solutions)
 
 👉 strong understanding of HTTP protocol, REST APIs, and web communication patterns
