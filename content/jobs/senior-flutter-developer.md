@@ -66,6 +66,8 @@ We work on a diverse range of projects, from transportation and healthtech to ga
 
 👉 knowledge of mobile testing strategies
 
+👉 experience with AI tools for coding, testing, and documentation, and helping teammates in resolving common technical issues
+
 👉 ability to work independently
 
 👉 experience with CI/CD pipelines for mobile applications
