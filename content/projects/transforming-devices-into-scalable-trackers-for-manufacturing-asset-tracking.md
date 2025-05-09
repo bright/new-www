@@ -72,7 +72,9 @@ One of the biggest challenges was the **fragmentation in the Android ecosystem**
 
 <div className="image">![device tracking](/images/manufacturing_asset_tracking_photo.png "device tracking")</div>
 
-**Maintaining consistent background operation was critical** – and difficult. Both Android and iOS limit what apps can do in the background, especially when it comes to Bluetooth activity. The **manufacturing asset tracking** app has to remain active at all times without significant drain of the battery. We optimized power consumption by batching network messages and reducing how often we processed Bluetooth events, without sacrificing responsiveness.
+**Maintaining consistent background operation was critical** – and no small feat. Both Android and iOS place strict limitations on what apps can do in the background, especially when it comes to Bluetooth activity. We made it work by deeply optimizing the app's behavior, which required a **strong understanding of both Apple’s and Android’s native system**s. Just as important was designing a thoughtful permission strategy: from the very first onboarding screen, users were guided to grant all the necessary permissions to ensure the app could function reliably in the background.
+
+What’s more, the **manufacturing asset tracking** app has to remain active at all times without significant drain of the battery. We optimized power consumption by batching network messages and reducing how often we processed Bluetooth events, without sacrificing responsiveness.
 
 **Environmental factors** added another layer: solid concrete walls (common in Europe) versus thin drywall (typical in the US) significantly altered signal strength. Even human bodies – being mostly water – can block BLE signals when a device is held in hand.
 
