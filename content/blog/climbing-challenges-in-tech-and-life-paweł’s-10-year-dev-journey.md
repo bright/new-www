@@ -26,7 +26,7 @@ Sometimes, you get the opportunity to rewrite it. But in many cases, you have to
 
 Reading code is usually the most time-consuming part of a developer's work, and with legacy systems, it often feels like **solving a puzzle without all the pieces**.
 
-<div className="image">!\\\[Quote on working with legacy systems](/images/pawel_quote_legacy.png "Quote on working with legacy systems")</div>
+<div className="image">!\\\\[Quote on working with legacy systems](/images/pawel_quote_legacy.png "Quote on working with legacy systems")</div>
 
 ## Is it discouraging for you to work with legacy systems?
 
@@ -43,3 +43,17 @@ Our goal is to **offer more payment methods tailored to the needs of each market
 <div className="image">![Teambuilding](/images/teambuilding_laser_tag_pawel.png "Teambuilding")</div>
 
 <center> Paweł during a laser tag team retreat. </center>
+
+## You recently worked on passkey login implementation, which is still a unique feature. How do you look back on the experience?
+
+At the time, it wasn’t exactly brand new, but there were very few well-documented implementations available. We had to **test a wide range of scenarios** to make sure we covered all possible login flows. 
+
+Security is a tricky area – **a mistake in the login process can lead to issues like mixed user sessions**, which could irreversibly compromise user data. Overall, the biggest challenge was truly understanding how passkeys work, ensuring the solution was secure, and implementing it in a way that’s both reliable and user-friendly.
+
+## What keeps you motivated in your role at Bright Inventions?
+
+The projects are interesting, and I really **appreciate the work culture and the openness to feedback**. It doesn’t feel like you’re just another anonymous employee – if you have a problem, there’s always someone you can talk to.
+
+## Is it true that you built a climbing wall at your own house?
+
+Yes! Since my whole family – including my two daughters – climbs, we needed a place to practice. The wall is built into a long, narrow room, so we were able to squeeze it in, and it gives us the chance to use it every day.
