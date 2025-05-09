@@ -19,7 +19,7 @@ Teamwork is one of five core values at Bright Inventions. We constantly make sur
 
 ## **Team building at Bright Inventions**
 
-The main glue that binds our team together are the quarterly integrations.  Four times a year we organise core team building initiatives at Bright integrations (March, June, September, December), which always consist of two partsThe first part of team-building adventure is about facing different challenges together, and doing some group tasks. We are always randomly assigned to a group and can thus get to know people with whom we do not have the opportunity to work on a daily basis. It is a great opportunity to exchange ideas, experiences and support each other in carrying out tasks. And what are these tasks? Well, it varies: 
+The main glue that binds our team together are the integrations. Twice a year we organise core team building initiatives at Bright integrations (June and December), which always consist of two parts. The first part of team-building adventure is about facing different challenges together, and doing some group tasks. We are always randomly assigned to a group and can thus get to know people with whom we do not have the opportunity to work on a daily basis. It is a great opportunity to exchange ideas, experiences and support each other in carrying out tasks. And what are these tasks? Well, it varies: 
 
 * we sailed yachts and worked together to operate the yacht,
 
@@ -50,8 +50,6 @@ After our team-building activities, we usually gather at a local restaurant to e
 ## The unique brilliance of Bright Christmas
 
 One of the most anticipated meetings is always Bright Christmas. How does it differ from the rest? Of course, first we have the team-building part (this year we painted pictures together), then dinner and afterwards and afterwards we have an opportunity to reflect on the entire year. We even have a special team knowledge quiz and the awards for the most engaging blog post and the most popular post on our blog, determined by the number of views.
-
-
 
 <div className="image">![Bright Christmas ](../../static/images/rectangle-8-copy-2.png "")</div>
 
