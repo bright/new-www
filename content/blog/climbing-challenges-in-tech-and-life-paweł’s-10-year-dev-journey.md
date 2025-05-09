@@ -26,7 +26,7 @@ Sometimes, you get the opportunity to rewrite it. But in many cases, you have to
 
 Reading code is usually the most time-consuming part of a developer's work, and with legacy systems, it often feels like **solving a puzzle without all the pieces**.
 
-<div className="image">!\\\\\[Quote on working with legacy systems](/images/pawel_quote_legacy.png "Quote on working with legacy systems")</div>
+<div className="image">![Quote on legacy systems](/images/pawel_quote_legacy.png "Quote on legacy systems")</div>
 
 ## Is it discouraging for you to work with legacy systems?
 
