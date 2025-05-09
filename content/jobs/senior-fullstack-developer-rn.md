@@ -61,6 +61,8 @@ We work on a diverse range of projects, from transportation and healthtech to ga
 
 👉 deep working experience with Node.js (NestJS) and React (Next.js)
 
+👉 experience with AI tools for coding, testing, and documentation, and helping teammates in resolving common technical issues
+
 👉 solid knowledge of databases (both SQL and NoSQL solutions)
 
 👉 strong understanding of HTTP protocol, REST APIs, and web communication patterns
