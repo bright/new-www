@@ -66,7 +66,7 @@ Yes! Since my whole family – including my two daughters – climbs, we needed 
 
 Because it’s simply the best in Europe! I really enjoy France – the wine, the baguettes, the Camembert cheese. We go bouldering just outside Paris, near one of Napoleon’s former residences. 
 
-The kids climb too, or at least give it a try – unless there are lots of friends around, then they just play. But usually, they’ll climb a bit and enjoy being in the forest with everyone. And actually, we don’t go just once a year – we go twice! 😄 Spring and autumn are the best times. Summer is too hot, and while you could climb in winter – and some people do – I’m not a fan of the cold. That said, we went this February and it was actually really great.
+The kids climb too, or at least give it a try – unless there are lots of friends around, then they just play. But usually, they’ll climb a bit and enjoy being in the forest with everyone. And actually, we don’t go just once a year – **we go twice**! 😄 Spring and autumn are the best times. Summer is too hot, and while you could climb in winter – and some people do – I’m not a fan of the cold. That said, we went this February and it was actually really great.
 
 <div className="image">![Bouldering in France.](/images/bouldering_pawel.png "Bouldering in France.")</div>
 
