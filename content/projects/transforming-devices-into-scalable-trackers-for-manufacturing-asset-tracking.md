@@ -20,10 +20,10 @@ social_media_previev_alt: Manufacturing asset tracking
 bar_achievements:
   - number: 89%
     label: of missing assets involve fraud
-  - number: "2"
-    label: iOS and Android apps
   - number: 24/7
     label: asset tracking
+  - number: "2"
+    label: iOS and Android apps
 tags:
   - IoT
   - mobile app
