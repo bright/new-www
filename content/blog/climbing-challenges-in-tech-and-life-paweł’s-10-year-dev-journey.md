@@ -57,3 +57,7 @@ The projects are interesting, and I really **appreciate the work culture and the
 ## Is it true that you built a climbing wall at your own house?
 
 Yes! Since my whole family – including my two daughters – climbs, we needed a place to practice. The wall is built into a long, narrow room, so we were able to squeeze it in, and it gives us the chance to use it every day.
+
+<div className="image">![Bouldering wall](/images/bouldering_wall.png "Bouldering wall")</div>
+
+<center>Homemade bouldering wall.</center>
