@@ -17,7 +17,7 @@ language: en
 ---
 Understanding your users is key to building a Point of Sale (POS) system that not only works but actually supports staff during busy, high-pressure service hours. But when your users are waiters, bartenders, or restaurant managers — getting feedback isn’t as easy as sending out a survey.
 
-### **So how can you gather meaningful insights from inside the POS app, without slowing anyone down?**
+# **So how can you gather meaningful insights from inside the POS app, without slowing anyone down?**
 
 As a [POS software development company](/our-areas/pos-software-development/) that builds custom systems for a variety of vendors, here’s how we approach it.
 
