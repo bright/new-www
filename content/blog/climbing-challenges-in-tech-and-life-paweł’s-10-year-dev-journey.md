@@ -26,7 +26,7 @@ Sometimes, you get the opportunity to rewrite it. But in many cases, you have to
 
 Reading code is usually the most time-consuming part of a developer's work, and with legacy systems, it often feels like **solving a puzzle without all the pieces**.
 
-<div className="image">!\[Quote on working with legacy systems](/images/pawel_quote_legacy.png "Quote on working with legacy systems")</div>
+<div className="image">!\\\[Quote on working with legacy systems](/images/pawel_quote_legacy.png "Quote on working with legacy systems")</div>
 
 ## Is it discouraging for you to work with legacy systems?
 
@@ -39,3 +39,7 @@ I once worked for a company in the banking sector, but it didn’t give me the s
 It’s a major part of the app modernization. The app already had payments implemented which gave me an **opportunity to work with third-party services like Braintree and Stripe**. Yet now we’re expanding the number of payment providers and methods. We already support a variety of payment methods, including **credit cards, PayPal, Google Pay, and SEPA** – which is actually very popular in countries like Germany.
 
 Our goal is to **offer more payment methods tailored to the needs of each market**. For example, in the Netherlands, iDEAL is widely used. The challenge lies in coordinating all these providers and adapting the payment flows to each market – especially considering specific factors, like SEPA only handling payments within Europe, which makes it unsuitable for certain regions.
+
+<div className="image">![Teambuilding](/images/teambuilding_laser_tag_pawel.png "Teambuilding")</div>
+
+<center> Paweł during a laser tag team retreat. </center>
