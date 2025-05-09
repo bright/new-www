@@ -27,7 +27,8 @@ Sometimes, you get the opportunity to rewrite it. But in many cases, you have to
 Reading code is usually the most time-consuming part of a developer's work, and with legacy systems, it often feels like **solving a puzzle without all the pieces**.
 
 <div className="image">!\[Quote on working with legacy systems](/images/pawel_quote_legacy.png "Quote on working with legacy systems")</div>
-\*\*Is it discouraging for you to work with legacy systems?\*\*
+
+## Is it discouraging for you to work with legacy systems?
 
 Not at all – I actually enjoy the challenge. What’s most rewarding is knowing I’m **adding real value to businesses**, not just working on projects that will never see the light of day. It might sound cliché, but I like working on something that can make a difference. 
 
