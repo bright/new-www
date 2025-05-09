@@ -26,7 +26,7 @@ Sometimes, you get the opportunity to rewrite it. But in many cases, you have to
 
 Reading code is usually the most time-consuming part of a developer's work, and with legacy systems, it often feels like **solving a puzzle without all the pieces**.
 
-<div className="image">!\\\\[Quote on working with legacy systems](/images/pawel_quote_legacy.png "Quote on working with legacy systems")</div>
+<div className="image">!\\\\\[Quote on working with legacy systems](/images/pawel_quote_legacy.png "Quote on working with legacy systems")</div>
 
 ## Is it discouraging for you to work with legacy systems?
 
@@ -61,3 +61,13 @@ Yes! Since my whole family – including my two daughters – climbs, we needed 
 <div className="image">![Bouldering wall](/images/bouldering_wall.png "Bouldering wall")</div>
 
 <center>Homemade bouldering wall.</center>
+
+## Why do you travel to the same climbing spot in France every year?
+
+Because it’s simply the best in Europe! I really enjoy France – the wine, the baguettes, the Camembert cheese. We go bouldering just outside Paris, near one of Napoleon’s former residences. 
+
+The kids climb too, or at least give it a try – unless there are lots of friends around, then they just play. But usually, they’ll climb a bit and enjoy being in the forest with everyone. And actually, we don’t go just once a year – we go twice! 😄 Spring and autumn are the best times. Summer is too hot, and while you could climb in winter – and some people do – I’m not a fan of the cold. That said, we went this February and it was actually really great.
+
+<div className="image">![Bouldering in France.](/images/bouldering_pawel.png "Bouldering in France.")</div>
+
+<center>Bouldering in France.</center>
