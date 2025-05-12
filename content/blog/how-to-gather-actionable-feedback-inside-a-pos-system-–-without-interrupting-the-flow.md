@@ -11,7 +11,7 @@ title: How to Gather Actionable Feedback Inside a POS System – Without
   Interrupting the Flow
 layout: post
 image: /images/frame-2608441-2-.png
-hidden: true
+hidden: false
 comments: false
 published: true
 language: en
