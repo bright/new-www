@@ -6,7 +6,7 @@ tags:
   - POS
 date: 2025-05-06T12:30:41.610Z
 meaningfullyUpdatedAt: 2025-05-06T12:30:41.629Z
-slug: how-to-gather-actionable-feedback-inside-a-pos-system
+slug: how-to-gather-actionable-feedback-inside-pos-system
 title: How to Gather Actionable Feedback Inside a POS System – Without
   Interrupting the Flow
 layout: post
