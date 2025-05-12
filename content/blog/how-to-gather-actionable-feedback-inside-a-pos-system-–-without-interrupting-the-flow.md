@@ -46,11 +46,7 @@ In Point of Sale survey: 
 \
 **💡 Pro tip:** Keep it short. 3–5 questions max, ideally with a text field for open feedback.
 
-
-
 <div className="image">![POS Feedback Survey](/images/screenshot-2025-05-09-at-15.51.40.png "In-App Feedback Survey")</div>
-
-
 
 # **Passive Feedback Through Analytics – Data Tells a Story**
 
@@ -99,11 +95,9 @@ By inspecting user flows, we can answer questions like:
 * Prioritise improvements
 * A/B test new solutions based on real data
 
-<EbookDynamic sectionTitle='Meet your POS persona – download the research' ebookName='User-Persona-For-Point-Of-Sale.pdf' ebookDescription={'Boost your UX with this POS Persona PDF.'} ebookImage='undefined' ebookAlt='' />
+<EbookDynamic sectionTitle='Meet your POS persona – download the research' ebookName='User-Persona-For-Point-Of-Sale.pdf' ebookDescription={'Boost your UX with this POS Persona PDF.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='' />
 
 # **Combining Both Worlds: Data + Human Insight**
-
-
 
 Data can show us what is happening, but users tell us why.
 
@@ -113,8 +107,6 @@ That’s why the best approach is to combine:
 * Active insights from user-triggered feedback
 
 This hybrid approach helps us build better, faster, more intuitive custom POS software – rooted in how people really use it on the floor.
-
-
 
 # **Final Thought** 
 
