@@ -10,7 +10,7 @@ slug: how-to-gather-actionable-feedback-inside-a-pos-system
 title: How to Gather Actionable Feedback Inside a POS System – Without
   Interrupting the Flow
 layout: post
-image: /images/blog_post_cover.png
+image: /images/frame-2608441-2-.png
 hidden: false
 comments: false
 published: true
