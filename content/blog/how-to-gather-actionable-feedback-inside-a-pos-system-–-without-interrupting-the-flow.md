@@ -95,7 +95,7 @@ By inspecting user flows, we can answer questions like:
 * Prioritise improvements
 * A/B test new solutions based on real data
 
-<EbookDynamic sectionTitle='Meet your POS persona – download the research' ebookName='User-Persona-For-Point-Of-Sale.pdf' ebookDescription={'Boost your UX with this POS Persona PDF.'} ebookImage='/images/ebook-risk-management-cover.png' ebookAlt='' />
+<EbookDynamic sectionTitle='Meet your POS persona – download the research' ebookName='User-Persona-For-Point-Of-Sale.pdf' ebookDescription={'Boost your UX with this POS Persona PDF.'} ebookImage='/images/cover_user_persona.png' ebookAlt='' />
 
 # **Combining Both Worlds: Data + Human Insight**
 
