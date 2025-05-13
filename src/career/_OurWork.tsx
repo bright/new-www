@@ -100,7 +100,7 @@ const OurWork: React.FC = () => {
     {
       avatar_hover: <StaticImage src='../../static/images/asia_passion.png' alt='Joanna' className='quote-img' />,
       short_name: 'Joanna',
-      bio: 'Junior Product Designer',
+      bio: 'Product Designer',
       slug: 'joanna-c',
       quote:
         'I enjoy the culture of knowledge sharing at Bright Inventions. Although we have teams working for various clients, there is communication between the teams. When I face some challenges, it often turns out that another team can offer their advice.',
@@ -216,7 +216,7 @@ const OurWork: React.FC = () => {
         <StaticImage src='../../static/images/agata_passion_small.png' alt='Agata' className='quote-img' />
       ),
       short_name: 'Agata',
-      bio: 'Social Media Specialist',
+      bio: 'Business Relations Specialist',
       slug: 'agata',
       quote:
         'For me, diving into an IT branch meant getting out of my comfort zone. Bright Inventions made the dive really pleasant, because they (we!) respect and accept the person just the way he/she is. Like in a big, loving, modern family. ;)',
