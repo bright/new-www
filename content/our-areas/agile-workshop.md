@@ -3,7 +3,7 @@ team_members:
   - kasia
   - mateusz
   - kasia g
-  - ariane-h
+  - michal
 faqs:
   - agile workshop 1
   - agile workshop 2
