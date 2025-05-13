@@ -18,11 +18,11 @@ language: en
 ---
 Understanding your users is key to building a Point of Sale (POS) system that not only works but actually supports staff during busy, high-pressure service hours. But when your users are waiters, bartenders, or restaurant managers — getting feedback isn’t as easy as sending out a survey.
 
-# **So how can you gather meaningful insights from inside the POS app, without slowing anyone down?**
+## So how can you gather meaningful insights from inside the POS app, without slowing anyone down?
 
 As a [POS software development company](/our-areas/pos-software-development/) that builds custom systems for a variety of vendors, here’s how we approach it.
 
-# **In-App Questionnaire – But Only When It Makes Sense**
+## In-App Questionnaire – But Only When It Makes Sense
 
 Let’s start with the obvious: asking the users directly.
 
@@ -30,7 +30,7 @@ Instead of constant pop-ups or annoying reminders, we allow users to trigger the
 
 <div className="image">![feedback reporting inside a POS system](/images/pos-feedback-mockup.png "feedback reporting inside a POS system")</div>
 
-### **This way:**
+### This way:
 
 * Feedback comes in when users are ready to share.
 * The signal-to-noise ratio is much higher than with forced pop-ups.
@@ -48,7 +48,7 @@ In Point of Sale survey: 
 
 <div className="image">![POS Feedback Survey](/images/screenshot-2025-05-09-at-15.51.40.png "In-App Feedback Survey")</div>
 
-# **Passive Feedback Through Analytics – Data Tells a Story**
+## Passive Feedback Through Analytics – Data Tells a Story
 
 Not all feedback has to be given intentionally. With the right setup, analytics can tell you everything — from where people get stuck, to how long it takes to close a table.
 
@@ -58,7 +58,7 @@ We use Firebase for in-app event tracking and connect it with Grafana for visual
 
 ### **What We Track**
 
-### **1. Core Actions:**
+**1. Core Actions:**
 
 * Opening a table
 * Adding an item
@@ -74,7 +74,7 @@ We use Firebase for in-app event tracking and connect it with Grafana for visual
 
 <div className="image">![firebase analytics](/images/screenshot-2025-05-06-at-15.02.06.png "Firebase POS Analytics")</div>
 
-### **2. Funnels & Flows: Where Are Users Struggling?**
+**2. Funnels & Flows: Where Are Users Struggling?**
 
 By inspecting user flows, we can answer questions like:
 
@@ -97,7 +97,7 @@ By inspecting user flows, we can answer questions like:
 
 <EbookDynamic sectionTitle='Meet your POS persona – download the research' ebookName='User-Persona-For-Point-Of-Sale.pdf' ebookDescription={'Boost your UX with this POS Persona PDF.'} ebookImage='/images/cover_user_persona.png' ebookAlt='' />
 
-# **Combining Both Worlds: Data + Human Insight**
+## Combining Both Worlds: Data + Human Insight
 
 Data can show us what is happening, but users tell us why.
 
@@ -108,7 +108,7 @@ That’s why the best approach is to combine:
 
 This hybrid approach helps us build better, faster, more intuitive custom POS software – rooted in how people really use it on the floor.
 
-# **Final Thought** 
+## **Final Thought** 
 
 Your POS app isn't just software – it's part of someone’s workday. The smoother and smarter you make it, the better their day goes.
 
