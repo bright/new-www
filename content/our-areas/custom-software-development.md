@@ -22,7 +22,7 @@ project:
   - Practi JET POS
   - kitchen-display-system
   - food-delivery-app
-  - pos-devices-integration
+  - water-quality-monitoring
 layout: our-service
 our_service_id: custom software development
 meta_title: Custom Software Development
@@ -83,7 +83,7 @@ description_mdx: Every business is unique. Bespoke software development can
   approach for your software development, we also simplify and optimize your
   workflows.
 image_our_service: /images/customsoftwaredevelopment_small.png
-show_team: true
+show_team: false
 ---
 ## is custom application development a good fit for you?
 
