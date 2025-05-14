@@ -22,7 +22,7 @@ project:
   - Practi JET POS
   - kitchen-display-system
   - food-delivery-app
-  - pos-devices-integration
+  - water-quality-monitoring
 layout: our-service
 our_service_id: custom software development
 meta_title: Custom Software Development
@@ -42,9 +42,9 @@ image_our_service_desktop: /images/custom_software_development_desktop_big.png
 image_our_service_mobile: /images/custom_software_development_mobile_big.png
 image_alt_our_service: custom software development
 bullet_points:
-  - assessment of your idea in 7 days
-  - taking care of every stage of development
-  - scaling your business from MVP to global solution
+  - partner with an EU-based company
+  - lift tech dilemmas off your shoulders
+  - solving what off-the-shelf solutions can’t
 bar_stack:
   - Android
   - Swift
@@ -83,7 +83,7 @@ description_mdx: Every business is unique. Bespoke software development can
   approach for your software development, we also simplify and optimize your
   workflows.
 image_our_service: /images/customsoftwaredevelopment_small.png
-show_team: true
+show_team: false
 ---
 ## is custom application development a good fit for you?
 
