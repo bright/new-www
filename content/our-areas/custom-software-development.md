@@ -42,9 +42,9 @@ image_our_service_desktop: /images/custom_software_development_desktop_big.png
 image_our_service_mobile: /images/custom_software_development_mobile_big.png
 image_alt_our_service: custom software development
 bullet_points:
-  - assessment of your idea in 7 days
-  - taking care of every stage of development
-  - scaling your business from MVP to global solution
+  - partner with an EU-based company
+  - lift tech dilemmas off your shoulders
+  - solving what off-the-shelf solutions can’t
 bar_stack:
   - Android
   - Swift
