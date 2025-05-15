@@ -8,7 +8,7 @@ tags:
 date: 2025-05-15T10:33:40.018Z
 meaningfullyUpdatedAt: 2025-05-15T10:33:40.028Z
 slug: from-gradle-plugin-to-cli-android
-title: From Gradle Plugin to CLI: A More Flexible Way to Distribute Android Apps with Firebase App Distribution
+title: From Gradle Plugin to CLI - A More Flexible Way to Distribute Android Apps with Firebase App Distribution
 layout: post
 image: /images/blog_post_android_gradle_CLI.png
 hidden: false
