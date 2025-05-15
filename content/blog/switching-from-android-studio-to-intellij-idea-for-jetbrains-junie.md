@@ -25,7 +25,7 @@ Recently, I decided to give it another try and switch to IntelliJ IDEA Ultimate 
 
 It's important to note that I'm not planning to replace Android Studio entirely this time. My intention is to use both IDEs as needed and eventually return to Android Studio as my primary development environment once it starts supporting Junie. This way, I can ensure I always have access to the latest Android-related features and bug fixes while still benefiting from AI assistance in the meantime.
 
-If you're interested in AI-assisted development for Android, Szymon recently made a detailed comparison between [Cursor](https://www.cursor.com/) and [Junie](https://www.jetbrains.com/junie/) agents for Android development in his blog post [Cursor vs Junie for Android](/blog/cursor-vs-junie-for-android/).
+If you're interested in AI-assisted development for Android, Szymon recently made a detailed comparison between [Cursor](https://www.cursor.com/) and [Junie](https://www.jetbrains.com/junie/) agents for Android development in [his blog post ](/blog/cursor-vs-junie-for-android/).
 
 ## The Current State of Android Development in IntelliJ IDEA
 
