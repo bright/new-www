@@ -15,7 +15,7 @@ comments: false
 published: true
 language: en
 ---
-**Junie and Cursor — two prominent AI agents — have entered the realm of Android development. Let's explore their strengths and weaknesses across different aspects of the development process.**
+**[Junie](https://www.jetbrains.com/junie/) and [Cursor](http://cursor.com) — two prominent AI agents — have entered the realm of Android development. Let's explore their strengths and weaknesses across different aspects of the development process.**
 
 <div className="image">![Cursor vs. Junie for Android Development](/images/cursor-junie.jpg "Cursor vs. Junie for Android Development")</div>
 
@@ -29,7 +29,7 @@ Among the most powerful AI tools out there are what people call AI Agents. These
 
 Here are some examples of requests you could make that might be super helpful and boost your productivity:
 
-* Write unit tests for my `ViewModel` class, making sure to match the code style used in your `OtherViewModelTest` class.
+* Write unit tests for my `ViewModel` class, making sure to match the code style used in your `OtherViewModelTest` class. Generating unit tests with it takes only a few minutes, which can save hours compared to manual creation, especially for complex scenarios.
 * Migrate all the Jetpack Compose Material 2 Composables in your project over to Material 3.
 * Change how file uploads are handled by WorkManager. Instead of one `WorkRequest` per upload, use a single `WorkRequest` for multiple files with an upload queue stored in a Room database. Also, make sure to expose detailed updates about the queue and the status of each upload using a Coroutines Flow.
 * Create Jetpack Compose Composables that perfectly match the screen layout shown in the design image file `design.jpg`.
@@ -68,7 +68,7 @@ You just go into Agent mode, give Cursor the relevant context files it needs, an
 
 ## Junie
 
-It's not available right in Android Studio yet. However, you can find it in IntelliJ IDEA Ultimate, which actually has decent Android development support. It comes with an Android plugin that gives you Jetpack Compose preview, Logcat, debugger, Network Inspector, Build Variants selector, Profiler, and a whole lot more that should cover most of your Android needs! You might miss some less common features bundled with Android Studio, like Firebase integration or the App Links Assistant, but for most things, it's got you covered.
+It’s part of Jetbrains AI Pro. It's not available right in Android Studio yet. However, you can find it in IntelliJ IDEA Ultimate, which actually has decent Android development support. It comes with an Android plugin that gives you Jetpack Compose preview, Logcat, debugger, Network Inspector, Build Variants selector, Profiler, and a whole lot more that should cover most of your Android needs! You might miss some less common features bundled with Android Studio, like Firebase integration or the App Links Assistant, but for most things, it's got you covered.
 
 ### How does it work?
 
@@ -94,4 +94,10 @@ You just select Code mode. You can add context files using the '+' icon or by me
   * Processing more complex stuff just takes a good chunk of time.
   * Sometimes fixing all the unit tests in just one file means a separate AI request for each one, plus running the test, which can seriously chew up 10-20 minutes sometimes.
   * Creating a single unit test class for a typical Android ViewModel took around 3 to 5 minutes.
-  * Migrating approximately 30 Composables from Jetpack Compose Material2 to Material3 within a specific package took around 20 minutes.
+  * Migrating approximately 30 Composables from Jetpack Compose Material2 to Material3 within a specific package took around 20 minutes. However, it’s nothing compared to the estimated 8 hours.
+
+## Summary
+
+AI Agents significantly improve daily work by saving time typically spent on writing boilerplate code. 
+
+For intricate issues, Junie is the preferred tool, while Cursor is suitable for simpler, faster assistance. Which AI agent do you prefer for your Android development tasks?
