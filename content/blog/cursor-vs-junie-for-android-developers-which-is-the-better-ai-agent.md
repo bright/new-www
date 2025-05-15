@@ -17,6 +17,8 @@ language: en
 ---
 **Junie and Cursor — two prominent AI agents — have entered the realm of Android development. Let's explore their strengths and weaknesses across different aspects of the development process.**
 
+<div className="image">![Cursor vs. Junie for Android Development](/images/cursor-junie.jpg "Cursor vs. Junie for Android Development")</div>
+
 ## AI Agents for Android development
 
 Plenty of AI tools are popping up that can really speed up Android development. Let's dive into what's currently available and check out some cool options we have right now.
@@ -49,14 +51,17 @@ You just go into Agent mode, give Cursor the relevant context files it needs, an
 * You can pick which AI model you want to use.
 * Has a "Thinking mode" which is great for trickier or less clear problems, like debugging or figuring out why an exception happened.
 * Awesome for generating small bits of boilerplate code (maybe up to a few files).
+
   * Writing unit tests based on a component to test
 
 **Cons:**
 
 * Android support isn't super convenient.
+
   * Cannot run app or unit tests.
   * Lacks network, memory, and UI analyzer tools.
 * Needs very specific file context; without enough info, the results can be useless.
+
   * Automatically generated tests may fail to compile or employ coding patterns not typical of your project.
 * Often spits out boilerplate code that doesn't even compile.
 * Can get stuck in a loop if you e.g. ask it to make tests pass by repeatedly running and fixing them.
@@ -72,18 +77,20 @@ You just select Code mode. You can add context files using the '+' icon or by me
 **Pros:**
 
 * Pretty accurate, gives results that make more sense and feel more insightful than Cursor.
+
   * If serialization is needed, it looks for existing examples in the project.
   * If unit testing mocks are needed, it looks for existing mocking libraries
   * When code changes affect other classes, it tries to make everything play nicely together.
   * Does not leave your code not compiling
-
 * Can totally write unit tests and even fix them on the spot if they're busted.
+
   * If a unit test doesn't compile or pass, it keeps trying to fix it until it does.
   * Haven't seen it get stuck in an infinite loop yet, which is cool.
 
 **Cons:**
 
 * Yeah, it's slower.
+
   * Processing more complex stuff just takes a good chunk of time.
   * Sometimes fixing all the unit tests in just one file means a separate AI request for each one, plus running the test, which can seriously chew up 10-20 minutes sometimes.
   * Creating a single unit test class for a typical Android ViewModel took around 3 to 5 minutes.
