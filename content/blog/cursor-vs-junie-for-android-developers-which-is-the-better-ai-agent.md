@@ -10,7 +10,7 @@ slug: cursor-vs-junie-for-android
 title: Cursor vs Junie for Android Developers. Which Is the Better AI Agent?
 layout: post
 image: /images/cursor-junie.jpg
-hidden: false
+hidden: true
 comments: false
 published: true
 language: en
