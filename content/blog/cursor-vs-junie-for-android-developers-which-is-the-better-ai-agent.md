@@ -15,7 +15,7 @@ comments: false
 published: true
 language: en
 ---
-**[Junie](https://www.jetbrains.com/junie/) and [Cursor](http://cursor.com) — two prominent AI agents — have entered the realm of Android development. Let's explore their strengths and weaknesses across different aspects of the development process.**
+**[Junie](https://www.jetbrains.com/junie/) and [Cursor](https://www.cursor.com/) — two prominent AI agents — have entered the realm of Android development. Let's explore their strengths and weaknesses across different aspects of the development process.**
 
 <div className="image">![Cursor vs. Junie for Android Development](/images/cursor-junie.jpg "Cursor vs. Junie for Android Development")</div>
 
