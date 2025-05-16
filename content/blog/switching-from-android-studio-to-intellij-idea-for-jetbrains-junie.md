@@ -111,5 +111,3 @@ Switching from Android Studio to IntelliJ IDEA Ultimate for Android development 
 Before making the switch, consider your specific workflow and the tools you rely on. Chances are, you won't miss anything from Android Studio.
 
 For many developers, the benefits of using IntelliJ IDEA's additional features outweigh the limitations, especially since the core Android development experience remains largely intact.
-
-Have you ever tried switching from Android Studio to IntelliJ IDEA? What has been your experience? Share your thoughts and tips in the comments below!
