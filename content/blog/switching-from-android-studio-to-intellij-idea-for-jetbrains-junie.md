@@ -4,8 +4,8 @@ tags:
   - android
   - AI
   - agent
-date: 2025-05-15T13:12:03.516Z
-meaningfullyUpdatedAt: 2025-05-15T13:12:03.529Z
+date: 2025-05-16T08:10:18.362Z
+meaningfullyUpdatedAt: 2025-05-16T08:10:19.044Z
 slug: switching-from-android-studio-to-idea-for-junie
 title: Switching from Android Studio to IntelliJ IDEA for JetBrains Junie
 layout: post
@@ -111,5 +111,3 @@ Switching from Android Studio to IntelliJ IDEA Ultimate for Android development 
 Before making the switch, consider your specific workflow and the tools you rely on. Chances are, you won't miss anything from Android Studio.
 
 For many developers, the benefits of using IntelliJ IDEA's additional features outweigh the limitations, especially since the core Android development experience remains largely intact.
-
-Have you ever tried switching from Android Studio to IntelliJ IDEA? What has been your experience? Share your thoughts and tips in the comments below!
