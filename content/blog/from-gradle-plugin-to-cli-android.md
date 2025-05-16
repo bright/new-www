@@ -26,6 +26,8 @@ However, as our project’s complexity grew, particularly with the introduction 
 Initially, the Firebase App Distribution Gradle plugin was more than enough for our project. All we had to do was to apply the plugin in the `build.gradle` file and configure the `firebaseAppDistribution` closure by specifying appId, service account file and testers group. Since we had 2 flavors at that time - `staging` and `live`, we could also configure each of them separately:
 
 ```groovy
+// app-level build.gradle.kts file
+
 plugins {
   id("com.google.firebase.appdistribution")
 }
@@ -59,18 +61,19 @@ This setup allowed us to upload both variants of the app to App Distribution fro
 This worked perfectly well until our app received a second branding, which forced us to create a new flavor dimension - *brand*.\
 Adding the second flavor dimension resulted in having 4 merged flavors instead of 2:  
 
-```
-brand1Live
-brand1Staging
-brand2Live
-brand2Staging
-```
+
+* brand1Live
+* brand1Staging
+* brand2Live
+* brand2Staging
 
 Since all those 4 app versions had different App IDs in the Firebase console, we also needed 4 different App Distribution plugin setups.
 
 Unfortunately, at the time of writing this blog post (May 2025), the plugin doesn’t allow that, as there exist only 3 versions for the `firebaseAppDistribution` configuration function:  
 
 ```kotlin
+// com.google.firebase.appdistribution.gradle.ExtensionAwareKt
+
 fun org.gradle.api.Project.firebaseAppDistribution()
 fun org.gradle.nativeplatform.BuildType.firebaseAppDistribution()
 fun com.android.build.api.dsl.ProductFlavor.firebaseAppDistribution()
