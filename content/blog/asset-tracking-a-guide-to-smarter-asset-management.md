@@ -185,9 +185,13 @@ Choosing between these options depends on the complexity of your needs, existing
 
 A global seafood exporter required a system to monitor water conditions inside fish crates during transport. Our team developed a [custom IoT solution that used sensors to track water quality indicators](/projects/water-quality-monitoring/) such as temperature. The system sent real-time alerts when anomalies were detected, ensuring compliance with safety standards and reducing spoilage. This improved quality assurance and customer satisfaction.
 
+<div className="image">![water monitoring](/images/water_monitoring_case_study.png "water monitoring")</div>
+
 ### 2. Manufacturing Asset Tracking Using Existing Devices
 
 A manufacturing client needed a cost-effective way to track tools and equipment throughout their facilities. Our team repurposed the client's existing mobile devices by leveraging Bluetooth Low Energy (BLE) technology to create a lightweight and efficient [tracking solution for manufacturing](/projects/manufacturing-asset-tracking/). This minimized the need for additional hardware, improved asset visibility, reduced loss, and boosted operational efficiency.
+
+<div className="image">![](/images/manufacturing_asset_tracking_photo.png "")</div>
 
 These real-world applications highlight how customized asset tracking systems can be tailored to meet industry-specific challenges effectively.
 
