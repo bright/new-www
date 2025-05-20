@@ -138,10 +138,10 @@ Using **asset tracking software**, businesses can analyze historical location da
 
 Today’s **asset management software** often integrates with:
 
-* ERP (Enterprise Resource Planning) systems: SAP ERP, Oracle NetSuite, Microsoft Dynamics 365, Odoo, Infor CloudSuite
-* Inventory management tools**:** TradeGecko (QuickBooks Commerce), Zoho Inventory, Cin7, Fishbowl Inventory, inFlow Inventory
-* CMMS (Computerized Maintenance Management Systems): UpKeep, Fiix, eMaint, Hippo CMMS, Maintenance Connection
-* Financial software**:** QuickBooks, Xero, Sage Intacct, FreshBooks, Wave Accounting
+* **ERP (Enterprise Resource Planning) systems**: SAP ERP, Oracle NetSuite, Microsoft Dynamics 365, Odoo, Infor CloudSuite;
+* **Inventory management tools:** TradeGecko (QuickBooks Commerce), Zoho Inventory, Cin7, Fishbowl Inventory, inFlow Inventory;
+* **CMMS (Computerized Maintenance Management Systems)**: UpKeep, Fiix, eMaint, Hippo CMMS, Maintenance Connection;
+* **Financial software:** QuickBooks, Xero, Sage Intacct, FreshBooks, Wave Accounting.
 
 Integration boosts efficiency and provides a unified view of all business operations.
 
