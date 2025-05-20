@@ -1,7 +1,9 @@
 ---
 author: kuba-s
 tags:
-  - Cloud, S3, AWS, Performance, Architecture
+  - S3
+  - AWS
+  - Architecture
 date: 2025-05-13T09:00:00.000Z
 meaningfullyUpdatedAt: 2025-05-13T09:00:00.000Z
 title: "Faster and Smarter - Improving file uploads with S3 multipart, pre-signed URLs and S3 Transfer Acceleration"
