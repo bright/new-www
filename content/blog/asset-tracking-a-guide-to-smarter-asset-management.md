@@ -183,7 +183,7 @@ Choosing between these options depends on the complexity of your needs, existing
 
 ### 1. IoT-Based Water Quality Monitoring for Fish Transportation
 
-A global seafood exporter required a system to monitor water conditions inside fish crates during transport. Our team developed a custom IoT solution that used sensors to track water quality indicators such as temperature and oxygen levels. The system sent real-time alerts when anomalies were detected, ensuring compliance with safety standards and reducing spoilage. This improved quality assurance and customer satisfaction.
+A global seafood exporter required a system to monitor water conditions inside fish crates during transport. Our team developed a [custom IoT solution that used sensors to track water quality indicators](/projects/water-quality-monitoring/) such as temperature. The system sent real-time alerts when anomalies were detected, ensuring compliance with safety standards and reducing spoilage. This improved quality assurance and customer satisfaction.
 
 ### 2. Manufacturing Asset Tracking Using Existing Devices
 
