@@ -20,6 +20,15 @@ language: en
 
 **Asset tracking** refers to the method of monitoring the physical assets of an organization—such as vehicles, machinery, equipment, tools, and inventory—using various **tracking technologies**. These systems record asset data like location, status, and movement over time, providing businesses with improved **visibility** and control.
 
+## How Does Asset Tracking Work?
+
+Asset tracking works through the integration of hardware, software, and communication technologies. Here's a breakdown:
+
+1. **Asset tag**: Assets are tagged with identifiers such as barcodes, QR codes, RFID, or GPS-enabled devices. Although, in some cases [tracking devices can be tags as well](/projects/manufacturing-asset-tracking/).
+2. **Tracking device**: These tags communicate with a **tracking device** or reader to log data.
+3. **Asset tracking software**: Data from tracking devices is collected and processed by **asset management software**.
+4. **Cloud-based asset tracking**: Modern systems store this data in the cloud, offering remote access and real-time updates.
+
 ## The Benefits of Asset Tracking
 
 Implementing a robust **asset tracking system** delivers numerous benefits:
@@ -30,17 +39,6 @@ Implementing a robust **asset tracking system** delivers numerous benefits:
 * **Optimized operations**: Increase **productivity** by streamlining workflows.
 * **Loss prevention**: Prevent theft and misplacement with real-time alerts. Note that asset misappropriation accounts for nearly [90%](https://bradyware.com/new-acfe-report-exposes-rising-fraud-costs-trends/) of reported workplace fraud cases.
 * **Data-driven decisions**: Use historical and current data to guide strategy.
-
-These benefits make asset tracking essential for sectors like logistics, construction, healthcare, and manufacturing.
-
-## How Does Asset Tracking Work?
-
-Asset tracking works through the integration of hardware, software, and communication technologies. Here's a breakdown:
-
-1. **Asset tag**: Assets are tagged with identifiers such as barcodes, QR codes, RFID, or GPS-enabled devices. Although, in some cases [tracking devices can be tags as well](/projects/manufacturing-asset-tracking/).
-2. **Tracking device**: These tags communicate with a **tracking device** or reader to log data.
-3. **Asset tracking software**: Data from tracking devices is collected and processed by **asset management software**.
-4. **Cloud-based asset tracking**: Modern systems store this data in the cloud, offering remote access and real-time updates.
 
 ## Industries That Benefit from Asset Tracking Technologies
 
