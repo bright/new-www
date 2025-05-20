@@ -16,6 +16,8 @@ language: en
 ---
 **Businesses large and small must monitor the location, status, and condition of their physical assets in real time to improve asset utilization, reduce losses, enhance productivity, and maintain a competitive edge. This introductory guide will walk you through the essentials of asset tracking, including the benefits, core technologies, and how to choose the right asset tracking solution for your business.**
 
+<div className="image">![](/images/device_phone.png "")</div>
+
 ## What is Asset Tracking?
 
 **Asset tracking** refers to the method of monitoring the physical assets of an organization—such as vehicles, machinery, equipment, tools, and inventory—using various **tracking technologies**. These systems record asset data like location, status, and movement over time, providing businesses with improved **visibility** and control.
