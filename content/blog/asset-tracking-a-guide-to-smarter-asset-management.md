@@ -8,6 +8,7 @@ meaningfullyUpdatedAt: 2025-05-20T13:14:58.681Z
 slug: asset-tracking-guide
 title: "Asset Tracking: A Guide to Smarter Asset Management"
 layout: post
+image: /images/device_phone.png
 hidden: false
 comments: false
 published: true
