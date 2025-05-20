@@ -187,7 +187,7 @@ A global seafood exporter required a system to monitor water conditions inside f
 
 ### 2. Manufacturing Asset Tracking Using Existing Devices
 
-A manufacturing client needed a cost-effective way to track tools and equipment throughout their facilities. Our team repurposed the client's existing mobile devices by leveraging Bluetooth Low Energy (BLE) technology to create a lightweight and efficient tracking solution. This minimized the need for additional hardware, improved asset visibility, reduced loss, and boosted operational efficiency.
+A manufacturing client needed a cost-effective way to track tools and equipment throughout their facilities. Our team repurposed the client's existing mobile devices by leveraging Bluetooth Low Energy (BLE) technology to create a lightweight and efficient [tracking solution for manufacturing](/projects/manufacturing-asset-tracking/). This minimized the need for additional hardware, improved asset visibility, reduced loss, and boosted operational efficiency.
 
 These real-world applications highlight how customized asset tracking systems can be tailored to meet industry-specific challenges effectively.
 
