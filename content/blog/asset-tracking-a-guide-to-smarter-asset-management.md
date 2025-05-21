@@ -8,7 +8,7 @@ meaningfullyUpdatedAt: 2025-05-20T13:14:58.681Z
 slug: asset-tracking-guide
 title: "Asset Tracking: A Guide to Smarter Asset Management"
 layout: post
-image: /images/device_phone.png
+image: /images/asset_tracking_guide_cover.png
 hidden: false
 comments: false
 published: true
@@ -16,7 +16,7 @@ language: en
 ---
 **Businesses large and small must monitor the location, status, and condition of their physical assets in real time to improve asset utilization, reduce losses, enhance productivity, and maintain a competitive edge. This introductory guide will walk you through the essentials of asset tracking, including the benefits, core technologies, and how to choose the right asset tracking solution for your business.**
 
-<div className="image">![](/images/device_phone.png "")</div>
+<div className="image">![asset tracking guide](/images/asset_tracking_guide_cover.png "asset tracking guide")</div>
 
 ## What is Asset Tracking?
 
