@@ -26,7 +26,6 @@ One common misconception - often discussed as a downside of using Context - is t
 
 Let’s look at a practical example:
 
-
 ```
 import React, { createContext, useContext, useState, useEffect } from "react";
 
@@ -71,14 +70,14 @@ export default function App() {
 }
 ```
 
-
 According to the myth, you’d expect to see console logs from both components every 2 seconds. But when you check the console, you’ll notice that UnsubscribedChild logs only once, while SubscribedChild logs on every update.
-
 
 Why is that?
 Only components that both:
-Are wrapped inside the Provider, and
-Subscribe to the context using `useContext` or `<Context.Consumer>`
+
+1. Are wrapped inside the Provider, and
+2. Subscribe to the context using `useContext` or `<Context.Consumer>`
+
 will re-render when the context value changes.
 The myth contains a grain of truth: sometimes, unintended re-renders can happen when a context contains multiple values, and even a change to one of them causes all subscribers to update—even if they only use part of the data.
 That’s why it’s a good practice to:
