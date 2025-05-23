@@ -221,6 +221,12 @@ To explore a comprehensive user persona example and understand how it can inform
 
 <EbookDynamic sectionTitle='Free UX Resource: The POS Persona You Need' ebookName='User-Persona-For-Point-Of-Sale.pdf' ebookDescription={'Gain access to Jennifer’s persona and enhance your POS design strategy.'} ebookImage='/images/cover_user_persona.png' ebookAlt='user persona pdf' />
 
+## Getting feedback from point-of-sale users
+
+Anyone developing software solutions for hospitality or retail knows that end users are busy. Even though sales assistants or waitstaff use your tools daily, they rarely have time to provide valuable feedback.
+
+That’s why it’s the POS developer’s job to find alternative ways to gather insights without disrupting users' workflow. Discover a few [tactics that can help you collect actionable feedback](/blog/how-to-gather-actionable-feedback-inside-a-pos-system/) on your solution.
+
 ## Do you want to build your own POS system?
 
 As a [POS software development company](/our-areas/pos-software-development/) we have been creating cutting-edge POS solutions for over a decade. [Contact our POS developers](/our-areas/pos-software-development/#contactForm) team to discuss cost-effective POS.
