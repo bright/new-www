@@ -6,6 +6,7 @@ tags:
   - flutter
 date: 2025-05-22T18:22:53.091Z
 meaningfullyUpdatedAt: 2025-05-22T18:22:53.105Z
+slug: migrating-from-ios-app-to-flutter
 title: Migrating from iOS App to Flutter – a Painless Getting Started Guide
 layout: post
 image: /images/ios_to_flutter.png
