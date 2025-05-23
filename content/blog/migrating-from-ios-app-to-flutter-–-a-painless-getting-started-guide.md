@@ -213,10 +213,10 @@ All tests were conducted on an iPhone 12, in **release mode**, using the Instrum
 
 Here's a breakdown of the startup phases (in milliseconds):
 
-| Scenario                        | Create the process | Frameworks initialize | Static Runtime Initialization |
-| ------------------------------- | ------------------ | --------------------- | ----------------------------- |
-| Without Flutter framework       | 519.95 ms          | 81.23 ms              | 3.07 ms                       |
-| With Flutter framework embedded | 512.27 ms          | 188.19 ms             | 6.88 ms                       |
+| Scenario                         | Create the process | Frameworks initialize | Static Runtime Initialization |
+|:--------------------------------:|:------------------:|:----------------------:|:-----------------------------:|
+| Without Flutter framework        |     519.95 ms      |       81.23 ms         |           3.07 ms            |
+| With Flutter framework embedded  |     512.27 ms      |      188.19 ms         |           6.88 ms            |
 
 As shown above, the inclusion of the Flutter framework results in a 106.96 ms increase in the Frameworks initialize phase and a 3.81 ms increase in Static Runtime Initialization.
 
