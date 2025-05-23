@@ -4,7 +4,7 @@ secondAuthor: izabela
 tags:
   - POS
 date: 2024-10-16T07:06:46.573Z
-meaningfullyUpdatedAt: 2025-04-16T07:04:43.676Z
+meaningfullyUpdatedAt: 2025-05-23T13:56:15.683Z
 slug: pos-software-development-guide
 title: "POS Software Development: 2025 Guide for Custom Point of Sale System"
 layout: post
