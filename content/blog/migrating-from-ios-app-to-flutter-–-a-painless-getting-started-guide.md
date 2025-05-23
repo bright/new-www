@@ -15,7 +15,7 @@ comments: false
 published: true
 language: en
 ---
-Migrating iOS app from native o Flutter doesn't have to mean rewriting your entire app from scratch. If you have a working iOS app and you want to enjoy the benefits of Flutter you can introduce it gradually — a great way to **migrate iOS app to Flutter** without a full rewrite.
+Migrating iOS app from native to Flutter doesn't have to mean rewriting your entire app from scratch. If you have a working iOS app and you want to enjoy the benefits of Flutter you can introduce it gradually — a great way to **migrate iOS app to Flutter** without a full rewrite.
 
 In this post, I'll show you step-by-step how to add Flutter to an existing iOS project, and the different ways to run Flutter views - from the simplest to more optimized ones.
 
