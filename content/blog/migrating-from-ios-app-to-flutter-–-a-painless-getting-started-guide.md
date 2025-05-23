@@ -4,8 +4,8 @@ tags:
   - mobile development
   - iOS
   - flutter
-date: 2025-05-22T18:22:53.091Z
-meaningfullyUpdatedAt: 2025-05-22T18:22:53.105Z
+date: 2025-05-23T05:58:15.308Z
+meaningfullyUpdatedAt: 2025-05-23T05:58:16.115Z
 slug: migrating-from-ios-app-to-flutter
 title: Migrating from iOS App to Flutter – a Painless Getting Started Guide
 layout: post
