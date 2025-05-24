@@ -13,7 +13,7 @@ language: en
 
 ## Anatomy of Context
 
-The **React Context API** revolves around two main components: the **Provider** and the **Consumer**. The Provider is a component that wraps part of your component tree and makes data (**value** property in the Provider) available to all its descendants. Any component within this tree can become a Consumer (but simply being inside the Provider doesn’t make a component a Consumer) allowing it to access the shared data exposed by the Provider (and then it became Consumer).
+The **React Context API** revolves around two main components: the **Provider** and the **Consumer**. The Provider is a component that wraps part of your component tree and makes data (**value** property in the Provider) available to all its descendants. Any component within this tree can become a Consumer (but simply being inside the Provider doesn’t make a component a Consumer) allowing it to access the shared data exposed by the Provider, at which point it becomes a Consumer.
 In short, the *Provider supplies the data*, and the *Consumers receive it -* no need to pass props manually through every level of the component tree.
 
 ### The Truth About Context and Re-renders
