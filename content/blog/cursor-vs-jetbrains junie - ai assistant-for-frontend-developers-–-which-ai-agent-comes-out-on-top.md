@@ -6,8 +6,9 @@ tags:
   - Junie
   - Jetbrains
   - productivity
-date: 2025-05-23T07:19:38.898Z
-meaningfullyUpdatedAt: 2025-05-23T07:19:38.913Z
+date: 2025-05-26T11:42:16.513Z
+meaningfullyUpdatedAt: 2025-05-26T11:42:17.125Z
+slug: jetbrains-junie-ai-assistant-vs-cursor-frontend-developers
 title: JetBrains Junie & AI Assistant vs Cursor for Frontend Developers – Which
   AI Agent Comes Out on Top?
 layout: post
