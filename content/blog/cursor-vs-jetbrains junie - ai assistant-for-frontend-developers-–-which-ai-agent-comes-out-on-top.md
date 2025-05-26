@@ -8,9 +8,10 @@ tags:
   - productivity
 date: 2025-05-23T07:19:38.898Z
 meaningfullyUpdatedAt: 2025-05-23T07:19:38.913Z
-title: Cursor vs JetBrains Junie & AI Assistant for Frontend Developers – Which
+title: JetBrains Junie & AI Assistant vs Cursor for Frontend Developers – Which
   AI Agent Comes Out on Top?
 layout: post
+image: /images/c05852c0-38dc-40d2-bc8f-47ba0fa9bdc6-1-.png
 hidden: false
 comments: false
 published: true
@@ -18,7 +19,7 @@ language: en
 ---
 ## Background
 
-Today I reactivated my JetBrains (JB) subscription so I could take **Junie** and the **AI Assistant** for a test‑drive. Since **February** I have been working mostly in **Cursor**, especially on frontend code (React, React Query, MUI). I wanted to check whether it is worth coming back to JB and see what has changed—features such as project‑wide **Local History**, stronger **3‑way merge** or good **refactor** capabilities have always been placing Jebtrains on top of other IDEs for me.
+Today I reactivated my JetBrains (JB) subscription so I could take **Junie** and the **AI Assistant** for a test‑drive. Since **February** I have been working mostly in **Cursor**, especially on frontend code (React, React Query, MUI). I switched due to a rise of frontend AI tools and AI editors which are major web dev tools now. I wanted to check whether it is worth coming back to JB and see what has changed—features such as project‑wide **Local History**, stronger **3‑way merge** or good **refactor** capabilities have always been placing Jebtrains on top of other IDEs for me.
 
 ## The Task
 
@@ -50,6 +51,6 @@ The feature I had to implement to test those was simple but multifile: in an app
 
 I am **not discussing history or checkpoints**—both tools handle those well enough IMHO.
 
-## Summary
+## Summary: AI tools for frontend development
 
 For now **Cursor** still comes out on top for me—mainly because of its **speed, customisation options and overall flexibility** when it comes to AI assistance. JetBrains has made real progress since February and **Junie can deliver pleasant surprises**, but it still needs a bit more polish before it can fully compete with Cursor. What is your opinion on that? 
