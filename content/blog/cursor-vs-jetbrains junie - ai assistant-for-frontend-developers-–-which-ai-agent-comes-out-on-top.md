@@ -18,6 +18,8 @@ comments: false
 published: true
 language: en
 ---
+<div className="image">![JetBrains Junie & AI Assistant vs Cursor for Frontend Developers](https://brightinventions.pl/static/fac12b008ce40322ae70e7bab825e0cc/4a130/c05852c0-38dc-40d2-bc8f-47ba0fa9bdc6-1-.webp "JetBrains Junie & AI Assistant vs Cursor for Frontend Developers")</div>
+
 ## Background
 
 Today I reactivated my JetBrains (JB) subscription so I could take **Junie** and the **AI Assistant** for a test‑drive. Since **February** I have been working mostly in **Cursor**, especially on frontend code (React, React Query, MUI). I switched due to a rise of frontend AI tools and AI editors which are major web dev tools now. I wanted to check whether it is worth coming back to JB and see what has changed—features such as project‑wide **Local History**, stronger **3‑way merge** or good **refactor** capabilities have always been placing Jebtrains on top of other IDEs for me.
@@ -54,4 +56,4 @@ I am **not discussing history or checkpoints**—both tools handle those well en
 
 ## Summary: AI tools for frontend development
 
-For now **Cursor** still comes out on top for me—mainly because of its **speed, customisation options and overall flexibility** when it comes to AI assistance. JetBrains has made real progress since February and **Junie can deliver pleasant surprises**, but it still needs a bit more polish before it can fully compete with Cursor. What is your opinion on that? 
+For now **Cursor** still comes out on top for me—mainly because of its **speed, customisation options and overall flexibility** when it comes to AI assistance. JetBrains has made real progress since February and **Junie can deliver pleasant surprises**, but it still needs a bit more polish before it can fully compete with Cursor. What is your opinion on that?
