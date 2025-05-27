@@ -52,14 +52,13 @@ Mobile Development
 * [New screen handling capabilities](https://youtu.be/T-FbUBqqpYU?si=80rtywdqe7onJPbS)
 * [Full-screen UI implementation](https://youtu.be/1Rd1M4e27U8?si=-3zP9y9rxjnl-PSq)
 * [Mobile testing framework overview (Maestro)](https://youtu.be/wjg8DwGCAiw?si=ZW45uvU62_3cKXtx)
+* [Quick tip for stopping Android Studio from jumping between tabs during app runs](https://youtu.be/M-LMy-4UbgA?si=4fgE5AoXULU7U0P3)
 
 Developer Tools and Productivity
 
 * [Overview of built-in HTTP client functionality](https://youtu.be/dF5VuUfDdxM?si=VwnmzjiOEqwFk_44)
 * [Efficient code restructuring techniques](https://youtu.be/xdtd8lQYcU8?si=dAHaoWgT4Uh7mdWJ)
 * [Dependency management approach](https://youtu.be/sxaSOJDM2CI?si=ZJ34c27wIXt0VhE1)
-
-
 
 ## Join Our Community
 
