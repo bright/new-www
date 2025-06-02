@@ -3,13 +3,13 @@ layout: member
 author_id: michal-bu
 ex: false
 slug: michal-bu
-name: Michał Buńkowski
+name: Michał Osadowski
 short_name: Michał
 email: michal.bunkowski@brightinventions.pl
 bio: Frontend Developer
 description: Frontend Developer
-avatar: /images/bunkowski.png
-avatar_hover: /images/brightdev_passion_4-bunkowski.png
+avatar: /images/adobe-express-file-2-.png
+avatar_hover: /images/adobe-express-file-3-.png
 published: true
 language: en
 ---
