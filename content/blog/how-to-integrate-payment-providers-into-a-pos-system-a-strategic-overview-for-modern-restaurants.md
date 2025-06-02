@@ -36,28 +36,32 @@ So, how do you integrate such providers into a POS system efficiently and secure
 ### 1. API-Based Integration
 
 The POS communicates with the payment provider’s servers directly via REST APIs in real time.
-- Ideal for iPad, Windows, and cloud-based systems
-- Supports cards, mobile wallets, benefit cards
-- Requires strong security compliance (e.g., PCI DSS)
+
+* Ideal for iPad, Windows, and cloud-based systems
+* Supports cards, mobile wallets, benefit cards
+* Requires strong security compliance (e.g., PCI DSS)
 
 ### 2. Payment Terminal Integration
 
 The POS connects to a physical terminal via USB, Bluetooth, or LAN.
-- Common in fixed hardware setups
-- Works with terminals from vendors like Verifone or banks
+
+* Common in fixed hardware setups
+* Works with terminals from vendors like Verifone or banks
 
 ### 3. SDK-Based Integration
 
 Payment functionality is embedded directly into the POS app via a software development kit.
-- Great for mobile-first apps or custom user flows
--  Requires tracking SDK updates and maintenance
+
+* Great for mobile-first apps or custom user flows
+* Requires tracking SDK updates and maintenance
 
 ### 4. Middleware / Aggregator Integration
 
 A third-party provider handles communication with multiple payment platforms.
-- Fast to implement
-- Reduces the need for custom development
-- Ideal for businesses scaling across regions
+
+* Fast to implement
+* Reduces the need for custom development
+* Ideal for businesses scaling across regions
 
 <div className="image">![why integrate with payment providers](/images/chatgpt-image-may-30-2025-03_28_51-pm.png "")</div>
 
@@ -70,7 +74,7 @@ A third-party provider handles communication with multiple payment platforms.
 * The order is automatically sent to the kitchen or bar
 * The transaction is recorded in the daily financial summary
 
-<EbookDynamic sectionTitle='Redefine Your POS solution' ebookName='Redefine-Your-POS.pdf' ebookDescription={'A practical guide to modernizing operations, enhancing customer experience, and unlocking new revenue streams through smarter POS integration.'} ebookImage='undefined' ebookAlt='undefined' />
+<EbookDynamic sectionTitle='Redefine Your POS solution' ebookName='Redefine-Your-POS.pdf' ebookDescription={'A practical guide to modernizing operations, enhancing customer experience, and unlocking new revenue streams through smarter POS integration.'} ebookImage='/images/pos_development_guide_blog_cover.png' ebookAlt='undefined' />
 
 ## **Real Client Use Case**
 
