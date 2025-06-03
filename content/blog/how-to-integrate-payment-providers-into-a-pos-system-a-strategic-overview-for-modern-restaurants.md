@@ -10,7 +10,7 @@ title: "How to Integrate Payment Providers into a POS System: A Strategic
   Overview for Modern Restaurants"
 layout: post
 image: /images/card-payment-restaurant.png
-hidden: true
+hidden: false
 comments: false
 published: true
 language: en
