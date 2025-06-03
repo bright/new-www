@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: dawid-cz
-ex: true
+ex: false
 slug: dawid-cz
 name: Dawid Czarnecki
 short_name: Dawid
@@ -14,3 +14,5 @@ published: true
 language: en
 ---
 Fullstack Developer who started his path as a Frontend to pack his belt with many various tools up until now. Exotic animal breeder and tattoo artist wannabe.
+
+Join Dawid! [Check our career opportunities](/career).
