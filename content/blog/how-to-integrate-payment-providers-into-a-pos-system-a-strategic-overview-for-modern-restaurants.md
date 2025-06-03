@@ -74,7 +74,7 @@ A third-party provider handles communication with multiple payment platforms.
 * The order is automatically sent to the kitchen or bar
 * The transaction is recorded in the daily financial summary
 
-<EbookDynamic sectionTitle='Redefine Your POS solution' ebookName='Redefine-Your-POS.pdf' ebookDescription={'A practical guide to modernizing operations, enhancing customer experience, and unlocking new revenue streams through smarter POS integration.'} ebookImage='/images/pos_development_guide_blog_cover.png' ebookAlt='undefined' />
+<EbookDynamic sectionTitle='Redefine Your POS solution' ebookName='Redefine-Your-POS.pdf' ebookDescription={'A practical guide to modernizing operations, enhancing customer experience, and unlocking new revenue streams through smarter POS integration.'} ebookImage='' ebookAlt='undefined' />
 
 ## **Real Client Use Case**
 
