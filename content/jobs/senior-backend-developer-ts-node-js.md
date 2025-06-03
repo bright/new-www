@@ -26,7 +26,7 @@ title_recruiter_info: Do you have any questions? Ask Sara from our Bright team!
 name_recruiter: Sara
 workplace_recruiter: Recruitmen Specialist
 image_recruiter_info: /images/sara-bright-recruiter.png
-image_alt_recruiter_info: Sara - a Junior Recruiter at Bright Inventions
+image_alt_recruiter_info: Sara - Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/saralecka/
 button: join our bright team
 published: false
