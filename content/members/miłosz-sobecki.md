@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: milosz-s
-ex: false
+ex: true
 slug: milosz-s
 name: Miłosz Sobiecki
 short_name: Miłosz
