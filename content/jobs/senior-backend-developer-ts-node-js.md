@@ -2,18 +2,16 @@
 layout: job
 title: Senior Backend Developer (TS + Node.js)
 subtitle: OPEN
-imagejob: /images/backend_team_job_offer.png
+imagejob: /images/job-offer-team-part-2-2025-1-.png
 image-alt-job: Devs Team Bright Inventions
 hours: Full-time
-salary: 20 000 - 24 000 PLN + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
+salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
 salary_min: 16600
 salary_max: 23999
 working time: full time
 technology:
   - TypeScript
   - Node.js
-  - React
-  - AWS
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -26,7 +24,7 @@ links_more_about_us: >-
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
 title_recruiter_info: Do you have any questions? Ask Sara from our Bright team!
 name_recruiter: Sara
-workplace_recruiter: Junior Recruiting Specialist
+workplace_recruiter: Recruitmen Specialist
 image_recruiter_info: /images/sara-bright-recruiter.png
 image_alt_recruiter_info: Sara - a Junior Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/saralecka/
@@ -38,48 +36,84 @@ recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
 ---
-## who we are
+## **about bright people 🧡**
 
-We are a team of talented senior developers who value and apply the best programming practices. We focus on cutting-edge technologies and innovations, and try to find simple structure in complex things. 
+At Bright Inventions we value people who take **ownership, show initiative, and care about what they build**. We work as partners to our clients, so we look for team members who **actively suggest improvements, solve problems, and take responsibility** for their work and growth.
 
-At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
+Being flexible is important to us. We use technology as a tool to bring value, and we appreciate people who are **open to learning and using new tools** when needed.
 
-We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.
+We expect effective communication skills, including the **ability to both give and receive constructive feedback with empathy**. We focus on solutions, not blame. We support each other, share knowledge, and approach challenges with a positive mindset.
 
-## job description
+## **about our projects 🚀**
 
-\
-We are looking for a business-oriented Backend Developer to join our project team, in which we have already helped our client save over 3 million single-use plastic containers.
+We work on a diverse range of projects, from transportation and healthtech to gastronomy and beyond. Each one brings a new challenge, and we meet it with curiosity, care, and dedication. If you’re open to exploring different industries and building meaningful digital products, we’d love to have you on board.
 
-As a business-savvy Backend Developer, you'll work closely with our client, the [German startup Relevo](https://brightinventions.pl/projects/eco-friendly-app/). We're seeking a candidate who embodies openness, dynamism, and proactivity, fostering a close client relationship. Valuable assets include an agile mindset, flexibility, and adept prioritization skills.
+## **preferred skills and qualifications 👩‍💻🧑‍💻**
 
-The current technical challenges in the project include the division of the monolithic system, introducing a focus on architecture improvement, and providing new features.
+👉 at least 4 years of commercial programming experience as a backend developer or similar role
 
-## what we would like to see
+👉 solid understanding of TypeScript/JavaScript
 
-* 3-4 years of commercial programming experience 
-* very good knowledge of TypeScript/JavaScript
-* deep working experience with Node.js 
-* familiarity with AWS or other Cloud providers
-* strong problem solving attitude and open mind
-* positive approach to work and new challenges  
-* advanced level of English and Polish (written and spoken)
+👉 deep experience with *Node.js* (NestJS)
 
-## we would also appreciate if you have
+👉 familiarity with *AWS* or other cloud providers
 
-* knowledge of React
-* familiarity with Agile methodologies
+👉 hands-on experience with AI tools for coding, testing, and documentation, and supporting teammates with common technical challenges
 
-## **what you will find in our Bright Team 🧡**
+👉 strong knowledge of databases (SQL and NoSQL)
 
-* continuous feedback culture and 1:1 meetings 
-* clear career path with
-* flexible working hours and remote work possibility
-* 20-26 paid days off + Polish bank holidays
-* MultiSport card and private medical package (Compensa)
-* good equipment: we provide you with MacBook and additional accessories
-* internal workshops and dev's meetings 
-* extra budget for training and library with professional books
-* one extra day for non-project stuff each month
-* regular sports classes (running, biking, swimming) and yoga Fridays
-* board games evenings, weekly lunch initiative, team retreats once a quarter
+👉 solid understanding of HTTP protocol, REST APIs, and web communication patterns
+
+👉 basic experience with *React* (Next.js) and exposure to frontend tasks
+
+👉 experience with HTML and CSS used occasionally in frontend work
+
+👉 experience with backend testing frameworks and testing strategies
+
+👉 very good command of English and Polish (written and spoken)
+
+## **what you will find in our Bright Team** 💡
+
+✔️ real impact on the implemented solutions and project growth
+
+✔️ business value over technical perfection
+
+✔️ continuous feedback and open communication
+
+✔️ mentoring program and 1:1 meetings
+
+✔️ internal workshops and dev's meetings
+
+✔️ flexible working hours (we start between 7.00 -10.00 a.m.) and remote work possibility
+
+✔️ office in Gdańsk Wrzeszcz 
+
+✔️ good equipment: MacBook and testing devices 
+
+✔️ individual training budget and office library
+
+✔️ free English classes in small groups
+
+✔️ MultiSport and private medical package (Compensa)
+
+✔️ team buildings events
+
+✔️ Friday yoga, weekly running, swimming and cycling classes with a professional coach
+
+## **we’re building a team where every member**
+
+✅ Takes initiative and full ownership in collaboration with both teammates and clients.
+
+✅ Proactively spots opportunities for improvement and suggests solutions.
+
+✅ Is adaptable and open to stepping outside of their core expertise, whether it's learning new technologies, adjusting to changing project needs, or taking on responsibilities beyond their usual role.
+
+✅ Values teamwork, communicates openly, and shares constructive feedback
+
+✅ Faces challenges with a positive, solution-focused attitude.
+
+✅ Treats client products like their own, acting as a true business partner, not just a developer.
+
+If you thrive in an environment that values accountability, adaptability, teamwork, and proactive problem-solving in a friendly atmosphere, we'd love to welcome you to our team. If this mindset doesn’t resonate with you, you might find a better fit elsewhere. 
+
+In case you have any questions, drop us a line at [jobs@bright.dev](mailto:jobs@bright.dev).
