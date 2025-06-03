@@ -8,7 +8,7 @@ short_name: Michał
 email: michal.bunkowski@brightinventions.pl
 bio: Frontend Developer
 description: Frontend Developer
-avatar: /images/team_member_margines_team_michal.png
+avatar: /images/team_member_margines_team_michalupdate.png
 avatar_hover: /images/team_member_margines_michalo.png
 published: true
 language: en
