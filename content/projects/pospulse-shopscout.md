@@ -67,7 +67,7 @@ POSPulse relieves them of this burden by engaging consumers who use the ShopScou
 
 <TitleWithIcon sectionTitle="goal" titleIcon="/images/goal_title_section.png" titleIconAlt="goal" />
 
-When POSPulse founders first reached out to Bright Inventions, they had already finalized their work on the app design and were ready to proceed to software development. We were entrusted with building the entire system – the iOS and Android apps, a dedicated backend, and a web app for the operators (CMS). 
+When POSPulse founders first reached out to [Bright Inventions](/), they had already finalized their work on the app design and were ready to proceed to software development. We were entrusted with building the entire system – the iOS and Android apps, a dedicated backend, and a web app for the operators (CMS). 
 
 Our software developers worked on the app’s [MVP development](/our-areas/mvp-development/). After a successful market launch, we have also helped optimize the app in a series of post-MVP iterations.
 
