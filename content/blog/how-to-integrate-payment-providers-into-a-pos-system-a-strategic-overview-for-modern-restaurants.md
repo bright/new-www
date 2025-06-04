@@ -74,7 +74,7 @@ A third-party provider handles communication with multiple payment platforms.
 * The order is automatically sent to the kitchen or bar
 * The transaction is recorded in the daily financial summary
 
-<EbookDynamic sectionTitle='Get to know your POS end users' ebookName='User-Persona-For-Point-Of-Sale.pdf' ebookDescription={'Download our free PDF guide – User Persona for Point of Sale – and discover how understanding your end-users can drive smarter product decisions, better UX, and higher customer satisfaction.'} ebookImage='/images/cover_user_persona.png' ebookAlt='POS user persona ' />
+<EbookDynamic sectionTitle='Get to know your POS end users' ebookName='User-Persona-For-Point-Of-Sale.pdf' ebookDescription={'Download our free PDF guide and discover how understanding your end-users can drive smarter product decisions, better UX, and higher customer satisfaction.'} ebookImage='/images/cover_user_persona.png' ebookAlt='POS user persona ' />
 
 ## **Real Client Use Case**
 
