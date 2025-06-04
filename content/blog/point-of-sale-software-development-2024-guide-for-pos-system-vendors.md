@@ -104,6 +104,8 @@ If you are at the stage of choosing a payment provider, consider answering these
 
 The most popular payment global providers are **Stripe, Square, and Adyen**.
 
+Read more about technical aspects of [integrating payment providers with POS](/blog/payment-provider-pos-integration/) in our another blog post.
+
 ### POS and food delivery applications integration
 
 The most popular third-party food delivery providers include **Uber Eats, Wolt, Just Eat (or local representatives like Lieferando) or Deliveroo**.
