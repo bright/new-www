@@ -65,7 +65,7 @@ A third-party provider handles communication with multiple payment platforms.
 
 <div className="image">![why integrate with payment providers](/images/chatgpt-image-may-30-2025-03_28_51-pm.png "Why integrate with payment providers")</div>
 
-## **Real-Time Payment Flow Example**
+## Real-Time Payment Flow Example
 
 * Customer places an order
 * At checkout, they choose a payment method: cash, credit card, or benefit-linked card
@@ -76,12 +76,12 @@ A third-party provider handles communication with multiple payment platforms.
 
 <EbookDynamic sectionTitle='Get to know your POS end users' ebookName='User-Persona-For-Point-Of-Sale.pdf' ebookDescription={'Download our free PDF guide and discover how understanding your end-users can drive smarter product decisions, better UX, and higher customer satisfaction.'} ebookImage='/images/cover_user_persona.png' ebookAlt='POS user persona ' />
 
-## **Real Client Use Case**
+## Real Client Use Case
 
 A fast-growing restaurant chain wanted to expand their payment options to include employee benefit cards like [10bis](https://www.10bis.co.il/next/en/) and [Value Card](https://home.valuecard.co.il/). We integrated their iPad and Windows-based POS system with a real-time API flow, enabling customers to apply benefit-linked discounts at checkout.
 
 The result: Employee meal redemptions increased by 35% in the first month, and order processing became faster and more error-free for staff.
 
-## **Our Know-How:**
+## Our Know-How:
 
 Let’s Talk! We’ve helped restaurants and retail brands design smart, integrated payment solutions. Whether you’re integrating a single provider or scaling across platforms and regions, we’ve got the experience to support you.
