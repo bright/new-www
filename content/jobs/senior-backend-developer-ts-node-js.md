@@ -52,7 +52,7 @@ We work on a diverse range of projects, from transportation and healthtech to ga
 
 ## **preferred skills and qualifications 👩‍💻🧑‍💻**
 
-👉 at least 4 years of commercial programming experience as a backend developer or similar role
+👉 at least 4 years of commercial programming experience as a backend developer or fullstack developer with backend focus
 
 👉 solid understanding of TypeScript/JavaScript
 
