@@ -27,7 +27,7 @@ Invisible diseases include **mental health issues**, **neurodiverse conditions**
 
 ## Patient-centric approach in healthcare software solutions
 
-Developing technology solutions for patients with invisible diseases may require **additional effort to achieve a patient-centric/user-centric approach**. 
+Developing [HealthTech](/blog/ultimate-guide-to-healthtech/) solutions for patients with invisible diseases may require **additional effort to achieve a patient-centric/user-centric approach**. 
 
 ### Throughout the process of understanding your users, it's essential to consider several factors:
 
