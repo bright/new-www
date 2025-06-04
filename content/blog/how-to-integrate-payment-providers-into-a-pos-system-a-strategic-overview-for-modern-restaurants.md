@@ -63,7 +63,7 @@ A third-party provider handles communication with multiple payment platforms.
 * Reduces the need for custom development
 * Ideal for businesses scaling across regions
 
-<div className="image">![why integrate with payment providers](/images/chatgpt-image-may-30-2025-03_28_51-pm.png "")</div>
+<div className="image">![why integrate with payment providers](/images/chatgpt-image-may-30-2025-03_28_51-pm.png "Why integrate with payment providers")</div>
 
 ## **Real-Time Payment Flow Example**
 
