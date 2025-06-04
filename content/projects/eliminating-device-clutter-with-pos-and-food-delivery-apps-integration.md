@@ -54,7 +54,7 @@ language: en
 
 Let’s step behind the restaurant counter and observe the waitstaff in action. In addition to serving in-house guests, they must **manage online orders from third-party food delivery platforms** like Wolt and Uber Eats. **Each platform provides its own device for managing orders**, adding to the growing number of devices that already overwhelm the busy staff (from a point-of-sale desktop to payment terminals, thermal printers, and more).
 
-But **what if all third-party, in-house, and phone orders were automatically integrated into a single device**? That was the goal of the food delivery providers integration we developed for the Practi POS provider (later known as **Just Eat POS**) for restaurants in Israel and the UK.
+But **what if all third-party, in-house, and phone orders were automatically integrated into a single device**? That was the goal of the food delivery providers integration we developed for the Practi POS provider (later known as **[Just Eat POS](/projects/system-for-restaurants/)**) for restaurants in Israel and the UK.
 
 <YouTubeEmbed url='https://www.youtube.com/watch?v=-pUtXXxpsFg' />
 
