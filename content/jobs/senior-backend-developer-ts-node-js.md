@@ -14,8 +14,6 @@ technology:
   - Node.js
   - NestJS
   - AWS
-  - AI
-  - React
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -54,13 +52,13 @@ We work on a diverse range of projects, from transportation and healthtech to ga
 
 ## **preferred skills and qualifications 👩‍💻🧑‍💻**
 
-👉 at least 4 years of commercial programming experience as a backend developer or similar role
+👉 at least 4 years of commercial programming experience as a backend developer or fullstack developer with backend focus
 
 👉 solid understanding of TypeScript/JavaScript
 
-👉 deep experience with *Node.js* (NestJS)
+👉 deep experience with Node.js (NestJS)
 
-👉 familiarity with *AWS* or other cloud providers
+👉 familiarity with AWS or other cloud providers
 
 👉 hands-on experience with AI tools for coding, testing, and documentation, and supporting teammates with common technical challenges
 
@@ -68,9 +66,7 @@ We work on a diverse range of projects, from transportation and healthtech to ga
 
 👉 solid understanding of HTTP protocol, REST APIs, and web communication patterns
 
-👉 basic experience with *React* (Next.js) and exposure to frontend tasks
-
-👉 experience with HTML and CSS used occasionally in frontend work
+👉 we appreciate experience with Vue.js, HTML, and CSS in occasional frontend work
 
 👉 experience with backend testing frameworks and testing strategies
 
