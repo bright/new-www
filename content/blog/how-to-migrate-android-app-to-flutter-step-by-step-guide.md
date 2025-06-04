@@ -15,7 +15,7 @@ comments: false
 published: true
 language: en
 ---
-If you already have an existing app written in Android and want to gradually introduce Flutter (e.g., one screen at a time), the good news is: **you don’t need to rewrite the entire project**. You can successfully ***migrate your Android app to Flutter*** step by step.
+If you already have an existing app written in Android and want to gradually introduce Flutter (e.g., one screen at a time), the good news is: **you don’t need to rewrite the entire project**. You can successfully **migrate your Android app to Flutter** step by step.
 
 In a previous blog post, I showed how to [migrate from iOS app to Flutter](https://brightinventions.pl/blog/migrating-from-ios-app-to-flutter/). In this article, we’ll focus on the Android side of the journey and explore multiple ways to integrate Flutter into your existing native app.
 
