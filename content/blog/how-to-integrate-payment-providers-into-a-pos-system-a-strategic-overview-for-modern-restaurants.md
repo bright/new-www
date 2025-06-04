@@ -19,7 +19,7 @@ language: en
 
 So, how do you integrate such providers into a POS system efficiently and securely? **Let’s explore the key options.**
 
-## **Why Integrate with Payment Providers?**
+## Why Integrate with Payment Providers?
 
 • Meet customer expectations for fast, flexible, cashless payments
 
@@ -31,7 +31,7 @@ So, how do you integrate such providers into a POS system efficiently and secure
 
 <div className="image">![payment provider integration](/images/pos_software_development_mobile.png "")</div>
 
-## **Key Integration Variants**
+## Key Integration Variants
 
 ### 1. API-Based Integration
 
