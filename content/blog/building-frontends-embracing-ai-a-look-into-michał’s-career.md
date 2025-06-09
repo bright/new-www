@@ -59,14 +59,24 @@ It happened at a time when my previous company was making cuts, and a few people
 
 At the time, I was looking for a new place to settle into – I’m not a fan of jumping from job to job. What really appealed to me was the **[feedback culture](/blog/8-mistakes-you-make-while-giving-constructive-feedback/)** at Bright Inventions. I get the sense that if I ever started falling short or there was room for improvement, **I’d get that feedback in a way that’s constructive and actionable**.
 
+<div className="image">![Quote on communication skills.](/images/michal_quote_communication_skills.png "Quote on communication skills.")</div>
+
 That feedback culture is useful in everyday life too. The communication skills you develop – like **expressing how you feel without shifting blame onto someone else** – are really valuable. It helps you say things like how you’ve been feeling lately in a constructive way. It’s important to talk about all kinds of things, even small ones, and to try to understand the other person’s intentions.
 
 ## What cultural differences do you face at work while working with the U.S. client?
 
 We live in such a global village now that the **U.S. feels culturally quite close to us**. Both in business and in daily life, we consume the same media and share the same cultural bubble. I don’t notice major cultural differences in my day-to-day work.
 
+<div className="image">![Sailing across Gdańsk Bay during a rainy team retreat.](/images/team_retreat_sailing_rain.png "Sailing across Gdańsk Bay during a rainy team retreat.")</div>
+
+<center>Sailing across Gdańsk Bay during a rainy team retreat.</center>
+
 ## What do you enjoy doing after work?
 
 After hours, I enjoy spending time with my cats and experimenting in the kitchen. I don’t necessarily stick to Polish recipes; I like trying out dishes from different cuisines. For example, I was in Portugal with my wife and we really liked a cod dish casserole we had there – one of the first things I did when I got back was try to recreate it, and it turned out almost exactly the same. 
+
+<div className="image">![Michał’s cats.](/images/michal_cats.png "Michał’s cats.")</div>
+
+<center>Michał’s cats.</center>
 
 I also like playing computer games. Right now, I’m playing Clair Obscur: Expedition 33 – in my opinion, it’s a masterpiece, especially the music. Other than that, I mostly play RPGs, World of Warcraft, and games like that.
