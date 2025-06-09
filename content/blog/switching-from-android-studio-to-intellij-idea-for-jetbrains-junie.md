@@ -45,7 +45,17 @@ However, there are some notable differences and limitations that developers shou
 
 ## Differences and Limitations
 
-### 1. Android Plugin Version
+### 1. K2 mode
+
+Starting with IntelliJ IDEA 2025.1, the [K2 mode is enabled by default](https://blog.jetbrains.com/idea/2025/04/k2-mode-in-intellij-idea-2025-1-current-state-and-faq/). In my case, it [caused certain issues](https://youtrack.jetbrains.com/issue/IDEA-373172/Gradle-files-and-buildSrc-are-becoming-unusable-unresolved-references-no-code-completion-etc.) in some places (e.g. `buildSrc` or `kotlinx.serialization.Serializable` classes).
+
+K2 mode can be disabled in IDEA settings: `Languages & Frameworks / Kotlin / Enable K2 mode`. However, if you do that, the IDE won't support some of the newer Kotlin features, such as:
+- guard conditions in `when` with a subject
+- non-local break and continue
+- multi-dollar string interpolation
+- context parameters
+
+### 2. Android Plugin Version
 
 One of the most significant differences is that IDEA's Android plugin may be outdated compared to the latest stable Android Studio. This can lead to missing features or compatibility issues with newer Android APIs or Gradle versions.
 
@@ -57,7 +67,7 @@ Examples of recent issues include:
 
 You can see that IDEA needs to merge the upstream Android Studio updates regularly ([example here](https://youtrack.jetbrains.com/issue/IDEA-367722)), which can lead to delays in their availability.
 
-### 2. Missing Bundled Plugins
+### 3. Missing Bundled Plugins
 
 Android Studio comes with several bundled plugins that are not available on the JetBrains Marketplace, meaning they cannot be easily installed in IntelliJ IDEA. These include:
 
@@ -72,7 +82,7 @@ Android Studio comes with several bundled plugins that are not available on the 
 
 The absence of these plugins can limit functionality for some developers who rely on them.
 
-### 3. Plugins That Can Be Installed in IDEA
+### 4. Plugins That Can Be Installed in IDEA
 
 Several Android Studio plugins can be installed manually in IntelliJ IDEA:
 
@@ -81,7 +91,7 @@ Several Android Studio plugins can be installed manually in IntelliJ IDEA:
 * Jetpack Compose
 * Smali Viewer
 
-### 4. Plugin Functionality Overlap
+### 5. Plugin Functionality Overlap
 
 It's worth noting that not all missing plugins might be critical, as there's a possibility that some functionality could be duplicated by other plugins available in IDEA, though I haven't thoroughly tested this. For example:
 
@@ -90,7 +100,7 @@ It's worth noting that not all missing plugins might be critical, as there's a p
 
 However, don't expect features like Firebase Assistant, App Links Assistant, or NDK support to appear automatically if their dedicated plugins are missing.
 
-### 5. Known Issues with Workarounds
+### 6. Known Issues with Workarounds
 
 #### Library Source Navigation
 
