@@ -5,7 +5,7 @@ tags:
   - bright insights
 date: 2025-06-09T10:42:19.716Z
 meaningfullyUpdatedAt: 2025-06-09T10:42:19.742Z
-slug: building-frontends-embracing-ai-michal
+slug: building-frontends-embracing-ai
 title: "Building Frontends, Embracing AI: A Look into Michał’s Career"
 layout: post
 image: /images/brightstorymichalo.png
