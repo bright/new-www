@@ -5,7 +5,7 @@ tags:
   - AI
   - agent
 date: 2025-05-16T08:10:18.362Z
-meaningfullyUpdatedAt: 2025-05-16T08:10:19.044Z
+meaningfullyUpdatedAt: 2025-06-09T12:59:06.938Z
 slug: switching-from-android-studio-to-idea-for-junie
 title: Switching from Android Studio to IntelliJ IDEA for JetBrains Junie
 layout: post
