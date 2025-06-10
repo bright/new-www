@@ -82,4 +82,31 @@ During the redesign process, Clarity allows you to spot patterns in how users in
 
 For example, Clarity can help you identify which sections of your page attract the most user attention. During a redesign, this insight helps ensure you maintain focus on those high-impact areas – as long as they naturally align with your goals for that specific page. Here's an example from our own website:
 
-<div className="image">![](/images/key_takeaways_example_clarity.png "")</div>
+<div className="image">![Microsoft Clarity key takeaways](/images/key_takeaways_example_clarity.png "Microsoft Clarity key takeaways")</div>
+
+## Does Microsoft Clarity slow down your website or apps
+
+There’s no clear-cut answer to this question – any additional script has the potential to impact your website or web app’s performance. The best way to know the actual effect is to measure your performance metrics before and after implementing the Clarity script.
+
+A particularly important consideration is using Clarity in mobile applications. Based on our experience, the impact can vary. In some projects, we observed performance issues – especially on older devices – while in others, there were no complaints or signs of degradation. That’s why it's essential to follow a test-and-measure approach.
+
+Implement and test performance as early as possible. Testing in a staging environment is recommended, but it might not expose all edge cases. If performance issues arise – for instance, on older Android devices – you can re-configure the Clarity script. You have the option to adjust the snippet so it fires only on specific devices or operating systems. You can also fire it temporarily  – for example, shortly after launching a crucial feature to observe user behavior.
+
+## Microsoft Clarity alternatives
+
+No tool is perfect, so our team at Bright Inventions enjoys testing various solutions to find the one that gives the most value for a certain business and domain. Check out these Microsoft Clarity alternatives.
+
+## Microsoft Clarity vs Hotjar
+
+Session recording and heatmaps are the core features of a quite popular tool – Hotjar (but free plan is limited). Explore main key differences and similarities between both tools.
+
+| Feature              | Microsoft Clarity                                                                         | Hotjar                                                                             |
+| -------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Pricing              | Free (but you pay with your data)                                                         | Free plan with limited features; paid plans start at ~$39/month                    |
+| Session Recordings   | Yes – unlimited recordings                                                                | Yes – limited by plan                                                              |
+| Heatmaps             | Yes – includes click, scroll, and attention heatmaps                                      | Yes – includes click, move, and scroll heatmaps                                    |
+| User Filtering       | Yes – strong filtering and segmentation options                                           | Yes – advanced options available on higher-tier plans                              |
+| Surveys/Feedback     | No                                                                                        | Yes – includes feedback widgets and surveys                                        |
+| Privacy & Data Usage | Data is used by Microsoft for machine learning – requires disclosure to end users         | GDPR/CCPA compliant – more privacy-focused, especially on paid plans               |
+| Mobile App Support   | Yes – supports web apps, native apps (Android/iOS), React Native; Flutter in beta testing | Limited – mostly for websites and web apps                                         |
+| Performance Impact   | Lightweight script, but testing is recommended – particularly on mobile                   | Slightly heavier script; potential performance impact on large or complex websites |
