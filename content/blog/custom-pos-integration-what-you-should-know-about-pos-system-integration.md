@@ -94,13 +94,15 @@ Restaurants often use a mix of hardware—like printers, tablets, and barcode sc
 
 Restaurant employees often needed to print receipts for clients while also printing meal orders for the kitchen. 
 
-**Solution**: Role-based device assignment to route tasks (e.g., customer receipts vs. kitchen orders). One device is printing the receipt, another information for the kitchen, they can operate simultanously.
+**Solution**: Role-based device assignment to route tasks (e.g., customer receipts vs. kitchen orders). One device is printing the receipt, another information for the kitchen, they can operate simultaneously.
 
 ### Challenge 3: device malfunction when they are needed the most
 
 Imagine the stress when the receipt printer suddenly stops working and the line of annoyed customers keeps growing. Or when the waitstaff tries to print kitchen tickets, but the printer fails—disrupting the entire food preparation flow.
 
 **Solution**: Custom mechanism designed to allows the system to reroute the receipt or kitchen order to another device. This assures waitstaff that, regardless of any issues with printing devices, the system always finds an alternative way to print the document.
+
+Explore how our team solved problems with [printer integrations for Just Eat POS](/projects/pos-devices-integration/).
 
 <YouTubeEmbed url='https://youtu.be/zmmCIaQulxI?si=H_c0DxhQ4F4-7KlI' />
 
