@@ -55,3 +55,13 @@ To bring this vision to life, we designed a dynamic payment flow that cleverly a
 <TitleWithIcon sectionTitle="the solution: implementing Tap to Pay with a user-friendly onboarding" titleIcon="/images/flag.png" titleIconAlt="the solution" />
 
 To bring this vision to life, we designed a dynamic **payment flow that cleverly adapted to the user's Stripe integration status**. We introduced a series of intuitive onboarding and payment screens. If a user didn’t yet have an active Stripe integration, selecting Tap to Pay would guide them through connecting an account, completing necessary setup steps like registering a terminal location, and then proceeding to accept payments. For those already integrated with Stripe, it was a straight shot to accepting a Tap to Pay transaction, no interruptions.
+
+<TitleWithIcon sectionTitle="challenges: navigating Apple T2P entitlements and global rollout" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
+
+The path to implementation wasn't without its twists. One of the primary challenges with Tap to Pay on iPhone was **Apple's requirements**. Enabling this feature in a production environment demanded a special entitlement from Apple. This wasn't a simple click; it required the Apple Developer account holder to submit a formal request, and only after approval could development and testing truly begin.
+
+Until that entitlement was granted, our testing was confined to local environments via Xcode. Distributing the feature to testers or staging environments was impossible. This forced us to meticulously sequence development tasks, prioritize what could be tested locally, and align our timeline with Apple’s review process.
+
+Another significant hurdle was integrating Tap to Pay alongside the existing payment methods while also **addressing regional availability**. Tap to Pay is only supported in select countries, necessitating careful control over feature propagation based on the user’s location. Our solution was a **gradual rollout strategy** using remote configuration, allowing us to enable the feature selectively and monitor its stability in real-time.
+
+Beyond the technicalities, we faced the challenge of **introducing this new feature to retailers**. Its success hinged on users being aware of its availability and feeling confident using it. This demanded early and close collaboration with the marketing team to craft clear messaging, intuitive onboarding flows, and effective in-app communication. From day one, our focus was on building a simple, intuitive user interface with clear screens, ensuring users could complete a payment confidently, even on their very first try.
