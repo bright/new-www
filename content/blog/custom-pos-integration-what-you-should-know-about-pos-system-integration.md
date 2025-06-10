@@ -68,7 +68,7 @@ For many restaurants, partnering with food delivery apps is essential for busine
 
 This leads to operational clutter, as staff must monitor multiple devices in parallel with the main POS system. As a result, [custom POS integrations with food delivery platforms](/our-areas/food-delivery-pos-integration/) have become increasingly popular. These solutions unify orders from all third-party platforms and present them in a single interface within the main application of the integrated POS, improving efficiency and reducing complexity.
 
-### Challenge 1: managing multiple devices and ensuring real-time synchronization
+### Challenge 1: Managing multiple devices and ensuring real-time synchronization
 
 With each delivery platform requiring its own dedicated device, restaurant staff often struggle with a fragmented workflow. This setup increases the risk of missed or delayed orders and reduces overall efficiency.
 
@@ -84,13 +84,13 @@ Read more on how we [integrated POS with food delivery apps](/projects/pos-third
 
 The number of hardware devices used in restaurants and retail stores continues to grow. Modern POS systems must integrate with various devices such as contactless payment terminals, receipt and kitchen printers, barcode scanners, scales, and tablets. Ensuring reliable communication between the POS and each device is essential for smooth, uninterrupted operations.
 
-### Challenge 1: compatibility across diverse hardware
+### Challenge 1: Compatibility across diverse hardware
 
 Restaurants often use a mix of hardware—like printers, tablets, and barcode scanners—from different manufacturers. Integrating these devices into one POS system is challenging due to varied SDKs, communication protocols (e.g., Bluetooth, Wi-Fi), and inconsistent reliability.
 
 **Solution**: A custom integration framework to support more types of devices (e.g., Epson, Star, Sunmi) with unified communication layer for handling various SDKs and protocols.
 
-### Challenge 2: maintaining a reliable connection with multiple printers simultaneously
+### Challenge 2: Maintaining a reliable connection with multiple printers simultaneously
 
 Restaurant employees often needed to print receipts for clients while also printing meal orders for the kitchen. 
 
