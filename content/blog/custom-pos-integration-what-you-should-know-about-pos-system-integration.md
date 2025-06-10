@@ -15,6 +15,8 @@ language: en
 ---
 **The era of point of sales that just handle payment operations is long over. Now POS system can serve as the central hub for operations and management in businesses that sell goods or services. However, this central role is largely made possible through** **POS integrations**. **Read about the types of integrations modern point-of-sale systems should offer.**
 
+<EbookDynamic sectionTitle='Do you know your POS persona?' ebookName='User-Persona-For-Point-Of-Sale.pdf' ebookDescription={'Wait a minute. Take a step back and start from the basics. Learn the habits, skills, and goals of your Point of Sale persona with our research-driven guide.'} ebookImage='/images/cover_user_persona.png' ebookAlt='POS user persona cover' />
+
 ## POS integration definition
 
 POS integration refers to the process of **connecting the POS system with other software platforms to enable seamless data exchange and synchronization across different systems**.
