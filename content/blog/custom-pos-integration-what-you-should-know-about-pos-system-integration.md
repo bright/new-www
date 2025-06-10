@@ -86,7 +86,7 @@ The number of hardware [POS devices](/blog/what-are-point-of-sale-devices/) used
 
 ### Challenge 1: Compatibility across diverse hardware
 
-Restaurants often use a mix of hardware—like printers, tablets, and barcode scanners—from different manufacturers. Integrating these devices into one POS system is challenging due to varied SDKs, communication protocols (e.g., Bluetooth, Wi-Fi), and inconsistent reliability.
+Restaurants often use a mix of hardware – like printers, tablets, and barcode scanners—from different manufacturers. Integrating these devices into one POS system is challenging due to varied SDKs, communication protocols (e.g., Bluetooth, Wi-Fi), and inconsistent reliability.
 
 **Solution**: A custom integration framework to support more types of devices (e.g., **Epson, Star, Sunmi**) with unified communication layer for handling various SDKs and protocols.
 
@@ -98,7 +98,7 @@ Restaurant employees often needed to print receipts for clients while also print
 
 ### Challenge 3: device malfunction when they are needed the most
 
-Imagine the stress when the receipt printer suddenly stops working and the line of annoyed customers keeps growing. Or when the waitstaff tries to print kitchen tickets, but the printer fails—disrupting the entire food preparation flow.
+Imagine the stress when the receipt printer suddenly stops working and the line of annoyed customers keeps growing. Or when the waitstaff tries to print kitchen tickets, but the printer fails – disrupting the entire food preparation flow.
 
 **Solution**: Custom mechanism designed to allows the system to reroute the receipt or kitchen order to another device. This assures waitstaff that, regardless of any issues with printing devices, the system always finds an alternative way to print the document.
 
@@ -108,23 +108,21 @@ Explore how our team solved problems with [printer integrations for Just Eat POS
 
 ## POS eCommerce integration
 
-As more businesses adopt omnichannel strategies, POS and eCommerce integration has become essential. This connection allows for real-time synchronization of sales, inventory, customer data, and pricing between physical stores and online shops—creating a consistent experience across all sales channels.
+As more businesses adopt omnichannel strategies, POS and eCommerce integration has become essential. This connection allows for synchronization of sales, inventory, customer data, and pricing between physical stores and online shops – creating a consistent experience across all sales channels.
 
-### Challenge 1: inventory mismatches
+### Challenge 1: Inventory mismatches
 
 Without real-time syncing, stock levels can quickly become inconsistent between your online store and physical locations, leading to overselling or stockouts.
 
-**Solution:**
+**Solution:** Implement real-time, two-way inventory synchronization between the POS and eCommerce systems. This ensures that inventory is updated immediately after every sale, return, or restock – online or offline.
 
-Implement real-time, two-way inventory synchronization between the POS and eCommerce systems. This ensures that inventory is updated immediately after every sale, return, or restock—online or offline.
-
-### Challenge 2: inconsistent product information
+### Challenge 2: Inconsistent product information
 
 Manually updating product names, prices, or descriptions in both systems can cause discrepancies and confuse customers.
 
 **Solution:** Use a centralized product catalog that feeds both the POS and eCommerce platform. Automate data syncing so that changes made in one system reflect everywhere.
 
-### Challenge 3: complex order and fulfillment flows
+### Challenge 3: Complex order and fulfillment flows
 
 Online orders may require in-store pickup, shipping from different locations, or partial fulfillment—all of which can be difficult to manage without clear integration.
 
