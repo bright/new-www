@@ -43,3 +43,7 @@ language: en
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
 <Gallery images='[{"src":"/images/android_stack_logo.svg","alt":"Android"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Node.js"},{"src":"/images/swift_icon_stack.svg","alt":"React"}]' />
+
+technologies: Android, Kotlin, iOS, Swift
+
+<TitleWithIcon sectionTitle="problem: non-inclusive emergency dispatch system" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
