@@ -57,6 +57,8 @@ One key example is implementing tap-to-pay, which enables sellers and restaurant
 
 Check out the actual case study of [implementing tap-to-pay for a global POS vendor](/projects/tap-to-pay-pos/), enabling its clients to offer this new payment method.
 
+<div className="image">![Tap to pay](/images/tap_to_pay_gemini.jpeg "Tap to pay")</div>
+
 ## POS Integration with Food Delivery Systems (online ordering POS integration)
 
 For many restaurants, partnering with food delivery apps is essential for business growth. These platforms help attract more customers and streamline the delivery process. While basic integrations with platforms like Uber Eats or Glovo are often available out of the box, they come with a major downside: each platform typically provides a separate device for managing its orders.
