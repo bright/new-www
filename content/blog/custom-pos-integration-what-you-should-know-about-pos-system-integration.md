@@ -72,7 +72,7 @@ With each delivery platform requiring its own dedicated device, restaurant staff
 
 **Solution**: Custom integrations consolidate all third-party delivery orders into the POS system. This allows staff to manage everything from one interface, with real-time synchronization of orders and menus across platforms. It simplifies operations, reduces device clutter, and enhances order accuracy.
 
-### Challenge 2: Import and unify menus from different third partier
+### Challenge 2: Importing and unifying menus from different third parties
 
 Another challenge related to menu synchronization is automating the import of menus from third-party providers to sync with the POS. Every food delivery provider has its menus in different data structures. With complex meal customizations, including bundles, add-ons, and so on, there are many opportunities for synchronization mistakes.Solution: Build a custom mechanism that transforms these various data structures into a unified format, ensuring proper synchronization.
 
