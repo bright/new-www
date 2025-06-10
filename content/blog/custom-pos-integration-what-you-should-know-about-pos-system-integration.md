@@ -8,6 +8,7 @@ meaningfullyUpdatedAt: 2025-06-10T09:25:21.855Z
 slug: pos-integration
 title: "POS Integration: What You Should Know about POS System Integration"
 layout: post
+image: /images/pos_integration_blog_cover.png
 hidden: false
 comments: false
 published: true
