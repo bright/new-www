@@ -14,7 +14,7 @@ description: "It all began with a request from a major global retail client:
   integration effort, ultimately boosting sales."
 hero_image: /images/case_study_tap_to_pay_photo.png
 Hero Image_alt: Tap to pay case study
-social_media_previev: /images/preview_case_study_t2p.png
+social_media_previev: /images/preview_case_study_t2p_preview.png
 social_media_previev_alt: Tap to pay
 bar_achievements:
   - number: "2"
@@ -41,3 +41,5 @@ work_in_progress: false
 language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
+
+<Gallery images='[{"src":"/images/android_stack_logo.svg","alt":"Android"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Node.js"},{"src":"/images/swift_icon_stack.svg","alt":"React"}]' />
