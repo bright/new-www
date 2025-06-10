@@ -76,7 +76,7 @@ With each delivery platform requiring its own dedicated device, restaurant staff
 
 Another challenge related to menu synchronization is automating the import of menus from third-party providers to sync with the POS. Every food delivery provider has its menus in different data structures. With complex meal customizations, including bundles, add-ons, and so on, there are many opportunities for synchronization mistakes.Solution: Build a custom mechanism that transforms these various data structures into a unified format, ensuring proper synchronization.
 
-Read more on how we integrated POS with food delivery apps.
+Read more on how we [integrated POS with food delivery apps](/projects/pos-third-party-delivery/).
 
 ## Point of Sale and hardware integration
 
