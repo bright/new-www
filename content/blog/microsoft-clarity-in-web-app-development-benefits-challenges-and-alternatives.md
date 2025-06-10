@@ -14,6 +14,8 @@ comments: false
 published: true
 language: en
 ---
+<div className="image">![](undefined "")</div>
+
 **Users rarely have time to give you feedback – so it's up to you to uncover insights yourself. This article explores how Microsoft Clarity can help you better understand user behavior through tools like heatmaps and session recordings. It also compares Clarity with other popular analytics solutions such as Hotjar and PostHog. Let’s dive in!**
 
 <div className="image">![Microsoft Clarity](/images/microsoft_clarity_blog_post.png "Microsoft Clarity")</div>
@@ -110,3 +112,15 @@ Session recording and heatmaps are the core features of a quite popular tool –
 | Privacy & Data Usage | Data is used by Microsoft for machine learning – requires disclosure to end users         | GDPR/CCPA compliant – more privacy-focused, especially on paid plans               |
 | Mobile App Support   | Yes – supports web apps, native apps (Android/iOS), React Native; Flutter in beta testing | Limited – mostly for websites and web apps                                         |
 | Performance Impact   | Lightweight script, but testing is recommended – particularly on mobile                   | Slightly heavier script; potential performance impact on large or complex websites |
+
+### Microsoft Clarity vs Posthog
+
+If you're concerned about your app's performance – or already know that Clarity affects its speed – consider using PostHog for its Wireframe Mode feature.
+
+This is how [PostHog](https://posthog.com/docs/session-replay/mobile) describes their solution:
+
+*The view hierarchy is transformed to a JSON data structure and later rendered as an HTML wireframe. Since it is a wireframe, the UI won't have the original look and feel but it should be close enough to understand the user's behavior.*
+
+*Below is an example of a screen captured in wireframe mode in Android:*
+
+<div className="image">![](undefined "")</div>
