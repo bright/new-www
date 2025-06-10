@@ -146,20 +146,20 @@ One common issue is data mismatch — especially with taxes, refunds, or daily s
 
 ## POS and Caller ID integration
 
-While not the most common feature, integrating a POS system with Caller ID can significantly improve operations in hospitality – especially in restaurants that handle phone orders. Caller ID devices display information about incoming calls, and with proper integration, the POS system can automatically match the phone number to a returning customer. This allows staff to instantly see the caller’s details, such as their delivery address, order history, and loyalty programs status—enabling faster service and a more personalized customer experience.
+While not the most common feature, integrating a POS system with Caller ID can significantly improve operations in hospitality – especially in restaurants that handle phone orders. Caller ID devices display information about incoming calls, and with proper integration, the POS system can automatically match the phone number to a returning customer. This allows staff to instantly see the caller’s details, such as their delivery address, order history, and loyalty programs status — enabling faster service and a more personalized customer experience.
 
 ### Challenge: Phone number validation
 
 One issue during integration is inconsistent phone number formatting, especially with country prefixes (e.g., +1). A system might treat numbers with and without the prefix as different customers.
 
-**Solution**: A custom validation mechanism was built to normalize phone numbers and consistently assign them to the correct customer profile—ensuring accurate caller recognition every time.
+**Solution**: A custom validation mechanism was built to normalize phone numbers and consistently assign them to the correct customer profile — ensuring accurate caller recognition every time.
 
 Check how we [integrated Caller ID with restaurant POS](/projects/restaurant-pos-caller-id/).
 
-
+<div className="image">![Restaurant Caller ID](/images/restaurant_phone.jpg "Restaurant Caller ID")</div>
 
 ## POS system integration - does it have to be customized?
 
-There are many out-of-the-box solutions for POS system integration that work well—especially for popular use cases like POS integration with Uber Eats or major payment providers. However, off-the-shelf integrations don’t always solve the unique operational challenges businesses face.
+There are many out-of-the-box solutions for POS system integration that work well — especially for popular use cases like POS integration with Uber Eats or major payment providers. However, off-the-shelf integrations don’t always solve the unique operational challenges businesses face.
 
-If you're a POS provider or a restaurant chain, you likely need to support diverse clients—each expecting that the point-of-sale system adapts to their specific workflows, platforms, and hardware. In these cases, custom integrations are often essential. That’s why partnering with a POS integration company experienced in point-of-sale system development can be a strategic move.
+If you're a POS provider or a restaurant chain, you likely need to support diverse clients — each expecting that the point-of-sale system adapts to their specific workflows, platforms, and hardware. In these cases, custom integrations are often essential. That’s why partnering with a POS integration company experienced in point-of-sale system development can be a strategic move.
