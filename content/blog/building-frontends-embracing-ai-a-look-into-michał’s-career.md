@@ -3,8 +3,8 @@ author: michal-bu
 secondAuthor: izabela
 tags:
   - bright insights
-date: 2025-06-09T10:42:19.716Z
-meaningfullyUpdatedAt: 2025-06-09T10:42:19.742Z
+date: 2025-06-10T06:04:01.457Z
+meaningfullyUpdatedAt: 2025-06-10T06:04:02.094Z
 slug: building-frontends-embracing-ai
 title: "Building Frontends, Embracing AI: A Look into Michał’s Career"
 layout: post
@@ -14,7 +14,7 @@ comments: false
 published: true
 language: en
 ---
-**It took Michał only one day to choose his career path – but the spontaneity of that decision didn’t stop him from thriving in his work. Discover how Michał embraces AI in his daily routine, why he thrives in a feedback-driven culture, and whether he feels intimidated by the fullstack developers around him.**
+**It took Michał only one day to choose his career path – but the spontaneity of that decision didn’t stop him from thriving in his work. Discover how Michał embraces AI in his daily routine, why he appreciates a feedback-driven culture, and whether he feels intimidated by the fullstack developers around him.**
 
 <div className="image">![Frontend developer career story](/images/brightstorymichalo_grid_new.png "Frontend developer career story")</div>
 
