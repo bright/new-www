@@ -60,17 +60,23 @@ Check out the actual case study of [implementing tap-to-pay for a global POS ven
 
 <div className="image">![Tap to pay](/images/tap_to_pay_gemini.jpeg "Tap to pay")</div>
 
-## POS integration with food dDelivery systems (online ordering POS integration)
+## POS integration with food delivery systems (online ordering POS integration)
 
 For many restaurants, partnering with food delivery apps is essential for business growth. These platforms help attract more customers and streamline the delivery process. While basic integrations with platforms like Uber Eats or Glovo are often available out of the box, they come with a major downside: **each platform typically provides a separate device for managing its orders**.
 
 This leads to operational clutter, as staff must monitor multiple devices in parallel with the main POS system. As a result, [custom POS integrations with food delivery platforms](/our-areas/food-delivery-pos-integration/) have become increasingly popular. These solutions unify orders from all third-party platforms and present them in a single interface within the main application of the integrated POS, improving efficiency and reducing complexity.
 
-### Challenge: managing multiple devices and ensuring real-time synchronization
+### Challenge 1: managing multiple devices and ensuring real-time synchronization
 
 With each delivery platform requiring its own dedicated device, restaurant staff often struggle with a fragmented workflow. This setup increases the risk of missed or delayed orders and reduces overall efficiency.
 
 **Solution**: Custom integrations consolidate all third-party delivery orders into the POS system. This allows staff to manage everything from one interface, with real-time synchronization of orders and menus across platforms. It simplifies operations, reduces device clutter, and enhances order accuracy.
+
+### Challenge 2: Import and unify menus from different third partier
+
+Another challenge related to menu synchronization is automating the import of menus from third-party providers to sync with the POS. Every food delivery provider has its menus in different data structures. With complex meal customizations, including bundles, add-ons, and so on, there are many opportunities for synchronization mistakes.Solution: Build a custom mechanism that transforms these various data structures into a unified format, ensuring proper synchronization.
+
+Read more on how we integrated POS with food delivery apps.
 
 ## Point of Sale and hardware integration
 
@@ -80,9 +86,9 @@ The number of hardware devices used in restaurants and retail stores continues t
 
 Restaurants often use a mix of hardware—like printers, tablets, and barcode scanners—from different manufacturers. Integrating these devices into one POS system is challenging due to varied SDKs, communication protocols (e.g., Bluetooth, Wi-Fi), and inconsistent reliability.
 
-Solution: A custom integration framework to support more types of devices (e.g., Epson, Star, Sunmi) with unified communication layer for handling various SDKs and protocols.
+**Solution**: A custom integration framework to support more types of devices (e.g., Epson, Star, Sunmi) with unified communication layer for handling various SDKs and protocols.
 
-## Challange 2: maintaining a reliable connection with multiple printers simultaneously
+### Challange 2: maintaining a reliable connection with multiple printers simultaneously
 
 Restaurant employees often needed to print receipts for clients while also printing meal orders for the kitchen. 
 
