@@ -132,9 +132,7 @@ Online orders may require in-store pickup, shipping from different locations, or
 
 Different eCommerce platforms (like Shopify, WooCommerce, or Magento) have unique API structures, which can make integration inconsistent or limited.
 
-**Solution:**
-
-Introduce a middleware layer that acts as a translator between systems. This approach standardizes communication and allows easier scaling across multiple platforms.
+**Solution:** Introduce a middleware layer that acts as a translator between systems. This approach standardizes communication and allows easier scaling across multiple platforms.
 
 ## Integrated POS and accounting software
 
@@ -148,13 +146,17 @@ One common issue is data mismatch — especially with taxes, refunds, or daily s
 
 ## POS and Caller ID integration
 
-While not the most common feature, integrating a POS system with Caller ID can significantly improve operations in hospitality—especially in restaurants that handle phone orders. Caller ID devices display information about incoming calls, and with proper integration, the POS system can automatically match the phone number to a returning customer. This allows staff to instantly see the caller’s details, such as their delivery address, order history, and loyalty programs status—enabling faster service and a more personalized customer experience.
+While not the most common feature, integrating a POS system with Caller ID can significantly improve operations in hospitality – especially in restaurants that handle phone orders. Caller ID devices display information about incoming calls, and with proper integration, the POS system can automatically match the phone number to a returning customer. This allows staff to instantly see the caller’s details, such as their delivery address, order history, and loyalty programs status—enabling faster service and a more personalized customer experience.
 
 ### Challenge: Phone number validation
 
 One issue during integration is inconsistent phone number formatting, especially with country prefixes (e.g., +1). A system might treat numbers with and without the prefix as different customers.
 
 **Solution**: A custom validation mechanism was built to normalize phone numbers and consistently assign them to the correct customer profile—ensuring accurate caller recognition every time.
+
+Check how we [integrated Caller ID with restaurant POS](/projects/restaurant-pos-caller-id/).
+
+
 
 ## POS system integration - does it have to be customized?
 
