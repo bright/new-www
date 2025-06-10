@@ -6,7 +6,7 @@ our_service:
 layout: project
 project_id: tap-to-pay
 title: "Elevating the Retail POS: Integrating Tap to Pay for Effortless Transactions"
-image: /images/case_study_tap_to_pay.png
+image: /images/case_study_tap_to_pay_new.png
 description: "It all began with a request from a major global retail client:
   integrate Tap to Pay (T2P) into their existing iOS and Android point-of-sale
   (POS) applications. The goal was clear: changing retailer mobile devices into
@@ -55,6 +55,8 @@ To bring this vision to life, we designed a dynamic payment flow that cleverly a
 <TitleWithIcon sectionTitle="the solution: implementing Tap to Pay with a user-friendly onboarding" titleIcon="/images/flag.png" titleIconAlt="the solution" />
 
 To bring this vision to life, we designed a dynamic **payment flow that cleverly adapted to the user's Stripe integration status**. We introduced a series of intuitive onboarding and payment screens. If a user didn’t yet have an active Stripe integration, selecting Tap to Pay would guide them through connecting an account, completing necessary setup steps like registering a terminal location, and then proceeding to accept payments. For those already integrated with Stripe, it was a straight shot to accepting a Tap to Pay transaction, no interruptions.
+
+<div className="image">![Tap to Pay](/images/tap_to_pay_gemini.jpeg "")</div>
 
 <TitleWithIcon sectionTitle="challenges: navigating Apple T2P entitlements and global rollout" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
 
