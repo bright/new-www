@@ -1,0 +1,55 @@
+---
+author: izabela
+tags:
+  - design
+date: 2025-06-10T14:32:25.154Z
+meaningfullyUpdatedAt: 2025-06-10T14:32:25.188Z
+slug: microsoft-clarity-in-software-development
+title: "Microsoft Clarity in Web & App Development: Benefits, Challenges, and
+  Alternatives"
+layout: post
+image: /images/microsoft_clarity_blog_post.png
+hidden: false
+comments: false
+published: true
+language: en
+---
+**Users rarely have time to give you feedback – so it's up to you to uncover insights yourself. This article explores how Microsoft Clarity can help you better understand user behavior through tools like heatmaps and session recordings. It also compares Clarity with other popular analytics solutions such as Hotjar and PostHog. Let’s dive in!**
+
+<div className="image">![Microsoft Clarity](/images/microsoft_clarity_blog_post.png "Microsoft Clarity")</div>
+
+## Microsoft Clarity Pricing
+
+This tool has emerged as a hot must-have in analytics, especially among marketers, thanks to the fact that Microsoft Clarity is **free to use**. Naturally, when something is free, it often means that our data becomes the product – and Microsoft is transparent about this on their [website](https://clarity.microsoft.com/pricing):
+
+*Clarity is built by Microsoft, one of the largest technology companies in the world. Microsoft processes a massive amount of anonymous data around user behavior to gain insights and improve machine learning models that power many of our products and services. Clarity is one of the ways Microsoft gathers this important data—and why we've made it available for free.*
+
+Before adding the Clarity script to your website, web app, or mobile application, it’s essential to review Microsoft Clarity [privacy policy](https://learn.microsoft.com/en-us/clarity/faq#privacy). This is critical if you represent sensitive sectors such as banking, government, or healthcare, where sharing user data with a third-party service may not be acceptable.
+
+## Microsoft Clarity Features
+
+That’s all for the disclaimers – let’s now discuss what Clarity actually offers. Clarity is widely used for website analytics, but it can also be used to analyze web and mobile applications. It supports Android, iOS and React Native apps, while [Flutter support is currently in beta testing](https://github.com/microsoft/clarity/issues/742).
+
+### Session Recording
+
+You can watch your users’ sessions to identify issues such as:
+
+- **Dead clicks** – when users click on something that isn’t clickable. This usually indicates a design issue where an element *appears* interactive but isn’t.  
+- **Rage clicks** – when a user clicks repeatedly on an element out of frustration. This typically means the element doesn’t work, is too slow to respond, or gives no feedback.  
+- **Roadblocks** – anything that prevents users from reaching a goal you’ve defined – such as submitting a form.
+
+### Heatmaps
+
+Microsoft Clarity’s heatmaps are a type of report that allows you to generate visual insights based on filtered categories of users visiting specific pages. These heatmaps help you understand how users interact with your site or app. For example, you can analyze:
+
+- **Most-clicked or tapped areas** – see which elements attract the most interaction.  
+- **Attention hotspots** – discover where users focus their attention. Interestingly, this isn’t always the area above the fold.  
+- **Scrolling behavior** – measure how far users scroll.
+
+## How to use Microsoft Clarity in software Development
+
+### Testing and debugging
+
+Clarity helps you reproduce bugs quickly by letting you watch exactly what happened. It also provides useful technical details such as device specifications, browser type, and screen resolution.
+
+Example of information about the user:
