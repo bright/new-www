@@ -14,7 +14,7 @@ language: en
 ---
 **The era of point of sales that just handle payment operations is long over. Now POS system can serve as the central hub for operations and management in businesses that sell goods or services. However, this central role is largely made possible through** **POS integrations**. **Read about the types of integrations modern point-of-sale systems should offer.**
 
-## POS Integration Definition
+## POS integration definition
 
 POS integration refers to the process of **connecting the POS system with other software platforms to enable seamless data exchange and synchronization across different systems**.
 
@@ -22,13 +22,13 @@ For example, many restaurant POS systems are integrated with food delivery platf
 
 Note: Point-of-sale and point of sale are written in both ways, both are commonly used, the latter is more common, but both seem to be correct.
 
-## Point-of-Sale Integration with Payment Providers
+## Point-of-Sale integration with payment providers
 
 When integrating with third-party payment systems, several common challenges may arise:
 
 ### Challenge 1: Determining Which Payment Providers to Prioritize
 
-One of the first hurdles is identifying which payment providers should be prioritized for integration. This decision should be based on thorough market research and regional trends. For example, in the Netherlands, iDEAL is a widely used payment method, while in Germany, SEPA transfers are very common. The key is to understand your target market and prioritize integrations with providers that are most relevant to your users’ preferences.
+One of the first hurdles is identifying which payment providers should be prioritized for integration. This decision should be based on thorough **market research and regional trends**. For example, in the Netherlands, **iDEAL** is a widely used payment method, while in Germany, **SEPA** transfers are very common. The key is to understand your target market and prioritize integrations with providers that are most relevant to your users’ preferences.
 
 **Solution:** Conduct in-depth market research to understand the most popular and trusted payment methods in each region you operate in. This ensures your POS solution meets local customer expectations and increases adoption rates.
 
@@ -42,12 +42,12 @@ Not all payment providers offer clear, up-to-date technical documentation, which
 
 Integrating modern payment providers with legacy POS software can be particularly challenging. Older systems often rely on outdated APIs or lack support for modern integration standards, which complicates efforts to add new payment methods or meet current security requirements.
 
-There are multiple approaches to integrating payment providers with POS systems. We cover them in more depth in our dedicated article on POS integration with payment providers. One common approach is **API-based integration**, which is often preferred because it supports a wide range of payment methods—credit cards, mobile wallets, employee benefit cards, and more—while also helping ensure compliance with security standards like PCI DSS.
+There are multiple approaches to integrating payment providers with POS systems. We cover them in more depth in our dedicated [article on POS integration with payment providers](/blog/payment-provider-pos-integration/). One common approach is **API-based integration**, which is often preferred because it supports a wide range of payment methods – credit cards, mobile wallets, benefit cards, and more – while also helping ensure compliance with security standards like PCI DSS.
 
 **Solution:**\
 When working with legacy POS systems that use outdated APIs, while payment providers offer modern interfaces, the integration gap needs to be bridged carefully. A practical solution is to develop a **middleware layer** that acts as a translator between the legacy POS and the new payment provider APIs. This middleware can normalize data, handle authentication, and enforce security rules, making the integration more manageable without needing to completely rebuild the existing POS infrastructure.
 
-Another option is to **gradually modernize** the POS system—starting with the payment module—so that it can support modern standards in phases.
+Another option is to **gradually** [**modernize** **the POS system**](/projects/pos-legacy/) – starting with the payment module – so that it can support modern standards in phases.
 
 ## POS Integration with Food Delivery Systems (online ordering POS integration)
 
