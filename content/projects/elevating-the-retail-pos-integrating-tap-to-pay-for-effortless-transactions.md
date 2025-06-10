@@ -46,4 +46,10 @@ language: en
 
 technologies: Android, Kotlin, iOS, Swift
 
-<TitleWithIcon sectionTitle="problem: non-inclusive emergency dispatch system" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+<TitleWithIcon sectionTitle="problem: adding more contactless payment methods" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+
+Imagine transforming a smartphone into a fully functional payment terminal – no extra hardware, just a tap. That’s the magic of Tap to Pay. It means transactions can happen **card-to-phone** or even **phone-to-phone**, making the checkout process quicker, and incredibly convenient. This was especially appealing for businesses on the go or those looking to trim hardware expenses, as these are core characteristics of our clients user base.
+
+To bring this vision to life, we designed a dynamic payment flow that cleverly adapted to the user's Stripe integration status. We introduced a series of intuitive onboarding and payment screens. If a user didn’t yet have an active Stripe integration, selecting Tap to Pay would guide them through connecting an account, completing necessary setup steps like registering a terminal location, and then proceeding to accept payments. For those already integrated with Stripe, it was a straight shot to accepting a Tap to Pay transaction, no interruptions.
+
+<TitleWithIcon sectionTitle="the solution: implementing Tap to Pay with a user-friendly onboarding" titleIcon="/images/flag.png" titleIconAlt="the solution" />
