@@ -88,22 +88,19 @@ The number of hardware [POS devices](/blog/what-are-point-of-sale-devices/) used
 
 Restaurants often use a mix of hardware—like printers, tablets, and barcode scanners—from different manufacturers. Integrating these devices into one POS system is challenging due to varied SDKs, communication protocols (e.g., Bluetooth, Wi-Fi), and inconsistent reliability.
 
-**Solution**: A custom integration framework to support more types of devices (e.g., Epson, Star, Sunmi) with unified communication layer for handling various SDKs and protocols.
+**Solution**: A custom integration framework to support more types of devices (e.g., **Epson, Star, Sunmi**) with unified communication layer for handling various SDKs and protocols.
 
 ### Challenge 2: Maintaining a reliable connection with multiple printers simultaneously
 
 Restaurant employees often needed to print receipts for clients while also printing meal orders for the kitchen. 
 
-Solution:  Role-based device assignment to route tasks (e.g., customer receipts vs. kitchen orders).
-
-* Failover mechanisms to reroute tasks in case of device failure.
-* This approach ensures seamless hardware connectivity and reliable, efficient POS operations.
+**Solution**: Role-based device assignment to route tasks (e.g., customer receipts vs. kitchen orders). One device is printing the receipt, another information for the kitchen, they can operate simultanously.
 
 ### Challenge 3: device malfunction when they are needed the most
 
 Imagine the stress when the receipt printer suddenly stops working and the line of annoyed customers keeps growing. Or when the waitstaff tries to print kitchen tickets, but the printer fails—disrupting the entire food preparation flow.
 
-Solution: Custom mechanism designed to allows the system to reroute the receipt or kitchen order to another device. This assures waitstaff that, regardless of any issues with printing devices, the system always finds an alternative way to print the document.
+**Solution**: Custom mechanism designed to allows the system to reroute the receipt or kitchen order to another device. This assures waitstaff that, regardless of any issues with printing devices, the system always finds an alternative way to print the document.
 
 <YouTubeEmbed url='https://youtu.be/zmmCIaQulxI?si=H_c0DxhQ4F4-7KlI' />
 
