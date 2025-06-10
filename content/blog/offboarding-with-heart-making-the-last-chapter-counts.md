@@ -17,7 +17,7 @@ Letting people go used to be one of the hardest parts of my job (and sometimes i
 
 **It is also good to understand that there comes a point when holding onto a professional relationship does more harm than good, both for the individual and the company**. Whether it is a mismatch in expectations, a shift in business needs, or simply a role that no longer fits, saying goodbye sometimes is crucial. While done right offboarding is not just about closing a chapter, it is about helping a company or someone who works there turn the page to the next opportunity.
 
-### personal struggles
+## personal struggles
 
 In the beginning of my HR journey offboarding felt like that one part of the job that I wasn’t sure how to navigate. The awkwardness, the uncertainty, and the whole “I don’t want to say it, but I need to say it” moment. I have never seen offboarding as just another task to check off in a list. For me it has always been much more than that. 
 
@@ -25,7 +25,7 @@ When I hire someone, I do deeply believe in them. I see potential, I imagine how
 
 And honestly? It is also because I genuinely like the people that come. They are my team. I have never believed in bad intentions - only in circumstances, mismatches, or situations that didn’t unfold as we hoped.
 
-### making a transition
+## making a transition
 
 Over time I have come to see offboarding differently. It is not just about ending a chapter. It is about setting the stage for the next one. **Sometimes, letting someone go is not about rejection, it is about redirection**. Keeping them in a role that is not the right fit doesn’t do them any favors. It just keeps them from opportunities that could be much better for them.
 
@@ -33,7 +33,7 @@ I know this might sound like sugarcoating. But it is not. I genuinely cheer for 
 
 It’s the same when someone leaves the company I work for. I always feel a bit sentimental. I cheer them on and fully understand they have their own reasons for the decision, but a part of me still feels sad that it didn’t work out. At the same time, I really admire their courage to make a change.
 
-### leaving a positive legacy
+## leaving a positive legacy
 
 **I have always believed that the true measure of collaboration is not about how we start working together - it is about how we part ways.** There was a reason we begin this journey together. It could not have been all wrong. No one forced us into it. Along the way, there were wins, lessons learned, and moments worth remembering even if in the end things do not turn out as planned.
 
@@ -43,7 +43,7 @@ Not everyone is suited to lead an offboarding process. Too often, I hear about m
 
 **When I go through an offboarding process, I see a person - a human being - not a job title.** So, if this chapter is coming to a close, the least I can do is make sure it ends with dignity, respect, and a genuine appreciation for the time we shared. Because at the end of the day, offboarding is not just about paperwork. 
 
-### consequences of holding on too long
+## consequences of holding on too long
 
 l admit there were times when I held on to a person or situation a bit too long. **I have tried to convince myself that somehow, magically or with huge effort of both sides, everything would work out.** Maybe after the next sprint, or maybe after the next release, things would click. Any honestly sometimes they did, but usually they didn’t.
 
@@ -51,7 +51,7 @@ If someone is not the right fit for the job, sticking with them for too long jus
 
 It is even harder when accoriding to you everything is going well, but sometimes it is the best choice for both sides. For the individual, it opens up the opportunity to take a role that actually fits and lets them thrive. And for the company, it frees up resources to bring in someone who will add more value. In the very long run it is a win-win.
 
-### how to end collaboration with empathy
+## how to end collaboration with empathy
 
 All managers and leaders have awkward moments where the “exit interview” feels more like a bad breakup than a professional conversation. **But the secret tool is empathy.** There are a few tips to make the process smoother and a little less cringe:
 
@@ -60,7 +60,7 @@ All managers and leaders have awkward moments where the “exit interview” fee
 * **Keep the door open.** Don’t make the departure feel like the end of the world. Who knows, maybe you will cross paths again down the line or they might come back to your team as a boomerang employee. In the tech world you never know when a past employee could be your next colleague. Keep the relationship cordial and professional.
 * **Respect the decision.** When an employee decides to leave, it is important to handle the transition with gratitude. Their decision may come from a desire for growth, a career shift, or personal reasons. Regardless of why they are moving on, showing kindness in their departure leaves the door open for future connections and reinforces a positive workplace culture.
 
-### growth through change
+## growth through change
 
 Looking back I have come to understand that **offboarding is not a failure, it might be a part of the journey.** It might be about growth not only for the person leaving, but for the team and the organization, too. 
 
