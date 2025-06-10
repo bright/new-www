@@ -27,13 +27,13 @@ Note: Point-of-sale and point of sale are written in both ways, both are commonl
 
 When integrating with third-party payment systems, several common challenges may arise:
 
-### Challenge 1: Determining Which Payment Providers to Prioritize
+### Challenge 1: Determining which payment providers to prioritize
 
 One of the first hurdles is identifying which payment providers should be prioritized for integration. This decision should be based on thorough **market research and regional trends**. For example, in the Netherlands, **iDEAL** is a widely used payment method, while in Germany, **SEPA** transfers are very common. The key is to understand your target market and prioritize integrations with providers that are most relevant to your users’ preferences.
 
 **Solution:** Conduct in-depth market research to understand the most popular and trusted payment methods in each region you operate in. This ensures your POS solution meets local customer expectations and increases adoption rates.
 
-### Challenge 2: Access to Quality Documentation and Support on How to Integrate Your POS
+### Challenge 2: Access to quality documentation and support on how to integrate your POS
 
 Not all payment providers offer clear, up-to-date technical documentation, which can significantly slow down the integration process. In such cases, your development team may need to engage in frequent communication with the provider’s technical support team to clarify implementation details.
 
@@ -88,7 +88,7 @@ Restaurants often use a mix of hardware—like printers, tablets, and barcode sc
 
 **Solution**: A custom integration framework to support more types of devices (e.g., Epson, Star, Sunmi) with unified communication layer for handling various SDKs and protocols.
 
-### Challange 2: maintaining a reliable connection with multiple printers simultaneously
+### Challenge 2: maintaining a reliable connection with multiple printers simultaneously
 
 Restaurant employees often needed to print receipts for clients while also printing meal orders for the kitchen. 
 
@@ -97,7 +97,7 @@ Solution:  Role-based device assignment to route tasks (e.g., customer receipts 
 * Failover mechanisms to reroute tasks in case of device failure.
 * This approach ensures seamless hardware connectivity and reliable, efficient POS operations.
 
-## Challange 3: device malfunction when they are needed the most
+### Challenge 3: device malfunction when they are needed the most
 
 Imagine the stress when the receipt printer suddenly stops working and the line of annoyed customers keeps growing. Or when the waitstaff tries to print kitchen tickets, but the printer fails—disrupting the entire food preparation flow.
 
