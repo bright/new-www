@@ -126,3 +126,33 @@ This is how [PostHog](https://posthog.com/docs/session-replay/mobile) describes 
 <div className="image">![PostHog](/images/screenshot_2024-07-31_at_3.16.16_pm.png "PostHog")</div>
 
 Source: [posthog.com/docs](https://posthog.com/docs/session-replay/mobile)
+
+And here’s a detailed Microsoft Clarity vs PostHog comparison:
+
+| Feature | Microsoft Clarity | PostHog |
+| ----- | ----- | ----- |
+| **Pricing** | Free | Free tier (up to 1M events/month), with paid plans for higher volume and advanced features |
+| **Session Recordings** | Yes – unlimited and automatic | Yes – with advanced options like Wireframe Mode for better performance on mobile |
+| **Heatmaps** | Yes – click, scroll, and attention heatmaps | Yes – clickmaps and scrollmaps |
+| **User Interaction Data** | Rage clicks, dead clicks, scroll depth, session filters | Clicks, hovers, session replays, funnels, retention, and custom events |
+| **Wireframe Mode** | Not available | Yes – drastically reduces load during mobile session recording by using JSON-based wireframes |
+| **Mobile App Support** | Web and mobile web; limited native mobile support (React Native, Flutter beta) | Full support – Android, iOS, React Native, and Flutter (with performance-optimized recording) |
+| **Privacy & Data Control** | Data sent to Microsoft and used for machine learning | Self-hosted or cloud – full control of your data (ideal for privacy-conscious orgs) |
+| **Integrations** | Growing number of integrated solutions e.g. GA4, Zapier, HubSpot, Firebase. | Wide plugin system, API access, and integrations with tools like GitHub, Segment, Zapier |
+| **Custom Reporting** | Limited – prebuilt behavior-focused reports | Extensive – customizable dashboards, SQL-like queries (HogQL), and advanced segmentation |
+| **Ease of Use** | Easy setup, non-technical friendly interface | More technical – developer-oriented, but highly customizable |
+| **Performance Impact** | Lightweight script, but mobile performance varies | Wireframe Mode helps maintain app speed, especially on low-end or older mobile devices |
+
+## Microsoft Clarity vs. Google Analytics
+
+In case you wonder, Google Analytics (GA4) is not really an alternative to Clarity. At this moment, both tools complement each other. GA4 provides a more quantitative perspective mostly appreciated by marketing specialists such as number of users, sessions, time on page, traffic sources, demographic data. Clarity helps you understand the “why” behind metrics that GA4 reveals with focus on actual user behavior valuable for UX-designer, QAs, developers.
+
+Ideally, they should be used together in modern user behavior analytics – as long as your business is comfortable sharing data with both organizations: Microsoft and Google.
+
+## Data isn’t just for marketers
+
+Maybe some still believe that data analysis is mainly for marketing specialists and data analysts – but it should also be a key part of the software development process. Whether you're a developer, QA engineer, designer, or project manager, product decisions work best when they’re grounded in data. That’s the approach we take at Bright Inventions.
+
+If you’re not getting meaningful feedback from your end users, we can help you find ways to gather insights without disrupting their experience. It’s something we already do, for example, when [collecting feedback from POS system users](https://brightinventions.pl/blog/how-to-gather-actionable-feedback-inside-a-pos-system/).
+
+[Contact us](https://brightinventions.pl/start-project/) to explore how we can support your solution\!
