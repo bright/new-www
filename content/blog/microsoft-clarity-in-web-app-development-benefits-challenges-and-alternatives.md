@@ -81,3 +81,5 @@ Clarity is highly effective when [modernizing or redesigning legacy software](ht
 During the redesign process, Clarity allows you to spot patterns in how users interact with existing features – patterns worth preserving – as well as roadblocks and frustration points that should be eliminated in the modernized version.
 
 For example, Clarity can help you identify which sections of your page attract the most user attention. During a redesign, this insight helps ensure you maintain focus on those high-impact areas – as long as they naturally align with your goals for that specific page. Here's an example from our own website:
+
+<div className="image">![](/images/key_takeaways_example_clarity.png "")</div>
