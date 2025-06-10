@@ -4,7 +4,8 @@ tags:
   - POS
 date: 2025-06-10T09:25:21.818Z
 meaningfullyUpdatedAt: 2025-06-10T09:25:21.855Z
-title: "Custom POS Integration: What You Should Know about POS System integration"
+slug: pos-integration
+title: "POS Integration: What You Should Know about POS System Integration"
 layout: post
 hidden: false
 comments: false
