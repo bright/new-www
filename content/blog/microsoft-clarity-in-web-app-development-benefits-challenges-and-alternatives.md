@@ -34,17 +34,17 @@ That’s all for the disclaimers – let’s now discuss what Clarity actually o
 
 You can watch your users’ sessions to identify issues such as:
 
-- **Dead clicks** – when users click on something that isn’t clickable. This usually indicates a design issue where an element *appears* interactive but isn’t.  
-- **Rage clicks** – when a user clicks repeatedly on an element out of frustration. This typically means the element doesn’t work, is too slow to respond, or gives no feedback.  
-- **Roadblocks** – anything that prevents users from reaching a goal you’ve defined – such as submitting a form.
+* **Dead clicks** – when users click on something that isn’t clickable. This usually indicates a design issue where an element *appears* interactive but isn’t.  
+* **Rage clicks** – when a user clicks repeatedly on an element out of frustration. This typically means the element doesn’t work, is too slow to respond, or gives no feedback.  
+* **Roadblocks** – anything that prevents users from reaching a goal you’ve defined – such as submitting a form.
 
 ### Heatmaps
 
 Microsoft Clarity’s heatmaps are a type of report that allows you to generate visual insights based on filtered categories of users visiting specific pages. These heatmaps help you understand how users interact with your site or app. For example, you can analyze:
 
-- **Most-clicked or tapped areas** – see which elements attract the most interaction.  
-- **Attention hotspots** – discover where users focus their attention. Interestingly, this isn’t always the area above the fold.  
-- **Scrolling behavior** – measure how far users scroll.
+* **Most-clicked or tapped areas** – see which elements attract the most interaction.  
+* **Attention hotspots** – discover where users focus their attention. Interestingly, this isn’t always the area above the fold.  
+* **Scrolling behavior** – measure how far users scroll.
 
 ## How to use Microsoft Clarity in software Development
 
@@ -53,3 +53,9 @@ Microsoft Clarity’s heatmaps are a type of report that allows you to generate 
 Clarity helps you reproduce bugs quickly by letting you watch exactly what happened. It also provides useful technical details such as device specifications, browser type, and screen resolution.
 
 Example of information about the user:
+
+<center>
+
+<div className="image">![Microsoft Clarity](/images/microsoft_clarity_session_info.png "Microsoft Clarity")</div>
+
+</center>
