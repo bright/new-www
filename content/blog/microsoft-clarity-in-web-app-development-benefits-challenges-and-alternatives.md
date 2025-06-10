@@ -123,4 +123,6 @@ This is how [PostHog](https://posthog.com/docs/session-replay/mobile) describes 
 
 *Below is an example of a screen captured in wireframe mode in Android:*
 
-<div className="image">![](undefined "")</div>
+<div className="image">![PostHog](/images/screenshot_2024-07-31_at_3.16.16_pm.png "PostHog")</div>
+
+Source: [posthog.com/docs](https://posthog.com/docs/session-replay/mobile)
