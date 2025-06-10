@@ -90,11 +90,13 @@ Solution:  Role-based device assignment to route tasks (e.g., customer receipts 
 * Failover mechanisms to reroute tasks in case of device failure.
 * This approach ensures seamless hardware connectivity and reliable, efficient POS operations.
 
-## Challange 3: dDevice malfunction when they are needed the most
+## Challange 3: device malfunction when they are needed the most
 
 Imagine the stress when the receipt printer suddenly stops working and the line of annoyed customers keeps growing. Or when the waitstaff tries to print kitchen tickets, but the printer fails—disrupting the entire food preparation flow.
 
 Solution: Custom mechanism designed to allows the system to reroute the receipt or kitchen order to another device. This assures waitstaff that, regardless of any issues with printing devices, the system always finds an alternative way to print the document.
+
+<YouTubeEmbed url='https://youtu.be/zmmCIaQulxI?si=H_c0DxhQ4F4-7KlI' />
 
 ## POS eCommerce integration
 
