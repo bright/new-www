@@ -82,7 +82,7 @@ Read more on how we [integrated POS with food delivery apps](/projects/pos-third
 
 ## Point of Sale and hardware integration
 
-The number of hardware devices used in restaurants and retail stores continues to grow. Modern POS systems must integrate with various devices such as contactless payment terminals, receipt and kitchen printers, barcode scanners, scales, and tablets. Ensuring reliable communication between the POS and each device is essential for smooth, uninterrupted operations.
+The number of hardware [POS devices](/blog/what-are-point-of-sale-devices/) used in restaurants and retail stores continues to grow. Modern POS systems must integrate with various devices such as contactless payment terminals, receipt and kitchen printers, barcode scanners, scales, and tablets. Ensuring reliable communication between the POS and each device is essential for smooth, uninterrupted operations.
 
 ### Challenge 1: Compatibility across diverse hardware
 
