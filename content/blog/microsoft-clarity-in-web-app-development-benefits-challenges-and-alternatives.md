@@ -113,7 +113,7 @@ Session recording and heatmaps are the core features of a quite popular tool –
 | Mobile App Support   | Yes – supports web apps, native apps (Android/iOS), React Native; Flutter in beta testing | Limited – mostly for websites and web apps                                         |
 | Performance Impact   | Lightweight script, but testing is recommended – particularly on mobile                   | Slightly heavier script; potential performance impact on large or complex websites |
 
-### Microsoft Clarity vs Posthog
+## Microsoft Clarity vs Posthog
 
 If you're concerned about your app's performance – or already know that Clarity affects its speed – consider using PostHog for its Wireframe Mode feature.
 
