@@ -44,10 +44,18 @@ Integrating modern payment providers with legacy POS software can be particularl
 
 There are multiple approaches to integrating payment providers with POS systems. We cover them in more depth in our dedicated [article on POS integration with payment providers](/blog/payment-provider-pos-integration/). One common approach is **API-based integration**, which is often preferred because it supports a wide range of payment methods – credit cards, mobile wallets, benefit cards, and more – while also helping ensure compliance with security standards like PCI DSS.
 
-**Solution:**\
+**Solution:**
 When working with legacy POS systems that use outdated APIs, while payment providers offer modern interfaces, the integration gap needs to be bridged carefully. A practical solution is to develop a **middleware layer** that acts as a translator between the legacy POS and the new payment provider APIs. This middleware can normalize data, handle authentication, and enforce security rules, making the integration more manageable without needing to completely rebuild the existing POS infrastructure.
 
 Another option is to **gradually** [**modernize** **the POS system**](/projects/pos-legacy/) – starting with the payment module – so that it can support modern standards in phases.
+
+### Challenge 4: Navigating mobile requirements from Apple or Google
+
+One key example is implementing tap-to-pay, which enables sellers and restaurant management to turn their smartphones into payment terminals. **Enabling this feature on iPhones is a long-term process** that demands a special entitlement from Apple. It requires the Apple Developer account holder to submit a formal request, and only after approval can development and testing truly begin.
+
+**Solution**: Include in your estimates the time to obtain all of Apple’s necessary entitlements and rules. Additionally, focus rigorously on testing scenarios because until that entitlement is granted, testing can be confined only to local environments via Xcode. This typically means that the time for final feature testing by QA testers or on a staging environment is usually very short.
+
+Check out the actual case study of [implementing tap-to-pay for a global POS vendor](/projects/tap-to-pay-pos/), enabling its clients to offer this new payment method.
 
 ## POS Integration with Food Delivery Systems (online ordering POS integration)
 
