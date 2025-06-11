@@ -36,6 +36,8 @@ One of the first hurdles is identifying which payment providers should be priori
 
 **Solution:** Conduct in-depth market research to understand the most popular and trusted payment methods in each region you operate in. This ensures your POS solution meets local customer expectations and increases adoption rates.
 
+<div className="image">![payment POS](/images/card-payment-restaurant.png "payment POS")</div>
+
 ### Challenge 2: Access to quality documentation and support on how to integrate your POS
 
 Not all payment providers offer clear, up-to-date technical documentation, which can significantly slow down the integration process. In such cases, your development team may need to engage in frequent communication with the provider’s technical support team to clarify implementation details.
