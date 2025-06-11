@@ -54,7 +54,7 @@ Imagine transforming a smartphone into a fully functional payment terminal – n
 
 To bring this vision to life, we designed a dynamic **payment flow that cleverly adapted to the user's Stripe integration status**. We introduced a series of intuitive onboarding and payment screens. If a user didn’t yet have an active Stripe integration, selecting Tap to Pay would guide them through connecting an account, completing necessary setup steps like registering a terminal location, and then proceeding to accept payments. For those already integrated with Stripe, it was a straight shot to accepting a Tap to Pay transaction, no interruptions.
 
-<div className="image">![Tap to Pay](/images/tap_to_pay_gemini.jpeg "Tap to Pay")</div>
+<div className="image">![Tap to Pay](/images/payment_phone.png "Tap to Pay")</div>
 
 <TitleWithIcon sectionTitle="challenges: navigating Apple T2P entitlements and global rollout" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
 
