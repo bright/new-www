@@ -23,6 +23,7 @@ faqs:
   - Who provides IoT hardware development? IoT 13
 project:
   - water-quality-monitoring
+  - manufacturing-asset-tracking
   - Remote Patient Monitoring
   - MedKitDoc
   - card-reader
