@@ -19,6 +19,16 @@ const SectionEx = styled(CustomSection)`
 
 const OurWork: React.FC = () => {
   const quotes = [
+      {
+      avatar_hover: (
+        <StaticImage src='../../static/images/sebastian_passion.png' alt='Sebastian' className='quote-img' />
+      ),
+      short_name: 'Sebastian',
+      bio: 'Senior iOS Developer',
+      slug: 'sebastian-r',
+      quote:
+        `I appreciate the support I get from my colleagues and managers – they encourage me to grow.`,
+    },
     {
       avatar_hover: (
         <StaticImage src='../../static/images/brightdev_passion_michalb.png' alt='Michał' className='quote-img' />
