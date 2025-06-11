@@ -143,6 +143,8 @@ Check how our team took care of the [POS and Caller ID integration](/projects/re
 
 <div className="image">![Caller ID and POS](/images/pos_caller_id_case_study.png "Caller ID and POS")</div>
 
+Read more about [POS integration](/blog/pos-integration/) and its challenges in our another blog post.
+
 ## Emerging trends in POS application development: what to expect in 2025 and beyond
 
 Explore **POS development** trends.
