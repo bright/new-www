@@ -46,7 +46,7 @@ A **Point-of-Sale (POS) system is a combination of hardware and software** that 
 
 **POS system development can be tailored to meet specific needs** such as supporting old desktop hardware which may be still used by end users, especially in hospitality. Point-of-sale software's main functionality is ensuring **a smooth connection between hardware and software components**.
 
-## Key features to include in modern POS software development
+## Key POS features to include in modern POS software development
 
 POS systems are versatile solutions that **consist of dozens of features, additional applications, and POS hardware**, forming the technological backbone for managing client orders in restaurants, hotels, and retail settings.
 
@@ -142,6 +142,8 @@ Caller ID is a device that provides information about incoming phone numbers. Wi
 Check how our team took care of the [POS and Caller ID integration](/projects/restaurant-pos-caller-id/) and learn about challenges our engineers faced. 
 
 <div className="image">![Caller ID and POS](/images/pos_caller_id_case_study.png "Caller ID and POS")</div>
+
+Read more about [POS integration](/blog/pos-integration/) and its challenges in our another blog post.
 
 ## Emerging trends in POS application development: what to expect in 2025 and beyond
 
