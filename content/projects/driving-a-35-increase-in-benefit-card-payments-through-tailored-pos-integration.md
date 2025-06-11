@@ -20,6 +20,13 @@ hero_image: /images/case_study_pos_benefit_cards.png
 Hero Image_alt: POS payment integration with benefit cards loyalty programs
 social_media_previev: /images/fb_preview_case_study_poa_integration_payment.png
 social_media_previev_alt: POS payment integration with benefit cards loyalty programs
+bar_achievements:
+  - number: "1"
+    label: POS
+  - number: "5"
+    label: New payment providers
+  - number: 35%
+    label: Meal redemption with benefit cards
 tags:
   - retail & restaurant
   - customized software
@@ -39,6 +46,6 @@ language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
-<Gallery images='[{"src":"/images/swift_icon_stack.svg","alt":"Swift"},{"src":"/images/android_stack_logo.svg","alt":"Node.js"},{"src":"/images/bluetooth_stack_logo.svg","alt":"React"},{"src":"/images/zebra_technologies_stack_logo_bigger_new.svg","alt":"Zebra Technologies"}]' />
+<Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/springboot_update.svg","alt":"Spring Boot"},{"src":"/images/bluetooth_stack_logo.svg","alt":"React"},{"src":"/images/zebra_technologies_stack_logo_bigger_new.svg","alt":"Zebra Technologies"}]' />
 
-technologies:
+technologies: Kotlin, Spring boot, AWS ECS, .net, flutter, Grafana
