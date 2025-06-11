@@ -3,8 +3,8 @@ author: piotr
 secondAuthor: izabela
 tags:
   - POS
-date: 2025-06-10T09:25:21.818Z
-meaningfullyUpdatedAt: 2025-06-10T09:25:21.855Z
+date: 2025-06-11T06:32:20.355Z
+meaningfullyUpdatedAt: 2025-06-11T06:32:21.153Z
 slug: pos-integration
 title: "POS Integration: What You Should Know about POS System Integration"
 layout: post
