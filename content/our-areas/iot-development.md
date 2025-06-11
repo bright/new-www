@@ -22,11 +22,11 @@ faqs:
   - Who provides IoT consulting services? IoT
   - Who provides IoT hardware development? IoT 13
 project:
+  - water-quality-monitoring
   - Remote Patient Monitoring
   - MedKitDoc
   - card-reader
   - smarthelp
-  - Practi JET POS Mobile
   - Practi JET POS
 layout: our-service
 our_service_id: IoT development
