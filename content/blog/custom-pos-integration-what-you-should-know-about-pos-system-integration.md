@@ -44,7 +44,7 @@ Not all payment providers offer clear, up-to-date technical documentation, which
 
 **Solution:** When selecting payment providers to integrate with, do a preliminary review of their developer resources. Check if they provide accessible, well-maintained APIs, SDKs, and documentation. This can help you avoid delays and make more accurate time estimates during project planning.
 
-### Challenge 3: Dealing with Legacy POS Systems
+### Challenge 3: Dealing with legacy POS systems
 
 Integrating modern payment providers with legacy POS software can be particularly challenging. Older systems often rely on outdated APIs or lack support for modern integration standards, which complicates efforts to add new payment methods or meet current security requirements.
 
@@ -63,7 +63,7 @@ One key example is implementing tap-to-pay, which enables sellers and restaurant
 
 Check out the actual case study of [implementing tap-to-pay for a global POS vendor](/projects/tap-to-pay-pos/), enabling its clients to offer this new payment method.
 
-<div className="image">![Tap to pay](/images/tap_to_pay_gemini.jpeg "Tap to pay")</div>
+<div className="image">![Tap to pay](/images/payment_phone.png "Tap to pay")</div>
 
 ## POS integration with food delivery systems (online ordering POS integration)
 
@@ -99,7 +99,7 @@ Restaurant employees often needed to print receipts for clients while also print
 
 **Solution**: Role-based device assignment to route tasks (e.g., customer receipts vs. kitchen orders). One device is printing the receipt, another information for the kitchen, they can operate simultaneously.
 
-### Challenge 3: device malfunction when they are needed the most
+### Challenge 3: Device malfunction when they are needed the most
 
 Imagine the stress when the receipt printer suddenly stops working and the line of annoyed customers keeps growing. Or when the waitstaff tries to print kitchen tickets, but the printer fails – disrupting the entire food preparation flow.
 
@@ -165,4 +165,4 @@ Check how we [integrated Caller ID with restaurant POS](/projects/restaurant-pos
 
 There are many out-of-the-box solutions for POS system integration that work well — especially for popular use cases like POS integration with Uber Eats or major payment providers. However, off-the-shelf integrations don’t always solve the unique operational challenges businesses face.
 
-If you're a POS provider or a restaurant chain, you likely need to support diverse clients — each expecting that the point-of-sale system adapts to their specific workflows, platforms, and hardware. In these cases, custom integrations are often essential. That’s why partnering with a POS integration company experienced in point-of-sale system development can be a strategic move.
+If you're a POS provider or a restaurant chain, you likely need to support diverse clients — each expecting that the point-of-sale system adapts to their specific workflows, platforms, and hardware. In these cases, custom integrations are often essential. That’s why partnering with a [POS integration company](/our-areas/food-delivery-pos-integration/) experienced in [point-of-sale system development](https://brightinventions.pl/our-areas/pos-software-development/) can be a strategic move.
