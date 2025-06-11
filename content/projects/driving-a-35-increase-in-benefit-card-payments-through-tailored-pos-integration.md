@@ -46,6 +46,6 @@ language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
-<Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/springboot_update.svg","alt":"Spring Boot"},{"src":"/images/bluetooth_stack_logo.svg","alt":"React"},{"src":"/images/zebra_technologies_stack_logo_bigger_new.svg","alt":"Zebra Technologies"}]' />
+<Gallery images='[{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/springboot_update.svg","alt":"Spring Boot"},{"src":"/images/aws_stack_logoupdate2.svg","alt":"AWS"},{"src":"/images/dot_net_stack.svg","alt":".net"},{"src":"/images/flutter.svg","alt":"Flutter"},{"src":"/images/grafana.svg","alt":"Grafana"}]' />
 
-technologies: Kotlin, Spring boot, AWS ECS, .net, flutter, Grafana
+technologies: Kotlin, Spring boot, AWS ECS, .net, Flutter, Grafana
