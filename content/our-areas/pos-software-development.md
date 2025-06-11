@@ -27,7 +27,7 @@ project:
   - restaurant-delivery-drivers-app
   - invoice-system
   - food-delivery-app
-  - card-reader
+  - tap-to-pay
 layout: our-service
 our_service_id: POS development
 meta_title: POS Software Development Company
