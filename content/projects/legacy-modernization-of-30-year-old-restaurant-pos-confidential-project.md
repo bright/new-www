@@ -53,7 +53,7 @@ Every legacy system eventually reaches a point where its founder must face the u
 
 <TitleWithIcon sectionTitle="solutions: POS with a modern UI, performance monitoring, and mobile applications" titleIcon="/images/two_flags.svg" titleIconAlt="solutions" />
 
-Based on over a decade of experience developing POS solutions for brands like [Just Eat POS](/projects/system-for-restaurants/), we began the work by **auditing the software for modernization**, allowing us to spot areas for significant improvement. 
+Based on over a decade of experience in [POS software development](/our-areas/pos-software-development/), we began the work by **auditing the software for modernization**, allowing us to spot areas for significant improvement. 
 
 One of the key aspects of the upgrade was a **new product design** to streamline the process for users, who are primarily waitstaff. The modern UI provides **quick access to core POS features** such as managing table orders with any possible modifiers (extra fries, no onions, etc.), sending orders to the kitchen, and managing payments, including splitting payments and tipping. It also ensures **integrations with retail devices including printers, cash registers, terminals**, and more.
 
