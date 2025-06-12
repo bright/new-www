@@ -123,4 +123,4 @@ Our applications had been integrated mostly with **Sunmi Technology** – one of
 
 <TitleWithIcon sectionTitle="what is next for Just Eat Takeaway and Bright Inventions" titleIcon="/images/icon_result_svg.svg" titleIconAlt="result" />
 
-Just Eat POS (prev. Practi) and Bright Inventions have established a long-term business relationship and our team proudly collaborates with **Just Eat Takeaway on various retail solutions**.
+Just Eat POS (prev. Practi) and Bright Inventions (experienced [POS software development company](/our-areas/pos-software-development/)) have established a long-term business relationship and our team proudly collaborates with **Just Eat Takeaway on various retail solutions**.
