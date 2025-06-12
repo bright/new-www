@@ -79,7 +79,7 @@ AI summaries are especially useful when you need to extract insights from hundre
 
 ### Legacy software modernization and redesign
 
-Clarity is highly effective when [modernizing or redesigning legacy software](https://brightinventions.pl/our-areas/app-modernization/). It helps you identify ways to make key features more user-friendly and efficient – which is especially important for solutions used daily by frontline workers, such as [custom point-of-sale systems](https://brightinventions.pl/projects/system-for-restaurants/), [transport management software](https://brightinventions.pl/projects/transportation-management-system/), or [electronic health record platforms](https://brightinventions.pl/projects/emar-healthcare-solution/).
+Clarity is highly effective when [modernizing or redesigning legacy software](/our-areas/app-modernization/). It helps you identify ways to make key features more user-friendly and efficient – which is especially important for solutions used daily by frontline workers, such as [custom point-of-sale systems](/projects/system-for-restaurants/), [transport management software](/projects/transportation-management-system/), or [electronic health record platforms](/projects/emar-healthcare-solution/).
 
 During the redesign process, Clarity allows you to spot patterns in how users interact with existing features – patterns worth preserving – as well as roadblocks and frustration points that should be eliminated in the modernized version.
 
@@ -154,6 +154,6 @@ Ideally, they should be used together in modern user behavior analytics – as l
 
 Maybe some still believe that data analysis is mainly for marketing specialists and data analysts – but it should also be a key part of the software development process. Whether you're a developer, QA engineer, designer, or project manager, product decisions work best when they’re grounded in data. That’s the approach we take at Bright Inventions.
 
-If you’re not getting meaningful feedback from your end users, we can help you find ways to gather insights without disrupting their experience. It’s something we already do, for example, when [collecting feedback from POS system users](https://brightinventions.pl/blog/how-to-gather-actionable-feedback-inside-a-pos-system/).
+If you’re not getting meaningful feedback from your end users, we can help you find ways to gather insights without disrupting their experience. It’s something we already do, for example, when [collecting feedback from POS system users](/blog/how-to-gather-actionable-feedback-inside-a-pos-system/).
 
-[Contact us](https://brightinventions.pl/start-project/) to explore how we can support your solution!
+[Contact us](/start-project/) to explore how we can support your solution!
