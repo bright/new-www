@@ -15,8 +15,6 @@ comments: false
 published: true
 language: en
 ---
-<div className="image">![](undefined "")</div>
-
 **Users rarely have time to give you feedback – so it's up to you to uncover insights yourself. This article explores how Microsoft Clarity can help you better understand user behavior through tools like heatmaps and session recordings. It also compares Clarity with other popular analytics solutions such as Hotjar and PostHog. Let’s dive in!**
 
 <div className="image">![Microsoft Clarity](/images/microsoft_clarity_blog_post.png "Microsoft Clarity")</div>
