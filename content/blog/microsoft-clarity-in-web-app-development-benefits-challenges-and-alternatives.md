@@ -2,14 +2,15 @@
 author: izabela
 tags:
   - design
-date: 2025-06-10T14:32:25.154Z
-meaningfullyUpdatedAt: 2025-06-10T14:32:25.188Z
-slug: microsoft-clarity-in-software-development
-title: "Microsoft Clarity in Web & App Development: Benefits, Challenges, and
-  Alternatives"
+  - programming
+date: 2025-06-12T06:00:31.832Z
+meaningfullyUpdatedAt: 2025-06-12T06:00:32.432Z
+slug: microsoft-clarity-software-development
+title: "Microsoft Clarity for Web & Mobile Development: Benefits, Challenges,
+  and Alternatives"
 layout: post
 image: /images/microsoft_clarity_blog_post.png
-hidden: false
+hidden: true
 comments: false
 published: true
 language: en
@@ -102,8 +103,8 @@ No tool is perfect, so our team at Bright Inventions enjoys testing various solu
 
 Session recording and heatmaps are the core features of a quite popular tool – Hotjar (but free plan is limited). Explore main key differences and similarities between both tools.
 
-| Feature              | Microsoft Clarity                                                                         | Hotjar                                                                             |
-| -------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Feature              | Microsoft Clarity                                                                         | Hotjar                                                                             
+| :-----: | :-----: | :-----: |
 | Pricing              | Free (but you pay with your data)                                                         | Free plan with limited features; paid plans start at ~$39/month                    |
 | Session Recordings   | Yes – unlimited recordings                                                                | Yes – limited by plan                                                              |
 | Heatmaps             | Yes – includes click, scroll, and attention heatmaps                                      | Yes – includes click, move, and scroll heatmaps                                    |
@@ -130,7 +131,7 @@ Source: [posthog.com/docs](https://posthog.com/docs/session-replay/mobile)
 And here’s a detailed Microsoft Clarity vs PostHog comparison:
 
 | Feature | Microsoft Clarity | PostHog |
-| ----- | ----- | ----- |
+| :-----: | :-----: | :-----: |
 | **Pricing** | Free | Free tier (up to 1M events/month), with paid plans for higher volume and advanced features |
 | **Session Recordings** | Yes – unlimited and automatic | Yes – with advanced options like Wireframe Mode for better performance on mobile |
 | **Heatmaps** | Yes – click, scroll, and attention heatmaps | Yes – clickmaps and scrollmaps |
