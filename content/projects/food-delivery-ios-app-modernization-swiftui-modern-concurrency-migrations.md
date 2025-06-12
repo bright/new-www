@@ -50,7 +50,7 @@ language: en
 
 <TitleWithIcon sectionTitle="problem: finding a cohesive iOS development team" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
-Our client, **a leading global online food delivery marketplace**, sought our expertise in iOS development to enhance their already popular food delivery app and benefit solution in Israel. **They required a highly skilled mobile development team with strong cohesion and experience working together for years**.
+Our client, **a leading global online food delivery marketplace**, sought our expertise in iOS development to enhance their already popular food delivery app and benefit solution in Israel. **They required a highly skilled [mobile development](/our-areas/mobile-app-development/) team with strong cohesion and experience working together for years**.
 
 Our iOS experts quickly took charge of the existing app and **swiftly familiarized themselves with the app's structure and underlying code**. That smooth transition allowed us to efficiently maintain the current solution while simultaneously planning and executing further modernizations and development.
 
