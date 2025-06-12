@@ -25,7 +25,7 @@ language: en
 
 This tool has emerged as a hot must-have in analytics, especially among marketing specialists, thanks to the fact that Microsoft Clarity is **free to use**. Naturally, when something is free, it often means that our data becomes the product – and Microsoft is transparent about this on their [website](https://clarity.microsoft.com/pricing):
 
-*Clarity is built by Microsoft, one of the largest technology companies in the world. Microsoft processes a massive amount of anonymous data around user behavior to gain insights and improve machine learning models that power many of our products and services. Clarity is one of the ways Microsoft gathers this important data—and why we've made it available for free.*
+<blockquote><h2></h2><div>Clarity is built by Microsoft, one of the largest technology companies in the world. Microsoft processes a massive amount of anonymous data around user behavior to gain insights and improve machine learning models that power many of our products and services. Clarity is one of the ways Microsoft gathers this important data—and why we've made it available for free.</div><footer>From Microsoft Clarity webpage</footer></blockquote>
 
 Before adding the Clarity script to your website, web app, or mobile application, it’s essential to review Microsoft Clarity [privacy policy](https://learn.microsoft.com/en-us/clarity/faq#privacy). This is critical if you represent sensitive sectors such as banking, government, or healthcare, where sharing user data with a third-party service may not be acceptable.
 
