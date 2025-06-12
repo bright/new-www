@@ -76,7 +76,7 @@ language: en
 
 The client reached out to us in **2013**. At that time it was an early-stage Israeli startup “Practi” that offered web application solutions to users. Since 2013 **the company has transformed from a promising startup to an international ePOS applications provider**.
 
-In 2019 Practi was **acquired by Just Eat Takeaway**. **Bright Inventions had a great opportunity to assist the client** during this incredible ride, including the whole business transformation.
+In 2019 Practi was **acquired by Just Eat Takeaway**. **Bright Inventions, as a [POS software development company](/our-areas/pos-software-development/), had a great opportunity to assist the client** during this incredible ride, including the whole business transformation.
 
 <TitleWithIcon sectionTitle="client’s expectations" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Client’s expectations" />
 
