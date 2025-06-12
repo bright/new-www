@@ -2,7 +2,7 @@
 author: izabela
 tags:
   - design
-  - programming
+  - frontend
 date: 2025-06-12T06:00:31.832Z
 meaningfullyUpdatedAt: 2025-06-12T06:00:32.432Z
 slug: microsoft-clarity-software-development
@@ -10,7 +10,7 @@ title: "Microsoft Clarity for Web & Mobile Development: Benefits, Challenges,
   and Alternatives"
 layout: post
 image: /images/microsoft_clarity_blog_post.png
-hidden: true
+hidden: false
 comments: false
 published: true
 language: en
@@ -23,9 +23,9 @@ language: en
 
 ## Microsoft Clarity Pricing
 
-This tool has emerged as a hot must-have in analytics, especially among marketers, thanks to the fact that Microsoft Clarity is **free to use**. Naturally, when something is free, it often means that our data becomes the product – and Microsoft is transparent about this on their [website](https://clarity.microsoft.com/pricing):
+This tool has emerged as a hot must-have in analytics, especially among marketing specialists, thanks to the fact that Microsoft Clarity is **free to use**. Naturally, when something is free, it often means that our data becomes the product – and Microsoft is transparent about this on their [website](https://clarity.microsoft.com/pricing):
 
-*Clarity is built by Microsoft, one of the largest technology companies in the world. Microsoft processes a massive amount of anonymous data around user behavior to gain insights and improve machine learning models that power many of our products and services. Clarity is one of the ways Microsoft gathers this important data—and why we've made it available for free.*
+<blockquote><h2></h2><div>Clarity is built by Microsoft, one of the largest technology companies in the world. Microsoft processes a massive amount of anonymous data around user behavior to gain insights and improve machine learning models that power many of our products and services. Clarity is one of the ways Microsoft gathers this important data—and why we've made it available for free.</div><footer>From the Microsoft Clarity webpage</footer></blockquote>
 
 Before adding the Clarity script to your website, web app, or mobile application, it’s essential to review Microsoft Clarity [privacy policy](https://learn.microsoft.com/en-us/clarity/faq#privacy). This is critical if you represent sensitive sectors such as banking, government, or healthcare, where sharing user data with a third-party service may not be acceptable.
 
@@ -99,12 +99,12 @@ Implement and test performance as early as possible. Testing in a staging enviro
 
 No tool is perfect, so our team at Bright Inventions enjoys testing various solutions to find the one that gives the most value for a certain business and domain. Check out these Microsoft Clarity alternatives.
 
-## Microsoft Clarity vs Hotjar
+### Microsoft Clarity vs Hotjar
 
 Session recording and heatmaps are the core features of a quite popular tool – Hotjar (but free plan is limited). Explore main key differences and similarities between both tools.
 
-| Feature              | Microsoft Clarity                                                                         | Hotjar                                                                             
-| :-----: | :-----: | :-----: |
+| Feature              | Microsoft Clarity                                                                         | Hotjar                                                                             |
+| -------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | Pricing              | Free (but you pay with your data)                                                         | Free plan with limited features; paid plans start at ~$39/month                    |
 | Session Recordings   | Yes – unlimited recordings                                                                | Yes – limited by plan                                                              |
 | Heatmaps             | Yes – includes click, scroll, and attention heatmaps                                      | Yes – includes click, move, and scroll heatmaps                                    |
@@ -114,7 +114,7 @@ Session recording and heatmaps are the core features of a quite popular tool –
 | Mobile App Support   | Yes – supports web apps, native apps (Android/iOS), React Native; Flutter in beta testing | Limited – mostly for websites and web apps                                         |
 | Performance Impact   | Lightweight script, but testing is recommended – particularly on mobile                   | Slightly heavier script; potential performance impact on large or complex websites |
 
-## Microsoft Clarity vs Posthog
+### Microsoft Clarity vs Posthog
 
 If you're concerned about your app's performance – or already know that Clarity affects its speed – consider using PostHog for its Wireframe Mode feature.
 
@@ -130,30 +130,30 @@ Source: [posthog.com/docs](https://posthog.com/docs/session-replay/mobile)
 
 And here’s a detailed Microsoft Clarity vs PostHog comparison:
 
-| Feature | Microsoft Clarity | PostHog |
-| :-----: | :-----: | :-----: |
-| **Pricing** | Free | Free tier (up to 1M events/month), with paid plans for higher volume and advanced features |
-| **Session Recordings** | Yes – unlimited and automatic | Yes – with advanced options like Wireframe Mode for better performance on mobile |
-| **Heatmaps** | Yes – click, scroll, and attention heatmaps | Yes – clickmaps and scrollmaps |
-| **User Interaction Data** | Rage clicks, dead clicks, scroll depth, session filters | Clicks, hovers, session replays, funnels, retention, and custom events |
-| **Wireframe Mode** | Not available | Yes – drastically reduces load during mobile session recording by using JSON-based wireframes |
-| **Mobile App Support** | Web and mobile web; limited native mobile support (React Native, Flutter beta) | Full support – Android, iOS, React Native, and Flutter (with performance-optimized recording) |
-| **Privacy & Data Control** | Data sent to Microsoft and used for machine learning | Self-hosted or cloud – full control of your data (ideal for privacy-conscious orgs) |
-| **Integrations** | Growing number of integrated solutions e.g. GA4, Zapier, HubSpot, Firebase. | Wide plugin system, API access, and integrations with tools like GitHub, Segment, Zapier |
-| **Custom Reporting** | Limited – prebuilt behavior-focused reports | Extensive – customizable dashboards, SQL-like queries (HogQL), and advanced segmentation |
-| **Ease of Use** | Easy setup, non-technical friendly interface | More technical – developer-oriented, but highly customizable |
-| **Performance Impact** | Lightweight script, but mobile performance varies | Wireframe Mode helps maintain app speed, especially on low-end or older mobile devices |
+| Feature                    | Microsoft Clarity                                                              | PostHog                                                                                       |
+| -------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
+| **Pricing**                | Free                                                                           | Free tier (up to 1M events/month), with paid plans for higher volume and advanced features    |
+| **Session Recordings**     | Yes – unlimited and automatic                                                  | Yes – with advanced options like Wireframe Mode for better performance on mobile              |
+| **Heatmaps**               | Yes – click, scroll, and attention heatmaps                                    | Yes – clickmaps and scrollmaps                                                                |
+| **User Interaction Data**  | Rage clicks, dead clicks, scroll depth, session filters                        | Clicks, hovers, session replays, funnels, retention, and custom events                        |
+| **Wireframe Mode**         | Not available                                                                  | Yes – drastically reduces load during mobile session recording by using JSON-based wireframes |
+| **Mobile App Support**     | Web and mobile web; limited native mobile support (React Native, Flutter beta) | Full support – Android, iOS, React Native, and Flutter (with performance-optimized recording) |
+| **Privacy & Data Control** | Data sent to Microsoft and used for machine learning                           | Self-hosted or cloud – full control of your data (ideal for privacy-conscious orgs)           |
+| **Integrations**           | Growing number of integrated solutions e.g. GA4, Zapier, HubSpot, Firebase.    | Wide plugin system, API access, and integrations with tools like GitHub, Segment, Zapier      |
+| **Custom Reporting**       | Limited – prebuilt behavior-focused reports                                    | Extensive – customizable dashboards, SQL-like queries (HogQL), and advanced segmentation      |
+| **Ease of Use**            | Easy setup, non-technical friendly interface                                   | More technical – developer-oriented, but highly customizable                                  |
+| **Performance Impact**     | Lightweight script, but mobile performance varies                              | Wireframe Mode helps maintain app speed, especially on low-end or older mobile devices        |
 
-## Microsoft Clarity vs. Google Analytics
+### Microsoft Clarity vs. Google Analytics
 
 In case you wonder, Google Analytics (GA4) is not really an alternative to Clarity. At this moment, both tools complement each other. GA4 provides a more quantitative perspective mostly appreciated by marketing specialists such as number of users, sessions, time on page, traffic sources, demographic data. Clarity helps you understand the “why” behind metrics that GA4 reveals with focus on actual user behavior valuable for UX-designer, QAs, developers.
 
 Ideally, they should be used together in modern user behavior analytics – as long as your business is comfortable sharing data with both organizations: Microsoft and Google.
 
-## Data isn’t just for marketers
+## Data isn’t just for marketing specialists
 
 Maybe some still believe that data analysis is mainly for marketing specialists and data analysts – but it should also be a key part of the software development process. Whether you're a developer, QA engineer, designer, or project manager, product decisions work best when they’re grounded in data. That’s the approach we take at Bright Inventions.
 
 If you’re not getting meaningful feedback from your end users, we can help you find ways to gather insights without disrupting their experience. It’s something we already do, for example, when [collecting feedback from POS system users](https://brightinventions.pl/blog/how-to-gather-actionable-feedback-inside-a-pos-system/).
 
-[Contact us](https://brightinventions.pl/start-project/) to explore how we can support your solution\!
+[Contact us](https://brightinventions.pl/start-project/) to explore how we can support your solution!
