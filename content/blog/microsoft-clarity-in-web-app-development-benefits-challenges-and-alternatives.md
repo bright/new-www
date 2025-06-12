@@ -2,7 +2,7 @@
 author: izabela
 tags:
   - design
-  - programming
+  - frontend
 date: 2025-06-12T06:00:31.832Z
 meaningfullyUpdatedAt: 2025-06-12T06:00:32.432Z
 slug: microsoft-clarity-software-development
@@ -10,7 +10,7 @@ title: "Microsoft Clarity for Web & Mobile Development: Benefits, Challenges,
   and Alternatives"
 layout: post
 image: /images/microsoft_clarity_blog_post.png
-hidden: true
+hidden: false
 comments: false
 published: true
 language: en
