@@ -118,9 +118,9 @@ If you're concerned about your app's performance – or already know that Clarit
 
 This is how [PostHog](https://posthog.com/docs/session-replay/mobile) describes their solution:
 
-*The view hierarchy is transformed to a JSON data structure and later rendered as an HTML wireframe. Since it is a wireframe, the UI won't have the original look and feel but it should be close enough to understand the user's behavior.*
+<blockquote><h2></h2><div>The view hierarchy is transformed to a JSON data structure and later rendered as an HTML wireframe. Since it is a wireframe, the UI won't have the original look and feel but it should be close enough to understand the user's behavior.</div><footer>From the PostHog webpage</footer></blockquote>
 
-*Below is an example of a screen captured in wireframe mode in Android:*
+Below is an example of a screen captured in wireframe mode in Android:
 
 <div className="image">![PostHog](/images/screenshot_2024-07-31_at_3.16.16_pm.png "PostHog")</div>
 
@@ -144,7 +144,7 @@ And here’s a detailed Microsoft Clarity vs PostHog comparison:
 
 ### Microsoft Clarity vs. Google Analytics
 
-In case you wonder, Google Analytics (GA4) is not really an alternative to Clarity. At this moment, both tools complement each other. GA4 provides a more quantitative perspective mostly appreciated by marketing specialists such as number of users, sessions, time on page, traffic sources, demographic data. Clarity helps you understand the “why” behind metrics that GA4 reveals with focus on actual user behavior valuable for UX-designer, QAs, developers.
+In case you wonder, **Google Analytics (GA4) is not really an alternative to Clarity**. At this moment, both tools complement each other. **GA4 provides a more quantitative perspective** mostly appreciated by marketing specialists such as number of users, sessions, time on page, traffic sources, demographic data. **Clarity helps you understand the “why” behind metrics that GA4 reveals** with focus on actual user behavior valuable for UX-designer, QAs, developers.
 
 Ideally, they should be used together in modern user behavior analytics – as long as your business is comfortable sharing data with both organizations: Microsoft and Google.
 
@@ -152,6 +152,6 @@ Ideally, they should be used together in modern user behavior analytics – as l
 
 Maybe some still believe that data analysis is mainly for marketing specialists and data analysts – but it should also be a key part of the software development process. Whether you're a developer, QA engineer, designer, or project manager, product decisions work best when they’re grounded in data. That’s the approach we take at Bright Inventions.
 
-If you’re not getting meaningful feedback from your end users, we can help you find ways to gather insights without disrupting their experience. It’s something we already do, for example, when [collecting feedback from POS system users](/blog/how-to-gather-actionable-feedback-inside-a-pos-system/).
+If you’re not getting meaningful feedback from your end users, **we can help you find ways to gather insights without disrupting their experience**. It’s something we already do, for example, when [collecting feedback from POS system users](/blog/how-to-gather-actionable-feedback-inside-a-pos-system/).
 
 [Contact us](/start-project/) to explore how we can support your solution!
