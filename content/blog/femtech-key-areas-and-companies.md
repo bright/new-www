@@ -4,7 +4,7 @@ tags:
   - HealthTech
 date: 2024-04-02T12:52:11.614Z
 meaningfullyUpdatedAt: 2024-04-02T12:52:11.634Z
-title: "FemTech: Key Areas and Companies"
+title: 13 Companies Driving FemTech
 layout: post
 image: /images/femtech_areas.png
 hidden: false
