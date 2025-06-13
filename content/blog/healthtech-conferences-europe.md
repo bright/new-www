@@ -12,7 +12,7 @@ comments: true
 published: true
 language: en
 ---
-**Looking for on-site digital health conferences to attend in 2025? We’ve got you covered. Check exciting HealthTech European events that will take place in upcoming months.**
+**Looking for on-site healthtech conferences to attend in 2025? We’ve got you covered. Check exciting health conferences that will take place in upcoming months in Europe.**
 
 <div className="image">![health conferences 2025](/images/healthcare_conference.png "health conferences 2025")</div>
 
