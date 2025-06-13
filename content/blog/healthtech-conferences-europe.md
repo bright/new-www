@@ -3,8 +3,8 @@ author: izabela
 tags:
   - HealthTech
 date: 2024-02-07T10:27:48.521Z
-meaningfullyUpdatedAt: 2024-11-20T10:27:49.323Z
-title: Top HealthTech Conferences to Attend in Europe in 2025
+meaningfullyUpdatedAt: 2025-06-13T09:25:44.398Z
+title: Top Healthcare Conferences to Attend in Europe in 2025
 layout: post
 image: /images/healthcare_conference.png
 hidden: false
@@ -12,9 +12,119 @@ comments: true
 published: true
 language: en
 ---
-**Looking for on-site digital health conferences to attend in 2025? We’ve got you covered. Check exciting HealthTech European events that will take place in upcoming months.**
+**Looking for on-site healthtech conferences to attend in 2025? We’ve got you covered. Check exciting health conferences that will take place in upcoming months in Europe.**
 
-<div className="image">![conference](/images/healthcare_conference.png "conference")</div>
+<div className="image">![health conferences 2025](/images/healthcare_conference.png "health conferences 2025")</div>
+
+## HLTH Europe
+
+**Date**: 16-19 June 2025
+
+**City**: Amsterdam
+
+**Ticket pricing**: from €750 to €1,745
+
+**Number of attendees**: 5,000+
+
+**Keynote speakers**: 
+
+* Andy Hardy - CEO of University Hospitals Coventry & Warwickshire NHS Trust,
+* Anjali Bhagra -  Medical Director of Intelligent Automation, Mayo Clinic,
+* Anke Diehl - Chief Transformation Officer at University Medicine Essen.
+
+HLTH Europe is where global expertise meets local insight to address Europe's unique healthcare challenges and opportunities. [Read our review of HLTH Europe 2024](/blog/hlth-amsterdam-2024-summary/).
+
+Details: [https://europe.hlth.com](https://europe.hlth.com/)
+
+## ESC Congress 2025 (European Congress of Cardiology)
+
+**Date**: August 29 - September 1, 2025
+
+**City**: **Madrid, Spain**
+
+**Ticket pricing**: **from €100 to €1,115**
+
+**Number of attendees**: 10,000+
+
+The ESC Congress is the world's largest and most influential cardiology event, presenting ground-breaking research and offering a comprehensive educational program. It's a must-attend for cardiologists and cardiovascular healthcare professionals.
+
+Details: [](https://europe.hlth.com/)[www.escardio.org/Congresses-Events/ESC-Congress/](https://www.escardio.org/Congresses-Events/ESC-Congress/)
+
+## European Respiratory Society Congress 2025
+
+**Date**: September 27 - October 1, 2025 
+
+**City**: Amsterdam, Netherlands 
+
+**Ticket pricing**: from €115 to €1,095
+
+**Number of attendees**: 20,000
+
+This is the largest respiratory meeting in the world, bringing together clinicians, scientists, and allied health professionals to share research, enhance knowledge, and discuss the latest developments in the field of respiratory health.
+
+Details: [](https://europe.hlth.com/)[www.ersnet.org/congress-and-events/congress/](https://www.ersnet.org/congress-and-events/congress/)
+
+<EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='cover' />
+
+## European Health Forum Gastein (EHFG) 2025
+
+**Date**: September 30 - October 3, 2025 
+
+**City**: Gastein, Austria 
+
+**Ticket pricing**: from €500 to €1550 
+
+**Number of attendees**: 1,500+
+
+EHFG is a leading health policy conference in Europe, providing a platform for high-level discussion and exchange on current and future health challenges. It attracts decision-makers, experts, and stakeholders from various sectors.
+
+Details: [](https://europe.hlth.com/)[www.ehfg.org/](https://www.ehfg.org/)
+
+## ISPOR Europe 2025
+
+**Date**: November 9-12, 2025
+
+**City**: Glasgow, UK  
+
+**Ticket pricing**: $740 to $2,750
+
+**Number of attendees**: 1,000+
+
+ISPOR Europe is a premier event for HEOR professionals, offering a platform to discuss the latest trends, research, and applications in health economics, healthcare policy, and patient-centered outcomes.
+
+Details: [](https://europe.hlth.com/)[www.ispor.org/conferences-education/](https://www.ispor.org/conferences-education/conferences/upcoming-conferences/ispor-europe-2025/)
+
+## 18th European Public Health Conference 2025
+
+**Date**: November 11-14, 2025
+
+**City**: Helsinki, Finland  
+
+**Ticket pricing**: from €80 to €940
+
+**Number of attendees**: 2,000+
+
+This conference brings together public health professionals from across Europe to discuss critical issues, share research, and collaborate on strategies for improving population health. It's a key event for policymakers, researchers, and practitioners.
+
+Details: [ephconference.eu](https://ephconference.eu/)
+
+## MEDICA 2025
+
+**Date**: November 17-20, 2025
+
+**City**: Düsseldorf, Germany   
+
+**Ticket pricing**: Information on visitor ticket pricing for 2025 is typically released closer to the event.
+
+**Number of attendees**: 80,000
+
+MEDICA is one of the largest medical industry events worldwide. It's an essential platform for manufacturers, suppliers, and healthcare professionals to showcase innovations, discover new technologies, and discuss the future of medicine.
+
+Details: [www.medica-tradefair.com](https://www.medica-tradefair.com/)
+
+- - -
+
+## Healthcare events that already took place in 2025
 
 ## DMEA
 
@@ -49,8 +159,6 @@ Details: [https://www.dmea.de/](https://www.dmea.de/en/about/dmea/)
 
 Details: [www.themedtechforum.eu](https://www.themedtechforum.eu/)
 
-<EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='cover' />
-
 ## European Health Conference & Exhibition
 
 **Date**: 10-12 June, 2025
@@ -64,27 +172,3 @@ Details: [www.themedtechforum.eu](https://www.themedtechforum.eu/)
 Learn from the leaders at the forefront of today’s digital transformation trends and insights.
 
 Details: [www.himss.org/event-himss-europe](https://www.himss.org/event-himss-europe)
-
-## HLTH Europe
-
-**Date**: 16-19 June 2025
-
-**City**: Amsterdam
-
-**Ticket pricing**: from €750 to €1,745
-
-**Number of attendees**: 5,000+
-
-**Keynote speakers**: 
-
-* Andy Hardy - CEO of University Hospitals Coventry & Warwickshire NHS Trust,
-* Anjali Bhagra -  Medical Director of Intelligent Automation, Mayo Clinic,
-* Anke Diehl - Chief Transformation Officer at University Medicine Essen.
-
-HLTH Europe is where global expertise meets local insight to address Europe's unique healthcare challenges and opportunities. [Read our review of HLTH Europe 2024](/blog/hlth-amsterdam-2024-summary/).
-
-Details: [https://europe.hlth.com](https://europe.hlth.com/)
-
-- - -
-
-Do you recommend other eHealth conferences held in Europe? Let us know in the comments and we might include them!
