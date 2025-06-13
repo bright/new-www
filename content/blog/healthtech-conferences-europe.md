@@ -36,8 +36,6 @@ HLTH Europe is where global expertise meets local insight to address Europe's un
 
 Details: [https://europe.hlth.com](https://europe.hlth.com/)
 
-<EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='cover' />
-
 ## ESC Congress 2025 (European Congress of Cardiology)
 
 **Date**: August 29 - September 1, 2025
@@ -65,6 +63,8 @@ Details: [](https://europe.hlth.com/)[www.escardio.org/Congresses-Events/ESC-Con
 This is the largest respiratory meeting in the world, bringing together clinicians, scientists, and allied health professionals to share research, enhance knowledge, and discuss the latest developments in the field of respiratory health.
 
 Details: [](https://europe.hlth.com/)[www.ersnet.org/congress-and-events/congress/](https://www.ersnet.org/congress-and-events/congress/)
+
+<EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='cover' />
 
 ## European Health Forum Gastein (EHFG) 2025
 
