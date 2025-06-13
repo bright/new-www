@@ -88,9 +88,25 @@ Details: [](https://europe.hlth.com/)[www.ehfg.org/](https://www.ehfg.org/)
 
 **Ticket pricing**: $740 to $2,750
 
-**Number of attendees**: 1,000+ISPOR Europe is a premier event for HEOR professionals, offering a platform to discuss the latest trends, research, and applications in health economics, healthcare policy, and patient-centered outcomes.
+**Number of attendees**: 1,000+
 
-Details: [](https://europe.hlth.com/)[www.ispor.org/conferences-education/](https://www.ispor.org/conferences-education/conferences/upcoming-conferences/ispor-europe-2025/)[](https://www.ispor.org/conferences-education/conferences/upcoming-conferences/ispor-europe-2025/)
+ISPOR Europe is a premier event for HEOR professionals, offering a platform to discuss the latest trends, research, and applications in health economics, healthcare policy, and patient-centered outcomes.
+
+Details: [](https://europe.hlth.com/)[www.ispor.org/conferences-education/](https://www.ispor.org/conferences-education/conferences/upcoming-conferences/ispor-europe-2025/)
+
+## 18th European Public Health Conference 2025
+
+**Date**: November 11-14, 2025
+
+**City**: Helsinki, Finland  
+
+**Ticket pricing**: from €80 to €940
+
+**Number of attendees**: 2,000+
+
+This conference brings together public health professionals from across Europe to discuss critical issues, share research, and collaborate on strategies for improving population health. It's a key event for policymakers, researchers, and practitioners.
+
+Details: [ephconference.eu](https://ephconference.eu/)
 
 - - -
 
