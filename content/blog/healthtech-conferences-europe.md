@@ -66,6 +66,22 @@ This is the largest respiratory meeting in the world, bringing together clinicia
 
 Details: [](https://europe.hlth.com/)[www.ersnet.org/congress-and-events/congress/](https://www.ersnet.org/congress-and-events/congress/)
 
+## European Health Forum Gastein (EHFG) 2025
+
+**Date**: September 30 - October 3, 2025 
+
+**City**: Gastein, Austria 
+
+**Ticket pricing**: from €500 to €1550 
+
+**Number of attendees**: 1,500+
+
+EHFG is a leading health policy conference in Europe, providing a platform for high-level discussion and exchange on current and future health challenges. It attracts decision-makers, experts, and stakeholders from various sectors.
+
+Details: [](https://europe.hlth.com/)[www.ehfg.org/](https://www.ehfg.org/)
+
+
+
 - - -
 
 ## Healthcare events that already took place in 2025
