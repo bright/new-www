@@ -66,4 +66,4 @@ As demonstrated, the end user simply provides the number of splits and payment m
 
 - - -
 
-The Point of Sale design was created by Aleksandra Zawisza, a Junior Product Designer at Bright Inventions, a [POS software development company](/our-areas/pos-software-development/).
+The Point of Sale design was created by Aleksandra Zawisza, a Product Designer at Bright Inventions, a [POS software development company](/our-areas/pos-software-development/).
