@@ -80,7 +80,17 @@ EHFG is a leading health policy conference in Europe, providing a platform for h
 
 Details: [](https://europe.hlth.com/)[www.ehfg.org/](https://www.ehfg.org/)
 
+## ISPOR Europe 2025
 
+**Date**: November 9-12, 2025
+
+**City**: Glasgow, UK  
+
+**Ticket pricing**: $740 to $2,750
+
+**Number of attendees**: 1,000+ISPOR Europe is a premier event for HEOR professionals, offering a platform to discuss the latest trends, research, and applications in health economics, healthcare policy, and patient-centered outcomes.
+
+Details: [](https://europe.hlth.com/)[www.ispor.org/conferences-education/](https://www.ispor.org/conferences-education/conferences/upcoming-conferences/ispor-europe-2025/)[](https://www.ispor.org/conferences-education/conferences/upcoming-conferences/ispor-europe-2025/)
 
 - - -
 
