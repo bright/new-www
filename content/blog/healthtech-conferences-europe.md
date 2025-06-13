@@ -40,9 +40,9 @@ Details: [https://europe.hlth.com](https://europe.hlth.com/)
 
 **Date**: August 29 - September 1, 2025
 
-**City**: **Madrid, Spain**
+**City**: Madrid, Spain
 
-**Ticket pricing**: **from €100 to €1,115**
+**Ticket pricing**: from €100 to €1,115
 
 **Number of attendees**: 10,000+
 
@@ -86,7 +86,7 @@ Details: [](https://europe.hlth.com/)[www.ehfg.org/](https://www.ehfg.org/)
 
 **City**: Glasgow, UK  
 
-**Ticket pricing**: $740 to $2,750
+**Ticket pricing**: 740 to 2,750 dollars
 
 **Number of attendees**: 1,000+
 
