@@ -38,25 +38,19 @@ Details: [https://europe.hlth.com](https://europe.hlth.com/)
 
 <EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='cover' />
 
-## HLTH Europe
+## ESC Congress 2025 (European Congress of Cardiology)
 
-**Date**: 16-19 June 2025
+**Date**: August 29 - September 1, 2025
 
-**City**: Amsterdam
+**City**: **Madrid, Spain**
 
-**Ticket pricing**: from €750 to €1,745
+**Ticket pricing**: **from €100 to €1,115**
 
-**Number of attendees**: 5,000+
+**Number of attendees**: 10,000+
 
-**Keynote speakers**: 
+The ESC Congress is the world's largest and most influential cardiology event, presenting ground-breaking research and offering a comprehensive educational program. It's a must-attend for cardiologists and cardiovascular healthcare professionals.
 
-* Andy Hardy - CEO of University Hospitals Coventry & Warwickshire NHS Trust,
-* Anjali Bhagra -  Medical Director of Intelligent Automation, Mayo Clinic,
-* Anke Diehl - Chief Transformation Officer at University Medicine Essen.
-
-HLTH Europe is where global expertise meets local insight to address Europe's unique healthcare challenges and opportunities. [Read our review of HLTH Europe 2024](/blog/hlth-amsterdam-2024-summary/).
-
-Details: [https://europe.hlth.com](https://europe.hlth.com/)
+Details: [](https://europe.hlth.com/)[www.escardio.org/Congresses-Events/ESC-Congress/](https://www.escardio.org/Congresses-Events/ESC-Congress/)
 
 ## Healthcare events that already took place in 2025
 
