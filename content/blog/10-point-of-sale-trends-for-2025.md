@@ -98,7 +98,7 @@ For example, scheduling routine duties like cleaning fridge number 2 every Monda
 
 ## AI-powered POS: Using AI for analytics and inventory
 
-With artificial intelligence in point of sale software, restaurants can **track customer preferences, predict demand, and optimize stock levels to reduce waste**. AI-powered analytics allow businesses to make **data-driven decisions about menu offerings, pricing, and loyalty programs** improving overall efficiency and customer experience. In inventory management, AI-driven POS systems help **monitor stock in real-time**, quickly informing about the need for ingredients reorder.
+With artificial intelligence in [custom pos software development](/our-areas/pos-software-development/), restaurants can **track customer preferences, predict demand, and optimize stock levels to reduce waste**. AI-powered analytics allow businesses to make **data-driven decisions about menu offerings, pricing, and loyalty programs** improving overall efficiency and customer experience. In inventory management, AI-driven POS systems help **monitor stock in real-time**, quickly informing about the need for ingredients reorder.
 
 ## Personalized coupon marketing based on POS system data
 
