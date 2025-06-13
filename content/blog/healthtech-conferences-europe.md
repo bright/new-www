@@ -3,8 +3,8 @@ author: izabela
 tags:
   - HealthTech
 date: 2024-02-07T10:27:48.521Z
-meaningfullyUpdatedAt: 2024-11-20T10:27:49.323Z
-title: Top HealthTech Conferences to Attend in Europe in 2025
+meaningfullyUpdatedAt: 2025-06-13T09:09:23.893Z
+title: Top Healthcare Conferences to Attend in Europe in 2025
 layout: post
 image: /images/healthcare_conference.png
 hidden: false
@@ -15,6 +15,50 @@ language: en
 **Looking for on-site digital health conferences to attend in 2025? We’ve got you covered. Check exciting HealthTech European events that will take place in upcoming months.**
 
 <div className="image">![conference](/images/healthcare_conference.png "conference")</div>
+
+## HLTH Europe
+
+**Date**: 16-19 June 2025
+
+**City**: Amsterdam
+
+**Ticket pricing**: from €750 to €1,745
+
+**Number of attendees**: 5,000+
+
+**Keynote speakers**: 
+
+* Andy Hardy - CEO of University Hospitals Coventry & Warwickshire NHS Trust,
+* Anjali Bhagra -  Medical Director of Intelligent Automation, Mayo Clinic,
+* Anke Diehl - Chief Transformation Officer at University Medicine Essen.
+
+HLTH Europe is where global expertise meets local insight to address Europe's unique healthcare challenges and opportunities. [Read our review of HLTH Europe 2024](/blog/hlth-amsterdam-2024-summary/).
+
+Details: [https://europe.hlth.com](https://europe.hlth.com/)
+
+<EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='cover' />
+
+## HLTH Europe
+
+**Date**: 16-19 June 2025
+
+**City**: Amsterdam
+
+**Ticket pricing**: from €750 to €1,745
+
+**Number of attendees**: 5,000+
+
+**Keynote speakers**: 
+
+* Andy Hardy - CEO of University Hospitals Coventry & Warwickshire NHS Trust,
+* Anjali Bhagra -  Medical Director of Intelligent Automation, Mayo Clinic,
+* Anke Diehl - Chief Transformation Officer at University Medicine Essen.
+
+HLTH Europe is where global expertise meets local insight to address Europe's unique healthcare challenges and opportunities. [Read our review of HLTH Europe 2024](/blog/hlth-amsterdam-2024-summary/).
+
+Details: [https://europe.hlth.com](https://europe.hlth.com/)
+
+## Healthcare events that already took place in 2025
 
 ## DMEA
 
@@ -49,8 +93,6 @@ Details: [https://www.dmea.de/](https://www.dmea.de/en/about/dmea/)
 
 Details: [www.themedtechforum.eu](https://www.themedtechforum.eu/)
 
-<EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='cover' />
-
 ## European Health Conference & Exhibition
 
 **Date**: 10-12 June, 2025
@@ -64,26 +106,6 @@ Details: [www.themedtechforum.eu](https://www.themedtechforum.eu/)
 Learn from the leaders at the forefront of today’s digital transformation trends and insights.
 
 Details: [www.himss.org/event-himss-europe](https://www.himss.org/event-himss-europe)
-
-## HLTH Europe
-
-**Date**: 16-19 June 2025
-
-**City**: Amsterdam
-
-**Ticket pricing**: from €750 to €1,745
-
-**Number of attendees**: 5,000+
-
-**Keynote speakers**: 
-
-* Andy Hardy - CEO of University Hospitals Coventry & Warwickshire NHS Trust,
-* Anjali Bhagra -  Medical Director of Intelligent Automation, Mayo Clinic,
-* Anke Diehl - Chief Transformation Officer at University Medicine Essen.
-
-HLTH Europe is where global expertise meets local insight to address Europe's unique healthcare challenges and opportunities. [Read our review of HLTH Europe 2024](/blog/hlth-amsterdam-2024-summary/).
-
-Details: [https://europe.hlth.com](https://europe.hlth.com/)
 
 - - -
 
