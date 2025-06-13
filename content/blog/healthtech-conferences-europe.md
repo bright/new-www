@@ -108,6 +108,20 @@ This conference brings together public health professionals from across Europe t
 
 Details: [ephconference.eu](https://ephconference.eu/)
 
+## MEDICA 2025
+
+**Date**: November 17-20, 2025
+
+**City**: Düsseldorf, Germany   
+
+**Ticket pricing**: Information on visitor ticket pricing for 2025 is typically released closer to the event.
+
+**Number of attendees**: 80,000
+
+MEDICA is one of the largest medical industry events worldwide. It's an essential platform for manufacturers, suppliers, and healthcare professionals to showcase innovations, discover new technologies, and discuss the future of medicine.
+
+Details: [www.medica-tradefair.com](https://www.medica-tradefair.com/)
+
 - - -
 
 ## Healthcare events that already took place in 2025
