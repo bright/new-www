@@ -84,4 +84,4 @@ The result: Employee meal redemptions increased by 35% in the first month, and o
 
 ## Our Know-How:
 
-As a [POS development company](/our-areas/pos-software-development/), we’ve helped restaurants and retail brands design smart, integrated payment solutions. Whether you’re integrating a single provider or scaling across platforms and regions, we’ve got the experience to support you. [Let’s talk](/start-project/)!
+As a [POS software development company](/our-areas/pos-software-development/), we’ve helped restaurants and retail brands design smart, integrated payment solutions. Whether you’re integrating a single provider or scaling across platforms and regions, we’ve got the experience to support you. [Let’s talk](/start-project/)!
