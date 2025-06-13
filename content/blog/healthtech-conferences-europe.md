@@ -52,6 +52,22 @@ The ESC Congress is the world's largest and most influential cardiology event, p
 
 Details: [](https://europe.hlth.com/)[www.escardio.org/Congresses-Events/ESC-Congress/](https://www.escardio.org/Congresses-Events/ESC-Congress/)
 
+## European Respiratory Society Congress 2025
+
+**Date**: September 27 - October 1, 2025 
+
+**City**: Amsterdam, Netherlands 
+
+**Ticket pricing**: from €115 to €1,095
+
+**Number of attendees**: 20,000
+
+This is the largest respiratory meeting in the world, bringing together clinicians, scientists, and allied health professionals to share research, enhance knowledge, and discuss the latest developments in the field of respiratory health.
+
+Details: [](https://europe.hlth.com/)[www.ersnet.org/congress-and-events/congress/](https://www.ersnet.org/congress-and-events/congress/)
+
+- - -
+
 ## Healthcare events that already took place in 2025
 
 ## DMEA
@@ -100,7 +116,3 @@ Details: [www.themedtechforum.eu](https://www.themedtechforum.eu/)
 Learn from the leaders at the forefront of today’s digital transformation trends and insights.
 
 Details: [www.himss.org/event-himss-europe](https://www.himss.org/event-himss-europe)
-
-- - -
-
-Do you recommend other eHealth conferences held in Europe? Let us know in the comments and we might include them!
