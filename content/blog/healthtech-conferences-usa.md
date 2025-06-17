@@ -40,7 +40,7 @@ Details: [leadershipsummit.aha.org](https://leadershipsummit.aha.org/)
 
 **Number of attendees**: 12,000+
 
-A Las Vegas conference covers the latest in healthcare innovation and solutions.
+HLTH is a leading event that brings together senior leaders to solve healthcare's most pressing challenges and realize the most promising opportunities to create health's future, showcasing the latest technological innovations for the entire health ecosystem.
 
 Details: [hlth.com/](https://hlth.com/2025event)
 
