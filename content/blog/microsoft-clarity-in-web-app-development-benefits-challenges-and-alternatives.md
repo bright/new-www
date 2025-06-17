@@ -4,7 +4,7 @@ tags:
   - design
   - frontend
 date: 2025-06-12T06:00:31.832Z
-meaningfullyUpdatedAt: 2025-06-12T06:00:32.432Z
+meaningfullyUpdatedAt: 2025-06-17T06:46:47.903Z
 slug: microsoft-clarity-software-development
 title: "Microsoft Clarity for Web & Mobile Development: Benefits, Challenges,
   and Alternatives"
@@ -29,7 +29,7 @@ Before adding the Clarity script to your website, web app, or mobile application
 
 ## Microsoft Clarity Features
 
-That’s all for the disclaimers – let’s now discuss what Clarity actually offers. Clarity is widely used for website analytics, but it can also be used to **analyze web and mobile applications**. It supports Android, iOS and React Native apps, while [Flutter support is currently in beta testing](https://github.com/microsoft/clarity/issues/742).
+That’s all for the disclaimers – let’s now discuss what Clarity actually offers. Clarity is widely used for website analytics, but it can also be used to **analyze web and mobile applications**. It supports Android, iOS,  React Native apps, and Microsoft has just announced that the Clarity Flutter SDK is now available to everyone as well, following the completion of beta testing.
 
 ### Session Recording
 
