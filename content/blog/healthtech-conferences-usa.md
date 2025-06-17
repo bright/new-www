@@ -3,7 +3,7 @@ author: izabela
 tags:
   - HealthTech
 date: 2024-02-08T08:00:38.509Z
-meaningfullyUpdatedAt: 2024-11-27T07:37:48.001Z
+meaningfullyUpdatedAt: 2025-06-17T07:52:12.440Z
 title: Top Healthcare Conferences to Attend in the USA in 2025
 layout: post
 image: /images/us_healthtech_conferences.png
@@ -43,6 +43,8 @@ Details: [leadershipsummit.aha.org](https://leadershipsummit.aha.org/)
 HLTH is a leading event that brings together senior leaders to solve healthcare's most pressing challenges and realize the most promising opportunities to create health's future, showcasing the latest technological innovations for the entire health ecosystem.
 
 Details: [hlth.com/](https://hlth.com/2025event)
+
+<EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='cover' />
 
 ## Healthcare conferences 2025 that already took place in the USA
 
@@ -101,8 +103,6 @@ The Health 2.0 Conference deliberates on ways to boost the global healthcare eco
 Digital Health is an interactive and decision-maker-driven event helping to forge meaningful connections with key decision-makers.
 
 Details: [events.reutersevents.com/healthcare/digital-health-usa](https://events.reutersevents.com/healthcare/digital-health-usa)
-
-<EbookDynamic sectionTitle='scale your HealthTech solution successfully' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Nearly 100 pages on leveraging technology in healthcare development, including reports, use cases, and technology tips, compiled into one PDF.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='cover' />
 
 ### Digital Healthcare Innovation Summit (DHIS) East
 
