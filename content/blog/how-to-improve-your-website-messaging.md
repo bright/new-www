@@ -4,7 +4,7 @@ tags:
   - HealthTech
 date: 2024-03-04T12:22:07.076Z
 meaningfullyUpdatedAt: 2024-03-04T12:22:07.672Z
-title: How to Improve Your Website Messaging? Tips for HealthTech companies
+title: 7 Ways to Improve Website Messaging for Healthcare Tech Companies
 layout: post
 image: /images/website_messaging.png
 hidden: false
@@ -18,7 +18,7 @@ And you implement it instantly without a budget.
 
 <div className="image">![website](../../static/images/website_messaging.png "website")</div>
 
-In the last 3 months I was exploring the [Healthcare Information Technology](/our-areas/healthcare-software-development/) landscape. Searching for ones worth mentioning and trying to gather statistics and market research for improving our messaging and hoping to find clients of course.
+In the last 3 months I was exploring the [healthcare software development](/our-areas/healthcare-software-development/) landscape. Searching for ones worth mentioning and trying to gather statistics and market research for improving our messaging and hoping to find clients of course.
 
 My first point of contact was always the website, as it normally is these days. One element that stood out is that out of more than 300 pages I analyzed only 15-20% offered messaging that made me understand what the company actually does. Most of the times it took me a minimum of 5 minutes to fill in the excel column titled “solution summary”. 
 
@@ -49,7 +49,7 @@ Lead with a HERO section, then define the problem, next show the solution and pr
 
 Leading with the outcome is often treated as an industry standard adapted from B2C. But that is not always the case, especially in B2B and brands just trying to break through. 
 
-<blockquote><div>Selling with benefits not the features is a good strategy when everybody knows what the product is.</div><footer>Anthony Pierry</footer></blockquote>
+<blockquote><h2></h2><div>Selling with benefits not the features is a good strategy when everybody knows what the product is.</div><footer>Anthony Pierry</footer></blockquote>
 
 THIS IS THE PRODUCT     vs     THIS IS THE OUTCOME
 
