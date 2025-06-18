@@ -18,7 +18,7 @@ language: en
 
 **Contents**
 
-[Healthcare wearables](/blog/bluetooth-devices-that-change-healthcare/#healthcare-wearables)
+[Healthcare wearables](/blog/bluetooth-devices-that-change-healthcare/#smart-health-devices--wearables)
 
 [Remote patient monitoring & diagnostics devices](/blog/bluetooth-devices-that-change-healthcare/#remote-patient-monitoring--diagnostics-devices)
 
