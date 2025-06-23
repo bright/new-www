@@ -32,7 +32,7 @@ title_case_study: explore our clients' stories
 title_contact: hire us to build your unique asset tracking system
 description_contact: Tell us more about your tech challenges and we'll look for
   solutions! Fill out the form below and we'll get back to you within 1 day.
-order: 99
+order: 5
 slug: hospital-asset-tracking
 show_team: false
 show_case_study: true
@@ -49,7 +49,7 @@ technologies: Swift, Android, Bluetooth Low Energy, Zebra Technologies
 
 <TitleWithIcon sectionTitle="problem: the lack of hospital asset tracking" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
-Hospitals are home to some of the most expensive and most critical assets in the world: life-saving medical equipment (an ultrasound machine can cost up to [$30,000](https://hmedicalinc.com/2024/10/04/how-much-does-medical-equipment-cost/)), and even hospital beds (which can cost as much as [$25,000](https://www.uscimaging.com/blog/ultrasound-machine-cost/)). These assets must always be available, well-maintained, and properly allocated.
+Hospitals are home to some of the most expensive and most critical assets in the world: life-saving medical equipment (an ultrasound machine can cost up to [$30,000](https://www.uscimaging.com/blog/ultrasound-machine-cost/)), and even hospital beds (which can cost as much as [$25,000](https://hmedicalinc.com/2024/10/04/how-much-does-medical-equipment-cost/)). These assets must always be available, well-maintained, and properly allocated.
 
 <div className="image">![Healthcare asset tracking](/images/healthcare_asset_tracking.png "Healthcare asset tracking")</div>
 
@@ -87,6 +87,8 @@ To tackle this, we took a hands-on, multi-pronged approach. We tested our app on
 * end-to-end (E2E) automated tests that verify app functionality without any developer or tester interference, eliminating the risk of human error during the testing process.
 
 We also made **app onboarding** as thorough as possible. On first installation, users are guided through a detailed setup flow where they grant essential permissions: Bluetooth access, precise GPS location, notification permissions, and disabling battery optimization. We also request the SCHEDULE_EXACT_ALARM permission, which allows the app to perform regular health checks, ensuring that background processes are running correctly and the system continues to operate as expected.
+
+<div className="image">![Hospital asset tracking](/images/hospital_asset_tracking_photo3.png "Hospital asset tracking")</div>
 
 Another major concern was **battery consumption**. Since the app must constantly listen for Bluetooth signals, some level of battery impact is unavoidable. Our goal was to minimize that effect as much as possible. While listening has to happen in real-time, we optimized the parts of the app responsible for processing and syncing data. Instead of sending every detected event immediately to the backend, we bundle them and send updates every 40 seconds in efficient batches. This significantly reduced unnecessary energy use without compromising accuracy.
 
