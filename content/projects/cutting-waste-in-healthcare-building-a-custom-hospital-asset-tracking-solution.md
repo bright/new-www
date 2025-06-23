@@ -88,6 +88,8 @@ To tackle this, we took a hands-on, multi-pronged approach. We tested our app on
 
 We also made **app onboarding** as thorough as possible. On first installation, users are guided through a detailed setup flow where they grant essential permissions: Bluetooth access, precise GPS location, notification permissions, and disabling battery optimization. We also request the SCHEDULE_EXACT_ALARM permission, which allows the app to perform regular health checks, ensuring that background processes are running correctly and the system continues to operate as expected.
 
+<div className="image">![](/images/hospital_asset_tracking_photo3.png "")</div>
+
 Another major concern was **battery consumption**. Since the app must constantly listen for Bluetooth signals, some level of battery impact is unavoidable. Our goal was to minimize that effect as much as possible. While listening has to happen in real-time, we optimized the parts of the app responsible for processing and syncing data. Instead of sending every detected event immediately to the backend, we bundle them and send updates every 40 seconds in efficient batches. This significantly reduced unnecessary energy use without compromising accuracy.
 
 We also encountered environment-specific edge cases. Every hospital is different, not just in layout, but in construction. **Hospital buildings are often large, with thick concrete walls, long corridors, and complex floor plans**. Bluetooth signals can weaken or drop entirely depending on where a device is located. In some cases, we had to adjust parameters or behavior in the app to adapt to the specific challenges of a particular hospital's infrastructure.
