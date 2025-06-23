@@ -49,7 +49,7 @@ technologies: Swift, Android, Bluetooth Low Energy, Zebra Technologies
 
 <TitleWithIcon sectionTitle="problem: the lack of hospital asset tracking" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
-Hospitals are home to some of the most expensive and most critical assets in the world: life-saving medical equipment, an ultrasound machine can cost up to [$30,000](https://www.uscimaging.com/blog/ultrasound-machine-cost/), and even hospital beds, which can cost as much as [$25,000](https://hmedicalinc.com/2024/10/04/how-much-does-medical-equipment-cost/). These assets must always be available, well-maintained, and properly allocated.
+Hospitals are home to some of the most expensive and most critical assets in the world: life-saving medical equipment, an ultrasound machine can cost up to [30,000 USD](https://www.uscimaging.com/blog/ultrasound-machine-cost/), and even hospital beds, which can cost as much as [25,000 USD](https://hmedicalinc.com/2024/10/04/how-much-does-medical-equipment-cost/). These assets must always be available, well-maintained, and properly allocated.
 
 <div className="image">![Healthcare asset tracking](/images/healthcare_asset_tracking.png "Healthcare asset tracking")</div>
 
