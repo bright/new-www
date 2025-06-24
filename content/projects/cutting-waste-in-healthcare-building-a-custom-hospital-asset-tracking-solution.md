@@ -27,6 +27,7 @@ tags:
   - IoT
   - mobile app
   - bluetooth
+  - eHealth
 title_team: meet the team behind the solution
 title_case_study: explore our clients' stories
 title_contact: hire us to build your unique asset tracking system
