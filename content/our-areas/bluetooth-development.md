@@ -15,10 +15,12 @@ faqs:
   - "What is iBeacon technology? "
   - What technology stack is used by a Bluetooth app development company?
 project:
+  - hospital-asset-tracking
+  - manufacturing-asset-tracking
+  - water-quality-monitoring
   - Remote Patient Monitoring
   - MedKitDoc
   - pos-devices-integration
-  - Practi JET POS Mobile
   - Practi JET POS
   - motivo
   - smarthelp
