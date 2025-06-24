@@ -22,6 +22,7 @@ faqs:
   - Who provides IoT consulting services? IoT
   - Who provides IoT hardware development? IoT 13
 project:
+  - hospital-asset-tracking
   - water-quality-monitoring
   - manufacturing-asset-tracking
   - Remote Patient Monitoring
