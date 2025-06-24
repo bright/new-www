@@ -25,6 +25,7 @@ faqs:
   - What is mHealth? | Healthcare LP
 project:
   - circles
+  - hospital-asset-tracking
   - MedKitDoc
   - solution-parkinson
   - emergency-contact-app
