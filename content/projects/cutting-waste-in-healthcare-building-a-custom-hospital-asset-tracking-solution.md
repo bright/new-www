@@ -27,6 +27,8 @@ tags:
   - IoT
   - mobile app
   - bluetooth
+  - eHealth
+  - customized software
 title_team: meet the team behind the solution
 title_case_study: explore our clients' stories
 title_contact: hire us to build your unique asset tracking system
@@ -61,11 +63,11 @@ One of the key challenges they wanted to solve was time tracking during medical 
 
 To meet the hospitals’ unique needs, we adjusted the tracking app that we’ve been scaling for years so now it turns nearly any piece of hospital equipment into a traceable asset. It’s thanks to small trackers attached to devices, even hospital beds and a special **healthcare asset tracking** app developed by our team. 
 
-With Bluetooth Low Energy (BLE) any mobile device running the app, whether it’s a nurse’s phone or an administrator’s tablet, can scan nearby assets to identify them, retrieve details, and even see their most recent location on a map.
+With **Bluetooth Low Energy (BLE)** any mobile device running the app, whether it’s a nurse’s phone or an administrator’s tablet, can scan nearby assets to identify them, retrieve details, and even see their most recent location on a map.
 
-Want to know where a particular ultrasound machine was last used? The app shows when and where it was moved. Can’t find a defibrillator that should be nearby? You can ping its tracker directly from the app, prompting it to make a sound, making it easier to locate in a high-pressure moment.
+Want to know where a particular ultrasound machine was last used? The app shows when and where it was moved. **Can’t find a defibrillator** that should be nearby? **You can ping its tracker directly from the app, prompting it to make a sound**, making it easier to locate in a high-pressure moment.
 
-Beyond tracking movement, the platform can also collect and display sensor data. For example, BLE sensors placed around hospital rooms can monitor temperature in real time, allowing staff to view historical trends through an interactive dashboard. This is especially valuable in operating rooms, neonatal units, or laboratories, where even minor temperature fluctuations can affect patient safety or the reliability of medical procedures.
+Beyond tracking movement, the platform can also collect and display sensor data. For example, BLE sensors placed around hospital rooms can **monitor temperature in real time**, allowing staff to view historical trends through an interactive dashboard. This is especially valuable in operating rooms, neonatal units, or laboratories, where even minor temperature fluctuations can affect patient safety or the reliability of medical procedures.
 
 <div className="image">![medical asset tracking](/images/hospital_asset_tracking.png "Medical asset tracking")</div>
 
@@ -79,7 +81,9 @@ One of the main technical hurdles (particularly on Android devices) is the **she
 
 This had a direct impact on one of our core features: **continuous scanning for nearby trackers**, even when the app runs in the background. On some devices, this functionality works flawlessly, on others, with some disturbances.
 
-To tackle this, we took a hands-on, multi-pronged approach. We tested our app on a wide range of devices, each from a different brand. We paid special attention to models known for custom firmware, like Samsung (with its One UI overlay) and rugged enterprise-grade devices like Zebra. To support this technically, we:
+To tackle this, we took a hands-on, multi-pronged approach. We **tested our app on a wide range of devices**, each from a different brand. We paid special attention to models known for custom firmware, like Samsung (with its One UI overlay) and rugged enterprise-grade devices like Zebra. 
+
+**To support this technically, we:**
 
 * built countless unit tests to maintain logic consistency;  
 * ran extensive manual testing, supported by a dedicated QA specialist;  
