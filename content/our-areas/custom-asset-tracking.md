@@ -10,6 +10,11 @@ team_members:
   - agnieszka
 faqs:
   - What is asset tracking?
+  - How does asset tracking work?
+  - How to create an asset tracking system?
+  - How much does asset tracking cost?
+  - Why is asset tracking important?
+  - What does Bluetooth asset tracking mean?
 project:
   - water-quality-monitoring
   - hospital-asset-tracking
