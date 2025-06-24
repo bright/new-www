@@ -1,11 +1,11 @@
 ---
 layout: job
-title: Senior Fullstack Developer (React + Python)
+title: Senior Fullstack Developer (Python + React)
 subtitle: OPEN
 imagejob: /images/fullstack-team-job-offer-4-copy-2.png
 image-alt-job: Fullstack Team Bright Inventions
 hours: full-time
-salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
+salary: 149 - 176 PLN/hour + VAT (B2B) or 18 200 - 21 600 PLN gross (UoP)
 salary_min: ""
 salary_max: ""
 working time: full time
@@ -59,11 +59,13 @@ We are working on an innovative Agentic AI platform designed for AppSec teams, e
 
 👉 at least 4 years of commercial programming experience as a fullstack developer or similar role
 
-👉 solid understanding of TypeScript/JavaScript 
+👉 deep working experience with ***Python***
 
-👉 deep working experience with **Python** and **React**
+👉 solid understanding of TypeScript/JavaScript
 
-👉 experience with **AWS**
+👉 experience with ***React***
+
+👉 experience with ***AWS***
 
 👉 experience with AI tools for coding, testing, and documentation, and helping teammates in resolving common technical issues
 
