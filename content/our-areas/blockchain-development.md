@@ -69,7 +69,7 @@ show_technology_stack: true
 title_team: meet our blockchain development team
 title_case_study: projects we have worked on
 title_faqs: blockchain development FAQ's
-title_contact: book a free consultation in 48 hours
+title_contact: book a free consultation now
 description_contact: Fill out the form below and we'll get back to you within 1
   business day. Let’s talk about your blockchain project!
 blog_section_tags:
