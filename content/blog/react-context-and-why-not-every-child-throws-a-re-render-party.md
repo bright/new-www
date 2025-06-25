@@ -2,8 +2,8 @@
 author: rafal-op
 tags:
   - frontend
-date: 2025-06-25T08:03:05.312Z
-meaningfullyUpdatedAt: 2025-06-25T08:03:04.747Z
+date: 2025-06-25T08:21:18.062Z
+meaningfullyUpdatedAt: 2025-06-25T08:21:18.692Z
 slug: react-context-rerenders
 title: React Context and why not every child throws a re-render party
 layout: post
