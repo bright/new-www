@@ -57,7 +57,7 @@ title_case_study: case studies
 title_faqs: AI development services FAQs
 title_contact: book a free consultation in 48 hours
 description_contact: Let’s discuss your AI project. Fill out the form below and
-  we'll get back to you in 48 hours.
+  we'll get back to you within 1 business day.
 language: en
 blog_section: true
 blog_section_tags:
