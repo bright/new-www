@@ -108,7 +108,7 @@ export const Footer = () => {
             <Header>head office</Header>
             <div>
               <ExaggeratedLink href='https://maps.app.goo.gl/H95HmNS38u5nEikf9' target='_blank'>
-                ul. Jana Matejki 12, 80-232 Gdańsk, Poland
+                12 Jana Matejki St., 80-232 Gdańsk, Poland
               </ExaggeratedLink>
             </div>
           </InnerContent>
