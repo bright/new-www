@@ -24,7 +24,7 @@ meta_title: Custom Asset Tracking
 meta_description: Poland-based software company creating tailored solutions for
   businesses that outgrow off-the-shelf software. Let’s talk about the asset
   tracking you need.
-our_services_icon: /images/bluetooth_development_icon.png
+our_services_icon: /images/asset_tracking_icon_update.png
 name: Custom Asset Tracking
 slug: asset-tracking
 short_description: We develop tailored asset tracking solutions when
