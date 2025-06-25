@@ -62,7 +62,7 @@ title_team: "meet our Agile team "
 title_case_study: projects we delivered with Agile
 title_faqs: agile workshops FAQs
 title_contact: let’s talk about your workshops
-description_contact: Fill out the form below and we'll get back to you in 48 hours.
+description_contact: Fill out the form below and we'll get back to you within 1 business day.
 blog_section_tags:
   - leadership
 blog_section_title: blog posts
