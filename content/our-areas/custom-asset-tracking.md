@@ -18,6 +18,7 @@ faqs:
 project:
   - water-quality-monitoring
   - hospital-asset-tracking
+  - manufacturing-asset-tracking
 layout: our-service
 our_service_id: asset-tracking
 meta_title: Custom Asset Tracking
@@ -25,7 +26,7 @@ meta_description: Poland-based software company creating tailored solutions for
   businesses that outgrow off-the-shelf software. Let’s talk about the asset
   tracking you need.
 our_services_icon: /images/asset_tracking_icon_update.png
-name: Custom Asset Tracking
+name: Custom asset tracking
 slug: asset-tracking
 short_description: We develop tailored asset tracking solutions when
   off-the-shelf tools just don’t fit your business needs.
@@ -39,6 +40,10 @@ bar_stack:
   - Bluetooth LE
   - RFID
   - iBeacon
+  - IoT
+  - Swift
+  - Android
+  - Kotlin
 button: hire us
 button2: hire us
 published: true
