@@ -91,3 +91,12 @@ That’s why it’s a good practice to:
 3. Create multiple small contexts instead of one "big store" shared by many components
 
 However, we will focus on optimization techniques for Contexts another time.
+
+##### Take a look at our earlier blog post debunking frontend myths:
+
+1. [To ‘b’ or Not to ‘b’: The Semantic Status of HTML ‘b’ Tag](/blog/semantic-status-of-html-b-tag/)
+2. [Understanding the Hoisting Behavior of let and const](/blog/let-const-hoisting/)
+3. [JavaScript Types De-Objectified](/blog/javascript-types-deobjectified/)
+4. [Eye on ‘i’ — Understanding ‘i’ as a Semantic Element](/blog/understanding-i-as-semantic-element/)
+5. [Breaking Down the “alt” Attribute Myth in img Tag Best Practices](/blog/breaking-down-alt-attribute/)
+6. [The Truth About Keys and Re-Renders in React](/blog/keys-and-re-renders-in-react/)
