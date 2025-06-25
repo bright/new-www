@@ -1,9 +1,12 @@
 ---
 author: rafal-op
-date: 2025-05-22T18:46:09.911Z
-meaningfullyUpdatedAt: 2025-05-22T18:46:09.929Z
+tags:
+  - frontend
+date: 2025-06-25T07:48:53.674Z
+meaningfullyUpdatedAt: 2025-06-25T07:48:54.491Z
 title: React Context and why not every child throws a re-render party
 layout: post
+image: /images/react_context.png
 hidden: false
 comments: false
 published: true
