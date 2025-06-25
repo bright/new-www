@@ -4,6 +4,7 @@ tags:
   - frontend
 date: 2025-06-25T08:03:05.312Z
 meaningfullyUpdatedAt: 2025-06-25T08:03:04.747Z
+slug: react-context-rerenders
 title: React Context and why not every child throws a re-render party
 layout: post
 image: /images/react_context.png
