@@ -14,7 +14,7 @@ our_service:
   - web development
 layout: project
 project_id: tms
-title: "Revolutionizing Logistics: How We Transformed a Transport Management System"
+title: "Digitalizing Logistics: How We Transformed a Transport Management System"
 image: /images/tms_cover_2x.png
 description: The Transport Management System analyses routes, cutting the time
   from 10-30 seconds to just 3-5 seconds per order, providing unparalleled speed
