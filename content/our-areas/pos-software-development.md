@@ -74,7 +74,7 @@ title_case_study: POS development – our clients' stories
 title_faqs: custom POS software development – FAQs
 title_contact: book a call to discuss your custom POS system
 description_contact: Fill out the form or drop us a line, and we’ll get back to
-  you within 1 business day.! Let's talk about the challenges you face during
+  you within 1 business day! Let's talk about the challenges you face during
   point of sale software development.
 boxes:
   - box_title: POS food delivery platform integrations
