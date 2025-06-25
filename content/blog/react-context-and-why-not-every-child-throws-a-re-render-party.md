@@ -14,6 +14,8 @@ language: en
 ---
 **React Context is a powerful tool that makes it easy to share data across multiple components, helping to avoid a common issue known as *props drilling*. While Context is sometimes mistakenly treated as a state management solution - especially in comparisons with tools like Redux - its primary purpose isn't managing complex application state. In this article, however, I want to focus on debunking a different myth: the belief that all components inside a Context Provider automatically re-render when the context value changes.**
 
+<div className="image">![](/images/react_context.png "")</div>
+
 ## Anatomy of Context
 
 The **React Context API** revolves around two main components: the **Provider** and the **Consumer**. The Provider is a component that wraps part of your component tree and makes data (**value** property in the Provider) available to all its descendants. Any component within this tree can become a Consumer (but simply being inside the Provider doesn’t make a component a Consumer) allowing it to access the shared data exposed by the Provider, at which point it becomes a Consumer.
@@ -31,7 +33,7 @@ This would indeed be inefficient if it were true. But the reality is more nuance
 
 ### Context and Its Children
 
-Let’s look at a practical example ([available also here](https://reactplayground.vercel.app/#N4IgLgziBcBmCGAbCBTANCAbrK1QEsA7AExQA8A6AK1xHwFsAHAewCcwACAQUcY9lbN6HAOQUA9D0bUIZEQB1CDFuw4AlFPADGnAUNGtNOhUqZtOwDlsPwwKNc2acAvv0HCRNnQFpiQ8VqI+CiEYCaKWsyEEJyRofBEKKwcALwcfloArvQhYBQA5ihgAKKIKDmhAEIAngCSxAAUno5hAJQRUTEcgk6pVjZ2Dk4NcWAJhEnthD15hiRJDYoc6kZ51pp2peW5i4TLyxraeQDKYKz4OgCyzKRoS-uEmYiId3v7hzoU67YoWxVgDSkU2WU1aIAwUhkZBgdDMqg+YDQHEs3zsAGEonYyIiOJlUBjQuQcXiUKcfkiScVYLAUDoOK49MJ5CAvGBmQBuRQdaKcABy2QARkkCVjOGlUSgRUSGq1OYRuV1+fQhawpdiAAqCTD4UjJNINFEAC3wiGIc3prVSAD5kfc4l0ANqPZVJJGoMBKlUAXT6JLJdgaAAZZVy3pTqbSATLrba3st7ZwdX13bVCaxMEgGtGUjb3Z6Fnscxw9gBqDgARlaSIATIG6yH5XHukVMqw9tmbYFNKxU3Z05mdQ3ls4kQ6vQ37oYwK32-dlgAefOqzFEiia5ja3UcDOITIoFLAZ0q5xWuf7YBaY2mubOM-z8RLtV5debpKnt4N5xyhWcY6ZAUQNY+BCsQaJXsQfQdrG8adJwO57r6+IrtiDSPshYBDlYnTMGUFCIMw+SLCAf4AUBIFgSaEGGN4cy6igxDMhObxTjOHDzsQ+CYFaFGmtw0DIvBKDOPeHFcXKX6hgmHAAKrRP+gHnOR4GQZaRbAHa2G4fhhHMrJEDyWR9E8VRIR0QxIBMcsLFtmxonccplT8TEtgXCJnFWuJ34TGQKicKQCBPLomSEDo+BRNwvDRupzEtjZuz7GxaGEhqWo6m+Z4LiRCnAUZyniO+CULnpBmKbllEcPld4PoKwroS+aWsAVHCfuCIAxNUuFaBAtAUAKYB7NFyywJi3gQPgABeKD8dWhj0OJIDOM4QA)):
+Let’s look at a practical example (available also here):
 
 ```
 import React, { createContext, useContext, useState, useEffect } from "react";
@@ -91,6 +93,8 @@ That’s why it’s a good practice to:
 3. Create multiple small contexts instead of one "big store" shared by many components
 
 However, we will focus on optimization techniques for Contexts another time.
+
+- - -
 
 ##### Take a look at our earlier blog post debunking frontend myths:
 
