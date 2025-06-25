@@ -63,7 +63,7 @@ show_technology_stack: true
 title_team: meet our web development team
 title_case_study: web solutions that we have worked on
 title_faqs: web development services FAQs
-title_contact: book a free consultation in 48 hours
+title_contact: book a free consultation now
 description_contact: Tell us more about your web project or idea for an app.
   Fill out the form below and we'll get back to you within 1 business day.
 blog_section_tags:
