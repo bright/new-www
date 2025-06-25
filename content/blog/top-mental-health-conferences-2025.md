@@ -15,7 +15,7 @@ language: en
 ---
 **If your calendar isn't full already, check out these mental health conferences that will still take place in 2025 across the globe.**
 
-<EbookDynamic sectionTitle='Facing tech challenges while scaling your mental health digital solution?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download the free pdf full of insights, case studies and tech solutions for healthtech and medtech leaders.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='cover guide' />
+<EbookDynamic sectionTitle='Tech challenges holding back your mental health app’s growth?' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Download the free pdf full of insights, case studies and tech solutions for healthtech and medtech leaders.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='cover guide' />
 
 ## 2nd International Conference on Mental Health and Human Resilience
 
