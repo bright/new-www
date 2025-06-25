@@ -62,9 +62,9 @@ show_technology_stack: true
 title_team: meet our mobile app development team
 title_case_study: mobile applications that we delivered
 title_faqs: mobile app development FAQs
-title_contact: book a free consultation in 48 hours
+title_contact: book a free consultation now
 description_contact: Tell us more about your mobile project or idea for an app.
-  Fill out the form below and we'll get back to you in 48 hours.
+  Fill out the form below and we'll get back to you within 1 business day.
 language: en
 blog_section_tags:
   - business strategy
