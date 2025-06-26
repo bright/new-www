@@ -2,8 +2,8 @@
 author: izabela
 tags:
   - HealthTech
-date: 2025-06-25T18:05:33.476Z
-meaningfullyUpdatedAt: 2025-06-25T18:05:33.510Z
+date: 2025-06-26T06:25:04.212Z
+meaningfullyUpdatedAt: 2025-06-26T06:25:05.034Z
 slug: mental-health-conferences
 title: Top Mental Health Conferences 2025
 layout: post
