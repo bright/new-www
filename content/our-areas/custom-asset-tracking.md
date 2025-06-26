@@ -1,12 +1,8 @@
 ---
 team_members:
   - mateusz
-  - michal-d
-  - szymon-g
   - cezary
-  - sebastian-r
   - michal-bu
-  - szymek
   - agnieszka
 faqs:
   - What is asset tracking?
