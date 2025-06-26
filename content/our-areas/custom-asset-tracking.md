@@ -50,8 +50,8 @@ title_case_study: our clients stories
 title_faqs: custom asset tracking FAQs
 title_contact: let's talk about your solution
 description_contact: Tell us more about your tech challenges and we'll find
-  solution! Fill out the form below, and we’ll get back to you within **1
-  business day**.
+  solution! Fill out the form below, and we’ll get back to you within 1 business
+  day.
 language: en
 blog_section: false
 blog_section_tags:
