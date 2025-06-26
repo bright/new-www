@@ -68,7 +68,7 @@ To learn more, take a look at the [case study](https://brightinventions.pl/proje
 
 👉 solid understanding of HTTP protocol, REST APIs, and web communication patterns
 
-👉 we appreciate experience with Vue.js, HTML, and CSS in occasional frontend work
+👉 we appreciate experience with React, HTML, and CSS in occasional frontend work
 
 👉 experience with backend testing frameworks and testing strategies
 
