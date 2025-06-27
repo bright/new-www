@@ -163,6 +163,8 @@ In the end, if other features are turning you to given ecosystem (like Claude Co
 
 The rapid democratization of deep research tools in 2025 is exciting. ChatGPT now offers Deep Research even to free users (though limited), Gemini provides free access with decent capabilities, and Perplexity maintains its speed advantage. The competition has intensified, with each platform carving out its niche.
 Remember, the "best" tool ultimately depends on your specific use case, budget, and workflow preferences. With free tiers now widely available, I recommend testing each platform to understand which works best for your research needs.
+
+
 In the end, what really matters is the usage of new technologies for fast and good research. 
 
 - - -
