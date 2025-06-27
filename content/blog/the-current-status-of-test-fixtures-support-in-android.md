@@ -10,6 +10,7 @@ meaningfullyUpdatedAt: 2025-06-27T15:00:30.794Z
 slug: current-test-fixtures-support-android
 title: The Current Status of Test Fixtures Support in Android
 layout: post
+image: /images/test-board.jpg
 hidden: false
 comments: false
 published: true
