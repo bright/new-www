@@ -2,7 +2,6 @@
 author: rafal h
 tags:
   - ai
-  - Search
   - research
   - productivity
   - ChatGPT
