@@ -224,4 +224,4 @@ From **barcode** tags to **IoT asset tracking**, the choices are vast but choosi
 
 - - -
 
-Looking to implement you very own **asset tracking custom solution**? Contact our experts to find the **best solution** for your business and see how it can **optimize** operations and drive better results.
+Looking to implement you very own **[asset tracking](/our-areas/asset-tracking/) custom solution**? Contact our experts to find the **best solution** for your business and see how it can **optimize** operations and drive better results.
