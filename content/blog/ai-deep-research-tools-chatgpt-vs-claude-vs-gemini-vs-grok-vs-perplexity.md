@@ -7,7 +7,7 @@ tags:
   - ChatGPT
 date: 2025-06-27T13:06:32.076Z
 meaningfullyUpdatedAt: 2025-06-27T13:06:32.634Z
-slug: ai-deep-research-tools-comparison
+slug: ai-deep-research-comparison
 title: "Deep Research AI Tools: ChatGPT vs Claude vs Gemini vs Grok vs Perplexity"
 layout: post
 image: /images/ai_deep_search.png
@@ -18,7 +18,7 @@ language: en
 ---
 **The landscape of AI-powered research tools has evolved dramatically in 2025. What was once exclusive to premium tiers is now becoming more accessible, with providers racing to offer comprehensive internet search capabilities paired with source citations and detailed report generation. After extensive testing across five major platforms - ChatGPT Plus, Claude Pro, Gemini (Free), Grok (Free), and Perplexity Pro - I'm sharing my hands-on experience to help you choose the right tool for your research needs.**
 
-<div className="image">![Deep research - tools comparison](/images/ai_deep_search.png "Deep research - tools comparision")</div>
+<div className="image">![Deep research comparison](/images/ai_deep_search.png "Deep research - tools comparision")</div>
 
 ## What is Deep Research?
 
