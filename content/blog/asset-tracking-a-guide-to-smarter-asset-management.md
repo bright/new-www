@@ -20,7 +20,7 @@ language: en
 
 ## What is Asset Tracking?
 
-**[Asset tracking](/our-areas/asset-tracking/)** refers to the method of monitoring the physical assets of an organization—such as vehicles, machinery, equipment, tools, and inventory—using various **tracking technologies**. These systems record asset data like location, status, and movement over time, providing businesses with improved **visibility** and control.
+**Asset tracking** refers to the method of monitoring the physical assets of an organization—such as vehicles, machinery, equipment, tools, and inventory—using various **tracking technologies**. These systems record asset data like location, status, and movement over time, providing businesses with improved **visibility** and control.
 
 ## How Does Asset Tracking Work?
 
