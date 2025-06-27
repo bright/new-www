@@ -18,6 +18,8 @@ language: en
 ---
 **The landscape of AI-powered research tools has evolved dramatically in 2025. What was once exclusive to premium tiers is now becoming more accessible, with providers racing to offer comprehensive internet search capabilities paired with source citations and detailed report generation. After extensive testing across five major platforms - ChatGPT Plus, Claude Pro, Gemini (Free), Grok (Free), and Perplexity Pro - I'm sharing my hands-on experience to help you choose the right tool for your research needs.**
 
+<div className="image">![Deep research - tools comparision](/images/ai_deep_search.png "Deep research - tools comparision")</div>
+
 ## What is Deep Research?
 
 Deep Research represents a significant leap from simple chatbot interactions. These tools don't just answer questions - they actively search the internet, evaluate multiple sources, synthesize information, and generate comprehensive reports complete with citations. Think of it as **having a research assistant who can quickly scan through dozens (or even hundreds) of sources** and compile findings into a coherent narrative.
