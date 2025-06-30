@@ -5,8 +5,8 @@ tags:
   - android
   - gradle
   - testing
-date: 2025-06-27T15:00:30.778Z
-meaningfullyUpdatedAt: 2025-06-27T15:00:30.794Z
+date: 2025-06-30T07:15:11.681Z
+meaningfullyUpdatedAt: 2025-06-30T07:15:12.948Z
 slug: current-test-fixtures-support-android
 title: The Current Status of Test Fixtures Support in Android
 layout: post
