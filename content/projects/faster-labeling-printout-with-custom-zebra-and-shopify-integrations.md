@@ -52,3 +52,5 @@ Our client, an e-commerce business specializing in animal catering, faced a sign
 They approached us seeking to **automate label generation and printing**. Their primary goal was one-click printing of all necessary labels, directly integrated with their Shopify data. Also, they specifically aimed to achieve a truly customized label that could convey comprehensive product details and reinforce their brand. Given they operate with **Zebra Technologies** printers, it was crucial that these new, detailed labels were precisely rendered on their existing hardware.
 
 The market offered no off-the-shelf solution that met their nuanced requirements. This drove them to seek a custom integration with Shopify and Zebra Technologies printers, a solution that could truly change their fulfillment process.
+
+<TitleWithIcon sectionTitle="the solution: automated printing of unique labels" titleIcon="/images/flag.png" titleIconAlt="the solution" />
