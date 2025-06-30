@@ -33,7 +33,7 @@ title_team: team
 title_case_study: explore other success stories
 title_contact: book a free consultation in 48 hours
 description_contact: Tell us more about your mobile project or idea for an app.
-  Fill out the form below and we'll get back to you in 48 hours.
+  Fill out the form below and we'll get back to you within 1 business day.
 order: 6
 slug: emergency-contact-app
 show_team: false
