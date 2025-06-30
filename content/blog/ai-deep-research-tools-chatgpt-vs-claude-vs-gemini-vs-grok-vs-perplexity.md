@@ -30,7 +30,7 @@ Deep Research represents a significant leap from simple chatbot interactions. Th
 
 * **Pricing**: Plus tier ($20/month) and FREE tier
 * **Usage**: Free users get 5 lightweight queries/month, Plus users get 10 standard + 15 lightweight queries/month
-* **Strengths**: Exceptional accuracy and depth, based on o3 and o4 reasoning model
+* **Strengths**: Exceptional accuracy and depth, based on o3 and o4-mini reasoning model
 
 ### Claude Research (Anthropic)
 
@@ -73,7 +73,7 @@ Please have in mind that this is my personal ranking as of today. The results mi
 ### 1. ChatGPT Deep Research
 
 **What Sets It Apart:**
-ChatGPT's Deep Research uses a specialized version of OpenAI's o3/04 model and can autonomously search for and read information from diverse online sources. The tool excels at understanding nuanced queries and diving deep into technical subjects. As noted by community members on X (including mentions by A. Karpathy), the quality difference is noticeable.
+ChatGPT's Deep Research uses a specialized version of OpenAI's o3/o4-mini model and can autonomously search for and read information from diverse online sources. The tool excels at understanding nuanced queries and diving deep into technical subjects. As noted by community members on X (including mentions by A. Karpathy), the quality difference is noticeable.
 
 **Best For:**
 
@@ -102,7 +102,7 @@ Gemini Deep Research autonomously searches and deeply browses the web to find re
 **Drawbacks:**
 
 * Limited uses per month for free tier
-* Cryptic privacy settings (AFAIK you have to turn off your Gemini history no to train model)
+* Cryptic privacy settings (AFAIK you have to turn off your Gemini history to avoid training the model)
 
 ### 3. Claude Research
 
