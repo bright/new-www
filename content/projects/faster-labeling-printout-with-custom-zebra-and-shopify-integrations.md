@@ -44,3 +44,13 @@ language: en
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
 <Gallery images='[{"src":"/images/zebra_technologies_stack_logo_bigger_new.svg","alt":"Zebra Technologies"},{"src":"/images/bluetooth_stack_logo.svg","alt":"Bluetooth"}]' />
+
+<TitleWithIcon sectionTitle="problem: the labeling conundrum for Boosa – a pet catering company" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
+
+Our client, an e-commerce business specializing in animal catering, faced a significant operational bottleneck. Each morning, their team **manually printed vast numbers of labels** one by one to attach to individual meal packages. Crucially, they also had to **manually click within Shopify** to confirm each label was printed. This manual process was time-consuming and highly prone to errors.
+
+They approached us seeking to **automate label generation and printing**. Their primary goal was one-click printing of all necessary labels, directly integrated with their Shopify data. Also, they specifically aimed to achieve a truly customized label that could convey comprehensive product details and reinforce their brand. Given they operate with **Zebra Technologies** printers, it was crucial that these new, detailed labels were precisely rendered on their existing hardware.
+
+The market offered no off-the-shelf solution that met their nuanced requirements. This drove them to seek a custom integration with Shopify and Zebra Technologies printers, a solution that could truly change their fulfillment process.
+
+<InstagramEmbed url='https://www.instagram.com/p/DKe63ayo60g/' />
