@@ -16,9 +16,9 @@ comments: false
 published: true
 language: en
 ---
-# The Current Status of Test Fixtures Support in Android
-
 **While test fixtures have been available in Gradle since 2019, their support in the Android Gradle Plugin is still evolving. With AGP 8.5, Kotlin sources in test fixtures are now supported in Android modules, but this feature remains experimental and is hidden behind a feature flag. Although a powerful tool for sharing test utilities across modules, test fixtures support in Android is not yet widely known or documented.**
+
+<div className="image">![Test Fixtures Support in Android](/images/test-board.jpg "Test Fixtures Support in Android")</div>
 
 ## The Evolution of Test Fixtures Support
 
