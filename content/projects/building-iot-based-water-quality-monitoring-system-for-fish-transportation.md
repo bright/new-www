@@ -33,7 +33,8 @@ title_team: meet the team behind the solution
 title_case_study: dive deeper into our portfolio
 title_contact: hire us to build your unique monitoring system
 description_contact: Tell us more about your tech challenges and we'll look for
-  solutions! Fill out the form below and we'll get back to you in 48 hours.
+  solutions! Fill out the form below and we'll get back to you within 1 business
+  day.
 order: 1
 slug: water-quality-monitoring
 show_team: false
