@@ -29,12 +29,12 @@ module.exports = ({ markdownAST, markdownNode, pathPrefix }) => {
 
   const boxNode = {
     type: 'html',
-    value: `<a href="/projects/" class="bbc-wrapper">
+    value: `<a href="/start-project/" class="bbc-wrapper">
       <div class='bbc-wrapper__tab'></div>
       <div class='bbc-wrapper__inner'>
         <div class='bbc-content'>${copy}</div>
         <div class='bbc-cta'>
-          <span>case studies</span>
+          <span>hire us</span>
         </div>
       </div>
     </a>`,
