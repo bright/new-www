@@ -36,7 +36,7 @@ tags:
 title_team: team behind the project
 title_case_study: more success stories
 title_contact: let’s talk about your solution
-description_contact: Book a free consultation in 48 hours. Contact us!
+description_contact: Fill out the form below and we'll get back to you within 1 business day.
 order: 6
 slug: app-clips-instant-apps-solution
 show_team: true
