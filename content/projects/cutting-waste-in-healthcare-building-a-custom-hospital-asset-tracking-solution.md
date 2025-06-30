@@ -32,8 +32,9 @@ tags:
 title_team: meet the team behind the solution
 title_case_study: explore our clients' stories
 title_contact: hire us to build your unique asset tracking system
-description_contact: Tell us more about your tech challenges and we'll look for
-  solutions! Fill out the form below and we'll get back to you within 1 day.
+description_contact: "Tell us more about your tech challenges and we'll look for
+  solutions! Fill out the form below and we'll get back to you within 1 business
+  day. "
 order: 5
 slug: hospital-asset-tracking
 show_team: false
