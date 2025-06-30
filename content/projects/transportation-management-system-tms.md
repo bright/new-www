@@ -42,7 +42,9 @@ tags:
 title_team: meet the team behind the solution
 title_case_study: more success stories
 title_contact: let's talk about your solution
-description_contact: Book a free consultation in 48 hours.
+description_contact: Tell us more about your tech challenges and we'll look for
+  solutions! Fill out the form below and we'll get back to you within 1 business
+  day.
 order: 7
 slug: transportation-management-system
 show_team: true
