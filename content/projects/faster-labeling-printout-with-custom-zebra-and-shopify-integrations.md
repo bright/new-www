@@ -54,3 +54,17 @@ They approached us seeking to **automate label generation and printing**. Their 
 The market offered no off-the-shelf solution that met their nuanced requirements. This drove them to seek a custom integration with Shopify and Zebra Technologies printers, a solution that could truly change their fulfillment process.
 
 <TitleWithIcon sectionTitle="the solution: automated printing of unique labels" titleIcon="/images/flag.png" titleIconAlt="the solution" />
+
+We developed a unique server-based application that seamlessly integrates with a local printer application. The printing process is now fully automated. The team can now **print every label with a single click, or even set up automated printing schedules at predetermined times**.  
+
+The integration with Zebra Technologies label printer is also a bespoke solution, as no existing market offering could precisely handle the client's needs for printing on specific Zebra printer models, **accommodating their chosen paper type and sticker format,** nor allowing for the desired level of custom label design.
+
+Their previous Shopify setup offered severely limited label customization. Our solution unlocked the ability to include vital information directly on labels, such as **preparation instructions, meal nutritional values, and a fully expressed unique brand identity**. This ultimately created an informative, and visually appealing packaging experience for pet owners, enhancing brand perception.
+
+<TitleWithIcon sectionTitle="challenges: testing custom labels printing" titleIcon="/images/gearwheel.svg" titleIconAlt="challenge" />
+
+A significant challenge revolved around rigorous label testing to ensure precise printing. This required continuous access to the client's specific Zebra printers throughout the development phase. Fortunately, **Bright Inventions, as a registered Zebra Technologies partner**, possesses both the necessary hardware access and extensive experience with printer integrations. This allowed us to conduct real-time print tests and iterative adjustments, ensuring every detail of the custom labels was perfectly rendered from the outset.
+
+<TitleWithIcon sectionTitle="the results: better brand experience and accelerating business operations" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
+
+Our solution delivered a unique brand experience for the client's customers, **allowing Boosa to truly stand out** in the competitive animal catering market. Internally, we accelerated the team's daily workflow, **freeing them from the manual burden of label printing** and enabling them to focus on core business operations.
