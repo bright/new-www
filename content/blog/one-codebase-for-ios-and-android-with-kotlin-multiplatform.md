@@ -6,6 +6,7 @@ tags:
   - iOS
 date: 2025-07-01T11:04:39.557Z
 meaningfullyUpdatedAt: 2025-07-01T11:04:39.566Z
+slug: one-codebase-ios-android-kotlin-multiplatform
 title: One Codebase for iOS and Android with Kotlin Multiplatform
 layout: post
 image: /images/blog_post_kmp_phone.png
