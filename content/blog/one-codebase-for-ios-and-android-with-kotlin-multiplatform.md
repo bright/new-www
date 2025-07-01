@@ -15,11 +15,13 @@ comments: false
 published: true
 language: en
 ---
-In this article, I'll guide you step-by-step through creating a shared library, with a focus on implementing it for iOS via an XCFramework.
+**In this article, I'll guide you step-by-step through creating a shared library, with a focus on implementing it for iOS via an XCFramework.**
+
+<div className="image">![Kotlin Multiplatform](/images/blog_post_kmp_phone.png "Kotlin Multiplatform")</div>
 
 ## Setting Up a Kotlin Multiplatform Library
 
-In Android Studio, I created a new project using the **"Kotlin Multiplatform Library"** template.  
+In Android Studio, I created a new project using the **"Kotlin Multiplatform Library"** template.\
 During the setup, there's an option for iOS framework distribution, where you can choose between:
 
 * Regular Framework (built for one architecture)  
@@ -69,9 +71,9 @@ let kotlinMultiplatform = KotlinMultiplatformClass()
 print(kotlinMultiplatform.greeting())
 ```
 
-That’s it\! The Kotlin logic is now fully accessible in Swift, and I can use the same logic on both platforms.
+That’s it! The Kotlin logic is now fully accessible in Swift, and I can use the same logic on both platforms.
 
 ## Kotlin Multiplatform Tutorial – Conclusion
 
-Kotlin Multiplatform makes it incredibly easy to share core logic between Android and iOS. By using an XCFramework, you can integrate your shared Kotlin code into any iOS project with minimal setup.   
+Kotlin Multiplatform makes it incredibly easy to share core logic between Android and iOS. By using an XCFramework, you can integrate your shared Kotlin code into any iOS project with minimal setup.\
 If you're maintaining two codebases and want to unify shared business logic, Kotlin Multiplatform is absolutely worth exploring.
