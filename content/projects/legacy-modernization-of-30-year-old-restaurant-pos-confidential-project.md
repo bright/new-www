@@ -19,7 +19,7 @@ bar_achievements:
     label: Years old legacy system
   - number: "6"
     label: Bright team members
-  - number: "1"
+  - number: "2"
     label: Year of cooperation (and counting)
 tags:
   - retail & restaurant
