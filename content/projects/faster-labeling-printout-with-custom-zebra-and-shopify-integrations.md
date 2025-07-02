@@ -7,11 +7,11 @@ layout: project
 project_id: custom-labeling-printout
 title: Faster Labeling Printout with Custom Zebra and Shopify Integrations
 image: /images/case_study_pet_catering.png
-description: A manual, time-consuming labeling process hindered Boosa, a pet
-  catering company's, e-commerce operations and brand vision. We delivered
+description: A manual, time-consuming labeling process hindered Boosa & Co, a
+  pet catering company's, e-commerce operations and brand vision. We delivered
   custom Shopify and Zebra printer integrations, enabling one-click, automated
-  label printouts. This improvement helped Boosa accelerate their operations and
-  deliver a unique and informative packaging experience.
+  label printouts. This improvement helped Boosa & Co accelerate their
+  operations and deliver a unique and informative packaging experience.
 hero_image: /images/case_study_pet_catering_ecommerce.png
 Hero Image_alt: Custom Zebra and Shopify Integrations for ecommerce
 social_media_previev: /images/fb_preview_case_study_integration_zebra_shopify.png
@@ -71,4 +71,4 @@ A significant challenge revolved around rigorous label testing to ensure precise
 
 <TitleWithIcon sectionTitle="the results: better brand experience and accelerating business operations" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
 
-Our solution delivered a unique brand experience for the client's customers, **allowing Boosa to truly stand out** in the competitive animal catering market. Internally, we accelerated the team's daily workflow, **freeing them from the manual burden of label printing** and enabling them to focus on core business operations.
+Our solution delivered a unique brand experience for the client's customers, **allowing [Boosa & Co](https://boosa.co/)** **to truly stand out** in the competitive animal catering market. Internally, we accelerated the team's daily workflow, **freeing them from the manual burden of label printing** and enabling them to focus on core business operations.
