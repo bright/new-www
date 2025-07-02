@@ -53,6 +53,8 @@ They approached us seeking to **automate label generation and printing**. Their 
 
 The market offered no off-the-shelf solution that met their nuanced requirements. This drove them to seek a custom integration with Shopify and Zebra Technologies printers, a solution that could truly change their fulfillment process.
 
+<InstagramEmbed url='https://www.instagram.com/p/DKe63ayo60g/' />
+
 <TitleWithIcon sectionTitle="the solution: automated printing of unique labels" titleIcon="/images/flag.png" titleIconAlt="the solution" />
 
 We developed a unique server-based application that seamlessly integrates with a local printer application. The printing process is now fully automated. The team can now **print every label with a single click, or even set up automated printing schedules at predetermined times**.  
