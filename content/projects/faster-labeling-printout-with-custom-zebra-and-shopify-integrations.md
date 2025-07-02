@@ -37,7 +37,7 @@ slug: custom-labeling-printout
 show_team: false
 show_case_study: true
 show on homepage: false
-published: true
+published: false
 work_in_progress: false
 language: en
 ---
@@ -58,6 +58,8 @@ The market offered no off-the-shelf solution that met their nuanced requirements
 We developed a unique server-based application that seamlessly integrates with a local printer application. The printing process is now fully automated. The team can now **print every label with a single click, or even set up automated printing schedules at predetermined times**.  
 
 The integration with Zebra Technologies label printer is also a bespoke solution, as no existing market offering could precisely handle the client's needs for printing on specific Zebra printer models, **accommodating their chosen paper type and sticker format,** nor allowing for the desired level of custom label design.
+
+<div className="image">![Zebra Technologies](/images/zebra_technologies_integrations_labels.png "Zebra Technologies")</div>
 
 Their previous Shopify setup offered severely limited label customization. Our solution unlocked the ability to include vital information directly on labels, such as **preparation instructions, meal nutritional values, and a fully expressed unique brand identity**. This ultimately created an informative, and visually appealing packaging experience for pet owners, enhancing brand perception.
 
