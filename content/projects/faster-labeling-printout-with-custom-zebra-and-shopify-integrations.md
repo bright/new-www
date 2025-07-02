@@ -19,10 +19,10 @@ social_media_previev_alt: Custom Zebra and Shopify Integrations for ecommerce
 bar_achievements:
   - number: "1"
     label: Click Printouts
-  - number: "1"
+  - number: "2"
     label: Integrations with Zebra and Shopify
   - label: Label customization
-    number: Unlimited
+    number: ∞
 tags:
   - customized software
   - retail & restaurant
