@@ -43,7 +43,7 @@ language: en
 ---
 <TitleWithIcon sectionTitle="technologies" titleIcon="/images/skills.svg" titleIconAlt="technologies" />
 
-<Gallery images='[{"src":"/images/zebra_technologies_stack_logo_bigger_new.svg","alt":"Zebra Technologies"},{"src":"/images/bluetooth_stack_logo.svg","alt":"Bluetooth"}]' />
+<Gallery images='[{"src":"/images/zebra_technologies_stack_logo_bigger_newpng.png","alt":"Zebra Technologies"},{"src":"/images/bluetooth_stack_logo.svg","alt":"Bluetooth"}]' />
 
 <TitleWithIcon sectionTitle="problem: the labeling conundrum for Boosa – a pet catering company" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
@@ -61,7 +61,7 @@ We developed a unique server-based application that seamlessly integrates with a
 
 The integration with Zebra Technologies label printer is also a bespoke solution, as no existing market offering could precisely handle the client's needs for printing on specific Zebra printer models, **accommodating their chosen paper type and sticker format,** nor allowing for the desired level of custom label design.
 
-<div className="image">![Zebra Technologies](/images/zebra_technologies_integrations_labels.png "Zebra Technologies")</div>
+<div className="image">![Zebra Technologies](/images/zebra_technologies_label_printer.png "Zebra Technologies")</div>
 
 Their previous Shopify setup offered severely limited label customization. Our solution unlocked the ability to include vital information directly on labels, such as **preparation instructions, meal nutritional values, and a fully expressed unique brand identity**. This ultimately created an informative, and visually appealing packaging experience for pet owners, enhancing brand perception.
 
