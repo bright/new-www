@@ -72,6 +72,6 @@ Using types like `BigDecimal` or `Decimal` also gives software developers contro
 
 While building POS payment solutions for retail and hospitality you will deal with decimals. Ensure your solution covers a variety of mathematical scenarios related to features like bill splitting. 
 
-Do you struggle with implementing payment features? **As [POS software development company](/our-areas/pos-software-development/), we’ve been handling POS scaling for over a decade**, **contact us to discuss your solution**.
+Do you struggle with implementing payment features? **As [POS software development company](/our-areas/pos-software-development/), we’ve been handling POS scaling for over a decade.** **Contact us to discuss your solution!**
 
 <YouTubeEmbed url='https://youtu.be/gwM0SnHACMs?si=1-utjZt6h4rE8O3S' />
