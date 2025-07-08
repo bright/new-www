@@ -16,7 +16,7 @@ comments: true
 published: true
 language: en
 ---
-**During the [POS software development](/blog/pos-software-development-guide/) for our client, we encountered several unexpected challenges with POS printers that weren't fully addressed by the manufacturer's documentation. From understanding the basics of ESC/POS commands to implementing advanced features like adding a 'buzzer' function on printers that seemingly don't support it, this tutorial shows how to overcome various hurdles while integrating thermal printers with a POS system.**
+**During [POS software development](/blog/pos-software-development-guide/) for our client, we encountered several unexpected challenges with POS printers that weren't fully addressed by the manufacturer's documentation. From understanding the basics of ESC/POS commands to implementing advanced features like adding a 'buzzer' function on printers that seemingly don't support it, this tutorial shows how to overcome various hurdles while integrating thermal printers with a POS system.**
 
 <div className="image">![pos printer integrations](/images/pos_printer_integrations_blog_cover.png "")</div>
 
