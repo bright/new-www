@@ -165,6 +165,6 @@ Check how we [integrated Caller ID with restaurant POS](/projects/restaurant-pos
 
 ## POS system integration - does it have to be customized?
 
-There are many out-of-the-box solutions for POS system integration that work well — especially for popular use cases like POS integration with Uber Eats or major payment providers. However, off-the-shelf integrations don’t always solve the unique operational challenges businesses face.
+There are many out-of-the-box solutions for POS system integration that work well — especially for popular use cases like [POS integration with Uber Eats](/our-areas/uber-eats-pos-integration/) or major payment providers. However, off-the-shelf integrations don’t always solve the unique operational challenges businesses face.
 
 If you're a POS provider or a restaurant chain, you likely need to support diverse clients — each expecting that the point-of-sale system adapts to their specific workflows, platforms, and hardware. In these cases, custom integrations are often essential. That’s why partnering with a [POS integration company](/our-areas/food-delivery-pos-integration/) experienced in [point-of-sale system development](https://brightinventions.pl/our-areas/pos-software-development/) can be a strategic move.
