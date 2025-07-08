@@ -6,6 +6,7 @@ faqs:
   - What industries do you support with your custom software aligned with Zebra
     Technologies?
 project:
+  - custom-labeling-printout
   - water-quality-monitoring
   - manufacturing-asset-tracking
   - pos-devices-integration
