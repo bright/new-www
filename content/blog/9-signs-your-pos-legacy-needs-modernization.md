@@ -21,7 +21,7 @@ language: en
 
 ## Do you face difficulties in integrating food delivery platforms with your POS?
 
-**Multiple tablets for multiple food delivery platforms…** That’s the nightmare of many restaurant staff. Integrating all external providers and unifying them into a system accessible on one device is possible! Yet is your POS capable of offering that?
+**Multiple tablets for multiple food delivery platforms…** That’s the nightmare of many restaurant staff. [POS integration](/blog/pos-integration/) with all external providers and unifying them into a system accessible on one device is possible! Yet is your POS capable of offering that?
 
 ## Is your POS based solely on desktop devices?
 
