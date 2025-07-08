@@ -147,7 +147,7 @@ One common issue is data mismatch — especially with taxes, refunds, or daily s
 
 **Solution**: To prevent this, ensure proper data mapping and use automated syncing (daily or real time). If off-the-self solution doesn't apply in you case, consider customization that supports your local tax formats and offer detailed reconciliation features.
 
-## POS and Caller ID integration
+## POS Integration with Caller ID
 
 While not the most common feature, integrating a POS system with Caller ID can significantly improve operations in hospitality – especially in restaurants that handle phone orders. Caller ID devices display information about incoming calls, and with proper integration, the POS system can automatically match the phone number to a returning customer. This allows staff to instantly see the caller’s details, such as their delivery address, order history, and loyalty programs status — enabling faster service and a more personalized customer experience.
 
