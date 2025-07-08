@@ -26,6 +26,8 @@ For example, many restaurant POS systems are integrated with food delivery platf
 
 Note: Point-of-sale and point of sale are written in both ways, both are commonly used, the latter is more common, but both seem to be correct.
 
+<div className="image">![POS integration](/images/pos_integration_types.png "POS integration")</div>
+
 ## Point-of-Sale integration with payment providers
 
 When integrating with third-party payment systems, several common challenges may arise:
