@@ -71,7 +71,7 @@ One of the issues we needed to face was the **lack of standardization for mobile
 
 Another challenge we discovered during the testing phase was that occasionally **the information sent by Caller ID wasn’t captured**. The Caller ID device operates in broadcast mode, meaning **it transmits data across the network without directing it to a specific receiver, such as a POS application**. This created situations where the restaurant might not receive the caller’s information, compromising the reliability of the Caller ID integration. This issue influenced the way we designed the entire integration.
 
-To address this challenge, **we explored a key feature of the Caller ID device: sending information multiple times across the network to ensure no phone number would be missed**. Building on the provided specifications, **our team developed the Caller ID and POS integration from scratch**, as no solution was provided by the device manufacturer. 
+To address this challenge, **we explored a key feature of the Caller ID device: sending information multiple times across the network to ensure no phone number would be missed**. Building on the provided specifications, **our team developed the Caller ID and [POS integration](/blog/pos-integration/) from scratch**, as no solution was provided by the device manufacturer. 
 
 A crucial part of our solution was **filtering out duplicate inputs**, which naturally occur when Caller ID sends information multiple times. Our integration was designed to **ensure that even when the local network experiences disruptions, the POS application can still reliably capture caller information**.
 
