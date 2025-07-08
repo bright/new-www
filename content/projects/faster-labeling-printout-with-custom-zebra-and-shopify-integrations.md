@@ -32,12 +32,12 @@ title_contact: hire us to build your unique integration
 description_contact: Tell us about the technical challenges holding your
   business back. Fill out the form below, we'll get back to you within 1
   business day.
-order: 99
+order: 5
 slug: custom-labeling-printout
 show_team: false
 show_case_study: true
 show on homepage: false
-published: false
+published: true
 work_in_progress: false
 language: en
 ---
