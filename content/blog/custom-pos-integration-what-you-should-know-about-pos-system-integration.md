@@ -83,7 +83,7 @@ Another challenge related to menu synchronization is automating the import of me
 
 Read more on how we [integrated POS with food delivery apps](/projects/pos-third-party-delivery/).
 
-## Point of Sale and hardware integration
+## POS Integration with hardware
 
 The number of hardware [POS devices](/blog/what-are-point-of-sale-devices/) used in restaurants and retail stores continues to grow. Modern POS systems must integrate with various devices such as contactless payment terminals, receipt and kitchen printers, barcode scanners, scales, and tablets. Ensuring reliable communication between the POS and each device is essential for smooth, uninterrupted operations.
 
