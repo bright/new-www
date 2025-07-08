@@ -20,7 +20,7 @@ language: en
 
 ## POS integration definition
 
-POS integration refers to the process of **connecting the POS system with other software platforms to enable seamless data exchange and synchronization across different systems**.
+What is pos integration? POS integration refers to the process of **connecting the POS system with other software platforms to enable seamless data exchange and synchronization across different systems**.
 
 For example, many restaurant POS systems are integrated with food delivery platforms such as **Glovo, Uber Eats, or Just Eat** to automatically receive and process orders from these marketplaces.
 
