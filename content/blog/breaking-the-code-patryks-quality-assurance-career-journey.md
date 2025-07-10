@@ -96,6 +96,8 @@ Well, I’ve recently become a dog dad to a Border Collie and it’s intense! **
 
 <div className="image">![Dog](/images/patryk_dog.png "Dog")</div>
 
+<center>Leon – Patryk's dog.</center>
+
 Aside from that, I’m a bit of a **romantic musician type** – just me and my guitar. I really enjoy playing, though my puppy isn’t the biggest fan of my performances.
 
 ## Do you write songs?
