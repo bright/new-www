@@ -30,6 +30,8 @@ Even during college, I noticed that our **academic teachers didn’t really focu
 
 But I wanted to do the opposite – **I wanted to break things and understand why they broke**. 😄 I was always the one asking, “What’s behind the code we’re writing?” – and I don’t think the academics appreciated that very much.
 
+<div className="image">![Quote](/images/patryk_quote_college.png "Quote")</div>
+
 It’s definitely something subjective, but **programming felt a bit tedious** to me (sorry, my dear colleagues). I feel more connected to the product, the business side, and the end users as a QA. I also feel like I can have more influence there.
 
 ## How do you explain to your grandparents what it is you do at work?
@@ -52,6 +54,8 @@ Working with startups has a lot of advantages, especially when you’re involved
 
 However, in some cases, startup founders face challenges like not fully knowing their clients or end users yet, because they’re still in the discovery phase. **For me as a QA, understanding who the end user is (so I can simulate their journey through our solution) is absolutely crucial**.
 
+<div className="image">![Quote on end users](/images/patryk_quote_end_user.png "Quote on end users")</div>
+
 That meant I had to work very closely with the business side to understand users and client requirements as well as possible. And in a startup environment, those things can change quite often, so adaptability was key.
 
 ## How do you see yourself as a QA in the midst of the AI revolution?
@@ -61,6 +65,8 @@ I’m still a bit cautious when it comes to using AI in software testing. The hu
 That said, AI is definitely helpful for things like **writing documentation and verifying errors**. When I encounter bugs during testing, AI can often help me find solutions faster. 
 
 I’m not worried about AI replacing me, human review is still essential.
+
+<div className="image">![Quote on AI](/images/patryk_quote_ai.png "Quote on AI")</div>
 
 ## You started working at Bright Inventions a year ago. How do you recall that time?
 
