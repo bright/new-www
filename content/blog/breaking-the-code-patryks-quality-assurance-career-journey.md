@@ -84,7 +84,7 @@ The system we’re building supports the distribution of payment instruments (li
 
 We’re continuously expanding the number of countries where this technology is used and that makes me genuinely proud. Of course, I wish we lived in a world where apps like this weren’t needed but we all know that’s not the case.
 
-## I know you’re not a fan of tomatoes. What did they ever do to you? :)
+## I know you’re not a fan of tomatoes. What did they ever do to you? 😉
 
 It’s the texture, it’s just disgusting! I call them **rotten apples**. When I see someone slicing a tomato, I literally have to turn away, that’s not a sight I want to witness.
 
