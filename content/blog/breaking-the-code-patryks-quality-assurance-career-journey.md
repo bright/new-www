@@ -1,6 +1,6 @@
 ---
-author: izabela
-secondAuthor: null
+author: patryk-b
+secondAuthor: izabela
 tags:
   - bright insights
 date: 2025-07-10T12:00:22.706Z
@@ -9,7 +9,7 @@ slug: patryk-quality-assurance-career-journey
 title: "Breaking the Code: Patryk's Quality Assurance Career Journey"
 layout: post
 image: /images/brightstorypatrykb.png
-hidden: false
+hidden: true
 comments: false
 published: true
 language: en
