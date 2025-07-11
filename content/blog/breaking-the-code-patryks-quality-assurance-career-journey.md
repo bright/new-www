@@ -76,11 +76,11 @@ I truly **enjoy the fact that it’s not a huge company**, that’s exactly what
 
 I’m still amazed by how many **people actually know each other**. You can see it even on Slack – how they tease each other and joke around, you can tell these are long-term relationships, not just colleagues who work together.
 
-And I’ll never forget when I was considering Bright Inventions and visited the website – I saw that every team member had their own [profile page with a photo and bio](https://brightinventions.pl/about-us/team/). That made a big impression on me. It showed that **people truly matter here**, they’re treated like humans, not just assets.
+And I’ll never forget when I was considering Bright Inventions and visited the website – I saw that every team member had their own [profile page with a photo and bio](/about-us/team/). That made a big impression on me. It showed that **people truly matter here**, they’re treated like humans, not just assets.
 
 ## What is special about the software project you're currently part of?
 
-We’re delivering a [mobile and web application for a global humanitarian organization](https://brightinventions.pl/projects/card-tracking-system/) that fights hunger supporting people in some of the world’s poorest and most conflict-affected regions. Everyone on the team truly feels that **we’re doing something that drives real change and helps people** in their everyday lives.
+We’re delivering a [mobile and web application for a global humanitarian organization](/projects/card-tracking-system/) that fights hunger supporting people in some of the world’s poorest and most conflict-affected regions. Everyone on the team truly feels that **we’re doing something that drives real change and helps people** in their everyday lives.
 
 The system we’re building supports the distribution of payment instruments (like cards, SIM cards, and vouchers) which allow people in crisis to purchase essential goods. We feel the impact of our work, especially when we receive updates and **photos showing how our app helps beneficiaries** access food and hygiene products for their families.
 
