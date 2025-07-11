@@ -9,7 +9,7 @@ slug: patryk-quality-assurance-career-journey
 title: "Breaking the Code: Patryk's Quality Assurance Career Journey"
 layout: post
 image: /images/brightstorypatrykb.png
-hidden: true
+hidden: false
 comments: false
 published: true
 language: en
