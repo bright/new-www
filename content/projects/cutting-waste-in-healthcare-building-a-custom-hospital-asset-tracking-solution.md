@@ -19,8 +19,8 @@ social_media_previev_alt: hospital asset tracking case study
 bar_achievements:
   - number: $30,000
     label: an ultrasound machine cost
-  - number: ∞
-    label: asset tracking
+  - number: "7"
+    label: years of product scaling
   - number: "2"
     label: iOS & Android apps
 tags:
