@@ -16,7 +16,7 @@ language: en
 ---
 **Since college, Patryk knew that writing code wasn’t for him. But breaking it? That was a different story. In this interview, he shares why he chose to become a QA Engineer, whether he’s worried about AI taking over his job, and why you probably shouldn’t offer him a tomato.**
 
-<div className="image">![QA Engineer career journey](/images/brightstorypatrykb.png "QA Engineer career journey")</div>
+<div className="image">![QA Engineer career story](/images/brightstorypatrykb_grid.png "QA Engineer career story")</div>
 
 ## How did you land in the software development industry?
 
