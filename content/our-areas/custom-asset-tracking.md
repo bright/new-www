@@ -32,6 +32,10 @@ highlighted_word: asset tracking
 image_our_service_desktop: /images/zebra_integrations_desktop.png
 image_our_service_mobile: /images/zebra_integrations_mobile_update2.png
 image_alt_our_service: asset tracking
+bullet_points:
+  - Go beyond off-the-shelf
+  - 24/7 vigilance over every business asset
+  - Tailored to your devices and building
 bar_stack:
   - Bluetooth LE
   - RFID
