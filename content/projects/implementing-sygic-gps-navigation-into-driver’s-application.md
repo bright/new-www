@@ -19,7 +19,7 @@ Hero Image_alt: Implementing Sygic GPS Navigation
 social_media_previev: /images/fb_preview_case_study_navigation_drivers_app.png
 social_media_previev_alt: Sygic navigation implementation
 bar_achievements:
-  - number: ∞
+  - number: Endless
     label: Waypoints
   - number: "42"
     label: Countries
