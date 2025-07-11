@@ -17,7 +17,7 @@ Hero Image_alt: hospital asset tracking case study
 social_media_previev: /images/fb_preview_case_study_hospital_asset_tracking.png
 social_media_previev_alt: hospital asset tracking case study
 bar_achievements:
-  - number: $30,000
+  - number: $30k
     label: an ultrasound machine cost
   - number: "7"
     label: years of product scaling
