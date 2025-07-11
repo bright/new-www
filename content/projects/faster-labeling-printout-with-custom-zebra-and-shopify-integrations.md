@@ -22,7 +22,7 @@ bar_achievements:
   - number: "2"
     label: Integrations with Zebra and Shopify
   - label: Label customization
-    number: ∞
+    number: Endless
 tags:
   - customized software
   - retail & restaurant
