@@ -22,7 +22,7 @@ bar_achievements:
   - number: "3"
     label: Months from the idea to release
   - number: Endless
-    label: Invoices generated
+    label: Invoice generation
 tags:
   - fintech
   - retail & restaurant
