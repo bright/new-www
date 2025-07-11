@@ -21,8 +21,8 @@ bar_achievements:
     label: Years of collaboration
   - number: "3"
     label: Months from the idea to release
-  - number: ∞
-    label: Invoices generated
+  - number: Endless
+    label: Invoice generation
 tags:
   - fintech
   - retail & restaurant
