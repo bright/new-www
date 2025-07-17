@@ -70,7 +70,7 @@ The true gem of this integration is **the real-time synchronization of every ord
 
 This automation also eliminates the errors occurring when busy staff manually transfer online orders to the main POS device so they can be sent to the kitchen. Now, **orders are processed automatically, speeding up meal preparation and delivery**. What’s more, order statuses are available on the same device, **keeping the waitstaff informed** throughout the process – from order acceptance to delivery.
 
-<div className="image">![POS UI](/images/pos_delivery_integration.png "POS UI")</div>
+<div className="image">![POS UI]( "POS UI")</div>
 
 Integration with food delivery platforms aligned perfectly with other parts of the multifunctional Just Eat POS. For example, **if a restaurant prefers to manage deliveries in-house, they can also use the [delivery drivers application](/projects/delivery-drivers-app/) offered by Just Eat POS**. Thanks to order synchronization, every order is available in the app, making it easy to coordinate deliveries. The app provides drivers with all the necessary information for a successful delivery, including the customer’s address, navigation with a map, and payment status.
 
