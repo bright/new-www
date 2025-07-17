@@ -110,3 +110,8 @@ With just a few annotations, you expose your business logic as tools that Koog A
 
 Koog Agents make it easy to bridge the gap between your tools and your team. 
 With annotation-based tools and single-run agents, you can automate repetitive tasks and keep your team in sync—using just your words.
+
+###
+Links to useful documentation:
+https://github.com/JetBrains/koog
+https://docs.koog.ai/annotation-based-tools/#implement-the-toolset-interface
