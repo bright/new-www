@@ -1,12 +1,13 @@
 ---
-author: izabela
+author: karol
 tags:
-  - HealthTech
-date: 2021-08-03T06:50:18.274Z
+  - AI
+  - Koog
+date: 2025-07-17T08:50:18.274Z
 meaningfullyUpdatedAt: 2025-06-17T14:02:33.275Z
-title: The List of 42 Smart Healthcare Devices (Regularly Updated)
+title: Your First Koog Agent Automating Developer Workflows
 layout: post
-image: /images/smart_devices_healthcare.png
+image: 
 hidden: false
 comments: true
 published: true
