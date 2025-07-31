@@ -5,7 +5,8 @@ our_service:
   - IoT development
 layout: project
 project_id: manufacturing-asset-tracking
-title: Transforming Devices into Scalable Trackers for Manufacturing Asset Tracking
+title: Transforming Devices into Scalable Trackers for Equipment Tracking for
+  Manufacturing
 image: /images/case_study_manufacturing_asset_tracking.png
 description: Can a lost device actually signal where it is? Yes! That was the
   breakthrough moment for a major firm in the manufacturing sector. Faced with
@@ -56,7 +57,7 @@ Traditionally, companies have relied on dedicated tracking hardware – physical
 
 One of our clients in the manufacturing sector faced this exact dilemma. They had already invested heavily in mobile devices, including popular iOS and Android smartphones, as well as specialized **Zebra Technologies** hardware. The question was: **Could we transform these existing devices into a scalable asset tracking system?**
 
-<TitleWithIcon sectionTitle="the solution: real-time manufacturing asset tracking system built on already owned devices" titleIcon="/images/flag.png" titleIconAlt="the solution" />
+<TitleWithIcon sectionTitle="the solution: real-time equipment tracking system built on already owned devices" titleIcon="/images/flag.png" titleIconAlt="the solution" />
 
 To address this challenge, we developed a scalable, software-based asset tracking network inspired by the principles behind **Apple’s iBeacon technology**. Our custom solution **leverages devices the company already owns** by transforming them into active participants in a decentralized tracking system.
 
@@ -74,7 +75,7 @@ One of the biggest challenges was the **fragmentation in the Android ecosystem**
 
 **Maintaining consistent background operation was critical** – and no small feat. Both Android and iOS place strict limitations on what apps can do in the background, especially when it comes to Bluetooth activity. We made it work by deeply optimizing the app's behavior, which required a **strong understanding of both Apple’s and Android’s native system**s. Just as important was designing a thoughtful permission strategy: from the very first onboarding screen, users were guided to grant all the necessary permissions to ensure the app could function reliably in the background.
 
-What’s more, the **manufacturing asset tracking** app has to remain active at all times without significant drain of the battery. We optimized power consumption by batching network messages and reducing how often we processed Bluetooth events, without sacrificing responsiveness.
+What’s more, the **equipment tracking** app has to remain active at all times without significant drain of the battery. We optimized power consumption by batching network messages and reducing how often we processed Bluetooth events, without sacrificing responsiveness.
 
 **Environmental factors** added another layer: solid concrete walls (common in Europe) versus thin drywall (typical in the US) significantly altered signal strength. Even human bodies – being mostly water – can block BLE signals when a device is held in hand.
 
