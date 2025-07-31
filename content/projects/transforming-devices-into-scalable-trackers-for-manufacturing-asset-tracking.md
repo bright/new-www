@@ -16,7 +16,7 @@ description: Can a lost device actually signal where it is? Yes! That was the
   manage, and protect their assets.
 hero_image: /images/case_study_asset_tracking_for_manufacturing.png
 Hero Image_alt: manufacture
-social_media_previev: /images/preview_case_study_manufacturing_asset_tracking.png
+social_media_previev: /images/preview_case_study_manufacturing_equipment_tracking.png
 social_media_previev_alt: Equipment tracking
 bar_achievements:
   - number: 89%
