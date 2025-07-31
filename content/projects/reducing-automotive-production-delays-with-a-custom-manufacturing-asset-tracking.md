@@ -52,7 +52,7 @@ technologies: Swift, Android, Bluetooth Low Energy, Zebra Technologies
 
 <TitleWithIcon sectionTitle="problem: the bottlenecks at the production line you can’t see" titleIcon="/images/icon_title_about.svg" titleIconAlt="problem" />
 
-A typical car contains [**around 30,000 individual parts**](https://collectorsautosupply.com/blog/how-many-parts-are-in-a-car/) and every one of them has to arrive and fit into the right place at the right time within a highly complex manufacturing environment. With a process this intricate, how do you even begin to spot what needs improving? This is exactly the challenge one of our clients – a provider of advanced asset tracking solutions set out to solve for a key player in the sector.
+A typical car contains **[around 30,000 individual parts](https://collectorsautosupply.com/blog/how-many-parts-are-in-a-car/)** and every one of them has to arrive and fit into the right place at the right time within a highly complex manufacturing environment. With a process this intricate, how do you even begin to spot what needs improving? This is exactly the challenge one of our clients – a provider of advanced asset tracking solutions set out to solve for a key player in the sector.
 
 Their end customer (a leading car manufacturer) needed a custom asset tracking system that would allow them to **track car components along the assembly line**, monitor **how long it takes to build an entire vehicle**, and identify **where delays happen and why**. The goal? To pinpoint the weakest links in the production chain and make smarter, real-time decisions to improve efficiency without guesswork or unnecessary warehousing.
 
@@ -83,9 +83,7 @@ We also had to make sure the system didn’t **drain device batteries**, especia
 The physical environment introduced its own set of challenges. Bluetooth Low Energy signal strength can be disrupted by all kinds of factors:
 
 * **Thick concrete walls** (common in European factories) reduce signal range
-
 * **Factory layouts** create unexpected dead zones or interference
-
 * Even **human bodies**, mostly made of water, could block signals simply by the user holding the device a certain way
 
 Testing this system wasn’t just a technical checklist, it was a full exploration of the factory's reality. Our QA team spent weeks reproducing obscure edge cases: dropped packets, gateway collisions, signal distortion due to metal machinery. By simulating even the most unlikely scenarios, we were able to harden the system for the unexpected and deliver a tracking solution that performs under real-world pressure.
@@ -95,6 +93,8 @@ Testing this system wasn’t just a technical checklist, it was a full explorati
 With manufacturing asset tracking in place, managers get access to live production data they can act on instantly.
 
 The system makes it clear which stations consistently slow down the line, helping to find the reasons why. In some cases, the delays in manufacturing might be caused by staffing issues: not enough machine operators to keep up with demand. In others, frequent malfunctions might reveal the need for stronger preventive maintenance at specific workstations. 
+
+<div className="image">![car manufacturing](/images/asset_tracking_production_automotive.png "car manufacturing")</div>
 
 The data can also reveal different problems hidden in the factory layout itself. In certain areas, just moving parts from one station to the next situated on the other side of the factory might take too much time. That can lead to a larger discussion about floor design – and in several cases, a rearrangement of workstations led to improvements in production speed.
 
