@@ -14,6 +14,7 @@ faqs:
 project:
   - water-quality-monitoring
   - hospital-asset-tracking
+  - asset-tracking-vehicle-manufacturing
   - manufacturing-asset-tracking
 layout: our-service
 our_service_id: asset-tracking
