@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: karol r
-ex: false
+ex: true
 slug: karol-r
 name: Karol Rinc
 short_name: Karol
