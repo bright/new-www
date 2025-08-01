@@ -7,7 +7,7 @@ layout: project
 project_id: asset-tracking-vehicle-manufacturing
 title: Reducing Automotive Production Delays with a Custom Manufacturing Asset
   Tracking
-image: /images/case_study_pos_benefit_cards_asset_tracking_for_manufacturing.png
+image: /images/case_study_pos_benefit_cards_asset_tracking_for_manufacturing_update.png
 description: "While scaling a custom asset tracking platform over the past 7
   years for our client – a provider of tracking solutions we encountered a new
   challenge: applying it to the automotive manufacturing industry. Find out how
@@ -35,7 +35,7 @@ title_contact: hire us to build tailored asset tracking
 description_contact: Tell us more about your tech challenges and we'll look for
   solutions! Fill out the form below and we'll get back to you within 1 business
   day.
-order: 99
+order: 4
 slug: asset-tracking-car-manufacturing
 show_team: false
 show_case_study: true
