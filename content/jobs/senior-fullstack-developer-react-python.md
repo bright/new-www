@@ -105,7 +105,7 @@ We are working on an innovative Agentic AI platform designed for AppSec teams, e
 
 ✔️ team buildings events
 
-✔️ Friday yoga, weekly running, swimming and cycling classes with a professional coach
+✔️ Weekly running, swimming and cycling classes with a professional coach
 
 ## **we’re building a team where every member**
 
