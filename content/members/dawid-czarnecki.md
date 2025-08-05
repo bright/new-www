@@ -8,8 +8,8 @@ short_name: Dawid
 email: dawid.czarnecki@brightinventions.pl
 bio: Fullstack Developer
 description: Fullstack Developer
-avatar: /images/dawid_cz_team.jpg
-avatar_hover: /images/dawid_cz_passions.jpg
+avatar: /images/brightdev_dawid_.png
+avatar_hover: /images/brightdev_dawid_passiobusiness.png
 published: true
 language: en
 ---
