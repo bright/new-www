@@ -100,7 +100,7 @@ To learn more, take a look at the [case study](https://brightinventions.pl/proje
 
 ✔️ team buildings events
 
-✔️ Friday yoga, weekly running, swimming and cycling classes with a professional coach
+✔️ Weekly running, swimming and cycling classes with a professional coach
 
 ## **we’re building a team where every member**
 
