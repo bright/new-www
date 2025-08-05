@@ -99,7 +99,7 @@ We work on a diverse range of projects, from transportation and healthtech to ga
 
 ✔️ team buildings events
 
-✔️ Friday yoga, weekly running, swimming and cycling classes with a professional coach
+✔️ Weekly running, swimming and cycling classes with a professional coach
 
 ## **we’re building a team where every member**
 
