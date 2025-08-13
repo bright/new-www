@@ -9,7 +9,7 @@ slug: kasia-qa-mindset-career-story
 title: Thriving in the Details. Behind Kasia’s QA mindset
 layout: post
 image: /images/brightstorykasiab.png
-hidden: false
+hidden: true
 comments: false
 published: true
 language: en
