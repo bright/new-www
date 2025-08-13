@@ -3,8 +3,8 @@ author: katarzyna-b
 secondAuthor: izabela
 tags:
   - bright story
-date: 2025-08-13T07:00:14.052Z
-meaningfullyUpdatedAt: 2025-08-13T07:00:14.076Z
+date: 2025-08-13T07:19:09.756Z
+meaningfullyUpdatedAt: 2025-08-13T07:19:10.402Z
 slug: kasia-qa-mindset-career-story
 title: Thriving in the Details. Behind Kasia’s QA mindset
 layout: post
