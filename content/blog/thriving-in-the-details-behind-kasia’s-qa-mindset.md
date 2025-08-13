@@ -61,3 +61,7 @@ It’s the same with the QA role – at the beginning, it was just a tester, som
 **Can you walk us through the project you're involved in at Bright Inventions?** 
 
 I’m part of the team developing a [transport management system](/projects/transportation-management-system/). When I joined the project, it was mainly focused on matching transport offer listings with the right vehicle and driver, and preparing optimized routes. Now, there’s so much more – **we’re developing separate panels for freight forwarders, admins, and couriers**, with tools for document exchange and communication. It’s amazing to be part of a product that’s growing so quickly and on so many levels.
+
+<div className="image">![At the Bright Inventions sailing team retreat.](/images/team_retreat_sailing.png "At the Bright Inventions sailing team retreat.")</div>
+
+<center>At the Bright Inventions sailing team retreat.</center>
