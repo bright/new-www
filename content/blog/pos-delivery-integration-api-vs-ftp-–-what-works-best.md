@@ -8,8 +8,8 @@ meaningfullyUpdatedAt: 2025-08-12T15:47:46.523Z
 slug: pos-delivery-integration-api-ftp
 title: POS Delivery Integration. API vs FTP – What Works Best?
 layout: post
-image: /images/frame-2608446.png
-hidden: false
+image: /images/frame-2608446-1-.png
+hidden: true
 comments: false
 published: true
 language: en
