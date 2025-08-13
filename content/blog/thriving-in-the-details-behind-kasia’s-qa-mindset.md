@@ -22,15 +22,11 @@ language: en
 
 I’m an ocean engineer specializing in the exploration of underwater oil deposits. After my engineering degree, I went on to do a master’s in **Subsea Technology,** which basically means designing and building offshore systems for the exploitation of underwater oil fields. That’s when I found a job at a shipyard working on the **Petrofac FPF1 modification** project for the floating refinery platform. I stayed there for nearly two years.
 
-After that, **I moved into commissioning** – that’s the phase right after construction is finished. You have to check if everything works, so we coordinated the work, making sure it was safe, for example, ensuring nobody would be scheduled to weld in an area where someone else would be running a pressure test. This was all happening in spaces that weren’t yet open for normal operations, so planning and coordination were critical. There was a lot of going through documentation and working with people who thought they knew best how things should be done. There was also quite a bit of pressure to push certain tasks through and get work permits approved.
+At that time I started to specialize in **commissioning** – that’s the phase right after construction is finished. You have to check if everything works, so we coordinated the work, making sure it was safe, for example, ensuring nobody would be scheduled to weld in an area where someone else would be running a pressure test. This was all happening in spaces that weren’t yet open for normal operations, so planning and coordination were critical. There was a lot of going through documentation and working with people who thought they knew best how things should be done. There was also quite a bit of pressure to push certain tasks through and get work permits approved.
 
 It was actually truly interesting and gave me experience in so many areas, including mechanical and electrical. It was also **my first real interaction with the IT world**, because we were building a database in Microsoft Access. We built forms based on the tables and their dependencies, so that later the database admin could easily input information. We generated various reports using the queries we had created ourselves. In some cases, we basically had to be ready to step in as database administrators if needed.
 
 When that project ended, I spent a short time in **Rotterdam** for another job. Once I got back, I spent quite a while looking for work, eventually moving into quality assurance.
-
-<div className="image">![Kasia at the Bright Inventions sailing team retreat.](/images/kasia_sailing_team_retreat.png "Kasia at the Bright Inventions sailing team retreat.")</div>
-
-<center> Kasia at the Bright Inventions sailing team retreat. </center>
 
 ## And how did that come about?
 
@@ -39,6 +35,8 @@ I was looking for a job for a while and honestly didn’t really know what I wan
 During those intense months, I realized I enjoyed it, and it wasn’t that far from what I had been doing before. Many of my skills transferred easily to this new line of work – **it was still all about quality**. The difference was that instead of checking the safety of work on oil platforms, I was checking the connections between systems and their security. 
 
 <div className="image">![Quote on commissioning](/images/kasia_quote_commissioning.png "Quote on commissioning")</div>
+
+<center> Kasia at the Bright Inventions sailing team retreat. </center>
 
 The only thing I really had to learn from scratch was Agile. I mean – the whole idea was new to me, but commissioning actually has a lot of similarities to software development such as such as breaking down a massive project into smaller testable phases, **managing a "punch list" of issues that functions just like a bug backlog**, and relying on daily meetings between cross-functional teams to solve problems as they arise; and of course the entire process is a massive testing exercise. Checking a single instrument is like a unit test, verifying a subsystem is like an integration test, and the final performance trial is the ultimate user acceptance test (UAT).
 
@@ -49,6 +47,8 @@ The program, after I passed my exams, gave me an **internship at a local company
 It’s definitely harder compared to six years ago when I was doing it. Back then, **I joined an industry that needed new talent**; companies were willing to train people to see who showed promise, and they invested their resources in teaching. 
 
 Now, you need to already have some knowledge and experience to prove you’re worth that investment. It’s especially tough if you’re just doing manual testing – **coding skills from the start are essential**. So yes, it’s harder, but it’s not impossible.
+
+<div className="image">![Kasia at the Bright Inventions sailing team retreat.](/images/kasia_sailing_team_retreat.png "Kasia at the Bright Inventions sailing team retreat.")</div>
 
 ## How do you work with AI?
 
@@ -64,7 +64,7 @@ It’s the same with the QA role – at the beginning, it was just a tester, som
 
 **AI won’t take our jobs because we will adapt to the new reality**. Someone will still have to check what AI writes. It can generate tests, but they don’t always work because AI doesn’t have the full knowledge, and it can’t connect the dots in a human way. Also, someone needs to train the AI for the designated purposes.
 
-## Can you walk us through the project you're involved in at Bright Inventions? 
+## Can you walk us through the project you're involved in at Bright Inventions?
 
 I’m part of the team developing a [transport management system](/projects/transportation-management-system/). When I joined the project, it was mainly focused on matching transport offer listings with the right vehicle and driver, and preparing optimized routes. Now, there’s so much more – **we’re developing separate panels for freight forwarders, admins, and couriers**, with tools for document exchange and communication. It’s amazing to be part of a product that’s growing so quickly and on so many levels.
 
