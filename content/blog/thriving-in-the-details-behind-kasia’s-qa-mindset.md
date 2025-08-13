@@ -50,6 +50,8 @@ Now, you need to already have some knowledge and experience to prove you’re wo
 
 <div className="image">![Kasia at the Bright Inventions sailing team retreat.](/images/kasia_sailing_team_retreat.png "Kasia at the Bright Inventions sailing team retreat.")</div>
 
+<center> Kasia at the Bright Inventions sailing team retreat. </center>
+
 ## How do you work with AI?
 
 Mainly, I use AI for **improving automated tests** – for example, when I write a block of code, I put it into Gemini and ask if it can be simplified. I also sometimes use it to look for solutions, but I keep a **healthy amount of skepticism** – not all of its suggestions work in practice.
