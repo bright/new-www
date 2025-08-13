@@ -55,3 +55,9 @@ I’m not afraid of that. For sure, **some roles will disappear and new ones wil
 It’s the same with the QA role – at the beginning, it was just a tester, someone who checked everything manually. Then it grew into quality assurance, a person who knows the project best. You’re not just testing; you make sure the project is consistent, you notice gaps in UX, and **you act as a link between everyone** because you talk to the client, the designer, and the developers.
 
 <div className="image">![Quote on software tester's role](/images/kasia_quote_tester_role.png "Quote on software tester's role")</div>
+
+**AI won’t take our jobs because we will adapt to the new reality**. Someone will still have to check what AI writes. It can generate tests, but they don’t always work because AI doesn’t have the full knowledge, and it can’t connect the dots in a human way. Also, someone needs to train the AI for the designated purposes.
+
+**Can you walk us through the project you're involved in at Bright Inventions?** 
+
+I’m part of the team developing a [transport management system](/projects/transportation-management-system/). When I joined the project, it was mainly focused on matching transport offer listings with the right vehicle and driver, and preparing optimized routes. Now, there’s so much more – **we’re developing separate panels for freight forwarders, admins, and couriers**, with tools for document exchange and communication. It’s amazing to be part of a product that’s growing so quickly and on so many levels.
