@@ -32,7 +32,7 @@ When that project ended, I spent a short time in **Rotterdam** for another job. 
 
 I was looking for a job for a while and honestly didn’t really know what I wanted to do next, so I decided to go to a job fair. A woman approached me there and asked if I wanted to take part in a **European Union program for future software testers**. It might sound like a golden opportunity, but it meant I had to fully commit – taking a one-month course, passing certification exams, and then starting a three-month internship.
 
-During those intense months, I realized I enjoyed it, and it wasn’t that far from what I had been doing before. Many of my skills transferred easily to this new line of work – **it was still all about quality**. The difference was that instead of checking the safety of work on oil platforms, I was checking the connections between systems and their security. 
+During those intense months, I realized I enjoyed it, and it wasn’t that far from what I had been doing before. Many of my skills transferred easily to this new line of work – **it was still all about quality**. The difference was that instead of checking the safety coordination of work on oil platforms, I was checking the connections between systems and their security. 
 
 <div className="image">![Quote on commissioning](/images/kasia_quote_commissioning.png "Quote on commissioning")</div>
 
