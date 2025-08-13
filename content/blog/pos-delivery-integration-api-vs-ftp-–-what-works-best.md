@@ -5,6 +5,7 @@ tags:
   - POS
 date: 2025-08-12T15:47:46.502Z
 meaningfullyUpdatedAt: 2025-08-12T15:47:46.523Z
+slug: pos-delivery-integration-api-ftp
 title: POS Delivery Integration. API vs FTP – What Works Best?
 layout: post
 hidden: false
@@ -12,8 +13,6 @@ comments: false
 published: true
 language: en
 ---
-
-
 # **Introduction**
 
 For many restaurant chains, third-party delivery platforms like Wolt, Just Eat, or 10bis are now essential revenue streams. But these partnerships also bring a technical challenge: how should your POS system receive incoming orders?
@@ -56,6 +55,8 @@ Orders are exported and imported as structured files (CSV, XML, JSON) via FTP/SF
 * Ongoing maintenance – Third-party APIs can change, requiring regular updates.
 * Potential limits – Rate limits or complex authentication flows can slow things down.
 
+  <div className="image">![API Delivery POS Integration](/images/frame-2608444.png "API Integration")</div>
+
 Best For: Modern platforms, high-volume restaurants, and fast-paced kitchen environments.
 
 # **Deep Dive: FTP Integration**
@@ -72,7 +73,15 @@ Cons
 * Manual monitoring – More effort to troubleshoot or validate orders.
 * Data format headaches – Differences in file structure and error handling can slow integration.
 
+
+
+<div className="image">![FTP DELIVERY POS INTEGRATION](/images/frame-2608443.png "FTP Integration")</div>
+
+
+
 Best For: Legacy systems, low-volume restaurants, and situations where real-time isn’t critical.
+
+
 
 # **Choosing Between API and FTP**
 
@@ -85,8 +94,6 @@ When deciding, consider:
 * Resources & timeline – Do you have the dev capacity for an API build?
 * Security & compliance – PCI, GDPR, and other regulations.
 
-
-
 # **Our Experience**
 
 Our team has integrated both API and FTP connections into a single POS interface. For the end user — waitstaff or kitchen staff — the technical method doesn’t matter. They just need a smooth, consistent experience.
@@ -94,6 +101,8 @@ Our team has integrated both API and FTP connections into a single POS interface
 We handle the complexity behind the scenes, so orders from Wolt via API and orders from an older FTP-based platform appear identical in the POS. This unified approach keeps workflows simple while allowing for gradual tech upgrades.
 
 
+
+<div className="image">![API vs FTP delivery integration](/images/case_study_food_delivery_app_modernization.png "API vs FTP delivery integration")</div>
 
 # **Conclusion**
 
