@@ -17,3 +17,39 @@ language: en
 **Kasia thrives on rules, diagrams, and compliance. She used to ensure that oil platforms were safe for workers. Eventually, she discovered how similar that work was to software development, leading her to change her career path. The one thing she hasn’t changed is her sharp eye for the details hidden in complex workflows that might scare others away.**
 
 <div className="image">![software tester's career story](/images/brightstorykasiab_grid.png "software tester's career story")</div>
+
+**What was your profession before you joined IT?**
+
+I’m an ocean engineer specializing in the exploration of underwater oil deposits. After my engineering degree, I went on to do a master’s in Subsea Technology, which basically means designing and building offshore systems for the exploitation of underwater oil fields. That’s when I found a job at a shipyard working on the Petrofac FPF1 modification project for the floating refinery platform. I stayed there for nearly two years.
+
+After that, I moved into commissioning – that’s the phase right after construction is finished. You have to check if everything works, so we coordinated the work, making sure it was safe, for example, ensuring nobody would be scheduled to weld in an area where someone else would be running a pressure test. This was all happening in spaces that weren’t yet open for normal operations, so planning and coordination were critical. There was a lot of going through documentation and working with people who thought they knew best how things should be done. There was also quite a bit of pressure to push certain tasks through and get work permits approved.
+
+It was actually truly interesting and gave me experience in so many areas, including mechanical and electrical. It was also my first real interaction with the IT world, because we were building a database in Microsoft Access. We built forms based on the tables and their dependencies, so that later the database admin could easily input information. We generated various reports using the queries we had created ourselves. In some cases, we basically had to be ready to step in as database administrators if needed.
+
+When that project ended, I spent a short time in Rotterdam for another job. Once I got back, I spent quite a while looking for work, eventually moving into quality assurance.
+
+**And how did that come about?**
+
+I was looking for a job for a while and honestly didn’t really know what I wanted to do next, so I decided to go to a job fair. A woman approached me there and asked if I wanted to take part in a European Union program for future software testers. It might sound like a golden opportunity, but it meant I had to fully commit – taking a one-month course, passing certification exams, and then starting a three-month internship.
+
+During those intense months, I realized I enjoyed it, and it wasn’t that far from what I had been doing before. Many of my skills transferred easily to this new line of work – it was still all about quality. The difference was that instead of checking the safety of work on oil platforms, I was checking the connections between systems and their security. 
+
+The only thing I really had to learn from scratch was Agile. I mean – the whole idea was new to me, but commissioning actually has a lot of similarities to software development such as such as breaking down a massive project into smaller testable phases, managing a "punch list" of issues that functions just like a bug backlog, and relying on daily meetings between cross-functional teams to solve problems as they arise; and of course the entire process is a massive testing exercise. Checking a single instrument is like a unit test, verifying a subsystem is like an integration test, and the final performance trial is the ultimate user acceptance test (UAT).
+
+The program, after I passed my exams, gave me an internship at a local company – and from there it was all up to me. When I started my internship, I quickly felt that manual testing alone wasn’t enough for me, so I looked for a framework, chose Cypress, and wrote tests to cover the most important paths in the application during my internship. I felt that was the key to my future in the company – I was determined to show my managers how quickly I could grow as a software tester. Eventually, the company appreciated my development, and they were happy with both my progress and my communication skills with clients and team members.
+
+**Is it still possible for a career shift like yours in quality assurance?**
+
+It’s definitely harder compared to six years ago when I was doing it. Back then, **I joined an industry that needed new talent**; companies were willing to train people to see who showed promise, and they invested their resources in teaching. 
+
+Now, you need to already have some knowledge and experience to prove you’re worth that investment. It’s especially tough if you’re just doing manual testing – **coding skills from the start are essential**. So yes, it’s harder, but it’s not impossible.
+
+**How do you work with AI?**
+
+Mainly, I use AI for **improving automated tests** – for example, when I write a block of code, I put it into Gemini and ask if it can be simplified. I also sometimes use it to look for solutions, but I keep a **healthy amount of skepticism** – not all of its suggestions work in practice.
+
+**Can AI replace you in the future?**
+
+I’m not afraid of that. For sure, **some roles will disappear and new ones will be created.** We’ll just need to keep learning and adapt to the new reality.
+
+It’s the same with the QA role – at the beginning, it was just a tester, someone who checked everything manually. Then it grew into quality assurance, a person who knows the project best. You’re not just testing; you make sure the project is consistent, you notice gaps in UX, and **you act as a link between everyone** because you talk to the client, the designer, and the developers.
