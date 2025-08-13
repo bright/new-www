@@ -81,3 +81,5 @@ Sewing, on the other hand, is a process I grew to appreciate, although it took m
 The piece I’m most proud of is a cocktail dress I made for myself. It had a deep open back and a square neckline. It took a full week of sewing, but it was a project that stretched out over a year. You need time and the right mindset – **if you’re not feeling it, it’s better to step away and come back later**. Otherwise, you just end up ripping everything out and starting over, and that’s frustrating, although I’ve definitely done my fair share of unpicking and reworking.
 
 <div className="image">![Kasia's dress](/images/kasia_dress.png "Kasia's dress")</div>
+
+Even when the garment is finished, you often still need to adjust and fit it properly. I’m a big fan of oversized pieces because they’re a bit more forgiving. I also try to sew gifts for people when I can – it’s a nice way to share something personal.
