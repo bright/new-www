@@ -88,4 +88,6 @@ The piece I’m most proud of is a cocktail dress I made for myself. It had a de
 
 <div className="image">![Kasia's dress](/images/kasia_dress.png "Kasia's dress")</div>
 
+<center> One of Kasia’s favorite dresses she created. </center>
+
 Even when the garment is finished, you often still need to adjust and fit it properly. I’m a big fan of oversized pieces because they’re a bit more forgiving. I also **try to sew gifts for people** when I can – it’s a nice way to share something personal.
