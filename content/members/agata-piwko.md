@@ -6,15 +6,15 @@ slug: agata
 name: Agata Bielówka
 short_name: Agata
 email: agata.bielowka@brightinventions.pl
-bio: Business Relations Specialist
-description: Business Relations Specialist
+bio: Project Manager
+description: Project Manager
 avatar: /images/agata_small.png
 avatar_hover: /images/agata_passion_small.png
 published: true
 language: en
 ---
-She started her social media & marketing path by promoting her own businesses. Then she realised that this is what she really enjoys and wants to connect her future career with.
+She manages IT projects across diverse business domains, leveraging her background in client relations, digital marketing, and social media. Her entrepreneurial experience since 2011 has honed her leadership, adaptability, and partnership-building skills.
 
-Equipped with soft skills and restaurant owner experience, likes to organise various events and to encourage people to have a good time. Graduating from the Academy of Physical Education in Cracow resulted in a passion for different sports, but her favourites are kitesurfing, pole dancing and snowboarding.
+A graduate of Clinical Psychology and the Academy of Physical Education, and a passionate sports enthusiast, she draws on the discipline, focus, and resilience from running, surfing, and kitesurfing to bring energy and determination into every project.
 
 Join Agata! [Check our career opportunities](/career).
