@@ -8,7 +8,7 @@ meaningfullyUpdatedAt: 2025-08-14T09:25:00.000Z
 title: Certificate Pinning on iOS in Practice
 layout: post
 image: /images/certificate-pinning-in-ios-app/banner.webp
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
