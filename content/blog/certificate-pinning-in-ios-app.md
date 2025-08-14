@@ -47,66 +47,51 @@ Besides pinning entire certificate we can also pin certificate fingerprint or pu
 Pinning public key gives as little bit of flexibility depending on how our certificate is being created since it can be refreshed with the same private/public key pair, but more on that later...
 
 ## How to pin
-In order to pin certificate in iOS app we will need to dive into [Security framework](https://developer.apple.com/documentation/security) a bit. We will also utilize [URLSessionDelegate](https://developer.apple.com/documentation/foundation/urlsessiondelegate) to tap into authentication challenge. In the code snippet below you will find minimal steps required for pinning:
-* Retrieve host for which challenge is being handled
-* Check if our app pins this host
-* Get leaf certificate from chain of certificates presented by the challenge
-* Compare leaf certificate from challenge with our known trusted certificate
+Certificate pinning in principle is very simple:
+* During connection with server we are presented with authentication challenge
+* Challenge contains host name and certificate chain
+* We can check if leaf certificate in challenge is matching one that we expect
 
-Security framework is quite cumbersome, but with help of documentation (or now AI) we can come with simple implementation as below:
-```swift
-extension NetworkManager: URLSessionDelegate {
-    func urlSession(
-        _ session: URLSession,
-        didReceive challenge: URLAuthenticationChallenge
-    ) async -> (URLSession.AuthChallengeDisposition, URLCredential?) {
-        let host = challenge.protectionSpace.host
-        
-        guard let trustedLeaf = pinnedHosts[host] else {
-            return (.performDefaultHandling, nil)
-        }
-        
-        guard let trust = challenge.protectionSpace.serverTrust,
-              let chain = SecTrustCopyCertificateChain(trust) as? [SecCertificate],
-              let leaf = chain.first,
-              leaf == trustedLeaf
-        else { return (.cancelAuthenticationChallenge, nil) }
-        
-        return (.performDefaultHandling, nil)
-    }
-}
-```
+There are plenty networking libraries that can handle certificate pinning out of the box like [Alamofire](https://github.com/Alamofire/Alamofire/) (see their [docs](https://github.com/Alamofire/Alamofire/blob/master/Documentation/AdvancedUsage.md#security)) and for standard use cases those do the job well.
 
-In addition to the above we need to store trusted certificate as part of our app, we can do that for example by bundling it as a resource:
-* First lets retrieve it, we could use openssl command for that
+Lets go deeper and implement simple pinning ourselves to get better understanding of what is going on.
+
+### Retrieving certificate for your domain
+Starting point is to get actual certificate we want to pin. You can either reach to team managing domain for the certificate or you can get certificate currently used in production with openssl command. You can use example below for that purpose. Just exchange `<pinned_domain>` with actual domain for which you want to retrieve certificate.
+
 ```sh
-openssl s_client -connect example.com:443 -showcerts </dev/null 2>/dev/null | awk '/-----BEGIN CERTIFICATE-----/{i++} i==1 {print}' > leaf.pem
+openssl s_client -connect <pinned_domain>:443 -showcerts </dev/null 2>/dev/null \
+| awk '/-----BEGIN CERTIFICATE-----/{i++} i==1 {print}' > leaf.pem
 ```
-* Put it into resources of your app
-* Retrieve certificate during runtime
+
+You will need this certificate later on to actually pin to it. Save those as a resources in your project. I have chosen structured folder directory to easily store and retrieve certificates. Structure is like this: `Certificates/<host>/<certificate_type>.der` (eg `Cetificate/bright.dev/leaf.der`). In order to make it work (xcode bundling resources keeping folder structure) you also need to make `Certificates` and actual (blue) folder in the project and not xcode group.
+
+Now you can access those pinned certificates in the runtime retrieving them from Bundle like below:
+
 ```swift
-func certificates(matchingHost host: String) -> [Certificate] {
-    guard let resourceURL = bundle.resourceURL else { return [] }
+import Foundation
+import Security
+
+func certificates(matchingHost host: String) -> [SecCertificate] {
+    guard let resourceURL = Bundle.main.resourceURL else { return [] }
     
     let certificatesURL = resourceURL
         .appendingPathComponent("Certificates", conformingTo: .directory)
         .appendingPathComponent(host, conformingTo: .directory)
     
     do {
-        let certificateUrls = try fileManager.contentsOfDirectory(
+        let certificateUrls = try FileManager.default.contentsOfDirectory(
             at: certificatesURL,
             includingPropertiesForKeys: [.isRegularFileKey]
         )
         let certificates = certificateUrls.compactMap { file -> Certificate? in
             let fileType = file.pathExtension
-            let fileName = file.deletingPathExtension().lastPathComponent
-            guard fileType == "der",
-                  let certType = CertificateType(rawValue: fileName),
+            guard fileType == "pem",
                   let data = try? Data(contentsOf: file),
                   let secCert = SecCertificateCreateWithData(nil, data as CFData)
             else { return nil }
 
-            return Certificate(cert: secCert, type: certType)
+            return secCert
         }
         return certificates
     } catch {
@@ -114,7 +99,60 @@ func certificates(matchingHost host: String) -> [Certificate] {
     }
 }
 ```
-In the example above I am storing certificates using `der` format in a folder structure like this: `Certificates/<host>/<certificate_type>.der` (eg `Cetificate/bright.dev/leaf.der`).
+
+Here we have encountered Security framework for the first time. It might seem cumbersome and not Swifty - see that we created `SecCertificate object using SecCertificateCreateWithData. This is pretty old and crusty API, so lets get used to it... 😅
+
+### Validating certificate
+We have now our certificate added to the project - lets *pin* it!
+
+In order to pin certificate we need to tap into previously mentioned `Authentication Challenge`. Fortunately there is really simple way of doing so with use of `URLSessionDelegate`. There are few steps to tackle in order to pin certificate:
+1. Conform to and assign `URLSessionDelegate` to session object
+2. Implement [urlSession(_:didReceive:completionHandler:)](https://developer.apple.com/documentation/foundation/urlsessiondelegate/urlsession(_:didreceive:completionhandler:)) delegate method. See that you can use callback or async variant.
+3. Check host for which authentication challenge is being made 
+4. Get trusted certificates for the given host (this is where you retrieve certificate eg from bundled resources). 
+5. Handle fallback when no trusted certificate found. Either go with default platform behavior or cancel challenge all together (depending on your use case).
+6. Retrieve leaf certificate from server trust (`SecTrust`) object.
+7. Check if leaf certificate from authentication challenge is known and trusted to us.
+
+
+```swift
+extension NetworkManager {
+    func setupSession {
+        // #1 Assign delegate to the session object
+        URLSession.shared.delegate = self
+    }
+}
+
+// #1.1 Ofc you need to implement delegate
+extension NetworkManager: URLSessionDelegate {
+    // #2 Implement authentication challenge delegate method
+    func urlSession(
+        _ session: URLSession,
+        didReceive challenge: URLAuthenticationChallenge
+    ) async -> (URLSession.AuthChallengeDisposition, URLCredential?) {
+        // #3 Checking host for the challenge
+        let host = challenge.protectionSpace.host
+        
+        // #4 Get trusted certificate for host
+        let trustedCertificates = certificates(matchingHost: host)
+
+        if trustedCertificates.isEmpty {
+            // #5 Fallback when no trusted certificate found
+            return (.cancelAuthenticationChallenge, nil)
+        }
+        
+        // #6 Retrieve leaf certificate from trust object
+        guard let trust = challenge.protectionSpace.serverTrust,
+              let chain = SecTrustCopyCertificateChain(trust) as? [SecCertificate],
+              let leaf = chain.first,
+              // #7 Validate that leaf is one of our trusted certificates
+              trustedCertificates.contains(leaf)
+        else { return (.cancelAuthenticationChallenge, nil) }
+        
+        return (.performDefaultHandling, nil)
+    }
+}
+```
 
 As simple as that, with just a few lines of code we have protected our app from malicious actors trying to intercept our communication. It can't be that simple, can it? 
 
