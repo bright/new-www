@@ -13,8 +13,8 @@ avatar_hover: /images/agata_passion_small.png
 published: true
 language: en
 ---
-She manages IT projects across diverse business domains, leveraging her background in client relations, digital marketing, and social media. Her entrepreneurial experience since 2011 has honed her leadership, adaptability, and partnership-building skills.
+She manages IT projects across diverse business domains, drawing on her background in client relations, digital marketing, and years of running her own businesses. Since launching her first venture in 2011, she has steadily developed strong leadership, adaptability, and partnership-building skills.
 
-A graduate of Clinical Psychology and the Academy of Physical Education, and a passionate sports enthusiast, she draws on the discipline, focus, and resilience from running, surfing, and kitesurfing to bring energy and determination into every project.
+Holding degrees in Management and in Clinical Psychology, she combines a deep understanding of people with a lifelong love for sport. Whether running, surfing, or kitesurfing, she values the focus, perseverance, and balance these activities demand — qualities that shape her professional approach every day.
 
 Join Agata! [Check our career opportunities](/career).
