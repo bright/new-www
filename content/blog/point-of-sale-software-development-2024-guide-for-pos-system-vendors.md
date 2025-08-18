@@ -4,7 +4,7 @@ secondAuthor: izabela
 tags:
   - POS
 date: 2024-10-16T07:06:46.573Z
-meaningfullyUpdatedAt: 2025-05-23T13:56:15.683Z
+meaningfullyUpdatedAt: 2025-08-18T10:23:15.490Z
 slug: pos-software-development-guide
 title: "POS Software Development: 2025 Guide for Custom Point of Sale System"
 layout: post
@@ -112,6 +112,8 @@ Additionally, **having a POS with an integrated [delivery drivers app](/projects
 3. **Restaurant menu discrepancies across platforms.**
 
 **Tech solution**: a proper [integration with food delivery apps](/projects/pos-third-party-delivery/) can sync changes from the main POS to all platforms, reducing errors and saving time.
+
+Are you wondering whether API or FTP is the better choice for your [POS and delivery software integrations](/blog/pos-delivery-integration-api-ftp/)? Learn more!
 
 ### POS and Caller ID integration
 
