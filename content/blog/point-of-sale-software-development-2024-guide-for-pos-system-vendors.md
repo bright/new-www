@@ -113,6 +113,8 @@ Additionally, **having a POS with an integrated [delivery drivers app](/projects
 
 **Tech solution**: a proper [integration with food delivery apps](/projects/pos-third-party-delivery/) can sync changes from the main POS to all platforms, reducing errors and saving time.
 
+Are you wondering whether API or FTP is the better choice for your [POS and delivery software integrations](/blog/pos-delivery-integration-api-ftp/)? Learn more!
+
 ### POS and Caller ID integration
 
 Caller ID is a device that provides information about incoming phone numbers. With the right integration with the POS, **when a staff member answers the phone, they can instantly see on-screen details if a regular customer is calling**. This includes all the necessary information to efficiently process the order, such as the delivery address and phone number. This feature streamlines phone ordering and enhances the customer experience with a more personalized touch.
