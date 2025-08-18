@@ -72,15 +72,9 @@ Cons
 * Manual monitoring – More effort to troubleshoot or validate orders.
 * Data format headaches – Differences in file structure and error handling can slow integration.
 
-
-
 <div className="image">![FTP DELIVERY POS INTEGRATION](/images/frame-2608443.png "FTP Integration")</div>
 
-
-
 Best For: Legacy systems, low-volume restaurants, and situations where real-time isn’t critical.
-
-
 
 ## **Choosing Between API and FTP**
 
@@ -99,8 +93,6 @@ Our team has integrated both API and FTP connections into a single POS interface
 
 We handle the complexity behind the scenes, so orders from Wolt via API and orders from an older FTP-based platform appear identical in the POS. This unified approach keeps workflows simple while allowing for gradual tech upgrades.
 
-
-
 <div className="image">![API vs FTP delivery integration](/images/case_study_food_delivery_app_modernization.png "API vs FTP delivery integration")</div>
 
 # **Conclusion**
@@ -112,4 +104,4 @@ There’s no one-size-fits-all answer:
 
 The right choice depends on your partners, operations, and technical resources. Often, the best solution is a hybrid approach — using API where possible, but still supporting FTP where needed.
 
-**Want help integrating delivery into your POS? Let’s talk.**
+**Want help integrating delivery into your POS? Let’s talk.** As a [POS software development company](/our-areas/pos-software-development/) we've been taking care of [POS software development](/blog/pos-software-development-guide/) since 2012.
