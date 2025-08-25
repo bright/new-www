@@ -197,7 +197,7 @@ Read more about [designing payment in POS](/blog/payment-point-of-sale-design-ui
 
 User personas serve as fictional yet data-driven representations of your target users, encapsulating their behaviors, needs, and challenges. By crafting detailed personas, development teams can tailor **custom POS** solutions that resonate with actual user experiences, leading to more intuitive and effective systems.​
 
-For instance, consider "Jennifer," a meticulously developed persona representing a frontline retail staff member. Her profile sheds light on daily operational **challenges, such as managing customer orders and dealing with nonintuitive bill splitting**. Insights from such personas guide developers in prioritizing features like streamlined checkout processes, real-time inventory updates, and user-friendly interfaces.​
+For instance, consider "Jennifer," a meticulously developed persona representing a frontline retail staff member. Her profile sheds light on daily operational **challenges, such as managing customer orders and dealing with nonintuitive bill splitting**. Insights from such personas guide **POS developers** in prioritizing features like streamlined checkout processes, real-time inventory updates, and user-friendly interfaces.​
 
 Integrating user personas into the development lifecycle ensures that the POS application aligns with real-world user expectations, enhancing usability and satisfaction.​
 
