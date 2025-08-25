@@ -20,9 +20,9 @@ language: en
 
 <EbookDynamic sectionTitle='Think you know your POS user persona?' ebookName='User-Persona-For-Point-Of-Sale.pdf' ebookDescription={'Download our UX research on the Point-of-Sale persona. Discover their habits, frustrations, and the goals they want to achieve with POS software.'} ebookImage='/images/cover_user_persona.png' ebookAlt='user persona cover' />
 
-## Include these practices for payment UI
+## Include these practices for payment UI in POS design
 
-Before we dive into, let’s remember that our **end users are waitstaff, shop assistants, and hotel receptionists**. They work under significant stress and time pressure, managing as many clients as possible to drive revenue for the business. **Technology should accelerate their processes**, not only improving efficiency but also enhancing customer satisfaction.
+Before we dive into, let’s remember that our **end users are waitstaff, shop assistants, and hotel receptionists**. They work under significant stress and time pressure, managing as many clients as possible to drive revenue for the business. **POS design and technology should accelerate their processes**, not only improving efficiency but also enhancing customer satisfaction.
 
 ## Use animations for information purposes only
 
@@ -36,7 +36,7 @@ When presenting multiple options, such as payment methods, it's crucial to **inc
 
 <div className="image">![Point of sale design iconography](/images/include-easily-understandable-icons-with-labels.png "Point of sale design iconography")</div>
 
-## Establish button hierarchy
+## Establish button hierarchy in POS design
 
 **Emphasize the most frequently used buttons by making them larger and more prominent**, while less commonly used buttons should be smaller. This helps guide users toward the correct action efficiently.
 
@@ -52,7 +52,7 @@ Some payment methods, like card payments, require filling out forms. To make thi
 
 ## Don’t make me think
 
-You might be familiar with the book “[Don’t Make Me Think](/blog/5-web-development-rules-from-dont-make-me-think-book/)”, which highlights usability practices based on the principle that interfaces should be so intuitive that users can navigate them effortlessly. This is especially important in point-of-sale systems – you should **offer users clear options without making them overthink their actions**.
+You might be familiar with the book “[Don’t Make Me Think](/blog/5-web-development-rules-from-dont-make-me-think-book/)”, which highlights usability practices based on the principle that interfaces should be so intuitive that users can navigate them effortlessly. This is especially important in **POS design** – you should **offer users clear options without making them overthink their actions**.
 
 For example, **when it comes to tipping, don’t force waitstaff to manually input an amount**. Instead, present them with popular tipping options while still allowing customization if needed.
 
