@@ -179,7 +179,7 @@ One example of adapting to tax rule changes is when **our team implemented an am
 
 ## The role of UX/UI in building intuitive custom POS software
 
-From understanding the specific needs of POS system users to integrating UI/UX solutions that address their pain points, product design teams must follow this path during **POS development**.
+From understanding the specific needs of POS system users to integrating UI/UX solutions that address their pain points, a **POS software developer** must follow this path during **POS development**.
 
 <div className="image">![UX/UI for POS](/images/establish-button-hierarchy.png "UX/UI for POS")</div>
 
