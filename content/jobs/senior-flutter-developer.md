@@ -1,12 +1,12 @@
 ---
 layout: job
 title: Senior Flutter Developer
-subtitle: PAUSED
+subtitle: OPEN
 imagejob: /images/job-offer-team-part-2-2025-1-.png
 image-alt-job: Bright Team
 hours: full-time
-salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
-salary_min: 135
+salary: 136 - 163 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
+salary_min: 136
 salary_max: 19920
 working time: full time
 technology:
@@ -29,7 +29,7 @@ image_recruiter_info: /images/sara-bright-recruiter.png
 image_alt_recruiter_info: Sara Łęcka - Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/saralecka/
 button: "join our Bright team "
-published: false
+published: true
 show_recruiter_info: true
 order: 4
 recruting_image2_title: interview (technical part & non-technical part)
@@ -102,7 +102,7 @@ We work on a diverse range of projects, from transportation and healthtech to ga
 
 ✔️ team buildings events
 
-✔️ Friday yoga, weekly running, swimming and cycling classes with a professional coach
+✔️ weekly running, swimming and cycling classes with a professional coach
 
 ## **we’re building a team where every member**
 
