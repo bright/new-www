@@ -32,9 +32,8 @@ tags:
   - customized software
 title_team: meet the team behind the solution
 title_case_study: how we support our clients
-title_contact: book a free consultation in 48 hours
-description_contact: Tell us more about your POS system. Fill out the form below
-  and we'll get back to you in 48 hours.
+title_contact: hire us
+description_contact: Fill out the form below, and we’ll get back to you within 1 business day!
 order: 5
 slug: pos-third-party-delivery
 show_team: true
