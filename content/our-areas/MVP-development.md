@@ -67,8 +67,8 @@ title_team: meet our MVP development team
 title_case_study: MVPs that we have developed
 title_faqs: MVP development FAQs
 title_contact: book free consultation in 48 hours
-description_contact: Fill out the form below and we'll get back to you in 48
-  hours. Let’s talk about your MVP!
+description_contact: Fill out the form below and we'll get back to you within 1
+  business day! Let’s talk about your MVP!
 blog_section_tags:
   - business strategy
 blog_section_title: blog posts
