@@ -68,8 +68,9 @@ show_technology_stack: true
 title_team: meet IoT development team
 title_case_study: IoT development that we’ve worked on
 title_faqs: IoT development FAQs
-title_contact: book free consultation in 48 hours
-description_contact: Fill out the form below and we'll get back to you in 48 hours. Let's talk!
+title_contact: book a call to discuss your tech challenges
+description_contact: Fill out the form below and we'll get back to you within 1
+  business day! Let's talk!
 boxes:
   - box_title: IoT device monitoring
     box_description: Our **IoT device monitoring** services provide real-time
