@@ -52,8 +52,8 @@ show_technology_stack: true
 title_team: team
 title_case_study: the clients we have supported in the tech journey
 title_faqs: FAQs
-title_contact: schedule a free consultation within 48 hours
-description_contact: Fill out the form below and we'll get back to you in 48 hours.
+title_contact: let's talk about your tech challenges
+description_contact: Fill out the form below and we'll get back to you within 1 business day.
 boxes:
   - box_title: software audit
     box_description: We conduct comprehensive software audits to evaluate everything
