@@ -62,7 +62,8 @@ title_team: meet our cloud computing team
 title_case_study: cloud services projects we have worked on
 title_faqs: cloud services FAQs
 title_contact: let’s talk about your cloud solution
-description_contact: Are you looking for a cloud computing company? Fill out the form below.
+description_contact: Are you looking for a cloud computing company? Fill out the
+  form below, and we’ll get back to you within 1 business day.
 blog_section_tags:
   - backend
 blog_section_title: blog posts
