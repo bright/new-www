@@ -46,7 +46,8 @@ title_case_study: dive deeper into our portfolio
 title_faqs: Zebra Technologies FAQs
 title_contact: let's talk how we can empower your Zebra devices
 description_contact: Tell us more about your tech challenges and we'll find
-  solution! Fill out the form below and we'll get back to you in 48 hours.
+  solution! Fill out the form below and we'll get back to you within 1 business
+  day.
 language: en
 blog_section: false
 blog_section_tags:
