@@ -35,7 +35,7 @@ title_team: the team behind the project
 title_case_study: more success stories
 title_contact: let's talk about your product
 description_contact: Do you want to discuss your eHealth solution? Fill out the
-  form below and we'll get back to you in 48 hours.
+  form below, and we’ll get back to you within 1 business day!
 order: 4
 slug: remote-patient-monitoring
 show_team: true
