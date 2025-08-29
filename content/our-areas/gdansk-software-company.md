@@ -62,7 +62,8 @@ title_team: meet our bright team
 title_case_study: the clients we have supported in the tech journey
 title_faqs: software development Gdańsk FAQs
 title_contact: let's talk about your tech challenges
-description_contact: Fill out the form below and we'll get back to you within 1 business day.
+description_contact: Fill out the form below, and we'll get back to you within 1
+  business day. Hopefully, we'll also see you in Gdansk!
 language: en
 blog_section: false
 blog_section_tags:
