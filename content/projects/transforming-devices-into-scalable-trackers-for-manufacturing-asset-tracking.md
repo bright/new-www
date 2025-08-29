@@ -32,8 +32,7 @@ tags:
 title_team: team
 title_case_study: explore more clients' stories
 title_contact: hire us to build your unique asset tracking system
-description_contact: Tell us more about your tech problems and we will help you
-  find solutions! Fill out the form below and we'll get back to you in 48 hours.
+description_contact: Fill out the form below, and we’ll get back to you within 1 business day!
 order: 1
 slug: manufacturing-asset-tracking
 show_team: false
