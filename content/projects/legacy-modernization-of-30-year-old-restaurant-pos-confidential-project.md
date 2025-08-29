@@ -25,9 +25,8 @@ tags:
   - retail & restaurant
 title_team: team
 title_case_study: explore other success stories
-title_contact: book a free consultation in 48 hours
-description_contact: Tell us more about your project or idea for an app. Fill
-  out the form below and we'll get back to you in 48 hours.
+title_contact: hire us
+description_contact: Fill out the form below, and we’ll get back to you within 1 business day!
 order: 3
 slug: pos-legacy
 show_team: false
