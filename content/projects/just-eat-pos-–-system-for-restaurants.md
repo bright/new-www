@@ -37,8 +37,7 @@ tags:
 title_team: team behind the project
 title_case_study: more success stories
 title_contact: hire us
-description_contact: Tell us more about your mobile project. Fill out the form
-  below, and we’ll get back to you within 1 business day!
+description_contact: Fill out the form below, and we’ll get back to you within 1 business day!
 order: 3
 slug: system-for-restaurants
 show_team: true
