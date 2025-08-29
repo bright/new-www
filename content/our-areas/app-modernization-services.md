@@ -62,8 +62,9 @@ show_technology_stack: true
 title_team: meet the bright team
 title_case_study: the clients we have supported in the tech journey
 title_faqs: app modernization FAQs
-title_contact: book a free consultation in 48 hours
-description_contact: Fill out the form below and we'll get back to you in 48 hours.
+title_contact: are you struggling with app modernization?
+description_contact: Let's find solutions together. Fill out the form below and
+  we'll get back to you within 1 business day.
 language: en
 blog_section: false
 blog_section_tags:
