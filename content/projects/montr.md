@@ -36,7 +36,7 @@ tags:
 title_team: team behind the project
 title_case_study: more case studies
 title_contact: let's talk about your solution
-description_contact: Contact us and book a free consultation in 48 hours!
+description_contact: Contact us, and we’ll get back to you within 1 business day!
 order: 99
 slug: app-digitized-surveys
 show_team: true
