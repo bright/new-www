@@ -32,7 +32,8 @@ tags:
 title_team: team
 title_case_study: more success stories
 title_contact: Let's talk about your app
-description_contact: Contact us to discuss your product. Book a free consultation in 48 hours!
+description_contact: Fill out the form or drop us a line, and we’ll get back to
+  you within 1 business day!
 slug: xpomaker
 show_team: false
 show_case_study: true
