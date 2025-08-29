@@ -54,9 +54,10 @@ show_technology_stack: true
 title_team: POS and Uber Eats integration team
 title_case_study: dive into our POS software experience
 title_faqs: POS and Uber Eats integration FAQs
-title_contact: let's set up a meeting in 48 hours
+title_contact: let's set up a meeting
 description_contact: Based on your needs we will prepare a demo of your solution
-  in 7 days. Fill out the form or drop us a line!
+  in 7 days. Fill out the form or drop us a line, and we’ll get back to you
+  within 1 business day!
 boxes:
   - box_title: menu and orders synchronization
     box_description: We synchronize menus and orders, so your clients won’t have to
