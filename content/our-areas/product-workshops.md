@@ -58,9 +58,7 @@ title_team: meet our product workshop team
 title_case_study: clients we have supported in their tech journey
 title_faqs: product workshop FAQs
 title_contact: let's talk about product workshops for your team
-description_contact: Every product workshop is adjusted to clients needs. Just
-  let us know what you expect and we will find the best solution for you! Fill
-  out the form below.
+description_contact: Fill out the form below, and we’ll get back to you within 1 business day!
 blog_section_tags:
   - leadership
 blog_section_title: blog posts
