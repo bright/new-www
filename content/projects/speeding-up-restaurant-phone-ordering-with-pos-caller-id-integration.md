@@ -32,9 +32,9 @@ tags:
   - retail & restaurant
 title_team: the team behind the POS & Caller ID solution
 title_case_study: how we support our clients
-title_contact: book a free consultation in 48 hours
+title_contact: hire POS system developers
 description_contact: Tell us more about your point-of-sale system. Fill out the
-  form below and we'll get back to you in 48 hours.
+  form below, and we’ll get back to you within 1 business day!
 order: 1
 slug: restaurant-pos-caller-id
 show_team: true
