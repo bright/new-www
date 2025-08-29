@@ -48,9 +48,9 @@ We expect effective communication skills, including the **ability to both give a
 
 ## **about our projects 🚀**
 
-We are building a mobile solution for Relevo – a German sustainability startup revolutionizing takeaway with a reusable packaging system. Operating in 700+ cities and used by over 200,000 people, the platform spans mobile apps, a restaurant-facing dashboard, and a robust backend ecosystem. With challenges like offline functionality and peak-hour stability, we’re shaping a scalable, green tech product that supports real-world impact.
+**This hiring process is for future Backend openings that will be available in the coming months.**
 
-To learn more, take a look at the [case study](https://brightinventions.pl/projects/eco-friendly-app/).
+We work on a diverse range of projects, from transportation and healthtech to gastronomy and beyond. Each one brings a new challenge, and we meet it with curiosity, care, and dedication. If you’re open to exploring different industries and building meaningful digital products, we’d love to have you on board.
 
 ## **preferred skills and qualifications 👩‍💻🧑‍💻**
 
