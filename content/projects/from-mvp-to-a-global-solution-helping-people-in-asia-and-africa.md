@@ -32,9 +32,8 @@ tags:
   - customized software
 title_team: team behind the project
 title_case_study: more success stories
-title_contact: let's talk about your product
-description_contact: Tell us more about your mobile project or idea for an app.
-  Fill out the form below and we'll get back to you in 48 hours.
+title_contact: hire us to build your digital solution
+description_contact: Fill out the form below, and we’ll get back to you within 1 business day.
 order: 5
 slug: card-tracking-system
 show_team: false
