@@ -28,7 +28,7 @@ tags:
 title_team: team
 title_case_study: more success stories
 title_contact: let's talk about your solution
-description_contact: Contact us and we will book a free consultation in 48 hours.
+description_contact: Contact us, and we’ll get back to you within 1 business day!
 slug: pospulse-shopscout
 show_team: false
 show_case_study: true
