@@ -1,7 +1,6 @@
 ---
 team_members:
   - tomasz-sch
-  - maciej-n
   - wojciech-k
   - mateusz
 our_service:
