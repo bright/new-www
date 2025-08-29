@@ -77,9 +77,8 @@ show_technology_stack: true
 title_team: meet the healthcare technology consulting team
 title_case_study: the power of healthcare app development – read our client's stories
 title_faqs: healthcare software development services FAQs
-title_contact: book free consultation in 48 hours
-description_contact: Let’s discuss healthcare technology consulting for your
-  solution. Fill out the form below and we'll get back to you in 48 hours.
+title_contact: let's talk about your solution
+description_contact: Fill out the form below and we'll get back to you within 1 business day.
 language: en
 blog_section: false
 blog_section_tags:
