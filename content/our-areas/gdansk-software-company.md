@@ -61,7 +61,7 @@ show_technology_stack: true
 title_team: meet our bright team
 title_case_study: the clients we have supported in the tech journey
 title_faqs: software development Gdańsk FAQs
-title_contact: let's meet for a coffee
+title_contact: let's talk about your tech challenges
 description_contact: Fill out the form below and we'll get back to you within 1 business day.
 language: en
 blog_section: false
