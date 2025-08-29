@@ -31,8 +31,7 @@ tags:
 title_team: meet the team behind the solution
 title_case_study: explore our clients' stories
 title_contact: hire us
-description_contact: Tell us more about your mobile project or idea for an app.
-  Fill out the form below, and we’ll get back to you within 1 business day!
+description_contact: Fill out the form below, and we’ll get back to you within 1 business day.
 order: 2
 slug: leading-food-delivery-app
 show_team: false
