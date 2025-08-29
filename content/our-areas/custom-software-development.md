@@ -67,9 +67,7 @@ title_team: meet custom software development team
 title_case_study: custom software that we delivered
 title_faqs: custom software development FAQ's
 title_contact: let’s talk about your custom solution
-description_contact: Don’t know where to start with your idea for a software
-  project? Or you are looking for a custom software development company to help
-  take your product to the next level? Fill out the form below.
+description_contact: Fill out the form below, and we’ll get back to you within 1 business day!
 blog_section_tags:
   - programming
 blog_section_title: blog posts
