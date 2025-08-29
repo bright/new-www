@@ -33,7 +33,7 @@ title_team: team
 title_case_study: dive deeper into our portfolio
 title_contact: hire us to scale your transport management system
 description_contact: Tell us more about your tech challenges. Fill out the form
-  below and we'll get back to you in 48 hours.
+  below, and we’ll get back to you within 1 business day!
 order: 2
 slug: navigation-driver-app-integration
 show_team: false
