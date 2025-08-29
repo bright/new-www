@@ -51,7 +51,7 @@ show_technology_stack: true
 title_team: meet our product design team
 title_case_study: our product design portfolio
 title_faqs: product design FAQs
-title_contact: let’s design your product
+title_contact: let’s talk about your product design
 description_contact: Fill out the form or drop us a line, and we’ll get back to
   you within 1 business day!
 blog_section_tags:
