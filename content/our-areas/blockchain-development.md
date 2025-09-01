@@ -38,7 +38,7 @@ slug: blockchain
 short_description: Our team has a vast experience in blockchain projects based
   on Ethereum and Substrate blockchain. Blockchain technology is what we are
   really good at!
-order: 6
+order: 8
 title: build future with blockchain development
 highlighted_word: blockchain
 image_our_service_desktop: /images/blockchain_development_desktop_big.png
