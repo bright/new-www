@@ -21,7 +21,7 @@ export function trackCustomEvent(eventProps: CustomEventProps) {
     ...rest
   });
 
-  (window as any)?.plausible(eventName, { props: { event_label: label, category, ...rest } });
+  (window as any)?.plausible?.(eventName, { props: { event_label: label, category, ...rest } });
 }
 
 export async function trackConversion(eventProps: { sent_to: string }) {
