@@ -13,7 +13,7 @@ const AboutUsPage: React.FC = () => (
   <Page>
     <HelmetMetaData
       title='Our history, team and values'
-      description='Since 2012 we have built software for startups, digital agencies and mid-sized organisations from such industries as FinTech, Healthcare or Retail.'
+      description='Since 2012, we have been creating and evolving impactful digital products, from point-of-sale systems and healthcare applications to emergency services apps and digital solutions for logistics and construction.'
     />
     <CustomSection
       paddingProps='3rem 15rem 0rem '

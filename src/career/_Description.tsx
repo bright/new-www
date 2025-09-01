@@ -37,13 +37,11 @@ const Description: React.FC = () => {
       <CustomSectionInner className='career-desc'>
         <PageDescriptionCareer>
           <span>
-            <Link to={routeLinks.aboutUs({ page: 'team' })}>Our team</Link> consists of talented, positive and committed
-            people who work on international projects and enjoy what they do on daily basis.
+            <Link to={routeLinks.aboutUs({ page: 'team' })}>We are a team</Link> of talented, enthusiastic, and dedicated professionals building international digital products that make a difference.
           </span>
         </PageDescriptionCareer>
         <PageDescriptionCareer>
-          If you value team work, responsibility and you would like to create software solutions that really matter in
-          the current world, get to know us better and apply!
+          If you enjoy teamwork, taking responsibility, and want to create solutions that truly matter in today’s world, come join us.
         </PageDescriptionCareer>
       </CustomSectionInner>
     </WrapperDesc>

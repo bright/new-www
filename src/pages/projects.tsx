@@ -99,7 +99,7 @@ const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
       <SectionProjects paddingMobileProps='2rem 1.125rem 0' paddingProps='2rem 15rem 0 15rem'>
         <CustomSectionInner>
           <CustomTextRegular>
-Since 2012, we have developed, scaled, and modernized numerous software solutions, including point-of-sale systems, healthcare applications, emergency services apps, and digitized systems for logistics and construction. 
+            Since 2012, we have been creating and evolving impactful digital products, from point-of-sale systems and healthcare applications to emergency services apps and digital solutions for logistics and construction.
           </CustomTextRegular>
         </CustomSectionInner>
         {isClient && (

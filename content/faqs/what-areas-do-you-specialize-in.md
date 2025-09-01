@@ -13,7 +13,7 @@ answer: >-
   by connecting various sensors and devices with software solutions.
 
 
-  Since 2012, we have collaborated with companies across diverse industries. These include startups and larger organizations in **healthcare, hospitality, retail, construction, and logistics**.
+  Since 2012, we have been creating and evolving impactful digital products, from point-of-sale systems and healthcare applications to emergency services apps and digital solutions for logistics and construction.
 published: true
 show_on_career: false
 order: 1
