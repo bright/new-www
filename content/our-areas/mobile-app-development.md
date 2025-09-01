@@ -31,9 +31,7 @@ meta_description: We are a mobile app development company from Poland. We
 our_services_icon: /images/mobile_app_development2.png
 name: mobile app development
 slug: mobile-app-development
-short_description: We offer native mobile app development for iOS and Android.
-  Our app development team has broad experience in building applications in
-  Swift and Kotlin.
+short_description: We design and build native mobile apps for iOS and Android that deliver real value. Our team is skilled in Swift and Kotlin creating digital products users love
 order: 101
 title: build native apps with mobile development team
 highlighted_word: mobile
