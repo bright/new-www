@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: kuba-s
-ex: false
+ex: true
 slug: kuba-s
 name: Kuba Sułkowski
 short_name: Kuba
