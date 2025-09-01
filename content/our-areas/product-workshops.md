@@ -34,7 +34,7 @@ slug: product-workshops
 short_description: We will help you discover your product idea, set your product
   goals, understand the pitfalls and find the solution on how to make your
   product better.
-order: 2
+order: 12
 title: make your software worthy with product workshops
 highlighted_word: product workshops
 image_our_service_desktop: /images/product_workshops_desktop.png
