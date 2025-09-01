@@ -1,5 +1,5 @@
 interface Story {
-  images: readonly { src: string; alt: string }[]
+  images: readonly { src: string; alt: string; }[]
   logos: readonly { src: string; alt: string }[]
   heading: string
   subheading: string
@@ -77,7 +77,7 @@ export const story: readonly Story[] = [
   {
     images: [{
       src: '/images/why-us/timeline/office.jpg',
-      alt: 'A new office'
+      alt: 'A new office',
     }],
     logos: [],
     heading: '2016',
@@ -176,4 +176,4 @@ export const story: readonly Story[] = [
     subheading: '',
     content: `We are focused on enhancing our cooperation with Lyvia Group (prev. Mirovia).`,
   },
-] as const
+] as const;
