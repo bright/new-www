@@ -8,6 +8,8 @@ import {
   CustomSectionTitle,
   CustomContainer,
 } from '../shared'
+import MobileAppDevelopmentIcon from '../../assets/mobileAppDevelopment.svg'
+import WebDevelopmentIcon from '../../assets/webDevelopment.svg'
 import { routeLinks } from '../../config/routing'
 import * as styles from './ourServices/OurServices.module.scss'
 import styled from 'styled-components'
@@ -16,8 +18,6 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const AiDevelopmentIcon = () => <StaticImage src={'../../../static/images/ai_development_icon_update.png'} alt={'AI development'} />
 const IotDevelopmentIcon = () => <StaticImage src={'../../../static/images/iot_development2.png'} alt={'IoT development'} />
-const CustomSoftwareDevelopmentIcon = () => <StaticImage src={'../../../static/images/custom_software_development2.png'} alt={'Custom software development'} />
-const ProductWorkshopIcon = () => <StaticImage src={'../../../static/images/product_workshops2.png'} alt={'product workshops'} />
 
 const OurTextTitle = styled(CustomTextTitle)`
   color: ${variables.color.text};
@@ -63,18 +63,11 @@ const OurSerwicesTextRegular = styled(CustomTextRegular)`
 
 const services = [
   {
-    icon: CustomSoftwareDevelopmentIcon,
-    title: 'custom software development',
+    icon: MobileAppDevelopmentIcon,
+    title: 'mobile development',
     description:
-      'Our custom software serves the unique processes of your business, solves particular problems and makes your workflows more efficient. We will help you throughout all of the software delivery phases.',
-    direction: '/our-areas/custom-software-development',
-  },
-  {
-    icon: ProductWorkshopIcon,
-    title: 'product workshops',
-    description:
-      'We will help you discover your product idea, set your product goals, understand the pitfalls and find the solution on how to make your product better.',
-    direction: '/our-areas/product-design',
+      'We offer native mobile app development for iOS and Android. Our app development team has broad experience in building applications in Swift, Java, and Kotlin.',
+    direction: '/our-areas/mobile-app-development',
   },
   {
     icon: AiDevelopmentIcon,
@@ -82,6 +75,13 @@ const services = [
     description:
       'We build secure AI solutions. From generative AI & machine learning to prompt engineering, we will enhance your business with AI.',
     direction: '/our-areas/ai-software-development',
+  },
+  {
+    icon: WebDevelopmentIcon,
+    title: 'web development',
+    description:
+      'We provide a wide range of custom full stack web development services. We rely on a rich technology stack, including JavaScript, CSS, HTML, Java, Node.js, AWS, MySQL, PostgreSQL, and more.',
+    direction: '/our-areas/web-development',
   },
   {
     icon: IotDevelopmentIcon,
