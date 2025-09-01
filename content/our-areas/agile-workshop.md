@@ -34,7 +34,7 @@ slug: agile-workshops
 short_description: We will organise Agile workshops for you and your team and
   help you quickly get a grasp of what this leading project management
   methodology brings to the table.
-order: 7
+order: 15
 title: build a strong team with Agile workshops
 highlighted_word: Agile workshops
 image_our_service_desktop: /images/agile_workshops_desktop.png
