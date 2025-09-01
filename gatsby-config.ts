@@ -328,14 +328,6 @@ const gatsbyConfig: GatsbyConfig = {
         headerHeight: 73,
       },
     },
-    {
-      resolve: `gatsby-plugin-recaptcha`,
-      options: {
-        async: false,
-        defer: false,
-        args: `?onload=onloadCallback&render=explicit`,
-      },
-    },
     'simple-mdx',
     'content-collections',
     'scss-typescript',
