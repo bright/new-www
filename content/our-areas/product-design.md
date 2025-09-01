@@ -28,7 +28,7 @@ slug: product-design
 short_description: You can count on our expertise in interface analysis,
   animation design, UX and UI design, root cause analysis, and more. We have
   worked on design projects of all sizes.
-order: 102
+order: 7
 title: embrace your idea with product design
 highlighted_word: product design
 image_our_service_desktop: /images/product_devsign_desktop.png
