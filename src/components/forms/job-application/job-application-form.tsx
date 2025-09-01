@@ -16,7 +16,7 @@ import { trackConversion, trackCustomEvent } from '../../../analytics/track-cust
 import { FlexWrapper } from '../../shared'
 import { JobFormData } from '../../../helpers/mail'
 import ReCaptcha from '../../recaptcha/ReCaptcha'
-import ReCAPTCHA from 'react-google-recaptcha'
+import type ReCAPTCHA from 'react-google-recaptcha'
 import { isReCaptchaValid } from '../../recaptcha/recaptcha-verification'
 
 export interface FormProps {
