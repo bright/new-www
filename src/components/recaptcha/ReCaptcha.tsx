@@ -3,6 +3,7 @@ import ReCAPTCHA from 'react-google-recaptcha'
 import styled from 'styled-components'
 import { TextRegular } from '../shared/index.styled'
 import variables from '../../styles/variables'
+import { InView } from 'react-intersection-observer'
 
 interface ReCaptchaProps<T> {
   recaptchaRef: LegacyRef<T> | undefined;
@@ -33,25 +34,29 @@ export const RecaptchaContainer = styled(TextRegular)`
 
 const ReCaptcha = ({ recaptchaRef }: ReCaptchaProps<any>) => {
   return (
-    <RecaptchaContainer>
-      <ReCAPTCHA
-        ref={recaptchaRef}
-        sitekey='6Lf80doqAAAAAJa2ReybrabGvMunSubWjVLE3vIg'
-        size='invisible'
-      />
-      <span>
-        <span>This site is protected by reCAPTCHA and the Google </span>
-        <a href='https://policies.google.com/privacy' target='_blank'
-           rel='nofollow noopener noreferrer'>Privacy Policy</a>
-        <span> and </span>
-        <a href='https://policies.google.com/terms' target='_blank'
-           rel='nofollow noopener noreferrer'>Terms of Service</a>
-        <span> apply.</span>
-      </span>
+    <InView triggerOnce={true} onChange={(inView) => {
+      console.log('ReCaptcha.InView', inView)
+    }}>
+      {({ inView, ref }) => (
+        <RecaptchaContainer ref={ref}>
+          {inView && <ReCAPTCHA
+            ref={recaptchaRef}
+            sitekey='6Lf80doqAAAAAJa2ReybrabGvMunSubWjVLE3vIg'
+            size='invisible'
+          />}
+          <span>
+            <span>This site is protected by reCAPTCHA and the Google </span>
+            <a href='https://policies.google.com/privacy' target='_blank'
+             rel='nofollow noopener noreferrer'>Privacy Policy</a>
+            <span> and </span>
+            <a href='https://policies.google.com/terms' target='_blank'
+             rel='nofollow noopener noreferrer'>Terms of Service</a>
+            <span> apply.</span>
+          </span>
+        </RecaptchaContainer>
+      )}
 
-
-    </RecaptchaContainer>
-
+    </InView>
   )
 }
 
