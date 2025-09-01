@@ -75,28 +75,26 @@ export const story: readonly Story[] = [
     content: `We started working on SmartHelp project, an emergency service app that allows users to easily call for help and provide relevant authorities with personal details.`,
   },
   {
-    images: [],
-    logos: [
-      {
-        src: '/images/why-us/timeline/bds.png',
-        alt: 'Baltic Data Science logo',
-      },
-    ],
+    images: [{
+      src: '/images/why-us/timeline/office.jpg',
+      alt: 'A new office'
+    }],
+    logos: [],
     heading: '2016',
     subheading: '',
-    content: `Baltic Data Science is founded by Bright Inventions & Datarella, a data science and blockchain consulting company specializing in business-focused solutions. We are entering the cryptocurrency world. New services available. Development of the first Blockchain features.`,
+    content: `Time to spread our wings! We moved out of the Business Incubator into a bigger office to fit our growing team.`,
   },
   {
     images: [],
     logos: [
       {
-        src: '/images/why-us/timeline/united-nations.png',
-        alt: 'United Nations logo',
+        src: '/images/why-us/timeline/blockchain.png',
+        alt: 'Blockchain logo',
       },
     ],
     heading: '2017',
     subheading: '',
-    content: `The rise of our successful cooperation with the United Nations organisation.`,
+    content: `We stepped onto the international stage, combining blockchain expertise with partnerships that reached far beyond Poland.`,
   },
   {
     images: [],
@@ -165,7 +163,7 @@ export const story: readonly Story[] = [
     heading: '2022',
     subheading: '',
     content: `We celebrated 10th birthday! Also, we joined the Nordic Group Lyvia (prev. Mirovia).`,
-  },  
+  },
   {
     images: [],
     logos: [
@@ -177,5 +175,5 @@ export const story: readonly Story[] = [
     heading: '2023',
     subheading: '',
     content: `We are focused on enhancing our cooperation with Lyvia Group (prev. Mirovia).`,
-  },  
+  },
 ] as const
