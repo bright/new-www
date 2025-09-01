@@ -1,17 +1,17 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 
-export function TimelineImage(props: any) {
+export function TimelineImage(props: { image: ReactNode }) {
   return (
     <div>
-      <img {...props} />
+      {props.image}
     </div>
   )
 }
 
-export function TimelineLogo(props: any) {
+export function TimelineLogo(props: { image: ReactNode }) {
   return (
     <div className='logo'>
-      <img width='96' height='96' {...props} />
+      {props.image}
     </div>
   )
 }

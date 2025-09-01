@@ -1,6 +1,9 @@
+import React from 'react'
+import { StaticImage } from 'gatsby-plugin-image'
+
 interface Story {
-  images: readonly { src: string; alt: string; }[]
-  logos: readonly { src: string; alt: string }[]
+  images: readonly React.ReactNode[]
+  logos: readonly React.ReactNode[]
   heading: string
   subheading: string
   content: string
@@ -8,14 +11,14 @@ interface Story {
 export const story: readonly Story[] = [
   {
     images: [
-      {
-        src: '/images/why-us/timeline/michal_history.png',
-        alt: 'Michał Łukasiewicz',
-      },
-      {
-        src: '/images/why-us/timeline/daniel_history.png',
-        alt: 'Daniel Makurat',
-      },
+      <StaticImage
+        src='../../../../static/images/why-us/timeline/michal_history.png'
+        alt='Michał Łukasiewicz'
+      />,
+      <StaticImage
+        src='../../../../static/images/why-us/timeline/daniel_history.png'
+        alt='Daniel Makurat'
+      />,
     ],
     logos: [],
     heading: '2005-2011',
@@ -25,10 +28,11 @@ export const story: readonly Story[] = [
   {
     images: [],
     logos: [
-      {
-        src: '/images/why-us/timeline/bright-inventions.png',
-        alt: 'bright inventions logo',
-      },
+      <StaticImage
+        src='../../../../static/images/why-us/timeline/bright-inventions.png'
+        objectFit={'contain'}
+        alt='bright inventions logo'
+      />,
     ],
     heading: '2012',
     subheading: '',
@@ -37,10 +41,11 @@ export const story: readonly Story[] = [
   {
     images: [],
     logos: [
-      {
-        src: '/images/why-us/timeline/practi.png',
-        alt: 'practi logo',
-      },
+      <StaticImage
+        src='../../../../static/images/why-us/timeline/practi.png'
+        objectFit={'contain'}
+        alt='practi logo'
+      />,
     ],
     heading: '2013',
     subheading: '',
@@ -48,14 +53,14 @@ export const story: readonly Story[] = [
   },
   {
     images: [
-      {
-        src: '/images/why-us/timeline/piotr-mionskowski.png',
-        alt: 'Piotr Mionskowski',
-      },
-      {
-        src: '/images/why-us/timeline/mateusz-klimczak.png',
-        alt: 'Mateusz Klimczak',
-      },
+      <StaticImage
+        src='../../../../static/images/why-us/timeline/piotr-mionskowski.png'
+        alt='Piotr Mionskowski'
+      />,
+      <StaticImage
+        src='../../../../static/images/why-us/timeline/mateusz-klimczak.png'
+        alt='Mateusz Klimczak'
+      />,
     ],
     logos: [],
     heading: '2014',
@@ -65,20 +70,22 @@ export const story: readonly Story[] = [
   {
     images: [],
     logos: [
-      {
-        src: '/images/why-us/timeline/smarthelp_logo2015.png',
-        alt: 'Smart Help logo',
-      },
+      <StaticImage
+        src='../../../../static/images/why-us/timeline/smarthelp_logo2015.png'
+        alt='Smart Help logo'
+      />,
     ],
     heading: '2015',
     subheading: '',
     content: `We started working on SmartHelp project, an emergency service app that allows users to easily call for help and provide relevant authorities with personal details.`,
   },
   {
-    images: [{
-      src: '/images/why-us/timeline/office.jpg',
-      alt: 'A new office',
-    }],
+    images: [
+      <StaticImage
+        src='../../../../static/images/why-us/timeline/office.jpg'
+        alt='A new office'
+      />,
+    ],
     logos: [],
     heading: '2016',
     subheading: '',
@@ -87,10 +94,10 @@ export const story: readonly Story[] = [
   {
     images: [],
     logos: [
-      {
-        src: '/images/why-us/timeline/blockchain.png',
-        alt: 'Blockchain logo',
-      },
+      <StaticImage
+        src='../../../../static/images/why-us/timeline/blockchain.png'
+        alt='Blockchain logo'
+      />,
     ],
     heading: '2017',
     subheading: '',
@@ -99,10 +106,10 @@ export const story: readonly Story[] = [
   {
     images: [],
     logos: [
-      {
-        src: '/images/why-us/timeline/clutch.png',
-        alt: 'Clutch logo',
-      },
+      <StaticImage
+        src='../../../../static/images/why-us/timeline/clutch.png'
+        alt='Clutch logo'
+      />,
     ],
     heading: '2018',
     subheading: '',
@@ -111,10 +118,11 @@ export const story: readonly Story[] = [
   {
     images: [],
     logos: [
-      {
-        src: '/images/5c597db37cfe14a8e24f4a0f_bright_inventions_logo_500-01.png',
-        alt: 'Logo from 2001',
-      },
+      <StaticImage
+        src='../../../../static/images/5c597db37cfe14a8e24f4a0f_bright_inventions_logo_500-01.png'
+        alt='Logo from 2001'
+        objectFit={'contain'}
+      />,
     ],
     heading: '2019',
     subheading: '',
@@ -122,18 +130,18 @@ export const story: readonly Story[] = [
   },
   {
     images: [
-      {
-        src: '/images/why-us/timeline/Magda2020.png',
-        alt: 'Magda',
-      },
-      {
-        src: '/images/why-us/timeline/Maciej2020.png',
-        alt: 'Maciej',
-      },
-      {
-        src: '/images/why-us/timeline/bartek2020.png',
-        alt: 'Bartek',
-      },
+      <StaticImage
+        src='../../../../static/images/why-us/timeline/Magda2020.png'
+        alt='Magda'
+      />,
+      <StaticImage
+        src='../../../../static/images/why-us/timeline/Maciej2020.png'
+        alt='Maciej'
+      />,
+      <StaticImage
+        src='../../../../static/images/why-us/timeline/bartek2020.png'
+        alt='Bartek'
+      />,
     ],
     logos: [],
     heading: '2020',
@@ -143,10 +151,10 @@ export const story: readonly Story[] = [
   {
     images: [],
     logos: [
-      {
-        src: '/images/bright-treasury.png',
-        alt: 'Bright Treasury',
-      },
+      <StaticImage
+        src='../../../../static/images/bright-treasury.png'
+        alt='Bright Treasury'
+      />,
     ],
     heading: '2021',
     subheading: '',
@@ -155,10 +163,10 @@ export const story: readonly Story[] = [
   {
     images: [],
     logos: [
-      {
-        src: '/images/why-us/timeline/birthday_2022.png',
-        alt: 'Bright Inventions 10th birthday',
-      },
+      <StaticImage
+        src='../../../../static/images/why-us/timeline/birthday_2022.png'
+        alt='Bright Inventions 10th birthday'
+      />,
     ],
     heading: '2022',
     subheading: '',
@@ -167,10 +175,10 @@ export const story: readonly Story[] = [
   {
     images: [],
     logos: [
-      {
-        src: '/images/why-us/timeline/lyvia_timeline.png',
-        alt: 'Mirovia',
-      },
+      <StaticImage
+        src='../../../../static/images/why-us/timeline/lyvia_timeline.png'
+        alt='Mirovia'
+      />,
     ],
     heading: '2023',
     subheading: '',

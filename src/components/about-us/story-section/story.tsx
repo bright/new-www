@@ -404,11 +404,11 @@ export function StoryComponent() {
                         <PositionContentWrapper positionLeft={isLeft}>
                           <ContentWrapper positionLeft={isLeft} positionFirst={isFirst} positionLast={isLast}>
                             <ImageWrapper>
-                              {item.images?.map(image => (
-                                <TimelineImage key={image.src} {...image} />
+                              {item.images?.map((image, ix) => (
+                                <TimelineImage key={ix} image={image} />
                               ))}
-                              {item.logos?.map(image => (
-                                <TimelineLogo key={image.src} {...image} />
+                              {item.logos?.map((image, ix) => (
+                                <TimelineLogo key={ix} image={image} />
                               ))}
                             </ImageWrapper>
 
@@ -428,12 +428,12 @@ export function StoryComponent() {
         <PositionContentWrapper>
           <ContentWrapper positionFirst={selectedIndex == 0} positionLast={selectedIndex == story.length - 1}>
             <ImageWrapper>
-              {story[selectedIndex].images?.map(image => (
-                <TimelineImage key={image.src} {...image} />
+              {story[selectedIndex].images?.map((image, ix) => (
+                <TimelineImage key={ix} image={image} />
               ))}
-              {story[selectedIndex].logos?.map(image => (
-                <TimelineLogo key={image.src} {...image} />
-              ))}
+              {story[selectedIndex].logos?.map(((image, ix) => (
+                <TimelineLogo key={ix} image={image}/>
+              )))}
             </ImageWrapper>
 
             <TextRegular>{story[selectedIndex].content}</TextRegular>
