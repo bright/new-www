@@ -35,7 +35,7 @@ name: cloud services
 slug: cloud-services
 short_description: We are experts in AWS cloud development. We build cloud
   applications and help with cloud migration.
-order: 6
+order: 5
 title: join the future with cloud computing services
 highlighted_word: cloud computing
 image_our_service_desktop: /images/cloud_services_desktop_big.png
