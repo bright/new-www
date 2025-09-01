@@ -35,7 +35,7 @@ slug: custom-software-development
 short_description: Our custom software serves the unique processes of your
   business, solves particular problems and makes your workflows more efficient.
   We will help you throughout all of the software delivery phases.
-order: 1
+order: 11
 title: be unique with custom software development
 highlighted_word: custom software
 image_our_service_desktop: /images/custom_software_development_desktop_big.png
