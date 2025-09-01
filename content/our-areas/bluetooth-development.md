@@ -36,7 +36,7 @@ slug: bluetooth-development
 short_description: We have developed Bluetooth applications for international
   clients representing the retail, healthcare, and fitness industries. Our team
   specializes in Bluetooth Low Energy and iBeacon technology.
-order: 11
+order: 13
 title: scale your app with secure Bluetooth
 highlighted_word: Bluetooth
 image_our_service_desktop: /images/bluetooth_development_services_desktop_big.png
