@@ -117,7 +117,7 @@ export const Header = () => {
         <HeroWrapper>
           <div>
             <h1 className={classNames('title mt-6', styles.title)}>
-              let's create software that <span>matters</span>
+              let's create digital products that <span>matters</span>
             </h1>
           </div>
         </HeroWrapper>

@@ -30,7 +30,7 @@ const HowWeWorkDescriptionMobile = () => {
     <Container>
       <ContentWrapper>
         <ParagraphTextWrapper>
-          We offer custom software development for organizations of all shapes
+          We offer custom digital products for organizations of all shapes
           and sizes – from emerging startups, mid-sized companies and
           consultancy agencies, to renowned NGOs and international
           organizations. Our clients come from multiple industries, including

@@ -45,7 +45,7 @@ const WhatWeOfferPage: React.FocusEventHandler = () => {
       >
         <CustomTextRegular>
           <CustomSectionInner>
-            We offer custom software development for organizations of all shapes and sizes – from emerging startups,
+            We offer custom digital products for organizations of all shapes and sizes – from emerging startups,
             mid-sized companies and consultancy agencies, to renowned NGOs and international organizations. Our clients
             come from multiple industries, including FinTech, Blockchain, HealthTech, Retail, Logistics, and more.
           </CustomSectionInner>
