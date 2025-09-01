@@ -31,9 +31,7 @@ meta_description: We are a web development company from Poland. We have built
 our_services_icon: /images/web_dedelopment2.png
 name: web development
 slug: web-development
-short_description: We provide a wide range of custom full stack web development
-  services. We rely on a rich technology stack, including JavaScript, CSS, HTML,
-  Java, Node.js, AWS, and more.
+short_description: We help organizations build and scale digital products through custom full-stack web development. Our expertise spans technologies like JavaScript, CSS, HTML, Java, Node.js, AWS, and more.
 order: 2
 title: build solution with web development team
 highlighted_word: web
