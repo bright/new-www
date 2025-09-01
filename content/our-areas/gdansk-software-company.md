@@ -116,7 +116,9 @@ We are **Bright Inventions – a company proudly located in the city, just 15 mi
 
 ## our expertise
 
-We offer custom software development for organizations of all shapes and sizes – from emerging startups, mid-sized companies, and consultancy agencies, to renowned NGOs and international organizations.
+From concept to launch, we help organizations of all shapes and sizes build impactful digital products. Our
+clients – ranging from startups and consultancies to renowned NGOs and global organizations – operate in
+FinTech, Blockchain, HealthTech, Retail, Logistics, and more.
 
 ### [IoT development](/our-areas/iot-development/)
 

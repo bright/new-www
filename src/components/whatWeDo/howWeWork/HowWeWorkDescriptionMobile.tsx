@@ -30,10 +30,8 @@ const HowWeWorkDescriptionMobile = () => {
     <Container>
       <ContentWrapper>
         <ParagraphTextWrapper>
-          We offer custom digital products for organizations of all shapes
-          and sizes – from emerging startups, mid-sized companies and
-          consultancy agencies, to renowned NGOs and international
-          organizations. Our clients come from multiple industries, including
+          From concept to launch, we help organizations of all shapes and sizes build impactful digital products. Our
+          clients – ranging from startups and consultancies to renowned NGOs and global organizations – operate in
           FinTech, Blockchain, HealthTech, Retail, Logistics, and more.
         </ParagraphTextWrapper>
         <ParagraphTextWrapper>

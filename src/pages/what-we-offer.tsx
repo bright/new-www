@@ -4,7 +4,7 @@ import Banners from '../components/whatWeDo/banners/Banners'
 import { Contact } from '../components/shared/Contact'
 import HowWeWork from '../components/whatWeDo/howWeWork/HowWeWork'
 import OurDevelopmentAreas from '../components/whatWeDo/ourDevelopmentAreas/OurDevelopmentAreas'
-import { CustomSection, CustomPageTitle, CustomSectionInner } from '../components/shared'
+import { CustomPageTitle, CustomSection, CustomSectionInner } from '../components/shared'
 import TechnologyTags from '../components/shared/TechnologyTags'
 import { Page } from '../layout/Page'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
@@ -45,9 +45,9 @@ const WhatWeOfferPage: React.FocusEventHandler = () => {
       >
         <CustomTextRegular>
           <CustomSectionInner>
-            We offer custom digital products for organizations of all shapes and sizes – from emerging startups,
-            mid-sized companies and consultancy agencies, to renowned NGOs and international organizations. Our clients
-            come from multiple industries, including FinTech, Blockchain, HealthTech, Retail, Logistics, and more.
+            From concept to launch, we help organizations of all shapes and sizes build impactful digital products. Our
+            clients – ranging from startups and consultancies to renowned NGOs and global organizations – operate in
+            FinTech, Blockchain, HealthTech, Retail, Logistics, and more.
           </CustomSectionInner>
         </CustomTextRegular>
       </CustomSection>
