@@ -40,7 +40,7 @@ name: POS software development
 slug: pos-software-development
 short_description: We build custom POS solutions for hospitality and retail,
   successfully scaling POS systems from MVP to global solutions.
-order: 102
+order: 5
 title: scale your business with experienced POS development company
 highlighted_word: POS
 image_our_service_desktop: /images/pos_software_development_web.png
