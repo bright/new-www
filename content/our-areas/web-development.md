@@ -32,7 +32,7 @@ our_services_icon: /images/web_dedelopment2.png
 name: web development
 slug: web-development
 short_description: We help organizations build and scale digital products through custom full-stack web development. Our expertise spans technologies like JavaScript, CSS, HTML, Java, Node.js, AWS, and more.
-order: 112
+order: 3
 title: build solution with web development team
 highlighted_word: web
 image_our_service_desktop: /images/web_development_desktop_big.png
