@@ -27,7 +27,7 @@ name: custom asset tracking
 slug: asset-tracking
 short_description: We develop tailored asset tracking solutions when
   off-the-shelf tools just don’t fit your business needs.
-order: 104
+order: 14
 title: build custom asset tracking tailored to your needs
 highlighted_word: asset tracking
 image_our_service_desktop: /images/zebra_integrations_desktop.png
