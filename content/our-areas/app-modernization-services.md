@@ -31,7 +31,7 @@ slug: app-modernization
 short_description: We transform legacy systems into modern, scalable, and
   efficient applications ensuring security, top-notched UI and integrations with
   external providers and devices.
-order: 3
+order: 5
 title: give your legacy new life with app modernization
 highlighted_word: app modernization
 image_our_service_desktop: /images/legacy_revamp_new.png

@@ -16,16 +16,16 @@ project:
   - card-reader
 layout: our-service
 our_service_id: AI development
-meta_title: AI Development Company
+meta_title: AI Solutions Company
 meta_description: As an AI development company, we build secure AI solutions.
   From generative AI & machine learning to prompt engineering, we will enhance
   your business with AI.
 our_services_icon: /images/ai_development_icon_update.png
-name: AI development
+name: AI solutions
 slug: ai-software-development
 short_description: We build secure AI solutions. From generative AI & machine
   learning to prompt engineering, we will enhance your business with AI.
-order: 5
+order: 3
 title: build secure and trustworthy AI solutions
 highlighted_word: AI
 image_our_service_desktop: /images/ai_development_agency_update.png

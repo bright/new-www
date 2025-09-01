@@ -19,7 +19,7 @@ name: Zebra Technologies integrations
 slug: zebra-technologies-integrations
 short_description: Stop losing track — we build custom software that powers your
   Zebra Technologies devices.
-order: 99
+order: 113
 title: tailored software that powers your Zebra Technologies devices
 highlighted_word: Zebra Technologies
 image_our_service_desktop: /images/zebra_integrations_desktop_partner_logo.png

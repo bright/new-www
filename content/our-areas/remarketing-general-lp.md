@@ -25,7 +25,7 @@ our_services_icon: /images/bluetooth_development_icon.png
 name: Remarketing general LP
 slug: welcome-back
 short_description: Check out how we can help you solve technical hurdles!
-order: 99
+order: 108
 title: hello, great to see you again!
 highlighted_word: see you
 image_our_service_desktop: /images/welcome_back_desktop.png

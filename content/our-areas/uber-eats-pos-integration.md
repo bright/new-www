@@ -21,7 +21,7 @@ our_services_icon: /images/1test.png
 name: Uber Eats POS integration
 slug: uber-eats-pos-integration
 short_description: Uber Eats and POS (Point-of-Sale) Integration for hospitality.
-order: 1
+order: 110
 title: connect Uber Eats with your POS on your terms
 highlighted_word: Uber Eats
 image_our_service_desktop: /images/food_delivery_photo_case_study.png

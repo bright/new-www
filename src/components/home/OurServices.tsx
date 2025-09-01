@@ -8,14 +8,16 @@ import {
   CustomSectionTitle,
   CustomContainer,
 } from '../shared'
-import AgileWorkshopsIcon from '../../assets/agileWorkshops.svg'
-import MobileAppDevelopmentIcon from '../../assets/mobileAppDevelopment.svg'
-import ProductDesignIcon from '../../assets/productDesign.svg'
-import WebDevelopmentIcon from '../../assets/webDevelopment.svg'
 import { routeLinks } from '../../config/routing'
 import * as styles from './ourServices/OurServices.module.scss'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
+import { StaticImage } from 'gatsby-plugin-image'
+
+const AiDevelopmentIcon = () => <StaticImage src={'../../../static/images/ai_development_icon_update.png'} alt={'AI development'} />
+const IotDevelopmentIcon = () => <StaticImage src={'../../../static/images/iot_development2.png'} alt={'IoT development'} />
+const CustomSoftwareDevelopmentIcon = () => <StaticImage src={'../../../static/images/custom_software_development2.png'} alt={'Custom software development'} />
+const ProductWorkshopIcon = () => <StaticImage src={'../../../static/images/product_workshops2.png'} alt={'product workshops'} />
 
 const OurTextTitle = styled(CustomTextTitle)`
   color: ${variables.color.text};
@@ -61,32 +63,32 @@ const OurSerwicesTextRegular = styled(CustomTextRegular)`
 
 const services = [
   {
-    icon: WebDevelopmentIcon,
-    title: 'web development',
+    icon: CustomSoftwareDevelopmentIcon,
+    title: 'custom software development',
     description:
-      'We provide a wide range of custom full stack web development services. We rely on a rich technology stack, including JavaScript, CSS, HTML, Java, Node.js, AWS, MySQL, PostgreSQL, and more.',
-    direction: '/our-areas/web-development',
+      'Our custom software serves the unique processes of your business, solves particular problems and makes your workflows more efficient. We will help you throughout all of the software delivery phases.',
+    direction: '/our-areas/custom-software-development',
   },
   {
-    icon: MobileAppDevelopmentIcon,
-    title: 'mobile development',
+    icon: ProductWorkshopIcon,
+    title: 'product workshops',
     description:
-      'We offer native mobile app development for iOS and Android. Our app development team has broad experience in building applications in Swift, Java, and Kotlin.',
-    direction: '/our-areas/mobile-app-development',
-  },
-  {
-    icon: ProductDesignIcon,
-    title: 'product design',
-    description:
-      'You can count on our expertise in interface analysis, animation design, UX and UI design, root cause analysis, and more. We have worked on design projects of all sizes.',
+      'We will help you discover your product idea, set your product goals, understand the pitfalls and find the solution on how to make your product better.',
     direction: '/our-areas/product-design',
   },
   {
-    icon: AgileWorkshopsIcon,
-    title: 'agile workshops',
+    icon: AiDevelopmentIcon,
+    title: 'AI solutions',
     description:
-      'Our customers come from all sorts of industries and disciplines, both technical and non-technical. However, regardless of their background…',
-    direction: '/our-areas/agile-workshops',
+      'We build secure AI solutions. From generative AI & machine learning to prompt engineering, we will enhance your business with AI.',
+    direction: '/our-areas/ai-software-development',
+  },
+  {
+    icon: IotDevelopmentIcon,
+    title: 'IoT solutions',
+    description:
+      'We specialise in the Internet of Things solutions. We build IoT software for restaurants, retail, eHealth and fintech industries.',
+    direction: '/our-areas/iot-development',
   },
 ]
 
@@ -98,7 +100,7 @@ export const OurServices: React.FC = () => {
         <div className={styles.seviceswrapper}>
           {services.map((service, index) => (
             <Link to={service.direction} key={index} className={styles.service}>
-              <div className={styles.icon}>
+              <div>
                 <service.icon />
               </div>
               <OurTextTitle>{service.title}</OurTextTitle>

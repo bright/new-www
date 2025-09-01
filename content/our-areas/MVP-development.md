@@ -35,7 +35,7 @@ name: MVP development
 slug: mvp-development
 short_description: Build an MVP to shorten time to market. We have developed
   MVPs for startups, NGOs and consulting agencies. Let’s work on your MVP.
-order: 4
+order: 104
 title: launch your idea with MVP development agency
 highlighted_word: MVP
 image_our_service_desktop: /images/mvp_development_company_desktop_big.png

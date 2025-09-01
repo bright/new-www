@@ -37,11 +37,11 @@ meta_description: We are a leading IoT solutions company, offering IoT
   application development and IoT integration services in the UK and the USA.
   Contact us today!
 our_services_icon: /images/iot_development2.png
-name: IoT development
+name: IoT solutions
 slug: iot-development
 short_description: We specialise in the Internet of Things solutions. We build
   IoT software for restaurants, retail, eHealth and fintech industries.
-order: 9
+order: 4
 title: discover the impact of IoT solutions company
 highlighted_word: IoT
 image_our_service_desktop: /images/iot_development_company_desktop_big.png
@@ -65,9 +65,9 @@ button2: let's talk about IoT services
 published: true
 show_case_study: true
 show_technology_stack: true
-title_team: meet IoT development team
-title_case_study: IoT development that we’ve worked on
-title_faqs: IoT development FAQs
+title_team: meet IoT solutions team
+title_case_study: IoT solutions that we’ve worked on
+title_faqs: IoT solutions FAQs
 title_contact: book a call to discuss your tech challenges
 description_contact: Fill out the form below and we'll get back to you within 1
   business day! Let's talk!
@@ -98,8 +98,8 @@ boxes:
       between IoT devices, cloud platforms, and apps, scaling solutions for
       industry leaders like **Just Eat Takeaway.com**.  
     box_icon: /images/mvp_icon.png
-  - box_title: industrial IoT development
-    box_description: Our **Industrial IoT development** solutions focus on
+  - box_title: industrial IoT solutions
+    box_description: Our **Industrial IoT** solutions focus on
       applications for manufacturing, logistics, helping optimize operations and
       reduce downtime.
     box_icon: /images/icon_pos_featuresx2.png
@@ -144,7 +144,7 @@ testimonials:
     testimonials_company: Relevo
     testimonials_photo: /images/matthias_potthast.png
 image_alt_our_service_mobile: IoT company
-description_mdx: We are Bright Inventions – a software development company
+description_mdx: We are Bright Inventions – a digital product company
   specializing in the Internet of Things solutions. We build IoT software for
   restaurants, retail, eHealth and fintech industries. Since 2012 we have
   developed software for more than 40 clients from the USA, the UK, Norway,

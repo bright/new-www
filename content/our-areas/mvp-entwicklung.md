@@ -30,7 +30,7 @@ slug: mvp-entwicklung-agentur
 short_description: Erstellen Sie ein MVP, um die Markteinführungszeit zu
   verkürzen. Wir haben MVPs für Startups, NGOs und Beratungsagenturen
   entwickelt. Lassen Sie uns an Ihrem MVP arbeiten.
-order: 99
+order: 109
 title: MVP Entwicklung
 highlighted_word: MVP
 image_our_service_desktop: /images/mvp_development_company_desktop_big.png
