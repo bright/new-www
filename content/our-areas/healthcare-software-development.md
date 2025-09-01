@@ -44,7 +44,7 @@ name: healthcare software development
 slug: healthcare-software-development
 short_description: Over the course of a decade, we have partnered with numerous
   startups and SMEs representing the healthcare industry.
-order: 100
+order: 16
 title: scale trusted solutions with healthcare technology consulting
 highlighted_word: healthcare
 image_our_service_desktop: /images/healthtech_consulting_desktop_update.png
