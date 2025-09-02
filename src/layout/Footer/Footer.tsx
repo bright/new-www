@@ -76,9 +76,6 @@ export const Footer = () => {
             <li>
               <Link to={routeLinks.agencyGdansk}>software development studio in Gdansk</Link>
             </li>
-            <li>
-              <Link to={routeLinks.posDevelopmentBlog}>POS development</Link>
-            </li>
           </List>
         </DesktopOnlyBox>
 
@@ -86,19 +83,16 @@ export const Footer = () => {
           <Header>services</Header>
           <List>
             <li>
-              <Link to={routeLinks.webDevelopment}>web development</Link>
-            </li>
-            <li>
               <Link to={routeLinks.mobileDevelopment}>mobile development</Link>
             </li>
             <li>
-              <Link to={routeLinks.healthcareDevelopment}>healthcare software development</Link>
+              <Link to={routeLinks.aiDevelopment}>AI solutions</Link>
             </li>
             <li>
-              <Link to={routeLinks.bluetoothDevelopment}>bluetooth development</Link>
+              <Link to={routeLinks.webDevelopment}>web development</Link>
             </li>
             <li>
-              <Link to={routeLinks.mvpdDevelopment}>MVP development agency</Link>
+              <Link to={routeLinks.iotSolutions}>IoT solutions</Link>
             </li>
           </List>
         </DesktopOnlyBox>

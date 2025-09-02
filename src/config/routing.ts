@@ -44,6 +44,8 @@ export const routeLinks = {
          startProject: '/start-project/',
          privacyPolicy: '/privacy-policy',
          webDevelopment: '/our-areas/web-development',
+         iotSolutions: '/our-areas/iot-development',
+         aiDevelopment: '/our-areas/ai-software-development',
          mobileDevelopment: '/our-areas/mobile-app-development/',
          blockchainDevelopment: '/our-areas/blockchain/',
          bluetoothDevelopment: '/our-areas/bluetooth-development/',
