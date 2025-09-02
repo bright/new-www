@@ -36,9 +36,7 @@ project:
 layout: our-service
 our_service_id: healthcare software development
 meta_title: Healthcare Technology Consulting
-meta_description: Since 2012, we’ve built cutting-edge HealthTech solutions for
-  clients in the UK, Germany, Israel & beyond. Get expert healthcare software
-  development today!
+meta_description: Since 2012, we’ve built cutting-edge HealthTech solutions for clients in the UK, Germany, Israel & beyond. Work with a digital products agency experienced in healthcare software development.
 our_services_icon: /images/healthcare_software_development.png
 name: healthcare software development
 slug: healthcare-software-development

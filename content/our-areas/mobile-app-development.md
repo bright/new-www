@@ -25,9 +25,7 @@ project:
 layout: our-service
 our_service_id: mobile app development
 meta_title: Mobile App Development
-meta_description: We are a mobile app development company from Poland. We
-  specialise in building native apps for iOS and Android. Looking for app
-  developers? Contact us!
+meta_description: We are a digital products agency from Poland. We specialise in building native apps for iOS and Android. Looking for app developers? Contact us!
 our_services_icon: /images/mobile_app_development2.png
 name: mobile app development
 slug: mobile-app-development

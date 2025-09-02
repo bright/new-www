@@ -24,10 +24,8 @@ project:
   - invoice-system
 layout: our-service
 our_service_id: web development
-meta_title: Web Development Company
-meta_description: We are a web development company from Poland. We have built
-  web apps, web services and websites for clients from USA, UK, Israel and more.
-  Contact us!
+meta_title: Web Development Services
+meta_description: We are a digital products agency from Poland. We build web apps, web services and websites for clients from the USA, UK, Israel and more. Contact us!
 our_services_icon: /images/web_dedelopment2.png
 name: web development
 slug: web-development

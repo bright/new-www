@@ -27,9 +27,7 @@ project:
 layout: our-service
 our_service_id: bluetooth development
 meta_title: Bluetooth Development
-meta_description: We are a Bluetooth app development company based in Poland.
-  Our Android & iOS development teams specialize in Bluetooth Low Energy and
-  iBeacon technology.
+meta_description: We are a digital products agency based in Poland. Our Android & iOS teams specialize in Bluetooth Low Energy and iBeacon technology.
 our_services_icon: /images/bluetooth_development_icon.png
 name: bluetooth development
 slug: bluetooth-development

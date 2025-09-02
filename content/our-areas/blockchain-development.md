@@ -28,10 +28,8 @@ project:
   - cryptoAtlas
 layout: our-service
 our_service_id: blockchain development
-meta_title: Blockchain Development Company
-meta_description: We are a blockchain development company from Poland. We
-  specialise in building solutions based on Ethereum and Substrate blockchain.
-  Contact us!
+meta_title: Blockchain Solutions
+meta_description: We are a digital products agency from Poland. We specialise in building blockchain solutions based on Ethereum and Substrate. Contact us!
 our_services_icon: /images/blockchain_development2.png
 name: blockchain development
 slug: blockchain

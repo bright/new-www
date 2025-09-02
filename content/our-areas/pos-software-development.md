@@ -31,10 +31,8 @@ project:
   - tap-to-pay
 layout: our-service
 our_service_id: POS development
-meta_title: POS Software Development Company
-meta_description: Offering POS software development services since 2012.
-  Building, scaling and modernizing custom point of sale for hospitality and
-  retail.
+meta_title: POS Software Development
+meta_description: A digital products agency offering POS software development services since 2012. Building, scaling and modernizing custom point of sale for hospitality and retail.
 our_services_icon: /images/pos_software_development_icon.png
 name: POS software development
 slug: pos-software-development

@@ -27,9 +27,7 @@ project:
 layout: our-service
 our_service_id: cloud services
 meta_title: Cloud Computing Services
-meta_description: We are a software development agency from Poland offering
-  cloud services based on AWS. We assist clients with cloud migration and
-  develop cloud-native apps.
+meta_description: We are a digital products agency from Poland offering cloud services based on AWS. We assist clients with cloud migration and develop cloud-native apps.
 our_services_icon: /images/cloud-services2.png
 name: cloud services
 slug: cloud-services
