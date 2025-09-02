@@ -32,7 +32,7 @@ our_services_icon: /images/mobile_app_development2.png
 name: mobile app development
 slug: mobile-app-development
 short_description: We design and build native mobile apps for iOS and Android that deliver real value. Our team is skilled in Swift and Kotlin creating digital products users love
-order: 101
+order: 1
 title: build native apps with mobile development team
 highlighted_word: mobile
 image_our_service_desktop: /images/mockup_web.png
