@@ -128,15 +128,6 @@ export const Footer = () => {
         <Box style={{ gridArea: 'disclaimer' }}>
           <Partners>
             <PartnerLink
-              href='https://www.lyviagroup.com'
-              target='_blank'
-              rel='noopener noreferrer nofollow'
-              style={{ width: '60px'}}
-            >
-              <LyviaLogo />
-            </PartnerLink>
-
-            <PartnerLink
                href='https://www.zebra.com/pl/pl/partners/partner-application-locator/partner-details.html?id=0016S00003NQa9WQAT'
                target='_blank'
                rel='noopener noreferrer nofollow'
