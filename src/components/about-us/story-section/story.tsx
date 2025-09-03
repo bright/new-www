@@ -4,7 +4,7 @@ import { story } from './story-data'
 import { CustomSection, TextRegular } from '../../shared'
 import variables, { deviceSize } from '../../../styles/variables'
 import { clampBuilder } from '../../../helpers/clampBuilder'
-import { TimelineImage, TimelineLogo } from '../../timeline'
+import { TimelineAvatar, TimelineImage, TimelineLogo } from '../../timeline'
 import { useWindowSize } from '../../utils/use-windowsize'
 import { useScrollPosition } from '../../utils/use-scrollposition'
 import { StoryNavigation } from './StoryNavigation'
@@ -245,19 +245,32 @@ const ImageWrapper = styled.div`
   gap: ${variables.pxToRem(32)};
   padding-bottom: ${variables.pxToRem(36)};
 
-  & div:not(.logo) {
+  & div:not(.timeline-logo) {
     overflow: hidden;
-    transition: all 0.3s ease 0s;
-    width: ${variables.pxToRem(107)};
-    height: ${variables.pxToRem(107)};
     flex-basis: auto;
+  }
 
-    & img {
-      border-radius: ${variables.pxToRem(180)};
-      border: 1px solid rgb(211, 211, 211);
-      width: ${variables.pxToRem(107)};
-      height: auto;
+  .timeline-logo, .timeline-image, .timeline-avatar {
+    border-radius: ${variables.pxToRem(180)};
+    border: 1px solid rgb(211, 211, 211);
+    overflow: hidden;
+  }
+
+  .timeline-logo, .timeline-image {
+    padding: 15px;
+  }
+
+  .gatsby-image-wrapper {
+    width: ${variables.pxToRem(107)};
+
+    img {
+      object-fit: contain;
+      transition: none;
     }
+  }
+
+  .timeline-avatar .gatsby-image-wrapper {
+    width: ${variables.pxToRem(107 + 15 * 2)};
   }
 
   @media ${variables.device.tabletXL} {
@@ -265,14 +278,15 @@ const ImageWrapper = styled.div`
     padding-bottom: ${variables.pxToRem(23)};
     flex-flow: row;
     flex-wrap: wrap;
-    & div:not(.logo) {
+
+    .gatsby-image-wrapper {
       width: ${variables.pxToRem(80)};
       height: ${variables.pxToRem(80)};
+    }
 
-      & img {
-        width: ${variables.pxToRem(80)};
-        height: ${variables.pxToRem(80)};
-      }
+    .timeline-avatar .gatsby-image-wrapper {
+      width: ${variables.pxToRem(80 + 15 * 2)};
+      height: ${variables.pxToRem(80 + 15 * 2)};
     }
   }
 `
@@ -410,6 +424,9 @@ export function StoryComponent() {
                               {item.logos?.map((image, ix) => (
                                 <TimelineLogo key={ix} image={image} />
                               ))}
+                              {item.avatars?.map((image, ix) => (
+                                <TimelineAvatar key={ix} image={image} />
+                              ))}
                             </ImageWrapper>
 
                             <TextRegular>{item.content}</TextRegular>
@@ -433,6 +450,9 @@ export function StoryComponent() {
               ))}
               {story[selectedIndex].logos?.map(((image, ix) => (
                 <TimelineLogo key={ix} image={image}/>
+              )))}
+              {story[selectedIndex].avatars?.map(((image, ix) => (
+                <TimelineAvatar key={ix} image={image}/>
               )))}
             </ImageWrapper>
 
