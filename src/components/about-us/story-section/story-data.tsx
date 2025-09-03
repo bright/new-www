@@ -184,7 +184,7 @@ export const story: readonly Story[] = [
     ],
     heading: '2022',
     subheading: '',
-    content: `We celebrated 10th birthday! Also, we joined the Nordic Group Lyvia (prev. Mirovia).`
+    content: `We celebrated 10th birthday!`
   },
   {
     images: [],
