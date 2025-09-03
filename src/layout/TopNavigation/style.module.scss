@@ -18,6 +18,10 @@
     color: #0a0a0a;
     font-size: 0;
 
+    .logo {
+      max-height: 76px;
+    }
+
     .logo.small {
       display: none;
     }
