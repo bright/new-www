@@ -67,8 +67,9 @@ export const gatsbyMdxOptions = {
     {
       resolve: `gatsby-remark-autolink-headers`
     },
-    {
-      resolve: `gatsby-remark-b2b-blog-component`
-    }
+    // TODO: we need more granularity
+    // {
+    //   resolve: `gatsby-remark-b2b-blog-component`
+    // }
   ]
 }
