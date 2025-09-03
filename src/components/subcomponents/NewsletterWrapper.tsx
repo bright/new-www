@@ -4,6 +4,6 @@ import { InView } from 'react-intersection-observer'
 
 export default function NewsletterWrapper() {
   return <InView>
-    {({ inView, ref }) => (<div ref={ref}>({inView && <Newsletter />})</div>)}
+    {({ inView, ref }) => <div ref={ref}>({inView && <Newsletter />})</div>}
   </InView>
 }
