@@ -43,7 +43,7 @@ title: scale your business with experienced POS development company
 highlighted_word: POS
 image_our_service_desktop: /images/pos_software_development_web.png
 image_our_service_mobile: /images/pos_software_development_mobile.png
-image_alt_our_service: POS software development company
+image_alt_our_service: POS digital products agency
 video_file: ""
 bullet_points:
   - integrations with retail devices and third-party systems
@@ -68,7 +68,7 @@ button2: book a free consultation
 published: true
 show_case_study: true
 show_technology_stack: true
-title_team: POS software development company – our team
+title_team: POS digital products agency – our team
 title_case_study: POS development – our clients' stories
 title_faqs: custom POS software development – FAQs
 title_contact: book a call to discuss your custom POS system
@@ -169,4 +169,4 @@ show_team: false
 ---
 ## what we offer as a leading POS development company
 
-For over 12 years, we have been designing and building **custom POS systems** for hospitality, particularly restaurants, as well as retail businesses. As an experienced **POS software development company**, we specialize in **custom POS software development** to meet your unique business needs. What can we do for you?
+For over 12 years, we have been designing and building **custom POS systems** for hospitality, particularly restaurants, as well as retail businesses. As an experienced **POS digital products agency**, we specialize in **custom POS software development** to meet your unique business needs. What can we do for you?

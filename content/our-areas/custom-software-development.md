@@ -69,11 +69,11 @@ description_contact: Fill out the form below, and we’ll get back to you within
 blog_section_tags:
   - programming
 blog_section_title: blog posts
-image_alt_our_service_desktop: custom software development company
+image_alt_our_service_desktop: custom digital products agency
 blog_section: false
 intro: We help to address your clients needs.
 language: en
-image_alt_our_service_mobile: custom software development company
+image_alt_our_service_mobile: custom digital products agency
 description_mdx: Every business is unique. Bespoke software development can
   truly address your needs, challenges, and goals. By adopting a personalized
   approach for your software development, we also simplify and optimize your
@@ -83,7 +83,7 @@ show_team: false
 ---
 ## is custom application development a good fit for you?
 
-If your business needs an individual approach and flexible development process, a custom software development company like Bright Inventions will be a perfect fit for you. 
+If your business needs an individual approach and flexible development process, a custom digital products agency like Bright Inventions will be a perfect fit for you. 
 
 We help our customers throughout all software delivery phases: from ideation and requirements’ elicitation, through product design and Agile project management to software development, quality assurance, and maintenance.
 

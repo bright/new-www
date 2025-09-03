@@ -28,7 +28,7 @@ title: build secure and trustworthy AI solutions
 highlighted_word: AI
 image_our_service_desktop: /images/ai_development_agency_update.png
 image_our_service_mobile: /images/ai_development_mobile_full.png
-image_alt_our_service: AI software development company
+image_alt_our_service: AI digital products agency
 bullet_points:
   - partner with an EU-based company
   - explore generative AI potential for your business

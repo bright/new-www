@@ -21,7 +21,7 @@ const ProductIdea: FC<ProductIdeaProps> = props => {
       <SectionTitle className='is-size-3'>let’s talk about your product idea</SectionTitle>
       <SectionDescription className='column is-8 is-offset-2 mb-6 has-text-centered'>
         Have an idea for a groundbreaking software project, but don’t know where to start? Or maybe you’re looking for
-        software development experts to help take your product to the next level? We’ll be more than happy to discuss
+        digital product experts to help take your product to the next level? We’ll be more than happy to discuss
         how we can help your business succeed! Fill the form below, or drop us a line via{' '}
         <a href='mailto:info@bright.dev?subject=bright%20mail'>info@bright.dev</a>
       </SectionDescription>

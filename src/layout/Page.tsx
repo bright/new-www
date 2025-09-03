@@ -24,7 +24,7 @@ export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ chil
       })}
     >
       <HelmetMetaData
-        title='Software Development Company'
+        title='Digital Products Agency'
         language={i18n.language}
         description='Top custom digital products company in Poland specialising in mobile & web apps, Blockchain, Bluetooth and IoT.'
         url={pathname}

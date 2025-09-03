@@ -139,7 +139,7 @@ By integrating **Bluetooth devices and IoT networks**, we enable continuous **re
 
 ### remote patient monitoring solutions
 
-**Our healthcare software development company** uses advanced **cloud computing** to develop **EHR software solutions** that enable secure, real-time access to patient records. As **healthcare technology company** we design systems  to comply with HIPAA and GDPR, ensuring secure and efficient management of health information and patient data. Additionally, we provide the capability to access data even when offline, enhancing accessibility and reliability
+**Our healthcare digital products agency** uses advanced **cloud computing** to develop **EHR software solutions** that enable secure, real-time access to patient records. As **healthcare technology company** we design systems  to comply with HIPAA and GDPR, ensuring secure and efficient management of health information and patient data. Additionally, we provide the capability to access data even when offline, enhancing accessibility and reliability
 
 ### EHR (Electronic health record) solutions
 
@@ -155,7 +155,7 @@ From **[pregnancy and postpartum support apps](/projects/pregnancy-app/)** to fe
 
 ### eMAR (electronic medication administration record)
 
-Medication distribution is a critical yet error-prone healthcare process. As an experienced **healthcare software development company**, we specialize in **eMAR software solutions** that optimize medication tracking, improve safety, and streamline medical workflows.
+Medication distribution is a critical yet error-prone healthcare process. As an experienced **healthcare digital products agency**, we specialize in **eMAR software solutions** that optimize medication tracking, improve safety, and streamline medical workflows.
 
 ### mental health technology
 

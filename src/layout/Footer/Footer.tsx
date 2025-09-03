@@ -74,7 +74,7 @@ export const Footer = () => {
               </a>
             </li>
             <li>
-              <Link to={routeLinks.agencyGdansk}>software development studio in Gdansk</Link>
+              <Link to={routeLinks.agencyGdansk}>digital products agency in Gdansk</Link>
             </li>
           </List>
         </DesktopOnlyBox>

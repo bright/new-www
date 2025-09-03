@@ -78,7 +78,7 @@ blog_section: false
 intro: We are blockchain experts ready to assist you.
 language: en
 image_alt_our_service_mobile: blockchain development company
-description_mdx: We are a software development company that **specialises in
+description_mdx: We are a digital products agency that **specialises in
   blockchain technology**. Blockchain is a groundbreaking technology that goes
   far beyond cryptocurrency services. Tell us more about your blockchain project
   and we will let you know how we can help you.

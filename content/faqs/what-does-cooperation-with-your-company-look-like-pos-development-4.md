@@ -3,7 +3,7 @@ layout: faqs
 faqs_id: What does cooperation with your company look like? POS development 4
 name: What does cooperation with your company look like? POS development 4
 slug: what-does-cooperation-with-your-company-look-like
-question: What does cooperation with your POS software development company look like?
+question: What does cooperation with your POS digital products agency look like?
 answer: >-
   Our collaboration begins with **kickoff workshops** where you will meet the
   **POS development** team. Together, we will **establish communication channels
@@ -23,7 +23,7 @@ answer: >-
   * Take full responsibility for **POS system development**, ensuring the successful growth of your product with high-quality deliverables.
 
 
-  As a trusted **POS software development company**, we are committed to providing tailored, scalable **custom point of sale** solutions that help businesses thrive in a competitive market.
+  As a trusted **POS digital products agency**, we are committed to providing tailored, scalable **custom point of sale** solutions that help businesses thrive in a competitive market.
 published: true
 show_on_career: false
 order: 1
