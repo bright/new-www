@@ -39,9 +39,9 @@ Joacim M. Jeppesen, CEO of Framna, on their new partner, “Bright Inventions br
 culture deeply committed to quality. Like all of us at Framna, they are ambitious on behalf of the businesses and
 organizations they partner with, aiming to create market-leading digital products. Their track record includes both
 consumer-facing products and bespoke enterprise solutions that unlock operational efficiency, greater flexibility,
-better use of data, and more. The team combines reliable, enterprise-grade engineering with innovative use of
+better use of data, and more. **The team combines reliable, enterprise-grade engineering with innovative use of
 technologies, IoT, and AI. These capabilities are vital to our pursuit of being the best possible partner to the brands
-and businesses we work with, and our ambition to become the leading digital product agency globally. We are excited to
+and businesses we work with, and our ambition to become the leading digital product agency globally.** We are excited to
 welcome our new colleagues to Framna.”
 
 <div className="image">![Joacim CEO Framna ](/images/quotation-1-joacim.png "")</div>
