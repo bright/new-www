@@ -104,7 +104,7 @@ export default function Template({
               >
                 <OurStudioPageTitle>
                   <span>meet</span>
-                  <span className='highlighted-word'>best digital products</span>
+                  <span className='highlighted-word'>best digital product</span>
                   <span>development studio in</span>
                   <span className='highlighted-word'> Gdańsk</span>
                 </OurStudioPageTitle>
