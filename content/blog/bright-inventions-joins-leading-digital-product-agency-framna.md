@@ -44,6 +44,8 @@ technologies, IoT, and AI. These capabilities are vital to our pursuit of being 
 and businesses we work with, and our ambition to become the leading digital product agency globally. We are excited to
 welcome our new colleagues to Framna.”
 
+<div className="image">![Joacim CEO Framna ](/images/quotation-1-joacim.png "")</div>
+
 ## About Framna
 
 Framna, whose name comes from Old Norse, meaning “to advance” or “to bring forward” – is a growing digital product
@@ -59,8 +61,6 @@ experience the digital products they bring to life.
 By collaborating across teams and markets, we will tap into a larger pool of talent and technological opportunities,
 ensuring that we create standout digital products that really make an impact. Our studios will work closely together,
 sharing expertise, insights, and knowledge to deliver the best results.
-
-<div className="image">![Joacim CEO Framna ](/images/quotation-1-joacim.png "")</div>
 
 There will be no changes to Bright Inventions’ management or organization, and existing partner relationships will
 continue as usual. **Expect further momentum as Framna continues to execute on its strategy through both organic growth
