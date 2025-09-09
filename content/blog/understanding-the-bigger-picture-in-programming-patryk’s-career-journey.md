@@ -16,6 +16,8 @@ language: en
 ---
 **Patryk shares his biggest challenges in software development, why he needs to understand the big picture before writing any line of code, and what helps him reset after work. Meet Patryk, a Senior Backend Developer at Bright Inventions.**
 
+<div className="image">![Backend developer career story](/images/brightstorypatryks_grid.png "Backend developer career story")</div>
+
 ## Even as a child, you were interested in programming but you chose civil engineering in college. Why?
 
 Honestly, I don’t really know – I guess **I was a bit naive**. I didn’t think it through; I just thought civil engineering sounded cool. But later I realized it wasn’t for me. I dropped out in my third year and switched to computer science, though I never actually graduated.
@@ -31,6 +33,8 @@ The code that is **not understandable** while reading and **impossible to change
 ## How can you fix that?
 
 Well, there are many books covering that subject so there’s no single answer. Maybe **being open is a good start**. You should think about how the code might be used in the future, and remember that it will probably be modified. Be open to any possibility, and don’t focus only on completing the actual task. Our work goes beyond that, or at least it should, if we want to write clean code.
+
+<div className="image">![Quote on clean code.](/images/patryk_quote_clean_code.png "Quote on clean code.")</div>
 
 ## But what if you need to quickly deliver results – for example, for a startup that needs a feature added fast?
 
