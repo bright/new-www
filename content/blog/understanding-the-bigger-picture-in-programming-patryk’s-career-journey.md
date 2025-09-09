@@ -38,7 +38,7 @@ Well, there are many books covering that subject so there’s no single answer. 
 
 ## But what if you need to quickly deliver results – for example, for a startup that needs a feature added fast?
 
-You can balance that. For sure, clients can push us and it doesn’t always have to be about profit. **We have been working on an [app for a humanitarian agency](https://brightinventions.pl/projects/card-tracking-system/) for years, and sometimes we need to quickly add a feature because people are starving**. Therefore the organization needs a way to provide them with payment cards so they can buy groceries and other necessities for themselves and their families. We can’t just say, “Wait, we need to write clean code first, people can wait.”
+You can balance that. For sure, clients can push us and it doesn’t always have to be about profit. **We have been working on an [app for a humanitarian agency](/projects/card-tracking-system/) for years, and sometimes we need to quickly add a feature because people are starving**. Therefore the organization needs a way to provide them with payment cards so they can buy groceries and other necessities for themselves and their families. We can’t just say, “Wait, we need to write clean code first, people can wait.”
 
 But it all comes down to communication – we explain to the client that we need to do it fast, with some shortcuts, but after it’s launched we need a sprint to rewrite it, because otherwise it will be bug-prone. Clients are usually on board with that, **it’s our job to make them aware that we can cut corners, but then we need to make up for it**.
 
