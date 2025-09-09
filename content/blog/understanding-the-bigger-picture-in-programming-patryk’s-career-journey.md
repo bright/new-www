@@ -74,6 +74,14 @@ Not really, I treat it more as a hobby. I like creating pieces from scratch, and
 
 I ride **MTB (mountain biking)** and sometimes take part in competitions, but I treat it more as another workout session. I also go for **walks with my dog** Tesla, and I regularly go **mountain hiking**. For example, I went with a friend to Norway, we slept in a tent and hiked for about a week. Now my goal is to do it in the Alps – a 10-day hike with just a tent and a backpack. A perfect detox from technology, and a great way to really rest.
 
+<div className="image">![At one of the MTB races.](/images/patryk_mtb.png "At one of the MTB races.")</div>
+
+<center> At one of the MTB races. </center>
+
 ## Your dog Tesla is a regular office visitor. Does she enjoy the company?
 
 Oh yes, **she’s always happy when she’s at the office**. She loves to accompany me wherever I go.
+
+<div className="image">![Patryk and Tesla at the Bright Inventions' office.](/images/patryk_tesla_dog.png "Patryk and Tesla at the Bright Inventions' office.")</div>
+
+<center>Patryk and Tesla at the Bright Inventions' office.</center>
