@@ -64,6 +64,8 @@ It can be frustrating but not because of the change itself, more when you don’
 
 At Bright Inventions, **we work with clients who explain their business decisions, and we even give input from the tech side** to help them make some of those calls. That way, the changes aren’t that frustrating after all. The last thing I’d want is to just write code thoughtlessly.
 
+<div className="image">![Quote on business decisions](/images/patryk_quote_business_decisions.png "Quote on business decisions")</div>
+
 ## After hours you make music. Do you have a dream to be a professional music producer?
 
 Not really, I treat it more as a hobby. I like creating pieces from scratch, and sometimes I meet with friends and we make something together just for fun. Recently, I **also started learning guitar and piano**. I’m curious to see how that will turn out.
