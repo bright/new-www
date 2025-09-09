@@ -46,6 +46,8 @@ But it all comes down to communication – we explain to the client that we need
 
 I use **ChatGPT, Cursor, Junie, and Assistant** on a daily basis. Junie is great for bigger features, while Assistant works well for smaller tasks or functions.
 
+<div className="image">![Backend developer career story](/images/brightstorypatryks.png "Backend developer career story")</div>
+
 ## How does AI save your time?
 
 A good example is a prototype I was building for a client with Cursor. The goal was to show them a different approach to their main feature. It took me around two days – but **without AI, I would have spent maybe even a week on that**.
