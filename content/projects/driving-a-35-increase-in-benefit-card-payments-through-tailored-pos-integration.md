@@ -26,7 +26,7 @@ bar_achievements:
   - number: "5"
     label: New payment providers
   - number: 35%
-    label: Meal redemption with benefit cards
+    label: Increase in benefit card payments
 tags:
   - retail & restaurant
   - customized software
@@ -74,6 +74,6 @@ To solve this, we developed for the POS system a **dedicated microservice** resp
 
 <TitleWithIcon sectionTitle="the results: increased redemptions and strengthened market position" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the results of the collaboration" />
 
-The impact of the integration was clear almost immediately. In just the first month after launch, **meal redemptions through benefit cards rose by 35%**, indicating strong user adoption and improved convenience for customers.
+The impact of the integration was clear almost immediately. In just the first month after launch, **meal purchase through benefit cards rose by 35%**, indicating strong user adoption and improved convenience for customers.
 
 By the end of the implementation, restaurants gained access to a broader set of payment options beyond the usual methods. This added flexibility not only improved the customer experience but also **strengthened our client’s position** in the highly competitive point-of-sale market.
