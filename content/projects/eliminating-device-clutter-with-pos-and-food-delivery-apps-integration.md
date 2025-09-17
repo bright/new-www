@@ -1,9 +1,9 @@
 ---
 team_members:
   - tomasz-sch
-  - karol r
   - michal
   - piotr
+  - klaudiusz
 our_service:
   - POS food delivery platforms integration
 layout: project
