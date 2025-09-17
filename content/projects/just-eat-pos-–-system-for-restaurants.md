@@ -3,11 +3,11 @@ team_members:
   - bartosz
   - jedrzej-s
   - malgorzata-z
-  - karol r
   - piotr
   - radek-l
   - bartek k
   - tomasz-sch
+  - klaudiusz
 our_service:
   - MVP development
   - web development
