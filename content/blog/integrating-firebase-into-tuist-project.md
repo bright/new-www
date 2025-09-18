@@ -9,7 +9,7 @@ date: 2025-09-17T18:00:00.000Z
 meaningfullyUpdatedAt: 2025-09-17T18:00:00.000Z
 title: Integrating Firebase into Tuist project
 layout: post
-image: to be added!
+image: /images/integrating-firebase-into-tuist-project/banner.webp
 hidden: true
 comments: true
 published: true
@@ -69,7 +69,10 @@ It might be confusing that we are defining this dependency in `Project.swift` an
 
 Now lets run `tuist generate` and lets see what happened. You should be greeted with similar view: Xcode project like any other one and Firebase dependencies resolving with SPM. Don't get attached too much to that - we will be getting rid of plain SPM integration later on.
 
-// Xcode Image //
+<center>
+![tuist generate script execution](/images/integrating-firebase-into-tuist-project/tuist-generate.webp "tuist generate script execution")
+</center>
+
 
 ### Tweaking project for Firebase
 So we included our dependency - now lets use it. For now lets stick to SPM integration as this part is mostly common for any method of Crashlytics integration.
@@ -214,6 +217,10 @@ If you had peeked at attached repo, you might noticed that not much changed for 
 
 After migration to "proper" way of handling dependencies with Tuist we need to make one more step before `tuist generate`. Similarly to good old Cocoapods we have `tuist install`. It will fetch our dependencies, convert to projects and integrate into our main project using `xcworkspace` with child projects.
 
+<center>
+![tuist install script execution](/images/integrating-firebase-into-tuist-project/tuist-install.webp "tuist install script execution")
+</center>
+
 ### What the fuss with ObjC
 This is where funny things happens. In one of our projects we have stumbled once on a very strange issue upon migration to Tuist. Crash reports stopped working.
 
@@ -252,10 +259,15 @@ Searching for `Completed report submission with id` moves us to `FIRCLSReportUpl
 And then comes the realisation: breakpoint is not resolving: this symbol is unknown to compiler - something is very wrong here.
 
 <center>
-![Xcode unresolved breakpoint](/images/integrating-firebase-into-tuist-project/xcode-unresolved-breakpoint.png "Xcode unresolved breakpoint")
+![Xcode unresolved breakpoint](/images/integrating-firebase-into-tuist-project/xcode-unresolved-breakpoint.webp "Xcode unresolved breakpoint")
 </center>
 
 Turns out we had a bug in our project definition, linker flags in particular. Instead of `-ObjC` we have accidentally put `-Objc`.
+
+<center>
+![why Objc meme](/images/integrating-firebase-into-tuist-project/why-Objc-meme.webp "why Objc meme")
+</center>
+
 Quick fix, one liner, or in this case: one character and we are golden 🙈
 
 
