@@ -5,22 +5,26 @@ tags:
   - iOS
   - Tuist
   - Firebase
-date: 2025-09-17T18:00:00.000Z
-meaningfullyUpdatedAt: 2025-09-17T18:00:00.000Z
-title: Integrating Firebase into Tuist project
+date: 2025-09-18T11:00:00.000Z
+meaningfullyUpdatedAt: 2025-09-18T11:00:00.000Z
+title: Integrating Firebase into Tuist Project
 layout: post
 image: /images/integrating-firebase-into-tuist-project/banner.webp
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
 ---
 
 Firebase is one of the most commonly used third-party library in iOS development. With functionalities ranging from Crashlytics, to analytics, feature flags... there is too much stuff to list all of it 😅
-Today we will be focusing on integrating Firebase Crashlytics into our iOS app, with one caveat: it uses Tuist. Lo and behold, we might run into some strange behaviors!
+Today we will be focusing on integrating Firebase Crashlytics into our iOS app, with one caveat: it uses Tuist.  
+Lo and behold, we might run into some strange behaviors!
+
+## TL;DR
+For pure and suggested tuist integration code jump straight to [Tuist "native" integration](/blog/integrating-firebase-into-tuist-project/#tuist-native-integration).
 
 ## But wait, why Tuist?
-If you ever worked in team, you might have faced conflicts in your Xcode projects. This is main idea from which Tuist originated. There is nothing original about that idea and many before did similar things. You may recal dedicated tools like xcode-gen but most probably you might be even using one right now: Cocoapods. Yeah if you thing about that it generates project as well 🙉
+If you ever worked in team, you might have faced conflicts in your Xcode projects. This is main idea from which Tuist originated. There is nothing original about that idea and many before did similar things. You may recal dedicated tools like xcode-gen but most probably you might be even using one right now: Cocoapods. Yeah if you think about that it generates project as well 🙉
 
 Thing that made Tuist interesting to me in the first place was that it is using `Swift` making it very familiar to developers in Apple ecosystem.
 
@@ -28,7 +32,7 @@ Right now Tuist is a very powerful tool that not only allows you to omit frustra
 Enough for now, that is mostly all that we need for now to continue. Nevertheless I highly encourage you to have a deeper look into [Tuist](https://tuist.dev) - thing you will not regret doing. 
 
 ## Why Crashlytics?
-Answer here is simple: Crashlytics is battle tested tool that allows you control your app stability. It is free as well. And as we all know free is fair price to pay. You might stick to plain Xcode organiser insights or different tool, yet today is a day of Crashlytics.
+Answer here is simple: Crashlytics is battle tested tool that allows you to control your app stability. It is free as well. And as we all know free is fair price to pay. You might stick to plain Xcode organiser insights or different tool, yet today is a day of Crashlytics.
 
 ## But there is more than one... 🧐
 ...way of integrating third parties using Tuist.
@@ -38,7 +42,7 @@ Indeed Tuist allows us to integrate third parties using its own system based on 
 ### Tuist project
 
 Lets start with Tuist project structure. 
-For detailed working code you can reference this demonstration repository: [tuist-firebase](https://github.com/TomaszLizer/tuist-firebase). At this stage we assume you have working Tuist project, but if not you can use reference above or create one with `tuist init`.
+For detailed working code you can reference this demonstration repository: [tuist-firebase](https://github.com/TomaszLizer/tuist-firebase). At this stage we assume you have working Tuist project, but if not you can use reference above or create one with `tuist init` (and instal tuist with `brew install tuist` if you don't have it already).
 
 In order to enter project edit mode you need to run `tuist edit` command in project root. This will create and open Xcode project with three main files:
 - Tuist.swift - it holds details of Tuist project itself
@@ -137,21 +141,25 @@ So we included our dependency - now lets use it. Before we move forward you will
     FirebaseApp.configure()
     ```
 
-Now lets run `tuist generate` and lets see what happened. You should be greeted with similar view: Xcode project like any other one and Firebase dependencies resolving with SPM. Don't get attached too much to that - we will be getting rid of plain SPM integration later on.
+Now lets run `tuist generate` and see what happens. You should be greeted with similar view: Xcode project like any other one you know and Firebase dependencies resolving with SPM. Don't get attached too much to that - we will be getting rid of plain SPM integration later on.
 
 <center>
 ![tuist generate script execution](/images/integrating-firebase-into-tuist-project/tuist-generate.webp "tuist generate script execution")
 </center>
 
+<center>
+![Project structure with SPM integration](/images/integrating-firebase-into-tuist-project/tuist-xcode-spm.webp "Project structure with SPM integration")
+</center>
+
 ### Test your integration!
 As we will uncover later on - this is extremely important part - we need to test that our integration works correctly. This can be as simple as adding fatalError somewhere in our app. I typically just add some button that does just that.
 
-It is important to note, that while app is connected to debugger, firebase will not collect crash data, so you need to install your shiny app and disconnect debugger (just kill the run with stop in xcode). Then in order for the crash to be visible in the Firebase console, we need to run the app again - it will process and send crash reports. If everything is fine you should see your first crash pretty quick (typically up to few minutes).
+It is worth noting, that while app is connected to debugger, firebase will not collect crash data. You need to install your shiny app and disconnect debugger (just kill the run with stop button in xcode). Then in order for the crash to be visible in the Firebase console, we need to run the app again - it will process and send crash reports. If everything is fine you should see your first crash pretty quick (typically up to few minutes).
 
 ### Tuist "native" integration
 So what is wrong with our SPM integrated firebase? Well, everything... If you worked with SPM you may recall constant and somehow random reloading of dependencies. It is guaranteed to happen just after your transatlantic plane took off. And when you have quite a few dependencies in SPM (see how much we got just by getting Firebase) then it can get wonky as well.
 
-Tuist takes Cocoapods approach which gives as many benefits. Instead of relying on SPM it creates. This allows for lots of clever things that Tuist does, including caching, dependency graph based testing, optimised builds. But again, just go and check out [Tuist.dev](https://tuist.dev) as there is too much of goodness there to even brief it meaningfully in this short article.
+Tuist takes Cocoapods approach which gives us many benefits. Instead of relying on SPM it creates workspace with child projects. This allows for lots of clever things that Tuist does, including caching, dependency graph based testing, optimised builds. But again, just go and check out [Tuist.dev](https://tuist.dev) as there is too much of goodness there to even brief it meaningfully in this short article.
 
 If you had peeked at attached repo, you might noticed that not much changed for this migration to happen, but lets wrap it up as if we just started.
 
@@ -242,6 +250,10 @@ After migration to "proper" way of handling dependencies with Tuist we need to m
 ![tuist install script execution](/images/integrating-firebase-into-tuist-project/tuist-install.webp "tuist install script execution")
 </center>
 
+<center>
+![Project structure with XcodeProj integration](/images/integrating-firebase-into-tuist-project/tuist-xcodeproj.webp "Project structure with XcodeProj integration")
+</center>
+
 ### What the fuss with ObjC
 This is where funny things happens. In one of our projects we have stumbled once on a very strange issue upon migration to Tuist. Crash reports stopped working.
 
@@ -292,7 +304,7 @@ Turns out we had a bug in our project definition, linker flags in particular. In
 ![why Objc meme](/images/integrating-firebase-into-tuist-project/why-Objc-meme.webp "why Objc meme")
 </center>
 
-Quick fix, one liner, or in this case: one character and we are golden 🙈
+Quick fix, one liner, or in this case: **one character** and we are golden 🙈
 
 ## Conclusions
 As we learned, one need to be extremely careful with the details when it comes to Xcode project settings. It is worth noting that in this particular case the issue was very subtle and almost unnoticeable. App was not crashing it just misbehaved (greatly). This comes from specific nature of Objective-C which is dynamic. Especially in how it treats missing objects. In our case bunch of Crahslytics related dependencies where not compiled into our app because linker did not saw their usage. **If you'd like to dive deeper into Objective-C and why the `-ObjC` linker flag matters so much, you can start with the [Building Objective-C static libraries with categories](https://developer.apple.com/library/archive/qa/qa1490/_index.html).** This particular requirement is also documented in Firebase: [Integrate without using Swift Package Manager - Frameworks](https://firebase.google.com/docs/ios/setup#frameworks).
