@@ -122,7 +122,7 @@ export const Contact: FC<ContactProps> = ({
                               laptopMargin='3.5rem 0 2.25rem'
                               tabletMargin='3.5rem 0 2.25rem'
                               tabletXLMargin='3.5rem 0 2.25rem'>{title || 'let’s talk about your product idea'}</CustomSectionTitle>
-          <SubTitle>{subtitle || `Fill out the form below and we'll get back to you in 48 hours.`}</SubTitle>
+          <SubTitle>{subtitle || `Fill out the form below and we'll get back to you within 1 business day.`}</SubTitle>
         </FormHeader>
 
         <ImageWrapper>
