@@ -292,4 +292,7 @@ Turns out we had a bug in our project definition, linker flags in particular. In
 
 Quick fix, one liner, or in this case: one character and we are golden 🙈
 
+## Conclusions
+As we learned, one need to be extremely careful with the details when it comes to Xcode project settings. It is worth noting that in this particular case the issue was very subtle and almost unnoticeable. App was not crashing it just misbehaved (greatly). This comes from specific nature of Objective-C which is dynamic. Especially in how it treats missing objects. In our case bunch of Crahslytics related dependencies where not compiled into our app because linker did not saw their usage. **If you'd like to dive deeper into Objective-C and why the `-ObjC` linker flag matters so much, you can start with the [Building Objective-C static libraries with categories](https://developer.apple.com/library/archive/qa/qa1490/_index.html).** This particular requirement is also documented in Firebase: [Integrate without using Swift Package Manager - Frameworks](https://firebase.google.com/docs/ios/setup#frameworks).
 
+One thing to note here is that applying this flag has global effect on your project. It may cause compiled binary to be larger in some circumstances. If you face such issue you may want to integrate via SPM or consider force loading only specific Objective-C library, but that is topic for another day.
