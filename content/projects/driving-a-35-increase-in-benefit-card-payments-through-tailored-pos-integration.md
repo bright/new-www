@@ -34,7 +34,7 @@ title_team: meet the team behind the solution
 title_case_study: explore other success stories
 title_contact: hire us to build your unique POS integration
 description_contact: Tell us more about your tech problems and we will help you
-  find solutions! Fill out the form below and we'll get back to you in 48 hours.
+  find solutions! Fill out the form below and we'll get back to you within 1 business day.
 order: 1
 slug: pos-integration-benefit-loyalty-cards
 show_team: true
