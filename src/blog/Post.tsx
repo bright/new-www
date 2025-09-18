@@ -142,7 +142,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
       </CustomSection>
       <ConstrainedWidthContainer id='blog'>
         <WrapperNews>
-          <div> {comments} </div>
+          {comments && <div> {comments} </div>}
           <NewsletterWrapper />
         </WrapperNews>
       </ConstrainedWidthContainer>
