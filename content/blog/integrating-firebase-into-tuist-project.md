@@ -52,18 +52,31 @@ Today we will be touching `Project.swift` as well as `Package.swift`.
 Lets start with straightforward way - one that will be very familiar if you worked with SPM in Xcode before. In the beginning lets just start adding our dependency.
 
 1. Add Firebase as a remote package in `Project.swift`:
-   ```swift
-   packages: [
-      .remote(url: "https://github.com/firebase/firebase-ios-sdk", requirement: .exact("12.3.0"))
-   ]
-   ```
+    ```swift
+    // Project.swift
+    Project(
+        [...]
+        packages: [
+            .remote(url: "https://github.com/firebase/firebase-ios-sdk", requirement: .exact("12.3.0"))
+        ]
+    )
+    ```
 
 1. Add the required Firebase products to your app target dependencies, e.g.:
-   ```swift
-   dependencies: [
-      .package(product: "FirebaseCrashlytics")
-   ]
-   ```
+    ```swift
+    // Project.swift
+    Project(
+        [...]
+        targets: [
+            .target(
+                [...]
+                dependencies: [
+                    .package(product: "FirebaseCrashlytics")
+                ]
+            )
+        ]
+    )
+    ```
 
 It might be confusing that we are defining this dependency in `Project.swift` and not in `Package.swift` but remember - `Project.swift` is descriptor of our `.xcodeproj`.
 
@@ -71,19 +84,23 @@ So we included our dependency - now lets use it. Before we move forward you will
 
 3. Ensure dSYM files are being created by specifying correct debug information format:
     ```swift
+    // Project.swift
     let baseSettings = SettingsDictionary()
         .debugInformationFormat(.dwarfWithDsym)
     let projectSettings = Settings.settings(base: baseSettings)
     let project = Project(
         name: "tuist-firebase",
         settings: projectSettings,
-    [...]
+        [...]
+    )
     ```
     This is crucial part without which we won't be able to read crash data in Crashlytics console.
 
 1. Add post-build script uploads dSYM files to Crashlytics automatically:
-   ```swift
+    ```swift
+    // Project.swift
     Project(
+        [...]
         targets: [
             .target(
                 [...]
@@ -104,24 +121,27 @@ So we included our dependency - now lets use it. Before we move forward you will
                 ]
             )
         ]
-   )
-   ```
-   Note: script path will be different when using XcodeProj integration.
+    )
+    ```
+    Note: script path will be different when using XcodeProj integration.
 
 1. Place your `GoogleService-Info.plist` in `tuist-firebase/Resources` so it is bundled with the app.
+
+1. Setup Firebase in your application.
+    
+    As a last step we need to con figure firebase itself inside the app
+    ```swift
+    // AppMain.swift
+    import Firebase
+    [...]
+    FirebaseApp.configure()
+    ```
 
 Now lets run `tuist generate` and lets see what happened. You should be greeted with similar view: Xcode project like any other one and Firebase dependencies resolving with SPM. Don't get attached too much to that - we will be getting rid of plain SPM integration later on.
 
 <center>
 ![tuist generate script execution](/images/integrating-firebase-into-tuist-project/tuist-generate.webp "tuist generate script execution")
 </center>
-
-1. Setup Firebase in your application.
-    ```swift
-    import Firebase
-    [...]
-    FirebaseApp.configure()
-    ```
 
 ### Test your integration!
 As we will uncover later on - this is extremely important part - we need to test that our integration works correctly. This can be as simple as adding fatalError somewhere in our app. I typically just add some button that does just that.
@@ -136,17 +156,19 @@ Tuist takes Cocoapods approach which gives as many benefits. Instead of relying 
 If you had peeked at attached repo, you might noticed that not much changed for this migration to happen, but lets wrap it up as if we just started.
 
 1. Add Firebase as a remote package in `Package.swift`:
-   ```swift
-   Package(
+    ```swift
+    // Package.swift
+    Package(
         [...]
         dependencies: [
             .package(url: "https://github.com/firebase/firebase-ios-sdk", exact: "12.3.0")
         ]
-   )
-   ```
+    )
+    ```
 
 1. Add the required Firebase products to your app target dependencies in `Project.swift`:
-   ```swift
+    ```swift
+    // Project.swift
     Project(
         [...]
         targets: [
@@ -158,10 +180,11 @@ If you had peeked at attached repo, you might noticed that not much changed for 
             )
         ]
     )
-   ```
+    ```
 
 1. Ensure correct build settings, including dSYM creation and linking Objective-C code:
     ```swift
+    // Project.swift
     let baseSettings = SettingsDictionary()
         .debugInformationFormat(.dwarfWithDsym)
         .otherLinkerFlags(["-ObjC"])
@@ -175,7 +198,8 @@ If you had peeked at attached repo, you might noticed that not much changed for 
 
 
 1. Add post-build script uploads dSYM files to Crashlytics automatically:
-   ```swift
+    ```swift
+    // Project.swift
     Project(
         targets: [
             .target(
@@ -197,15 +221,16 @@ If you had peeked at attached repo, you might noticed that not much changed for 
                 ]
             )
         ]
-   )
-   ```
-   The only thing that changed here is path to script - it is obviously different due to different way of integrating SDK.
+    )
+    ```
+    The only thing that changed here is path to script - it is obviously different due to different way of integrating SDK.
 
 
 1. Place your `GoogleService-Info.plist` in `tuist-firebase/Resources` so it is bundled with the app.
 
 1. Setup Firebase in your application.
     ```swift
+    // MainApp.swift
     import Firebase
     [...]
     FirebaseApp.configure()
@@ -223,6 +248,7 @@ This is where funny things happens. In one of our projects we have stumbled once
 Debugging started - firstly lets add firebase debug flag. You can do that by adding `-FIRDebugEnabled` launch argument. To do that in Tuist we have to define scheme. We do so in `Project.swift` at the top level of Project definition:
 
 ```swift
+// Project.swift
 Project(
     [...]
     schemes: [
@@ -265,3 +291,5 @@ Turns out we had a bug in our project definition, linker flags in particular. In
 </center>
 
 Quick fix, one liner, or in this case: one character and we are golden 🙈
+
+
