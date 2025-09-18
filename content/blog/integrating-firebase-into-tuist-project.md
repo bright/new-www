@@ -278,6 +278,8 @@ So we dove deeper, stepping into execution of crash report submission.
 
 Searching for `Completed report submission with id` moves us to `FIRCLSReportUploader.m:216`. After adding breakpoint I can see that indeed we stepped here and sent something somewhere. But where? Lets check function that calls callback we are in, which is `-[GDTCORTransport sendDataEvent:onComplete:]` in `GDTCORTransport.m:56`. It in turn points us to `-[GDTCORTransformer transformEvent:withTransformers:onComplete:]` in `GDTCORTransformer.m:55` and that is the place for our next breakpoint to understand what is happening.
 
+> You can *Open quickly* (⌘+⇧+o) above file references in xcode. Just copy, paste into open quickly and go to check it yourself.
+
 And then comes the realization - breakpoint is not resolving - this symbol is unknown to compiler - something is very wrong here.
 
 <center>
