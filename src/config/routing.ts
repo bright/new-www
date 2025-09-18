@@ -51,6 +51,6 @@ export const routeLinks = {
          bluetoothDevelopment: '/our-areas/bluetooth-development/',
          mvpdDevelopment: '/our-areas/mvp-development/',
          healthcareDevelopment: '/our-areas/healthcare-software-development/',
-         agencyGdansk: '/our-areas/gdansk-software-company/',
+         agencyGdansk: '/our-areas/gdansk-digital-product-agency/',
          posDevelopmentBlog: '/blog/pos-software-development-guide/',
        }

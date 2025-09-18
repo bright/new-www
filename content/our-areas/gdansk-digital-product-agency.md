@@ -20,14 +20,14 @@ project:
   - Practi JET POS
   - Card Tracking System
 layout: our-service
-our_service_id: Gdansk digital products agency
+our_service_id: Gdansk digital product agency
 meta_title: Best Digital Product Studio in Gdańsk
-meta_description: Meet a leading digital products agency in Gdańsk (Poland).
-  Bright Inventions is a digital products agency crafting custom web and mobile
+meta_description: Meet a leading digital product agency in Gdańsk (Poland).
+  Bright Inventions is a digital product agency crafting custom web and mobile
   solutions.
 our_services_icon: /images/custom_software_development_icon.png
-name: Gdansk digital products agency
-slug: gdansk-digital-products-agency
+name: Gdansk digital product agency
+slug: gdansk-digital-product-agency
 short_description: Poland is well-known for having top software developers. For
   over a decade, we have been a part of the vibrant Polish IT sector, proudly
   based in Gdańsk — a city bursting with innovation.
