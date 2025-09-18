@@ -67,19 +67,9 @@ Lets start with straightforward way - one that will be very familiar if you work
 
 It might be confusing that we are defining this dependency in `Project.swift` and not in `Package.swift` but remember - `Project.swift` is descriptor of our `.xcodeproj`.
 
-Now lets run `tuist generate` and lets see what happened. You should be greeted with similar view: Xcode project like any other one and Firebase dependencies resolving with SPM. Don't get attached too much to that - we will be getting rid of plain SPM integration later on.
+So we included our dependency - now lets use it. Before we move forward you will also need to get your hands on `GoogleService-Info.plist` file. You can find it in your Firebase project settings.
 
-<center>
-![tuist generate script execution](/images/integrating-firebase-into-tuist-project/tuist-generate.webp "tuist generate script execution")
-</center>
-
-
-### Tweaking project for Firebase
-So we included our dependency - now lets use it. For now lets stick to SPM integration as this part is mostly common for any method of Crashlytics integration.
-
-Before we move forward you will also need to get your hands on `GoogleService-Info.plist` file. You can find it in your Firebase project settings.
-
-1. Ensure dSYM files are being created by specifying correct debug information format:
+3. Ensure dSYM files are being created by specifying correct debug information format:
     ```swift
     let baseSettings = SettingsDictionary()
         .debugInformationFormat(.dwarfWithDsym)
@@ -119,6 +109,12 @@ Before we move forward you will also need to get your hands on `GoogleService-In
    Note: script path will be different when using XcodeProj integration.
 
 1. Place your `GoogleService-Info.plist` in `tuist-firebase/Resources` so it is bundled with the app.
+
+Now lets run `tuist generate` and lets see what happened. You should be greeted with similar view: Xcode project like any other one and Firebase dependencies resolving with SPM. Don't get attached too much to that - we will be getting rid of plain SPM integration later on.
+
+<center>
+![tuist generate script execution](/images/integrating-firebase-into-tuist-project/tuist-generate.webp "tuist generate script execution")
+</center>
 
 1. Setup Firebase in your application.
     ```swift
@@ -256,7 +252,7 @@ So we dove deeper, stepping into execution of crash report submission.
 
 Searching for `Completed report submission with id` moves us to `FIRCLSReportUploader.m:216`. After adding breakpoint I can see that indeed we stepped here and sent something somewhere. But where? Lets check function that calls callback we are in, which is `-[GDTCORTransport sendDataEvent:onComplete:]` in `GDTCORTransport.m:56`. It in turn points us to `-[GDTCORTransformer transformEvent:withTransformers:onComplete:]` in `GDTCORTransformer.m:55` and that is the place for our next breakpoint to understand what is happening.
 
-And then comes the realisation: breakpoint is not resolving: this symbol is unknown to compiler - something is very wrong here.
+And then comes the realization - breakpoint is not resolving - this symbol is unknown to compiler - something is very wrong here.
 
 <center>
 ![Xcode unresolved breakpoint](/images/integrating-firebase-into-tuist-project/xcode-unresolved-breakpoint.webp "Xcode unresolved breakpoint")
@@ -269,9 +265,3 @@ Turns out we had a bug in our project definition, linker flags in particular. In
 </center>
 
 Quick fix, one liner, or in this case: one character and we are golden 🙈
-
-
-TODO: 
-- Add banner image
-- Add images throughout text
-- Optimise images
