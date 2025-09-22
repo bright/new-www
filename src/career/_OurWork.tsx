@@ -21,6 +21,16 @@ const OurWork: React.FC = () => {
   const quotes = [
       {
       avatar_hover: (
+        <StaticImage src='../../static/images/patryks_passion_team.png' alt='Patryk' className='quote-img' />
+      ),
+      short_name: 'Patryk',
+      bio: 'Senior Backend Developer',
+      slug: 'patryk-s',
+      quote:
+        `People here are kind and positive, and that's the most important thing.`,
+    },
+    {
+      avatar_hover: (
         <StaticImage src='../../static/images/pawel_passion_team.png' alt='Paweł' className='quote-img' />
       ),
       short_name: 'Paweł',
