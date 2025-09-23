@@ -22,7 +22,7 @@ Hero Image_alt: Just Eat POS
 social_media_previev: /images/fb_preview_just_eat_pos_case_study_update.png
 social_media_previev_alt: Just Eat POS
 bar_achievements:
-  - number: "9"
+  - number: "10"
     label: Years of cooperation
   - number: "8"
     label: Teams from Bright Inventions
