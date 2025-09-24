@@ -19,7 +19,7 @@ Hero Image_alt: Mobile Apps for Restaurant System
 social_media_previev: /images/fb_preview_mobile_just_eat_pos.png
 social_media_previev_alt: Just Eat POS Mobile
 bar_achievements:
-  - number: "9"
+  - number: "10"
     label: years of cooperation
   - number: 10+
     label: apps in the system
