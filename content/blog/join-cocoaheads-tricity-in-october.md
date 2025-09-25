@@ -13,7 +13,7 @@ comments: false
 published: true
 language: en
 ---
-**CocoaHeads Tricity is back! Sign up for a free event celebrating all things iOS! Listen to talks about AI-Powered iOS Coding and SwiftUI Coordinators. See you in Gdansk on October 6.**
+**CocoaHeads Tricity is back! Sign up for a free event celebrating all things iOS! Listen to talks about AI-Powered iOS Coding and SwiftUI Coordinators. See you in Gdańsk on October 6.**
 
 <div className="image">![CocoaHeads Tricity 32](/images/cocoaheads-32-6th-october-2025.png "CocoaHeads Tricity 32")</div>
 
