@@ -2,8 +2,8 @@
 author: izabela
 tags:
   - bright insights
-date: 2025-09-25T07:12:27.298Z
-meaningfullyUpdatedAt: 2025-09-25T07:12:27.332Z
+date: 2025-09-25T07:21:19.256Z
+meaningfullyUpdatedAt: 2025-09-25T07:21:19.977Z
 slug: cocoaheads-tricity-32
 title: Join CocoaHeads Tricity in October
 layout: post
