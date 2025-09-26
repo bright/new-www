@@ -9,8 +9,8 @@ our_service:
   - custom software development
 layout: project
 project_id: finebite
-title: "Finebite’s Successful Pivot Story: Loyalty App Hits 500K Users with New
-  Reservation Feature"
+title: "Finebite’s Pivot Story: Loyalty App Hits 1M Users with New Reservation
+  Feature"
 image: /images/case_study_cover_finebite.png
 description: Finebite app helps to discover the best restaurants in the biggest
   Polish cities. Finebite originated from a very popular loyalty app – Everytap.
@@ -19,11 +19,11 @@ Hero Image_alt: "Finebite (Everytap) "
 social_media_previev: /images/fb_preview_case_study_finebite.png
 social_media_previev_alt: Finebite (Everytap) case study
 bar_achievements:
-  - number: "2"
-    label: iOS and Android apps
-  - number: 100k
+  - number: "1"
+    label: Million restaurant guests
+  - number: 100k+
     label: Downloads on Google Play
-  - number: "500"
+  - number: "1000"
     label: Restaurants
 tags:
   - mobile app
