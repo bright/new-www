@@ -16,7 +16,7 @@ description: Finebite app helps to discover the best restaurants in the biggest
   Polish cities. Finebite originated from a very popular loyalty app – Everytap.
 hero_image: /images/case_study_app_finebite.png
 Hero Image_alt: "Finebite (Everytap) "
-social_media_previev: /images/fb_preview_case_study_finebite.png
+social_media_previev: /images/fb_preview_case_study_finebite_update.png
 social_media_previev_alt: Finebite (Everytap) case study
 bar_achievements:
   - number: "1"
