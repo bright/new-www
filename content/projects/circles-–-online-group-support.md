@@ -27,7 +27,7 @@ bar_achievements:
     label: Raised in Series A Round
   - number: "4.8"
     label: Rating on AppStore
-  - number: "3"
+  - number: 3+
     label: Years of Collaboration
 tags:
   - web app
