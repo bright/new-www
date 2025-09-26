@@ -10,7 +10,7 @@ our_service:
   - cloud services
 layout: project
 project_id: circles
-title: Circles secures $16.5M in Series A Funding and Emerges as Top Mental Health App
+title: Circles secures $16.5M in Series A and Emerges as Leading Group Support App
 image: /images/case_study_cover_mental_health_app.png
 description: Circles is an online group therapy application connecting
   individuals seeking emotional support. As a mental health tech startup, it
@@ -25,9 +25,9 @@ social_media_previev_alt: Circles case study
 bar_achievements:
   - number: $16.5 M
     label: Raised in Series A Round
-  - number: 10k+
-    label: Downloads on Google Play
-  - number: "3"
+  - number: "4.8"
+    label: Rating on AppStore
+  - number: 3+
     label: Years of Collaboration
 tags:
   - web app
