@@ -9,8 +9,8 @@ our_service:
   - custom software development
 layout: project
 project_id: finebite
-title: "Finebite’s Successful Pivot Story: Loyalty App Hits 500K Users with New
-  Reservation Feature"
+title: "Finebite’s Pivot Story: Loyalty App Hits 1M Users with New Reservation
+  Feature"
 image: /images/case_study_cover_finebite.png
 description: Finebite app helps to discover the best restaurants in the biggest
   Polish cities. Finebite originated from a very popular loyalty app – Everytap.
@@ -19,11 +19,11 @@ Hero Image_alt: "Finebite (Everytap) "
 social_media_previev: /images/fb_preview_case_study_finebite.png
 social_media_previev_alt: Finebite (Everytap) case study
 bar_achievements:
-  - number: "2"
-    label: iOS and Android apps
-  - number: 100k
+  - number: "1"
+    label: Million restaurant guests
+  - number: 100k+
     label: Downloads on Google Play
-  - number: "500"
+  - number: "1000"
     label: Restaurants
 tags:
   - mobile app
@@ -63,8 +63,6 @@ Everytap and Finebite, two restaurant loyalty and reservation apps for iOS and A
 Since Everytap first launched in 2014, it has steadily transformed from a restaurant loyalty app into a much more sophisticated platform – thus paving the way for its younger counterpart, Finebite.
 
 Bright Inventions has worked on the ideation and development of both platforms, as discussed below.
-
-As of late 2019, the service is present in 3 countries – 7 biggest cities in Poland, as well as Berlin and Lviv, and features over 400 partner restaurants.
 
 Apart from an online reservation feature, Finebite also currently offers a truly unbeatable perk – 50% off the entire menu in return for an online review or filling in a restaurant survey. This, in turn, lets restaurants acquire more guests during off-peak hours, receive more reviews, and collect feedback privately.
 
