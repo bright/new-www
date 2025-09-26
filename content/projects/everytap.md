@@ -64,8 +64,6 @@ Since Everytap first launched in 2014, it has steadily transformed from a restau
 
 Bright Inventions has worked on the ideation and development of both platforms, as discussed below.
 
-As of late 2019, the service is present in 3 countries – 7 biggest cities in Poland, as well as Berlin and Lviv, and features over 400 partner restaurants.
-
 Apart from an online reservation feature, Finebite also currently offers a truly unbeatable perk – 50% off the entire menu in return for an online review or filling in a restaurant survey. This, in turn, lets restaurants acquire more guests during off-peak hours, receive more reviews, and collect feedback privately.
 
 Now, if that doesn’t make you feel a sudden urge for dining out, we don’t know what does!
