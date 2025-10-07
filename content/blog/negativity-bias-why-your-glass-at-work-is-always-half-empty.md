@@ -18,7 +18,7 @@ You know that feeling when you have done a lot right, but all you can think abou
 
 Our brains are wired to notice problems first. It helped our ancestors survive. But at work, it can quietly sap motivation, trust, and teamwork. The good news? Once we catch ourselves, we can start noticing wins, learning from mistakes, and slowly build a healthier, more balanced way to tackle each day.
 
-## why does one negative comment ruin the whole day
+## one negative comment ruining the whole day
 
 We have all been there. Someone gives us five compliments and one criticism, and somehow, we only remember the criticism. It is not just you, it is how our brains work.
 
