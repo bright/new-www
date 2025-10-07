@@ -8,7 +8,7 @@ date: 2025-10-07T17:42:04.008Z
 meaningfullyUpdatedAt: 2025-10-07T17:42:04.028Z
 title: "Negativity Bias: Why Your Glass at Work Is Always Half-Empty"
 layout: post
-image: /images/point-normal-mtse5u6enbw-unsplash.jpg
+image: /images/negativity-bias.png
 hidden: false
 comments: false
 published: true
