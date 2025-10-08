@@ -33,13 +33,15 @@ Negativity bias often shows up as focusing on fears, anxieties, or small mistake
 Sometimes it is a colleague who always sees the worst-case scenario:
 
 * “This change will never work.”
-* “They’re going to fire her.”
+* “They are going to fire her.”
 * “This will fail for sure.”
 * “They’ll cheat us somehow.”
+* "He will never accept my offer." 
+* "I won't get this promotion." etc. 
 
 Even when results are positive, their focus is on what could go wrong next. Negativity spreads like ripples in a pond. Other team members may start feeling drained, and creativity and collaboration shrink.
 
-**Striving for improvement is healthy, but if the focus is always on gaps, constant negativity can quietly shape the morale of everyone around you.**
+**Striving for improvement, being aware of potential risks and considering different scenarios is important, it helps you stay prepared and make better decisions. But when the focus is always on what could go wrong or what is missing, constant negativity can quietly shape the morale of everyone around you.**
 
 ## the complaining trap
 
@@ -49,15 +51,15 @@ We all do it - complain about the weather, traffic, work, or that one person who
 
 **Neuroscientist Dr. Rick Hanson explains that the brain is [“like Velcro for the negative and Teflon for the positive"](https://rickhanson.com/velcro-for-the-bad-teflon-for-the-good/), meaning negative experiences stick more easily and shape our mental wiring.**  [](https://rickhanson.com/velcro-for-the-bad-teflon-for-the-good/?utm_source=chatgpt.com)
 
-Over time, this can amplify stress, strain relationships, and create a feedback loop where negativity becomes our default mode of interpretation. Recognizing when we are complaining and consciously shifting toward problem-solving or gratitude helps to weaken this bias and restore emotional balance.
+Over time, this can amplify stress, strain relationships, and create a feedback loop where negativity becomes our default mode of interpretation. Recognizing when we are complaining and consciously [shifting toward problem-solving ](https://brightinventions.pl/blog/how-to-develop-solution-oriented-mindset-in-your-life-and-in-your-team/)or gratitude helps to weaken this bias and restore emotional balance.
 
 ## shifting the balance: small steps to break the bias
 
 **Even tiny habits can help your brain notice the positive.** Jot a quick gratitude note, celebrate a small win, or give yourself a pat on the back. These simple actions send signals that your brain actually wires in. Neuroscience shows that doing this strengthens the areas that regulate emotions while calming the “alarm center” that tends to fixate on problems.
 
-**[A study published in Frontiers in Psychology in 2025 ](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1510543/full)found that higher levels of gratitude were linked to greater resilience, better mental health, and fewer symptoms of anxiety and depression.**
+[The study shows that higher levels of gratitude are linked to greater resilience, better mental health, and fewer symptoms of anxiety and depression.](https://positivepsychology.com/neuroscience-of-gratitude/)
 
-### Below you can find a few quick tips to rewire your brain for positivity: 
+### So, how can you rewire your brain for positivity?
 
 1. Write down things you are thankful for. [It activates brain regions associated with reward, enhancing feelings of contentment and emotional well-being.](https://positivepsychology.com/neuroscience-of-gratitude/?utm_source=chatgpt.com)
 2. Recognize and celebrate small achievements to boost motivation and reinforce positive behavior.
@@ -67,4 +69,4 @@ Over time, this can amplify stress, strain relationships, and create a feedback 
 
 ## start small, think big
 
-By consistently practicing these small habits, you can shift your focus from what’s wrong to what’s right, fostering a more positive and resilient mindset. **At the end of the day, the choice is yours: let your brain replay only the setbacks, or remind yourself of the** **effort, learning, and wins along the way**.
+By consistently practicing small habits (you have to choose/find these that work for you), you can shift your focus from what is wrong to what is right, fostering a more positive and resilient approach. **The mindset you bring to work does not just shape your own motivation - it quietly influences the energy, confidence, and collaboration of everyone around you.** At the end of the day, the choice is yours: let your brain replay only the setbacks and risks, or remind yourself of the effort, learning, and wins along the way.
