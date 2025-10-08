@@ -59,7 +59,7 @@ Over time, this can amplify stress, strain relationships, and create a feedback 
 
 [The study shows that higher levels of gratitude are linked to greater resilience, better mental health, and fewer symptoms of anxiety and depression.](https://positivepsychology.com/neuroscience-of-gratitude/)
 
-### So, how can you rewire your brain for positivity? 
+### So, how can you rewire your brain for positivity?
 
 1. Write down things you are thankful for. [It activates brain regions associated with reward, enhancing feelings of contentment and emotional well-being.](https://positivepsychology.com/neuroscience-of-gratitude/?utm_source=chatgpt.com)
 2. Recognize and celebrate small achievements to boost motivation and reinforce positive behavior.
@@ -69,4 +69,4 @@ Over time, this can amplify stress, strain relationships, and create a feedback 
 
 ## start small, think big
 
-By consistently practicing small habits (you have to choose/find these that work for you), you can shift your focus from what is wrong to what is right, fostering a more positive and resilient mindset. **At the end of the day, the choice is yours: let your brain replay only the setbacks and risks, or remind yourself of the** **effort, learning, and wins along the way**.
+By consistently practicing small habits (you have to choose/find these that work for you), you can shift your focus from what is wrong to what is right, fostering a more positive and resilient approach. **The mindset you bring to work does not just shape your own motivation - it quietly influences the energy, confidence, and collaboration of everyone around you.** At the end of the day, the choice is yours: let your brain replay only the setbacks and risks, or remind yourself of the effort, learning, and wins along the way.
