@@ -6,11 +6,11 @@ slug: mateuszg
 name: Mateusz Gabrynowicz
 short_name: Mateusz
 email: mateusz.gabrynowicz@brightinventions.pl
-bio: Senior Android Developer
-description: Senior Android Developer
+bio: Senior Mobile Developer
+description: Senior Mobile Developer
 avatar: /images/team_member_margines-3-.png
 avatar_hover: /images/team_member_margines-2-.png
 published: true
 language: en
 ---
-A skilled and experienced Android developer, who brings innovation to every line of code. Passionate about video games, Mateusz infuses his love for gaming into creating seamless and engaging mobile experiences.
+A skilled and experienced mobile developer, who brings innovation to every line of code. Passionate about video games, Mateusz infuses his love for gaming into creating seamless and engaging mobile experiences.
