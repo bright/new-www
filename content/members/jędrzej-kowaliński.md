@@ -6,8 +6,8 @@ slug: jedrzej
 name: Jędrzej Kowaliński
 short_name: Jędrzej
 email: jedrzej.kowalinski@brightinventions.pl
-bio: Junior Fullstack Developer
-description: Junior Fullstack Developer
+bio: Fullstack Developer
+description: Fullstack Developer
 avatar: /images/jedrzej_k_team.png
 avatar_hover: /images/jedrzej_k_passion_team.png
 published: true
