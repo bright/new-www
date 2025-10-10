@@ -48,11 +48,15 @@ Probably, yes. **I don't consider myself a typical software developer**, given m
 
 For me, **I just love solving problems**, it doesn't matter what the tool is. If I can learn a new one to get the job done, that’s even better. If I were told that I needed to learn backend development to solve a problem, I would gladly do it.
 
+<div className="image">![Quote on solving problems](/images/mateusz_quote_tools.png "Quote on solving problems")</div>
+
 ## How does the business domain of our partners affect the code you write?
 
 I don't think the business domain itself is the main factor. The most important thing is the **business value we need to deliver**. That value depends on many aspects – not just the domain, but also the partner's immediate business goals, their current challenges, and user feedback.
 
 **Business value is our compass**. It points us toward the goal, and a developer's job is to find the most effective way to provide that value.
+
+<div className="image">![Quote on business value](/images/mateusz_quote_business_value.png "Quote on business value")</div>
 
 For example, let's say we need to add an important feature that users are expecting quickly, but we face technical limitations that prevent us from writing 'perfect' code (for instance, a backend system that constrains our mobile development). In that case, it’s all about finding a middle ground. We need to **find a way to deliver the value** now without complicating our work in the future.
 
@@ -70,6 +74,12 @@ Ultimately, it’s much better to have direct contact with the partner to discus
 
 ## What do you enjoy doing after work?
 
-My free time is dedicated to my children. We try to **be active together**, often going cycling or hiking when we can. After the kids are asleep, I sometimes find a bit of time to play video games.**So you often ride a bike?**
+My free time is dedicated to my children. We try to **be active together**, often going cycling or hiking when we can. After the kids are asleep, I sometimes find a bit of time to play video games.
+
+<div className="image">![Visiting Plitvice Lakes National Park in Croatia.](/images/mateusz_travelling.png "Visiting Plitvice Lakes National Park in Croatia.")</div>
+
+## So you often ride a bike?
 
 Yes, definitely. Whenever I can, **I choose my bike over the car to commute**. The nature of our work requires a lot of sitting, and the last thing I want to do after hours is sit even more in a car stuck in traffic. That's where the bike really comes in handy.
+
+<div className="image">![Mateusz during one of many bike rides.](/images/mateusz_bike.png "Mateusz during one of many bike rides.")</div>
