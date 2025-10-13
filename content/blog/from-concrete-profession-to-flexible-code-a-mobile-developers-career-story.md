@@ -3,8 +3,8 @@ author: mateuszg
 secondAuthor: izabela
 tags:
   - bright insights
-date: 2025-10-10T09:34:02.387Z
-meaningfullyUpdatedAt: 2025-10-10T09:34:02.427Z
+date: 2025-10-13T07:59:14.436Z
+meaningfullyUpdatedAt: 2025-10-13T07:59:14.975Z
 slug: mobile-developer-career-story
 title: From Concrete Profession to Flexible Code. A Mobile Developer's Career Story
 layout: post
