@@ -32,6 +32,8 @@ Yes, but that was **totally by accident**. I decided to sign up for a bootcamp a
 
 After finishing the bootcamp, I quickly found my first job in the field and was able to leave the construction industry for good.
 
+<div className="image">![Mateusz's career story](/images/brightstorymateuszg.png "Mateusz's career story")</div>
+
 ## Was it a difficult goodbye to construction?
 
 No, not at all. That industry really wore me out, but at the same time, it gave me the **motivation I needed to change** my career path. I didn't find the work very rewarding, especially after all the sleepless nights I spent studying in college.
