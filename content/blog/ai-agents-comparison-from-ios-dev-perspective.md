@@ -15,14 +15,12 @@ published: true
 language: en
 ---
 
+Github Copilot was one of the earliest LLM powered tools helping developers with their everyday chores. It was also quite early to support Xcode (first by third party and later by first party plugins). Due to that and few other factors (copilot being endorsed in one of my projects as well as having educational license for it) I ended up using it in my AI supercharged coding endeavour.
+In iOS development I was mostly using Copilot in autocomplete mode and never really dove deep into agentic coding with it.
+
 ## TL;DR
 
 GitHub copilot ended up being the worst across all agents. Claude Code may be easy default choice for Apple developer. You can go directly to [summary](/blog/ai-agents-comparison-from-ios-dev-perspective/#summary) to see what I have chosen for myself.
-
-## Context
-
-Github Copilot was one of the earliest LLM powered tools helping developers with their everyday chores. It was also quite early to support Xcode (first by third party and later by first party plugins). Due to that and few other factors (copilot being endorsed in one of my projects as well as having educational license for it) I ended up using it in my AI supercharged coding endeavour.
-In iOS development I was mostly using Copilot in autocomplete mode and never really dove deep into agentic coding with it.
 
 ## Moar AI
 
