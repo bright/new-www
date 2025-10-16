@@ -148,7 +148,7 @@ Last but not least: Codex from OpenAI. It seemed to be up to the task similarly 
 - **Regression: 3/5**  
   Once more - missing side effects explanation.
 
-## Summary
+### Summary
 
 For me there are few main takeaways from this test:
 
@@ -156,8 +156,18 @@ For me there are few main takeaways from this test:
 - Actual model used is not the most important part - see that Claude Sonnet 4.5 was used by both Copilot and Claude Code with drastically different outcomes...
 - Most of the tools are offering quite similar quality - at least in this test
 
-In addition to that we must consider which flow is more convenient for us. IDE integration (Copilot, Cursor, Windsurf, Xcode) is very convenient. I do however prefer CLI at this point. This is mainly because I dislike Copilot after this benchmark and don't feel like using VSCode clones. Xcode on the other hand - which seems to be perfect solution - still seems to be a work in progress. It was significantly slower and in some additional (out of scope) testing it have managed to crash itself (complete lack of responsiveness from Xcode)... Experience working in Xcode is already bad (who have not experienced crashes, beach balls etc) so I don't want to make it even worse 🥹
+In addition to that we must consider which flow is more convenient for us. IDE integration (Copilot, Cursor, Windsurf, Xcode) is very convenient. I do however prefer CLI at this point. This is mainly because I dislike Copilot after this benchmark and don't feel like using VSCode clones. Xcode on the other hand - which seems to be perfect solution - still might be a work in progress feature. It was significantly slower and in some additional (out of scope) testing it have managed to crash itself (complete lack of responsiveness from Xcode)... Experience working in Xcode is already bad (who have not experienced crashes, beach balls etc) so I don't want to make it even worse 🥹
 
 It is also worth mentioning that most of those tools require paid subscription. Both Cursor and Windsurf offers free trials though. You can also use Gemini CLI for free. At least not by paying with money - you will pay with your data however. And Google does not want you to know that - going into /privacy ends up with `Error loading Opt-in settings: User does not have a current tier`...
+
+## Conclusions
+
+Even though some parts of this post (especially ones connected to Copilot) may seem pessimistic I believe all agents brought real value for me as a developer in that particular example. Even with Copilot I would save some time - not by it doing the job, but hinting me in the right direction. This is pretty amazing how far we have come!
+
+Copilot example left me with one additional thought (which can escape in those more successful scenarios):
+
+> Human brain is still the most amazing machine that ever existed - let's not forget that!
+
+Even though we are gifted with all those amazing (AI) tools - we should still remember to train our most important (from devs perspective) muscle - our brain. We are still in control and AI agent is there to help us do the things we might now want to do, not the other way around.
 
 For now I will most probably explore Claude Code a bit more - I have also heard from multiple sources already that Claude Code works quite nicely for iOS development. It also got bonus points for having theme that suits my auto light/dark theme lifestyle. I do miss however option in any of the CLIs to have dynamic theme based on system theme. I also encourage You to test different tools for yourself.
