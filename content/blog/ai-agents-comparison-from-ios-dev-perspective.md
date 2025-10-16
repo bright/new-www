@@ -24,6 +24,10 @@ GitHub copilot ended up being the worst across all agents. Claude Code may be ea
 
 ## Moar AI
 
+<center>
+![Moar AI meme](/images/ai-agents-comparison-from-ios-dev-perspective/Moar-AI-meme.webp "Moar AI meme")
+</center>
+
 Recently I got to work in few projects requiring technologies new for me and I started experimenting a bit more with Copilot in `agent` mode. Based on approach it was typically hit and miss. I have learned a bit about how to work with agents and notice improvement when using separate steps:
 
 1. Prepare requirements documentation
@@ -33,6 +37,10 @@ Recently I got to work in few projects requiring technologies new for me and I s
 Nevertheless it still didn't felt right. In all cases at some point it was really hard to force Copilot agent to do what I expected it to do. Kind of like it was rebelling against me 😅
 
 ### Even moar AI
+
+<center>
+![Can I has Moar AI meme](/images/ai-agents-comparison-from-ios-dev-perspective/Can-I-has-more-AI-meme.webp "Can I has Moar AI meme")
+</center>
 
 Having seen many success stories of agentic coding both in and out of Bright Inventions I wanted to go deeper and understand what I am doing wrong. I have started looking into different sources to learn and later enrolled into course ([10xDevs.pl](https://www.10xdevs.pl)). It inspired me to do the basic stuff actually: test what different tools give me and how those behave in the field. Idea was simple: test out as many different tools as possible, see if any works better than currently used Copilot and adopt it if that is the case.
 
