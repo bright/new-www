@@ -166,7 +166,7 @@ For me there are few main takeaways from this test:
 
 In addition to that we must consider which flow is more convenient for us. IDE integration (Copilot, Cursor, Windsurf, Xcode) is very convenient. I do however prefer CLI at this point. This is mainly because I dislike Copilot after this benchmark and don't feel like using VSCode clones. Xcode on the other hand - which seems to be perfect solution - still might be a work in progress feature. It was significantly slower and in some additional (out of scope) testing it have managed to crash itself (complete lack of responsiveness from Xcode)... Experience working in Xcode is already bad (who have not experienced crashes, beach balls etc) so I don't want to make it even worse 🥹
 
-It is also worth mentioning that most of those tools require paid subscription. Both Cursor and Windsurf offers free trials though. You can also use Gemini CLI for free. At least not by paying with money - you will pay with your data however. And Google does not want you to know that - going into /privacy ends up with `Error loading Opt-in settings: User does not have a current tier`...
+It is also worth mentioning that most of those tools require paid subscription. Both Cursor and Windsurf offers free trials though. You can also use Gemini CLI for free. At least not by paying with money - you will pay with your data however. And Google does not want you to know that - going into `/privacy` ends up with `Error loading Opt-in settings: User does not have a current tier`... You can check out this [GitHub issue](https://github.com/google-gemini/gemini-cli/issues/2407) for more details.
 
 ## Conclusions
 
