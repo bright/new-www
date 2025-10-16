@@ -6,7 +6,7 @@ tags:
   - Tools
 date: 2025-10-16T10:00:00.000Z
 meaningfullyUpdatedAt: 2025-10-16T10:00:00.000Z
-title: AI agents comparison from iOS developer perspective
+title: AI Agents Comparison from iOS Developer Perspective
 layout: post
 image: /images/ai-agents-comparison-from-ios-dev-perspective/banner.webp
 hidden: false
@@ -15,7 +15,7 @@ published: true
 language: en
 ---
 
-Github Copilot was one of the earliest LLM powered tools helping developers with their everyday chores. It was also quite early to support Xcode (first by third party and later by first party plugins). Due to that and few other factors (copilot being endorsed in one of my projects as well as having educational license for it) I ended up using it in my AI supercharged coding endeavour.
+GitHub Copilot was one of the earliest LLM powered tools helping developers with their everyday chores. It was also quite early to support Xcode (first by third party and later by first party plugins). Due to that and few other factors (copilot being endorsed in one of my projects as well as having educational license for it) I ended up using it in my AI supercharged coding endeavour.
 In iOS development I was mostly using Copilot in autocomplete mode and never really dove deep into agentic coding with it.
 
 ## TL;DR
@@ -50,7 +50,7 @@ While I was considering testing different tools I have stumbled on quite simple 
 
 For evaluation I decided to use IDE and CLI tools:
 
-- Github Copilot (Agent mode in VS Code with Claude Sonnet 4.5) [Educational license]
+- GitHub Copilot (Agent mode in VS Code with Claude Sonnet 4.5) [Educational license]
 - Xcode 26 Coding Assistant (GPT-5) [Pro subscription]
 - Cursor (Agent in auto mode) [Free trial]
 - Windsurf (Code mode with GPT-5 low reasoning) [Free trial]
@@ -58,7 +58,7 @@ For evaluation I decided to use IDE and CLI tools:
 - Claude Code (Claude Sonnet 4.5) [Pro subscription]
 - Codex (GPT-5 codex) [Pro subscription]
 
-For Github Copilot I have chosen Claude Sonnet 4.5 as it felt the best for me in prior usage. Rest of the agents were using stock settings (model/mode mentioned above) as far as I am concerned.
+For GitHub Copilot I have chosen Claude Sonnet 4.5 as it felt the best for me in prior usage. Rest of the agents were using stock settings (model/mode mentioned above) as far as I am concerned.
 
 Each of the agent was presented with exact same prompt:
 
@@ -160,7 +160,7 @@ Last but not least: Codex from OpenAI. It seemed to be up to the task similarly 
 
 For me there are few main takeaways from this test:
 
-- There are much better tools available as compared to Github Copilot
+- There are much better tools available as compared to GitHub Copilot
 - Actual model used is not the most important part - see that Claude Sonnet 4.5 was used by both Copilot and Claude Code with drastically different outcomes...
 - Most of the tools are offering quite similar quality - at least in this test
 
