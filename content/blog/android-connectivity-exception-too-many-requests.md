@@ -3,9 +3,9 @@ author: szymek
 tags:
   - Android
   - WorkManager
-date: 2025-10-15T13:04:49.616Z
-meaningfullyUpdatedAt: 2025-10-15T13:04:49.616Z
-title: Got a ConnectivityException Crash? Read How to Solve it
+date: 2025-10-17T10:49:07.751Z
+meaningfullyUpdatedAt: 2025-10-17T10:49:08.381Z
+title: Got a ConnectivityException Crash? Read How to Solve It
 layout: post
 image: /images/android-connectivity-exception-too-many-requests.jpg
 hidden: false
