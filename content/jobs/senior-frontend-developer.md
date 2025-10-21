@@ -3,7 +3,7 @@ imagejob: /images/fullstack-team-job-offer-4-.png
 workplace_recruiter: Recruitment Specialist
 Show_recruiter_info: true
 layout: job
-title: "Senior Frontend Developer "
+title: Senior Frontend Developer (React)
 subtitle: OPEN
 image-alt-job: Frontend Team Bright Inventions
 hours: full-time
