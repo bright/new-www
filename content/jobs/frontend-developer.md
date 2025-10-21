@@ -1,13 +1,13 @@
 ---
 layout: job
-title: "Frontend Developer "
-subtitle: CLOSED
-imagejob: /images/frontendteam_job_offer.png
+title: Senior Frontend Developer (Vue)
+subtitle: OPEN
+imagejob: /images/job-offer-team-part-2-2025-1-.png
 image-alt-job: Frontend Team Bright Inventions
 hours: full-time
-salary: 12 000 - 17 000 PLN + VAT (B2B) or 10 000 - 14 100 PLN gross (UoP)
-salary_min: 12000
-salary_max: 15000
+salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
+salary_min: ""
+salary_max: ""
 working time: 20-26 paid days off + Polish bank holidays
 technology:
   - TypeScript
@@ -25,67 +25,102 @@ links_more_about_us: >-
 
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
 title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
-workplace_recruiter: Junior Recruiting Specialist
+workplace_recruiter: Recruitment Specialist
 image_recruiter_info: /images/agata_recruiter.png
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
-published: false
+published: true
 show_recruiter_info: true
 hidden: true
 name_recruiter: Agata
 image_alt_recruiter_info: Agata Mietlińska - a Recruiter at Bright Inventions
-button: join our frontend team
-order: 9
+button: join our bright team
+order: 6
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
 description: We are looking for a Frontend Developer who would like to work with
   our experienced and ambitious development team.
 ---
-![]()
+## ![](<>)**about bright people 🧡**
 
-At[ Bright Inventions](https://brightinventions.pl/about-us/team/) you'll be an important part of a group of talented, ambitious and positive developers, designers, managers and marketers who love to solve real problems and build software that really matters in today’s world. 
+At Bright Inventions we value people who take **ownership, show initiative, and care about what they build**. We work as partners to our clients, so we look for team members who **actively suggest improvements, solve problems, and take responsibility** for their work and growth.
 
-We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously. 
+Being flexible is important to us. We use technology as a tool to bring value, and we appreciate people who are **open to learning and using new tools** when needed.
 
-## what you'll work on
+We expect effective communication skills, including the **ability to both give and receive constructive feedback with empathy**. We focus on solutions, not blame. We support each other, share knowledge, and approach challenges with a positive mindset.
 
-Innovative and robust ePOS application for one of our main clients. The application is an intelligent point-of-sale widely used in Israel and since 2016 successfully entering European market. We are responsible here for providing: backend server, web application, a set of mobile applications including the main POS app, customer facing application and the self-checkout application. In addition to development we are taking care of the management, testing and the maintenance of the system.
+## [](https://brightinventions.pl/jobs/senior-fullstack-developer-react-python/#about-the-project-)**about the project 🚀**
 
-## what you will do
+This hiring process is designed to build our Talent Pool for future Frontend openings (utilizing Vue.js) that are expected to become available in the coming months.\
+\
+Upon successful completion of the hiring process, you will be considered for a diverse range of projects spanning various industries—from transportation and health-tech to gastronomy and beyond. Each project presents a new challenge, which we approach with curiosity, care, and dedication. If you are open to exploring different sectors and passionate about building meaningful digital products, we encourage you to apply.
 
-* create high-quality frontend applications 
-* participate in software code reviews
-* have a direct contact with clients and advise in their decision making process
-* share knowledge with the rest of the team
-* improve internal software development processes
+## **preferred skills and qualifications 👩‍💻🧑‍💻**
 
-## what we are looking for
+👉 at least 4-5 years of commercial programming experience as frontend developer or similar role
 
-* at least 2-3 years of commercial programming experience (including min. 2 years in frontend development) 
-* very good working knowledge and deep understanding of JavaScript/TypeScript
-* experience with development in React
-* very good command of Polish & English (both written and spoken)
-* positive attitude
-* excellent problem solving and analytical thinking skills
+👉 deep working knowledge and solid understanding of **TypeScript/JavaScript**
 
-## we would also appreciate if you have
+👉 experience with **Vue**
 
+👉 experience with AI tools for coding, testing, and documentation, and helping teammates in resolving common technical issues
+
+👉 proficiency with HTML and CSS for creating responsive and accessible user interfaces
+
+👉 knowledge of testing strategies and experience with frontend testing frameworks
+
+👉 understanding of backend concepts and openness to working on backend tasks
+
+👉 very good level of English and Polish (both written and spoken)
+
+## **we would also appreciate if you have**
+
+* experience with React
+* experience with development in Node.js or Python 
 * familiarity with AWS or other Cloud providers
-* experience with development in Node.js and PostgreSQL
-* familiarity with Docker
 
-## what we offer
+## **what you will find in our Bright Team** 💡
 
-* great space for self-development
-* continuous feedback culture
-* mentoring programme and regular 1:1 meetings 
-* 20-26 paid days off + Polish bank holidays regardless of the contract type 
-* MultiSport card and private medical package (PZU Zdrowie)
-* good equipment: MacBook and additional accessories
-* flexible working hours and remote work possibility 
-* good localisation and office in Gdańsk Wrzeszcz with a parking space nearby
-* an office library with extra budget for professional books that help you grow 
-* Bright Day once a month for non-project stuff
-* regular sport classes (running, biking, swimming)
-* board games Fridays 
-* team retreats once a quarter and weekly lunch roulette initiative 
+✔️ real impact on the implemented solutions and project growth
+
+✔️ business value over technical perfection
+
+✔️ continuous feedback and open communication
+
+✔️ mentoring program and 1:1 meetings
+
+✔️ internal workshops and dev's meetings
+
+✔️ flexible working hours (we start between 7.00 -10.00 a.m.) and remote work possibility
+
+✔️ office in Gdańsk Wrzeszcz 
+
+✔️ good equipment: MacBook and testing devices 
+
+✔️ individual training budget and office library
+
+✔️ free English classes in small groups
+
+✔️ MultiSport and private medical package (Compensa)
+
+✔️ team buildings events
+
+✔️ Weekly running, swimming and cycling classes with a professional coach
+
+## [](https://brightinventions.pl/jobs/senior-fullstack-developer-react-python/#were-building-a-team-where-every-member)**we’re building a team where every member**
+
+✅ Takes initiative and full ownership in collaboration with both teammates and clients.
+
+✅ Proactively spots opportunities for improvement and suggests solutions.
+
+✅ Is adaptable and open to stepping outside of their core expertise, whether it's learning new technologies, adjusting to changing project needs, or taking on responsibilities beyond their usual role.
+
+✅ Values teamwork, communicates openly, and shares constructive feedback
+
+✅ Faces challenges with a positive, solution-focused attitude.
+
+✅ Treats client products like their own, acting as a true business partner, not just a developer.
+
+If you thrive in an environment that values accountability, adaptability, teamwork, and proactive problem-solving in a friendly atmosphere, we'd love to welcome you to our team. If this mindset doesn’t resonate with you, you might find a better fit elsewhere.
+
+In case you have any questions, drop us a line at [jobs@bright.dev](mailto:jobs@bright.dev).
