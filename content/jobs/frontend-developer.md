@@ -12,8 +12,7 @@ working time: 20-26 paid days off + Polish bank holidays
 technology:
   - TypeScript
   - JavaScript
-  - React
-  - RWD
+  - Vue
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
