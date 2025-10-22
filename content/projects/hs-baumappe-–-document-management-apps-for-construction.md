@@ -26,7 +26,7 @@ social_media_previev_alt: HS Baumappe – Document Management Apps for Construct
 bar_achievements:
   - number: 110+
     label: Years in the market
-  - number: 2+
+  - number: 4+
     label: Years of collaboration
   - number: "5"
     label: Team members
