@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Senior Flutter Developer
-subtitle: OPEN
+subtitle: OPENING SOON
 imagejob: /images/job-offer-team-part-2-2025-1-.png
 image-alt-job: Bright Team
 hours: full-time
