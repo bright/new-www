@@ -8,8 +8,8 @@ short_name: Marcin
 email: marcin.kedziora@brightinventions.pl
 bio: Fullstack Developer
 description: Fullstack Developer
-avatar: /images/marcin_k_passions.jpg
-avatar_hover: /images/marcin_k_tema.jpg
+avatar: /images/marcin_k_team.png
+avatar_hover: /images/marcin_k_passion.png
 published: true
 language: en
 ---
