@@ -1,6 +1,6 @@
 ---
 layout: job
-title: Senior Frontend Developer (Vue)
+title: Senior Frontend Developer (Vue.js)
 subtitle: OPEN
 imagejob: /images/job-offer-team-part-2-2025-1-.png
 image-alt-job: Frontend Team Bright Inventions
@@ -60,7 +60,7 @@ Upon successful completion of the hiring process, you will be considered for a d
 
 👉 deep working knowledge and solid understanding of **TypeScript/JavaScript**
 
-👉 experience with **Vue**
+👉 experience with **Vue.js**
 
 👉 experience with AI tools for coding, testing, and documentation, and helping teammates in resolving common technical issues
 
