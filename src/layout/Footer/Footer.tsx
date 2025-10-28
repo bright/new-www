@@ -122,7 +122,7 @@ export const Footer = () => {
         <Box style={{ gridArea: 'disclaimer' }}>
           <Partners>
             <PartnerLink
-               href='https://www.zebra.com/pl/pl/partners/partner-application-locator/partner-details.html?id=0016S00003NQa9WQAT'
+               href='https://www.zebra.com/pl/pl/partners/partner-application-locator/partner-details.html?id=0016S00003NQa9WQAT&viewType=nav'
                target='_blank'
                rel='noopener noreferrer nofollow'
                style={{ marginLeft: '8px', width: '100px' }}
