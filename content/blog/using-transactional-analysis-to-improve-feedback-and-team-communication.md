@@ -64,7 +64,7 @@ In Transactional Analysis (TA), there is also a concept of life positions such a
 
 This position reflects mutual respect and self-worth, fostering constructive and growth-oriented feedback exchanges. Feedback is provided with empathy and clarity, focusing on behaviors rather than personal judgments. The giver assumes the receiver can learn, grow, and improve, encouraging engagement rather than defensiveness. The receiver sees feedback as an opportunity for growth rather than a personal attack. They acknowledge their value while appreciating the other's positive intentions, making it easier to process and act upon feedback.
 
-### I’m OK 😊, You’re Not OK 😏
+### I’m OK 😊, You’re Not OK 😒
 
 This position is critical and judgmental, often leading to feedback that feels harsh or condescending. The giver may come across as superior, focusing more on finding faults than offering solutions. This risks undermining the receiver’s confidence and fostering resentment or disengagement. If feedback aligns with this mindset, the receiver might resist it entirely, thinking, *“They just don’t understand me.”* Alternatively, it can lead to feelings of inadequacy and discouragement.
 
