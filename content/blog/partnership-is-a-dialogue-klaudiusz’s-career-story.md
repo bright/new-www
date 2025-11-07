@@ -15,9 +15,10 @@ published: true
 language: en
 ---
 **Klaudiusz's passion for mechanics eventually drove him into software development. Read about his career evolution, why he sometimes feels like an archaeologist, and his take on hospitality digitization.**
-**You’re not a programmer by profession. How did you end up in software development?**
 
 <div className="image">![Klaudiusz’s Career Story](/images/brightstoryklaudiuszgrid.png "Klaudiusz’s Career Story")</div>
+
+## You’re not a programmer by profession. How did you end up in software development?
 
 Since I was a child, I always loved to play with a screwdriver, taking things apart. I also wanted to have a job close to sports, so I chose to combine it by studying **Biomedical Engineering**. As it turned out, the medical part wasn't appealing to me; I was more into the mechanical aspect in general.
 
