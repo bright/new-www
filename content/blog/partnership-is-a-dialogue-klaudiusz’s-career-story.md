@@ -27,6 +27,10 @@ So for my Master’s studies, I chose **Mechatronics**. I had some programming c
 
 I cherish the **variety of projects** I got involved in because it gives me many opportunities to learn. I came in 2021 as a Java developer, and since then I've touched on Kotlin, NestJS, Typescript, React, Vue, and more. If you want to **develop holistically** and not just focus solely on backend or frontend, working here gives you that opportunity.
 
+<div className="image">![At Christmas party](/images/klaudiusz_christmas_party.png "At Christmas party")</div>
+
+<center> During team Christmas party. </center>
+
 ## So changing the language has never been an issue to you?
 
 Yes, programming languages differ, but it’s really **more about semantics**. Learning a new language is usually easier than understanding a new project’s structure or methodology.
