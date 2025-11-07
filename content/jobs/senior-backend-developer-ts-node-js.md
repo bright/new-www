@@ -5,9 +5,9 @@ subtitle: OPEN
 imagejob: /images/job-offer-team-part-2-2025-1-.png
 image-alt-job: Devs Team Bright Inventions
 hours: Full-time
-salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
-salary_min: 16600
-salary_max: 23999
+salary: 150 - 180 PLN/hour + VAT (B2B) or 18 400 - 22 100 PLN gross (UoP)
+salary_min: 18400
+salary_max: 22100
 working time: full time
 technology:
   - TypeScript
@@ -48,13 +48,19 @@ We expect effective communication skills, including the **ability to both give a
 
 ## **about our projects 🚀**
 
-**This hiring process is for future Backend openings that will be available in the coming months.**
+At the start, we are considering joining one of the two projects described below.
 
-We work on a diverse range of projects, from transportation and healthtech to gastronomy and beyond. Each one brings a new challenge, and we meet it with curiosity, care, and dedication. If you’re open to exploring different industries and building meaningful digital products, we’d love to have you on board.
+**Project 1**
+
+An AI-driven SaaS platform that automates the entire KYB process - from data sourcing and document analysis to ongoing compliance and audit readiness. It streamlines onboarding, reduces manual work, and ensures full compliance control without added complexity.
+
+**Project 2**
+
+A next-generation passwordless authentication platform used by millions worldwide. It uses advanced biometrics to secure digital identities and enable one-touch access. The solution supports document and biometric verification, data processing, and configurable verification criteria.
 
 ## **preferred skills and qualifications 👩‍💻🧑‍💻**
 
-👉 at least 4 years of commercial programming experience as a backend developer or fullstack developer with backend focus
+👉 at least 5 years of commercial programming experience as a backend developer or fullstack developer with backend focus
 
 👉 solid understanding of TypeScript/JavaScript
 
