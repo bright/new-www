@@ -35,6 +35,8 @@ For example, when designing a purchase flow for an e-commerce platform, you migh
 
 These conceptual aspects matter more to me when starting a new project than the specific technologies I’ll be using.
 
+<div className="image">![Quote on languages](/images/klaudiusz_quote_languages.png "Quote on languages")</div>
+
 ## What is your definition for a successful cooperation with a partner?
 
 It takes place only when there is **mutual respect**. You can experience it in many ways. One of them is when your conversation with a partner isn't mostly a monologue, but you can also **contribute**, respond to the goals, tasks, and requirements the partner has. Also, simply have a chance to **ask the necessary questions** to better understand their side so you can adjust the product to their needs.
@@ -52,6 +54,8 @@ There is a lot going on behind a few-second transaction, and the steps might var
 When I started working at restaurants, we had **POS banks** – computers where every waitstaff member had to come and put the order in from memory or a piece of paper. I wouldn't say operations weren't digitized; I used POS systems that had **inventory systems** and counted how many items in our menu we actually had in stock.
 
 I think the big change was when the waitstaff got a **tablet to manage orders** at the table, so we didn't have to go to the POS station anymore after every order. Yet I’m not sure how many restaurants actually have systems like that even now.
+
+<div className="image">![Quote on hospitality](/images/klaudiusz_quote_tablets.png "Quote on hospitality")</div>
 
 ## But POS systems did evolve. What do you think caused that?
 
