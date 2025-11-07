@@ -3,8 +3,8 @@ author: klaudiusz
 secondAuthor: izabela
 tags:
   - bright insights
-date: 2025-11-07T08:57:14.195Z
-meaningfullyUpdatedAt: 2025-11-07T08:57:14.226Z
+date: 2025-11-07T09:06:29.045Z
+meaningfullyUpdatedAt: 2025-11-07T09:06:29.662Z
 slug: partnership-dialogue-klaudiusz-career-story
 title: Partnership Is a Dialogue. Klaudiusz’s Career Story
 layout: post
