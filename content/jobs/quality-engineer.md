@@ -8,8 +8,10 @@ hours: full-time
 salary: 82 - 102 PLN/hour + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)
 working time: full time
 technology:
-  - iOS
-  - Android
+  - Manual Testing
+  - Mobile Testing
+  - Charles Proxy / Proxyman
+  - Azure DevOps Test Plans
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
