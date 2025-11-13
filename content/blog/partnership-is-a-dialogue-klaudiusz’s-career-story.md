@@ -6,7 +6,7 @@ tags:
 date: 2025-11-07T09:06:29.045Z
 meaningfullyUpdatedAt: 2025-11-07T09:06:29.662Z
 slug: partnership-dialogue-klaudiusz-career-story
-title: Partnership Is a Dialogue. Klaudiusz’s Career Story
+title: Partnership Is a Dialogue. A Fullstack Developer Career Story
 layout: post
 image: /images/brightstoryklaudiusz.png
 hidden: false
