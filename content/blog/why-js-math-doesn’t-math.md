@@ -29,3 +29,21 @@ Let’s debunk a famous myth. Try adding 0.1 and 0.2 in JavaScript. You’d expe
 ## Counting in Binary
 
 At their core, computers only understand binary, a language of 0s and 1s. To perform calculations, we first need to represent our numbers in this form. If you’re not interested in the details of the conversion process (see the section below), here are the binary approximations for our example numbers:
+
+`0.1 - 0.0001 1001 1001 1001…`
+
+`0.2 - 0.0011 0011 0011 0011…`
+
+## Bonus. How to convert decimal values into binary
+
+If you’re not into the technical details, you can skip this part—but it’s actually quite simple and can be useful. To convert a fraction to binary, all you need to do is multiply it by 2. If the result is greater than or equal to 1, you write a binary 1 for that step; otherwise, it’s 0. Then, if you wrote 1, subtract 1 from the result and repeat:
+
+1. `0.1 * 2 = 0.2  → binary 0  `
+2. `0.2 * 2 = 0.4  → binary 0  `
+3. `0.4 * 2 = 0.8  → binary 0  `
+4. `0.8 * 2 = 1.6  → binary 1  `
+5. `(1.6 - 1) * 2 = 0.6 * 2 = 1.2 → binary 1  `
+6. `(1.2 - 1) * 2 = 0.2 * 2 = 0.4 → binary 0  `
+7. `0.4 * 2 = 0.8 → binary 0  `
+8. `0.8 * 2 = 1.6 → binary 1  `
+9. `…`
