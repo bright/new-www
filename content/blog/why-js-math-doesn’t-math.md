@@ -79,3 +79,13 @@ If you’re curious about how these IEEE binaries are actually created, hang tig
 ## What's next
 
 Now you know why JavaScript sometimes “can’t math” and how floating-point numbers are stored behind the scenes. In the next post, we’ll dig deeper into the actual calculations and see exactly how these tiny rounding quirks happen. Stay tuned!
+
+Read more:
+
+1. [To ‘b’ or Not to ‘b’: The Semantic Status of HTML ‘b’ Tag](https://brightinventions.pl/blog/semantic-status-of-html-b-tag/)  
+2. [Understanding the Hoisting Behavior of let and const](https://brightinventions.pl/blog/let-const-hoisting/)  
+3. [JavaScript Types De-Objectified](https://brightinventions.pl/blog/javascript-types-deobjectified/)  
+4. [Eye on ‘i’ — Understanding ‘i’ as a Semantic Element](https://brightinventions.pl/blog/understanding-i-as-semantic-element/)  
+5. [Breaking Down the “alt” Attribute Myth in img Tag Best Practices](https://brightinventions.pl/blog/breaking-down-alt-attribute/)  
+6. [The Truth About Keys and Re-Renders in React](https://brightinventions.pl/blog/keys-and-re-renders-in-react/)  
+7. [React Context and why not every child throws a re-render party](http://blog/react-context-rerenders/)
