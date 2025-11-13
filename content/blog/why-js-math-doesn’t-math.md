@@ -75,3 +75,7 @@ Adding these two values gives:
 `0.100000001490116119384765625 + 0.20000000298023223876953125`
 And that’s why we get the “unexpected” result!
 If you’re curious about how these IEEE binaries are actually created, hang tight, I’ll go through the full process in the next post. For now, just trust these values.
+
+## What's next
+
+Now you know why JavaScript sometimes “can’t math” and how floating-point numbers are stored behind the scenes. In the next post, we’ll dig deeper into the actual calculations and see exactly how these tiny rounding quirks happen. Stay tuned!
