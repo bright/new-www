@@ -34,16 +34,46 @@ At their core, computers only understand binary, a language of 0s and 1s. To per
 
 `0.2 - 0.0011 0011 0011 0011…`
 
-## Bonus. How to convert decimal values into binary
+### Bonus. How to convert decimal values into binary
 
 If you’re not into the technical details, you can skip this part—but it’s actually quite simple and can be useful. To convert a fraction to binary, all you need to do is multiply it by 2. If the result is greater than or equal to 1, you write a binary 1 for that step; otherwise, it’s 0. Then, if you wrote 1, subtract 1 from the result and repeat:
 
-1. `0.1 * 2 = 0.2  → binary 0  `
-2. `0.2 * 2 = 0.4  → binary 0  `
-3. `0.4 * 2 = 0.8  → binary 0  `
-4. `0.8 * 2 = 1.6  → binary 1  `
-5. `(1.6 - 1) * 2 = 0.6 * 2 = 1.2 → binary 1  `
-6. `(1.2 - 1) * 2 = 0.2 * 2 = 0.4 → binary 0  `
-7. `0.4 * 2 = 0.8 → binary 0  `
-8. `0.8 * 2 = 1.6 → binary 1  `
+1. `0.1 * 2 = 0.2  → binary 0`
+2. `0.2 * 2 = 0.4  → binary 0`
+3. `0.4 * 2 = 0.8  → binary 0`
+4. `0.8 * 2 = 1.6  → binary 1`
+5. `(1.6 - 1) * 2 = 0.6 * 2 = 1.2 → binary 1`
+6. `(1.2 - 1) * 2 = 0.2 * 2 = 0.4 → binary 0`
+7. `0.4 * 2 = 0.8 → binary 0`
+8. `0.8 * 2 = 1.6 → binary 1`
 9. `…`
+
+As you can see, the process starts repeating the same numbers — and that’s totally normal. Later, I’ll explain how we handle numbers like this. By the way, you can also get the same result in JavaScript using:\
+*(0.1).toString(2)*
+
+### Infinitely repeating binary fractions
+
+Floating-point numbers like 0.1 and 0.2 are **infinitely repeating binary fractions**. What does that mean? When you try to convert 0.1 into binary, the digits enter an endless loop, they repeat forever. This proves that some decimal numbers simply cannot be represented exactly in binary. We can only store an approximation. So, how does JavaScript handle these numbers anyway?
+
+##
+IEEE math
+
+JavaScript [uses](https://262.ecma-international.org/16.0/index.html?_gl=1*14nfdzv*_ga*MTM1MjExMjkxMC4xNzYwNjk4MDcy*_ga_TDCK4DWEPP*czE3NjA2OTgwNzEkbzEkZzEkdDE3NjA2OTgwOTgkajMzJGwwJGgw#sec-ecmascript-language-types-number-type) 64-bit double-precision floating-point numbers, following the IEEE 754 standard (first version defined in 1985). This standard isn’t unique to JavaScript, it’s also used in many other languages like Python, Kotlin, C#, and more. (Try the same calculation in one of those languages, you might be surprised by the results!) The IEEE 754 standard lets computers represent repeating decimal numbers, like 0.1 and 0.2, using finite binary approximations. But how does it actually do that?
+
+### 
+IEEE-754 binary format
+
+
+The IEEE-754 standard defines how computers handle decimal number calculations. It requires numbers to be converted into a specific binary-like format. Without diving into all the details (which I’ll cover in an upcoming post), the key point is that IEEE-754 uses a finite representation. This means it won’t exactly match the “ideal” binary results we saw earlier for 0.1 and 0.2. 
+
+For example, the IEEE-754 values for our numbers are:
+`0.1 → 0 01111111011 1001100110011001100110011001100110011001100110011010
+(in decimal: 0.100000001490116119384765625)
+0.2 → 0 01111111100 1001100110011001100110011001100110011001100110011010
+(in decimal: 0.20000000298023223876953125)`
+
+
+Adding these two values gives:
+`0.100000001490116119384765625 + 0.20000000298023223876953125`
+And that’s why we get the “unexpected” result!
+If you’re curious about how these IEEE binaries are actually created, hang tight, I’ll go through the full process in the next post. For now, just trust these values.
