@@ -25,7 +25,7 @@ You’ve probably heard people say that JavaScript is a “broken” language an
 
 ## JS’s math don’t maths
 
-Let’s debunk a famous myth. Try adding 0.1 and 0.2 in JavaScript. You’d expect 0.3, right? Instead, you get 0.30000000000000004. Even this simple calculation seems to confuse JS!
+Let’s debunk a famous myth. Try adding 0.1 and 0.2 in JavaScript. You’d expect 0.3, right? Instead, you get `0.30000000000000004`. Even this simple calculation seems to confuse JS!
 *„JS floating-point numbers system is broken”*
 
 ## Counting in Binary
@@ -67,14 +67,15 @@ The IEEE-754 standard defines how computers handle decimal number calculations. 
 
 For example, the IEEE-754 values for our numbers are:
 `0.1 → 0 01111111011 1001100110011001100110011001100110011001100110011010
-(in decimal: 0.100000001490116119384765625)
-0.2 → 0 01111111100 1001100110011001100110011001100110011001100110011010
+(in decimal: 0.100000001490116119384765625)`
+
+`0.2 → 0 01111111100 1001100110011001100110011001100110011001100110011010
 (in decimal: 0.20000000298023223876953125)`
 
 Adding these two values gives:
 `0.100000001490116119384765625 + 0.20000000298023223876953125`
-And that’s why we get the “unexpected” result!
-If you’re curious about how these IEEE binaries are actually created, hang tight, I’ll go through the full process in the next post. For now, just trust these values.
+
+And that’s why we get the “unexpected” result! If you’re curious about how these IEEE binaries are actually created, hang tight, I’ll go through the full process in the next post. For now, just trust these values.
 
 ## What's next
 
