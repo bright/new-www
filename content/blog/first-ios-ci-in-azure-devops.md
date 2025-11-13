@@ -4,9 +4,9 @@ tags:
   - iOS
   - Tools
   - CI/CD
-date: 2025-11-13T10:00:00.000Z
-meaningfullyUpdatedAt: 2025-11-13T10:00:00.000Z
-title: Your first iOS CI Pipeline in Azure DevOps
+date: 2025-11-13T20:00:00.000Z
+meaningfullyUpdatedAt: 2025-11-13T20:00:00.000Z
+title: Your First iOS CI Pipeline in Azure DevOps
 layout: post
 image: /images/first-ios-ci-in-azure-devops/banner.webp
 hidden: false
@@ -15,13 +15,23 @@ published: true
 language: en
 ---
 
-Since I wrote my first test and run it on CI pipeline in one of my past projects I got hooked on the concept of Continuous Integration and Delivery (CI/CD). From that moment I tried to dip my fingers into sauce of automation and since then I have maintained and created many such CI/CD pipelines. Recently I got opportunity to prepare such pipelines in Azure DevOps and to my surprise it was really great experience. In this article I am sharing my experience and tips for creating first CI pipeline using Azure DevOps hosted VMs.
+Since I wrote my first test and run it on CI pipeline in one of my past projects I got hooked on the concept of Continuous Integration and Delivery (CI/CD). From that moment I tried to dip my fingers into sauce of automation whenever I could. Since then I have maintained and created many such CI/CD pipelines. Recently I got opportunity to prepare yet another pipeline - this time in Azure DevOps and to my surprise it was really great experience. In this article I will guide you through creation of your first CI pipeline using Azure DevOps.
+
+I will not go deeper into the details of scripting side to build and test your code. Instead you can checkout article series form my colleague Artur who does just that:
+- [Build and Run iOS App Tests Locally with Fastlane](/blog/building-running-ios-app-test-locally-fastlane/)
+- [Upload iOS App to TestFlight with GitHub Actions and Fastlane Match](/blog/ios-testflight-github-actions-fastlane-match/)
+- [Build and Run iOS App Tests with GitHub Actions](/blog/ios-build-run-tests-github-actions/)
 
 ## TL;DR
-Sorry, no sensible TL;DR today... But if you are in a real rush go and checkout paragraphs with TODO
+Sorry, no sensible TL;DR today... But if you are in a real rush go and checkout [example CI pipeline](/blog/ai-agents-comparison-from-ios-dev-perspective/#summary).
 
 ## Yaml, yaml everywhere
-Similarly to other CI/CD infrastructure providers like GitHub actions, Bitrise, TeamCity... Azure DevOps uses Yaml to define pipelines which creates our CI/CD setup. For creating such pipelines You will find [YAML schema reference for Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/?view=azure-pipelines) to be a very handy link. In contrast to eg GitHub actions - You don't need to have pipeline present on default repository branch. You need to however define it in the Azure DevOps UI. If one wishes - pipeline can be also fully "clicked through" in UI using "classic editor" however it seems not to be recommended way. I also feel that most developers would still prefer better control over pipeline by creating and maintaining YAML files themselves (at least I do).
+
+<center>
+![Yaml everywhere meme](/images/first-ios-ci-in-azure-devops/yaml-everywhere-meme.webp "Yaml everywhere meme")
+</center>
+
+Similarly to other CI/CD infrastructure providers like GitHub actions, Bitrise, TeamCity... Azure DevOps uses Yaml to define pipelines which creates our CI/CD setup. For creating such pipelines You may find [YAML schema reference for Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/?view=azure-pipelines) to be a very handy link. In contrast to GitHub Actions - You don't need to have pipeline present on default repository branch. You need to however define it in the Azure DevOps UI. If one wishes - pipeline can be also fully "clicked through" in UI using "classic editor" however it seems not to be recommended way. I also feel that most developers would still prefer better control over pipeline by creating and maintaining YAML files themselves (at least I do).
 
 ## Creating the pipeline
 As stated above - all pipelines in Azure DevOps needs to be defined in UI. We will do just that and end up with yaml starter we will later on modify so it becomes actual CI pipeline.
@@ -43,7 +53,7 @@ Now you have to select repository for which pipeline is being created. In my cas
 ![Select repository for pipeline](/images/first-ios-ci-in-azure-devops/new-pipeline-select-repo.webp "Select repository for pipeline")
 </center>
 
-I hope in previous step you have selected repository with iOS source code. If you did just that then you will be presented with customized options including template based on [Xcode v5 task](https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/xcode-v5?view=azure-pipelines). Personally I do not like such deep vendor lock-in but you can select it to see how it looks. We will modify this file later on nevertheless :)
+I hope in previous step you have selected repository with iOS source code. If you did just that then you will be presented with customized options including template based on [Xcode v5 task](https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/xcode-v5?view=azure-pipelines). Personally I do not like such deep vendor lock-in but you can select it to see how it looks. We will modify this file later on nevertheless ;)
 
 <center>
 ![Pipeline templates](/images/first-ios-ci-in-azure-devops/new-pipeline-template.webp "Pipeline templates")
@@ -114,7 +124,7 @@ pool:
 You can check [pool definition](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/pool?view=azure-pipelines) to learn about more details.
 
 ### Can we do something finally?
-Now is the main sauce of the pipeline: `steps`. Steps allow us to specify sequential operations that will be made on a single runner. Azure DevOps allows us to organize our pipelines into stages where each stage can contain multiple jobs and each job is build out of `steps`. Stages and jobs do not share same runner as steps does and in this tutorial we won't be considering those higher levels of pipeline hierarchy. You may read about those in future article :) 
+Now is the main sauce of the pipeline: `steps`. Steps allow us to specify sequential operations that will be made on a single runner. Azure DevOps allows us to organize our pipelines into stages where each stage can contain multiple jobs and each job is build out of `steps`. Stages and jobs execute concurrently on separate runners whereas steps runs sequentially on a single runner. In this tutorial we won't be considering those higher levels of pipeline hierarchy and will focus solely on steps. You may read about those in future article :) 
 
 There are multiple types of steps that we can perform. From perspective of iOS CI creation most important are: `checkout`, `task` and `script`. Other interesting type that may be useful but not described in this tutorial is `template`. You can read more about other available step types in [steps definition](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/steps?view=azure-pipelines).
 
@@ -180,7 +190,7 @@ Navigate to **Project Settings -> Repos -> Repositories -> your-repository -> Po
 ![Build validation settings](/images/first-ios-ci-in-azure-devops/build-validation.webp "Build validation settings")
 </center>
 
-## Example CI pipelines
+## Example CI pipeline
 Right now we have all we needed to create fully functional CI pipeline:
 - Defined pipeline in Azure DevOps
 - Created YAML definition for pipeline
