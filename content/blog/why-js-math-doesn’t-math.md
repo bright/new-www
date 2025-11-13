@@ -8,7 +8,7 @@ slug: why-js-math-does-not-math
 title: Why JS Math Doesn’t Math?
 layout: post
 image: /images/blogpost_blog_js_math_image.png
-hidden: true
+hidden: false
 comments: false
 published: true
 language: en
