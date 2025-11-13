@@ -14,8 +14,9 @@ comments: true
 published: true
 language: en
 ---
+**In this article I will guide you through creation of your first CI pipeline using Azure DevOps Platform.**
 
-Since I wrote my first test and run it on CI pipeline in one of my past projects I got hooked on the concept of Continuous Integration and Delivery (CI/CD). From that moment I tried to dip my fingers into sauce of automation whenever I could. Since then I have maintained and created many such CI/CD pipelines. Recently I got opportunity to prepare yet another pipeline - this time in Azure DevOps and to my surprise it was really great experience. In this article I will guide you through creation of your first CI pipeline using Azure DevOps.
+Since I wrote my first test and run it on CI pipeline in one of my past projects I got hooked on the concept of Continuous Integration and Delivery (CI/CD). From that moment I tried to dip my fingers into sauce of automation whenever I could. Since then I have maintained and created many such CI/CD pipelines. Recently I got opportunity to prepare yet another one - this time in Azure DevOps and to my surprise it was really great experience. 
 
 I will not go deeper into the details of scripting side to build and test your code. Instead you can checkout article series form my colleague Artur who does just that:
 - [Build and Run iOS App Tests Locally with Fastlane](/blog/building-running-ios-app-test-locally-fastlane/)
@@ -23,7 +24,7 @@ I will not go deeper into the details of scripting side to build and test your c
 - [Build and Run iOS App Tests with GitHub Actions](/blog/ios-build-run-tests-github-actions/)
 
 ## TL;DR
-Sorry, no sensible TL;DR today... But if you are in a real rush go and checkout [example CI pipeline](/blog/ai-agents-comparison-from-ios-dev-perspective/#summary).
+Sorry, no sensible TL;DR today... You've come pretty far already though! If you are in a real rush however go and checkout [example CI pipeline](/blog/ai-agents-comparison-from-ios-dev-perspective/#summary).
 
 ## Yaml, yaml everywhere
 
@@ -53,7 +54,7 @@ Now you have to select repository for which pipeline is being created. In my cas
 ![Select repository for pipeline](/images/first-ios-ci-in-azure-devops/new-pipeline-select-repo.webp "Select repository for pipeline")
 </center>
 
-I hope in previous step you have selected repository with iOS source code. If you did just that then you will be presented with customized options including template based on [Xcode v5 task](https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/xcode-v5?view=azure-pipelines). Personally I do not like such deep vendor lock-in but you can select it to see how it looks. We will modify this file later on nevertheless ;)
+I hope in previous step you have selected repository with iOS source code. If you did just that then you will be presented with customized options including template based on [Xcode v5 task](https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/xcode-v5?view=azure-pipelines). Personally I do not like such deep vendor lock-in but you can select it to see how it looks. We will modify this file later on nevertheless 😃
 
 <center>
 ![Pipeline templates](/images/first-ios-ci-in-azure-devops/new-pipeline-template.webp "Pipeline templates")
@@ -124,7 +125,7 @@ pool:
 You can check [pool definition](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/pool?view=azure-pipelines) to learn about more details.
 
 ### Can we do something finally?
-Now is the main sauce of the pipeline: `steps`. Steps allow us to specify sequential operations that will be made on a single runner. Azure DevOps allows us to organize our pipelines into stages where each stage can contain multiple jobs and each job is build out of `steps`. Stages and jobs execute concurrently on separate runners whereas steps runs sequentially on a single runner. In this tutorial we won't be considering those higher levels of pipeline hierarchy and will focus solely on steps. You may read about those in future article :) 
+Now is the main sauce of the pipeline: `steps`. Steps allow us to specify sequential operations that will be made on a single runner. Azure DevOps allows us to organize our pipelines into stages where each stage can contain multiple jobs and each job is build out of `steps`. Stages and jobs execute concurrently on separate runners whereas steps runs sequentially on a single runner. In this tutorial we won't be considering those higher levels of pipeline hierarchy and will focus solely on steps. You may read about those in future article 😉 
 
 There are multiple types of steps that we can perform. From perspective of iOS CI creation most important are: `checkout`, `task` and `script`. Other interesting type that may be useful but not described in this tutorial is `template`. You can read more about other available step types in [steps definition](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/steps?view=azure-pipelines).
 
@@ -283,3 +284,11 @@ steps:
 ```
 
 I will be sharing details on that as well as how to create CD pipeline in future article so stay tuned and experiment in the meantime.
+
+## Final thoughts
+
+In the early days of my career I was having visceral thoughts about different infrastructure providers. Back in the day GitLab CI was my favorite and none other could come close. With time, experience and evolution of tools it faded away. I still had inner thoughts that Azure Devops may be rubbish yet I knew it is the best choice to stick with common approach in a bigger organization for which I prepared this setup.
+
+This does not necessarily mean that one should always use tools that particular organization use - it is always context dependent. In a small stable team it will be much more important for the team members to be familiar with tools they use. If developer experience is at proper level then satisfaction of work will be respectively higher as well.
+
+So yes - I liked it - it works just like any other CI/CD infrastructure. And it is deeply and neatly integrated in whole infrastructure we use for that project and it was incredibly simple to set up. Also I liked templating a lot, but more on that later...
