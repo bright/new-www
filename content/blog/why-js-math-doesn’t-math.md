@@ -17,6 +17,8 @@ language: en
 
 This post has two parts. The first (this one) gives a high-level overview of floating-point arithmetic in JavaScript. The second dives into the low-level mechanics and calculations, so you can see exactly what happens behind the scenes.
 
+<div className="image">![JavaScript math](/images/blogpost_blog_js_math_image.png "JavaScript math")</div>
+
 ## Is JavaScript broken?
 
 You’ve probably heard people say that JavaScript is a “broken” language and sometimes it really seems that way. One of the most famous examples is how JavaScript handles floating-point arithmetic. Adding simple numbers can produce strange, unexpected results. It’s funny, but the truth is, this isn’t actually JavaScript’s fault. The behavior comes from the number system it’s built on - a specification shared across many programming languages.
@@ -55,14 +57,11 @@ As you can see, the process starts repeating the same numbers — and that’s t
 
 Floating-point numbers like 0.1 and 0.2 are **infinitely repeating binary fractions**. What does that mean? When you try to convert 0.1 into binary, the digits enter an endless loop, they repeat forever. This proves that some decimal numbers simply cannot be represented exactly in binary. We can only store an approximation. So, how does JavaScript handle these numbers anyway?
 
-##
-IEEE math
+## IEEE math
 
 JavaScript [uses](https://262.ecma-international.org/16.0/index.html?_gl=1*14nfdzv*_ga*MTM1MjExMjkxMC4xNzYwNjk4MDcy*_ga_TDCK4DWEPP*czE3NjA2OTgwNzEkbzEkZzEkdDE3NjA2OTgwOTgkajMzJGwwJGgw#sec-ecmascript-language-types-number-type) 64-bit double-precision floating-point numbers, following the IEEE 754 standard (first version defined in 1985). This standard isn’t unique to JavaScript, it’s also used in many other languages like Python, Kotlin, C#, and more. (Try the same calculation in one of those languages, you might be surprised by the results!) The IEEE 754 standard lets computers represent repeating decimal numbers, like 0.1 and 0.2, using finite binary approximations. But how does it actually do that?
 
-### 
-IEEE-754 binary format
-
+### IEEE-754 binary format
 
 The IEEE-754 standard defines how computers handle decimal number calculations. It requires numbers to be converted into a specific binary-like format. Without diving into all the details (which I’ll cover in an upcoming post), the key point is that IEEE-754 uses a finite representation. This means it won’t exactly match the “ideal” binary results we saw earlier for 0.1 and 0.2. 
 
@@ -71,7 +70,6 @@ For example, the IEEE-754 values for our numbers are:
 (in decimal: 0.100000001490116119384765625)
 0.2 → 0 01111111100 1001100110011001100110011001100110011001100110011010
 (in decimal: 0.20000000298023223876953125)`
-
 
 Adding these two values gives:
 `0.100000001490116119384765625 + 0.20000000298023223876953125`
