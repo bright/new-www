@@ -2,8 +2,8 @@
 author: rafal-op
 tags:
   - frontend
-date: 2025-11-13T10:16:36.946Z
-meaningfullyUpdatedAt: 2025-11-13T10:16:36.970Z
+date: 2025-11-13T10:33:04.574Z
+meaningfullyUpdatedAt: 2025-11-13T10:33:05.084Z
 slug: why-js-math-does-not-math
 title: Why JS Math Doesn’t Math?
 layout: post
