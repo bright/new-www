@@ -5,7 +5,7 @@ tags:
 date: 2025-11-13T10:16:36.946Z
 meaningfullyUpdatedAt: 2025-11-13T10:16:36.970Z
 slug: why-js-math-does-not-math
-title: Why JS math doesn’t math?
+title: Why JS Math Doesn’t Math?
 layout: post
 image: /images/blogpost_blog_js_math_image.png
 hidden: false
