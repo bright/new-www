@@ -6,8 +6,7 @@ tags:
 date: 2025-12-05T10:04:57.078Z
 meaningfullyUpdatedAt: 2025-12-05T10:04:57.738Z
 slug: frontend-developer-with-passion-for-product-design
-title: "Avoiding UX Traps: Meet the Frontend Developer with a Passion for
-  Product Design"
+title: "Avoiding UX Traps: A Frontend Developer with a Passion for Product Design"
 layout: post
 image: /images/brightstorykrystian.png
 hidden: false
