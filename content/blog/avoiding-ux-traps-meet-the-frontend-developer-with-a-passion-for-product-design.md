@@ -27,6 +27,8 @@ I stayed there for about two years before moving to an electronics distribution 
 
 After a few years, I took on my first management responsibilities, though leadership itself wasn’t my main driver. **My biggest satisfaction came from working with product designers** because I already felt confident knowing a lot of UX traps that product teams can get themselves into, so I wanted to help avoid that.
 
+<div className="image">![Quote on satisfaction](/images/krystian_quote_satisfaction.png "Quote on satisfaction")</div>
+
 ## And how was this cooperation with product designers going?
 
 At first it wasn't easy because, in many situations, **a developer has a chance to contribute to the design when it’s quite late** – the design is done, the backlog is full, and here comes the frontend developer having some suggestions. 
@@ -47,6 +49,8 @@ One example is that developers should remind the team that an **interface will b
 
 Also, adding an extra voice to the conversation (like a developer’s) might help to sometimes go beyond the rules for the user's benefit.
 
+<div className="image">![Quote on design](/images/krystian_quote_design.png "Quote on design")</div>
+
 ## What do you mean by that?
 
 I once read about [Formula 1 teams helping to optimize the space in surgery rooms](https://surgery.international/f1-racing-on-track-to-help-surgical-teams/). When the driver goes into the pit bay, everyone from the team is placed for maximum optimization so the driver can leave as fast as possible. This precision is something of value for hospitals as well.
@@ -63,9 +67,13 @@ I’ve had the chance to build quite a range of products, and right now I’m wo
 
 I am particularly happy that my recent project just reached a stage close to my heart, where we are working on the user experience for the web solution. I love contributing to that, working side by side with the product designer. We are at a stage where **we work with mutual trust, sharing our ideas and suggestions**, and I love that I get to build relationships like this at Bright Inventions.
 
+<div className="image">![At the Bright Inventions’ Gdansk office.](/images/krystian_pies.png "At the Bright Inventions’ Gdansk office.")</div>
+
 ## Did you enjoy our rainy sailing during the recent team retreat?
 
 Yes, very much. **I was actually hoping for a stronger wind** so it would toss the sailboats around more. You know, a little more endorphins wouldn’t hurt anyone and would definitely help us bond even more.
+
+<div className="image">![Rainy sailing team retreat.](/images/krystian_sailing.png "Rainy sailing team retreat.")</div>
 
 ## But there was even a storm at some point? It wasn’t enough for you?
 
