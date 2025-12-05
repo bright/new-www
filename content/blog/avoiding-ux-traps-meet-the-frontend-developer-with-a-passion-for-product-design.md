@@ -3,8 +3,8 @@ author: krystian
 secondAuthor: izabela
 tags:
   - bright insights
-date: 2025-12-05T09:47:07.631Z
-meaningfullyUpdatedAt: 2025-12-05T09:47:07.668Z
+date: 2025-12-05T10:04:57.078Z
+meaningfullyUpdatedAt: 2025-12-05T10:04:57.738Z
 slug: frontend-developer-with-passion-for-product-design
 title: "Avoiding UX Traps: Meet the Frontend Developer with a Passion for
   Product Design"
