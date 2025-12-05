@@ -77,4 +77,4 @@ Yes, very much. **I was actually hoping for a stronger wind** so it would toss t
 
 ## But there was even a storm at some point? It wasn’t enough for you?
 
-I guess my expectations were even higher. :D
+I guess my expectations were even higher. 😁
