@@ -69,11 +69,15 @@ I am particularly happy that my recent project just reached a stage close to my 
 
 <div className="image">![At the Bright Inventions’ Gdansk office.](/images/krystian_pies.png "At the Bright Inventions’ Gdansk office.")</div>
 
+<center> At the Bright Inventions’ Gdansk office. </center>
+
 ## Did you enjoy our rainy sailing during the recent team retreat?
 
 Yes, very much. **I was actually hoping for a stronger wind** so it would toss the sailboats around more. You know, a little more endorphins wouldn’t hurt anyone and would definitely help us bond even more.
 
 <div className="image">![Rainy sailing team retreat.](/images/krystian_sailing.png "Rainy sailing team retreat.")</div>
+
+<center> Rainy sailing team retreat. </center>
 
 ## But there was even a storm at some point? It wasn’t enough for you?
 
