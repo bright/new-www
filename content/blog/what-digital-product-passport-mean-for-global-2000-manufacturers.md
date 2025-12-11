@@ -95,3 +95,17 @@ A standard "compliance" passport is a boring static page that checks a box for t
 <div className="image">![Digital Product Passport - mockup example.](/images/gemini_generated_image_v3uox9v3uox9v3uo.png "Digital Product Passport - mockup example.")</div>
 
 <center>AI generated conceptual image.</center>
+
+The Opportunity: A custom passport is a post-purchase engagement channel.
+
+The Custom Solution: Because we control the frontend experience (PWA or Native App), we can turn the "scan" into a revenue generator:
+
+One-Click Resale: "Scan your jacket's tag to list it on our second-hand marketplace instantly."
+
+Predictive Maintenance: "Scan your e-bike battery to see its current health and book a service appointment."
+
+Authentication: Luxury brands can use the passport to prove provenance, killing the counterfeit market.
+
+Loyalty: "Scan your product to register the warranty and earn 500 points."
+
+The Verdict: Don't build a digital passport just to avoid a fine. Build a digital passport to own your data and own your customer.
