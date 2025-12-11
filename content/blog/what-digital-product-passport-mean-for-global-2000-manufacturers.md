@@ -2,8 +2,8 @@
 author: izabela
 tags:
   - business strategy
-date: 2025-12-11T08:06:02.427Z
-meaningfullyUpdatedAt: 2025-12-11T08:06:02.458Z
+date: 2025-12-11T08:48:14.964Z
+meaningfullyUpdatedAt: 2025-12-11T08:48:15.524Z
 slug: digital-product-passport-manufacturers
 title: What Digital Product Passport Mean for Global 2000 Manufacturers
 layout: post
