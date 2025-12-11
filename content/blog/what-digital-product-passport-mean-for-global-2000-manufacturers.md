@@ -82,11 +82,11 @@ SaaS platforms assume a "clean" world. They are built for modern environments, e
 
 ### Reason 2: Less reliance on third-parties
 
-When you sign up for a SaaS DPP vendor, you are effectively uploading your entire supply chain map—your Tier 2 suppliers, your exact chemical formulations, and your pricing structures—into a third-party's cloud.
+When you sign up for a SaaS DPP vendor, you are effectively uploading your entire supply chain map – your Tier 2 suppliers, your exact chemical formulations, and your pricing structures – into a third-party's cloud.
 
-The Risk: You are renting your own data. If that vendor pivots, gets acquired by a competitor, or hikes their API pricing by 400%, you are held hostage. You cannot easily "export" a live, dynamic passport history to a new provider.
+**The risk**: You are renting your own data. If that vendor pivots, gets acquired by a competitor, or hikes their API pricing by 400%, you are held hostage. You cannot easily "export" a live, dynamic passport history to a new provider.
 
-The Custom Solution: By building a custom solution you retain 100% data sovereignty. You own the graph database. You own the API keys. You decide exactly what is public (compliance data) and what is private (IP/Formulations), with no risk of a vendor peeking into your trade secrets.
+**The custom solution**: By building a custom solution you retain 100% data sovereignty. You own the graph database. You own the API keys. You decide exactly what is public (compliance data) and what is private (IP/Formulations), with no risk of a vendor peeking into your trade secrets.
 
 ### Reason 3: Turning Compliance into Customer Experience (CX)
 
@@ -96,30 +96,30 @@ A standard "compliance" passport is a boring static page that checks a box for t
 
 <center>AI-generated conceptual image.</center>
 
-The Opportunity: A custom passport is a post-purchase engagement channel.
+**The opportunity**: A custom passport is a post-purchase engagement channel.
 
-The Custom Solution: Because we control the frontend experience (PWA or Native App), we can turn the "scan" into a revenue generator:
+**The custom solution**: Because we control the frontend experience (PWA or Native App), we can turn the "scan" into a revenue generator:
 
-One-Click Resale: "Scan your jacket's tag to list it on our second-hand marketplace instantly."
+**One-click resale**: "Scan your jacket's tag to list it on our second-hand marketplace instantly."
 
-Predictive Maintenance: "Scan your e-bike battery to see its current health and book a service appointment."
+**Predictive maintenance**: "Scan your e-bike battery to see its current health and book a service appointment."
 
-Authentication: Luxury brands can use the passport to prove provenance, killing the counterfeit market.
+**Authentication**: Luxury brands can use the passport to prove provenance, killing the counterfeit market.
 
-Loyalty: "Scan your product to register the warranty and earn 500 points."
+**Loyalty**: "Scan your product to register the warranty and earn 500 points."
 
-The Verdict: Don't build a digital passport just to avoid a fine. Build a digital passport to own your data and own your customer.
+**The verdict:** **Don't build a digital passport just to avoid a fine. Build a digital passport to own your data and own your customer.**
 
 ## Relying on the right hardware
 
-When it comes to supply chain visibility, Zebra Technologies is the undisputed global leader. From ruggedized mobile computers and barcode scanners to RFID readers and industrial printers, Zebra hardware powers the operations of the world’s largest manufacturers and logistics companies. They provide the "eyes" that track a product from raw material to retail shelf.
+When it comes to supply chain visibility, Zebra Technologies is the undisputed global leader. From ruggedized mobile computers and barcode scanners to RFID readers and industrial printers, Zebra hardware powers the operations of the world’s largest manufacturers and logistics companies.
 
-However, hardware is only half the equation. We possess deep experience in building custom applications specifically for Zebra devices.
+However, hardware is only half the equation. **As [Zebra Registered ISV Partner](https://www.zebra.com/pl/pl/partners/partner-application-locator/partner-details.html?id=0016S00003NQa9WQAT&viewType=nav) we possess deep experience in building custom applications specifically for Zebra devices.**
 
-Native Optimization: We build native solutions that fully leverage Zebra’s specialized scanning engines and rugged capabilities.
+**Native optimization**: We build native solutions that fully leverage Zebra’s specialized scanning engines and rugged capabilities.
 
-Workflow Integration: We understand the specific UX constraints of a factory worker wearing gloves or a logistics driver in the rain. We design interfaces that are fast, high-contrast, and error-proof.
+**Workflow integration**: We understand the specific UX constraints of a factory worker wearing gloves or a logistics driver in the rain. We design interfaces that are fast, high-contrast, and error-proof.
 
-Seamless Connectivity: We ensure that the data captured on the floor—whether via barcode or RFID—syncs instantly with your central middleware, ensuring your Digital Product Passport is updated in real-time.
+**Seamless connectivity**: We ensure that the data captured on the floor – whether via barcode or RFID –syncs instantly with your central middleware, ensuring your Digital Product Passport is updated in real-time.
 
 By combining Zebra’s world-class durability with our custom software logic, we bridge the gap between the physical product and its digital twin.
