@@ -15,6 +15,10 @@ language: en
 ---
 **The European Union has shifted the burden of proof of sustainability from the marketing department to the IT department. Printing a green leaf on the packaging won’t be enough soon. You’ll need to prove it with data that every consumer will get access to. The regulation demands a Digital Product Passport (DPP) for nearly every physical good placed on the EU market.**
 
+<div className="image">![AI generated conceptual image.](/images/gemini_generated_image_c361ryc361ryc361.png "AI generated conceptual image.")</div>
+
+<center>AI generated conceptual image.</center>
+
 ## What is a Digital Product Passport (DPP)?
 
 A [Digital Product Passport (DPP)](https://data.europa.eu/en/news-events/news/eus-digital-product-passport-advancing-transparency-and-sustainability) is a digital record that acts as a "twin" to a physical product, securely accessible via a scan (QR code, NFC, or RFID).
