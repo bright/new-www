@@ -17,7 +17,7 @@ language: en
 
 <div className="image">![Digital Product Passport - mockup example.](/images/gemini_generated_image_c361ryc361ryc361.png "Digital Product Passport - mockup example.")</div>
 
-<center>AI generated conceptual image.</center>
+<center>AI-generated conceptual image.</center>
 
 ## What is a Digital Product Passport (DPP)?
 
@@ -95,7 +95,7 @@ A standard "compliance" passport is a boring static page that checks a box for t
 
 <div className="image">![Digital Product Passport - mockup example.](/images/gemini_generated_image_v3uox9v3uox9v3uo.png "Digital Product Passport - mockup example.")</div>
 
-<center>AI generated conceptual image.</center>
+<center>AI-generated conceptual image.</center>
 
 The Opportunity: A custom passport is a post-purchase engagement channel.
 
