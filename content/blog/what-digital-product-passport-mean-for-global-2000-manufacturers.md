@@ -123,3 +123,7 @@ However, hardware is only half the equation. **As [Zebra Registered ISV Partner]
 **Seamless connectivity**: We ensure that the data captured on the floor – whether via barcode or RFID –syncs instantly with your central middleware, ensuring your Digital Product Passport is updated in real-time.
 
 By combining Zebra’s world-class durability with our custom software logic, we bridge the gap between the physical product and its digital twin.
+
+## Does your company need Digital Product Passport solution?
+
+Let's talk about your operational challenges. [Contact us](https://brightinventions.pl/start-project/) to book a meeting in 1 business day!
