@@ -15,7 +15,7 @@ language: en
 ---
 **The European Union has shifted the burden of proof of sustainability from the marketing department to the IT department. Printing a green leaf on the packaging won’t be enough soon. You’ll need to prove it with data that every consumer will get access to. The regulation demands a Digital Product Passport (DPP) for nearly every physical good placed on the EU market.**
 
-<div className="image">![AI generated conceptual image.](/images/gemini_generated_image_c361ryc361ryc361.png "AI generated conceptual image.")</div>
+<div className="image">![Digital Product Passport - mockup example.](/images/gemini_generated_image_c361ryc361ryc361.png "Digital Product Passport - mockup example.")</div>
 
 <center>AI generated conceptual image.</center>
 
@@ -92,6 +92,6 @@ The Custom Solution: By building a custom solution you retain 100% data sovereig
 Reason 3: Turning Compliance into Customer Experience (CX)\
 A standard "compliance" passport is a boring static page that checks a box for the EU regulator. It is a cost center.
 
-<div className="image">![AI generated conceptual image.](/images/gemini_generated_image_v3uox9v3uox9v3uo.png "AI generated conceptual image.")</div>
+<div className="image">![Digital Product Passport - mockup example.](/images/gemini_generated_image_v3uox9v3uox9v3uo.png "Digital Product Passport - mockup example.")</div>
 
 <center>AI generated conceptual image.</center>
