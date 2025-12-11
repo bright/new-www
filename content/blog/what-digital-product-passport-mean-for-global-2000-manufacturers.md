@@ -25,61 +25,60 @@ A [Digital Product Passport (DPP)](https://data.europa.eu/en/news-events/news/eu
 
 It shows product's entire lifecycle, including:
 
-* Origin & Composition: Where materials came from and what the product is made of (e.g., % of recycled content).  
-* Sustainability: Carbon footprint and environmental impact.  
-* Circularity: Instructions for repair, dismantling, and recycling.
+* **Origin & Composition**: Where materials came from and what the product is made of (e.g., % of recycled content).  
+* **Sustainability**: Carbon footprint and environmental impact.  
+* **Circularity**: Instructions for repair, dismantling, and recycling.
 
 ## Digital product passport compliance deadlines
 
 If your deadline is 2027, you might already be behind schedule.
 
-| Industry | Hard Compliance Deadline | The "Data Reality" |
-| :---- | :---- | :---- |
-| **Batteries** | **Feb 18, 2027** | *Critical.* Applies to all EV, LMT (e-bike), and industrial batteries \>2kWh. |
-| **Textiles & Apparel** | **Mid-2027 / 2028** | *High Volume.* Requires item-level traceability (likely RFID) for millions of SKUs. |
-| **Iron & Steel** | **\~Mid-2027** | *Complex.* Tracking "scrap input" vs. "virgin ore" ratios across blast furnaces. |
-| **Aluminum** | **\~2027** | Treated as a priority intermediate product alongside steel. |
-| **Tyres** | **2027** | Moving from a sticker label to a full digital lifecycle record. |
-| **Furniture** | **2028 / 2029** | Complicated by multi-material composition (wood, foam, metal, fabric). |
-| **Consumer Electronics** | **2029** | Focus on "Right to Repair" metrics and critical raw material recovery. |
+| **Industry**             | **Hard Compliance Deadline** | **The "Data Reality"**                                                              |
+| ------------------------ | ---------------------------- | ----------------------------------------------------------------------------------- |
+| **Batteries**            | Feb 18, 2027                 | *Critical.* Applies to all EV, LMT (e-bike), and industrial batteries >2kWh.        |
+| **Textiles & Apparel**   | Mid-2027 / 2028              | *High Volume.* Requires item-level traceability (likely RFID) for millions of SKUs. |
+| **Iron & Steel**         | ~Mid-2027                    | *Complex.* Tracking "scrap input" vs. "virgin ore" ratios across blast furnaces.    |
+| **Aluminum**             | ~2027                        | Treated as a priority intermediate product alongside steel.                         |
+| **Tyres**                | 2027                         | Moving from a sticker label to a full digital lifecycle record.                     |
+| **Furniture**            | 2028 / 2029                  | Complicated by multi-material composition (wood, foam, metal, fabric).              |
+| **Consumer Electronics** | 2029                         | Focus on "Right to Repair" metrics and critical raw material recovery.              |
 
 ## What you actually have to build
 
-You probably can’t just use a generic SaaS portal. Why? Because the data requirements for every industry vary and you need custom software that will answer to that. Custom digital solutions don't just "generate a QR code”, they dive deeper. Check some examples below.
+You probably can’t just use a generic SaaS portal. Why? Because the data requirements for every industry vary and you need custom software that will answer to that. **Custom digital solutions don't just "generate a QR code”**, they dive deeper. Check some examples below.
 
 ### DPP for For Batteries
 
-The Challenge: Dynamic health monitoring.
+**The challenge**: Dynamic health monitoring.
 
-Required Data:
+**Required data**:
 
-Static: Manufacturing date, chemistry type (Li-ion, LFP), and hazardous substances.
+* **Static**: Manufacturing date, chemistry type (Li-ion, LFP), and hazardous substances.
+* **Dynamic**: State of Health (SoH) data, expected cycle life, and "carbon footprint" calculated specifically for that manufacturing batch.
 
-Dynamic: State of Health (SoH) data, expected cycle life, and "carbon footprint" calculated specifically for that manufacturing batch.
-
-The Dev Angle: You need an API that can pull real-time BMS (Battery Management System) data and serialize it into the passport.
+**The dev angle**: You need an API that can pull real-time BMS (Battery Management System) data and serialize it into the passport.
 
 More information: [https://circulareconomy.europa.eu](https://circulareconomy.europa.eu/platform/sites/default/files/2024-03/1qp5rxiZ-CEPS-InDepthAnalysis-2024-05_Implementing-the-EU-digital-battery-passport.pdf)
 
 ### DPP for Textiles
 
-The Challenge: Granularity.
+**The challenge**: Granularity.
 
-Required Data: Fiber composition (e.g., 60% Recycled Polyester, 40% Virgin Cotton), country of origin for each weaving/stitching stage, and presence of microplastics.
+**Required data**: Fiber composition (e.g., 60% Recycled Polyester, 40% Virgin Cotton), country of origin for each weaving/stitching stage, and presence of microplastics.
 
-The Dev Angle: This is an RFID game. You cannot scan QR codes on 50,000 t-shirts manually. You need a solution that integrates with UHF RFID readers (like those from Zebra Technologies) to associate a unique digital ID with a physical garment in milliseconds.
+**The dev angle**: This is an RFID game. You cannot scan QR codes on 50,000 t-shirts manually. You need a solution that integrates with UHF RFID readers (like those from Zebra Technologies) to associate a unique digital ID with a physical garment in milliseconds.
 
-## The "build vs. buy" Reality check: Why enterprise needs custom architecture
+## The "build vs. buy" reality check: Why enterprise needs custom architecture
 
-### Reason 1: Adjusting to Legacy Code
+### Reason 1: Adjusting to legacy code
 
 SaaS platforms assume a "clean" world. They are built for modern environments, expecting your data to be neatly organized in cloud-native systems accessible via standard RESTful APIs.
 
-The Reality: Your enterprise data landscape is likely a stack built over decades. Are you juggling a 10-year-old warehouse system, a heavily customized on-premise ERP, and multiple siloed product lifecycle management (PLM) tools inherited from recent corporate acquisitions?
+**The reality**: Your enterprise data landscape is likely a stack built over decades. Are you juggling a 10-year-old warehouse system, a heavily customized on-premise ERP, and multiple siloed product lifecycle management (PLM) tools inherited from recent corporate acquisitions?
 
-The Problem: Generic SaaS tools hit a wall when facing this complexity. They cannot natively interpret proprietary database schemas, heavily modified logic (like custom stored procedures), or the "dirty data" discrepancies between your US and European divisions (e.g., metric vs. imperial inconsistencies). If the SaaS connector expects Field A, but your system uses Custom Field B, the integration fails.
+**The problem**: Generic SaaS tools hit a wall when facing this complexity. They cannot natively interpret proprietary database schemas, heavily modified logic (like custom stored procedures), or the "dirty data" discrepancies between your US and European divisions (e.g., metric vs. imperial inconsistencies). If the SaaS connector expects Field A, but your system uses Custom Field B, the integration fails.
 
-The Custom Solution: A Bright Inventions we integrate your legacy or complex infrastructure with the modern web. We don't ask your systems to change, our goal is to maintain backward compatibility if needed. We extract, clean, and normalize the data before it ever hits the passport. This allows you to achieve EU compliance without triggering a multi-million dollar infrastructure overhaul.
+**The custom solution**: A Bright Inventions we integrate your legacy or complex infrastructure with the modern web. We don't ask your systems to change, our goal is to maintain backward compatibility if needed. We extract, clean, and normalize the data before it ever hits the passport. This allows you to achieve EU compliance without triggering a multi-million dollar infrastructure overhaul.
 
 ### Reason 2: Less reliance on third-parties
 
