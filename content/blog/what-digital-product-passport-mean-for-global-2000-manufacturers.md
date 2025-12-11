@@ -37,7 +37,7 @@ If your deadline is 2027, you might already be behind schedule.
 | ------------------------ | ---------------------------- | ----------------------------------------------------------------------------------- |
 | **Batteries**            | Feb 18, 2027                 | *Critical.* Applies to all EV, LMT (e-bike), and industrial batteries >2kWh.        |
 | **Textiles & Apparel**   | Mid-2027 / 2028              | *High Volume.* Requires item-level traceability (likely RFID) for millions of SKUs. |
-| **Iron & Steel**         | ~Mid-2027                    | *Complex.* Tracking "scrap input" vs. "virgin ore" ratios across blast furnaces.    |
+| **Iron & Steel**         | 2027                         | *Complex.* Tracking "scrap input" vs. "virgin ore" ratios across blast furnaces.    |
 | **Aluminum**             | ~2027                        | Treated as a priority intermediate product alongside steel.                         |
 | **Tyres**                | 2027                         | Moving from a sticker label to a full digital lifecycle record.                     |
 | **Furniture**            | 2028 / 2029                  | Complicated by multi-material composition (wood, foam, metal, fabric).              |
