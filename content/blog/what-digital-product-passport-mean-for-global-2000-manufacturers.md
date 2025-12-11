@@ -33,15 +33,15 @@ It shows product's entire lifecycle, including:
 
 If your deadline is 2027, you might already be behind schedule.
 
-| **Industry**             | **Hard Compliance Deadline** | **The "Data Reality"**                                                              |
-| ------------------------ | ---------------------------- | ----------------------------------------------------------------------------------- |
-| **Batteries**            | Feb 18, 2027                 | *Critical.* Applies to all EV, LMT (e-bike), and industrial batteries >2kWh.        |
-| **Textiles & Apparel**   | Mid-2027 / 2028              | *High Volume.* Requires item-level traceability (likely RFID) for millions of SKUs. |
-| **Iron & Steel**         | 2027                         | *Complex.* Tracking "scrap input" vs. "virgin ore" ratios across blast furnaces.    |
-| **Aluminum**             | ~2027                        | Treated as a priority intermediate product alongside steel.                         |
-| **Tyres**                | 2027                         | Moving from a sticker label to a full digital lifecycle record.                     |
-| **Furniture**            | 2028 / 2029                  | Complicated by multi-material composition (wood, foam, metal, fabric).              |
-| **Consumer Electronics** | 2029                         | Focus on "Right to Repair" metrics and critical raw material recovery.              |
+| **Industry**             | **Hard Compliance Deadline** | **The "Data Reality"**                                                 |
+| ------------------------ | ---------------------------- | ---------------------------------------------------------------------- |
+| **Batteries**            | Feb 18, 2027                 | Applies to all EV, LMT (e-bike), and industrial batteries >2kWh.       |
+| **Textiles & Apparel**   | Mid-2027 / 2028              | Requires item-level traceability (likely RFID) for millions of SKUs.   |
+| **Iron & Steel**         | 2027                         | Tracking "scrap input" vs. "virgin ore" ratios across blast furnaces.  |
+| **Aluminum**             | ~2027                        | Treated as a priority intermediate product alongside steel.            |
+| **Tyres**                | 2027                         | Moving from a sticker label to a full digital lifecycle record.        |
+| **Furniture**            | 2028 / 2029                  | Complicated by multi-material composition (wood, foam, metal, fabric). |
+| **Consumer Electronics** | 2029                         | Focus on "Right to Repair" metrics and critical raw material recovery. |
 
 ## What you actually have to build
 
