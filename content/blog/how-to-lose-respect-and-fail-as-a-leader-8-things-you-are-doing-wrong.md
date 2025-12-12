@@ -6,7 +6,7 @@ tags:
   - communication
 date: 2025-12-12T06:48:48.099Z
 meaningfullyUpdatedAt: 2025-12-12T06:48:48.118Z
-title: How to Lose Respect and Fail as a Leader. 8 Things You are Doing Wrong
+title: How to Lose Respect and Fail as a Leader. 8 Things You Are Doing Wrong
 layout: post
 image: /images/failure-leadership.png
 hidden: false
