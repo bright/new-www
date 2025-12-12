@@ -20,7 +20,9 @@ Leaders are no longer just decision-makers, they are facilitators of collaborati
 
 Everyone has different expectations of leaders and managers, and we know that some expectations are not easily to be fulfilled. Yet there are also certain behaviors and traits that universally undermine effective leadership. **So rather than discussing how to become a great leader or manager (there are thousands of articles on that) let us focus on something less explored - the best ways to become bad one. 😉**
 
-## ⛔️ **Believing you are superior to everyone else**Believing you are superior to everyone else can be one of the biggest pitfalls in leadership. True leadership is not about positioning yourself above others, it is  about empowering those around you to thrive. **Effective leaders understand that their role is not to be the smartest or most skilled person in the room, but rather to create an environment where their team can perform at its best.**  
+## ⛔️ **Believing you are superior to everyone else**
+
+Believing you are superior to everyone else can be one of the biggest pitfalls in leadership. True leadership is not about positioning yourself above others, it is  about empowering those around you to thrive. **Effective leaders understand that their role is not to be the smartest or most skilled person in the room, but rather to create an environment where their team can perform at its best.**  
 
 As Simon Sinek puts it ***“The greatest contribution of a leader is to make others leaders.”*** The research on servant leadership show that leaders who focus on the growth and well-being of their teams foster higher engagement, satisfaction, and performance. Similarly, [a Harvard Business Review study found that humble leaders who acknowledge their team’s strengths and contributions tend to build more innovative and high-performing organizations](https://hbr.org/2025/01/research-humble-leaders-inspire-others-to-step-up). 
 
