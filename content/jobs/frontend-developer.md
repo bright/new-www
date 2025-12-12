@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Senior Frontend Developer (Vue.js)
-subtitle: OPEN
+subtitle: OPENING SOON
 imagejob: /images/job-offer-team-part-2-2025-1-.png
 image-alt-job: Frontend Team Bright Inventions
 hours: full-time
