@@ -46,15 +46,7 @@ Being flexible is important to us. We use technology as a tool to bring value, a
 
 We expect effective communication skills, including the **ability to both give and receive constructive feedback with empathy**. We focus on solutions, not blame. We support each other, share knowledge, and approach challenges with a positive mindset.
 
-## **about our projects 🚀**
-
-At the start, we are considering joining one of the two projects described below.
-
-**Project 1**
-
-An AI-driven SaaS platform that automates the entire KYB process - from data sourcing and document analysis to ongoing compliance and audit readiness. It streamlines onboarding, reduces manual work, and ensures full compliance control without added complexity.
-
-**Project 2**
+## **about project 🚀**
 
 A next-generation passwordless authentication platform used by millions worldwide. It uses advanced biometrics to secure digital identities and enable one-touch access. The solution supports document and biometric verification, data processing, and configurable verification criteria.
 
