@@ -5,7 +5,7 @@ tags:
 date: 2025-12-11T08:48:14.964Z
 meaningfullyUpdatedAt: 2025-12-11T08:48:15.524Z
 slug: digital-product-passport-manufacturers
-title: What Digital Product Passport Mean for Global 2000 Manufacturers
+title: What Digital Product Passport Means for Global 2000 Manufacturers
 layout: post
 image: /images/blog_dpp_cover.png
 hidden: false
