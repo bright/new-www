@@ -66,7 +66,7 @@ language: en
 * **Details:** Known for its high-energy environment and festival-like atmosphere, HLTH Europe returns to Amsterdam to bridge the gap between global expertise and local European healthcare challenges. [Read our review of HLTH Europe 2024](/blog/hlth-amsterdam-2024-summary/).
 * **Link: [europe.hlth.com](https://europe.hlth.com/)**
 
-## **International Conference on AI in Healthcare (AIiH 2026\)**
+## **International Conference on AI in Healthcare (AIiH 2026)**
 
 * **Date: 26–28 August 2026**  
 * **City: London, UK**  
@@ -89,4 +89,4 @@ language: en
 * **Number of attendees:** 200  
 * **Keynote speakers:** Paul Stevens (OMRON), Raj Modi (Oracle), Laura Rowlinson (NHS).  
 * **Details:** A highly focused event looking at the future of IoT, genomics, and "Agentic AI" in the intelligent health system.  
-* **Link: [d](https://digitalhealthcareworldcongress.com/)**[igitalhealthcareworldcongress.com](https://digitalhealthcareworldcongress.com/)
+* **Link:** [d](https://digitalhealthcareworldcongress.com/)[igitalhealthcareworldcongress.com](https://digitalhealthcareworldcongress.com/)
