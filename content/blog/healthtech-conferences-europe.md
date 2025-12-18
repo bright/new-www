@@ -31,14 +31,14 @@ language: en
 * **Number of attendees:** 5,000+  
 * **Keynote speakers:** Dr. Anthony Fauci (Former Director of NIAID), Tim Peake (Former ESA Astronaut), Hanna Boëthius (Founder, Hanna Diabetes Expert).  
 * **Details:** Moving to the pharmaceutical hub of Basel for 2026, this summit is the premier meeting point for the "Pharma-meets-Tech" ecosystem, focusing on AI in drug discovery and personalized health.  
-* **Link: [health.tech](https://www.health.tech/)**
+* **Link:** [health.tech](https://www.health.tech/)
 
 ## DMEA – Connecting Digital Health
 
 * **Date:** 21–23 April 2026  
 * **City:** Berlin, Germany  
 * **Details:** Europe's largest event for health IT. If your focus is on hospital information systems (HIS), interoperability, or the "Smart Hospital," DMEA is an essential stop.  
-* **Link: [dmea.de](https://www.dmea.de/en/)**
+* **Link:** [dmea.de](https://www.dmea.de/en/)
 
 ## The MedTech Forum 2026
 
@@ -64,7 +64,7 @@ language: en
 * **Number of attendees:** 5,000+  
 * **Keynote speakers:** Alexandru-Florin Rogobete (Minister of Health Romania), Brenya Adjei (Managing Director, gematik), Björn Ekmehag (CEO, Skåne University Hospital)  
 * **Details:** Known for its high-energy environment and festival-like atmosphere, HLTH Europe returns to Amsterdam to bridge the gap between global expertise and local European healthcare challenges. [Read our review of HLTH Europe 2024](/blog/hlth-amsterdam-2024-summary/).
-* **Link: [europe.hlth.com](https://europe.hlth.com/)**
+* **Link:** [europe.hlth.com](https://europe.hlth.com/)
 
 ## **International Conference on AI in Healthcare (AIiH 2026)**
 
@@ -79,7 +79,7 @@ language: en
 * **Date: 16–19 November 2026**  
 * **City: Düsseldorf, Germany**  
 * **Details: The world's largest medical trade fair. Its "Connected Healthcare Forum" is the place to be for hardware and software manufacturers looking for global distribution.**  
-* **Link: [medica-tradefair.com](http://medica-tradefair.com)**
+* **Link:** [medica-tradefair.com](http://medica-tradefair.com)
 
 ## **Digital Health World Congress 2026**
 
