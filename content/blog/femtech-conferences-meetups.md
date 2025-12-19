@@ -18,8 +18,8 @@ language: en
 
 ## Innovation in Women's Health and FemTech
 
-* **Date: 27 February 2026**  
-* **City: London, UK**  
+* **Date:** 27 February 2026  
+* **City:** London, UK  
 * **Keynote speakers: Ida Tin (Co-founder of Clue), Valentina Milanova (Founder of Daye), Lawrence Tallon (CEO of MHRA).**  
 * **Details: This high-level event brings together clinicians and tech founders to discuss the "changing paradigm of AI" in women's health. Expect deep dives into AI-powered ultrasound, the breast milk microbiome, and narrowing the health investment gap.**  
 * **Link: [rsm.ac.uk](https://www.rsm.ac.uk/events/obstetrics-and-gynaecology/2025-26/ogu03/)**
@@ -35,10 +35,10 @@ language: en
 
 ## FemHealth Integrates 2025
 
-Date: March 19, 2026
+**Date**: March 19, 2026
 
-City: Manchester, the UK
+**City**: Manchester, the UK
 
-FemHealth Integrates is a unique event addressing the gender gap in healthcare – both in health outcomes and within the health industry workforce
+**Details**: FemHealth Integrates is a unique event addressing the gender gap in healthcare – both in health outcomes and within the health industry workforce
 
-Details: [lifescienceintegrates.com/event/](https://lifescienceintegrates.com/event/femhealth-integrates-2025/#venue)
+**Link**: [lifescienceintegrates.com/event/](https://lifescienceintegrates.com/event/femhealth-integrates-2025/#venue)
