@@ -5,7 +5,7 @@ tags:
 date: 2024-09-18T10:40:49.455Z
 meaningfullyUpdatedAt: 2025-12-17T13:40:54.952Z
 slug: top-healthcare-podcasts
-title: "Top Healthcare Podcasts to Listen to in 2025: Insights from the eHealth
+title: "Top Healthcare Podcasts to Listen to in 2026: Insights from the eHealth
   leaders"
 layout: post
 image: /images/frame-2608429.png
