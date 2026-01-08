@@ -41,7 +41,7 @@ video_file: /images/developers-gdansk-www-version.mp4
 bullet_points:
   - EU-based company
   - Established in 2012
-  - A part of Nordic Group Lyvia
+  - We are becoming Framna
 bar_stack:
   - Generative AI
   - Java
