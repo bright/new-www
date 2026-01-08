@@ -5,8 +5,8 @@ tags:
   - HealthTech
   - AI
 date: 2024-01-17T12:47:29.514Z
-meaningfullyUpdatedAt: 2024-12-10T09:30:48.092Z
-title: 7 Trends in HealthTech to Watch in 2025
+meaningfullyUpdatedAt: 2026-01-08T12:11:33.373Z
+title: 5 Trends in HealthTech to Watch in 2026
 layout: post
 image: /images/healthtech_trends_blog_post_update.png
 hidden: false
@@ -14,107 +14,35 @@ comments: true
 published: true
 language: en
 ---
-**The year 2025 will help [healthcare software companies](/our-areas/healthcare-software-development/) move past the industry's struggles of recent years and might provide some crucial answers. What will the direction of healthcare software growth be? Which smart healthcare devices will prove truly essential? What will be the X factor for investors? Are you ready for 2025 HealthTech trends?**
+**Are we ready to book a doctor appointment via ChatGPT? Why should wellness become a priority for [healthcare software companies](/our-areas/healthcare-software-development/)? What trends will be shaping digital products in healthcare in 2026?**
 
-<div className="image">![Tech trends in healthcare 2025](/images/healthtech_trends_blog_post_update.png "Tech trends in healthcare 2025")</div>
+<div className="image">![Tech trends in healthcare 2026](/images/healthtech_trends_blog_post_update.png "Tech trends in healthcare 2026")</div>
 
-## Contents:
+## Managing health with ChatGPT
 
-[HealthTech will transition into the post-recovery phase with AI bringing investors](/blog/top-trends-in-healthtech/#healthtech-will-transition-into-the-post-recovery-phase-with-ai-bringing-investors)
+In 2025, [OpenAI launched a new Apps SDK](https://openai.com/index/developers-can-now-submit-apps-to-chatgpt/) that allows developers to embed fully interactive third-party applications directly into the ChatGPT experience.
 
-[2025 will show how AI can be implemented wider in digital health](/blog/top-trends-in-healthtech/#2025-will-show-how-ai-can-be-implemented-wider-in-digital-health)
+At the beginning of 2026 **OpenAI introduced [ChatGPT Health](https://openai.com/index/introducing-chatgpt-health/) so healthcare and wellness apps can now also be a part of ChatGPT experience**. Now it allows to better understand medical data, fitness plans etc. but soon it might be much more - enabling for example to make a doctor appointment via Chat GPT.
 
-[2025 might bring a breakthrough in AI for diagnostics](/blog/top-trends-in-healthtech/#2025-might-bring-a-breakthrough-in-ai-for-diagnostics)
+Instead of patients having to leave ChatGPT to visit a clinic website or use a separate scheduling app, healthcare services can now be integrated right into the conversational flow. **Patients can soon ask ChatGPT to help find doctors nearby, explore available appointment slots, and complete bookings – all without switching context or opening a separate app**.
 
-[It's the last moment to catch up on interoperability in the healthcare system](/blog/top-trends-in-healthtech/#its-the-last-moment-to-catch-up-on-interoperability-in-the-healthcare-system)
+Naturally, scheduling a doctor’s appointment is only one example. It is up to digital product builders to critically assess whether their HealthTech applications truly deliver value to patients when embedded within OpenAI’s ecosystem. This validation should be a top priority for every healthcare technology builder in the coming weeks as conversational platforms increasingly shape how people access healthcare.
 
-[2025 will help to determine what healthcare devices we really need](/blog/top-trends-in-healthtech/#2025-will-help-to-determine-what-healthcare-devices-we-really-need)
+[Learn what OpenAI update means for digital products](https://framna.com/on-demand/the-next-platform-shift), including HealthTech.
 
-[Chronic diseases will continue to drive the future of healthcare technology](/blog/top-trends-in-healthtech/#chronic-diseases-will-continue-to-drive-the-future-of-healthcare-technology)
+## Wellness is growing driven by Millennials and Gen Z
 
-[Hybrid apps as investor magnets in the healthcare industry](/blog/top-trends-in-healthtech/#hybrid-apps-as-investor-magnets-in-the-healthcare-industry)
+The wellness sector is growing, driven by younger generations who have made it a top priority. Notably, this segment of healthcare appears remarkably resilient; Millennials and Gen Z are unwilling to compromise on wellness even during financial disruptions. According to a [McKinsey](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/future-of-wellness-trends) study:
 
-## HealthTech will transition into the post-recovery phase with AI bringing investors
+<blockquote><h2>Wellness is more important to consumers than ever</h2><div>In the United States alone, we estimate that it represents more than \$500 billion in annual spend, growing at 4 to 5 percent each year. (Despite macroeconomic volatility through the first half of 2025, we believe the wellness category is resilient. Meanwhile, 84 percent of US consumers say wellness is a “top” or “important” priority (in the United Kingdom, that figure is 79 percent, while it soars to 94 percent in China).</div><footer>McKinsey</footer></blockquote>
 
-The past few years have been challenging for the healthcare providers as they grappled with the aftermath of the COVID-19 pandemic. However, 2024 has emerged as a year of recovery and renewed momentum for the industry. The State of Health Tech 2024 highlights growth, particularly in **biotech taking the lead**.
+## We still need to wait for a global breakthrough in AI for diagnostics
 
-<div className="image">![State of Health Tech 2024](/images/healthtech_sector.png "State of Health Tech 2024")</div>
-
-Source: [State of Health Tech 2024](https://www.bvp.com/atlas/state-of-health-tech-2024)
-
-What's more, investors have their own type. 😉 And yes, AI is a key factor for investors, as we can read on [rockhealth.com](https://rockhealth.com/insights/h1-2024-digital-health-funding-resilience-leads-to-brilliance/):
-
-<blockquote><h2></h2><div>For early-stage startups using AI (38% of digital health companies that raised A rounds in H1 2024 were AI-enabled), big Series A rounds can help support AI upstart costs like training models or acquiring datasets.</div><footer>rockhealth.com</footer></blockquote>
-
-CB Insights' annual list of the most promising digital health startups, "[The Digital Health 50](https://www.cbinsights.com/research/report/digital-health-startups-redefining-healthcare-2024/)", also indicates the direction HealthTech is heading. Notably, **33 out of the 50 companies are developing AI-augmented solutions**.
-
-<div className="image">![Digital Health 50](/images/digitalhealth-50-2024.png "Digital Health 50")</div>
-
-Source: [The Digital Health 50](https://www.cbinsights.com/research/report/digital-health-startups-redefining-healthcare-2024/)
-
-## 2025 will show how AI can be implemented wider in digital health
-
-It's true that **in 2024, some healthcare professionals wanted to appear trendy and boasted about revolutionizing healthcare with their AI-powered solutions**, even if it was a stretch at best. However, amidst the flood of news about incorporating AI, we could genuinely find companies that successfully implemented it, **allowing users to experience it firsthand, especially in the chatbot area**. Here is an example of an interesting AI chatbot implementation:
-
-[AI chatbot Ebb introduced by Headspace](https://www.headspace.com/ai-mental-health-companion)
-
-Ebb is an empathetic AI companion integrated into its app to assist users in navigating life's challenges. Ebb facilitates self-reflection and emotional processing, offering personalized recommendations from Headspace's extensive library of meditations and mindfulness exercises.
-
-<YouTubeEmbed url='https://www.youtube.com/watch?v=ldvDbS0JGsE&t=239s' /> 
-
-### AI for healthcare workflow optimization
-
-Various companies are leveraging artificial intelligence to optimize healthcare workflows across multiple domains:
-
-#### Administrative task automation for healthcare providers
-
-Automating administrative tasks in healthcare has become a priority for many companies aiming to improve efficiency and reduce clerical burdens. Examples include [Notable Health](https://www.notablehealth.com/), [Qventus](https://www.qventus.com/) and [UiPath](https://www.uipath.com/).
-
-#### Personalized treatment plans (precision medicine)
-
-Creating personalized treatment plans using AI and data analytics is transforming patient care. Examples include [Tempus](https://www.tempus.com/), and [Flatiron](https://flatiron.com/).
-
-#### Enhancing patient interaction
-
-Enhancing patient interaction through conversational AI and virtual assistants. Examples include [Ada](https://ada.com/), and [Talkie](https://talkie.ai/appointment-management/).
-
-#### Health data management
-
-Improving health data management for better clinical decision-making is a focus for several companies. Examples include [Innovaccer](https://innovaccer.com/), [Datavant](https://www.datavant.com/), and [Redox](https://redoxengine.com/).
-
-#### Medical & health records transcription
-
-Recording and transcribing doctor-patient communication for medical record documentation is an area that quite a few companies have been actively working on. Examples include [DeepScribe](https://www.deepscribe.ai/), [Abridge](https://www.abridge.com/), [Lyrebird Health](https://www.lyrebirdhealth.com/), [Tali AI](https://tali.ai/), [Deepgram](https://deepgram.com/solutions/medical-transcription?), and [Dorascribe](https://www.dorascribe.ai/).
-
-<EbookDynamic sectionTitle='scale your solution with our free guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='guide healthcare software cover' />
-
-## 2025 might bring a breakthrough in AI for diagnostics
-
-Although in 2024, there was **widespread discussion about AI's potential in diagnostics**, actual implementations in this field remain limited, despite many companies actively working on it. We'll see if 2025 will bring a true breakthrough for companies working on diagnostics, with patients actively benefiting from AI-powered solutions.
+Although in recent years, there was **widespread discussion about AI's potential in diagnostics**, actual implementations in this field remain limited, despite many companies actively working on it. We'll see if 2026 will bring a true breakthrough for companies working on diagnostics, with patients actively benefiting from AI-powered solutions.
 
 Here are examples of companies and organizations working on implementing AI in disease diagnostics that are worth watching in 2025: [SkinVision](https://www.skinvision.com/pl/), [iCAD](https://www.icadmed.com/), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTech](https://www.ainnovatech.com/), [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/).
 
-## It's the last moment to catch up on interoperability in the healthcare system
-
-The global healthcare interoperability solutions market contributes around [49.6%](https://www.futuremarketinsights.com/reports/healthcare-interoperability-solutions-market) to the global healthcare services market value at about USD 7.5 Billion in 2022. As one HealthTech leader stated during [the interview we conducted at HLTH Europe 2024](/blog/nuria-advancing-healthcare-interoperability-and-patient-engagement/):
-
-<blockquote><h2></h2><div>The trend should be about integrating solutions that enhance the entire patient journey, not just isolated digital parts.</div><footer>Fernando Campos Soares, Founder & CEO @ Nuria</footer></blockquote>
-
-Interoperability is poised to be an even more prominent topic than in previous years. According to Google Trends data from the past five years, interest in this term has been steadily increasing. 
-
-<div className="image">![Interoperability Google trends](/images/interoperability_google_trends.png "Interoperability Google trends")</div>
-
-The year 2025 is expected to be a pivotal moment for healthcare companies to implement interoperability solutions effectively. In another article, we've delved into [interoperability for healthcare](/blog/interoperability-in-healthtech-experts-insights/). ​
-
-## 2025 will help to determine what healthcare devices we really need
-
-As we predicted, 2024 was a standout year for the creation of wearables, health & medical devices in healthcare. **From robotic pets for seniors and socks that prevent falls to gloves designed to reduce hand tremors in Parkinson's patients, these innovations have certainly captured attention**.   They are also essential for [remote monitoring](/blog/ultimate-guide-to-healthtech/#telemedicine--telehealth), which for years have been one of crucial tech trends. We have released a long [list of smart healthcare devices](/blog/bluetooth-devices-that-change-healthcare/) that are currently available or under development.
-
-**The question for 2025 is whether the healthcare community can determine the true necessity of these diverse devices that in some cases create [Internet of Medical Things](/blog/guide-to-iot-in-healthcare/)**. It will likely be a demanding year for healthcare device producers as they work to finalize prototypes, secure funding, and somehow commercialize their fascinating ideas. But **can these smart devices go beyond being merely intriguing to become integral parts of our daily lives**? That question is soon to be answered.
-
-<YouTubeEmbed url='https://www.youtube.com/watch?v=W2hs1ar_lvE' />
-
-This challenging situation presents an excellent opportunity for another trend to gain momentum, as recently highlighted by [Medical Futurists](https://medicalfuturist.com/headphones-as-health-and-medical-devices/): **repurposing everyday devices we already use (like headphones)** for healthcare and medical purposes. This could be the pivotal shift healthcare innovators embrace in 2025.
+<EbookDynamic sectionTitle='scale your solution with our free guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='guide healthcare software cover' />
 
 ## Chronic diseases will continue to drive the future of healthcare technology
 
@@ -128,7 +56,7 @@ In many cases, **chronic diseases are also considered invisible diseases**, as t
 
 ## Hybrid apps as investor magnets in the healthcare industry
 
-2025 will reveal which companies can truly endure in the highly competitive digital health market, a space heavily reliant on investor funding. **What lessons can healthcare startup founders take away from these challenging years**? 
+What lessons can healthcare startup founders take away from these challenging years? 
 
 **If possible, start small, low-cost, and validate your idea quickly**. [Building an MVP](/our-areas/mvp-development/) is essential, but the choice of technology is just as critical. Hybrid technologies including React Native and Flutter, while not perfect, can be the best option for startups to validate their ideas and secure the funding necessary for scaling. 
 
@@ -140,4 +68,4 @@ Read our blog post to explore the [differences between native and hybrid app dev
 
 ## Feeling excited about any particular trend in healthcare software?
 
-These are top healthcare technology trends that might shape the future of HealthTech. 2025, we are ready for you!
+These are top healthcare technology trends that might shape the future of HealthTech. 2026, we are ready for you!
