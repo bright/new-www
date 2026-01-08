@@ -36,6 +36,8 @@ The wellness sector is growing, driven by younger generations who have made it a
 
 <blockquote><h2>Wellness is more important to consumers than ever</h2><div>In the United States alone, we estimate that it represents more than \$500 billion in annual spend, growing at 4 to 5 percent each year. (Despite macroeconomic volatility through the first half of 2025, we believe the wellness category is resilient. Meanwhile, 84 percent of US consumers say wellness is a “top” or “important” priority (in the United Kingdom, that figure is 79 percent, while it soars to 94 percent in China).</div><footer>McKinsey</footer></blockquote>
 
+<div className="image">![running wellness](/images/running-6252827_1280.jpg "Running")</div>
+
 ## We still need to wait for a global breakthrough in AI for diagnostics
 
 Although in recent years, there was **widespread discussion about AI's potential in diagnostics**, actual implementations in this field remain limited, despite many companies actively working on it. We'll see if 2026 will bring a true breakthrough for companies working on diagnostics, with patients actively benefiting from AI-powered solutions.
