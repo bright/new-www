@@ -30,39 +30,11 @@ Naturally, scheduling a doctor’s appointment is only one example. It is up to 
 
 [Learn what OpenAI update means for digital products](https://framna.com/on-demand/the-next-platform-shift), including HealthTech.
 
-## 2025 will show how AI can be implemented wider in digital health
+## Wellness is growing driven by Millenials and Gen Z
 
-It's true that **in 2024, some healthcare professionals wanted to appear trendy and boasted about revolutionizing healthcare with their AI-powered solutions**, even if it was a stretch at best. However, amidst the flood of news about incorporating AI, we could genuinely find companies that successfully implemented it, **allowing users to experience it firsthand, especially in the chatbot area**. Here is an example of an interesting AI chatbot implementation:
+The wellness sector is growing, driven by younger generations who have made it a top priority. Notably, this segment of healthcare appears remarkably resilient; Millennials and Gen Z are unwilling to compromise on wellness even during financial disruptions. According to a [McKinsey](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/future-of-wellness-trends) study:
 
-[AI chatbot Ebb introduced by Headspace](https://www.headspace.com/ai-mental-health-companion)
-
-Ebb is an empathetic AI companion integrated into its app to assist users in navigating life's challenges. Ebb facilitates self-reflection and emotional processing, offering personalized recommendations from Headspace's extensive library of meditations and mindfulness exercises.
-
-<YouTubeEmbed url='https://www.youtube.com/watch?v=ldvDbS0JGsE&t=239s' /> 
-
-### AI for healthcare workflow optimization
-
-Various companies are leveraging artificial intelligence to optimize healthcare workflows across multiple domains:
-
-#### Administrative task automation for healthcare providers
-
-Automating administrative tasks in healthcare has become a priority for many companies aiming to improve efficiency and reduce clerical burdens. Examples include [Notable Health](https://www.notablehealth.com/), [Qventus](https://www.qventus.com/) and [UiPath](https://www.uipath.com/).
-
-#### Personalized treatment plans (precision medicine)
-
-Creating personalized treatment plans using AI and data analytics is transforming patient care. Examples include [Tempus](https://www.tempus.com/), and [Flatiron](https://flatiron.com/).
-
-#### Enhancing patient interaction
-
-Enhancing patient interaction through conversational AI and virtual assistants. Examples include [Ada](https://ada.com/), and [Talkie](https://talkie.ai/appointment-management/).
-
-#### Health data management
-
-Improving health data management for better clinical decision-making is a focus for several companies. Examples include [Innovaccer](https://innovaccer.com/), [Datavant](https://www.datavant.com/), and [Redox](https://redoxengine.com/).
-
-#### Medical & health records transcription
-
-Recording and transcribing doctor-patient communication for medical record documentation is an area that quite a few companies have been actively working on. Examples include [DeepScribe](https://www.deepscribe.ai/), [Abridge](https://www.abridge.com/), [Lyrebird Health](https://www.lyrebirdhealth.com/), [Tali AI](https://tali.ai/), [Deepgram](https://deepgram.com/solutions/medical-transcription?), and [Dorascribe](https://www.dorascribe.ai/).
+<blockquote><h2>Wellness is more important to consumers than ever</h2><div>In the United States alone, we estimate that it represents more than \$500 billion in annual spend, growing at 4 to 5 percent each year. (Despite macroeconomic volatility through the first half of 2025, we believe the wellness category is resilient. Meanwhile, 84 percent of US consumers say wellness is a “top” or “important” priority (in the United Kingdom, that figure is 79 percent, while it soars to 94 percent in China).</div><footer>McKinsey</footer></blockquote>
 
 <EbookDynamic sectionTitle='scale your solution with our free guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='guide healthcare software cover' />
 
