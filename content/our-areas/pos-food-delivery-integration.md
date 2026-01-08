@@ -43,7 +43,7 @@ video_file: /images/food-delivery-pos-integration-web.mov
 bullet_points:
   - 12 years of scaling POS systems
   - EU-based software studio
-  - A part of Nordic Group Lyvia
+  - We are becoming Framna
 bar_stack:
   - iOS
   - Android
