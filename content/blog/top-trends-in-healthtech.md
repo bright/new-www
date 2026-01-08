@@ -22,9 +22,9 @@ language: en
 
 In 2025, [OpenAI launched a new Apps SDK](https://openai.com/index/developers-can-now-submit-apps-to-chatgpt/) that allows developers to embed fully interactive third-party applications directly into the ChatGPT experience.
 
-At the beginning of 2026 OpenAI introduced [ChatGPT Health](https://openai.com/index/introducing-chatgpt-health/) so healthcare and wellness apps can now also be a part of ChatGPT experience. Now it allows to better understand medical data, fitness plans etc. but soon it might be wider - enabling for example to make a doctor appointment via Chat GPT.
+At the beginning of 2026 **OpenAI introduced [ChatGPT Health](https://openai.com/index/introducing-chatgpt-health/) so healthcare and wellness apps can now also be a part of ChatGPT experience**. Now it allows to better understand medical data, fitness plans etc. but soon it might be much more - enabling for example to make a doctor appointment via Chat GPT.
 
-Instead of patients having to leave ChatGPT to visit a clinic website or use a separate scheduling app, healthcare services can now be integrated right into the conversational flow. Patients can ask ChatGPT to help find doctors nearby, explore available appointment slots, and complete bookings – all without switching context or opening a separate app.
+Instead of patients having to leave ChatGPT to visit a clinic website or use a separate scheduling app, healthcare services can now be integrated right into the conversational flow. **Patients can soon ask ChatGPT to help find doctors nearby, explore available appointment slots, and complete bookings – all without switching context or opening a separate app**.
 
 Naturally, scheduling a doctor’s appointment is only one example. It is up to digital product builders to critically assess whether their HealthTech applications truly deliver value to patients when embedded within OpenAI’s ecosystem. This validation should be a top priority for every healthcare technology builder in the coming weeks as conversational platforms increasingly shape how people access healthcare.
 
