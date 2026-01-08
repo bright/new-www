@@ -5,7 +5,7 @@ tags:
   - HealthTech
   - AI
 date: 2024-01-17T12:47:29.514Z
-meaningfullyUpdatedAt: 2026-01-08T11:58:01.442Z
+meaningfullyUpdatedAt: 2026-01-08T12:11:33.373Z
 title: 5 Trends in HealthTech to Watch in 2026
 layout: post
 image: /images/healthtech_trends_blog_post_update.png
@@ -30,19 +30,19 @@ Naturally, scheduling a doctor’s appointment is only one example. It is up to 
 
 [Learn what OpenAI update means for digital products](https://framna.com/on-demand/the-next-platform-shift), including HealthTech.
 
-## Wellness is growing driven by Millenials and Gen Z
+## Wellness is growing driven by Millennials and Gen Z
 
 The wellness sector is growing, driven by younger generations who have made it a top priority. Notably, this segment of healthcare appears remarkably resilient; Millennials and Gen Z are unwilling to compromise on wellness even during financial disruptions. According to a [McKinsey](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/future-of-wellness-trends) study:
 
 <blockquote><h2>Wellness is more important to consumers than ever</h2><div>In the United States alone, we estimate that it represents more than \$500 billion in annual spend, growing at 4 to 5 percent each year. (Despite macroeconomic volatility through the first half of 2025, we believe the wellness category is resilient. Meanwhile, 84 percent of US consumers say wellness is a “top” or “important” priority (in the United Kingdom, that figure is 79 percent, while it soars to 94 percent in China).</div><footer>McKinsey</footer></blockquote>
-
-<EbookDynamic sectionTitle='scale your solution with our free guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='guide healthcare software cover' />
 
 ## We still need to wait for a global breakthrough in AI for diagnostics
 
 Although in recent years, there was **widespread discussion about AI's potential in diagnostics**, actual implementations in this field remain limited, despite many companies actively working on it. We'll see if 2026 will bring a true breakthrough for companies working on diagnostics, with patients actively benefiting from AI-powered solutions.
 
 Here are examples of companies and organizations working on implementing AI in disease diagnostics that are worth watching in 2025: [SkinVision](https://www.skinvision.com/pl/), [iCAD](https://www.icadmed.com/), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTech](https://www.ainnovatech.com/), [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/).
+
+<EbookDynamic sectionTitle='scale your solution with our free guide' ebookName='Scale-Your-Healthtech-Solution-Successfully.pdf' ebookDescription={'Read more about Generative AI, blockchain, cloud computing or monitoring. All top technologies that elevate healthcare in one guide.'} ebookImage='/images/healthtech_guide_cover_homepage_update_logo.png' ebookAlt='guide healthcare software cover' />
 
 ## Chronic diseases will continue to drive the future of healthcare technology
 
