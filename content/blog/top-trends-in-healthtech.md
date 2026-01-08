@@ -44,28 +44,6 @@ Although in recent years, there was **widespread discussion about AI's potential
 
 Here are examples of companies and organizations working on implementing AI in disease diagnostics that are worth watching in 2025: [SkinVision](https://www.skinvision.com/pl/), [iCAD](https://www.icadmed.com/), [Eyenuk](https://www.eyenuk.com/en/), [AinnovaTech](https://www.ainnovatech.com/), [Cleerly](https://cleerlyhealth.com/), [AI Dermatologist](https://ai-derm.com/).
 
-## It's the last moment to catch up on interoperability in the healthcare system
-
-The global healthcare interoperability solutions market contributes around [49.6%](https://www.futuremarketinsights.com/reports/healthcare-interoperability-solutions-market) to the global healthcare services market value at about USD 7.5 Billion in 2022. As one HealthTech leader stated during [the interview we conducted at HLTH Europe 2024](/blog/nuria-advancing-healthcare-interoperability-and-patient-engagement/):
-
-<blockquote><h2></h2><div>The trend should be about integrating solutions that enhance the entire patient journey, not just isolated digital parts.</div><footer>Fernando Campos Soares, Founder & CEO @ Nuria</footer></blockquote>
-
-Interoperability is poised to be an even more prominent topic than in previous years. According to Google Trends data from the past five years, interest in this term has been steadily increasing. 
-
-<div className="image">![Interoperability Google trends](/images/interoperability_google_trends.png "Interoperability Google trends")</div>
-
-The year 2025 is expected to be a pivotal moment for healthcare companies to implement interoperability solutions effectively. In another article, we've delved into [interoperability for healthcare](/blog/interoperability-in-healthtech-experts-insights/). ​
-
-## 2025 will help to determine what healthcare devices we really need
-
-As we predicted, 2024 was a standout year for the creation of wearables, health & medical devices in healthcare. **From robotic pets for seniors and socks that prevent falls to gloves designed to reduce hand tremors in Parkinson's patients, these innovations have certainly captured attention**.   They are also essential for [remote monitoring](/blog/ultimate-guide-to-healthtech/#telemedicine--telehealth), which for years have been one of crucial tech trends. We have released a long [list of smart healthcare devices](/blog/bluetooth-devices-that-change-healthcare/) that are currently available or under development.
-
-**The question for 2025 is whether the healthcare community can determine the true necessity of these diverse devices that in some cases create [Internet of Medical Things](/blog/guide-to-iot-in-healthcare/)**. It will likely be a demanding year for healthcare device producers as they work to finalize prototypes, secure funding, and somehow commercialize their fascinating ideas. But **can these smart devices go beyond being merely intriguing to become integral parts of our daily lives**? That question is soon to be answered.
-
-<YouTubeEmbed url='https://www.youtube.com/watch?v=W2hs1ar_lvE' />
-
-This challenging situation presents an excellent opportunity for another trend to gain momentum, as recently highlighted by [Medical Futurists](https://medicalfuturist.com/headphones-as-health-and-medical-devices/): **repurposing everyday devices we already use (like headphones)** for healthcare and medical purposes. This could be the pivotal shift healthcare innovators embrace in 2025.
-
 ## Chronic diseases will continue to drive the future of healthcare technology
 
 **Chronic diseases account for approximately 74% of all deaths globally** according to [WHO](https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases). This includes **cardiovascular diseases**, which are the leading cause of death worldwide, responsible for about 17.9 million deaths annually, followed by **cancers** (9.3 million), **chronic respiratory diseases** (4.1 million), and **diabetes** (2.0 million). 
@@ -78,7 +56,7 @@ In many cases, **chronic diseases are also considered invisible diseases**, as t
 
 ## Hybrid apps as investor magnets in the healthcare industry
 
-2025 will reveal which companies can truly endure in the highly competitive digital health market, a space heavily reliant on investor funding. **What lessons can healthcare startup founders take away from these challenging years**? 
+What lessons can healthcare startup founders take away from these challenging years? 
 
 **If possible, start small, low-cost, and validate your idea quickly**. [Building an MVP](/our-areas/mvp-development/) is essential, but the choice of technology is just as critical. Hybrid technologies including React Native and Flutter, while not perfect, can be the best option for startups to validate their ideas and secure the funding necessary for scaling. 
 
@@ -90,4 +68,4 @@ Read our blog post to explore the [differences between native and hybrid app dev
 
 ## Feeling excited about any particular trend in healthcare software?
 
-These are top healthcare technology trends that might shape the future of HealthTech. 2025, we are ready for you!
+These are top healthcare technology trends that might shape the future of HealthTech. 2026, we are ready for you!
