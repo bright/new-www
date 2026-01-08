@@ -14,27 +14,21 @@ comments: true
 published: true
 language: en
 ---
-**[](/our-areas/healthcare-software-development/)Are we ready to book a doctor appointment via ChatGPT? Why should wellness become a priority for [healthcare software companies](/our-areas/healthcare-software-development/) ? What trends will be shaping digital products in healthcare in 2026?**
+**Are we ready to book a doctor appointment via ChatGPT? Why should wellness become a priority for [healthcare software companies](/our-areas/healthcare-software-development/)? What trends will be shaping digital products in healthcare in 2026?**
 
 <div className="image">![Tech trends in healthcare 2026](/images/healthtech_trends_blog_post_update.png "Tech trends in healthcare 2026")</div>
 
-## HealthTech will transition into the post-recovery phase with AI bringing investors
+## Managing health with ChatGPT
 
-The past few years have been challenging for the healthcare providers as they grappled with the aftermath of the COVID-19 pandemic. However, 2024 has emerged as a year of recovery and renewed momentum for the industry. The State of Health Tech 2024 highlights growth, particularly in **biotech taking the lead**.
+In 2025, [OpenAI launched a new Apps SDK](https://openai.com/index/developers-can-now-submit-apps-to-chatgpt/) that allows developers to embed fully interactive third-party applications directly into the ChatGPT experience.
 
-<div className="image">![State of Health Tech 2024](/images/healthtech_sector.png "State of Health Tech 2024")</div>
+At the beginning of 2026 OpenAI introduced [ChatGPT Health](https://openai.com/index/introducing-chatgpt-health/) so healthcare and wellness apps can now also be a part of ChatGPT experience. Now it allows to better understand medical data, fitness plans etc. but soon it might be wider - enabling for example to make a doctor appointment via Chat GPT.
 
-Source: [State of Health Tech 2024](https://www.bvp.com/atlas/state-of-health-tech-2024)
+Instead of patients having to leave ChatGPT to visit a clinic website or use a separate scheduling app, healthcare services can now be integrated right into the conversational flow. Patients can ask ChatGPT to help find doctors nearby, explore available appointment slots, and complete bookings – all without switching context or opening a separate app.
 
-What's more, investors have their own type. 😉 And yes, AI is a key factor for investors, as we can read on [rockhealth.com](https://rockhealth.com/insights/h1-2024-digital-health-funding-resilience-leads-to-brilliance/):
+Naturally, scheduling a doctor’s appointment is only one example. It is up to digital product builders to critically assess whether their HealthTech applications truly deliver value to patients when embedded within OpenAI’s ecosystem. This validation should be a top priority for every healthcare technology builder in the coming weeks as conversational platforms increasingly shape how people access healthcare.
 
-<blockquote><h2></h2><div>For early-stage startups using AI (38% of digital health companies that raised A rounds in H1 2024 were AI-enabled), big Series A rounds can help support AI upstart costs like training models or acquiring datasets.</div><footer>rockhealth.com</footer></blockquote>
-
-CB Insights' annual list of the most promising digital health startups, "[The Digital Health 50](https://www.cbinsights.com/research/report/digital-health-startups-redefining-healthcare-2024/)", also indicates the direction HealthTech is heading. Notably, **33 out of the 50 companies are developing AI-augmented solutions**.
-
-<div className="image">![Digital Health 50](/images/digitalhealth-50-2024.png "Digital Health 50")</div>
-
-Source: [The Digital Health 50](https://www.cbinsights.com/research/report/digital-health-startups-redefining-healthcare-2024/)
+Learn what OpenAI update means for digital products, including HealthTech: <https://framna.com/on-demand/the-next-platform-shift>
 
 ## 2025 will show how AI can be implemented wider in digital health
 
