@@ -3,8 +3,8 @@ author: mikolaj-g
 secondAuthor: izabela
 tags:
   - bright insights
-date: 2026-01-09T08:47:16.898Z
-meaningfullyUpdatedAt: 2026-01-09T08:47:16.931Z
+date: 2026-01-09T08:53:16.797Z
+meaningfullyUpdatedAt: 2026-01-09T08:53:17.418Z
 slug: decade-in-software-development
 title: "A Decade in Dev: Mikołaj on Lessons Learned, Ownership, and Tech
   Recruitment Path"
