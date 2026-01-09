@@ -87,6 +87,6 @@ However, I think a weekend was enough, a full week would be too long! I actually
 
 I recently **started a music production course**. It’s something I knew absolutely nothing about, so it’s interesting to dive into the unknown. It’s very exciting, although the downside is that it means spending even more hours in front of the computer.
 
-## What kind of music do you want to create?\*\*
+## What kind of music do you want to create?
 
 Mostly electronic music, but I try to keep an open mind. I see interesting elements in other genres that I would love to implement in my own music. **I want to eventually figure out where the limits of my creativity lie**.
