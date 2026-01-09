@@ -75,6 +75,8 @@ But it wasn't all roses! **I remember being very tired afterward**, it was reall
 
 I’m going to Madeira in February. Aside from that, I have lots of ideas, but I try not to plan too far ahead. I also try to take weekend trips nearby. **We just went to Kashubia with friends for a digital detox** – no phones, no TV, nothing all weekend. We spent time close to nature, even having a campfire in December.
 
+<div className="image">![Private archive](/images/mikolaj_photo_private.png "Private archive")</div>
+
 ## How was the digital detox?
 
 We were in a big group, so there was a lot to do together. We’re also a very creative bunch of people, so we could easily come up with our own games and entertainment. What was interesting was **how often during conversations we felt the need to look something up online – to verify a fact or check something**. In the end, it gave us the reflection that maybe we don’t need to look up everything; it might not be that important after all.
