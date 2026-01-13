@@ -5,9 +5,9 @@ subtitle: OPEN
 imagejob: /images/androidteam2.png
 image-alt-job: Devs Team Bright Inventions
 hours: full-time
-salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
-salary_min: 16600
-salary_max: 24000
+salary: 136 - 170 PLN/hour + VAT (B2B) or 16 600 - 20 880 PLN gross (UoP)
+salary_min: ""
+salary_max: ""
 working time: full time
 technology:
   - TypeScript
@@ -53,7 +53,7 @@ A next-generation passwordless [authentication platform](https://transmitsecuri
 
 ## **preferred skills and qualifications 👩‍💻🧑‍💻**
 
-👉 at least 4 years of commercial programming experience as a fullstack developer or similar role
+👉 at least 5 years of commercial programming experience as a fullstack developer or similar role
 
 👉 solid understanding of TypeScript/JavaScript
 
