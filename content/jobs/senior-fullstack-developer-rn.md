@@ -49,9 +49,7 @@ We expect effective communication skills, including the **ability to both give a
 
 ## **about the project 🚀**
 
-**This hiring process is for future Fullstack openings that will be available in the coming months.**
-
-We work on a diverse range of projects, from transportation and healthtech to gastronomy and beyond. Each one brings a new challenge, and we meet it with curiosity, care, and dedication. If you’re open to exploring different industries and building meaningful digital products, we’d love to have you on board.
+A next-generation passwordless [authentication platform](https://transmitsecurity.com/) used by millions worldwide. It uses advanced biometrics to secure digital identities and enable one-touch access. The solution supports document and biometric verification, data processing, and configurable verification criteria.
 
 ## **preferred skills and qualifications 👩‍💻🧑‍💻**
 
