@@ -34,7 +34,7 @@ button: join our bright team
 published: true
 show_recruiter_info: true
 hidden: true
-order: 4
+order: 5
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
