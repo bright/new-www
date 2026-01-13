@@ -2,7 +2,7 @@
 layout: job
 title: "Senior Fullstack Developer "
 subtitle: OPEN
-imagejob: /images/androidteam2.png
+imagejob: /images/job-offer-team-part-2-2025-1-.png
 image-alt-job: Devs Team Bright Inventions
 hours: full-time
 salary: 136 - 170 PLN/hour + VAT (B2B) or 16 600 - 20 880 PLN gross (UoP)
@@ -25,16 +25,16 @@ links_more_about_us: >-
 
 
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
-title_recruiter_info: Do you have any questions? Ask Sara from our Bright team!
-name_recruiter: Sara
+title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
+name_recruiter: Agata
 workplace_recruiter: Recruitment Specialist
-image_recruiter_info: /images/sara-bright-recruiter.png
-image_alt_recruiter_info: Sara Łęcka - Recruiter at Bright Inventions
-button_linkedin: https://www.linkedin.com/in/saralecka/
+image_recruiter_info: /images/agata_recruiter.png
+image_alt_recruiter_info: Agata Dankowska - Recruiter at Bright Inventions
+button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: "join our Bright team "
 published: true
 show_recruiter_info: true
-order: 1
+order: 3
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
