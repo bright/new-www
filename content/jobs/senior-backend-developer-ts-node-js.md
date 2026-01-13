@@ -5,9 +5,9 @@ subtitle: OPEN
 imagejob: /images/job-offer-team-part-2-2025-1-.png
 image-alt-job: Devs Team Bright Inventions
 hours: Full-time
-salary: 150 - 180 PLN/hour + VAT (B2B) or 18 400 - 22 100 PLN gross (UoP)
-salary_min: 18400
-salary_max: 22100
+salary: 136 - 170 PLN/hour + VAT (B2B) or 16 600 - 20 880 PLN gross (UoP)
+salary_min: ""
+salary_max: ""
 working time: full time
 technology:
   - TypeScript
