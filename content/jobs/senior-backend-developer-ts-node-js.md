@@ -48,7 +48,7 @@ We expect effective communication skills, including the **ability to both give a
 
 ## **about project 🚀**
 
-A next-generation passwordless authentication platform used by millions worldwide. It uses advanced biometrics to secure digital identities and enable one-touch access. The solution supports document and biometric verification, data processing, and configurable verification criteria.
+A next-generation passwordless [authentication platform](https://transmitsecurity.com/) used by millions worldwide. It uses advanced biometrics to secure digital identities and enable one-touch access. The solution supports document and biometric verification, data processing, and configurable verification criteria.
 
 ## **preferred skills and qualifications 👩‍💻🧑‍💻**
 
