@@ -86,7 +86,7 @@ A next-generation passwordless [authentication platform](https://transmitsecuri
 
 ✔️ flexible working hours (we start between 7.00 -10.00 a.m.) and remote work possibility
 
-✔️ office in Gdańsk Wrzeszcz (hybrid model with regular in-office syncs meetings – preference for local candidates)
+✔️ office in Gdańsk Wrzeszcz (hybrid model with regular in-office syncs – preference for local candidates)
 
 ✔️ good equipment: MacBook and testing devices 
 
