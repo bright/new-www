@@ -48,6 +48,8 @@ We expect effective communication skills, including the **ability to both give a
 
 A next-generation passwordless [authentication platform](https://transmitsecurity.com/) used by millions worldwide. It uses advanced biometrics to secure digital identities and enable one-touch access. The solution supports document and biometric verification, data processing, and configurable verification criteria.
 
+Please note that we follow a **hybrid model** with a requirement for **regular in-office syncs** to foster team collaboration.
+
 ## **preferred skills and qualifications 👩‍💻🧑‍💻**
 
 👉 at least 3 years of commercial programming experience as a backend developer or fullstack developer with backend focus
