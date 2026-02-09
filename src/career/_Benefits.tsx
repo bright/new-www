@@ -181,16 +181,6 @@ const Benefits: React.FC<BenefitsProps> = ({ faqSlug }) => {
   }, [])
   const blocks = useMemo(
     () => [
-      {
-        image: '/images/career/benefits/image1.png',
-        title: 'Running & cycling workouts with pro triathlete',
-        alt: 'Running and cycling workouts',
-      },
-      {
-        image: '/images/career/benefits/image2.png',
-        title: 'Swimming workouts with pro triathlete',
-        alt: 'Swimming workouts',
-      },
       { image: '/images/career/benefits/image11.png', title: 'Team retreats', alt: 'Team retreats' },
       { image: '/images/career/benefits/pets_friendly_office.png', title: 'Pet-friendly office', alt: 'Pet-friendly office' },
       { image: '/images/career/benefits/image5.png', title: 'English classes', alt: 'English classes' },
