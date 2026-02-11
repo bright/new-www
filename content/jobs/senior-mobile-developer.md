@@ -2,7 +2,7 @@
 layout: job
 title: Senior Mobile Developer
 subtitle: OPEN
-imagejob: /images/android-team.png
+imagejob: /images/job-offer-team-part-2-2025-1-.png
 image-alt-job: Mobile Team Bright Inventions
 hours: Full-time
 salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
