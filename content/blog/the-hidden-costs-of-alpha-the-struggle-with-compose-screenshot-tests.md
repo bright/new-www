@@ -5,10 +5,10 @@ tags:
   - Mobile
   - Compose
   - Screenshot Testing
-date: 2026-02-13T10:30:00.418Z
-meaningfullyUpdatedAt: 2026-02-13T10:30:00.418Z
+date: 2026-02-16T10:01:23.108Z
+meaningfullyUpdatedAt: 2026-02-16T10:01:24.256Z
 slug: compose-screenshot-test-library
-title: "The Hidden Costs of \"Alpha\": The Struggle with Compose Screenshot Tests"
+title: 'The Hidden Costs of "Alpha": The Struggle with Compose Screenshot Tests'
 layout: post
 image: /images/compose-screenshot-test-library/gemini-banner.png
 hidden: false
