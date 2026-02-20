@@ -125,21 +125,23 @@ const FramnaLogo = styled.div`
   color: #000;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
 
   @media ${variables.device.tablet} {
     font-size: 48px;
+    gap: 10px;
   }
 
   @media ${variables.device.mobile} {
     font-size: 36px;
+    gap: 8px;
   }
 `
 
-const LogoIcon = styled.div`
+const LogoIcon = styled.svg`
   width: 50px;
   height: 50px;
-  position: relative;
+  flex-shrink: 0;
 
   @media ${variables.device.tablet} {
     width: 40px;
@@ -149,31 +151,6 @@ const LogoIcon = styled.div`
   @media ${variables.device.mobile} {
     width: 30px;
     height: 30px;
-  }
-
-  &::before,
-  &::after {
-    content: '';
-    position: absolute;
-    background: #000;
-  }
-
-  &::before {
-    width: 100%;
-    height: 3px;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    border-radius: 2px;
-  }
-
-  &::after {
-    width: 3px;
-    height: 100%;
-    left: 50%;
-    top: 0;
-    transform: translateX(-50%);
-    border-radius: 2px;
   }
 `
 
@@ -249,6 +226,7 @@ const VisitButton = styled.a`
 
   &:hover {
     background: #333;
+    color: #fff;
     transform: translateY(-2px);
   }
 
@@ -281,7 +259,16 @@ export const FramnaAnnouncementModal: React.FC<FramnaAnnouncementModalProps> = (
         <ModalLayout>
           <LogoSection>
             <FramnaLogo>
-              <LogoIcon />
+              <LogoIcon viewBox='0 0 50 50' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                <path
+                  d='M25 5C25 5 15 5 15 15C15 25 25 25 25 25C25 25 25 15 35 15C45 15 45 25 35 25C25 25 25 35 25 45'
+                  stroke='#000'
+                  strokeWidth='3'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
+                  fill='none'
+                />
+              </LogoIcon>
               framna
             </FramnaLogo>
           </LogoSection>
