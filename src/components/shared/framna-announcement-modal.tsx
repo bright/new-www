@@ -105,16 +105,16 @@ const LogoSection = styled.div`
   align-items: center;
   justify-content: center;
   flex: 1;
-  min-height: 300px;
+  min-height: 400px;
 
   @media ${variables.device.tablet} {
-    padding: 40px 30px;
-    min-height: 200px;
+    padding: 50px 30px;
+    min-height: 250px;
   }
 
   @media ${variables.device.mobile} {
-    padding: 30px 20px;
-    min-height: 150px;
+    padding: 40px 20px;
+    min-height: 200px;
   }
 `
 
