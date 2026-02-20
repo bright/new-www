@@ -79,6 +79,8 @@ export function useFramnaAnnouncement(): [boolean, () => void] {
 
       return () => clearTimeout(timer)
     }
+
+    return undefined
   }, [])
 
   const closeModal = () => {
