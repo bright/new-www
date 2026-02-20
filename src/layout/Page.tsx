@@ -11,11 +11,14 @@ import { useLocation } from '@reach/router'
 import { MDXComponentsWrapper } from '../mdx'
 import CookiesNotice from '../analytics/cookies-notice'
 import { useTranslation } from 'react-i18next'
+import { FramnaAnnouncementModal } from '../components/shared/framna-announcement-modal'
+import { useFramnaAnnouncement } from '../hooks/use-framna-announcement'
 
 export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ children, className }) => {
   const [mobileMenuOpened, setMobileMenuOpened] = useState(false)
   const { i18n } = useTranslation()
   const { pathname } = useLocation()
+  const [framnaModalOpen, closeFramnaModal] = useFramnaAnnouncement()
 
   return (
     <div
@@ -34,6 +37,7 @@ export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ chil
       <TopNavigation path={pathname} toggled={setMobileMenuOpened} />
       <MDXComponentsWrapper>{children}</MDXComponentsWrapper>
       <CookiesNotice />
+      <FramnaAnnouncementModal isOpen={framnaModalOpen} onClose={closeFramnaModal} />
       <Footer />
     </div>
   )
