@@ -39,15 +39,15 @@ language: en
 ---
 ## about us 🧡
 
-At **Bright Inventions (soon to become Framna)** we build digital products that make a difference. We are an international digital product agency partnering with ambitious brands to design and develop scalable, high-quality digital solutions. From strategy and UX to engineering and long-term product growth - we cover the full journey.
-Our Polish team combines strong technological expertise with a feedback-first mindset. We value ownership, transparency, and trust. We give our people space to act independently.
+At **Bright Inventions (soon to become Framna)** we build digital products that make a difference. We are an international digital product agency partnering with ambitious brands to design and develop scalable, high-quality digital solutions. From strategy and UX to engineering and long-term product growth - we cover the full journey. Our Polish team combines strong technological expertise with a feedback-first mindset. We value ownership, transparency, and trust, and we give our people space to act independently.
+
 Now, we are looking for a **Senior Digital Marketing Specialist** who will help us strengthen our brand, generate quality leads, and support business growth, both locally and internationally.
 
 ## about the role 🚀
 
-This is a senior, hands-on, and strategic position. After onboarding, you will work independently, taking ownership of key marketing initiatives and acting as a trusted partner for leadership and commercial teams.
-You will be responsible for building and executing marketing strategies aligned with our business goals. We are looking for someone who understands the IT/software industry, feels comfortable creating high-quality content, and has experience organizing and promoting events (not limited to employer branding).
-Your responsibilities will include:
+This is a senior, hands-on, and strategic position. After onboarding, you will work independently, taking ownership of key marketing initiatives and acting as a trusted partner for leadership and commercial teams. **You will be responsible for building and executing marketing strategies aligned with our business goals.** 
+
+We are looking for someone who understands the IT/software industry, feels comfortable creating high-quality content, and has experience organizing and promoting events (not limited to employer branding). **Your responsibilities will include:**
 
 - Designing and executing digital marketing strategies for B2B tech services
 
