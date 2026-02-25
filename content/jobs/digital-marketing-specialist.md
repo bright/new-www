@@ -5,7 +5,7 @@ subtitle: OPEN
 imagejob: /images/job-offer-team-part-2-2025-1-.png
 image-alt-job: Growth Team Bright Inventions
 hours: Full-time
-salary: 69 - 81 PLN/hour + VAT (B2B) or 8500 - 10 500 PLN gross (UoP)
+salary: 69 - 81 PLN/hour + VAT (B2B) or 8500 - 10 000 PLN gross (UoP)
 working time: full time
 technology:
   - HubSpot
@@ -41,7 +41,7 @@ language: en
 
 At **Bright Inventions (soon to become Framna)** we build digital products that make a difference. We are an international digital product agency partnering with ambitious brands to design and develop scalable, high-quality digital solutions. From strategy and UX to engineering and long-term product growth - we cover the full journey. Our Polish team combines strong technological expertise with a feedback-first mindset. We value ownership, transparency, and trust, and we give our people space to act independently.
 
-Now, we are looking for an experienced ** Digital Marketing Specialist** who will help us strengthen our brand, generate quality leads, and support business growth, both locally and internationally.
+Now, we are looking for an experienced **Digital Marketing Specialist** who will help us strengthen our brand, generate quality leads, and support business growth, both locally and internationally.
 
 ## about the role 🚀
 
