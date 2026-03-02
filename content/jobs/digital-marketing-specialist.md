@@ -58,8 +58,6 @@ The role sits between mid and senior level — we are looking for someone who is
 
 - Close cooperation with sales to support pipeline growth
 
-- Managing and optimizing paid campaigns (e.g., LinkedIn Ads, Google Ads – depending on experience) with support from Framna Global Marketing Team 
-
 - Planning and executing industry events, webinars, and meetups
 
 - Monitoring KPIs and marketing performance, drawing conclusions, and improving processes
@@ -96,7 +94,7 @@ We are looking for someone who combines strategic thinking with strong execution
 
 ## we would also appreciate if you have
 
-👉 Experience working with international markets
+👉  Experience working with international markets
 
 👉  Familiarity with marketing automation tools and CRM systems
 
