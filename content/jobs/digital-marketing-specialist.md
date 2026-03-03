@@ -114,7 +114,7 @@ You can expect:
 
 ✔️  A team of experienced tech professionals who value quality and collaboration
 
-✔️  Flexible hybrid work model (office in Gdańsk Wrzeszcz, regular in-office syncs)
+✔️  Flexible hybrid work model (office in Gdańsk Wrzeszcz, regular weekly in-office syncs)
 
 ✔️  Mentoring, regular 1:1 meetings, and knowledge-sharing workshops
 
