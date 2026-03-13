@@ -5,7 +5,7 @@ subtitle: OPEN
 imagejob: /images/job-offer-team-part-2-2025-1-.png
 image-alt-job: Mobile Team Bright Inventions
 hours: Full-time
-salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
+salary: 169 - 190 PLN/hour + VAT (B2B) or 20 750 - 23 240 PLN gross (UoP)
 working time: full time
 technology:
   - Android
