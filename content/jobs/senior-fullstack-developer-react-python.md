@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Senior Fullstack Developer (Python + React)
-subtitle: OPEN
+subtitle: TALENT POOL
 imagejob: /images/fullstack-team-job-offer-4-copy-2.png
 image-alt-job: Fullstack Team Bright Inventions
 hours: full-time
@@ -53,7 +53,9 @@ We expect effective communication skills, including the **ability to both give a
 
 ## **about the project 🚀**
 
-We are working on an innovative Agentic AI platform designed for AppSec teams, effectively integrating with modern software development processes. By using intelligent agents, deep contextual knowledge, and orchestration through MCP, the application transforms security from a blocker into an innovation accelerator.
+**This hiring process is for future fullstack openings that will be available in the coming months.**
+
+We work on a diverse range of projects, from transportation and healthtech to gastronomy and beyond. Each one brings a new challenge, and we meet it with curiosity, care, and dedication. If you’re open to exploring different industries and building meaningful digital products, we’d love to have you on board.
 
 ## **preferred skills and qualifications 👩‍💻🧑‍💻**
 
