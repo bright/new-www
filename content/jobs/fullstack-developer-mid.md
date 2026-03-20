@@ -37,21 +37,21 @@ recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
 ---
-## **about bright people 🧡**
+## **about us** 
 
-At Bright Inventions we value people who **take ownership, show initiative, and care about what they build**. We work as partners to our clients, so we look for team members who **actively suggest improvements, solve problems, and take responsibility** for their work and growth.
+At Bright Inventions (now Framna) we partner with ambitious brands to create digital products that make a meaningful impact.\
+\
+We work across the full product journey, from strategy and UX to engineering and long-term growth, combining technical expertise with a strong product mindset. Together with our partners, we build solutions that users rely on every day.\
+\
+Our culture is built on trust, ownership, and fearless collaboration. We challenge ideas, support each other, and keep learning-openly sharing feedback, staying flexible in how we work, and approaching each other with empathy. Because the best products are created by teams that move forward together.
 
-Being flexible is important to us. We use technology as a tool to bring value, and we appreciate people who are **open to learning and using new tools** when needed.
-
-We expect effective communication skills, including the **ability to both give and receive constructive feedback with empathy**. We focus on solutions, not blame. We support each other, share knowledge, and approach challenges with a positive mindset.
-
-## **about the project 🚀**
+## **about the project**
 
 A next-generation passwordless [authentication platform](https://transmitsecurity.com/) used by millions worldwide. It uses advanced biometrics to secure digital identities and enable one-touch access. The solution supports document and biometric verification, data processing, and configurable verification criteria.
 
 Please note that we follow a **hybrid model** with a requirement for **regular in-office syncs** to foster team collaboration.
 
-## **preferred skills and qualifications 👩‍💻🧑‍💻**
+## **preferred skills and qualifications** 
 
 👉 at least 3 years of commercial programming experience as a fullstack developer or similar role
 
@@ -71,7 +71,7 @@ Please note that we follow a **hybrid model** with a requirement for **regular i
 
 👉 very good level of English and Polish (both written and spoken)
 
-## **what you will find in our Bright Team** 💡
+## **what you’ll find at Bright Inventions (now Framna)**
 
 ✔️ real impact on the implemented solutions and project growth
 
