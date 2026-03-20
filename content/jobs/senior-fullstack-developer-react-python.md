@@ -43,7 +43,7 @@ recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
 ---
-## **aabout us 🧡💚**
+## **aabout us** 
 
 At Bright Inventions (now Framna) we partner with ambitious brands to create digital products that make a meaningful impact.\
 \
@@ -51,13 +51,13 @@ We work across the full product journey, from strategy and UX to engineering and
 \
 Our culture is built on trust, ownership, and fearless collaboration. We challenge ideas, support each other, and keep learning-openly sharing feedback, staying flexible in how we work, and approaching each other with empathy. Because the best products are created by teams that move forward together.
 
-## **about the project 🚀**
+## **about the project** 
 
 **This hiring process is for future fullstack openings that will be available in the coming months.**
 
 We work on a diverse range of projects, from transportation and healthtech to gastronomy and beyond. Each one brings a new challenge, and we meet it with curiosity, care, and dedication. If you’re open to exploring different industries and building meaningful digital products, we’d love to have you on board.
 
-## **preferred skills and qualifications 👩‍💻🧑‍💻**
+## **preferred skills and qualifications** 
 
 👉 at least 4 years of commercial programming experience as a fullstack developer or similar role
 
