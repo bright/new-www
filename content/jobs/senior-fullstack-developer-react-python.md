@@ -43,7 +43,7 @@ recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
 ---
-## **aabout us** 
+## **about us** 
 
 At Bright Inventions (now Framna) we partner with ambitious brands to create digital products that make a meaningful impact.\
 \
@@ -81,7 +81,7 @@ We work on a diverse range of projects, from transportation and healthtech to ga
 
 👉 very good level of English and Polish (both written and spoken)
 
-## what you’ll find at Bright Inventions (now Framna)
+## **what you’ll find at Bright Inventions (now Framna)**
 
 ✔️ real impact on the implemented solutions and project growth
 
