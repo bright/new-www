@@ -12,7 +12,7 @@ technology:
   - AI-powered marketing tools
   - LinkedIn
   - Figma
-  - Google Ads 
+  - Google Ads
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -37,38 +37,35 @@ recruting_image2_title: interview (role specific & interpersonal parts)
 recruting_image3_title: marketing task
 language: en
 ---
-## about us 🧡
+## **about us** 
 
-At **Bright Inventions (soon to become Framna)** we build digital products that make a difference. We are an international digital product agency partnering with ambitious brands to design and develop scalable, high-quality digital solutions. From strategy and UX to engineering and long-term product growth - we cover the full journey. Our Polish team combines strong technological expertise with a feedback-first mindset. We value ownership, transparency, and trust, and we give our people space to act independently.
+At Bright Inventions (now Framna) we partner with ambitious brands to create digital products that make a meaningful impact.\
+\
+We work across the full product journey, from strategy and UX to engineering and long-term growth, combining technical expertise with a strong product mindset. Together with our partners, we build solutions that users rely on every day.\
+\
+Our culture is built on trust, ownership, and fearless collaboration. We challenge ideas, support each other, and keep learning-openly sharing feedback, staying flexible in how we work, and approaching each other with empathy. Because the best products are created by teams that move forward together.
 
 Now, we are looking for an experienced **Digital Marketing Specialist** who will help us strengthen our brand, generate quality leads, and support business growth, both locally and internationally.
 
-## about the role 🚀
+## **about the role**
 
 This is a hands-on role combining both operational execution and strategic thinking. You will work closely with the local team while collaborating with the global marketing function to ensure alignment and consistency across markets. After onboarding, you will gradually take ownership of selected marketing initiatives, driving them from planning to execution.
 
 The role sits between mid and senior level — we are looking for someone who is comfortable working independently, proactive in identifying opportunities, and confident enough to challenge ideas when needed. At the same time, you enjoy collaboration and know how to align stakeholders around shared goals.
 **Your responsibilities will include:**
 
-- Designing and executing digital marketing strategies for B2B tech services
-
-- Planning and running lead generation campaigns (inbound & outbound support)
-
-- Creating and overseeing high-quality content (LinkedIn, website, newsletters, case studies, thought leadership)
-
-- Close cooperation with sales to support pipeline growth
-
-- Planning and executing industry events, webinars, and meetups
-
-- Monitoring KPIs and marketing performance, drawing conclusions, and improving processes
-
-- Monitor competitor activities and identify market opportunities
-
-- Prepare regular performance reports for leadership
+* Designing and executing digital marketing strategies for B2B tech services
+* Planning and running lead generation campaigns (inbound & outbound support)
+* Creating and overseeing high-quality content (LinkedIn, website, newsletters, case studies, thought leadership)
+* Close cooperation with sales to support pipeline growth
+* Planning and executing industry events, webinars, and meetups
+* Monitoring KPIs and marketing performance, drawing conclusions, and improving processes
+* Monitor competitor activities and identify market opportunities
+* Prepare regular performance reports for leadership
 
 You will work in both English and Polish on a daily basis - internally and externally. 
 
-## preferred skills and qualifications 👩‍💻🧑‍💻
+## **preferred skills and qualifications** 
 
 We are looking for someone who combines strategic thinking with strong execution skills.
 
@@ -92,7 +89,7 @@ We are looking for someone who combines strategic thinking with strong execution
 
 👉  Fluent Polish (daily internal communication)
 
-## we would also appreciate if you have
+## **we would also appreciate if you have**
 
 👉  Experience working with international markets
 
@@ -104,7 +101,7 @@ We are looking for someone who combines strategic thinking with strong execution
 
 👉  Previous cooperation with sales teams in a service-based organization
 
-## what you will find in our Bright (soon Framna) Team 💡
+## **what you’ll find at Bright Inventions (now Framna)**
 
 At Framna, we operate with a high level of trust and autonomy - we believe in ownership, not micromanagement. You will have a real impact on company growth, brand positioning, and the direction we take as a team.
 We value business impact over technical perfection and encourage initiative -  if you see an opportunity, you can act on it.
@@ -123,7 +120,6 @@ You can expect:
 ✔️  Solid benefits package (private healthcare, MultiSport, English classes)
 
 ✔️  Quality equipment and a well-equipped office environment
-
 
 **We create an environment where autonomy, responsibility, and continuous improvement go hand in hand.**
 
