@@ -81,7 +81,7 @@ We work on a diverse range of projects, from transportation and healthtech to ga
 
 👉 very good level of English and Polish (both written and spoken)
 
-## **what you will find in our Bright Team** 💡
+## what you’ll find at Bright Inventions (now Framna)
 
 ✔️ real impact on the implemented solutions and project growth
 
