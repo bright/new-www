@@ -101,7 +101,7 @@ We are looking for someone who combines strategic thinking with strong execution
 
 👉  Previous cooperation with sales teams in a service-based organization
 
-## **what you will find in our Bright (now Framna) Team**
+## **what you’ll find at Bright Inventions (now Framna)**
 
 At Framna, we operate with a high level of trust and autonomy - we believe in ownership, not micromanagement. You will have a real impact on company growth, brand positioning, and the direction we take as a team.
 We value business impact over technical perfection and encourage initiative -  if you see an opportunity, you can act on it.
