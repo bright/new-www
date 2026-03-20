@@ -34,8 +34,12 @@
 
 @import 'instagram-embed';
 
+:root {
+  --announcement-height: 0px;
+}
+
 .layout-container {
-  margin-top: $navbar-height;
+  margin-top: calc(#{$navbar-height} + var(--announcement-height, 0px));
 }
 
 html {
