@@ -11,7 +11,7 @@ technology:
   - AI tools
   - Figma
   - Jira
-  - Adobe Photoshop 
+  - Adobe Photoshop
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -36,13 +36,15 @@ recruting_image2_title: interview (role specific & interpersonal parts)
 recruting_image3_title: design task
 language: en
 ---
-## About Us
+## **about us 🧡💚**
 
-At **Bright Inventions (soon to become Framna)** we build digital products that make a difference. We are an international digital product agency partnering with ambitious brands to design and develop scalable, high-quality digital solutions. From strategy and UX to engineering and long-term product growth - we cover the full journey.
+At Bright Inventions (now Framna) we partner with ambitious brands to create digital products that make a meaningful impact.\
+\
+We work across the full product journey, from strategy and UX to engineering and long-term growth, combining technical expertise with a strong product mindset. Together with our partners, we build solutions that users rely on every day.\
+\
+Our culture is built on trust, ownership, and fearless collaboration. We challenge ideas, support each other, and keep learning-openly sharing feedback, staying flexible in how we work, and approaching each other with empathy. Because the best products are created by teams that move forward together.
 
-Our team combines strong technological expertise with a product mindset and a feedback-first culture. **We believe the best digital products are created through close collaboration, honest communication, and continuous learning.** That’s why we value ownership, transparency, and trust, giving our people real responsibility and the space to act independently. We challenge ideas, not people, support each other’s growth, and treat feedback as a tool for improvement, not evaluation.
-
-## About the Role 
+## About the Role
 
 We are looking for a Product Designer who will help us design products that truly matter, combining strong design craft with growing product thinking to support business goals in international environments.
 
@@ -52,66 +54,47 @@ You will take ownership of selected parts of projects, actively contribute to di
 
 **What You’ll Be Responsible For**
 
-- Contributing to product design processes from discovery to high-fidelity UI and handoff
-- Co-facilitating workshops (discovery, ideation, alignment sessions)
-- Translating business and user requirements into intuitive user experiences
-- Creating user flows, wireframes, prototypes, and polished UI designs
-- Collaborating closely with developers to ensure smooth implementation
-- Presenting your work to internal teams and to business partners
-- Applying and contributing to design systems
-- Actively participating in feedback sessions and improving your craft
-- Contributing to improving internal design processes
+* Contributing to product design processes from discovery to high-fidelity UI and handoff
+* Co-facilitating workshops (discovery, ideation, alignment sessions)
+* Translating business and user requirements into intuitive user experiences
+* Creating user flows, wireframes, prototypes, and polished UI designs
+* Collaborating closely with developers to ensure smooth implementation
+* Presenting your work to internal teams and to business partners
+* Applying and contributing to design systems
+* Actively participating in feedback sessions and improving your craft
+* Contributing to improving internal design processes
 
 You will work in both English and Polish on a daily basis - internally and externally. 
 
 ## Preferred Skills & Qualifications
 
-- Min. 2 years of experience in Product Design / UX/UI design
-
-- Experience designing digital products (mobile and/or web applications)
-
-- Good understanding of usability principles and interaction design
-
-- Experience working in a software house, digital agency, or product environment
-
-- Ability to clearly communicate design decisions
-
-- Solid visual design skills and attention to detail
-
-- Proficiency in Figma (or similar modern design tools)
-
-- Strong English skills (min. B2+/C1) – daily communication in international projects
-
-- Openness to feedback and willingness to grow
-
-- Interest in product thinking and business context
+* Min. 2 years of experience in Product Design / UX/UI design
+* Experience designing digital products (mobile and/or web applications)
+* Good understanding of usability principles and interaction design
+* Experience working in a software house, digital agency, or product environment
+* Ability to clearly communicate design decisions
+* Solid visual design skills and attention to detail
+* Proficiency in Figma (or similar modern design tools)
+* Strong English skills (min. B2+/C1) – daily communication in international projects
+* Openness to feedback and willingness to grow
+* Interest in product thinking and business context
 
 ## Nice to Have
 
-- Experience working with design systems
+* Experience working with design systems
+* Basic understanding of frontend constraints
+* Experience in cross-functional teams
+* Experience in international projects
 
-- Basic understanding of frontend constraints
+## What You’ll Find at Bright Inventions (now Framna)
 
-- Experience in cross-functional teams
-
-- Experience in international projects
-
-## What You’ll Find at Framna
-
-- A feedback-first culture with transparent communication and supportive leadership
-
-- A team of experienced tech professionals who value quality and collaboration
-
-- Flexible hybrid work model (office in Gdańsk Wrzeszcz, regular in-office syncs)
-
-- Mentoring, regular 1:1 meetings, and knowledge-sharing workshops
-
-- Development budget and real space for professional growth
-
-- Solid benefits package (private healthcare, MultiSport, English classes)
-
-- Quality equipment and a well-equipped office environment
-
+* A feedback-first culture with transparent communication and supportive leadership
+* A team of experienced tech professionals who value quality and collaboration
+* Flexible hybrid work model (office in Gdańsk Wrzeszcz, regular in-office syncs)
+* Mentoring, regular 1:1 meetings, and knowledge-sharing workshops
+* Development budget and real space for professional growth
+* Solid benefits package (private healthcare, MultiSport, English classes)
+* Quality equipment and a well-equipped office environment
 
 We create an environment where ownership grows naturally with experience, and where autonomy is built step by step through trust and collaboration.
 
