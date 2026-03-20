@@ -37,7 +37,7 @@ recruting_image2_title: interview (role specific & interpersonal parts)
 recruting_image3_title: marketing task
 language: en
 ---
-## **about us 🧡💚**
+## **about us** 
 
 At Bright Inventions (now Framna) we partner with ambitious brands to create digital products that make a meaningful impact.\
 \
@@ -47,7 +47,7 @@ Our culture is built on trust, ownership, and fearless collaboration. We challen
 
 Now, we are looking for an experienced **Digital Marketing Specialist** who will help us strengthen our brand, generate quality leads, and support business growth, both locally and internationally.
 
-## about the role 🚀
+## **about the role**
 
 This is a hands-on role combining both operational execution and strategic thinking. You will work closely with the local team while collaborating with the global marketing function to ensure alignment and consistency across markets. After onboarding, you will gradually take ownership of selected marketing initiatives, driving them from planning to execution.
 
@@ -65,7 +65,7 @@ The role sits between mid and senior level — we are looking for someone who is
 
 You will work in both English and Polish on a daily basis - internally and externally. 
 
-## preferred skills and qualifications 👩‍💻🧑‍💻
+## **preferred skills and qualifications** 
 
 We are looking for someone who combines strategic thinking with strong execution skills.
 
@@ -89,7 +89,7 @@ We are looking for someone who combines strategic thinking with strong execution
 
 👉  Fluent Polish (daily internal communication)
 
-## we would also appreciate if you have
+## **we would also appreciate if you have**
 
 👉  Experience working with international markets
 
@@ -101,7 +101,7 @@ We are looking for someone who combines strategic thinking with strong execution
 
 👉  Previous cooperation with sales teams in a service-based organization
 
-## what you will find in our Bright (now Framna) Team 💡
+## **what you will find in our Bright (now Framna) Team**
 
 At Framna, we operate with a high level of trust and autonomy - we believe in ownership, not micromanagement. You will have a real impact on company growth, brand positioning, and the direction we take as a team.
 We value business impact over technical perfection and encourage initiative -  if you see an opportunity, you can act on it.
