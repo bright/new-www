@@ -38,7 +38,7 @@ recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
 ---
-## **about us 🧡💚**
+## **about us** 
 
 At Bright Inventions (now Framna) we partner with ambitious brands to create digital products that make a meaningful impact.\
 \
@@ -46,13 +46,13 @@ We work across the full product journey, from strategy and UX to engineering and
 \
 Our culture is built on trust, ownership, and fearless collaboration. We challenge ideas, support each other, and keep learning-openly sharing feedback, staying flexible in how we work, and approaching each other with empathy. Because the best products are created by teams that move forward together.
 
-## **about project 🚀**
+## **about project**
 
 A next-generation passwordless [authentication platform](https://transmitsecurity.com/) used by millions worldwide. It uses advanced biometrics to secure digital identities and enable one-touch access. The solution supports document and biometric verification, data processing, and configurable verification criteria.
 
 Please note that we follow a **hybrid model** with a requirement for **regular in-office syncs** to foster team collaboration.
 
-## **preferred skills and qualifications 👩‍💻🧑‍💻**
+## **preferred skills and qualifications** 
 
 👉 at least 5 years of commercial programming experience as a backend developer or fullstack developer with backend focus
 
@@ -74,7 +74,7 @@ Please note that we follow a **hybrid model** with a requirement for **regular i
 
 👉 very good command of English and Polish (written and spoken)
 
-## **what you will find in our Bright Team** 💡
+## **what you’ll find at Bright Inventions (now Framna)**
 
 ✔️ real impact on the implemented solutions and project growth
 
