@@ -36,7 +36,7 @@ recruting_image2_title: interview (role specific & interpersonal parts)
 recruting_image3_title: design task
 language: en
 ---
-## **about us 🧡💚**
+## **about us** 
 
 At Bright Inventions (now Framna) we partner with ambitious brands to create digital products that make a meaningful impact.\
 \
@@ -44,7 +44,7 @@ We work across the full product journey, from strategy and UX to engineering and
 \
 Our culture is built on trust, ownership, and fearless collaboration. We challenge ideas, support each other, and keep learning-openly sharing feedback, staying flexible in how we work, and approaching each other with empathy. Because the best products are created by teams that move forward together.
 
-## About the Role
+## **about the role**
 
 We are looking for a Product Designer who will help us design products that truly matter, combining strong design craft with growing product thinking to support business goals in international environments.
 
@@ -66,7 +66,7 @@ You will take ownership of selected parts of projects, actively contribute to di
 
 You will work in both English and Polish on a daily basis - internally and externally. 
 
-## Preferred Skills & Qualifications
+## preferred skills & qualifications
 
 * Min. 2 years of experience in Product Design / UX/UI design
 * Experience designing digital products (mobile and/or web applications)
@@ -79,14 +79,14 @@ You will work in both English and Polish on a daily basis - internally and exter
 * Openness to feedback and willingness to grow
 * Interest in product thinking and business context
 
-## Nice to Have
+## nice to have
 
 * Experience working with design systems
 * Basic understanding of frontend constraints
 * Experience in cross-functional teams
 * Experience in international projects
 
-## What You’ll Find at Bright Inventions (now Framna)
+## what you’ll find at Bright Inventions (now Framna)
 
 * A feedback-first culture with transparent communication and supportive leadership
 * A team of experienced tech professionals who value quality and collaboration
