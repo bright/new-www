@@ -41,7 +41,7 @@ language: en
 description: We are looking for a Senior Frontend Developer with solid knowledge
   of JavaScript/TypeScript, Node.js and React. Join our team!
 ---
-## **about us 🧡💚**
+## **about us** 
 
 At Bright Inventions (now Framna) we partner with ambitious brands to create digital products that make a meaningful impact.\
 \
@@ -49,13 +49,13 @@ We work across the full product journey, from strategy and UX to engineering and
 \
 Our culture is built on trust, ownership, and fearless collaboration. We challenge ideas, support each other, and keep learning-openly sharing feedback, staying flexible in how we work, and approaching each other with empathy. Because the best products are created by teams that move forward together.
 
-## [](https://brightinventions.pl/jobs/senior-fullstack-developer-react-python/#about-the-project-)**about the project 🚀**
+## [](https://brightinventions.pl/jobs/senior-fullstack-developer-react-python/#about-the-project-)**about the project** 
 
 **This hiring process is for future frontend openings that will be available in the coming months.**
 
 We work on a diverse range of projects, from transportation and healthtech to gastronomy and beyond. Each one brings a new challenge, and we meet it with curiosity, care, and dedication. If you’re open to exploring different industries and building meaningful digital products, we’d love to have you on board.
 
-## **preferred skills and qualifications 👩‍💻🧑‍💻**
+## **preferred skills and qualifications** 
 
 👉 at least 4-5 years of commercial programming experience as frontend developer or similar role
 
@@ -78,7 +78,7 @@ We work on a diverse range of projects, from transportation and healthtech to ga
 * experience with development in Python 
 * familiarity with AWS or other Cloud providers
 
-## **what you will find in our Bright Team** 💡
+##  **what you’ll find at Bright Inventions (now Framna)**
 
 ✔️ real impact on the implemented solutions and project growth
 
