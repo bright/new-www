@@ -34,7 +34,7 @@ recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
 ---
-## **about us 🧡💚**
+## **about us** 
 
 At Bright Inventions (now Framna) we partner with ambitious brands to create digital products that make a meaningful impact.\
 \
@@ -42,13 +42,13 @@ We work across the full product journey, from strategy and UX to engineering and
 \
 Our culture is built on trust, ownership, and fearless collaboration. We challenge ideas, support each other, and keep learning-openly sharing feedback, staying flexible in how we work, and approaching each other with empathy. Because the best products are created by teams that move forward together.
 
-## about the project and role 🚀
+## **about the project and role** 
 
 We are building with our partner a next-generation passwordless [authentication platform](https://transmitsecurity.com/) used by millions worldwide. It uses advanced biometrics to secure digital identities and enable one-touch access. The solution supports document and biometric verification, data processing, and configurable verification criteria.In this role, you will play a key part in building innovative, high-performance SDKs that will run on millions of devices worldwide.
 
 As a developer in this team, you will focus on deep integration with Android and iOS internals, researching system services and security mechanisms to stay ahead of platform changes. Working on developer-centric products, you will collaborate with security researchers and backend engineers to design advanced solutions for sectors like banking.
 
-## preferred skills and qualifications 👩‍💻🧑‍💻
+## **preferred skills and qualifications** 
 
 👉 at least 6 years of commercial programming experience in mobile development (Android or iOS, both platforms an advantage)
 
@@ -72,7 +72,7 @@ As a developer in this team, you will focus on deep integration with Android and
 
 👉 advanced level of English and Polish (written and spoken)
 
-## we would also appreciate if you have
+## **we would also appreciate if you have**
 
 👉 experience with cross-platform mobile development 
 
@@ -82,7 +82,7 @@ As a developer in this team, you will focus on deep integration with Android and
 
 👉 familiarity with hardware components (TEE, Secure Enclave, KeyStore)
 
-## what you will find in our Bright Team 💡
+## **what you’ll find at Bright Inventions (now Framna)**
 
 ✔️ real impact on the implemented solutions and project growth
 
@@ -108,7 +108,7 @@ As a developer in this team, you will focus on deep integration with Android and
 
 ✔️ team buildings events
 
-## we’re building a team where every member
+## **we’re building a team where every member**
 
 ✅ Takes initiative and full ownership in collaboration with both teammates and clients.
 
