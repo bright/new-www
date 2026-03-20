@@ -66,7 +66,7 @@ You will take ownership of selected parts of projects, actively contribute to di
 
 You will work in both English and Polish on a daily basis - internally and externally. 
 
-## preferred skills & qualifications
+## **preferred skills & qualifications**
 
 * Min. 2 years of experience in Product Design / UX/UI design
 * Experience designing digital products (mobile and/or web applications)
@@ -79,14 +79,14 @@ You will work in both English and Polish on a daily basis - internally and exter
 * Openness to feedback and willingness to grow
 * Interest in product thinking and business context
 
-## nice to have
+## **nice to have**
 
 * Experience working with design systems
 * Basic understanding of frontend constraints
 * Experience in cross-functional teams
 * Experience in international projects
 
-## what you’ll find at Bright Inventions (now Framna)
+## **what you’ll find at Bright Inventions (now Framna)**
 
 * A feedback-first culture with transparent communication and supportive leadership
 * A team of experienced tech professionals who value quality and collaboration
