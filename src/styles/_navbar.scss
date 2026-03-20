@@ -1,6 +1,10 @@
 $navbar-height: 4.6rem;
 $navbar-item-img-max-height: 67px;
 @import 'bulma/sass/components/navbar';
+
+.navbar.is-fixed-top {
+  top: var(--announcement-height, 0px);
+}
 @import "variables";
 
 .navbar-logo {
