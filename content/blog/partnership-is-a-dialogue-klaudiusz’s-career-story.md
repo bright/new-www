@@ -9,9 +9,9 @@ slug: partnership-dialogue-klaudiusz-career-story
 title: Partnership Is a Dialogue. A Fullstack Developer Career Story
 layout: post
 image: /images/brightstoryklaudiusz.png
-hidden: false
+hidden: true
 comments: false
-published: true
+published: false
 language: en
 ---
 **Klaudiusz's passion for mechanics eventually drove him into software development. Read about his career evolution, why he sometimes feels like an archaeologist, and his take on hospitality digitization.**
