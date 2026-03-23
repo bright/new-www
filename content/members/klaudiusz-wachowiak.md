@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: klaudiusz
-ex: false
+ex: true
 slug: klaudiusz
 name: "Klaudiusz Wachowiak "
 short_name: Klaudiusz
