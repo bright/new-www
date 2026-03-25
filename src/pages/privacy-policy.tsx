@@ -94,7 +94,7 @@ const PrivacyPolicy = () => {
               <p>
                 The controller of your personal data collected by the Website is Framna Poland Sp. z o.o. <br />z
                 siedzib&#x105; w Gda&#x144;sku, ul. Jana Matejki 12, 80 &#x2013;232 Gda&#x144;sk, KRS: 0000687244, NIP:
-                5842761920, Poland (&#x201C;Bright Inventions&#x201D;, &#x201C;We&#x201D;, &#x201C;Our&#x201D; or
+                5842761920, Poland (&#x201C;Framna Poland&#x201D;, &#x201C;We&#x201D;, &#x201C;Our&#x201D; or
                 &#x201C;Us&#x201D;).
                 <br />
               </p>
@@ -124,7 +124,7 @@ const PrivacyPolicy = () => {
                   Google Analytics 4;
                 </li>
                 <li>
-                  run marketing and business communication: distribute marketing content e.g. newsletters, ebooks, conduct offline and online events, and distribute recordings from these events on Bright Inventions' social media channels &#x2013; based on contact data provided to Us, on the
+                  run marketing and business communication: distribute marketing content e.g. newsletters, ebooks, conduct offline and online events, and distribute recordings from these events on Framna social media channels &#x2013; based on contact data provided to Us, on the
                   grounds of Our legitimate interests;
                 </li>
                 <li>
