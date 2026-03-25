@@ -92,7 +92,7 @@ const PrivacyPolicy = () => {
               </p>
               <p>1. Controller of your personal data</p>
               <p>
-                The controller of your personal data collected by the Website is Bright Inventions Sp. z o.o. <br />z
+                The controller of your personal data collected by the Website is Framna Poland Sp. z o.o. <br />z
                 siedzib&#x105; w Gda&#x144;sku, ul. Jana Matejki 12, 80 &#x2013;232 Gda&#x144;sk, KRS: 0000687244, NIP:
                 5842761920, Poland (&#x201C;Bright Inventions&#x201D;, &#x201C;We&#x201D;, &#x201C;Our&#x201D; or
                 &#x201C;Us&#x201D;).
@@ -104,7 +104,7 @@ const PrivacyPolicy = () => {
               </p>
               <p>by mail - ul. Jana Matejki 12, 80-232 Gda&#x144;sk, Poland;</p>
               <p>by phone - +48 695 934 555; </p>
-              <p>by e-mail - info@bright.dev </p>
+              <p>by e-mail - info@pl.framna.com </p>
               <p>&#x200D;</p>
               <p>2. The purposes of the date processing</p>
               <p>
@@ -157,9 +157,9 @@ const PrivacyPolicy = () => {
               </p>
               <p>4. &#xA0;Recruitment processes</p>
               <p>
-                The Controller of your personal data collected by the Website is Bright Inventions Sp. z o.o. With its
+                The Controller of your personal data collected by the Website is Framna Poland Sp. z o.o. With its
                 registered office in Gdańsku, Jana Matejki Street 12, 80 –232 Gdańsk, KRS: 0000687244, NIP: 5842761920,
-                Poland (“Bright Inventions”, “We”, “Our” or “Us”) and authorized employees of the Company who are
+                Poland (“Framna Poland”, “We”, “Our” or “Us”) and authorized employees of the Company who are
                 responsible for recruitment processes as well as any legal entities chosen by the Company to process the
                 data for hiring purposes.
               </p>
@@ -240,9 +240,9 @@ const PrivacyPolicy = () => {
               </p>
               <p>5. &#xA0;Businesses communications processes</p>
               <p>
-                The Controller of your personal data collected by the Website is Bright Inventions Sp. z o.o. With its
+                The Controller of your personal data collected by the Website is Framna Poland Sp. z o.o. With its
                 registered office in Gdańsku, Jana Matejki Street 12, 80 –232 Gdańsk, KRS: 0000687244, NIP: 5842761920,
-                Poland (“Bright Inventions”, “We”, “Our” or “Us”) and authorized employees of the Company who are
+                Poland (“Framna Poland”, “We”, “Our” or “Us”) and authorized employees of the Company who are
                 responsible for recruitment processes as well as any legal entities chosen by the Company to process the
                 data for hiring purposes.
               </p>
@@ -253,10 +253,10 @@ const PrivacyPolicy = () => {
               <p>
                 <ul>
                   <li>
-                    to establish and maintain contact with a business representative using a contact form on Bright Inventions’ website,
+                    to establish and maintain contact with a business representative using a contact form on Framna Poland website,
                   </li>
                   <li>
-                    to provide a business representative with marketing information about Bright Inventions via email marketing.                  
+                    to provide a business representative with marketing information about Framna via email marketing.                  
                   </li>
                 </ul>
               </p>
