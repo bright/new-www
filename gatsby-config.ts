@@ -288,6 +288,16 @@ const gatsbyConfig: GatsbyConfig = {
       : null,
 
     {
+      resolve: 'gatsby-plugin-llms-txt',
+      options: {
+        siteUrl: siteMetadata.siteUrl,
+        title: siteMetadata.title,
+        description: siteMetadata.description,
+        recentBlogPostLimit: 50,
+      },
+    },
+
+    {
       resolve: 'gatsby-plugin-json-pages',
       options: {
         pages: [
