@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: filip-g
-ex: false
+ex: true
 slug: filip-g
 name: Filip Grześkowiak
 short_name: Filip
