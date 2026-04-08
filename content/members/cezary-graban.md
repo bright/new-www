@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: cezary
-ex: false
+ex: true
 slug: cezary
 name: Cezary Graban
 short_name: Cezary
