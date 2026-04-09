@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: daniel
-ex: false
+ex: true
 slug: daniel
 name: Daniel Makurat
 short_name: Daniel
