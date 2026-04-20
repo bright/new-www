@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Fullstack Developer (Mid)
-subtitle: OPEN
+subtitle: TALENT POOL
 imagejob: /images/job-offer-team-part-2-2025-1-.png
 image-alt-job: Devs Team Bright Inventions
 hours: full-time
@@ -32,7 +32,7 @@ button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: "join our Bright team "
 published: true
 show_recruiter_info: true
-order: 4
+order: 7
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
