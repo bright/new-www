@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Backend Developer (Mid)
-subtitle: OPEN
+subtitle: TALENT POOL
 imagejob: /images/job-offer-team-part-2-2025-1-.png
 image-alt-job: Bright Team Bright Inventions
 hours: Full-time
@@ -31,7 +31,7 @@ button_linkedin: https://www.linkedin.com/in/saralecka/
 button: "join our bright team "
 published: true
 show_recruiter_info: true
-order: 2
+order: 8
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
