@@ -4,10 +4,10 @@ workplace_recruiter: Recruitment Specialist
 Show_recruiter_info: true
 layout: job
 title: Senior Frontend Developer (React)
-subtitle: TALENT POOL
+subtitle: OPEN
 image-alt-job: Frontend Team Bright Inventions
 hours: full-time
-salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
+salary: 169 - 190 PLN/hour + VAT (B2B) or 20 750 - 23 240 PLN gross (UoP)
 salary_min: ""
 salary_max: ""
 working time: full time
@@ -41,21 +41,21 @@ language: en
 description: We are looking for a Senior Frontend Developer with solid knowledge
   of JavaScript/TypeScript, Node.js and React. Join our team!
 ---
-## **about bright people 🧡**
+## **about us**
 
-At Bright Inventions we value people who take **ownership, show initiative, and care about what they build**. We work as partners to our clients, so we look for team members who **actively suggest improvements, solve problems, and take responsibility** for their work and growth.
+At Bright Inventions (now Framna) we partner with ambitious brands to create digital products that make a meaningful impact.\
+\
+We work across the full product journey, from strategy and UX to engineering and long-term growth, combining technical expertise with a strong product mindset. Together with our partners, we build solutions that users rely on every day.\
+\
+Our culture is built on trust, ownership, and fearless collaboration. We challenge ideas, support each other, and keep learning-openly sharing feedback, staying flexible in how we work, and approaching each other with empathy. Because the best products are created by teams that move forward together.
 
-Being flexible is important to us. We use technology as a tool to bring value, and we appreciate people who are **open to learning and using new tools** when needed.
+## [](https://brightinventions.pl/jobs/senior-fullstack-developer-react-python/#about-the-project-)**about the project**
 
-We expect effective communication skills, including the **ability to both give and receive constructive feedback with empathy**. We focus on solutions, not blame. We support each other, share knowledge, and approach challenges with a positive mindset.
+A next-generation passwordless [authentication platform](https://transmitsecurity.com/) used by millions worldwide. It uses advanced biometrics to secure digital identities and enable one-touch access. The solution supports document and biometric verification, data processing, and configurable verification criteria.
 
-## [](https://brightinventions.pl/jobs/senior-fullstack-developer-react-python/#about-the-project-)**about the project 🚀**
+Please note that we follow a **hybrid model** with a requirement for **regular in-office syncs** to foster team collaboration.
 
-**This hiring process is for future frontend openings that will be available in the coming months.**
-
-We work on a diverse range of projects, from transportation and healthtech to gastronomy and beyond. Each one brings a new challenge, and we meet it with curiosity, care, and dedication. If you’re open to exploring different industries and building meaningful digital products, we’d love to have you on board.
-
-## **preferred skills and qualifications 👩‍💻🧑‍💻**
+## **preferred skills and qualifications**
 
 👉 at least 4-5 years of commercial programming experience as frontend developer or similar role
 
@@ -78,7 +78,7 @@ We work on a diverse range of projects, from transportation and healthtech to ga
 * experience with development in Python 
 * familiarity with AWS or other Cloud providers
 
-## **what you will find in our Bright Team** 💡
+##  **what you’ll find at Bright Inventions (now Framna)**
 
 ✔️ real impact on the implemented solutions and project growth
 
