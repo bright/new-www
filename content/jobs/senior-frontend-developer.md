@@ -4,10 +4,10 @@ workplace_recruiter: Recruitment Specialist
 Show_recruiter_info: true
 layout: job
 title: Senior Frontend Developer (React)
-subtitle: TALENT POOL
+subtitle: OPEN
 image-alt-job: Frontend Team Bright Inventions
 hours: full-time
-salary: 135 - 162 PLN/hour + VAT (B2B) or 16 600 - 19 920 PLN gross (UoP)
+salary: 169 - 190 PLN/hour + VAT (B2B) or 20 750 - 23 240 PLN gross (UoP)
 salary_min: ""
 salary_max: ""
 working time: full time
@@ -41,7 +41,7 @@ language: en
 description: We are looking for a Senior Frontend Developer with solid knowledge
   of JavaScript/TypeScript, Node.js and React. Join our team!
 ---
-## **about us** 
+## **about us**
 
 At Bright Inventions (now Framna) we partner with ambitious brands to create digital products that make a meaningful impact.\
 \
@@ -49,13 +49,13 @@ We work across the full product journey, from strategy and UX to engineering and
 \
 Our culture is built on trust, ownership, and fearless collaboration. We challenge ideas, support each other, and keep learning-openly sharing feedback, staying flexible in how we work, and approaching each other with empathy. Because the best products are created by teams that move forward together.
 
-## [](https://brightinventions.pl/jobs/senior-fullstack-developer-react-python/#about-the-project-)**about the project** 
+## [](https://brightinventions.pl/jobs/senior-fullstack-developer-react-python/#about-the-project-)**about the project**
 
-**This hiring process is for future frontend openings that will be available in the coming months.**
+A next-generation passwordless [authentication platform](https://transmitsecurity.com/) used by millions worldwide. It uses advanced biometrics to secure digital identities and enable one-touch access. The solution supports document and biometric verification, data processing, and configurable verification criteria.
 
-We work on a diverse range of projects, from transportation and healthtech to gastronomy and beyond. Each one brings a new challenge, and we meet it with curiosity, care, and dedication. If you’re open to exploring different industries and building meaningful digital products, we’d love to have you on board.
+Please note that we follow a **hybrid model** with a requirement for **regular in-office syncs** to foster team collaboration.
 
-## **preferred skills and qualifications** 
+## **preferred skills and qualifications**
 
 👉 at least 4-5 years of commercial programming experience as frontend developer or similar role
 
