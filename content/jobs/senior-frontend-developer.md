@@ -57,7 +57,7 @@ Please note that we follow a **hybrid model** with a requirement for **regular i
 
 ## **preferred skills and qualifications**
 
-👉 at least 4-5 years of commercial programming experience as frontend developer or similar role
+👉 at least 6-8 years of commercial programming experience as frontend developer or similar role
 
 👉 deep working knowledge and solid understanding of **TypeScript/JavaScript**
 
