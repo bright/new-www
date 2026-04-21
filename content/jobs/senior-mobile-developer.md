@@ -50,7 +50,7 @@ As a developer in this team, you will focus on deep integration with Android and
 
 ## **preferred skills and qualifications** 
 
-👉 at least 6 years of commercial programming experience in mobile development (Android or iOS, both platforms an advantage)
+👉 at least 6-8 years of commercial programming experience in mobile development (Android or iOS, both platforms an advantage)
 
 👉 strong practical experience in developing mobile SDKs, preferably used by third-party developers and large-scale organizations
 
