@@ -54,7 +54,7 @@ Please note that we follow a **hybrid model** with a requirement for **regular i
 
 ## **preferred skills and qualifications** 
 
-👉 at least 5 years of commercial programming experience as a backend developer or fullstack developer with backend focus
+👉 at least 6-8 years of commercial programming experience as a backend developer or fullstack developer with backend focus
 
 👉 solid understanding of TypeScript/JavaScript
 
