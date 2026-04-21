@@ -55,7 +55,7 @@ Please note that we follow a **hybrid model** with a requirement for **regular i
 
 ## **preferred skills and qualifications** 
 
-👉 at least 5 years of commercial programming experience as a fullstack developer or similar role
+👉 at least 6-8 years of commercial programming experience as a fullstack developer or similar role
 
 👉 solid understanding of TypeScript/JavaScript
 
