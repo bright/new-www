@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Product Designer
-subtitle: OPEN
+subtitle: CLOSED
 imagejob: /images/job-offer-team-part-2-2025-1-.png
 image-alt-job: Growth Team Bright Inventions
 hours: Full-time
