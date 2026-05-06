@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Product Designer
-subtitle: OPEN
+subtitle: CLOSED
 imagejob: /images/job-offer-team-part-2-2025-1-.png
 image-alt-job: Growth Team Bright Inventions
 hours: Full-time
@@ -29,7 +29,7 @@ image_recruiter_info: /images/sara-bright-recruiter.png
 image_alt_recruiter_info: Sara - Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/saralecka/
 button: Join Bright Inventions – soon to become Framna
-published: true
+published: false
 show_recruiter_info: true
 order: 6
 recruting_image2_title: interview (role specific & interpersonal parts)
