@@ -51,6 +51,9 @@ Our culture is built on trust, ownership, and fearless collaboration. We challen
 
 ## [](https://brightinventions.pl/jobs/senior-fullstack-developer-react-python/#about-the-project-)**about the project**
 
+**This hiring process is for future frontend openings that will be available in the coming months.**
+
+\
 A next-generation passwordless [authentication platform](https://transmitsecurity.com/) used by millions worldwide. It uses advanced biometrics to secure digital identities and enable one-touch access. The solution supports document and biometric verification, data processing, and configurable verification criteria.
 
 Please note that we follow a **hybrid model** with a requirement for **regular in-office syncs** to foster team collaboration.
