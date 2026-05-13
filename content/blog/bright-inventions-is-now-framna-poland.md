@@ -5,7 +5,7 @@ tags:
   - bright insights
 date: 2025-09-03T05:35:08.829Z
 meaningfullyUpdatedAt: 2025-09-03T05:35:08.844Z
-title: Bright Inventions is now Framna
+title: Bright Inventions is now Framna Poland
 layout: post
 image: /images/header-image.png
 hidden: false
