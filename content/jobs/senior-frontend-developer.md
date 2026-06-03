@@ -4,7 +4,7 @@ workplace_recruiter: Recruitment Specialist
 Show_recruiter_info: true
 layout: job
 title: Senior Frontend Developer (React)
-subtitle: OPEN
+subtitle: TALENT POOL
 image-alt-job: Frontend Team Bright Inventions
 hours: full-time
 salary: 169 - 190 PLN/hour + VAT (B2B) or 20 750 - 23 240 PLN gross (UoP)
@@ -49,14 +49,11 @@ We work across the full product journey, from strategy and UX to engineering and
 \
 Our culture is built on trust, ownership, and fearless collaboration. We challenge ideas, support each other, and keep learning-openly sharing feedback, staying flexible in how we work, and approaching each other with empathy. Because the best products are created by teams that move forward together.
 
-## [](https://brightinventions.pl/jobs/senior-fullstack-developer-react-python/#about-the-project-)**about the project**
+## [](https://brightinventions.pl/jobs/senior-fullstack-developer-react-python/#about-the-project-)**about the role**
 
-**This hiring process is for future frontend openings that will be available in the coming months.**
+**This hiring process is for future frontend openings that will be available in the coming months. Only candidates who meet the requirements will be contacted. Initial interviews are planned for July.**
 
-\
-A next-generation passwordless [authentication platform](https://transmitsecurity.com/) used by millions worldwide. It uses advanced biometrics to secure digital identities and enable one-touch access. The solution supports document and biometric verification, data processing, and configurable verification criteria.
-
-Please note that we follow a **hybrid model** with a requirement for **regular in-office syncs** to foster team collaboration.
+**Please note that we follow a hybrid model with a requirement for regular in-office syncs to foster team collaboration.**
 
 ## **preferred skills and qualifications**
 
