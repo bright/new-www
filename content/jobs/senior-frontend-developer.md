@@ -49,7 +49,7 @@ We work across the full product journey, from strategy and UX to engineering and
 \
 Our culture is built on trust, ownership, and fearless collaboration. We challenge ideas, support each other, and keep learning-openly sharing feedback, staying flexible in how we work, and approaching each other with empathy. Because the best products are created by teams that move forward together.
 
-## [](https://brightinventions.pl/jobs/senior-fullstack-developer-react-python/#about-the-project-)**about the project**
+## [](https://brightinventions.pl/jobs/senior-fullstack-developer-react-python/#about-the-project-)**about the role**
 
 **This hiring process is for future frontend openings that will be available in the coming months. Only candidates who meet the requirements will be contacted. Initial interviews are planned for July.**
 
