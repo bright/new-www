@@ -131,7 +131,7 @@ export const FramnaAnnouncementBanner: React.FC = () => {
   return (
     <BannerWrapper>
       <BannerText>Bright Inventions is now Framna —</BannerText>
-      <BannerLink href='https://framna.com/' target='_blank' rel='noopener noreferrer'>
+      <BannerLink href='https://framna.com/' target='_blank'>
         visit framna.com
       </BannerLink>
       <CloseButton onClick={handleDismiss} aria-label='Dismiss announcement'>

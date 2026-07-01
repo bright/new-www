@@ -161,7 +161,6 @@ export const FramnaAnnouncementPopup: React.FC = () => {
           <a
             href='https://framna.com/'
             target='_blank'
-            rel='noopener noreferrer'
             style={{
               display: 'inline-block',
               backgroundColor: '#0a0a0a',
