@@ -30,7 +30,7 @@ I have been thinking about that from time to time. I still think about switching
 
 ## You started your IT career here at Bright Inventions. How did that happen?
 
-Yes, **[Kasia Łukasewicz](/about-us/kasia/) who was my academic teacher at the Gdańsk University of Technology, asked if I would be interested in joining the company**. It was right before graduating the college. I guess I would have become a programmer if she hadn’t offered me that opportunity.
+Yes, **Kasia Łukasewicz who was my academic teacher at the Gdańsk University of Technology, asked if I would be interested in joining the company**. It was right before graduating the college. I guess I would have become a programmer if she hadn’t offered me that opportunity.
 
 I’ve always thought that you had to be a developer for a few years before you went on the PM path. Obviously, having tech experience is helpful, but starting like me from a PM job is possible. 
 

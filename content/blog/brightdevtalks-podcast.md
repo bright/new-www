@@ -16,7 +16,7 @@ comments: true
 published: true
 language: en
 ---
-**Our team at Bright Inventions loves to share their knowledge. What’s a better way to discuss hot software development topics than by starting a podcast? BrightDevTalks is a platform to address the business, tech, and communication challenges that all members of the software development world have to face. Our hosts, first Patryk Szlagowski and now [Ula Stankiewicz](/about-us/ula/), invite a variety of guests. Hop on this train and listen to BrightDevTalks. The podcast is done in Polish.**
+**Our team at Bright Inventions loves to share their knowledge. What’s a better way to discuss hot software development topics than by starting a podcast? BrightDevTalks is a platform to address the business, tech, and communication challenges that all members of the software development world have to face. Our hosts, first Patryk Szlagowski and now Ula Stankiewicz, invite a variety of guests. Hop on this train and listen to BrightDevTalks. The podcast is done in Polish.**
 
 ## Follow on Spotify
 

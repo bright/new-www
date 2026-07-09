@@ -33,7 +33,7 @@ I thought about it a lot during my first years as a programmer. Now, **this thou
 
 ## Tell us about your recruitment journey to Bright Inventions. I heard it was quite a bumpy road. 😉
 
-I remember visiting the Bright Inventions website and instantly feeling a strong desire to be part of the team. I had a tough technical interview with [Piotr](/about-us/piotr/), followed by another with [Ula](/about-us/ula/) focusing on my soft skills and English proficiency. **The feedback, after the interview, was that my technical and soft skills were satisfactory, but I needed to work on my English**. 
+I remember visiting the Bright Inventions website and instantly feeling a strong desire to be part of the team. I had a tough technical interview with Piotr, followed by another with Ula focusing on my soft skills and English proficiency. **The feedback, after the interview, was that my technical and soft skills were satisfactory, but I needed to work on my English**. 
 
 **Accepting this challenge, I immediately signed up for English classes** and attended them three times a week. To my surprise, **Ula didn't forget about me; she reached out after 6 months** to ask if I wanted to redo the interview. This time, my interaction was solely with Ula, concentrating on my English skills. **Finally, I managed to join Bright Inventions**.
 
@@ -75,7 +75,7 @@ What’s great about Bright Inventions is **the emphasis on knowledge sharing**.
 
 ## What do you do after hours?
 
-I've always led an active lifestyle. **Upon joining Bright Inventions, I participated in company workouts led by the pro triathlete Bartosz Banach**. He, along with [Michał](/about-us/michal/), inspired me to take up triathlon, and I quickly became fascinated with it.
+I've always led an active lifestyle. **Upon joining Bright Inventions, I participated in company workouts led by the pro triathlete Bartosz Banach**. He, along with Michał, inspired me to take up triathlon, and I quickly became fascinated with it.
 
 So, usually, I start my day with a workout, then work, and after work, I take a nap and have another workout. That's about 10 to 12 workouts a week.
 

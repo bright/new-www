@@ -42,7 +42,7 @@ It was a great challenge to work on an AI project as a junior. Although there we
 
 ## Eventually, you joined Bright Inventions. How did your and Bright paths cross?
 
-[Łukasz](/about-us/lukasz/), who works at Bright, is my friend from college. He recommended me this place. After graduation, he went straight to Bright and I had a job somewhere else. Łukasz was talking all the time about how great it was at Bright so I eventually applied in 2018.
+Łukasz, who works at Bright, is my friend from college. He recommended me this place. After graduation, he went straight to Bright and I had a job somewhere else. Łukasz was talking all the time about how great it was at Bright so I eventually applied in 2018.
 
 ![Bright Inventions team](../../static/images/brightstory_team.png)
 

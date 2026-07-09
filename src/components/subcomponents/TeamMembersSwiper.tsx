@@ -8,7 +8,6 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
 import { clampBuilder } from '../../helpers/clampBuilder'
-import { useTranslation } from 'react-i18next'
 
 
 const TeamMember = styled.article`
@@ -127,38 +126,12 @@ const NameWrapper = styled.div`
     }
   }
 `
-const OurServiceLink = styled(Link)`
-  display: block;
-  text-align: center;
-  text-decoration: underline;
-  font: normal normal bold ${variables.pxToRem(18)} / ${variables.pxToRem(22)} Montserrat;
-  letter-spacing: 0px;
-  color: #0a0a0a;
-  opacity: 1;
-  margin-top: ${variables.pxToRem(39.5)};
-  margin-bottom: ${variables.pxToRem(64.5)};
-
-  &:hover {
-    color: ${variables.color.primary};
-  }
-
-  @media ${variables.device.laptop} {
-    margin-top: ${variables.pxToRem(27.5)};
-    margin-bottom: ${variables.pxToRem(76.5)};
-  }
-  @media ${variables.device.tablet} {
-    margin-top: ${variables.pxToRem(32.5)};
-    margin-bottom: ${variables.pxToRem(32.5)};
-  }
-`
-
 interface Props {
   authorIdsArray: string[]
 }
 
 const TeamMemebersSwiper: React.FC<Props> = ({ authorIdsArray }) => {
   const members = useAuthors({ authorIdsArray })
-  const { t } = useTranslation('button')
   return (
     <>
       <Swiper
@@ -204,7 +177,6 @@ const TeamMemebersSwiper: React.FC<Props> = ({ authorIdsArray }) => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <OurServiceLink to={routeLinks.aboutUs({ page: 'team' })}>{t("see all team members")}</OurServiceLink>
     </>
   )
 }

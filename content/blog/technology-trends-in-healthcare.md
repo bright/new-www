@@ -24,11 +24,11 @@ We’ve asked software developers from Bright Inventions about **2022 trends in 
 
 ## Artificial Intelligence will cover diagnostics
 
-**[Wojciech (Fullstack Developer)](/about-us/wojciech/):**
+**Wojciech (Fullstack Developer):**
 
 Right now everyone can experience the changes in healthcare that were accelerated by the pandemic. We have telemedicine which enables us to contact the doctor via phone, chat or video stream. So, the change has started, but that is really the beginning.
 
-**[Piotr (Android Developer)](/about-us/piotr-r/):**
+**Piotr (Android Developer):**
 
 Yes, **the real valuable eHealth offer for patients will come up within the next 5 years**. And 2022 may be crucial here. This is the year when we will globally understand that changes caused by the pandemics are not temporary and that we need to go further with the **healthcare digital transformation**. 
 

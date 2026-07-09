@@ -29,7 +29,7 @@ Code is just a part of it. Obviously, it has to work for clients and users. But 
 
 ![learning soft skills](../../static/images/people-learn.jpg "")
 
-I consider myself an introvert. Expressing myself is a challenge for me. I used to think that it was the way it was and there was not so much I could do about that. And then we had a communication workshop with our senior project manager – [Kasia](/about-us/kasia/). This workshop was a game-changer. 
+I consider myself an introvert. Expressing myself is a challenge for me. I used to think that it was the way it was and there was not so much I could do about that. And then we had a communication workshop with our senior project manager – Kasia. This workshop was a game-changer. 
 
 **Kasia made me realise that soft skills weren't skills that we were born with (or not).** We can learn them as much as we learn how to read or drive a car. And that changed my perspective and approach to communication. 
 

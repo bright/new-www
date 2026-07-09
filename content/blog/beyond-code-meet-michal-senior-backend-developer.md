@@ -52,7 +52,7 @@ For sure, tools will be still evolving. Therefore **there will be less technical
 
 I don’t remember how I came across Bright for the first time. Probably I started to follow the company on social media. **I remember that Bright always had a positive vibe**. Even when I was only an observer I had this feeling that positive and professional people worked there. I also knew some programmers who worked there and they confirmed my assumptions. 
 
-**So finally I applied for a job. Actually, I wasn’t hired then.** 😉 Nevertheless, I got very positive feedback from [Ula](/about-us/ula/). Kudos to her. **Despite the fact that Bright didn’t choose me they provided me with such great feedback that I was even more eager to join there**. Ula told me they chose someone else but they were impressed with me so she promised to contact me when another suitable vacancy would be open. She did as she said. Soon after that, she contacted me. **Eventually, I joined Bright Inventions**.
+**So finally I applied for a job. Actually, I wasn’t hired then.** 😉 Nevertheless, I got very positive feedback from Ula. Kudos to her. **Despite the fact that Bright didn’t choose me they provided me with such great feedback that I was even more eager to join there**. Ula told me they chose someone else but they were impressed with me so she promised to contact me when another suitable vacancy would be open. She did as she said. Soon after that, she contacted me. **Eventually, I joined Bright Inventions**.
 
 <div className="image">![Bright Inventions team](../../static/images/brightteam.png "undefined")</div>
 

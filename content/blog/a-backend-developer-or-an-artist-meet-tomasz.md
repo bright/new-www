@@ -40,7 +40,7 @@ In programming, there is always something new; every day brings a new challenge,
 
 ## Could you share your recollections of the recruitment process at Bright Inventions?
 
-The recruitment process was friendly, open, and smooth. **I enjoyed a talk with [Ula](/about-us/ula/) as well as a longer technical discussion with [Piotr](/about-us/piotr/)**. In the meantime, I had to complete a technical task. Even though there were some specific requirements and preferred technologies, I still felt **I had the freedom to solve the issue in the way I thought was best**. Eventually, I joined Bright Inventions, and my adventure with the company has now continued for over three years.
+The recruitment process was friendly, open, and smooth. **I enjoyed a talk with Ula as well as a longer technical discussion with Piotr**. In the meantime, I had to complete a technical task. Even though there were some specific requirements and preferred technologies, I still felt **I had the freedom to solve the issue in the way I thought was best**. Eventually, I joined Bright Inventions, and my adventure with the company has now continued for over three years.
 
 <div className="image">![Valentine’s Day at the office.](/images/tomasz_valentine-s_day.png "Valentine’s Day at the office.")</div>
 

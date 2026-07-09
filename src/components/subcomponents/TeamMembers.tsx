@@ -6,10 +6,9 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { useAuthors } from '../../use-authors/use-authors'
 import variables from '../../styles/variables'
 import { useWindowSize } from '../utils/use-windowsize'
-import { CustomSectionTitle, MoreButton } from '../shared'
+import { CustomSectionTitle } from '../shared'
 import useOnScreen from '../utils/use-onscreen'
 import { clampBuilder } from '../../helpers/clampBuilder'
-import { useTranslation } from 'react-i18next'
 
 const TeamMember = styled.article<{ isOurServiceTemplate: boolean; isWhyUs: boolean; isTeam: boolean }>`
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -242,54 +241,6 @@ const AvatarWrapper = styled.figure<{ isOurServiceTemplate: boolean }>`
     }
   }
 `
-const OurServiceLink = styled(Link)<{ isWhyUs?: boolean }>`
-  display: block;
-  text-align: center;
-  text-decoration: underline;
-  font: normal normal bold ${variables.pxToRem(18)} / ${variables.pxToRem(22)} Montserrat;
-  letter-spacing: 0px;
-  ${({ isWhyUs }) =>
-    isWhyUs &&
-    `padding: 16px 48px;
-    border: 1px solid #0A0A0A;
-    text-decoration: none;
-     `};
-  color: #0a0a0a;
-  opacity: 1;
-  margin-top: ${variables.pxToRem(39.5)};
-  margin-bottom: ${variables.pxToRem(64.5)};
-
-  &:hover {
-    color: ${variables.color.primary};
-  }
-
-  @media ${variables.device.laptop} {
-    margin-top: ${variables.pxToRem(27.5)};
-    margin-bottom: ${variables.pxToRem(76.5)};
-  }
-  @media ${variables.device.tablet} {
-    margin-top: ${variables.pxToRem(32.5)};
-    margin-bottom: ${variables.pxToRem(32.5)};
-  }
-  @media ${variables.device.mobile} {
-    ${({ isWhyUs }) => (isWhyUs ? `width: 100%` : '')};
-  }
-`
-const MoreButtonTeamMembersWrapper = styled.div`
-  margin-top: ${variables.pxToRem(39.5)};
-  margin-bottom: ${variables.pxToRem(64.5)};
-  @media ${variables.device.laptop} {
-    margin-top: ${variables.pxToRem(27.5)};
-    margin-bottom: ${variables.pxToRem(76.5)};
-  }
-  @media ${variables.device.tablet} {
-    margin-top: ${variables.pxToRem(32.5)};
-    margin-bottom: ${variables.pxToRem(32.5)};
-  }
-  @media ${variables.device.mobile} {
-    width: 100%;
-  }
-`
 const OffsetAnchorLink = styled.div`
   padding-top: ${variables.pxToRem(154)};
   padding-bottom: ${variables.pxToRem(105)};
@@ -325,7 +276,6 @@ const TeamMembers = ({
 
   const ref = useRef<HTMLDivElement>(null)
   const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '2000px 0px')
-  const { t } = useTranslation('button')
 
   useEffect(() => {
     if (isOurServiceTemplate) {
@@ -392,19 +342,6 @@ const TeamMembers = ({
                 </TeamMember>
               )
             })}
-
-          {isOurServiceTemplate && initNumber && (
-            <OurServiceLink isWhyUs={isWhyUs} to={routeLinks.aboutUs({ page: 'team' })}>
-              {t('see all team members')}
-            </OurServiceLink>
-          )}
-          {isWhyUs && whyUsTeamMembers && (
-            <MoreButtonTeamMembersWrapper>
-              <MoreButton href={routeLinks.aboutUs({ page: 'team' })} marginTop='0'>
-                {t('see all team members')}
-              </MoreButton>
-            </MoreButtonTeamMembersWrapper>
-          )}
         </Container>
       </TeamMembersSection>
     </>

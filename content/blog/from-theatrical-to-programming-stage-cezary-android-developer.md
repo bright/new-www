@@ -52,7 +52,7 @@ Eventually, a couple of years ago I decided to study Computer Science at the Pol
 
 ## How do you recall joining Bright Inventions?
 
-A few years after being in the industry I was looking for a new place of work. **I reached out to [Ula](/about-us/ula/) because my friend spoke highly of Bright Inventions**. He never worked here but he had an interview with a Bright tech recruiter once and had a great experience. I wrote to Ula and she told me that there is an open vacancy for Android Dev so I started the recruitment process and luckily got in. I started to work here in January 2021.
+A few years after being in the industry I was looking for a new place of work. **I reached out to Ula because my friend spoke highly of Bright Inventions**. He never worked here but he had an interview with a Bright tech recruiter once and had a great experience. I wrote to Ula and she told me that there is an open vacancy for Android Dev so I started the recruitment process and luckily got in. I started to work here in January 2021.
 
 ## You are on the team that develops solutions for our client from the USA. Can you tell us something more about the project?
 
@@ -88,7 +88,7 @@ We have 7 experienced developers and a Quality Assurance specialist on our team.
 
 ## Do you enjoy working at Bright Inventions? Only an honest answer, please. 😀
 
-Truly, I do. Otherwise, I wouldn’t agree to this interview. 😀 Mostly due to the project I work at. **It’s innovative and there is no boredom here**. Also, my cooperation with [Matusz Klimczak](/about-us/mateusz/) who is my project manager is really positive. What I also like about Bright is the **flat structure, work-life balance, great team retreats, competitive salary**, and the simple fact that normal people work here. Normal in a good way. 😉
+Truly, I do. Otherwise, I wouldn’t agree to this interview. 😀 Mostly due to the project I work at. **It’s innovative and there is no boredom here**. Also, my cooperation with Matusz Klimczak who is my project manager is really positive. What I also like about Bright is the **flat structure, work-life balance, great team retreats, competitive salary**, and the simple fact that normal people work here. Normal in a good way. 😉
 
 After work, I still have the strength to follow my passions which is not always the case. Programmers' work can quite limit your after-work resources. Fortunately, I can focus on my passions such as joinery and wood carving.
 

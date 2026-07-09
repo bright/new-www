@@ -34,7 +34,7 @@ I have always felt fulfilled when I could work closely with the client and end u
 
 ## Why did you join Bright Inventions?
 
-I actually knew [Daniel](/about-us/daniel/) and [Michał](/about-us/michal/) (co-founders) from studies at the Gdańsk University of Technology. We were in the same college group, also with [Piotr](/about-us/piotr/) and [Kasia](/about-us/kasia/). Eventually, all of us found our way to Bright Inventions. 😊
+I actually knew Daniel and Michał (co-founders) from studies at the Gdańsk University of Technology. We were in the same college group, also with Piotr and Kasia. Eventually, all of us found our way to Bright Inventions. 😊
 
 Yet before I joined Bright, I had had another work since college. I spent there a couple of years. I enjoyed that work but at some point, the pressure was really high. I was working closely with end-users. Even though I generally love that, after some years I felt I needed a change of scene. Maybe things could have been different if I had had a project manager in the team who would have supported us in the communication with end users.
 
@@ -48,7 +48,7 @@ I had a chance to learn a lot of new technologies here and I am grateful that Mi
 
 When I joined Bright Inventions in 2015 only 8 people worked here. Now we have over 70 team members.
 
-During that time I had two maternity leaves. When I left for the first time there were 8 people and only a couple more when I came back. But when I left to have my second baby the team was doubled, from 20 to 40 people. Obviously, in terms of organization, some things changed for good, especially after [Ula](/about-us/ula/) joined the company. However, **the essential things became the same. The things that really matter**.
+During that time I had two maternity leaves. When I left for the first time there were 8 people and only a couple more when I came back. But when I left to have my second baby the team was doubled, from 20 to 40 people. Obviously, in terms of organization, some things changed for good, especially after Ula joined the company. However, **the essential things became the same. The things that really matter**.
 
 <div className="image">![Bright Inventions Team Retreat](../../static/images/brightteamretreat.png "undefined")</div>
 
@@ -90,4 +90,4 @@ We talked with the Substrate community, represented by [Parity](https://www.pari
 
 <div className="image">![Agnieszka's passions](../../static/images/bouldering_passion.png "undefined")</div>
 
-Yes, **I actually have been climbing longer than working as a programmer**. That has been a passion of mine and my husband, [Paweł](/about-us/pawel-o/). I work out 3 times a week. Every family vacation includes bouldering. Our older daughter (age 6) has just started her first climbing. 🙂 My dream is to try Deep Water Solo in Majorca and experience climbing in the USA.
+Yes, **I actually have been climbing longer than working as a programmer**. That has been a passion of mine and my husband, Paweł. I work out 3 times a week. Every family vacation includes bouldering. Our older daughter (age 6) has just started her first climbing. 🙂 My dream is to try Deep Water Solo in Majorca and experience climbing in the USA.

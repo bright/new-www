@@ -1,6 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import { routeLinks } from '../config/routing'
 import { PageDescription, Section, SectionInner, CustomSectionInner } from '../components/shared'
 import styled from 'styled-components'
 import variables from '../styles/variables'
@@ -37,7 +35,7 @@ const Description: React.FC = () => {
       <CustomSectionInner className='career-desc'>
         <PageDescriptionCareer>
           <span>
-            <Link to={routeLinks.aboutUs({ page: 'team' })}>We are a team</Link> of talented, enthusiastic, and dedicated professionals building international digital products that make a difference.
+            We are a team of talented, enthusiastic, and dedicated professionals building international digital products that make a difference.
           </span>
         </PageDescriptionCareer>
         <PageDescriptionCareer>

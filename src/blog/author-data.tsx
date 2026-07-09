@@ -1,7 +1,5 @@
 import React, { ReactNode } from 'react'
 import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image'
-import { routeLinks } from '../config/routing'
-import { Link } from 'gatsby'
 import { HelmetMetaAuthor } from '../HelmetMetaAuthor'
 import { useAuthors } from '../use-authors/use-authors'
 import styled from 'styled-components'
@@ -132,13 +130,7 @@ export function AuthorsView({
   bio: string
   ex: boolean
 }) {
-  const LinkComponent = authorId
-    ? (props: { children?: ReactNode }) => (
-        <Link to={routeLinks.aboutUs({ authorId, slug, ex })} style={{ color: 'inherit' }}>
-          {props.children}
-        </Link>
-      )
-    : (props: { children?: ReactNode }) => <span>{props.children}</span>
+  const LinkComponent = (props: { children?: ReactNode }) => <span>{props.children}</span>
   return (
     <LinkComponent>
       <HelmetMetaAuthor author={name} />

@@ -39,7 +39,7 @@ Later, I took several courses on Android development. Eventually, my company rec
 
 I sold my business and chose to freelance for a while and work on my own apps. In the end, freelancing wasn't the perfect solution for me, as I love to work in a team, so I began searching for a full-time job. 
 
-I recall coming across a job offer from Bright Inventions on a job board, but I didn't apply at that time. Soon after that, **I heard wonderful things about Bright Inventions (and [Ula](/about-us/ula/) in particular)** from a friend, so I decided to submit my application. This happened over four years ago. 🙂 Now I cannot imagine another career path for me.
+I recall coming across a job offer from Bright Inventions on a job board, but I didn't apply at that time. Soon after that, **I heard wonderful things about Bright Inventions (and Ula in particular)** from a friend, so I decided to submit my application. This happened over four years ago. 🙂 Now I cannot imagine another career path for me.
 
 ## How would you sum up these 4 years at Bright Inventions?
 
@@ -65,7 +65,7 @@ Absolutely! Having been an entrepreneur for over 10 years has provided me with a
 
 ## I'm aware that sports have become a crucial part of your life. Tell us what you train and why.
 
-It all began when the pandemic struck in 2020. **Bright Inventions' founders, [Daniel](/about-us/daniel/) and [Michał](/about-us/michal/), offered us a new work benefit – free workouts led by a professional triathlete, [Bartosz Banach](https://bartoszbanach.pl/)**. It was a life-changing moment for me, especially during the pandemic when we were forced to stay home, and being active definitely helped me get through it. We could choose from running, mountain biking (MTB), and swimming workouts. I started to attend MTB and running workouts. 
+It all began when the pandemic struck in 2020. **Bright Inventions' founders, Daniel and Michał, offered us a new work benefit – free workouts led by a professional triathlete, [Bartosz Banach](https://bartoszbanach.pl/)**. It was a life-changing moment for me, especially during the pandemic when we were forced to stay home, and being active definitely helped me get through it. We could choose from running, mountain biking (MTB), and swimming workouts. I started to attend MTB and running workouts. 
 
 Biking has certainly become an integral part of my life. Before 2020, I cycled like most people – occasionally. Now, I ride 200 to 400 kilometers a month. In addition to cycling, I run, do yoga, take long walks, and go to the gym.
 

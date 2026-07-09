@@ -22,7 +22,7 @@ language: en
 
 ## Rustification of web development
 
-[Szymon, Senior Frontend Developer](/about-us/szymon-ch/):
+Szymon, Senior Frontend Developer:
 
 The truth is **the times of simple websites are long over**. Now, it’s a reign of complex web applications. Thousands of source code files have to be processed in order to produce an experience users love so much. The problem is, **tools like Babel or Webpack seem to have reached their limits** and can no longer offer a good developer experience. But fear not! 
 
@@ -36,7 +36,7 @@ It all sounds so good, but **should I start learning Rust**? To be honest, I hav
 
 ## GPT-3 is a game changer
 
-[Rafał, Senior Fullstack Developer](/about-us/rafal-h/):
+Rafał, Senior Fullstack Developer:
 
 You probably heard, for some time, that AI will take over the world and programmers will be out of jobs. Well, the future is one step ahead. 😉 **What is GPT-3? It is a language processing model** which is mainly used for transforming the text which is learned upon. Venture is led by OpenAI nonprofit organization. **GPT-3 is different from its predecessors in terms of numbers it can take in as trainable parameters**. The learning data contains mostly from web crawling. GPT-3 is publicly accessible via many forms. One of the loudest releases was [Dalle](https://openai.com/dall-e-2/) which allows generating of an image from a simple text prompt. 
 
@@ -48,7 +48,7 @@ What does it mean for us developers? For now, I think that GPT-3 will be a game-
 
 ## Here comes neobrutalism
 
-[Joanna, Junior Product Designer](/about-us/joanna-c/):
+Joanna, Junior Product Designer:
 
 As for the [product design](/our-areas/product-design), here are my predictions of upcoming trends for 2023:
 

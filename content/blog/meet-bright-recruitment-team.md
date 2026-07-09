@@ -17,7 +17,7 @@ language: en
 ---
 Recruiting success is not necessarily a measure of the volume of candidates obtained. Successful recruiting teams are able to quickly identify the candidates that are most likely to make a positive impact on an organization. It requires much more than looking beyond a candidate’s credentials. 
 
-Today we would like to present to you our bright recruiters - [Agata](/about-us/agata-m/), [Paulina](/about-us/paulina-t/), [Sara](https://brightinventions.pl/about-us/sara-l/) and [Ula](/about-us/ula/) who on daily basis take care of our recruiting process and talk with dozens of candidates to check if our company is a unique and desirable place for them. We asked them a few questions so that you can get to know them a bit better. 
+Today we would like to present to you our bright recruiters - Agata, Paulina, Sara and Ula who on daily basis take care of our recruiting process and talk with dozens of candidates to check if our company is a unique and desirable place for them. We asked them a few questions so that you can get to know them a bit better. 
 
 ![](../../static/images/brightdev.png)
 

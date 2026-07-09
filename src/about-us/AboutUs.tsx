@@ -3,7 +3,6 @@ import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import { PageContext, Paging } from '../blog/Paging'
 import { Page } from '../layout/Page'
-import BackButton from '../components/subcomponents/BackButton'
 import { routeLinks } from '../config/routing'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
 import { HideDesktop, HideTablet } from '../components/shared'
@@ -69,32 +68,6 @@ const Subtitle = styled.div`
   font-weight: 700;
   color: #0a0a0a;
 `
-const AuthorBackButton = styled(BackButton)`
-  display: block;
-  margin: 0 auto;
-  margin-top: 9.5625rem;
-  margin-bottom: 7.625rem;
-  display: flex;
-  align-items: center;
-  font-weight: 900;
-  color: #000;
-
-  & > span {
-    margin-left: 1.125rem;
-    font-size: 1.125rem;
-    line-height: 1.375rem;
-  }
-
-  @media ${variables.device.mobile} {
-    margin-top: ${variables.pxToRem(60)};
-    margin-bottom: ${variables.pxToRem(60)};
-  }
-`
-const AuthorBackButtonWrapper = styled.div`
-  display: flex;
-  align-items: center;
-`
-
 interface Props {
   data: Queries.AuthorsPageQuery
   pageContext: PageContext & { posts: Edge[]; id: string } // TODO: add use proper blog post type
@@ -160,9 +133,6 @@ const AboutUSTemplate: React.FC<PropsWithChildren<Props>> = ({ data, pageContext
               <Paging pageContext={pageContext} baseURI={routeLinks.aboutUs({ authorId, slug })} />
             </>
           )}
-          <AuthorBackButtonWrapper>
-            <AuthorBackButton url={routeLinks.aboutUs({ page: 'team' })} label='back to team' arrowColor={'orange'} />
-          </AuthorBackButtonWrapper>
         </CustomContainer>
       </AuthorSection>
       {/*

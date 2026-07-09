@@ -42,7 +42,7 @@ Based on my experience, I don’t see that happening. I think that **there will 
 
 ## How did you land at Bright Inventions?
 
-It's all thanks to [Łukasz](/about-us/lukasz/), whom I have known for years. He works at Bright Inventions and had been convincing me for years to apply. **For a long time, I thought I couldn't possibly meet the requirements to join the company**. Obviously, **I now regret that hesitation because I really enjoy working here**.
+It's all thanks to Łukasz, whom I have known for years. He works at Bright Inventions and had been convincing me for years to apply. **For a long time, I thought I couldn't possibly meet the requirements to join the company**. Obviously, **I now regret that hesitation because I really enjoy working here**.
 
 <div className="image">![During a team retreat.](/images/michal_team_retreat.png "During a team retreat.")</div>
 

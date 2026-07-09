@@ -56,9 +56,9 @@ My goal isn't just to provide excellent services but to tailor them precisely to
 
 ## I know that soft skills matter to you. Was that always a core of your skillset?
 
-I needed time to discover them. Upon joining Bright Inventions as a junior, I focused extensively on catching up with various technical aspects. At some point, [Mateusz](/about-us/mateusz/) told me that my tech skills were sufficient, but also emphasized the need for improvement in my soft skills. He gave me specific feedback **pointing out some aspects I could improve for example communication with clients, especially while explaining technical aspects of our work to them**. 
+I needed time to discover them. Upon joining Bright Inventions as a junior, I focused extensively on catching up with various technical aspects. At some point, Mateusz told me that my tech skills were sufficient, but also emphasized the need for improvement in my soft skills. He gave me specific feedback **pointing out some aspects I could improve for example communication with clients, especially while explaining technical aspects of our work to them**. 
 
-**I started to read some books on a subject and observed how Mateusz, [Michał](/about-us/michal/), and other team members navigate daily relations with clients**. Step by step, I felt better at it. Yet, it was a long way; reading one book wouldn't make a difference.
+**I started to read some books on a subject and observed how Mateusz, Michał, and other team members navigate daily relations with clients**. Step by step, I felt better at it. Yet, it was a long way; reading one book wouldn't make a difference.
 
 <div className="image">![Wojciech](../../static/images/wojtek_baking.png "Wojciech")</div>
 
@@ -72,4 +72,4 @@ I've recently delved into investment, reading books about it. However, **my endu
 
 Now, **I swim six times a week, usually at 6 am**. This routine suits me; **by the time work starts, endorphins are already at play, making the day nicer and more manageable**.
 
-One proud moment was outswimming [Michał](/about-us/michal/) in a triathlon. Of course, he swiftly overtook me in the run, but **showcasing my swimming strength was gratifying**.
+One proud moment was outswimming Michał in a triathlon. Of course, he swiftly overtook me in the run, but **showcasing my swimming strength was gratifying**.

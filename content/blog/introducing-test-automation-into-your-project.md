@@ -89,4 +89,4 @@ There are many more aspects to be taken into account but these above seem to be 
 
 \-﻿--
 
-S﻿pecial thanks to [Małgorzata](/about-us/malgorzata-z/) and [Michał](/about-us/michal-wa/) for their contribution.
+S﻿pecial thanks to Małgorzata and Michał for their contribution.

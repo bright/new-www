@@ -20,7 +20,7 @@ language: en
 
 ## You joined Bright Inventions 5 years ago while you were still at college. How did you start your job here?
 
-I saw a job listing for a blockchain developer position and applied. However, before I had my interview, the position got filled. Yet, **[Michał](/about-us/michal/) decided to still interview me and eventually offered me the position of iOS developer**.
+I saw a job listing for a blockchain developer position and applied. However, before I had my interview, the position got filled. Yet, **Michał decided to still interview me and eventually offered me the position of iOS developer**.
 
 I didn't have any experience with iOS back then. I had maybe 2 classes about it in college. However, I always liked Apple products, so I thought I could go for it. That’s how I became an iOS developer. **Maybe it was a coincidence rather than a conscious decision, but I really enjoy [iOS development](/our-areas/mobile-app-development/)**.
 
@@ -62,7 +62,7 @@ I even traveled to London to see with my own eyes how the end users used the app
 
 ## How do you catch up with news and trends in the iOS world?
 
-As probably every iOS developer, I always check all the news announced during The Apple Worldwide Developers Conference. Besides that, **I have OKRs dedicated to my personal growth, monitored by my mentor – [Kamil](/about-us/kamil-b/)**. We both choose topics that I can improve on or decide on what new solutions and tools I should test. 
+As probably every iOS developer, I always check all the news announced during The Apple Worldwide Developers Conference. Besides that, **I have OKRs dedicated to my personal growth, monitored by my mentor – Kamil**. We both choose topics that I can improve on or decide on what new solutions and tools I should test. 
 
 Thanks to the fact that our client lets us choose the tech stack we work on, we can quickly implement new technologies in our project. **So we get to work with SwiftUI, async/await to utilize those for the benefit of our client staying up-to-date with Apple products**.
 

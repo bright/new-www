@@ -30,7 +30,7 @@ Now **I am glad I pursued the backend path instead of mobile**. Maintaining back
 
 ## How did you land in Bright Inventions?
 
-I’ve known the company since college. **I met [Piotr](/about-us/piotr/) from Bright Inventions at a job fair** at the Gdańsk University of Technology. Back then I was writing my master's thesis on serverless so I **decided to visit every company’s stand to ask if they worked with serverless**. **Bright Inventions was the only one that did**. Then I had a great conversation about it with Piotr and I could immediately see how knowledgeable and experienced he was.
+I’ve known the company since college. **I met Piotr from Bright Inventions at a job fair** at the Gdańsk University of Technology. Back then I was writing my master's thesis on serverless so I **decided to visit every company’s stand to ask if they worked with serverless**. **Bright Inventions was the only one that did**. Then I had a great conversation about it with Piotr and I could immediately see how knowledgeable and experienced he was.
 
 Our paths crossed again a few years later. Back then, I was working at a company where I learned Java and Kotlin. **Kotlin was life-changing to me**. I loved it. Unfortunately, I started to get projects in Python. I felt I needed to find a place where I could continue my work with Kotlin. So, I finally joined Bright Inventions. I was eager to work with Piotr on the huge international ePOS project with Kotlin and AWS.
 

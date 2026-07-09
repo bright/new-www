@@ -90,4 +90,4 @@ With just a few minutes of setup, you can turn Cursor into a smart test runner t
 Remote work is great — flexible hours, deep focus, and fewer distractions.\
 But let’s be honest: the best ideas often come not during Zoom calls, but over coffee in the office kitchen.  
 
-Big thanks to [Rafał](https://brightinventions.pl/about-us/rafal-h/) for the hallway inspiration that sparked this approach. 💡
+Big thanks to Rafał for the hallway inspiration that sparked this approach. 💡

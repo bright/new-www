@@ -62,7 +62,7 @@ I launched my Android app so it was high time to seek a job. I found a [Bright I
 
 I was invited for the interview. I was terrified when I came. I had only a month of Android experience. What if that wasn’t good enough? My wife supported me quite nearby, waiting in the coffee shop close by during the whole interview. 
 
-I felt that my interview went fine. For sure, there were questions I couldn't answer but overall I felt that it was okay. After talking to [Michał](/about-us/michal/), [Daniel](/about-us/daniel/) and [Piotr](/about-us/piotr/) I **felt that I really wanted to be a part of this company. I would manage to do this job. I wanted someone to give me the chance and I felt that I wouldn’t let them down**.
+I felt that my interview went fine. For sure, there were questions I couldn't answer but overall I felt that it was okay. After talking to Michał, Daniel and Piotr I **felt that I really wanted to be a part of this company. I would manage to do this job. I wanted someone to give me the chance and I felt that I wouldn’t let them down**.
 
 Daniel and Michal told me they needed a week to give me feedback. Despite that, I was so anxious that I called Michał a few days after the interview to ask if they made up their minds. I told Michał that I was eager to work with them and couldn’t wait to hear their decisions. **Years later I was told that that phone call actually gave me this job**.
 
@@ -86,7 +86,7 @@ Another important skill is **asking all the time “Why”**. Don’t treat your
 
 ## How can you improve the soft side of software development?
 
-**You can learn from your mistakes, daily practice, watching others, and reading books**. I had the pleasure to work closely with Mateusz during my first months at Bright. [Mateusz](/about-us/mateusz/) is a very special person to me, I will always cherish the cooperation we have had. Mateusz is a master of communication with clients and interpreting their needs. Simply watching him in action was really inspiring. 
+**You can learn from your mistakes, daily practice, watching others, and reading books**. I had the pleasure to work closely with Mateusz during my first months at Bright. Mateusz is a very special person to me, I will always cherish the cooperation we have had. Mateusz is a master of communication with clients and interpreting their needs. Simply watching him in action was really inspiring. 
 
 ![Andrzej, Bright Story](../../static/images/brightstory_andrzej_mateusz.png "")
 

@@ -52,7 +52,7 @@ Absolutely. I really appreciate our open communication and strong feedback cultu
 
 ## You’ve been working at Bright Inventions for almost 3 years. How do you assess this time?
 
-It's been great! **Even during my job interview with [Ula](/about-us/ula/) and [Mateusz](/about-us/mateusz/), I felt we had a great connection**. The conversation flowed so well that we could have talked even longer, despite it already lasting about two hours!
+It's been great! **Even during my job interview with Ula and Mateusz, I felt we had a great connection**. The conversation flowed so well that we could have talked even longer, despite it already lasting about two hours!
 
 What I appreciate most about Bright Inventions is the **company’s strong sports culture**, which I quickly got into. Since joining, I’ve started running more regularly and going to the gym. Besides that, I’ve taken up climbing and finally started learning how to swim, something I’d wanted to do for years. I’m still not the best swimmer, but I’m making steady progress.
 

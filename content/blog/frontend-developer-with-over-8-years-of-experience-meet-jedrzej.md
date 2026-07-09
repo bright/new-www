@@ -39,7 +39,7 @@ When you possess that knowledge, you can **start to get familiar with popular fr
 
 ## You have worked at Bright Inventions for over a year. How do you recall joining the company?
 
-I had a couple of interviews scheduled with different companies including Bright Inventions. **Why did I choose Bright? Actually, because of the very intriguing tech interview** I had with [Piotr](/about-us/piotr/) and [Bartek](/about-us/bartosz-sz/). It was a long, 2-hour interview. However, after finishing it I felt that these were the people I wanted to work with. I was happy that the feeling was mutual when I was offered a job.
+I had a couple of interviews scheduled with different companies including Bright Inventions. **Why did I choose Bright? Actually, because of the very intriguing tech interview** I had with Piotr and Bartek. It was a long, 2-hour interview. However, after finishing it I felt that these were the people I wanted to work with. I was happy that the feeling was mutual when I was offered a job.
 
 ## We organize a webinar for frontend developers that you will conduct. Share some info about the webinar.
 

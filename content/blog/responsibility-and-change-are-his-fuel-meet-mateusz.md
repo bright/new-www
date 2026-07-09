@@ -42,7 +42,7 @@ Nevertheless, I was offered a job. So **I came to Bright Inventions and left the
 
 ![Bright Story Mateusz quote](../../static/images/brightstory_mateusz_quote1.png)
 
-It turned out that I got lucky. **I came to Bright as one of the first employees. Our team consisted of 5 people back then. I was learning there like crazy. I was bombarded with knowledge.** The company was small so [Michał](/about-us/michal/) had time and opportunities to teach me a lot. I learned 10 times faster than at the previous job. What was awesome was the lack of processes and procedures. Nothing stopped me from doing my job. I liked that. I don’t claim that the corporate world is bad. It works for tons of people. It has lots of advantages. It just wasn’t for me.
+It turned out that I got lucky. **I came to Bright as one of the first employees. Our team consisted of 5 people back then. I was learning there like crazy. I was bombarded with knowledge.** The company was small so Michał had time and opportunities to teach me a lot. I learned 10 times faster than at the previous job. What was awesome was the lack of processes and procedures. Nothing stopped me from doing my job. I liked that. I don’t claim that the corporate world is bad. It works for tons of people. It has lots of advantages. It just wasn’t for me.
 
 ## You are an iOS Developer who turned into Technical Leader & Project Manager. What made you move your career in that direction?
 

@@ -22,7 +22,7 @@ language: en
 
 ![2012 milestone](../../static/images/2012.png "")
 
-Our founders [Daniel Makurat](/about-us/daniel/) and [Michał Łukasiewicz](/about-us/michal/) met in 2005 at the Gdańsk University of Technology where they were studying Computer Science. They quickly became friends and after graduating they got a job in a big international corporation. Yet, after a while they felt a bit unmotivated and weary. Looking for space for taking initiatives, they decided to start their own business. Not in the garage but still… ☺️
+Our founders Daniel Makurat and Michał Łukasiewicz met in 2005 at the Gdańsk University of Technology where they were studying Computer Science. They quickly became friends and after graduating they got a job in a big international corporation. Yet, after a while they felt a bit unmotivated and weary. Looking for space for taking initiatives, they decided to start their own business. Not in the garage but still… ☺️
 
 ![Bright Inventions history Daniel and Michał](../../static/images/bright_story_daniel_michal.png "")
 
@@ -58,7 +58,7 @@ One of the first projects we worked on at Bright was [Motivo cycling workouts ap
 
 ![2014](../../static/images/2014.png "")
 
-After 2 years the first employees came on board. Our founders were joined by Piotr, Mateusz and Adam. Still, after many years, [Piotr](/about-us/piotr/) and [Mateusz](/about-us/mateusz/) are playing the main roles in day-to-day company life.
+After 2 years the first employees came on board. Our founders were joined by Piotr, Mateusz and Adam. Still, after many years, Piotr and Mateusz are playing the main roles in day-to-day company life.
 
 ![Bright Inventions history Piotr and Mateusz](../../static/images/bright_story_piotr_mateusz.png "")
 
@@ -66,7 +66,7 @@ After 2 years the first employees came on board. Our founders were joined by Pio
 
 ![2016](../../static/images/2016.png "")
 
-After 5 years of building Bright, Daniel and Michał hired [Ula](/about-us/ula/) – the first member of a team that wasn’t a developer. Ula’s role was to support recruitment and marketing processes. And that was a game-changer. 
+After 5 years of building Bright, Daniel and Michał hired Ula – the first member of a team that wasn’t a developer. Ula’s role was to support recruitment and marketing processes. And that was a game-changer. 
 
 ![Bright Inventions history Ula](../../static/images/bright_story_ula.png "")
 
