@@ -34,7 +34,7 @@ We are a place where innovative individuals and companies can turn to develop id
 
 We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously. Each of us has an impact. Currently, we are a family of 60 multidisciplinary specialists working together to design and deliver the best products to our clients. 
 
-At Bright Inventions you'll be part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that matters in today’s world. 
+At Bright Inventions you'll be part of a group of talented, ambitious and positive developers, designers, managers and marketers who love to solve real problems and build software that matters in today’s world. 
 
 ## about the job
 

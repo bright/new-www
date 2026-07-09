@@ -44,7 +44,7 @@ description: We are looking now for a Full Stack Developer who has already had
 ---
 ## about the role 👩🏻‍💻🧑🏻‍💻
 
-At Bright Inventions you'll be an important part of [a team of talented, ambitious and positive developers, designers and managers](https://brightinventions.pl/about-us/team/) who love to build software that solve real problems in today’s world.
+At Bright Inventions you'll be an important part of a team of talented, ambitious and positive developers, designers and managers who love to build software that solve real problems in today’s world.
 
 We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. **Positive attitude, flexibility and client's orientation are elemental parts of our culture.**
 

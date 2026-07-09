@@ -11,9 +11,6 @@ answer: >-
 
 
   Our team is driven by a full-stack approach to software development. We aim to take ownership of the technological side of the project, whenever possible, to lift this challenge off our clients' shoulders.
-
-
-  [Get to know the bright people!](/about-us/team/)
 published: true
 show_on_career: false
 order: 1

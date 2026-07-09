@@ -26,7 +26,7 @@ At Bright Inventions an onboarding journey lasts almost three months and it begi
 
 ## **BEFORE IT EVEN STARTS** 
 
-I always inform my [Bright Team](https://brightinventions.pl/about-us/team/) in advance about new colleagues - their names, roles and start date. It is important that no one feels surprised to see a new co-worker in the office or at some online company meeting. It is also crucial to map out everything and plan all the key appointments with people new hires will interact with on a regular basis.
+I always inform my Bright Team in advance about new colleagues - their names, roles and start date. It is important that no one feels surprised to see a new co-worker in the office or at some online company meeting. It is also crucial to map out everything and plan all the key appointments with people new hires will interact with on a regular basis.
 
 You may also assign a buddy i.e. a member of your team to mentor the newcomer on the ins and outs of the project, people and organisation. We do that. This introductory mentoring should include everything from certain company-wide procedures down to how to perform daily tasks. **I am quite certain that if we did not plan each step beforehand, the whole process would be chaotic and stressful for both sides.**
 

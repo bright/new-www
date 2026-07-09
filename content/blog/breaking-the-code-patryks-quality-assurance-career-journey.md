@@ -76,7 +76,7 @@ I truly **enjoy the fact that it’s not a huge company**, that’s exactly what
 
 I’m still amazed by how many **people actually know each other**. You can see it even on Slack – how they tease each other and joke around, you can tell these are long-term relationships, not just colleagues who work together.
 
-And I’ll never forget when I was considering Bright Inventions and visited the website – I saw that every team member had their own [profile page with a photo and bio](/about-us/team/). That made a big impression on me. It showed that **people truly matter here**, they’re treated like humans, not just assets.
+And I’ll never forget when I was considering Bright Inventions and visited the website – I saw that every team member had their own profile page with a photo and bio. That made a big impression on me. It showed that **people truly matter here**, they’re treated like humans, not just assets.
 
 ## What is special about the software project you're currently part of?
 

@@ -55,7 +55,7 @@ I’ve been checking how well Junie handles different types of tasks. My first r
 
 ## What made you want to join Bright Inventions?
 
-It happened at a time when my previous company was making cuts, and a few people were let go – including me. **Bright Inventions was recommended to me by [Arek](/about-us/arek-d/)**, who I had worked with before – he had moved to Bright and encouraged me to reach out. After that, I spoke with [Ula](/about-us/ula/) and [Mateusz](/about-us/team/), and we really clicked during that interview.
+It happened at a time when my previous company was making cuts, and a few people were let go – including me. **Bright Inventions was recommended to me by [Arek](/about-us/arek-d/)**, who I had worked with before – he had moved to Bright and encouraged me to reach out. After that, I spoke with [Ula](/about-us/ula/) and Mateusz, and we really clicked during that interview.
 
 At the time, I was looking for a new place to settle into – I’m not a fan of jumping from job to job. What really appealed to me was the **[feedback culture](/blog/8-mistakes-you-make-while-giving-constructive-feedback/)** at Bright Inventions. I get the sense that if I ever started falling short or there was room for improvement, **I’d get that feedback in a way that’s constructive and actionable**.
 
