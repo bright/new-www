@@ -159,7 +159,7 @@ export const FramnaAnnouncementPopup: React.FC = () => {
           </p>
 
           <a
-            href='https://framna.com/'
+            href='https://framna.com?ref=brightinventions'
             target='_blank'
             style={{
               display: 'inline-block',

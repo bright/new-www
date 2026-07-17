@@ -41,7 +41,7 @@ I specifically wanted to see if this truly has the potential to improve the user
 
 It also gives digital products a chance to be discovered by entirely new groups of users. While it might not be for every app, **I can definitely see a future where we spend more time interacting with ChatGPT rather than clicking through traditional dashboards**.
 
-*Learn more on what [OpenAI’s new releases mean for digital products](https://framna.com/on-demand/the-next-platform-shift).*
+*Learn more on what [OpenAI’s new releases mean for digital products](https://framna.com/on-demand/the-next-platform-shift?ref=brightinventions).*
 
 ## It’s been a year since you joined Bright Inventions. How has the experience been so far?
 

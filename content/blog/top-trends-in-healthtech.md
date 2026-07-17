@@ -28,7 +28,7 @@ Instead of patients having to leave ChatGPT to visit a clinic website or use a s
 
 Naturally, scheduling a doctor’s appointment is only one example. It is up to digital product builders to critically assess whether their HealthTech applications truly deliver value to patients when embedded within OpenAI’s ecosystem. This validation should be a top priority for every healthcare technology builder in the coming weeks as conversational platforms increasingly shape how people access healthcare.
 
-[Learn what OpenAI update means for digital products](https://framna.com/on-demand/the-next-platform-shift), including HealthTech.
+[Learn what OpenAI update means for digital products](https://framna.com/on-demand/the-next-platform-shift?ref=brightinventions), including HealthTech.
 
 ## Wellness is growing driven by Millennials and Gen Z
 
