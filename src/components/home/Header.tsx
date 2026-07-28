@@ -6,7 +6,7 @@ import { CustomSection, MoreButton } from '../shared'
 import styled from 'styled-components'
 import * as styles from './Header.module.scss'
 import variables from '../../styles/variables'
-import { Link } from 'gatsby'
+import { Link } from '../shared/SiteLink'
 import { StandWithUkraine } from '../icons/StandWithUkraine.icon'
 
 const HeroWrapper = styled.div`

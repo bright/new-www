@@ -18,9 +18,10 @@ import { FooterLogo } from './FooterLogo'
 import { RedirectIcon } from './RedirectIcon'
 import { Socials } from './Socials'
 import ForbesDiamondBadge from '../../assets/forbes_badge.svg'
-import { Link } from 'gatsby'
+import { Link } from '../../components/shared/SiteLink'
 import { routeLinks } from '../../config/routing'
 import { ModalCookies } from '../../analytics/modal-cookies'
+import { FRAMNA_URLS } from '../../framna-redirects'
 
 export const Footer = () => {
   const [isCookiesModalOpen, setCookiesModalOpen] = useState(false)
@@ -112,7 +113,7 @@ export const Footer = () => {
           <InnerContent>
             <Header>reach us here </Header>
             <div>
-              <ExaggeratedLink href='mailto:info@bright.dev'>info@bright.dev</ExaggeratedLink>
+              <ExaggeratedLink href={FRAMNA_URLS.contact}>get in touch</ExaggeratedLink>
             </div>
 
             <Socials />

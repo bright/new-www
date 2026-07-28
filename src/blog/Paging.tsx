@@ -4,6 +4,10 @@ import { useWindowSize } from '../components/utils/use-windowsize'
 import styled from 'styled-components'
 import { DOTS, usePagination } from './use-pagination/use-pagination'
 import variables from '../styles/variables'
+// Intentionally the real gatsby Link, not SiteLink: pagination hrefs are built
+// from `baseURI` (e.g. `/blog/` for page 1), which can equal a mapped Framna
+// redirect row even though the destination here is always "another page of
+// this same listing" - pagination controls must never leave the site.
 import { Link } from 'gatsby'
 
 const PagingWrapper = styled.div`

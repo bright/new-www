@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link } from '../SiteLink'
 import * as Styled from './tags.styled'
 
 export const TagsWrapper = Styled.TagsWrapper

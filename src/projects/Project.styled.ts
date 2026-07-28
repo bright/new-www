@@ -1,4 +1,4 @@
-import { Link } from 'gatsby'
+import { Link } from '../components/shared/SiteLink'
 import image from '../../static/images/bullet_point.svg'
 import variables from '../styles/variables'
 import styled from 'styled-components'

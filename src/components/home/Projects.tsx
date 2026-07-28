@@ -1,4 +1,5 @@
-import { graphql, Link, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
+import { Link } from '../shared/SiteLink'
 import React, { useRef } from 'react'
 import { CustomSection, CustomSectionTitle } from '../shared'
 import { routeLinks } from '../../config/routing'

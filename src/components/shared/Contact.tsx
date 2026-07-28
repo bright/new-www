@@ -1,6 +1,7 @@
 import React, { useState, FC, useRef } from 'react'
 import { routeLinks } from '../../config/routing'
 import { FormType, sendMail } from '../../helpers/mail'
+import { FRAMNA_URLS } from '../../framna-redirects'
 import { deviceSize } from '../../styles/variables'
 import { JobApplicationModal } from '../forms/job-application/job-application-modal'
 import {
@@ -206,7 +207,7 @@ export const Contact: FC<ContactProps> = ({
             <div>
               <ContactTextRegular style={{ marginTop: '32px' }}>
                 {t('or drop us a line via', { ns: 'other copy' })}{' '}
-                <a href='mailto:info@bright.dev?subject=bright%20mail'>info@bright.dev</a>
+                <a href={FRAMNA_URLS.contact}>get in touch</a>
               </ContactTextRegular>
             </div>
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link } from 'gatsby'
+import { Link } from '../components/shared/SiteLink'
 import { routeLinks } from '../config/routing'
 import { getJobSlug } from '../helpers/pathHelpers'
 import { JobModel } from '../models/gql'

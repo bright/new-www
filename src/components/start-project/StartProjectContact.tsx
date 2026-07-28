@@ -3,6 +3,7 @@ import React, { useState, FC, useRef } from 'react'
 import { routeLinks } from '../../config/routing'
 
 import { FormType, sendMail } from '../../helpers/mail'
+import { FRAMNA_URLS } from '../../framna-redirects'
 
 import {
   CheckboxFieldContainer,
@@ -29,7 +30,7 @@ import { trackConversion, trackCustomEvent } from '../../analytics/track-custom-
 import { TickIcon } from '../icons/Tick.icon'
 import { JobApplicationModal } from '../forms/job-application/job-application-modal'
 import { MoreButton } from './../shared/index'
-import { Link } from 'gatsby'
+import { Link } from '../shared/SiteLink'
 import ReCAPTCHA from 'react-google-recaptcha'
 import { isReCaptchaValid } from '../recaptcha/recaptcha-verification'
 import ReCaptcha from '../recaptcha/ReCaptcha'
@@ -180,8 +181,7 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
           )}
           <div>
             <ContactTextRegular>
-              or drop us a line via{' '}
-              <a href='mailto:info@bright.dev?subject=bright%20mail'>info@bright.dev</a>
+              or drop us a line via <a href={FRAMNA_URLS.contact}>get in touch</a>
             </ContactTextRegular>
           </div>
           <ReCaptcha recaptchaRef={recaptchaRef} />

@@ -1,4 +1,4 @@
-import { Link } from 'gatsby'
+import { Link } from '../shared/SiteLink'
 import React from 'react'
 import styled from 'styled-components'
 import variables, { font } from '../../styles/variables'

@@ -3,7 +3,7 @@ import { CheckboxField } from './components/forms/fields/checkbox-field'
 import { TextField } from './components/forms/fields/text-field'
 import { routeLinks } from './config/routing'
 import { EbookFormValue } from './components/utils/ebook-form/use-ebook-form'
-import { Link } from 'gatsby'
+import { Link } from './components/shared/SiteLink'
 
 import { FlexWrapper, TextRegular } from './components/shared'
 import styled from 'styled-components'

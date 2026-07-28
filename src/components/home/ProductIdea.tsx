@@ -1,8 +1,9 @@
-import { Link } from 'gatsby'
+import { Link } from '../shared/SiteLink'
 import React, { FC } from 'react'
 import styled from 'styled-components'
 import { Button, Section, SectionTitle } from '../shared'
 import { routeLinks } from '../../config/routing'
+import { FRAMNA_URLS } from '../../framna-redirects'
 
 const SectionDescription = styled.div`
   margin-bottom: 4em;
@@ -23,7 +24,7 @@ const ProductIdea: FC<ProductIdeaProps> = props => {
         Have an idea for a groundbreaking software project, but don’t know where to start? Or maybe you’re looking for
         digital product experts to help take your product to the next level? We’ll be more than happy to discuss
         how we can help your business succeed! Fill the form below, or drop us a line via{' '}
-        <a href='mailto:info@bright.dev?subject=bright%20mail'>info@bright.dev</a>
+        <a href={FRAMNA_URLS.contact}>get in touch</a>
       </SectionDescription>
       <Link to={routeLinks.startProject}>
         <Button className='has-background-primary hover-white'>request a consulatation</Button>

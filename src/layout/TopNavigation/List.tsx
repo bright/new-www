@@ -4,7 +4,7 @@ import classNames from "classnames"
 import { MenuElement } from "../TopNavigation"
 
 import * as styles from "./style.module.scss"
-import { Link } from "gatsby"
+import { Link } from "../../components/shared/SiteLink"
 
 type Props = {
   opened: boolean

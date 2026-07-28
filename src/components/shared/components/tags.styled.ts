@@ -1,4 +1,4 @@
-import { Link } from 'gatsby'
+import { Link } from '../SiteLink'
 import styled from 'styled-components'
 import variables from '../../../styles/variables'
 

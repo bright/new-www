@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import { Link } from 'gatsby'
+import { Link } from '../components/shared/SiteLink'
 import { routeLinks } from '../config/routing'
 import { TextRegular } from '../components/shared/index.styled'
 import styled from 'styled-components'

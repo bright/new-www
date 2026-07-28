@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
+import { useLocation } from '@reach/router'
 import variables from '../../styles/variables'
+import { resolveBannerTarget } from '../../framna-redirects'
 
 const STORAGE_KEY = 'framna_banner_dismissed_at'
 const BANNER_HEIGHT = '44px'
@@ -109,6 +111,8 @@ const CloseIcon = () => (
 
 export const FramnaAnnouncementBanner: React.FC = () => {
   const [visible, setVisible] = useState(false)
+  const { pathname, hash } = useLocation()
+  const target = resolveBannerTarget(pathname, hash)
 
   useEffect(() => {
     if (!isBannerDismissed()) {
@@ -131,7 +135,7 @@ export const FramnaAnnouncementBanner: React.FC = () => {
   return (
     <BannerWrapper>
       <BannerText>Bright Inventions is now Framna —</BannerText>
-      <BannerLink href='https://framna.com?ref=brightinventions' target='_blank'>
+      <BannerLink href={target} target='_blank'>
         visit framna.com
       </BannerLink>
       <CloseButton onClick={handleDismiss} aria-label='Dismiss announcement'>

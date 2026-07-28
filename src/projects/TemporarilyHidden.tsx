@@ -2,7 +2,7 @@ import React from 'react'
 
 import {Page} from '../layout/Page'
 import { routeLinks } from '../config/routing'
-import { Link } from 'gatsby'
+import { Link } from '../components/shared/SiteLink'
 import { StatusPanel } from '../components/shared'
 
 const TemporarilyHidden = () => (

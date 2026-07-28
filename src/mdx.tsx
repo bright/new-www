@@ -12,6 +12,16 @@ import { AppStore } from './app-store'
 import { AnchorLink } from './button-anchor'
 import { MDXComponents } from 'mdx/types'
 import { GdanskPhotoSlider } from './gdansk-photo-slider'
+import { resolveSpecificRedirect } from './framna-redirects'
+
+const MappedAnchor = ({ href, children, ...rest }: React.ComponentProps<'a'>) => {
+  const target = href ? resolveSpecificRedirect(href) : null
+  return (
+    <a href={target ?? href} {...rest}>
+      {children}
+    </a>
+  )
+}
 
 export const mdxComponents: MDXComponents = {
   YouTubeEmbed: BrightYouTubeEmbed,
@@ -25,6 +35,7 @@ export const mdxComponents: MDXComponents = {
   AppStore: AppStore,
   AnchorLink: AnchorLink,
   GdanskPhotoSlider: GdanskPhotoSlider,
+  a: MappedAnchor,
 }
 
 export const MDXComponentsWrapper = ({ children }: PropsWithChildren<any>) => (
