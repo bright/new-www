@@ -26,7 +26,6 @@ import {
 import { FaqStructuredData } from '../FaqStructuredData'
 import { BoxesModel, ProjectModel, TestimonialModel } from '../models/gql'
 import { FlexWrapper } from '../components/shared'
-import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
 import { MoreButton } from '../components/shared'
 import FaqsDropdown from '../components/shared/FaqsDropdown'
 import { toBlogPost } from '../use-blog-posts/blog-post-frontmatter-query-result'
@@ -36,7 +35,6 @@ import { ServiceVideo } from './ServiceVideo/ServiceVideo'
 
 const PopularBlogPosts = React.lazy(() => import('../components/shared/PopularBlogPosts'))
 const TechnologyTags = React.lazy(() => import('../components/shared/TechnologyTags'))
-const TeamMembers = React.lazy(() => import('../components/subcomponents/TeamMembers'))
 
 export default function Template({
   data,
@@ -66,8 +64,6 @@ export default function Template({
     title,
     highlighted_word,
     button,
-    title_team,
-    team_members,
     button2,
     show_technology_stack,
     show_case_study,
@@ -83,7 +79,6 @@ export default function Template({
     blog_section_title,
     testimonials,
     boxes,
-    show_team,
     video_file
   } = page
 
@@ -243,16 +238,6 @@ export default function Template({
           </Testimonials>
         </CustomSection>
       )}
-
-      {show_team && <CustomSection paddingProps='0 0 2rem' paddingMobileProps='0 1.125rem 1rem'>
-        <CustomSectionTitle mobileMargin='3rem 0 2.25rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
-          {title_team}
-        </CustomSectionTitle>
-        <div>{width < breakpointTablet && <TeamMemebersSwiper authorIdsArray={team_members} />}</div>
-        <div>
-          {width >= breakpointTablet && <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />}
-        </div>
-      </CustomSection>}
 
       {show_technology_stack && <TechnologyTags tags={bar_stack} />}
 

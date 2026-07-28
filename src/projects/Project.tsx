@@ -4,9 +4,6 @@ import { graphql } from 'gatsby'
 import { Page } from '../layout/Page'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
 import { CustomSection, CustomSectionTitle, FlexWrapper } from '../components/shared'
-import { useWindowSize } from '../components/utils/use-windowsize'
-import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
-import TeamMembers from '../components/subcomponents/TeamMembers'
 import { Container, ArticleContent, ProjectLink, ProjectTextRegular, SectionContact, Title, TopProjectArticle } from './Project.styled'
 import AchievementsProject from '../components/shared/AchievementsProject'
 import { Projects } from '../components/home/Projects'
@@ -25,8 +22,6 @@ const Template: React.FC<PropsWithChildren<{ data: { mdx: any } }>> = ({ data, c
     description,
     social_media_previev_alt: alt,
     social_media_previev: image,
-    team_members,
-    title_team,
     bar_achievements,
     hero_image,
     hero_image_alt,
@@ -35,11 +30,8 @@ const Template: React.FC<PropsWithChildren<{ data: { mdx: any } }>> = ({ data, c
     title_contact,
     description_contact,
     show_case_study,
-    show_team,
     work_in_progress,
   } = frontmatter
-  const { width } = useWindowSize()
-  const breakpointTablet = 992
   const heroImage = getImage(hero_image)
 
   if (work_in_progress) {
@@ -78,15 +70,6 @@ const Template: React.FC<PropsWithChildren<{ data: { mdx: any } }>> = ({ data, c
         </ArticleContent>
 
       </Container>
-      {show_team && <CustomSection paddingProps='11.25rem 0 2rem' paddingLaptop='124px 96px 0' paddingMobileProps='0 1.125rem 0rem'>
-        <CustomSectionTitle mobileMargin='3rem 0 2.25rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
-          {title_team}
-        </CustomSectionTitle>
-        <div>{width < breakpointTablet && <TeamMemebersSwiper authorIdsArray={team_members} />}</div>
-        <div>
-          {width >= breakpointTablet && <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />}
-        </div>
-      </CustomSection>}
       {show_case_study && <div>
         <CustomSectionTitle mobileMargin='64px 0 30px' >{title_case_study}</CustomSectionTitle>
         <Projects

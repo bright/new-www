@@ -6,7 +6,6 @@ import { useTopBlogPosts } from '../../use-blog-posts/use-blog-posts'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
 import { toBlogPost } from '../../use-blog-posts/blog-post-frontmatter-query-result'
-import TeamMemebersSwiper from '../subcomponents/TeamMembersSwiper'
 import { useWindowSize } from '../utils/use-windowsize'
 import { Swiper, SwiperSlide } from 'swiper/react'
 

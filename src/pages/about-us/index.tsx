@@ -5,7 +5,6 @@ import { Page } from '../../layout/Page'
 import { CustomSection, CustomPageTitle } from '../../components/shared'
 import { HelmetMetaData } from '../../meta/HelmetMetaData'
 import { StoryComponent } from '../../components/about-us/story-section/story'
-import TeamMembers from '../../components/subcomponents/TeamMembers'
 import { FormComponent } from '../../components/about-us/form-section/form'
 import Values from './_Values'
 
@@ -28,7 +27,6 @@ const AboutUsPage: React.FC = () => (
     </CustomSection>
 
     <StoryComponent />
-    <TeamMembers isWhyUs={true} />
     <Values />
     <FormComponent />
   </Page>
