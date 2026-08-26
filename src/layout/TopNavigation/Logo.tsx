@@ -3,7 +3,7 @@ import classNames from 'classnames'
 
 import * as styles from './style.module.scss'
 import { StaticImage } from 'gatsby-plugin-image'
-import { Link } from 'gatsby'
+import { FramnaLink as Link } from '../../framna/FramnaLink'
 
 export const Logo: React.FC = () => {
   return (

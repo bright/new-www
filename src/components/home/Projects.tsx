@@ -1,4 +1,5 @@
-import { graphql, Link, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
+import { FramnaLink as Link } from '../../framna/FramnaLink'
 import React, { useRef } from 'react'
 import { CustomSection, CustomSectionTitle } from '../shared'
 import { routeLinks } from '../../config/routing'

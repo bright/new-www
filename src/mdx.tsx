@@ -12,6 +12,7 @@ import { AppStore } from './app-store'
 import { AnchorLink } from './button-anchor'
 import { MDXComponents } from 'mdx/types'
 import { GdanskPhotoSlider } from './gdansk-photo-slider'
+import { FramnaMdxLink } from './framna/FramnaMdxLink'
 
 export const mdxComponents: MDXComponents = {
   YouTubeEmbed: BrightYouTubeEmbed,
@@ -25,6 +26,7 @@ export const mdxComponents: MDXComponents = {
   AppStore: AppStore,
   AnchorLink: AnchorLink,
   GdanskPhotoSlider: GdanskPhotoSlider,
+  a: FramnaMdxLink,
 }
 
 export const MDXComponentsWrapper = ({ children }: PropsWithChildren<any>) => (

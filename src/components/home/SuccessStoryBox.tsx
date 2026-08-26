@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import styled from 'styled-components'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-import { Link } from 'gatsby'
+import { FramnaLink as Link } from '../../framna/FramnaLink'
 import { routeLinks } from '../../config/routing'
 import variables from '../../styles/variables'
 import { ProjectModel } from '../../models/gql'

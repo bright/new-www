@@ -1,4 +1,4 @@
-import { Link } from 'gatsby'
+import { FramnaLink as Link } from '../../../framna/FramnaLink'
 import styled from 'styled-components'
 import variables from '../../../styles/variables'
 

@@ -10,7 +10,7 @@ import {
 import styled from 'styled-components'
 import { MoreButton } from './../shared/index'
 import variables from '../../styles/variables'
-import { Link } from 'gatsby'
+import { FramnaLink as Link } from '../../framna/FramnaLink'
 import { routeLinks } from '../../config/routing'
 import { Projects } from './Projects'
 import { LogoTreasuryIcon } from '../icons/LogoTreasury.icon'

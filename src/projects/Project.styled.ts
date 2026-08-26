@@ -1,4 +1,4 @@
-import { Link } from 'gatsby'
+import { FramnaLink as Link } from '../framna/FramnaLink'
 import image from '../../static/images/bullet_point.svg'
 import variables from '../styles/variables'
 import styled from 'styled-components'

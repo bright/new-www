@@ -29,7 +29,7 @@ import { trackConversion, trackCustomEvent } from '../../analytics/track-custom-
 import { TickIcon } from '../icons/Tick.icon'
 import { JobApplicationModal } from '../forms/job-application/job-application-modal'
 import { MoreButton } from './../shared/index'
-import { Link } from 'gatsby'
+import { FramnaLink as Link } from '../../framna/FramnaLink'
 import ReCAPTCHA from 'react-google-recaptcha'
 import { isReCaptchaValid } from '../recaptcha/recaptcha-verification'
 import ReCaptcha from '../recaptcha/ReCaptcha'

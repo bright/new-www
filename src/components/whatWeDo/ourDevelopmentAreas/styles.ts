@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { TextRegular, TextTitle } from '../../shared'
 import variables from '../../../styles/variables'
-import { Link } from 'gatsby'
+import { FramnaLink as Link } from '../../../framna/FramnaLink'
 import { TitleBase } from '../../shared/index.styled'
 import { clampBuilder } from '../../../helpers/clampBuilder'
 

@@ -15,7 +15,7 @@ import TeamworkIcon from '../../assets/teamwork.svg'
 import PositiveAttitudeIcon from '../../assets/positive_Attitude.svg'
 import ClientOrientationIcon from '../../assets/client-orientation.svg'
 import variables from '../../styles/variables'
-import { Link } from 'gatsby'
+import { FramnaLink as Link } from '../../framna/FramnaLink'
 
 const Container = styled.div`
   max-width: 960px;

@@ -4,7 +4,7 @@ import classNames from "classnames"
 import { MenuElement } from "../TopNavigation"
 
 import * as styles from "./style.module.scss"
-import { Link } from "gatsby"
+import { FramnaLink as Link } from "../../framna/FramnaLink"
 
 type Props = {
   opened: boolean

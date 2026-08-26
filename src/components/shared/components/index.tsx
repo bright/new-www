@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { FramnaLink as Link } from '../../../framna/FramnaLink'
 import * as Styled from './tags.styled'
 
 export const TagsWrapper = Styled.TagsWrapper

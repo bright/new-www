@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { FramnaLink as Link } from '../../framna/FramnaLink'
 import {
   MoreButton,
   CustomSection,

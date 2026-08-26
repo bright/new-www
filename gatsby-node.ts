@@ -15,6 +15,17 @@ import { resolveFramnaTarget } from './src/framna/redirect-map'
 export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql, reporter }) => {
   const { createPage, createRedirect } = actions
 
+  // onCreatePage does not fire for the blog listing and tag pages created below, so the Framna redirect hook never sees
+  // them. Redirect these directly at creation time when the path is covered by the redirection plan.
+  const redirectCoveredListing = (rawPath: string): boolean => {
+    const target = resolveFramnaTarget(rawPath)
+    if (!target) return false
+    const leading = rawPath.startsWith('/') ? rawPath : `/${rawPath}`
+    const fromPath = leading.endsWith('/') ? leading : `${leading}/`
+    createRedirect({ fromPath, toPath: target, isPermanent: true })
+    return true
+  }
+
   const postSlugs = await queryPostsSlug({ graphql })
 
   if (postSlugs.errors) {
@@ -27,8 +38,10 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   const numPages = Math.ceil(posts.length / postsPerPage)
 
   Array.from({ length: numPages }).forEach((_, i) => {
+    const listingPath = i === 0 ? `/blog` : `/blog/${i + 1}`
+    if (redirectCoveredListing(listingPath)) return
     createPage({
-      path: i === 0 ? `/blog` : `/blog/${i + 1}`,
+      path: listingPath,
       component: path.resolve('./src/blog/BlogPage.tsx'),
       context: {
         limit: postsPerPage,
@@ -50,8 +63,10 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       const numPages = Math.ceil(posts.length / postsPerPage)
 
       Array.from({ length: numPages }).forEach((item, i) => {
+        const tagListingPath = `${blogListForTagGroupsBasePath(group)}/${i + 1}`
+        if (redirectCoveredListing(tagListingPath)) return
         createPage({
-          path: `${blogListForTagGroupsBasePath(group)}/${i + 1}`,
+          path: tagListingPath,
           component: path.resolve('./src/blog/BlogTagsPage.tsx'),
           context: {
             groupTags: group.tags,
@@ -74,8 +89,10 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
             const postsPerPage = 10
             const numPages = Math.ceil(posts.length / postsPerPage)
             Array.from({ length: numPages }).forEach((item, i) => {
+              const subTagListingPath = `${blogListForTagGroupsBasePath(group, subTag)}/${i + 1}`
+              if (redirectCoveredListing(subTagListingPath)) return
               createPage({
-                path: `${blogListForTagGroupsBasePath(group, subTag)}/${i + 1}`,
+                path: subTagListingPath,
                 component: path.resolve('./src/blog/BlogTagsPage.tsx'),
                 context: {
                   groupTags: subTag.tags,

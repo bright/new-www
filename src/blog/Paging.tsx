@@ -4,7 +4,7 @@ import { useWindowSize } from '../components/utils/use-windowsize'
 import styled from 'styled-components'
 import { DOTS, usePagination } from './use-pagination/use-pagination'
 import variables from '../styles/variables'
-import { Link } from 'gatsby'
+import { FramnaLink as Link } from '../framna/FramnaLink'
 
 const PagingWrapper = styled.div`
   display: flex;

@@ -149,3 +149,17 @@ export function resolveFramnaExternal(href: string): string | null {
   if (!target) return null
   return withRef(target)
 }
+
+/**
+ * Resolves the Framna target for a link destination as authored in a component or in content, or null when it is not
+ * covered. Internal destinations (starting with "/") are matched by path, preserving any hash so hash-specific rules
+ * apply; other destinations are matched against the external URL map.
+ */
+export function resolveFramnaLink(to: string): string | null {
+  if (to.startsWith('/')) {
+    const [pathAndQuery, hash] = to.split('#')
+    const path = pathAndQuery.split('?')[0]
+    return resolveFramnaTarget(path, hash ?? '')
+  }
+  return resolveFramnaExternal(to)
+}

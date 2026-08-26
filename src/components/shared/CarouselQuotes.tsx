@@ -4,7 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import styled from 'styled-components'
 import BackArrowImage from '../../assets/backArrowBlack.svg'
 import NextArrowImage from '../../assets/nextArrowBlack.svg'
-import { Link } from 'gatsby'
+import { FramnaLink as Link } from '../../framna/FramnaLink'
 import variables from '../../styles/variables'
 
 import Indicator from './carousel/Indicator'

@@ -1,4 +1,4 @@
-import { Link } from 'gatsby'
+import { FramnaLink as Link } from '../../framna/FramnaLink'
 import React, { FC } from 'react'
 import styled from 'styled-components'
 import { Button, Section, SectionTitle } from '../shared'

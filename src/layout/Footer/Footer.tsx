@@ -18,7 +18,7 @@ import { FooterLogo } from './FooterLogo'
 import { RedirectIcon } from './RedirectIcon'
 import { Socials } from './Socials'
 import ForbesDiamondBadge from '../../assets/forbes_badge.svg'
-import { Link } from 'gatsby'
+import { FramnaLink as Link } from '../../framna/FramnaLink'
 import { routeLinks } from '../../config/routing'
 import { ModalCookies } from '../../analytics/modal-cookies'
 

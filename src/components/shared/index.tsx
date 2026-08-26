@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from 'react'
-import { Link } from 'gatsby'
+import { FramnaLink as Link } from '../../framna/FramnaLink'
 import * as Styled from './index.styled'
 import { RoundedButton } from './index.styled'
 

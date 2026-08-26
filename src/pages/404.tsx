@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {Page} from '../layout/Page'
-import { Link } from 'gatsby'
+import { FramnaLink as Link } from '../framna/FramnaLink'
 import { StatusPanel } from '../components/shared'
 // import SEO from "../components/seo"
 

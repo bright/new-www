@@ -1,6 +1,6 @@
 import React, { CSSProperties, useState } from 'react'
 import styled from 'styled-components'
-import { Link } from 'gatsby'
+import { FramnaLink as Link } from '../../../framna/FramnaLink'
 
 import { FormProps, JobApplicationForm } from '../../forms/job-application/job-application-form'
 import { routeLinks } from '../../../config/routing'

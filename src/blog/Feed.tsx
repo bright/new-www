@@ -7,7 +7,7 @@ import { BlogPostModel } from '../models/gql'
 import * as styles from './Feed.module.scss'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import styled from 'styled-components'
-import { Link } from 'gatsby'
+import { FramnaLink as Link } from '../framna/FramnaLink'
 
 const BlogPostDummyUrl = '/images/dummy/blog_post.png'
 
