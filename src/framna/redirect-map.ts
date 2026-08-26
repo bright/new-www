@@ -106,6 +106,17 @@ function withRef(target: string): string {
   return url.toString()
 }
 
+/**
+ * Every specifically-listed source path paired with its Framna target (ref appended). Used to emit redirects at build
+ * time for listed paths whose page may not exist (e.g. the removed team roster), which onCreatePage would never see.
+ * Excludes the home path (see onCreatePage) and hash-qualified rules, which cannot be expressed as HTTP redirects.
+ */
+export function framnaSpecificRedirects(): { fromPath: string; toPath: string }[] {
+  return Object.entries(MERGED_SPECIFIC_RULES)
+    .filter(([path]) => path !== '/' && !path.includes('#'))
+    .map(([path, target]) => ({ fromPath: path, toPath: withRef(target) }))
+}
+
 function normalizePath(pathname: string): string {
   let path = pathname.trim().toLowerCase()
   if (!path.startsWith('/')) path = `/${path}`

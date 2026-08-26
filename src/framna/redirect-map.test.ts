@@ -1,6 +1,12 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { resolveFramnaTarget, resolveFramnaExternal, resolveFramnaLink, PENDING_FRAMNA_PATHS } from './redirect-map'
+import {
+  resolveFramnaTarget,
+  resolveFramnaExternal,
+  resolveFramnaLink,
+  framnaSpecificRedirects,
+  PENDING_FRAMNA_PATHS,
+} from './redirect-map'
 
 test('specific rules map to their Framna target with ref appended', () => {
   assert.equal(resolveFramnaTarget('/'), 'https://framna.com/?ref=brightinventions')
@@ -84,6 +90,18 @@ test('path normalization is tolerant of case and missing trailing slash', () => 
 test('ref append is idempotent (never duplicated)', () => {
   const target = resolveFramnaTarget('/projects/everytap/')!
   assert.equal(target.match(/ref=brightinventions/g)?.length, 1)
+})
+
+test('framnaSpecificRedirects lists every specific path (incl. pageless ones) but not / or hash rules', () => {
+  const redirects = framnaSpecificRedirects()
+  const byFrom = new Map(redirects.map(r => [r.fromPath, r.toPath]))
+
+  // the removed team roster still needs a redirect even though no page backs it
+  assert.equal(byFrom.get('/about-us/team/'), 'https://framna.com/studios/gdansk?ref=brightinventions')
+  assert.equal(byFrom.get('/projects/everytap/'), 'https://framna.com/cases/finebite?ref=brightinventions')
+  // the home path is excluded (handled at the CDN layer) and hash rules cannot be HTTP redirects
+  assert.equal(byFrom.has('/'), false)
+  assert.equal([...byFrom.keys()].some(p => p.includes('#')), false)
 })
 
 test('resolveFramnaExternal maps social + mailto links', () => {

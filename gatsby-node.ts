@@ -10,7 +10,7 @@ import { routeLinks } from './src/config/routing'
 import * as path from 'path'
 import { queryPostsSlug } from './src/query-posts'
 import { addRedirectsFromAliases } from './src/tag-groups-aliases'
-import { resolveFramnaTarget } from './src/framna/redirect-map'
+import { resolveFramnaTarget, framnaSpecificRedirects } from './src/framna/redirect-map'
 
 export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql, reporter }) => {
   const { createPage, createRedirect } = actions
@@ -526,6 +526,10 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
 
   const jobTemplate = `${__dirname}/src/career/Job.tsx`
   await preparePage('job', 'jobs', jobTemplate)
+
+  // Every specifically-listed Framna path redirects, even when no page backs it (e.g. the removed team roster), which
+  // onCreatePage cannot cover.
+  framnaSpecificRedirects().forEach(({ fromPath, toPath }) => createRedirect({ fromPath, toPath, isPermanent: true }))
 
   createRedirect({ fromPath: '/about-us/values', toPath: '/about-us/' })
   createRedirect({ fromPath: '/about-us/story', toPath: '/about-us/' })
