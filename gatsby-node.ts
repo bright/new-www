@@ -10,6 +10,7 @@ import { routeLinks } from './src/config/routing'
 import * as path from 'path'
 import { queryPostsSlug } from './src/query-posts'
 import { addRedirectsFromAliases } from './src/tag-groups-aliases'
+import { resolveFramnaTarget } from './src/framna/redirect-map'
 
 export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql, reporter }) => {
   const { createPage, createRedirect } = actions
@@ -517,6 +518,20 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   createRedirect({ fromPath: '/projects/vCare/', toPath: 'projects/emar-healthcare-solution/', statusCode: 301 })
   createRedirect({ fromPath: '/our-areas/gdansk-software-company/', toPath: '/our-areas/gdansk-digital-products-agency/', statusCode: 301 })
   createRedirect({ fromPath: '/our-areas/gdansk-digital-products-agency/', toPath: '/our-areas/gdansk-digital-product-agency/', statusCode: 301 })
+}
+
+// Replaces pages covered by the Framna redirection plan with permanent (301) redirects to their framna.com target, so
+// gatsby-plugin-s3 emits S3 redirect objects for them. Runs for filesystem and programmatically created pages alike.
+// The home path "/" is intentionally excluded: gatsby-plugin-s3 derives its S3 object key from `withoutLeadingSlash`,
+// which yields an empty key for "/", so a root redirect must be configured at the CDN layer instead.
+export const onCreatePage: GatsbyNode['onCreatePage'] = ({ page, actions: { deletePage, createRedirect } }) => {
+  if (page.path === '/') return
+
+  const target = resolveFramnaTarget(page.path)
+  if (!target) return
+
+  deletePage(page)
+  createRedirect({ fromPath: page.path, toPath: target, isPermanent: true })
 }
 
 export const onCreateNode: GatsbyNode['onCreateNode'] = async ({ node, actions: { createNodeField } }) => {

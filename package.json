@@ -116,7 +116,7 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "serve": "gatsby serve -H 0.0.0.0",
     "start": "npm run develop",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "test": "TS_NODE_TRANSPILE_ONLY=1 node --require ts-node/register --test $(find src -name '*.test.ts')",
     "script:blogPosts": "node ./scripts/fixBlogPosts.js",
     "fix-cannonical": "ts-node ./fix-cannonical.ts",
     "postinstall": "patch-package",
