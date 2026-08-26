@@ -19,6 +19,7 @@ import { RedirectIcon } from './RedirectIcon'
 import { Socials } from './Socials'
 import ForbesDiamondBadge from '../../assets/forbes_badge.svg'
 import { FramnaLink as Link } from '../../framna/FramnaLink'
+import { resolveFramnaExternal } from '../../framna/redirect-map'
 import { routeLinks } from '../../config/routing'
 import { ModalCookies } from '../../analytics/modal-cookies'
 
@@ -112,7 +113,9 @@ export const Footer = () => {
           <InnerContent>
             <Header>reach us here </Header>
             <div>
-              <ExaggeratedLink href='mailto:info@bright.dev'>info@bright.dev</ExaggeratedLink>
+              <ExaggeratedLink href={resolveFramnaExternal('mailto:info@bright.dev') ?? 'mailto:info@bright.dev'}>
+                info@bright.dev
+              </ExaggeratedLink>
             </div>
 
             <Socials />
