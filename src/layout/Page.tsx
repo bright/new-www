@@ -11,7 +11,6 @@ import { useLocation } from '@reach/router'
 import { MDXComponentsWrapper } from '../mdx'
 import CookiesNotice from '../analytics/cookies-notice'
 import { useTranslation } from 'react-i18next'
-import { FramnaAnnouncementPopup } from '../components/shared/FramnaAnnouncementPopup'
 import { FramnaAnnouncementBanner } from '../components/shared/FramnaAnnouncementBanner'
 
 export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ children, className }) => {
@@ -37,7 +36,6 @@ export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ chil
       <TopNavigation path={pathname} toggled={setMobileMenuOpened} />
       <MDXComponentsWrapper>{children}</MDXComponentsWrapper>
       <CookiesNotice />
-      <FramnaAnnouncementPopup />
       <Footer />
     </div>
   )
