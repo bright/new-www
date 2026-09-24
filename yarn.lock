@@ -1716,9 +1716,9 @@
   integrity sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==
 
 "@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.12.0", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.15.4", "@babel/runtime@^7.17.9", "@babel/runtime@^7.18.3", "@babel/runtime@^7.2.0", "@babel/runtime@^7.20.13", "@babel/runtime@^7.21.0", "@babel/runtime@^7.22.5", "@babel/runtime@^7.23.2", "@babel/runtime@^7.3.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
-  version "7.24.6"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.6.tgz#5b76eb89ad45e2e4a0a8db54c456251469a3358e"
-  integrity sha512-Ja18XcETdEl5mzzACGd+DKgaGJzPTCow7EglgwTmHdwokzDFYh/MHua6lU6DV/hjF2IaOJ4oX2nqnjG7RElKOw==
+  version "7.27.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.27.0.tgz#fbee7cf97c709518ecc1f590984481d5460d4762"
+  integrity sha512-VtPOkrdPHZsKc/clNqyi9WUA8TINkZ4cGk63UUE3u4pmB2k+ZMQRDuIOagv8UVd6j7k0T3+RRIb7beKTebNbcw==
   dependencies:
     regenerator-runtime "^0.14.0"
 
@@ -8830,6 +8830,13 @@ gatsby-plugin-react-svg@^3.3.0:
   integrity sha512-kFPElMFu1QCkiFCm1pSrVkOHAeafU6wkD0qCVPs7nL/Txh5KFh0aOO6Feiwvfre1Jo+Eg3lwCuGmgsy9L+4pDg==
   dependencies:
     svg-react-loader "^0.4.6"
+
+gatsby-plugin-recaptcha@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-recaptcha/-/gatsby-plugin-recaptcha-1.0.5.tgz#d3ab783957d6549cfa157b230714136c58ab5319"
+  integrity sha512-qPAuixqmVVHDhag8lUUpOxQY/R9MVDH9PmLlGWvUQNDeNQOXtJe1r5TAzl0QAGg4x8lR2UZre03nnKizHuDbrA==
+  dependencies:
+    babel-runtime "^6.26.0"
 
 gatsby-plugin-robots-txt@^1.8.0:
   version "1.8.0"
